@@ -1,0 +1,85 @@
+object input stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName default read object
+extended node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+children SimpleName InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName read object
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName s
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName read object
+prev SimpleName Assignment CastExpression SimpleType SimpleName extended node
+prev SimpleName Assignment CastExpression MethodInvocation SimpleName s
+prev SimpleName Assignment CastExpression MethodInvocation SimpleName read object
+prev SimpleName MethodInvocation SimpleName set parent node
+prev SimpleName MethodInvocation ThisExpression SimpleName abstract parent node
+set parent node SimpleName MethodInvocation ThisExpression SimpleName abstract parent node
+abstract parent node SimpleName ThisExpression MethodInvocation SimpleName get owner document
+doc SimpleName Assignment MethodInvocation ThisExpression SimpleName abstract parent node
+doc SimpleName Assignment MethodInvocation SimpleName get owner document
+prev SimpleName MethodInvocation SimpleName set owner document
+prev SimpleName MethodInvocation SimpleName doc
+set owner document SimpleName MethodInvocation SimpleName doc
+first child SimpleName Assignment SimpleName prev
+children SimpleName InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression SimpleName children
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression SimpleName children
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName read object
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName s
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName read object
+en SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName extended node
+en SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName s
+en SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName read object
+extended node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName en
+en SimpleName MethodInvocation SimpleName set parent node
+en SimpleName MethodInvocation ThisExpression SimpleName abstract parent node
+set parent node SimpleName MethodInvocation ThisExpression SimpleName abstract parent node
+en SimpleName MethodInvocation SimpleName set previous sibling
+en SimpleName MethodInvocation SimpleName prev
+set previous sibling SimpleName MethodInvocation SimpleName prev
+en SimpleName MethodInvocation SimpleName set owner document
+en SimpleName MethodInvocation SimpleName doc
+set owner document SimpleName MethodInvocation SimpleName doc
+prev SimpleName MethodInvocation SimpleName set next sibling
+prev SimpleName MethodInvocation SimpleName en
+set next sibling SimpleName MethodInvocation SimpleName en
+prev SimpleName Assignment SimpleName en
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+last child SimpleName Assignment SimpleName prev
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName read object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object input stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration SimpleType SimpleName class not found exception
+void PrimitiveType MethodDeclaration SimpleName read object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object input stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName class not found exception
+read object SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object input stream
+read object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+read object SimpleName MethodDeclaration SimpleType SimpleName io exception
+read object SimpleName MethodDeclaration SimpleType SimpleName class not found exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName class not found exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName class not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName read object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName class not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName class not found exception

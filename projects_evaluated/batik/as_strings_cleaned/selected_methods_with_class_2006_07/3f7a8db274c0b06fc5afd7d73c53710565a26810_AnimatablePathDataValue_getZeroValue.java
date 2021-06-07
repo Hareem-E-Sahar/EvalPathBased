@@ -1,0 +1,44 @@
+short PrimitiveType ArrayType ArrayCreation QualifiedName commandslength
+cmds SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType short
+cmds SimpleName VariableDeclarationFragment ArrayCreation QualifiedName commandslength
+short PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmds
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName commands
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName cmds
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName commands
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName cmds
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName commandslength
+commands SimpleName MethodInvocation NumberLiteral empty
+commands SimpleName MethodInvocation SimpleName cmds
+commands SimpleName MethodInvocation NumberLiteral empty
+commands SimpleName MethodInvocation QualifiedName commandslength
+empty NumberLiteral MethodInvocation SimpleName cmds
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName commandslength
+cmds SimpleName MethodInvocation NumberLiteral empty
+cmds SimpleName MethodInvocation QualifiedName commandslength
+empty NumberLiteral MethodInvocation QualifiedName commandslength
+float PrimitiveType ArrayType ArrayCreation QualifiedName parameterslength
+params SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+params SimpleName VariableDeclarationFragment ArrayCreation QualifiedName parameterslength
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName params
+animatable path data value SimpleName SimpleType ClassInstanceCreation SimpleName target
+animatable path data value SimpleName SimpleType ClassInstanceCreation SimpleName cmds
+animatable path data value SimpleName SimpleType ClassInstanceCreation SimpleName params
+target SimpleName ClassInstanceCreation SimpleName cmds
+target SimpleName ClassInstanceCreation SimpleName params
+cmds SimpleName ClassInstanceCreation SimpleName params
+public Modifier MethodDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SimpleName get zero value
+animatable value SimpleName SimpleType MethodDeclaration SimpleName get zero value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get zero value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get zero value

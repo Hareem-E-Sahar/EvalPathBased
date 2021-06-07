@@ -1,0 +1,54 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get attribute ns
+e SimpleName MethodInvocation StringLiteral httpxmlapacheorgbatikext
+e SimpleName MethodInvocation StringLiteral selector language
+get attribute ns SimpleName MethodInvocation StringLiteral httpxmlapacheorgbatikext
+get attribute ns SimpleName MethodInvocation StringLiteral selector language
+httpxmlapacheorgbatikext StringLiteral MethodInvocation StringLiteral selector language
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+lang SimpleName VariableDeclarationFragment MethodInvocation StringLiteral httpxmlapacheorgbatikext
+lang SimpleName VariableDeclarationFragment MethodInvocation StringLiteral selector language
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lang
+lang SimpleName MethodInvocation SimpleName length
+lang SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+e SimpleName MethodInvocation SimpleName get owner document
+e SimpleName MethodInvocation MethodInvocation SimpleName get document element
+get owner document SimpleName MethodInvocation MethodInvocation SimpleName get document element
+e SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute ns
+get owner document SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get attribute ns
+get document element SimpleName MethodInvocation MethodInvocation SimpleName get attribute ns
+e SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral httpxmlapacheorgbatikext
+get owner document SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral httpxmlapacheorgbatikext
+get document element SimpleName MethodInvocation MethodInvocation StringLiteral httpxmlapacheorgbatikext
+e SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral selector language
+get owner document SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral selector language
+get document element SimpleName MethodInvocation MethodInvocation StringLiteral selector language
+get attribute ns SimpleName MethodInvocation StringLiteral httpxmlapacheorgbatikext
+get attribute ns SimpleName MethodInvocation StringLiteral selector language
+httpxmlapacheorgbatikext StringLiteral MethodInvocation StringLiteral selector language
+lang SimpleName Assignment MethodInvocation MethodInvocation SimpleName get document element
+lang SimpleName Assignment MethodInvocation SimpleName get attribute ns
+lang SimpleName Assignment MethodInvocation StringLiteral httpxmlapacheorgbatikext
+lang SimpleName Assignment MethodInvocation StringLiteral selector language
+lang SimpleName MethodInvocation SimpleName length
+lang SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get content selector language
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType MethodDeclaration SimpleName get content selector language
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+get content selector language SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get content selector language SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get content selector language
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get content selector language
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

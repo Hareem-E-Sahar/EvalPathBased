@@ -1,0 +1,68 @@
+char PrimitiveType SingleVariableDeclaration SimpleName c
+prev char is lf SimpleName Assignment BooleanLiteral false
+column SimpleName Assignment NumberLiteral empty
+line SimpleName Assignment ParenthesizedExpression Assignment SimpleName column
+line SimpleName Assignment ParenthesizedExpression Assignment NumberLiteral empty
+prev char is cr SimpleName Assignment BooleanLiteral false
+c SimpleName InfixExpression CharacterLiteral empty
+prev char is lf SimpleName Assignment BooleanLiteral true
+column SimpleName Assignment NumberLiteral empty
+line SimpleName Assignment ParenthesizedExpression Assignment SimpleName column
+line SimpleName Assignment ParenthesizedExpression Assignment NumberLiteral empty
+prev char is lf SimpleName IfStatement IfStatement SimpleName prev char is cr
+prev char is cr SimpleName Assignment BooleanLiteral true
+prev char is lf SimpleName Assignment BooleanLiteral true
+column SimpleName InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName column
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+column SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+c SimpleName SwitchStatement SwitchCase CharacterLiteral r
+c SimpleName SwitchStatement ExpressionStatement Assignment SimpleName prev char is cr
+c SimpleName SwitchStatement ExpressionStatement Assignment BooleanLiteral true
+c SimpleName SwitchStatement SwitchCase CharacterLiteral empty
+c SimpleName SwitchStatement ExpressionStatement Assignment SimpleName prev char is lf
+c SimpleName SwitchStatement ExpressionStatement Assignment BooleanLiteral true
+r CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral t
+bufline SimpleName ArrayAccess SimpleName bufpos
+bufline SimpleName ArrayAccess Assignment SimpleName line
+bufpos SimpleName ArrayAccess Assignment SimpleName line
+bufcolumn SimpleName ArrayAccess SimpleName bufpos
+bufcolumn SimpleName ArrayAccess Assignment SimpleName column
+bufpos SimpleName ArrayAccess Assignment SimpleName column
+prev char is lf SimpleName IfStatement Block SwitchStatement SimpleName c
+private Modifier MethodDeclaration Modifier final
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update line column
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+private Modifier MethodDeclaration Block IfStatement SimpleName prev char is lf
+private Modifier MethodDeclaration Block SwitchStatement SimpleName c
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName update line column
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+final Modifier MethodDeclaration Block IfStatement SimpleName prev char is lf
+final Modifier MethodDeclaration Block SwitchStatement SimpleName c
+void PrimitiveType MethodDeclaration SimpleName update line column
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType char
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName prev char is lf
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName c
+update line column SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType char
+update line column SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+update line column SimpleName MethodDeclaration Block IfStatement SimpleName prev char is lf
+update line column SimpleName MethodDeclaration Block SwitchStatement SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update line column
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update line column
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

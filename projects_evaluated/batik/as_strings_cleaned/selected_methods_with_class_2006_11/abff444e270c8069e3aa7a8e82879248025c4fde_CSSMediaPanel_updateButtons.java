@@ -1,0 +1,22 @@
+media list SimpleName MethodInvocation SimpleName is selection empty
+remove button SimpleName MethodInvocation SimpleName set enabled
+remove button SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName media list
+remove button SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is selection empty
+set enabled SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName media list
+set enabled SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is selection empty
+list model SimpleName MethodInvocation SimpleName is empty
+clear button SimpleName MethodInvocation SimpleName set enabled
+clear button SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName list model
+clear button SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is empty
+set enabled SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName list model
+set enabled SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName is empty
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update buttons
+void PrimitiveType MethodDeclaration SimpleName update buttons
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update buttons
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update buttons

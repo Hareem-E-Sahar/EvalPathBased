@@ -1,0 +1,96 @@
+kern SimpleName SimpleType ArrayType ArrayCreation QualifiedName hkern elementslength
+h entries SimpleName VariableDeclarationFragment ArrayCreation QualifiedName hkern elementslength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName hkern elementslength
+hkern elements SimpleName ArrayAccess SimpleName i
+hkern element SimpleName VariableDeclarationFragment ArrayAccess SimpleName hkern elements
+hkern element SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hkern element
+ctx SimpleName MethodInvocation SimpleName get bridge
+ctx SimpleName MethodInvocation SimpleName hkern element
+get bridge SimpleName MethodInvocation SimpleName hkern element
+svgh kern element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName ctx
+svgh kern element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName get bridge
+svgh kern element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName hkern element
+hkern bridge SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgh kern element bridge
+hkern bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ctx
+hkern bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get bridge
+hkern bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName hkern element
+svgh kern element bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hkern bridge
+hkern bridge SimpleName MethodInvocation SimpleName create kern
+hkern bridge SimpleName MethodInvocation SimpleName ctx
+hkern bridge SimpleName MethodInvocation SimpleName hkern element
+create kern SimpleName MethodInvocation SimpleName ctx
+create kern SimpleName MethodInvocation SimpleName hkern element
+ctx SimpleName MethodInvocation SimpleName hkern element
+hkern SimpleName VariableDeclarationFragment MethodInvocation SimpleName hkern bridge
+hkern SimpleName VariableDeclarationFragment MethodInvocation SimpleName create kern
+hkern SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+hkern SimpleName VariableDeclarationFragment MethodInvocation SimpleName hkern element
+kern SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hkern
+h entries SimpleName ArrayAccess SimpleName i
+h entries SimpleName ArrayAccess Assignment SimpleName hkern
+i SimpleName ArrayAccess Assignment SimpleName hkern
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName hkern elementslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+hkern elementslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+kerning table SimpleName SimpleType ClassInstanceCreation SimpleName h entries
+h kerning table SimpleName Assignment ClassInstanceCreation SimpleType SimpleName kerning table
+h kerning table SimpleName Assignment ClassInstanceCreation SimpleName h entries
+kern SimpleName SimpleType ArrayType ArrayCreation QualifiedName vkern elementslength
+v entries SimpleName VariableDeclarationFragment ArrayCreation QualifiedName vkern elementslength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName vkern elementslength
+vkern elements SimpleName ArrayAccess SimpleName i
+vkern element SimpleName VariableDeclarationFragment ArrayAccess SimpleName vkern elements
+vkern element SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vkern element
+ctx SimpleName MethodInvocation SimpleName get bridge
+ctx SimpleName MethodInvocation SimpleName vkern element
+get bridge SimpleName MethodInvocation SimpleName vkern element
+svgv kern element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName ctx
+svgv kern element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName get bridge
+svgv kern element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName vkern element
+vkern bridge SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgv kern element bridge
+vkern bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ctx
+vkern bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get bridge
+vkern bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName vkern element
+svgv kern element bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vkern bridge
+vkern bridge SimpleName MethodInvocation SimpleName create kern
+vkern bridge SimpleName MethodInvocation SimpleName ctx
+vkern bridge SimpleName MethodInvocation SimpleName vkern element
+create kern SimpleName MethodInvocation SimpleName ctx
+create kern SimpleName MethodInvocation SimpleName vkern element
+ctx SimpleName MethodInvocation SimpleName vkern element
+vkern SimpleName VariableDeclarationFragment MethodInvocation SimpleName vkern bridge
+vkern SimpleName VariableDeclarationFragment MethodInvocation SimpleName create kern
+vkern SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+vkern SimpleName VariableDeclarationFragment MethodInvocation SimpleName vkern element
+kern SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vkern
+v entries SimpleName ArrayAccess SimpleName i
+v entries SimpleName ArrayAccess Assignment SimpleName vkern
+i SimpleName ArrayAccess Assignment SimpleName vkern
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName vkern elementslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+vkern elementslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+kerning table SimpleName SimpleType ClassInstanceCreation SimpleName v entries
+v kerning table SimpleName Assignment ClassInstanceCreation SimpleType SimpleName kerning table
+v kerning table SimpleName Assignment ClassInstanceCreation SimpleName v entries
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName create kerning tables
+void PrimitiveType MethodDeclaration SimpleName create kerning tables
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName create kerning tables
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create kerning tables

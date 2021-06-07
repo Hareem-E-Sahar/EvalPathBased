@@ -1,0 +1,29 @@
+shape SimpleName SimpleType SingleVariableDeclaration SimpleName new clipping area
+old clip SimpleName VariableDeclarationFragment SimpleName clip
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old clip
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clip
+clip SimpleName FieldAccess Assignment SimpleName new clipping area
+fire property change SimpleName MethodInvocation StringLiteral clipping area
+fire property change SimpleName MethodInvocation SimpleName old clip
+fire property change SimpleName MethodInvocation SimpleName new clipping area
+clipping area StringLiteral MethodInvocation SimpleName old clip
+clipping area StringLiteral MethodInvocation SimpleName new clipping area
+old clip SimpleName MethodInvocation SimpleName new clipping area
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set clipping area
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new clipping area
+void PrimitiveType MethodDeclaration SimpleName set clipping area
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new clipping area
+set clipping area SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+set clipping area SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new clipping area
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set clipping area
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new clipping area
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set clipping area
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new clipping area

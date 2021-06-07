@@ -1,0 +1,55 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName filter element
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+filter element SimpleName MethodInvocation SimpleName get attribute ns
+filter element SimpleName MethodInvocation SimpleName attr name
+get attribute ns SimpleName MethodInvocation SimpleName attr name
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation MethodInvocation SimpleName filter element
+float SimpleName MethodInvocation MethodInvocation SimpleName get attribute ns
+float SimpleName MethodInvocation MethodInvocation SimpleName attr name
+parse float SimpleName MethodInvocation MethodInvocation SimpleName filter element
+parse float SimpleName MethodInvocation MethodInvocation SimpleName get attribute ns
+parse float SimpleName MethodInvocation MethodInvocation SimpleName attr name
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType float
+private Modifier MethodDeclaration SimpleName get float value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter element
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+static Modifier MethodDeclaration PrimitiveType float
+static Modifier MethodDeclaration SimpleName get float value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+static Modifier MethodDeclaration SimpleType SimpleName number format exception
+float PrimitiveType MethodDeclaration SimpleName get float value
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter element
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr name
+float PrimitiveType MethodDeclaration SimpleType SimpleName number format exception
+get float value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get float value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter element
+get float value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get float value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+get float value SimpleName MethodDeclaration SimpleType SimpleName number format exception
+filter element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+filter element SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName number format exception
+attr name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName number format exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get float value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName number format exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get float value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName number format exception

@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+currenttable QualifiedName MethodInvocation SimpleName put
+currenttable QualifiedName MethodInvocation SimpleName s
+currenttable QualifiedName MethodInvocation SimpleName o
+put SimpleName MethodInvocation SimpleName s
+put SimpleName MethodInvocation SimpleName o
+s SimpleName MethodInvocation SimpleName o
+string SimpleName SimpleType CastExpression MethodInvocation QualifiedName currenttable
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName put
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName s
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName o
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName put
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+string SimpleName SimpleType MethodDeclaration SimpleName put
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName o
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+put SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName put
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

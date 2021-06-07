@@ -1,0 +1,86 @@
+cssom style sheet SimpleName SimpleType SingleVariableDeclaration SimpleName ss
+string SimpleName SimpleType SingleVariableDeclaration SimpleName rule
+css document handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ssh
+ss SimpleName MethodInvocation SimpleName get parser
+parser SimpleName VariableDeclarationFragment MethodInvocation SimpleName ss
+parser SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parser
+parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parser
+parser SimpleName MethodInvocation SimpleName set selector factory
+parser SimpleName MethodInvocation QualifiedName abstract css ruleselector factory
+set selector factory SimpleName MethodInvocation QualifiedName abstract css ruleselector factory
+parser SimpleName MethodInvocation SimpleName set condition factory
+parser SimpleName MethodInvocation QualifiedName abstract css rulecondition factory
+set condition factory SimpleName MethodInvocation QualifiedName abstract css rulecondition factory
+css document handler SimpleName SimpleType ClassInstanceCreation SimpleName ss
+css document handler SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+ss SimpleName ClassInstanceCreation BooleanLiteral false
+ssh SimpleName Assignment ClassInstanceCreation SimpleType SimpleName css document handler
+ssh SimpleName Assignment ClassInstanceCreation SimpleName ss
+ssh SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+parser SimpleName MethodInvocation SimpleName set document handler
+parser SimpleName MethodInvocation Assignment SimpleName ssh
+parser SimpleName MethodInvocation Assignment ClassInstanceCreation SimpleName ss
+parser SimpleName MethodInvocation Assignment ClassInstanceCreation BooleanLiteral false
+set document handler SimpleName MethodInvocation Assignment SimpleName ssh
+set document handler SimpleName MethodInvocation Assignment ClassInstanceCreation SimpleName ss
+set document handler SimpleName MethodInvocation Assignment ClassInstanceCreation BooleanLiteral false
+string reader SimpleName SimpleType ClassInstanceCreation SimpleName rule
+input source SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName rule
+parser SimpleName MethodInvocation SimpleName parse rule
+parser SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName input source
+parser SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName rule
+parse rule SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName input source
+parse rule SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName rule
+dom exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+cssdom exception factory SimpleName MethodInvocation SimpleName create dom exception
+cssdom exception factory SimpleName MethodInvocation QualifiedName dom exceptionsyntax err
+cssdom exception factory SimpleName MethodInvocation StringLiteral rulesyntaxerror
+cssdom exception factory SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName rule
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionsyntax err
+create dom exception SimpleName MethodInvocation StringLiteral rulesyntaxerror
+create dom exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName rule
+dom exceptionsyntax err QualifiedName MethodInvocation StringLiteral rulesyntaxerror
+dom exceptionsyntax err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName rule
+rulesyntaxerror StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName rule
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName css rule
+public Modifier MethodDeclaration SimpleName parse rule
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom style sheet
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ss
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rule
+static Modifier MethodDeclaration SimpleType SimpleName css rule
+static Modifier MethodDeclaration SimpleName parse rule
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom style sheet
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ss
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName rule
+static Modifier MethodDeclaration SimpleType SimpleName dom exception
+css rule SimpleName SimpleType MethodDeclaration SimpleName parse rule
+css rule SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ss
+css rule SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rule
+css rule SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+parse rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom style sheet
+parse rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ss
+parse rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rule
+parse rule SimpleName MethodDeclaration SimpleType SimpleName dom exception
+ss SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rule
+ss SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+rule SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css rule
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse rule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ss
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rule
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css rule
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse rule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ss
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rule
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

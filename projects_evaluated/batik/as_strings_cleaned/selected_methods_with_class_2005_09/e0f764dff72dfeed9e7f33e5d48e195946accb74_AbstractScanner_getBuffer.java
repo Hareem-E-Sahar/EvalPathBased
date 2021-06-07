@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SimpleName get buffer
+public Modifier MethodDeclaration Block ReturnStatement SimpleName buffer
+char PrimitiveType ArrayType MethodDeclaration SimpleName get buffer
+get buffer SimpleName MethodDeclaration Block ReturnStatement SimpleName buffer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName get buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get buffer

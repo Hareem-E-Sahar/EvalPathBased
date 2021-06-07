@@ -1,0 +1,10 @@
+protected Modifier MethodDeclaration SimpleType SimpleName scroll listener
+protected Modifier MethodDeclaration SimpleName create scroll listener
+scroll listener SimpleName SimpleType MethodDeclaration SimpleName create scroll listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName scroll listener
+public Modifier TypeDeclaration MethodDeclaration SimpleName create scroll listener
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName scroll listener
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create scroll listener

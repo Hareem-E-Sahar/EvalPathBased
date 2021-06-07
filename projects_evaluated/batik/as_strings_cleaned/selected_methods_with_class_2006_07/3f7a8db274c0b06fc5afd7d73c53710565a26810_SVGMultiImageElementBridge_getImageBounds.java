@@ -1,0 +1,191 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+unit processor SimpleName MethodInvocation SimpleName create context
+unit processor SimpleName MethodInvocation SimpleName ctx
+unit processor SimpleName MethodInvocation SimpleName element
+create context SimpleName MethodInvocation SimpleName ctx
+create context SimpleName MethodInvocation SimpleName element
+ctx SimpleName MethodInvocation SimpleName element
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName unit processor
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName create context
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+unit processorcontext QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uctx
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg x attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg x attribute
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg x attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+x SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+unit processor SimpleName MethodInvocation SimpleName svg horizontal coordinate to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg x attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg horizontal coordinate to user space SimpleName MethodInvocation SimpleName s
+svg horizontal coordinate to user space SimpleName MethodInvocation SimpleName svg x attribute
+svg horizontal coordinate to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg x attribute
+s SimpleName MethodInvocation SimpleName uctx
+svg x attribute SimpleName MethodInvocation SimpleName uctx
+x SimpleName Assignment MethodInvocation SimpleName unit processor
+x SimpleName Assignment MethodInvocation SimpleName svg horizontal coordinate to user space
+x SimpleName Assignment MethodInvocation SimpleName s
+x SimpleName Assignment MethodInvocation SimpleName svg x attribute
+x SimpleName Assignment MethodInvocation SimpleName uctx
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg y attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg y attribute
+s SimpleName Assignment MethodInvocation SimpleName element
+s SimpleName Assignment MethodInvocation SimpleName get attribute ns
+s SimpleName Assignment MethodInvocation SimpleName svg y attribute
+y SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+unit processor SimpleName MethodInvocation SimpleName svg vertical coordinate to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg y attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg vertical coordinate to user space SimpleName MethodInvocation SimpleName s
+svg vertical coordinate to user space SimpleName MethodInvocation SimpleName svg y attribute
+svg vertical coordinate to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg y attribute
+s SimpleName MethodInvocation SimpleName uctx
+svg y attribute SimpleName MethodInvocation SimpleName uctx
+y SimpleName Assignment MethodInvocation SimpleName unit processor
+y SimpleName Assignment MethodInvocation SimpleName svg vertical coordinate to user space
+y SimpleName Assignment MethodInvocation SimpleName s
+y SimpleName Assignment MethodInvocation SimpleName svg y attribute
+y SimpleName Assignment MethodInvocation SimpleName uctx
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg width attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg width attribute
+s SimpleName Assignment MethodInvocation SimpleName element
+s SimpleName Assignment MethodInvocation SimpleName get attribute ns
+s SimpleName Assignment MethodInvocation SimpleName svg width attribute
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName element
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err attribute missing
+ctx SimpleName ClassInstanceCreation SimpleName element
+ctx SimpleName ClassInstanceCreation SimpleName err attribute missing
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg width attribute
+element SimpleName ClassInstanceCreation SimpleName err attribute missing
+element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg width attribute
+err attribute missing SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg width attribute
+unit processor SimpleName MethodInvocation SimpleName svg horizontal length to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg width attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg horizontal length to user space SimpleName MethodInvocation SimpleName s
+svg horizontal length to user space SimpleName MethodInvocation SimpleName svg width attribute
+svg horizontal length to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg width attribute
+s SimpleName MethodInvocation SimpleName uctx
+svg width attribute SimpleName MethodInvocation SimpleName uctx
+w SimpleName Assignment MethodInvocation SimpleName unit processor
+w SimpleName Assignment MethodInvocation SimpleName svg horizontal length to user space
+w SimpleName Assignment MethodInvocation SimpleName s
+w SimpleName Assignment MethodInvocation SimpleName svg width attribute
+w SimpleName Assignment MethodInvocation SimpleName uctx
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg height attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg height attribute
+s SimpleName Assignment MethodInvocation SimpleName element
+s SimpleName Assignment MethodInvocation SimpleName get attribute ns
+s SimpleName Assignment MethodInvocation SimpleName svg height attribute
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName element
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err attribute missing
+ctx SimpleName ClassInstanceCreation SimpleName element
+ctx SimpleName ClassInstanceCreation SimpleName err attribute missing
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg height attribute
+element SimpleName ClassInstanceCreation SimpleName err attribute missing
+element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg height attribute
+err attribute missing SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg height attribute
+unit processor SimpleName MethodInvocation SimpleName svg vertical length to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg height attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg vertical length to user space SimpleName MethodInvocation SimpleName s
+svg vertical length to user space SimpleName MethodInvocation SimpleName svg height attribute
+svg vertical length to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg height attribute
+s SimpleName MethodInvocation SimpleName uctx
+svg height attribute SimpleName MethodInvocation SimpleName uctx
+h SimpleName Assignment MethodInvocation SimpleName unit processor
+h SimpleName Assignment MethodInvocation SimpleName svg vertical length to user space
+h SimpleName Assignment MethodInvocation SimpleName s
+h SimpleName Assignment MethodInvocation SimpleName svg height attribute
+h SimpleName Assignment MethodInvocation SimpleName uctx
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName x
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName y
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName w
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName h
+x SimpleName ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName w
+x SimpleName ClassInstanceCreation SimpleName h
+y SimpleName ClassInstanceCreation SimpleName w
+y SimpleName ClassInstanceCreation SimpleName h
+w SimpleName ClassInstanceCreation SimpleName h
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName rectangle d
+protected Modifier MethodDeclaration SimpleName get image bounds
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+static Modifier MethodDeclaration SimpleType SimpleName rectangle d
+static Modifier MethodDeclaration SimpleName get image bounds
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get image bounds
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+get image bounds SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+get image bounds SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+get image bounds SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get image bounds SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+get image bounds SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get image bounds SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get image bounds SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get image bounds SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get image bounds
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get image bounds
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

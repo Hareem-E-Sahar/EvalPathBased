@@ -1,0 +1,47 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pseudo elt
+elt SimpleName InstanceofExpression SimpleType SimpleName override style element
+override style element SimpleName SimpleType CastExpression SimpleName elt
+ose SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName override style element
+ose SimpleName VariableDeclarationFragment CastExpression SimpleName elt
+override style element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ose
+ose SimpleName MethodInvocation SimpleName has override style
+ose SimpleName MethodInvocation SimpleName pseudo elt
+has override style SimpleName MethodInvocation SimpleName pseudo elt
+ose SimpleName MethodInvocation SimpleName get override style
+ose SimpleName MethodInvocation SimpleName pseudo elt
+get override style SimpleName MethodInvocation SimpleName pseudo elt
+ose SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName ose
+ose SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get override style
+ose SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName pseudo elt
+has override style SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName ose
+has override style SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get override style
+has override style SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName pseudo elt
+pseudo elt SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName ose
+pseudo elt SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get override style
+pseudo elt SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName pseudo elt
+public Modifier MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier MethodDeclaration SimpleName get override style
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+css style declaration SimpleName SimpleType MethodDeclaration SimpleName get override style
+css style declaration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+css style declaration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+get override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+get override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get override style
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get override style
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt

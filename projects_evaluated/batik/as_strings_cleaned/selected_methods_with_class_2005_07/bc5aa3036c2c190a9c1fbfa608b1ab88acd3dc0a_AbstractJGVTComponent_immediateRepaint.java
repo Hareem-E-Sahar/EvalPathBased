@@ -1,0 +1,85 @@
+event queue SimpleName MethodInvocation SimpleName is dispatch thread
+vis rect SimpleName VariableDeclarationFragment MethodInvocation SimpleName get render rect
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vis rect
+repaint SimpleName MethodInvocation QualifiedName vis rectx
+repaint SimpleName MethodInvocation QualifiedName vis recty
+repaint SimpleName MethodInvocation QualifiedName vis rectwidth
+repaint SimpleName MethodInvocation QualifiedName vis rectheight
+vis rectx QualifiedName MethodInvocation QualifiedName vis recty
+vis rectx QualifiedName MethodInvocation QualifiedName vis rectwidth
+vis rectx QualifiedName MethodInvocation QualifiedName vis rectheight
+vis recty QualifiedName MethodInvocation QualifiedName vis rectwidth
+vis recty QualifiedName MethodInvocation QualifiedName vis rectheight
+vis rectwidth QualifiedName MethodInvocation QualifiedName vis rectheight
+paint immediately SimpleName MethodInvocation QualifiedName vis rectx
+paint immediately SimpleName MethodInvocation QualifiedName vis recty
+paint immediately SimpleName MethodInvocation QualifiedName vis rectwidth
+paint immediately SimpleName MethodInvocation QualifiedName vis rectheight
+vis rectx QualifiedName MethodInvocation QualifiedName vis recty
+vis rectx QualifiedName MethodInvocation QualifiedName vis rectwidth
+vis rectx QualifiedName MethodInvocation QualifiedName vis rectheight
+vis recty QualifiedName MethodInvocation QualifiedName vis rectwidth
+vis recty QualifiedName MethodInvocation QualifiedName vis rectheight
+vis rectwidth QualifiedName MethodInvocation QualifiedName vis rectheight
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName repaint
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis rectx
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis recty
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis rectwidth
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis rectheight
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName paint immediately
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis rectx
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis recty
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis rectwidth
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis rectheight
+vis rect SimpleName VariableDeclarationFragment MethodInvocation SimpleName get render rect
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vis rect
+repaint SimpleName MethodInvocation QualifiedName vis rectx
+repaint SimpleName MethodInvocation QualifiedName vis recty
+repaint SimpleName MethodInvocation QualifiedName vis rectwidth
+repaint SimpleName MethodInvocation QualifiedName vis rectheight
+vis rectx QualifiedName MethodInvocation QualifiedName vis recty
+vis rectx QualifiedName MethodInvocation QualifiedName vis rectwidth
+vis rectx QualifiedName MethodInvocation QualifiedName vis rectheight
+vis recty QualifiedName MethodInvocation QualifiedName vis rectwidth
+vis recty QualifiedName MethodInvocation QualifiedName vis rectheight
+vis rectwidth QualifiedName MethodInvocation QualifiedName vis rectheight
+paint immediately SimpleName MethodInvocation QualifiedName vis rectx
+paint immediately SimpleName MethodInvocation QualifiedName vis recty
+paint immediately SimpleName MethodInvocation QualifiedName vis rectwidth
+paint immediately SimpleName MethodInvocation QualifiedName vis rectheight
+vis rectx QualifiedName MethodInvocation QualifiedName vis recty
+vis rectx QualifiedName MethodInvocation QualifiedName vis rectwidth
+vis rectx QualifiedName MethodInvocation QualifiedName vis rectheight
+vis recty QualifiedName MethodInvocation QualifiedName vis rectwidth
+vis recty QualifiedName MethodInvocation QualifiedName vis rectheight
+vis rectwidth QualifiedName MethodInvocation QualifiedName vis rectheight
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName repaint
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis rectx
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis recty
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis rectwidth
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis rectheight
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName paint immediately
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis rectx
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis recty
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis rectwidth
+double buffered rendering SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName vis rectheight
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block IfStatement SimpleName double buffered rendering
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName double buffered rendering
+run SimpleName MethodDeclaration Block IfStatement SimpleName double buffered rendering
+event queue SimpleName MethodInvocation SimpleName invoke and wait
+event queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+invoke and wait SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName immediate repaint
+void PrimitiveType MethodDeclaration SimpleName immediate repaint
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName immediate repaint
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName immediate repaint

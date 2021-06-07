@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get num glyph groups
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName glyph groupslength
+int PrimitiveType MethodDeclaration SimpleName get num glyph groups
+int PrimitiveType MethodDeclaration Block ReturnStatement QualifiedName glyph groupslength
+get num glyph groups SimpleName MethodDeclaration Block ReturnStatement QualifiedName glyph groupslength
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get num glyph groups
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get num glyph groups

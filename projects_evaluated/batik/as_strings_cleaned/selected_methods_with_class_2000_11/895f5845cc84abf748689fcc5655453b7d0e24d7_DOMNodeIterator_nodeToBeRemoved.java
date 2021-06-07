@@ -1,0 +1,80 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName removed node
+state SimpleName InfixExpression SimpleName invalid
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+node SimpleName Assignment SimpleName reference node
+node SimpleName InfixExpression SimpleName root
+node SimpleName InfixExpression InfixExpression InfixExpression SimpleName node
+node SimpleName InfixExpression InfixExpression InfixExpression SimpleName root
+node SimpleName MethodInvocation SimpleName get parent node
+node SimpleName Assignment MethodInvocation SimpleName node
+node SimpleName Assignment MethodInvocation SimpleName get parent node
+node SimpleName InfixExpression SimpleName removed node
+node SimpleName Assignment ForStatement Assignment SimpleName node
+reference node SimpleName Assignment ForStatement Assignment SimpleName node
+node SimpleName InfixExpression SimpleName root
+node SimpleName InfixExpression InfixExpression InfixExpression SimpleName node
+node SimpleName InfixExpression InfixExpression InfixExpression SimpleName root
+state SimpleName InfixExpression SimpleName backward
+node SimpleName MethodInvocation SimpleName get node type
+node SimpleName MethodInvocation InfixExpression QualifiedName nodeentity reference node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeentity reference node
+node SimpleName MethodInvocation InfixExpression InfixExpression SimpleName expand entity references
+get node type SimpleName MethodInvocation InfixExpression InfixExpression SimpleName expand entity references
+nodeentity reference node QualifiedName InfixExpression InfixExpression SimpleName expand entity references
+node SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+reference node SimpleName Assignment SimpleName n
+node SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+reference node SimpleName Assignment SimpleName n
+n SimpleName Assignment SimpleName node
+n SimpleName MethodInvocation SimpleName get parent node
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node
+n SimpleName InfixExpression SimpleName root
+n SimpleName MethodInvocation SimpleName get next sibling
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+reference node SimpleName Assignment SimpleName t
+node SimpleName MethodInvocation SimpleName get previous sibling
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get previous sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+node SimpleName MethodInvocation SimpleName get parent node
+reference node SimpleName Assignment MethodInvocation SimpleName node
+reference node SimpleName Assignment MethodInvocation SimpleName get parent node
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeentity reference node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeentity reference node
+n SimpleName MethodInvocation InfixExpression InfixExpression SimpleName expand entity references
+get node type SimpleName MethodInvocation InfixExpression InfixExpression SimpleName expand entity references
+nodeentity reference node QualifiedName InfixExpression InfixExpression SimpleName expand entity references
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+n SimpleName MethodInvocation SimpleName get last child
+t SimpleName Assignment MethodInvocation SimpleName n
+t SimpleName Assignment MethodInvocation SimpleName get last child
+n SimpleName Assignment SimpleName t
+reference node SimpleName Assignment SimpleName n
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName node to be removed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName removed node
+void PrimitiveType MethodDeclaration SimpleName node to be removed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName removed node
+node to be removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+node to be removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName removed node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName node to be removed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName removed node
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName node to be removed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName removed node

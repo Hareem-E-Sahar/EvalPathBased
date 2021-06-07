@@ -1,0 +1,27 @@
+document SimpleName MethodInvocation SimpleName get document element
+svgom element SimpleName SimpleType CastExpression MethodInvocation SimpleName document
+svgom element SimpleName SimpleType CastExpression MethodInvocation SimpleName get document element
+svg SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom element
+svg SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName document
+svg SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get document element
+svgom element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg
+svg SimpleName MethodInvocation SimpleName remove event listener
+svg SimpleName MethodInvocation StringLiteral svg load
+svg SimpleName MethodInvocation SimpleName load event listener
+svg SimpleName MethodInvocation BooleanLiteral false
+remove event listener SimpleName MethodInvocation StringLiteral svg load
+remove event listener SimpleName MethodInvocation SimpleName load event listener
+remove event listener SimpleName MethodInvocation BooleanLiteral false
+svg load StringLiteral MethodInvocation SimpleName load event listener
+svg load StringLiteral MethodInvocation BooleanLiteral false
+load event listener SimpleName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispose
+void PrimitiveType MethodDeclaration SimpleName dispose
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispose
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispose

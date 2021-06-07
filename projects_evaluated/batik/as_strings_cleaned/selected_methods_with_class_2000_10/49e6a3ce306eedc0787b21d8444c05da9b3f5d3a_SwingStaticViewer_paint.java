@@ -1,0 +1,59 @@
+graphics SimpleName SimpleType SingleVariableDeclaration SimpleName g
+graphics d SimpleName SimpleType CastExpression SimpleName g
+g SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName graphics d
+g SimpleName VariableDeclarationFragment CastExpression SimpleName g
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+g SimpleName MethodInvocation SimpleName translate
+g SimpleName MethodInvocation SimpleName tx
+g SimpleName MethodInvocation SimpleName ty
+translate SimpleName MethodInvocation SimpleName tx
+translate SimpleName MethodInvocation SimpleName ty
+tx SimpleName MethodInvocation SimpleName ty
+g SimpleName MethodInvocation SimpleName draw image
+g SimpleName MethodInvocation SimpleName off screen
+g SimpleName MethodInvocation NumberLiteral empty
+g SimpleName MethodInvocation NumberLiteral empty
+draw image SimpleName MethodInvocation SimpleName off screen
+draw image SimpleName MethodInvocation NumberLiteral empty
+draw image SimpleName MethodInvocation NumberLiteral empty
+off screen SimpleName MethodInvocation NumberLiteral empty
+off screen SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+g SimpleName MethodInvocation SimpleName translate
+g SimpleName MethodInvocation PrefixExpression SimpleName tx
+g SimpleName MethodInvocation PrefixExpression SimpleName ty
+translate SimpleName MethodInvocation PrefixExpression SimpleName tx
+translate SimpleName MethodInvocation PrefixExpression SimpleName ty
+tx SimpleName PrefixExpression MethodInvocation PrefixExpression SimpleName ty
+g SimpleName MethodInvocation SimpleName get stroke
+default stroke SimpleName VariableDeclarationFragment MethodInvocation SimpleName g
+default stroke SimpleName VariableDeclarationFragment MethodInvocation SimpleName get stroke
+stroke SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default stroke
+g SimpleName MethodInvocation SimpleName set stroke
+g SimpleName MethodInvocation SimpleName marker stroke
+set stroke SimpleName MethodInvocation SimpleName marker stroke
+g SimpleName MethodInvocation SimpleName draw
+g SimpleName MethodInvocation SimpleName marker
+draw SimpleName MethodInvocation SimpleName marker
+g SimpleName MethodInvocation SimpleName set stroke
+g SimpleName MethodInvocation SimpleName default stroke
+set stroke SimpleName MethodInvocation SimpleName default stroke
+paint border SimpleName MethodInvocation SimpleName g
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName g
+void PrimitiveType MethodDeclaration SimpleName paint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName g
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName paint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName paint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g

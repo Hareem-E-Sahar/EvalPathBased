@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName immutable value
+public Modifier MethodDeclaration SimpleName get immutable value
+public Modifier MethodDeclaration Block ReturnStatement SimpleName value
+immutable value SimpleName SimpleType MethodDeclaration SimpleName get immutable value
+get immutable value SimpleName MethodDeclaration Block ReturnStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName immutable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get immutable value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName immutable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get immutable value

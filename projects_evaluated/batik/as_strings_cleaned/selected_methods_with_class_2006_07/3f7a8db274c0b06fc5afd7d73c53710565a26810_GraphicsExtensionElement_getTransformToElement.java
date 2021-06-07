@@ -1,0 +1,27 @@
+svg element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+svg locatable support SimpleName MethodInvocation SimpleName get transform to element
+svg locatable support SimpleName MethodInvocation SimpleName element
+get transform to element SimpleName MethodInvocation SimpleName element
+public Modifier MethodDeclaration SimpleType SimpleName svg matrix
+public Modifier MethodDeclaration SimpleName get transform to element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier MethodDeclaration SimpleType SimpleName svg exception
+svg matrix SimpleName SimpleType MethodDeclaration SimpleName get transform to element
+svg matrix SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+svg matrix SimpleName SimpleType MethodDeclaration SimpleType SimpleName svg exception
+get transform to element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+get transform to element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+get transform to element SimpleName MethodDeclaration SimpleType SimpleName svg exception
+element SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName svg exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg matrix
+public Modifier TypeDeclaration MethodDeclaration SimpleName get transform to element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg matrix
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get transform to element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg exception

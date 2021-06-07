@@ -1,0 +1,24 @@
+int PrimitiveType SingleVariableDeclaration SimpleName repeat iteration
+sampled at unit time SimpleName MethodInvocation NumberLiteral f
+sampled at unit time SimpleName MethodInvocation SimpleName repeat iteration
+f NumberLiteral MethodInvocation SimpleName repeat iteration
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName sampled last value
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName repeat iteration
+void PrimitiveType MethodDeclaration SimpleName sampled last value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName repeat iteration
+sampled last value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+sampled last value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName repeat iteration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName sampled last value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repeat iteration
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sampled last value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repeat iteration

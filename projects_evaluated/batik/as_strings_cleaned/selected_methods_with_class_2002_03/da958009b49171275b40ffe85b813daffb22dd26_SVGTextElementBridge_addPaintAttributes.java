@@ -1,0 +1,500 @@
+attributed string SimpleName SimpleType SingleVariableDeclaration SimpleName as
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+text node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+text decoration SimpleName SimpleType SingleVariableDeclaration SimpleName text decoration
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName get user agent
+svg utilities SimpleName MethodInvocation SimpleName match user agent
+svg utilities SimpleName MethodInvocation SimpleName element
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName ctx
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+match user agent SimpleName MethodInvocation SimpleName element
+match user agent SimpleName MethodInvocation MethodInvocation SimpleName ctx
+match user agent SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+element SimpleName MethodInvocation MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+as SimpleName MethodInvocation SimpleName get iterator
+aci SimpleName VariableDeclarationFragment MethodInvocation SimpleName as
+aci SimpleName VariableDeclarationFragment MethodInvocation SimpleName get iterator
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aci
+first char SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+aci SimpleName MethodInvocation SimpleName get end index
+i SimpleName InfixExpression MethodInvocation SimpleName aci
+i SimpleName InfixExpression MethodInvocation SimpleName get end index
+aci SimpleName MethodInvocation SimpleName set index
+aci SimpleName MethodInvocation SimpleName i
+set index SimpleName MethodInvocation SimpleName i
+aci SimpleName MethodInvocation SimpleName get attribute
+aci SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributetext compound delimiter
+get attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributetext compound delimiter
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName aci
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+element SimpleName SimpleType CastExpression MethodInvocation QualifiedName gvt attributed character iteratortext attributetext compound delimiter
+delimeter SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+delimeter SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName aci
+delimeter SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+delimeter SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName gvt attributed character iteratortext attributetext compound delimiter
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delimeter
+delimeter SimpleName InfixExpression SimpleName element
+node ancestor of SimpleName MethodInvocation SimpleName element
+node ancestor of SimpleName MethodInvocation SimpleName delimeter
+element SimpleName MethodInvocation SimpleName delimeter
+delimeter SimpleName InfixExpression InfixExpression MethodInvocation SimpleName node ancestor of
+delimeter SimpleName InfixExpression InfixExpression MethodInvocation SimpleName element
+delimeter SimpleName InfixExpression InfixExpression MethodInvocation SimpleName delimeter
+element SimpleName InfixExpression InfixExpression MethodInvocation SimpleName node ancestor of
+element SimpleName InfixExpression InfixExpression MethodInvocation SimpleName element
+element SimpleName InfixExpression InfixExpression MethodInvocation SimpleName delimeter
+first char SimpleName Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+aci SimpleName MethodInvocation SimpleName get end index
+aci SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get end index SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last char SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName aci
+last char SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get end index
+last char SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+aci SimpleName MethodInvocation SimpleName get end index
+aci SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get end index SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName aci
+i SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get end index
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+aci SimpleName MethodInvocation SimpleName set index
+aci SimpleName MethodInvocation SimpleName i
+set index SimpleName MethodInvocation SimpleName i
+aci SimpleName MethodInvocation SimpleName get attribute
+aci SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributetext compound delimiter
+get attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributetext compound delimiter
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName aci
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+element SimpleName SimpleType CastExpression MethodInvocation QualifiedName gvt attributed character iteratortext attributetext compound delimiter
+delimeter SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+delimeter SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName aci
+delimeter SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+delimeter SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName gvt attributed character iteratortext attributetext compound delimiter
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName delimeter
+delimeter SimpleName InfixExpression SimpleName element
+node ancestor of SimpleName MethodInvocation SimpleName element
+node ancestor of SimpleName MethodInvocation SimpleName delimeter
+element SimpleName MethodInvocation SimpleName delimeter
+delimeter SimpleName InfixExpression InfixExpression MethodInvocation SimpleName node ancestor of
+delimeter SimpleName InfixExpression InfixExpression MethodInvocation SimpleName element
+delimeter SimpleName InfixExpression InfixExpression MethodInvocation SimpleName delimeter
+element SimpleName InfixExpression InfixExpression MethodInvocation SimpleName node ancestor of
+element SimpleName InfixExpression InfixExpression MethodInvocation SimpleName element
+element SimpleName InfixExpression InfixExpression MethodInvocation SimpleName delimeter
+last char SimpleName Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+css utilities SimpleName MethodInvocation SimpleName convert opacity
+css utilities SimpleName MethodInvocation SimpleName element
+convert opacity SimpleName MethodInvocation SimpleName element
+composite SimpleName VariableDeclarationFragment MethodInvocation SimpleName css utilities
+composite SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert opacity
+composite SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+composite SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName composite
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeopacity
+as SimpleName MethodInvocation SimpleName composite
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeopacity
+add attribute SimpleName MethodInvocation SimpleName composite
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributeopacity QualifiedName MethodInvocation SimpleName composite
+gvt attributed character iteratortext attributeopacity QualifiedName MethodInvocation SimpleName first char
+gvt attributed character iteratortext attributeopacity QualifiedName MethodInvocation InfixExpression SimpleName last char
+gvt attributed character iteratortext attributeopacity QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+composite SimpleName MethodInvocation SimpleName first char
+composite SimpleName MethodInvocation InfixExpression SimpleName last char
+composite SimpleName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+paint server SimpleName MethodInvocation SimpleName convert fill paint
+paint server SimpleName MethodInvocation SimpleName element
+paint server SimpleName MethodInvocation SimpleName node
+paint server SimpleName MethodInvocation SimpleName ctx
+convert fill paint SimpleName MethodInvocation SimpleName element
+convert fill paint SimpleName MethodInvocation SimpleName node
+convert fill paint SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName node
+element SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName ctx
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint server
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert fill paint
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+paint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName text attributeforeground
+as SimpleName MethodInvocation SimpleName p
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName text attributeforeground
+add attribute SimpleName MethodInvocation SimpleName p
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+text attributeforeground QualifiedName MethodInvocation SimpleName p
+text attributeforeground QualifiedName MethodInvocation SimpleName first char
+text attributeforeground QualifiedName MethodInvocation InfixExpression SimpleName last char
+text attributeforeground QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+p SimpleName MethodInvocation SimpleName first char
+p SimpleName MethodInvocation InfixExpression SimpleName last char
+p SimpleName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+paint server SimpleName MethodInvocation SimpleName convert stroke paint
+paint server SimpleName MethodInvocation SimpleName element
+paint server SimpleName MethodInvocation SimpleName node
+paint server SimpleName MethodInvocation SimpleName ctx
+convert stroke paint SimpleName MethodInvocation SimpleName element
+convert stroke paint SimpleName MethodInvocation SimpleName node
+convert stroke paint SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName node
+element SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName ctx
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint server
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert stroke paint
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+paint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sp
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributestroke paint
+as SimpleName MethodInvocation SimpleName sp
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributestroke paint
+add attribute SimpleName MethodInvocation SimpleName sp
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributestroke paint QualifiedName MethodInvocation SimpleName sp
+gvt attributed character iteratortext attributestroke paint QualifiedName MethodInvocation SimpleName first char
+gvt attributed character iteratortext attributestroke paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+gvt attributed character iteratortext attributestroke paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+sp SimpleName MethodInvocation SimpleName first char
+sp SimpleName MethodInvocation InfixExpression SimpleName last char
+sp SimpleName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+paint server SimpleName MethodInvocation SimpleName convert stroke
+paint server SimpleName MethodInvocation SimpleName element
+convert stroke SimpleName MethodInvocation SimpleName element
+stroke SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint server
+stroke SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert stroke
+stroke SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+stroke SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stroke
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributestroke
+as SimpleName MethodInvocation SimpleName stroke
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributestroke
+add attribute SimpleName MethodInvocation SimpleName stroke
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributestroke QualifiedName MethodInvocation SimpleName stroke
+gvt attributed character iteratortext attributestroke QualifiedName MethodInvocation SimpleName first char
+gvt attributed character iteratortext attributestroke QualifiedName MethodInvocation InfixExpression SimpleName last char
+gvt attributed character iteratortext attributestroke QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+stroke SimpleName MethodInvocation SimpleName first char
+stroke SimpleName MethodInvocation InfixExpression SimpleName last char
+stroke SimpleName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeunderline paint
+as SimpleName MethodInvocation QualifiedName text decorationunderline paint
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeunderline paint
+add attribute SimpleName MethodInvocation QualifiedName text decorationunderline paint
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributeunderline paint QualifiedName MethodInvocation QualifiedName text decorationunderline paint
+gvt attributed character iteratortext attributeunderline paint QualifiedName MethodInvocation SimpleName first char
+gvt attributed character iteratortext attributeunderline paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+gvt attributed character iteratortext attributeunderline paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+text decorationunderline paint QualifiedName MethodInvocation SimpleName first char
+text decorationunderline paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+text decorationunderline paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeunderline stroke paint
+as SimpleName MethodInvocation QualifiedName text decorationunderline stroke paint
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeunderline stroke paint
+add attribute SimpleName MethodInvocation QualifiedName text decorationunderline stroke paint
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributeunderline stroke paint QualifiedName MethodInvocation QualifiedName text decorationunderline stroke paint
+gvt attributed character iteratortext attributeunderline stroke paint QualifiedName MethodInvocation SimpleName first char
+gvt attributed character iteratortext attributeunderline stroke paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+gvt attributed character iteratortext attributeunderline stroke paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+text decorationunderline stroke paint QualifiedName MethodInvocation SimpleName first char
+text decorationunderline stroke paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+text decorationunderline stroke paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeunderline stroke
+as SimpleName MethodInvocation QualifiedName text decorationunderline stroke
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeunderline stroke
+add attribute SimpleName MethodInvocation QualifiedName text decorationunderline stroke
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributeunderline stroke QualifiedName MethodInvocation QualifiedName text decorationunderline stroke
+gvt attributed character iteratortext attributeunderline stroke QualifiedName MethodInvocation SimpleName first char
+gvt attributed character iteratortext attributeunderline stroke QualifiedName MethodInvocation InfixExpression SimpleName last char
+gvt attributed character iteratortext attributeunderline stroke QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+text decorationunderline stroke QualifiedName MethodInvocation SimpleName first char
+text decorationunderline stroke QualifiedName MethodInvocation InfixExpression SimpleName last char
+text decorationunderline stroke QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeoverline paint
+as SimpleName MethodInvocation QualifiedName text decorationoverline paint
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeoverline paint
+add attribute SimpleName MethodInvocation QualifiedName text decorationoverline paint
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributeoverline paint QualifiedName MethodInvocation QualifiedName text decorationoverline paint
+gvt attributed character iteratortext attributeoverline paint QualifiedName MethodInvocation SimpleName first char
+gvt attributed character iteratortext attributeoverline paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+gvt attributed character iteratortext attributeoverline paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+text decorationoverline paint QualifiedName MethodInvocation SimpleName first char
+text decorationoverline paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+text decorationoverline paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeoverline stroke paint
+as SimpleName MethodInvocation QualifiedName text decorationoverline stroke paint
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeoverline stroke paint
+add attribute SimpleName MethodInvocation QualifiedName text decorationoverline stroke paint
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributeoverline stroke paint QualifiedName MethodInvocation QualifiedName text decorationoverline stroke paint
+gvt attributed character iteratortext attributeoverline stroke paint QualifiedName MethodInvocation SimpleName first char
+gvt attributed character iteratortext attributeoverline stroke paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+gvt attributed character iteratortext attributeoverline stroke paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+text decorationoverline stroke paint QualifiedName MethodInvocation SimpleName first char
+text decorationoverline stroke paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+text decorationoverline stroke paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeoverline stroke
+as SimpleName MethodInvocation QualifiedName text decorationoverline stroke
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeoverline stroke
+add attribute SimpleName MethodInvocation QualifiedName text decorationoverline stroke
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributeoverline stroke QualifiedName MethodInvocation QualifiedName text decorationoverline stroke
+gvt attributed character iteratortext attributeoverline stroke QualifiedName MethodInvocation SimpleName first char
+gvt attributed character iteratortext attributeoverline stroke QualifiedName MethodInvocation InfixExpression SimpleName last char
+gvt attributed character iteratortext attributeoverline stroke QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+text decorationoverline stroke QualifiedName MethodInvocation SimpleName first char
+text decorationoverline stroke QualifiedName MethodInvocation InfixExpression SimpleName last char
+text decorationoverline stroke QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributestrikethrough paint
+as SimpleName MethodInvocation QualifiedName text decorationstrikethrough paint
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributestrikethrough paint
+add attribute SimpleName MethodInvocation QualifiedName text decorationstrikethrough paint
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributestrikethrough paint QualifiedName MethodInvocation QualifiedName text decorationstrikethrough paint
+gvt attributed character iteratortext attributestrikethrough paint QualifiedName MethodInvocation SimpleName first char
+gvt attributed character iteratortext attributestrikethrough paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+gvt attributed character iteratortext attributestrikethrough paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+text decorationstrikethrough paint QualifiedName MethodInvocation SimpleName first char
+text decorationstrikethrough paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+text decorationstrikethrough paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributestrikethrough stroke paint
+as SimpleName MethodInvocation QualifiedName text decorationstrikethrough stroke paint
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributestrikethrough stroke paint
+add attribute SimpleName MethodInvocation QualifiedName text decorationstrikethrough stroke paint
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributestrikethrough stroke paint QualifiedName MethodInvocation QualifiedName text decorationstrikethrough stroke paint
+gvt attributed character iteratortext attributestrikethrough stroke paint QualifiedName MethodInvocation SimpleName first char
+gvt attributed character iteratortext attributestrikethrough stroke paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+gvt attributed character iteratortext attributestrikethrough stroke paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+text decorationstrikethrough stroke paint QualifiedName MethodInvocation SimpleName first char
+text decorationstrikethrough stroke paint QualifiedName MethodInvocation InfixExpression SimpleName last char
+text decorationstrikethrough stroke paint QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributestrikethrough stroke
+as SimpleName MethodInvocation QualifiedName text decorationstrikethrough stroke
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributestrikethrough stroke
+add attribute SimpleName MethodInvocation QualifiedName text decorationstrikethrough stroke
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributestrikethrough stroke QualifiedName MethodInvocation QualifiedName text decorationstrikethrough stroke
+gvt attributed character iteratortext attributestrikethrough stroke QualifiedName MethodInvocation SimpleName first char
+gvt attributed character iteratortext attributestrikethrough stroke QualifiedName MethodInvocation InfixExpression SimpleName last char
+gvt attributed character iteratortext attributestrikethrough stroke QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+text decorationstrikethrough stroke QualifiedName MethodInvocation SimpleName first char
+text decorationstrikethrough stroke QualifiedName MethodInvocation InfixExpression SimpleName last char
+text decorationstrikethrough stroke QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+element SimpleName MethodInvocation SimpleName get first child
+child SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+child SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName child
+child SimpleName MethodInvocation SimpleName get next sibling
+child SimpleName Assignment MethodInvocation SimpleName child
+child SimpleName Assignment MethodInvocation SimpleName get next sibling
+child SimpleName MethodInvocation SimpleName get node type
+child SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName child
+child element SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+child element SimpleName VariableDeclarationFragment CastExpression SimpleName child
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName child element
+get text decoration SimpleName MethodInvocation SimpleName child element
+get text decoration SimpleName MethodInvocation SimpleName node
+get text decoration SimpleName MethodInvocation SimpleName text decoration
+get text decoration SimpleName MethodInvocation SimpleName ctx
+child element SimpleName MethodInvocation SimpleName node
+child element SimpleName MethodInvocation SimpleName text decoration
+child element SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName text decoration
+node SimpleName MethodInvocation SimpleName ctx
+text decoration SimpleName MethodInvocation SimpleName ctx
+td SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text decoration
+td SimpleName VariableDeclarationFragment MethodInvocation SimpleName child element
+td SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+td SimpleName VariableDeclarationFragment MethodInvocation SimpleName text decoration
+td SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+text decoration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName td
+add paint attributes SimpleName MethodInvocation SimpleName as
+add paint attributes SimpleName MethodInvocation SimpleName child element
+add paint attributes SimpleName MethodInvocation SimpleName node
+add paint attributes SimpleName MethodInvocation SimpleName td
+add paint attributes SimpleName MethodInvocation SimpleName ctx
+as SimpleName MethodInvocation SimpleName child element
+as SimpleName MethodInvocation SimpleName node
+as SimpleName MethodInvocation SimpleName td
+as SimpleName MethodInvocation SimpleName ctx
+child element SimpleName MethodInvocation SimpleName node
+child element SimpleName MethodInvocation SimpleName td
+child element SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName td
+node SimpleName MethodInvocation SimpleName ctx
+td SimpleName MethodInvocation SimpleName ctx
+child SimpleName InfixExpression ForStatement Assignment SimpleName child
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add paint attributes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName as
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleName add paint attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName as
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text decoration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName text decoration
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName as
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text decoration
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text decoration
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+as SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+as SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+as SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text decoration
+as SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

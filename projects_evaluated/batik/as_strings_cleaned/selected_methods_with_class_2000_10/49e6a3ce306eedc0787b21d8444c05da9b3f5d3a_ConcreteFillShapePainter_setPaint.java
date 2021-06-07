@@ -1,0 +1,20 @@
+paint SimpleName SimpleType SingleVariableDeclaration SimpleName new paint
+paint SimpleName FieldAccess Assignment SimpleName new paint
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new paint
+void PrimitiveType MethodDeclaration SimpleName set paint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName paint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new paint
+set paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName paint
+set paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new paint
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set paint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new paint
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set paint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new paint

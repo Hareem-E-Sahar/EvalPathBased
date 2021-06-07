@@ -1,0 +1,51 @@
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName normalize
+p SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+p SimpleName MethodInvocation SimpleName get node type
+p SimpleName MethodInvocation InfixExpression SimpleName text node
+get node type SimpleName MethodInvocation InfixExpression SimpleName text node
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression SimpleName text node
+get node type SimpleName MethodInvocation InfixExpression SimpleName text node
+text node SimpleName InfixExpression InfixExpression InfixExpression SimpleName text node
+p SimpleName MethodInvocation SimpleName get node value
+n SimpleName MethodInvocation SimpleName get node value
+p SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+p SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+get node value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+get node value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName p
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get node value
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName n
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get node value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+abstract text SimpleName SimpleType CastExpression SimpleName p
+at SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract text
+at SimpleName VariableDeclarationFragment CastExpression SimpleName p
+abstract text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+at SimpleName MethodInvocation SimpleName set node value
+at SimpleName MethodInvocation SimpleName s
+set node value SimpleName MethodInvocation SimpleName s
+remove child SimpleName MethodInvocation SimpleName n
+p SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName p
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName normalize
+p SimpleName Assignment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName normalize
+void PrimitiveType MethodDeclaration SimpleName normalize
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize

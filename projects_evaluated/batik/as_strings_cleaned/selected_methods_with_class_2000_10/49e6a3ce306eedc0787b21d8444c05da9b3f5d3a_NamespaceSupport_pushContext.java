@@ -1,0 +1,60 @@
+max SimpleName VariableDeclarationFragment QualifiedName contextslength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName contextslength
+context pos SimpleName InfixExpression SimpleName max
+max SimpleName InfixExpression NumberLiteral empty
+new contexts SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName max
+new contexts SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName contexts
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName new contexts
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName contexts
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName new contexts
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName max
+contexts SimpleName MethodInvocation NumberLiteral empty
+contexts SimpleName MethodInvocation SimpleName new contexts
+contexts SimpleName MethodInvocation NumberLiteral empty
+contexts SimpleName MethodInvocation SimpleName max
+empty NumberLiteral MethodInvocation SimpleName new contexts
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName max
+new contexts SimpleName MethodInvocation NumberLiteral empty
+new contexts SimpleName MethodInvocation SimpleName max
+empty NumberLiteral MethodInvocation SimpleName max
+max SimpleName Assignment NumberLiteral empty
+contexts SimpleName Assignment SimpleName new contexts
+contexts SimpleName ArrayAccess SimpleName context pos
+current context SimpleName Assignment ArrayAccess SimpleName contexts
+current context SimpleName Assignment ArrayAccess SimpleName context pos
+contexts SimpleName ArrayAccess SimpleName context pos
+current context SimpleName Assignment ClassInstanceCreation SimpleType SimpleName context
+contexts SimpleName ArrayAccess Assignment Assignment SimpleName current context
+context pos SimpleName ArrayAccess Assignment Assignment SimpleName current context
+context pos SimpleName InfixExpression NumberLiteral empty
+context pos SimpleName InfixExpression NumberLiteral empty
+contexts SimpleName ArrayAccess InfixExpression SimpleName context pos
+contexts SimpleName ArrayAccess InfixExpression NumberLiteral empty
+current context SimpleName MethodInvocation SimpleName set parent
+current context SimpleName MethodInvocation ArrayAccess SimpleName contexts
+current context SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName context pos
+current context SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+set parent SimpleName MethodInvocation ArrayAccess SimpleName contexts
+set parent SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName context pos
+set parent SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName push context
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName push context
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+push context SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName push context
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName push context

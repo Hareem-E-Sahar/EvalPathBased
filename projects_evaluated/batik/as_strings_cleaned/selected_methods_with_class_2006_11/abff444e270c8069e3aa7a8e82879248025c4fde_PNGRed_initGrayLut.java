@@ -1,0 +1,67 @@
+int PrimitiveType SingleVariableDeclaration SimpleName bits
+empty NumberLiteral InfixExpression SimpleName bits
+len SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+len SimpleName VariableDeclarationFragment InfixExpression SimpleName bits
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName bits
+int PrimitiveType ArrayType ArrayCreation SimpleName len
+gray lut SimpleName Assignment ArrayCreation ArrayType PrimitiveType int
+gray lut SimpleName Assignment ArrayCreation SimpleName len
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+gray lut SimpleName ArrayAccess SimpleName i
+gamma lut SimpleName ArrayAccess SimpleName i
+gray lut SimpleName ArrayAccess Assignment ArrayAccess SimpleName gamma lut
+gray lut SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName gamma lut
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+gray lut SimpleName ArrayAccess SimpleName i
+expand bits SimpleName ArrayAccess SimpleName bits
+expand bits SimpleName ArrayAccess ArrayAccess SimpleName i
+bits SimpleName ArrayAccess ArrayAccess SimpleName i
+gray lut SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName perform gamma correction
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName init gray lut
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName bits
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block IfStatement SimpleName perform gamma correction
+void PrimitiveType MethodDeclaration SimpleName init gray lut
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bits
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName perform gamma correction
+init gray lut SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+init gray lut SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bits
+init gray lut SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+init gray lut SimpleName MethodDeclaration Block IfStatement SimpleName perform gamma correction
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init gray lut
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bits
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init gray lut
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bits

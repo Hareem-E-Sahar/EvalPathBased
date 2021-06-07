@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName anim val str
+get enumeration number SimpleName MethodInvocation SimpleName anim val str
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get enumeration number
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim val str
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set animated value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName anim val str
+void PrimitiveType MethodDeclaration SimpleName set animated value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName anim val str
+set animated value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set animated value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anim val str
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set animated value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anim val str
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set animated value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anim val str

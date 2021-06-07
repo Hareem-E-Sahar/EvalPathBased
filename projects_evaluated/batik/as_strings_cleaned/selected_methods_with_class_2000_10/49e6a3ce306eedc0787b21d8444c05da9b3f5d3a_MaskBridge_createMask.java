@@ -1,0 +1,19 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+mask SimpleName SimpleType MethodDeclaration SimpleName create mask
+mask SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+mask SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+create mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mask
+public Modifier TypeDeclaration MethodDeclaration SimpleName create mask
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mask
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create mask
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

@@ -1,0 +1,22 @@
+javaawtimagerenderablerender context QualifiedName SimpleType SingleVariableDeclaration SimpleName rc
+blur area SimpleName MethodInvocation SimpleName get region
+set pad rect SimpleName MethodInvocation MethodInvocation SimpleName blur area
+set pad rect SimpleName MethodInvocation MethodInvocation SimpleName get region
+create rendering SimpleName SuperMethodInvocation SimpleName rc
+public Modifier MethodDeclaration SimpleType QualifiedName javaawtimagerendered image
+public Modifier MethodDeclaration SimpleName create rendering
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName javaawtimagerenderablerender context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rc
+javaawtimagerendered image QualifiedName SimpleType MethodDeclaration SimpleName create rendering
+javaawtimagerendered image QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rc
+create rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName javaawtimagerenderablerender context
+create rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName javaawtimagerendered image
+public Modifier TypeDeclaration MethodDeclaration SimpleName create rendering
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName javaawtimagerendered image
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create rendering
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc

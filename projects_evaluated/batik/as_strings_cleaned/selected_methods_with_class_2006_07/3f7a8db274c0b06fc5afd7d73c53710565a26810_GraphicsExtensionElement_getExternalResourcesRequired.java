@@ -1,0 +1,11 @@
+svg external resources required support SimpleName MethodInvocation SimpleName get external resources required
+public Modifier MethodDeclaration SimpleType SimpleName svg animated boolean
+public Modifier MethodDeclaration SimpleName get external resources required
+svg animated boolean SimpleName SimpleType MethodDeclaration SimpleName get external resources required
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get external resources required
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get external resources required

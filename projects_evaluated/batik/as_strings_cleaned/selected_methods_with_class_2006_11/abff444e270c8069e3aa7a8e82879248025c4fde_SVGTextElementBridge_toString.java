@@ -1,0 +1,42 @@
+strings SimpleName MethodInvocation SimpleName get
+strings SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName strings
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+count SimpleName SwitchStatement SwitchCase NumberLiteral empty
+count SimpleName SwitchStatement ReturnStatement StringLiteral empty
+count SimpleName SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement ReturnStatement StringLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty StringLiteral ReturnStatement SwitchStatement SwitchCase NumberLiteral empty
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+strings SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName strings
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+sb SimpleName MethodInvocation CastExpression MethodInvocation SimpleName it
+sb SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+append SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+append SimpleName MethodInvocation CastExpression MethodInvocation SimpleName it
+append SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+sb SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block SwitchStatement SimpleName count
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block SwitchStatement SimpleName count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

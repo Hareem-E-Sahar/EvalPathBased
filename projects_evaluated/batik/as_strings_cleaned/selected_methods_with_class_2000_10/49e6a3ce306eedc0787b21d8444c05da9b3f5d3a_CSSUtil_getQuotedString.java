@@ -1,0 +1,65 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName index of
+s SimpleName MethodInvocation CharacterLiteral empty
+index of SimpleName MethodInvocation CharacterLiteral empty
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+index SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral empty
+s SimpleName MethodInvocation SimpleName index of
+s SimpleName MethodInvocation CharacterLiteral \
+index of SimpleName MethodInvocation CharacterLiteral \
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+index SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral \
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral \
+index SimpleName InfixExpression PrefixExpression NumberLiteral empty
+index SimpleName InfixExpression PrefixExpression NumberLiteral empty
+index SimpleName InfixExpression PrefixExpression NumberLiteral empty
+empty CharacterLiteral InfixExpression SimpleName s
+empty CharacterLiteral InfixExpression CharacterLiteral empty
+s SimpleName InfixExpression CharacterLiteral empty
+index SimpleName InfixExpression PrefixExpression NumberLiteral empty
+\ CharacterLiteral InfixExpression SimpleName s
+\ CharacterLiteral InfixExpression CharacterLiteral \
+s SimpleName InfixExpression CharacterLiteral \
+invalid css string StringLiteral InfixExpression SimpleName s
+css exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid css string
+css exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName s
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get quoted string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get quoted string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName get quoted string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+get quoted string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get quoted string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+get quoted string SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get quoted string SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get quoted string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get quoted string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

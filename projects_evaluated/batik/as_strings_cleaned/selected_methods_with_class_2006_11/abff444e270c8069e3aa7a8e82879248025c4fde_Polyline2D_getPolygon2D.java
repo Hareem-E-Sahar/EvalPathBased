@@ -1,0 +1,100 @@
+pol SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName polygon d
+polygon d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pol
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+npoints SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression SimpleName npoints
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+xpoints SimpleName ArrayAccess SimpleName i
+float PrimitiveType CastExpression ArrayAccess SimpleName xpoints
+float PrimitiveType CastExpression ArrayAccess SimpleName i
+ypoints SimpleName ArrayAccess SimpleName i
+float PrimitiveType CastExpression ArrayAccess SimpleName ypoints
+float PrimitiveType CastExpression ArrayAccess SimpleName i
+pol SimpleName MethodInvocation SimpleName add point
+pol SimpleName MethodInvocation CastExpression PrimitiveType float
+pol SimpleName MethodInvocation CastExpression ArrayAccess SimpleName xpoints
+pol SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+pol SimpleName MethodInvocation CastExpression PrimitiveType float
+pol SimpleName MethodInvocation CastExpression ArrayAccess SimpleName ypoints
+pol SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+add point SimpleName MethodInvocation CastExpression PrimitiveType float
+add point SimpleName MethodInvocation CastExpression ArrayAccess SimpleName xpoints
+add point SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+add point SimpleName MethodInvocation CastExpression PrimitiveType float
+add point SimpleName MethodInvocation CastExpression ArrayAccess SimpleName ypoints
+add point SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+xpoints SimpleName ArrayAccess NumberLiteral empty
+ypoints SimpleName ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName xpoints
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName ypoints
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+xpoints SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName ypoints
+xpoints SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName ypoints
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+p SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName xpoints
+p SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+p SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName ypoints
+p SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+npoints SimpleName InfixExpression NumberLiteral empty
+xpoints SimpleName ArrayAccess InfixExpression SimpleName npoints
+xpoints SimpleName ArrayAccess InfixExpression NumberLiteral empty
+npoints SimpleName InfixExpression NumberLiteral empty
+ypoints SimpleName ArrayAccess InfixExpression SimpleName npoints
+ypoints SimpleName ArrayAccess InfixExpression NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName xpoints
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName ypoints
+xpoints SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName ypoints
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+p SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName xpoints
+p SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName ypoints
+point ddouble QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName distance
+p SimpleName MethodInvocation SimpleName p
+distance SimpleName MethodInvocation SimpleName p
+p SimpleName MethodInvocation InfixExpression SimpleName assume zero
+distance SimpleName MethodInvocation InfixExpression SimpleName assume zero
+p SimpleName MethodInvocation InfixExpression SimpleName assume zero
+npoints SimpleName InfixExpression NumberLiteral empty
+xpoints SimpleName ArrayAccess InfixExpression SimpleName npoints
+xpoints SimpleName ArrayAccess InfixExpression NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName xpoints
+float PrimitiveType CastExpression ArrayAccess InfixExpression SimpleName npoints
+float PrimitiveType CastExpression ArrayAccess InfixExpression NumberLiteral empty
+npoints SimpleName InfixExpression NumberLiteral empty
+ypoints SimpleName ArrayAccess InfixExpression SimpleName npoints
+ypoints SimpleName ArrayAccess InfixExpression NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName ypoints
+float PrimitiveType CastExpression ArrayAccess InfixExpression SimpleName npoints
+float PrimitiveType CastExpression ArrayAccess InfixExpression NumberLiteral empty
+pol SimpleName MethodInvocation SimpleName add point
+pol SimpleName MethodInvocation CastExpression PrimitiveType float
+pol SimpleName MethodInvocation CastExpression ArrayAccess SimpleName xpoints
+pol SimpleName MethodInvocation CastExpression PrimitiveType float
+pol SimpleName MethodInvocation CastExpression ArrayAccess SimpleName ypoints
+add point SimpleName MethodInvocation CastExpression PrimitiveType float
+add point SimpleName MethodInvocation CastExpression ArrayAccess SimpleName xpoints
+add point SimpleName MethodInvocation CastExpression PrimitiveType float
+add point SimpleName MethodInvocation CastExpression ArrayAccess SimpleName ypoints
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+public Modifier MethodDeclaration SimpleType SimpleName polygon d
+public Modifier MethodDeclaration SimpleName get polygon d
+public Modifier MethodDeclaration Block ReturnStatement SimpleName pol
+polygon d SimpleName SimpleType MethodDeclaration SimpleName get polygon d
+get polygon d SimpleName MethodDeclaration Block ReturnStatement SimpleName pol
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName polygon d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get polygon d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName polygon d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get polygon d

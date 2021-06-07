@@ -1,0 +1,76 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName profile
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+profile SimpleName MethodInvocation SimpleName get attribute ns
+profile SimpleName MethodInvocation SimpleName svg rendering intent attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg rendering intent attribute
+intent SimpleName VariableDeclarationFragment MethodInvocation SimpleName profile
+intent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+intent SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg rendering intent attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName intent
+intent SimpleName MethodInvocation SimpleName length
+intent SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+svg perceptual value SimpleName MethodInvocation SimpleName equals
+svg perceptual value SimpleName MethodInvocation SimpleName intent
+equals SimpleName MethodInvocation SimpleName intent
+svg auto value SimpleName MethodInvocation SimpleName equals
+svg auto value SimpleName MethodInvocation SimpleName intent
+equals SimpleName MethodInvocation SimpleName intent
+svg relative colorimetric value SimpleName MethodInvocation SimpleName equals
+svg relative colorimetric value SimpleName MethodInvocation SimpleName intent
+equals SimpleName MethodInvocation SimpleName intent
+svg absolute colorimetric value SimpleName MethodInvocation SimpleName equals
+svg absolute colorimetric value SimpleName MethodInvocation SimpleName intent
+equals SimpleName MethodInvocation SimpleName intent
+svg saturation value SimpleName MethodInvocation SimpleName equals
+svg saturation value SimpleName MethodInvocation SimpleName intent
+equals SimpleName MethodInvocation SimpleName intent
+svg rendering intent attribute SimpleName ArrayInitializer SimpleName intent
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName profile
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err attribute value malformed
+ctx SimpleName ClassInstanceCreation SimpleName profile
+ctx SimpleName ClassInstanceCreation SimpleName err attribute value malformed
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg rendering intent attribute
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName intent
+profile SimpleName ClassInstanceCreation SimpleName err attribute value malformed
+profile SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg rendering intent attribute
+profile SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName intent
+err attribute value malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg rendering intent attribute
+err attribute value malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName intent
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName convert intent
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName profile
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName convert intent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName profile
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+int PrimitiveType MethodDeclaration SimpleName convert intent
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName profile
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert intent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert intent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName profile
+convert intent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+convert intent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+profile SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert intent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName profile
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert intent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName profile
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

@@ -1,0 +1,152 @@
+int PrimitiveType SingleVariableDeclaration SimpleName bits to get
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName next
+b SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName next
+datalength QualifiedName InfixExpression NumberLiteral empty
+l SimpleName VariableDeclarationFragment InfixExpression QualifiedName datalength
+l SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName datalength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+bp SimpleName VariableDeclarationFragment FieldAccess SimpleName byte pointer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bp
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment FieldAccess SimpleName byte pointer
+fill order SimpleName InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess SimpleName bp
+b SimpleName Assignment ArrayAccess SimpleName data
+b SimpleName Assignment ArrayAccess SimpleName bp
+bp SimpleName InfixExpression SimpleName l
+next SimpleName Assignment NumberLiteral x
+bp SimpleName InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression SimpleName bp
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+next SimpleName Assignment ArrayAccess SimpleName data
+next SimpleName Assignment ArrayAccess InfixExpression SimpleName bp
+next SimpleName Assignment ArrayAccess InfixExpression NumberLiteral empty
+fill order SimpleName InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess SimpleName bp
+data SimpleName ArrayAccess InfixExpression NumberLiteral xff
+bp SimpleName ArrayAccess InfixExpression NumberLiteral xff
+flip table SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName data
+flip table SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName bp
+flip table SimpleName ArrayAccess InfixExpression NumberLiteral xff
+b SimpleName Assignment ArrayAccess SimpleName flip table
+b SimpleName Assignment ArrayAccess InfixExpression NumberLiteral xff
+bp SimpleName InfixExpression SimpleName l
+next SimpleName Assignment NumberLiteral x
+bp SimpleName InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression SimpleName bp
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression NumberLiteral xff
+bp SimpleName InfixExpression ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral InfixExpression ArrayAccess InfixExpression NumberLiteral xff
+flip table SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName data
+flip table SimpleName ArrayAccess InfixExpression NumberLiteral xff
+next SimpleName Assignment ArrayAccess SimpleName flip table
+next SimpleName Assignment ArrayAccess InfixExpression NumberLiteral xff
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff fax decoder
+empty NumberLiteral InfixExpression SimpleName bit pointer
+bits left SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+bits left SimpleName VariableDeclarationFragment InfixExpression SimpleName bit pointer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bits left
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName bit pointer
+bits to get SimpleName InfixExpression SimpleName bits left
+bits from next byte SimpleName VariableDeclarationFragment InfixExpression SimpleName bits to get
+bits from next byte SimpleName VariableDeclarationFragment InfixExpression SimpleName bits left
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bits from next byte
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName bits to get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName bits left
+bits left SimpleName InfixExpression SimpleName bits to get
+shift SimpleName VariableDeclarationFragment InfixExpression SimpleName bits left
+shift SimpleName VariableDeclarationFragment InfixExpression SimpleName bits to get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName shift
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName bits left
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName bits to get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+shift SimpleName InfixExpression NumberLiteral empty
+table SimpleName ArrayAccess SimpleName bits left
+b SimpleName InfixExpression ArrayAccess SimpleName table
+b SimpleName InfixExpression ArrayAccess SimpleName bits left
+b SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName shift
+i SimpleName Assignment InfixExpression SimpleName shift
+bit pointer SimpleName Assignment SimpleName bits to get
+bit pointer SimpleName InfixExpression NumberLiteral empty
+bit pointer SimpleName Assignment NumberLiteral empty
+table SimpleName ArrayAccess SimpleName bits left
+b SimpleName InfixExpression ArrayAccess SimpleName table
+b SimpleName InfixExpression ArrayAccess SimpleName bits left
+table SimpleName ArrayAccess SimpleName bits from next byte
+next SimpleName InfixExpression ArrayAccess SimpleName table
+next SimpleName InfixExpression ArrayAccess SimpleName bits from next byte
+empty NumberLiteral InfixExpression SimpleName bits from next byte
+i SimpleName Assignment SimpleName i
+bit pointer SimpleName Assignment SimpleName bits from next byte
+byte PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+byte PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+byte PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+byte PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName i
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName i
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName next lesser than bits
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName bits to get
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block ReturnStatement SimpleName i
+int PrimitiveType MethodDeclaration SimpleName next lesser than bits
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bits to get
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName i
+next lesser than bits SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+next lesser than bits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bits to get
+next lesser than bits SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType byte
+next lesser than bits SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+next lesser than bits SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+next lesser than bits SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+next lesser than bits SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+next lesser than bits SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+next lesser than bits SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+next lesser than bits SimpleName MethodDeclaration Block ReturnStatement SimpleName i
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName next lesser than bits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bits to get
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next lesser than bits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bits to get

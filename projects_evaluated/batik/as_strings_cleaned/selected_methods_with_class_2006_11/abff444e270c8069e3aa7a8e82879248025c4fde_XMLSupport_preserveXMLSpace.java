@@ -1,0 +1,63 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName data
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+data SimpleName MethodInvocation SimpleName length
+i SimpleName InfixExpression MethodInvocation SimpleName data
+i SimpleName InfixExpression MethodInvocation SimpleName length
+data SimpleName MethodInvocation SimpleName char at
+data SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName data
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName data
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName i
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation SimpleName c
+append SimpleName MethodInvocation SimpleName c
+c SimpleName SwitchStatement SwitchCase NumberLiteral empty
+c SimpleName SwitchStatement SwitchCase NumberLiteral empty
+c SimpleName SwitchStatement SwitchCase CharacterLiteral t
+c SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName result
+c SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName append
+c SimpleName SwitchStatement ExpressionStatement MethodInvocation CharacterLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral t
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral t
+char PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName c
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+result SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName preserve xml space
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName preserve xml space
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+string SimpleName SimpleType MethodDeclaration SimpleName preserve xml space
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data
+preserve xml space SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+preserve xml space SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName preserve xml space
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName preserve xml space
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

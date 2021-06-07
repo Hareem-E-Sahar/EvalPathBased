@@ -1,0 +1,13 @@
+graphics node mouse wheel listener SimpleName SimpleType SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName remove graphics node mouse wheel listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse wheel listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+remove graphics node mouse wheel listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse wheel listener
+remove graphics node mouse wheel listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove graphics node mouse wheel listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove graphics node mouse wheel listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

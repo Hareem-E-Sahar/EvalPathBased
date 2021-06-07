@@ -1,0 +1,6 @@
+cursor SimpleName SimpleType MethodDeclaration SimpleName get cursor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cursor
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cursor
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cursor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cursor

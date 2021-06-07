@@ -1,0 +1,500 @@
+render context SimpleName SimpleType SingleVariableDeclaration SimpleName rc
+rc SimpleName MethodInvocation SimpleName get rendering hints
+rh SimpleName VariableDeclarationFragment MethodInvocation SimpleName rc
+rh SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rendering hints
+rendering hints SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rh
+rh SimpleName Assignment ClassInstanceCreation SimpleType SimpleName rendering hints
+rc SimpleName MethodInvocation SimpleName get transform
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName rc
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+at SimpleName MethodInvocation SimpleName get scale x
+sx SimpleName VariableDeclarationFragment MethodInvocation SimpleName at
+sx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get scale x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sx
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName at
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get scale x
+at SimpleName MethodInvocation SimpleName get scale y
+sy SimpleName VariableDeclarationFragment MethodInvocation SimpleName at
+sy SimpleName VariableDeclarationFragment MethodInvocation SimpleName get scale y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sy
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName at
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get scale y
+at SimpleName MethodInvocation SimpleName get shear x
+shx SimpleName VariableDeclarationFragment MethodInvocation SimpleName at
+shx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get shear x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName shx
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName at
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get shear x
+at SimpleName MethodInvocation SimpleName get shear y
+shy SimpleName VariableDeclarationFragment MethodInvocation SimpleName at
+shy SimpleName VariableDeclarationFragment MethodInvocation SimpleName get shear y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName shy
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName at
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get shear y
+at SimpleName MethodInvocation SimpleName get translate x
+tx SimpleName VariableDeclarationFragment MethodInvocation SimpleName at
+tx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get translate x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tx
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName at
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get translate x
+at SimpleName MethodInvocation SimpleName get translate y
+ty SimpleName VariableDeclarationFragment MethodInvocation SimpleName at
+ty SimpleName VariableDeclarationFragment MethodInvocation SimpleName get translate y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName at
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get translate y
+sx SimpleName InfixExpression SimpleName sx
+shx SimpleName InfixExpression SimpleName shx
+sx SimpleName InfixExpression InfixExpression InfixExpression SimpleName shx
+sx SimpleName InfixExpression InfixExpression InfixExpression SimpleName shx
+sx SimpleName InfixExpression InfixExpression InfixExpression SimpleName shx
+sx SimpleName InfixExpression InfixExpression InfixExpression SimpleName shx
+math SimpleName MethodInvocation SimpleName sqrt
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName sx
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName sx
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName shx
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName shx
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName sx
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName sx
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName shx
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName shx
+scale x SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+scale x SimpleName VariableDeclarationFragment MethodInvocation SimpleName sqrt
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName scale x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sqrt
+sy SimpleName InfixExpression SimpleName sy
+shy SimpleName InfixExpression SimpleName shy
+sy SimpleName InfixExpression InfixExpression InfixExpression SimpleName shy
+sy SimpleName InfixExpression InfixExpression InfixExpression SimpleName shy
+sy SimpleName InfixExpression InfixExpression InfixExpression SimpleName shy
+sy SimpleName InfixExpression InfixExpression InfixExpression SimpleName shy
+math SimpleName MethodInvocation SimpleName sqrt
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName sy
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName sy
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName shy
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName shy
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName sy
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName sy
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName shy
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName shy
+scale y SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+scale y SimpleName VariableDeclarationFragment MethodInvocation SimpleName sqrt
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName scale y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sqrt
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src at
+affine transform SimpleName MethodInvocation SimpleName get scale instance
+affine transform SimpleName MethodInvocation SimpleName scale x
+affine transform SimpleName MethodInvocation SimpleName scale y
+get scale instance SimpleName MethodInvocation SimpleName scale x
+get scale instance SimpleName MethodInvocation SimpleName scale y
+scale x SimpleName MethodInvocation SimpleName scale y
+src at SimpleName Assignment MethodInvocation SimpleName affine transform
+src at SimpleName Assignment MethodInvocation SimpleName get scale instance
+src at SimpleName Assignment MethodInvocation SimpleName scale x
+src at SimpleName Assignment MethodInvocation SimpleName scale y
+std deviation x SimpleName InfixExpression SimpleName scale x
+sdx SimpleName VariableDeclarationFragment InfixExpression SimpleName std deviation x
+sdx SimpleName VariableDeclarationFragment InfixExpression SimpleName scale x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sdx
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName std deviation x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName scale x
+std deviation y SimpleName InfixExpression SimpleName scale y
+sdy SimpleName VariableDeclarationFragment InfixExpression SimpleName std deviation y
+sdy SimpleName VariableDeclarationFragment InfixExpression SimpleName scale y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sdy
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName std deviation y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName scale y
+gaussian blur op SimpleName SimpleType ClassInstanceCreation SimpleName sdx
+gaussian blur op SimpleName SimpleType ClassInstanceCreation SimpleName sdy
+gaussian blur op SimpleName SimpleType ClassInstanceCreation SimpleName rh
+sdx SimpleName ClassInstanceCreation SimpleName sdy
+sdx SimpleName ClassInstanceCreation SimpleName rh
+sdy SimpleName ClassInstanceCreation SimpleName rh
+op SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName gaussian blur op
+op SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sdx
+op SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sdy
+op SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName rh
+gaussian blur op SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName op
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName res at
+sx SimpleName InfixExpression SimpleName scale x
+shy SimpleName InfixExpression SimpleName scale y
+shx SimpleName InfixExpression SimpleName scale x
+sy SimpleName InfixExpression SimpleName scale y
+affine transform SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName sx
+affine transform SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName scale x
+affine transform SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName shy
+affine transform SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName scale y
+affine transform SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName shx
+affine transform SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName scale x
+affine transform SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName sy
+affine transform SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName scale y
+affine transform SimpleName SimpleType ClassInstanceCreation SimpleName tx
+sx SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName shy
+sx SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName scale y
+scale x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName shy
+scale x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName scale y
+sx SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName shx
+sx SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName scale x
+scale x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName shx
+scale x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName scale x
+sx SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName sy
+sx SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName scale y
+scale x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName sy
+scale x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName scale y
+sx SimpleName InfixExpression ClassInstanceCreation SimpleName tx
+scale x SimpleName InfixExpression ClassInstanceCreation SimpleName tx
+sx SimpleName InfixExpression ClassInstanceCreation SimpleName ty
+scale x SimpleName InfixExpression ClassInstanceCreation SimpleName ty
+shy SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName shx
+shy SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName scale x
+scale y SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName shx
+scale y SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName scale x
+shy SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName sy
+shy SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName scale y
+scale y SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName sy
+scale y SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName scale y
+shy SimpleName InfixExpression ClassInstanceCreation SimpleName tx
+scale y SimpleName InfixExpression ClassInstanceCreation SimpleName tx
+shy SimpleName InfixExpression ClassInstanceCreation SimpleName ty
+scale y SimpleName InfixExpression ClassInstanceCreation SimpleName ty
+shx SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName sy
+shx SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName scale y
+scale x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName sy
+scale x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName scale y
+shx SimpleName InfixExpression ClassInstanceCreation SimpleName tx
+scale x SimpleName InfixExpression ClassInstanceCreation SimpleName tx
+shx SimpleName InfixExpression ClassInstanceCreation SimpleName ty
+scale x SimpleName InfixExpression ClassInstanceCreation SimpleName ty
+sy SimpleName InfixExpression ClassInstanceCreation SimpleName tx
+scale y SimpleName InfixExpression ClassInstanceCreation SimpleName tx
+sy SimpleName InfixExpression ClassInstanceCreation SimpleName ty
+scale y SimpleName InfixExpression ClassInstanceCreation SimpleName ty
+tx SimpleName ClassInstanceCreation SimpleName ty
+res at SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+res at SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName sx
+res at SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName scale x
+res at SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName shy
+res at SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName scale y
+res at SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName shx
+res at SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName scale x
+res at SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName sy
+res at SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName scale y
+res at SimpleName Assignment ClassInstanceCreation SimpleName tx
+res at SimpleName Assignment ClassInstanceCreation SimpleName ty
+rc SimpleName MethodInvocation SimpleName get area of interest
+aoi SimpleName VariableDeclarationFragment MethodInvocation SimpleName rc
+aoi SimpleName VariableDeclarationFragment MethodInvocation SimpleName get area of interest
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aoi
+aoi SimpleName Assignment MethodInvocation SimpleName get bounds d
+op SimpleName MethodInvocation SimpleName get radius x
+blur rad x SimpleName VariableDeclarationFragment MethodInvocation SimpleName op
+blur rad x SimpleName VariableDeclarationFragment MethodInvocation SimpleName get radius x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName blur rad x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName op
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get radius x
+op SimpleName MethodInvocation SimpleName get radius y
+blur rad y SimpleName VariableDeclarationFragment MethodInvocation SimpleName op
+blur rad y SimpleName VariableDeclarationFragment MethodInvocation SimpleName get radius y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName blur rad y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName op
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get radius y
+aoi SimpleName MethodInvocation SimpleName get bounds d
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName aoi
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+r SimpleName MethodInvocation SimpleName get x
+r SimpleName MethodInvocation InfixExpression SimpleName blur rad x
+get x SimpleName MethodInvocation InfixExpression SimpleName blur rad x
+r SimpleName MethodInvocation SimpleName get y
+r SimpleName MethodInvocation InfixExpression SimpleName blur rad y
+get y SimpleName MethodInvocation InfixExpression SimpleName blur rad y
+r SimpleName MethodInvocation SimpleName get width
+empty NumberLiteral InfixExpression SimpleName blur rad x
+r SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+r SimpleName MethodInvocation InfixExpression InfixExpression SimpleName blur rad x
+get width SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get width SimpleName MethodInvocation InfixExpression InfixExpression SimpleName blur rad x
+r SimpleName MethodInvocation SimpleName get height
+empty NumberLiteral InfixExpression SimpleName blur rad y
+r SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+r SimpleName MethodInvocation InfixExpression InfixExpression SimpleName blur rad y
+get height SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get height SimpleName MethodInvocation InfixExpression InfixExpression SimpleName blur rad y
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName blur rad x
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName blur rad y
+blur rad x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName blur rad y
+r SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName rectangle ddouble
+r SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName blur rad x
+r SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName blur rad y
+rendered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ri
+render context SimpleName SimpleType ClassInstanceCreation SimpleName src at
+render context SimpleName SimpleType ClassInstanceCreation SimpleName r
+render context SimpleName SimpleType ClassInstanceCreation SimpleName rh
+src at SimpleName ClassInstanceCreation SimpleName r
+src at SimpleName ClassInstanceCreation SimpleName rh
+r SimpleName ClassInstanceCreation SimpleName rh
+get source SimpleName MethodInvocation MethodInvocation SimpleName create rendering
+get source SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName src at
+get source SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName r
+get source SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName rh
+create rendering SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName render context
+create rendering SimpleName MethodInvocation ClassInstanceCreation SimpleName src at
+create rendering SimpleName MethodInvocation ClassInstanceCreation SimpleName r
+create rendering SimpleName MethodInvocation ClassInstanceCreation SimpleName rh
+ri SimpleName Assignment MethodInvocation MethodInvocation SimpleName get source
+ri SimpleName Assignment MethodInvocation SimpleName create rendering
+ri SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName src at
+ri SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName r
+ri SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName rh
+cachable red SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cr
+concrete rendered image cachable red SimpleName SimpleType ClassInstanceCreation SimpleName ri
+cr SimpleName Assignment ClassInstanceCreation SimpleType SimpleName concrete rendered image cachable red
+cr SimpleName Assignment ClassInstanceCreation SimpleName ri
+cr SimpleName MethodInvocation SimpleName get bounds
+r SimpleName Assignment MethodInvocation SimpleName cr
+r SimpleName Assignment MethodInvocation SimpleName get bounds
+r SimpleName MethodInvocation SimpleName get x
+r SimpleName MethodInvocation InfixExpression SimpleName blur rad x
+get x SimpleName MethodInvocation InfixExpression SimpleName blur rad x
+r SimpleName MethodInvocation SimpleName get y
+r SimpleName MethodInvocation InfixExpression SimpleName blur rad y
+get y SimpleName MethodInvocation InfixExpression SimpleName blur rad y
+r SimpleName MethodInvocation SimpleName get width
+empty NumberLiteral InfixExpression SimpleName blur rad x
+r SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+r SimpleName MethodInvocation InfixExpression InfixExpression SimpleName blur rad x
+get width SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get width SimpleName MethodInvocation InfixExpression InfixExpression SimpleName blur rad x
+r SimpleName MethodInvocation SimpleName get height
+empty NumberLiteral InfixExpression SimpleName blur rad y
+r SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+r SimpleName MethodInvocation InfixExpression InfixExpression SimpleName blur rad y
+get height SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get height SimpleName MethodInvocation InfixExpression InfixExpression SimpleName blur rad y
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName blur rad x
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName blur rad y
+blur rad x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName blur rad y
+r SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName rectangle ddouble
+r SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName blur rad x
+r SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName blur rad y
+r SimpleName MethodInvocation SimpleName get bounds
+pad red SimpleName SimpleType ClassInstanceCreation SimpleName cr
+pad red SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName r
+pad red SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get bounds
+pad red SimpleName SimpleType ClassInstanceCreation QualifiedName pad modezero pad
+pad red SimpleName SimpleType ClassInstanceCreation SimpleName rh
+cr SimpleName ClassInstanceCreation MethodInvocation SimpleName r
+cr SimpleName ClassInstanceCreation MethodInvocation SimpleName get bounds
+cr SimpleName ClassInstanceCreation QualifiedName pad modezero pad
+cr SimpleName ClassInstanceCreation SimpleName rh
+r SimpleName MethodInvocation ClassInstanceCreation QualifiedName pad modezero pad
+get bounds SimpleName MethodInvocation ClassInstanceCreation QualifiedName pad modezero pad
+r SimpleName MethodInvocation ClassInstanceCreation SimpleName rh
+get bounds SimpleName MethodInvocation ClassInstanceCreation SimpleName rh
+pad modezero pad QualifiedName ClassInstanceCreation SimpleName rh
+cr SimpleName Assignment ClassInstanceCreation SimpleType SimpleName pad red
+cr SimpleName Assignment ClassInstanceCreation SimpleName cr
+cr SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName r
+cr SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get bounds
+cr SimpleName Assignment ClassInstanceCreation QualifiedName pad modezero pad
+cr SimpleName Assignment ClassInstanceCreation SimpleName rh
+ri SimpleName MethodInvocation SimpleName get color model
+cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName ri
+cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get color model
+color model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cr SimpleName MethodInvocation SimpleName get data
+rr SimpleName VariableDeclarationFragment MethodInvocation SimpleName cr
+rr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data
+raster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rr
+point SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+point SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName point
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+point SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pt
+rr SimpleName MethodInvocation SimpleName get sample model
+rr SimpleName MethodInvocation SimpleName get data buffer
+raster SimpleName MethodInvocation SimpleName create writable raster
+raster SimpleName MethodInvocation MethodInvocation SimpleName rr
+raster SimpleName MethodInvocation MethodInvocation SimpleName get sample model
+raster SimpleName MethodInvocation MethodInvocation SimpleName rr
+raster SimpleName MethodInvocation MethodInvocation SimpleName get data buffer
+raster SimpleName MethodInvocation SimpleName pt
+create writable raster SimpleName MethodInvocation MethodInvocation SimpleName rr
+create writable raster SimpleName MethodInvocation MethodInvocation SimpleName get sample model
+create writable raster SimpleName MethodInvocation MethodInvocation SimpleName rr
+create writable raster SimpleName MethodInvocation MethodInvocation SimpleName get data buffer
+create writable raster SimpleName MethodInvocation SimpleName pt
+rr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rr
+rr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get data buffer
+get sample model SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName rr
+get sample model SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get data buffer
+rr SimpleName MethodInvocation MethodInvocation SimpleName pt
+get sample model SimpleName MethodInvocation MethodInvocation SimpleName pt
+rr SimpleName MethodInvocation MethodInvocation SimpleName pt
+get data buffer SimpleName MethodInvocation MethodInvocation SimpleName pt
+wr SimpleName VariableDeclarationFragment MethodInvocation SimpleName raster
+wr SimpleName VariableDeclarationFragment MethodInvocation SimpleName create writable raster
+wr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rr
+wr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get sample model
+wr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rr
+wr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get data buffer
+wr SimpleName VariableDeclarationFragment MethodInvocation SimpleName pt
+writable raster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wr
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src bi
+cm SimpleName MethodInvocation SimpleName is alpha premultiplied
+buffered image SimpleName SimpleType ClassInstanceCreation SimpleName cm
+buffered image SimpleName SimpleType ClassInstanceCreation SimpleName wr
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName cm
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+cm SimpleName ClassInstanceCreation SimpleName wr
+cm SimpleName ClassInstanceCreation MethodInvocation SimpleName cm
+cm SimpleName ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+wr SimpleName ClassInstanceCreation MethodInvocation SimpleName cm
+wr SimpleName ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+src bi SimpleName Assignment ClassInstanceCreation SimpleType SimpleName buffered image
+src bi SimpleName Assignment ClassInstanceCreation SimpleName cm
+src bi SimpleName Assignment ClassInstanceCreation SimpleName wr
+src bi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName cm
+src bi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dest bi
+op SimpleName MethodInvocation SimpleName filter
+op SimpleName MethodInvocation SimpleName src bi
+filter SimpleName MethodInvocation SimpleName src bi
+dest bi SimpleName Assignment MethodInvocation SimpleName op
+dest bi SimpleName Assignment MethodInvocation SimpleName filter
+dest bi SimpleName Assignment MethodInvocation SimpleName src bi
+cr SimpleName MethodInvocation SimpleName get min x
+rr min x SimpleName VariableDeclarationFragment MethodInvocation SimpleName cr
+rr min x SimpleName VariableDeclarationFragment MethodInvocation SimpleName get min x
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName rr min x
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cr
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get min x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rr min x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cr
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get min x
+cr SimpleName MethodInvocation SimpleName get min y
+rr min y SimpleName VariableDeclarationFragment MethodInvocation SimpleName cr
+rr min y SimpleName VariableDeclarationFragment MethodInvocation SimpleName get min y
+final Modifier VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName rr min y
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cr
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get min y
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rr min y
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cr
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get min y
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get min x
+public Modifier MethodDeclaration Block ReturnStatement SimpleName rr min x
+int PrimitiveType MethodDeclaration SimpleName get min x
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName rr min x
+get min x SimpleName MethodDeclaration Block ReturnStatement SimpleName rr min x
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get min y
+public Modifier MethodDeclaration Block ReturnStatement SimpleName rr min y
+int PrimitiveType MethodDeclaration SimpleName get min y
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName rr min y
+get min y SimpleName MethodDeclaration Block ReturnStatement SimpleName rr min y
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get min y
+int PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+int PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get min y
+get min x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get min x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+get min x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get min y
+concrete buffered image cachable red SimpleName SimpleType ClassInstanceCreation SimpleName dest bi
+dest bi SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+dest bi SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+dest bi SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get min x
+dest bi SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+dest bi SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+dest bi SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get min y
+cr SimpleName Assignment ClassInstanceCreation SimpleType SimpleName concrete buffered image cachable red
+cr SimpleName Assignment ClassInstanceCreation SimpleName dest bi
+res at SimpleName MethodInvocation SimpleName is identity
+affine red SimpleName SimpleType ClassInstanceCreation SimpleName cr
+affine red SimpleName SimpleType ClassInstanceCreation SimpleName res at
+affine red SimpleName SimpleType ClassInstanceCreation SimpleName rh
+cr SimpleName ClassInstanceCreation SimpleName res at
+cr SimpleName ClassInstanceCreation SimpleName rh
+res at SimpleName ClassInstanceCreation SimpleName rh
+cr SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine red
+cr SimpleName Assignment ClassInstanceCreation SimpleName cr
+cr SimpleName Assignment ClassInstanceCreation SimpleName res at
+cr SimpleName Assignment ClassInstanceCreation SimpleName rh
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName cr
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName cr
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName cr
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName cr
+public Modifier MethodDeclaration SimpleType SimpleName rendered image
+public Modifier MethodDeclaration SimpleName create rendering
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rc
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cr
+rendered image SimpleName SimpleType MethodDeclaration SimpleName create rendering
+rendered image SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rc
+create rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+create rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rc
+create rendering SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+create rendering SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+create rendering SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+create rendering SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double

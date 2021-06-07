@@ -1,0 +1,31 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ln
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName ln
+get attribute ns SimpleName MethodInvocation SimpleName ln
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName ln
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+parse values SimpleName MethodInvocation SimpleName s
+parse values SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+s SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+protected Modifier MethodDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SimpleName parse length pair
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ln
+animatable value SimpleName SimpleType MethodDeclaration SimpleName parse length pair
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ln
+parse length pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse length pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse length pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse length pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln

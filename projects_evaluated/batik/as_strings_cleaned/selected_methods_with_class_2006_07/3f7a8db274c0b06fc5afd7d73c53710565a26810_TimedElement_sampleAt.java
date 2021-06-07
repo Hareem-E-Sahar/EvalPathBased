@@ -1,0 +1,404 @@
+float PrimitiveType SingleVariableDeclaration SimpleName parent simple time
+float SimpleName SimpleType ClassInstanceCreation SimpleName parent simple time
+trace SimpleName MethodInvocation SimpleName enter
+trace SimpleName MethodInvocation StringLiteral sample at
+enter SimpleName MethodInvocation StringLiteral sample at
+time SimpleName VariableDeclarationFragment SimpleName parent simple time
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName time
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent simple time
+handled events SimpleName MethodInvocation SimpleName entry set
+handled events SimpleName MethodInvocation MethodInvocation SimpleName iterator
+entry set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName handled events
+i SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry set
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+mapentry QualifiedName SimpleType CastExpression MethodInvocation SimpleName i
+mapentry QualifiedName SimpleType CastExpression MethodInvocation SimpleName next
+e SimpleName VariableDeclarationFragment CastExpression SimpleType QualifiedName mapentry
+e SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+e SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+mapentry QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get key
+event SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+event SimpleName SimpleType CastExpression MethodInvocation SimpleName get key
+evt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName event
+evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get key
+event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName evt
+e SimpleName MethodInvocation SimpleName get value
+hash set SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+hash set SimpleName SimpleType CastExpression MethodInvocation SimpleName get value
+ts SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName hash set
+ts SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+ts SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get value
+hash set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+ts SimpleName MethodInvocation SimpleName iterator
+j SimpleName VariableDeclarationFragment MethodInvocation SimpleName ts
+j SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName j
+has begin SimpleName VariableDeclarationFragment BooleanLiteral false
+has end SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has begin
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has end
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+has begin SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName has end
+has begin SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+false BooleanLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName has end
+false BooleanLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+j SimpleName MethodInvocation SimpleName has next
+has begin SimpleName InfixExpression SimpleName has end
+j SimpleName MethodInvocation SimpleName next
+event like timing specifier SimpleName SimpleType CastExpression MethodInvocation SimpleName j
+event like timing specifier SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+t SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName event like timing specifier
+t SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName j
+t SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+event like timing specifier SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName MethodInvocation SimpleName is begin
+has begin SimpleName Assignment BooleanLiteral true
+has end SimpleName Assignment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName use begin
+has begin SimpleName InfixExpression SimpleName has end
+restart mode SimpleName InfixExpression SimpleName restart always
+is active SimpleName PrefixExpression InfixExpression InfixExpression SimpleName restart mode
+is active SimpleName PrefixExpression InfixExpression InfixExpression SimpleName restart always
+use begin SimpleName Assignment InfixExpression PrefixExpression SimpleName is active
+use begin SimpleName Assignment InfixExpression InfixExpression SimpleName restart mode
+use begin SimpleName Assignment InfixExpression InfixExpression SimpleName restart always
+restart mode SimpleName InfixExpression SimpleName restart always
+is active SimpleName PrefixExpression InfixExpression InfixExpression SimpleName restart mode
+is active SimpleName PrefixExpression InfixExpression InfixExpression SimpleName restart always
+use begin SimpleName Assignment BooleanLiteral true
+has end SimpleName InfixExpression SimpleName is active
+use begin SimpleName Assignment BooleanLiteral false
+ts SimpleName MethodInvocation SimpleName iterator
+j SimpleName Assignment MethodInvocation SimpleName ts
+j SimpleName Assignment MethodInvocation SimpleName iterator
+j SimpleName MethodInvocation SimpleName has next
+j SimpleName MethodInvocation SimpleName next
+event like timing specifier SimpleName SimpleType CastExpression MethodInvocation SimpleName j
+event like timing specifier SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+t SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName event like timing specifier
+t SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName j
+t SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+event like timing specifier SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName MethodInvocation SimpleName is begin
+t SimpleName MethodInvocation InfixExpression SimpleName use begin
+is begin SimpleName MethodInvocation InfixExpression SimpleName use begin
+t SimpleName MethodInvocation SimpleName resolve
+t SimpleName MethodInvocation SimpleName evt
+resolve SimpleName MethodInvocation SimpleName evt
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+handled events SimpleName MethodInvocation SimpleName clear
+current interval SimpleName MethodInvocation SimpleName get begin
+begin SimpleName VariableDeclarationFragment MethodInvocation SimpleName current interval
+begin SimpleName VariableDeclarationFragment MethodInvocation SimpleName get begin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current interval
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get begin
+last sample time SimpleName InfixExpression SimpleName begin
+time SimpleName InfixExpression SimpleName begin
+last sample time SimpleName InfixExpression InfixExpression InfixExpression SimpleName time
+last sample time SimpleName InfixExpression InfixExpression InfixExpression SimpleName begin
+begin SimpleName InfixExpression InfixExpression InfixExpression SimpleName time
+begin SimpleName InfixExpression InfixExpression InfixExpression SimpleName begin
+to active SimpleName MethodInvocation SimpleName begin
+is active SimpleName Assignment BooleanLiteral true
+last repeat time SimpleName Assignment SimpleName begin
+current interval SimpleName MethodInvocation SimpleName get begin
+fire time event SimpleName MethodInvocation SimpleName smil begin event name
+fire time event SimpleName MethodInvocation MethodInvocation SimpleName current interval
+fire time event SimpleName MethodInvocation MethodInvocation SimpleName get begin
+fire time event SimpleName MethodInvocation NumberLiteral empty
+smil begin event name SimpleName MethodInvocation MethodInvocation SimpleName current interval
+smil begin event name SimpleName MethodInvocation MethodInvocation SimpleName get begin
+smil begin event name SimpleName MethodInvocation NumberLiteral empty
+current interval SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get begin SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+was active SimpleName VariableDeclarationFragment SimpleName is active
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName was active
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is active
+current interval SimpleName MethodInvocation SimpleName get end
+time SimpleName InfixExpression MethodInvocation SimpleName current interval
+time SimpleName InfixExpression MethodInvocation SimpleName get end
+current interval SimpleName InfixExpression InfixExpression InfixExpression SimpleName time
+has ended SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName current interval
+has ended SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName time
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has ended
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName get simple dur
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get simple dur
+time SimpleName InfixExpression SimpleName last repeat time
+time SimpleName InfixExpression InfixExpression SimpleName d
+last repeat time SimpleName InfixExpression InfixExpression SimpleName d
+last repeat time SimpleName InfixExpression SimpleName d
+current interval SimpleName MethodInvocation SimpleName get end
+last repeat time SimpleName InfixExpression InfixExpression MethodInvocation SimpleName current interval
+last repeat time SimpleName InfixExpression InfixExpression MethodInvocation SimpleName get end
+d SimpleName InfixExpression InfixExpression MethodInvocation SimpleName current interval
+d SimpleName InfixExpression InfixExpression MethodInvocation SimpleName get end
+last repeat time SimpleName Assignment SimpleName d
+root SimpleName MethodInvocation SimpleName get repeat event name
+fire time event SimpleName MethodInvocation MethodInvocation SimpleName root
+fire time event SimpleName MethodInvocation MethodInvocation SimpleName get repeat event name
+fire time event SimpleName MethodInvocation SimpleName last repeat time
+fire time event SimpleName MethodInvocation SimpleName current repeat iteration
+root SimpleName MethodInvocation MethodInvocation SimpleName last repeat time
+get repeat event name SimpleName MethodInvocation MethodInvocation SimpleName last repeat time
+root SimpleName MethodInvocation MethodInvocation SimpleName current repeat iteration
+get repeat event name SimpleName MethodInvocation MethodInvocation SimpleName current repeat iteration
+last repeat time SimpleName MethodInvocation SimpleName current repeat iteration
+trace SimpleName MethodInvocation SimpleName print
+trace SimpleName MethodInvocation StringLiteral begin loop
+print SimpleName MethodInvocation StringLiteral begin loop
+should update current interval SimpleName InfixExpression SimpleName has ended
+previous intervals SimpleName MethodInvocation SimpleName add
+previous intervals SimpleName MethodInvocation SimpleName current interval
+add SimpleName MethodInvocation SimpleName current interval
+is active SimpleName Assignment BooleanLiteral false
+is frozen SimpleName Assignment BooleanLiteral false
+current interval SimpleName MethodInvocation SimpleName get end
+fire time event SimpleName MethodInvocation SimpleName smil end event name
+fire time event SimpleName MethodInvocation MethodInvocation SimpleName current interval
+fire time event SimpleName MethodInvocation MethodInvocation SimpleName get end
+fire time event SimpleName MethodInvocation NumberLiteral empty
+smil end event name SimpleName MethodInvocation MethodInvocation SimpleName current interval
+smil end event name SimpleName MethodInvocation MethodInvocation SimpleName get end
+smil end event name SimpleName MethodInvocation NumberLiteral empty
+current interval SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get end SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+previous intervals SimpleName MethodInvocation SimpleName is empty
+current interval SimpleName InfixExpression InfixExpression MethodInvocation SimpleName previous intervals
+current interval SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is empty
+first SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName current interval
+first SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName previous intervals
+first SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName is empty
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first
+current interval SimpleName InfixExpression InfixExpression SimpleName has ended
+restart mode SimpleName InfixExpression SimpleName restart never
+first SimpleName InfixExpression InfixExpression SimpleName restart mode
+first SimpleName InfixExpression InfixExpression SimpleName restart never
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin after
+begin after SimpleName Assignment QualifiedName floatnegative infinity
+previous intervals SimpleName MethodInvocation SimpleName get last
+interval SimpleName SimpleType CastExpression MethodInvocation SimpleName previous intervals
+interval SimpleName SimpleType CastExpression MethodInvocation SimpleName get last
+begin after SimpleName Assignment MethodInvocation SimpleName get end
+compute interval SimpleName MethodInvocation SimpleName first
+compute interval SimpleName MethodInvocation BooleanLiteral false
+compute interval SimpleName MethodInvocation SimpleName begin after
+first SimpleName MethodInvocation BooleanLiteral false
+first SimpleName MethodInvocation SimpleName begin after
+false BooleanLiteral MethodInvocation SimpleName begin after
+current interval SimpleName Assignment MethodInvocation SimpleName compute interval
+current interval SimpleName Assignment MethodInvocation SimpleName first
+current interval SimpleName Assignment MethodInvocation BooleanLiteral false
+current interval SimpleName Assignment MethodInvocation SimpleName begin after
+creating new interval StringLiteral InfixExpression SimpleName current interval
+creating new interval StringLiteral InfixExpression StringLiteral propagating to
+current interval SimpleName InfixExpression StringLiteral propagating to
+trace SimpleName MethodInvocation SimpleName print
+trace SimpleName MethodInvocation InfixExpression StringLiteral creating new interval
+trace SimpleName MethodInvocation InfixExpression SimpleName current interval
+trace SimpleName MethodInvocation InfixExpression StringLiteral propagating to
+print SimpleName MethodInvocation InfixExpression StringLiteral creating new interval
+print SimpleName MethodInvocation InfixExpression SimpleName current interval
+print SimpleName MethodInvocation InfixExpression StringLiteral propagating to
+notify new interval SimpleName MethodInvocation SimpleName current interval
+current interval SimpleName MethodInvocation SimpleName get begin
+begin event time SimpleName VariableDeclarationFragment MethodInvocation SimpleName current interval
+begin event time SimpleName VariableDeclarationFragment MethodInvocation SimpleName get begin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin event time
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current interval
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get begin
+time SimpleName InfixExpression SimpleName begin event time
+last repeat time SimpleName Assignment SimpleName begin event time
+begin event time SimpleName InfixExpression NumberLiteral empty
+begin event time SimpleName Assignment NumberLiteral empty
+is active SimpleName Assignment BooleanLiteral true
+is frozen SimpleName Assignment BooleanLiteral false
+fire time event SimpleName MethodInvocation SimpleName smil begin event name
+fire time event SimpleName MethodInvocation SimpleName begin event time
+fire time event SimpleName MethodInvocation NumberLiteral empty
+smil begin event name SimpleName MethodInvocation SimpleName begin event time
+smil begin event name SimpleName MethodInvocation NumberLiteral empty
+begin event time SimpleName MethodInvocation NumberLiteral empty
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName get simple dur
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get simple dur
+time SimpleName InfixExpression SimpleName last repeat time
+time SimpleName InfixExpression InfixExpression SimpleName d
+last repeat time SimpleName InfixExpression InfixExpression SimpleName d
+last repeat time SimpleName Assignment SimpleName d
+root SimpleName MethodInvocation SimpleName get repeat event name
+fire time event SimpleName MethodInvocation MethodInvocation SimpleName root
+fire time event SimpleName MethodInvocation MethodInvocation SimpleName get repeat event name
+fire time event SimpleName MethodInvocation SimpleName last repeat time
+fire time event SimpleName MethodInvocation SimpleName current repeat iteration
+root SimpleName MethodInvocation MethodInvocation SimpleName last repeat time
+get repeat event name SimpleName MethodInvocation MethodInvocation SimpleName last repeat time
+root SimpleName MethodInvocation MethodInvocation SimpleName current repeat iteration
+get repeat event name SimpleName MethodInvocation MethodInvocation SimpleName current repeat iteration
+last repeat time SimpleName MethodInvocation SimpleName current repeat iteration
+float PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName first
+current interval SimpleName MethodInvocation SimpleName get begin
+current begin SimpleName VariableDeclarationFragment MethodInvocation SimpleName current interval
+current begin SimpleName VariableDeclarationFragment MethodInvocation SimpleName get begin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName current begin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current interval
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get begin
+current begin SimpleName InfixExpression SimpleName time
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin after
+previous intervals SimpleName MethodInvocation SimpleName is empty
+begin after SimpleName Assignment QualifiedName floatnegative infinity
+previous intervals SimpleName MethodInvocation SimpleName get last
+interval SimpleName SimpleType CastExpression MethodInvocation SimpleName previous intervals
+interval SimpleName SimpleType CastExpression MethodInvocation SimpleName get last
+begin after SimpleName Assignment MethodInvocation SimpleName get end
+compute interval SimpleName MethodInvocation BooleanLiteral false
+compute interval SimpleName MethodInvocation BooleanLiteral false
+compute interval SimpleName MethodInvocation SimpleName begin after
+false BooleanLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation SimpleName begin after
+false BooleanLiteral MethodInvocation SimpleName begin after
+interval SimpleName VariableDeclarationFragment MethodInvocation SimpleName compute interval
+interval SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+interval SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+interval SimpleName VariableDeclarationFragment MethodInvocation SimpleName begin after
+interval SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName interval
+notify remove interval SimpleName MethodInvocation SimpleName current interval
+interval SimpleName MethodInvocation SimpleName get begin
+new begin SimpleName VariableDeclarationFragment MethodInvocation SimpleName interval
+new begin SimpleName VariableDeclarationFragment MethodInvocation SimpleName get begin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new begin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName interval
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get begin
+interval SimpleName MethodInvocation SimpleName get end
+new end SimpleName VariableDeclarationFragment MethodInvocation SimpleName interval
+new end SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new end
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName interval
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get end
+current begin SimpleName InfixExpression SimpleName new begin
+current interval SimpleName MethodInvocation SimpleName set begin
+current interval SimpleName MethodInvocation SimpleName new begin
+set begin SimpleName MethodInvocation SimpleName new begin
+current interval SimpleName MethodInvocation SimpleName get end
+current interval SimpleName MethodInvocation InfixExpression SimpleName new end
+get end SimpleName MethodInvocation InfixExpression SimpleName new end
+current interval SimpleName MethodInvocation SimpleName set end
+current interval SimpleName MethodInvocation SimpleName new end
+set end SimpleName MethodInvocation SimpleName new end
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+compute interval SimpleName MethodInvocation BooleanLiteral false
+compute interval SimpleName MethodInvocation BooleanLiteral true
+compute interval SimpleName MethodInvocation SimpleName current begin
+false BooleanLiteral MethodInvocation BooleanLiteral true
+false BooleanLiteral MethodInvocation SimpleName current begin
+true BooleanLiteral MethodInvocation SimpleName current begin
+interval SimpleName VariableDeclarationFragment MethodInvocation SimpleName compute interval
+interval SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+interval SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+interval SimpleName VariableDeclarationFragment MethodInvocation SimpleName current begin
+interval SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName interval
+interval SimpleName MethodInvocation SimpleName get end
+new end SimpleName VariableDeclarationFragment MethodInvocation SimpleName interval
+new end SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new end
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName interval
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get end
+current interval SimpleName MethodInvocation SimpleName get end
+current interval SimpleName MethodInvocation InfixExpression SimpleName new end
+get end SimpleName MethodInvocation InfixExpression SimpleName new end
+current interval SimpleName MethodInvocation SimpleName set end
+current interval SimpleName MethodInvocation SimpleName new end
+set end SimpleName MethodInvocation SimpleName new end
+should update current interval SimpleName Assignment BooleanLiteral false
+current interval SimpleName MethodInvocation SimpleName get end
+time SimpleName InfixExpression MethodInvocation SimpleName current interval
+time SimpleName InfixExpression MethodInvocation SimpleName get end
+current interval SimpleName InfixExpression InfixExpression InfixExpression SimpleName time
+has ended SimpleName Assignment InfixExpression InfixExpression SimpleName current interval
+has ended SimpleName Assignment InfixExpression InfixExpression SimpleName time
+has ended SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType boolean
+trace SimpleName MethodInvocation SimpleName print
+trace SimpleName MethodInvocation StringLiteral end loop
+print SimpleName MethodInvocation StringLiteral end loop
+was active SimpleName PrefixExpression InfixExpression SimpleName is active
+is frozen SimpleName Assignment BooleanLiteral false
+current interval SimpleName MethodInvocation SimpleName get begin
+to active SimpleName MethodInvocation MethodInvocation SimpleName current interval
+to active SimpleName MethodInvocation MethodInvocation SimpleName get begin
+was active SimpleName InfixExpression PrefixExpression SimpleName is active
+fill mode SimpleName InfixExpression SimpleName fill freeze
+is frozen SimpleName Assignment InfixExpression SimpleName fill mode
+is frozen SimpleName Assignment InfixExpression SimpleName fill freeze
+to inactive SimpleName MethodInvocation SimpleName is frozen
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName get simple dur
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get simple dur
+time SimpleName InfixExpression SimpleName last repeat time
+sampled at SimpleName MethodInvocation InfixExpression SimpleName time
+sampled at SimpleName MethodInvocation InfixExpression SimpleName last repeat time
+sampled at SimpleName MethodInvocation SimpleName d
+sampled at SimpleName MethodInvocation SimpleName current repeat iteration
+time SimpleName InfixExpression MethodInvocation SimpleName d
+last repeat time SimpleName InfixExpression MethodInvocation SimpleName d
+time SimpleName InfixExpression MethodInvocation SimpleName current repeat iteration
+last repeat time SimpleName InfixExpression MethodInvocation SimpleName current repeat iteration
+d SimpleName MethodInvocation SimpleName current repeat iteration
+previous intervals SimpleName MethodInvocation SimpleName get last
+interval SimpleName SimpleType CastExpression MethodInvocation SimpleName previous intervals
+interval SimpleName SimpleType CastExpression MethodInvocation SimpleName get last
+previous interval SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName interval
+previous interval SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName previous intervals
+previous interval SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get last
+interval SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName previous interval
+previous interval SimpleName MethodInvocation SimpleName get end
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName previous interval
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName previous interval
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get end
+end SimpleName InfixExpression SimpleName last repeat time
+end SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName d
+last repeat time SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName d
+d SimpleName InfixExpression InfixExpression NumberLiteral empty
+sampled last value SimpleName MethodInvocation SimpleName current repeat iteration
+sampled at SimpleName MethodInvocation SimpleName end
+sampled at SimpleName MethodInvocation SimpleName d
+sampled at SimpleName MethodInvocation SimpleName current repeat iteration
+end SimpleName MethodInvocation SimpleName d
+end SimpleName MethodInvocation SimpleName current repeat iteration
+d SimpleName MethodInvocation SimpleName current repeat iteration
+is frozen SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType float
+is active SimpleName IfStatement IfStatement SimpleName is frozen
+last sample time SimpleName Assignment SimpleName time
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+float PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is active
+trace SimpleName MethodInvocation SimpleName exit
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName sample at
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent simple time
+void PrimitiveType MethodDeclaration SimpleName sample at
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName parent simple time
+sample at SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+sample at SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent simple time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName sample at
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent simple time
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sample at
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent simple time

@@ -1,0 +1,92 @@
+graphics node mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get client point
+client xy SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+client xy SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client point
+point SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client xy
+evt SimpleName MethodInvocation SimpleName get graphics node
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graphics node
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+get event target SimpleName MethodInvocation SimpleName node
+get event target SimpleName MethodInvocation SimpleName client xy
+node SimpleName MethodInvocation SimpleName client xy
+target element SimpleName VariableDeclarationFragment MethodInvocation SimpleName get event target
+target element SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+target element SimpleName VariableDeclarationFragment MethodInvocation SimpleName client xy
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target element
+hold lte SimpleName VariableDeclarationFragment SimpleName last target element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hold lte
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last target element
+hold lte SimpleName InfixExpression SimpleName target element
+dispatch mouse event SimpleName MethodInvocation StringLiteral mouseout
+dispatch mouse event SimpleName MethodInvocation SimpleName hold lte
+dispatch mouse event SimpleName MethodInvocation SimpleName target element
+dispatch mouse event SimpleName MethodInvocation SimpleName client xy
+dispatch mouse event SimpleName MethodInvocation SimpleName evt
+mouseout StringLiteral MethodInvocation SimpleName hold lte
+mouseout StringLiteral MethodInvocation SimpleName target element
+mouseout StringLiteral MethodInvocation SimpleName client xy
+mouseout StringLiteral MethodInvocation SimpleName evt
+mouseout StringLiteral MethodInvocation BooleanLiteral true
+hold lte SimpleName MethodInvocation SimpleName target element
+hold lte SimpleName MethodInvocation SimpleName client xy
+hold lte SimpleName MethodInvocation SimpleName evt
+hold lte SimpleName MethodInvocation BooleanLiteral true
+target element SimpleName MethodInvocation SimpleName client xy
+target element SimpleName MethodInvocation SimpleName evt
+target element SimpleName MethodInvocation BooleanLiteral true
+client xy SimpleName MethodInvocation SimpleName evt
+client xy SimpleName MethodInvocation BooleanLiteral true
+evt SimpleName MethodInvocation BooleanLiteral true
+dispatch mouse event SimpleName MethodInvocation StringLiteral mouseover
+dispatch mouse event SimpleName MethodInvocation SimpleName target element
+dispatch mouse event SimpleName MethodInvocation SimpleName hold lte
+dispatch mouse event SimpleName MethodInvocation SimpleName client xy
+dispatch mouse event SimpleName MethodInvocation SimpleName evt
+mouseover StringLiteral MethodInvocation SimpleName target element
+mouseover StringLiteral MethodInvocation SimpleName hold lte
+mouseover StringLiteral MethodInvocation SimpleName client xy
+mouseover StringLiteral MethodInvocation SimpleName evt
+mouseover StringLiteral MethodInvocation BooleanLiteral true
+target element SimpleName MethodInvocation SimpleName hold lte
+target element SimpleName MethodInvocation SimpleName client xy
+target element SimpleName MethodInvocation SimpleName evt
+target element SimpleName MethodInvocation BooleanLiteral true
+hold lte SimpleName MethodInvocation SimpleName client xy
+hold lte SimpleName MethodInvocation SimpleName evt
+hold lte SimpleName MethodInvocation BooleanLiteral true
+client xy SimpleName MethodInvocation SimpleName evt
+client xy SimpleName MethodInvocation BooleanLiteral true
+evt SimpleName MethodInvocation BooleanLiteral true
+dispatch mouse event SimpleName MethodInvocation StringLiteral mousemove
+dispatch mouse event SimpleName MethodInvocation SimpleName target element
+dispatch mouse event SimpleName MethodInvocation SimpleName client xy
+dispatch mouse event SimpleName MethodInvocation SimpleName evt
+mousemove StringLiteral MethodInvocation SimpleName target element
+mousemove StringLiteral MethodInvocation SimpleName client xy
+mousemove StringLiteral MethodInvocation SimpleName evt
+mousemove StringLiteral MethodInvocation BooleanLiteral false
+target element SimpleName MethodInvocation SimpleName client xy
+target element SimpleName MethodInvocation SimpleName evt
+target element SimpleName MethodInvocation BooleanLiteral false
+client xy SimpleName MethodInvocation SimpleName evt
+client xy SimpleName MethodInvocation BooleanLiteral false
+evt SimpleName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse moved
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName mouse moved
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+mouse moved SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+mouse moved SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mouse moved
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mouse moved
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

@@ -1,0 +1,26 @@
+graphics node mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get source
+evt SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName selectable
+get source SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName selectable
+text selector SimpleName MethodInvocation SimpleName mouse pressed
+text selector SimpleName MethodInvocation SimpleName evt
+mouse pressed SimpleName MethodInvocation SimpleName evt
+text selector SimpleName MethodInvocation SimpleName clear selection
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse pressed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName mouse pressed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+mouse pressed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+mouse pressed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mouse pressed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mouse pressed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

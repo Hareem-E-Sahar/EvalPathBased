@@ -1,0 +1,49 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+check child type SimpleName MethodInvocation SimpleName n
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+n SimpleName MethodInvocation SimpleName get owner document
+n SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current document
+get owner document SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get current document
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionwrong document err
+create dom exception SimpleName MethodInvocation StringLiteral nodefromwrongdocument
+dom exceptionwrong document err QualifiedName MethodInvocation StringLiteral nodefromwrongdocument
+pn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName pn
+pn SimpleName MethodInvocation SimpleName get parent node
+pn SimpleName Assignment MethodInvocation SimpleName pn
+pn SimpleName Assignment MethodInvocation SimpleName get parent node
+pn SimpleName InfixExpression SimpleName n
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionwrong document err
+create dom exception SimpleName MethodInvocation StringLiteral addancestor
+dom exceptionwrong document err QualifiedName MethodInvocation StringLiteral addancestor
+pn SimpleName InfixExpression ForStatement Assignment SimpleName pn
+n SimpleName MethodInvocation SimpleName get parent node
+np SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+np SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName np
+np SimpleName MethodInvocation SimpleName remove child
+np SimpleName MethodInvocation SimpleName n
+remove child SimpleName MethodInvocation SimpleName n
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName check and remove
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName check and remove
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+check and remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+check and remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check and remove
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check and remove
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

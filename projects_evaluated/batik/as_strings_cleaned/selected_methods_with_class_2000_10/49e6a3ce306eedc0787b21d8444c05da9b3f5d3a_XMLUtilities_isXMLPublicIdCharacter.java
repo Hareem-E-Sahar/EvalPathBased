@@ -1,0 +1,35 @@
+char PrimitiveType SingleVariableDeclaration SimpleName c
+c SimpleName InfixExpression NumberLiteral empty
+c SimpleName InfixExpression NumberLiteral empty
+public id character SimpleName ArrayAccess InfixExpression SimpleName c
+public id character SimpleName ArrayAccess InfixExpression NumberLiteral empty
+c SimpleName InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName c
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is xml public id character
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is xml public id character
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration SimpleName is xml public id character
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType char
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+is xml public id character SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType char
+is xml public id character SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is xml public id character
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is xml public id character
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

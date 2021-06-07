@@ -1,0 +1,13 @@
+graphics node rable factory SimpleName SimpleType SingleVariableDeclaration SimpleName f
+void PrimitiveType MethodDeclaration SimpleName set graphics node rable factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node rable factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+set graphics node rable factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node rable factory
+set graphics node rable factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set graphics node rable factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set graphics node rable factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f

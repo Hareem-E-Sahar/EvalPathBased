@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName restart
+restart SimpleName MethodInvocation SimpleName length
+restart SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+restart SimpleName MethodInvocation SimpleName equals
+restart SimpleName MethodInvocation SimpleName smil always value
+equals SimpleName MethodInvocation SimpleName smil always value
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName restart
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName equals
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName smil always value
+restart mode SimpleName Assignment SimpleName restart always
+restart SimpleName MethodInvocation SimpleName equals
+restart SimpleName MethodInvocation SimpleName smil when not active value
+equals SimpleName MethodInvocation SimpleName smil when not active value
+restart mode SimpleName Assignment SimpleName restart when not active
+restart SimpleName MethodInvocation SimpleName equals
+restart SimpleName MethodInvocation SimpleName smil never value
+equals SimpleName MethodInvocation SimpleName smil never value
+restart mode SimpleName Assignment SimpleName restart never
+create exception SimpleName MethodInvocation StringLiteral attributemalformed
+create exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName smil restart attribute
+attributemalformed StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName smil restart attribute
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse restart
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName restart
+void PrimitiveType MethodDeclaration SimpleName parse restart
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName restart
+parse restart SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse restart SimpleName MethodDeclaration SingleVariableDeclaration SimpleName restart
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse restart
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName restart
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse restart
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName restart

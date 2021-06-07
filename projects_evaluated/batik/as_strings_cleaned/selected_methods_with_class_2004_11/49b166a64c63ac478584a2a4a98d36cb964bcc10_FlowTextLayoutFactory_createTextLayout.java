@@ -1,0 +1,56 @@
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName aci
+int PrimitiveType ArrayType SingleVariableDeclaration SimpleName char map
+point d SimpleName SimpleType SingleVariableDeclaration SimpleName offset
+font render context SimpleName SimpleType SingleVariableDeclaration SimpleName frc
+flow glyph layout SimpleName SimpleType ClassInstanceCreation SimpleName aci
+flow glyph layout SimpleName SimpleType ClassInstanceCreation SimpleName char map
+flow glyph layout SimpleName SimpleType ClassInstanceCreation SimpleName offset
+flow glyph layout SimpleName SimpleType ClassInstanceCreation SimpleName frc
+aci SimpleName ClassInstanceCreation SimpleName char map
+aci SimpleName ClassInstanceCreation SimpleName offset
+aci SimpleName ClassInstanceCreation SimpleName frc
+char map SimpleName ClassInstanceCreation SimpleName offset
+char map SimpleName ClassInstanceCreation SimpleName frc
+offset SimpleName ClassInstanceCreation SimpleName frc
+public Modifier MethodDeclaration SimpleType SimpleName text span layout
+public Modifier MethodDeclaration SimpleName create text layout
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName aci
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName char map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+text span layout SimpleName SimpleType MethodDeclaration SimpleName create text layout
+text span layout SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName aci
+text span layout SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName char map
+text span layout SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName offset
+text span layout SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName frc
+create text layout SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+create text layout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aci
+create text layout SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+create text layout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName char map
+create text layout SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+create text layout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+create text layout SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName font render context
+create text layout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName frc
+aci SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName char map
+aci SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+aci SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName frc
+char map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+char map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName frc
+offset SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName frc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text span layout
+public Modifier TypeDeclaration MethodDeclaration SimpleName create text layout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName char map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName frc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text span layout
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create text layout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName char map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName frc

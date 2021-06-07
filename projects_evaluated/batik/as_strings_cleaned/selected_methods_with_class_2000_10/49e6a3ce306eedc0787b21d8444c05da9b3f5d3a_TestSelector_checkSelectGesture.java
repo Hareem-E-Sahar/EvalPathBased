@@ -1,0 +1,357 @@
+graphics node event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+graphics node mouse event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mevt
+evt SimpleName InstanceofExpression SimpleType SimpleName graphics node mouse event
+graphics node mouse event SimpleName SimpleType CastExpression SimpleName evt
+mevt SimpleName Assignment CastExpression SimpleType SimpleName graphics node mouse event
+mevt SimpleName Assignment CastExpression SimpleName evt
+evt SimpleName MethodInvocation SimpleName get graphics node
+source SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+source SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graphics node
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source
+is select continue gesture SimpleName MethodInvocation SimpleName evt
+source SimpleName InstanceofExpression SimpleType SimpleName selectable
+mevt SimpleName MethodInvocation SimpleName get x
+mevt SimpleName MethodInvocation SimpleName get y
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName mevt
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName mevt
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get y
+mevt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mevt
+mevt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mevt
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mevt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get x
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mevt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get y
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+source SimpleName MethodInvocation SimpleName get transform
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName source
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+t SimpleName MethodInvocation SimpleName clone
+affine transform SimpleName SimpleType CastExpression MethodInvocation SimpleName t
+affine transform SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+t SimpleName Assignment CastExpression SimpleType SimpleName affine transform
+t SimpleName Assignment CastExpression MethodInvocation SimpleName t
+t SimpleName Assignment CastExpression MethodInvocation SimpleName clone
+source SimpleName InstanceofExpression SimpleType SimpleName text node
+text node SimpleName SimpleType CastExpression SimpleName source
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get location
+location SimpleName VariableDeclarationFragment MethodInvocation SimpleName get location
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location
+location SimpleName MethodInvocation SimpleName get x
+location SimpleName MethodInvocation SimpleName get y
+t SimpleName MethodInvocation SimpleName translate
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get x
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get y
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get x
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get y
+t SimpleName MethodInvocation SimpleName transform
+t SimpleName MethodInvocation SimpleName p
+transform SimpleName MethodInvocation SimpleName p
+p SimpleName Assignment MethodInvocation SimpleName t
+p SimpleName Assignment MethodInvocation SimpleName transform
+p SimpleName Assignment MethodInvocation SimpleName p
+selection node SimpleName InfixExpression SimpleName source
+select entering at StringLiteral InfixExpression SimpleName p
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral select entering at
+systemout QualifiedName MethodInvocation InfixExpression SimpleName p
+println SimpleName MethodInvocation InfixExpression StringLiteral select entering at
+println SimpleName MethodInvocation InfixExpression SimpleName p
+selectable SimpleName SimpleType CastExpression SimpleName source
+p SimpleName MethodInvocation SimpleName get x
+p SimpleName MethodInvocation SimpleName get y
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName select at
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName render context
+select at SimpleName MethodInvocation MethodInvocation SimpleName p
+select at SimpleName MethodInvocation MethodInvocation SimpleName get x
+select at SimpleName MethodInvocation MethodInvocation SimpleName p
+select at SimpleName MethodInvocation MethodInvocation SimpleName get y
+select at SimpleName MethodInvocation SimpleName render context
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+p SimpleName MethodInvocation MethodInvocation SimpleName render context
+get x SimpleName MethodInvocation MethodInvocation SimpleName render context
+p SimpleName MethodInvocation MethodInvocation SimpleName render context
+get y SimpleName MethodInvocation MethodInvocation SimpleName render context
+selection node SimpleName Assignment SimpleName source
+selectable SimpleName SimpleType CastExpression SimpleName source
+p SimpleName MethodInvocation SimpleName get x
+p SimpleName MethodInvocation SimpleName get y
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName select to
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName render context
+select to SimpleName MethodInvocation MethodInvocation SimpleName p
+select to SimpleName MethodInvocation MethodInvocation SimpleName get x
+select to SimpleName MethodInvocation MethodInvocation SimpleName p
+select to SimpleName MethodInvocation MethodInvocation SimpleName get y
+select to SimpleName MethodInvocation SimpleName render context
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+p SimpleName MethodInvocation MethodInvocation SimpleName render context
+get x SimpleName MethodInvocation MethodInvocation SimpleName render context
+p SimpleName MethodInvocation MethodInvocation SimpleName render context
+get y SimpleName MethodInvocation MethodInvocation SimpleName render context
+is select start gesture SimpleName MethodInvocation SimpleName evt
+source SimpleName InstanceofExpression SimpleType SimpleName selectable
+selection node SimpleName Assignment SimpleName source
+mevt SimpleName MethodInvocation SimpleName get x
+mevt SimpleName MethodInvocation SimpleName get y
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName mevt
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName mevt
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get y
+mevt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mevt
+mevt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mevt
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mevt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get x
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mevt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get y
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+source SimpleName MethodInvocation SimpleName get transform
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName source
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+t SimpleName MethodInvocation SimpleName clone
+affine transform SimpleName SimpleType CastExpression MethodInvocation SimpleName t
+affine transform SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+t SimpleName Assignment CastExpression SimpleType SimpleName affine transform
+t SimpleName Assignment CastExpression MethodInvocation SimpleName t
+t SimpleName Assignment CastExpression MethodInvocation SimpleName clone
+source SimpleName InstanceofExpression SimpleType SimpleName text node
+text node SimpleName SimpleType CastExpression SimpleName source
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get location
+location SimpleName VariableDeclarationFragment MethodInvocation SimpleName get location
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location
+location SimpleName MethodInvocation SimpleName get x
+location SimpleName MethodInvocation SimpleName get y
+t SimpleName MethodInvocation SimpleName translate
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get x
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get y
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get x
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get y
+t SimpleName MethodInvocation SimpleName transform
+t SimpleName MethodInvocation SimpleName p
+transform SimpleName MethodInvocation SimpleName p
+p SimpleName Assignment MethodInvocation SimpleName t
+p SimpleName Assignment MethodInvocation SimpleName transform
+p SimpleName Assignment MethodInvocation SimpleName p
+select at StringLiteral InfixExpression SimpleName p
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral select at
+systemout QualifiedName MethodInvocation InfixExpression SimpleName p
+println SimpleName MethodInvocation InfixExpression StringLiteral select at
+println SimpleName MethodInvocation InfixExpression SimpleName p
+selectable SimpleName SimpleType CastExpression SimpleName source
+p SimpleName MethodInvocation SimpleName get x
+p SimpleName MethodInvocation SimpleName get y
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName select at
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName render context
+select at SimpleName MethodInvocation MethodInvocation SimpleName p
+select at SimpleName MethodInvocation MethodInvocation SimpleName get x
+select at SimpleName MethodInvocation MethodInvocation SimpleName p
+select at SimpleName MethodInvocation MethodInvocation SimpleName get y
+select at SimpleName MethodInvocation SimpleName render context
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+p SimpleName MethodInvocation MethodInvocation SimpleName render context
+get x SimpleName MethodInvocation MethodInvocation SimpleName render context
+p SimpleName MethodInvocation MethodInvocation SimpleName render context
+get y SimpleName MethodInvocation MethodInvocation SimpleName render context
+is select end gesture SimpleName MethodInvocation SimpleName evt
+source SimpleName InstanceofExpression SimpleType SimpleName selectable
+selection node SimpleName Assignment SimpleName source
+mevt SimpleName MethodInvocation SimpleName get x
+mevt SimpleName MethodInvocation SimpleName get y
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName mevt
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName mevt
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get y
+mevt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mevt
+mevt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mevt
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mevt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get x
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mevt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get y
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+source SimpleName MethodInvocation SimpleName get transform
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName source
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+t SimpleName MethodInvocation SimpleName clone
+affine transform SimpleName SimpleType CastExpression MethodInvocation SimpleName t
+affine transform SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+t SimpleName Assignment CastExpression SimpleType SimpleName affine transform
+t SimpleName Assignment CastExpression MethodInvocation SimpleName t
+t SimpleName Assignment CastExpression MethodInvocation SimpleName clone
+source SimpleName InstanceofExpression SimpleType SimpleName text node
+text node SimpleName SimpleType CastExpression SimpleName source
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get location
+location SimpleName VariableDeclarationFragment MethodInvocation SimpleName get location
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location
+location SimpleName MethodInvocation SimpleName get x
+location SimpleName MethodInvocation SimpleName get y
+t SimpleName MethodInvocation SimpleName translate
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get x
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get y
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get x
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get y
+t SimpleName MethodInvocation SimpleName transform
+t SimpleName MethodInvocation SimpleName p
+transform SimpleName MethodInvocation SimpleName p
+p SimpleName Assignment MethodInvocation SimpleName t
+p SimpleName Assignment MethodInvocation SimpleName transform
+p SimpleName Assignment MethodInvocation SimpleName p
+select to StringLiteral InfixExpression SimpleName p
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral select to
+systemout QualifiedName MethodInvocation InfixExpression SimpleName p
+println SimpleName MethodInvocation InfixExpression StringLiteral select to
+println SimpleName MethodInvocation InfixExpression SimpleName p
+selectable SimpleName SimpleType CastExpression SimpleName source
+p SimpleName MethodInvocation SimpleName get x
+p SimpleName MethodInvocation SimpleName get y
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName select to
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName render context
+select to SimpleName MethodInvocation MethodInvocation SimpleName p
+select to SimpleName MethodInvocation MethodInvocation SimpleName get x
+select to SimpleName MethodInvocation MethodInvocation SimpleName p
+select to SimpleName MethodInvocation MethodInvocation SimpleName get y
+select to SimpleName MethodInvocation SimpleName render context
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+p SimpleName MethodInvocation MethodInvocation SimpleName render context
+get x SimpleName MethodInvocation MethodInvocation SimpleName render context
+p SimpleName MethodInvocation MethodInvocation SimpleName render context
+get y SimpleName MethodInvocation MethodInvocation SimpleName render context
+old selection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selection
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old selection
+copy to clipboard SimpleName MethodInvocation SimpleName old selection
+is select all gesture SimpleName MethodInvocation SimpleName evt
+source SimpleName InstanceofExpression SimpleType SimpleName selectable
+selection node SimpleName Assignment SimpleName source
+mevt SimpleName MethodInvocation SimpleName get x
+mevt SimpleName MethodInvocation SimpleName get y
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName mevt
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName mevt
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get y
+mevt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mevt
+mevt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mevt
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mevt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get x
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mevt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get y
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+source SimpleName MethodInvocation SimpleName get transform
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName source
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+t SimpleName MethodInvocation SimpleName clone
+affine transform SimpleName SimpleType CastExpression MethodInvocation SimpleName t
+affine transform SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+t SimpleName Assignment CastExpression SimpleType SimpleName affine transform
+t SimpleName Assignment CastExpression MethodInvocation SimpleName t
+t SimpleName Assignment CastExpression MethodInvocation SimpleName clone
+source SimpleName InstanceofExpression SimpleType SimpleName text node
+text node SimpleName SimpleType CastExpression SimpleName source
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get location
+location SimpleName VariableDeclarationFragment MethodInvocation SimpleName get location
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location
+location SimpleName MethodInvocation SimpleName get x
+location SimpleName MethodInvocation SimpleName get y
+t SimpleName MethodInvocation SimpleName translate
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get x
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+t SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get y
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get x
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName location
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get y
+t SimpleName MethodInvocation SimpleName transform
+t SimpleName MethodInvocation SimpleName p
+transform SimpleName MethodInvocation SimpleName p
+p SimpleName Assignment MethodInvocation SimpleName t
+p SimpleName Assignment MethodInvocation SimpleName transform
+p SimpleName Assignment MethodInvocation SimpleName p
+select all StringLiteral InfixExpression SimpleName p
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral select all
+systemout QualifiedName MethodInvocation InfixExpression SimpleName p
+println SimpleName MethodInvocation InfixExpression StringLiteral select all
+println SimpleName MethodInvocation InfixExpression SimpleName p
+selectable SimpleName SimpleType CastExpression SimpleName source
+p SimpleName MethodInvocation SimpleName get x
+p SimpleName MethodInvocation SimpleName get y
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName select all
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName render context
+select all SimpleName MethodInvocation MethodInvocation SimpleName p
+select all SimpleName MethodInvocation MethodInvocation SimpleName get x
+select all SimpleName MethodInvocation MethodInvocation SimpleName p
+select all SimpleName MethodInvocation MethodInvocation SimpleName get y
+select all SimpleName MethodInvocation SimpleName render context
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+p SimpleName MethodInvocation MethodInvocation SimpleName render context
+get x SimpleName MethodInvocation MethodInvocation SimpleName render context
+p SimpleName MethodInvocation MethodInvocation SimpleName render context
+get y SimpleName MethodInvocation MethodInvocation SimpleName render context
+old selection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selection
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old selection
+copy to clipboard SimpleName MethodInvocation SimpleName old selection
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName check select gesture
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName check select gesture
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+check select gesture SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event
+check select gesture SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check select gesture
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check select gesture
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

@@ -1,0 +1,22 @@
+src SimpleName VariableDeclarationFragment MethodInvocation SimpleName get source
+filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src
+src SimpleName MethodInvocation SimpleName get bounds d
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName src
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+affine SimpleName MethodInvocation SimpleName create transformed shape
+affine SimpleName MethodInvocation SimpleName r
+create transformed shape SimpleName MethodInvocation SimpleName r
+affine SimpleName MethodInvocation MethodInvocation SimpleName get bounds d
+create transformed shape SimpleName MethodInvocation MethodInvocation SimpleName get bounds d
+r SimpleName MethodInvocation MethodInvocation SimpleName get bounds d
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName get bounds d
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get bounds d
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bounds d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bounds d

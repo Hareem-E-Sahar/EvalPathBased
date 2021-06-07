@@ -1,0 +1,32 @@
+input event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get id
+e SimpleName MethodInvocation InfixExpression SimpleName node increment event id
+get id SimpleName MethodInvocation InfixExpression SimpleName node increment event id
+e SimpleName InstanceofExpression SimpleType SimpleName key event
+key event SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get key code
+get key code SimpleName MethodInvocation InfixExpression SimpleName node increment event code
+e SimpleName InstanceofExpression ParenthesizedExpression ConditionalExpression BooleanLiteral true
+node increment event code SimpleName InfixExpression ParenthesizedExpression ConditionalExpression BooleanLiteral true
+e SimpleName MethodInvocation SimpleName get modifiers
+e SimpleName MethodInvocation InfixExpression SimpleName node increment event modifiers
+get modifiers SimpleName MethodInvocation InfixExpression SimpleName node increment event modifiers
+node increment event modifiers SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is node increment event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+boolean PrimitiveType MethodDeclaration SimpleName is node increment event
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input event
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+is node increment event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input event
+is node increment event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is node increment event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is node increment event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

@@ -1,0 +1,19 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+get SimpleName MethodInvocation SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName get named item
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+node SimpleName SimpleType MethodDeclaration SimpleName get named item
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get named item SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get named item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get named item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get named item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

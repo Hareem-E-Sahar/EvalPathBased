@@ -1,0 +1,77 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName rgb
+string SimpleName SimpleType SingleVariableDeclaration SimpleName icc
+rgb SimpleName InfixExpression StringLiteral empty
+rgb SimpleName InfixExpression SimpleName icc
+empty StringLiteral InfixExpression SimpleName icc
+text changed SimpleName MethodInvocation InfixExpression SimpleName rgb
+text changed SimpleName MethodInvocation InfixExpression StringLiteral empty
+text changed SimpleName MethodInvocation InfixExpression SimpleName icc
+get value SimpleName MethodInvocation MethodInvocation SimpleName item
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+item SimpleName MethodInvocation MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get css text
+item SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+item SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName rgb
+empty NumberLiteral MethodInvocation MethodInvocation InfixExpression SimpleName rgb
+get css text SimpleName MethodInvocation InfixExpression SimpleName rgb
+item SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+item SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName icc
+empty NumberLiteral MethodInvocation MethodInvocation InfixExpression SimpleName icc
+get css text SimpleName MethodInvocation InfixExpression SimpleName icc
+empty StringLiteral InfixExpression SimpleName rgb
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName icc
+rgb SimpleName InfixExpression StringLiteral empty
+rgb SimpleName InfixExpression SimpleName icc
+empty StringLiteral InfixExpression SimpleName icc
+text changed SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+text changed SimpleName MethodInvocation InfixExpression StringLiteral empty
+text changed SimpleName MethodInvocation InfixExpression SimpleName rgb
+text changed SimpleName MethodInvocation InfixExpression StringLiteral empty
+text changed SimpleName MethodInvocation InfixExpression SimpleName icc
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionno modification allowed err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptionno modification allowed err QualifiedName ClassInstanceCreation StringLiteral empty
+get paint type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName svg painttype rgbcolor icccolor
+get paint type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName svg painttype uri rgbcolor icccolor
+svg painttype rgbcolor icccolor SimpleName SwitchCase SwitchStatement SwitchCase SimpleName svg painttype uri rgbcolor icccolor
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName rgb color icc color changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rgb
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName icc
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName rgb color icc color changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rgb
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName icc
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+rgb color icc color changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+rgb color icc color changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rgb
+rgb color icc color changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+rgb color icc color changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName icc
+rgb color icc color changed SimpleName MethodDeclaration SimpleType SimpleName dom exception
+rgb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName icc
+rgb SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+icc SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName rgb color icc color changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rgb
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName icc
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rgb color icc color changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rgb
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName icc
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

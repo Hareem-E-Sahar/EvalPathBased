@@ -1,0 +1,47 @@
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+position SimpleName InfixExpression QualifiedName bufferlength
+position SimpleName InfixExpression NumberLiteral empty
+position SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+char PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+t SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType char
+t SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName position
+t SimpleName ArrayAccess SimpleName i
+buffer SimpleName ArrayAccess SimpleName i
+t SimpleName ArrayAccess Assignment ArrayAccess SimpleName buffer
+t SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName buffer
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName position
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+position SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+buffer SimpleName Assignment SimpleName t
+buffer SimpleName ArrayAccess PostfixExpression SimpleName position
+char PrimitiveType CastExpression SimpleName current
+buffer SimpleName ArrayAccess Assignment CastExpression PrimitiveType char
+buffer SimpleName ArrayAccess Assignment CastExpression SimpleName current
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName next char
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleName next char
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+next char SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName next char
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next char
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

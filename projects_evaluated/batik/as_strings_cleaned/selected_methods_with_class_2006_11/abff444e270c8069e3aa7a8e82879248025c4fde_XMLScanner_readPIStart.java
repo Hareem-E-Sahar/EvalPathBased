@@ -1,0 +1,115 @@
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName next char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next char
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+create xml exception SimpleName MethodInvocation StringLiteral unexpectedeof
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml name first character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml name first character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name first character SimpleName MethodInvocation CastExpression SimpleName current
+create xml exception SimpleName MethodInvocation StringLiteral malformedpitarget
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName next char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next char
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName c
+xml utilities SimpleName MethodInvocation SimpleName is xml name character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName c
+is xml name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name character SimpleName MethodInvocation CastExpression SimpleName c
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName next char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next char
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName c
+xml utilities SimpleName MethodInvocation SimpleName is xml name character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName c
+is xml name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name character SimpleName MethodInvocation CastExpression SimpleName c
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName next char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next char
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName c
+xml utilities SimpleName MethodInvocation SimpleName is xml name character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName c
+is xml name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name character SimpleName MethodInvocation CastExpression SimpleName c
+c SimpleName InfixExpression InfixExpression MethodInvocation SimpleName xml utilities
+c SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is xml name character
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml name character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name character SimpleName MethodInvocation CastExpression SimpleName current
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName xml utilities
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is xml name character
+c SimpleName InfixExpression CharacterLiteral x
+c SimpleName InfixExpression CharacterLiteral x
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+c SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral x
+x CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName c
+x CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral x
+c SimpleName InfixExpression CharacterLiteral m
+c SimpleName InfixExpression CharacterLiteral m
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+c SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral m
+m CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName c
+m CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral m
+c SimpleName InfixExpression CharacterLiteral l
+c SimpleName InfixExpression CharacterLiteral l
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+c SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral l
+l CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName c
+l CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral l
+create xml exception SimpleName MethodInvocation StringLiteral xmlreserved
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement QualifiedName lexical unitspi start
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement QualifiedName lexical unitspi start
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName read pi start
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement QualifiedName lexical unitspi start
+int PrimitiveType MethodDeclaration SimpleName read pi start
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement QualifiedName lexical unitspi start
+read pi start SimpleName MethodDeclaration SimpleType SimpleName io exception
+read pi start SimpleName MethodDeclaration SimpleType SimpleName xml exception
+read pi start SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read pi start SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read pi start SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read pi start SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read pi start SimpleName MethodDeclaration Block ReturnStatement QualifiedName lexical unitspi start
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName read pi start
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read pi start
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception

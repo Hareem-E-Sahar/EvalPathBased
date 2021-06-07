@@ -1,0 +1,65 @@
+used SimpleName MethodInvocation SimpleName get size
+free SimpleName MethodInvocation SimpleName get size
+in use StringLiteral InfixExpression MethodInvocation SimpleName used
+in use StringLiteral InfixExpression MethodInvocation SimpleName get size
+in use StringLiteral InfixExpression StringLiteral free
+in use StringLiteral InfixExpression MethodInvocation SimpleName free
+in use StringLiteral InfixExpression MethodInvocation SimpleName get size
+used SimpleName MethodInvocation InfixExpression StringLiteral free
+get size SimpleName MethodInvocation InfixExpression StringLiteral free
+used SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName free
+used SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get size
+get size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName free
+get size SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get size
+free StringLiteral InfixExpression MethodInvocation SimpleName free
+free StringLiteral InfixExpression MethodInvocation SimpleName get size
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral in use
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName used
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get size
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral free
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName free
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get size
+println SimpleName MethodInvocation InfixExpression StringLiteral in use
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName used
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get size
+println SimpleName MethodInvocation InfixExpression StringLiteral free
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName free
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get size
+used SimpleName MethodInvocation SimpleName get head
+lru node SimpleName SimpleType CastExpression MethodInvocation SimpleName used
+lru node SimpleName SimpleType CastExpression MethodInvocation SimpleName get head
+nde SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName lru node
+nde SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName used
+nde SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get head
+lru node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nde
+nde SimpleName MethodInvocation SimpleName get obj
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName nde
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName get obj
+println SimpleName MethodInvocation MethodInvocation SimpleName nde
+println SimpleName MethodInvocation MethodInvocation SimpleName get obj
+nde SimpleName MethodInvocation SimpleName get next
+lru node SimpleName SimpleType CastExpression MethodInvocation SimpleName nde
+lru node SimpleName SimpleType CastExpression MethodInvocation SimpleName get next
+nde SimpleName Assignment CastExpression SimpleType SimpleName lru node
+nde SimpleName Assignment CastExpression MethodInvocation SimpleName nde
+nde SimpleName Assignment CastExpression MethodInvocation SimpleName get next
+used SimpleName MethodInvocation SimpleName get head
+nde SimpleName InfixExpression MethodInvocation SimpleName used
+nde SimpleName InfixExpression MethodInvocation SimpleName get head
+protected Modifier MethodDeclaration Modifier synchronized
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName print
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName print
+void PrimitiveType MethodDeclaration SimpleName print
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print

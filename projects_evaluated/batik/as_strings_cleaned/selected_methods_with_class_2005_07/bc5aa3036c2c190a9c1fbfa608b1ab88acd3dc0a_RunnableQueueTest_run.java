@@ -1,0 +1,26 @@
+b rable # StringLiteral InfixExpression SimpleName idx
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral b rable #
+systemout QualifiedName MethodInvocation InfixExpression SimpleName idx
+println SimpleName MethodInvocation InfixExpression StringLiteral b rable #
+println SimpleName MethodInvocation InfixExpression SimpleName idx
+thread SimpleName MethodInvocation SimpleName sleep
+thread SimpleName MethodInvocation SimpleName dur
+sleep SimpleName MethodInvocation SimpleName dur
+e rable # StringLiteral InfixExpression SimpleName idx
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral e rable #
+systemout QualifiedName MethodInvocation InfixExpression SimpleName idx
+println SimpleName MethodInvocation InfixExpression StringLiteral e rable #
+println SimpleName MethodInvocation InfixExpression SimpleName idx
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName ie
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

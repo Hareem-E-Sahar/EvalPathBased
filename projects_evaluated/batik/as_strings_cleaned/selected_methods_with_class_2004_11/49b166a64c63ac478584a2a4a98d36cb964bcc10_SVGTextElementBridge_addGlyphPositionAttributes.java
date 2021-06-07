@@ -1,0 +1,500 @@
+attributed string SimpleName SimpleType SingleVariableDeclaration SimpleName as
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName get user agent
+svg utilities SimpleName MethodInvocation SimpleName match user agent
+svg utilities SimpleName MethodInvocation SimpleName element
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName ctx
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+match user agent SimpleName MethodInvocation SimpleName element
+match user agent SimpleName MethodInvocation MethodInvocation SimpleName ctx
+match user agent SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+element SimpleName MethodInvocation MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+as SimpleName MethodInvocation SimpleName get iterator
+aci SimpleName VariableDeclarationFragment MethodInvocation SimpleName as
+aci SimpleName VariableDeclarationFragment MethodInvocation SimpleName get iterator
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aci
+get element start index SimpleName MethodInvocation SimpleName aci
+get element start index SimpleName MethodInvocation SimpleName element
+aci SimpleName MethodInvocation SimpleName element
+first char SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element start index
+first char SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+first char SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get element start index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName element
+first char SimpleName InfixExpression PrefixExpression NumberLiteral empty
+get element end index SimpleName MethodInvocation SimpleName aci
+get element end index SimpleName MethodInvocation SimpleName element
+aci SimpleName MethodInvocation SimpleName element
+last char SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element end index
+last char SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+last char SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get element end index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName element
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg x attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg x attribute
+x att SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+x att SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+x att SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg x attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName x att
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg y attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg y attribute
+y att SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+y att SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+y att SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg y attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName y att
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg dx attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg dx attribute
+dx att SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+dx att SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+dx att SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg dx attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dx att
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg dy attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg dy attribute
+dy att SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+dy att SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+dy att SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg dy attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dy att
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg rotate attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg rotate attribute
+rotate att SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+rotate att SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+rotate att SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg rotate attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rotate att
+array list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName al
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+x att SimpleName MethodInvocation SimpleName length
+x att SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+text utilities SimpleName MethodInvocation SimpleName svg horizontal coordinate array to user space
+text utilities SimpleName MethodInvocation SimpleName element
+text utilities SimpleName MethodInvocation SimpleName svg x attribute
+text utilities SimpleName MethodInvocation SimpleName x att
+text utilities SimpleName MethodInvocation SimpleName ctx
+svg horizontal coordinate array to user space SimpleName MethodInvocation SimpleName element
+svg horizontal coordinate array to user space SimpleName MethodInvocation SimpleName svg x attribute
+svg horizontal coordinate array to user space SimpleName MethodInvocation SimpleName x att
+svg horizontal coordinate array to user space SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName svg x attribute
+element SimpleName MethodInvocation SimpleName x att
+element SimpleName MethodInvocation SimpleName ctx
+svg x attribute SimpleName MethodInvocation SimpleName x att
+svg x attribute SimpleName MethodInvocation SimpleName ctx
+x att SimpleName MethodInvocation SimpleName ctx
+al SimpleName Assignment MethodInvocation SimpleName text utilities
+al SimpleName Assignment MethodInvocation SimpleName svg horizontal coordinate array to user space
+al SimpleName Assignment MethodInvocation SimpleName element
+al SimpleName Assignment MethodInvocation SimpleName svg x attribute
+al SimpleName Assignment MethodInvocation SimpleName x att
+al SimpleName Assignment MethodInvocation SimpleName ctx
+al SimpleName MethodInvocation SimpleName size
+len SimpleName Assignment MethodInvocation SimpleName al
+len SimpleName Assignment MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+first char SimpleName InfixExpression SimpleName i
+first char SimpleName InfixExpression InfixExpression SimpleName last char
+i SimpleName InfixExpression InfixExpression SimpleName last char
+al SimpleName MethodInvocation SimpleName get
+al SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+first char SimpleName InfixExpression SimpleName i
+first char SimpleName InfixExpression SimpleName i
+first char SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributex
+as SimpleName MethodInvocation MethodInvocation SimpleName al
+as SimpleName MethodInvocation MethodInvocation SimpleName get
+as SimpleName MethodInvocation MethodInvocation SimpleName i
+as SimpleName MethodInvocation InfixExpression SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName i
+as SimpleName MethodInvocation InfixExpression SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName i
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributex
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName al
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName get
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributex QualifiedName MethodInvocation MethodInvocation SimpleName al
+gvt attributed character iteratortext attributex QualifiedName MethodInvocation MethodInvocation SimpleName get
+gvt attributed character iteratortext attributex QualifiedName MethodInvocation MethodInvocation SimpleName i
+gvt attributed character iteratortext attributex QualifiedName MethodInvocation InfixExpression SimpleName first char
+gvt attributed character iteratortext attributex QualifiedName MethodInvocation InfixExpression SimpleName i
+gvt attributed character iteratortext attributex QualifiedName MethodInvocation InfixExpression SimpleName first char
+gvt attributed character iteratortext attributex QualifiedName MethodInvocation InfixExpression SimpleName i
+gvt attributed character iteratortext attributex QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+al SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+i SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName InfixExpression MethodInvocation InfixExpression SimpleName first char
+first char SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+first char SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName first char
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+i SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+y att SimpleName MethodInvocation SimpleName length
+y att SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+text utilities SimpleName MethodInvocation SimpleName svg vertical coordinate array to user space
+text utilities SimpleName MethodInvocation SimpleName element
+text utilities SimpleName MethodInvocation SimpleName svg y attribute
+text utilities SimpleName MethodInvocation SimpleName y att
+text utilities SimpleName MethodInvocation SimpleName ctx
+svg vertical coordinate array to user space SimpleName MethodInvocation SimpleName element
+svg vertical coordinate array to user space SimpleName MethodInvocation SimpleName svg y attribute
+svg vertical coordinate array to user space SimpleName MethodInvocation SimpleName y att
+svg vertical coordinate array to user space SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName svg y attribute
+element SimpleName MethodInvocation SimpleName y att
+element SimpleName MethodInvocation SimpleName ctx
+svg y attribute SimpleName MethodInvocation SimpleName y att
+svg y attribute SimpleName MethodInvocation SimpleName ctx
+y att SimpleName MethodInvocation SimpleName ctx
+al SimpleName Assignment MethodInvocation SimpleName text utilities
+al SimpleName Assignment MethodInvocation SimpleName svg vertical coordinate array to user space
+al SimpleName Assignment MethodInvocation SimpleName element
+al SimpleName Assignment MethodInvocation SimpleName svg y attribute
+al SimpleName Assignment MethodInvocation SimpleName y att
+al SimpleName Assignment MethodInvocation SimpleName ctx
+al SimpleName MethodInvocation SimpleName size
+len SimpleName Assignment MethodInvocation SimpleName al
+len SimpleName Assignment MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+first char SimpleName InfixExpression SimpleName i
+first char SimpleName InfixExpression InfixExpression SimpleName last char
+i SimpleName InfixExpression InfixExpression SimpleName last char
+al SimpleName MethodInvocation SimpleName get
+al SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+first char SimpleName InfixExpression SimpleName i
+first char SimpleName InfixExpression SimpleName i
+first char SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributey
+as SimpleName MethodInvocation MethodInvocation SimpleName al
+as SimpleName MethodInvocation MethodInvocation SimpleName get
+as SimpleName MethodInvocation MethodInvocation SimpleName i
+as SimpleName MethodInvocation InfixExpression SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName i
+as SimpleName MethodInvocation InfixExpression SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName i
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributey
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName al
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName get
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributey QualifiedName MethodInvocation MethodInvocation SimpleName al
+gvt attributed character iteratortext attributey QualifiedName MethodInvocation MethodInvocation SimpleName get
+gvt attributed character iteratortext attributey QualifiedName MethodInvocation MethodInvocation SimpleName i
+gvt attributed character iteratortext attributey QualifiedName MethodInvocation InfixExpression SimpleName first char
+gvt attributed character iteratortext attributey QualifiedName MethodInvocation InfixExpression SimpleName i
+gvt attributed character iteratortext attributey QualifiedName MethodInvocation InfixExpression SimpleName first char
+gvt attributed character iteratortext attributey QualifiedName MethodInvocation InfixExpression SimpleName i
+gvt attributed character iteratortext attributey QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+al SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+i SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName InfixExpression MethodInvocation InfixExpression SimpleName first char
+first char SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+first char SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName first char
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+i SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+dx att SimpleName MethodInvocation SimpleName length
+dx att SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+text utilities SimpleName MethodInvocation SimpleName svg horizontal coordinate array to user space
+text utilities SimpleName MethodInvocation SimpleName element
+text utilities SimpleName MethodInvocation SimpleName svg dx attribute
+text utilities SimpleName MethodInvocation SimpleName dx att
+text utilities SimpleName MethodInvocation SimpleName ctx
+svg horizontal coordinate array to user space SimpleName MethodInvocation SimpleName element
+svg horizontal coordinate array to user space SimpleName MethodInvocation SimpleName svg dx attribute
+svg horizontal coordinate array to user space SimpleName MethodInvocation SimpleName dx att
+svg horizontal coordinate array to user space SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName svg dx attribute
+element SimpleName MethodInvocation SimpleName dx att
+element SimpleName MethodInvocation SimpleName ctx
+svg dx attribute SimpleName MethodInvocation SimpleName dx att
+svg dx attribute SimpleName MethodInvocation SimpleName ctx
+dx att SimpleName MethodInvocation SimpleName ctx
+al SimpleName Assignment MethodInvocation SimpleName text utilities
+al SimpleName Assignment MethodInvocation SimpleName svg horizontal coordinate array to user space
+al SimpleName Assignment MethodInvocation SimpleName element
+al SimpleName Assignment MethodInvocation SimpleName svg dx attribute
+al SimpleName Assignment MethodInvocation SimpleName dx att
+al SimpleName Assignment MethodInvocation SimpleName ctx
+al SimpleName MethodInvocation SimpleName size
+len SimpleName Assignment MethodInvocation SimpleName al
+len SimpleName Assignment MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+first char SimpleName InfixExpression SimpleName i
+first char SimpleName InfixExpression InfixExpression SimpleName last char
+i SimpleName InfixExpression InfixExpression SimpleName last char
+al SimpleName MethodInvocation SimpleName get
+al SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+first char SimpleName InfixExpression SimpleName i
+first char SimpleName InfixExpression SimpleName i
+first char SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributedx
+as SimpleName MethodInvocation MethodInvocation SimpleName al
+as SimpleName MethodInvocation MethodInvocation SimpleName get
+as SimpleName MethodInvocation MethodInvocation SimpleName i
+as SimpleName MethodInvocation InfixExpression SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName i
+as SimpleName MethodInvocation InfixExpression SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName i
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributedx
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName al
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName get
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributedx QualifiedName MethodInvocation MethodInvocation SimpleName al
+gvt attributed character iteratortext attributedx QualifiedName MethodInvocation MethodInvocation SimpleName get
+gvt attributed character iteratortext attributedx QualifiedName MethodInvocation MethodInvocation SimpleName i
+gvt attributed character iteratortext attributedx QualifiedName MethodInvocation InfixExpression SimpleName first char
+gvt attributed character iteratortext attributedx QualifiedName MethodInvocation InfixExpression SimpleName i
+gvt attributed character iteratortext attributedx QualifiedName MethodInvocation InfixExpression SimpleName first char
+gvt attributed character iteratortext attributedx QualifiedName MethodInvocation InfixExpression SimpleName i
+gvt attributed character iteratortext attributedx QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+al SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+i SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName InfixExpression MethodInvocation InfixExpression SimpleName first char
+first char SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+first char SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName first char
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+i SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+dy att SimpleName MethodInvocation SimpleName length
+dy att SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+text utilities SimpleName MethodInvocation SimpleName svg vertical coordinate array to user space
+text utilities SimpleName MethodInvocation SimpleName element
+text utilities SimpleName MethodInvocation SimpleName svg dy attribute
+text utilities SimpleName MethodInvocation SimpleName dy att
+text utilities SimpleName MethodInvocation SimpleName ctx
+svg vertical coordinate array to user space SimpleName MethodInvocation SimpleName element
+svg vertical coordinate array to user space SimpleName MethodInvocation SimpleName svg dy attribute
+svg vertical coordinate array to user space SimpleName MethodInvocation SimpleName dy att
+svg vertical coordinate array to user space SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName svg dy attribute
+element SimpleName MethodInvocation SimpleName dy att
+element SimpleName MethodInvocation SimpleName ctx
+svg dy attribute SimpleName MethodInvocation SimpleName dy att
+svg dy attribute SimpleName MethodInvocation SimpleName ctx
+dy att SimpleName MethodInvocation SimpleName ctx
+al SimpleName Assignment MethodInvocation SimpleName text utilities
+al SimpleName Assignment MethodInvocation SimpleName svg vertical coordinate array to user space
+al SimpleName Assignment MethodInvocation SimpleName element
+al SimpleName Assignment MethodInvocation SimpleName svg dy attribute
+al SimpleName Assignment MethodInvocation SimpleName dy att
+al SimpleName Assignment MethodInvocation SimpleName ctx
+al SimpleName MethodInvocation SimpleName size
+len SimpleName Assignment MethodInvocation SimpleName al
+len SimpleName Assignment MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+first char SimpleName InfixExpression SimpleName i
+first char SimpleName InfixExpression InfixExpression SimpleName last char
+i SimpleName InfixExpression InfixExpression SimpleName last char
+al SimpleName MethodInvocation SimpleName get
+al SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+first char SimpleName InfixExpression SimpleName i
+first char SimpleName InfixExpression SimpleName i
+first char SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributedy
+as SimpleName MethodInvocation MethodInvocation SimpleName al
+as SimpleName MethodInvocation MethodInvocation SimpleName get
+as SimpleName MethodInvocation MethodInvocation SimpleName i
+as SimpleName MethodInvocation InfixExpression SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName i
+as SimpleName MethodInvocation InfixExpression SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName i
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributedy
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName al
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName get
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributedy QualifiedName MethodInvocation MethodInvocation SimpleName al
+gvt attributed character iteratortext attributedy QualifiedName MethodInvocation MethodInvocation SimpleName get
+gvt attributed character iteratortext attributedy QualifiedName MethodInvocation MethodInvocation SimpleName i
+gvt attributed character iteratortext attributedy QualifiedName MethodInvocation InfixExpression SimpleName first char
+gvt attributed character iteratortext attributedy QualifiedName MethodInvocation InfixExpression SimpleName i
+gvt attributed character iteratortext attributedy QualifiedName MethodInvocation InfixExpression SimpleName first char
+gvt attributed character iteratortext attributedy QualifiedName MethodInvocation InfixExpression SimpleName i
+gvt attributed character iteratortext attributedy QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+al SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+al SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+get SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName first char
+i SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName i
+i SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName InfixExpression MethodInvocation InfixExpression SimpleName first char
+first char SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+first char SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName first char
+i SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+i SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+rotate att SimpleName MethodInvocation SimpleName length
+rotate att SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+text utilities SimpleName MethodInvocation SimpleName svg rotate array to floats
+text utilities SimpleName MethodInvocation SimpleName element
+text utilities SimpleName MethodInvocation SimpleName svg rotate attribute
+text utilities SimpleName MethodInvocation SimpleName rotate att
+text utilities SimpleName MethodInvocation SimpleName ctx
+svg rotate array to floats SimpleName MethodInvocation SimpleName element
+svg rotate array to floats SimpleName MethodInvocation SimpleName svg rotate attribute
+svg rotate array to floats SimpleName MethodInvocation SimpleName rotate att
+svg rotate array to floats SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName svg rotate attribute
+element SimpleName MethodInvocation SimpleName rotate att
+element SimpleName MethodInvocation SimpleName ctx
+svg rotate attribute SimpleName MethodInvocation SimpleName rotate att
+svg rotate attribute SimpleName MethodInvocation SimpleName ctx
+rotate att SimpleName MethodInvocation SimpleName ctx
+al SimpleName Assignment MethodInvocation SimpleName text utilities
+al SimpleName Assignment MethodInvocation SimpleName svg rotate array to floats
+al SimpleName Assignment MethodInvocation SimpleName element
+al SimpleName Assignment MethodInvocation SimpleName svg rotate attribute
+al SimpleName Assignment MethodInvocation SimpleName rotate att
+al SimpleName Assignment MethodInvocation SimpleName ctx
+al SimpleName MethodInvocation SimpleName size
+len SimpleName Assignment MethodInvocation SimpleName al
+len SimpleName Assignment MethodInvocation SimpleName size
+len SimpleName InfixExpression NumberLiteral empty
+al SimpleName MethodInvocation SimpleName get
+al SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributerotation
+as SimpleName MethodInvocation MethodInvocation SimpleName al
+as SimpleName MethodInvocation MethodInvocation SimpleName get
+as SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributerotation
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName al
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName get
+add attribute SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gvt attributed character iteratortext attributerotation QualifiedName MethodInvocation MethodInvocation SimpleName al
+gvt attributed character iteratortext attributerotation QualifiedName MethodInvocation MethodInvocation SimpleName get

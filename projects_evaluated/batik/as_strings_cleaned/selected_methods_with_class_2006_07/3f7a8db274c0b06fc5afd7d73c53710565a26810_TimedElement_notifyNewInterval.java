@@ -1,0 +1,141 @@
+interval SimpleName SimpleType SingleVariableDeclaration SimpleName interval
+trace SimpleName MethodInvocation SimpleName enter
+trace SimpleName MethodInvocation StringLiteral notify new interval
+trace SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName interval
+enter SimpleName MethodInvocation StringLiteral notify new interval
+enter SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName interval
+notify new interval StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName interval
+begin dependents SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName begin dependents
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+timing specifier SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+timing specifier SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+ts SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName timing specifier
+ts SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+ts SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+timing specifier SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+tsis begin QualifiedName ConditionalExpression StringLiteral begin
+tsis begin QualifiedName ConditionalExpression StringLiteral end
+begin StringLiteral ConditionalExpression StringLiteral end
+tsowner QualifiedName InfixExpression StringLiteral s
+tsowner QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName tsis begin
+tsowner QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral begin
+tsowner QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral end
+tsowner QualifiedName InfixExpression StringLiteral :
+tsowner QualifiedName InfixExpression SimpleName ts
+s StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName tsis begin
+s StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral begin
+s StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral end
+s StringLiteral InfixExpression StringLiteral :
+s StringLiteral InfixExpression SimpleName ts
+tsis begin QualifiedName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral :
+begin StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral :
+end StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral :
+tsis begin QualifiedName ConditionalExpression ParenthesizedExpression InfixExpression SimpleName ts
+begin StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression SimpleName ts
+end StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression SimpleName ts
+: StringLiteral InfixExpression SimpleName ts
+trace SimpleName MethodInvocation SimpleName print
+trace SimpleName MethodInvocation InfixExpression QualifiedName tsowner
+trace SimpleName MethodInvocation InfixExpression StringLiteral s
+trace SimpleName MethodInvocation InfixExpression StringLiteral :
+trace SimpleName MethodInvocation InfixExpression SimpleName ts
+print SimpleName MethodInvocation InfixExpression QualifiedName tsowner
+print SimpleName MethodInvocation InfixExpression StringLiteral s
+print SimpleName MethodInvocation InfixExpression StringLiteral :
+print SimpleName MethodInvocation InfixExpression SimpleName ts
+root SimpleName MethodInvocation SimpleName should propagate
+root SimpleName MethodInvocation SimpleName interval
+root SimpleName MethodInvocation SimpleName ts
+root SimpleName MethodInvocation BooleanLiteral true
+should propagate SimpleName MethodInvocation SimpleName interval
+should propagate SimpleName MethodInvocation SimpleName ts
+should propagate SimpleName MethodInvocation BooleanLiteral true
+interval SimpleName MethodInvocation SimpleName ts
+interval SimpleName MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation BooleanLiteral true
+ts SimpleName MethodInvocation SimpleName new interval
+ts SimpleName MethodInvocation SimpleName interval
+new interval SimpleName MethodInvocation SimpleName interval
+trace SimpleName MethodInvocation SimpleName print
+trace SimpleName MethodInvocation StringLiteral but not propagating
+print SimpleName MethodInvocation StringLiteral but not propagating
+end dependents SimpleName MethodInvocation SimpleName iterator
+i SimpleName Assignment MethodInvocation SimpleName end dependents
+i SimpleName Assignment MethodInvocation SimpleName iterator
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+timing specifier SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+timing specifier SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+ts SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName timing specifier
+ts SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+ts SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+timing specifier SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+tsis begin QualifiedName ConditionalExpression StringLiteral begin
+tsis begin QualifiedName ConditionalExpression StringLiteral end
+begin StringLiteral ConditionalExpression StringLiteral end
+tsowner QualifiedName InfixExpression StringLiteral s
+tsowner QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName tsis begin
+tsowner QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral begin
+tsowner QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral end
+tsowner QualifiedName InfixExpression StringLiteral :
+tsowner QualifiedName InfixExpression SimpleName ts
+s StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName tsis begin
+s StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral begin
+s StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral end
+s StringLiteral InfixExpression StringLiteral :
+s StringLiteral InfixExpression SimpleName ts
+tsis begin QualifiedName ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral :
+begin StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral :
+end StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral :
+tsis begin QualifiedName ConditionalExpression ParenthesizedExpression InfixExpression SimpleName ts
+begin StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression SimpleName ts
+end StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression SimpleName ts
+: StringLiteral InfixExpression SimpleName ts
+trace SimpleName MethodInvocation SimpleName print
+trace SimpleName MethodInvocation InfixExpression QualifiedName tsowner
+trace SimpleName MethodInvocation InfixExpression StringLiteral s
+trace SimpleName MethodInvocation InfixExpression StringLiteral :
+trace SimpleName MethodInvocation InfixExpression SimpleName ts
+print SimpleName MethodInvocation InfixExpression QualifiedName tsowner
+print SimpleName MethodInvocation InfixExpression StringLiteral s
+print SimpleName MethodInvocation InfixExpression StringLiteral :
+print SimpleName MethodInvocation InfixExpression SimpleName ts
+root SimpleName MethodInvocation SimpleName should propagate
+root SimpleName MethodInvocation SimpleName interval
+root SimpleName MethodInvocation SimpleName ts
+root SimpleName MethodInvocation BooleanLiteral false
+should propagate SimpleName MethodInvocation SimpleName interval
+should propagate SimpleName MethodInvocation SimpleName ts
+should propagate SimpleName MethodInvocation BooleanLiteral false
+interval SimpleName MethodInvocation SimpleName ts
+interval SimpleName MethodInvocation BooleanLiteral false
+ts SimpleName MethodInvocation BooleanLiteral false
+ts SimpleName MethodInvocation SimpleName new interval
+ts SimpleName MethodInvocation SimpleName interval
+new interval SimpleName MethodInvocation SimpleName interval
+trace SimpleName MethodInvocation SimpleName print
+trace SimpleName MethodInvocation StringLiteral but not propagating
+print SimpleName MethodInvocation StringLiteral but not propagating
+trace SimpleName MethodInvocation SimpleName exit
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName notify new interval
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName interval
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName interval
+void PrimitiveType MethodDeclaration SimpleName notify new interval
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName interval
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName interval
+notify new interval SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName interval
+notify new interval SimpleName MethodDeclaration SingleVariableDeclaration SimpleName interval
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName notify new interval
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interval
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName notify new interval
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interval

@@ -1,0 +1,80 @@
+css style declaration SimpleName SimpleType SingleVariableDeclaration SimpleName decl
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName fill property
+get property css value SimpleName MethodInvocation SimpleName fill property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName fill property
+v SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css primitive value
+v SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName decl
+v SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get property css value
+v SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName fill property
+css primitive value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get primitive type
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName fill opacity property
+get property css value SimpleName MethodInvocation SimpleName fill opacity property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName fill opacity property
+vv SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css primitive value
+vv SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName decl
+vv SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get property css value
+vv SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName fill opacity property
+css primitive value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vv
+convert opacity SimpleName MethodInvocation SimpleName vv
+opacity SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert opacity
+opacity SimpleName VariableDeclarationFragment MethodInvocation SimpleName vv
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName opacity
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName convert opacity
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName vv
+v SimpleName MethodInvocation SimpleName get rgb color value
+convert color SimpleName MethodInvocation MethodInvocation SimpleName v
+convert color SimpleName MethodInvocation MethodInvocation SimpleName get rgb color value
+convert color SimpleName MethodInvocation SimpleName opacity
+v SimpleName MethodInvocation MethodInvocation SimpleName opacity
+get rgb color value SimpleName MethodInvocation MethodInvocation SimpleName opacity
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert color
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName v
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get rgb color value
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName opacity
+color SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+v SimpleName MethodInvocation SwitchStatement VariableDeclarationStatement PrimitiveType float
+get primitive type SimpleName MethodInvocation SwitchStatement VariableDeclarationStatement PrimitiveType float
+css primitive valuecss ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+css primitive valuecss ident QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType float
+css primitive valuecss rgbcolor QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType float
+css primitive valuecss rgbcolor QualifiedName SwitchCase SwitchStatement ReturnStatement SimpleName c
+css primitive valuecss rgbcolor QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss uri
+float PrimitiveType VariableDeclarationStatement SwitchStatement ReturnStatement SimpleName c
+float PrimitiveType VariableDeclarationStatement SwitchStatement SwitchCase QualifiedName css primitive valuecss uri
+c SimpleName ReturnStatement SwitchStatement SwitchCase QualifiedName css primitive valuecss uri
+error SimpleName SimpleType ClassInstanceCreation StringLiteral not yet implemented
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName paint
+public Modifier MethodDeclaration SimpleName convert fill to paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css style declaration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName decl
+static Modifier MethodDeclaration SimpleType SimpleName paint
+static Modifier MethodDeclaration SimpleName convert fill to paint
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css style declaration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName decl
+paint SimpleName SimpleType MethodDeclaration SimpleName convert fill to paint
+paint SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName decl
+convert fill to paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css style declaration
+convert fill to paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName decl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName paint
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert fill to paint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName paint
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert fill to paint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl

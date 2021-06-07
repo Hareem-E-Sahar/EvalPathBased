@@ -1,0 +1,13 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName root of modifications
+void PrimitiveType MethodDeclaration SimpleName subtree modified
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName root of modifications
+subtree modified SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+subtree modified SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root of modifications
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName subtree modified
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root of modifications
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName subtree modified
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root of modifications

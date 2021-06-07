@@ -1,0 +1,66 @@
+int PrimitiveType SingleVariableDeclaration SimpleName new sz
+max size SimpleName InfixExpression SimpleName new sz
+i SimpleName VariableDeclarationFragment SimpleName max size
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName max size
+i SimpleName InfixExpression SimpleName new sz
+free SimpleName MethodInvocation SimpleName add
+free SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName lru node
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName lru node
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName new sz
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+new sz SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+max size SimpleName InfixExpression SimpleName new sz
+used SimpleName MethodInvocation SimpleName get size
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName used
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName get size
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment MethodInvocation SimpleName used
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment MethodInvocation SimpleName get size
+i SimpleName InfixExpression SimpleName new sz
+used SimpleName MethodInvocation SimpleName get tail
+lru node SimpleName SimpleType CastExpression MethodInvocation SimpleName used
+lru node SimpleName SimpleType CastExpression MethodInvocation SimpleName get tail
+nde SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName lru node
+nde SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName used
+nde SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get tail
+lru node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nde
+used SimpleName MethodInvocation SimpleName remove
+used SimpleName MethodInvocation SimpleName nde
+remove SimpleName MethodInvocation SimpleName nde
+nde SimpleName MethodInvocation SimpleName set obj
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName new sz
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+new sz SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+max size SimpleName Assignment SimpleName new sz
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set size
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new sz
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName set size
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName new sz
+void PrimitiveType MethodDeclaration SimpleName set size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new sz
+set size SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new sz
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new sz
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new sz

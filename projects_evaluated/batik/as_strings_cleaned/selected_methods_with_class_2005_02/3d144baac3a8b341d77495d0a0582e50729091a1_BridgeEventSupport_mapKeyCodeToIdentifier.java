@@ -1,0 +1,30 @@
+int PrimitiveType SingleVariableDeclaration SimpleName key code
+key code SimpleName InfixExpression NumberLiteral empty
+identifier key codes SimpleName ArrayAccess InfixExpression SimpleName key code
+identifier key codes SimpleName ArrayAccess InfixExpression NumberLiteral empty
+a SimpleName VariableDeclarationFragment ArrayAccess SimpleName identifier key codes
+a SimpleName VariableDeclarationFragment ArrayAccess InfixExpression SimpleName key code
+a SimpleName VariableDeclarationFragment ArrayAccess InfixExpression NumberLiteral empty
+key code SimpleName InfixExpression NumberLiteral empty
+a SimpleName ArrayAccess InfixExpression SimpleName key code
+a SimpleName ArrayAccess InfixExpression NumberLiteral empty
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName map key code to identifier
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName key code
+string SimpleName SimpleType MethodDeclaration SimpleName map key code to identifier
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key code
+map key code to identifier SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+map key code to identifier SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key code
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName map key code to identifier
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key code
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName map key code to identifier
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key code

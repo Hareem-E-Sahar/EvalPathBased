@@ -1,0 +1,105 @@
+status bar SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j grid bag panel
+j grid bag panel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status bar
+j label SimpleName SimpleType ClassInstanceCreation QualifiedName messageslabel status
+status label SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j label
+status label SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName messageslabel status
+final Modifier VariableDeclarationStatement SimpleType SimpleName j label
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName status label
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation QualifiedName messageslabel status
+j label SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName status label
+border factory SimpleName MethodInvocation SimpleName create bevel border
+border factory SimpleName MethodInvocation QualifiedName bevel borderlowered
+create bevel border SimpleName MethodInvocation QualifiedName bevel borderlowered
+status bar SimpleName MethodInvocation SimpleName set border
+status bar SimpleName MethodInvocation MethodInvocation SimpleName border factory
+status bar SimpleName MethodInvocation MethodInvocation SimpleName create bevel border
+status bar SimpleName MethodInvocation MethodInvocation QualifiedName bevel borderlowered
+set border SimpleName MethodInvocation MethodInvocation SimpleName border factory
+set border SimpleName MethodInvocation MethodInvocation SimpleName create bevel border
+set border SimpleName MethodInvocation MethodInvocation QualifiedName bevel borderlowered
+status bar SimpleName MethodInvocation SimpleName add
+status bar SimpleName MethodInvocation SimpleName status label
+status bar SimpleName MethodInvocation NumberLiteral empty
+status bar SimpleName MethodInvocation NumberLiteral empty
+status bar SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation SimpleName status label
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation NumberLiteral empty
+status label SimpleName MethodInvocation NumberLiteral empty
+status label SimpleName MethodInvocation NumberLiteral empty
+status label SimpleName MethodInvocation NumberLiteral empty
+status label SimpleName MethodInvocation NumberLiteral empty
+status label SimpleName MethodInvocation QualifiedName status barcenter
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName status barcenter
+empty NumberLiteral MethodInvocation QualifiedName status barhorizontal
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName status barcenter
+empty NumberLiteral MethodInvocation QualifiedName status barhorizontal
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName status barcenter
+empty NumberLiteral MethodInvocation QualifiedName status barhorizontal
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName status barcenter
+empty NumberLiteral MethodInvocation QualifiedName status barhorizontal
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+status barcenter QualifiedName MethodInvocation QualifiedName status barhorizontal
+status barcenter QualifiedName MethodInvocation NumberLiteral empty
+status barcenter QualifiedName MethodInvocation NumberLiteral empty
+status barhorizontal QualifiedName MethodInvocation NumberLiteral empty
+status barhorizontal QualifiedName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+property change event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+model SimpleName MethodInvocation SimpleName get entity uri
+entity uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName model
+entity uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get entity uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity uri
+entity uri SimpleName Assignment StringLiteral empty
+messageslabel status QualifiedName InfixExpression StringLiteral empty
+messageslabel status QualifiedName InfixExpression SimpleName entity uri
+empty StringLiteral InfixExpression SimpleName entity uri
+status label SimpleName MethodInvocation SimpleName set text
+status label SimpleName MethodInvocation InfixExpression QualifiedName messageslabel status
+status label SimpleName MethodInvocation InfixExpression StringLiteral empty
+status label SimpleName MethodInvocation InfixExpression SimpleName entity uri
+set text SimpleName MethodInvocation InfixExpression QualifiedName messageslabel status
+set text SimpleName MethodInvocation InfixExpression StringLiteral empty
+set text SimpleName MethodInvocation InfixExpression SimpleName entity uri
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName property change
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName property change
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change event
+property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+model SimpleName MethodInvocation SimpleName add property change listener
+model SimpleName MethodInvocation StringLiteral entity uri
+model SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName property change listener
+add property change listener SimpleName MethodInvocation StringLiteral entity uri
+add property change listener SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName property change listener
+entity uri StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName property change listener
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName status bar
+private Modifier MethodDeclaration SimpleType SimpleName container
+private Modifier MethodDeclaration SimpleName build status bar
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName status bar
+container SimpleName SimpleType MethodDeclaration SimpleName build status bar
+build status bar SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+build status bar SimpleName MethodDeclaration Block ReturnStatement SimpleName status bar
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName container
+public Modifier TypeDeclaration MethodDeclaration SimpleName build status bar
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName container
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build status bar

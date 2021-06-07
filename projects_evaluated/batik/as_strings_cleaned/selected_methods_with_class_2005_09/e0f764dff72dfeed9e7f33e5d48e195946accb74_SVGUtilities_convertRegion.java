@@ -1,0 +1,270 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName x str
+string SimpleName SimpleType SingleVariableDeclaration SimpleName y str
+string SimpleName SimpleType SingleVariableDeclaration SimpleName w str
+string SimpleName SimpleType SingleVariableDeclaration SimpleName h str
+short PrimitiveType SingleVariableDeclaration SimpleName units type
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName target node
+unit processorcontext QualifiedName SimpleType SingleVariableDeclaration SimpleName uctx
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+y SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+y SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+w SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+unit processor SimpleName MethodInvocation SimpleName svg horizontal coordinate to object bounding box
+unit processor SimpleName MethodInvocation SimpleName x str
+unit processor SimpleName MethodInvocation SimpleName svg x attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg horizontal coordinate to object bounding box SimpleName MethodInvocation SimpleName x str
+svg horizontal coordinate to object bounding box SimpleName MethodInvocation SimpleName svg x attribute
+svg horizontal coordinate to object bounding box SimpleName MethodInvocation SimpleName uctx
+x str SimpleName MethodInvocation SimpleName svg x attribute
+x str SimpleName MethodInvocation SimpleName uctx
+svg x attribute SimpleName MethodInvocation SimpleName uctx
+x SimpleName Assignment MethodInvocation SimpleName unit processor
+x SimpleName Assignment MethodInvocation SimpleName svg horizontal coordinate to object bounding box
+x SimpleName Assignment MethodInvocation SimpleName x str
+x SimpleName Assignment MethodInvocation SimpleName svg x attribute
+x SimpleName Assignment MethodInvocation SimpleName uctx
+unit processor SimpleName MethodInvocation SimpleName svg vertical coordinate to object bounding box
+unit processor SimpleName MethodInvocation SimpleName y str
+unit processor SimpleName MethodInvocation SimpleName svg y attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg vertical coordinate to object bounding box SimpleName MethodInvocation SimpleName y str
+svg vertical coordinate to object bounding box SimpleName MethodInvocation SimpleName svg y attribute
+svg vertical coordinate to object bounding box SimpleName MethodInvocation SimpleName uctx
+y str SimpleName MethodInvocation SimpleName svg y attribute
+y str SimpleName MethodInvocation SimpleName uctx
+svg y attribute SimpleName MethodInvocation SimpleName uctx
+y SimpleName Assignment MethodInvocation SimpleName unit processor
+y SimpleName Assignment MethodInvocation SimpleName svg vertical coordinate to object bounding box
+y SimpleName Assignment MethodInvocation SimpleName y str
+y SimpleName Assignment MethodInvocation SimpleName svg y attribute
+y SimpleName Assignment MethodInvocation SimpleName uctx
+unit processor SimpleName MethodInvocation SimpleName svg horizontal length to object bounding box
+unit processor SimpleName MethodInvocation SimpleName w str
+unit processor SimpleName MethodInvocation SimpleName svg width attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg horizontal length to object bounding box SimpleName MethodInvocation SimpleName w str
+svg horizontal length to object bounding box SimpleName MethodInvocation SimpleName svg width attribute
+svg horizontal length to object bounding box SimpleName MethodInvocation SimpleName uctx
+w str SimpleName MethodInvocation SimpleName svg width attribute
+w str SimpleName MethodInvocation SimpleName uctx
+svg width attribute SimpleName MethodInvocation SimpleName uctx
+w SimpleName Assignment MethodInvocation SimpleName unit processor
+w SimpleName Assignment MethodInvocation SimpleName svg horizontal length to object bounding box
+w SimpleName Assignment MethodInvocation SimpleName w str
+w SimpleName Assignment MethodInvocation SimpleName svg width attribute
+w SimpleName Assignment MethodInvocation SimpleName uctx
+unit processor SimpleName MethodInvocation SimpleName svg vertical length to object bounding box
+unit processor SimpleName MethodInvocation SimpleName h str
+unit processor SimpleName MethodInvocation SimpleName svg height attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg vertical length to object bounding box SimpleName MethodInvocation SimpleName h str
+svg vertical length to object bounding box SimpleName MethodInvocation SimpleName svg height attribute
+svg vertical length to object bounding box SimpleName MethodInvocation SimpleName uctx
+h str SimpleName MethodInvocation SimpleName svg height attribute
+h str SimpleName MethodInvocation SimpleName uctx
+svg height attribute SimpleName MethodInvocation SimpleName uctx
+h SimpleName Assignment MethodInvocation SimpleName unit processor
+h SimpleName Assignment MethodInvocation SimpleName svg vertical length to object bounding box
+h SimpleName Assignment MethodInvocation SimpleName h str
+h SimpleName Assignment MethodInvocation SimpleName svg height attribute
+h SimpleName Assignment MethodInvocation SimpleName uctx
+target node SimpleName MethodInvocation SimpleName get geometry bounds
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName target node
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get geometry bounds
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bounds
+bounds SimpleName MethodInvocation SimpleName get x
+bounds SimpleName MethodInvocation SimpleName get width
+x SimpleName InfixExpression MethodInvocation SimpleName bounds
+x SimpleName InfixExpression MethodInvocation SimpleName get width
+bounds SimpleName MethodInvocation InfixExpression InfixExpression SimpleName x
+get x SimpleName MethodInvocation InfixExpression InfixExpression SimpleName x
+x SimpleName Assignment InfixExpression MethodInvocation SimpleName bounds
+x SimpleName Assignment InfixExpression MethodInvocation SimpleName get x
+x SimpleName Assignment InfixExpression InfixExpression SimpleName x
+bounds SimpleName MethodInvocation SimpleName get y
+bounds SimpleName MethodInvocation SimpleName get height
+y SimpleName InfixExpression MethodInvocation SimpleName bounds
+y SimpleName InfixExpression MethodInvocation SimpleName get height
+bounds SimpleName MethodInvocation InfixExpression InfixExpression SimpleName y
+get y SimpleName MethodInvocation InfixExpression InfixExpression SimpleName y
+y SimpleName Assignment InfixExpression MethodInvocation SimpleName bounds
+y SimpleName Assignment InfixExpression MethodInvocation SimpleName get y
+y SimpleName Assignment InfixExpression InfixExpression SimpleName y
+bounds SimpleName MethodInvocation SimpleName get width
+w SimpleName Assignment MethodInvocation SimpleName bounds
+w SimpleName Assignment MethodInvocation SimpleName get width
+bounds SimpleName MethodInvocation SimpleName get height
+h SimpleName Assignment MethodInvocation SimpleName bounds
+h SimpleName Assignment MethodInvocation SimpleName get height
+h SimpleName Assignment NumberLiteral empty
+w SimpleName Assignment Assignment SimpleName h
+w SimpleName Assignment Assignment NumberLiteral empty
+y SimpleName Assignment Assignment SimpleName w
+y SimpleName Assignment Assignment Assignment SimpleName h
+y SimpleName Assignment Assignment Assignment NumberLiteral empty
+x SimpleName Assignment Assignment SimpleName y
+x SimpleName Assignment Assignment Assignment SimpleName w
+unit processor SimpleName MethodInvocation SimpleName svg horizontal coordinate to user space
+unit processor SimpleName MethodInvocation SimpleName x str
+unit processor SimpleName MethodInvocation SimpleName svg x attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg horizontal coordinate to user space SimpleName MethodInvocation SimpleName x str
+svg horizontal coordinate to user space SimpleName MethodInvocation SimpleName svg x attribute
+svg horizontal coordinate to user space SimpleName MethodInvocation SimpleName uctx
+x str SimpleName MethodInvocation SimpleName svg x attribute
+x str SimpleName MethodInvocation SimpleName uctx
+svg x attribute SimpleName MethodInvocation SimpleName uctx
+x SimpleName Assignment MethodInvocation SimpleName unit processor
+x SimpleName Assignment MethodInvocation SimpleName svg horizontal coordinate to user space
+x SimpleName Assignment MethodInvocation SimpleName x str
+x SimpleName Assignment MethodInvocation SimpleName svg x attribute
+x SimpleName Assignment MethodInvocation SimpleName uctx
+unit processor SimpleName MethodInvocation SimpleName svg vertical coordinate to user space
+unit processor SimpleName MethodInvocation SimpleName y str
+unit processor SimpleName MethodInvocation SimpleName svg y attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg vertical coordinate to user space SimpleName MethodInvocation SimpleName y str
+svg vertical coordinate to user space SimpleName MethodInvocation SimpleName svg y attribute
+svg vertical coordinate to user space SimpleName MethodInvocation SimpleName uctx
+y str SimpleName MethodInvocation SimpleName svg y attribute
+y str SimpleName MethodInvocation SimpleName uctx
+svg y attribute SimpleName MethodInvocation SimpleName uctx
+y SimpleName Assignment MethodInvocation SimpleName unit processor
+y SimpleName Assignment MethodInvocation SimpleName svg vertical coordinate to user space
+y SimpleName Assignment MethodInvocation SimpleName y str
+y SimpleName Assignment MethodInvocation SimpleName svg y attribute
+y SimpleName Assignment MethodInvocation SimpleName uctx
+unit processor SimpleName MethodInvocation SimpleName svg horizontal length to user space
+unit processor SimpleName MethodInvocation SimpleName w str
+unit processor SimpleName MethodInvocation SimpleName svg width attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg horizontal length to user space SimpleName MethodInvocation SimpleName w str
+svg horizontal length to user space SimpleName MethodInvocation SimpleName svg width attribute
+svg horizontal length to user space SimpleName MethodInvocation SimpleName uctx
+w str SimpleName MethodInvocation SimpleName svg width attribute
+w str SimpleName MethodInvocation SimpleName uctx
+svg width attribute SimpleName MethodInvocation SimpleName uctx
+w SimpleName Assignment MethodInvocation SimpleName unit processor
+w SimpleName Assignment MethodInvocation SimpleName svg horizontal length to user space
+w SimpleName Assignment MethodInvocation SimpleName w str
+w SimpleName Assignment MethodInvocation SimpleName svg width attribute
+w SimpleName Assignment MethodInvocation SimpleName uctx
+unit processor SimpleName MethodInvocation SimpleName svg vertical length to user space
+unit processor SimpleName MethodInvocation SimpleName h str
+unit processor SimpleName MethodInvocation SimpleName svg height attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg vertical length to user space SimpleName MethodInvocation SimpleName h str
+svg vertical length to user space SimpleName MethodInvocation SimpleName svg height attribute
+svg vertical length to user space SimpleName MethodInvocation SimpleName uctx
+h str SimpleName MethodInvocation SimpleName svg height attribute
+h str SimpleName MethodInvocation SimpleName uctx
+svg height attribute SimpleName MethodInvocation SimpleName uctx
+h SimpleName Assignment MethodInvocation SimpleName unit processor
+h SimpleName Assignment MethodInvocation SimpleName svg vertical length to user space
+h SimpleName Assignment MethodInvocation SimpleName h str
+h SimpleName Assignment MethodInvocation SimpleName svg height attribute
+h SimpleName Assignment MethodInvocation SimpleName uctx
+units type SimpleName SwitchStatement SwitchCase SimpleName object bounding box
+units type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName x
+units type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName y
+units type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName w
+units type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName h
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName x
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName y
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName w
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName h
+x SimpleName ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName w
+x SimpleName ClassInstanceCreation SimpleName h
+y SimpleName ClassInstanceCreation SimpleName w
+y SimpleName ClassInstanceCreation SimpleName h
+w SimpleName ClassInstanceCreation SimpleName h
+double PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName units type
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName rectangle d
+protected Modifier MethodDeclaration SimpleName convert region
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName x str
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName y str
+static Modifier MethodDeclaration SimpleType SimpleName rectangle d
+static Modifier MethodDeclaration SimpleName convert region
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName x str
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName y str
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName w str
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName convert region
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName x str
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName y str
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName w str
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName h str
+convert region SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+convert region SimpleName MethodDeclaration SingleVariableDeclaration SimpleName x str
+convert region SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+convert region SimpleName MethodDeclaration SingleVariableDeclaration SimpleName y str
+convert region SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+convert region SimpleName MethodDeclaration SingleVariableDeclaration SimpleName w str
+convert region SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+convert region SimpleName MethodDeclaration SingleVariableDeclaration SimpleName h str
+convert region SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+convert region SimpleName MethodDeclaration SingleVariableDeclaration SimpleName units type
+x str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y str
+x str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w str
+x str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h str
+x str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+x str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName units type
+x str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target node
+y str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w str
+y str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h str
+y str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+y str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName units type
+y str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target node
+y str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+w str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h str
+w str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+w str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName units type
+w str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target node
+w str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+h str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+h str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName units type
+h str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target node
+h str SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target node
+units type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target node
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+units type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+target node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert region
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName x str
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y str
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w str
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h str
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName units type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert region
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName x str
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y str
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w str
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h str
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName units type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx

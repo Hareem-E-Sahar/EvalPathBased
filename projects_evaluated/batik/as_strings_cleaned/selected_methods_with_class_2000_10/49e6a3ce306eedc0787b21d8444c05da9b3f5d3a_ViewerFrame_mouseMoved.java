@@ -1,0 +1,31 @@
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get x
+status bar SimpleName MethodInvocation SimpleName set x position
+status bar SimpleName MethodInvocation MethodInvocation SimpleName e
+status bar SimpleName MethodInvocation MethodInvocation SimpleName get x
+set x position SimpleName MethodInvocation MethodInvocation SimpleName e
+set x position SimpleName MethodInvocation MethodInvocation SimpleName get x
+e SimpleName MethodInvocation SimpleName get y
+status bar SimpleName MethodInvocation SimpleName set y position
+status bar SimpleName MethodInvocation MethodInvocation SimpleName e
+status bar SimpleName MethodInvocation MethodInvocation SimpleName get y
+set y position SimpleName MethodInvocation MethodInvocation SimpleName e
+set y position SimpleName MethodInvocation MethodInvocation SimpleName get y
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse moved
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName mouse moved
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse moved SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse moved SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mouse moved
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mouse moved
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

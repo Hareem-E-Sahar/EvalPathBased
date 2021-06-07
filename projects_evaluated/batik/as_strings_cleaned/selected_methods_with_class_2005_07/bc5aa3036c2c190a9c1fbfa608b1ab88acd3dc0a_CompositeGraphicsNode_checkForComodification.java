@@ -1,0 +1,11 @@
+mod count SimpleName InfixExpression SimpleName expected mod count
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName check for comodification
+void PrimitiveType MethodDeclaration SimpleName check for comodification
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check for comodification
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check for comodification

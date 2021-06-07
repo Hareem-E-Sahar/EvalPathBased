@@ -1,0 +1,31 @@
+immutable value list SimpleName SimpleType ClassInstanceCreation SimpleName separator
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName immutable value list
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName separator
+immutable value list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName length
+table SimpleName ArrayAccess SimpleName i
+cssom value SimpleName SimpleType CastExpression ArrayAccess SimpleName table
+cssom value SimpleName SimpleType CastExpression ArrayAccess SimpleName i
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation MethodInvocation SimpleName create read only copy
+append SimpleName MethodInvocation MethodInvocation SimpleName create read only copy
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName length
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+length SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration SimpleType SimpleName immutable value
+public Modifier MethodDeclaration SimpleName create read only copy
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+immutable value SimpleName SimpleType MethodDeclaration SimpleName create read only copy
+create read only copy SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName immutable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName create read only copy
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName immutable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create read only copy

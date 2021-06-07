@@ -1,0 +1,174 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+generic dom implementation SimpleName MethodInvocation SimpleName get dom implementation
+impl SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic dom implementation
+impl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get dom implementation
+dom implementation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName impl
+impl SimpleName MethodInvocation SimpleName create document
+impl SimpleName MethodInvocation StringLiteral root
+create document SimpleName MethodInvocation StringLiteral root
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName impl
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName create document
+doc SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get document element
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get document element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+doc SimpleName MethodInvocation SimpleName create text node
+doc SimpleName MethodInvocation StringLiteral text
+create text node SimpleName MethodInvocation StringLiteral text
+text SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+text SimpleName VariableDeclarationFragment MethodInvocation SimpleName create text node
+text SimpleName VariableDeclarationFragment MethodInvocation StringLiteral text
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text
+elt SimpleName MethodInvocation SimpleName append child
+elt SimpleName MethodInvocation SimpleName text
+append child SimpleName MethodInvocation SimpleName text
+doc SimpleName MethodInvocation SimpleName create element ns
+doc SimpleName MethodInvocation StringLiteral eltns
+doc SimpleName MethodInvocation StringLiteral elt type
+create element ns SimpleName MethodInvocation StringLiteral eltns
+create element ns SimpleName MethodInvocation StringLiteral elt type
+eltns StringLiteral MethodInvocation StringLiteral elt type
+elt SimpleName MethodInvocation SimpleName append child
+elt SimpleName MethodInvocation MethodInvocation SimpleName doc
+elt SimpleName MethodInvocation MethodInvocation SimpleName create element ns
+elt SimpleName MethodInvocation MethodInvocation StringLiteral eltns
+elt SimpleName MethodInvocation MethodInvocation StringLiteral elt type
+append child SimpleName MethodInvocation MethodInvocation SimpleName doc
+append child SimpleName MethodInvocation MethodInvocation SimpleName create element ns
+append child SimpleName MethodInvocation MethodInvocation StringLiteral eltns
+append child SimpleName MethodInvocation MethodInvocation StringLiteral elt type
+elt SimpleName MethodInvocation SimpleName set attribute ns
+elt SimpleName MethodInvocation StringLiteral attrns
+elt SimpleName MethodInvocation StringLiteral attr
+elt SimpleName MethodInvocation StringLiteral empty
+set attribute ns SimpleName MethodInvocation StringLiteral attrns
+set attribute ns SimpleName MethodInvocation StringLiteral attr
+set attribute ns SimpleName MethodInvocation StringLiteral empty
+attrns StringLiteral MethodInvocation StringLiteral attr
+attrns StringLiteral MethodInvocation StringLiteral empty
+attr StringLiteral MethodInvocation StringLiteral empty
+document traversal SimpleName SimpleType CastExpression SimpleName doc
+doc SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName create node iterator
+doc SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName doc
+doc SimpleName CastExpression ParenthesizedExpression MethodInvocation QualifiedName node filtershow all
+doc SimpleName CastExpression ParenthesizedExpression MethodInvocation BooleanLiteral true
+create node iterator SimpleName MethodInvocation SimpleName doc
+create node iterator SimpleName MethodInvocation QualifiedName node filtershow all
+create node iterator SimpleName MethodInvocation BooleanLiteral true
+doc SimpleName MethodInvocation QualifiedName node filtershow all
+doc SimpleName MethodInvocation BooleanLiteral true
+node filtershow all QualifiedName MethodInvocation BooleanLiteral true
+ni SimpleName VariableDeclarationFragment MethodInvocation SimpleName create node iterator
+ni SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+ni SimpleName VariableDeclarationFragment MethodInvocation QualifiedName node filtershow all
+ni SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+node iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ni
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+ni SimpleName MethodInvocation SimpleName next node
+n SimpleName Assignment MethodInvocation SimpleName ni
+n SimpleName Assignment MethodInvocation SimpleName next node
+---> StringLiteral InfixExpression SimpleName n
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral --->
+systemout QualifiedName MethodInvocation InfixExpression SimpleName n
+println SimpleName MethodInvocation InfixExpression StringLiteral --->
+println SimpleName MethodInvocation InfixExpression SimpleName n
+document traversal SimpleName SimpleType CastExpression SimpleName doc
+doc SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName create node iterator
+doc SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName doc
+doc SimpleName CastExpression ParenthesizedExpression MethodInvocation QualifiedName node filtershow all
+doc SimpleName CastExpression ParenthesizedExpression MethodInvocation BooleanLiteral true
+create node iterator SimpleName MethodInvocation SimpleName doc
+create node iterator SimpleName MethodInvocation QualifiedName node filtershow all
+create node iterator SimpleName MethodInvocation BooleanLiteral true
+doc SimpleName MethodInvocation QualifiedName node filtershow all
+doc SimpleName MethodInvocation BooleanLiteral true
+node filtershow all QualifiedName MethodInvocation BooleanLiteral true
+ni SimpleName Assignment MethodInvocation SimpleName create node iterator
+ni SimpleName Assignment MethodInvocation SimpleName doc
+ni SimpleName Assignment MethodInvocation QualifiedName node filtershow all
+ni SimpleName Assignment MethodInvocation BooleanLiteral true
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+ni SimpleName MethodInvocation SimpleName next node
+n SimpleName Assignment MethodInvocation SimpleName ni
+n SimpleName Assignment MethodInvocation SimpleName next node
+next ---> StringLiteral InfixExpression SimpleName n
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral next --->
+systemout QualifiedName MethodInvocation InfixExpression SimpleName n
+println SimpleName MethodInvocation InfixExpression StringLiteral next --->
+println SimpleName MethodInvocation InfixExpression SimpleName n
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+ni SimpleName MethodInvocation SimpleName previous node
+n SimpleName Assignment MethodInvocation SimpleName ni
+n SimpleName Assignment MethodInvocation SimpleName previous node
+prev ---> StringLiteral InfixExpression SimpleName n
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral prev --->
+systemout QualifiedName MethodInvocation InfixExpression SimpleName n
+println SimpleName MethodInvocation InfixExpression StringLiteral prev --->
+println SimpleName MethodInvocation InfixExpression SimpleName n
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+ni SimpleName MethodInvocation SimpleName next node
+ni SimpleName MethodInvocation SimpleName next node
+ni SimpleName MethodInvocation SimpleName next node
+txt ---> StringLiteral InfixExpression MethodInvocation SimpleName ni
+txt ---> StringLiteral InfixExpression MethodInvocation SimpleName next node
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral txt --->
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ni
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName next node
+println SimpleName MethodInvocation InfixExpression StringLiteral txt --->
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ni
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName next node
+elt SimpleName MethodInvocation SimpleName remove child
+elt SimpleName MethodInvocation SimpleName text
+remove child SimpleName MethodInvocation SimpleName text
+ni SimpleName MethodInvocation SimpleName previous node
+prev after remove ---> StringLiteral InfixExpression MethodInvocation SimpleName ni
+prev after remove ---> StringLiteral InfixExpression MethodInvocation SimpleName previous node
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral prev after remove --->
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ni
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName previous node
+println SimpleName MethodInvocation InfixExpression StringLiteral prev after remove --->
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ni
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName previous node
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

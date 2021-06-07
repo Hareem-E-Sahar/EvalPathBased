@@ -1,0 +1,66 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ln
+get live attribute value SimpleName MethodInvocation SimpleName ns
+get live attribute value SimpleName MethodInvocation SimpleName ln
+ns SimpleName MethodInvocation SimpleName ln
+svgom animated string SimpleName SimpleType CastExpression MethodInvocation SimpleName get live attribute value
+svgom animated string SimpleName SimpleType CastExpression MethodInvocation SimpleName ns
+svgom animated string SimpleName SimpleType CastExpression MethodInvocation SimpleName ln
+result SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom animated string
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get live attribute value
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ns
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ln
+svgom animated string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+svgom document SimpleName SimpleType CastExpression SimpleName owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleName owner document
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+svgom animated string SimpleName SimpleType ClassInstanceCreation SimpleName ns
+svgom animated string SimpleName SimpleType ClassInstanceCreation SimpleName ln
+ns SimpleName ClassInstanceCreation SimpleName ln
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svgom animated string
+result SimpleName Assignment ClassInstanceCreation SimpleName ns
+result SimpleName Assignment ClassInstanceCreation SimpleName ln
+doc SimpleName MethodInvocation SimpleName get animated attribute listener
+result SimpleName MethodInvocation SimpleName add animated attribute listener
+result SimpleName MethodInvocation MethodInvocation SimpleName doc
+result SimpleName MethodInvocation MethodInvocation SimpleName get animated attribute listener
+add animated attribute listener SimpleName MethodInvocation MethodInvocation SimpleName doc
+add animated attribute listener SimpleName MethodInvocation MethodInvocation SimpleName get animated attribute listener
+live attribute value SimpleName SimpleType CastExpression SimpleName result
+put live attribute value SimpleName MethodInvocation SimpleName ns
+put live attribute value SimpleName MethodInvocation SimpleName ln
+put live attribute value SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+put live attribute value SimpleName MethodInvocation CastExpression SimpleName result
+ns SimpleName MethodInvocation SimpleName ln
+ns SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+ns SimpleName MethodInvocation CastExpression SimpleName result
+ln SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+ln SimpleName MethodInvocation CastExpression SimpleName result
+protected Modifier MethodDeclaration SimpleType SimpleName svg animated string
+protected Modifier MethodDeclaration SimpleName get animated string attribute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ln
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName result
+svg animated string SimpleName SimpleType MethodDeclaration SimpleName get animated string attribute
+svg animated string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ns
+svg animated string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ln
+get animated string attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get animated string attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+get animated string attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get animated string attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ln
+get animated string attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get animated string attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get animated string attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln

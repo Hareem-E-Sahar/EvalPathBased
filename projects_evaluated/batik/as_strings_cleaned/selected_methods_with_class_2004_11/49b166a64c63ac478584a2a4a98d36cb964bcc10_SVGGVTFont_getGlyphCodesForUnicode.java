@@ -1,0 +1,69 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName unicode
+glyph codes SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName vector
+vector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph codes
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName glyph unicodeslength
+glyph unicodes SimpleName ArrayAccess SimpleName i
+glyph unicodes SimpleName ArrayAccess SimpleName i
+glyph unicodes SimpleName ArrayAccess MethodInvocation SimpleName equals
+i SimpleName ArrayAccess MethodInvocation SimpleName equals
+glyph unicodes SimpleName ArrayAccess MethodInvocation SimpleName unicode
+i SimpleName ArrayAccess MethodInvocation SimpleName unicode
+equals SimpleName MethodInvocation SimpleName unicode
+integer SimpleName SimpleType ClassInstanceCreation SimpleName i
+glyph codes SimpleName MethodInvocation SimpleName add
+glyph codes SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+glyph codes SimpleName MethodInvocation ClassInstanceCreation SimpleName i
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName glyph unicodeslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+glyph unicodeslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+glyph codes SimpleName MethodInvocation SimpleName size
+int PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName glyph codes
+int PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName size
+glyph code array SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+glyph code array SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName glyph codes
+glyph code array SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName size
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph code array
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+glyph codes SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName glyph codes
+i SimpleName InfixExpression MethodInvocation SimpleName size
+glyph code array SimpleName ArrayAccess SimpleName i
+glyph codes SimpleName MethodInvocation SimpleName element at
+glyph codes SimpleName MethodInvocation SimpleName i
+element at SimpleName MethodInvocation SimpleName i
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName glyph codes
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName element at
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+glyph code array SimpleName ArrayAccess Assignment MethodInvocation SimpleName int value
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName int value
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration ArrayType PrimitiveType int
+public Modifier MethodDeclaration SimpleName get glyph codes for unicode
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unicode
+public Modifier MethodDeclaration Block ReturnStatement SimpleName glyph code array
+int PrimitiveType ArrayType MethodDeclaration SimpleName get glyph codes for unicode
+int PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName unicode
+get glyph codes for unicode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get glyph codes for unicode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unicode
+get glyph codes for unicode SimpleName MethodDeclaration Block ReturnStatement SimpleName glyph code array
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get glyph codes for unicode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unicode
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get glyph codes for unicode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unicode

@@ -1,0 +1,33 @@
+resolve url SimpleName MethodInvocation SimpleName input uri
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve url
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName input uri
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+url SimpleName MethodInvocation SimpleName open stream
+input stream reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName url
+input stream reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName open stream
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName input stream reader
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName url
+reader SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName open stream
+reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+transcoder input SimpleName SimpleType ClassInstanceCreation SimpleName reader
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName transcoder input
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName reader
+transcoder input SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input
+url SimpleName MethodInvocation SimpleName to string
+input SimpleName MethodInvocation SimpleName set uri
+input SimpleName MethodInvocation MethodInvocation SimpleName url
+input SimpleName MethodInvocation MethodInvocation SimpleName to string
+set uri SimpleName MethodInvocation MethodInvocation SimpleName url
+set uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName input uri
+protected Modifier MethodDeclaration SimpleType SimpleName transcoder input
+protected Modifier MethodDeclaration SimpleName create transcoder input
+transcoder input SimpleName SimpleType MethodDeclaration SimpleName create transcoder input
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder input
+public Modifier TypeDeclaration MethodDeclaration SimpleName create transcoder input
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder input
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create transcoder input

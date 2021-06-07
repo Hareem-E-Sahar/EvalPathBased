@@ -1,0 +1,13 @@
+eng SimpleName MethodInvocation SimpleName remove fill
+eng SimpleName MethodInvocation SimpleName animation
+remove fill SimpleName MethodInvocation SimpleName animation
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName remove fill
+void PrimitiveType MethodDeclaration SimpleName remove fill
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove fill
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove fill

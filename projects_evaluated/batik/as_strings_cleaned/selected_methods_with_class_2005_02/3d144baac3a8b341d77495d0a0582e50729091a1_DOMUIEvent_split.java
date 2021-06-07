@@ -1,0 +1,80 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+array list SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+a SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+a SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+array list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+i SimpleName InfixExpression SimpleName len
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation PostfixExpression SimpleName i
+char at SimpleName MethodInvocation PostfixExpression SimpleName i
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+c SimpleName VariableDeclarationFragment MethodInvocation PostfixExpression SimpleName i
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+xml utilities SimpleName MethodInvocation SimpleName is xml space
+xml utilities SimpleName MethodInvocation SimpleName c
+is xml space SimpleName MethodInvocation SimpleName c
+sb SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string buffer
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName c
+append SimpleName MethodInvocation SimpleName c
+i SimpleName InfixExpression SimpleName len
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation PostfixExpression SimpleName i
+char at SimpleName MethodInvocation PostfixExpression SimpleName i
+c SimpleName Assignment MethodInvocation SimpleName s
+c SimpleName Assignment MethodInvocation SimpleName char at
+c SimpleName Assignment MethodInvocation PostfixExpression SimpleName i
+xml utilities SimpleName MethodInvocation SimpleName is xml space
+xml utilities SimpleName MethodInvocation SimpleName c
+is xml space SimpleName MethodInvocation SimpleName c
+sb SimpleName MethodInvocation SimpleName to string
+a SimpleName MethodInvocation SimpleName add
+a SimpleName MethodInvocation MethodInvocation SimpleName sb
+a SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName sb
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+i SimpleName InfixExpression SimpleName len
+sb SimpleName MethodInvocation SimpleName to string
+a SimpleName MethodInvocation SimpleName add
+a SimpleName MethodInvocation MethodInvocation SimpleName sb
+a SimpleName MethodInvocation MethodInvocation SimpleName to string
+add SimpleName MethodInvocation MethodInvocation SimpleName sb
+add SimpleName MethodInvocation MethodInvocation SimpleName to string
+a SimpleName MethodInvocation SimpleName size
+a SimpleName MethodInvocation SimpleName to array
+a SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName a
+a SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName a
+to array SimpleName MethodInvocation ArrayCreation MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName split
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName split
+split SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+split SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+split SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName split
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName split
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

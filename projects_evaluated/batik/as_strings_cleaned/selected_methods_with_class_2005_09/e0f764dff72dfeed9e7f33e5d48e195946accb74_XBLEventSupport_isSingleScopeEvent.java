@@ -1,0 +1,22 @@
+event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName InstanceofExpression SimpleType SimpleName mutation event
+evt SimpleName InstanceofExpression SimpleType SimpleName shadow tree event
+evt SimpleName InstanceofExpression InfixExpression InstanceofExpression SimpleName evt
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is single scope event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+boolean PrimitiveType MethodDeclaration SimpleName is single scope event
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+is single scope event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+is single scope event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is single scope event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is single scope event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

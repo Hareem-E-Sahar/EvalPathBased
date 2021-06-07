@@ -1,0 +1,29 @@
+graphics node key event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+dispatch keyboard event SimpleName MethodInvocation StringLiteral keyup
+dispatch keyboard event SimpleName MethodInvocation SimpleName evt
+keyup StringLiteral MethodInvocation SimpleName evt
+dispatch key event SimpleName MethodInvocation StringLiteral keyup
+dispatch key event SimpleName MethodInvocation SimpleName evt
+keyup StringLiteral MethodInvocation SimpleName evt
+is down SimpleName Assignment BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName key released
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier MethodDeclaration Block IfStatement SimpleName svg
+void PrimitiveType MethodDeclaration SimpleName key released
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName svg
+key released SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+key released SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+key released SimpleName MethodDeclaration Block IfStatement SimpleName svg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName key released
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName key released
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

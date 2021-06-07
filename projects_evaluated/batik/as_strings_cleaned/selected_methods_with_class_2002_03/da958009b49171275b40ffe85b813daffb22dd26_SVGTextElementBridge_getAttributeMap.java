@@ -1,0 +1,500 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+text path SimpleName SimpleType SingleVariableDeclaration SimpleName text path
+unit processor SimpleName MethodInvocation SimpleName create context
+unit processor SimpleName MethodInvocation SimpleName ctx
+unit processor SimpleName MethodInvocation SimpleName element
+create context SimpleName MethodInvocation SimpleName ctx
+create context SimpleName MethodInvocation SimpleName element
+ctx SimpleName MethodInvocation SimpleName element
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName unit processor
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName create context
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+unit processorcontext QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uctx
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hash map
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+vertical text SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertical text
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributetext compound delimiter
+result SimpleName MethodInvocation SimpleName element
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributetext compound delimiter
+put SimpleName MethodInvocation SimpleName element
+gvt attributed character iteratortext attributetext compound delimiter QualifiedName MethodInvocation SimpleName element
+element SimpleName MethodInvocation SimpleName get tag name
+element SimpleName MethodInvocation MethodInvocation SimpleName equals
+get tag name SimpleName MethodInvocation MethodInvocation SimpleName equals
+element SimpleName MethodInvocation MethodInvocation SimpleName svg alt glyph tag
+get tag name SimpleName MethodInvocation MethodInvocation SimpleName svg alt glyph tag
+equals SimpleName MethodInvocation SimpleName svg alt glyph tag
+svg alt glyph handler SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+svg alt glyph handler SimpleName SimpleType ClassInstanceCreation SimpleName element
+ctx SimpleName ClassInstanceCreation SimpleName element
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributealt glyph handler
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg alt glyph handler
+result SimpleName MethodInvocation ClassInstanceCreation SimpleName ctx
+result SimpleName MethodInvocation ClassInstanceCreation SimpleName element
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributealt glyph handler
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg alt glyph handler
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName ctx
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName element
+gvt attributed character iteratortext attributealt glyph handler QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg alt glyph handler
+gvt attributed character iteratortext attributealt glyph handler QualifiedName MethodInvocation ClassInstanceCreation SimpleName ctx
+gvt attributed character iteratortext attributealt glyph handler QualifiedName MethodInvocation ClassInstanceCreation SimpleName element
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributetextpath
+result SimpleName MethodInvocation SimpleName text path
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributetextpath
+put SimpleName MethodInvocation SimpleName text path
+gvt attributed character iteratortext attributetextpath QualifiedName MethodInvocation SimpleName text path
+text utilities SimpleName MethodInvocation SimpleName convert text anchor
+text utilities SimpleName MethodInvocation SimpleName element
+convert text anchor SimpleName MethodInvocation SimpleName element
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName text utilities
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert text anchor
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+text nodeanchor QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeanchor type
+result SimpleName MethodInvocation SimpleName a
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeanchor type
+put SimpleName MethodInvocation SimpleName a
+gvt attributed character iteratortext attributeanchor type QualifiedName MethodInvocation SimpleName a
+text utilities SimpleName MethodInvocation SimpleName convert font size
+text utilities SimpleName MethodInvocation SimpleName element
+convert font size SimpleName MethodInvocation SimpleName element
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName text utilities
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert font size
+fs SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+float SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributesize
+result SimpleName MethodInvocation SimpleName fs
+put SimpleName MethodInvocation QualifiedName text attributesize
+put SimpleName MethodInvocation SimpleName fs
+text attributesize QualifiedName MethodInvocation SimpleName fs
+text utilities SimpleName MethodInvocation SimpleName convert font weight
+text utilities SimpleName MethodInvocation SimpleName element
+convert font weight SimpleName MethodInvocation SimpleName element
+fw SimpleName VariableDeclarationFragment MethodInvocation SimpleName text utilities
+fw SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert font weight
+fw SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+float SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fw
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginefont weight index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginefont weight index
+element SimpleName MethodInvocation QualifiedName svgcss enginefont weight index
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName css utilities
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+v SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss enginefont weight index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get css text
+font weight string SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+font weight string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css text
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font weight string
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributeweight
+result SimpleName MethodInvocation SimpleName fw
+put SimpleName MethodInvocation QualifiedName text attributeweight
+put SimpleName MethodInvocation SimpleName fw
+text attributeweight QualifiedName MethodInvocation SimpleName fw
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginefont style index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginefont style index
+element SimpleName MethodInvocation QualifiedName svgcss enginefont style index
+css utilities SimpleName MethodInvocation MethodInvocation SimpleName get string value
+get computed style SimpleName MethodInvocation MethodInvocation SimpleName get string value
+element SimpleName MethodInvocation MethodInvocation SimpleName get string value
+svgcss enginefont style index QualifiedName MethodInvocation MethodInvocation SimpleName get string value
+font style string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName css utilities
+font style string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get computed style
+font style string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName element
+font style string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName svgcss enginefont style index
+font style string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font style string
+text utilities SimpleName MethodInvocation SimpleName convert font style
+text utilities SimpleName MethodInvocation SimpleName element
+convert font style SimpleName MethodInvocation SimpleName element
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributeposture
+result SimpleName MethodInvocation MethodInvocation SimpleName text utilities
+result SimpleName MethodInvocation MethodInvocation SimpleName convert font style
+result SimpleName MethodInvocation MethodInvocation SimpleName element
+put SimpleName MethodInvocation QualifiedName text attributeposture
+put SimpleName MethodInvocation MethodInvocation SimpleName text utilities
+put SimpleName MethodInvocation MethodInvocation SimpleName convert font style
+put SimpleName MethodInvocation MethodInvocation SimpleName element
+text attributeposture QualifiedName MethodInvocation MethodInvocation SimpleName text utilities
+text attributeposture QualifiedName MethodInvocation MethodInvocation SimpleName convert font style
+text attributeposture QualifiedName MethodInvocation MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginefont stretch index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginefont stretch index
+element SimpleName MethodInvocation QualifiedName svgcss enginefont stretch index
+css utilities SimpleName MethodInvocation MethodInvocation SimpleName get string value
+get computed style SimpleName MethodInvocation MethodInvocation SimpleName get string value
+element SimpleName MethodInvocation MethodInvocation SimpleName get string value
+svgcss enginefont stretch index QualifiedName MethodInvocation MethodInvocation SimpleName get string value
+font stretch string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName css utilities
+font stretch string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get computed style
+font stretch string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName element
+font stretch string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName svgcss enginefont stretch index
+font stretch string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font stretch string
+text utilities SimpleName MethodInvocation SimpleName convert font stretch
+text utilities SimpleName MethodInvocation SimpleName element
+convert font stretch SimpleName MethodInvocation SimpleName element
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributewidth
+result SimpleName MethodInvocation MethodInvocation SimpleName text utilities
+result SimpleName MethodInvocation MethodInvocation SimpleName convert font stretch
+result SimpleName MethodInvocation MethodInvocation SimpleName element
+put SimpleName MethodInvocation QualifiedName text attributewidth
+put SimpleName MethodInvocation MethodInvocation SimpleName text utilities
+put SimpleName MethodInvocation MethodInvocation SimpleName convert font stretch
+put SimpleName MethodInvocation MethodInvocation SimpleName element
+text attributewidth QualifiedName MethodInvocation MethodInvocation SimpleName text utilities
+text attributewidth QualifiedName MethodInvocation MethodInvocation SimpleName convert font stretch
+text attributewidth QualifiedName MethodInvocation MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginefont family index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginefont family index
+element SimpleName MethodInvocation QualifiedName svgcss enginefont family index
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName css utilities
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+val SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss enginefont family index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+font family list SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName vector
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font family list
+val SimpleName MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName val
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+val SimpleName MethodInvocation SimpleName item
+val SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName get string value
+font family name SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+font family name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font family name
+svg font utilities SimpleName MethodInvocation SimpleName get font family
+svg font utilities SimpleName MethodInvocation SimpleName element
+svg font utilities SimpleName MethodInvocation SimpleName ctx
+svg font utilities SimpleName MethodInvocation SimpleName font family name
+svg font utilities SimpleName MethodInvocation SimpleName font weight string
+get font family SimpleName MethodInvocation SimpleName element
+get font family SimpleName MethodInvocation SimpleName ctx
+get font family SimpleName MethodInvocation SimpleName font family name
+get font family SimpleName MethodInvocation SimpleName font weight string
+get font family SimpleName MethodInvocation SimpleName font style string
+element SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName font family name
+element SimpleName MethodInvocation SimpleName font weight string
+element SimpleName MethodInvocation SimpleName font style string
+ctx SimpleName MethodInvocation SimpleName font family name
+ctx SimpleName MethodInvocation SimpleName font weight string
+ctx SimpleName MethodInvocation SimpleName font style string
+font family name SimpleName MethodInvocation SimpleName font weight string
+font family name SimpleName MethodInvocation SimpleName font style string
+font weight string SimpleName MethodInvocation SimpleName font style string
+font family SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg font utilities
+font family SimpleName VariableDeclarationFragment MethodInvocation SimpleName get font family
+font family SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+font family SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+font family SimpleName VariableDeclarationFragment MethodInvocation SimpleName font family name
+font family SimpleName VariableDeclarationFragment MethodInvocation SimpleName font weight string
+font family SimpleName VariableDeclarationFragment MethodInvocation SimpleName font style string
+gvt font family SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font family
+font family list SimpleName MethodInvocation SimpleName add
+font family list SimpleName MethodInvocation SimpleName font family
+add SimpleName MethodInvocation SimpleName font family
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributegvt font families
+result SimpleName MethodInvocation SimpleName font family list
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributegvt font families
+put SimpleName MethodInvocation SimpleName font family list
+gvt attributed character iteratortext attributegvt font families QualifiedName MethodInvocation SimpleName font family list
+text utilities SimpleName MethodInvocation SimpleName convert baseline shift
+text utilities SimpleName MethodInvocation SimpleName element
+convert baseline shift SimpleName MethodInvocation SimpleName element
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName text utilities
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert baseline shift
+bs SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bs
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributebaseline shift
+result SimpleName MethodInvocation SimpleName bs
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributebaseline shift
+put SimpleName MethodInvocation SimpleName bs
+gvt attributed character iteratortext attributebaseline shift QualifiedName MethodInvocation SimpleName bs
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss engineunicode bidi index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss engineunicode bidi index
+element SimpleName MethodInvocation QualifiedName svgcss engineunicode bidi index
+val SimpleName Assignment MethodInvocation SimpleName css utilities
+val SimpleName Assignment MethodInvocation SimpleName get computed style
+val SimpleName Assignment MethodInvocation SimpleName element
+val SimpleName Assignment MethodInvocation QualifiedName svgcss engineunicode bidi index
+val SimpleName MethodInvocation SimpleName get string value
+s SimpleName Assignment MethodInvocation SimpleName val
+s SimpleName Assignment MethodInvocation SimpleName get string value
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation InfixExpression CharacterLiteral n
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral n
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral n
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributebidi embedding
+result SimpleName MethodInvocation SimpleName zero
+put SimpleName MethodInvocation QualifiedName text attributebidi embedding
+put SimpleName MethodInvocation SimpleName zero
+text attributebidi embedding QualifiedName MethodInvocation SimpleName zero
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginedirection index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginedirection index
+element SimpleName MethodInvocation QualifiedName svgcss enginedirection index
+val SimpleName Assignment MethodInvocation SimpleName css utilities
+val SimpleName Assignment MethodInvocation SimpleName get computed style
+val SimpleName Assignment MethodInvocation SimpleName element
+val SimpleName Assignment MethodInvocation QualifiedName svgcss enginedirection index
+val SimpleName MethodInvocation SimpleName get string value
+rs SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+rs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rs
+rs SimpleName MethodInvocation SimpleName char at
+rs SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributerun direction
+result SimpleName MethodInvocation QualifiedName text attributerun direction ltr
+put SimpleName MethodInvocation QualifiedName text attributerun direction
+put SimpleName MethodInvocation QualifiedName text attributerun direction ltr
+text attributerun direction QualifiedName MethodInvocation QualifiedName text attributerun direction ltr
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation PrefixExpression NumberLiteral empty
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributebidi embedding
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+result SimpleName MethodInvocation ClassInstanceCreation PrefixExpression NumberLiteral empty
+put SimpleName MethodInvocation QualifiedName text attributebidi embedding
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+put SimpleName MethodInvocation ClassInstanceCreation PrefixExpression NumberLiteral empty
+text attributebidi embedding QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+text attributebidi embedding QualifiedName MethodInvocation ClassInstanceCreation PrefixExpression NumberLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributebidi embedding
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+result SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+put SimpleName MethodInvocation QualifiedName text attributebidi embedding
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+put SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+text attributebidi embedding QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+text attributebidi embedding QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral e
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral e
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral e
+b CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral e
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributerun direction
+result SimpleName MethodInvocation QualifiedName text attributerun direction rtl
+put SimpleName MethodInvocation QualifiedName text attributerun direction
+put SimpleName MethodInvocation QualifiedName text attributerun direction rtl
+text attributerun direction QualifiedName MethodInvocation QualifiedName text attributerun direction rtl
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation PrefixExpression NumberLiteral empty
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributebidi embedding
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+result SimpleName MethodInvocation ClassInstanceCreation PrefixExpression NumberLiteral empty
+put SimpleName MethodInvocation QualifiedName text attributebidi embedding
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+put SimpleName MethodInvocation ClassInstanceCreation PrefixExpression NumberLiteral empty
+text attributebidi embedding QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+text attributebidi embedding QualifiedName MethodInvocation ClassInstanceCreation PrefixExpression NumberLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributebidi embedding
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+result SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+put SimpleName MethodInvocation QualifiedName text attributebidi embedding
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+put SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+text attributebidi embedding QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+text attributebidi embedding QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral e
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral e
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral e
+b CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral e
+rs SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral l
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral l
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral l
+rs SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+l CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral r
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginewriting mode index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginewriting mode index
+element SimpleName MethodInvocation QualifiedName svgcss enginewriting mode index
+val SimpleName Assignment MethodInvocation SimpleName css utilities
+val SimpleName Assignment MethodInvocation SimpleName get computed style
+val SimpleName Assignment MethodInvocation SimpleName element
+val SimpleName Assignment MethodInvocation QualifiedName svgcss enginewriting mode index
+val SimpleName MethodInvocation SimpleName get string value
+s SimpleName Assignment MethodInvocation SimpleName val
+s SimpleName Assignment MethodInvocation SimpleName get string value
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode ltr
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode ltr
+gvt attributed character iteratortext attributewriting mode QualifiedName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode ltr
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode rtl
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode rtl
+gvt attributed character iteratortext attributewriting mode QualifiedName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode rtl
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode ttb
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode ttb
+gvt attributed character iteratortext attributewriting mode QualifiedName MethodInvocation QualifiedName gvt attributed character iteratortext attributewriting mode ttb
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral l
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral l
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral l
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+l CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral r
+r CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral t
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss engineglyph orientation vertical index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss engineglyph orientation vertical index
+element SimpleName MethodInvocation QualifiedName svgcss engineglyph orientation vertical index
+val SimpleName Assignment MethodInvocation SimpleName css utilities
+val SimpleName Assignment MethodInvocation SimpleName get computed style
+val SimpleName Assignment MethodInvocation SimpleName element
+val SimpleName Assignment MethodInvocation QualifiedName svgcss engineglyph orientation vertical index
+val SimpleName MethodInvocation SimpleName get primitive type
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeorientation auto
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeorientation auto
+gvt attributed character iteratortext attributevertical orientation QualifiedName MethodInvocation QualifiedName gvt attributed character iteratortext attributeorientation auto
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeorientation angle
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeorientation angle
+gvt attributed character iteratortext attributevertical orientation QualifiedName MethodInvocation QualifiedName gvt attributed character iteratortext attributeorientation angle
+val SimpleName MethodInvocation SimpleName get float value
+float SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName val
+float SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get float value
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation angle
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName val
+result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get float value
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation angle
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName val
+put SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get float value
+gvt attributed character iteratortext attributevertical orientation angle QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+gvt attributed character iteratortext attributevertical orientation angle QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName val
+gvt attributed character iteratortext attributevertical orientation angle QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get float value
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeorientation angle
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeorientation angle
+gvt attributed character iteratortext attributevertical orientation QualifiedName MethodInvocation QualifiedName gvt attributed character iteratortext attributeorientation angle
+val SimpleName MethodInvocation SimpleName get float value
+val SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get float value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+val SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName mathpi
+get float value SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName mathpi
+empty NumberLiteral InfixExpression InfixExpression QualifiedName mathpi
+float SimpleName SimpleType ClassInstanceCreation InfixExpression QualifiedName mathpi
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation angle
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+result SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName mathpi
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation angle
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+put SimpleName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName mathpi
+gvt attributed character iteratortext attributevertical orientation angle QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+gvt attributed character iteratortext attributevertical orientation angle QualifiedName MethodInvocation ClassInstanceCreation InfixExpression QualifiedName mathpi
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeorientation angle
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation
+put SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributeorientation angle
+gvt attributed character iteratortext attributevertical orientation QualifiedName MethodInvocation QualifiedName gvt attributed character iteratortext attributeorientation angle
+val SimpleName MethodInvocation SimpleName get float value
+val SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get float value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+val SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get float value SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+float SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributevertical orientation angle
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+result SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty

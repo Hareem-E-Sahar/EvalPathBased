@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local name
+definition lists SimpleName MethodInvocation SimpleName get
+definition lists SimpleName MethodInvocation SimpleName namespace uri
+definition lists SimpleName MethodInvocation SimpleName local name
+get SimpleName MethodInvocation SimpleName namespace uri
+get SimpleName MethodInvocation SimpleName local name
+namespace uri SimpleName MethodInvocation SimpleName local name
+tree set SimpleName SimpleType CastExpression MethodInvocation SimpleName definition lists
+tree set SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+tree set SimpleName SimpleType CastExpression MethodInvocation SimpleName namespace uri
+tree set SimpleName SimpleType CastExpression MethodInvocation SimpleName local name
+defs SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName tree set
+defs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName definition lists
+defs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+defs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName namespace uri
+defs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName local name
+tree set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName defs
+defs SimpleName MethodInvocation SimpleName size
+defs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+defs SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+defs SimpleName MethodInvocation SimpleName first
+definition record SimpleName SimpleType CastExpression MethodInvocation SimpleName defs
+definition record SimpleName SimpleType CastExpression MethodInvocation SimpleName first
+protected Modifier MethodDeclaration SimpleType SimpleName definition record
+protected Modifier MethodDeclaration SimpleName get active definition
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName local name
+definition record SimpleName SimpleType MethodDeclaration SimpleName get active definition
+definition record SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+definition record SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local name
+get active definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get active definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+get active definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get active definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local name
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName definition record
+public Modifier TypeDeclaration MethodDeclaration SimpleName get active definition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName definition record
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get active definition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name

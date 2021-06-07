@@ -1,0 +1,21 @@
+double PrimitiveType SingleVariableDeclaration SimpleName dy
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set yoffset
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dy
+void PrimitiveType MethodDeclaration SimpleName set yoffset
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dy
+set yoffset SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+set yoffset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set yoffset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dy
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set yoffset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dy

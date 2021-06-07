@@ -1,0 +1,21 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+get record SimpleName MethodInvocation SimpleName n
+get record SimpleName MethodInvocation FieldAccess SimpleName content element
+n SimpleName MethodInvocation FieldAccess SimpleName content element
+public Modifier MethodDeclaration SimpleType SimpleName xblom content element
+public Modifier MethodDeclaration SimpleName get xbl content element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+xblom content element SimpleName SimpleType MethodDeclaration SimpleName get xbl content element
+xblom content element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get xbl content element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get xbl content element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xblom content element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get xbl content element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xblom content element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get xbl content element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

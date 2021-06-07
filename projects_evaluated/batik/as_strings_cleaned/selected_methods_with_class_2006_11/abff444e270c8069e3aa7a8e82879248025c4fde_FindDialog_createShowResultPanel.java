@@ -1,0 +1,170 @@
+panel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j panel
+j panel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName panel
+border factory SimpleName MethodInvocation SimpleName create etched border
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral show result paneltitle
+get string SimpleName MethodInvocation StringLiteral show result paneltitle
+border factory SimpleName MethodInvocation SimpleName create titled border
+border factory SimpleName MethodInvocation MethodInvocation SimpleName border factory
+border factory SimpleName MethodInvocation MethodInvocation SimpleName create etched border
+border factory SimpleName MethodInvocation MethodInvocation SimpleName resources
+border factory SimpleName MethodInvocation MethodInvocation SimpleName get string
+border factory SimpleName MethodInvocation MethodInvocation StringLiteral show result paneltitle
+create titled border SimpleName MethodInvocation MethodInvocation SimpleName border factory
+create titled border SimpleName MethodInvocation MethodInvocation SimpleName create etched border
+create titled border SimpleName MethodInvocation MethodInvocation SimpleName resources
+create titled border SimpleName MethodInvocation MethodInvocation SimpleName get string
+create titled border SimpleName MethodInvocation MethodInvocation StringLiteral show result paneltitle
+border factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resources
+border factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+border factory SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral show result paneltitle
+create etched border SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resources
+create etched border SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+create etched border SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral show result paneltitle
+panel SimpleName MethodInvocation SimpleName set border
+panel SimpleName MethodInvocation MethodInvocation SimpleName border factory
+panel SimpleName MethodInvocation MethodInvocation SimpleName create titled border
+panel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName border factory
+panel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create etched border
+panel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resources
+panel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+panel SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral show result paneltitle
+set border SimpleName MethodInvocation MethodInvocation SimpleName border factory
+set border SimpleName MethodInvocation MethodInvocation SimpleName create titled border
+set border SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName border factory
+set border SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create etched border
+set border SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resources
+set border SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+set border SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral show result paneltitle
+gbc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName extended grid bag constraints
+extended grid bag constraints SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gbc
+insets SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+insets SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+insets SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+insets SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+gbcinsets QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName insets
+gbcinsets QualifiedName Assignment ClassInstanceCreation NumberLiteral empty
+gbcinsets QualifiedName Assignment ClassInstanceCreation NumberLiteral empty
+gbcinsets QualifiedName Assignment ClassInstanceCreation NumberLiteral empty
+gbcinsets QualifiedName Assignment ClassInstanceCreation NumberLiteral empty
+gbcanchor QualifiedName Assignment QualifiedName extended grid bag constraintswest
+gbcfill QualifiedName Assignment QualifiedName extended grid bag constraintsnone
+gbc SimpleName MethodInvocation SimpleName set weight
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+set weight SimpleName MethodInvocation NumberLiteral empty
+set weight SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+grp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName button group
+button group SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName grp
+button factory SimpleName MethodInvocation SimpleName create j radio button
+button factory SimpleName MethodInvocation StringLiteral highlight
+create j radio button SimpleName MethodInvocation StringLiteral highlight
+highlight button SimpleName Assignment MethodInvocation SimpleName button factory
+highlight button SimpleName Assignment MethodInvocation SimpleName create j radio button
+highlight button SimpleName Assignment MethodInvocation StringLiteral highlight
+highlight button SimpleName MethodInvocation SimpleName set selected
+highlight button SimpleName MethodInvocation BooleanLiteral true
+set selected SimpleName MethodInvocation BooleanLiteral true
+grp SimpleName MethodInvocation SimpleName add
+grp SimpleName MethodInvocation SimpleName highlight button
+add SimpleName MethodInvocation SimpleName highlight button
+gbc SimpleName MethodInvocation SimpleName set grid bounds
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+panel SimpleName MethodInvocation SimpleName add
+panel SimpleName MethodInvocation SimpleName highlight button
+panel SimpleName MethodInvocation SimpleName gbc
+add SimpleName MethodInvocation SimpleName highlight button
+add SimpleName MethodInvocation SimpleName gbc
+highlight button SimpleName MethodInvocation SimpleName gbc
+button factory SimpleName MethodInvocation SimpleName create j radio button
+button factory SimpleName MethodInvocation StringLiteral highlight and center
+create j radio button SimpleName MethodInvocation StringLiteral highlight and center
+highlight center button SimpleName Assignment MethodInvocation SimpleName button factory
+highlight center button SimpleName Assignment MethodInvocation SimpleName create j radio button
+highlight center button SimpleName Assignment MethodInvocation StringLiteral highlight and center
+grp SimpleName MethodInvocation SimpleName add
+grp SimpleName MethodInvocation SimpleName highlight center button
+add SimpleName MethodInvocation SimpleName highlight center button
+gbc SimpleName MethodInvocation SimpleName set grid bounds
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+panel SimpleName MethodInvocation SimpleName add
+panel SimpleName MethodInvocation SimpleName highlight center button
+panel SimpleName MethodInvocation SimpleName gbc
+add SimpleName MethodInvocation SimpleName highlight center button
+add SimpleName MethodInvocation SimpleName gbc
+highlight center button SimpleName MethodInvocation SimpleName gbc
+button factory SimpleName MethodInvocation SimpleName create j radio button
+button factory SimpleName MethodInvocation StringLiteral highlight center and zoom
+create j radio button SimpleName MethodInvocation StringLiteral highlight center and zoom
+highlight center zoom button SimpleName Assignment MethodInvocation SimpleName button factory
+highlight center zoom button SimpleName Assignment MethodInvocation SimpleName create j radio button
+highlight center zoom button SimpleName Assignment MethodInvocation StringLiteral highlight center and zoom
+grp SimpleName MethodInvocation SimpleName add
+grp SimpleName MethodInvocation SimpleName highlight center zoom button
+add SimpleName MethodInvocation SimpleName highlight center zoom button
+gbc SimpleName MethodInvocation SimpleName set grid bounds
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+panel SimpleName MethodInvocation SimpleName add
+panel SimpleName MethodInvocation SimpleName highlight center zoom button
+panel SimpleName MethodInvocation SimpleName gbc
+add SimpleName MethodInvocation SimpleName highlight center zoom button
+add SimpleName MethodInvocation SimpleName gbc
+highlight center zoom button SimpleName MethodInvocation SimpleName gbc
+protected Modifier MethodDeclaration SimpleType SimpleName j panel
+protected Modifier MethodDeclaration SimpleName create show result panel
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName panel
+j panel SimpleName SimpleType MethodDeclaration SimpleName create show result panel
+create show result panel SimpleName MethodDeclaration Block ReturnStatement SimpleName panel
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName j panel
+public Modifier TypeDeclaration MethodDeclaration SimpleName create show result panel
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName j panel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create show result panel

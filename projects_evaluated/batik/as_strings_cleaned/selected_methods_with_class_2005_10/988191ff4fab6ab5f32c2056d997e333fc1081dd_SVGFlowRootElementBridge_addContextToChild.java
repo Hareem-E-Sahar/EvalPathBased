@@ -1,0 +1,116 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get namespace uri
+svg namespace uri SimpleName MethodInvocation SimpleName equals
+svg namespace uri SimpleName MethodInvocation MethodInvocation SimpleName e
+svg namespace uri SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+equals SimpleName MethodInvocation MethodInvocation SimpleName e
+equals SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+e SimpleName MethodInvocation SimpleName get local name
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg flow div tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg flow div tag
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg flow line tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg flow line tag
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg flow para tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg flow para tag
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg flow span tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg flow span tag
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow line tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow line tag
+svg constantssvg flow div tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg constantssvg flow div tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg flow div tag QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow line tag
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow para tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow para tag
+svg constantssvg flow div tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg constantssvg flow div tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg flow div tag QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow para tag
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow span tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow span tag
+svg constantssvg flow div tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg constantssvg flow div tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg flow div tag QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow span tag
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow para tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow para tag
+svg constantssvg flow line tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg constantssvg flow line tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg flow line tag QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow para tag
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow span tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow span tag
+svg constantssvg flow line tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg constantssvg flow line tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg flow line tag QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow span tag
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow span tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow span tag
+svg constantssvg flow para tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg constantssvg flow para tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg flow para tag QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg flow span tag
+svgom element SimpleName SimpleType CastExpression SimpleName e
+flow content bridge SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+flow content bridge SimpleName SimpleType ClassInstanceCreation SimpleName e
+ctx SimpleName ClassInstanceCreation SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set svg context
+set svg context SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName flow content bridge
+set svg context SimpleName MethodInvocation ClassInstanceCreation SimpleName ctx
+set svg context SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+add context to child SimpleName SuperMethodInvocation SimpleName ctx
+add context to child SimpleName SuperMethodInvocation SimpleName e
+ctx SimpleName SuperMethodInvocation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add context to child
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName add context to child
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+add context to child SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+add context to child SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+add context to child SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+add context to child SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add context to child
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add context to child
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

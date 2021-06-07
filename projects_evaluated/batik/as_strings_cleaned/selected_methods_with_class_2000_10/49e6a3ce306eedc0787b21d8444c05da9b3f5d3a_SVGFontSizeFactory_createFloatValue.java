@@ -1,0 +1,58 @@
+short PrimitiveType SingleVariableDeclaration SimpleName unit type
+float PrimitiveType SingleVariableDeclaration SimpleName float value
+immutable float SimpleName SimpleType ClassInstanceCreation QualifiedName css primitive valuecss number
+immutable float SimpleName SimpleType ClassInstanceCreation SimpleName float value
+css primitive valuecss number QualifiedName ClassInstanceCreation SimpleName float value
+create float value SimpleName SuperMethodInvocation SimpleName unit type
+create float value SimpleName SuperMethodInvocation SimpleName float value
+unit type SimpleName SuperMethodInvocation SimpleName float value
+unit type SimpleName SwitchStatement SwitchCase QualifiedName css primitive valuecss number
+unit type SimpleName SwitchStatement ReturnStatement ClassInstanceCreation QualifiedName css primitive valuecss number
+unit type SimpleName SwitchStatement ReturnStatement ClassInstanceCreation SimpleName float value
+unit type SimpleName SwitchStatement ReturnStatement SuperMethodInvocation SimpleName create float value
+unit type SimpleName SwitchStatement ReturnStatement SuperMethodInvocation SimpleName unit type
+unit type SimpleName SwitchStatement ReturnStatement SuperMethodInvocation SimpleName float value
+public Modifier MethodDeclaration SimpleType SimpleName immutable value
+public Modifier MethodDeclaration SimpleName create float value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unit type
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName float value
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+immutable value SimpleName SimpleType MethodDeclaration SimpleName create float value
+immutable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+immutable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName unit type
+immutable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+immutable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName float value
+immutable value SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+create float value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+create float value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unit type
+create float value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+create float value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName float value
+create float value SimpleName MethodDeclaration SimpleType SimpleName dom exception
+create float value SimpleName MethodDeclaration Block SwitchStatement SimpleName unit type
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName float value
+unit type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+unit type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName float value
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+unit type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+float value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName immutable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName create float value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName float value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName immutable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create float value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName float value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

@@ -1,0 +1,58 @@
+selection event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+component SimpleName MethodInvocation SimpleName get rendering transform
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName component
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rendering transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+at SimpleName MethodInvocation SimpleName create transformed shape
+at SimpleName MethodInvocation SimpleName selection highlight
+create transformed shape SimpleName MethodInvocation SimpleName selection highlight
+at SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+create transformed shape SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+selection highlight SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+r SimpleName Assignment MethodInvocation MethodInvocation SimpleName at
+r SimpleName Assignment MethodInvocation MethodInvocation SimpleName create transformed shape
+r SimpleName Assignment MethodInvocation MethodInvocation SimpleName selection highlight
+r SimpleName Assignment MethodInvocation SimpleName get bounds
+outset SimpleName MethodInvocation SimpleName r
+outset SimpleName MethodInvocation NumberLiteral empty
+r SimpleName MethodInvocation NumberLiteral empty
+e SimpleName MethodInvocation SimpleName get highlight shape
+selection highlight SimpleName Assignment MethodInvocation SimpleName e
+selection highlight SimpleName Assignment MethodInvocation SimpleName get highlight shape
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get highlight bounds
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+r SimpleName MethodInvocation SimpleName union
+r SimpleName MethodInvocation SimpleName r
+union SimpleName MethodInvocation SimpleName r
+component SimpleName MethodInvocation SimpleName repaint
+component SimpleName MethodInvocation MethodInvocation SimpleName r
+component SimpleName MethodInvocation MethodInvocation SimpleName union
+component SimpleName MethodInvocation MethodInvocation SimpleName r
+repaint SimpleName MethodInvocation MethodInvocation SimpleName r
+repaint SimpleName MethodInvocation MethodInvocation SimpleName union
+repaint SimpleName MethodInvocation MethodInvocation SimpleName r
+component SimpleName MethodInvocation SimpleName repaint
+component SimpleName MethodInvocation MethodInvocation SimpleName get highlight bounds
+repaint SimpleName MethodInvocation MethodInvocation SimpleName get highlight bounds
+component SimpleName MethodInvocation SimpleName repaint
+component SimpleName MethodInvocation SimpleName r
+repaint SimpleName MethodInvocation SimpleName r
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName selection changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selection event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName selection changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selection event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+selection changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selection event
+selection changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName selection changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName selection changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

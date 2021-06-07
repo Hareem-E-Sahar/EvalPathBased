@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+j button SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+name SimpleName InfixExpression SimpleName text suffix
+get string SimpleName MethodInvocation InfixExpression SimpleName name
+get string SimpleName MethodInvocation InfixExpression SimpleName text suffix
+j button SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get string
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName j button
+result SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get string
+missing resource exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName j button
+initialize button SimpleName MethodInvocation SimpleName result
+initialize button SimpleName MethodInvocation SimpleName name
+result SimpleName MethodInvocation SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName j button
+public Modifier MethodDeclaration SimpleName create j button
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName missing resource exception
+public Modifier MethodDeclaration SimpleType SimpleName resource format exception
+j button SimpleName SimpleType MethodDeclaration SimpleName create j button
+j button SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+j button SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing resource exception
+j button SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource format exception
+j button SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing listener exception
+create j button SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create j button SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+create j button SimpleName MethodDeclaration SimpleType SimpleName missing resource exception
+create j button SimpleName MethodDeclaration SimpleType SimpleName resource format exception
+create j button SimpleName MethodDeclaration SimpleType SimpleName missing listener exception
+create j button SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource format exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName missing listener exception
+missing resource exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource format exception
+missing resource exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing listener exception
+resource format exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing listener exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName j button
+public Modifier TypeDeclaration MethodDeclaration SimpleName create j button
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource format exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName missing listener exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName j button
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create j button
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource format exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName missing listener exception

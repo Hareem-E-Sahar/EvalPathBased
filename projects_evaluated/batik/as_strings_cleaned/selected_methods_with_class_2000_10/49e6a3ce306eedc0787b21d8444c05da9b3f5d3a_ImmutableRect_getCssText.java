@@ -1,0 +1,77 @@
+top SimpleName MethodInvocation SimpleName get css text
+right SimpleName MethodInvocation SimpleName get css text
+bottom SimpleName MethodInvocation SimpleName get css text
+left SimpleName MethodInvocation SimpleName get css text
+rect StringLiteral InfixExpression MethodInvocation SimpleName top
+rect StringLiteral InfixExpression MethodInvocation SimpleName get css text
+rect StringLiteral InfixExpression StringLiteral empty
+rect StringLiteral InfixExpression MethodInvocation SimpleName right
+rect StringLiteral InfixExpression MethodInvocation SimpleName get css text
+rect StringLiteral InfixExpression StringLiteral empty
+rect StringLiteral InfixExpression MethodInvocation SimpleName bottom
+rect StringLiteral InfixExpression MethodInvocation SimpleName get css text
+top SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+top SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName right
+top SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName right
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+top SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+top SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bottom
+top SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bottom
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+top SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName right
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName bottom
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName left
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+right SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+right SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bottom
+right SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bottom
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+right SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+right SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName left
+right SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName left
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+right SimpleName MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation SimpleName bottom
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName left
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral )
+bottom SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+bottom SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName left
+bottom SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName left
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+bottom SimpleName MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation SimpleName left
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral )
+left SimpleName MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get css text
+string SimpleName SimpleType MethodDeclaration SimpleName get css text
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get css text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get css text

@@ -1,0 +1,16 @@
+value provider SimpleName MethodInvocation SimpleName get value
+value provider SimpleName MethodInvocation MethodInvocation SimpleName get bottom
+get value SimpleName MethodInvocation MethodInvocation SimpleName get bottom
+bottom component SimpleName Assignment ClassInstanceCreation SimpleType SimpleName bottom component
+public Modifier MethodDeclaration SimpleType SimpleName css primitive value
+public Modifier MethodDeclaration SimpleName get bottom
+public Modifier MethodDeclaration Block ReturnStatement SimpleName bottom component
+css primitive value SimpleName SimpleType MethodDeclaration SimpleName get bottom
+get bottom SimpleName MethodDeclaration Block ReturnStatement SimpleName bottom component
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css primitive value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bottom
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css primitive value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bottom

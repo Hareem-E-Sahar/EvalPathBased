@@ -1,0 +1,44 @@
+svg animated points SimpleName SimpleType SingleVariableDeclaration SimpleName a
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName val
+svgom animated points SimpleName SimpleType CastExpression SimpleName a
+ap SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom animated points
+ap SimpleName VariableDeclarationFragment CastExpression SimpleName a
+svgom animated points SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ap
+ap SimpleName MethodInvocation SimpleName reset animated value
+animatable point list value SimpleName SimpleType CastExpression SimpleName val
+anim point list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable point list value
+anim point list SimpleName VariableDeclarationFragment CastExpression SimpleName val
+animatable point list value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anim point list
+anim point list SimpleName MethodInvocation SimpleName get numbers
+ap SimpleName MethodInvocation SimpleName set animated value
+ap SimpleName MethodInvocation MethodInvocation SimpleName anim point list
+ap SimpleName MethodInvocation MethodInvocation SimpleName get numbers
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim point list
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get numbers
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update points attribute value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated points
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName update points attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated points
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+update points attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated points
+update points attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+update points attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+update points attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+a SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update points attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update points attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

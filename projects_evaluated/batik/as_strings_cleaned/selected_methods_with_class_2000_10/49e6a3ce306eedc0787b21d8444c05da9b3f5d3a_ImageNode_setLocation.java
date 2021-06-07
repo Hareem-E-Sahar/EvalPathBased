@@ -1,0 +1,13 @@
+point d SimpleName SimpleType SingleVariableDeclaration SimpleName new location
+void PrimitiveType MethodDeclaration SimpleName set location
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new location
+set location SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+set location SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new location
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set location
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new location
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set location
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new location

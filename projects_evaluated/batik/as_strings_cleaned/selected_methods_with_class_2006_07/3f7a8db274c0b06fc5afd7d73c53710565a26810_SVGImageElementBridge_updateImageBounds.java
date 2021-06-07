@@ -1,0 +1,89 @@
+get image bounds SimpleName MethodInvocation SimpleName ctx
+get image bounds SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get image bounds
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bounds
+image node SimpleName SimpleType CastExpression SimpleName node
+node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get image
+image node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get image
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName image node
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName vb
+image node SimpleName InstanceofExpression SimpleType SimpleName raster image node
+raster image node SimpleName SimpleType CastExpression SimpleName image node
+image node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get image bounds
+img bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get image bounds
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName img bounds
+float PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+vb SimpleName Assignment ArrayCreation ArrayType PrimitiveType float
+vb SimpleName Assignment ArrayCreation NumberLiteral empty
+vb SimpleName ArrayAccess NumberLiteral empty
+vb SimpleName ArrayAccess Assignment NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment NumberLiteral empty
+vb SimpleName ArrayAccess NumberLiteral empty
+vb SimpleName ArrayAccess Assignment NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment NumberLiteral empty
+vb SimpleName ArrayAccess NumberLiteral empty
+img bounds SimpleName MethodInvocation SimpleName get width
+float PrimitiveType CastExpression MethodInvocation SimpleName img bounds
+float PrimitiveType CastExpression MethodInvocation SimpleName get width
+vb SimpleName ArrayAccess Assignment CastExpression PrimitiveType float
+empty NumberLiteral ArrayAccess Assignment CastExpression PrimitiveType float
+vb SimpleName ArrayAccess NumberLiteral empty
+img bounds SimpleName MethodInvocation SimpleName get height
+float PrimitiveType CastExpression MethodInvocation SimpleName img bounds
+float PrimitiveType CastExpression MethodInvocation SimpleName get height
+vb SimpleName ArrayAccess Assignment CastExpression PrimitiveType float
+empty NumberLiteral ArrayAccess Assignment CastExpression PrimitiveType float
+img document SimpleName MethodInvocation SimpleName get root element
+svg element SimpleName VariableDeclarationFragment MethodInvocation SimpleName img document
+svg element SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg element
+svg element SimpleName MethodInvocation SimpleName get attribute ns
+svg element SimpleName MethodInvocation SimpleName svg view box attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg view box attribute
+view box SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg element
+view box SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+view box SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg view box attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName view box
+view box SimpleName MethodInvocation SimpleName parse view box attribute
+view box SimpleName MethodInvocation SimpleName e
+view box SimpleName MethodInvocation SimpleName view box
+view box SimpleName MethodInvocation SimpleName ctx
+parse view box attribute SimpleName MethodInvocation SimpleName e
+parse view box attribute SimpleName MethodInvocation SimpleName view box
+parse view box attribute SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation SimpleName view box
+e SimpleName MethodInvocation SimpleName ctx
+view box SimpleName MethodInvocation SimpleName ctx
+vb SimpleName Assignment MethodInvocation SimpleName view box
+vb SimpleName Assignment MethodInvocation SimpleName parse view box attribute
+vb SimpleName Assignment MethodInvocation SimpleName e
+vb SimpleName Assignment MethodInvocation SimpleName view box
+vb SimpleName Assignment MethodInvocation SimpleName ctx
+initialize viewport SimpleName MethodInvocation SimpleName ctx
+initialize viewport SimpleName MethodInvocation SimpleName e
+initialize viewport SimpleName MethodInvocation SimpleName image node
+initialize viewport SimpleName MethodInvocation SimpleName vb
+initialize viewport SimpleName MethodInvocation SimpleName bounds
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName image node
+ctx SimpleName MethodInvocation SimpleName vb
+ctx SimpleName MethodInvocation SimpleName bounds
+e SimpleName MethodInvocation SimpleName image node
+e SimpleName MethodInvocation SimpleName vb
+e SimpleName MethodInvocation SimpleName bounds
+image node SimpleName MethodInvocation SimpleName vb
+image node SimpleName MethodInvocation SimpleName bounds
+vb SimpleName MethodInvocation SimpleName bounds
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update image bounds
+void PrimitiveType MethodDeclaration SimpleName update image bounds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update image bounds
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update image bounds

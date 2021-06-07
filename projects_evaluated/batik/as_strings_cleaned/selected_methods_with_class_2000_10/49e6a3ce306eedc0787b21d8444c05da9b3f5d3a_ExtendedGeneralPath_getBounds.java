@@ -1,0 +1,11 @@
+path SimpleName MethodInvocation SimpleName get bounds
+public Modifier MethodDeclaration SimpleType QualifiedName javaawtrectangle
+public Modifier MethodDeclaration SimpleName get bounds
+javaawtrectangle QualifiedName SimpleType MethodDeclaration SimpleName get bounds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName javaawtrectangle
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bounds
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName javaawtrectangle
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bounds

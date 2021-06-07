@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+svg user agent SimpleName MethodInvocation SimpleName display message
+svg user agent SimpleName MethodInvocation SimpleName message
+display message SimpleName MethodInvocation SimpleName message
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName display message
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+void PrimitiveType MethodDeclaration SimpleName display message
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message
+display message SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+display message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName display message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName display message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message

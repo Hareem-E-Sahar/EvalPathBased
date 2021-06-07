@@ -1,0 +1,63 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName medium
+medium SimpleName MethodInvocation SimpleName equals
+medium SimpleName MethodInvocation StringLiteral all
+equals SimpleName MethodInvocation StringLiteral all
+array SimpleName ArrayAccess NumberLiteral empty
+array SimpleName ArrayAccess Assignment StringLiteral all
+empty NumberLiteral ArrayAccess Assignment StringLiteral all
+current SimpleName Assignment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName current
+array SimpleName ArrayAccess SimpleName i
+medium SimpleName MethodInvocation SimpleName equals
+medium SimpleName MethodInvocation ArrayAccess SimpleName array
+medium SimpleName MethodInvocation ArrayAccess SimpleName i
+equals SimpleName MethodInvocation ArrayAccess SimpleName array
+equals SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName current
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+current SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+current SimpleName InfixExpression QualifiedName arraylength
+old SimpleName VariableDeclarationFragment SimpleName array
+current SimpleName InfixExpression SimpleName current
+array SimpleName Assignment ArrayCreation InfixExpression SimpleName current
+array SimpleName Assignment ArrayCreation InfixExpression SimpleName current
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName old
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName array
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName old
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName array
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName current
+old SimpleName MethodInvocation NumberLiteral empty
+old SimpleName MethodInvocation SimpleName array
+old SimpleName MethodInvocation NumberLiteral empty
+old SimpleName MethodInvocation SimpleName current
+empty NumberLiteral MethodInvocation SimpleName array
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName current
+array SimpleName MethodInvocation NumberLiteral empty
+array SimpleName MethodInvocation SimpleName current
+empty NumberLiteral MethodInvocation SimpleName current
+array SimpleName ArrayAccess PostfixExpression SimpleName current
+array SimpleName ArrayAccess Assignment SimpleName medium
+current SimpleName PostfixExpression ArrayAccess Assignment SimpleName medium
+void PrimitiveType MethodDeclaration SimpleName add item
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName medium
+add item SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName medium
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName medium
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName medium

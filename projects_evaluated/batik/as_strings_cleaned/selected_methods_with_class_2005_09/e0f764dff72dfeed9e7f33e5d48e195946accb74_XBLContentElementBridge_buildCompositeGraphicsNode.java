@@ -1,0 +1,137 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+composite graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName cgn
+xblom content element SimpleName SimpleType CastExpression SimpleName e
+content SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName xblom content element
+content SimpleName VariableDeclarationFragment CastExpression SimpleName e
+xblom content element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName content
+e SimpleName MethodInvocation SimpleName get owner document
+abstract document SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+abstract document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract document
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+abstract document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get xbl manager
+default xbl manager SimpleName SimpleType CastExpression MethodInvocation SimpleName doc
+default xbl manager SimpleName SimpleType CastExpression MethodInvocation SimpleName get xbl manager
+xm SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName default xbl manager
+xm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName doc
+xm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get xbl manager
+default xbl manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName xm
+xm SimpleName MethodInvocation SimpleName get content manager
+xm SimpleName MethodInvocation SimpleName e
+get content manager SimpleName MethodInvocation SimpleName e
+content manager SimpleName Assignment MethodInvocation SimpleName xm
+content manager SimpleName Assignment MethodInvocation SimpleName get content manager
+content manager SimpleName Assignment MethodInvocation SimpleName e
+cgn SimpleName Assignment ClassInstanceCreation SimpleType SimpleName composite graphics node
+cgn SimpleName MethodInvocation SimpleName size
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName cgn
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cgn
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName s
+cgn SimpleName MethodInvocation SimpleName remove
+cgn SimpleName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName s
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+s SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+ctx SimpleName MethodInvocation SimpleName get gvt builder
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName get gvt builder
+gvt builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+content manager SimpleName MethodInvocation SimpleName get selected content
+content manager SimpleName MethodInvocation SimpleName content
+get selected content SimpleName MethodInvocation SimpleName content
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName content manager
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selected content
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName content
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nl
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+nl SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName nl
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+nl SimpleName MethodInvocation SimpleName item
+nl SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName nl
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName n
+builder SimpleName MethodInvocation SimpleName build
+builder SimpleName MethodInvocation SimpleName ctx
+builder SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+builder SimpleName MethodInvocation CastExpression SimpleName n
+build SimpleName MethodInvocation SimpleName ctx
+build SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+build SimpleName MethodInvocation CastExpression SimpleName n
+ctx SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+ctx SimpleName MethodInvocation CastExpression SimpleName n
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName builder
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+gn SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName n
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn
+cgn SimpleName MethodInvocation SimpleName add
+cgn SimpleName MethodInvocation SimpleName gn
+add SimpleName MethodInvocation SimpleName gn
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+ctx SimpleName MethodInvocation SimpleName is dynamic
+content changed listener SimpleName Assignment ClassInstanceCreation SimpleType SimpleName content changed listener
+content manager SimpleName MethodInvocation SimpleName add content selection changed listener
+content manager SimpleName MethodInvocation SimpleName content
+content manager SimpleName MethodInvocation SimpleName content changed listener
+add content selection changed listener SimpleName MethodInvocation SimpleName content
+add content selection changed listener SimpleName MethodInvocation SimpleName content changed listener
+content SimpleName MethodInvocation SimpleName content changed listener
+public Modifier MethodDeclaration SimpleType SimpleName composite graphics node
+public Modifier MethodDeclaration SimpleName build composite graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cgn
+composite graphics node SimpleName SimpleType MethodDeclaration SimpleName build composite graphics node
+composite graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+composite graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+composite graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cgn
+build composite graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+build composite graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+build composite graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+build composite graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+build composite graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node
+build composite graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cgn
+build composite graphics node SimpleName MethodDeclaration Block ReturnStatement SimpleName cgn
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cgn
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cgn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName composite graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName build composite graphics node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cgn
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName composite graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build composite graphics node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cgn

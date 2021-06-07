@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName event name
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get event type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName event name
+abstract Modifier MethodDeclaration SimpleType SimpleName string
+abstract Modifier MethodDeclaration SimpleName get event type
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName event name
+string SimpleName SimpleType MethodDeclaration SimpleName get event type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName event name
+get event type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get event type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get event type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get event type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event name

@@ -1,0 +1,117 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+doc SimpleName MethodInvocation SimpleName get document element
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get document element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+elt SimpleName MethodInvocation SimpleName get namespace uri
+svg constantssvg namespace uri QualifiedName MethodInvocation SimpleName equals
+svg constantssvg namespace uri QualifiedName MethodInvocation MethodInvocation SimpleName elt
+svg constantssvg namespace uri QualifiedName MethodInvocation MethodInvocation SimpleName get namespace uri
+equals SimpleName MethodInvocation MethodInvocation SimpleName elt
+equals SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+elt SimpleName MethodInvocation SimpleName get attribute ns
+elt SimpleName MethodInvocation QualifiedName svg constantssvg onabort attribute
+get attribute ns SimpleName MethodInvocation QualifiedName svg constantssvg onabort attribute
+elt SimpleName MethodInvocation MethodInvocation SimpleName length
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName length
+svg constantssvg onabort attribute QualifiedName MethodInvocation MethodInvocation SimpleName length
+elt SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get attribute ns SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+svg constantssvg onabort attribute QualifiedName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+elt SimpleName MethodInvocation SimpleName get attribute ns
+elt SimpleName MethodInvocation QualifiedName svg constantssvg onerror attribute
+get attribute ns SimpleName MethodInvocation QualifiedName svg constantssvg onerror attribute
+elt SimpleName MethodInvocation MethodInvocation SimpleName length
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName length
+svg constantssvg onerror attribute QualifiedName MethodInvocation MethodInvocation SimpleName length
+elt SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get attribute ns SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+svg constantssvg onerror attribute QualifiedName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+elt SimpleName MethodInvocation SimpleName get attribute ns
+elt SimpleName MethodInvocation QualifiedName svg constantssvg onresize attribute
+get attribute ns SimpleName MethodInvocation QualifiedName svg constantssvg onresize attribute
+elt SimpleName MethodInvocation MethodInvocation SimpleName length
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName length
+svg constantssvg onresize attribute QualifiedName MethodInvocation MethodInvocation SimpleName length
+elt SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get attribute ns SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+svg constantssvg onresize attribute QualifiedName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+elt SimpleName MethodInvocation SimpleName get attribute ns
+elt SimpleName MethodInvocation QualifiedName svg constantssvg onunload attribute
+get attribute ns SimpleName MethodInvocation QualifiedName svg constantssvg onunload attribute
+elt SimpleName MethodInvocation MethodInvocation SimpleName length
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName length
+svg constantssvg onunload attribute QualifiedName MethodInvocation MethodInvocation SimpleName length
+elt SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get attribute ns SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+svg constantssvg onunload attribute QualifiedName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+elt SimpleName MethodInvocation SimpleName get attribute ns
+elt SimpleName MethodInvocation QualifiedName svg constantssvg onscroll attribute
+get attribute ns SimpleName MethodInvocation QualifiedName svg constantssvg onscroll attribute
+elt SimpleName MethodInvocation MethodInvocation SimpleName length
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName length
+svg constantssvg onscroll attribute QualifiedName MethodInvocation MethodInvocation SimpleName length
+elt SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get attribute ns SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+svg constantssvg onscroll attribute QualifiedName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+elt SimpleName MethodInvocation SimpleName get attribute ns
+elt SimpleName MethodInvocation QualifiedName svg constantssvg onzoom attribute
+get attribute ns SimpleName MethodInvocation QualifiedName svg constantssvg onzoom attribute
+elt SimpleName MethodInvocation MethodInvocation SimpleName length
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName length
+svg constantssvg onzoom attribute QualifiedName MethodInvocation MethodInvocation SimpleName length
+elt SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get attribute ns SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+svg constantssvg onzoom attribute QualifiedName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+doc SimpleName MethodInvocation SimpleName get document element
+is dynamic element SimpleName MethodInvocation SimpleName ctx
+is dynamic element SimpleName MethodInvocation MethodInvocation SimpleName doc
+is dynamic element SimpleName MethodInvocation MethodInvocation SimpleName get document element
+ctx SimpleName MethodInvocation MethodInvocation SimpleName doc
+ctx SimpleName MethodInvocation MethodInvocation SimpleName get document element
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is dynamic document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is dynamic document
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is dynamic document
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is dynamic document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+is dynamic document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+is dynamic document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+is dynamic document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+is dynamic document SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is dynamic document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is dynamic document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc

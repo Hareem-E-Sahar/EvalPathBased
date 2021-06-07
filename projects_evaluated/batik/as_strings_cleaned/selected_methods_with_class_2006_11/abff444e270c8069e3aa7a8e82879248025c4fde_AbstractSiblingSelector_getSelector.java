@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName selector
+public Modifier MethodDeclaration SimpleName get selector
+public Modifier MethodDeclaration Block ReturnStatement SimpleName selector
+selector SimpleName SimpleType MethodDeclaration SimpleName get selector
+get selector SimpleName MethodDeclaration Block ReturnStatement SimpleName selector
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName selector
+public Modifier TypeDeclaration MethodDeclaration SimpleName get selector
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName selector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get selector

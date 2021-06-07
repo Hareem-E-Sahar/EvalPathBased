@@ -1,0 +1,19 @@
+update runnable queue SimpleName MethodInvocation SimpleName get queue state
+update runnable queue SimpleName MethodInvocation InfixExpression QualifiedName runnable queuerunning
+get queue state SimpleName MethodInvocation InfixExpression QualifiedName runnable queuerunning
+update runnable queue SimpleName MethodInvocation SimpleName resume execution
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName resume
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName resume
+void PrimitiveType MethodDeclaration SimpleName resume
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName resume
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resume

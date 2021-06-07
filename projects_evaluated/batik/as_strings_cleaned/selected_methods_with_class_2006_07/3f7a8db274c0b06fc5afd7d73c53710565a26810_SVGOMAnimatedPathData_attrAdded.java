@@ -1,0 +1,31 @@
+attr SimpleName SimpleType SingleVariableDeclaration SimpleName node
+string SimpleName SimpleType SingleVariableDeclaration SimpleName newv
+path segs SimpleName MethodInvocation SimpleName invalidate
+normalized path segs SimpleName MethodInvocation SimpleName invalidate
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName attr added
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attr
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName newv
+void PrimitiveType MethodDeclaration SimpleName attr added
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attr
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName newv
+attr added SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attr
+attr added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+attr added SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+attr added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName newv
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName newv
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName attr added
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName newv
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName attr added
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName newv

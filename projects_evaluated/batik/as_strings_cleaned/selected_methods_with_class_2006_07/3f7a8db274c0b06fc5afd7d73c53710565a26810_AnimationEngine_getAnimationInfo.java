@@ -1,0 +1,38 @@
+abstract animation SimpleName SimpleType SingleVariableDeclaration SimpleName anim
+animations SimpleName MethodInvocation SimpleName get
+animations SimpleName MethodInvocation SimpleName anim
+get SimpleName MethodInvocation SimpleName anim
+animation info SimpleName SimpleType CastExpression MethodInvocation SimpleName animations
+animation info SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+animation info SimpleName SimpleType CastExpression MethodInvocation SimpleName anim
+info SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animation info
+info SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName animations
+info SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+info SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName anim
+animation info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName info
+info SimpleName Assignment ClassInstanceCreation SimpleType SimpleName animation info
+animations SimpleName MethodInvocation SimpleName put
+animations SimpleName MethodInvocation SimpleName anim
+animations SimpleName MethodInvocation SimpleName info
+put SimpleName MethodInvocation SimpleName anim
+put SimpleName MethodInvocation SimpleName info
+anim SimpleName MethodInvocation SimpleName info
+protected Modifier MethodDeclaration SimpleType SimpleName animation info
+protected Modifier MethodDeclaration SimpleName get animation info
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract animation
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName anim
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName info
+animation info SimpleName SimpleType MethodDeclaration SimpleName get animation info
+animation info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName anim
+get animation info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract animation
+get animation info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anim
+get animation info SimpleName MethodDeclaration Block ReturnStatement SimpleName info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animation info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get animation info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anim
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animation info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get animation info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anim

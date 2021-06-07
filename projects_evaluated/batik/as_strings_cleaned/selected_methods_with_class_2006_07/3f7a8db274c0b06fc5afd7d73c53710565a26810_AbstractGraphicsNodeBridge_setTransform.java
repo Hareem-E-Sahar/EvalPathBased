@@ -1,0 +1,190 @@
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+svg transformable SimpleName SimpleType CastExpression SimpleName e
+te SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg transformable
+te SimpleName VariableDeclarationFragment CastExpression SimpleName e
+svg transformable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName te
+at SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName affine transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+te SimpleName MethodInvocation SimpleName get transform
+te SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get transform SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+tl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName te
+tl SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get transform
+tl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get anim val
+svg transform list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tl
+tl SimpleName MethodInvocation SimpleName get number of items
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName tl
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get number of items
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName tl
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get number of items
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+tl SimpleName MethodInvocation SimpleName get item
+tl SimpleName MethodInvocation SimpleName i
+get item SimpleName MethodInvocation SimpleName i
+tl SimpleName MethodInvocation MethodInvocation SimpleName get matrix
+get item SimpleName MethodInvocation MethodInvocation SimpleName get matrix
+i SimpleName MethodInvocation MethodInvocation SimpleName get matrix
+m SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName tl
+m SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get item
+m SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName i
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get matrix
+svg matrix SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName get a
+m SimpleName MethodInvocation SimpleName get b
+m SimpleName MethodInvocation SimpleName get c
+m SimpleName MethodInvocation SimpleName get d
+m SimpleName MethodInvocation SimpleName get e
+m SimpleName MethodInvocation SimpleName get f
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName m
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get a
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName m
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get b
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName m
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get c
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName m
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get d
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName m
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get e
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get b
+get a SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get a SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get b
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get c
+get a SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get a SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get c
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get d
+get a SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get a SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get d
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get e
+get a SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get a SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get e
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get f
+get a SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get a SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get f
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get c
+get b SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get b SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get c
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get d
+get b SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get b SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get d
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get e
+get b SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get b SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get e
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get f
+get b SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get b SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get f
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get d
+get c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get d
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get e
+get c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get e
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get f
+get c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get c SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get f
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get e
+get d SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get d SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get e
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get f
+get d SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get d SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get f
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+m SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get f
+get e SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+get e SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get f
+at SimpleName MethodInvocation SimpleName concatenate
+at SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName affine transform
+at SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+at SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get a
+at SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+at SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get b
+at SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+at SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get c
+at SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+at SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get d
+at SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+at SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get e
+at SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+at SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get f
+concatenate SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName affine transform
+concatenate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+concatenate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get a
+concatenate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+concatenate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get b
+concatenate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+concatenate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get c
+concatenate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+concatenate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get d
+concatenate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+concatenate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get e
+concatenate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName m
+concatenate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get f
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+e SimpleName InstanceofExpression SimpleType SimpleName svg motion animatable element
+svg motion animatable element SimpleName SimpleType CastExpression SimpleName e
+mae SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg motion animatable element
+mae SimpleName VariableDeclarationFragment CastExpression SimpleName e
+svg motion animatable element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mae
+mae SimpleName MethodInvocation SimpleName get motion transform
+motion SimpleName VariableDeclarationFragment MethodInvocation SimpleName mae
+motion SimpleName VariableDeclarationFragment MethodInvocation SimpleName get motion transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName motion
+at SimpleName MethodInvocation SimpleName concatenate
+at SimpleName MethodInvocation SimpleName motion
+concatenate SimpleName MethodInvocation SimpleName motion
+n SimpleName MethodInvocation SimpleName set transform
+n SimpleName MethodInvocation SimpleName at
+set transform SimpleName MethodInvocation SimpleName at
+live attribute exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+ctx SimpleName ClassInstanceCreation SimpleName ex
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set transform
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName set transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+set transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+set transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+set transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+set transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

@@ -1,0 +1,79 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ln
+boolean PrimitiveType SingleVariableDeclaration SimpleName is id
+get attribute node ns SimpleName MethodInvocation SimpleName ns
+get attribute node ns SimpleName MethodInvocation SimpleName ln
+ns SimpleName MethodInvocation SimpleName ln
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute node ns
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName ns
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName ln
+a SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract attr
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute node ns
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ns
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ln
+abstract attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+ns SimpleName ArrayInitializer SimpleName ln
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot found err
+create dom exception SimpleName MethodInvocation StringLiteral attributemissing
+create dom exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName ns
+create dom exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName ln
+dom exceptionnot found err QualifiedName MethodInvocation StringLiteral attributemissing
+dom exceptionnot found err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName ns
+dom exceptionnot found err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName ln
+attributemissing StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName ns
+attributemissing StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName ln
+a SimpleName MethodInvocation SimpleName is readonly
+a SimpleName MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+ais id attribute QualifiedName Assignment SimpleName is id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set id attribute ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is id
+void PrimitiveType MethodDeclaration SimpleName set id attribute ns
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ns
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ln
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName is id
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set id attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set id attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+set id attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set id attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ln
+set id attribute ns SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set id attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is id
+set id attribute ns SimpleName MethodDeclaration SimpleType SimpleName dom exception
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is id
+ns SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+ln SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+ln SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is id
+ln SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+is id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set id attribute ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set id attribute ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

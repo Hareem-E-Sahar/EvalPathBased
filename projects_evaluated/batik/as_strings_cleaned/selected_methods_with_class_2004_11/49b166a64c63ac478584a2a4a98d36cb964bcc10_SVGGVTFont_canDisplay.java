@@ -1,0 +1,47 @@
+char PrimitiveType SingleVariableDeclaration SimpleName c
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName glyph unicodeslength
+glyph unicodes SimpleName ArrayAccess SimpleName i
+glyph unicodes SimpleName ArrayAccess MethodInvocation SimpleName index of
+i SimpleName ArrayAccess MethodInvocation SimpleName index of
+glyph unicodes SimpleName ArrayAccess MethodInvocation SimpleName c
+i SimpleName ArrayAccess MethodInvocation SimpleName c
+index of SimpleName MethodInvocation SimpleName c
+index of SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+c SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+glyph langs SimpleName ArrayAccess SimpleName i
+language matches SimpleName MethodInvocation ArrayAccess SimpleName glyph langs
+language matches SimpleName MethodInvocation ArrayAccess SimpleName i
+glyph orientations SimpleName ArrayAccess SimpleName i
+orientation matches SimpleName MethodInvocation ArrayAccess SimpleName glyph orientations
+orientation matches SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName glyph unicodeslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+glyph unicodeslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can display
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName can display
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType char
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+can display SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType char
+can display SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+can display SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can display
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can display
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

@@ -1,0 +1,149 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str
+retval SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName retval
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+str SimpleName MethodInvocation SimpleName length
+i SimpleName InfixExpression MethodInvocation SimpleName str
+i SimpleName InfixExpression MethodInvocation SimpleName length
+str SimpleName MethodInvocation SimpleName char at
+str SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+retval SimpleName MethodInvocation SimpleName append
+retval SimpleName MethodInvocation StringLiteral b
+append SimpleName MethodInvocation StringLiteral b
+retval SimpleName MethodInvocation SimpleName append
+retval SimpleName MethodInvocation StringLiteral t
+append SimpleName MethodInvocation StringLiteral t
+retval SimpleName MethodInvocation SimpleName append
+retval SimpleName MethodInvocation StringLiteral \
+append SimpleName MethodInvocation StringLiteral \
+retval SimpleName MethodInvocation SimpleName append
+retval SimpleName MethodInvocation StringLiteral f
+append SimpleName MethodInvocation StringLiteral f
+retval SimpleName MethodInvocation SimpleName append
+retval SimpleName MethodInvocation StringLiteral r
+append SimpleName MethodInvocation StringLiteral r
+retval SimpleName MethodInvocation SimpleName append
+retval SimpleName MethodInvocation StringLiteral \\\
+append SimpleName MethodInvocation StringLiteral \\\
+retval SimpleName MethodInvocation SimpleName append
+retval SimpleName MethodInvocation StringLiteral \\\
+append SimpleName MethodInvocation StringLiteral \\\
+retval SimpleName MethodInvocation SimpleName append
+retval SimpleName MethodInvocation StringLiteral \\\\
+append SimpleName MethodInvocation StringLiteral \\\\
+str SimpleName MethodInvocation SimpleName char at
+str SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+ch SimpleName Assignment MethodInvocation SimpleName str
+ch SimpleName Assignment MethodInvocation SimpleName char at
+ch SimpleName Assignment MethodInvocation SimpleName i
+ch SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral x
+ch SimpleName InfixExpression NumberLiteral x e
+x NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName ch
+x NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x e
+integer SimpleName MethodInvocation SimpleName to string
+integer SimpleName MethodInvocation SimpleName ch
+integer SimpleName MethodInvocation NumberLiteral empty
+to string SimpleName MethodInvocation SimpleName ch
+to string SimpleName MethodInvocation NumberLiteral empty
+ch SimpleName MethodInvocation NumberLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName integer
+empty StringLiteral InfixExpression MethodInvocation SimpleName to string
+empty StringLiteral InfixExpression MethodInvocation SimpleName ch
+empty StringLiteral InfixExpression MethodInvocation NumberLiteral empty
+s SimpleName VariableDeclarationFragment InfixExpression StringLiteral empty
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName integer
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName to string
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName ch
+s SimpleName VariableDeclarationFragment InfixExpression MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation SimpleName substring
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation MethodInvocation SimpleName s
+s SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation MethodInvocation SimpleName s
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName s
+empty NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName length
+u StringLiteral InfixExpression MethodInvocation SimpleName s
+u StringLiteral InfixExpression MethodInvocation SimpleName substring
+u StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+u StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName s
+u StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName length
+retval SimpleName MethodInvocation SimpleName append
+retval SimpleName MethodInvocation InfixExpression StringLiteral u
+retval SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+retval SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+append SimpleName MethodInvocation InfixExpression StringLiteral u
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+append SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+retval SimpleName MethodInvocation SimpleName append
+retval SimpleName MethodInvocation SimpleName ch
+append SimpleName MethodInvocation SimpleName ch
+str SimpleName MethodInvocation SwitchStatement SwitchCase NumberLiteral empty
+char at SimpleName MethodInvocation SwitchStatement SwitchCase NumberLiteral empty
+i SimpleName MethodInvocation SwitchStatement SwitchCase NumberLiteral empty
+str SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+i SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral b
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral t
+b CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral t
+t CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral f
+f CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral r
+r CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral \
+\ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral \
+\ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral \\
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+retval SimpleName MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration Modifier final
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName add escapes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName add escapes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+final Modifier MethodDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName add escapes
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+string SimpleName SimpleType MethodDeclaration SimpleName add escapes
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName str
+add escapes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add escapes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName str
+add escapes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName add escapes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add escapes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str

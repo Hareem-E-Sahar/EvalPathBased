@@ -1,0 +1,23 @@
+selection event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+selection changed SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName get selection
+selection SimpleName Assignment MethodInvocation SimpleName e
+selection SimpleName Assignment MethodInvocation SimpleName get selection
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName selection done
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selection event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName selection done
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selection event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+selection done SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selection event
+selection done SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName selection done
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName selection done
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

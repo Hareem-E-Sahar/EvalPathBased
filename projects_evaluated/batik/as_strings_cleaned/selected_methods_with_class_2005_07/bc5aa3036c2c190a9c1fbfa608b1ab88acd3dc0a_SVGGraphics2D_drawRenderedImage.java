@@ -1,0 +1,165 @@
+rendered image SimpleName SimpleType SingleVariableDeclaration SimpleName img
+affine transform SimpleName SimpleType SingleVariableDeclaration SimpleName trans
+get generic image handler SimpleName MethodInvocation MethodInvocation SimpleName create element
+get generic image handler SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get generator context
+create element SimpleName MethodInvocation MethodInvocation SimpleName get generator context
+image SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get generic image handler
+image SimpleName VariableDeclarationFragment MethodInvocation SimpleName create element
+image SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get generator context
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName image
+img SimpleName MethodInvocation SimpleName get min x
+img SimpleName MethodInvocation SimpleName get min y
+img SimpleName MethodInvocation SimpleName get width
+img SimpleName MethodInvocation SimpleName get height
+get generic image handler SimpleName MethodInvocation MethodInvocation SimpleName handle image
+get generic image handler SimpleName MethodInvocation MethodInvocation SimpleName img
+get generic image handler SimpleName MethodInvocation MethodInvocation SimpleName image
+get generic image handler SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+get generic image handler SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get min x
+get generic image handler SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+get generic image handler SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get min y
+handle image SimpleName MethodInvocation SimpleName img
+handle image SimpleName MethodInvocation SimpleName image
+handle image SimpleName MethodInvocation MethodInvocation SimpleName img
+handle image SimpleName MethodInvocation MethodInvocation SimpleName get min x
+handle image SimpleName MethodInvocation MethodInvocation SimpleName img
+handle image SimpleName MethodInvocation MethodInvocation SimpleName get min y
+handle image SimpleName MethodInvocation MethodInvocation SimpleName img
+handle image SimpleName MethodInvocation MethodInvocation SimpleName get width
+img SimpleName MethodInvocation SimpleName image
+img SimpleName MethodInvocation MethodInvocation SimpleName img
+img SimpleName MethodInvocation MethodInvocation SimpleName get min x
+img SimpleName MethodInvocation MethodInvocation SimpleName img
+img SimpleName MethodInvocation MethodInvocation SimpleName get min y
+img SimpleName MethodInvocation MethodInvocation SimpleName img
+img SimpleName MethodInvocation MethodInvocation SimpleName get width
+img SimpleName MethodInvocation MethodInvocation SimpleName img
+img SimpleName MethodInvocation MethodInvocation SimpleName get height
+image SimpleName MethodInvocation MethodInvocation SimpleName img
+image SimpleName MethodInvocation MethodInvocation SimpleName get min x
+image SimpleName MethodInvocation MethodInvocation SimpleName img
+image SimpleName MethodInvocation MethodInvocation SimpleName get min y
+image SimpleName MethodInvocation MethodInvocation SimpleName img
+image SimpleName MethodInvocation MethodInvocation SimpleName get width
+image SimpleName MethodInvocation MethodInvocation SimpleName img
+image SimpleName MethodInvocation MethodInvocation SimpleName get height
+image SimpleName MethodInvocation MethodInvocation SimpleName get generator context
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get min y
+get min x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+get min x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get min y
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get width
+get min x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+get min x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get width
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+get min x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+get min x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get generator context
+get min x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get generator context
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get width
+get min y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+get min y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get width
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+get min y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+get min y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get generator context
+get min y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get generator context
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName img
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get generator context
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get generator context
+img SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get generator context
+get height SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get generator context
+trans SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get generic image handler
+trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName handle image
+trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName img
+trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName image
+trans SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName img
+trans SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get min x
+trans SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName img
+trans SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get min y
+trans SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName img
+trans SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get width
+trans SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName img
+trans SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get height
+trans SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get generator context
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trans
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName xform
+xform SimpleName Assignment SimpleName trans
+xform SimpleName Assignment SimpleName trans
+affine transform SimpleName SimpleType ClassInstanceCreation SimpleName trans
+xform SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+xform SimpleName Assignment ClassInstanceCreation SimpleName trans
+xform SimpleName MethodInvocation SimpleName concatenate
+xform SimpleName MethodInvocation SimpleName trans
+concatenate SimpleName MethodInvocation SimpleName trans
+dom group manager SimpleName MethodInvocation SimpleName add element
+dom group manager SimpleName MethodInvocation SimpleName image
+add element SimpleName MethodInvocation SimpleName image
+xform SimpleName MethodInvocation SimpleName get determinant
+xform SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get determinant SimpleName MethodInvocation InfixExpression NumberLiteral empty
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inverse transform
+xform SimpleName MethodInvocation SimpleName create inverse
+inverse transform SimpleName Assignment MethodInvocation SimpleName xform
+inverse transform SimpleName Assignment MethodInvocation SimpleName create inverse
+noninvertible transform exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+svg graphics d runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName err unexpected
+gc SimpleName MethodInvocation SimpleName transform
+gc SimpleName MethodInvocation SimpleName xform
+transform SimpleName MethodInvocation SimpleName xform
+dom group manager SimpleName MethodInvocation SimpleName add element
+dom group manager SimpleName MethodInvocation SimpleName image
+add element SimpleName MethodInvocation SimpleName image
+gc SimpleName MethodInvocation SimpleName transform
+gc SimpleName MethodInvocation SimpleName inverse transform
+transform SimpleName MethodInvocation SimpleName inverse transform
+gc SimpleName MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName gc
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get transform
+sav transform SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName affine transform
+sav transform SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName gc
+sav transform SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sav transform
+gc SimpleName MethodInvocation SimpleName transform
+gc SimpleName MethodInvocation SimpleName xform
+transform SimpleName MethodInvocation SimpleName xform
+dom group manager SimpleName MethodInvocation SimpleName add element
+dom group manager SimpleName MethodInvocation SimpleName image
+add element SimpleName MethodInvocation SimpleName image
+gc SimpleName MethodInvocation SimpleName set transform
+gc SimpleName MethodInvocation SimpleName sav transform
+set transform SimpleName MethodInvocation SimpleName sav transform
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName draw rendered image
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rendered image
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName img
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName trans
+void PrimitiveType MethodDeclaration SimpleName draw rendered image
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rendered image
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName img
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName trans
+draw rendered image SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rendered image
+draw rendered image SimpleName MethodDeclaration SingleVariableDeclaration SimpleName img
+draw rendered image SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+draw rendered image SimpleName MethodDeclaration SingleVariableDeclaration SimpleName trans
+img SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trans
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName draw rendered image
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trans
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName draw rendered image
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName trans

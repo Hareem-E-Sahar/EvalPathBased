@@ -1,0 +1,103 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName masked element
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName masked node
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+get computed style SimpleName MethodInvocation SimpleName masked element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginemask index
+masked element SimpleName MethodInvocation QualifiedName svgcss enginemask index
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName masked element
+v SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss enginemask index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get primitive type
+v SimpleName MethodInvocation SimpleName get string value
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+ctx SimpleName MethodInvocation SimpleName get referenced element
+ctx SimpleName MethodInvocation SimpleName masked element
+ctx SimpleName MethodInvocation SimpleName uri
+get referenced element SimpleName MethodInvocation SimpleName masked element
+get referenced element SimpleName MethodInvocation SimpleName uri
+masked element SimpleName MethodInvocation SimpleName uri
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get referenced element
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName masked element
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+ctx SimpleName MethodInvocation SimpleName get bridge
+ctx SimpleName MethodInvocation SimpleName m
+get bridge SimpleName MethodInvocation SimpleName m
+bridge SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+bridge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bridge
+bridge SimpleName VariableDeclarationFragment MethodInvocation SimpleName m
+bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bridge
+bridge SimpleName InstanceofExpression SimpleType SimpleName mask bridge
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName masked element
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err css uri bad target
+masked element SimpleName ClassInstanceCreation SimpleName err css uri bad target
+masked element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+err css uri bad target SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+mask bridge SimpleName SimpleType CastExpression SimpleName bridge
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName create mask
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName ctx
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName m
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName masked element
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName masked node
+create mask SimpleName MethodInvocation SimpleName ctx
+create mask SimpleName MethodInvocation SimpleName m
+create mask SimpleName MethodInvocation SimpleName masked element
+create mask SimpleName MethodInvocation SimpleName masked node
+ctx SimpleName MethodInvocation SimpleName m
+ctx SimpleName MethodInvocation SimpleName masked element
+ctx SimpleName MethodInvocation SimpleName masked node
+m SimpleName MethodInvocation SimpleName masked element
+m SimpleName MethodInvocation SimpleName masked node
+masked element SimpleName MethodInvocation SimpleName masked node
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss uri
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss uri
+css primitive valuecss ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss uri
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName mask
+public Modifier MethodDeclaration SimpleName convert mask
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName masked element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName masked node
+static Modifier MethodDeclaration SimpleType SimpleName mask
+static Modifier MethodDeclaration SimpleName convert mask
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName masked element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName masked node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+mask SimpleName SimpleType MethodDeclaration SimpleName convert mask
+mask SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName masked element
+mask SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName masked node
+mask SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleName masked element
+convert mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+convert mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleName masked node
+convert mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+convert mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+masked element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName masked node
+masked element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+masked node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mask
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert mask
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName masked element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName masked node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mask
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert mask
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName masked element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName masked node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

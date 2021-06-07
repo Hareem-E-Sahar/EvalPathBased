@@ -1,0 +1,48 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName val
+is compatible SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is compatible
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+==> val : StringLiteral InfixExpression SimpleName val
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ==> val :
+systemout QualifiedName MethodInvocation InfixExpression SimpleName val
+println SimpleName MethodInvocation InfixExpression StringLiteral ==> val :
+println SimpleName MethodInvocation InfixExpression SimpleName val
+val SimpleName MethodInvocation SimpleName get class
+val SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+==> val class : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName val
+==> val class : StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+==> val class : StringLiteral InfixExpression MethodInvocation SimpleName get name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ==> val class :
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+println SimpleName MethodInvocation InfixExpression StringLiteral ==> val class :
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+val SimpleName InstanceofExpression SimpleType SimpleName graphics node rable factory
+is compatible SimpleName Assignment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName is compatible
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is compatible value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName is compatible
+boolean PrimitiveType MethodDeclaration SimpleName is compatible value
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName is compatible
+is compatible value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+is compatible value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+is compatible value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is compatible value SimpleName MethodDeclaration Block ReturnStatement SimpleName is compatible
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is compatible value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is compatible value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

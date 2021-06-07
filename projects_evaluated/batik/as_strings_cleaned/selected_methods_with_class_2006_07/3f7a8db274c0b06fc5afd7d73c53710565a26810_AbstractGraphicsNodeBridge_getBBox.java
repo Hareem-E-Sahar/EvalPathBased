@@ -1,0 +1,30 @@
+node SimpleName MethodInvocation SimpleName get outline
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get outline
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+bbox shape SimpleName MethodInvocation SimpleName get
+s SimpleName InfixExpression MethodInvocation SimpleName bbox shape
+s SimpleName InfixExpression MethodInvocation SimpleName get
+soft reference SimpleName SimpleType ClassInstanceCreation SimpleName s
+bbox shape SimpleName Assignment ClassInstanceCreation SimpleType SimpleName soft reference
+bbox shape SimpleName Assignment ClassInstanceCreation SimpleName s
+s SimpleName InfixExpression IfStatement ReturnStatement SimpleName bbox
+segment list SimpleName SimpleType ClassInstanceCreation SimpleName s
+sl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName segment list
+sl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName s
+segment list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sl
+sl SimpleName MethodInvocation SimpleName get bounds d
+bbox SimpleName Assignment MethodInvocation SimpleName sl
+bbox SimpleName Assignment MethodInvocation SimpleName get bounds d
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName get b box
+public Modifier MethodDeclaration Block ReturnStatement SimpleName bbox
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get b box
+get b box SimpleName MethodDeclaration Block ReturnStatement SimpleName bbox
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get b box
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get b box

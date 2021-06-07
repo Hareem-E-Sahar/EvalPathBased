@@ -1,0 +1,13 @@
+graphics node event filter SimpleName SimpleType SingleVariableDeclaration SimpleName evt filter
+void PrimitiveType MethodDeclaration SimpleName set graphics node event filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt filter
+set graphics node event filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event filter
+set graphics node event filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set graphics node event filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt filter
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set graphics node event filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt filter

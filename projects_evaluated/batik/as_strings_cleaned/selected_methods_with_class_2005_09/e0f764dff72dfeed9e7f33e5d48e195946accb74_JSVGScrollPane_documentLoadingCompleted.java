@@ -1,0 +1,64 @@
+svg document loader event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get svg document
+e SimpleName MethodInvocation MethodInvocation SimpleName get root element
+get svg document SimpleName MethodInvocation MethodInvocation SimpleName get root element
+node event target SimpleName SimpleType CastExpression MethodInvocation SimpleName get root element
+root SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node event target
+root SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get root element
+node event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get target
+evt SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName svgsvg element
+get target SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName svgsvg element
+evt SimpleName MethodInvocation SimpleName get target
+svgsvg element SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+svgsvg element SimpleName SimpleType CastExpression MethodInvocation SimpleName get target
+svg SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgsvg element
+svg SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName evt
+svg SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get target
+svgsvg element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg
+svg SimpleName MethodInvocation SimpleName get current scale
+scale change SimpleName MethodInvocation MethodInvocation SimpleName svg
+scale change SimpleName MethodInvocation MethodInvocation SimpleName get current scale
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName handle event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+root SimpleName MethodInvocation SimpleName add event listener ns
+root SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+root SimpleName MethodInvocation QualifiedName svg constantssvg svgzoom event type
+root SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName event listener
+root SimpleName MethodInvocation BooleanLiteral false
+add event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+add event listener ns SimpleName MethodInvocation QualifiedName svg constantssvg svgzoom event type
+add event listener ns SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName event listener
+add event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation QualifiedName svg constantssvg svgzoom event type
+xml constantsxml events namespace uri QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName event listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+svg constantssvg svgzoom event type QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName event listener
+svg constantssvg svgzoom event type QualifiedName MethodInvocation BooleanLiteral false
+event listener SimpleName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName document loading completed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document loader event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName document loading completed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document loader event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+document loading completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document loader event
+document loading completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName document loading completed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName document loading completed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

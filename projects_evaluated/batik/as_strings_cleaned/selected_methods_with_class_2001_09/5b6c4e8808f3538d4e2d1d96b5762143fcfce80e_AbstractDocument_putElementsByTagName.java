@@ -1,0 +1,81 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ln
+elements by tag name SimpleName SimpleType SingleVariableDeclaration SimpleName l
+weak hash map SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+elements by tag names SimpleName Assignment ClassInstanceCreation SimpleType SimpleName weak hash map
+elements by tag names SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+soft doubly indexed table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+elements by tag names SimpleName MethodInvocation SimpleName get
+elements by tag names SimpleName MethodInvocation SimpleName n
+get SimpleName MethodInvocation SimpleName n
+soft doubly indexed table SimpleName SimpleType CastExpression MethodInvocation SimpleName elements by tag names
+soft doubly indexed table SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+soft doubly indexed table SimpleName SimpleType CastExpression MethodInvocation SimpleName n
+t SimpleName Assignment CastExpression SimpleType SimpleName soft doubly indexed table
+t SimpleName Assignment CastExpression MethodInvocation SimpleName elements by tag names
+t SimpleName Assignment CastExpression MethodInvocation SimpleName get
+t SimpleName Assignment CastExpression MethodInvocation SimpleName n
+t SimpleName Assignment ClassInstanceCreation SimpleType SimpleName soft doubly indexed table
+elements by tag names SimpleName MethodInvocation SimpleName put
+elements by tag names SimpleName MethodInvocation SimpleName n
+elements by tag names SimpleName MethodInvocation Assignment SimpleName t
+put SimpleName MethodInvocation SimpleName n
+put SimpleName MethodInvocation Assignment SimpleName t
+n SimpleName MethodInvocation Assignment SimpleName t
+t SimpleName MethodInvocation SimpleName put
+t SimpleName MethodInvocation SimpleName ns
+t SimpleName MethodInvocation SimpleName ln
+t SimpleName MethodInvocation SimpleName l
+put SimpleName MethodInvocation SimpleName ns
+put SimpleName MethodInvocation SimpleName ln
+put SimpleName MethodInvocation SimpleName l
+ns SimpleName MethodInvocation SimpleName ln
+ns SimpleName MethodInvocation SimpleName l
+ln SimpleName MethodInvocation SimpleName l
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put elements by tag name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ln
+void PrimitiveType MethodDeclaration SimpleName put elements by tag name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ns
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ln
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName elements by tag name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+put elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+put elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+put elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+put elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+put elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+put elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ln
+put elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName elements by tag name
+put elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+ln SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put elements by tag name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put elements by tag name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

@@ -1,0 +1,65 @@
+float PrimitiveType SingleVariableDeclaration SimpleName time
+float SimpleName SimpleType ClassInstanceCreation SimpleName time
+trace SimpleName MethodInvocation SimpleName enter
+trace SimpleName MethodInvocation StringLiteral seek to
+enter SimpleName MethodInvocation StringLiteral seek to
+propagation flags SimpleName MethodInvocation SimpleName clear
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName eslength
+es SimpleName ArrayAccess SimpleName i
+es SimpleName ArrayAccess MethodInvocation SimpleName sample at
+i SimpleName ArrayAccess MethodInvocation SimpleName sample at
+es SimpleName ArrayAccess MethodInvocation SimpleName time
+i SimpleName ArrayAccess MethodInvocation SimpleName time
+sample at SimpleName MethodInvocation SimpleName time
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName eslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+eslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName needs updates
+needs updates SimpleName Assignment BooleanLiteral false
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName eslength
+es SimpleName ArrayAccess SimpleName i
+es SimpleName ArrayAccess FieldAccess SimpleName should update current interval
+i SimpleName ArrayAccess FieldAccess SimpleName should update current interval
+needs updates SimpleName Assignment BooleanLiteral true
+es SimpleName ArrayAccess SimpleName i
+es SimpleName ArrayAccess MethodInvocation SimpleName sample at
+i SimpleName ArrayAccess MethodInvocation SimpleName sample at
+es SimpleName ArrayAccess MethodInvocation SimpleName time
+i SimpleName ArrayAccess MethodInvocation SimpleName time
+sample at SimpleName MethodInvocation SimpleName time
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName eslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+eslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+boolean PrimitiveType VariableDeclarationStatement Block DoStatement SimpleName needs updates
+trace SimpleName MethodInvocation SimpleName exit
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName seek to
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName time
+void PrimitiveType MethodDeclaration SimpleName seek to
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName time
+seek to SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+seek to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName seek to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName seek to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time

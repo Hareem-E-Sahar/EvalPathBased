@@ -1,0 +1,29 @@
+event target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+set target method SimpleName MethodInvocation SimpleName invoke
+set target method SimpleName MethodInvocation SimpleName e
+set target method SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName target
+invoke SimpleName MethodInvocation SimpleName e
+invoke SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName target
+e SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName target
+invocation target exception SimpleName SimpleType SingleVariableDeclaration SimpleName ite
+ite SimpleName MethodInvocation SimpleName print stack trace
+illegal access exception SimpleName SimpleType SingleVariableDeclaration SimpleName iae
+iae SimpleName MethodInvocation SimpleName print stack trace
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+void PrimitiveType MethodDeclaration SimpleName set target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target
+set target SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+set target SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

@@ -1,0 +1,20 @@
+marker SimpleName SimpleType SingleVariableDeclaration SimpleName start marker
+start marker SimpleName FieldAccess Assignment SimpleName start marker
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set start marker
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName marker
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName start marker
+void PrimitiveType MethodDeclaration SimpleName set start marker
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName marker
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName start marker
+set start marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName marker
+set start marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start marker
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set start marker
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start marker
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set start marker
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start marker

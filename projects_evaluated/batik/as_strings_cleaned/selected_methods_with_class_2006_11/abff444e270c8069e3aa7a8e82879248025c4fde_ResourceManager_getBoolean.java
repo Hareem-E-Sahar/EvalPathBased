@@ -1,0 +1,55 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+get string SimpleName MethodInvocation SimpleName key
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+b SimpleName MethodInvocation SimpleName equals
+b SimpleName MethodInvocation StringLiteral true
+equals SimpleName MethodInvocation StringLiteral true
+b SimpleName MethodInvocation SimpleName equals
+b SimpleName MethodInvocation StringLiteral false
+equals SimpleName MethodInvocation StringLiteral false
+bundle SimpleName MethodInvocation SimpleName get class
+bundle SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+resource format exception SimpleName SimpleType ClassInstanceCreation StringLiteral malformed boolean
+resource format exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+resource format exception SimpleName SimpleType ClassInstanceCreation SimpleName key
+malformed boolean StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName bundle
+malformed boolean StringLiteral ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get class
+malformed boolean StringLiteral ClassInstanceCreation MethodInvocation SimpleName get name
+malformed boolean StringLiteral ClassInstanceCreation SimpleName key
+bundle SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName key
+get class SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName key
+get name SimpleName MethodInvocation ClassInstanceCreation SimpleName key
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName missing resource exception
+public Modifier MethodDeclaration SimpleType SimpleName resource format exception
+boolean PrimitiveType MethodDeclaration SimpleName get boolean
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName missing resource exception
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName resource format exception
+get boolean SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get boolean SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+get boolean SimpleName MethodDeclaration SimpleType SimpleName missing resource exception
+get boolean SimpleName MethodDeclaration SimpleType SimpleName resource format exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource format exception
+missing resource exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource format exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource format exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource format exception

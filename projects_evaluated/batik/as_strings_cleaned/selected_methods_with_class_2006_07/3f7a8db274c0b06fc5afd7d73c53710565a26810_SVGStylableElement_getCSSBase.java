@@ -1,0 +1,31 @@
+bu SimpleName VariableDeclarationFragment MethodInvocation SimpleName get base uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bu
+url SimpleName SimpleType ClassInstanceCreation SimpleName bu
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+malformed url exception StringLiteral InfixExpression MethodInvocation SimpleName e
+malformed url exception StringLiteral InfixExpression MethodInvocation SimpleName get message
+malformed url exception StringLiteral InfixExpression CharacterLiteral :
+malformed url exception StringLiteral InfixExpression SimpleName bu
+e SimpleName MethodInvocation InfixExpression CharacterLiteral :
+get message SimpleName MethodInvocation InfixExpression CharacterLiteral :
+e SimpleName MethodInvocation InfixExpression SimpleName bu
+get message SimpleName MethodInvocation InfixExpression SimpleName bu
+: CharacterLiteral InfixExpression SimpleName bu
+msg SimpleName VariableDeclarationFragment InfixExpression StringLiteral malformed url exception
+msg SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName e
+msg SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get message
+msg SimpleName VariableDeclarationFragment InfixExpression CharacterLiteral :
+msg SimpleName VariableDeclarationFragment InfixExpression SimpleName bu
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName msg
+public Modifier MethodDeclaration SimpleType SimpleName url
+public Modifier MethodDeclaration SimpleName get css base
+url SimpleName SimpleType MethodDeclaration SimpleName get css base
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName url
+public Modifier TypeDeclaration MethodDeclaration SimpleName get css base
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName url
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get css base

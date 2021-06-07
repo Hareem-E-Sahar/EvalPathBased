@@ -1,0 +1,52 @@
+short PrimitiveType SingleVariableDeclaration SimpleName unit type
+unit type SimpleName InfixExpression QualifiedName css primitive valuecss number
+unit type SimpleName InfixExpression QualifiedName css primitive valuecss dimension
+unit type SimpleName InfixExpression InfixExpression InfixExpression SimpleName unit type
+unit type SimpleName InfixExpression InfixExpression InfixExpression QualifiedName css primitive valuecss dimension
+css primitive valuecss number QualifiedName InfixExpression InfixExpression InfixExpression SimpleName unit type
+css primitive valuecss number QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName css primitive valuecss dimension
+integer SimpleName SimpleType ClassInstanceCreation SimpleName unit type
+cssdom exception factory SimpleName MethodInvocation SimpleName create dom exception
+cssdom exception factory SimpleName MethodInvocation QualifiedName dom exceptioninvalid access err
+cssdom exception factory SimpleName MethodInvocation StringLiteral outofrangeunittype
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptioninvalid access err
+create dom exception SimpleName MethodInvocation StringLiteral outofrangeunittype
+dom exceptioninvalid access err QualifiedName MethodInvocation StringLiteral outofrangeunittype
+unit type SimpleName InfixExpression QualifiedName css primitive valuecss number
+units SimpleName ArrayAccess InfixExpression SimpleName unit type
+units SimpleName ArrayAccess InfixExpression QualifiedName css primitive valuecss number
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get unit representation
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName unit type
+protected Modifier MethodDeclaration SimpleType SimpleName dom exception
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get unit representation
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName unit type
+static Modifier MethodDeclaration SimpleType SimpleName dom exception
+string SimpleName SimpleType MethodDeclaration SimpleName get unit representation
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName unit type
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+get unit representation SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+get unit representation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unit type
+get unit representation SimpleName MethodDeclaration SimpleType SimpleName dom exception
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+unit type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get unit representation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get unit representation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

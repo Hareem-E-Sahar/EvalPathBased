@@ -1,0 +1,25 @@
+binding listener SimpleName SimpleType SingleVariableDeclaration SimpleName l
+binding listener list SimpleName MethodInvocation SimpleName add
+binding listener list SimpleName MethodInvocation TypeLiteral SimpleType SimpleName binding listener
+binding listener list SimpleName MethodInvocation SimpleName l
+add SimpleName MethodInvocation TypeLiteral SimpleType SimpleName binding listener
+add SimpleName MethodInvocation SimpleName l
+binding listener SimpleName SimpleType TypeLiteral MethodInvocation SimpleName l
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add binding listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName binding listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName add binding listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName binding listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+add binding listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName binding listener
+add binding listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add binding listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add binding listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

@@ -1,0 +1,78 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+i SimpleName InfixExpression MethodInvocation SimpleName s
+i SimpleName InfixExpression MethodInvocation SimpleName length
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName char at
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName char at
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName i
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation StringLiteral lt
+append SimpleName MethodInvocation StringLiteral lt
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation StringLiteral gt
+append SimpleName MethodInvocation StringLiteral gt
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation StringLiteral amp
+append SimpleName MethodInvocation StringLiteral amp
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation StringLiteral quot
+append SimpleName MethodInvocation StringLiteral quot
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation StringLiteral apos
+append SimpleName MethodInvocation StringLiteral apos
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation SimpleName c
+append SimpleName MethodInvocation SimpleName c
+c SimpleName SwitchStatement SwitchCase CharacterLiteral <
+c SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName result
+c SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName append
+c SimpleName SwitchStatement ExpressionStatement MethodInvocation StringLiteral lt
+c SimpleName SwitchStatement SwitchCase CharacterLiteral >
+c SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName result
+c SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName append
+c SimpleName SwitchStatement ExpressionStatement MethodInvocation StringLiteral gt
+< CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral >
+> CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral &
+& CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral \
+char PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName c
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+result SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName content to string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName content to string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType MethodDeclaration SimpleName content to string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+content to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+content to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName content to string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName content to string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

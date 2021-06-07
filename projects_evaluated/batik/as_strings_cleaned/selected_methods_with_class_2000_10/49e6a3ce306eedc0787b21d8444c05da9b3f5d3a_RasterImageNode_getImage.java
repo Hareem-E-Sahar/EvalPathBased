@@ -1,0 +1,6 @@
+renderable image SimpleName SimpleType MethodDeclaration SimpleName get image
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName renderable image
+public Modifier TypeDeclaration MethodDeclaration SimpleName get image
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName renderable image
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get image

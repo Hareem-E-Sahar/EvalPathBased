@@ -1,0 +1,21 @@
+writable raster SimpleName SimpleType SingleVariableDeclaration SimpleName raster
+src SimpleName MethodInvocation SimpleName copy data
+src SimpleName MethodInvocation SimpleName raster
+copy data SimpleName MethodInvocation SimpleName raster
+public Modifier MethodDeclaration SimpleType SimpleName writable raster
+public Modifier MethodDeclaration SimpleName copy data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable raster
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName raster
+writable raster SimpleName SimpleType MethodDeclaration SimpleName copy data
+writable raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName raster
+copy data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable raster
+copy data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName raster
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName writable raster
+public Modifier TypeDeclaration MethodDeclaration SimpleName copy data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName raster
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName writable raster
+test SimpleName TypeDeclaration MethodDeclaration SimpleName copy data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName raster

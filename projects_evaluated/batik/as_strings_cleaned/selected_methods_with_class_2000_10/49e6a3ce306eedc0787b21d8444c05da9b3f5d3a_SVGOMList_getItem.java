@@ -1,0 +1,41 @@
+int PrimitiveType SingleVariableDeclaration SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+list SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName list
+i SimpleName InfixExpression MethodInvocation SimpleName size
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName i
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName i
+integer SimpleName SimpleType ClassInstanceCreation SimpleName i
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionindex size err
+create dom exception SimpleName MethodInvocation StringLiteral indexoutofbounds
+dom exceptionindex size err QualifiedName MethodInvocation StringLiteral indexoutofbounds
+list SimpleName MethodInvocation SimpleName get
+list SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get item
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName i
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+object SimpleName SimpleType MethodDeclaration SimpleName get item
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName i
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+get item SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName i
+get item SimpleName MethodDeclaration SimpleType SimpleName dom exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+i SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

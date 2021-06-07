@@ -1,0 +1,18 @@
+get class SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+localizable support SimpleName SimpleType ClassInstanceCreation SimpleName resources
+localizable support SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get class loader
+resources SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get class
+resources SimpleName ClassInstanceCreation MethodInvocation SimpleName get class loader
+localizable support SimpleName Assignment ClassInstanceCreation SimpleType SimpleName localizable support
+localizable support SimpleName Assignment ClassInstanceCreation SimpleName resources
+localizable support SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get class loader
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName init localizable
+void PrimitiveType MethodDeclaration SimpleName init localizable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init localizable
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init localizable

@@ -1,0 +1,453 @@
+short PrimitiveType SingleVariableDeclaration SimpleName unit
+float PrimitiveType SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text
+get value SimpleName MethodInvocation MethodInvocation SimpleName get red
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation SimpleName unit
+float value SimpleName MethodInvocation SimpleName value
+get css text SimpleName MethodInvocation SimpleName unit
+get css text SimpleName MethodInvocation SimpleName value
+unit SimpleName MethodInvocation SimpleName value
+get value SimpleName MethodInvocation MethodInvocation SimpleName get blue
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+get blue SimpleName MethodInvocation MethodInvocation SimpleName get css text
+rgb StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get red
+rgb StringLiteral InfixExpression MethodInvocation SimpleName get css text
+rgb StringLiteral InfixExpression StringLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation SimpleName float value
+rgb StringLiteral InfixExpression MethodInvocation SimpleName get css text
+rgb StringLiteral InfixExpression MethodInvocation SimpleName unit
+rgb StringLiteral InfixExpression MethodInvocation SimpleName value
+rgb StringLiteral InfixExpression StringLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get blue
+rgb StringLiteral InfixExpression MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName float value
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unit
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+get red SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation SimpleName float value
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression MethodInvocation SimpleName unit
+empty StringLiteral InfixExpression MethodInvocation SimpleName value
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get blue
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral )
+float value SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+unit SimpleName MethodInvocation InfixExpression StringLiteral empty
+value SimpleName MethodInvocation InfixExpression StringLiteral empty
+float value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+unit SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+unit SimpleName MethodInvocation InfixExpression StringLiteral )
+value SimpleName MethodInvocation InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get blue
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral )
+get blue SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+text SimpleName Assignment InfixExpression StringLiteral rgb
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression StringLiteral empty
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName float value
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName unit
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName value
+text SimpleName Assignment InfixExpression StringLiteral empty
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression StringLiteral )
+get value SimpleName MethodInvocation MethodInvocation SimpleName item
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get red
+item SimpleName MethodInvocation MethodInvocation SimpleName get red
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get red
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation SimpleName unit
+float value SimpleName MethodInvocation SimpleName value
+get css text SimpleName MethodInvocation SimpleName unit
+get css text SimpleName MethodInvocation SimpleName value
+unit SimpleName MethodInvocation SimpleName value
+get value SimpleName MethodInvocation MethodInvocation SimpleName item
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get blue
+item SimpleName MethodInvocation MethodInvocation SimpleName get blue
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get blue
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+get blue SimpleName MethodInvocation MethodInvocation SimpleName get css text
+get value SimpleName MethodInvocation MethodInvocation SimpleName item
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+item SimpleName MethodInvocation MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get css text
+rgb StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get red
+rgb StringLiteral InfixExpression MethodInvocation SimpleName get css text
+rgb StringLiteral InfixExpression StringLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation SimpleName float value
+rgb StringLiteral InfixExpression MethodInvocation SimpleName get css text
+rgb StringLiteral InfixExpression MethodInvocation SimpleName unit
+rgb StringLiteral InfixExpression MethodInvocation SimpleName value
+rgb StringLiteral InfixExpression StringLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get blue
+rgb StringLiteral InfixExpression MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName float value
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unit
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+get red SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation SimpleName float value
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression MethodInvocation SimpleName unit
+empty StringLiteral InfixExpression MethodInvocation SimpleName value
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get blue
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName item
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+unit SimpleName MethodInvocation InfixExpression StringLiteral empty
+value SimpleName MethodInvocation InfixExpression StringLiteral empty
+float value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+unit SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+unit SimpleName MethodInvocation InfixExpression StringLiteral )
+value SimpleName MethodInvocation InfixExpression StringLiteral )
+float value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+unit SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get blue
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName item
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+get blue SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+) StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName item
+) StringLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+) StringLiteral InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression StringLiteral rgb
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression StringLiteral empty
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName float value
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName unit
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName value
+text SimpleName Assignment InfixExpression StringLiteral empty
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression StringLiteral )
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+get value SimpleName MethodInvocation MethodInvocation SimpleName item
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation SimpleName item
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get red
+item SimpleName MethodInvocation MethodInvocation SimpleName get red
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get red
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation SimpleName unit
+float value SimpleName MethodInvocation SimpleName value
+get css text SimpleName MethodInvocation SimpleName unit
+get css text SimpleName MethodInvocation SimpleName value
+unit SimpleName MethodInvocation SimpleName value
+get value SimpleName MethodInvocation MethodInvocation SimpleName item
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get blue
+item SimpleName MethodInvocation MethodInvocation SimpleName get blue
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get blue
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+get blue SimpleName MethodInvocation MethodInvocation SimpleName get css text
+get value SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral rgb
+item SimpleName MethodInvocation InfixExpression StringLiteral rgb
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral rgb
+item SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get value SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+item SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral empty
+item SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName float value
+item SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+item SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unit
+item SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName float value
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName unit
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName value
+get value SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+item SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get red
+rgb StringLiteral InfixExpression MethodInvocation SimpleName get css text
+rgb StringLiteral InfixExpression StringLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation SimpleName float value
+rgb StringLiteral InfixExpression MethodInvocation SimpleName get css text
+rgb StringLiteral InfixExpression MethodInvocation SimpleName unit
+rgb StringLiteral InfixExpression MethodInvocation SimpleName value
+rgb StringLiteral InfixExpression StringLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get blue
+rgb StringLiteral InfixExpression MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName float value
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unit
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+get red SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation SimpleName float value
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression MethodInvocation SimpleName unit
+empty StringLiteral InfixExpression MethodInvocation SimpleName value
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get blue
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral )
+float value SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+unit SimpleName MethodInvocation InfixExpression StringLiteral empty
+value SimpleName MethodInvocation InfixExpression StringLiteral empty
+float value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+unit SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+unit SimpleName MethodInvocation InfixExpression StringLiteral )
+value SimpleName MethodInvocation InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get blue
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral )
+get blue SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName item
+text SimpleName Assignment InfixExpression MethodInvocation NumberLiteral empty
+text SimpleName Assignment InfixExpression StringLiteral rgb
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression StringLiteral empty
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName float value
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName unit
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName value
+text SimpleName Assignment InfixExpression StringLiteral empty
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression StringLiteral )
+get value SimpleName MethodInvocation MethodInvocation SimpleName item
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation SimpleName item
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get red
+item SimpleName MethodInvocation MethodInvocation SimpleName get red
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get red
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation SimpleName unit
+float value SimpleName MethodInvocation SimpleName value
+get css text SimpleName MethodInvocation SimpleName unit
+get css text SimpleName MethodInvocation SimpleName value
+unit SimpleName MethodInvocation SimpleName value
+get value SimpleName MethodInvocation MethodInvocation SimpleName item
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get blue
+item SimpleName MethodInvocation MethodInvocation SimpleName get blue
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get blue
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+get blue SimpleName MethodInvocation MethodInvocation SimpleName get css text
+get value SimpleName MethodInvocation MethodInvocation SimpleName item
+get value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+get value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+item SimpleName MethodInvocation MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get css text
+get value SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral rgb
+item SimpleName MethodInvocation InfixExpression StringLiteral rgb
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral rgb
+item SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get value SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+item SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral empty
+item SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName float value
+item SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+item SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unit
+item SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName float value
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName unit
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName value
+get value SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+item SimpleName MethodInvocation InfixExpression StringLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get red
+rgb StringLiteral InfixExpression MethodInvocation SimpleName get css text
+rgb StringLiteral InfixExpression StringLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation SimpleName float value
+rgb StringLiteral InfixExpression MethodInvocation SimpleName get css text
+rgb StringLiteral InfixExpression MethodInvocation SimpleName unit
+rgb StringLiteral InfixExpression MethodInvocation SimpleName value
+rgb StringLiteral InfixExpression StringLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get blue
+rgb StringLiteral InfixExpression MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName float value
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unit
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+get red SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation SimpleName float value
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression MethodInvocation SimpleName unit
+empty StringLiteral InfixExpression MethodInvocation SimpleName value
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get blue
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName item
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+unit SimpleName MethodInvocation InfixExpression StringLiteral empty
+value SimpleName MethodInvocation InfixExpression StringLiteral empty
+float value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+unit SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+float value SimpleName MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+unit SimpleName MethodInvocation InfixExpression StringLiteral )
+value SimpleName MethodInvocation InfixExpression StringLiteral )
+float value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+unit SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get blue
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+empty StringLiteral InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName item
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName get css text
+get blue SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression StringLiteral )
+get css text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get css text
+) StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName item
+) StringLiteral InfixExpression MethodInvocation MethodInvocation NumberLiteral empty
+) StringLiteral InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName item
+text SimpleName Assignment InfixExpression MethodInvocation NumberLiteral empty
+text SimpleName Assignment InfixExpression StringLiteral rgb
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression StringLiteral empty
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName float value
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName unit
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName value
+text SimpleName Assignment InfixExpression StringLiteral empty
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+text SimpleName Assignment InfixExpression StringLiteral )
+text SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionno modification allowed err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptionno modification allowed err QualifiedName ClassInstanceCreation StringLiteral empty
+get paint type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName svg painttype rgbcolor
+get paint type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName svg painttype rgbcolor icccolor
+svg painttype rgbcolor SimpleName SwitchCase SwitchStatement SwitchCase SimpleName svg painttype rgbcolor icccolor
+svg painttype rgbcolor icccolor SimpleName SwitchCase SwitchStatement SwitchCase SimpleName svg painttype uri rgbcolor
+svg painttype uri rgbcolor SimpleName SwitchCase SwitchStatement SwitchCase SimpleName svg painttype uri rgbcolor icccolor
+text changed SimpleName MethodInvocation SimpleName text
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName green float value changed
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unit
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName green float value changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName unit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+green float value changed SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+green float value changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unit
+green float value changed SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+green float value changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+green float value changed SimpleName MethodDeclaration SimpleType SimpleName dom exception
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+unit SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+unit SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+unit SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName green float value changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName green float value changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

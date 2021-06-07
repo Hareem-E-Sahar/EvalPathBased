@@ -1,0 +1,99 @@
+text paint info SimpleName SimpleType SingleVariableDeclaration SimpleName pi
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName MethodInvocation SimpleName get local name
+element SimpleName MethodInvocation MethodInvocation SimpleName equals
+get local name SimpleName MethodInvocation MethodInvocation SimpleName equals
+element SimpleName MethodInvocation MethodInvocation SimpleName svg text tag
+get local name SimpleName MethodInvocation MethodInvocation SimpleName svg text tag
+equals SimpleName MethodInvocation SimpleName svg text tag
+css utilities SimpleName MethodInvocation SimpleName convert opacity
+css utilities SimpleName MethodInvocation SimpleName element
+convert opacity SimpleName MethodInvocation SimpleName element
+picomposite QualifiedName Assignment MethodInvocation SimpleName css utilities
+picomposite QualifiedName Assignment MethodInvocation SimpleName convert opacity
+picomposite QualifiedName Assignment MethodInvocation SimpleName element
+picomposite QualifiedName Assignment QualifiedName alpha compositesrc over
+paint server SimpleName MethodInvocation SimpleName convert fill paint
+paint server SimpleName MethodInvocation SimpleName element
+paint server SimpleName MethodInvocation SimpleName node
+paint server SimpleName MethodInvocation SimpleName ctx
+convert fill paint SimpleName MethodInvocation SimpleName element
+convert fill paint SimpleName MethodInvocation SimpleName node
+convert fill paint SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName node
+element SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName ctx
+pifill paint QualifiedName Assignment MethodInvocation SimpleName paint server
+pifill paint QualifiedName Assignment MethodInvocation SimpleName convert fill paint
+pifill paint QualifiedName Assignment MethodInvocation SimpleName element
+pifill paint QualifiedName Assignment MethodInvocation SimpleName node
+pifill paint QualifiedName Assignment MethodInvocation SimpleName ctx
+paint server SimpleName MethodInvocation SimpleName convert stroke paint
+paint server SimpleName MethodInvocation SimpleName element
+paint server SimpleName MethodInvocation SimpleName node
+paint server SimpleName MethodInvocation SimpleName ctx
+convert stroke paint SimpleName MethodInvocation SimpleName element
+convert stroke paint SimpleName MethodInvocation SimpleName node
+convert stroke paint SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName node
+element SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName ctx
+pistroke paint QualifiedName Assignment MethodInvocation SimpleName paint server
+pistroke paint QualifiedName Assignment MethodInvocation SimpleName convert stroke paint
+pistroke paint QualifiedName Assignment MethodInvocation SimpleName element
+pistroke paint QualifiedName Assignment MethodInvocation SimpleName node
+pistroke paint QualifiedName Assignment MethodInvocation SimpleName ctx
+paint server SimpleName MethodInvocation SimpleName convert stroke
+paint server SimpleName MethodInvocation SimpleName element
+convert stroke SimpleName MethodInvocation SimpleName element
+pistroke stroke QualifiedName Assignment MethodInvocation SimpleName paint server
+pistroke stroke QualifiedName Assignment MethodInvocation SimpleName convert stroke
+pistroke stroke QualifiedName Assignment MethodInvocation SimpleName element
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set base text paint info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text paint info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pi
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleName set base text paint info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text paint info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pi
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+set base text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text paint info
+set base text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pi
+set base text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+set base text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+set base text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+set base text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+set base text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+set base text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+pi SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+pi SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+pi SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set base text paint info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pi
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set base text paint info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pi
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

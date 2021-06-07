@@ -1,0 +1,9 @@
+content selection changed listener list SimpleName MethodInvocation SimpleName get listener list
+protected Modifier MethodDeclaration ArrayType SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName get content selection changed listeners
+object SimpleName SimpleType ArrayType MethodDeclaration SimpleName get content selection changed listeners
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get content selection changed listeners
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get content selection changed listeners

@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName q name
+atts SimpleName MethodInvocation SimpleName get length
+max SimpleName VariableDeclarationFragment MethodInvocation SimpleName atts
+max SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName atts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName max
+q atts SimpleName MethodInvocation SimpleName get name
+q atts SimpleName MethodInvocation SimpleName i
+get name SimpleName MethodInvocation SimpleName i
+q atts SimpleName MethodInvocation MethodInvocation SimpleName equals
+get name SimpleName MethodInvocation MethodInvocation SimpleName equals
+i SimpleName MethodInvocation MethodInvocation SimpleName equals
+q atts SimpleName MethodInvocation MethodInvocation SimpleName q name
+get name SimpleName MethodInvocation MethodInvocation SimpleName q name
+i SimpleName MethodInvocation MethodInvocation SimpleName q name
+equals SimpleName MethodInvocation SimpleName q name
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+max SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get index
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName q name
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration SimpleName get index
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName q name
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get index SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName q name
+get index SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName q name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName q name

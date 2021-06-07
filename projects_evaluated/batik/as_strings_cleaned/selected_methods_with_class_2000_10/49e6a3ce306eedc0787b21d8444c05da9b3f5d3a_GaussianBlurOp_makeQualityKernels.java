@@ -1,0 +1,67 @@
+empty NumberLiteral InfixExpression SimpleName radius x
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+radius x SimpleName InfixExpression InfixExpression NumberLiteral empty
+compute quality kernel data SimpleName MethodInvocation SimpleName radius x
+compute quality kernel data SimpleName MethodInvocation SimpleName std deviation x
+radius x SimpleName MethodInvocation SimpleName std deviation x
+kernel SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+kernel SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+kernel SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName compute quality kernel data
+kernel SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName radius x
+kernel SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName std deviation x
+empty NumberLiteral InfixExpression InfixExpression ClassInstanceCreation NumberLiteral empty
+radius x SimpleName InfixExpression InfixExpression ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral InfixExpression ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName compute quality kernel data
+empty NumberLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName radius x
+empty NumberLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName std deviation x
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName compute quality kernel data
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName radius x
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName std deviation x
+kernel x SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName kernel
+kernel x SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression NumberLiteral empty
+kernel x SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+kernel x SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName compute quality kernel data
+kernel x SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName radius x
+kernel x SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName std deviation x
+kernel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kernel x
+empty NumberLiteral InfixExpression SimpleName radius y
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+radius y SimpleName InfixExpression InfixExpression NumberLiteral empty
+compute quality kernel data SimpleName MethodInvocation SimpleName radius y
+compute quality kernel data SimpleName MethodInvocation SimpleName std deviation y
+radius y SimpleName MethodInvocation SimpleName std deviation y
+kernel SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+kernel SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+kernel SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName compute quality kernel data
+kernel SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName radius y
+kernel SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName std deviation y
+empty NumberLiteral ClassInstanceCreation InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation InfixExpression InfixExpression SimpleName radius y
+empty NumberLiteral ClassInstanceCreation InfixExpression NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName compute quality kernel data
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName radius y
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName std deviation y
+empty NumberLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName compute quality kernel data
+empty NumberLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName radius y
+empty NumberLiteral InfixExpression ClassInstanceCreation MethodInvocation SimpleName std deviation y
+kernel y SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName kernel
+kernel y SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+kernel y SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression NumberLiteral empty
+kernel y SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName compute quality kernel data
+kernel y SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName radius y
+kernel y SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName std deviation y
+kernel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName kernel y
+kernel x SimpleName ArrayInitializer SimpleName kernel y
+result SimpleName Assignment ArrayCreation ArrayInitializer SimpleName kernel x
+result SimpleName Assignment ArrayCreation ArrayInitializer SimpleName kernel y
+private Modifier MethodDeclaration ArrayType SimpleType SimpleName kernel
+private Modifier MethodDeclaration SimpleName make quality kernels
+private Modifier MethodDeclaration Block ReturnStatement SimpleName result
+kernel SimpleName SimpleType ArrayType MethodDeclaration SimpleName make quality kernels
+make quality kernels SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName make quality kernels
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make quality kernels

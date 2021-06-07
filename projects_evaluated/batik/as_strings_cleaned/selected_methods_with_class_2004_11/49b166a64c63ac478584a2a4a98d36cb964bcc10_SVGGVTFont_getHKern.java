@@ -1,0 +1,85 @@
+int PrimitiveType SingleVariableDeclaration SimpleName glyph code
+int PrimitiveType SingleVariableDeclaration SimpleName glyph code
+glyph code SimpleName InfixExpression NumberLiteral empty
+glyph code SimpleName InfixExpression QualifiedName glyph unicodeslength
+glyph code SimpleName InfixExpression InfixExpression InfixExpression SimpleName glyph code
+glyph code SimpleName InfixExpression InfixExpression InfixExpression QualifiedName glyph unicodeslength
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName glyph code
+empty NumberLiteral InfixExpression InfixExpression InfixExpression QualifiedName glyph unicodeslength
+glyph code SimpleName InfixExpression NumberLiteral empty
+glyph code SimpleName InfixExpression QualifiedName glyph unicodeslength
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+glyph unicodes SimpleName ArrayAccess SimpleName glyph code
+glyph unicodes SimpleName ArrayAccess SimpleName glyph code
+h kerning table SimpleName MethodInvocation SimpleName get kerning value
+h kerning table SimpleName MethodInvocation SimpleName glyph code
+h kerning table SimpleName MethodInvocation SimpleName glyph code
+h kerning table SimpleName MethodInvocation ArrayAccess SimpleName glyph unicodes
+h kerning table SimpleName MethodInvocation ArrayAccess SimpleName glyph code
+h kerning table SimpleName MethodInvocation ArrayAccess SimpleName glyph unicodes
+h kerning table SimpleName MethodInvocation ArrayAccess SimpleName glyph code
+get kerning value SimpleName MethodInvocation SimpleName glyph code
+get kerning value SimpleName MethodInvocation SimpleName glyph code
+get kerning value SimpleName MethodInvocation ArrayAccess SimpleName glyph unicodes
+get kerning value SimpleName MethodInvocation ArrayAccess SimpleName glyph code
+get kerning value SimpleName MethodInvocation ArrayAccess SimpleName glyph unicodes
+get kerning value SimpleName MethodInvocation ArrayAccess SimpleName glyph code
+glyph code SimpleName MethodInvocation SimpleName glyph code
+glyph code SimpleName MethodInvocation ArrayAccess SimpleName glyph unicodes
+glyph code SimpleName MethodInvocation ArrayAccess SimpleName glyph code
+glyph code SimpleName MethodInvocation ArrayAccess SimpleName glyph unicodes
+glyph code SimpleName MethodInvocation ArrayAccess SimpleName glyph code
+glyph code SimpleName MethodInvocation ArrayAccess SimpleName glyph unicodes
+glyph code SimpleName MethodInvocation ArrayAccess SimpleName glyph code
+glyph code SimpleName MethodInvocation ArrayAccess SimpleName glyph unicodes
+glyph code SimpleName MethodInvocation ArrayAccess SimpleName glyph code
+glyph unicodes SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName glyph unicodes
+glyph unicodes SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName glyph code
+glyph code SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName glyph unicodes
+glyph code SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName glyph code
+ret SimpleName Assignment MethodInvocation SimpleName h kerning table
+ret SimpleName Assignment MethodInvocation SimpleName get kerning value
+ret SimpleName Assignment MethodInvocation SimpleName glyph code
+ret SimpleName Assignment MethodInvocation SimpleName glyph code
+ret SimpleName Assignment MethodInvocation ArrayAccess SimpleName glyph unicodes
+ret SimpleName Assignment MethodInvocation ArrayAccess SimpleName glyph code
+ret SimpleName Assignment MethodInvocation ArrayAccess SimpleName glyph unicodes
+ret SimpleName Assignment MethodInvocation ArrayAccess SimpleName glyph code
+ret SimpleName InfixExpression SimpleName scale
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get h kern
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName glyph code
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName glyph code
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType MethodDeclaration SimpleName get h kern
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName glyph code
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName glyph code
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get h kern SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get h kern SimpleName MethodDeclaration SingleVariableDeclaration SimpleName glyph code
+get h kern SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get h kern SimpleName MethodDeclaration SingleVariableDeclaration SimpleName glyph code
+get h kern SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glyph code
+glyph code SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+glyph code SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glyph code
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get h kern
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glyph code
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glyph code
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get h kern
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glyph code
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glyph code

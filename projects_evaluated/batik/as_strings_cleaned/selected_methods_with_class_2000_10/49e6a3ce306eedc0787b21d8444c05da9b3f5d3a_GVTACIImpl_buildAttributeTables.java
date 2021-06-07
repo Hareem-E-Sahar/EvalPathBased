@@ -1,0 +1,92 @@
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName aci
+aci SimpleName MethodInvocation SimpleName get all attribute keys
+all attributes SimpleName Assignment MethodInvocation SimpleName aci
+all attributes SimpleName Assignment MethodInvocation SimpleName get all attribute keys
+aci SimpleName MethodInvocation SimpleName get end index
+aci SimpleName MethodInvocation SimpleName get begin index
+aci SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName aci
+aci SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get begin index
+get end index SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName aci
+get end index SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get begin index
+length SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName aci
+length SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get end index
+length SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName aci
+length SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get begin index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName length
+array list SimpleName SimpleType ClassInstanceCreation SimpleName length
+map list SimpleName Assignment ClassInstanceCreation SimpleType SimpleName array list
+map list SimpleName Assignment ClassInstanceCreation SimpleName length
+int PrimitiveType ArrayType ArrayCreation SimpleName length
+char in run SimpleName Assignment ArrayCreation ArrayType PrimitiveType int
+char in run SimpleName Assignment ArrayCreation SimpleName length
+aci SimpleName MethodInvocation SimpleName first
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName first
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName first
+char PrimitiveType ArrayType ArrayCreation SimpleName length
+chars SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType char
+chars SimpleName VariableDeclarationFragment ArrayCreation SimpleName length
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName chars
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName length
+chars SimpleName ArrayAccess SimpleName i
+chars SimpleName ArrayAccess Assignment SimpleName c
+i SimpleName ArrayAccess Assignment SimpleName c
+char in run SimpleName ArrayAccess SimpleName i
+char in run SimpleName ArrayAccess Assignment SimpleName singleton
+i SimpleName ArrayAccess Assignment SimpleName singleton
+aci SimpleName MethodInvocation SimpleName get attributes
+hash map SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName aci
+hash map SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get attributes
+map list SimpleName MethodInvocation SimpleName set
+map list SimpleName MethodInvocation SimpleName i
+map list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName hash map
+map list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName aci
+map list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+set SimpleName MethodInvocation SimpleName i
+set SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName hash map
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName aci
+set SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+i SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName hash map
+i SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName aci
+i SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attributes
+aci SimpleName MethodInvocation SimpleName next
+c SimpleName Assignment MethodInvocation SimpleName aci
+c SimpleName Assignment MethodInvocation SimpleName next
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName length
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+length SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+string SimpleName SimpleType ClassInstanceCreation SimpleName chars
+simple string SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string
+simple string SimpleName Assignment ClassInstanceCreation SimpleName chars
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType char
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName build attribute tables
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName aci
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+void PrimitiveType MethodDeclaration SimpleName build attribute tables
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName aci
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+build attribute tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+build attribute tables SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aci
+build attribute tables SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+build attribute tables SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName build attribute tables
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build attribute tables
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci

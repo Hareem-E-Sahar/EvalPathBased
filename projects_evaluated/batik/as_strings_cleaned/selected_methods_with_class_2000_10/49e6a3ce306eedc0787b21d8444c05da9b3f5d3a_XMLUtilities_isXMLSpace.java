@@ -1,0 +1,35 @@
+char PrimitiveType SingleVariableDeclaration SimpleName c
+c SimpleName InfixExpression NumberLiteral x
+l NumberLiteral InfixExpression NumberLiteral x
+l NumberLiteral InfixExpression NumberLiteral x a
+l NumberLiteral InfixExpression NumberLiteral x d
+l NumberLiteral InfixExpression NumberLiteral x
+c SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral l
+l NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is xml space
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is xml space
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration SimpleName is xml space
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType char
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+is xml space SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType char
+is xml space SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is xml space
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is xml space
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

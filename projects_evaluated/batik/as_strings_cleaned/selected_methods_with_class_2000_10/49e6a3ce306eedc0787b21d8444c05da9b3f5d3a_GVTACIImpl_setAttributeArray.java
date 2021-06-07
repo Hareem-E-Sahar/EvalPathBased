@@ -1,0 +1,171 @@
+text attribute SimpleName SimpleType SingleVariableDeclaration SimpleName attr
+object SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName att values
+int PrimitiveType SingleVariableDeclaration SimpleName begin index
+int PrimitiveType SingleVariableDeclaration SimpleName end index
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation SimpleName begin index
+math SimpleName MethodInvocation NumberLiteral empty
+max SimpleName MethodInvocation SimpleName begin index
+max SimpleName MethodInvocation NumberLiteral empty
+begin index SimpleName MethodInvocation NumberLiteral empty
+begin index SimpleName Assignment MethodInvocation SimpleName math
+begin index SimpleName Assignment MethodInvocation SimpleName max
+begin index SimpleName Assignment MethodInvocation SimpleName begin index
+begin index SimpleName Assignment MethodInvocation NumberLiteral empty
+simple string SimpleName MethodInvocation SimpleName length
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation SimpleName end index
+math SimpleName MethodInvocation MethodInvocation SimpleName simple string
+math SimpleName MethodInvocation MethodInvocation SimpleName length
+min SimpleName MethodInvocation SimpleName end index
+min SimpleName MethodInvocation MethodInvocation SimpleName simple string
+min SimpleName MethodInvocation MethodInvocation SimpleName length
+end index SimpleName MethodInvocation MethodInvocation SimpleName simple string
+end index SimpleName MethodInvocation MethodInvocation SimpleName length
+end index SimpleName Assignment MethodInvocation SimpleName math
+end index SimpleName Assignment MethodInvocation SimpleName min
+end index SimpleName Assignment MethodInvocation SimpleName end index
+end index SimpleName Assignment MethodInvocation MethodInvocation SimpleName simple string
+end index SimpleName Assignment MethodInvocation MethodInvocation SimpleName length
+char in run SimpleName ArrayAccess SimpleName begin index
+char in run SimpleName ArrayAccess InfixExpression SimpleName end run
+begin index SimpleName ArrayAccess InfixExpression SimpleName end run
+begin index SimpleName InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess InfixExpression SimpleName begin index
+char in run SimpleName ArrayAccess InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess InfixExpression SimpleName mid run
+begin index SimpleName InfixExpression ArrayAccess InfixExpression SimpleName mid run
+empty NumberLiteral InfixExpression ArrayAccess InfixExpression SimpleName mid run
+begin index SimpleName InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess InfixExpression SimpleName begin index
+char in run SimpleName ArrayAccess InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess Assignment SimpleName end run
+begin index SimpleName InfixExpression ArrayAccess Assignment SimpleName end run
+empty NumberLiteral InfixExpression ArrayAccess Assignment SimpleName end run
+begin index SimpleName InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess InfixExpression SimpleName begin index
+char in run SimpleName ArrayAccess InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess Assignment SimpleName singleton
+begin index SimpleName InfixExpression ArrayAccess Assignment SimpleName singleton
+empty NumberLiteral InfixExpression ArrayAccess Assignment SimpleName singleton
+end index SimpleName InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess InfixExpression SimpleName end index
+char in run SimpleName ArrayAccess InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess InfixExpression SimpleName end run
+end index SimpleName InfixExpression ArrayAccess InfixExpression SimpleName end run
+empty NumberLiteral InfixExpression ArrayAccess InfixExpression SimpleName end run
+end index SimpleName InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess InfixExpression SimpleName end index
+char in run SimpleName ArrayAccess InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess Assignment SimpleName singleton
+end index SimpleName InfixExpression ArrayAccess Assignment SimpleName singleton
+empty NumberLiteral InfixExpression ArrayAccess Assignment SimpleName singleton
+end index SimpleName InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess InfixExpression SimpleName end index
+char in run SimpleName ArrayAccess InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess InfixExpression SimpleName mid run
+end index SimpleName InfixExpression ArrayAccess InfixExpression SimpleName mid run
+empty NumberLiteral InfixExpression ArrayAccess InfixExpression SimpleName mid run
+end index SimpleName InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess InfixExpression SimpleName end index
+char in run SimpleName ArrayAccess InfixExpression NumberLiteral empty
+char in run SimpleName ArrayAccess Assignment SimpleName start run
+end index SimpleName InfixExpression ArrayAccess Assignment SimpleName start run
+empty NumberLiteral InfixExpression ArrayAccess Assignment SimpleName start run
+i SimpleName VariableDeclarationFragment SimpleName begin index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName begin index
+i SimpleName InfixExpression SimpleName end index
+char in run SimpleName ArrayAccess SimpleName i
+char in run SimpleName ArrayAccess Assignment SimpleName singleton
+i SimpleName ArrayAccess Assignment SimpleName singleton
+att valueslength QualifiedName InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation SimpleName i
+math SimpleName MethodInvocation InfixExpression QualifiedName att valueslength
+math SimpleName MethodInvocation InfixExpression NumberLiteral empty
+min SimpleName MethodInvocation SimpleName i
+min SimpleName MethodInvocation InfixExpression QualifiedName att valueslength
+min SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName MethodInvocation InfixExpression QualifiedName att valueslength
+i SimpleName MethodInvocation InfixExpression NumberLiteral empty
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName min
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+n SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName att valueslength
+n SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName min
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName i
+map list SimpleName MethodInvocation SimpleName get
+map list SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName map list
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+att values SimpleName ArrayAccess SimpleName n
+put SimpleName MethodInvocation SimpleName attr
+put SimpleName MethodInvocation ArrayAccess SimpleName att values
+put SimpleName MethodInvocation ArrayAccess SimpleName n
+attr SimpleName MethodInvocation ArrayAccess SimpleName att values
+attr SimpleName MethodInvocation ArrayAccess SimpleName n
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName end index
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+end index SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set attribute array
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName att values
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName begin index
+void PrimitiveType MethodDeclaration SimpleName set attribute array
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text attribute
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName att values
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName begin index
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName end index
+set attribute array SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text attribute
+set attribute array SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr
+set attribute array SimpleName MethodDeclaration SingleVariableDeclaration SimpleName att values
+set attribute array SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set attribute array SimpleName MethodDeclaration SingleVariableDeclaration SimpleName begin index
+set attribute array SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set attribute array SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end index
+attr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName att values
+attr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+attr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin index
+attr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+attr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index
+att values SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+att values SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin index
+att values SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+att values SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index
+begin index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+begin index SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attribute array
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName att values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attribute array
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName att values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end index

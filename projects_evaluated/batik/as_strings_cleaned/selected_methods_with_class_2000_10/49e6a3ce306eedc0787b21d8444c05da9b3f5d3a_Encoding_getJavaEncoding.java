@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName encoding
+encodings SimpleName MethodInvocation SimpleName get property
+encodings SimpleName MethodInvocation SimpleName encoding
+get property SimpleName MethodInvocation SimpleName encoding
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName encodings
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName encoding
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get java encoding
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName encoding
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get java encoding
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName encoding
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+string SimpleName SimpleType MethodDeclaration SimpleName get java encoding
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName encoding
+get java encoding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get java encoding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName encoding
+get java encoding SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get java encoding
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName encoding
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get java encoding
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName encoding

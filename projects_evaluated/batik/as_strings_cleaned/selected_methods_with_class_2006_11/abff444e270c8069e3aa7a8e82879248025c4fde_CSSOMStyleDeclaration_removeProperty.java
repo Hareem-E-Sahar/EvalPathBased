@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+get property value SimpleName MethodInvocation SimpleName property name
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property value
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName property name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName length
+result SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionno modification allowed err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptionno modification allowed err QualifiedName ClassInstanceCreation StringLiteral empty
+values SimpleName MethodInvocation SimpleName remove
+values SimpleName MethodInvocation SimpleName property name
+remove SimpleName MethodInvocation SimpleName property name
+handler SimpleName MethodInvocation SimpleName property removed
+handler SimpleName MethodInvocation SimpleName property name
+property removed SimpleName MethodInvocation SimpleName property name
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName remove property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+string SimpleName SimpleType MethodDeclaration SimpleName remove property
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+remove property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+remove property SimpleName MethodDeclaration SimpleType SimpleName dom exception
+remove property SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+property name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

@@ -1,0 +1,169 @@
+css rule list SimpleName SimpleType SingleVariableDeclaration SimpleName l
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pe
+cssom rule list SimpleName SimpleType SingleVariableDeclaration SimpleName rl
+l SimpleName MethodInvocation SimpleName get length
+llen SimpleName VariableDeclarationFragment MethodInvocation SimpleName l
+llen SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName llen
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName l
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName llen
+l SimpleName MethodInvocation SimpleName item
+l SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+rule SimpleName VariableDeclarationFragment MethodInvocation SimpleName l
+rule SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+rule SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+css rule SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rule
+rule SimpleName MethodInvocation SimpleName get type
+cssom style rule SimpleName SimpleType CastExpression SimpleName rule
+sr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName cssom style rule
+sr SimpleName VariableDeclarationFragment CastExpression SimpleName rule
+cssom style rule SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sr
+sr SimpleName MethodInvocation SimpleName get selectors
+sl SimpleName VariableDeclarationFragment MethodInvocation SimpleName sr
+sl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selectors
+selector list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sl
+sl SimpleName MethodInvocation SimpleName get length
+slen SimpleName VariableDeclarationFragment MethodInvocation SimpleName sl
+slen SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName slen
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sl
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression SimpleName slen
+sl SimpleName MethodInvocation SimpleName item
+sl SimpleName MethodInvocation SimpleName j
+item SimpleName MethodInvocation SimpleName j
+extended selector SimpleName SimpleType CastExpression MethodInvocation SimpleName sl
+extended selector SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+extended selector SimpleName SimpleType CastExpression MethodInvocation SimpleName j
+s SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName extended selector
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName sl
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName j
+extended selector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName match
+s SimpleName MethodInvocation SimpleName e
+s SimpleName MethodInvocation SimpleName pe
+match SimpleName MethodInvocation SimpleName e
+match SimpleName MethodInvocation SimpleName pe
+e SimpleName MethodInvocation SimpleName pe
+rl SimpleName MethodInvocation SimpleName append
+rl SimpleName MethodInvocation SimpleName rule
+append SimpleName MethodInvocation SimpleName rule
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName slen
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+slen SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+css import rule SimpleName SimpleType CastExpression SimpleName rule
+ir SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css import rule
+ir SimpleName VariableDeclarationFragment CastExpression SimpleName rule
+css import rule SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ir
+ir SimpleName MethodInvocation SimpleName get style sheet
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName ir
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName get style sheet
+css style sheet SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+is SimpleName MethodInvocation SimpleName get css rules
+add matching rules SimpleName MethodInvocation MethodInvocation SimpleName is
+add matching rules SimpleName MethodInvocation MethodInvocation SimpleName get css rules
+add matching rules SimpleName MethodInvocation SimpleName e
+add matching rules SimpleName MethodInvocation SimpleName pe
+add matching rules SimpleName MethodInvocation SimpleName rl
+is SimpleName MethodInvocation MethodInvocation SimpleName e
+get css rules SimpleName MethodInvocation MethodInvocation SimpleName e
+is SimpleName MethodInvocation MethodInvocation SimpleName pe
+get css rules SimpleName MethodInvocation MethodInvocation SimpleName pe
+is SimpleName MethodInvocation MethodInvocation SimpleName rl
+get css rules SimpleName MethodInvocation MethodInvocation SimpleName rl
+e SimpleName MethodInvocation SimpleName pe
+e SimpleName MethodInvocation SimpleName rl
+pe SimpleName MethodInvocation SimpleName rl
+css media rule SimpleName SimpleType CastExpression SimpleName rule
+mr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css media rule
+mr SimpleName VariableDeclarationFragment CastExpression SimpleName rule
+css media rule SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mr
+mr SimpleName MethodInvocation SimpleName get media
+media match SimpleName MethodInvocation MethodInvocation SimpleName mr
+media match SimpleName MethodInvocation MethodInvocation SimpleName get media
+mr SimpleName MethodInvocation SimpleName get css rules
+add matching rules SimpleName MethodInvocation MethodInvocation SimpleName mr
+add matching rules SimpleName MethodInvocation MethodInvocation SimpleName get css rules
+add matching rules SimpleName MethodInvocation SimpleName e
+add matching rules SimpleName MethodInvocation SimpleName pe
+add matching rules SimpleName MethodInvocation SimpleName rl
+mr SimpleName MethodInvocation MethodInvocation SimpleName e
+get css rules SimpleName MethodInvocation MethodInvocation SimpleName e
+mr SimpleName MethodInvocation MethodInvocation SimpleName pe
+get css rules SimpleName MethodInvocation MethodInvocation SimpleName pe
+mr SimpleName MethodInvocation MethodInvocation SimpleName rl
+get css rules SimpleName MethodInvocation MethodInvocation SimpleName rl
+e SimpleName MethodInvocation SimpleName pe
+e SimpleName MethodInvocation SimpleName rl
+pe SimpleName MethodInvocation SimpleName rl
+rule SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css rulestyle rule
+get type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css rulestyle rule
+rule SimpleName MethodInvocation SwitchStatement VariableDeclarationStatement PrimitiveType int
+get type SimpleName MethodInvocation SwitchStatement VariableDeclarationStatement PrimitiveType int
+css rulestyle rule QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement SwitchStatement SwitchCase QualifiedName css ruleimport rule
+css ruleimport rule QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css rulemedia rule
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName llen
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+llen SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add matching rules
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css rule list
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName pe
+void PrimitiveType MethodDeclaration SimpleName add matching rules
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css rule list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pe
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom rule list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rl
+add matching rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css rule list
+add matching rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+add matching rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+add matching rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+add matching rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add matching rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pe
+add matching rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom rule list
+add matching rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rl
+add matching rules SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+l SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+l SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+l SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rl
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rl
+pe SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add matching rules
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rl
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add matching rules
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rl

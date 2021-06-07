@@ -1,0 +1,12 @@
+viewer frame SimpleName SimpleType SingleVariableDeclaration SimpleName vf
+action SimpleName SimpleType MethodDeclaration SimpleName create close action
+action SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vf
+create close action SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName viewer frame
+create close action SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName action
+public Modifier TypeDeclaration MethodDeclaration SimpleName create close action
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vf
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName action
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create close action
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vf

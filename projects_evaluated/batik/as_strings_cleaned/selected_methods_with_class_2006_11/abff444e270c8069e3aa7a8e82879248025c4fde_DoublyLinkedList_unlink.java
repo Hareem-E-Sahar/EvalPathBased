@@ -1,0 +1,21 @@
+get next SimpleName MethodInvocation MethodInvocation SimpleName set prev
+get next SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get prev
+set prev SimpleName MethodInvocation MethodInvocation SimpleName get prev
+get prev SimpleName MethodInvocation MethodInvocation SimpleName set next
+get prev SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get next
+set next SimpleName MethodInvocation MethodInvocation SimpleName get next
+protected Modifier MethodDeclaration Modifier final
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName unlink
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName unlink
+void PrimitiveType MethodDeclaration SimpleName unlink
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unlink
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unlink

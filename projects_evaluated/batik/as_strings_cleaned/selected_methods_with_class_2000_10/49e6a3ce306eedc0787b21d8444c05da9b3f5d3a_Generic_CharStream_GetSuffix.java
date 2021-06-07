@@ -1,0 +1,155 @@
+int PrimitiveType SingleVariableDeclaration SimpleName len
+char PrimitiveType ArrayType ArrayCreation SimpleName len
+ret SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType char
+ret SimpleName VariableDeclarationFragment ArrayCreation SimpleName len
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+bufpos SimpleName InfixExpression NumberLiteral empty
+bufpos SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName len
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName len
+bufpos SimpleName InfixExpression SimpleName len
+bufpos SimpleName InfixExpression InfixExpression NumberLiteral empty
+len SimpleName InfixExpression InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName buffer
+system SimpleName MethodInvocation InfixExpression InfixExpression SimpleName bufpos
+system SimpleName MethodInvocation InfixExpression InfixExpression SimpleName len
+system SimpleName MethodInvocation InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName ret
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName buffer
+arraycopy SimpleName MethodInvocation InfixExpression InfixExpression SimpleName bufpos
+arraycopy SimpleName MethodInvocation InfixExpression InfixExpression SimpleName len
+arraycopy SimpleName MethodInvocation InfixExpression NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName ret
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName len
+buffer SimpleName MethodInvocation InfixExpression InfixExpression SimpleName bufpos
+buffer SimpleName MethodInvocation InfixExpression InfixExpression SimpleName len
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName ret
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName len
+bufpos SimpleName InfixExpression InfixExpression MethodInvocation SimpleName ret
+len SimpleName InfixExpression InfixExpression MethodInvocation SimpleName ret
+empty NumberLiteral InfixExpression MethodInvocation SimpleName ret
+bufpos SimpleName InfixExpression InfixExpression MethodInvocation NumberLiteral empty
+len SimpleName InfixExpression InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+bufpos SimpleName InfixExpression InfixExpression MethodInvocation SimpleName len
+len SimpleName InfixExpression InfixExpression MethodInvocation SimpleName len
+empty NumberLiteral InfixExpression MethodInvocation SimpleName len
+ret SimpleName MethodInvocation NumberLiteral empty
+ret SimpleName MethodInvocation SimpleName len
+empty NumberLiteral MethodInvocation SimpleName len
+len SimpleName InfixExpression SimpleName bufpos
+len SimpleName InfixExpression NumberLiteral empty
+bufpos SimpleName InfixExpression NumberLiteral empty
+bufsize SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName len
+bufsize SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName bufpos
+bufsize SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+len SimpleName InfixExpression SimpleName bufpos
+len SimpleName InfixExpression NumberLiteral empty
+bufpos SimpleName InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName buffer
+system SimpleName MethodInvocation InfixExpression SimpleName bufsize
+system SimpleName MethodInvocation SimpleName ret
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName buffer
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufsize
+arraycopy SimpleName MethodInvocation SimpleName ret
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName len
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufpos
+arraycopy SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation InfixExpression SimpleName bufsize
+buffer SimpleName MethodInvocation SimpleName ret
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation InfixExpression SimpleName len
+buffer SimpleName MethodInvocation InfixExpression SimpleName bufpos
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+bufsize SimpleName InfixExpression MethodInvocation SimpleName ret
+bufsize SimpleName InfixExpression MethodInvocation NumberLiteral empty
+bufsize SimpleName InfixExpression MethodInvocation InfixExpression SimpleName len
+bufsize SimpleName InfixExpression MethodInvocation InfixExpression SimpleName bufpos
+bufsize SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+ret SimpleName MethodInvocation NumberLiteral empty
+ret SimpleName MethodInvocation InfixExpression SimpleName len
+ret SimpleName MethodInvocation InfixExpression SimpleName bufpos
+ret SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression SimpleName len
+empty NumberLiteral MethodInvocation InfixExpression SimpleName bufpos
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+len SimpleName InfixExpression SimpleName bufpos
+len SimpleName InfixExpression NumberLiteral empty
+bufpos SimpleName InfixExpression NumberLiteral empty
+bufpos SimpleName InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName buffer
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName ret
+system SimpleName MethodInvocation InfixExpression SimpleName len
+system SimpleName MethodInvocation InfixExpression SimpleName bufpos
+system SimpleName MethodInvocation InfixExpression NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName buffer
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName ret
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName len
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufpos
+arraycopy SimpleName MethodInvocation InfixExpression NumberLiteral empty
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufpos
+arraycopy SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName ret
+buffer SimpleName MethodInvocation InfixExpression SimpleName len
+buffer SimpleName MethodInvocation InfixExpression SimpleName bufpos
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+buffer SimpleName MethodInvocation InfixExpression SimpleName bufpos
+buffer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName ret
+empty NumberLiteral MethodInvocation InfixExpression SimpleName len
+empty NumberLiteral MethodInvocation InfixExpression SimpleName bufpos
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression SimpleName bufpos
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+ret SimpleName MethodInvocation InfixExpression SimpleName len
+ret SimpleName MethodInvocation InfixExpression SimpleName bufpos
+ret SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ret SimpleName MethodInvocation InfixExpression SimpleName bufpos
+ret SimpleName MethodInvocation InfixExpression NumberLiteral empty
+len SimpleName InfixExpression MethodInvocation InfixExpression SimpleName bufpos
+len SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+bufpos SimpleName InfixExpression MethodInvocation InfixExpression SimpleName bufpos
+bufpos SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName bufpos
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SimpleName get suffix
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+final Modifier MethodDeclaration ArrayType PrimitiveType char
+final Modifier MethodDeclaration SimpleName get suffix
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName len
+final Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+char PrimitiveType ArrayType MethodDeclaration SimpleName get suffix
+char PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+char PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName len
+get suffix SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get suffix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName len
+get suffix SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName get suffix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get suffix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len

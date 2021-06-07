@@ -1,0 +1,66 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value SimpleName MethodInvocation SimpleName length
+value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+result SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+result SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName value
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+value SimpleName ClassInstanceCreation StringLiteral empty
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName value
+st SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+i SimpleName InfixExpression NumberLiteral empty
+st SimpleName MethodInvocation SimpleName has more tokens
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName st
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has more tokens
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName st
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName has more tokens
+result SimpleName ArrayAccess SimpleName i
+st SimpleName MethodInvocation SimpleName next token
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation MethodInvocation SimpleName st
+float SimpleName MethodInvocation MethodInvocation SimpleName next token
+parse float SimpleName MethodInvocation MethodInvocation SimpleName st
+parse float SimpleName MethodInvocation MethodInvocation SimpleName next token
+result SimpleName ArrayAccess Assignment MethodInvocation SimpleName float
+result SimpleName ArrayAccess Assignment MethodInvocation SimpleName parse float
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName float
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName parse float
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType float
+public Modifier MethodDeclaration SimpleName parse view box attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration ArrayType PrimitiveType float
+static Modifier MethodDeclaration SimpleName parse view box attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+float PrimitiveType ArrayType MethodDeclaration SimpleName parse view box attribute
+float PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName value
+parse view box attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse view box attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+parse view box attribute SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse view box attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse view box attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse view box attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

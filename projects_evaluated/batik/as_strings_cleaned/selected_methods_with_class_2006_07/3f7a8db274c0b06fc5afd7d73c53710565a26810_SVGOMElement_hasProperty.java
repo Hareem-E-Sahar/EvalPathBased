@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pn
+abstract stylable document SimpleName SimpleType CastExpression SimpleName owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract stylable document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleName owner document
+abstract stylable document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get css engine
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css engine
+css engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eng
+eng SimpleName MethodInvocation SimpleName get property index
+eng SimpleName MethodInvocation SimpleName pn
+get property index SimpleName MethodInvocation SimpleName pn
+eng SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+get property index SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+pn SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+eng SimpleName MethodInvocation SimpleName get shorthand index
+eng SimpleName MethodInvocation SimpleName pn
+get shorthand index SimpleName MethodInvocation SimpleName pn
+eng SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+get shorthand index SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+pn SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pn
+boolean PrimitiveType MethodDeclaration SimpleName has property
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pn
+has property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+has property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn

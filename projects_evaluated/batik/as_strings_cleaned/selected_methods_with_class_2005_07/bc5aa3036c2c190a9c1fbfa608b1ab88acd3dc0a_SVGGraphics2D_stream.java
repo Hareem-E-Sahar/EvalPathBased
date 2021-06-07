@@ -1,0 +1,134 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName svg root
+writer SimpleName SimpleType SingleVariableDeclaration SimpleName writer
+boolean PrimitiveType SingleVariableDeclaration SimpleName use css
+svg root SimpleName MethodInvocation SimpleName get parent node
+root parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg root
+root parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root parent
+svg root SimpleName MethodInvocation SimpleName get next sibling
+next sibling SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg root
+next sibling SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next sibling
+svg root SimpleName MethodInvocation SimpleName set attribute ns
+svg root SimpleName MethodInvocation SimpleName xmlns namespace uri
+svg root SimpleName MethodInvocation SimpleName xmlns prefix
+svg root SimpleName MethodInvocation SimpleName svg namespace uri
+set attribute ns SimpleName MethodInvocation SimpleName xmlns namespace uri
+set attribute ns SimpleName MethodInvocation SimpleName xmlns prefix
+set attribute ns SimpleName MethodInvocation SimpleName svg namespace uri
+xmlns namespace uri SimpleName MethodInvocation SimpleName xmlns prefix
+xmlns namespace uri SimpleName MethodInvocation SimpleName svg namespace uri
+xmlns prefix SimpleName MethodInvocation SimpleName svg namespace uri
+xmlns prefix SimpleName InfixExpression StringLiteral :
+xmlns prefix SimpleName InfixExpression SimpleName xlink prefix
+: StringLiteral InfixExpression SimpleName xlink prefix
+svg root SimpleName MethodInvocation SimpleName set attribute ns
+svg root SimpleName MethodInvocation SimpleName xmlns namespace uri
+svg root SimpleName MethodInvocation InfixExpression SimpleName xmlns prefix
+svg root SimpleName MethodInvocation InfixExpression StringLiteral :
+svg root SimpleName MethodInvocation InfixExpression SimpleName xlink prefix
+svg root SimpleName MethodInvocation SimpleName xlink namespace uri
+set attribute ns SimpleName MethodInvocation SimpleName xmlns namespace uri
+set attribute ns SimpleName MethodInvocation InfixExpression SimpleName xmlns prefix
+set attribute ns SimpleName MethodInvocation InfixExpression StringLiteral :
+set attribute ns SimpleName MethodInvocation InfixExpression SimpleName xlink prefix
+set attribute ns SimpleName MethodInvocation SimpleName xlink namespace uri
+xmlns namespace uri SimpleName MethodInvocation InfixExpression SimpleName xmlns prefix
+xmlns namespace uri SimpleName MethodInvocation InfixExpression StringLiteral :
+xmlns namespace uri SimpleName MethodInvocation InfixExpression SimpleName xlink prefix
+xmlns namespace uri SimpleName MethodInvocation SimpleName xlink namespace uri
+xmlns prefix SimpleName InfixExpression MethodInvocation SimpleName xlink namespace uri
+: StringLiteral InfixExpression MethodInvocation SimpleName xlink namespace uri
+xlink prefix SimpleName InfixExpression MethodInvocation SimpleName xlink namespace uri
+svg root SimpleName MethodInvocation SimpleName get owner document
+svg root SimpleName MethodInvocation MethodInvocation SimpleName create document fragment
+get owner document SimpleName MethodInvocation MethodInvocation SimpleName create document fragment
+svg document SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName svg root
+svg document SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get owner document
+svg document SimpleName VariableDeclarationFragment MethodInvocation SimpleName create document fragment
+document fragment SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg document
+svg document SimpleName MethodInvocation SimpleName append child
+svg document SimpleName MethodInvocation SimpleName svg root
+append child SimpleName MethodInvocation SimpleName svg root
+svgcss styler SimpleName MethodInvocation SimpleName style
+svgcss styler SimpleName MethodInvocation SimpleName svg document
+style SimpleName MethodInvocation SimpleName svg document
+use css SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName svgcss styler
+use css SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName style
+use css SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName svg document
+xml writer SimpleName MethodInvocation SimpleName write xml
+xml writer SimpleName MethodInvocation SimpleName svg document
+xml writer SimpleName MethodInvocation SimpleName writer
+write xml SimpleName MethodInvocation SimpleName svg document
+write xml SimpleName MethodInvocation SimpleName writer
+svg document SimpleName MethodInvocation SimpleName writer
+writer SimpleName MethodInvocation SimpleName flush
+svg graphics dio exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+generator ctxerror handler QualifiedName MethodInvocation SimpleName handle error
+generator ctxerror handler QualifiedName MethodInvocation SimpleName e
+handle error SimpleName MethodInvocation SimpleName e
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName io
+svg graphics dio exception SimpleName SimpleType ClassInstanceCreation SimpleName io
+generator ctxerror handler QualifiedName MethodInvocation SimpleName handle error
+generator ctxerror handler QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg graphics dio exception
+generator ctxerror handler QualifiedName MethodInvocation ClassInstanceCreation SimpleName io
+handle error SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg graphics dio exception
+handle error SimpleName MethodInvocation ClassInstanceCreation SimpleName io
+root parent SimpleName MethodInvocation SimpleName append child
+root parent SimpleName MethodInvocation SimpleName svg root
+append child SimpleName MethodInvocation SimpleName svg root
+root parent SimpleName MethodInvocation SimpleName insert before
+root parent SimpleName MethodInvocation SimpleName svg root
+root parent SimpleName MethodInvocation SimpleName next sibling
+insert before SimpleName MethodInvocation SimpleName svg root
+insert before SimpleName MethodInvocation SimpleName next sibling
+svg root SimpleName MethodInvocation SimpleName next sibling
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName svg root
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName writer
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName use css
+void PrimitiveType MethodDeclaration SimpleName stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName svg root
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName writer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName use css
+void PrimitiveType MethodDeclaration SimpleType SimpleName svg graphics dio exception
+stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName svg root
+stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writer
+stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName writer
+stream SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName use css
+stream SimpleName MethodDeclaration SimpleType SimpleName svg graphics dio exception
+svg root SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName writer
+svg root SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+svg root SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use css
+svg root SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName svg graphics dio exception
+writer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+writer SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use css
+writer SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName svg graphics dio exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName svg graphics dio exception
+use css SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName svg graphics dio exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg root
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName writer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use css
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg graphics dio exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg root
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName writer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use css
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg graphics dio exception

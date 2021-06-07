@@ -1,0 +1,87 @@
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+dispatch mouse moved SimpleName SuperMethodInvocation SimpleName e
+mouse event SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName event
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+event SimpleName Assignment SimpleName evt
+mouse moved runnable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse moved runnable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+event dispatcher SimpleName MethodInvocation SimpleName mouse moved
+event dispatcher SimpleName MethodInvocation SimpleName event
+mouse moved SimpleName MethodInvocation SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+mouse moved runnable SimpleName TypeDeclaration SimpleType SimpleName runnable
+mouse moved runnable SimpleName TypeDeclaration FieldDeclaration SimpleType SimpleName mouse event
+mouse moved runnable SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName event
+mouse moved runnable SimpleName TypeDeclaration MethodDeclaration SimpleName mouse moved runnable
+mouse moved runnable SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+mouse moved runnable SimpleName TypeDeclaration MethodDeclaration Modifier public
+mouse moved runnable SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+mouse moved runnable SimpleName TypeDeclaration MethodDeclaration SimpleName run
+runnable SimpleName SimpleType TypeDeclaration MethodDeclaration SimpleName mouse moved runnable
+runnable SimpleName SimpleType TypeDeclaration MethodDeclaration Modifier public
+runnable SimpleName SimpleType TypeDeclaration MethodDeclaration PrimitiveType void
+runnable SimpleName SimpleType TypeDeclaration MethodDeclaration SimpleName run
+mouse moved runnable SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+mouse moved runnable SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse moved runnable SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName run
+update manager SimpleName MethodInvocation SimpleName is running
+update manager SimpleName InfixExpression InfixExpression MethodInvocation SimpleName update manager
+update manager SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is running
+update manager SimpleName MethodInvocation SimpleName get update runnable queue
+rq SimpleName VariableDeclarationFragment MethodInvocation SimpleName update manager
+rq SimpleName VariableDeclarationFragment MethodInvocation SimpleName get update runnable queue
+runnable queue SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rq
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+rq SimpleName MethodInvocation SimpleName get iterator lock
+rq SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName rq
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+next SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+next SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next
+next SimpleName InstanceofExpression SimpleType SimpleName mouse moved runnable
+mouse moved runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mmr
+mouse moved runnable SimpleName SimpleType CastExpression SimpleName next
+mmr SimpleName Assignment CastExpression SimpleType SimpleName mouse moved runnable
+mmr SimpleName Assignment CastExpression SimpleName next
+mev SimpleName VariableDeclarationFragment QualifiedName mmrevent
+mouse event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mev
+mouse event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName mmrevent
+mev SimpleName MethodInvocation SimpleName get modifiers
+e SimpleName MethodInvocation SimpleName get modifiers
+mev SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+mev SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get modifiers
+get modifiers SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName e
+get modifiers SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get modifiers
+mmrevent QualifiedName Assignment SimpleName e
+mouse moved runnable SimpleName SimpleType ClassInstanceCreation SimpleName e
+rq SimpleName MethodInvocation SimpleName invoke later
+rq SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mouse moved runnable
+rq SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+invoke later SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mouse moved runnable
+invoke later SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName dispatch mouse moved
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName dispatch mouse moved
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+dispatch mouse moved SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+dispatch mouse moved SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch mouse moved
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch mouse moved
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

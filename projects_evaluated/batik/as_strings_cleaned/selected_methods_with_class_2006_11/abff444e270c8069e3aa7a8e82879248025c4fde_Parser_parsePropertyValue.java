@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source
+scanner SimpleName SimpleType ClassInstanceCreation SimpleName source
+scanner SimpleName Assignment ClassInstanceCreation SimpleType SimpleName scanner
+scanner SimpleName Assignment ClassInstanceCreation SimpleName source
+public Modifier MethodDeclaration SimpleType SimpleName lexical unit
+public Modifier MethodDeclaration SimpleName parse property value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+lexical unit SimpleName SimpleType MethodDeclaration SimpleName parse property value
+lexical unit SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName source
+lexical unit SimpleName SimpleType MethodDeclaration SimpleType SimpleName css exception
+lexical unit SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+parse property value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse property value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source
+parse property value SimpleName MethodDeclaration SimpleType SimpleName css exception
+parse property value SimpleName MethodDeclaration SimpleType SimpleName io exception
+source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+css exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName lexical unit
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse property value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName lexical unit
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse property value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

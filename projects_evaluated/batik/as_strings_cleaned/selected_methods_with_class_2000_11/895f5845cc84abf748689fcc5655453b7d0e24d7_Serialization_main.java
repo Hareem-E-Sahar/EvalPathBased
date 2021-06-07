@@ -1,0 +1,111 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+generic dom implementation SimpleName MethodInvocation SimpleName get dom implementation
+impl SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic dom implementation
+impl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get dom implementation
+dom implementation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName impl
+impl SimpleName MethodInvocation SimpleName create document
+impl SimpleName MethodInvocation StringLiteral root
+create document SimpleName MethodInvocation StringLiteral root
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName impl
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName create document
+doc SimpleName VariableDeclarationFragment MethodInvocation StringLiteral root
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get document element
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get document element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+doc SimpleName MethodInvocation SimpleName create text node
+doc SimpleName MethodInvocation StringLiteral text
+create text node SimpleName MethodInvocation StringLiteral text
+elt SimpleName MethodInvocation SimpleName append child
+elt SimpleName MethodInvocation MethodInvocation SimpleName doc
+elt SimpleName MethodInvocation MethodInvocation SimpleName create text node
+elt SimpleName MethodInvocation MethodInvocation StringLiteral text
+append child SimpleName MethodInvocation MethodInvocation SimpleName doc
+append child SimpleName MethodInvocation MethodInvocation SimpleName create text node
+append child SimpleName MethodInvocation MethodInvocation StringLiteral text
+doc SimpleName MethodInvocation SimpleName create element ns
+doc SimpleName MethodInvocation StringLiteral eltns
+doc SimpleName MethodInvocation StringLiteral elt type
+create element ns SimpleName MethodInvocation StringLiteral eltns
+create element ns SimpleName MethodInvocation StringLiteral elt type
+eltns StringLiteral MethodInvocation StringLiteral elt type
+elt SimpleName MethodInvocation SimpleName append child
+elt SimpleName MethodInvocation MethodInvocation SimpleName doc
+elt SimpleName MethodInvocation MethodInvocation SimpleName create element ns
+elt SimpleName MethodInvocation MethodInvocation StringLiteral eltns
+elt SimpleName MethodInvocation MethodInvocation StringLiteral elt type
+append child SimpleName MethodInvocation MethodInvocation SimpleName doc
+append child SimpleName MethodInvocation MethodInvocation SimpleName create element ns
+append child SimpleName MethodInvocation MethodInvocation StringLiteral eltns
+append child SimpleName MethodInvocation MethodInvocation StringLiteral elt type
+elt SimpleName MethodInvocation SimpleName set attribute ns
+elt SimpleName MethodInvocation StringLiteral attrns
+elt SimpleName MethodInvocation StringLiteral attr
+elt SimpleName MethodInvocation StringLiteral empty
+set attribute ns SimpleName MethodInvocation StringLiteral attrns
+set attribute ns SimpleName MethodInvocation StringLiteral attr
+set attribute ns SimpleName MethodInvocation StringLiteral empty
+attrns StringLiteral MethodInvocation StringLiteral attr
+attrns StringLiteral MethodInvocation StringLiteral empty
+attr StringLiteral MethodInvocation StringLiteral empty
+util SimpleName MethodInvocation SimpleName display
+util SimpleName MethodInvocation SimpleName doc
+display SimpleName MethodInvocation SimpleName doc
+file output stream SimpleName SimpleType ClassInstanceCreation StringLiteral domser
+os SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file output stream
+os SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral domser
+output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName os
+object output stream SimpleName SimpleType ClassInstanceCreation SimpleName os
+oos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName object output stream
+oos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName os
+object output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName oos
+oos SimpleName MethodInvocation SimpleName write object
+oos SimpleName MethodInvocation SimpleName doc
+write object SimpleName MethodInvocation SimpleName doc
+oos SimpleName MethodInvocation SimpleName flush
+file input stream SimpleName SimpleType ClassInstanceCreation StringLiteral domser
+is SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file input stream
+is SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral domser
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+object input stream SimpleName SimpleType ClassInstanceCreation SimpleName is
+ois SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName object input stream
+ois SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName is
+object input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ois
+ois SimpleName MethodInvocation SimpleName read object
+document SimpleName SimpleType CastExpression MethodInvocation SimpleName ois
+document SimpleName SimpleType CastExpression MethodInvocation SimpleName read object
+doc SimpleName Assignment CastExpression SimpleType SimpleName document
+doc SimpleName Assignment CastExpression MethodInvocation SimpleName ois
+doc SimpleName Assignment CastExpression MethodInvocation SimpleName read object
+util SimpleName MethodInvocation SimpleName display
+util SimpleName MethodInvocation SimpleName doc
+display SimpleName MethodInvocation SimpleName doc
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleType SimpleName exception
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SimpleType SimpleName exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

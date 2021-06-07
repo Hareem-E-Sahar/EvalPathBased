@@ -1,0 +1,22 @@
+segment SimpleName SimpleType SingleVariableDeclaration SimpleName s
+segments SimpleName MethodInvocation SimpleName add
+segments SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName segment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleName add
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName segment
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName segment
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

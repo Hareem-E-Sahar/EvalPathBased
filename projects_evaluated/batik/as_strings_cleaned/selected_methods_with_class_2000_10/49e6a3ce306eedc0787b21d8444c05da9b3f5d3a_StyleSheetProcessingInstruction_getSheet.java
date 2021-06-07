@@ -1,0 +1,18 @@
+factory SimpleName MethodInvocation SimpleName create style sheet
+factory SimpleName MethodInvocation MethodInvocation SimpleName get data
+create style sheet SimpleName MethodInvocation MethodInvocation SimpleName get data
+sheet SimpleName Assignment MethodInvocation SimpleName factory
+sheet SimpleName Assignment MethodInvocation SimpleName create style sheet
+sheet SimpleName Assignment MethodInvocation MethodInvocation SimpleName get data
+public Modifier MethodDeclaration SimpleType SimpleName style sheet
+public Modifier MethodDeclaration SimpleName get sheet
+public Modifier MethodDeclaration Block ReturnStatement SimpleName sheet
+style sheet SimpleName SimpleType MethodDeclaration SimpleName get sheet
+get sheet SimpleName MethodDeclaration Block ReturnStatement SimpleName sheet
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName style sheet
+public Modifier TypeDeclaration MethodDeclaration SimpleName get sheet
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName style sheet
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get sheet

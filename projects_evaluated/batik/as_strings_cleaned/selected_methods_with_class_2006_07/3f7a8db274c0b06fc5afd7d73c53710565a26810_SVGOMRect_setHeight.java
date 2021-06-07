@@ -1,0 +1,29 @@
+float PrimitiveType SingleVariableDeclaration SimpleName height
+h SimpleName FieldAccess Assignment SimpleName height
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set height
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName height
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set height
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName height
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set height SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set height SimpleName MethodDeclaration SingleVariableDeclaration SimpleName height
+set height SimpleName MethodDeclaration SimpleType SimpleName dom exception
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+height SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set height
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName height
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set height
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName height
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

@@ -1,0 +1,28 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+get css parent node SimpleName MethodInvocation SimpleName n
+get css parent node SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName css style sheet node
+n SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName css style sheet node
+document SimpleName MethodInvocation SimpleName get document element
+invalidate properties SimpleName MethodInvocation MethodInvocation SimpleName document
+invalidate properties SimpleName MethodInvocation MethodInvocation SimpleName get document element
+invalidate properties SimpleName MethodInvocation BooleanLiteral true
+document SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get document element SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle character data modified
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName handle character data modified
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+handle character data modified SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+handle character data modified SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle character data modified
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle character data modified
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

@@ -1,0 +1,95 @@
+double PrimitiveType ArrayType SingleVariableDeclaration SimpleName coords
+int PrimitiveType SingleVariableDeclaration SimpleName seg type
+coords SimpleName ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName coords
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName coords
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName coords
+coords SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName coords
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName coords
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName coords
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName coords
+coords SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName coords
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName coords
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName coords
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName coords
+coords SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName coords
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName coords
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName coords
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName coords
+coords SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName coords
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName coords
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName coords
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName coords
+coords SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName coords
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+seg type SimpleName SwitchStatement SwitchCase QualifiedName path iteratorseg cubicto
+seg type SimpleName SwitchStatement SwitchCase QualifiedName path iteratorseg lineto
+seg type SimpleName SwitchStatement SwitchCase QualifiedName path iteratorseg moveto
+path iteratorseg cubicto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg lineto
+path iteratorseg cubicto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg moveto
+path iteratorseg lineto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg moveto
+path iteratorseg lineto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg quadto
+path iteratorseg moveto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg quadto
+path iteratorseg moveto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName extended path iteratorseg arcto
+path iteratorseg quadto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName extended path iteratorseg arcto
+path iteratorseg quadto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg close
+extended path iteratorseg arcto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg close
+protected Modifier MethodDeclaration SimpleType SimpleName point d
+protected Modifier MethodDeclaration SimpleName get segment terminating point
+protected Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName coords
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName seg type
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName seg type
+point d SimpleName SimpleType MethodDeclaration SimpleName get segment terminating point
+point d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName coords
+point d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+point d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName seg type
+get segment terminating point SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+get segment terminating point SimpleName MethodDeclaration SingleVariableDeclaration SimpleName coords
+get segment terminating point SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get segment terminating point SimpleName MethodDeclaration SingleVariableDeclaration SimpleName seg type
+get segment terminating point SimpleName MethodDeclaration Block SwitchStatement SimpleName seg type
+coords SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+coords SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seg type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName point d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get segment terminating point
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName coords
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seg type
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName point d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get segment terminating point
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName coords
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seg type

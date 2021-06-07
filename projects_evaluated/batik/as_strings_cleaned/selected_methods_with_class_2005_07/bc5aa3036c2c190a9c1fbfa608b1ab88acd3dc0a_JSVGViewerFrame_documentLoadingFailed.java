@@ -1,0 +1,44 @@
+svg document loader event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral messagedocument failed
+get string SimpleName MethodInvocation StringLiteral messagedocument failed
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName resources
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+msg SimpleName VariableDeclarationFragment MethodInvocation StringLiteral messagedocument failed
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName msg
+println SimpleName MethodInvocation SimpleName msg
+status bar SimpleName MethodInvocation SimpleName set main message
+status bar SimpleName MethodInvocation StringLiteral empty
+set main message SimpleName MethodInvocation StringLiteral empty
+status bar SimpleName MethodInvocation SimpleName set message
+status bar SimpleName MethodInvocation SimpleName msg
+set message SimpleName MethodInvocation SimpleName msg
+stop action SimpleName MethodInvocation SimpleName update
+stop action SimpleName MethodInvocation BooleanLiteral false
+update SimpleName MethodInvocation BooleanLiteral false
+svg canvas SimpleName MethodInvocation SimpleName set cursor
+svg canvas SimpleName MethodInvocation SimpleName default cursor
+set cursor SimpleName MethodInvocation SimpleName default cursor
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName document loading failed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document loader event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block IfStatement SimpleName debug
+void PrimitiveType MethodDeclaration SimpleName document loading failed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document loader event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName debug
+document loading failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document loader event
+document loading failed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+document loading failed SimpleName MethodDeclaration Block IfStatement SimpleName debug
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName document loading failed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName document loading failed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

@@ -1,0 +1,44 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName css stylable element
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginedisplay index
+e SimpleName MethodInvocation QualifiedName svgcss enginedisplay index
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+v SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss enginedisplay index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get string value
+v SimpleName MethodInvocation MethodInvocation SimpleName char at
+get string value SimpleName MethodInvocation MethodInvocation SimpleName char at
+v SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get string value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+v SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral n
+get string value SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral n
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral n
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral n
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName convert display
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName convert display
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+boolean PrimitiveType MethodDeclaration SimpleName convert display
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+convert display SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert display SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert display
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert display
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

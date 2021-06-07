@@ -1,0 +1,86 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName frag
+element SimpleName SimpleType SingleVariableDeclaration SimpleName ref
+node xbl SimpleName SimpleType CastExpression SimpleName ref
+refx SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node xbl
+refx SimpleName VariableDeclarationFragment CastExpression SimpleName ref
+node xbl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName refx
+refx SimpleName MethodInvocation SimpleName get xbl bound element
+node xbl SimpleName SimpleType CastExpression MethodInvocation SimpleName refx
+node xbl SimpleName SimpleType CastExpression MethodInvocation SimpleName get xbl bound element
+bound elt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node xbl
+bound elt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName refx
+bound elt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get xbl bound element
+node xbl SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bound elt
+bound elt SimpleName MethodInvocation SimpleName get xbl shadow tree
+xbl shadow tree element SimpleName SimpleType CastExpression MethodInvocation SimpleName bound elt
+xbl shadow tree element SimpleName SimpleType CastExpression MethodInvocation SimpleName get xbl shadow tree
+shadow SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName xbl shadow tree element
+shadow SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName bound elt
+shadow SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get xbl shadow tree
+xbl shadow tree element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shadow
+shadow SimpleName MethodInvocation SimpleName get element by id
+shadow SimpleName MethodInvocation SimpleName frag
+get element by id SimpleName MethodInvocation SimpleName frag
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName shadow
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element by id
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName frag
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+refx SimpleName MethodInvocation SimpleName get xbl definitions
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName refx
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xbl definitions
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nl
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+nl SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName nl
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+nl SimpleName MethodInvocation SimpleName item
+nl SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+nl SimpleName MethodInvocation MethodInvocation SimpleName get owner document
+item SimpleName MethodInvocation MethodInvocation SimpleName get owner document
+i SimpleName MethodInvocation MethodInvocation SimpleName get owner document
+nl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get element by id
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get element by id
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get element by id
+get owner document SimpleName MethodInvocation MethodInvocation SimpleName get element by id
+nl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName frag
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName frag
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName frag
+get owner document SimpleName MethodInvocation MethodInvocation SimpleName frag
+get element by id SimpleName MethodInvocation SimpleName frag
+n SimpleName Assignment MethodInvocation MethodInvocation SimpleName get owner document
+n SimpleName Assignment MethodInvocation SimpleName get element by id
+n SimpleName Assignment MethodInvocation SimpleName frag
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+get node by fragment SimpleName SuperMethodInvocation SimpleName frag
+get node by fragment SimpleName SuperMethodInvocation SimpleName ref
+frag SimpleName SuperMethodInvocation SimpleName ref
+protected Modifier MethodDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SimpleName get node by fragment
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName frag
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ref
+node SimpleName SimpleType MethodDeclaration SimpleName get node by fragment
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName frag
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ref
+get node by fragment SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get node by fragment SimpleName MethodDeclaration SingleVariableDeclaration SimpleName frag
+get node by fragment SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get node by fragment SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ref
+frag SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get node by fragment
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName frag
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get node by fragment
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName frag
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref

@@ -1,0 +1,347 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName escaped
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+id SimpleName MethodInvocation SimpleName equals
+id SimpleName MethodInvocation StringLiteral access key
+equals SimpleName MethodInvocation StringLiteral access key
+id SimpleName MethodInvocation InfixExpression SimpleName use svg access keys
+equals SimpleName MethodInvocation InfixExpression SimpleName use svg access keys
+access key StringLiteral MethodInvocation InfixExpression SimpleName use svg access keys
+id SimpleName MethodInvocation SimpleName equals
+id SimpleName MethodInvocation StringLiteral accesskey
+equals SimpleName MethodInvocation StringLiteral accesskey
+use svg access keys SimpleName InfixExpression InfixExpression MethodInvocation SimpleName id
+use svg access keys SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+use svg access keys SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral accesskey
+current SimpleName InfixExpression CharacterLiteral (
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+object SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+report error SimpleName MethodInvocation StringLiteral endofstream
+report error SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+endofstream StringLiteral MethodInvocation ArrayCreation NumberLiteral empty
+char PrimitiveType CastExpression SimpleName current
+key SimpleName VariableDeclarationFragment CastExpression PrimitiveType char
+key SimpleName VariableDeclarationFragment CastExpression SimpleName current
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType char
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression SimpleName current
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral )
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+offset SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral +
+current SimpleName InfixExpression CharacterLiteral -
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral -
++ CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
++ CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral -
+offset SimpleName Assignment MethodInvocation SimpleName parse offset
+integer SimpleName SimpleType ClassInstanceCreation SimpleName time accesskey
+float SimpleName SimpleType ClassInstanceCreation SimpleName offset
+character SimpleName SimpleType ClassInstanceCreation SimpleName key
+time accesskey SimpleName ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName offset
+time accesskey SimpleName ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName key
+offset SimpleName ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName key
+char PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+id SimpleName MethodInvocation SimpleName equals
+id SimpleName MethodInvocation StringLiteral access key
+equals SimpleName MethodInvocation StringLiteral access key
+id SimpleName MethodInvocation InfixExpression SimpleName use svg access keys
+equals SimpleName MethodInvocation InfixExpression SimpleName use svg access keys
+access key StringLiteral MethodInvocation InfixExpression SimpleName use svg access keys
+id SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+equals SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+access key StringLiteral MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+use svg access keys SimpleName InfixExpression PrefixExpression SimpleName escaped
+current SimpleName InfixExpression CharacterLiteral (
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+key name SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key name
+current SimpleName InfixExpression CharacterLiteral a
+current SimpleName InfixExpression CharacterLiteral z
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral z
+a CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
+a CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral z
+current SimpleName InfixExpression CharacterLiteral a
+current SimpleName InfixExpression CharacterLiteral z
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral z
+a CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
+a CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral z
+current SimpleName InfixExpression CharacterLiteral empty
+current SimpleName InfixExpression CharacterLiteral empty
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+current SimpleName InfixExpression CharacterLiteral +
+char PrimitiveType CastExpression SimpleName current
+key name SimpleName MethodInvocation SimpleName append
+key name SimpleName MethodInvocation CastExpression PrimitiveType char
+key name SimpleName MethodInvocation CastExpression SimpleName current
+append SimpleName MethodInvocation CastExpression PrimitiveType char
+append SimpleName MethodInvocation CastExpression SimpleName current
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral )
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+offset SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral +
+current SimpleName InfixExpression CharacterLiteral -
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral -
++ CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
++ CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral -
+offset SimpleName Assignment MethodInvocation SimpleName parse offset
+integer SimpleName SimpleType ClassInstanceCreation SimpleName time accesskey svg
+float SimpleName SimpleType ClassInstanceCreation SimpleName offset
+key name SimpleName MethodInvocation SimpleName to string
+time accesskey svg SimpleName ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName offset
+time accesskey svg SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName key name
+time accesskey svg SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName to string
+offset SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName key name
+offset SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName to string
+id SimpleName MethodInvocation SimpleName equals
+id SimpleName MethodInvocation StringLiteral wallclock
+equals SimpleName MethodInvocation StringLiteral wallclock
+id SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+equals SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+wallclock StringLiteral MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+current SimpleName InfixExpression CharacterLiteral (
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+wallclock value SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse wallclock value
+calendar SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wallclock value
+current SimpleName InfixExpression CharacterLiteral )
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+integer SimpleName SimpleType ClassInstanceCreation SimpleName time wallclock
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName wallclock value
+time wallclock SimpleName ClassInstanceCreation ArrayInitializer SimpleName wallclock value
+id SimpleName MethodInvocation SimpleName equals
+id SimpleName MethodInvocation StringLiteral indefinite
+equals SimpleName MethodInvocation StringLiteral indefinite
+id SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+equals SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+indefinite StringLiteral MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+integer SimpleName SimpleType ClassInstanceCreation SimpleName time indefinite
+current SimpleName InfixExpression CharacterLiteral .
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral \\
+escaped SimpleName Assignment BooleanLiteral true
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml name first character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml name first character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name first character SimpleName MethodInvocation CastExpression SimpleName current
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+id SimpleName MethodInvocation SimpleName equals
+id SimpleName MethodInvocation StringLiteral begin
+equals SimpleName MethodInvocation StringLiteral begin
+id SimpleName MethodInvocation SimpleName equals
+id SimpleName MethodInvocation StringLiteral end
+equals SimpleName MethodInvocation StringLiteral end
+id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName id
+id SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+id SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral end
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName id
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral end
+begin StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName id
+begin StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+begin StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral end
+offset SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral +
+current SimpleName InfixExpression CharacterLiteral -
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral -
++ CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
++ CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral -
+offset SimpleName Assignment MethodInvocation SimpleName parse offset
+integer SimpleName SimpleType ClassInstanceCreation SimpleName time syncbase
+float SimpleName SimpleType ClassInstanceCreation SimpleName offset
+time syncbase SimpleName ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName offset
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+time syncbase SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+time syncbase SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+float SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+offset SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+float SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+offset SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+id SimpleName ArrayInitializer SimpleName id
+id SimpleName MethodInvocation SimpleName equals
+id SimpleName MethodInvocation StringLiteral repeat
+equals SimpleName MethodInvocation StringLiteral repeat
+id SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+equals SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+repeat StringLiteral MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName repeat iteration
+current SimpleName InfixExpression CharacterLiteral (
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse digits
+repeat iteration SimpleName Assignment ClassInstanceCreation SimpleType SimpleName integer
+repeat iteration SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName parse digits
+current SimpleName InfixExpression CharacterLiteral )
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+offset SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral +
+current SimpleName InfixExpression CharacterLiteral -
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral -
++ CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
++ CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral -
+offset SimpleName Assignment MethodInvocation SimpleName parse offset
+integer SimpleName SimpleType ClassInstanceCreation SimpleName time repeat
+float SimpleName SimpleType ClassInstanceCreation SimpleName offset
+time repeat SimpleName ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName offset
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+time repeat SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName repeat iteration
+time repeat SimpleName ClassInstanceCreation ArrayInitializer SimpleName repeat iteration
+float SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+offset SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+float SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName repeat iteration
+offset SimpleName ClassInstanceCreation ArrayInitializer SimpleName repeat iteration
+id SimpleName ArrayInitializer SimpleName repeat iteration
+id SimpleName MethodInvocation SimpleName equals
+id SimpleName MethodInvocation StringLiteral marker
+equals SimpleName MethodInvocation StringLiteral marker
+id SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+equals SimpleName MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+marker StringLiteral MethodInvocation InfixExpression PrefixExpression SimpleName escaped
+current SimpleName InfixExpression CharacterLiteral (
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+marker name SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName marker name
+current SimpleName InfixExpression CharacterLiteral )
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+integer SimpleName SimpleType ClassInstanceCreation SimpleName time media marker
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+time media marker SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName marker name
+time media marker SimpleName ClassInstanceCreation ArrayInitializer SimpleName marker name
+id SimpleName ArrayInitializer SimpleName marker name
+offset SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral +
+current SimpleName InfixExpression CharacterLiteral -
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral -
++ CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
++ CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral -
+offset SimpleName Assignment MethodInvocation SimpleName parse offset
+integer SimpleName SimpleType ClassInstanceCreation SimpleName time eventbase
+float SimpleName SimpleType ClassInstanceCreation SimpleName offset
+time eventbase SimpleName ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName offset
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+time eventbase SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+time eventbase SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+float SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+offset SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+float SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+offset SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+id SimpleName ArrayInitializer SimpleName id
+offset SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral +
+current SimpleName InfixExpression CharacterLiteral -
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral -
++ CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
++ CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral -
+offset SimpleName Assignment MethodInvocation SimpleName parse offset
+integer SimpleName SimpleType ClassInstanceCreation SimpleName time eventbase
+float SimpleName SimpleType ClassInstanceCreation SimpleName offset
+time eventbase SimpleName ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName offset
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+time eventbase SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+float SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName id
+offset SimpleName ClassInstanceCreation ArrayInitializer SimpleName id
+protected Modifier MethodDeclaration ArrayType SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName parse id value
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName escaped
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+object SimpleName SimpleType ArrayType MethodDeclaration SimpleName parse id value
+parse id value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+parse id value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName escaped
+parse id value SimpleName MethodDeclaration SimpleType SimpleName parse exception
+parse id value SimpleName MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+escaped SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+escaped SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+parse exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse id value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName escaped
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse id value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName escaped
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

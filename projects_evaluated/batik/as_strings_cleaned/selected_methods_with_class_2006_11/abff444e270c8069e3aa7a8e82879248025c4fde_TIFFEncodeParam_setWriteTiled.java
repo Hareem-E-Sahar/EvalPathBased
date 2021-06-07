@@ -1,0 +1,22 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName write tiled
+write tiled SimpleName FieldAccess Assignment SimpleName write tiled
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set write tiled
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName write tiled
+void PrimitiveType MethodDeclaration SimpleName set write tiled
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName write tiled
+set write tiled SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set write tiled SimpleName MethodDeclaration SingleVariableDeclaration SimpleName write tiled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set write tiled
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName write tiled
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set write tiled
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName write tiled

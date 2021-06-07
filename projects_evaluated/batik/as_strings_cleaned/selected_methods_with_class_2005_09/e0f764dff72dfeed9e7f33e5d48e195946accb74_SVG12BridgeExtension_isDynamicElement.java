@@ -1,0 +1,102 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get namespace uri
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns
+xbl constantsxbl namespace uri QualifiedName MethodInvocation SimpleName equals
+xbl constantsxbl namespace uri QualifiedName MethodInvocation SimpleName ns
+equals SimpleName MethodInvocation SimpleName ns
+svg constantssvg namespace uri QualifiedName MethodInvocation SimpleName equals
+svg constantssvg namespace uri QualifiedName MethodInvocation SimpleName ns
+equals SimpleName MethodInvocation SimpleName ns
+e SimpleName MethodInvocation SimpleName get local name
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg script tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg script tag
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg handler tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg handler tag
+ln SimpleName MethodInvocation SimpleName starts with
+ln SimpleName MethodInvocation StringLiteral animate
+starts with SimpleName MethodInvocation StringLiteral animate
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation StringLiteral set
+equals SimpleName MethodInvocation StringLiteral set
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg handler tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg handler tag
+svg constantssvg script tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg constantssvg script tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg script tag QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg handler tag
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+ln SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral animate
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral animate
+svg constantssvg script tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg constantssvg script tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+svg constantssvg script tag QualifiedName MethodInvocation InfixExpression MethodInvocation StringLiteral animate
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral set
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral set
+svg constantssvg script tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg constantssvg script tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg script tag QualifiedName MethodInvocation InfixExpression MethodInvocation StringLiteral set
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+ln SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral animate
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral animate
+svg constantssvg handler tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg constantssvg handler tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName starts with
+svg constantssvg handler tag QualifiedName MethodInvocation InfixExpression MethodInvocation StringLiteral animate
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral set
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral set
+svg constantssvg handler tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg constantssvg handler tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg handler tag QualifiedName MethodInvocation InfixExpression MethodInvocation StringLiteral set
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral set
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+starts with SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral set
+animate StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName ln
+animate StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+animate StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral set
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is dynamic element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is dynamic element
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is dynamic element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+is dynamic element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+is dynamic element SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is dynamic element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is dynamic element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

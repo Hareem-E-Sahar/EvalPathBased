@@ -1,0 +1,16 @@
+next entry SimpleName Assignment QualifiedName next entrynext
+next index SimpleName InfixExpression QualifiedName tablelength
+table SimpleName ArrayAccess SimpleName next index
+next entry SimpleName Assignment ArrayAccess SimpleName table
+next entry SimpleName Assignment ArrayAccess SimpleName next index
+finished SimpleName Assignment InfixExpression SimpleName next entry
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName find next
+void PrimitiveType MethodDeclaration SimpleName find next
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName find next
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find next

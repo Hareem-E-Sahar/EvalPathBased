@@ -1,0 +1,13 @@
+dimension d SimpleName SimpleType SingleVariableDeclaration SimpleName new size
+void PrimitiveType MethodDeclaration SimpleName set size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dimension d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new size
+set size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dimension d
+set size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new size
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new size

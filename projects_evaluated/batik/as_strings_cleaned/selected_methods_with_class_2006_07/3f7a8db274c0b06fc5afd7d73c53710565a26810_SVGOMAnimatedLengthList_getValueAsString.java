@@ -1,0 +1,37 @@
+item list SimpleName MethodInvocation SimpleName size
+item list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+item list SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName item list
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName get value as string
+append SimpleName MethodInvocation MethodInvocation SimpleName get value as string
+i SimpleName MethodInvocation SimpleName has next
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName get item separator
+append SimpleName MethodInvocation MethodInvocation SimpleName get item separator
+i SimpleName MethodInvocation SimpleName next
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName get value as string
+append SimpleName MethodInvocation MethodInvocation SimpleName get value as string
+sb SimpleName MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get value as string
+string SimpleName SimpleType MethodDeclaration SimpleName get value as string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get value as string
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get value as string

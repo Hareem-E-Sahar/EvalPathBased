@@ -1,0 +1,22 @@
+int PrimitiveType SingleVariableDeclaration SimpleName idx
+glyph groups SimpleName ArrayAccess SimpleName idx
+public Modifier MethodDeclaration SimpleType SimpleName glyph group info
+public Modifier MethodDeclaration SimpleName get glyph group
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName idx
+glyph group info SimpleName SimpleType MethodDeclaration SimpleName get glyph group
+glyph group info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+glyph group info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName idx
+get glyph group SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get glyph group SimpleName MethodDeclaration SingleVariableDeclaration SimpleName idx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName glyph group info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get glyph group
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName glyph group info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get glyph group
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idx

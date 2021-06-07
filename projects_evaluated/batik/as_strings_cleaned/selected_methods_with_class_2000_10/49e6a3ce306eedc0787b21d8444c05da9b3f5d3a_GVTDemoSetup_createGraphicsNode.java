@@ -1,0 +1,6 @@
+graphics node SimpleName SimpleType MethodDeclaration SimpleName create graphics node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create graphics node

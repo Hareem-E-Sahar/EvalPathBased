@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName dom implementation
+public Modifier MethodDeclaration SimpleName get implementation
+dom implementation SimpleName SimpleType MethodDeclaration SimpleName get implementation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom implementation
+public Modifier TypeDeclaration MethodDeclaration SimpleName get implementation
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom implementation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get implementation

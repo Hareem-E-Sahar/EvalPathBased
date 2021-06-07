@@ -1,0 +1,12 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+node list SimpleName SimpleType MethodDeclaration SimpleName get xbl definitions
+node list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get xbl definitions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get xbl definitions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get xbl definitions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get xbl definitions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

@@ -1,0 +1,13 @@
+aci SimpleName MethodInvocation SimpleName set index
+aci SimpleName MethodInvocation SimpleName begin
+set index SimpleName MethodInvocation SimpleName begin
+public Modifier MethodDeclaration PrimitiveType char
+public Modifier MethodDeclaration SimpleName first
+char PrimitiveType MethodDeclaration SimpleName first
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName first
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName first

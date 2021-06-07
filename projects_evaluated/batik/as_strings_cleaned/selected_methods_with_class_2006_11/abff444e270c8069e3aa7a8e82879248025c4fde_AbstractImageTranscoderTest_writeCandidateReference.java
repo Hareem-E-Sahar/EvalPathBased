@@ -1,0 +1,48 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName img data
+file SimpleName SimpleType ClassInstanceCreation SimpleName filename
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get name
+filename SimpleName ClassInstanceCreation MethodInvocation SimpleName get name
+s SimpleName VariableDeclarationFragment MethodInvocation ClassInstanceCreation SimpleName filename
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+testreferencesorgapachebatiktranscoderimagecandidatereference StringLiteral InfixExpression SimpleName s
+s SimpleName Assignment InfixExpression StringLiteral testreferencesorgapachebatiktranscoderimagecandidatereference
+s SimpleName Assignment InfixExpression SimpleName s
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName s
+println SimpleName MethodInvocation SimpleName s
+file output stream SimpleName SimpleType ClassInstanceCreation SimpleName s
+ostream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file output stream
+ostream SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName s
+file output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ostream
+ostream SimpleName MethodInvocation SimpleName write
+ostream SimpleName MethodInvocation SimpleName img data
+ostream SimpleName MethodInvocation NumberLiteral empty
+ostream SimpleName MethodInvocation QualifiedName img datalength
+write SimpleName MethodInvocation SimpleName img data
+write SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation QualifiedName img datalength
+img data SimpleName MethodInvocation NumberLiteral empty
+img data SimpleName MethodInvocation QualifiedName img datalength
+empty NumberLiteral MethodInvocation QualifiedName img datalength
+ostream SimpleName MethodInvocation SimpleName flush
+ostream SimpleName MethodInvocation SimpleName close
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName write candidate reference
+protected Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName img data
+void PrimitiveType MethodDeclaration SimpleName write candidate reference
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName img data
+write candidate reference SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+write candidate reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName img data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write candidate reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img data
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write candidate reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img data

@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get events enabled
+public Modifier MethodDeclaration Block ReturnStatement SimpleName events enabled
+boolean PrimitiveType MethodDeclaration SimpleName get events enabled
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName events enabled
+get events enabled SimpleName MethodDeclaration Block ReturnStatement SimpleName events enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get events enabled
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get events enabled

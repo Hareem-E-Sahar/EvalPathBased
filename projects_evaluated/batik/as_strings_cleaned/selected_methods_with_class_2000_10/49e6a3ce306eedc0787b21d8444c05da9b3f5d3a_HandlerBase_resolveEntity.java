@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName public id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName system id
+public Modifier MethodDeclaration SimpleType SimpleName input source
+public Modifier MethodDeclaration SimpleName resolve entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName public id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName system id
+public Modifier MethodDeclaration SimpleType SimpleName sax exception
+input source SimpleName SimpleType MethodDeclaration SimpleName resolve entity
+input source SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName public id
+input source SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName system id
+input source SimpleName SimpleType MethodDeclaration SimpleType SimpleName sax exception
+resolve entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName public id
+resolve entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName system id
+resolve entity SimpleName MethodDeclaration SimpleType SimpleName sax exception
+public id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+public id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+system id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName input source
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName public id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName input source
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName public id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

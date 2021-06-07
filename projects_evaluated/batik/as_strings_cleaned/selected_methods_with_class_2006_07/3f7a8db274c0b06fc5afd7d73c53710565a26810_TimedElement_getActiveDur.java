@@ -1,0 +1,149 @@
+float PrimitiveType SingleVariableDeclaration SimpleName b
+float PrimitiveType SingleVariableDeclaration SimpleName end
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName get simple dur
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get simple dur
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pad
+is unresolved SimpleName MethodInvocation SimpleName end
+d SimpleName InfixExpression SimpleName indefinite
+minus time SimpleName MethodInvocation SimpleName end
+minus time SimpleName MethodInvocation SimpleName b
+end SimpleName MethodInvocation SimpleName b
+pad SimpleName Assignment MethodInvocation SimpleName minus time
+pad SimpleName Assignment MethodInvocation SimpleName end
+pad SimpleName Assignment MethodInvocation SimpleName b
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName iad
+d SimpleName InfixExpression NumberLiteral empty
+iad SimpleName Assignment NumberLiteral empty
+is unresolved SimpleName MethodInvocation SimpleName repeat dur
+is unresolved SimpleName MethodInvocation SimpleName repeat count
+is unresolved SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is unresolved
+is unresolved SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName repeat count
+repeat dur SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is unresolved
+repeat dur SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName repeat count
+iad SimpleName Assignment SimpleName d
+is unresolved SimpleName MethodInvocation SimpleName repeat count
+multiply time SimpleName MethodInvocation SimpleName d
+multiply time SimpleName MethodInvocation SimpleName repeat count
+d SimpleName MethodInvocation SimpleName repeat count
+is unresolved SimpleName MethodInvocation ConditionalExpression SimpleName indefinite
+repeat count SimpleName MethodInvocation ConditionalExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName multiply time
+is unresolved SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName d
+is unresolved SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName repeat count
+repeat count SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName multiply time
+repeat count SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName d
+repeat count SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName repeat count
+indefinite SimpleName ConditionalExpression MethodInvocation SimpleName multiply time
+indefinite SimpleName ConditionalExpression MethodInvocation SimpleName d
+indefinite SimpleName ConditionalExpression MethodInvocation SimpleName repeat count
+p SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is unresolved
+p SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName repeat count
+p SimpleName VariableDeclarationFragment ConditionalExpression SimpleName indefinite
+p SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName multiply time
+p SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName d
+p SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName repeat count
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation SimpleName repeat dur
+is unresolved SimpleName MethodInvocation ConditionalExpression SimpleName indefinite
+repeat dur SimpleName MethodInvocation ConditionalExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation ConditionalExpression SimpleName repeat dur
+repeat dur SimpleName MethodInvocation ConditionalExpression SimpleName repeat dur
+indefinite SimpleName ConditionalExpression SimpleName repeat dur
+p SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName is unresolved
+p SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName repeat dur
+p SimpleName VariableDeclarationFragment ConditionalExpression SimpleName indefinite
+p SimpleName VariableDeclarationFragment ConditionalExpression SimpleName repeat dur
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression SimpleName indefinite
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression SimpleName repeat dur
+min time SimpleName MethodInvocation SimpleName p
+min time SimpleName MethodInvocation SimpleName p
+p SimpleName MethodInvocation SimpleName p
+min time SimpleName MethodInvocation MethodInvocation SimpleName min time
+min time SimpleName MethodInvocation MethodInvocation SimpleName p
+min time SimpleName MethodInvocation MethodInvocation SimpleName p
+min time SimpleName MethodInvocation SimpleName indefinite
+min time SimpleName MethodInvocation MethodInvocation SimpleName indefinite
+p SimpleName MethodInvocation MethodInvocation SimpleName indefinite
+p SimpleName MethodInvocation MethodInvocation SimpleName indefinite
+iad SimpleName Assignment MethodInvocation SimpleName min time
+iad SimpleName Assignment MethodInvocation MethodInvocation SimpleName min time
+iad SimpleName Assignment MethodInvocation MethodInvocation SimpleName p
+iad SimpleName Assignment MethodInvocation MethodInvocation SimpleName p
+iad SimpleName Assignment MethodInvocation SimpleName indefinite
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+is unresolved SimpleName MethodInvocation SimpleName end
+end SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation InfixExpression InfixExpression SimpleName end
+is unresolved SimpleName MethodInvocation InfixExpression InfixExpression SimpleName indefinite
+end SimpleName MethodInvocation InfixExpression InfixExpression SimpleName end
+end SimpleName MethodInvocation InfixExpression InfixExpression SimpleName indefinite
+pad SimpleName Assignment SimpleName iad
+minus time SimpleName MethodInvocation SimpleName end
+minus time SimpleName MethodInvocation SimpleName b
+end SimpleName MethodInvocation SimpleName b
+min time SimpleName MethodInvocation SimpleName iad
+min time SimpleName MethodInvocation MethodInvocation SimpleName minus time
+min time SimpleName MethodInvocation MethodInvocation SimpleName end
+min time SimpleName MethodInvocation MethodInvocation SimpleName b
+iad SimpleName MethodInvocation MethodInvocation SimpleName minus time
+iad SimpleName MethodInvocation MethodInvocation SimpleName end
+iad SimpleName MethodInvocation MethodInvocation SimpleName b
+pad SimpleName Assignment MethodInvocation SimpleName min time
+pad SimpleName Assignment MethodInvocation SimpleName iad
+pad SimpleName Assignment MethodInvocation MethodInvocation SimpleName minus time
+pad SimpleName Assignment MethodInvocation MethodInvocation SimpleName end
+pad SimpleName Assignment MethodInvocation MethodInvocation SimpleName b
+max time SimpleName MethodInvocation SimpleName min
+max time SimpleName MethodInvocation SimpleName pad
+min SimpleName MethodInvocation SimpleName pad
+min time SimpleName MethodInvocation SimpleName max
+min time SimpleName MethodInvocation MethodInvocation SimpleName max time
+min time SimpleName MethodInvocation MethodInvocation SimpleName min
+min time SimpleName MethodInvocation MethodInvocation SimpleName pad
+max SimpleName MethodInvocation MethodInvocation SimpleName max time
+max SimpleName MethodInvocation MethodInvocation SimpleName min
+max SimpleName MethodInvocation MethodInvocation SimpleName pad
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get active dur
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName end
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType MethodDeclaration SimpleName get active dur
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName b
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName end
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get active dur SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+get active dur SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+get active dur SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+get active dur SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end
+get active dur SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get active dur SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+b SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+b SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get active dur
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get active dur
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end

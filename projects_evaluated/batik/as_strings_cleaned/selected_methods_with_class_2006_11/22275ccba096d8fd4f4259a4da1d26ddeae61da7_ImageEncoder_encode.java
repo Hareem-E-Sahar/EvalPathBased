@@ -1,0 +1,18 @@
+rendered image SimpleName SimpleType SingleVariableDeclaration SimpleName im
+void PrimitiveType MethodDeclaration SimpleName encode
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rendered image
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName im
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+encode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rendered image
+encode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName im
+encode SimpleName MethodDeclaration SimpleType SimpleName io exception
+im SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName im
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName im
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

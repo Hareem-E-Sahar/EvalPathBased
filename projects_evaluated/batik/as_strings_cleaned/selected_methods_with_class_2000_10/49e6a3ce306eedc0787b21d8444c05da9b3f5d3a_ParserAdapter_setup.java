@@ -1,0 +1,24 @@
+parser SimpleName SimpleType SingleVariableDeclaration SimpleName parser
+null pointer exception SimpleName SimpleType ClassInstanceCreation StringLiteral parser argument must not be null
+parser SimpleName FieldAccess Assignment SimpleName parser
+atts SimpleName Assignment ClassInstanceCreation SimpleType SimpleName attributes impl
+ns support SimpleName Assignment ClassInstanceCreation SimpleType SimpleName namespace support
+att adapter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName attribute list adapter
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName setup
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parser
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName parser
+void PrimitiveType MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parser
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName parser
+setup SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parser
+setup SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parser
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parser
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parser

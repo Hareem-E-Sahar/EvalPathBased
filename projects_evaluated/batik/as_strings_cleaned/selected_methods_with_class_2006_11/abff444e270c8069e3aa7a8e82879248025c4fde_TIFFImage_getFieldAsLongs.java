@@ -1,0 +1,60 @@
+tiff field SimpleName SimpleType SingleVariableDeclaration SimpleName field
+long PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+field SimpleName MethodInvocation SimpleName get type
+field SimpleName MethodInvocation InfixExpression QualifiedName tiff fieldtiff short
+get type SimpleName MethodInvocation InfixExpression QualifiedName tiff fieldtiff short
+field SimpleName MethodInvocation SimpleName get as chars
+char value SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+char value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get as chars
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName char value
+long PrimitiveType ArrayType ArrayCreation QualifiedName char valuelength
+value SimpleName Assignment ArrayCreation ArrayType PrimitiveType long
+value SimpleName Assignment ArrayCreation QualifiedName char valuelength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName char valuelength
+value SimpleName ArrayAccess SimpleName i
+char value SimpleName ArrayAccess SimpleName i
+char value SimpleName ArrayAccess InfixExpression NumberLiteral xffff
+i SimpleName ArrayAccess InfixExpression NumberLiteral xffff
+value SimpleName ArrayAccess Assignment InfixExpression NumberLiteral xffff
+i SimpleName ArrayAccess Assignment InfixExpression NumberLiteral xffff
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName char valuelength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+char valuelength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+field SimpleName MethodInvocation SimpleName get type
+field SimpleName MethodInvocation InfixExpression QualifiedName tiff fieldtiff long
+get type SimpleName MethodInvocation InfixExpression QualifiedName tiff fieldtiff long
+field SimpleName MethodInvocation SimpleName get as longs
+value SimpleName Assignment MethodInvocation SimpleName field
+value SimpleName Assignment MethodInvocation SimpleName get as longs
+private Modifier MethodDeclaration Modifier final
+private Modifier MethodDeclaration ArrayType PrimitiveType long
+private Modifier MethodDeclaration SimpleName get field as longs
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tiff field
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName field
+private Modifier MethodDeclaration Block ReturnStatement SimpleName value
+final Modifier MethodDeclaration ArrayType PrimitiveType long
+final Modifier MethodDeclaration SimpleName get field as longs
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tiff field
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName field
+final Modifier MethodDeclaration Block ReturnStatement SimpleName value
+long PrimitiveType ArrayType MethodDeclaration SimpleName get field as longs
+long PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName field
+get field as longs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tiff field
+get field as longs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field
+get field as longs SimpleName MethodDeclaration Block ReturnStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get field as longs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get field as longs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field

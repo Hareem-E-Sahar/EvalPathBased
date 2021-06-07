@@ -1,0 +1,178 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName first
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+updated SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName updated
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+n SimpleName MethodInvocation SimpleName get first child
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName get next sibling
+m SimpleName Assignment MethodInvocation SimpleName m
+m SimpleName Assignment MethodInvocation SimpleName get next sibling
+update SimpleName MethodInvocation SimpleName first
+update SimpleName MethodInvocation SimpleName m
+first SimpleName MethodInvocation SimpleName m
+updated SimpleName Assignment BooleanLiteral true
+m SimpleName InfixExpression ForStatement Assignment SimpleName m
+n SimpleName InstanceofExpression SimpleType SimpleName xblom content element
+content element list SimpleName MethodInvocation SimpleName add
+content element list SimpleName MethodInvocation SimpleName n
+add SimpleName MethodInvocation SimpleName n
+xblom content element SimpleName SimpleType CastExpression SimpleName n
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName xblom content element
+e SimpleName VariableDeclarationFragment CastExpression SimpleName n
+xblom content element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName add event listener ns
+e SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+e SimpleName MethodInvocation StringLiteral dom attr modified
+e SimpleName MethodInvocation SimpleName content element dom attr modified event listener
+e SimpleName MethodInvocation BooleanLiteral false
+add event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+add event listener ns SimpleName MethodInvocation StringLiteral dom attr modified
+add event listener ns SimpleName MethodInvocation SimpleName content element dom attr modified event listener
+add event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral dom attr modified
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName content element dom attr modified event listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+dom attr modified StringLiteral MethodInvocation SimpleName content element dom attr modified event listener
+dom attr modified StringLiteral MethodInvocation BooleanLiteral false
+content element dom attr modified event listener SimpleName MethodInvocation BooleanLiteral false
+selectors SimpleName MethodInvocation SimpleName get
+selectors SimpleName MethodInvocation SimpleName n
+get SimpleName MethodInvocation SimpleName n
+abstract content selector SimpleName SimpleType CastExpression MethodInvocation SimpleName selectors
+abstract content selector SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+abstract content selector SimpleName SimpleType CastExpression MethodInvocation SimpleName n
+s SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract content selector
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName selectors
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName n
+abstract content selector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName changed
+e SimpleName MethodInvocation SimpleName has attribute ns
+e SimpleName MethodInvocation QualifiedName xbl constantsxbl includes attribute
+has attribute ns SimpleName MethodInvocation QualifiedName xbl constantsxbl includes attribute
+get content selector language SimpleName MethodInvocation SimpleName e
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName get content selector language
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lang
+e SimpleName MethodInvocation SimpleName get attribute ns
+e SimpleName MethodInvocation QualifiedName xbl constantsxbl includes attribute
+get attribute ns SimpleName MethodInvocation QualifiedName xbl constantsxbl includes attribute
+selector SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+selector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+selector SimpleName VariableDeclarationFragment MethodInvocation QualifiedName xbl constantsxbl includes attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName selector
+abstract content selector SimpleName MethodInvocation SimpleName create selector
+abstract content selector SimpleName MethodInvocation SimpleName lang
+abstract content selector SimpleName MethodInvocation SimpleName e
+abstract content selector SimpleName MethodInvocation SimpleName bound element
+create selector SimpleName MethodInvocation SimpleName lang
+create selector SimpleName MethodInvocation SimpleName e
+create selector SimpleName MethodInvocation SimpleName bound element
+create selector SimpleName MethodInvocation SimpleName selector
+lang SimpleName MethodInvocation SimpleName e
+lang SimpleName MethodInvocation SimpleName bound element
+lang SimpleName MethodInvocation SimpleName selector
+e SimpleName MethodInvocation SimpleName bound element
+e SimpleName MethodInvocation SimpleName selector
+bound element SimpleName MethodInvocation SimpleName selector
+s SimpleName Assignment MethodInvocation SimpleName abstract content selector
+s SimpleName Assignment MethodInvocation SimpleName create selector
+s SimpleName Assignment MethodInvocation SimpleName lang
+s SimpleName Assignment MethodInvocation SimpleName e
+s SimpleName Assignment MethodInvocation SimpleName bound element
+s SimpleName Assignment MethodInvocation SimpleName selector
+default content selector SimpleName SimpleType ClassInstanceCreation SimpleName e
+default content selector SimpleName SimpleType ClassInstanceCreation SimpleName bound element
+e SimpleName ClassInstanceCreation SimpleName bound element
+s SimpleName Assignment ClassInstanceCreation SimpleType SimpleName default content selector
+s SimpleName Assignment ClassInstanceCreation SimpleName e
+s SimpleName Assignment ClassInstanceCreation SimpleName bound element
+selectors SimpleName MethodInvocation SimpleName put
+selectors SimpleName MethodInvocation SimpleName n
+selectors SimpleName MethodInvocation SimpleName s
+put SimpleName MethodInvocation SimpleName n
+put SimpleName MethodInvocation SimpleName s
+n SimpleName MethodInvocation SimpleName s
+changed SimpleName Assignment BooleanLiteral true
+s SimpleName MethodInvocation SimpleName update
+changed SimpleName Assignment MethodInvocation SimpleName s
+changed SimpleName Assignment MethodInvocation SimpleName update
+s SimpleName MethodInvocation SimpleName get selected content
+selected content SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+selected content SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selected content
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName selected content
+selected nodes SimpleName MethodInvocation SimpleName put
+selected nodes SimpleName MethodInvocation SimpleName n
+selected nodes SimpleName MethodInvocation SimpleName selected content
+put SimpleName MethodInvocation SimpleName n
+put SimpleName MethodInvocation SimpleName selected content
+n SimpleName MethodInvocation SimpleName selected content
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+selected content SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName selected content
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+selected content SimpleName MethodInvocation SimpleName item
+selected content SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName selected content
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+xbl manager SimpleName MethodInvocation SimpleName get record
+xbl manager SimpleName MethodInvocation SimpleName m
+get record SimpleName MethodInvocation SimpleName m
+xbl manager SimpleName MethodInvocation FieldAccess SimpleName content element
+get record SimpleName MethodInvocation FieldAccess SimpleName content element
+m SimpleName MethodInvocation FieldAccess SimpleName content element
+xbl manager SimpleName MethodInvocation FieldAccess Assignment SimpleName e
+get record SimpleName MethodInvocation FieldAccess Assignment SimpleName e
+m SimpleName MethodInvocation FieldAccess Assignment SimpleName e
+content element SimpleName FieldAccess Assignment SimpleName e
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+updated SimpleName Assignment BooleanLiteral true
+dispatch content selection changed event SimpleName MethodInvocation SimpleName e
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName changed
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName updated
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName update
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName first
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName updated
+boolean PrimitiveType MethodDeclaration SimpleName update
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName first
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName updated
+update SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName first
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+update SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+update SimpleName MethodDeclaration Block ReturnStatement SimpleName updated
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+first SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName first
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName first
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

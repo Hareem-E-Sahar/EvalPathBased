@@ -1,0 +1,12 @@
+svg element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+css primitive value SimpleName SimpleType MethodDeclaration SimpleName get font size
+css primitive value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+get font size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+get font size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css primitive value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get font size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css primitive value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get font size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

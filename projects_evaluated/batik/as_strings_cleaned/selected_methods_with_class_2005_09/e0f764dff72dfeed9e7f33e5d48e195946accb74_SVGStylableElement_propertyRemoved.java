@@ -1,0 +1,68 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+css engine SimpleName MethodInvocation SimpleName get property index
+css engine SimpleName MethodInvocation SimpleName name
+get property index SimpleName MethodInvocation SimpleName name
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName css engine
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property index
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName css engine
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+declaration SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName declaration
+i SimpleName InfixExpression MethodInvocation SimpleName size
+declaration SimpleName MethodInvocation SimpleName get index
+declaration SimpleName MethodInvocation SimpleName i
+get index SimpleName MethodInvocation SimpleName i
+idx SimpleName InfixExpression MethodInvocation SimpleName declaration
+idx SimpleName InfixExpression MethodInvocation SimpleName get index
+idx SimpleName InfixExpression MethodInvocation SimpleName i
+declaration SimpleName MethodInvocation SimpleName remove
+declaration SimpleName MethodInvocation SimpleName i
+remove SimpleName MethodInvocation SimpleName i
+mutate SimpleName Assignment BooleanLiteral true
+declaration SimpleName MethodInvocation SimpleName to string
+declaration SimpleName MethodInvocation SimpleName css engine
+to string SimpleName MethodInvocation SimpleName css engine
+set attribute ns SimpleName MethodInvocation SimpleName svg style attribute
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName declaration
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName to string
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName css engine
+svg style attribute SimpleName MethodInvocation MethodInvocation SimpleName declaration
+svg style attribute SimpleName MethodInvocation MethodInvocation SimpleName to string
+svg style attribute SimpleName MethodInvocation MethodInvocation SimpleName css engine
+mutate SimpleName Assignment BooleanLiteral false
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName property removed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName property removed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+property removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+property removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+property removed SimpleName MethodDeclaration SimpleType SimpleName dom exception
+property removed SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName property removed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName property removed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

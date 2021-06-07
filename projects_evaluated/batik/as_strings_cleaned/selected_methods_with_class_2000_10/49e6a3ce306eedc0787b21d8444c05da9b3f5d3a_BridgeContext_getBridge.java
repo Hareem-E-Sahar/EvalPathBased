@@ -1,0 +1,12 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+bridge SimpleName SimpleType MethodDeclaration SimpleName get bridge
+bridge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+get bridge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get bridge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName bridge
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName bridge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

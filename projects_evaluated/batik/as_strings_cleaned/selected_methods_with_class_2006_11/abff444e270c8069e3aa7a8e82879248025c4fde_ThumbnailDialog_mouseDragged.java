@@ -1,0 +1,57 @@
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get x
+evt SimpleName MethodInvocation InfixExpression SimpleName sx
+get x SimpleName MethodInvocation InfixExpression SimpleName sx
+dx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName evt
+dx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get x
+dx SimpleName VariableDeclarationFragment InfixExpression SimpleName sx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName sx
+evt SimpleName MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation InfixExpression SimpleName sy
+get y SimpleName MethodInvocation InfixExpression SimpleName sy
+dy SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName evt
+dy SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get y
+dy SimpleName VariableDeclarationFragment InfixExpression SimpleName sy
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dy
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName sy
+affine transform SimpleName MethodInvocation SimpleName get translate instance
+affine transform SimpleName MethodInvocation SimpleName dx
+affine transform SimpleName MethodInvocation SimpleName dy
+get translate instance SimpleName MethodInvocation SimpleName dx
+get translate instance SimpleName MethodInvocation SimpleName dy
+dx SimpleName MethodInvocation SimpleName dy
+overlay SimpleName MethodInvocation SimpleName set painting transform
+overlay SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+overlay SimpleName MethodInvocation MethodInvocation SimpleName get translate instance
+overlay SimpleName MethodInvocation MethodInvocation SimpleName dx
+overlay SimpleName MethodInvocation MethodInvocation SimpleName dy
+set painting transform SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+set painting transform SimpleName MethodInvocation MethodInvocation SimpleName get translate instance
+set painting transform SimpleName MethodInvocation MethodInvocation SimpleName dx
+set painting transform SimpleName MethodInvocation MethodInvocation SimpleName dy
+svg thumbnail canvas SimpleName MethodInvocation SimpleName repaint
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+in SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+in SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse dragged
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier MethodDeclaration Block IfStatement SimpleName in
+void PrimitiveType MethodDeclaration SimpleName mouse dragged
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName in
+mouse dragged SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse dragged SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+mouse dragged SimpleName MethodDeclaration Block IfStatement SimpleName in
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mouse dragged
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mouse dragged
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

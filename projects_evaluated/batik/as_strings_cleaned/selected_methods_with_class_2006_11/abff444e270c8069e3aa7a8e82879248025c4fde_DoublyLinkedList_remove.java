@@ -1,0 +1,27 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName nde
+nde SimpleName InfixExpression SimpleName head
+head SimpleName MethodInvocation SimpleName get next
+head SimpleName MethodInvocation InfixExpression SimpleName head
+get next SimpleName MethodInvocation InfixExpression SimpleName head
+head SimpleName MethodInvocation SimpleName get next
+head SimpleName Assignment MethodInvocation SimpleName head
+head SimpleName Assignment MethodInvocation SimpleName get next
+nde SimpleName MethodInvocation SimpleName unlink
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName nde
+void PrimitiveType MethodDeclaration SimpleName remove
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName nde
+remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleName nde
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nde
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nde

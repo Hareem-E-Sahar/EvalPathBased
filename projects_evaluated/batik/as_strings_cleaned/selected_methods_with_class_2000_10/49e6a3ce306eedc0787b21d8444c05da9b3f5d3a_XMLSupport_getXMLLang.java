@@ -1,0 +1,62 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+elt SimpleName MethodInvocation SimpleName get attribute node ns
+elt SimpleName MethodInvocation SimpleName xml namespace uri
+elt SimpleName MethodInvocation StringLiteral lang
+get attribute node ns SimpleName MethodInvocation SimpleName xml namespace uri
+get attribute node ns SimpleName MethodInvocation StringLiteral lang
+xml namespace uri SimpleName MethodInvocation StringLiteral lang
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute node ns
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName xml namespace uri
+attr SimpleName VariableDeclarationFragment MethodInvocation StringLiteral lang
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get node value
+elt SimpleName MethodInvocation SimpleName get parent node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get parent node
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName n
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get attribute node ns
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName xml namespace uri
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation StringLiteral lang
+get attribute node ns SimpleName MethodInvocation SimpleName xml namespace uri
+get attribute node ns SimpleName MethodInvocation StringLiteral lang
+xml namespace uri SimpleName MethodInvocation StringLiteral lang
+attr SimpleName Assignment MethodInvocation SimpleName get attribute node ns
+attr SimpleName Assignment MethodInvocation SimpleName xml namespace uri
+attr SimpleName Assignment MethodInvocation StringLiteral lang
+attr SimpleName MethodInvocation SimpleName get node value
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get xml lang
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier MethodDeclaration Block ReturnStatement StringLiteral en
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get xml lang
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+static Modifier MethodDeclaration Block ReturnStatement StringLiteral en
+string SimpleName SimpleType MethodDeclaration SimpleName get xml lang
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+get xml lang SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get xml lang SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+get xml lang SimpleName MethodDeclaration Block ReturnStatement StringLiteral en
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get xml lang
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get xml lang
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt

@@ -1,0 +1,13 @@
+composite graphics node event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName graphics node added
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+graphics node added SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node event
+graphics node added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName graphics node added
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName graphics node added
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

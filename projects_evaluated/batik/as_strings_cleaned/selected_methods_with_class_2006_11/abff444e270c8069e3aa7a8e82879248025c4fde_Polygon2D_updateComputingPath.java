@@ -1,0 +1,18 @@
+npoints SimpleName InfixExpression NumberLiteral empty
+path SimpleName MethodInvocation SimpleName clone
+general path SimpleName SimpleType CastExpression MethodInvocation SimpleName path
+general path SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+closed path SimpleName Assignment CastExpression SimpleType SimpleName general path
+closed path SimpleName Assignment CastExpression MethodInvocation SimpleName path
+closed path SimpleName Assignment CastExpression MethodInvocation SimpleName clone
+closed path SimpleName MethodInvocation SimpleName close path
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update computing path
+void PrimitiveType MethodDeclaration SimpleName update computing path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update computing path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update computing path

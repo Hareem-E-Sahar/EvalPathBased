@@ -1,0 +1,74 @@
+style map SimpleName SimpleType SingleVariableDeclaration SimpleName style
+int PrimitiveType SingleVariableDeclaration SimpleName n
+style SimpleName MethodInvocation SimpleName is null cascaded
+style SimpleName MethodInvocation SimpleName n
+is null cascaded SimpleName MethodInvocation SimpleName n
+style SimpleName MethodInvocation SimpleName put value
+style SimpleName MethodInvocation SimpleName n
+put value SimpleName MethodInvocation SimpleName n
+style SimpleName MethodInvocation SimpleName get value
+style SimpleName MethodInvocation SimpleName n
+get value SimpleName MethodInvocation SimpleName n
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName computed value
+computed value SimpleName SimpleType CastExpression SimpleName v
+cv SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName computed value
+cv SimpleName VariableDeclarationFragment CastExpression SimpleName v
+computed value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cv
+cv SimpleName MethodInvocation SimpleName get cascaded value
+v SimpleName Assignment MethodInvocation SimpleName cv
+v SimpleName Assignment MethodInvocation SimpleName get cascaded value
+style SimpleName MethodInvocation SimpleName put value
+style SimpleName MethodInvocation SimpleName n
+style SimpleName MethodInvocation SimpleName v
+put value SimpleName MethodInvocation SimpleName n
+put value SimpleName MethodInvocation SimpleName v
+n SimpleName MethodInvocation SimpleName v
+style SimpleName MethodInvocation SimpleName put computed
+style SimpleName MethodInvocation SimpleName n
+style SimpleName MethodInvocation BooleanLiteral false
+put computed SimpleName MethodInvocation SimpleName n
+put computed SimpleName MethodInvocation BooleanLiteral false
+n SimpleName MethodInvocation BooleanLiteral false
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName clear computed value
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName style map
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName style
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName clear computed value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName style map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName style
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName clear computed value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName style map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName style
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+clear computed value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName style map
+clear computed value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName style
+clear computed value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+clear computed value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+style SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+style SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear computed value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName style
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear computed value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName style
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

@@ -1,0 +1,28 @@
+int PrimitiveType SingleVariableDeclaration SimpleName amount
+abstract Modifier MethodDeclaration Modifier public
+abstract Modifier MethodDeclaration PrimitiveType void
+abstract Modifier MethodDeclaration SimpleName backup
+abstract Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName amount
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName backup
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName amount
+void PrimitiveType MethodDeclaration SimpleName backup
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName amount
+backup SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+backup SimpleName MethodDeclaration SingleVariableDeclaration SimpleName amount
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName backup
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName amount
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName backup
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName amount

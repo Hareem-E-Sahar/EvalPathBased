@@ -1,0 +1,22 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+traversal support SimpleName MethodInvocation SimpleName node to be removed
+traversal support SimpleName MethodInvocation SimpleName node
+node to be removed SimpleName MethodInvocation SimpleName node
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName node to be removed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleName node to be removed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+node to be removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+node to be removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName node to be removed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName node to be removed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

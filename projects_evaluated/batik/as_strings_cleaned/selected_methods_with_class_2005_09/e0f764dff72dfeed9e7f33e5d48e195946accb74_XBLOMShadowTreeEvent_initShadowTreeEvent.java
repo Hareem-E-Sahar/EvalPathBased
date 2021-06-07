@@ -1,0 +1,68 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type arg
+boolean PrimitiveType SingleVariableDeclaration SimpleName can bubble arg
+boolean PrimitiveType SingleVariableDeclaration SimpleName cancelable arg
+xbl shadow tree element SimpleName SimpleType SingleVariableDeclaration SimpleName xbl shadow tree arg
+init event SimpleName MethodInvocation SimpleName type arg
+init event SimpleName MethodInvocation SimpleName can bubble arg
+init event SimpleName MethodInvocation SimpleName cancelable arg
+type arg SimpleName MethodInvocation SimpleName can bubble arg
+type arg SimpleName MethodInvocation SimpleName cancelable arg
+can bubble arg SimpleName MethodInvocation SimpleName cancelable arg
+xbl shadow tree SimpleName Assignment SimpleName xbl shadow tree arg
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init shadow tree event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type arg
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName can bubble arg
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cancelable arg
+void PrimitiveType MethodDeclaration SimpleName init shadow tree event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type arg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName can bubble arg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cancelable arg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xbl shadow tree element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName xbl shadow tree arg
+init shadow tree event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+init shadow tree event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type arg
+init shadow tree event SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+init shadow tree event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName can bubble arg
+init shadow tree event SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+init shadow tree event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cancelable arg
+init shadow tree event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xbl shadow tree element
+init shadow tree event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName xbl shadow tree arg
+type arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+type arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName can bubble arg
+type arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+type arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cancelable arg
+type arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xbl shadow tree arg
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cancelable arg
+can bubble arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+can bubble arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cancelable arg
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xbl shadow tree arg
+can bubble arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xbl shadow tree arg
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xbl shadow tree arg
+cancelable arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xbl shadow tree arg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init shadow tree event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type arg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName can bubble arg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cancelable arg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xbl shadow tree arg
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init shadow tree event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type arg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName can bubble arg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cancelable arg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xbl shadow tree arg

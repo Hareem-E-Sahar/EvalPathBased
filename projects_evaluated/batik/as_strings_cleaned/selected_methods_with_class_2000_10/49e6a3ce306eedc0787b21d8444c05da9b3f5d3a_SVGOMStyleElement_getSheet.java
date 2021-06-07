@@ -1,0 +1,60 @@
+get type SimpleName MethodInvocation MethodInvocation SimpleName equals
+get type SimpleName MethodInvocation MethodInvocation StringLiteral textcss
+equals SimpleName MethodInvocation StringLiteral textcss
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot supported err
+create dom exception SimpleName MethodInvocation StringLiteral stylesheettype
+dom exceptionnot supported err QualifiedName MethodInvocation StringLiteral stylesheettype
+dom implementation css SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName impl
+get owner document SimpleName MethodInvocation MethodInvocation SimpleName get implementation
+dom implementation css SimpleName SimpleType CastExpression MethodInvocation SimpleName get implementation
+impl SimpleName Assignment CastExpression SimpleType SimpleName dom implementation css
+impl SimpleName Assignment CastExpression MethodInvocation SimpleName get implementation
+cssom style sheet SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ss
+impl SimpleName MethodInvocation SimpleName create css style sheet
+impl SimpleName MethodInvocation MethodInvocation SimpleName get title
+impl SimpleName MethodInvocation MethodInvocation SimpleName get media
+create css style sheet SimpleName MethodInvocation MethodInvocation SimpleName get title
+create css style sheet SimpleName MethodInvocation MethodInvocation SimpleName get media
+get title SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get media
+cssom style sheet SimpleName SimpleType CastExpression MethodInvocation SimpleName impl
+cssom style sheet SimpleName SimpleType CastExpression MethodInvocation SimpleName create css style sheet
+ss SimpleName Assignment CastExpression SimpleType SimpleName cssom style sheet
+ss SimpleName Assignment CastExpression MethodInvocation SimpleName impl
+ss SimpleName Assignment CastExpression MethodInvocation SimpleName create css style sheet
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName get node value
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName n
+sb SimpleName MethodInvocation MethodInvocation SimpleName get node value
+append SimpleName MethodInvocation MethodInvocation SimpleName n
+append SimpleName MethodInvocation MethodInvocation SimpleName get node value
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+sb SimpleName MethodInvocation SimpleName to string
+css document handler SimpleName MethodInvocation SimpleName parse rules
+css document handler SimpleName MethodInvocation SimpleName ss
+css document handler SimpleName MethodInvocation MethodInvocation SimpleName sb
+css document handler SimpleName MethodInvocation MethodInvocation SimpleName to string
+parse rules SimpleName MethodInvocation SimpleName ss
+parse rules SimpleName MethodInvocation MethodInvocation SimpleName sb
+parse rules SimpleName MethodInvocation MethodInvocation SimpleName to string
+ss SimpleName MethodInvocation MethodInvocation SimpleName sb
+ss SimpleName MethodInvocation MethodInvocation SimpleName to string
+sheet SimpleName Assignment SimpleName ss
+public Modifier MethodDeclaration SimpleType SimpleName style sheet
+public Modifier MethodDeclaration SimpleName get sheet
+public Modifier MethodDeclaration Block ReturnStatement SimpleName sheet
+style sheet SimpleName SimpleType MethodDeclaration SimpleName get sheet
+get sheet SimpleName MethodDeclaration Block ReturnStatement SimpleName sheet
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName style sheet
+public Modifier TypeDeclaration MethodDeclaration SimpleName get sheet
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName style sheet
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get sheet

@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName raw name
+current node SimpleName MethodInvocation SimpleName get parent node
+current node SimpleName Assignment MethodInvocation SimpleName current node
+current node SimpleName Assignment MethodInvocation SimpleName get parent node
+namespaces SimpleName MethodInvocation SimpleName pop
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName end element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName raw name
+void PrimitiveType MethodDeclaration SimpleName end element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName uri
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName raw name
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax exception
+end element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+end element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+end element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+end element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local name
+end element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+end element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName raw name
+end element SimpleName MethodDeclaration SimpleType SimpleName sax exception
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName raw name
+uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+local name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName raw name
+local name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+raw name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName end element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName raw name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName end element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName raw name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

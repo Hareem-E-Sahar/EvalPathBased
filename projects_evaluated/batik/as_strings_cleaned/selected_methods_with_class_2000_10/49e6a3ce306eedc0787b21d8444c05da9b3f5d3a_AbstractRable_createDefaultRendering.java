@@ -1,0 +1,13 @@
+create scaled rendering SimpleName MethodInvocation NumberLiteral empty
+create scaled rendering SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration SimpleType SimpleName rendered image
+public Modifier MethodDeclaration SimpleName create default rendering
+rendered image SimpleName SimpleType MethodDeclaration SimpleName create default rendering
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rendered image
+public Modifier TypeDeclaration MethodDeclaration SimpleName create default rendering
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rendered image
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create default rendering

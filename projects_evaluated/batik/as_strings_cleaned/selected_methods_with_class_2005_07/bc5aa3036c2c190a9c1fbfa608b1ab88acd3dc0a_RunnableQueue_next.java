@@ -1,0 +1,30 @@
+head SimpleName InfixExpression SimpleName link
+head SimpleName InfixExpression InfixExpression InfixExpression SimpleName head
+head SimpleName InfixExpression InfixExpression InfixExpression SimpleName link
+head SimpleName MethodInvocation SimpleName get next
+link SimpleName SimpleType CastExpression MethodInvocation SimpleName head
+link SimpleName SimpleType CastExpression MethodInvocation SimpleName get next
+link SimpleName Assignment CastExpression SimpleType SimpleName link
+link SimpleName Assignment CastExpression MethodInvocation SimpleName head
+link SimpleName Assignment CastExpression MethodInvocation SimpleName get next
+result SimpleName VariableDeclarationFragment QualifiedName linkrunnable
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName linkrunnable
+link SimpleName MethodInvocation SimpleName get next
+link SimpleName SimpleType CastExpression MethodInvocation SimpleName link
+link SimpleName SimpleType CastExpression MethodInvocation SimpleName get next
+link SimpleName Assignment CastExpression SimpleType SimpleName link
+link SimpleName Assignment CastExpression MethodInvocation SimpleName link
+link SimpleName Assignment CastExpression MethodInvocation SimpleName get next
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+object SimpleName SimpleType MethodDeclaration SimpleName next
+next SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

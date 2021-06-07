@@ -1,0 +1,215 @@
+graphics SimpleName SimpleType SingleVariableDeclaration SimpleName g
+paint component SimpleName SuperMethodInvocation SimpleName g
+graphics d SimpleName SimpleType CastExpression SimpleName g
+g d SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName graphics d
+g d SimpleName VariableDeclarationFragment CastExpression SimpleName g
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g d
+g d SimpleName MethodInvocation SimpleName set rendering hint
+g d SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+g d SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+rendering hintskey antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue antialias on
+dim SimpleName VariableDeclarationFragment MethodInvocation SimpleName get size
+dimension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dim
+double PrimitiveType CastExpression QualifiedName dimwidth
+double PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName preferred width
+dimwidth QualifiedName CastExpression ParenthesizedExpression InfixExpression SimpleName preferred width
+sx SimpleName VariableDeclarationFragment InfixExpression SimpleName preferred width
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sx
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName preferred width
+double PrimitiveType CastExpression QualifiedName dimheight
+double PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName preferred height
+dimheight QualifiedName CastExpression ParenthesizedExpression InfixExpression SimpleName preferred height
+sy SimpleName VariableDeclarationFragment InfixExpression SimpleName preferred height
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sy
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName preferred height
+affine transform SimpleName MethodInvocation SimpleName get scale instance
+affine transform SimpleName MethodInvocation SimpleName sx
+affine transform SimpleName MethodInvocation SimpleName sy
+get scale instance SimpleName MethodInvocation SimpleName sx
+get scale instance SimpleName MethodInvocation SimpleName sy
+sx SimpleName MethodInvocation SimpleName sy
+g d SimpleName MethodInvocation SimpleName transform
+g d SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+g d SimpleName MethodInvocation MethodInvocation SimpleName get scale instance
+g d SimpleName MethodInvocation MethodInvocation SimpleName sx
+g d SimpleName MethodInvocation MethodInvocation SimpleName sy
+transform SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+transform SimpleName MethodInvocation MethodInvocation SimpleName get scale instance
+transform SimpleName MethodInvocation MethodInvocation SimpleName sx
+transform SimpleName MethodInvocation MethodInvocation SimpleName sy
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation SimpleName grid lines color
+set paint SimpleName MethodInvocation SimpleName grid lines color
+g d SimpleName MethodInvocation SimpleName set stroke
+g d SimpleName MethodInvocation SimpleName grid lines stroke
+set stroke SimpleName MethodInvocation SimpleName grid lines stroke
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName x shift
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName x shift
+empty NumberLiteral InfixExpression InfixExpression SimpleName x shift
+lx SimpleName VariableDeclarationFragment InfixExpression InfixExpression NumberLiteral empty
+lx SimpleName VariableDeclarationFragment InfixExpression SimpleName x shift
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName lx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName x shift
+preferred height SimpleName InfixExpression NumberLiteral empty
+line ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName lx
+line ddouble QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+line ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName lx
+line ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName preferred height
+line ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+lx SimpleName ClassInstanceCreation NumberLiteral empty
+lx SimpleName ClassInstanceCreation SimpleName lx
+lx SimpleName ClassInstanceCreation InfixExpression SimpleName preferred height
+lx SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation SimpleName lx
+empty NumberLiteral ClassInstanceCreation InfixExpression SimpleName preferred height
+empty NumberLiteral ClassInstanceCreation InfixExpression NumberLiteral empty
+lx SimpleName ClassInstanceCreation InfixExpression SimpleName preferred height
+lx SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName draw
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName line ddouble
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleName lx
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleName lx
+g d SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName preferred height
+g d SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+draw SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName line ddouble
+draw SimpleName MethodInvocation ClassInstanceCreation SimpleName lx
+draw SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+draw SimpleName MethodInvocation ClassInstanceCreation SimpleName lx
+draw SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName preferred height
+draw SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+ly SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName i
+ly SimpleName VariableDeclarationFragment InfixExpression InfixExpression NumberLiteral empty
+ly SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ly
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+preferred width SimpleName InfixExpression NumberLiteral empty
+line ddouble QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+line ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName ly
+line ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName preferred width
+line ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+line ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName ly
+empty NumberLiteral ClassInstanceCreation SimpleName ly
+empty NumberLiteral ClassInstanceCreation InfixExpression SimpleName preferred width
+empty NumberLiteral ClassInstanceCreation InfixExpression NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation SimpleName ly
+ly SimpleName ClassInstanceCreation InfixExpression SimpleName preferred width
+ly SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+ly SimpleName ClassInstanceCreation SimpleName ly
+preferred width SimpleName InfixExpression ClassInstanceCreation SimpleName ly
+empty NumberLiteral InfixExpression ClassInstanceCreation SimpleName ly
+g d SimpleName MethodInvocation SimpleName draw
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName line ddouble
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleName ly
+g d SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName preferred width
+g d SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleName ly
+draw SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName line ddouble
+draw SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+draw SimpleName MethodInvocation ClassInstanceCreation SimpleName ly
+draw SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName preferred width
+draw SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+draw SimpleName MethodInvocation ClassInstanceCreation SimpleName ly
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation SimpleName curve color
+set paint SimpleName MethodInvocation SimpleName curve color
+g d SimpleName MethodInvocation SimpleName set stroke
+g d SimpleName MethodInvocation SimpleName curve stroke
+set stroke SimpleName MethodInvocation SimpleName curve stroke
+g d SimpleName MethodInvocation SimpleName draw
+g d SimpleName MethodInvocation SimpleName path
+draw SimpleName MethodInvocation SimpleName path
+g d SimpleName MethodInvocation SimpleName set stroke
+g d SimpleName MethodInvocation SimpleName border stroke
+set stroke SimpleName MethodInvocation SimpleName border stroke
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation SimpleName border color
+set paint SimpleName MethodInvocation SimpleName border color
+preferred width SimpleName InfixExpression NumberLiteral empty
+preferred height SimpleName InfixExpression NumberLiteral empty
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName preferred width
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName preferred height
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation InfixExpression SimpleName preferred width
+empty NumberLiteral ClassInstanceCreation InfixExpression NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation InfixExpression SimpleName preferred height
+empty NumberLiteral ClassInstanceCreation InfixExpression NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation InfixExpression SimpleName preferred width
+empty NumberLiteral ClassInstanceCreation InfixExpression NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation InfixExpression SimpleName preferred height
+empty NumberLiteral ClassInstanceCreation InfixExpression NumberLiteral empty
+preferred width SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName preferred height
+preferred width SimpleName InfixExpression ClassInstanceCreation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ClassInstanceCreation InfixExpression SimpleName preferred height
+empty NumberLiteral InfixExpression ClassInstanceCreation InfixExpression NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName draw
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName rectangle ddouble
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName preferred width
+g d SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName preferred height
+g d SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+draw SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName rectangle ddouble
+draw SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+draw SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+draw SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName preferred width
+draw SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+draw SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName preferred height
+draw SimpleName MethodInvocation ClassInstanceCreation InfixExpression NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName paint component
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName g
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+void PrimitiveType MethodDeclaration SimpleName paint component
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName g
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+paint component SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+paint component SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g
+paint component SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+paint component SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName paint component
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName paint component
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g

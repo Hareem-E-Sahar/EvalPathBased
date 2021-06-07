@@ -1,0 +1,22 @@
+graphics node event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get id
+evt SimpleName MethodInvocation InfixExpression QualifiedName graphics node mouse eventmouse pressed
+get id SimpleName MethodInvocation InfixExpression QualifiedName graphics node mouse eventmouse pressed
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is select start gesture
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+boolean PrimitiveType MethodDeclaration SimpleName is select start gesture
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+is select start gesture SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event
+is select start gesture SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is select start gesture
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is select start gesture
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

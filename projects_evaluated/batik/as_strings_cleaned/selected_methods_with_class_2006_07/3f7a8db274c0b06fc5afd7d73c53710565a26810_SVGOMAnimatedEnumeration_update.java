@@ -1,0 +1,29 @@
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName namespace uri
+element SimpleName MethodInvocation SimpleName local name
+get attribute ns SimpleName MethodInvocation SimpleName namespace uri
+get attribute ns SimpleName MethodInvocation SimpleName local name
+namespace uri SimpleName MethodInvocation SimpleName local name
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName namespace uri
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+val SimpleName MethodInvocation SimpleName length
+val SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+base val SimpleName Assignment SimpleName default value
+get enumeration number SimpleName MethodInvocation SimpleName val
+base val SimpleName Assignment MethodInvocation SimpleName get enumeration number
+base val SimpleName Assignment MethodInvocation SimpleName val
+valid SimpleName Assignment BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update
+void PrimitiveType MethodDeclaration SimpleName update
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update

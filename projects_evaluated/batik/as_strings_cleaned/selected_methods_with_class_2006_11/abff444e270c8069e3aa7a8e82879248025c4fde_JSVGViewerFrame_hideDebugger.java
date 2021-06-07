@@ -1,0 +1,13 @@
+debugger SimpleName MethodInvocation SimpleName clear all breakpoints
+debugger SimpleName MethodInvocation SimpleName go
+debugger SimpleName MethodInvocation SimpleName dispose
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName hide debugger
+void PrimitiveType MethodDeclaration SimpleName hide debugger
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName hide debugger
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hide debugger

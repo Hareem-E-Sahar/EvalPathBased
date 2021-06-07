@@ -1,0 +1,34 @@
+runnable SimpleName SimpleType SingleVariableDeclaration SimpleName r
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral runnable queue not started or has exited
+link SimpleName SimpleType ClassInstanceCreation SimpleName r
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation SimpleName preempt count
+list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName link
+list SimpleName MethodInvocation ClassInstanceCreation SimpleName r
+add SimpleName MethodInvocation SimpleName preempt count
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName link
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName r
+preempt count SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName link
+preempt count SimpleName MethodInvocation ClassInstanceCreation SimpleName r
+list SimpleName MethodInvocation SimpleName notify
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName preempt later
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName list
+void PrimitiveType MethodDeclaration SimpleName preempt later
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName list
+preempt later SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+preempt later SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+preempt later SimpleName MethodDeclaration Block SynchronizedStatement SimpleName list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName preempt later
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName preempt later
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r

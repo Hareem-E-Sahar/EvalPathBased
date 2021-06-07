@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName event type
+mouse event type SimpleName MethodInvocation SimpleName equals
+mouse event type SimpleName MethodInvocation SimpleName event type
+equals SimpleName MethodInvocation SimpleName event type
+mutation event type SimpleName MethodInvocation SimpleName equals
+mutation event type SimpleName MethodInvocation SimpleName event type
+equals SimpleName MethodInvocation SimpleName event type
+ui event type SimpleName MethodInvocation SimpleName equals
+ui event type SimpleName MethodInvocation SimpleName event type
+equals SimpleName MethodInvocation SimpleName event type
+bad event type StringLiteral InfixExpression SimpleName event type
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionnot supported err
+dom exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral bad event type
+dom exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName event type
+dom exceptionnot supported err QualifiedName ClassInstanceCreation InfixExpression StringLiteral bad event type
+dom exceptionnot supported err QualifiedName ClassInstanceCreation InfixExpression SimpleName event type
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SimpleName create event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event type
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+static Modifier MethodDeclaration SimpleType SimpleName event
+static Modifier MethodDeclaration SimpleName create event
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName event type
+static Modifier MethodDeclaration SimpleType SimpleName dom exception
+event SimpleName SimpleType MethodDeclaration SimpleName create event
+event SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName event type
+event SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+create event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event type
+create event SimpleName MethodDeclaration SimpleType SimpleName dom exception
+event type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SimpleName create event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

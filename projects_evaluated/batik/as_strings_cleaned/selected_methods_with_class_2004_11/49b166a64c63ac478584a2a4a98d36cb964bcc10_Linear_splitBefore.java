@@ -1,0 +1,27 @@
+double PrimitiveType SingleVariableDeclaration SimpleName t
+eval SimpleName MethodInvocation SimpleName t
+linear SimpleName SimpleType ClassInstanceCreation SimpleName p
+linear SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName eval
+linear SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName t
+p SimpleName ClassInstanceCreation MethodInvocation SimpleName eval
+p SimpleName ClassInstanceCreation MethodInvocation SimpleName t
+public Modifier MethodDeclaration SimpleType SimpleName segment
+public Modifier MethodDeclaration SimpleName split before
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+segment SimpleName SimpleType MethodDeclaration SimpleName split before
+segment SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+segment SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName t
+split before SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+split before SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName segment
+public Modifier TypeDeclaration MethodDeclaration SimpleName split before
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName segment
+test SimpleName TypeDeclaration MethodDeclaration SimpleName split before
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

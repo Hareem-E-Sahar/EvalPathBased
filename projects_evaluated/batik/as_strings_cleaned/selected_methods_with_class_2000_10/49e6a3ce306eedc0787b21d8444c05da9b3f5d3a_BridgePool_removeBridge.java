@@ -1,0 +1,53 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local name
+namespace uri SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+namespace uri SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName namespace uri
+empty StringLiteral ConditionalExpression SimpleName namespace uri
+namespace uri SimpleName Assignment ParenthesizedExpression ConditionalExpression StringLiteral empty
+namespace uri SimpleName Assignment ParenthesizedExpression ConditionalExpression SimpleName namespace uri
+namespace uri map SimpleName MethodInvocation SimpleName get
+namespace uri map SimpleName MethodInvocation SimpleName namespace uri
+get SimpleName MethodInvocation SimpleName namespace uri
+hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName namespace uri map
+hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName namespace uri
+local name map SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName hash map
+local name map SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName namespace uri map
+local name map SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+local name map SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName namespace uri
+hash map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local name map
+local name map SimpleName MethodInvocation SimpleName remove
+local name map SimpleName MethodInvocation SimpleName local name
+remove SimpleName MethodInvocation SimpleName local name
+local name map SimpleName MethodInvocation SimpleName is empty
+namespace uri map SimpleName MethodInvocation SimpleName remove
+namespace uri map SimpleName MethodInvocation SimpleName namespace uri
+remove SimpleName MethodInvocation SimpleName namespace uri
+namespace uri map SimpleName MethodInvocation SimpleName is empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove bridge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local name
+void PrimitiveType MethodDeclaration SimpleName remove bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local name
+remove bridge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove bridge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+remove bridge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove bridge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local name
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name

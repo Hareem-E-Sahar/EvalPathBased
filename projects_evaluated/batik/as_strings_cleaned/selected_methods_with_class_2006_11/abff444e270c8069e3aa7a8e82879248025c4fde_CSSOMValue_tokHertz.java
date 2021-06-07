@@ -1,0 +1,39 @@
+value SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value SimpleName MethodInvocation SimpleName get primitive type
+value SimpleName MethodInvocation SimpleName get float value
+value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get float value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+value SimpleName MethodInvocation SimpleName get float value
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptioninvalid access err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptioninvalid access err QualifiedName ClassInstanceCreation StringLiteral empty
+value SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss hz
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss hz
+value SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss khz
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss khz
+css primitive valuecss hz QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss khz
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SimpleName tok hertz
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration PrimitiveType float
+static Modifier MethodDeclaration SimpleName tok hertz
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+float PrimitiveType MethodDeclaration SimpleName tok hertz
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+tok hertz SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+tok hertz SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName tok hertz
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName tok hertz
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

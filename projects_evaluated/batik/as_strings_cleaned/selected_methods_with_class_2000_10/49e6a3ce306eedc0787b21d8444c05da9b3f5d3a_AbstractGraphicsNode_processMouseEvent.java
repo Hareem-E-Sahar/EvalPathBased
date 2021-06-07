@@ -1,0 +1,164 @@
+graphics node mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+accept event SimpleName MethodInvocation SimpleName evt
+get listeners SimpleName MethodInvocation TypeLiteral SimpleType SimpleName graphics node mouse listener
+listeners SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get listeners
+evt SimpleName MethodInvocation SimpleName get id
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName listenerslength
+listeners SimpleName ArrayAccess SimpleName i
+evt SimpleName MethodInvocation SimpleName clone
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+listeners SimpleName ArrayAccess MethodInvocation SimpleName mouse moved
+i SimpleName ArrayAccess MethodInvocation SimpleName mouse moved
+mouse moved SimpleName MethodInvocation CastExpression SimpleType SimpleName graphics node mouse event
+mouse moved SimpleName MethodInvocation CastExpression MethodInvocation SimpleName evt
+mouse moved SimpleName MethodInvocation CastExpression MethodInvocation SimpleName clone
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName listenerslength
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+listenerslength QualifiedName InfixExpression ForStatement PrefixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName listenerslength
+listeners SimpleName ArrayAccess SimpleName i
+evt SimpleName MethodInvocation SimpleName clone
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+listeners SimpleName ArrayAccess MethodInvocation SimpleName mouse dragged
+i SimpleName ArrayAccess MethodInvocation SimpleName mouse dragged
+mouse dragged SimpleName MethodInvocation CastExpression SimpleType SimpleName graphics node mouse event
+mouse dragged SimpleName MethodInvocation CastExpression MethodInvocation SimpleName evt
+mouse dragged SimpleName MethodInvocation CastExpression MethodInvocation SimpleName clone
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName listenerslength
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+listenerslength QualifiedName InfixExpression ForStatement PrefixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName listenerslength
+listeners SimpleName ArrayAccess SimpleName i
+evt SimpleName MethodInvocation SimpleName clone
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+listeners SimpleName ArrayAccess MethodInvocation SimpleName mouse entered
+i SimpleName ArrayAccess MethodInvocation SimpleName mouse entered
+mouse entered SimpleName MethodInvocation CastExpression SimpleType SimpleName graphics node mouse event
+mouse entered SimpleName MethodInvocation CastExpression MethodInvocation SimpleName evt
+mouse entered SimpleName MethodInvocation CastExpression MethodInvocation SimpleName clone
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName listenerslength
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+listenerslength QualifiedName InfixExpression ForStatement PrefixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName listenerslength
+listeners SimpleName ArrayAccess SimpleName i
+evt SimpleName MethodInvocation SimpleName clone
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+listeners SimpleName ArrayAccess MethodInvocation SimpleName mouse exited
+i SimpleName ArrayAccess MethodInvocation SimpleName mouse exited
+mouse exited SimpleName MethodInvocation CastExpression SimpleType SimpleName graphics node mouse event
+mouse exited SimpleName MethodInvocation CastExpression MethodInvocation SimpleName evt
+mouse exited SimpleName MethodInvocation CastExpression MethodInvocation SimpleName clone
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName listenerslength
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+listenerslength QualifiedName InfixExpression ForStatement PrefixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName listenerslength
+listeners SimpleName ArrayAccess SimpleName i
+evt SimpleName MethodInvocation SimpleName clone
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+listeners SimpleName ArrayAccess MethodInvocation SimpleName mouse clicked
+i SimpleName ArrayAccess MethodInvocation SimpleName mouse clicked
+mouse clicked SimpleName MethodInvocation CastExpression SimpleType SimpleName graphics node mouse event
+mouse clicked SimpleName MethodInvocation CastExpression MethodInvocation SimpleName evt
+mouse clicked SimpleName MethodInvocation CastExpression MethodInvocation SimpleName clone
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName listenerslength
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+listenerslength QualifiedName InfixExpression ForStatement PrefixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName listenerslength
+listeners SimpleName ArrayAccess SimpleName i
+evt SimpleName MethodInvocation SimpleName clone
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+listeners SimpleName ArrayAccess MethodInvocation SimpleName mouse pressed
+i SimpleName ArrayAccess MethodInvocation SimpleName mouse pressed
+mouse pressed SimpleName MethodInvocation CastExpression SimpleType SimpleName graphics node mouse event
+mouse pressed SimpleName MethodInvocation CastExpression MethodInvocation SimpleName evt
+mouse pressed SimpleName MethodInvocation CastExpression MethodInvocation SimpleName clone
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName listenerslength
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+listenerslength QualifiedName InfixExpression ForStatement PrefixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName listenerslength
+listeners SimpleName ArrayAccess SimpleName i
+evt SimpleName MethodInvocation SimpleName clone
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+listeners SimpleName ArrayAccess MethodInvocation SimpleName mouse released
+i SimpleName ArrayAccess MethodInvocation SimpleName mouse released
+mouse released SimpleName MethodInvocation CastExpression SimpleType SimpleName graphics node mouse event
+mouse released SimpleName MethodInvocation CastExpression MethodInvocation SimpleName evt
+mouse released SimpleName MethodInvocation CastExpression MethodInvocation SimpleName clone
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName listenerslength
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+listenerslength QualifiedName InfixExpression ForStatement PrefixExpression SimpleName i
+evt SimpleName MethodInvocation SimpleName get id
+unknown mouse event type StringLiteral InfixExpression MethodInvocation SimpleName evt
+unknown mouse event type StringLiteral InfixExpression MethodInvocation SimpleName get id
+error SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown mouse event type
+evt SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName graphics node mouse eventmouse moved
+get id SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName graphics node mouse eventmouse moved
+evt SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName graphics node mouse eventmouse dragged
+get id SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName graphics node mouse eventmouse dragged
+graphics node mouse eventmouse moved QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName graphics node mouse eventmouse dragged
+graphics node mouse eventmouse dragged QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName graphics node mouse eventmouse entered
+graphics node mouse eventmouse entered QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName graphics node mouse eventmouse exited
+graphics node mouse eventmouse exited QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName graphics node mouse eventmouse clicked
+graphics node mouse eventmouse clicked QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName graphics node mouse eventmouse pressed
+graphics node mouse eventmouse pressed QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName graphics node mouse eventmouse released
+evt SimpleName MethodInvocation SimpleName consume
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName process mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+process mouse event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+process mouse event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process mouse event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process mouse event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

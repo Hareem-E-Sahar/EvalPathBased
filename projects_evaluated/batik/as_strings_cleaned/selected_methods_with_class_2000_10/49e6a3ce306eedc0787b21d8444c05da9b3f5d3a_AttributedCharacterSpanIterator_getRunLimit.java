@@ -1,0 +1,34 @@
+set SimpleName SimpleType SingleVariableDeclaration SimpleName attributes
+aci SimpleName MethodInvocation SimpleName get run limit
+aci SimpleName MethodInvocation SimpleName attributes
+get run limit SimpleName MethodInvocation SimpleName attributes
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation MethodInvocation SimpleName aci
+math SimpleName MethodInvocation MethodInvocation SimpleName get run limit
+math SimpleName MethodInvocation MethodInvocation SimpleName attributes
+math SimpleName MethodInvocation SimpleName end
+min SimpleName MethodInvocation MethodInvocation SimpleName aci
+min SimpleName MethodInvocation MethodInvocation SimpleName get run limit
+min SimpleName MethodInvocation MethodInvocation SimpleName attributes
+min SimpleName MethodInvocation SimpleName end
+aci SimpleName MethodInvocation MethodInvocation SimpleName end
+get run limit SimpleName MethodInvocation MethodInvocation SimpleName end
+attributes SimpleName MethodInvocation MethodInvocation SimpleName end
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get run limit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+int PrimitiveType MethodDeclaration SimpleName get run limit
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+get run limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+get run limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get run limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get run limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes

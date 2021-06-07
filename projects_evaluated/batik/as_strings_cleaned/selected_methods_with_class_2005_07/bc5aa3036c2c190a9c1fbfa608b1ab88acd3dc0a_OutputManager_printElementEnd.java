@@ -1,0 +1,88 @@
+char PrimitiveType ArrayType SingleVariableDeclaration SimpleName name
+char PrimitiveType ArrayType SingleVariableDeclaration SimpleName space
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+pretty printer SimpleName MethodInvocation SimpleName get tabulation width
+i SimpleName InfixExpression MethodInvocation SimpleName pretty printer
+i SimpleName InfixExpression MethodInvocation SimpleName get tabulation width
+margin SimpleName MethodInvocation SimpleName delete char at
+margin SimpleName MethodInvocation NumberLiteral empty
+delete char at SimpleName MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+pretty printer SimpleName MethodInvocation SimpleName get format
+xml space SimpleName MethodInvocation SimpleName get
+xml space SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+xml space SimpleName MethodInvocation InfixExpression QualifiedName booleantrue
+get SimpleName MethodInvocation InfixExpression QualifiedName booleantrue
+empty NumberLiteral MethodInvocation InfixExpression QualifiedName booleantrue
+starting lines SimpleName MethodInvocation SimpleName get
+starting lines SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName starting lines
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+integer SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+line SimpleName InfixExpression MethodInvocation SimpleName int value
+column SimpleName InfixExpression QualifiedName namelength
+column SimpleName InfixExpression NumberLiteral empty
+namelength QualifiedName InfixExpression NumberLiteral empty
+pretty printer SimpleName MethodInvocation SimpleName get document width
+column SimpleName InfixExpression InfixExpression MethodInvocation SimpleName pretty printer
+column SimpleName InfixExpression InfixExpression MethodInvocation SimpleName get document width
+namelength QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName pretty printer
+namelength QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName get document width
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName pretty printer
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName get document width
+margin SimpleName MethodInvocation SimpleName to string
+print string SimpleName MethodInvocation MethodInvocation SimpleName margin
+print string SimpleName MethodInvocation MethodInvocation SimpleName to string
+print string SimpleName MethodInvocation StringLiteral </
+print characters SimpleName MethodInvocation SimpleName name
+print spaces SimpleName MethodInvocation SimpleName space
+print spaces SimpleName MethodInvocation BooleanLiteral true
+space SimpleName MethodInvocation BooleanLiteral true
+print character SimpleName MethodInvocation CharacterLiteral >
+print string SimpleName MethodInvocation StringLiteral />
+starting lines SimpleName MethodInvocation SimpleName remove
+starting lines SimpleName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+xml space SimpleName MethodInvocation SimpleName remove
+xml space SimpleName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print element end
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName space
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName print element end
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName space
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+print element end SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+print element end SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+print element end SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+print element end SimpleName MethodDeclaration SingleVariableDeclaration SimpleName space
+print element end SimpleName MethodDeclaration SimpleType SimpleName io exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName space
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+space SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print element end
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName space
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print element end
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName space
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

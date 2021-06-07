@@ -1,0 +1,8 @@
+boolean PrimitiveType MethodDeclaration SimpleName get stop immediate propagation
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName stop immediate propagation
+get stop immediate propagation SimpleName MethodDeclaration Block ReturnStatement SimpleName stop immediate propagation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get stop immediate propagation
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get stop immediate propagation

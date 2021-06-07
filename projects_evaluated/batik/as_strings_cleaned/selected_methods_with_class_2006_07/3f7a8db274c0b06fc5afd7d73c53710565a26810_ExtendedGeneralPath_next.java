@@ -1,0 +1,38 @@
+types SimpleName ArrayAccess PostfixExpression SimpleName seg num
+type SimpleName VariableDeclarationFragment ArrayAccess SimpleName types
+type SimpleName VariableDeclarationFragment ArrayAccess PostfixExpression SimpleName seg num
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName types
+vals idx SimpleName Assignment NumberLiteral empty
+vals idx SimpleName Assignment NumberLiteral empty
+vals idx SimpleName Assignment NumberLiteral empty
+vals idx SimpleName Assignment NumberLiteral empty
+type SimpleName SwitchStatement SwitchCase SimpleName seg close
+type SimpleName SwitchStatement SwitchCase SimpleName seg moveto
+type SimpleName SwitchStatement SwitchCase SimpleName seg lineto
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName vals idx
+type SimpleName SwitchStatement ExpressionStatement Assignment NumberLiteral empty
+seg close SimpleName SwitchCase SwitchStatement SwitchCase SimpleName seg moveto
+seg close SimpleName SwitchCase SwitchStatement SwitchCase SimpleName seg lineto
+seg moveto SimpleName SwitchCase SwitchStatement SwitchCase SimpleName seg lineto
+seg moveto SimpleName SwitchCase SwitchStatement SwitchCase SimpleName seg quadto
+seg lineto SimpleName SwitchCase SwitchStatement SwitchCase SimpleName seg quadto
+seg quadto SimpleName SwitchCase SwitchStatement SwitchCase SimpleName seg cubicto
+seg cubicto SimpleName SwitchCase SwitchStatement SwitchCase SimpleName seg arcto
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block SwitchStatement SimpleName type
+void PrimitiveType MethodDeclaration SimpleName next
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName type
+next SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+next SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

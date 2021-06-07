@@ -1,0 +1,21 @@
+at SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName affine transform
+protected Modifier FieldDeclaration SimpleType SimpleName affine transform
+protected Modifier FieldDeclaration VariableDeclarationFragment SimpleName at
+affine transform SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName at
+protected Modifier MethodDeclaration SimpleType SimpleName affine transform
+protected Modifier MethodDeclaration SimpleName get affine transform
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName at
+affine transform SimpleName SimpleType MethodDeclaration SimpleName get affine transform
+get affine transform SimpleName MethodDeclaration Block ReturnStatement SimpleName at
+protected Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration Modifier protected
+protected Modifier FieldDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get affine transform
+public Modifier MethodDeclaration SimpleType SimpleName svg matrix
+public Modifier MethodDeclaration SimpleName create svg matrix
+svg matrix SimpleName SimpleType MethodDeclaration SimpleName create svg matrix
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg matrix
+public Modifier TypeDeclaration MethodDeclaration SimpleName create svg matrix
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg matrix
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create svg matrix

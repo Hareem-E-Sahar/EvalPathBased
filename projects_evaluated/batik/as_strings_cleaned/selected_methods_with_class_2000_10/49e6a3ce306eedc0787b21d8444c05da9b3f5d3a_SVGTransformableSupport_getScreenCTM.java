@@ -1,0 +1,19 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! todo svg transformable supportget screen ctm
+public Modifier MethodDeclaration SimpleType SimpleName svg matrix
+public Modifier MethodDeclaration SimpleName get screen ctm
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+svg matrix SimpleName SimpleType MethodDeclaration SimpleName get screen ctm
+svg matrix SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+get screen ctm SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get screen ctm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg matrix
+public Modifier TypeDeclaration MethodDeclaration SimpleName get screen ctm
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg matrix
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get screen ctm
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt

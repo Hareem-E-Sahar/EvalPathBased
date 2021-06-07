@@ -1,0 +1,32 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName string
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName stringlength
+uncomp data SimpleName ArrayAccess PostfixExpression SimpleName dst index
+string SimpleName ArrayAccess SimpleName i
+uncomp data SimpleName ArrayAccess Assignment ArrayAccess SimpleName string
+uncomp data SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName stringlength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+stringlength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName write string
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName string
+void PrimitiveType MethodDeclaration SimpleName write string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName string
+write string SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+write string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string

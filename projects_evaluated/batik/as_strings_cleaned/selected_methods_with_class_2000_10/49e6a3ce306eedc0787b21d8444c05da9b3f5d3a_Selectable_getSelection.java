@@ -1,0 +1,12 @@
+graphics node render context SimpleName SimpleType SingleVariableDeclaration SimpleName rc
+object SimpleName SimpleType MethodDeclaration SimpleName get selection
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rc
+get selection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node render context
+get selection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get selection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get selection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc

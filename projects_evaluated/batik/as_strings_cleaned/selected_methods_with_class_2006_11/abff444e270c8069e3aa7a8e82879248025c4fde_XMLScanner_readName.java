@@ -1,0 +1,56 @@
+int PrimitiveType SingleVariableDeclaration SimpleName type
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+create xml exception SimpleName MethodInvocation StringLiteral unexpectedeof
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml name first character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml name first character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name first character SimpleName MethodInvocation CastExpression SimpleName current
+create xml exception SimpleName MethodInvocation StringLiteral invalidname
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml name character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name character SimpleName MethodInvocation CastExpression SimpleName current
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName xml utilities
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is xml name character
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName read name
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+int PrimitiveType MethodDeclaration SimpleName read name
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName type
+read name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+read name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+read name SimpleName MethodDeclaration SimpleType SimpleName io exception
+read name SimpleName MethodDeclaration SimpleType SimpleName xml exception
+read name SimpleName MethodDeclaration Block ReturnStatement SimpleName type
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName xml exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName xml exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName read name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception

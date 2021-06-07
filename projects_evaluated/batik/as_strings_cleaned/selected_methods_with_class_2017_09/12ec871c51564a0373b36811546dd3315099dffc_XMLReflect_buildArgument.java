@@ -1,0 +1,72 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+element SimpleName MethodInvocation SimpleName has child nodes
+get class defining element SimpleName MethodInvocation SimpleName element
+class defining element SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class defining element
+class defining element SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class defining element
+class defining element SimpleName MethodInvocation SimpleName get attribute
+class defining element SimpleName MethodInvocation SimpleName xr class attribute
+get attribute SimpleName MethodInvocation SimpleName xr class attribute
+class attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName class defining element
+class attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+class attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName xr class attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class attr
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation SimpleName class attr
+for name SimpleName MethodInvocation SimpleName class attr
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName class
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName for name
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName class attr
+class SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+element SimpleName MethodInvocation SimpleName has attribute
+element SimpleName MethodInvocation SimpleName xr value attribute
+has attribute SimpleName MethodInvocation SimpleName xr value attribute
+element SimpleName MethodInvocation SimpleName get attribute
+element SimpleName MethodInvocation SimpleName xr value attribute
+get attribute SimpleName MethodInvocation SimpleName xr value attribute
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName xr value attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+cl SimpleName MethodInvocation SimpleName get declared constructor
+constructor SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+constructor SimpleName VariableDeclarationFragment MethodInvocation SimpleName get declared constructor
+constructor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName constructor
+constructor SimpleName MethodInvocation SimpleName new instance
+constructor SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName value
+new instance SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName value
+cl SimpleName MethodInvocation SimpleName get declared constructor
+cl SimpleName MethodInvocation MethodInvocation SimpleName new instance
+get declared constructor SimpleName MethodInvocation MethodInvocation SimpleName new instance
+build object SimpleName MethodInvocation SimpleName element
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName build argument
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier MethodDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration SimpleType SimpleName object
+static Modifier MethodDeclaration SimpleName build argument
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+static Modifier MethodDeclaration SimpleType SimpleName exception
+object SimpleName SimpleType MethodDeclaration SimpleName build argument
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+build argument SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+build argument SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+build argument SimpleName MethodDeclaration SimpleType SimpleName exception
+element SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName build argument
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build argument
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

@@ -1,0 +1,65 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+property names SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property names
+prefix SimpleName MethodInvocation SimpleName to lower case
+prefix SimpleName Assignment MethodInvocation SimpleName prefix
+prefix SimpleName Assignment MethodInvocation SimpleName to lower case
+names SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName vector
+vector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName names
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName property nameslength
+property names SimpleName ArrayAccess SimpleName i
+property names SimpleName ArrayAccess MethodInvocation SimpleName starts with
+i SimpleName ArrayAccess MethodInvocation SimpleName starts with
+property names SimpleName ArrayAccess MethodInvocation SimpleName prefix
+i SimpleName ArrayAccess MethodInvocation SimpleName prefix
+starts with SimpleName MethodInvocation SimpleName prefix
+property names SimpleName ArrayAccess SimpleName i
+names SimpleName MethodInvocation SimpleName add element
+names SimpleName MethodInvocation ArrayAccess SimpleName property names
+names SimpleName MethodInvocation ArrayAccess SimpleName i
+add element SimpleName MethodInvocation ArrayAccess SimpleName property names
+add element SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName property nameslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+property nameslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+names SimpleName MethodInvocation SimpleName size
+names SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+names SimpleName MethodInvocation SimpleName size
+prefix names SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName names
+prefix names SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName size
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+names SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName names
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+prefix names SimpleName ArrayAccess PostfixExpression SimpleName count
+it SimpleName MethodInvocation SimpleName next
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName prefix names
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get property names
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName prefix names
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get property names
+get property names SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get property names SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+get property names SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get property names SimpleName MethodDeclaration Block ReturnStatement SimpleName prefix names
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property names
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property names
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix

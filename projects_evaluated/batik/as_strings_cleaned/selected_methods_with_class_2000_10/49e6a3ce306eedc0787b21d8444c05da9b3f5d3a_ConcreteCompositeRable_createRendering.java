@@ -1,0 +1,147 @@
+render context SimpleName SimpleType SingleVariableDeclaration SimpleName rc
+srcs SimpleName MethodInvocation SimpleName size
+srcs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rc SimpleName MethodInvocation SimpleName get rendering hints
+rh SimpleName VariableDeclarationFragment MethodInvocation SimpleName rc
+rh SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rendering hints
+rendering hints SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rh
+rh SimpleName Assignment ClassInstanceCreation SimpleType SimpleName rendering hints
+rc SimpleName MethodInvocation SimpleName get transform
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName rc
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+rc SimpleName MethodInvocation SimpleName get area of interest
+aoi SimpleName VariableDeclarationFragment MethodInvocation SimpleName rc
+aoi SimpleName VariableDeclarationFragment MethodInvocation SimpleName get area of interest
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aoi
+at SimpleName MethodInvocation SimpleName create transformed shape
+at SimpleName MethodInvocation SimpleName aoi
+create transformed shape SimpleName MethodInvocation SimpleName aoi
+at SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+create transformed shape SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+aoi SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+r SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName at
+r SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create transformed shape
+r SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName aoi
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName rwidth
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName rheight
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+rwidth QualifiedName ClassInstanceCreation QualifiedName rheight
+rwidth QualifiedName ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+rheight QualifiedName ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+bi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered image
+bi SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName rwidth
+bi SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName rheight
+bi SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bi
+bi SimpleName MethodInvocation SimpleName create graphics
+g d SimpleName VariableDeclarationFragment MethodInvocation SimpleName bi
+g d SimpleName VariableDeclarationFragment MethodInvocation SimpleName create graphics
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g d
+g d SimpleName MethodInvocation SimpleName set rendering hints
+g d SimpleName MethodInvocation SimpleName rh
+set rendering hints SimpleName MethodInvocation SimpleName rh
+rule SimpleName MethodInvocation SimpleName get rule
+g d SimpleName MethodInvocation SimpleName set composite
+g d SimpleName MethodInvocation QualifiedName alpha compositesrc over
+set composite SimpleName MethodInvocation QualifiedName alpha compositesrc over
+g d SimpleName MethodInvocation SimpleName set composite
+g d SimpleName MethodInvocation QualifiedName alpha compositesrc in
+set composite SimpleName MethodInvocation QualifiedName alpha compositesrc in
+g d SimpleName MethodInvocation SimpleName set composite
+g d SimpleName MethodInvocation QualifiedName alpha compositesrc out
+set composite SimpleName MethodInvocation QualifiedName alpha compositesrc out
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral this svg viewer currently does not support atop composite
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral this svg viewer currently does not support xor composite
+this svg viewer currently does StringLiteral InfixExpression StringLiteral not support arithmatic composite
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral this svg viewer currently does
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral not support arithmatic composite
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral unknown composite rule requested
+rule SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName composite rulerule over
+get rule SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName composite rulerule over
+rule SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName composite rulerule in
+get rule SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName composite rulerule in
+composite rulerule over QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName composite rulerule in
+composite rulerule in QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName composite rulerule out
+composite rulerule out QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName composite rulerule atop
+composite rulerule out QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName composite rulerule xor
+composite rulerule atop QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName composite rulerule xor
+composite rulerule atop QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName composite rulerule arithmatic
+composite rulerule xor QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName composite rulerule arithmatic
+g d SimpleName MethodInvocation SimpleName get transform
+g d at SimpleName VariableDeclarationFragment MethodInvocation SimpleName g d
+g d at SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g d at
+srcs SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName srcs
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+filter SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+filter SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+cr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName filter
+cr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+cr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cr
+cr SimpleName MethodInvocation SimpleName get bounds d
+src r SimpleName VariableDeclarationFragment MethodInvocation SimpleName cr
+src r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src r
+aoi SimpleName MethodInvocation SimpleName get bounds d
+src r SimpleName MethodInvocation SimpleName create intersection
+src r SimpleName MethodInvocation MethodInvocation SimpleName aoi
+src r SimpleName MethodInvocation MethodInvocation SimpleName get bounds d
+create intersection SimpleName MethodInvocation MethodInvocation SimpleName aoi
+create intersection SimpleName MethodInvocation MethodInvocation SimpleName get bounds d
+src r SimpleName Assignment MethodInvocation SimpleName src r
+src r SimpleName Assignment MethodInvocation SimpleName create intersection
+src r SimpleName Assignment MethodInvocation MethodInvocation SimpleName aoi
+src r SimpleName Assignment MethodInvocation MethodInvocation SimpleName get bounds d
+src r SimpleName MethodInvocation SimpleName is empty
+render context SimpleName SimpleType ClassInstanceCreation SimpleName at
+render context SimpleName SimpleType ClassInstanceCreation SimpleName src r
+render context SimpleName SimpleType ClassInstanceCreation SimpleName rh
+at SimpleName ClassInstanceCreation SimpleName src r
+at SimpleName ClassInstanceCreation SimpleName rh
+src r SimpleName ClassInstanceCreation SimpleName rh
+src rc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName render context
+src rc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName at
+src rc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName src r
+src rc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName rh
+render context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src rc
+cr SimpleName MethodInvocation SimpleName create rendering
+cr SimpleName MethodInvocation SimpleName src rc
+create rendering SimpleName MethodInvocation SimpleName src rc
+ri SimpleName VariableDeclarationFragment MethodInvocation SimpleName cr
+ri SimpleName VariableDeclarationFragment MethodInvocation SimpleName create rendering
+ri SimpleName VariableDeclarationFragment MethodInvocation SimpleName src rc
+rendered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ri
+g d SimpleName MethodInvocation SimpleName draw rendered image
+g d SimpleName MethodInvocation SimpleName ri
+draw rendered image SimpleName MethodInvocation SimpleName ri
+g d SimpleName MethodInvocation SimpleName set transform
+g d SimpleName MethodInvocation SimpleName g d at
+set transform SimpleName MethodInvocation SimpleName g d at
+public Modifier MethodDeclaration SimpleType SimpleName rendered image
+public Modifier MethodDeclaration SimpleName create rendering
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rc
+public Modifier MethodDeclaration Block ReturnStatement SimpleName bi
+rendered image SimpleName SimpleType MethodDeclaration SimpleName create rendering
+rendered image SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rc
+create rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+create rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rc
+create rendering SimpleName MethodDeclaration Block ReturnStatement SimpleName bi
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rendered image
+public Modifier TypeDeclaration MethodDeclaration SimpleName create rendering
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rendered image
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create rendering
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc

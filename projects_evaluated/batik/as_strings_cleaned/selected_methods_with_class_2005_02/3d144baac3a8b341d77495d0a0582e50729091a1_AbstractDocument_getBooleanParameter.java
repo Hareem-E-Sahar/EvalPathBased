@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+get parameter SimpleName MethodInvocation SimpleName name
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName get parameter
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName name
+b SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName boolean
+b SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get parameter
+b SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName name
+boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+b SimpleName MethodInvocation SimpleName boolean value
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get boolean parameter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+boolean PrimitiveType MethodDeclaration SimpleName get boolean parameter
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+get boolean parameter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get boolean parameter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get boolean parameter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get boolean parameter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

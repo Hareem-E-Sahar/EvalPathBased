@@ -1,0 +1,23 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName key
+mememtos SimpleName MethodInvocation SimpleName remove
+mememtos SimpleName MethodInvocation SimpleName key
+remove SimpleName MethodInvocation SimpleName key
+mememtos SimpleName MethodInvocation SimpleName is empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove memento
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SimpleName remove memento
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+remove memento SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+remove memento SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove memento
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove memento
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

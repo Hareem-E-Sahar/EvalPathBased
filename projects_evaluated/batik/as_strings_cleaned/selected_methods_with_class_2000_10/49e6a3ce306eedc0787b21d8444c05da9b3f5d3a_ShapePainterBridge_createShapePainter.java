@@ -1,0 +1,19 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+shape painter SimpleName SimpleType MethodDeclaration SimpleName create shape painter
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+create shape painter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create shape painter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create shape painter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create shape painter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName shape painter
+public Modifier TypeDeclaration MethodDeclaration SimpleName create shape painter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName shape painter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create shape painter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

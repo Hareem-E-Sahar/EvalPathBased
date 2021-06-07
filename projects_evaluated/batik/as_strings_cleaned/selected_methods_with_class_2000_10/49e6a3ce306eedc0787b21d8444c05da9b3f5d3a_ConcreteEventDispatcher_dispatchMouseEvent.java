@@ -1,0 +1,258 @@
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+graphics node mouse event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gvtevt
+evt SimpleName MethodInvocation SimpleName get x
+evt SimpleName MethodInvocation SimpleName get y
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point dfloat
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName evt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get x
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName evt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get y
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+base transform SimpleName MethodInvocation SimpleName transform
+base transform SimpleName MethodInvocation SimpleName p
+transform SimpleName MethodInvocation SimpleName p
+p SimpleName Assignment MethodInvocation SimpleName base transform
+p SimpleName Assignment MethodInvocation SimpleName transform
+p SimpleName Assignment MethodInvocation SimpleName p
+root SimpleName MethodInvocation SimpleName node hit at
+root SimpleName MethodInvocation SimpleName p
+node hit at SimpleName MethodInvocation SimpleName p
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName root
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName node hit at
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+evt SimpleName MethodInvocation SimpleName get when
+evt SimpleName MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation SimpleName get x
+evt SimpleName MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation SimpleName get click count
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation SimpleName node
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation QualifiedName mouse eventmouse entered
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get when
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get modifiers
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+node SimpleName ClassInstanceCreation QualifiedName mouse eventmouse entered
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName get when
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName get modifiers
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName get x
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName get y
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName get when
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName get modifiers
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName get x
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName get y
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName get click count
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+get y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+node SimpleName MethodInvocation SimpleName process mouse event
+node SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName graphics node mouse event
+node SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+node SimpleName MethodInvocation ClassInstanceCreation QualifiedName mouse eventmouse entered
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get when
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+process mouse event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName graphics node mouse event
+process mouse event SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+process mouse event SimpleName MethodInvocation ClassInstanceCreation QualifiedName mouse eventmouse entered
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get when
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+evt SimpleName MethodInvocation SimpleName get when
+evt SimpleName MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation SimpleName get x
+evt SimpleName MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation SimpleName get click count
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation SimpleName last hit
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation QualifiedName mouse eventmouse exited
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get when
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get modifiers
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+last hit SimpleName ClassInstanceCreation QualifiedName mouse eventmouse exited
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName get when
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName get modifiers
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName get x
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName get y
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName get when
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName get modifiers
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName get x
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName get y
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName get click count
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+get y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+last hit SimpleName MethodInvocation SimpleName process mouse event
+last hit SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName graphics node mouse event
+last hit SimpleName MethodInvocation ClassInstanceCreation SimpleName last hit
+last hit SimpleName MethodInvocation ClassInstanceCreation QualifiedName mouse eventmouse exited
+last hit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+last hit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get when
+last hit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+last hit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+last hit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+last hit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+last hit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+last hit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+last hit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+last hit SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+process mouse event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName graphics node mouse event
+process mouse event SimpleName MethodInvocation ClassInstanceCreation SimpleName last hit
+process mouse event SimpleName MethodInvocation ClassInstanceCreation QualifiedName mouse eventmouse exited
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get when
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process mouse event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get click count
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation SimpleName node
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation SimpleName evt
+node SimpleName ClassInstanceCreation SimpleName evt
+node SimpleName MethodInvocation SimpleName process mouse event
+node SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName graphics node mouse event
+node SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+node SimpleName MethodInvocation ClassInstanceCreation SimpleName evt
+process mouse event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName graphics node mouse event
+process mouse event SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+process mouse event SimpleName MethodInvocation ClassInstanceCreation SimpleName evt
+last hit SimpleName Assignment SimpleName node
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName dispatch mouse event
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName dispatch mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+dispatch mouse event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+dispatch mouse event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch mouse event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch mouse event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

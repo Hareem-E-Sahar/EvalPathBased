@@ -1,0 +1,109 @@
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse float
+length handler SimpleName MethodInvocation SimpleName length value
+length handler SimpleName MethodInvocation SimpleName f
+length value SimpleName MethodInvocation SimpleName f
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+e read SimpleName InfixExpression InfixExpression SimpleName current
+e read SimpleName InfixExpression InfixExpression PrefixExpression NumberLiteral empty
+current SimpleName SwitchStatement SwitchCase NumberLiteral x d
+current SimpleName SwitchStatement SwitchCase NumberLiteral x a
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+current SimpleName SwitchStatement BreakStatement SimpleName s
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x d NumberLiteral SwitchCase SwitchStatement BreakStatement SimpleName s
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x a NumberLiteral SwitchCase SwitchStatement BreakStatement SimpleName s
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x NumberLiteral SwitchCase SwitchStatement BreakStatement SimpleName s
+x NumberLiteral SwitchCase SwitchStatement BreakStatement SimpleName s
+length handler SimpleName MethodInvocation SimpleName em
+length handler SimpleName MethodInvocation SimpleName ex
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+current SimpleName SwitchStatement SwitchCase CharacterLiteral m
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName length handler
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName em
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName read
+current SimpleName SwitchStatement SwitchCase CharacterLiteral x
+m CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral x
+length handler SimpleName MethodInvocation SimpleName pc
+length handler SimpleName MethodInvocation SimpleName pt
+length handler SimpleName MethodInvocation SimpleName px
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+current SimpleName SwitchStatement SwitchCase CharacterLiteral c
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName length handler
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName pc
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName read
+current SimpleName SwitchStatement SwitchCase CharacterLiteral t
+c CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral t
+t CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral x
+current SimpleName InfixExpression CharacterLiteral n
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral n
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+n CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+length handler SimpleName MethodInvocation SimpleName in
+current SimpleName InfixExpression CharacterLiteral m
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral m
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+m CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+length handler SimpleName MethodInvocation SimpleName cm
+current SimpleName InfixExpression CharacterLiteral m
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral m
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+m CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+length handler SimpleName MethodInvocation SimpleName mm
+length handler SimpleName MethodInvocation SimpleName percentage
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+current SimpleName SwitchStatement SwitchCase CharacterLiteral p
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName read
+current SimpleName SwitchStatement SwitchStatement SimpleName current
+current SimpleName SwitchStatement SwitchStatement SwitchCase CharacterLiteral c
+current SimpleName SwitchStatement SwitchStatement SwitchCase CharacterLiteral t
+current SimpleName SwitchStatement SwitchStatement SwitchCase CharacterLiteral x
+current SimpleName SwitchStatement SwitchCase CharacterLiteral i
+p CharacterLiteral SwitchCase SwitchStatement SwitchStatement SimpleName current
+p CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral i
+current SimpleName SwitchStatement SwitchStatement SwitchCase CharacterLiteral i
+e read SimpleName IfStatement Block SwitchStatement SimpleName current
+e read SimpleName IfStatement Block SwitchStatement SimpleName current
+current SimpleName SwitchStatement Block IfStatement SimpleName e read
+s SimpleName LabeledStatement IfStatement InfixExpression SimpleName e read
+float PrimitiveType VariableDeclarationStatement Block LabeledStatement SimpleName s
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse length
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+protected Modifier MethodDeclaration SimpleType SimpleName number format exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration Block LabeledStatement SimpleName s
+void PrimitiveType MethodDeclaration SimpleName parse length
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName number format exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration Block LabeledStatement SimpleName s
+parse length SimpleName MethodDeclaration SimpleType SimpleName parse exception
+parse length SimpleName MethodDeclaration SimpleType SimpleName number format exception
+parse length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+parse length SimpleName MethodDeclaration Block LabeledStatement SimpleName s
+parse exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName number format exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse length
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName number format exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse length
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName number format exception

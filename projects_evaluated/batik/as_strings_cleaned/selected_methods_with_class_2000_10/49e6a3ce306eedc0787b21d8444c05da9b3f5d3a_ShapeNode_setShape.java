@@ -1,0 +1,13 @@
+shape SimpleName SimpleType SingleVariableDeclaration SimpleName new shape
+void PrimitiveType MethodDeclaration SimpleName set shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new shape
+set shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+set shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new shape
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set shape
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new shape
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set shape
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new shape

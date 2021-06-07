@@ -1,0 +1,80 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+name SimpleName MethodInvocation SimpleName equals
+name SimpleName MethodInvocation SimpleName namespaces
+equals SimpleName MethodInvocation SimpleName namespaces
+name SimpleName MethodInvocation SimpleName equals
+name SimpleName MethodInvocation SimpleName namespace prefixes
+equals SimpleName MethodInvocation SimpleName namespace prefixes
+name SimpleName MethodInvocation SimpleName equals
+name SimpleName MethodInvocation SimpleName validation
+equals SimpleName MethodInvocation SimpleName validation
+name SimpleName MethodInvocation SimpleName equals
+name SimpleName MethodInvocation SimpleName external general
+equals SimpleName MethodInvocation SimpleName external general
+name SimpleName MethodInvocation SimpleName equals
+name SimpleName MethodInvocation SimpleName external parameter
+equals SimpleName MethodInvocation SimpleName external parameter
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName external general
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName external general
+validation SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+validation SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+validation SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName external general
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName external parameter
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName external parameter
+validation SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+validation SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+validation SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName external parameter
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName external parameter
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName external parameter
+external general SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+external general SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+external general SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName external parameter
+feature StringLiteral InfixExpression SimpleName name
+sax not supported exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral feature
+sax not supported exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName name
+feature StringLiteral InfixExpression SimpleName name
+sax not recognized exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral feature
+sax not recognized exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName name
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get feature
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName sax not recognized exception
+public Modifier MethodDeclaration SimpleType SimpleName sax not supported exception
+boolean PrimitiveType MethodDeclaration SimpleName get feature
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName sax not recognized exception
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName sax not supported exception
+get feature SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get feature SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get feature SimpleName MethodDeclaration SimpleType SimpleName sax not recognized exception
+get feature SimpleName MethodDeclaration SimpleType SimpleName sax not supported exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not recognized exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception
+sax not recognized exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName sax not supported exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get feature
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax not recognized exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get feature
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax not recognized exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception

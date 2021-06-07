@@ -1,0 +1,21 @@
+content handler SimpleName SimpleType SingleVariableDeclaration SimpleName handler
+null pointer exception SimpleName SimpleType ClassInstanceCreation StringLiteral null content handler
+content handler SimpleName Assignment SimpleName handler
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set content handler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content handler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName handler
+void PrimitiveType MethodDeclaration SimpleName set content handler
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content handler
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName handler
+set content handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content handler
+set content handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName handler
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set content handler
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set content handler
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler

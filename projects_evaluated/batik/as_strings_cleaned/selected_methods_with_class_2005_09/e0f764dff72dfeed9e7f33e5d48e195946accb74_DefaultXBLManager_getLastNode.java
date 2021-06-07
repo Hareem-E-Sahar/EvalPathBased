@@ -1,0 +1,15 @@
+size SimpleName InfixExpression PrefixExpression NumberLiteral empty
+size SimpleName InfixExpression NumberLiteral empty
+nodes SimpleName MethodInvocation SimpleName last element
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName nodes
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName last element
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName get last node
+node SimpleName SimpleType MethodDeclaration SimpleName get last node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get last node
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get last node

@@ -1,0 +1,111 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+text node SimpleName SimpleType CastExpression SimpleName node
+tn SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName text node
+tn SimpleName VariableDeclarationFragment CastExpression SimpleName node
+text node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tn
+elem tpi SimpleName MethodInvocation SimpleName clear
+build attributed string SimpleName MethodInvocation SimpleName ctx
+build attributed string SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+as SimpleName VariableDeclarationFragment MethodInvocation SimpleName build attributed string
+as SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+as SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+attributed string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName as
+tn SimpleName MethodInvocation SimpleName set attributed character iterator
+add glyph position attributes SimpleName MethodInvocation SimpleName as
+add glyph position attributes SimpleName MethodInvocation SimpleName e
+add glyph position attributes SimpleName MethodInvocation SimpleName ctx
+as SimpleName MethodInvocation SimpleName e
+as SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName is dynamic
+as SimpleName MethodInvocation SimpleName get iterator
+attributed string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName as
+attributed string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get iterator
+laidout text SimpleName Assignment ClassInstanceCreation SimpleType SimpleName attributed string
+laidout text SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName as
+laidout text SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get iterator
+as SimpleName MethodInvocation SimpleName get iterator
+tn SimpleName MethodInvocation SimpleName set attributed character iterator
+tn SimpleName MethodInvocation MethodInvocation SimpleName as
+tn SimpleName MethodInvocation MethodInvocation SimpleName get iterator
+set attributed character iterator SimpleName MethodInvocation MethodInvocation SimpleName as
+set attributed character iterator SimpleName MethodInvocation MethodInvocation SimpleName get iterator
+pi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text paint info
+text paint info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pi
+set base text paint info SimpleName MethodInvocation SimpleName pi
+set base text paint info SimpleName MethodInvocation SimpleName e
+set base text paint info SimpleName MethodInvocation SimpleName node
+set base text paint info SimpleName MethodInvocation SimpleName ctx
+pi SimpleName MethodInvocation SimpleName e
+pi SimpleName MethodInvocation SimpleName node
+pi SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation SimpleName node
+e SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName ctx
+set decoration text paint info SimpleName MethodInvocation SimpleName pi
+set decoration text paint info SimpleName MethodInvocation SimpleName e
+pi SimpleName MethodInvocation SimpleName e
+add paint attributes SimpleName MethodInvocation SimpleName as
+add paint attributes SimpleName MethodInvocation SimpleName e
+add paint attributes SimpleName MethodInvocation SimpleName tn
+add paint attributes SimpleName MethodInvocation SimpleName pi
+add paint attributes SimpleName MethodInvocation SimpleName ctx
+as SimpleName MethodInvocation SimpleName e
+as SimpleName MethodInvocation SimpleName tn
+as SimpleName MethodInvocation SimpleName pi
+as SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation SimpleName tn
+e SimpleName MethodInvocation SimpleName pi
+e SimpleName MethodInvocation SimpleName ctx
+tn SimpleName MethodInvocation SimpleName pi
+tn SimpleName MethodInvocation SimpleName ctx
+pi SimpleName MethodInvocation SimpleName ctx
+as SimpleName MethodInvocation SimpleName get iterator
+tn SimpleName MethodInvocation SimpleName set attributed character iterator
+tn SimpleName MethodInvocation MethodInvocation SimpleName as
+tn SimpleName MethodInvocation MethodInvocation SimpleName get iterator
+set attributed character iterator SimpleName MethodInvocation MethodInvocation SimpleName as
+set attributed character iterator SimpleName MethodInvocation MethodInvocation SimpleName get iterator
+ctx SimpleName MethodInvocation SimpleName is dynamic
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName compute laidout text
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleName compute laidout text
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName using complex svg font
+compute laidout text SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+compute laidout text SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+compute laidout text SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+compute laidout text SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+compute laidout text SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+compute laidout text SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+compute laidout text SimpleName MethodDeclaration Block IfStatement SimpleName using complex svg font
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute laidout text
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute laidout text
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

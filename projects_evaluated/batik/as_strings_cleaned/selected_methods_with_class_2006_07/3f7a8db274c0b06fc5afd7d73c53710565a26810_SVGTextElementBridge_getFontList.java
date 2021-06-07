@@ -1,0 +1,265 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+map SimpleName SimpleType SingleVariableDeclaration SimpleName result
+soft reference SimpleName SimpleType ClassInstanceCreation SimpleName element
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation SimpleName text compound id
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+result SimpleName MethodInvocation ClassInstanceCreation SimpleName element
+put SimpleName MethodInvocation SimpleName text compound id
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName element
+text compound id SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+text compound id SimpleName MethodInvocation ClassInstanceCreation SimpleName element
+text utilities SimpleName MethodInvocation SimpleName convert font size
+text utilities SimpleName MethodInvocation SimpleName element
+convert font size SimpleName MethodInvocation SimpleName element
+fs float SimpleName VariableDeclarationFragment MethodInvocation SimpleName text utilities
+fs float SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert font size
+fs float SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+float SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs float
+fs float SimpleName MethodInvocation SimpleName float value
+font size SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs float
+font size SimpleName VariableDeclarationFragment MethodInvocation SimpleName float value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName font size
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName fs float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName float value
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributesize
+result SimpleName MethodInvocation SimpleName fs float
+put SimpleName MethodInvocation QualifiedName text attributesize
+put SimpleName MethodInvocation SimpleName fs float
+text attributesize QualifiedName MethodInvocation SimpleName fs float
+text utilities SimpleName MethodInvocation SimpleName convert font stretch
+text utilities SimpleName MethodInvocation SimpleName element
+convert font stretch SimpleName MethodInvocation SimpleName element
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributewidth
+result SimpleName MethodInvocation MethodInvocation SimpleName text utilities
+result SimpleName MethodInvocation MethodInvocation SimpleName convert font stretch
+result SimpleName MethodInvocation MethodInvocation SimpleName element
+put SimpleName MethodInvocation QualifiedName text attributewidth
+put SimpleName MethodInvocation MethodInvocation SimpleName text utilities
+put SimpleName MethodInvocation MethodInvocation SimpleName convert font stretch
+put SimpleName MethodInvocation MethodInvocation SimpleName element
+text attributewidth QualifiedName MethodInvocation MethodInvocation SimpleName text utilities
+text attributewidth QualifiedName MethodInvocation MethodInvocation SimpleName convert font stretch
+text attributewidth QualifiedName MethodInvocation MethodInvocation SimpleName element
+text utilities SimpleName MethodInvocation SimpleName convert font style
+text utilities SimpleName MethodInvocation SimpleName element
+convert font style SimpleName MethodInvocation SimpleName element
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributeposture
+result SimpleName MethodInvocation MethodInvocation SimpleName text utilities
+result SimpleName MethodInvocation MethodInvocation SimpleName convert font style
+result SimpleName MethodInvocation MethodInvocation SimpleName element
+put SimpleName MethodInvocation QualifiedName text attributeposture
+put SimpleName MethodInvocation MethodInvocation SimpleName text utilities
+put SimpleName MethodInvocation MethodInvocation SimpleName convert font style
+put SimpleName MethodInvocation MethodInvocation SimpleName element
+text attributeposture QualifiedName MethodInvocation MethodInvocation SimpleName text utilities
+text attributeposture QualifiedName MethodInvocation MethodInvocation SimpleName convert font style
+text attributeposture QualifiedName MethodInvocation MethodInvocation SimpleName element
+text utilities SimpleName MethodInvocation SimpleName convert font weight
+text utilities SimpleName MethodInvocation SimpleName element
+convert font weight SimpleName MethodInvocation SimpleName element
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation QualifiedName text attributeweight
+result SimpleName MethodInvocation MethodInvocation SimpleName text utilities
+result SimpleName MethodInvocation MethodInvocation SimpleName convert font weight
+result SimpleName MethodInvocation MethodInvocation SimpleName element
+put SimpleName MethodInvocation QualifiedName text attributeweight
+put SimpleName MethodInvocation MethodInvocation SimpleName text utilities
+put SimpleName MethodInvocation MethodInvocation SimpleName convert font weight
+put SimpleName MethodInvocation MethodInvocation SimpleName element
+text attributeweight QualifiedName MethodInvocation MethodInvocation SimpleName text utilities
+text attributeweight QualifiedName MethodInvocation MethodInvocation SimpleName convert font weight
+text attributeweight QualifiedName MethodInvocation MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginefont weight index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginefont weight index
+element SimpleName MethodInvocation QualifiedName svgcss enginefont weight index
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName css utilities
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+v SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss enginefont weight index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get css text
+font weight string SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+font weight string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css text
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font weight string
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginefont style index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginefont style index
+element SimpleName MethodInvocation QualifiedName svgcss enginefont style index
+css utilities SimpleName MethodInvocation MethodInvocation SimpleName get string value
+get computed style SimpleName MethodInvocation MethodInvocation SimpleName get string value
+element SimpleName MethodInvocation MethodInvocation SimpleName get string value
+svgcss enginefont style index QualifiedName MethodInvocation MethodInvocation SimpleName get string value
+font style string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName css utilities
+font style string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get computed style
+font style string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName element
+font style string SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName svgcss enginefont style index
+font style string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font style string
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation SimpleName text compound delimiter
+result SimpleName MethodInvocation SimpleName element
+put SimpleName MethodInvocation SimpleName text compound delimiter
+put SimpleName MethodInvocation SimpleName element
+text compound delimiter SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginefont family index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginefont family index
+element SimpleName MethodInvocation QualifiedName svgcss enginefont family index
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName css utilities
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+val SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss enginefont family index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+font family list SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font family list
+font list SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font list
+val SimpleName MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName val
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+val SimpleName MethodInvocation SimpleName item
+val SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName val
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName get string value
+font family name SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+font family name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font family name
+gvt font family SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font family
+svg font utilities SimpleName MethodInvocation SimpleName get font family
+svg font utilities SimpleName MethodInvocation SimpleName element
+svg font utilities SimpleName MethodInvocation SimpleName ctx
+svg font utilities SimpleName MethodInvocation SimpleName font family name
+svg font utilities SimpleName MethodInvocation SimpleName font weight string
+get font family SimpleName MethodInvocation SimpleName element
+get font family SimpleName MethodInvocation SimpleName ctx
+get font family SimpleName MethodInvocation SimpleName font family name
+get font family SimpleName MethodInvocation SimpleName font weight string
+get font family SimpleName MethodInvocation SimpleName font style string
+element SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName font family name
+element SimpleName MethodInvocation SimpleName font weight string
+element SimpleName MethodInvocation SimpleName font style string
+ctx SimpleName MethodInvocation SimpleName font family name
+ctx SimpleName MethodInvocation SimpleName font weight string
+ctx SimpleName MethodInvocation SimpleName font style string
+font family name SimpleName MethodInvocation SimpleName font weight string
+font family name SimpleName MethodInvocation SimpleName font style string
+font weight string SimpleName MethodInvocation SimpleName font style string
+font family SimpleName Assignment MethodInvocation SimpleName svg font utilities
+font family SimpleName Assignment MethodInvocation SimpleName get font family
+font family SimpleName Assignment MethodInvocation SimpleName element
+font family SimpleName Assignment MethodInvocation SimpleName ctx
+font family SimpleName Assignment MethodInvocation SimpleName font family name
+font family SimpleName Assignment MethodInvocation SimpleName font weight string
+font family SimpleName Assignment MethodInvocation SimpleName font style string
+font family SimpleName InstanceofExpression SimpleType SimpleName unresolved font family
+unresolved font family SimpleName SimpleType CastExpression SimpleName font family
+font family resolver SimpleName MethodInvocation SimpleName resolve
+font family resolver SimpleName MethodInvocation CastExpression SimpleType SimpleName unresolved font family
+font family resolver SimpleName MethodInvocation CastExpression SimpleName font family
+resolve SimpleName MethodInvocation CastExpression SimpleType SimpleName unresolved font family
+resolve SimpleName MethodInvocation CastExpression SimpleName font family
+font family SimpleName Assignment MethodInvocation SimpleName font family resolver
+font family SimpleName Assignment MethodInvocation SimpleName resolve
+font family SimpleName Assignment MethodInvocation CastExpression SimpleName font family
+font family list SimpleName MethodInvocation SimpleName add
+font family list SimpleName MethodInvocation SimpleName font family
+add SimpleName MethodInvocation SimpleName font family
+font family SimpleName InstanceofExpression SimpleType SimpleName svg font family
+svg font family SimpleName SimpleType CastExpression SimpleName font family
+svg ff SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg font family
+svg ff SimpleName VariableDeclarationFragment CastExpression SimpleName font family
+svg font family SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg ff
+svg ff SimpleName MethodInvocation SimpleName is complex
+using complex svg font SimpleName Assignment BooleanLiteral true
+font family SimpleName MethodInvocation SimpleName derive font
+font family SimpleName MethodInvocation SimpleName font size
+font family SimpleName MethodInvocation SimpleName result
+derive font SimpleName MethodInvocation SimpleName font size
+derive font SimpleName MethodInvocation SimpleName result
+font size SimpleName MethodInvocation SimpleName result
+ft SimpleName VariableDeclarationFragment MethodInvocation SimpleName font family
+ft SimpleName VariableDeclarationFragment MethodInvocation SimpleName derive font
+ft SimpleName VariableDeclarationFragment MethodInvocation SimpleName font size
+ft SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+gvt font SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ft
+font list SimpleName MethodInvocation SimpleName add
+font list SimpleName MethodInvocation SimpleName ft
+add SimpleName MethodInvocation SimpleName ft
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation SimpleName gvt font families
+result SimpleName MethodInvocation SimpleName font family list
+put SimpleName MethodInvocation SimpleName gvt font families
+put SimpleName MethodInvocation SimpleName font family list
+gvt font families SimpleName MethodInvocation SimpleName font family list
+ctx SimpleName MethodInvocation SimpleName is dynamic
+result SimpleName MethodInvocation SimpleName remove
+result SimpleName MethodInvocation SimpleName text compound delimiter
+remove SimpleName MethodInvocation SimpleName text compound delimiter
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName font list
+protected Modifier MethodDeclaration SimpleType SimpleName list
+protected Modifier MethodDeclaration SimpleName get font list
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+list SimpleName SimpleType MethodDeclaration SimpleName get font list
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName result
+get font list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+get font list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+get font list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get font list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+get font list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+get font list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+get font list SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get font list SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get font list SimpleName MethodDeclaration Block ReturnStatement SimpleName font list
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get font list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get font list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result

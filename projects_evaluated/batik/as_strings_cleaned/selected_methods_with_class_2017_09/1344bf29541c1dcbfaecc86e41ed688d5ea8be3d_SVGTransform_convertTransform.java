@@ -1,0 +1,263 @@
+transform stack element SimpleName SimpleType SingleVariableDeclaration SimpleName transform element
+transform string SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transform string
+transform element SimpleName MethodInvocation SimpleName get transform parameters
+transform parameters SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform element
+transform parameters SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform parameters
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName transform parameters
+transform element SimpleName MethodInvocation SimpleName get type
+transform element SimpleName MethodInvocation MethodInvocation SimpleName to int
+get type SimpleName MethodInvocation MethodInvocation SimpleName to int
+transform element SimpleName MethodInvocation SimpleName is identity
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName transform translate
+append SimpleName MethodInvocation SimpleName transform translate
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName open parenthesis
+append SimpleName MethodInvocation SimpleName open parenthesis
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+append SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+append SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName close parenthesis
+append SimpleName MethodInvocation SimpleName close parenthesis
+transform element SimpleName MethodInvocation SimpleName is identity
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName transform rotate
+append SimpleName MethodInvocation SimpleName transform rotate
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName open parenthesis
+append SimpleName MethodInvocation SimpleName open parenthesis
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+radians to degrees SimpleName InfixExpression ArrayAccess SimpleName transform parameters
+radians to degrees SimpleName InfixExpression ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation InfixExpression SimpleName radians to degrees
+double string SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName radians to degrees
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName radians to degrees
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName close parenthesis
+append SimpleName MethodInvocation SimpleName close parenthesis
+transform element SimpleName MethodInvocation SimpleName is identity
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName transform scale
+append SimpleName MethodInvocation SimpleName transform scale
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName open parenthesis
+append SimpleName MethodInvocation SimpleName open parenthesis
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+append SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+append SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName close parenthesis
+append SimpleName MethodInvocation SimpleName close parenthesis
+transform element SimpleName MethodInvocation SimpleName is identity
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName transform matrix
+append SimpleName MethodInvocation SimpleName transform matrix
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName open parenthesis
+append SimpleName MethodInvocation SimpleName open parenthesis
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+append SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+append SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName close parenthesis
+append SimpleName MethodInvocation SimpleName close parenthesis
+transform element SimpleName MethodInvocation SimpleName is identity
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName transform matrix
+append SimpleName MethodInvocation SimpleName transform matrix
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName open parenthesis
+append SimpleName MethodInvocation SimpleName open parenthesis
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+append SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+append SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+append SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+append SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+append SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName comma
+append SimpleName MethodInvocation SimpleName comma
+transform parameters SimpleName ArrayAccess NumberLiteral empty
+double string SimpleName MethodInvocation ArrayAccess SimpleName transform parameters
+double string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation MethodInvocation SimpleName double string
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+transform string SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName double string
+append SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName transform parameters
+append SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+transform string SimpleName MethodInvocation SimpleName append
+transform string SimpleName MethodInvocation SimpleName close parenthesis
+append SimpleName MethodInvocation SimpleName close parenthesis
+to int SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName transform typetransform translate
+to int SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName transform typetransform rotate
+transform typetransform translate QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName transform typetransform rotate
+transform typetransform rotate QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName transform typetransform scale
+transform typetransform scale QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName transform typetransform shear
+transform typetransform shear QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName transform typetransform general
+transform string SimpleName MethodInvocation SimpleName to string
+final Modifier MethodDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName convert transform
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName transform stack element
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName transform element
+string SimpleName SimpleType MethodDeclaration SimpleName convert transform
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName transform element
+convert transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName transform stack element
+convert transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName transform element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transform element
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transform element

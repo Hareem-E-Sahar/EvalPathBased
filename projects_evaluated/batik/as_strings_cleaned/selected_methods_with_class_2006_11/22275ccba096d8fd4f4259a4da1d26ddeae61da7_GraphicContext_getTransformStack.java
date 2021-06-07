@@ -1,0 +1,16 @@
+transform stack SimpleName MethodInvocation SimpleName size
+stack SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName transform stack
+stack SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName size
+transform stack SimpleName MethodInvocation SimpleName copy into
+transform stack SimpleName MethodInvocation SimpleName stack
+copy into SimpleName MethodInvocation SimpleName stack
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName transform stack element
+public Modifier MethodDeclaration SimpleName get transform stack
+public Modifier MethodDeclaration Block ReturnStatement SimpleName stack
+transform stack element SimpleName SimpleType ArrayType MethodDeclaration SimpleName get transform stack
+get transform stack SimpleName MethodDeclaration Block ReturnStatement SimpleName stack
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get transform stack
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get transform stack

@@ -1,0 +1,113 @@
+int PrimitiveType SingleVariableDeclaration SimpleName type
+node SimpleName SimpleType SingleVariableDeclaration SimpleName old node
+node SimpleName SimpleType SingleVariableDeclaration SimpleName new node
+abstract node SimpleName SimpleType CastExpression SimpleName old node
+an SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+an SimpleName VariableDeclarationFragment CastExpression SimpleName old node
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName an
+anuser data QualifiedName MethodInvocation SimpleName entry set
+anuser data QualifiedName MethodInvocation MethodInvocation SimpleName iterator
+entry set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName anuser data
+i SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName entry set
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+mapentry QualifiedName SimpleType CastExpression MethodInvocation SimpleName i
+mapentry QualifiedName SimpleType CastExpression MethodInvocation SimpleName next
+e SimpleName VariableDeclarationFragment CastExpression SimpleType QualifiedName mapentry
+e SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+e SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+mapentry QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get key
+anuser data handlers QualifiedName MethodInvocation SimpleName get
+anuser data handlers QualifiedName MethodInvocation MethodInvocation SimpleName e
+anuser data handlers QualifiedName MethodInvocation MethodInvocation SimpleName get key
+get SimpleName MethodInvocation MethodInvocation SimpleName e
+get SimpleName MethodInvocation MethodInvocation SimpleName get key
+user data handler SimpleName SimpleType CastExpression MethodInvocation QualifiedName anuser data handlers
+user data handler SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+h SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName user data handler
+h SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName anuser data handlers
+h SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+user data handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+e SimpleName MethodInvocation SimpleName get key
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get key
+e SimpleName MethodInvocation SimpleName get value
+h SimpleName MethodInvocation SimpleName handle
+h SimpleName MethodInvocation QualifiedName user data handlernode imported
+h SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+h SimpleName MethodInvocation CastExpression MethodInvocation SimpleName e
+h SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get key
+h SimpleName MethodInvocation MethodInvocation SimpleName e
+h SimpleName MethodInvocation MethodInvocation SimpleName get value
+h SimpleName MethodInvocation SimpleName old node
+handle SimpleName MethodInvocation QualifiedName user data handlernode imported
+handle SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+handle SimpleName MethodInvocation CastExpression MethodInvocation SimpleName e
+handle SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get key
+handle SimpleName MethodInvocation MethodInvocation SimpleName e
+handle SimpleName MethodInvocation MethodInvocation SimpleName get value
+handle SimpleName MethodInvocation SimpleName old node
+handle SimpleName MethodInvocation SimpleName new node
+user data handlernode imported QualifiedName MethodInvocation CastExpression SimpleType SimpleName string
+user data handlernode imported QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName e
+user data handlernode imported QualifiedName MethodInvocation CastExpression MethodInvocation SimpleName get key
+user data handlernode imported QualifiedName MethodInvocation MethodInvocation SimpleName e
+user data handlernode imported QualifiedName MethodInvocation MethodInvocation SimpleName get value
+user data handlernode imported QualifiedName MethodInvocation SimpleName old node
+user data handlernode imported QualifiedName MethodInvocation SimpleName new node
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName old node
+e SimpleName MethodInvocation CastExpression MethodInvocation SimpleName old node
+get key SimpleName MethodInvocation CastExpression MethodInvocation SimpleName old node
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName new node
+e SimpleName MethodInvocation CastExpression MethodInvocation SimpleName new node
+get key SimpleName MethodInvocation CastExpression MethodInvocation SimpleName new node
+e SimpleName MethodInvocation MethodInvocation SimpleName old node
+get value SimpleName MethodInvocation MethodInvocation SimpleName old node
+e SimpleName MethodInvocation MethodInvocation SimpleName new node
+get value SimpleName MethodInvocation MethodInvocation SimpleName new node
+old node SimpleName MethodInvocation SimpleName new node
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName fire user data handlers
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName old node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName new node
+void PrimitiveType MethodDeclaration SimpleName fire user data handlers
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new node
+fire user data handlers SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+fire user data handlers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+fire user data handlers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+fire user data handlers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old node
+fire user data handlers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+fire user data handlers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new node
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old node
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old node
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new node
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new node
+old node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fire user data handlers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fire user data handlers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new node

@@ -1,0 +1,47 @@
+mutation event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get attr name
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attr name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+attr name SimpleName MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation SimpleName svg d attribute
+equals SimpleName MethodInvocation SimpleName svg d attribute
+evt SimpleName MethodInvocation SimpleName get new value
+evt SimpleName MethodInvocation MethodInvocation SimpleName length
+get new value SimpleName MethodInvocation MethodInvocation SimpleName length
+evt SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get new value SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+shape node SimpleName SimpleType CastExpression SimpleName node
+node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set shape
+node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName default shape
+set shape SimpleName MethodInvocation SimpleName default shape
+shape node SimpleName SimpleType CastExpression SimpleName node
+build shape SimpleName MethodInvocation SimpleName ctx
+build shape SimpleName MethodInvocation SimpleName e
+build shape SimpleName MethodInvocation CastExpression SimpleType SimpleName shape node
+build shape SimpleName MethodInvocation CastExpression SimpleName node
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation CastExpression SimpleType SimpleName shape node
+ctx SimpleName MethodInvocation CastExpression SimpleName node
+e SimpleName MethodInvocation CastExpression SimpleType SimpleName shape node
+e SimpleName MethodInvocation CastExpression SimpleName node
+handle dom attr modified event SimpleName SuperMethodInvocation SimpleName evt
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle dom attr modified event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName handle dom attr modified event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+handle dom attr modified event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+handle dom attr modified event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle dom attr modified event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle dom attr modified event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

@@ -1,0 +1,14 @@
+restart mode SimpleName InfixExpression SimpleName restart never
+is active SimpleName InfixExpression InfixExpression SimpleName restart mode
+is active SimpleName InfixExpression InfixExpression SimpleName restart never
+current interval SimpleName InfixExpression InfixExpression InfixExpression SimpleName is active
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can begin
+boolean PrimitiveType MethodDeclaration SimpleName can begin
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can begin
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can begin

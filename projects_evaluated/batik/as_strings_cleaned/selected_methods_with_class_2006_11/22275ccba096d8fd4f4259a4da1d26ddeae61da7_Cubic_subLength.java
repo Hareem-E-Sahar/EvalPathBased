@@ -1,0 +1,330 @@
+double PrimitiveType SingleVariableDeclaration SimpleName left leg len
+double PrimitiveType SingleVariableDeclaration SimpleName right leg len
+double PrimitiveType SingleVariableDeclaration SimpleName max err
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cldx
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cldy
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cdx
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cdy
+cldx SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName cldy
+cldx SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName cdx
+cldx SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName cdy
+cldy SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName cdx
+cldy SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName cdy
+cdx SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName cdy
+p x QualifiedName InfixExpression QualifiedName p x
+cldx SimpleName Assignment InfixExpression QualifiedName p x
+cldx SimpleName Assignment InfixExpression QualifiedName p x
+p y QualifiedName InfixExpression QualifiedName p y
+cldy SimpleName Assignment InfixExpression QualifiedName p y
+cldy SimpleName Assignment InfixExpression QualifiedName p y
+cldx SimpleName InfixExpression SimpleName cldx
+cldy SimpleName InfixExpression SimpleName cldy
+cldx SimpleName InfixExpression InfixExpression InfixExpression SimpleName cldy
+cldx SimpleName InfixExpression InfixExpression InfixExpression SimpleName cldy
+cldx SimpleName InfixExpression InfixExpression InfixExpression SimpleName cldy
+cldx SimpleName InfixExpression InfixExpression InfixExpression SimpleName cldy
+math SimpleName MethodInvocation SimpleName sqrt
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cldx
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cldx
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cldy
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cldy
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cldx
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cldx
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cldy
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cldy
+cross leg len SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+cross leg len SimpleName VariableDeclarationFragment MethodInvocation SimpleName sqrt
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cross leg len
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sqrt
+p x QualifiedName InfixExpression QualifiedName p x
+cdx SimpleName Assignment InfixExpression QualifiedName p x
+cdx SimpleName Assignment InfixExpression QualifiedName p x
+p y QualifiedName InfixExpression QualifiedName p y
+cdy SimpleName Assignment InfixExpression QualifiedName p y
+cdy SimpleName Assignment InfixExpression QualifiedName p y
+cdx SimpleName InfixExpression SimpleName cdx
+cdy SimpleName InfixExpression SimpleName cdy
+cdx SimpleName InfixExpression InfixExpression InfixExpression SimpleName cdy
+cdx SimpleName InfixExpression InfixExpression InfixExpression SimpleName cdy
+cdx SimpleName InfixExpression InfixExpression InfixExpression SimpleName cdy
+cdx SimpleName InfixExpression InfixExpression InfixExpression SimpleName cdy
+math SimpleName MethodInvocation SimpleName sqrt
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cdx
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cdx
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cdy
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cdy
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cdx
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cdx
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cdy
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName cdy
+cord len SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+cord len SimpleName VariableDeclarationFragment MethodInvocation SimpleName sqrt
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cord len
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sqrt
+left leg len SimpleName InfixExpression SimpleName right leg len
+left leg len SimpleName InfixExpression SimpleName cross leg len
+right leg len SimpleName InfixExpression SimpleName cross leg len
+hull len SimpleName VariableDeclarationFragment InfixExpression SimpleName left leg len
+hull len SimpleName VariableDeclarationFragment InfixExpression SimpleName right leg len
+hull len SimpleName VariableDeclarationFragment InfixExpression SimpleName cross leg len
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName hull len
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName left leg len
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName right leg len
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName cross leg len
+hull len SimpleName InfixExpression SimpleName max err
+hull len SimpleName InfixExpression SimpleName cord len
+hull len SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+cord len SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+hull len SimpleName InfixExpression SimpleName cord len
+err SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression SimpleName hull len
+err SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression SimpleName cord len
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName err
+err SimpleName InfixExpression SimpleName max err
+hull len SimpleName InfixExpression SimpleName cord len
+hull len SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+cord len SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+c SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cubic
+cubic SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+p x QualifiedName InfixExpression QualifiedName p x
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression QualifiedName p x
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression QualifiedName p x
+p x QualifiedName InfixExpression InfixExpression NumberLiteral empty
+p x QualifiedName InfixExpression InfixExpression QualifiedName p x
+empty NumberLiteral InfixExpression InfixExpression InfixExpression QualifiedName p x
+p x QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+np x SimpleName VariableDeclarationFragment InfixExpression NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName np x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral .
+p y QualifiedName InfixExpression QualifiedName p y
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression QualifiedName p y
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression QualifiedName p y
+p y QualifiedName InfixExpression InfixExpression NumberLiteral empty
+p y QualifiedName InfixExpression InfixExpression QualifiedName p y
+empty NumberLiteral InfixExpression InfixExpression InfixExpression QualifiedName p y
+p y QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+np y SimpleName VariableDeclarationFragment InfixExpression NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName np y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral .
+cldx SimpleName InfixExpression SimpleName cdx
+cldx SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+cdx SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+npdx SimpleName VariableDeclarationFragment InfixExpression NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName npdx
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral .
+cldy SimpleName InfixExpression SimpleName cdy
+cldy SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+cdy SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+npdy SimpleName VariableDeclarationFragment InfixExpression NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName npdy
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral .
+cp x QualifiedName Assignment QualifiedName p x
+cp y QualifiedName Assignment QualifiedName p y
+p x QualifiedName InfixExpression QualifiedName p x
+p x QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+p x QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+cp x QualifiedName Assignment InfixExpression NumberLiteral .
+p y QualifiedName InfixExpression QualifiedName p y
+p y QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+p y QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+cp y QualifiedName Assignment InfixExpression NumberLiteral .
+np x SimpleName InfixExpression SimpleName npdx
+cp x QualifiedName Assignment InfixExpression SimpleName np x
+cp x QualifiedName Assignment InfixExpression SimpleName npdx
+np y SimpleName InfixExpression SimpleName npdy
+cp y QualifiedName Assignment InfixExpression SimpleName np y
+cp y QualifiedName Assignment InfixExpression SimpleName npdy
+cp x QualifiedName Assignment SimpleName np x
+cp y QualifiedName Assignment SimpleName np y
+npdx SimpleName InfixExpression SimpleName npdx
+npdy SimpleName InfixExpression SimpleName npdy
+npdx SimpleName InfixExpression InfixExpression InfixExpression SimpleName npdy
+npdx SimpleName InfixExpression InfixExpression InfixExpression SimpleName npdy
+npdx SimpleName InfixExpression InfixExpression InfixExpression SimpleName npdy
+npdx SimpleName InfixExpression InfixExpression InfixExpression SimpleName npdy
+math SimpleName MethodInvocation SimpleName sqrt
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName npdx
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName npdx
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName npdy
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName npdy
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName npdx
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName npdx
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName npdy
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName npdy
+mid len SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+mid len SimpleName VariableDeclarationFragment MethodInvocation SimpleName sqrt
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mid len
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sqrt
+left leg len SimpleName InfixExpression NumberLiteral empty
+max err SimpleName InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation SimpleName sub length
+c SimpleName MethodInvocation InfixExpression SimpleName left leg len
+c SimpleName MethodInvocation InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation SimpleName mid len
+c SimpleName MethodInvocation InfixExpression SimpleName max err
+c SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sub length SimpleName MethodInvocation InfixExpression SimpleName left leg len
+sub length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sub length SimpleName MethodInvocation SimpleName mid len
+sub length SimpleName MethodInvocation InfixExpression SimpleName max err
+sub length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+left leg len SimpleName InfixExpression MethodInvocation SimpleName mid len
+empty NumberLiteral InfixExpression MethodInvocation SimpleName mid len
+left leg len SimpleName InfixExpression MethodInvocation InfixExpression SimpleName max err
+left leg len SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName max err
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+mid len SimpleName MethodInvocation InfixExpression SimpleName max err
+mid len SimpleName MethodInvocation InfixExpression NumberLiteral empty
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName sub length
+len SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName left leg len
+len SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName mid len
+len SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName max err
+len SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName c
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sub length
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mid len
+cp x QualifiedName Assignment SimpleName np x
+cp y QualifiedName Assignment SimpleName np y
+np x SimpleName InfixExpression SimpleName npdx
+cp x QualifiedName Assignment InfixExpression SimpleName np x
+cp x QualifiedName Assignment InfixExpression SimpleName npdx
+np y SimpleName InfixExpression SimpleName npdy
+cp y QualifiedName Assignment InfixExpression SimpleName np y
+cp y QualifiedName Assignment InfixExpression SimpleName npdy
+p x QualifiedName InfixExpression QualifiedName p x
+p x QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+p x QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+cp x QualifiedName Assignment InfixExpression NumberLiteral .
+p y QualifiedName InfixExpression QualifiedName p y
+p y QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+p y QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+cp y QualifiedName Assignment InfixExpression NumberLiteral .
+cp x QualifiedName Assignment QualifiedName p x
+cp y QualifiedName Assignment QualifiedName p y
+right leg len SimpleName InfixExpression NumberLiteral empty
+max err SimpleName InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation SimpleName sub length
+c SimpleName MethodInvocation SimpleName mid len
+c SimpleName MethodInvocation InfixExpression SimpleName right leg len
+c SimpleName MethodInvocation InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation InfixExpression SimpleName max err
+c SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sub length SimpleName MethodInvocation SimpleName mid len
+sub length SimpleName MethodInvocation InfixExpression SimpleName right leg len
+sub length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sub length SimpleName MethodInvocation InfixExpression SimpleName max err
+sub length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+mid len SimpleName MethodInvocation InfixExpression SimpleName right leg len
+mid len SimpleName MethodInvocation InfixExpression NumberLiteral empty
+mid len SimpleName MethodInvocation InfixExpression SimpleName max err
+mid len SimpleName MethodInvocation InfixExpression NumberLiteral empty
+right leg len SimpleName InfixExpression MethodInvocation InfixExpression SimpleName max err
+right leg len SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName max err
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+len SimpleName Assignment MethodInvocation SimpleName c
+len SimpleName Assignment MethodInvocation SimpleName sub length
+len SimpleName Assignment MethodInvocation SimpleName mid len
+len SimpleName Assignment MethodInvocation InfixExpression SimpleName right leg len
+len SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+len SimpleName Assignment MethodInvocation InfixExpression SimpleName max err
+len SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+protected Modifier MethodDeclaration PrimitiveType double
+protected Modifier MethodDeclaration SimpleName sub length
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName left leg len
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName right leg len
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName max err
+double PrimitiveType MethodDeclaration SimpleName sub length
+double PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+double PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName left leg len
+double PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+double PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName right leg len
+double PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+double PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max err
+double PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType MethodDeclaration Block ReturnStatement SimpleName len
+sub length SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+sub length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName left leg len
+sub length SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+sub length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName right leg len
+sub length SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+sub length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max err
+sub length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+sub length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+sub length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+sub length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+sub length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+sub length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+sub length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+sub length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+sub length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+sub length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+sub length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+sub length SimpleName MethodDeclaration Block ReturnStatement SimpleName len
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName right leg len
+left leg len SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+left leg len SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName right leg len
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max err
+left leg len SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+left leg len SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max err
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max err
+right leg len SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+right leg len SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max err
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SimpleName sub length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName left leg len
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName right leg len
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max err
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sub length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName left leg len
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName right leg len
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max err

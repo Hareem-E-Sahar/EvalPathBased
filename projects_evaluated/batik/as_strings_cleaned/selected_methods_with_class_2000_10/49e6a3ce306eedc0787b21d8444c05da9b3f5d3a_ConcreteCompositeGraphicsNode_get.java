@@ -1,0 +1,23 @@
+int PrimitiveType SingleVariableDeclaration SimpleName index
+check range SimpleName MethodInvocation SimpleName index
+children SimpleName ArrayAccess SimpleName index
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+object SimpleName SimpleType MethodDeclaration SimpleName get
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName index
+get SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index

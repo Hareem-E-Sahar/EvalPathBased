@@ -1,0 +1,43 @@
+interval SimpleName SimpleType SingleVariableDeclaration SimpleName interval
+trace SimpleName MethodInvocation SimpleName enter
+trace SimpleName MethodInvocation StringLiteral remove interval
+trace SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName interval
+enter SimpleName MethodInvocation StringLiteral remove interval
+enter SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName interval
+remove interval StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName interval
+instances SimpleName MethodInvocation SimpleName get
+instances SimpleName MethodInvocation SimpleName interval
+get SimpleName MethodInvocation SimpleName interval
+instance time SimpleName SimpleType CastExpression MethodInvocation SimpleName instances
+instance time SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+instance time SimpleName SimpleType CastExpression MethodInvocation SimpleName interval
+instance SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName instance time
+instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName instances
+instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+instance SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName interval
+instance time SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName instance
+interval SimpleName MethodInvocation SimpleName remove dependent
+interval SimpleName MethodInvocation SimpleName instance
+interval SimpleName MethodInvocation SimpleName sync begin
+remove dependent SimpleName MethodInvocation SimpleName instance
+remove dependent SimpleName MethodInvocation SimpleName sync begin
+instance SimpleName MethodInvocation SimpleName sync begin
+owner SimpleName MethodInvocation SimpleName remove instance time
+owner SimpleName MethodInvocation SimpleName instance
+owner SimpleName MethodInvocation SimpleName is begin
+remove instance time SimpleName MethodInvocation SimpleName instance
+remove instance time SimpleName MethodInvocation SimpleName is begin
+instance SimpleName MethodInvocation SimpleName is begin
+trace SimpleName MethodInvocation SimpleName exit
+void PrimitiveType MethodDeclaration SimpleName remove interval
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName interval
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName interval
+remove interval SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName interval
+remove interval SimpleName MethodDeclaration SingleVariableDeclaration SimpleName interval
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove interval
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interval
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove interval
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interval

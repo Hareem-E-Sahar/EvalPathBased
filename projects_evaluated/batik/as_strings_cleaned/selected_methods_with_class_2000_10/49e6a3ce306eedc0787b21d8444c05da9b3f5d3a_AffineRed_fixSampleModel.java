@@ -1,0 +1,67 @@
+cachable red SimpleName SimpleType SingleVariableDeclaration SimpleName src
+rectangle SimpleName SimpleType SingleVariableDeclaration SimpleName bounds
+src SimpleName MethodInvocation SimpleName get sample model
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName src
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sample model
+sample model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sm
+sm SimpleName MethodInvocation SimpleName get width
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName sm
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName get width
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sm
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get width
+w SimpleName InfixExpression QualifiedName boundswidth
+w SimpleName Assignment QualifiedName boundswidth
+sm SimpleName MethodInvocation SimpleName get height
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName sm
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName get height
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sm
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get height
+h SimpleName InfixExpression QualifiedName boundsheight
+h SimpleName Assignment QualifiedName boundsheight
+sm SimpleName MethodInvocation SimpleName create compatible sample model
+sm SimpleName MethodInvocation SimpleName w
+sm SimpleName MethodInvocation SimpleName h
+create compatible sample model SimpleName MethodInvocation SimpleName w
+create compatible sample model SimpleName MethodInvocation SimpleName h
+w SimpleName MethodInvocation SimpleName h
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName sample model
+protected Modifier MethodDeclaration SimpleName fix sample model
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cachable red
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName bounds
+static Modifier MethodDeclaration SimpleType SimpleName sample model
+static Modifier MethodDeclaration SimpleName fix sample model
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cachable red
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName bounds
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+sample model SimpleName SimpleType MethodDeclaration SimpleName fix sample model
+sample model SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName src
+sample model SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName bounds
+fix sample model SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cachable red
+fix sample model SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+fix sample model SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle
+fix sample model SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bounds
+fix sample model SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+fix sample model SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bounds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sample model
+public Modifier TypeDeclaration MethodDeclaration SimpleName fix sample model
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bounds
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sample model
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fix sample model
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bounds

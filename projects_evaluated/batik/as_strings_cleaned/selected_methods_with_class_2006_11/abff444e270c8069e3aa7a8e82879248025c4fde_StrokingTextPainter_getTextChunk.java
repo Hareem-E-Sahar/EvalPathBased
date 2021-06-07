@@ -1,0 +1,233 @@
+text node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName aci
+int PrimitiveType ArrayType SingleVariableDeclaration SimpleName char map
+list SimpleName SimpleType SingleVariableDeclaration SimpleName text runs
+text chunk SimpleName SimpleType SingleVariableDeclaration SimpleName prev chunk
+begin chunk SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin chunk
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+begin chunk SimpleName Assignment QualifiedName prev chunkend
+end chunk SimpleName VariableDeclarationFragment SimpleName begin chunk
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end chunk
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin chunk
+aci SimpleName MethodInvocation SimpleName get index
+begin SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+begin SimpleName VariableDeclarationFragment MethodInvocation SimpleName get index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get index
+aci SimpleName MethodInvocation SimpleName current
+aci SimpleName MethodInvocation InfixExpression QualifiedName character iteratordone
+current SimpleName MethodInvocation InfixExpression QualifiedName character iteratordone
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+offset SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point dfloat
+offset SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+offset SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+point dfloat QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName offset
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+advance SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point dfloat
+advance SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+advance SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+point dfloat QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName advance
+is chunk start SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is chunk start
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+text span layout SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName layout
+aci SimpleName MethodInvocation SimpleName get run start
+aci SimpleName MethodInvocation SimpleName extended atts
+get run start SimpleName MethodInvocation SimpleName extended atts
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName get run start
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName extended atts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get run start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName extended atts
+aci SimpleName MethodInvocation SimpleName get run limit
+aci SimpleName MethodInvocation SimpleName extended atts
+get run limit SimpleName MethodInvocation SimpleName extended atts
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName get run limit
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName extended atts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get run limit
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName extended atts
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName runaci
+attributed character span iterator SimpleName SimpleType ClassInstanceCreation SimpleName aci
+attributed character span iterator SimpleName SimpleType ClassInstanceCreation SimpleName start
+attributed character span iterator SimpleName SimpleType ClassInstanceCreation SimpleName end
+aci SimpleName ClassInstanceCreation SimpleName start
+aci SimpleName ClassInstanceCreation SimpleName end
+start SimpleName ClassInstanceCreation SimpleName end
+runaci SimpleName Assignment ClassInstanceCreation SimpleType SimpleName attributed character span iterator
+runaci SimpleName Assignment ClassInstanceCreation SimpleName aci
+runaci SimpleName Assignment ClassInstanceCreation SimpleName start
+runaci SimpleName Assignment ClassInstanceCreation SimpleName end
+end SimpleName InfixExpression SimpleName start
+int PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName end
+int PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName start
+sub char map SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+sub char map SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName end
+sub char map SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName start
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName sub char map
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName sub char maplength
+sub char map SimpleName ArrayAccess SimpleName i
+i SimpleName InfixExpression SimpleName start
+i SimpleName InfixExpression InfixExpression SimpleName begin
+start SimpleName InfixExpression InfixExpression SimpleName begin
+char map SimpleName ArrayAccess InfixExpression InfixExpression SimpleName i
+char map SimpleName ArrayAccess InfixExpression InfixExpression SimpleName start
+char map SimpleName ArrayAccess InfixExpression SimpleName begin
+sub char map SimpleName ArrayAccess Assignment ArrayAccess SimpleName char map
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName char map
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName sub char maplength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sub char maplength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+frc SimpleName VariableDeclarationFragment SimpleName font render context
+font render context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName frc
+font render context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font render context
+node SimpleName MethodInvocation SimpleName get rendering hints
+rh SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+rh SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rendering hints
+rendering hints SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rh
+rh SimpleName MethodInvocation SimpleName get
+rh SimpleName MethodInvocation QualifiedName rendering hintskey text antialiasing
+get SimpleName MethodInvocation QualifiedName rendering hintskey text antialiasing
+rh SimpleName MethodInvocation InfixExpression QualifiedName rendering hintsvalue text antialias off
+get SimpleName MethodInvocation InfixExpression QualifiedName rendering hintsvalue text antialias off
+rendering hintskey text antialiasing QualifiedName MethodInvocation InfixExpression QualifiedName rendering hintsvalue text antialias off
+frc SimpleName Assignment SimpleName aa off font render context
+get text layout factory SimpleName MethodInvocation MethodInvocation SimpleName create text layout
+get text layout factory SimpleName MethodInvocation MethodInvocation SimpleName runaci
+get text layout factory SimpleName MethodInvocation MethodInvocation SimpleName sub char map
+get text layout factory SimpleName MethodInvocation MethodInvocation SimpleName offset
+get text layout factory SimpleName MethodInvocation MethodInvocation SimpleName frc
+create text layout SimpleName MethodInvocation SimpleName runaci
+create text layout SimpleName MethodInvocation SimpleName sub char map
+create text layout SimpleName MethodInvocation SimpleName offset
+create text layout SimpleName MethodInvocation SimpleName frc
+runaci SimpleName MethodInvocation SimpleName sub char map
+runaci SimpleName MethodInvocation SimpleName offset
+runaci SimpleName MethodInvocation SimpleName frc
+sub char map SimpleName MethodInvocation SimpleName offset
+sub char map SimpleName MethodInvocation SimpleName frc
+offset SimpleName MethodInvocation SimpleName frc
+layout SimpleName Assignment MethodInvocation MethodInvocation SimpleName get text layout factory
+layout SimpleName Assignment MethodInvocation SimpleName create text layout
+layout SimpleName Assignment MethodInvocation SimpleName runaci
+layout SimpleName Assignment MethodInvocation SimpleName sub char map
+layout SimpleName Assignment MethodInvocation SimpleName offset
+layout SimpleName Assignment MethodInvocation SimpleName frc
+text run SimpleName SimpleType ClassInstanceCreation SimpleName layout
+text run SimpleName SimpleType ClassInstanceCreation SimpleName runaci
+text run SimpleName SimpleType ClassInstanceCreation SimpleName is chunk start
+layout SimpleName ClassInstanceCreation SimpleName runaci
+layout SimpleName ClassInstanceCreation SimpleName is chunk start
+runaci SimpleName ClassInstanceCreation SimpleName is chunk start
+text runs SimpleName MethodInvocation SimpleName add
+text runs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text run
+text runs SimpleName MethodInvocation ClassInstanceCreation SimpleName layout
+text runs SimpleName MethodInvocation ClassInstanceCreation SimpleName runaci
+text runs SimpleName MethodInvocation ClassInstanceCreation SimpleName is chunk start
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text run
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName layout
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName runaci
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName is chunk start
+layout SimpleName MethodInvocation SimpleName get advance d
+layout advance SimpleName VariableDeclarationFragment MethodInvocation SimpleName layout
+layout advance SimpleName VariableDeclarationFragment MethodInvocation SimpleName get advance d
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName layout advance
+layout advance SimpleName MethodInvocation SimpleName get x
+float PrimitiveType CastExpression MethodInvocation SimpleName layout advance
+float PrimitiveType CastExpression MethodInvocation SimpleName get x
+advancex QualifiedName Assignment CastExpression PrimitiveType float
+advancex QualifiedName Assignment CastExpression MethodInvocation SimpleName layout advance
+advancex QualifiedName Assignment CastExpression MethodInvocation SimpleName get x
+layout advance SimpleName MethodInvocation SimpleName get y
+float PrimitiveType CastExpression MethodInvocation SimpleName layout advance
+float PrimitiveType CastExpression MethodInvocation SimpleName get y
+advancey QualifiedName Assignment CastExpression PrimitiveType float
+advancey QualifiedName Assignment CastExpression MethodInvocation SimpleName layout advance
+advancey QualifiedName Assignment CastExpression MethodInvocation SimpleName get y
+aci SimpleName MethodInvocation SimpleName set index
+aci SimpleName MethodInvocation SimpleName end
+set index SimpleName MethodInvocation SimpleName end
+aci SimpleName MethodInvocation InfixExpression QualifiedName character iteratordone
+set index SimpleName MethodInvocation InfixExpression QualifiedName character iteratordone
+end SimpleName MethodInvocation InfixExpression QualifiedName character iteratordone
+is chunk start SimpleName Assignment BooleanLiteral false
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block DoStatement BooleanLiteral true
+int PrimitiveType VariableDeclarationStatement Block DoStatement BooleanLiteral true
+text chunk SimpleName SimpleType ClassInstanceCreation SimpleName begin chunk
+text chunk SimpleName SimpleType ClassInstanceCreation SimpleName end chunk
+text chunk SimpleName SimpleType ClassInstanceCreation SimpleName advance
+begin chunk SimpleName ClassInstanceCreation SimpleName end chunk
+begin chunk SimpleName ClassInstanceCreation SimpleName advance
+end chunk SimpleName ClassInstanceCreation SimpleName advance
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block DoStatement BooleanLiteral true
+protected Modifier MethodDeclaration SimpleType SimpleName text chunk
+protected Modifier MethodDeclaration SimpleName get text chunk
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName aci
+protected Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName char map
+text chunk SimpleName SimpleType MethodDeclaration SimpleName get text chunk
+text chunk SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+text chunk SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName aci
+text chunk SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName char map
+text chunk SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName text runs
+get text chunk SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+get text chunk SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+get text chunk SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+get text chunk SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aci
+get text chunk SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+get text chunk SimpleName MethodDeclaration SingleVariableDeclaration SimpleName char map
+get text chunk SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+get text chunk SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text runs
+get text chunk SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text chunk
+get text chunk SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prev chunk
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName char map
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text runs
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev chunk
+aci SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName char map
+aci SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text runs
+aci SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev chunk
+char map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text runs
+char map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev chunk
+text runs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev chunk
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text chunk
+public Modifier TypeDeclaration MethodDeclaration SimpleName get text chunk
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName char map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text runs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev chunk
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text chunk
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get text chunk
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName char map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text runs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev chunk

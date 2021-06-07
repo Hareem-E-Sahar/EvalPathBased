@@ -1,0 +1,50 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName old id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new id
+old id SimpleName InfixExpression SimpleName new id
+old id SimpleName MethodInvocation SimpleName equals
+old id SimpleName MethodInvocation SimpleName new id
+equals SimpleName MethodInvocation SimpleName new id
+remove id entry SimpleName MethodInvocation SimpleName e
+remove id entry SimpleName MethodInvocation SimpleName old id
+e SimpleName MethodInvocation SimpleName old id
+add id entry SimpleName MethodInvocation SimpleName e
+add id entry SimpleName MethodInvocation SimpleName new id
+e SimpleName MethodInvocation SimpleName new id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update id entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName old id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new id
+void PrimitiveType MethodDeclaration SimpleName update id entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new id
+update id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+update id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+update id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old id
+update id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new id
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old id
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new id
+old id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update id entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update id entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new id

@@ -1,0 +1,19 @@
+composite rule SimpleName SimpleType SingleVariableDeclaration SimpleName cr
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set composite rule
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite rule
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cr
+void PrimitiveType MethodDeclaration SimpleName set composite rule
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite rule
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cr
+set composite rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite rule
+set composite rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set composite rule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cr
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set composite rule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cr

@@ -1,0 +1,48 @@
+int PrimitiveType SingleVariableDeclaration SimpleName idx
+i SimpleName VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName idx
+i SimpleName InfixExpression SimpleName count
+values SimpleName ArrayAccess SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+values SimpleName ArrayAccess InfixExpression SimpleName i
+values SimpleName ArrayAccess InfixExpression NumberLiteral empty
+values SimpleName ArrayAccess Assignment ArrayAccess SimpleName values
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName values
+indexes SimpleName ArrayAccess SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+indexes SimpleName ArrayAccess InfixExpression SimpleName i
+indexes SimpleName ArrayAccess InfixExpression NumberLiteral empty
+indexes SimpleName ArrayAccess Assignment ArrayAccess SimpleName indexes
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName indexes
+priorities SimpleName ArrayAccess SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+priorities SimpleName ArrayAccess InfixExpression SimpleName i
+priorities SimpleName ArrayAccess InfixExpression NumberLiteral empty
+priorities SimpleName ArrayAccess Assignment ArrayAccess SimpleName priorities
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName priorities
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName idx
+void PrimitiveType MethodDeclaration SimpleName remove
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName idx
+remove SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+remove SimpleName MethodDeclaration SingleVariableDeclaration SimpleName idx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idx

@@ -1,0 +1,19 @@
+set SimpleName SimpleType SingleVariableDeclaration SimpleName attributes
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get run start
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+int PrimitiveType MethodDeclaration SimpleName get run start
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+get run start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+get run start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get run start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get run start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes

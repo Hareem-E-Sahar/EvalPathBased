@@ -1,0 +1,39 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName MethodInvocation SimpleName get node type
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation SimpleName get node type
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName n
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation SimpleName get node name
+get node name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName n
+get node name SimpleName MethodInvocation ArrayInitializer MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionhierarchy request err
+create dom exception SimpleName MethodInvocation StringLiteral childtype
+dom exceptionhierarchy request err QualifiedName MethodInvocation StringLiteral childtype
+n SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName text node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName text node
+n SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName entity reference node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName entity reference node
+n SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName document fragment node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName document fragment node
+text node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName entity reference node
+text node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document fragment node
+entity reference node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document fragment node
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName check child type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName check child type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+check child type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+check child type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check child type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check child type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

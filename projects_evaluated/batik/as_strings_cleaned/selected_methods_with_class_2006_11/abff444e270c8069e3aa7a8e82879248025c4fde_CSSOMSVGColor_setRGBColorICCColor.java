@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName rgb
+string SimpleName SimpleType SingleVariableDeclaration SimpleName icc
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionno modification allowed err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptionno modification allowed err QualifiedName ClassInstanceCreation StringLiteral empty
+handler SimpleName MethodInvocation SimpleName rgb color icc color changed
+handler SimpleName MethodInvocation SimpleName rgb
+handler SimpleName MethodInvocation SimpleName icc
+rgb color icc color changed SimpleName MethodInvocation SimpleName rgb
+rgb color icc color changed SimpleName MethodInvocation SimpleName icc
+rgb SimpleName MethodInvocation SimpleName icc
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set rgb color icc color
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rgb
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName icc
+void PrimitiveType MethodDeclaration SimpleName set rgb color icc color
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rgb
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName icc
+set rgb color icc color SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set rgb color icc color SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rgb
+set rgb color icc color SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set rgb color icc color SimpleName MethodDeclaration SingleVariableDeclaration SimpleName icc
+rgb SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName icc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set rgb color icc color
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rgb
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName icc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set rgb color icc color
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rgb
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName icc

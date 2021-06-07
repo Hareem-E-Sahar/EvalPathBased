@@ -1,0 +1,19 @@
+bridge mutation event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge mutation event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName update
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge mutation event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge mutation event
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

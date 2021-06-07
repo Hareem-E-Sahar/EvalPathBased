@@ -1,0 +1,16 @@
+abstract svg animated length SimpleName SimpleType CastExpression MethodInvocation SimpleName get rx
+rx SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract svg animated length
+rx SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get rx
+abstract svg animated length SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rx
+rx SimpleName MethodInvocation SimpleName is specified
+rx SimpleName MethodInvocation SimpleName attr changed
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName attr changed
+void PrimitiveType MethodDeclaration SimpleName attr changed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName attr changed
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName attr changed

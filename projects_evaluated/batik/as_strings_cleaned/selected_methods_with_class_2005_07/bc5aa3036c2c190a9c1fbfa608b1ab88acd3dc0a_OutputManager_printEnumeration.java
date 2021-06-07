@@ -1,0 +1,70 @@
+list SimpleName SimpleType SingleVariableDeclaration SimpleName names
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral (
+write SimpleName MethodInvocation CharacterLiteral (
+names SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName names
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName next
+name info SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+name info SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+ni SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName name info
+ni SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName it
+ni SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+name info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ni
+print spaces SimpleName MethodInvocation QualifiedName nispace
+print spaces SimpleName MethodInvocation BooleanLiteral true
+nispace QualifiedName MethodInvocation BooleanLiteral true
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation QualifiedName niname
+write SimpleName MethodInvocation QualifiedName niname
+print spaces SimpleName MethodInvocation QualifiedName nispace
+print spaces SimpleName MethodInvocation BooleanLiteral true
+nispace QualifiedName MethodInvocation BooleanLiteral true
+it SimpleName MethodInvocation SimpleName has next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral 
+write SimpleName MethodInvocation CharacterLiteral 
+it SimpleName MethodInvocation SimpleName next
+name info SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+name info SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+ni SimpleName Assignment CastExpression SimpleType SimpleName name info
+ni SimpleName Assignment CastExpression MethodInvocation SimpleName it
+ni SimpleName Assignment CastExpression MethodInvocation SimpleName next
+print spaces SimpleName MethodInvocation QualifiedName nispace
+print spaces SimpleName MethodInvocation BooleanLiteral true
+nispace QualifiedName MethodInvocation BooleanLiteral true
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation QualifiedName niname
+write SimpleName MethodInvocation QualifiedName niname
+print spaces SimpleName MethodInvocation QualifiedName nispace
+print spaces SimpleName MethodInvocation BooleanLiteral true
+nispace QualifiedName MethodInvocation BooleanLiteral true
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral )
+write SimpleName MethodInvocation CharacterLiteral )
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print enumeration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName names
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName print enumeration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName names
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+print enumeration SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+print enumeration SimpleName MethodDeclaration SingleVariableDeclaration SimpleName names
+print enumeration SimpleName MethodDeclaration SimpleType SimpleName io exception
+names SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print enumeration
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName names
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print enumeration
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName names
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

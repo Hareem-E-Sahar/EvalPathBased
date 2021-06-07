@@ -1,0 +1,29 @@
+anchor SimpleName SimpleType SingleVariableDeclaration SimpleName new anchor
+old anchor SimpleName VariableDeclarationFragment SimpleName anchor
+anchor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old anchor
+anchor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anchor
+anchor SimpleName FieldAccess Assignment SimpleName new anchor
+fire property change SimpleName MethodInvocation StringLiteral anchor
+fire property change SimpleName MethodInvocation SimpleName old anchor
+fire property change SimpleName MethodInvocation SimpleName anchor
+anchor StringLiteral MethodInvocation SimpleName old anchor
+anchor StringLiteral MethodInvocation SimpleName anchor
+old anchor SimpleName MethodInvocation SimpleName anchor
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set anchor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName anchor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new anchor
+void PrimitiveType MethodDeclaration SimpleName set anchor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName anchor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new anchor
+set anchor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName anchor
+set anchor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new anchor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set anchor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new anchor
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set anchor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new anchor

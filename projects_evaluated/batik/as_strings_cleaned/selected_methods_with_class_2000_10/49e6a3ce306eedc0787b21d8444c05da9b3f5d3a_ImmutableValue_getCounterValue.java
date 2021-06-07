@@ -1,0 +1,10 @@
+counter SimpleName SimpleType MethodDeclaration SimpleName get counter value
+counter SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+get counter value SimpleName MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName counter
+public Modifier TypeDeclaration MethodDeclaration SimpleName get counter value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName counter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get counter value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

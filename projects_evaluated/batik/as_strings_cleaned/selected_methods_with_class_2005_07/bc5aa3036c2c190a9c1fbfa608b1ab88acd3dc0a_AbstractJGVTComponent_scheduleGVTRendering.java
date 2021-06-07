@@ -1,0 +1,12 @@
+need render SimpleName Assignment BooleanLiteral true
+gvt tree renderer SimpleName MethodInvocation SimpleName halt
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName schedule gvt rendering
+void PrimitiveType MethodDeclaration SimpleName schedule gvt rendering
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName schedule gvt rendering
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName schedule gvt rendering

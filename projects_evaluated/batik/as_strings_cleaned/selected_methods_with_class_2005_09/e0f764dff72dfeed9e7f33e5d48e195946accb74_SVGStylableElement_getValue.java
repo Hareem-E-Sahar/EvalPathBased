@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+css engine SimpleName MethodInvocation SimpleName get property index
+css engine SimpleName MethodInvocation SimpleName name
+get property index SimpleName MethodInvocation SimpleName name
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName css engine
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property index
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName css engine
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+declaration SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName declaration
+i SimpleName InfixExpression MethodInvocation SimpleName size
+declaration SimpleName MethodInvocation SimpleName get index
+declaration SimpleName MethodInvocation SimpleName i
+get index SimpleName MethodInvocation SimpleName i
+idx SimpleName InfixExpression MethodInvocation SimpleName declaration
+idx SimpleName InfixExpression MethodInvocation SimpleName get index
+idx SimpleName InfixExpression MethodInvocation SimpleName i
+declaration SimpleName MethodInvocation SimpleName get value
+declaration SimpleName MethodInvocation SimpleName i
+get value SimpleName MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName get value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+value SimpleName SimpleType MethodDeclaration SimpleName get value
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

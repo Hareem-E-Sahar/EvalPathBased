@@ -1,0 +1,20 @@
+value factory map SimpleName SimpleType SingleVariableDeclaration SimpleName map
+factories SimpleName Assignment SimpleName map
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set value factory map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value factory map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName map
+void PrimitiveType MethodDeclaration SimpleName set value factory map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value factory map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName map
+set value factory map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value factory map
+set value factory map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set value factory map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set value factory map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map

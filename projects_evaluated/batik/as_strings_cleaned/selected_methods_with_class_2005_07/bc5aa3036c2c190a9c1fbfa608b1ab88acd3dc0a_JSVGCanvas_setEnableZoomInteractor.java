@@ -1,0 +1,43 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName b
+is zoom interactor enabled SimpleName InfixExpression SimpleName b
+old value SimpleName VariableDeclarationFragment SimpleName is zoom interactor enabled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName old value
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is zoom interactor enabled
+is zoom interactor enabled SimpleName Assignment SimpleName b
+get interactors SimpleName MethodInvocation MethodInvocation SimpleName add
+get interactors SimpleName MethodInvocation MethodInvocation SimpleName zoom interactor
+add SimpleName MethodInvocation SimpleName zoom interactor
+get interactors SimpleName MethodInvocation MethodInvocation SimpleName remove
+get interactors SimpleName MethodInvocation MethodInvocation SimpleName zoom interactor
+remove SimpleName MethodInvocation SimpleName zoom interactor
+pcs SimpleName MethodInvocation SimpleName fire property change
+pcs SimpleName MethodInvocation StringLiteral enable zoom interactor
+pcs SimpleName MethodInvocation SimpleName old value
+pcs SimpleName MethodInvocation SimpleName b
+fire property change SimpleName MethodInvocation StringLiteral enable zoom interactor
+fire property change SimpleName MethodInvocation SimpleName old value
+fire property change SimpleName MethodInvocation SimpleName b
+enable zoom interactor StringLiteral MethodInvocation SimpleName old value
+enable zoom interactor StringLiteral MethodInvocation SimpleName b
+old value SimpleName MethodInvocation SimpleName b
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is zoom interactor enabled
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set enable zoom interactor
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+void PrimitiveType MethodDeclaration SimpleName set enable zoom interactor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName b
+set enable zoom interactor SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set enable zoom interactor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set enable zoom interactor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set enable zoom interactor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b

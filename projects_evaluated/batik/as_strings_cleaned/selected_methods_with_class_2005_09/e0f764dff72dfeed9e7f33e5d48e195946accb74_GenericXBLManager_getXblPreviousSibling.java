@@ -1,0 +1,19 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName MethodInvocation SimpleName get previous sibling
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName get xbl previous sibling
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleName get xbl previous sibling
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get xbl previous sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get xbl previous sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get xbl previous sibling
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get xbl previous sibling
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

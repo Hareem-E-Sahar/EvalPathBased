@@ -1,0 +1,75 @@
+t SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName internal png transcoder
+image transcoder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName MethodInvocation SimpleName add transcoding hint
+t SimpleName MethodInvocation QualifiedName png transcoderkey force transparent white
+t SimpleName MethodInvocation QualifiedName booleanfalse
+add transcoding hint SimpleName MethodInvocation QualifiedName png transcoderkey force transparent white
+add transcoding hint SimpleName MethodInvocation QualifiedName booleanfalse
+png transcoderkey force transparent white QualifiedName MethodInvocation QualifiedName booleanfalse
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+t SimpleName MethodInvocation SimpleName add transcoding hint
+t SimpleName MethodInvocation QualifiedName png transcoderkey background color
+t SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName color
+t SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+t SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+t SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+t SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add transcoding hint SimpleName MethodInvocation QualifiedName png transcoderkey background color
+add transcoding hint SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName color
+add transcoding hint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add transcoding hint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add transcoding hint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+add transcoding hint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+png transcoderkey background color QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName color
+png transcoderkey background color QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+png transcoderkey background color QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+png transcoderkey background color QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+png transcoderkey background color QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral empty
+t SimpleName MethodInvocation SimpleName add transcoding hint
+t SimpleName MethodInvocation QualifiedName png transcoderkey execute onload
+t SimpleName MethodInvocation QualifiedName booleantrue
+add transcoding hint SimpleName MethodInvocation QualifiedName png transcoderkey execute onload
+add transcoding hint SimpleName MethodInvocation QualifiedName booleantrue
+png transcoderkey execute onload QualifiedName MethodInvocation QualifiedName booleantrue
+t SimpleName MethodInvocation SimpleName add transcoding hint
+t SimpleName MethodInvocation QualifiedName png transcoderkey xml parser validating
+t SimpleName MethodInvocation QualifiedName booleantrue
+add transcoding hint SimpleName MethodInvocation QualifiedName png transcoderkey xml parser validating
+add transcoding hint SimpleName MethodInvocation QualifiedName booleantrue
+png transcoderkey xml parser validating QualifiedName MethodInvocation QualifiedName booleantrue
+t SimpleName MethodInvocation SimpleName add transcoding hint
+t SimpleName MethodInvocation QualifiedName png transcoderkey xml parser classname
+t SimpleName MethodInvocation SimpleName validating parser
+add transcoding hint SimpleName MethodInvocation QualifiedName png transcoderkey xml parser classname
+add transcoding hint SimpleName MethodInvocation SimpleName validating parser
+png transcoderkey xml parser classname QualifiedName MethodInvocation SimpleName validating parser
+t SimpleName MethodInvocation SimpleName add transcoding hint
+t SimpleName MethodInvocation QualifiedName png transcoderkey language
+t SimpleName MethodInvocation SimpleName user language
+add transcoding hint SimpleName MethodInvocation QualifiedName png transcoderkey language
+add transcoding hint SimpleName MethodInvocation SimpleName user language
+png transcoderkey language QualifiedName MethodInvocation SimpleName user language
+validate SimpleName IfStatement Block ReturnStatement SimpleName t
+public Modifier MethodDeclaration SimpleType SimpleName image transcoder
+public Modifier MethodDeclaration SimpleName get test image transcoder
+public Modifier MethodDeclaration Block IfStatement SimpleName validate
+public Modifier MethodDeclaration Block ReturnStatement SimpleName t
+image transcoder SimpleName SimpleType MethodDeclaration SimpleName get test image transcoder
+get test image transcoder SimpleName MethodDeclaration Block IfStatement SimpleName validate
+get test image transcoder SimpleName MethodDeclaration Block ReturnStatement SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName image transcoder
+public Modifier TypeDeclaration MethodDeclaration SimpleName get test image transcoder
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName image transcoder
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get test image transcoder

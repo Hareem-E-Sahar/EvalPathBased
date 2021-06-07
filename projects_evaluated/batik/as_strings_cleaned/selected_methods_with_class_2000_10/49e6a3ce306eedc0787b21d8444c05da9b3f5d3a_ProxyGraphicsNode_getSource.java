@@ -1,0 +1,6 @@
+graphics node SimpleName SimpleType MethodDeclaration SimpleName get source
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get source
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get source

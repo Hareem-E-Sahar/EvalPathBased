@@ -1,0 +1,138 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+user agent SimpleName SimpleType SingleVariableDeclaration SimpleName ua
+elt SimpleName MethodInvocation SimpleName has attribute ns
+elt SimpleName MethodInvocation SimpleName svg system language attribute
+has attribute ns SimpleName MethodInvocation SimpleName svg system language attribute
+elt SimpleName MethodInvocation SimpleName get attribute ns
+elt SimpleName MethodInvocation SimpleName svg system language attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg system language attribute
+sl SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+sl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+sl SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg system language attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sl
+sl SimpleName MethodInvocation SimpleName length
+sl SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName sl
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+sl SimpleName ClassInstanceCreation StringLiteral empty
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sl
+st SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+st SimpleName MethodInvocation SimpleName has more tokens
+st SimpleName MethodInvocation SimpleName next token
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName next token
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+ua SimpleName MethodInvocation SimpleName get languages
+match user language SimpleName MethodInvocation SimpleName s
+match user language SimpleName MethodInvocation MethodInvocation SimpleName ua
+match user language SimpleName MethodInvocation MethodInvocation SimpleName get languages
+s SimpleName MethodInvocation MethodInvocation SimpleName ua
+s SimpleName MethodInvocation MethodInvocation SimpleName get languages
+test SimpleName LabeledStatement IfStatement MethodInvocation SimpleName elt
+test SimpleName LabeledStatement IfStatement MethodInvocation SimpleName has attribute ns
+test SimpleName LabeledStatement IfStatement MethodInvocation SimpleName svg system language attribute
+elt SimpleName MethodInvocation SimpleName has attribute ns
+elt SimpleName MethodInvocation SimpleName svg required features attribute
+has attribute ns SimpleName MethodInvocation SimpleName svg required features attribute
+elt SimpleName MethodInvocation SimpleName get attribute ns
+elt SimpleName MethodInvocation SimpleName svg required features attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg required features attribute
+rf SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+rf SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+rf SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg required features attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rf
+rf SimpleName MethodInvocation SimpleName length
+rf SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName rf
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+rf SimpleName ClassInstanceCreation StringLiteral empty
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName rf
+st SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+st SimpleName MethodInvocation SimpleName has more tokens
+st SimpleName MethodInvocation SimpleName next token
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName next token
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+ua SimpleName MethodInvocation SimpleName has feature
+ua SimpleName MethodInvocation SimpleName s
+has feature SimpleName MethodInvocation SimpleName s
+elt SimpleName MethodInvocation SimpleName has attribute ns
+elt SimpleName MethodInvocation SimpleName svg required extensions attribute
+has attribute ns SimpleName MethodInvocation SimpleName svg required extensions attribute
+elt SimpleName MethodInvocation SimpleName get attribute ns
+elt SimpleName MethodInvocation SimpleName svg required extensions attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg required extensions attribute
+re SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+re SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+re SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg required extensions attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName re
+re SimpleName MethodInvocation SimpleName length
+re SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName re
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+re SimpleName ClassInstanceCreation StringLiteral empty
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName re
+st SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+st SimpleName MethodInvocation SimpleName has more tokens
+st SimpleName MethodInvocation SimpleName next token
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName next token
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+ua SimpleName MethodInvocation SimpleName support extension
+ua SimpleName MethodInvocation SimpleName s
+support extension SimpleName MethodInvocation SimpleName s
+test SimpleName LabeledStatement Block ReturnStatement BooleanLiteral true
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName match user agent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user agent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ua
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName match user agent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user agent
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ua
+static Modifier MethodDeclaration Block LabeledStatement SimpleName test
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName match user agent
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elt
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user agent
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ua
+boolean PrimitiveType MethodDeclaration Block LabeledStatement SimpleName test
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+match user agent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+match user agent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+match user agent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user agent
+match user agent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ua
+match user agent SimpleName MethodDeclaration Block LabeledStatement SimpleName test
+match user agent SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ua
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName match user agent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ua
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName match user agent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ua

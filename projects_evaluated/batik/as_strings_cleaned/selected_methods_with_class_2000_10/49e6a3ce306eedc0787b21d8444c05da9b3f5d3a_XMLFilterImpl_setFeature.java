@@ -1,0 +1,57 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+boolean PrimitiveType SingleVariableDeclaration SimpleName state
+parent SimpleName MethodInvocation SimpleName set feature
+parent SimpleName MethodInvocation SimpleName name
+parent SimpleName MethodInvocation SimpleName state
+set feature SimpleName MethodInvocation SimpleName name
+set feature SimpleName MethodInvocation SimpleName state
+name SimpleName MethodInvocation SimpleName state
+feature StringLiteral InfixExpression SimpleName name
+sax not recognized exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral feature
+sax not recognized exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set feature
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier MethodDeclaration SimpleType SimpleName sax not recognized exception
+void PrimitiveType MethodDeclaration SimpleName set feature
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax not recognized exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax not supported exception
+set feature SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set feature SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+set feature SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set feature SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+set feature SimpleName MethodDeclaration SimpleType SimpleName sax not recognized exception
+set feature SimpleName MethodDeclaration SimpleType SimpleName sax not supported exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not recognized exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not recognized exception
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not recognized exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception
+state SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception
+sax not recognized exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName sax not supported exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set feature
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax not recognized exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set feature
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax not recognized exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception

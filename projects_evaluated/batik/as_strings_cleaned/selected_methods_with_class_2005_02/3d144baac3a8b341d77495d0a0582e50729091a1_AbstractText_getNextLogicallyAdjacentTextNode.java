@@ -1,0 +1,58 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+n SimpleName MethodInvocation SimpleName get parent node
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent
+p SimpleName InfixExpression InfixExpression InfixExpression SimpleName parent
+parent SimpleName MethodInvocation SimpleName get node type
+parent SimpleName MethodInvocation InfixExpression QualifiedName nodeentity reference node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeentity reference node
+p SimpleName Assignment SimpleName parent
+p SimpleName MethodInvocation SimpleName get parent node
+parent SimpleName Assignment MethodInvocation SimpleName p
+parent SimpleName Assignment MethodInvocation SimpleName get parent node
+p SimpleName MethodInvocation SimpleName get next sibling
+p SimpleName Assignment MethodInvocation SimpleName p
+p SimpleName Assignment MethodInvocation SimpleName get next sibling
+p SimpleName MethodInvocation SimpleName get node type
+p SimpleName MethodInvocation InfixExpression QualifiedName nodeentity reference node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeentity reference node
+p SimpleName InfixExpression InfixExpression InfixExpression QualifiedName nodeentity reference node
+p SimpleName MethodInvocation SimpleName get first child
+p SimpleName Assignment MethodInvocation SimpleName p
+p SimpleName Assignment MethodInvocation SimpleName get first child
+p SimpleName MethodInvocation SimpleName get node type
+nt SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+nt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get node type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nt
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName p
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get node type
+nt SimpleName InfixExpression QualifiedName nodetext node
+nt SimpleName InfixExpression QualifiedName nodecdata section node
+nt SimpleName InfixExpression InfixExpression InfixExpression SimpleName nt
+nt SimpleName InfixExpression InfixExpression InfixExpression QualifiedName nodecdata section node
+nodetext node QualifiedName InfixExpression InfixExpression InfixExpression SimpleName nt
+nodetext node QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName nodecdata section node
+protected Modifier MethodDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SimpleName get next logically adjacent text node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+node SimpleName SimpleType MethodDeclaration SimpleName get next logically adjacent text node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get next logically adjacent text node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get next logically adjacent text node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+get next logically adjacent text node SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get next logically adjacent text node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get next logically adjacent text node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

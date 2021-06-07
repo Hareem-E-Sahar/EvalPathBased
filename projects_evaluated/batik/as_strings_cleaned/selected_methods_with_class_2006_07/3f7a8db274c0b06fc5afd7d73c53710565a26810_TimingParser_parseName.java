@@ -1,0 +1,56 @@
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+mid escaped SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName mid escaped
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+char PrimitiveType CastExpression SimpleName current
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CastExpression PrimitiveType char
+sb SimpleName MethodInvocation CastExpression SimpleName current
+append SimpleName MethodInvocation CastExpression PrimitiveType char
+append SimpleName MethodInvocation CastExpression SimpleName current
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+mid escaped SimpleName Assignment BooleanLiteral false
+current SimpleName InfixExpression CharacterLiteral \\
+mid escaped SimpleName Assignment BooleanLiteral true
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml name character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name character SimpleName MethodInvocation CastExpression SimpleName current
+current SimpleName InfixExpression CharacterLiteral -
+current SimpleName InfixExpression CharacterLiteral .
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral .
+- CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
+- CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral .
+sb SimpleName MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName parse name
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SimpleName parse name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName parse exception
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+parse name SimpleName MethodDeclaration SimpleType SimpleName parse exception
+parse name SimpleName MethodDeclaration SimpleType SimpleName io exception
+parse name SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+parse exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

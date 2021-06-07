@@ -1,0 +1,162 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName anim elt
+animation target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ln
+boolean PrimitiveType SingleVariableDeclaration SimpleName is css
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+target SimpleName MethodInvocation SimpleName get element
+svgom element SimpleName SimpleType CastExpression MethodInvocation SimpleName target
+svgom element SimpleName SimpleType CastExpression MethodInvocation SimpleName get element
+elt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom element
+elt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName target
+elt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get element
+svgom element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+elt SimpleName MethodInvocation SimpleName get property type
+elt SimpleName MethodInvocation SimpleName ln
+get property type SimpleName MethodInvocation SimpleName ln
+type SimpleName Assignment MethodInvocation SimpleName elt
+type SimpleName Assignment MethodInvocation SimpleName get property type
+type SimpleName Assignment MethodInvocation SimpleName ln
+elt SimpleName MethodInvocation SimpleName get attribute type
+elt SimpleName MethodInvocation SimpleName ns
+elt SimpleName MethodInvocation SimpleName ln
+get attribute type SimpleName MethodInvocation SimpleName ns
+get attribute type SimpleName MethodInvocation SimpleName ln
+ns SimpleName MethodInvocation SimpleName ln
+type SimpleName Assignment MethodInvocation SimpleName elt
+type SimpleName Assignment MethodInvocation SimpleName get attribute type
+type SimpleName Assignment MethodInvocation SimpleName ns
+type SimpleName Assignment MethodInvocation SimpleName ln
+factories SimpleName ArrayAccess SimpleName type
+factory SimpleName VariableDeclarationFragment ArrayAccess SimpleName factories
+factory SimpleName VariableDeclarationFragment ArrayAccess SimpleName type
+factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+{ CharacterLiteral InfixExpression SimpleName ns
+{ CharacterLiteral InfixExpression CharacterLiteral }
+{ CharacterLiteral InfixExpression SimpleName ln
+ns SimpleName InfixExpression CharacterLiteral }
+ns SimpleName InfixExpression SimpleName ln
+} CharacterLiteral InfixExpression SimpleName ln
+ns SimpleName InfixExpression ConditionalExpression SimpleName ln
+ns SimpleName InfixExpression ConditionalExpression InfixExpression CharacterLiteral {
+ns SimpleName InfixExpression ConditionalExpression InfixExpression SimpleName ns
+ns SimpleName InfixExpression ConditionalExpression InfixExpression CharacterLiteral }
+ns SimpleName InfixExpression ConditionalExpression InfixExpression SimpleName ln
+ln SimpleName ConditionalExpression InfixExpression CharacterLiteral {
+ln SimpleName ConditionalExpression InfixExpression SimpleName ns
+ln SimpleName ConditionalExpression InfixExpression CharacterLiteral }
+ln SimpleName ConditionalExpression InfixExpression SimpleName ln
+an SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName ns
+an SimpleName VariableDeclarationFragment ConditionalExpression SimpleName ln
+an SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression CharacterLiteral {
+an SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName ns
+an SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression CharacterLiteral }
+an SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName ln
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName an
+target SimpleName MethodInvocation SimpleName get element
+target SimpleName MethodInvocation MethodInvocation SimpleName get node name
+get element SimpleName MethodInvocation MethodInvocation SimpleName get node name
+target SimpleName MethodInvocation MethodInvocation ArrayInitializer SimpleName an
+get element SimpleName MethodInvocation MethodInvocation ArrayInitializer SimpleName an
+get node name SimpleName MethodInvocation ArrayInitializer SimpleName an
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName anim elt
+bridge exception SimpleName SimpleType ClassInstanceCreation StringLiteral attributenotanimatable
+ctx SimpleName ClassInstanceCreation SimpleName anim elt
+ctx SimpleName ClassInstanceCreation StringLiteral attributenotanimatable
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName an
+anim elt SimpleName ClassInstanceCreation StringLiteral attributenotanimatable
+anim elt SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName an
+attributenotanimatable StringLiteral ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName an
+factories SimpleName ArrayAccess SimpleName type
+factories SimpleName ArrayAccess MethodInvocation SimpleName create value
+type SimpleName ArrayAccess MethodInvocation SimpleName create value
+factories SimpleName ArrayAccess MethodInvocation SimpleName target
+type SimpleName ArrayAccess MethodInvocation SimpleName target
+factories SimpleName ArrayAccess MethodInvocation SimpleName ns
+type SimpleName ArrayAccess MethodInvocation SimpleName ns
+factories SimpleName ArrayAccess MethodInvocation SimpleName ln
+type SimpleName ArrayAccess MethodInvocation SimpleName ln
+factories SimpleName ArrayAccess MethodInvocation SimpleName is css
+type SimpleName ArrayAccess MethodInvocation SimpleName is css
+create value SimpleName MethodInvocation SimpleName target
+create value SimpleName MethodInvocation SimpleName ns
+create value SimpleName MethodInvocation SimpleName ln
+create value SimpleName MethodInvocation SimpleName is css
+create value SimpleName MethodInvocation SimpleName s
+target SimpleName MethodInvocation SimpleName ns
+target SimpleName MethodInvocation SimpleName ln
+target SimpleName MethodInvocation SimpleName is css
+target SimpleName MethodInvocation SimpleName s
+ns SimpleName MethodInvocation SimpleName ln
+ns SimpleName MethodInvocation SimpleName is css
+ns SimpleName MethodInvocation SimpleName s
+ln SimpleName MethodInvocation SimpleName is css
+ln SimpleName MethodInvocation SimpleName s
+is css SimpleName MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is css
+public Modifier MethodDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SimpleName parse animatable value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName anim elt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns
+animatable value SimpleName SimpleType MethodDeclaration SimpleName parse animatable value
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName anim elt
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ns
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ln
+parse animatable value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+parse animatable value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anim elt
+parse animatable value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+parse animatable value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+parse animatable value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse animatable value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+parse animatable value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse animatable value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ln
+parse animatable value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+parse animatable value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is css
+anim elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+anim elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+anim elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+anim elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+anim elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is css
+anim elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is css
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is css
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+ln SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+ln SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is css
+ln SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+is css SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse animatable value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anim elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is css
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse animatable value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anim elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is css
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

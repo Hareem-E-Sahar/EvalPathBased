@@ -1,0 +1,101 @@
+composite graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName gn
+node SimpleName SimpleType SingleVariableDeclaration SimpleName parent
+element SimpleName SimpleType SingleVariableDeclaration SimpleName child elt
+ctx SimpleName MethodInvocation SimpleName get gvt builder
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+builder SimpleName VariableDeclarationFragment MethodInvocation SimpleName get gvt builder
+gvt builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+builder SimpleName MethodInvocation SimpleName build
+builder SimpleName MethodInvocation SimpleName ctx
+builder SimpleName MethodInvocation SimpleName child elt
+build SimpleName MethodInvocation SimpleName ctx
+build SimpleName MethodInvocation SimpleName child elt
+ctx SimpleName MethodInvocation SimpleName child elt
+child node SimpleName VariableDeclarationFragment MethodInvocation SimpleName builder
+child node SimpleName VariableDeclarationFragment MethodInvocation SimpleName build
+child node SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+child node SimpleName VariableDeclarationFragment MethodInvocation SimpleName child elt
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName child node
+idx SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+child elt SimpleName MethodInvocation SimpleName get previous sibling
+ps SimpleName VariableDeclarationFragment MethodInvocation SimpleName child elt
+ps SimpleName VariableDeclarationFragment MethodInvocation SimpleName get previous sibling
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName ps
+ps SimpleName MethodInvocation SimpleName get previous sibling
+ps SimpleName Assignment MethodInvocation SimpleName ps
+ps SimpleName Assignment MethodInvocation SimpleName get previous sibling
+ps SimpleName MethodInvocation SimpleName get node type
+ps SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName ps
+pse SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+pse SimpleName VariableDeclarationFragment CastExpression SimpleName ps
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pse
+ctx SimpleName MethodInvocation SimpleName get graphics node
+ctx SimpleName MethodInvocation SimpleName pse
+get graphics node SimpleName MethodInvocation SimpleName pse
+psgn SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+psgn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graphics node
+psgn SimpleName VariableDeclarationFragment MethodInvocation SimpleName pse
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName psgn
+psgn SimpleName MethodInvocation SimpleName get parent
+psgn SimpleName MethodInvocation InfixExpression SimpleName gn
+get parent SimpleName MethodInvocation InfixExpression SimpleName gn
+psgn SimpleName MethodInvocation SimpleName get parent
+psgn SimpleName Assignment MethodInvocation SimpleName psgn
+psgn SimpleName Assignment MethodInvocation SimpleName get parent
+gn SimpleName MethodInvocation SimpleName index of
+gn SimpleName MethodInvocation SimpleName psgn
+index of SimpleName MethodInvocation SimpleName psgn
+idx SimpleName Assignment MethodInvocation SimpleName gn
+idx SimpleName Assignment MethodInvocation SimpleName index of
+idx SimpleName Assignment MethodInvocation SimpleName psgn
+idx SimpleName InfixExpression PrefixExpression NumberLiteral empty
+ps SimpleName InfixExpression ForStatement Assignment SimpleName ps
+gn SimpleName MethodInvocation SimpleName add
+gn SimpleName MethodInvocation SimpleName idx
+gn SimpleName MethodInvocation SimpleName child node
+add SimpleName MethodInvocation SimpleName idx
+add SimpleName MethodInvocation SimpleName child node
+idx SimpleName MethodInvocation SimpleName child node
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle element added
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName gn
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName child elt
+void PrimitiveType MethodDeclaration SimpleName handle element added
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName gn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName parent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName child elt
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+handle element added SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node
+handle element added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gn
+handle element added SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+handle element added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent
+handle element added SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+handle element added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName child elt
+handle element added SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+gn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+gn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child elt
+parent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle element added
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle element added
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child elt

@@ -1,0 +1,22 @@
+dimension SimpleName SimpleType SingleVariableDeclaration SimpleName d
+set preferred size SimpleName MethodInvocation SimpleName d
+jsvg viewer frame SimpleName ThisExpression FieldAccess SimpleName auto adjust
+jsvg viewer frame SimpleName ThisExpression MethodInvocation SimpleName pack
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set my size
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dimension
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName d
+void PrimitiveType MethodDeclaration SimpleName set my size
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dimension
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName d
+set my size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dimension
+set my size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName d
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set my size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set my size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d

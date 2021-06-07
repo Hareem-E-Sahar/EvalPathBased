@@ -1,0 +1,16 @@
+type SimpleName Assignment QualifiedName svg lengthsvg lengthtype mm
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mm
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleName mm
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+mm SimpleName MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mm
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mm
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

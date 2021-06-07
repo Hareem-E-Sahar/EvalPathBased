@@ -1,0 +1,30 @@
+file SimpleName SimpleType SingleVariableDeclaration SimpleName f
+f SimpleName MethodInvocation SimpleName is absolute
+f SimpleName MethodInvocation SimpleName get absolute file
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SimpleName make absolute
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+private Modifier MethodDeclaration Block ReturnStatement SimpleName f
+static Modifier MethodDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SimpleName make absolute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+static Modifier MethodDeclaration Block ReturnStatement SimpleName f
+file SimpleName SimpleType MethodDeclaration SimpleName make absolute
+file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName f
+make absolute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file
+make absolute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+make absolute SimpleName MethodDeclaration Block ReturnStatement SimpleName f
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName make absolute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make absolute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f

@@ -1,0 +1,142 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+value SimpleName MethodInvocation SimpleName length
+value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+vb SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+vb SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName vb
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName value
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+value SimpleName ClassInstanceCreation StringLiteral empty
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName value
+st SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+i SimpleName InfixExpression NumberLiteral empty
+st SimpleName MethodInvocation SimpleName has more tokens
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName st
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has more tokens
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName st
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName has more tokens
+vb SimpleName ArrayAccess SimpleName i
+st SimpleName MethodInvocation SimpleName next token
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation MethodInvocation SimpleName st
+float SimpleName MethodInvocation MethodInvocation SimpleName next token
+parse float SimpleName MethodInvocation MethodInvocation SimpleName st
+parse float SimpleName MethodInvocation MethodInvocation SimpleName next token
+vb SimpleName ArrayAccess Assignment MethodInvocation SimpleName float
+vb SimpleName ArrayAccess Assignment MethodInvocation SimpleName parse float
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName float
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName parse float
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+svg view box attribute SimpleName ArrayInitializer SimpleName value
+svg view box attribute SimpleName ArrayInitializer SimpleName ex
+value SimpleName ArrayInitializer SimpleName ex
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err attribute value malformed
+ctx SimpleName ClassInstanceCreation SimpleName e
+ctx SimpleName ClassInstanceCreation SimpleName err attribute value malformed
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg view box attribute
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName value
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName ex
+e SimpleName ClassInstanceCreation SimpleName err attribute value malformed
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg view box attribute
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName value
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName ex
+err attribute value malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg view box attribute
+err attribute value malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName value
+err attribute value malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName ex
+i SimpleName InfixExpression NumberLiteral empty
+svg view box attribute SimpleName ArrayInitializer SimpleName value
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err attribute value malformed
+ctx SimpleName ClassInstanceCreation SimpleName e
+ctx SimpleName ClassInstanceCreation SimpleName err attribute value malformed
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg view box attribute
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName value
+e SimpleName ClassInstanceCreation SimpleName err attribute value malformed
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg view box attribute
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName value
+err attribute value malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg view box attribute
+err attribute value malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName value
+vb SimpleName ArrayAccess NumberLiteral empty
+vb SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+vb SimpleName ArrayAccess NumberLiteral empty
+vb SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+svg view box attribute SimpleName ArrayInitializer SimpleName value
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err attribute value malformed
+ctx SimpleName ClassInstanceCreation SimpleName e
+ctx SimpleName ClassInstanceCreation SimpleName err attribute value malformed
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg view box attribute
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName value
+e SimpleName ClassInstanceCreation SimpleName err attribute value malformed
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg view box attribute
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName value
+err attribute value malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg view box attribute
+err attribute value malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName value
+vb SimpleName ArrayAccess NumberLiteral empty
+vb SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+vb SimpleName ArrayAccess NumberLiteral empty
+vb SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType float
+public Modifier MethodDeclaration SimpleName parse view box attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration ArrayType PrimitiveType float
+static Modifier MethodDeclaration SimpleName parse view box attribute
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+float PrimitiveType ArrayType MethodDeclaration SimpleName parse view box attribute
+float PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName e
+float PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName value
+float PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+parse view box attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+parse view box attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+parse view box attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse view box attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+parse view box attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+parse view box attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+parse view box attribute SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse view box attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName vb
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse view box attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse view box attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

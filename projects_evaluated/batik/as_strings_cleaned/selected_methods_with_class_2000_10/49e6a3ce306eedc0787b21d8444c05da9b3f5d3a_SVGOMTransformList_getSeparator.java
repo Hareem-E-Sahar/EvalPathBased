@@ -1,0 +1,12 @@
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get separator
+protected Modifier MethodDeclaration Block ReturnStatement StringLiteral empty
+string SimpleName SimpleType MethodDeclaration SimpleName get separator
+get separator SimpleName MethodDeclaration Block ReturnStatement StringLiteral empty
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get separator
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get separator

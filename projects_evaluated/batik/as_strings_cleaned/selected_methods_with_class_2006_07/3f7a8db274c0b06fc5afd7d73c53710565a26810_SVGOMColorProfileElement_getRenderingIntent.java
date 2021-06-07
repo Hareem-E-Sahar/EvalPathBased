@@ -1,0 +1,43 @@
+get attribute node ns SimpleName MethodInvocation SimpleName svg rendering intent attribute
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute node ns
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg rendering intent attribute
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get value
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+val SimpleName MethodInvocation SimpleName length
+val SimpleName MethodInvocation SimpleName equals
+val SimpleName MethodInvocation SimpleName svg auto value
+equals SimpleName MethodInvocation SimpleName svg auto value
+val SimpleName MethodInvocation SimpleName equals
+val SimpleName MethodInvocation SimpleName svg perceptual value
+equals SimpleName MethodInvocation SimpleName svg perceptual value
+val SimpleName MethodInvocation SimpleName equals
+val SimpleName MethodInvocation SimpleName svg saturate value
+equals SimpleName MethodInvocation SimpleName svg saturate value
+val SimpleName MethodInvocation SimpleName equals
+val SimpleName MethodInvocation SimpleName svg absolute colorimetric value
+equals SimpleName MethodInvocation SimpleName svg absolute colorimetric value
+val SimpleName MethodInvocation SimpleName equals
+val SimpleName MethodInvocation SimpleName svg relative colorimetric value
+equals SimpleName MethodInvocation SimpleName svg relative colorimetric value
+val SimpleName MethodInvocation SwitchStatement SwitchCase NumberLiteral empty
+length SimpleName MethodInvocation SwitchStatement SwitchCase NumberLiteral empty
+val SimpleName MethodInvocation SwitchStatement SwitchCase NumberLiteral empty
+length SimpleName MethodInvocation SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType short
+public Modifier MethodDeclaration SimpleName get rendering intent
+public Modifier MethodDeclaration Block ReturnStatement SimpleName rendering intent unknown
+short PrimitiveType MethodDeclaration SimpleName get rendering intent
+short PrimitiveType MethodDeclaration Block ReturnStatement SimpleName rendering intent unknown
+get rendering intent SimpleName MethodDeclaration Block ReturnStatement SimpleName rendering intent unknown
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName get rendering intent
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get rendering intent

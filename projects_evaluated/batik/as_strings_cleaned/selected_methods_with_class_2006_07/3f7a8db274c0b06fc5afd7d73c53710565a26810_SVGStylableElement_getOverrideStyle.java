@@ -1,0 +1,18 @@
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css engine
+css engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eng
+override style declaration SimpleName SimpleType ClassInstanceCreation SimpleName eng
+override style declaration SimpleName Assignment ClassInstanceCreation SimpleType SimpleName override style declaration
+override style declaration SimpleName Assignment ClassInstanceCreation SimpleName eng
+public Modifier MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier MethodDeclaration SimpleName get override style
+public Modifier MethodDeclaration Block ReturnStatement SimpleName override style declaration
+css style declaration SimpleName SimpleType MethodDeclaration SimpleName get override style
+get override style SimpleName MethodDeclaration Block ReturnStatement SimpleName override style declaration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get override style
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get override style

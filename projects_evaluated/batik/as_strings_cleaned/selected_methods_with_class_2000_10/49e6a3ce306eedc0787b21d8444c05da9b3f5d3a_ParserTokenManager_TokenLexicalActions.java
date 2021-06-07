@@ -1,0 +1,51 @@
+token SimpleName SimpleType SingleVariableDeclaration SimpleName matched token
+jjmatched pos SimpleName InfixExpression NumberLiteral empty
+length of match SimpleName Assignment InfixExpression SimpleName jjmatched pos
+length of match SimpleName Assignment InfixExpression NumberLiteral empty
+jjimage len SimpleName InfixExpression ParenthesizedExpression Assignment SimpleName length of match
+input stream SimpleName MethodInvocation SimpleName get suffix
+input stream SimpleName MethodInvocation InfixExpression SimpleName jjimage len
+get suffix SimpleName MethodInvocation InfixExpression SimpleName jjimage len
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName input stream
+string SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get suffix
+image SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string buffer
+jjmatched pos SimpleName InfixExpression NumberLiteral empty
+length of match SimpleName Assignment InfixExpression SimpleName jjmatched pos
+length of match SimpleName Assignment InfixExpression NumberLiteral empty
+jjimage len SimpleName InfixExpression ParenthesizedExpression Assignment SimpleName length of match
+input stream SimpleName MethodInvocation SimpleName get suffix
+input stream SimpleName MethodInvocation InfixExpression SimpleName jjimage len
+get suffix SimpleName MethodInvocation InfixExpression SimpleName jjimage len
+image SimpleName MethodInvocation SimpleName append
+image SimpleName MethodInvocation MethodInvocation SimpleName input stream
+image SimpleName MethodInvocation MethodInvocation SimpleName get suffix
+image SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName jjimage len
+append SimpleName MethodInvocation MethodInvocation SimpleName input stream
+append SimpleName MethodInvocation MethodInvocation SimpleName get suffix
+append SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName jjimage len
+image SimpleName Assignment QualifiedName parserspace
+jjmatched kind SimpleName SwitchStatement SwitchCase NumberLiteral empty
+jjmatched kind SimpleName SwitchStatement IfStatement InfixExpression SimpleName image
+jjmatched kind SimpleName SwitchStatement ExpressionStatement Assignment SimpleName image
+jjmatched kind SimpleName SwitchStatement ExpressionStatement Assignment QualifiedName parserspace
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName token lexical actions
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName token
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName matched token
+final Modifier MethodDeclaration Block SwitchStatement SimpleName jjmatched kind
+void PrimitiveType MethodDeclaration SimpleName token lexical actions
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName token
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName matched token
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName jjmatched kind
+token lexical actions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName token
+token lexical actions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName matched token
+token lexical actions SimpleName MethodDeclaration Block SwitchStatement SimpleName jjmatched kind
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName token lexical actions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName matched token
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName token lexical actions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName matched token

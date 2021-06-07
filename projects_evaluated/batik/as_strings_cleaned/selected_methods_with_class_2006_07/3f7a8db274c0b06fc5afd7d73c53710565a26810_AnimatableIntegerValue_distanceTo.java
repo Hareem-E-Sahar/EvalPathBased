@@ -1,0 +1,29 @@
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName other
+animatable integer value SimpleName SimpleType CastExpression SimpleName other
+o SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable integer value
+o SimpleName VariableDeclarationFragment CastExpression SimpleName other
+animatable integer value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+value SimpleName InfixExpression QualifiedName ovalue
+math SimpleName MethodInvocation SimpleName abs
+math SimpleName MethodInvocation InfixExpression SimpleName value
+math SimpleName MethodInvocation InfixExpression QualifiedName ovalue
+abs SimpleName MethodInvocation InfixExpression SimpleName value
+abs SimpleName MethodInvocation InfixExpression QualifiedName ovalue
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName distance to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+float PrimitiveType MethodDeclaration SimpleName distance to
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+distance to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+distance to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName distance to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName distance to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

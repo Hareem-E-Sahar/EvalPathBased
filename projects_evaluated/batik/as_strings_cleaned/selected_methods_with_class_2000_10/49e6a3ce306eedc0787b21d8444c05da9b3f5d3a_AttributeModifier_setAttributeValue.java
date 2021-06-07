@@ -1,0 +1,13 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName set attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+set attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

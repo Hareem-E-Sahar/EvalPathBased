@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName repaint thread
+public Modifier MethodDeclaration SimpleName get repaint thread
+public Modifier MethodDeclaration Block ReturnStatement SimpleName repaint thread
+repaint thread SimpleName SimpleType MethodDeclaration SimpleName get repaint thread
+get repaint thread SimpleName MethodDeclaration Block ReturnStatement SimpleName repaint thread
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName repaint thread
+public Modifier TypeDeclaration MethodDeclaration SimpleName get repaint thread
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName repaint thread
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get repaint thread

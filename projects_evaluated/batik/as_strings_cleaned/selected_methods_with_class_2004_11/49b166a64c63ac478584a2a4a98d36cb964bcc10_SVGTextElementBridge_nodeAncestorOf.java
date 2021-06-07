@@ -1,0 +1,41 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+node SimpleName InfixExpression InfixExpression InfixExpression SimpleName node
+node SimpleName MethodInvocation SimpleName get parent node
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent
+parent SimpleName InfixExpression SimpleName node
+parent SimpleName InfixExpression InfixExpression InfixExpression SimpleName parent
+parent SimpleName InfixExpression InfixExpression InfixExpression SimpleName node
+parent SimpleName MethodInvocation SimpleName get parent node
+parent SimpleName Assignment MethodInvocation SimpleName parent
+parent SimpleName Assignment MethodInvocation SimpleName get parent node
+parent SimpleName InfixExpression SimpleName node
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName node ancestor of
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+boolean PrimitiveType MethodDeclaration SimpleName node ancestor of
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+node ancestor of SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+node ancestor of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+node ancestor of SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+node ancestor of SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName node ancestor of
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName node ancestor of
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

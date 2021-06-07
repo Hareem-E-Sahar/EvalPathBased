@@ -1,0 +1,76 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+is selected SimpleName MethodInvocation SimpleName n
+xpath SimpleName MethodInvocation SimpleName execute
+xpath SimpleName MethodInvocation SimpleName context
+xpath SimpleName MethodInvocation SimpleName n
+xpath SimpleName MethodInvocation SimpleName prefix resolver
+execute SimpleName MethodInvocation SimpleName context
+execute SimpleName MethodInvocation SimpleName n
+execute SimpleName MethodInvocation SimpleName prefix resolver
+context SimpleName MethodInvocation SimpleName n
+context SimpleName MethodInvocation SimpleName prefix resolver
+n SimpleName MethodInvocation SimpleName prefix resolver
+xpath SimpleName MethodInvocation MethodInvocation SimpleName num
+execute SimpleName MethodInvocation MethodInvocation SimpleName num
+context SimpleName MethodInvocation MethodInvocation SimpleName num
+n SimpleName MethodInvocation MethodInvocation SimpleName num
+prefix resolver SimpleName MethodInvocation MethodInvocation SimpleName num
+match score SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName xpath
+match score SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName execute
+match score SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName context
+match score SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName n
+match score SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName prefix resolver
+match score SimpleName VariableDeclarationFragment MethodInvocation SimpleName num
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName match score
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName num
+match score SimpleName InfixExpression QualifiedName x pathmatch score none
+descendant selected SimpleName MethodInvocation SimpleName n
+nodes SimpleName MethodInvocation SimpleName add
+nodes SimpleName MethodInvocation SimpleName n
+add SimpleName MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName get first child
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get first child
+update SimpleName MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+javaxxmltransformtransformer exception QualifiedName SimpleType SingleVariableDeclaration SimpleName te
+content element SimpleName MethodInvocation SimpleName get owner document
+abstract document SimpleName SimpleType CastExpression MethodInvocation SimpleName content element
+abstract document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract document
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName content element
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+abstract document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+te SimpleName MethodInvocation SimpleName get message
+expression SimpleName ArrayInitializer MethodInvocation SimpleName te
+expression SimpleName ArrayInitializer MethodInvocation SimpleName get message
+doc SimpleName MethodInvocation SimpleName create x path exception
+doc SimpleName MethodInvocation QualifiedName x path exceptioninvalid expression err
+doc SimpleName MethodInvocation StringLiteral xpatherror
+doc SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName expression
+create x path exception SimpleName MethodInvocation QualifiedName x path exceptioninvalid expression err
+create x path exception SimpleName MethodInvocation StringLiteral xpatherror
+create x path exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName expression
+x path exceptioninvalid expression err QualifiedName MethodInvocation StringLiteral xpatherror
+x path exceptioninvalid expression err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName expression
+xpatherror StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName expression
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName update
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

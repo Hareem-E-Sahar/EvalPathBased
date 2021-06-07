@@ -1,0 +1,18 @@
+debugger SimpleName InfixExpression InfixExpression QualifiedName debuggeris present
+location bar SimpleName MethodInvocation SimpleName get text
+debugger SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName location bar
+debugger SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get text
+debugger SimpleName Assignment ClassInstanceCreation SimpleType SimpleName debugger
+debugger SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName location bar
+debugger SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get text
+debugger SimpleName MethodInvocation SimpleName initialize
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName show debugger
+void PrimitiveType MethodDeclaration SimpleName show debugger
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName show debugger
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName show debugger

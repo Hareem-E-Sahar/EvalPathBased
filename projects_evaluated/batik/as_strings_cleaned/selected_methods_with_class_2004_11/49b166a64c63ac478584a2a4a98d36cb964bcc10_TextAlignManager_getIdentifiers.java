@@ -1,0 +1,12 @@
+protected Modifier MethodDeclaration SimpleType SimpleName string map
+protected Modifier MethodDeclaration SimpleName get identifiers
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName values
+string map SimpleName SimpleType MethodDeclaration SimpleName get identifiers
+get identifiers SimpleName MethodDeclaration Block ReturnStatement SimpleName values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string map
+public Modifier TypeDeclaration MethodDeclaration SimpleName get identifiers
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string map
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get identifiers

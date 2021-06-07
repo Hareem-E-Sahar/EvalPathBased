@@ -1,0 +1,41 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+node SimpleName InstanceofExpression SimpleType SimpleName svgom element
+svgom element SimpleName SimpleType CastExpression SimpleName node
+elt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom element
+elt SimpleName VariableDeclarationFragment CastExpression SimpleName node
+svgom element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+elt SimpleName MethodInvocation SimpleName get svg context
+bridge update handler SimpleName SimpleType CastExpression MethodInvocation SimpleName elt
+bridge update handler SimpleName SimpleType CastExpression MethodInvocation SimpleName get svg context
+h SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName bridge update handler
+h SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName elt
+h SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get svg context
+bridge update handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+h SimpleName MethodInvocation SimpleName dispose
+node SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+dispose tree SimpleName MethodInvocation SimpleName n
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName dispose tree
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleName dispose tree
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+dispose tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+dispose tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispose tree
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispose tree
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

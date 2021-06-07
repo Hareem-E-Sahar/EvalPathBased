@@ -1,0 +1,102 @@
+css primitive value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+v SimpleName MethodInvocation SimpleName get primitive type
+v SimpleName MethodInvocation SimpleName get float value
+v SimpleName MethodInvocation QualifiedName css primitive valuecss percentage
+get float value SimpleName MethodInvocation QualifiedName css primitive valuecss percentage
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get float value
+f SimpleName VariableDeclarationFragment MethodInvocation QualifiedName css primitive valuecss percentage
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName v
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get float value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName css primitive valuecss percentage
+f SimpleName InfixExpression NumberLiteral f
+f SimpleName InfixExpression NumberLiteral f
+f SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName f
+f NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName f
+f NumberLiteral ConditionalExpression SimpleName f
+f SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f NumberLiteral ConditionalExpression ConditionalExpression NumberLiteral f
+f NumberLiteral ConditionalExpression ConditionalExpression SimpleName f
+f SimpleName Assignment ConditionalExpression NumberLiteral f
+f SimpleName Assignment ConditionalExpression ConditionalExpression NumberLiteral f
+f SimpleName Assignment ConditionalExpression ConditionalExpression SimpleName f
+f NumberLiteral InfixExpression SimpleName f
+f NumberLiteral InfixExpression InfixExpression NumberLiteral f
+f SimpleName InfixExpression InfixExpression NumberLiteral f
+math SimpleName MethodInvocation SimpleName round
+math SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral f
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName f
+math SimpleName MethodInvocation InfixExpression NumberLiteral f
+round SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral f
+round SimpleName MethodInvocation InfixExpression InfixExpression SimpleName f
+round SimpleName MethodInvocation InfixExpression NumberLiteral f
+v SimpleName MethodInvocation SimpleName get float value
+v SimpleName MethodInvocation QualifiedName css primitive valuecss number
+get float value SimpleName MethodInvocation QualifiedName css primitive valuecss number
+f SimpleName Assignment MethodInvocation SimpleName v
+f SimpleName Assignment MethodInvocation SimpleName get float value
+f SimpleName Assignment MethodInvocation QualifiedName css primitive valuecss number
+f SimpleName InfixExpression NumberLiteral f
+f SimpleName InfixExpression NumberLiteral f
+f SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName f
+f NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName f
+f NumberLiteral ConditionalExpression SimpleName f
+f SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f NumberLiteral ConditionalExpression ConditionalExpression NumberLiteral f
+f NumberLiteral ConditionalExpression ConditionalExpression SimpleName f
+f SimpleName Assignment ConditionalExpression NumberLiteral f
+f SimpleName Assignment ConditionalExpression ConditionalExpression NumberLiteral f
+f SimpleName Assignment ConditionalExpression ConditionalExpression SimpleName f
+math SimpleName MethodInvocation SimpleName round
+math SimpleName MethodInvocation SimpleName f
+round SimpleName MethodInvocation SimpleName f
+v SimpleName MethodInvocation SimpleName get primitive type
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName v
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get primitive type
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation StringLiteral cssprimitivetype
+format message SimpleName MethodInvocation StringLiteral cssprimitivetype
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName messages
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format message
+illegal argument exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral cssprimitivetype
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss percentage
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss percentage
+v SimpleName MethodInvocation SwitchStatement VariableDeclarationStatement PrimitiveType float
+get primitive type SimpleName MethodInvocation SwitchStatement VariableDeclarationStatement PrimitiveType float
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss number
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss number
+css primitive valuecss percentage QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType float
+css primitive valuecss percentage QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss number
+float PrimitiveType VariableDeclarationStatement SwitchStatement SwitchCase QualifiedName css primitive valuecss number
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName resolve color component
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css primitive value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName resolve color component
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css primitive value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+int PrimitiveType MethodDeclaration SimpleName resolve color component
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css primitive value
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+resolve color component SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css primitive value
+resolve color component SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve color component
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve color component
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

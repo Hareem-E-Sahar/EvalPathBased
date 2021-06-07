@@ -1,0 +1,29 @@
+shape painter SimpleName SimpleType SingleVariableDeclaration SimpleName new shape painter
+old shape painter SimpleName VariableDeclarationFragment SimpleName shape painter
+shape painter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old shape painter
+shape painter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shape painter
+shape painter SimpleName FieldAccess Assignment SimpleName new shape painter
+fire property change SimpleName MethodInvocation StringLiteral shape painter
+fire property change SimpleName MethodInvocation SimpleName old shape painter
+fire property change SimpleName MethodInvocation SimpleName new shape painter
+shape painter StringLiteral MethodInvocation SimpleName old shape painter
+shape painter StringLiteral MethodInvocation SimpleName new shape painter
+old shape painter SimpleName MethodInvocation SimpleName new shape painter
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set shape painter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape painter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new shape painter
+void PrimitiveType MethodDeclaration SimpleName set shape painter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape painter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new shape painter
+set shape painter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape painter
+set shape painter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new shape painter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set shape painter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new shape painter
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set shape painter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new shape painter

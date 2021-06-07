@@ -1,0 +1,36 @@
+event listener SimpleName SimpleType ArrayType ArrayCreation SimpleName n
+listeners SimpleName VariableDeclarationFragment ArrayCreation SimpleName n
+current SimpleName VariableDeclarationFragment SimpleName first
+entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current
+entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName first
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName n
+current SimpleName Assignment QualifiedName currentnext
+listeners SimpleName ArrayAccess SimpleName i
+listeners SimpleName ArrayAccess Assignment QualifiedName currentlistener
+i SimpleName ArrayAccess Assignment QualifiedName currentlistener
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName n
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName current
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment QualifiedName currentnext
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+n SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement Assignment SimpleName current
+i SimpleName InfixExpression ForStatement Assignment QualifiedName currentnext
+n SimpleName InfixExpression ForStatement Assignment SimpleName current
+n SimpleName InfixExpression ForStatement Assignment QualifiedName currentnext
+i SimpleName PrefixExpression ForStatement Assignment SimpleName current
+i SimpleName PrefixExpression ForStatement Assignment QualifiedName currentnext
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName event listener
+public Modifier MethodDeclaration SimpleName get event listeners
+public Modifier MethodDeclaration Block ReturnStatement SimpleName listeners
+event listener SimpleName SimpleType ArrayType MethodDeclaration SimpleName get event listeners
+get event listeners SimpleName MethodDeclaration Block ReturnStatement SimpleName listeners
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get event listeners
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get event listeners

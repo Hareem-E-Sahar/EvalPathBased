@@ -1,0 +1,127 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName src
+css engine SimpleName SimpleType SingleVariableDeclaration SimpleName srceng
+element SimpleName SimpleType SingleVariableDeclaration SimpleName dest
+src SimpleName InstanceofExpression SimpleType SimpleName css stylable element
+css stylable element SimpleName SimpleType CastExpression SimpleName src
+csrc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css stylable element
+csrc SimpleName VariableDeclarationFragment CastExpression SimpleName src
+css stylable element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName csrc
+css stylable element SimpleName SimpleType CastExpression SimpleName dest
+cdest SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css stylable element
+cdest SimpleName VariableDeclarationFragment CastExpression SimpleName dest
+css stylable element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cdest
+srceng SimpleName MethodInvocation SimpleName get cascaded style map
+srceng SimpleName MethodInvocation SimpleName csrc
+get cascaded style map SimpleName MethodInvocation SimpleName csrc
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName srceng
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cascaded style map
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName csrc
+style map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sm
+sm SimpleName MethodInvocation SimpleName set fixed cascaded style
+sm SimpleName MethodInvocation BooleanLiteral true
+set fixed cascaded style SimpleName MethodInvocation BooleanLiteral true
+cdest SimpleName MethodInvocation SimpleName set computed style map
+cdest SimpleName MethodInvocation SimpleName sm
+set computed style map SimpleName MethodInvocation SimpleName sm
+len SimpleName VariableDeclarationFragment QualifiedName pseudo element nameslength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName pseudo element nameslength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+pseudo element names SimpleName ArrayAccess SimpleName i
+pe SimpleName VariableDeclarationFragment ArrayAccess SimpleName pseudo element names
+pe SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pe
+srceng SimpleName MethodInvocation SimpleName get cascaded style map
+srceng SimpleName MethodInvocation SimpleName csrc
+srceng SimpleName MethodInvocation SimpleName pe
+get cascaded style map SimpleName MethodInvocation SimpleName csrc
+get cascaded style map SimpleName MethodInvocation SimpleName pe
+csrc SimpleName MethodInvocation SimpleName pe
+sm SimpleName Assignment MethodInvocation SimpleName srceng
+sm SimpleName Assignment MethodInvocation SimpleName get cascaded style map
+sm SimpleName Assignment MethodInvocation SimpleName csrc
+sm SimpleName Assignment MethodInvocation SimpleName pe
+cdest SimpleName MethodInvocation SimpleName set computed style map
+cdest SimpleName MethodInvocation SimpleName pe
+cdest SimpleName MethodInvocation SimpleName sm
+set computed style map SimpleName MethodInvocation SimpleName pe
+set computed style map SimpleName MethodInvocation SimpleName sm
+pe SimpleName MethodInvocation SimpleName sm
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+get css first child SimpleName MethodInvocation SimpleName dest
+dn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css first child
+dn SimpleName VariableDeclarationFragment MethodInvocation SimpleName dest
+get css first child SimpleName MethodInvocation SimpleName src
+sn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css first child
+sn SimpleName VariableDeclarationFragment MethodInvocation SimpleName src
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName dn
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName sn
+dn SimpleName VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment SimpleName sn
+get css next sibling SimpleName MethodInvocation SimpleName dn
+dn SimpleName Assignment MethodInvocation SimpleName get css next sibling
+dn SimpleName Assignment MethodInvocation SimpleName dn
+get css next sibling SimpleName MethodInvocation SimpleName sn
+sn SimpleName Assignment MethodInvocation SimpleName get css next sibling
+sn SimpleName Assignment MethodInvocation SimpleName sn
+sn SimpleName MethodInvocation SimpleName get node type
+sn SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName sn
+element SimpleName SimpleType CastExpression SimpleName dn
+import cascaded style maps SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+import cascaded style maps SimpleName MethodInvocation CastExpression SimpleName sn
+import cascaded style maps SimpleName MethodInvocation SimpleName srceng
+import cascaded style maps SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+import cascaded style maps SimpleName MethodInvocation CastExpression SimpleName dn
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName srceng
+sn SimpleName CastExpression MethodInvocation SimpleName srceng
+sn SimpleName CastExpression MethodInvocation CastExpression SimpleName dn
+srceng SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+srceng SimpleName MethodInvocation CastExpression SimpleName dn
+dn SimpleName InfixExpression ForStatement Assignment SimpleName dn
+dn SimpleName InfixExpression ForStatement Assignment SimpleName sn
+dn SimpleName Assignment ForStatement Assignment SimpleName sn
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName import cascaded style maps
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName srceng
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dest
+void PrimitiveType MethodDeclaration SimpleName import cascaded style maps
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName src
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName srceng
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dest
+import cascaded style maps SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+import cascaded style maps SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+import cascaded style maps SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+import cascaded style maps SimpleName MethodDeclaration SingleVariableDeclaration SimpleName srceng
+import cascaded style maps SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+import cascaded style maps SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dest
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName srceng
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest
+srceng SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import cascaded style maps
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName srceng
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import cascaded style maps
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName srceng
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest

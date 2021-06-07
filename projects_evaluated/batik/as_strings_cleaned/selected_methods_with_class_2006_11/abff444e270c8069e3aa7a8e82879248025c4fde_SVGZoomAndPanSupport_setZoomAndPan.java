@@ -1,0 +1,82 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+short PrimitiveType SingleVariableDeclaration SimpleName val
+elt SimpleName MethodInvocation SimpleName set attribute ns
+elt SimpleName MethodInvocation SimpleName svg zoom and pan attribute
+elt SimpleName MethodInvocation SimpleName svg disable value
+set attribute ns SimpleName MethodInvocation SimpleName svg zoom and pan attribute
+set attribute ns SimpleName MethodInvocation SimpleName svg disable value
+svg zoom and pan attribute SimpleName MethodInvocation SimpleName svg disable value
+elt SimpleName MethodInvocation SimpleName set attribute ns
+elt SimpleName MethodInvocation SimpleName svg zoom and pan attribute
+elt SimpleName MethodInvocation SimpleName svg magnify value
+set attribute ns SimpleName MethodInvocation SimpleName svg zoom and pan attribute
+set attribute ns SimpleName MethodInvocation SimpleName svg magnify value
+svg zoom and pan attribute SimpleName MethodInvocation SimpleName svg magnify value
+abstract node SimpleName SimpleType CastExpression SimpleName elt
+integer SimpleName SimpleType ClassInstanceCreation SimpleName val
+elt SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName create dom exception
+elt SimpleName CastExpression ParenthesizedExpression MethodInvocation QualifiedName dom exceptioninvalid modification err
+elt SimpleName CastExpression ParenthesizedExpression MethodInvocation StringLiteral zoomandpan
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptioninvalid modification err
+create dom exception SimpleName MethodInvocation StringLiteral zoomandpan
+dom exceptioninvalid modification err QualifiedName MethodInvocation StringLiteral zoomandpan
+val SimpleName SwitchStatement SwitchCase QualifiedName svg zoom and pansvg zoomandpan disable
+val SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName elt
+val SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName set attribute ns
+val SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName svg zoom and pan attribute
+val SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName svg disable value
+val SimpleName SwitchStatement SwitchCase QualifiedName svg zoom and pansvg zoomandpan magnify
+val SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName elt
+val SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName set attribute ns
+val SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName svg zoom and pan attribute
+val SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName svg magnify value
+svg zoom and pansvg zoomandpan disable QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svg zoom and pansvg zoomandpan magnify
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set zoom and pan
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set zoom and pan
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+static Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set zoom and pan
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elt
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName val
+set zoom and pan SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+set zoom and pan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+set zoom and pan SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+set zoom and pan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+set zoom and pan SimpleName MethodDeclaration SimpleType SimpleName dom exception
+set zoom and pan SimpleName MethodDeclaration Block SwitchStatement SimpleName val
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+elt SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set zoom and pan
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set zoom and pan
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

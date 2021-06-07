@@ -1,0 +1,11 @@
+transformable support SimpleName MethodInvocation SimpleName get transform
+public Modifier MethodDeclaration SimpleType SimpleName svg animated transform list
+public Modifier MethodDeclaration SimpleName get transform
+svg animated transform list SimpleName SimpleType MethodDeclaration SimpleName get transform
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated transform list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get transform
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated transform list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get transform

@@ -1,0 +1,57 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+object SimpleName SimpleType SingleVariableDeclaration SimpleName data
+user data handler SimpleName SimpleType SingleVariableDeclaration SimpleName handler
+user data SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hash map
+user data handlers SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hash map
+user data SimpleName MethodInvocation SimpleName remove
+user data SimpleName MethodInvocation SimpleName key
+remove SimpleName MethodInvocation SimpleName key
+user data handlers SimpleName MethodInvocation SimpleName remove
+user data handlers SimpleName MethodInvocation SimpleName key
+remove SimpleName MethodInvocation SimpleName key
+user data handlers SimpleName MethodInvocation SimpleName put
+user data handlers SimpleName MethodInvocation SimpleName key
+user data handlers SimpleName MethodInvocation SimpleName handler
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName handler
+key SimpleName MethodInvocation SimpleName handler
+user data SimpleName MethodInvocation SimpleName put
+user data SimpleName MethodInvocation SimpleName key
+user data SimpleName MethodInvocation SimpleName data
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName data
+key SimpleName MethodInvocation SimpleName data
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName set user data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user data handler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName handler
+object SimpleName SimpleType MethodDeclaration SimpleName set user data
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName handler
+set user data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set user data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+set user data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set user data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+set user data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user data handler
+set user data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName handler
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName set user data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set user data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler

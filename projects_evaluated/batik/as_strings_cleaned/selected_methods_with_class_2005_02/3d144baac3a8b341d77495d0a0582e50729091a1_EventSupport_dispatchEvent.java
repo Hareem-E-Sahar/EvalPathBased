@@ -1,0 +1,229 @@
+node event target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+orgapachebatikdomdom eventsevent QualifiedName SimpleType CastExpression SimpleName e
+ev SimpleName VariableDeclarationFragment CastExpression SimpleType QualifiedName orgapachebatikdomdom eventsevent
+ev SimpleName VariableDeclarationFragment CastExpression SimpleName e
+orgapachebatikdomdom eventsevent QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ev
+orgapachebatikdomdom eventscustom event QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ce
+abstract event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName evt
+ev SimpleName MethodInvocation SimpleName is custom
+is custom SimpleName VariableDeclarationFragment MethodInvocation SimpleName ev
+is custom SimpleName VariableDeclarationFragment MethodInvocation SimpleName is custom
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is custom
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ev
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is custom
+orgapachebatikdomdom eventscustom event QualifiedName SimpleType CastExpression SimpleName e
+ce SimpleName Assignment CastExpression SimpleType QualifiedName orgapachebatikdomdom eventscustom event
+ce SimpleName Assignment CastExpression SimpleName e
+abstract event SimpleName SimpleType CastExpression SimpleName e
+evt SimpleName Assignment CastExpression SimpleType SimpleName abstract event
+evt SimpleName Assignment CastExpression SimpleName e
+e SimpleName MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName length
+type SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+type SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+create event exception SimpleName MethodInvocation QualifiedName event exceptionunspecified event type err
+create event exception SimpleName MethodInvocation StringLiteral unspecifiedevent
+event exceptionunspecified event type err QualifiedName MethodInvocation StringLiteral unspecifiedevent
+evt SimpleName MethodInvocation SimpleName set target
+evt SimpleName MethodInvocation SimpleName target
+set target SimpleName MethodInvocation SimpleName target
+evt SimpleName MethodInvocation SimpleName stop propagation
+evt SimpleName MethodInvocation BooleanLiteral false
+stop propagation SimpleName MethodInvocation BooleanLiteral false
+evt SimpleName MethodInvocation SimpleName stop immediate propagation
+evt SimpleName MethodInvocation BooleanLiteral false
+stop immediate propagation SimpleName MethodInvocation BooleanLiteral false
+evt SimpleName MethodInvocation SimpleName prevent default
+evt SimpleName MethodInvocation BooleanLiteral false
+prevent default SimpleName MethodInvocation BooleanLiteral false
+get ancestors SimpleName MethodInvocation SimpleName target
+ancestors SimpleName VariableDeclarationFragment MethodInvocation SimpleName get ancestors
+ancestors SimpleName VariableDeclarationFragment MethodInvocation SimpleName target
+evt SimpleName MethodInvocation SimpleName set event phase
+evt SimpleName MethodInvocation QualifiedName eventcapturing phase
+set event phase SimpleName MethodInvocation QualifiedName eventcapturing phase
+stopped groups SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hash set
+hash set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stopped groups
+to be stopped groups SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hash set
+hash set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName to be stopped groups
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName ancestorslength
+event stopped SimpleName MethodInvocation SimpleName ce
+event stopped SimpleName MethodInvocation SimpleName evt
+ce SimpleName MethodInvocation SimpleName evt
+ancestors SimpleName ArrayAccess SimpleName i
+node SimpleName VariableDeclarationFragment ArrayAccess SimpleName ancestors
+node SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+node event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+ce SimpleName MethodInvocation SimpleName set dispatch state
+ce SimpleName MethodInvocation SimpleName node
+ce SimpleName MethodInvocation QualifiedName eventcapturing phase
+set dispatch state SimpleName MethodInvocation SimpleName node
+set dispatch state SimpleName MethodInvocation QualifiedName eventcapturing phase
+node SimpleName MethodInvocation QualifiedName eventcapturing phase
+evt SimpleName MethodInvocation SimpleName set current target
+evt SimpleName MethodInvocation SimpleName node
+set current target SimpleName MethodInvocation SimpleName node
+fire event listeners SimpleName MethodInvocation SimpleName node
+fire event listeners SimpleName MethodInvocation SimpleName evt
+fire event listeners SimpleName MethodInvocation BooleanLiteral true
+fire event listeners SimpleName MethodInvocation SimpleName stopped groups
+fire event listeners SimpleName MethodInvocation SimpleName to be stopped groups
+node SimpleName MethodInvocation SimpleName evt
+node SimpleName MethodInvocation BooleanLiteral true
+node SimpleName MethodInvocation SimpleName stopped groups
+node SimpleName MethodInvocation SimpleName to be stopped groups
+node SimpleName MethodInvocation SimpleName is custom
+evt SimpleName MethodInvocation BooleanLiteral true
+evt SimpleName MethodInvocation SimpleName stopped groups
+evt SimpleName MethodInvocation SimpleName to be stopped groups
+evt SimpleName MethodInvocation SimpleName is custom
+true BooleanLiteral MethodInvocation SimpleName stopped groups
+true BooleanLiteral MethodInvocation SimpleName to be stopped groups
+true BooleanLiteral MethodInvocation SimpleName is custom
+stopped groups SimpleName MethodInvocation SimpleName to be stopped groups
+stopped groups SimpleName MethodInvocation SimpleName is custom
+to be stopped groups SimpleName MethodInvocation SimpleName is custom
+stopped groups SimpleName MethodInvocation SimpleName add all
+stopped groups SimpleName MethodInvocation SimpleName to be stopped groups
+add all SimpleName MethodInvocation SimpleName to be stopped groups
+to be stopped groups SimpleName MethodInvocation SimpleName clear
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+event stopped SimpleName MethodInvocation SimpleName ce
+event stopped SimpleName MethodInvocation SimpleName evt
+ce SimpleName MethodInvocation SimpleName evt
+ce SimpleName MethodInvocation SimpleName set dispatch state
+ce SimpleName MethodInvocation SimpleName target
+ce SimpleName MethodInvocation QualifiedName eventat target
+set dispatch state SimpleName MethodInvocation SimpleName target
+set dispatch state SimpleName MethodInvocation QualifiedName eventat target
+target SimpleName MethodInvocation QualifiedName eventat target
+evt SimpleName MethodInvocation SimpleName set event phase
+evt SimpleName MethodInvocation QualifiedName eventat target
+set event phase SimpleName MethodInvocation QualifiedName eventat target
+evt SimpleName MethodInvocation SimpleName set current target
+evt SimpleName MethodInvocation SimpleName target
+set current target SimpleName MethodInvocation SimpleName target
+fire event listeners SimpleName MethodInvocation SimpleName target
+fire event listeners SimpleName MethodInvocation SimpleName evt
+fire event listeners SimpleName MethodInvocation BooleanLiteral false
+fire event listeners SimpleName MethodInvocation SimpleName stopped groups
+fire event listeners SimpleName MethodInvocation SimpleName to be stopped groups
+target SimpleName MethodInvocation SimpleName evt
+target SimpleName MethodInvocation BooleanLiteral false
+target SimpleName MethodInvocation SimpleName stopped groups
+target SimpleName MethodInvocation SimpleName to be stopped groups
+target SimpleName MethodInvocation SimpleName is custom
+evt SimpleName MethodInvocation BooleanLiteral false
+evt SimpleName MethodInvocation SimpleName stopped groups
+evt SimpleName MethodInvocation SimpleName to be stopped groups
+evt SimpleName MethodInvocation SimpleName is custom
+false BooleanLiteral MethodInvocation SimpleName stopped groups
+false BooleanLiteral MethodInvocation SimpleName to be stopped groups
+false BooleanLiteral MethodInvocation SimpleName is custom
+stopped groups SimpleName MethodInvocation SimpleName to be stopped groups
+stopped groups SimpleName MethodInvocation SimpleName is custom
+to be stopped groups SimpleName MethodInvocation SimpleName is custom
+stopped groups SimpleName MethodInvocation SimpleName add all
+stopped groups SimpleName MethodInvocation SimpleName to be stopped groups
+add all SimpleName MethodInvocation SimpleName to be stopped groups
+to be stopped groups SimpleName MethodInvocation SimpleName clear
+evt SimpleName MethodInvocation SimpleName get bubbles
+evt SimpleName MethodInvocation SimpleName set event phase
+evt SimpleName MethodInvocation QualifiedName eventbubbling phase
+set event phase SimpleName MethodInvocation QualifiedName eventbubbling phase
+ancestorslength QualifiedName InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression QualifiedName ancestorslength
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression QualifiedName ancestorslength
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+event stopped SimpleName MethodInvocation SimpleName ce
+event stopped SimpleName MethodInvocation SimpleName evt
+ce SimpleName MethodInvocation SimpleName evt
+ancestors SimpleName ArrayAccess SimpleName i
+node SimpleName VariableDeclarationFragment ArrayAccess SimpleName ancestors
+node SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+node event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+ce SimpleName MethodInvocation SimpleName set dispatch state
+ce SimpleName MethodInvocation SimpleName node
+ce SimpleName MethodInvocation QualifiedName eventbubbling phase
+set dispatch state SimpleName MethodInvocation SimpleName node
+set dispatch state SimpleName MethodInvocation QualifiedName eventbubbling phase
+node SimpleName MethodInvocation QualifiedName eventbubbling phase
+evt SimpleName MethodInvocation SimpleName set current target
+evt SimpleName MethodInvocation SimpleName node
+set current target SimpleName MethodInvocation SimpleName node
+fire event listeners SimpleName MethodInvocation SimpleName node
+fire event listeners SimpleName MethodInvocation SimpleName evt
+fire event listeners SimpleName MethodInvocation BooleanLiteral false
+fire event listeners SimpleName MethodInvocation SimpleName stopped groups
+fire event listeners SimpleName MethodInvocation SimpleName to be stopped groups
+node SimpleName MethodInvocation SimpleName evt
+node SimpleName MethodInvocation BooleanLiteral false
+node SimpleName MethodInvocation SimpleName stopped groups
+node SimpleName MethodInvocation SimpleName to be stopped groups
+node SimpleName MethodInvocation SimpleName is custom
+evt SimpleName MethodInvocation BooleanLiteral false
+evt SimpleName MethodInvocation SimpleName stopped groups
+evt SimpleName MethodInvocation SimpleName to be stopped groups
+evt SimpleName MethodInvocation SimpleName is custom
+false BooleanLiteral MethodInvocation SimpleName stopped groups
+false BooleanLiteral MethodInvocation SimpleName to be stopped groups
+false BooleanLiteral MethodInvocation SimpleName is custom
+stopped groups SimpleName MethodInvocation SimpleName to be stopped groups
+stopped groups SimpleName MethodInvocation SimpleName is custom
+to be stopped groups SimpleName MethodInvocation SimpleName is custom
+stopped groups SimpleName MethodInvocation SimpleName add all
+stopped groups SimpleName MethodInvocation SimpleName to be stopped groups
+add all SimpleName MethodInvocation SimpleName to be stopped groups
+to be stopped groups SimpleName MethodInvocation SimpleName clear
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+evt SimpleName MethodInvocation SimpleName is default prevented
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is custom
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName dispatch event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node event target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName event exception
+boolean PrimitiveType MethodDeclaration SimpleName dispatch event
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node event target
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName event exception
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName is custom
+dispatch event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node event target
+dispatch event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+dispatch event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+dispatch event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+dispatch event SimpleName MethodDeclaration SimpleType SimpleName event exception
+dispatch event SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+dispatch event SimpleName MethodDeclaration Block IfStatement SimpleName is custom
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+target SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName event exception
+e SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName event exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName event exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName event exception

@@ -1,0 +1,42 @@
+value provider SimpleName MethodInvocation SimpleName get value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName value provider
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName MethodInvocation SimpleName get css value type
+value SimpleName MethodInvocation SimpleName get primitive type
+value SimpleName MethodInvocation SimpleName get string value
+value SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+get string value SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+value SimpleName MethodInvocation MethodInvocation QualifiedName css constantscss currentcolor value
+get string value SimpleName MethodInvocation MethodInvocation QualifiedName css constantscss currentcolor value
+equals ignore case SimpleName MethodInvocation QualifiedName css constantscss currentcolor value
+equals ignore case SimpleName MethodInvocation IfStatement ReturnStatement SimpleName svg colortype currentcolor
+css constantscss currentcolor value QualifiedName MethodInvocation IfStatement ReturnStatement SimpleName svg colortype currentcolor
+value SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+value SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+value SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor
+get primitive type SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor
+css primitive valuecss ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+css primitive valuecss ident QualifiedName SwitchCase SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor
+css primitive valuecss rgbcolor QualifiedName SwitchCase SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor
+value SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css valuecss primitive value
+get css value type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css valuecss primitive value
+value SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css valuecss value list
+get css value type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css valuecss value list
+value SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor icccolor
+get css value type SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor icccolor
+css valuecss primitive value QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css valuecss value list
+css valuecss primitive value QualifiedName SwitchCase SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor icccolor
+css valuecss value list QualifiedName SwitchCase SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor icccolor
+public Modifier MethodDeclaration PrimitiveType short
+public Modifier MethodDeclaration SimpleName get color type
+short PrimitiveType MethodDeclaration SimpleName get color type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName get color type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get color type

@@ -1,0 +1,39 @@
+value SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value SimpleName MethodInvocation SimpleName get primitive type
+value SimpleName MethodInvocation SimpleName get float value
+value SimpleName MethodInvocation SimpleName get float value
+value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get float value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptioninvalid access err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptioninvalid access err QualifiedName ClassInstanceCreation StringLiteral empty
+value SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ms
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ms
+value SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss s
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss s
+css primitive valuecss ms QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss s
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SimpleName to milliseconds
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration PrimitiveType float
+static Modifier MethodDeclaration SimpleName to milliseconds
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+float PrimitiveType MethodDeclaration SimpleName to milliseconds
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+to milliseconds SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+to milliseconds SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName to milliseconds
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to milliseconds
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

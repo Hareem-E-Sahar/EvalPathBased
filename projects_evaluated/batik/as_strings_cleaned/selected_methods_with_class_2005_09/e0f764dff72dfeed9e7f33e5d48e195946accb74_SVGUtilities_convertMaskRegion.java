@@ -1,0 +1,158 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName mask element
+element SimpleName SimpleType SingleVariableDeclaration SimpleName masked element
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName masked node
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+mask element SimpleName MethodInvocation SimpleName get attribute ns
+mask element SimpleName MethodInvocation SimpleName svg x attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg x attribute
+x str SimpleName VariableDeclarationFragment MethodInvocation SimpleName mask element
+x str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+x str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg x attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName x str
+x str SimpleName MethodInvocation SimpleName length
+x str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+x str SimpleName Assignment SimpleName svg mask x default value
+mask element SimpleName MethodInvocation SimpleName get attribute ns
+mask element SimpleName MethodInvocation SimpleName svg y attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg y attribute
+y str SimpleName VariableDeclarationFragment MethodInvocation SimpleName mask element
+y str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+y str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg y attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName y str
+y str SimpleName MethodInvocation SimpleName length
+y str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+y str SimpleName Assignment SimpleName svg mask y default value
+mask element SimpleName MethodInvocation SimpleName get attribute ns
+mask element SimpleName MethodInvocation SimpleName svg width attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg width attribute
+w str SimpleName VariableDeclarationFragment MethodInvocation SimpleName mask element
+w str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+w str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg width attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName w str
+w str SimpleName MethodInvocation SimpleName length
+w str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+w str SimpleName Assignment SimpleName svg mask width default value
+mask element SimpleName MethodInvocation SimpleName get attribute ns
+mask element SimpleName MethodInvocation SimpleName svg height attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg height attribute
+h str SimpleName VariableDeclarationFragment MethodInvocation SimpleName mask element
+h str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+h str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg height attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h str
+h str SimpleName MethodInvocation SimpleName length
+h str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+h str SimpleName Assignment SimpleName svg mask height default value
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName units type
+mask element SimpleName MethodInvocation SimpleName get attribute ns
+mask element SimpleName MethodInvocation SimpleName svg mask units attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg mask units attribute
+units SimpleName VariableDeclarationFragment MethodInvocation SimpleName mask element
+units SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+units SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg mask units attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName units
+units SimpleName MethodInvocation SimpleName length
+units SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+units type SimpleName Assignment SimpleName object bounding box
+parse coordinate system SimpleName MethodInvocation SimpleName mask element
+parse coordinate system SimpleName MethodInvocation SimpleName svg mask units attribute
+parse coordinate system SimpleName MethodInvocation SimpleName units
+mask element SimpleName MethodInvocation SimpleName svg mask units attribute
+mask element SimpleName MethodInvocation SimpleName units
+svg mask units attribute SimpleName MethodInvocation SimpleName units
+units type SimpleName Assignment MethodInvocation SimpleName parse coordinate system
+units type SimpleName Assignment MethodInvocation SimpleName mask element
+units type SimpleName Assignment MethodInvocation SimpleName svg mask units attribute
+units type SimpleName Assignment MethodInvocation SimpleName units
+unit processor SimpleName MethodInvocation SimpleName create context
+unit processor SimpleName MethodInvocation SimpleName ctx
+unit processor SimpleName MethodInvocation SimpleName masked element
+create context SimpleName MethodInvocation SimpleName ctx
+create context SimpleName MethodInvocation SimpleName masked element
+ctx SimpleName MethodInvocation SimpleName masked element
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName unit processor
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName create context
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName masked element
+unit processorcontext QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uctx
+convert region SimpleName MethodInvocation SimpleName x str
+convert region SimpleName MethodInvocation SimpleName y str
+convert region SimpleName MethodInvocation SimpleName w str
+convert region SimpleName MethodInvocation SimpleName h str
+convert region SimpleName MethodInvocation SimpleName units type
+x str SimpleName MethodInvocation SimpleName y str
+x str SimpleName MethodInvocation SimpleName w str
+x str SimpleName MethodInvocation SimpleName h str
+x str SimpleName MethodInvocation SimpleName units type
+x str SimpleName MethodInvocation SimpleName masked node
+y str SimpleName MethodInvocation SimpleName w str
+y str SimpleName MethodInvocation SimpleName h str
+y str SimpleName MethodInvocation SimpleName units type
+y str SimpleName MethodInvocation SimpleName masked node
+y str SimpleName MethodInvocation SimpleName uctx
+w str SimpleName MethodInvocation SimpleName h str
+w str SimpleName MethodInvocation SimpleName units type
+w str SimpleName MethodInvocation SimpleName masked node
+w str SimpleName MethodInvocation SimpleName uctx
+h str SimpleName MethodInvocation SimpleName units type
+h str SimpleName MethodInvocation SimpleName masked node
+h str SimpleName MethodInvocation SimpleName uctx
+units type SimpleName MethodInvocation SimpleName masked node
+units type SimpleName MethodInvocation SimpleName uctx
+masked node SimpleName MethodInvocation SimpleName uctx
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName convert mask region
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mask element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName masked element
+static Modifier MethodDeclaration SimpleType SimpleName rectangle d
+static Modifier MethodDeclaration SimpleName convert mask region
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName mask element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName masked element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName masked node
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName convert mask region
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName mask element
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName masked element
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName masked node
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert mask region SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert mask region SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mask element
+convert mask region SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert mask region SimpleName MethodDeclaration SingleVariableDeclaration SimpleName masked element
+convert mask region SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+convert mask region SimpleName MethodDeclaration SingleVariableDeclaration SimpleName masked node
+convert mask region SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+convert mask region SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert mask region SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType short
+mask element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName masked element
+mask element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName masked node
+mask element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+masked element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName masked node
+masked element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+masked node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert mask region
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mask element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName masked element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName masked node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert mask region
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mask element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName masked element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName masked node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

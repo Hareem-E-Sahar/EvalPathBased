@@ -1,0 +1,24 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName state
+text selection manager SimpleName MethodInvocation SimpleName set selection overlay xor mode
+text selection manager SimpleName MethodInvocation SimpleName state
+set selection overlay xor mode SimpleName MethodInvocation SimpleName state
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set selection overlay xor mode
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SimpleName set selection overlay xor mode
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+set selection overlay xor mode SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set selection overlay xor mode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set selection overlay xor mode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set selection overlay xor mode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

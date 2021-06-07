@@ -1,0 +1,37 @@
+entity ur is SimpleName MethodInvocation SimpleName get index of
+entity ur is SimpleName MethodInvocation SimpleName entity uri
+get index of SimpleName MethodInvocation SimpleName entity uri
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity ur is
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName get index of
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName entity uri
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entity ur is
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName entity uri
+index SimpleName InfixExpression NumberLiteral empty
+next index SimpleName VariableDeclarationFragment InfixExpression SimpleName index
+next index SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName next index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+entity ur is SimpleName MethodInvocation SimpleName get element at
+entity ur is SimpleName MethodInvocation SimpleName next index
+get element at SimpleName MethodInvocation SimpleName next index
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName entity ur is
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get element at
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next index
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get next entity uri
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName get next entity uri
+get next entity uri SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get next entity uri SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get next entity uri
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get next entity uri

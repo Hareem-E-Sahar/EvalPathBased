@@ -1,0 +1,34 @@
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+trace SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string writer
+string writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trace
+print writer SimpleName SimpleType ClassInstanceCreation SimpleName trace
+ex SimpleName MethodInvocation SimpleName print stack trace
+ex SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName print writer
+ex SimpleName MethodInvocation ClassInstanceCreation SimpleName trace
+print stack trace SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName print writer
+print stack trace SimpleName MethodInvocation ClassInstanceCreation SimpleName trace
+trace SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ex
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName to string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ex
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ex
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+to string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ex

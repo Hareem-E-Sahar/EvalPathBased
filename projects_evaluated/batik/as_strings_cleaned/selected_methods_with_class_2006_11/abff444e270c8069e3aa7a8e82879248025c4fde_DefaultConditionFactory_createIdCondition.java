@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+default id condition SimpleName SimpleType ClassInstanceCreation SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName attribute condition
+public Modifier MethodDeclaration SimpleName create id condition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+attribute condition SimpleName SimpleType MethodDeclaration SimpleName create id condition
+attribute condition SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+attribute condition SimpleName SimpleType MethodDeclaration SimpleType SimpleName css exception
+create id condition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create id condition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+create id condition SimpleName MethodDeclaration SimpleType SimpleName css exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attribute condition
+public Modifier TypeDeclaration MethodDeclaration SimpleName create id condition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attribute condition
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create id condition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

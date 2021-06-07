@@ -1,0 +1,38 @@
+owner SimpleName MethodInvocation SimpleName get root
+owner SimpleName MethodInvocation MethodInvocation SimpleName convert wallclock time
+get root SimpleName MethodInvocation MethodInvocation SimpleName convert wallclock time
+owner SimpleName MethodInvocation MethodInvocation SimpleName time
+get root SimpleName MethodInvocation MethodInvocation SimpleName time
+convert wallclock time SimpleName MethodInvocation SimpleName time
+t SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName owner
+t SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get root
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert wallclock time
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName time
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName convert wallclock time
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName time
+instance time SimpleName SimpleType ClassInstanceCreation SimpleName t
+instance time SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+t SimpleName ClassInstanceCreation BooleanLiteral false
+instance SimpleName Assignment ClassInstanceCreation SimpleType SimpleName instance time
+instance SimpleName Assignment ClassInstanceCreation SimpleName t
+instance SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+owner SimpleName MethodInvocation SimpleName add instance time
+owner SimpleName MethodInvocation SimpleName instance
+owner SimpleName MethodInvocation SimpleName is begin
+add instance time SimpleName MethodInvocation SimpleName instance
+add instance time SimpleName MethodInvocation SimpleName is begin
+instance SimpleName MethodInvocation SimpleName is begin
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName initialize
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration SimpleName initialize
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+initialize SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize

@@ -1,0 +1,112 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+int PrimitiveType SingleVariableDeclaration SimpleName charnum
+text node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text node
+text node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text node
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aci
+text node SimpleName MethodInvocation SimpleName get attributed character iterator
+aci SimpleName Assignment MethodInvocation SimpleName text node
+aci SimpleName Assignment MethodInvocation SimpleName get attributed character iterator
+get element start index SimpleName MethodInvocation SimpleName element
+first char SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element start index
+first char SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get element start index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName element
+first char SimpleName InfixExpression PrefixExpression NumberLiteral empty
+get text runs SimpleName MethodInvocation SimpleName text node
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text runs
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName text node
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+character information SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName info
+get character information SimpleName MethodInvocation SimpleName list
+get character information SimpleName MethodInvocation SimpleName first char
+get character information SimpleName MethodInvocation SimpleName charnum
+get character information SimpleName MethodInvocation SimpleName aci
+list SimpleName MethodInvocation SimpleName first char
+list SimpleName MethodInvocation SimpleName charnum
+list SimpleName MethodInvocation SimpleName aci
+first char SimpleName MethodInvocation SimpleName charnum
+first char SimpleName MethodInvocation SimpleName aci
+charnum SimpleName MethodInvocation SimpleName aci
+info SimpleName Assignment MethodInvocation SimpleName get character information
+info SimpleName Assignment MethodInvocation SimpleName list
+info SimpleName Assignment MethodInvocation SimpleName first char
+info SimpleName Assignment MethodInvocation SimpleName charnum
+info SimpleName Assignment MethodInvocation SimpleName aci
+infolayout QualifiedName MethodInvocation SimpleName get glyph vector
+it SimpleName VariableDeclarationFragment MethodInvocation QualifiedName infolayout
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph vector
+gvt glyph vector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+infoglyph index start QualifiedName InfixExpression QualifiedName infoglyph index end
+it SimpleName MethodInvocation SimpleName is glyph visible
+it SimpleName MethodInvocation QualifiedName infoglyph index start
+is glyph visible SimpleName MethodInvocation QualifiedName infoglyph index start
+it SimpleName MethodInvocation SimpleName get glyph cell bounds
+it SimpleName MethodInvocation QualifiedName infoglyph index start
+get glyph cell bounds SimpleName MethodInvocation QualifiedName infoglyph index start
+b SimpleName Assignment MethodInvocation SimpleName it
+b SimpleName Assignment MethodInvocation SimpleName get glyph cell bounds
+b SimpleName Assignment MethodInvocation QualifiedName infoglyph index start
+general path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+k SimpleName VariableDeclarationFragment QualifiedName infoglyph index start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName k
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment QualifiedName infoglyph index start
+k SimpleName InfixExpression QualifiedName infoglyph index end
+it SimpleName MethodInvocation SimpleName is glyph visible
+it SimpleName MethodInvocation SimpleName k
+is glyph visible SimpleName MethodInvocation SimpleName k
+it SimpleName MethodInvocation SimpleName get glyph cell bounds
+it SimpleName MethodInvocation SimpleName k
+get glyph cell bounds SimpleName MethodInvocation SimpleName k
+gb SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+gb SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph cell bounds
+gb SimpleName VariableDeclarationFragment MethodInvocation SimpleName k
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gb
+general path SimpleName SimpleType ClassInstanceCreation SimpleName gb
+path SimpleName Assignment ClassInstanceCreation SimpleType SimpleName general path
+path SimpleName Assignment ClassInstanceCreation SimpleName gb
+path SimpleName MethodInvocation SimpleName append
+path SimpleName MethodInvocation SimpleName gb
+path SimpleName MethodInvocation BooleanLiteral false
+append SimpleName MethodInvocation SimpleName gb
+append SimpleName MethodInvocation BooleanLiteral false
+gb SimpleName MethodInvocation BooleanLiteral false
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName k
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName infoglyph index end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName k
+k SimpleName InfixExpression ForStatement PostfixExpression SimpleName k
+infoglyph index end QualifiedName InfixExpression ForStatement PostfixExpression SimpleName k
+b SimpleName Assignment SimpleName path
+b SimpleName MethodInvocation SimpleName get bounds d
+protected Modifier MethodDeclaration SimpleType SimpleName rectangle d
+protected Modifier MethodDeclaration SimpleName get extent of char
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName charnum
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get extent of char
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName charnum
+get extent of char SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get extent of char SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+get extent of char SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get extent of char SimpleName MethodDeclaration SingleVariableDeclaration SimpleName charnum
+get extent of char SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get extent of char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get extent of char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum

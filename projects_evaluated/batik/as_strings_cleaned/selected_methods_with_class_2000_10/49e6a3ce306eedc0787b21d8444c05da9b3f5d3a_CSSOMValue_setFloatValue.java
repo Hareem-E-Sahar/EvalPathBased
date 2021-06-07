@@ -1,0 +1,79 @@
+short PrimitiveType SingleVariableDeclaration SimpleName unit type
+float PrimitiveType SingleVariableDeclaration SimpleName float value
+factory SimpleName MethodInvocation SimpleName create float value
+factory SimpleName MethodInvocation SimpleName unit type
+factory SimpleName MethodInvocation SimpleName float value
+create float value SimpleName MethodInvocation SimpleName unit type
+create float value SimpleName MethodInvocation SimpleName float value
+unit type SimpleName MethodInvocation SimpleName float value
+value SimpleName Assignment MethodInvocation SimpleName factory
+value SimpleName Assignment MethodInvocation SimpleName create float value
+value SimpleName Assignment MethodInvocation SimpleName unit type
+value SimpleName Assignment MethodInvocation SimpleName float value
+cssom read only value SimpleName SimpleType ClassInstanceCreation SimpleName value
+old SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cssom read only value
+old SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName value
+css value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old
+factory SimpleName MethodInvocation SimpleName create float value
+factory SimpleName MethodInvocation SimpleName unit type
+factory SimpleName MethodInvocation SimpleName float value
+create float value SimpleName MethodInvocation SimpleName unit type
+create float value SimpleName MethodInvocation SimpleName float value
+unit type SimpleName MethodInvocation SimpleName float value
+value SimpleName Assignment MethodInvocation SimpleName factory
+value SimpleName Assignment MethodInvocation SimpleName create float value
+value SimpleName Assignment MethodInvocation SimpleName unit type
+value SimpleName Assignment MethodInvocation SimpleName float value
+factory SimpleName MethodInvocation SimpleName get property name
+listener SimpleName MethodInvocation SimpleName css value change
+listener SimpleName MethodInvocation MethodInvocation SimpleName factory
+listener SimpleName MethodInvocation MethodInvocation SimpleName get property name
+listener SimpleName MethodInvocation SimpleName old
+css value change SimpleName MethodInvocation MethodInvocation SimpleName factory
+css value change SimpleName MethodInvocation MethodInvocation SimpleName get property name
+css value change SimpleName MethodInvocation SimpleName old
+factory SimpleName MethodInvocation MethodInvocation SimpleName old
+get property name SimpleName MethodInvocation MethodInvocation SimpleName old
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set float value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unit type
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName float value
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set float value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName unit type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName float value
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set float value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+set float value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unit type
+set float value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set float value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName float value
+set float value SimpleName MethodDeclaration SimpleType SimpleName dom exception
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName float value
+unit type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+unit type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName float value
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+unit type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+float value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set float value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName float value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set float value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName float value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

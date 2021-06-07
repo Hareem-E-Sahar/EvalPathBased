@@ -1,0 +1,12 @@
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get item separator
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName svg number list separator
+string SimpleName SimpleType MethodDeclaration SimpleName get item separator
+get item separator SimpleName MethodDeclaration Block ReturnStatement SimpleName svg number list separator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get item separator
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get item separator

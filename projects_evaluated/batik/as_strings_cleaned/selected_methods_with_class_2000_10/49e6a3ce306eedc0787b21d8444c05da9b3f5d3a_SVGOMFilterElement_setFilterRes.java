@@ -1,0 +1,37 @@
+int PrimitiveType SingleVariableDeclaration SimpleName filter res x
+int PrimitiveType SingleVariableDeclaration SimpleName filter res y
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! todo svgom filter elementset filter res
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set filter res
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter res x
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter res y
+void PrimitiveType MethodDeclaration SimpleName set filter res
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter res x
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter res y
+set filter res SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set filter res SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter res x
+set filter res SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set filter res SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter res y
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter res y
+filter res x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+filter res x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter res y
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set filter res
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter res x
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter res y
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set filter res
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter res x
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter res y

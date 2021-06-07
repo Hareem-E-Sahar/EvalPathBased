@@ -1,0 +1,18 @@
+result type SimpleName InfixExpression SimpleName number type
+int PrimitiveType CastExpression SimpleName result type
+create x path exception SimpleName MethodInvocation QualifiedName x path exceptiontype err
+create x path exception SimpleName MethodInvocation StringLiteral xpathinvalidresulttype
+x path exceptiontype err QualifiedName MethodInvocation StringLiteral xpathinvalidresulttype
+public Modifier MethodDeclaration PrimitiveType double
+public Modifier MethodDeclaration SimpleName get number value
+public Modifier MethodDeclaration Block ReturnStatement SimpleName number value
+double PrimitiveType MethodDeclaration SimpleName get number value
+double PrimitiveType MethodDeclaration Block ReturnStatement SimpleName number value
+get number value SimpleName MethodDeclaration Block ReturnStatement SimpleName number value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SimpleName get number value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get number value

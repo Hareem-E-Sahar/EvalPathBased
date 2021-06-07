@@ -1,0 +1,13 @@
+graphics node key listener SimpleName SimpleType SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName remove graphics node key listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+remove graphics node key listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key listener
+remove graphics node key listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove graphics node key listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove graphics node key listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

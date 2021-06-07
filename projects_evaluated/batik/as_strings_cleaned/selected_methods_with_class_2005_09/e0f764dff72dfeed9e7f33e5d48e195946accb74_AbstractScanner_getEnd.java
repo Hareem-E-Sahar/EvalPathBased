@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get end
+public Modifier MethodDeclaration Block ReturnStatement SimpleName end
+int PrimitiveType MethodDeclaration SimpleName get end
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName end
+get end SimpleName MethodDeclaration Block ReturnStatement SimpleName end
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get end
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get end

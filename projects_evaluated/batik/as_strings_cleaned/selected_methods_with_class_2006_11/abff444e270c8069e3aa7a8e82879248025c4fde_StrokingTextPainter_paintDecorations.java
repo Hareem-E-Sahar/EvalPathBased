@@ -1,0 +1,305 @@
+list SimpleName SimpleType SingleVariableDeclaration SimpleName text runs
+graphics d SimpleName SimpleType SingleVariableDeclaration SimpleName g d
+int PrimitiveType SingleVariableDeclaration SimpleName decoration type
+paint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev paint
+paint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev stroke paint
+stroke SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev stroke
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName decoration rect
+y loc SimpleName VariableDeclarationFragment NumberLiteral empty
+height SimpleName VariableDeclarationFragment NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y loc
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName height
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+y loc SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName height
+y loc SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName height
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+text runs SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName text runs
+i SimpleName InfixExpression MethodInvocation SimpleName size
+text runs SimpleName MethodInvocation SimpleName get
+text runs SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+text run SimpleName SimpleType CastExpression MethodInvocation SimpleName text runs
+text run SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+text run SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+text run SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName text run
+text run SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName text runs
+text run SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+text run SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+text run SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text run
+text run SimpleName MethodInvocation SimpleName get aci
+runaci SimpleName VariableDeclarationFragment MethodInvocation SimpleName text run
+runaci SimpleName VariableDeclarationFragment MethodInvocation SimpleName get aci
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName runaci
+runaci SimpleName MethodInvocation SimpleName first
+runaci SimpleName MethodInvocation SimpleName get attribute
+runaci SimpleName MethodInvocation SimpleName paint info
+get attribute SimpleName MethodInvocation SimpleName paint info
+text paint info SimpleName SimpleType CastExpression MethodInvocation SimpleName runaci
+text paint info SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+text paint info SimpleName SimpleType CastExpression MethodInvocation SimpleName paint info
+tpi SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName text paint info
+tpi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName runaci
+tpi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+tpi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName paint info
+text paint info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tpi
+g d SimpleName MethodInvocation SimpleName set composite
+g d SimpleName MethodInvocation QualifiedName tpicomposite
+set composite SimpleName MethodInvocation QualifiedName tpicomposite
+paint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName paint
+stroke SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stroke
+paint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stroke paint
+paint SimpleName Assignment QualifiedName tpiunderline paint
+stroke SimpleName Assignment QualifiedName tpiunderline stroke
+stroke paint SimpleName Assignment QualifiedName tpiunderline stroke paint
+paint SimpleName Assignment QualifiedName tpioverline paint
+stroke SimpleName Assignment QualifiedName tpioverline stroke
+stroke paint SimpleName Assignment QualifiedName tpioverline stroke paint
+paint SimpleName Assignment QualifiedName tpistrikethrough paint
+stroke SimpleName Assignment QualifiedName tpistrikethrough stroke
+stroke paint SimpleName Assignment QualifiedName tpistrikethrough stroke paint
+decoration type SimpleName SwitchStatement SwitchCase QualifiedName text span layoutdecoration underline
+decoration type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName paint
+decoration type SimpleName SwitchStatement ExpressionStatement Assignment QualifiedName tpiunderline paint
+decoration type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName stroke
+decoration type SimpleName SwitchStatement ExpressionStatement Assignment QualifiedName tpiunderline stroke
+decoration type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName stroke paint
+decoration type SimpleName SwitchStatement ExpressionStatement Assignment QualifiedName tpiunderline stroke paint
+text span layoutdecoration underline QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName text span layoutdecoration overline
+text span layoutdecoration overline QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName text span layoutdecoration strikethrough
+text run SimpleName MethodInvocation SimpleName is first run in chunk
+text run SimpleName MethodInvocation SimpleName get layout
+text run SimpleName MethodInvocation MethodInvocation SimpleName get decoration outline
+get layout SimpleName MethodInvocation MethodInvocation SimpleName get decoration outline
+text run SimpleName MethodInvocation MethodInvocation SimpleName decoration type
+get layout SimpleName MethodInvocation MethodInvocation SimpleName decoration type
+get decoration outline SimpleName MethodInvocation SimpleName decoration type
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName text run
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get layout
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get decoration outline
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName decoration type
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName get bounds d
+r d SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+r d SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r d
+r d SimpleName MethodInvocation SimpleName get y
+y loc SimpleName Assignment MethodInvocation SimpleName r d
+y loc SimpleName Assignment MethodInvocation SimpleName get y
+r d SimpleName MethodInvocation SimpleName get height
+height SimpleName Assignment MethodInvocation SimpleName r d
+height SimpleName Assignment MethodInvocation SimpleName get height
+text run SimpleName MethodInvocation SimpleName is first run in chunk
+paint SimpleName InfixExpression SimpleName prev paint
+stroke SimpleName InfixExpression SimpleName prev stroke
+stroke paint SimpleName InfixExpression SimpleName prev stroke paint
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation SimpleName prev paint
+set paint SimpleName MethodInvocation SimpleName prev paint
+g d SimpleName MethodInvocation SimpleName fill
+g d SimpleName MethodInvocation SimpleName decoration rect
+fill SimpleName MethodInvocation SimpleName decoration rect
+prev stroke SimpleName InfixExpression InfixExpression InfixExpression SimpleName prev stroke paint
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation SimpleName prev stroke paint
+set paint SimpleName MethodInvocation SimpleName prev stroke paint
+g d SimpleName MethodInvocation SimpleName set stroke
+g d SimpleName MethodInvocation SimpleName prev stroke
+set stroke SimpleName MethodInvocation SimpleName prev stroke
+g d SimpleName MethodInvocation SimpleName draw
+g d SimpleName MethodInvocation SimpleName decoration rect
+draw SimpleName MethodInvocation SimpleName decoration rect
+paint SimpleName InfixExpression InfixExpression InfixExpression SimpleName stroke paint
+text run SimpleName MethodInvocation SimpleName get layout
+text run SimpleName MethodInvocation MethodInvocation SimpleName is vertical
+get layout SimpleName MethodInvocation MethodInvocation SimpleName is vertical
+text run SimpleName MethodInvocation SimpleName get layout
+text run SimpleName MethodInvocation MethodInvocation SimpleName is on a text path
+get layout SimpleName MethodInvocation MethodInvocation SimpleName is on a text path
+text run SimpleName MethodInvocation SimpleName get layout
+text run SimpleName MethodInvocation MethodInvocation SimpleName get decoration outline
+get layout SimpleName MethodInvocation MethodInvocation SimpleName get decoration outline
+text run SimpleName MethodInvocation MethodInvocation SimpleName decoration type
+get layout SimpleName MethodInvocation MethodInvocation SimpleName decoration type
+get decoration outline SimpleName MethodInvocation SimpleName decoration type
+decoration shape SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName text run
+decoration shape SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get layout
+decoration shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName get decoration outline
+decoration shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName decoration type
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName decoration shape
+decoration shape SimpleName MethodInvocation SimpleName get bounds d
+r d SimpleName VariableDeclarationFragment MethodInvocation SimpleName decoration shape
+r d SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r d
+r d SimpleName MethodInvocation SimpleName get x
+r d SimpleName MethodInvocation SimpleName get width
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName r d
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName y loc
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName r d
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get width
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName height
+r d SimpleName MethodInvocation ClassInstanceCreation SimpleName y loc
+get x SimpleName MethodInvocation ClassInstanceCreation SimpleName y loc
+r d SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r d
+r d SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get width
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r d
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get width
+r d SimpleName MethodInvocation ClassInstanceCreation SimpleName height
+get x SimpleName MethodInvocation ClassInstanceCreation SimpleName height
+y loc SimpleName ClassInstanceCreation MethodInvocation SimpleName r d
+y loc SimpleName ClassInstanceCreation MethodInvocation SimpleName get width
+y loc SimpleName ClassInstanceCreation SimpleName height
+r d SimpleName MethodInvocation ClassInstanceCreation SimpleName height
+get width SimpleName MethodInvocation ClassInstanceCreation SimpleName height
+decoration rect SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName rectangle ddouble
+decoration rect SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName r d
+decoration rect SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get x
+decoration rect SimpleName Assignment ClassInstanceCreation SimpleName y loc
+decoration rect SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName r d
+decoration rect SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get width
+decoration rect SimpleName Assignment ClassInstanceCreation SimpleName height
+decoration shape SimpleName MethodInvocation SimpleName get bounds d
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName decoration shape
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bounds
+decoration rect SimpleName MethodInvocation SimpleName get x
+bounds SimpleName MethodInvocation SimpleName get x
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation MethodInvocation SimpleName decoration rect
+math SimpleName MethodInvocation MethodInvocation SimpleName get x
+math SimpleName MethodInvocation MethodInvocation SimpleName bounds
+math SimpleName MethodInvocation MethodInvocation SimpleName get x
+min SimpleName MethodInvocation MethodInvocation SimpleName decoration rect
+min SimpleName MethodInvocation MethodInvocation SimpleName get x
+min SimpleName MethodInvocation MethodInvocation SimpleName bounds
+min SimpleName MethodInvocation MethodInvocation SimpleName get x
+decoration rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bounds
+decoration rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get x
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bounds
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get x
+min x SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+min x SimpleName VariableDeclarationFragment MethodInvocation SimpleName min
+min x SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName decoration rect
+min x SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get x
+min x SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName bounds
+min x SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName min x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName min
+decoration rect SimpleName MethodInvocation SimpleName get max x
+bounds SimpleName MethodInvocation SimpleName get max x
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation MethodInvocation SimpleName decoration rect
+math SimpleName MethodInvocation MethodInvocation SimpleName get max x
+math SimpleName MethodInvocation MethodInvocation SimpleName bounds
+math SimpleName MethodInvocation MethodInvocation SimpleName get max x
+max SimpleName MethodInvocation MethodInvocation SimpleName decoration rect
+max SimpleName MethodInvocation MethodInvocation SimpleName get max x
+max SimpleName MethodInvocation MethodInvocation SimpleName bounds
+max SimpleName MethodInvocation MethodInvocation SimpleName get max x
+decoration rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bounds
+decoration rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max x
+get max x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName bounds
+get max x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get max x
+max x SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+max x SimpleName VariableDeclarationFragment MethodInvocation SimpleName max
+max x SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName decoration rect
+max x SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get max x
+max x SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName bounds
+max x SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get max x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName max
+max x SimpleName InfixExpression SimpleName min x
+decoration rect SimpleName MethodInvocation SimpleName set rect
+decoration rect SimpleName MethodInvocation SimpleName min x
+decoration rect SimpleName MethodInvocation SimpleName y loc
+decoration rect SimpleName MethodInvocation InfixExpression SimpleName max x
+decoration rect SimpleName MethodInvocation InfixExpression SimpleName min x
+decoration rect SimpleName MethodInvocation SimpleName height
+set rect SimpleName MethodInvocation SimpleName min x
+set rect SimpleName MethodInvocation SimpleName y loc
+set rect SimpleName MethodInvocation InfixExpression SimpleName max x
+set rect SimpleName MethodInvocation InfixExpression SimpleName min x
+set rect SimpleName MethodInvocation SimpleName height
+min x SimpleName MethodInvocation SimpleName y loc
+min x SimpleName MethodInvocation InfixExpression SimpleName max x
+min x SimpleName MethodInvocation InfixExpression SimpleName min x
+min x SimpleName MethodInvocation SimpleName height
+y loc SimpleName MethodInvocation InfixExpression SimpleName max x
+y loc SimpleName MethodInvocation InfixExpression SimpleName min x
+y loc SimpleName MethodInvocation SimpleName height
+max x SimpleName InfixExpression MethodInvocation SimpleName height
+min x SimpleName InfixExpression MethodInvocation SimpleName height
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+prev paint SimpleName Assignment SimpleName paint
+prev stroke SimpleName Assignment SimpleName stroke
+prev stroke paint SimpleName Assignment SimpleName stroke paint
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation SimpleName prev paint
+set paint SimpleName MethodInvocation SimpleName prev paint
+g d SimpleName MethodInvocation SimpleName fill
+g d SimpleName MethodInvocation SimpleName decoration rect
+fill SimpleName MethodInvocation SimpleName decoration rect
+prev stroke SimpleName InfixExpression InfixExpression InfixExpression SimpleName prev stroke paint
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation SimpleName prev stroke paint
+set paint SimpleName MethodInvocation SimpleName prev stroke paint
+g d SimpleName MethodInvocation SimpleName set stroke
+g d SimpleName MethodInvocation SimpleName prev stroke
+set stroke SimpleName MethodInvocation SimpleName prev stroke
+g d SimpleName MethodInvocation SimpleName draw
+g d SimpleName MethodInvocation SimpleName decoration rect
+draw SimpleName MethodInvocation SimpleName decoration rect
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName paint decorations
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName text runs
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName g d
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName decoration type
+void PrimitiveType MethodDeclaration SimpleName paint decorations
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName text runs
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName g d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName decoration type
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+paint decorations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+paint decorations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text runs
+paint decorations SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+paint decorations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g d
+paint decorations SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+paint decorations SimpleName MethodDeclaration SingleVariableDeclaration SimpleName decoration type
+paint decorations SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+text runs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d
+text runs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+text runs SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decoration type
+g d SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+g d SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decoration type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName paint decorations
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text runs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decoration type
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName paint decorations
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text runs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decoration type

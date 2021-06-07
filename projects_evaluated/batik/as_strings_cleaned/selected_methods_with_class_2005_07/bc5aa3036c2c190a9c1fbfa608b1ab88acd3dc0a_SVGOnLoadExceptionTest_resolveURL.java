@@ -1,0 +1,33 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName url
+file SimpleName SimpleType ClassInstanceCreation SimpleName url
+url SimpleName ClassInstanceCreation ParenthesizedExpression MethodInvocation SimpleName get absolute file
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get absolute file
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName MethodInvocation SimpleName get parent file
+f SimpleName MethodInvocation MethodInvocation SimpleName exists
+get parent file SimpleName MethodInvocation MethodInvocation SimpleName exists
+f SimpleName MethodInvocation SimpleName to url
+f SimpleName MethodInvocation MethodInvocation SimpleName to string
+to url SimpleName MethodInvocation MethodInvocation SimpleName to string
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+url SimpleName SimpleType ClassInstanceCreation SimpleName url
+url SimpleName ClassInstanceCreation ParenthesizedExpression MethodInvocation SimpleName to string
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName url
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName resolve url
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName url
+string SimpleName SimpleType MethodDeclaration SimpleName resolve url
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName url
+resolve url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName url
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url

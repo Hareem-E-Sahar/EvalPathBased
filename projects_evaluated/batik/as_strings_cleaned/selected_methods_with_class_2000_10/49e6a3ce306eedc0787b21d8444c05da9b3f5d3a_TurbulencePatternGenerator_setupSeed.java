@@ -1,0 +1,43 @@
+int PrimitiveType SingleVariableDeclaration SimpleName seed
+seed SimpleName InfixExpression NumberLiteral empty
+rand m SimpleName InfixExpression NumberLiteral empty
+seed SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName rand m
+seed SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+seed SimpleName Assignment InfixExpression NumberLiteral empty
+rand m SimpleName InfixExpression NumberLiteral empty
+seed SimpleName InfixExpression InfixExpression SimpleName rand m
+seed SimpleName InfixExpression InfixExpression NumberLiteral empty
+rand m SimpleName InfixExpression NumberLiteral empty
+seed SimpleName Assignment InfixExpression SimpleName rand m
+seed SimpleName Assignment InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName setup seed
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName seed
+public Modifier MethodDeclaration Block ReturnStatement SimpleName seed
+final Modifier MethodDeclaration PrimitiveType int
+final Modifier MethodDeclaration SimpleName setup seed
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName seed
+final Modifier MethodDeclaration Block ReturnStatement SimpleName seed
+int PrimitiveType MethodDeclaration SimpleName setup seed
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName seed
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName seed
+setup seed SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+setup seed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName seed
+setup seed SimpleName MethodDeclaration Block ReturnStatement SimpleName seed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup seed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seed
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup seed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seed

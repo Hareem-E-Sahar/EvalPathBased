@@ -1,0 +1,53 @@
+path SimpleName Assignment ClassInstanceCreation SimpleType SimpleName general path
+xpoints SimpleName ArrayAccess NumberLiteral empty
+ypoints SimpleName ArrayAccess NumberLiteral empty
+path SimpleName MethodInvocation SimpleName move to
+path SimpleName MethodInvocation ArrayAccess SimpleName xpoints
+path SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+path SimpleName MethodInvocation ArrayAccess SimpleName ypoints
+path SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+move to SimpleName MethodInvocation ArrayAccess SimpleName xpoints
+move to SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+move to SimpleName MethodInvocation ArrayAccess SimpleName ypoints
+move to SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+xpoints SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName ypoints
+xpoints SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName ypoints
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName npoints
+xpoints SimpleName ArrayAccess SimpleName i
+ypoints SimpleName ArrayAccess SimpleName i
+path SimpleName MethodInvocation SimpleName line to
+path SimpleName MethodInvocation ArrayAccess SimpleName xpoints
+path SimpleName MethodInvocation ArrayAccess SimpleName i
+path SimpleName MethodInvocation ArrayAccess SimpleName ypoints
+path SimpleName MethodInvocation ArrayAccess SimpleName i
+line to SimpleName MethodInvocation ArrayAccess SimpleName xpoints
+line to SimpleName MethodInvocation ArrayAccess SimpleName i
+line to SimpleName MethodInvocation ArrayAccess SimpleName ypoints
+line to SimpleName MethodInvocation ArrayAccess SimpleName i
+xpoints SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName ypoints
+xpoints SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName i
+i SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName ypoints
+i SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName npoints
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+npoints SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+path SimpleName MethodInvocation SimpleName get bounds d
+bounds SimpleName Assignment MethodInvocation SimpleName path
+bounds SimpleName Assignment MethodInvocation SimpleName get bounds d
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName calculate path
+void PrimitiveType MethodDeclaration SimpleName calculate path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName calculate path
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName calculate path

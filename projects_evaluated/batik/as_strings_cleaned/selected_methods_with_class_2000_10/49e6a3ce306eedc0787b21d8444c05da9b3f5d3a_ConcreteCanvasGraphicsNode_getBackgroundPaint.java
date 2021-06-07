@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName paint
+public Modifier MethodDeclaration SimpleName get background paint
+public Modifier MethodDeclaration Block ReturnStatement SimpleName background paint
+paint SimpleName SimpleType MethodDeclaration SimpleName get background paint
+get background paint SimpleName MethodDeclaration Block ReturnStatement SimpleName background paint
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName paint
+public Modifier TypeDeclaration MethodDeclaration SimpleName get background paint
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName paint
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get background paint

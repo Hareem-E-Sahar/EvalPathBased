@@ -1,0 +1,15 @@
+public Modifier MethodDeclaration Modifier abstract
+public Modifier MethodDeclaration SimpleType SimpleName node list
+public Modifier MethodDeclaration SimpleName get selected content
+abstract Modifier MethodDeclaration SimpleType SimpleName node list
+abstract Modifier MethodDeclaration SimpleName get selected content
+node list SimpleName SimpleType MethodDeclaration SimpleName get selected content
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get selected content
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get selected content

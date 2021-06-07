@@ -1,0 +1,11 @@
+timed element SimpleName MethodInvocation SimpleName get simple dur
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get simple duration
+float PrimitiveType MethodDeclaration SimpleName get simple duration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get simple duration
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get simple duration

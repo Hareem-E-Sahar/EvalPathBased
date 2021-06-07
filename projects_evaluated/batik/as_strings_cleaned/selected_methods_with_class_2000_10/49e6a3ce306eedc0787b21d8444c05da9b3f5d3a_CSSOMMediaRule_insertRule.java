@@ -1,0 +1,63 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName rule
+int PrimitiveType SingleVariableDeclaration SimpleName index
+cssom style sheet SimpleName SimpleType CastExpression MethodInvocation SimpleName get parent style sheet
+ss SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName cssom style sheet
+ss SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get parent style sheet
+cssom style sheet SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ss
+css document handler SimpleName MethodInvocation SimpleName parse rule
+css document handler SimpleName MethodInvocation SimpleName ss
+css document handler SimpleName MethodInvocation SimpleName rule
+parse rule SimpleName MethodInvocation SimpleName ss
+parse rule SimpleName MethodInvocation SimpleName rule
+ss SimpleName MethodInvocation SimpleName rule
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName css document handler
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse rule
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName ss
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName rule
+css rule SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+css rules SimpleName MethodInvocation SimpleName insert
+css rules SimpleName MethodInvocation SimpleName r
+css rules SimpleName MethodInvocation SimpleName index
+insert SimpleName MethodInvocation SimpleName r
+insert SimpleName MethodInvocation SimpleName index
+r SimpleName MethodInvocation SimpleName index
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName insert rule
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rule
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+int PrimitiveType MethodDeclaration SimpleName insert rule
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rule
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index
+int PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName index
+insert rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+insert rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rule
+insert rule SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+insert rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+insert rule SimpleName MethodDeclaration SimpleType SimpleName dom exception
+insert rule SimpleName MethodDeclaration Block ReturnStatement SimpleName index
+rule SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+rule SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+rule SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+index SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName insert rule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName insert rule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

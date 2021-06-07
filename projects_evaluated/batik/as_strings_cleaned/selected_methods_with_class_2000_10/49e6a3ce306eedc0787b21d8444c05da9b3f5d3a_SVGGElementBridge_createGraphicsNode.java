@@ -1,0 +1,74 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+ctx SimpleName MethodInvocation SimpleName get gvt factory
+ctx SimpleName MethodInvocation MethodInvocation SimpleName create composite graphics node
+get gvt factory SimpleName MethodInvocation MethodInvocation SimpleName create composite graphics node
+gn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ctx
+gn SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get gvt factory
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName create composite graphics node
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName attr transform
+get attribute ns SimpleName MethodInvocation SimpleName attr transform
+string reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName element
+string reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get attribute ns
+string reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attr transform
+ctx SimpleName MethodInvocation SimpleName get parser factory
+awt transform producer SimpleName MethodInvocation SimpleName create affine transform
+awt transform producer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string reader
+awt transform producer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName element
+awt transform producer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attribute ns
+awt transform producer SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attr transform
+awt transform producer SimpleName MethodInvocation MethodInvocation SimpleName ctx
+awt transform producer SimpleName MethodInvocation MethodInvocation SimpleName get parser factory
+create affine transform SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string reader
+create affine transform SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName element
+create affine transform SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get attribute ns
+create affine transform SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName attr transform
+create affine transform SimpleName MethodInvocation MethodInvocation SimpleName ctx
+create affine transform SimpleName MethodInvocation MethodInvocation SimpleName get parser factory
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName awt transform producer
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName create affine transform
+at SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ctx
+at SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get parser factory
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+gn SimpleName MethodInvocation SimpleName set transform
+gn SimpleName MethodInvocation SimpleName at
+set transform SimpleName MethodInvocation SimpleName at
+css utilities SimpleName MethodInvocation SimpleName setup filter
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation SimpleName gn
+css utilities SimpleName MethodInvocation SimpleName ctx
+setup filter SimpleName MethodInvocation SimpleName element
+setup filter SimpleName MethodInvocation SimpleName gn
+setup filter SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName gn
+element SimpleName MethodInvocation SimpleName ctx
+gn SimpleName MethodInvocation SimpleName ctx
+public Modifier MethodDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SimpleName create graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier MethodDeclaration Block ReturnStatement SimpleName gn
+graphics node SimpleName SimpleType MethodDeclaration SimpleName create graphics node
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+create graphics node SimpleName MethodDeclaration Block ReturnStatement SimpleName gn
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create graphics node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create graphics node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

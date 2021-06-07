@@ -1,0 +1,133 @@
+writable raster SimpleName SimpleType SingleVariableDeclaration SimpleName wr
+wr SimpleName MethodInvocation SimpleName get min x
+get x tile SimpleName MethodInvocation MethodInvocation SimpleName wr
+get x tile SimpleName MethodInvocation MethodInvocation SimpleName get min x
+tx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x tile
+tx SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName wr
+tx SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get min x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get x tile
+wr SimpleName MethodInvocation SimpleName get min y
+get y tile SimpleName MethodInvocation MethodInvocation SimpleName wr
+get y tile SimpleName MethodInvocation MethodInvocation SimpleName get min y
+ty SimpleName VariableDeclarationFragment MethodInvocation SimpleName get y tile
+ty SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName wr
+ty SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get min y
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get y tile
+wr SimpleName MethodInvocation SimpleName get min x
+wr SimpleName MethodInvocation SimpleName get width
+wr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName wr
+wr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+get min x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName wr
+get min x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+wr SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get min x SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+wr SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get width SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get x tile SimpleName MethodInvocation InfixExpression NumberLiteral empty
+tx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x tile
+tx SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get x tile
+wr SimpleName MethodInvocation SimpleName get min y
+wr SimpleName MethodInvocation SimpleName get height
+wr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName wr
+wr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get height
+get min y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName wr
+get min y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get height
+wr SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get min y SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+wr SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get height SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get y tile SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ty SimpleName VariableDeclarationFragment MethodInvocation SimpleName get y tile
+ty SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get y tile
+tx SimpleName InfixExpression SimpleName min tile x
+tx SimpleName Assignment SimpleName min tile x
+ty SimpleName InfixExpression SimpleName min tile y
+ty SimpleName Assignment SimpleName min tile y
+min tile x SimpleName InfixExpression SimpleName num x tiles
+tx SimpleName InfixExpression InfixExpression SimpleName min tile x
+tx SimpleName InfixExpression InfixExpression SimpleName num x tiles
+min tile x SimpleName InfixExpression SimpleName num x tiles
+min tile x SimpleName InfixExpression InfixExpression NumberLiteral empty
+num x tiles SimpleName InfixExpression InfixExpression NumberLiteral empty
+tx SimpleName Assignment InfixExpression InfixExpression SimpleName min tile x
+tx SimpleName Assignment InfixExpression InfixExpression SimpleName num x tiles
+tx SimpleName Assignment InfixExpression NumberLiteral empty
+min tile y SimpleName InfixExpression SimpleName num y tiles
+ty SimpleName InfixExpression InfixExpression SimpleName min tile y
+ty SimpleName InfixExpression InfixExpression SimpleName num y tiles
+min tile y SimpleName InfixExpression SimpleName num y tiles
+min tile y SimpleName InfixExpression InfixExpression NumberLiteral empty
+num y tiles SimpleName InfixExpression InfixExpression NumberLiteral empty
+ty SimpleName Assignment InfixExpression InfixExpression SimpleName min tile y
+ty SimpleName Assignment InfixExpression InfixExpression SimpleName num y tiles
+ty SimpleName Assignment InfixExpression NumberLiteral empty
+y SimpleName VariableDeclarationFragment SimpleName ty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName y
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName ty
+y SimpleName InfixExpression SimpleName ty
+x SimpleName VariableDeclarationFragment SimpleName tx
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName x
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName tx
+x SimpleName InfixExpression SimpleName tx
+get tile SimpleName MethodInvocation SimpleName x
+get tile SimpleName MethodInvocation SimpleName y
+x SimpleName MethodInvocation SimpleName y
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tile
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName x
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName y
+raster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+wr SimpleName MethodInvocation SimpleName set rect
+wr SimpleName MethodInvocation SimpleName r
+set rect SimpleName MethodInvocation SimpleName r
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName x
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName tx
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName x
+x SimpleName InfixExpression ForStatement PostfixExpression SimpleName x
+tx SimpleName InfixExpression ForStatement PostfixExpression SimpleName x
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName y
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName ty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName y
+y SimpleName InfixExpression ForStatement PostfixExpression SimpleName y
+ty SimpleName InfixExpression ForStatement PostfixExpression SimpleName y
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName copy to raster
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable raster
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName wr
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName copy to raster
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable raster
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName wr
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+copy to raster SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable raster
+copy to raster SimpleName MethodDeclaration SingleVariableDeclaration SimpleName wr
+copy to raster SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+copy to raster SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+copy to raster SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+copy to raster SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName copy to raster
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wr
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName copy to raster
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wr

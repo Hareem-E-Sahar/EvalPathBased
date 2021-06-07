@@ -1,0 +1,13 @@
+dom config SimpleName Assignment ClassInstanceCreation SimpleType SimpleName document configuration
+public Modifier MethodDeclaration SimpleType SimpleName dom configuration
+public Modifier MethodDeclaration SimpleName get dom config
+public Modifier MethodDeclaration Block ReturnStatement SimpleName dom config
+dom configuration SimpleName SimpleType MethodDeclaration SimpleName get dom config
+get dom config SimpleName MethodDeclaration Block ReturnStatement SimpleName dom config
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom configuration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get dom config
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom configuration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get dom config

@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName vector
+public Modifier MethodDeclaration SimpleName get sources
+vector SimpleName SimpleType MethodDeclaration SimpleName get sources
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vector
+public Modifier TypeDeclaration MethodDeclaration SimpleName get sources
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get sources

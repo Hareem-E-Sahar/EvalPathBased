@@ -1,0 +1,37 @@
+int PrimitiveType SingleVariableDeclaration SimpleName start
+jjnext states SimpleName ArrayAccess SimpleName start
+jj check n add SimpleName MethodInvocation ArrayAccess SimpleName jjnext states
+jj check n add SimpleName MethodInvocation ArrayAccess SimpleName start
+start SimpleName InfixExpression NumberLiteral empty
+jjnext states SimpleName ArrayAccess InfixExpression SimpleName start
+jjnext states SimpleName ArrayAccess InfixExpression NumberLiteral empty
+jj check n add SimpleName MethodInvocation ArrayAccess SimpleName jjnext states
+jj check n add SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName start
+jj check n add SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+private Modifier MethodDeclaration Modifier final
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName jj check n add states
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName start
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName jj check n add states
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName start
+void PrimitiveType MethodDeclaration SimpleName jj check n add states
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName start
+jj check n add states SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+jj check n add states SimpleName MethodDeclaration SingleVariableDeclaration SimpleName start
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName jj check n add states
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName jj check n add states
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName start

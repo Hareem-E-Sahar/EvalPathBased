@@ -1,0 +1,16 @@
+css exception SimpleName SimpleType ClassInstanceCreation StringLiteral not implemented in css
+public Modifier MethodDeclaration SimpleType SimpleName condition
+public Modifier MethodDeclaration SimpleName create only type condition
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+condition SimpleName SimpleType MethodDeclaration SimpleName create only type condition
+condition SimpleName SimpleType MethodDeclaration SimpleType SimpleName css exception
+create only type condition SimpleName MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName condition
+public Modifier TypeDeclaration MethodDeclaration SimpleName create only type condition
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName condition
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create only type condition
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

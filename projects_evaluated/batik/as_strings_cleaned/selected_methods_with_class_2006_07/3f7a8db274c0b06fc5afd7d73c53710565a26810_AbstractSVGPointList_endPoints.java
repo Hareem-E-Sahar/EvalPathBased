@@ -1,0 +1,16 @@
+list handler SimpleName MethodInvocation SimpleName end list
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName end points
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleName end points
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+end points SimpleName MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName end points
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName end points
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

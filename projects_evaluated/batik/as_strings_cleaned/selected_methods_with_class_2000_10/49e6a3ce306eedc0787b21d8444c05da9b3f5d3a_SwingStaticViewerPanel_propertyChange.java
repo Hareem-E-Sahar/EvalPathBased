@@ -1,0 +1,20 @@
+property change event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+controller SimpleName MethodInvocation SimpleName on tree root changed
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName property change
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName property change
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change event
+property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName property change
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName property change
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

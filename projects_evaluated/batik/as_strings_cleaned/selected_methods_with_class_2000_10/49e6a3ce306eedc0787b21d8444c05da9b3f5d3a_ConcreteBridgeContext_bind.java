@@ -1,0 +1,76 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+style reference SimpleName SimpleType SingleVariableDeclaration SimpleName reference
+element style att map SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hash map
+element style att map SimpleName MethodInvocation SimpleName get
+element style att map SimpleName MethodInvocation SimpleName element
+get SimpleName MethodInvocation SimpleName element
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName element style att map
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName element
+list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName linked list
+list SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName element style att map
+list SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+list SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName element
+linked list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+list SimpleName Assignment ClassInstanceCreation SimpleType SimpleName linked list
+element style att map SimpleName MethodInvocation SimpleName put
+element style att map SimpleName MethodInvocation SimpleName element
+element style att map SimpleName MethodInvocation SimpleName list
+put SimpleName MethodInvocation SimpleName element
+put SimpleName MethodInvocation SimpleName list
+element SimpleName MethodInvocation SimpleName list
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation SimpleName reference
+add SimpleName MethodInvocation SimpleName reference
+node style map SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hash map
+reference SimpleName MethodInvocation SimpleName get graphics node
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName reference
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graphics node
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+node style map SimpleName MethodInvocation SimpleName get
+node style map SimpleName MethodInvocation SimpleName node
+get SimpleName MethodInvocation SimpleName node
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName node style map
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName node
+list SimpleName Assignment CastExpression SimpleType SimpleName linked list
+list SimpleName Assignment CastExpression MethodInvocation SimpleName node style map
+list SimpleName Assignment CastExpression MethodInvocation SimpleName get
+list SimpleName Assignment CastExpression MethodInvocation SimpleName node
+list SimpleName Assignment ClassInstanceCreation SimpleType SimpleName linked list
+node style map SimpleName MethodInvocation SimpleName put
+node style map SimpleName MethodInvocation SimpleName node
+node style map SimpleName MethodInvocation SimpleName list
+put SimpleName MethodInvocation SimpleName node
+put SimpleName MethodInvocation SimpleName list
+node SimpleName MethodInvocation SimpleName list
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation SimpleName element
+add SimpleName MethodInvocation SimpleName element
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName bind
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName style reference
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName reference
+void PrimitiveType MethodDeclaration SimpleName bind
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName style reference
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName reference
+bind SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+bind SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+bind SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName style reference
+bind SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reference
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reference
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName bind
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reference
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bind
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reference

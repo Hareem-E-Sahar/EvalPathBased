@@ -1,0 +1,79 @@
+policy SimpleName MethodInvocation SimpleName get policy
+policy SimpleName VariableDeclarationFragment MethodInvocation SimpleName policy
+policy SimpleName VariableDeclarationFragment MethodInvocation SimpleName get policy
+policy SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName policy
+security manager SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName batik security manager
+batik security manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName security manager
+app main class SimpleName MethodInvocation SimpleName get class loader
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName app main class
+cl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get class loader
+class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation SimpleName property java security policy
+get property SimpleName MethodInvocation SimpleName property java security policy
+security policy property SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+security policy property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+security policy property SimpleName VariableDeclarationFragment MethodInvocation SimpleName property java security policy
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName security policy property
+security policy property SimpleName MethodInvocation SimpleName equals
+security policy property SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+security policy property SimpleName InfixExpression InfixExpression MethodInvocation SimpleName security policy property
+security policy property SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+security policy property SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral empty
+policy url SimpleName VariableDeclarationFragment MethodInvocation SimpleName get policy url
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName policy url
+policy url SimpleName MethodInvocation SimpleName to string
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation SimpleName property java security policy
+system SimpleName MethodInvocation MethodInvocation SimpleName policy url
+system SimpleName MethodInvocation MethodInvocation SimpleName to string
+set property SimpleName MethodInvocation SimpleName property java security policy
+set property SimpleName MethodInvocation MethodInvocation SimpleName policy url
+set property SimpleName MethodInvocation MethodInvocation SimpleName to string
+property java security policy SimpleName MethodInvocation MethodInvocation SimpleName policy url
+property java security policy SimpleName MethodInvocation MethodInvocation SimpleName to string
+cl SimpleName MethodInvocation SimpleName get resource
+cl SimpleName MethodInvocation SimpleName app main class relative url
+get resource SimpleName MethodInvocation SimpleName app main class relative url
+main class url SimpleName VariableDeclarationFragment MethodInvocation SimpleName cl
+main class url SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+main class url SimpleName VariableDeclarationFragment MethodInvocation SimpleName app main class relative url
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName main class url
+runtime exception SimpleName SimpleType ClassInstanceCreation SimpleName app main class relative url
+main class url SimpleName MethodInvocation SimpleName to string
+expanded main class name SimpleName VariableDeclarationFragment MethodInvocation SimpleName main class url
+expanded main class name SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expanded main class name
+expanded main class name SimpleName MethodInvocation SimpleName starts with
+expanded main class name SimpleName MethodInvocation SimpleName jar protocol
+starts with SimpleName MethodInvocation SimpleName jar protocol
+set jar base SimpleName MethodInvocation SimpleName expanded main class name
+set dev base SimpleName MethodInvocation SimpleName expanded main class name
+system SimpleName MethodInvocation SimpleName set security manager
+system SimpleName MethodInvocation SimpleName security manager
+set security manager SimpleName MethodInvocation SimpleName security manager
+last security manager installed SimpleName Assignment SimpleName security manager
+policy SimpleName MethodInvocation SimpleName refresh
+security policy property SimpleName MethodInvocation SimpleName equals
+security policy property SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+security policy property SimpleName InfixExpression InfixExpression MethodInvocation SimpleName security policy property
+security policy property SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+security policy property SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral empty
+system SimpleName MethodInvocation SimpleName set property
+system SimpleName MethodInvocation SimpleName property java security policy
+system SimpleName MethodInvocation StringLiteral empty
+set property SimpleName MethodInvocation SimpleName property java security policy
+set property SimpleName MethodInvocation StringLiteral empty
+property java security policy SimpleName MethodInvocation StringLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName install security manager
+void PrimitiveType MethodDeclaration SimpleName install security manager
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName install security manager
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName install security manager

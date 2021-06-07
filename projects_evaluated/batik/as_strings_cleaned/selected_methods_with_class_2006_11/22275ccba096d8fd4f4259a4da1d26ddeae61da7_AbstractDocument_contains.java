@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+dom constantsdom error handler param QualifiedName MethodInvocation SimpleName equals
+dom constantsdom error handler param QualifiedName MethodInvocation SimpleName s
+equals SimpleName MethodInvocation SimpleName s
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName boolean param nameslength
+boolean param names SimpleName ArrayAccess SimpleName i
+boolean param names SimpleName ArrayAccess MethodInvocation SimpleName equals
+i SimpleName ArrayAccess MethodInvocation SimpleName equals
+boolean param names SimpleName ArrayAccess MethodInvocation SimpleName s
+i SimpleName ArrayAccess MethodInvocation SimpleName s
+equals SimpleName MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName boolean param nameslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+boolean param nameslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName contains
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName contains
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+contains SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+contains SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+contains SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName contains
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName contains
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

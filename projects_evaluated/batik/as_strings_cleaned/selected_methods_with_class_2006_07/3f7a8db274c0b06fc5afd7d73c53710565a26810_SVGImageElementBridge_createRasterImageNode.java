@@ -1,0 +1,163 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+filter SimpleName SimpleType SingleVariableDeclaration SimpleName img
+parsed url SimpleName SimpleType SingleVariableDeclaration SimpleName purl
+get image bounds SimpleName MethodInvocation SimpleName ctx
+get image bounds SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get image bounds
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bounds
+bounds SimpleName MethodInvocation SimpleName get width
+bounds SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get width SimpleName MethodInvocation InfixExpression NumberLiteral empty
+bounds SimpleName MethodInvocation SimpleName get height
+bounds SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get height SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sn SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName shape node
+shape node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sn
+sn SimpleName MethodInvocation SimpleName set shape
+sn SimpleName MethodInvocation SimpleName bounds
+set shape SimpleName MethodInvocation SimpleName bounds
+broken link provider SimpleName MethodInvocation SimpleName has broken link property
+broken link provider SimpleName MethodInvocation SimpleName img
+has broken link property SimpleName MethodInvocation SimpleName img
+img SimpleName MethodInvocation SimpleName get property
+img SimpleName MethodInvocation QualifiedName broken link providerbroken link property
+get property SimpleName MethodInvocation QualifiedName broken link providerbroken link property
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName img
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+o SimpleName VariableDeclarationFragment MethodInvocation QualifiedName broken link providerbroken link property
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+msg SimpleName VariableDeclarationFragment StringLiteral unknown
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral unknown
+o SimpleName InstanceofExpression SimpleType SimpleName string
+string SimpleName SimpleType CastExpression SimpleName o
+msg SimpleName Assignment CastExpression SimpleType SimpleName string
+msg SimpleName Assignment CastExpression SimpleName o
+ctx SimpleName MethodInvocation SimpleName get user agent
+purl SimpleName MethodInvocation SimpleName to string
+ctx SimpleName MethodInvocation MethodInvocation SimpleName get broken link document
+get user agent SimpleName MethodInvocation MethodInvocation SimpleName get broken link document
+ctx SimpleName MethodInvocation MethodInvocation SimpleName e
+get user agent SimpleName MethodInvocation MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName purl
+ctx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get user agent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName purl
+get user agent SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+ctx SimpleName MethodInvocation MethodInvocation SimpleName msg
+get user agent SimpleName MethodInvocation MethodInvocation SimpleName msg
+get broken link document SimpleName MethodInvocation SimpleName e
+get broken link document SimpleName MethodInvocation MethodInvocation SimpleName purl
+get broken link document SimpleName MethodInvocation MethodInvocation SimpleName to string
+get broken link document SimpleName MethodInvocation SimpleName msg
+e SimpleName MethodInvocation MethodInvocation SimpleName purl
+e SimpleName MethodInvocation MethodInvocation SimpleName to string
+e SimpleName MethodInvocation SimpleName msg
+purl SimpleName MethodInvocation MethodInvocation SimpleName msg
+to string SimpleName MethodInvocation MethodInvocation SimpleName msg
+doc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName ctx
+doc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get user agent
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get broken link document
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+doc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName purl
+doc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName msg
+svg document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+create svg image node SimpleName MethodInvocation SimpleName ctx
+create svg image node SimpleName MethodInvocation SimpleName e
+create svg image node SimpleName MethodInvocation SimpleName doc
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName doc
+e SimpleName MethodInvocation SimpleName doc
+node SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName raster image node
+raster image node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+node SimpleName MethodInvocation SimpleName set image
+node SimpleName MethodInvocation SimpleName img
+set image SimpleName MethodInvocation SimpleName img
+img SimpleName MethodInvocation SimpleName get bounds d
+img bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName img
+img bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName img bounds
+float PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+vb SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+vb SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName vb
+vb SimpleName ArrayAccess NumberLiteral empty
+vb SimpleName ArrayAccess Assignment NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment NumberLiteral empty
+vb SimpleName ArrayAccess NumberLiteral empty
+vb SimpleName ArrayAccess Assignment NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment NumberLiteral empty
+vb SimpleName ArrayAccess NumberLiteral empty
+img bounds SimpleName MethodInvocation SimpleName get width
+float PrimitiveType CastExpression MethodInvocation SimpleName img bounds
+float PrimitiveType CastExpression MethodInvocation SimpleName get width
+vb SimpleName ArrayAccess Assignment CastExpression PrimitiveType float
+empty NumberLiteral ArrayAccess Assignment CastExpression PrimitiveType float
+vb SimpleName ArrayAccess NumberLiteral empty
+img bounds SimpleName MethodInvocation SimpleName get height
+float PrimitiveType CastExpression MethodInvocation SimpleName img bounds
+float PrimitiveType CastExpression MethodInvocation SimpleName get height
+vb SimpleName ArrayAccess Assignment CastExpression PrimitiveType float
+empty NumberLiteral ArrayAccess Assignment CastExpression PrimitiveType float
+initialize viewport SimpleName MethodInvocation SimpleName ctx
+initialize viewport SimpleName MethodInvocation SimpleName e
+initialize viewport SimpleName MethodInvocation SimpleName node
+initialize viewport SimpleName MethodInvocation SimpleName vb
+initialize viewport SimpleName MethodInvocation SimpleName bounds
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName node
+ctx SimpleName MethodInvocation SimpleName vb
+ctx SimpleName MethodInvocation SimpleName bounds
+e SimpleName MethodInvocation SimpleName node
+e SimpleName MethodInvocation SimpleName vb
+e SimpleName MethodInvocation SimpleName bounds
+node SimpleName MethodInvocation SimpleName vb
+node SimpleName MethodInvocation SimpleName bounds
+vb SimpleName MethodInvocation SimpleName bounds
+protected Modifier MethodDeclaration SimpleType SimpleName graphics node
+protected Modifier MethodDeclaration SimpleName create raster image node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName img
+graphics node SimpleName SimpleType MethodDeclaration SimpleName create raster image node
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName img
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName purl
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName img
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName purl
+create raster image node SimpleName MethodDeclaration Block ReturnStatement SimpleName node
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName purl
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName purl
+img SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName purl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create raster image node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName purl
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create raster image node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName purl

@@ -1,0 +1,22 @@
+javaioprint writer QualifiedName SimpleType SingleVariableDeclaration SimpleName s
+print stack trace SimpleName SuperMethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName println
+print stack trace SimpleName SuperMethodInvocation SimpleName s
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print stack trace
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName javaioprint writer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleName print stack trace
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName javaioprint writer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+print stack trace SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName javaioprint writer
+print stack trace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print stack trace
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print stack trace
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

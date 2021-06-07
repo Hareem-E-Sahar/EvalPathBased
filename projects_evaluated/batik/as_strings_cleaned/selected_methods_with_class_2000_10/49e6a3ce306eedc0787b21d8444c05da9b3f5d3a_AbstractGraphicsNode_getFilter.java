@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName filter
+public Modifier MethodDeclaration SimpleName get filter
+public Modifier MethodDeclaration Block ReturnStatement SimpleName filter
+filter SimpleName SimpleType MethodDeclaration SimpleName get filter
+get filter SimpleName MethodDeclaration Block ReturnStatement SimpleName filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName filter
+public Modifier TypeDeclaration MethodDeclaration SimpleName get filter
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get filter

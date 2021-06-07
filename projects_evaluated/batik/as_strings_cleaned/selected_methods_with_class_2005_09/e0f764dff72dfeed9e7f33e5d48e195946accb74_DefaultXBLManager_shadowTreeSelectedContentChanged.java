@@ -1,0 +1,56 @@
+set SimpleName SimpleType SingleVariableDeclaration SimpleName deselected
+set SimpleName SimpleType SingleVariableDeclaration SimpleName selected
+deselected SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName deselected
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+n SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName n
+unbind SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+unbind SimpleName MethodInvocation CastExpression SimpleName n
+selected SimpleName MethodInvocation SimpleName iterator
+i SimpleName Assignment MethodInvocation SimpleName selected
+i SimpleName Assignment MethodInvocation SimpleName iterator
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+n SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName n
+bind SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+bind SimpleName MethodInvocation CastExpression SimpleName n
+void PrimitiveType MethodDeclaration SimpleName shadow tree selected content changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName deselected
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName selected
+shadow tree selected content changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+shadow tree selected content changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName deselected
+shadow tree selected content changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+shadow tree selected content changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName selected
+deselected SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selected
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName shadow tree selected content changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deselected
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName shadow tree selected content changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deselected
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selected

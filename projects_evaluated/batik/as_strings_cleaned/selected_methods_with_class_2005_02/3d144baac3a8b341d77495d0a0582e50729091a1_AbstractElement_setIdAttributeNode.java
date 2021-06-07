@@ -1,0 +1,50 @@
+attr SimpleName SimpleType SingleVariableDeclaration SimpleName attr
+boolean PrimitiveType SingleVariableDeclaration SimpleName is id
+abstract attr SimpleName SimpleType CastExpression SimpleName attr
+a SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract attr
+a SimpleName VariableDeclarationFragment CastExpression SimpleName attr
+abstract attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+a SimpleName MethodInvocation SimpleName is readonly
+a SimpleName MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+ais id attribute QualifiedName Assignment SimpleName is id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set id attribute node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attr
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is id
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set id attribute node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attr
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName is id
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set id attribute node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attr
+set id attribute node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr
+set id attribute node SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set id attribute node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is id
+set id attribute node SimpleName MethodDeclaration SimpleType SimpleName dom exception
+attr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+attr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is id
+attr SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+is id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set id attribute node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set id attribute node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

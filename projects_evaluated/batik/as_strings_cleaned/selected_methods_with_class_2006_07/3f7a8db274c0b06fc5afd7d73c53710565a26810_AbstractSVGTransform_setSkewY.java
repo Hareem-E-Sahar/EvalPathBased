@@ -1,0 +1,56 @@
+float PrimitiveType SingleVariableDeclaration SimpleName angle
+type SimpleName Assignment SimpleName svg transform skewy
+math SimpleName MethodInvocation SimpleName to radians
+math SimpleName MethodInvocation SimpleName angle
+to radians SimpleName MethodInvocation SimpleName angle
+math SimpleName MethodInvocation SimpleName tan
+math SimpleName MethodInvocation MethodInvocation SimpleName math
+math SimpleName MethodInvocation MethodInvocation SimpleName to radians
+math SimpleName MethodInvocation MethodInvocation SimpleName angle
+tan SimpleName MethodInvocation MethodInvocation SimpleName math
+tan SimpleName MethodInvocation MethodInvocation SimpleName to radians
+tan SimpleName MethodInvocation MethodInvocation SimpleName angle
+affine transform SimpleName MethodInvocation SimpleName get shear instance
+affine transform SimpleName MethodInvocation NumberLiteral .
+affine transform SimpleName MethodInvocation MethodInvocation SimpleName math
+affine transform SimpleName MethodInvocation MethodInvocation SimpleName tan
+affine transform SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName math
+affine transform SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to radians
+affine transform SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName angle
+get shear instance SimpleName MethodInvocation NumberLiteral .
+get shear instance SimpleName MethodInvocation MethodInvocation SimpleName math
+get shear instance SimpleName MethodInvocation MethodInvocation SimpleName tan
+get shear instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName math
+get shear instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to radians
+get shear instance SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName angle
+. NumberLiteral MethodInvocation MethodInvocation SimpleName math
+. NumberLiteral MethodInvocation MethodInvocation SimpleName tan
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName math
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName to radians
+. NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName angle
+affine transform SimpleName Assignment MethodInvocation SimpleName affine transform
+affine transform SimpleName Assignment MethodInvocation SimpleName get shear instance
+affine transform SimpleName Assignment MethodInvocation NumberLiteral .
+affine transform SimpleName Assignment MethodInvocation MethodInvocation SimpleName math
+affine transform SimpleName Assignment MethodInvocation MethodInvocation SimpleName tan
+angle SimpleName FieldAccess Assignment SimpleName angle
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set skew y
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName angle
+void PrimitiveType MethodDeclaration SimpleName set skew y
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName angle
+set skew y SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set skew y SimpleName MethodDeclaration SingleVariableDeclaration SimpleName angle
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set skew y
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName angle
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set skew y
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName angle

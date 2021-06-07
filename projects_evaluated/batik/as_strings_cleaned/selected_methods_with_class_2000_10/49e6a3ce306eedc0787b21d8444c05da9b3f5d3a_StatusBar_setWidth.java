@@ -1,0 +1,42 @@
+int PrimitiveType SingleVariableDeclaration SimpleName w
+r manager SimpleName MethodInvocation SimpleName get string
+r manager SimpleName MethodInvocation StringLiteral positionwidth letters
+get string SimpleName MethodInvocation StringLiteral positionwidth letters
+r manager SimpleName MethodInvocation InfixExpression StringLiteral empty
+get string SimpleName MethodInvocation InfixExpression StringLiteral empty
+positionwidth letters StringLiteral MethodInvocation InfixExpression StringLiteral empty
+r manager SimpleName MethodInvocation InfixExpression SimpleName w
+get string SimpleName MethodInvocation InfixExpression SimpleName w
+positionwidth letters StringLiteral MethodInvocation InfixExpression SimpleName w
+empty StringLiteral InfixExpression SimpleName w
+x position SimpleName MethodInvocation SimpleName set text
+x position SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName r manager
+x position SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get string
+x position SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral positionwidth letters
+x position SimpleName MethodInvocation InfixExpression StringLiteral empty
+x position SimpleName MethodInvocation InfixExpression SimpleName w
+set text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName r manager
+set text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get string
+set text SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral positionwidth letters
+set text SimpleName MethodInvocation InfixExpression StringLiteral empty
+set text SimpleName MethodInvocation InfixExpression SimpleName w
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set width
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName w
+void PrimitiveType MethodDeclaration SimpleName set width
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName w
+set width SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set width SimpleName MethodDeclaration SingleVariableDeclaration SimpleName w
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set width
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set width
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w

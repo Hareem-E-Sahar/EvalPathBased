@@ -1,0 +1,40 @@
+owner SimpleName MethodInvocation SimpleName get root event target
+node event target SimpleName SimpleType CastExpression MethodInvocation SimpleName owner
+node event target SimpleName SimpleType CastExpression MethodInvocation SimpleName get root event target
+event target SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node event target
+event target SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName owner
+event target SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get root event target
+node event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName event target
+event target SimpleName MethodInvocation SimpleName add event listener ns
+event target SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+event target SimpleName MethodInvocation StringLiteral keydown
+event target SimpleName MethodInvocation BooleanLiteral false
+add event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+add event listener ns SimpleName MethodInvocation StringLiteral keydown
+add event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral keydown
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+keydown StringLiteral MethodInvocation BooleanLiteral false
+owner SimpleName MethodInvocation SimpleName get root event target
+event target SimpleName VariableDeclarationFragment MethodInvocation SimpleName owner
+event target SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root event target
+event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName event target
+event target SimpleName MethodInvocation SimpleName add event listener
+event target SimpleName MethodInvocation StringLiteral keypress
+event target SimpleName MethodInvocation BooleanLiteral false
+add event listener SimpleName MethodInvocation StringLiteral keypress
+add event listener SimpleName MethodInvocation BooleanLiteral false
+keypress StringLiteral MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName initialize
+public Modifier MethodDeclaration Block IfStatement SimpleName is svg access key
+void PrimitiveType MethodDeclaration SimpleName initialize
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName is svg access key
+initialize SimpleName MethodDeclaration Block IfStatement SimpleName is svg access key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize

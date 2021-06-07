@@ -1,0 +1,95 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+css document handler SimpleName MethodInvocation SimpleName set parser class name
+css document handler SimpleName MethodInvocation SimpleName sac parser
+set parser class name SimpleName MethodInvocation SimpleName sac parser
+svg document factory SimpleName SimpleType ClassInstanceCreation SimpleName sax parser
+document factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName svg document factory
+document factory SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sax parser
+svg document factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName document factory
+svg document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg document
+args SimpleName ArrayAccess NumberLiteral empty
+entity uri SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+entity uri SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entity uri
+loading ... : StringLiteral InfixExpression SimpleName entity uri
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral loading ... :
+systemout QualifiedName MethodInvocation InfixExpression SimpleName entity uri
+println SimpleName MethodInvocation InfixExpression StringLiteral loading ... :
+println SimpleName MethodInvocation InfixExpression SimpleName entity uri
+input source SimpleName SimpleType ClassInstanceCreation SimpleName entity uri
+document factory SimpleName MethodInvocation SimpleName create document
+document factory SimpleName MethodInvocation QualifiedName svg constantssvg namespace uri
+document factory SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName input source
+document factory SimpleName MethodInvocation ClassInstanceCreation SimpleName entity uri
+create document SimpleName MethodInvocation QualifiedName svg constantssvg namespace uri
+create document SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName input source
+create document SimpleName MethodInvocation ClassInstanceCreation SimpleName entity uri
+svg constantssvg namespace uri QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName input source
+svg constantssvg namespace uri QualifiedName MethodInvocation ClassInstanceCreation SimpleName entity uri
+svg document SimpleName Assignment MethodInvocation SimpleName document factory
+svg document SimpleName Assignment MethodInvocation SimpleName create document
+svg document SimpleName Assignment MethodInvocation QualifiedName svg constantssvg namespace uri
+svg document SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName entity uri
+sax exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+ctx SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName orgapachebatikrefimplbridgesvg bridge context
+bridge context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctx
+orgapachebatikrefimplgvtconcrete gvt factory QualifiedName MethodInvocation SimpleName get gvt factory implementation
+gvt SimpleName VariableDeclarationFragment MethodInvocation QualifiedName orgapachebatikrefimplgvtconcrete gvt factory
+gvt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get gvt factory implementation
+gvt factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gvt
+ctx SimpleName MethodInvocation SimpleName set gvt factory
+ctx SimpleName MethodInvocation SimpleName gvt
+set gvt factory SimpleName MethodInvocation SimpleName gvt
+gvt builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName orgapachebatikrefimplbridgeconcrete gvt builder
+gvt builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gvt builder
+parser SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName orgapachebatikrefimplparserparser factory
+parser factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parser
+ctx SimpleName MethodInvocation SimpleName set parser factory
+ctx SimpleName MethodInvocation SimpleName parser
+set parser factory SimpleName MethodInvocation SimpleName parser
+gvt builder SimpleName MethodInvocation SimpleName build
+gvt builder SimpleName MethodInvocation SimpleName ctx
+gvt builder SimpleName MethodInvocation SimpleName svg document
+build SimpleName MethodInvocation SimpleName ctx
+build SimpleName MethodInvocation SimpleName svg document
+ctx SimpleName MethodInvocation SimpleName svg document
+bridge test SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName gvt builder
+bridge test SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName build
+bridge test SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ctx
+bridge test SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName svg document
+frame SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName bridge test
+frame SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName gvt builder
+frame SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName build
+frame SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName ctx
+frame SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName svg document
+j frame SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName frame
+frame SimpleName MethodInvocation SimpleName set size
+frame SimpleName MethodInvocation NumberLiteral empty
+frame SimpleName MethodInvocation NumberLiteral empty
+set size SimpleName MethodInvocation NumberLiteral empty
+set size SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+frame SimpleName MethodInvocation SimpleName show
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

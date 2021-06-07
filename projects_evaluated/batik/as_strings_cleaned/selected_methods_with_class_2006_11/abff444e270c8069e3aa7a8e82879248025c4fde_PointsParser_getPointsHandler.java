@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName points handler
+public Modifier MethodDeclaration SimpleName get points handler
+public Modifier MethodDeclaration Block ReturnStatement SimpleName points handler
+points handler SimpleName SimpleType MethodDeclaration SimpleName get points handler
+get points handler SimpleName MethodDeclaration Block ReturnStatement SimpleName points handler
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName points handler
+public Modifier TypeDeclaration MethodDeclaration SimpleName get points handler
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName points handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get points handler

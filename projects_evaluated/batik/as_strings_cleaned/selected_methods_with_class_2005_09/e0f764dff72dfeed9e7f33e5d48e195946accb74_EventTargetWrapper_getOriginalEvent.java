@@ -1,0 +1,54 @@
+call SimpleName MethodInvocation StringLiteral get original event
+orig evt SimpleName VariableDeclarationFragment MethodInvocation SimpleName call
+orig evt SimpleName VariableDeclarationFragment MethodInvocation StringLiteral get original event
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName orig evt
+orig evt SimpleName InstanceofExpression SimpleType SimpleName native object
+event map SimpleName MethodInvocation SimpleName get
+event map SimpleName MethodInvocation SimpleName orig evt
+get SimpleName MethodInvocation SimpleName orig evt
+soft reference SimpleName SimpleType CastExpression MethodInvocation SimpleName event map
+soft reference SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+soft reference SimpleName SimpleType CastExpression MethodInvocation SimpleName orig evt
+sr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName soft reference
+sr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName event map
+sr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+sr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName orig evt
+soft reference SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sr
+native object SimpleName SimpleType CastExpression SimpleName orig evt
+object custom event SimpleName SimpleType ClassInstanceCreation CastExpression SimpleName orig evt
+object custom event SimpleName SimpleType ClassInstanceCreation SimpleName interpreter
+object custom event SimpleName SimpleType ClassInstanceCreation SimpleName event map
+native object SimpleName SimpleType CastExpression ClassInstanceCreation SimpleName interpreter
+orig evt SimpleName CastExpression ClassInstanceCreation SimpleName interpreter
+native object SimpleName SimpleType CastExpression ClassInstanceCreation SimpleName event map
+orig evt SimpleName CastExpression ClassInstanceCreation SimpleName event map
+interpreter SimpleName ClassInstanceCreation SimpleName event map
+evt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName object custom event
+evt SimpleName VariableDeclarationFragment ClassInstanceCreation CastExpression SimpleName orig evt
+evt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName interpreter
+evt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName event map
+custom event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName evt
+soft reference SimpleName SimpleType ClassInstanceCreation SimpleName evt
+event map SimpleName MethodInvocation SimpleName put
+event map SimpleName MethodInvocation SimpleName orig evt
+event map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+event map SimpleName MethodInvocation ClassInstanceCreation SimpleName evt
+put SimpleName MethodInvocation SimpleName orig evt
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName evt
+orig evt SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+orig evt SimpleName MethodInvocation ClassInstanceCreation SimpleName evt
+orig evt SimpleName InstanceofExpression SimpleType SimpleName native java object
+native java object SimpleName SimpleType CastExpression SimpleName orig evt
+orig evt SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName unwrap
+event SimpleName SimpleType CastExpression MethodInvocation SimpleName unwrap
+public Modifier MethodDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SimpleName get original event
+event SimpleName SimpleType MethodDeclaration SimpleName get original event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SimpleName get original event
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get original event

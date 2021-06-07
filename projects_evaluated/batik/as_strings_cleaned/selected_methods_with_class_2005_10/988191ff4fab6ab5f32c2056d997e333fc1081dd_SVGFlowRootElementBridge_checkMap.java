@@ -1,0 +1,34 @@
+map SimpleName SimpleType SingleVariableDeclaration SimpleName attrs
+attrs SimpleName MethodInvocation SimpleName contains key
+attrs SimpleName MethodInvocation SimpleName textpath
+contains key SimpleName MethodInvocation SimpleName textpath
+attrs SimpleName MethodInvocation SimpleName contains key
+attrs SimpleName MethodInvocation SimpleName anchor type
+contains key SimpleName MethodInvocation SimpleName anchor type
+attrs SimpleName MethodInvocation SimpleName contains key
+attrs SimpleName MethodInvocation SimpleName letter spacing
+contains key SimpleName MethodInvocation SimpleName letter spacing
+attrs SimpleName MethodInvocation SimpleName contains key
+attrs SimpleName MethodInvocation SimpleName word spacing
+contains key SimpleName MethodInvocation SimpleName word spacing
+attrs SimpleName MethodInvocation SimpleName contains key
+attrs SimpleName MethodInvocation SimpleName kerning
+contains key SimpleName MethodInvocation SimpleName kerning
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName check map
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrs
+void PrimitiveType MethodDeclaration SimpleName check map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attrs
+check map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+check map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs

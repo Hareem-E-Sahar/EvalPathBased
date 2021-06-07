@@ -1,0 +1,69 @@
+extended general path SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName clone
+result SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName extended general path
+result SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName clone
+extended general path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+path SimpleName MethodInvocation SimpleName clone
+general path SimpleName SimpleType CastExpression MethodInvocation SimpleName path
+general path SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+resultpath QualifiedName Assignment CastExpression SimpleType SimpleName general path
+resultpath QualifiedName Assignment CastExpression MethodInvocation SimpleName path
+resultpath QualifiedName Assignment CastExpression MethodInvocation SimpleName clone
+float PrimitiveType ArrayType ArrayCreation QualifiedName valueslength
+resultvalues QualifiedName Assignment ArrayCreation ArrayType PrimitiveType float
+resultvalues QualifiedName Assignment ArrayCreation QualifiedName valueslength
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName values
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation QualifiedName resultvalues
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName values
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName resultvalues
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName valueslength
+values SimpleName MethodInvocation NumberLiteral empty
+values SimpleName MethodInvocation QualifiedName resultvalues
+values SimpleName MethodInvocation NumberLiteral empty
+values SimpleName MethodInvocation QualifiedName valueslength
+empty NumberLiteral MethodInvocation QualifiedName resultvalues
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName valueslength
+resultvalues QualifiedName MethodInvocation NumberLiteral empty
+resultvalues QualifiedName MethodInvocation QualifiedName valueslength
+empty NumberLiteral MethodInvocation QualifiedName valueslength
+resultnum vals QualifiedName Assignment SimpleName num vals
+int PrimitiveType ArrayType ArrayCreation QualifiedName typeslength
+resulttypes QualifiedName Assignment ArrayCreation ArrayType PrimitiveType int
+resulttypes QualifiedName Assignment ArrayCreation QualifiedName typeslength
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName types
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation QualifiedName resulttypes
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName types
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName resulttypes
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName typeslength
+types SimpleName MethodInvocation NumberLiteral empty
+types SimpleName MethodInvocation QualifiedName resulttypes
+types SimpleName MethodInvocation NumberLiteral empty
+types SimpleName MethodInvocation QualifiedName typeslength
+empty NumberLiteral MethodInvocation QualifiedName resulttypes
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName typeslength
+resulttypes QualifiedName MethodInvocation NumberLiteral empty
+resulttypes QualifiedName MethodInvocation QualifiedName typeslength
+empty NumberLiteral MethodInvocation QualifiedName typeslength
+resultnum seg QualifiedName Assignment SimpleName num seg
+clone not supported exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName clone
+object SimpleName SimpleType MethodDeclaration SimpleName clone
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone

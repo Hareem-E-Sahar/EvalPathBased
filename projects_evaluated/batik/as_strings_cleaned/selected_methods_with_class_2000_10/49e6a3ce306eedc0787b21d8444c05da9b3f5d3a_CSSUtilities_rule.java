@@ -1,0 +1,36 @@
+css primitive value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+v SimpleName MethodInvocation SimpleName get string value
+v SimpleName MethodInvocation MethodInvocation SimpleName char at
+get string value SimpleName MethodInvocation MethodInvocation SimpleName char at
+v SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get string value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+v SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral n
+get string value SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral n
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral n
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral n
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName rule
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css primitive value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName rule
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css primitive value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+int PrimitiveType MethodDeclaration SimpleName rule
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css primitive value
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css primitive value
+rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName rule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

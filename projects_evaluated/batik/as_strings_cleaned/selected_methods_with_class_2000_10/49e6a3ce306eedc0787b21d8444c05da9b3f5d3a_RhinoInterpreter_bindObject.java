@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+object SimpleName SimpleType SingleVariableDeclaration SimpleName object
+context SimpleName MethodInvocation SimpleName to object
+context SimpleName MethodInvocation SimpleName object
+context SimpleName MethodInvocation SimpleName scope
+to object SimpleName MethodInvocation SimpleName object
+to object SimpleName MethodInvocation SimpleName scope
+object SimpleName MethodInvocation SimpleName scope
+js object SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+js object SimpleName VariableDeclarationFragment MethodInvocation SimpleName to object
+js object SimpleName VariableDeclarationFragment MethodInvocation SimpleName object
+js object SimpleName VariableDeclarationFragment MethodInvocation SimpleName scope
+scriptable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName js object
+scope SimpleName MethodInvocation SimpleName put
+scope SimpleName MethodInvocation SimpleName name
+scope SimpleName MethodInvocation SimpleName scope
+scope SimpleName MethodInvocation SimpleName js object
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName scope
+put SimpleName MethodInvocation SimpleName js object
+name SimpleName MethodInvocation SimpleName scope
+name SimpleName MethodInvocation SimpleName js object
+scope SimpleName MethodInvocation SimpleName js object
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName bind object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName object
+void PrimitiveType MethodDeclaration SimpleName bind object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName object
+bind object SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+bind object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+bind object SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+bind object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName object
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName bind object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bind object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName object

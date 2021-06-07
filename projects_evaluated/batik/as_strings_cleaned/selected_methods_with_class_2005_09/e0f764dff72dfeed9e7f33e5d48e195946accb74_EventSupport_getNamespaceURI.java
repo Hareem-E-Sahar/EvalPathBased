@@ -1,0 +1,20 @@
+get namespace uri method SimpleName MethodInvocation SimpleName invoke
+get namespace uri method SimpleName MethodInvocation SimpleName e
+invoke SimpleName MethodInvocation SimpleName e
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get namespace uri method
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName invoke
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+invocation target exception SimpleName SimpleType SingleVariableDeclaration SimpleName ite
+ite SimpleName MethodInvocation SimpleName print stack trace
+illegal access exception SimpleName SimpleType SingleVariableDeclaration SimpleName iae
+iae SimpleName MethodInvocation SimpleName print stack trace
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get namespace uri
+string SimpleName SimpleType MethodDeclaration SimpleName get namespace uri
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get namespace uri
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get namespace uri

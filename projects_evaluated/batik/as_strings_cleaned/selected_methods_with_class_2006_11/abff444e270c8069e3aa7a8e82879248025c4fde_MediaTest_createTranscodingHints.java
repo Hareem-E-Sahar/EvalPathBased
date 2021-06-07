@@ -1,0 +1,22 @@
+hash map SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+hints SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hash map
+hints SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hints
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName image transcoderkey media
+hints SimpleName MethodInvocation SimpleName media
+put SimpleName MethodInvocation QualifiedName image transcoderkey media
+put SimpleName MethodInvocation SimpleName media
+image transcoderkey media QualifiedName MethodInvocation SimpleName media
+protected Modifier MethodDeclaration SimpleType SimpleName map
+protected Modifier MethodDeclaration SimpleName create transcoding hints
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName hints
+map SimpleName SimpleType MethodDeclaration SimpleName create transcoding hints
+create transcoding hints SimpleName MethodDeclaration Block ReturnStatement SimpleName hints
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SimpleName create transcoding hints
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create transcoding hints

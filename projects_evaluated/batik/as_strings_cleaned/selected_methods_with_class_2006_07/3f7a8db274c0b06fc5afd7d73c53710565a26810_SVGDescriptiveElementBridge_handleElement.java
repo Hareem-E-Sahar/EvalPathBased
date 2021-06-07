@@ -1,0 +1,56 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+ctx SimpleName MethodInvocation SimpleName get user agent
+ua SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+ua SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user agent
+user agent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ua
+ua SimpleName MethodInvocation SimpleName handle element
+ua SimpleName MethodInvocation SimpleName e
+ua SimpleName MethodInvocation QualifiedName booleantrue
+handle element SimpleName MethodInvocation SimpleName e
+handle element SimpleName MethodInvocation QualifiedName booleantrue
+e SimpleName MethodInvocation QualifiedName booleantrue
+ctx SimpleName MethodInvocation SimpleName is dynamic
+svg descriptive element bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+svg descriptive element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName get instance
+b SimpleName Assignment CastExpression SimpleType SimpleName svg descriptive element bridge
+b SimpleName Assignment CastExpression MethodInvocation SimpleName get instance
+bthe elt QualifiedName Assignment SimpleName e
+e SimpleName MethodInvocation SimpleName get parent node
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get parent node
+bparent QualifiedName Assignment CastExpression SimpleType SimpleName element
+bparent QualifiedName Assignment CastExpression MethodInvocation SimpleName e
+bparent QualifiedName Assignment CastExpression MethodInvocation SimpleName get parent node
+bthe ctx QualifiedName Assignment SimpleName ctx
+svgom element SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set svg context
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName b
+set svg context SimpleName MethodInvocation SimpleName b
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName handle element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+handle element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+handle element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+handle element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+handle element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

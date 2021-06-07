@@ -1,0 +1,116 @@
+svg element SimpleName SimpleType SingleVariableDeclaration SimpleName svg element
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+css style declaration SimpleName SimpleType SingleVariableDeclaration SimpleName decl
+unit processorcontext QualifiedName SimpleType SingleVariableDeclaration SimpleName uctx
+ctx SimpleName MethodInvocation SimpleName get gvt factory
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get gvt factory
+gvt factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+fill shape painter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName painter
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName fill property
+get property css value SimpleName MethodInvocation SimpleName fill property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName fill property
+v SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css primitive value
+v SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName decl
+v SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get property css value
+v SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName fill property
+css primitive value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get primitive type
+f SimpleName MethodInvocation SimpleName create fill shape painter
+painter SimpleName Assignment MethodInvocation SimpleName f
+painter SimpleName Assignment MethodInvocation SimpleName create fill shape painter
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName fill opacity property
+get property css value SimpleName MethodInvocation SimpleName fill opacity property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName fill opacity property
+vv SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css primitive value
+vv SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName decl
+vv SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get property css value
+vv SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName fill opacity property
+css primitive value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vv
+convert opacity SimpleName MethodInvocation SimpleName vv
+opacity SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert opacity
+opacity SimpleName VariableDeclarationFragment MethodInvocation SimpleName vv
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName opacity
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName convert opacity
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName vv
+v SimpleName MethodInvocation SimpleName get rgb color value
+convert color SimpleName MethodInvocation MethodInvocation SimpleName v
+convert color SimpleName MethodInvocation MethodInvocation SimpleName get rgb color value
+convert color SimpleName MethodInvocation SimpleName opacity
+v SimpleName MethodInvocation MethodInvocation SimpleName opacity
+get rgb color value SimpleName MethodInvocation MethodInvocation SimpleName opacity
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert color
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName v
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get rgb color value
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName opacity
+color SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+painter SimpleName MethodInvocation SimpleName set paint
+painter SimpleName MethodInvocation SimpleName c
+set paint SimpleName MethodInvocation SimpleName c
+error SimpleName SimpleType ClassInstanceCreation StringLiteral not yet implemented
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+css primitive valuecss ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+css primitive valuecss ident QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType float
+css primitive valuecss rgbcolor QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement SwitchStatement SwitchCase QualifiedName css primitive valuecss uri
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName shape painter
+public Modifier MethodDeclaration SimpleName convert fill
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName svg element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration SimpleType SimpleName shape painter
+static Modifier MethodDeclaration SimpleName convert fill
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName svg element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css style declaration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName decl
+shape painter SimpleName SimpleType MethodDeclaration SimpleName convert fill
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName svg element
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName decl
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uctx
+convert fill SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+convert fill SimpleName MethodDeclaration SingleVariableDeclaration SimpleName svg element
+convert fill SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+convert fill SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert fill SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css style declaration
+convert fill SimpleName MethodDeclaration SingleVariableDeclaration SimpleName decl
+convert fill SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName unit processorcontext
+convert fill SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uctx
+convert fill SimpleName MethodDeclaration Block ReturnStatement SimpleName painter
+svg element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+svg element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+svg element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+decl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName shape painter
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert fill
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName shape painter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert fill
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx

@@ -1,0 +1,87 @@
+float PrimitiveType SingleVariableDeclaration SimpleName length
+find upper index SimpleName MethodInvocation SimpleName length
+upper index SimpleName VariableDeclarationFragment MethodInvocation SimpleName find upper index
+upper index SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName upper index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName find upper index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+upper index SimpleName InfixExpression PrefixExpression NumberLiteral empty
+segments SimpleName MethodInvocation SimpleName element at
+segments SimpleName MethodInvocation SimpleName upper index
+element at SimpleName MethodInvocation SimpleName upper index
+path segment SimpleName SimpleType CastExpression MethodInvocation SimpleName segments
+path segment SimpleName SimpleType CastExpression MethodInvocation SimpleName element at
+path segment SimpleName SimpleType CastExpression MethodInvocation SimpleName upper index
+upper SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName path segment
+upper SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName segments
+upper SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName element at
+upper SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName upper index
+path segment SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName upper
+upper index SimpleName InfixExpression NumberLiteral empty
+upper index SimpleName Assignment NumberLiteral empty
+upper index SimpleName InfixExpression NumberLiteral empty
+segments SimpleName MethodInvocation SimpleName element at
+segments SimpleName MethodInvocation InfixExpression SimpleName upper index
+segments SimpleName MethodInvocation InfixExpression NumberLiteral empty
+element at SimpleName MethodInvocation InfixExpression SimpleName upper index
+element at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+path segment SimpleName SimpleType CastExpression MethodInvocation SimpleName segments
+path segment SimpleName SimpleType CastExpression MethodInvocation SimpleName element at
+lower SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName path segment
+lower SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName segments
+lower SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName element at
+path segment SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lower
+upper SimpleName MethodInvocation SimpleName get y
+lower SimpleName MethodInvocation SimpleName get y
+upper SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lower
+upper SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lower
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+upper SimpleName MethodInvocation SimpleName get x
+lower SimpleName MethodInvocation SimpleName get x
+upper SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lower
+upper SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lower
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+math SimpleName MethodInvocation SimpleName atan
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName upper
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lower
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName upper
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lower
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+atan SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName upper
+atan SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+atan SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lower
+atan SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+atan SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName upper
+atan SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+atan SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName lower
+atan SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+float PrimitiveType CastExpression MethodInvocation SimpleName math
+float PrimitiveType CastExpression MethodInvocation SimpleName atan
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName angle at length
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName length
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+float PrimitiveType MethodDeclaration SimpleName angle at length
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName length
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+angle at length SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+angle at length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName length
+angle at length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName angle at length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName angle at length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName length

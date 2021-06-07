@@ -1,0 +1,140 @@
+render context SimpleName SimpleType SingleVariableDeclaration SimpleName rc
+new flood region rect SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new flood region rect
+rc SimpleName MethodInvocation SimpleName get transform
+usr dev SimpleName VariableDeclarationFragment MethodInvocation SimpleName rc
+usr dev SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName usr dev
+usr dev SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+image rect SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName image rect
+rc SimpleName MethodInvocation SimpleName get area of interest
+user aoi SimpleName VariableDeclarationFragment MethodInvocation SimpleName rc
+user aoi SimpleName VariableDeclarationFragment MethodInvocation SimpleName get area of interest
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user aoi
+user aoi SimpleName Assignment SimpleName image rect
+user aoi SimpleName MethodInvocation SimpleName get bounds d
+image rect SimpleName MethodInvocation SimpleName create intersection
+image rect SimpleName MethodInvocation MethodInvocation SimpleName user aoi
+image rect SimpleName MethodInvocation MethodInvocation SimpleName get bounds d
+create intersection SimpleName MethodInvocation MethodInvocation SimpleName user aoi
+create intersection SimpleName MethodInvocation MethodInvocation SimpleName get bounds d
+user space renderable area SimpleName VariableDeclarationFragment MethodInvocation SimpleName image rect
+user space renderable area SimpleName VariableDeclarationFragment MethodInvocation SimpleName create intersection
+user space renderable area SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName user aoi
+user space renderable area SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user space renderable area
+usr dev SimpleName MethodInvocation SimpleName create transformed shape
+usr dev SimpleName MethodInvocation SimpleName user space renderable area
+create transformed shape SimpleName MethodInvocation SimpleName user space renderable area
+usr dev SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+create transformed shape SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+user space renderable area SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+rendered area SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName usr dev
+rendered area SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create transformed shape
+rendered area SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName user space renderable area
+rendered area SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds
+final Modifier VariableDeclarationStatement SimpleType SimpleName rectangle
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName rendered area
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get bounds
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rendered area
+rendered areawidth QualifiedName InfixExpression NumberLiteral empty
+rendered areaheight QualifiedName InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get min x
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName rendered areax
+int PrimitiveType MethodDeclaration SimpleName get min x
+int PrimitiveType MethodDeclaration Block ReturnStatement QualifiedName rendered areax
+get min x SimpleName MethodDeclaration Block ReturnStatement QualifiedName rendered areax
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get min y
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName rendered areay
+int PrimitiveType MethodDeclaration SimpleName get min y
+int PrimitiveType MethodDeclaration Block ReturnStatement QualifiedName rendered areay
+get min y SimpleName MethodDeclaration Block ReturnStatement QualifiedName rendered areay
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get min y
+int PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+int PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get min y
+get min x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get min x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+get min x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get min y
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName rendered areawidth
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName rendered areaheight
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName buffered imagetype int argb
+rendered areawidth QualifiedName ClassInstanceCreation QualifiedName rendered areaheight
+rendered areawidth QualifiedName ClassInstanceCreation QualifiedName buffered imagetype int argb
+rendered areawidth QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+rendered areawidth QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+rendered areawidth QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get min x
+rendered areawidth QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+rendered areawidth QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+rendered areawidth QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get min y
+rendered areaheight QualifiedName ClassInstanceCreation QualifiedName buffered imagetype int argb
+rendered areaheight QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+rendered areaheight QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+rendered areaheight QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get min x
+rendered areaheight QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+rendered areaheight QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+rendered areaheight QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get min y
+buffered imagetype int argb QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+buffered imagetype int argb QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+buffered imagetype int argb QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get min x
+buffered imagetype int argb QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+buffered imagetype int argb QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType int
+buffered imagetype int argb QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get min y
+off screen SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered image
+off screen SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName rendered areawidth
+off screen SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName rendered areaheight
+off screen SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName buffered imagetype int argb
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName off screen
+off screen SimpleName MethodInvocation SimpleName create graphics
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName off screen
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName create graphics
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+rc SimpleName MethodInvocation SimpleName get rendering hints
+hints SimpleName VariableDeclarationFragment MethodInvocation SimpleName rc
+hints SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rendering hints
+rendering hints SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hints
+g SimpleName MethodInvocation SimpleName set rendering hints
+g SimpleName MethodInvocation SimpleName hints
+set rendering hints SimpleName MethodInvocation SimpleName hints
+g SimpleName MethodInvocation SimpleName translate
+g SimpleName MethodInvocation PrefixExpression QualifiedName rendered areax
+g SimpleName MethodInvocation PrefixExpression QualifiedName rendered areay
+translate SimpleName MethodInvocation PrefixExpression QualifiedName rendered areax
+translate SimpleName MethodInvocation PrefixExpression QualifiedName rendered areay
+rendered areax QualifiedName PrefixExpression MethodInvocation PrefixExpression QualifiedName rendered areay
+g SimpleName MethodInvocation SimpleName transform
+g SimpleName MethodInvocation SimpleName usr dev
+transform SimpleName MethodInvocation SimpleName usr dev
+g SimpleName MethodInvocation SimpleName set paint
+g SimpleName MethodInvocation MethodInvocation SimpleName get flood color
+set paint SimpleName MethodInvocation MethodInvocation SimpleName get flood color
+g SimpleName MethodInvocation SimpleName fill
+g SimpleName MethodInvocation SimpleName user space renderable area
+fill SimpleName MethodInvocation SimpleName user space renderable area
+g SimpleName MethodInvocation SimpleName dispose
+public Modifier MethodDeclaration SimpleType SimpleName rendered image
+public Modifier MethodDeclaration SimpleName create rendering
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rc
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement SimpleName off screen
+rendered image SimpleName SimpleType MethodDeclaration SimpleName create rendering
+rendered image SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rc
+create rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+create rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rc
+create rendering SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+create rendering SimpleName MethodDeclaration Block ReturnStatement SimpleName off screen
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rendered image
+public Modifier TypeDeclaration MethodDeclaration SimpleName create rendering
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rendered image
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create rendering
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc

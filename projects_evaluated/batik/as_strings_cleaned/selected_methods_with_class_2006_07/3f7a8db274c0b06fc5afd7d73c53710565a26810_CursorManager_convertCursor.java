@@ -1,0 +1,77 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginecursor index
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginecursor index
+e SimpleName MethodInvocation QualifiedName svgcss enginecursor index
+cursor value SimpleName VariableDeclarationFragment MethodInvocation SimpleName css utilities
+cursor value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+cursor value SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+cursor value SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss enginecursor index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cursor value
+cursor str SimpleName VariableDeclarationFragment QualifiedName svg constantssvg auto value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cursor str
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName svg constantssvg auto value
+cursor value SimpleName MethodInvocation SimpleName get css value type
+cursor value SimpleName MethodInvocation InfixExpression QualifiedName css valuecss primitive value
+get css value type SimpleName MethodInvocation InfixExpression QualifiedName css valuecss primitive value
+cursor value SimpleName MethodInvocation SimpleName get primitive type
+cursor value SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss ident
+get primitive type SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss ident
+css valuecss primitive value QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName css primitive valuecss ident
+cursor value SimpleName MethodInvocation SimpleName get string value
+cursor str SimpleName Assignment MethodInvocation SimpleName cursor value
+cursor str SimpleName Assignment MethodInvocation SimpleName get string value
+convert built in cursor SimpleName MethodInvocation SimpleName e
+convert built in cursor SimpleName MethodInvocation SimpleName cursor str
+e SimpleName MethodInvocation SimpleName cursor str
+cursor value SimpleName MethodInvocation SimpleName get css value type
+cursor value SimpleName MethodInvocation InfixExpression QualifiedName css valuecss value list
+get css value type SimpleName MethodInvocation InfixExpression QualifiedName css valuecss value list
+cursor value SimpleName MethodInvocation SimpleName get length
+n values SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor value
+n values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n values
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cursor value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+n values SimpleName InfixExpression NumberLiteral empty
+cursor value SimpleName MethodInvocation SimpleName item
+cursor value SimpleName MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+cursor value SimpleName Assignment MethodInvocation SimpleName cursor value
+cursor value SimpleName Assignment MethodInvocation SimpleName item
+cursor value SimpleName Assignment MethodInvocation NumberLiteral empty
+cursor value SimpleName MethodInvocation SimpleName get primitive type
+cursor value SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss ident
+get primitive type SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss ident
+cursor value SimpleName MethodInvocation SimpleName get string value
+cursor str SimpleName Assignment MethodInvocation SimpleName cursor value
+cursor str SimpleName Assignment MethodInvocation SimpleName get string value
+convert built in cursor SimpleName MethodInvocation SimpleName e
+convert built in cursor SimpleName MethodInvocation SimpleName cursor str
+e SimpleName MethodInvocation SimpleName cursor str
+n values SimpleName InfixExpression NumberLiteral empty
+convert svg cursor SimpleName MethodInvocation SimpleName e
+convert svg cursor SimpleName MethodInvocation SimpleName cursor value
+e SimpleName MethodInvocation SimpleName cursor value
+convert built in cursor SimpleName MethodInvocation SimpleName e
+convert built in cursor SimpleName MethodInvocation SimpleName cursor str
+e SimpleName MethodInvocation SimpleName cursor str
+public Modifier MethodDeclaration SimpleType SimpleName cursor
+public Modifier MethodDeclaration SimpleName convert cursor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+cursor SimpleName SimpleType MethodDeclaration SimpleName convert cursor
+cursor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+convert cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cursor
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert cursor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cursor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert cursor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

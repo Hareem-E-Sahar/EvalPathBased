@@ -1,0 +1,24 @@
+float PrimitiveType SingleVariableDeclaration SimpleName new time
+float SimpleName SimpleType ClassInstanceCreation SimpleName new time
+trace SimpleName MethodInvocation SimpleName enter
+trace SimpleName MethodInvocation StringLiteral dependent update
+enter SimpleName MethodInvocation StringLiteral dependent update
+time SimpleName Assignment SimpleName new time
+creator SimpleName MethodInvocation SimpleName handle timebase update
+creator SimpleName MethodInvocation SimpleName time
+handle timebase update SimpleName MethodInvocation SimpleName time
+trace SimpleName MethodInvocation SimpleName exit
+void PrimitiveType MethodDeclaration SimpleName dependent update
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new time
+dependent update SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+dependent update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dependent update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new time
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dependent update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new time

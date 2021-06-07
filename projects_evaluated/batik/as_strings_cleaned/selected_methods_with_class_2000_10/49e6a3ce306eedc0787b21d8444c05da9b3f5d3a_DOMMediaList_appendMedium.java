@@ -1,0 +1,31 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName new medium
+list SimpleName MethodInvocation SimpleName remove
+list SimpleName MethodInvocation SimpleName new medium
+remove SimpleName MethodInvocation SimpleName new medium
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation SimpleName new medium
+add SimpleName MethodInvocation SimpleName new medium
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName append medium
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new medium
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName append medium
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new medium
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+append medium SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+append medium SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new medium
+append medium SimpleName MethodDeclaration SimpleType SimpleName dom exception
+new medium SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName append medium
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new medium
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append medium
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new medium
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

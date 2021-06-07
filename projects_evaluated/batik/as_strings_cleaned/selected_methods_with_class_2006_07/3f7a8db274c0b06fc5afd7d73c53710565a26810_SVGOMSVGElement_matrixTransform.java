@@ -1,0 +1,75 @@
+svg matrix SimpleName SimpleType SingleVariableDeclaration SimpleName mat
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName get screen transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scrn trans
+scrn trans SimpleName MethodInvocation SimpleName get translate x
+float PrimitiveType CastExpression MethodInvocation SimpleName scrn trans
+float PrimitiveType CastExpression MethodInvocation SimpleName get translate x
+x SimpleName VariableDeclarationFragment CastExpression PrimitiveType float
+x SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName scrn trans
+x SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get translate x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType float
+scrn trans SimpleName MethodInvocation SimpleName get translate y
+float PrimitiveType CastExpression MethodInvocation SimpleName scrn trans
+float PrimitiveType CastExpression MethodInvocation SimpleName get translate y
+y SimpleName VariableDeclarationFragment CastExpression PrimitiveType float
+y SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName scrn trans
+y SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get translate y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType float
+mat SimpleName MethodInvocation SimpleName get a
+mat SimpleName MethodInvocation InfixExpression SimpleName x
+get a SimpleName MethodInvocation InfixExpression SimpleName x
+mat SimpleName MethodInvocation SimpleName get c
+mat SimpleName MethodInvocation InfixExpression SimpleName y
+get c SimpleName MethodInvocation InfixExpression SimpleName y
+x SimpleName InfixExpression InfixExpression InfixExpression SimpleName y
+mat SimpleName MethodInvocation SimpleName get e
+new x SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName mat
+new x SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get e
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new x
+mat SimpleName MethodInvocation SimpleName get b
+mat SimpleName MethodInvocation InfixExpression SimpleName x
+get b SimpleName MethodInvocation InfixExpression SimpleName x
+mat SimpleName MethodInvocation SimpleName get d
+mat SimpleName MethodInvocation InfixExpression SimpleName y
+get d SimpleName MethodInvocation InfixExpression SimpleName y
+x SimpleName InfixExpression InfixExpression InfixExpression SimpleName y
+mat SimpleName MethodInvocation SimpleName get f
+new y SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName mat
+new y SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new y
+svgom point SimpleName SimpleType ClassInstanceCreation SimpleName new x
+svgom point SimpleName SimpleType ClassInstanceCreation SimpleName new y
+new x SimpleName ClassInstanceCreation SimpleName new y
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration SimpleType SimpleName svg point
+public Modifier MethodDeclaration SimpleName matrix transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg matrix
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mat
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+svg point SimpleName SimpleType MethodDeclaration SimpleName matrix transform
+svg point SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName mat
+matrix transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg matrix
+matrix transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mat
+matrix transform SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+matrix transform SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+matrix transform SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+matrix transform SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg point
+public Modifier TypeDeclaration MethodDeclaration SimpleName matrix transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mat
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg point
+test SimpleName TypeDeclaration MethodDeclaration SimpleName matrix transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mat

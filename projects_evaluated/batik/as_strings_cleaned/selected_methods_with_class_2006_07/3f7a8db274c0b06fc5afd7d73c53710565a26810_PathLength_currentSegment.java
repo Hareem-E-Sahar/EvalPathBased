@@ -1,0 +1,48 @@
+float PrimitiveType ArrayType SingleVariableDeclaration SimpleName coords
+it SimpleName MethodInvocation SimpleName current segment
+it SimpleName MethodInvocation SimpleName coords
+current segment SimpleName MethodInvocation SimpleName coords
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName current segment
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName coords
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName it
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current segment
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName coords
+coords SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression SimpleName x
+coords SimpleName ArrayAccess Assignment CastExpression PrimitiveType float
+coords SimpleName ArrayAccess Assignment CastExpression SimpleName x
+empty NumberLiteral ArrayAccess Assignment CastExpression PrimitiveType float
+empty NumberLiteral ArrayAccess Assignment CastExpression SimpleName x
+coords SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression SimpleName y
+coords SimpleName ArrayAccess Assignment CastExpression PrimitiveType float
+coords SimpleName ArrayAccess Assignment CastExpression SimpleName y
+empty NumberLiteral ArrayAccess Assignment CastExpression PrimitiveType float
+empty NumberLiteral ArrayAccess Assignment CastExpression SimpleName y
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName type
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName current segment
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName coords
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName type
+int PrimitiveType MethodDeclaration SimpleName current segment
+int PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType float
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName coords
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName type
+current segment SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType float
+current segment SimpleName MethodDeclaration SingleVariableDeclaration SimpleName coords
+current segment SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+current segment SimpleName MethodDeclaration Block ReturnStatement SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName current segment
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName coords
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName current segment
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName coords

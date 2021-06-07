@@ -1,0 +1,38 @@
+field index SimpleName MethodInvocation SimpleName size
+int PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName field index
+int PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName size
+tags SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+tags SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName field index
+tags SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName size
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName tags
+field index SimpleName MethodInvocation SimpleName key set
+field index SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName field index
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key set
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName has next
+tags SimpleName ArrayAccess PostfixExpression SimpleName i
+iter SimpleName MethodInvocation SimpleName next
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+tags SimpleName ArrayAccess Assignment MethodInvocation SimpleName int value
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName tags
+public Modifier MethodDeclaration ArrayType PrimitiveType int
+public Modifier MethodDeclaration SimpleName get tags
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName tags
+int PrimitiveType ArrayType MethodDeclaration SimpleName get tags
+get tags SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get tags SimpleName MethodDeclaration Block ReturnStatement SimpleName tags
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tags
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tags

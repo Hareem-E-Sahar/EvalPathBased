@@ -1,0 +1,34 @@
+long PrimitiveType SingleVariableDeclaration SimpleName t
+event target SimpleName SimpleType SingleVariableDeclaration SimpleName et
+last tool tip event time stamp SimpleName Assignment SimpleName t
+last tool tip event target SimpleName Assignment SimpleName et
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set last tool tip event
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName et
+void PrimitiveType MethodDeclaration SimpleName set last tool tip event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName et
+set last tool tip event SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set last tool tip event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+set last tool tip event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+set last tool tip event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName et
+long PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName et
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName et
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set last tool tip event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName et
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set last tool tip event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName et

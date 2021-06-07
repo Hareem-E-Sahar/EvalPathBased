@@ -1,0 +1,29 @@
+graphics node event filter SimpleName SimpleType SingleVariableDeclaration SimpleName evt filter
+old filter SimpleName VariableDeclarationFragment SimpleName event filter
+graphics node event filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old filter
+graphics node event filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName event filter
+event filter SimpleName FieldAccess Assignment SimpleName evt filter
+fire property change SimpleName MethodInvocation StringLiteral graphics node event filter
+fire property change SimpleName MethodInvocation SimpleName old filter
+fire property change SimpleName MethodInvocation SimpleName evt filter
+graphics node event filter StringLiteral MethodInvocation SimpleName old filter
+graphics node event filter StringLiteral MethodInvocation SimpleName evt filter
+old filter SimpleName MethodInvocation SimpleName evt filter
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set graphics node event filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt filter
+void PrimitiveType MethodDeclaration SimpleName set graphics node event filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt filter
+set graphics node event filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event filter
+set graphics node event filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set graphics node event filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt filter
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set graphics node event filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt filter

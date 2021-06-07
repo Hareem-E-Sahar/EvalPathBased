@@ -1,0 +1,115 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName css text
+pm SimpleName VariableDeclarationFragment SimpleName properties
+property map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pm
+property map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName properties
+property map SimpleName SimpleType ClassInstanceCreation SimpleName properties
+old properties SimpleName Assignment ClassInstanceCreation SimpleType SimpleName property map
+old properties SimpleName Assignment ClassInstanceCreation SimpleName properties
+properties SimpleName Assignment ClassInstanceCreation SimpleType SimpleName property map
+string reader SimpleName SimpleType ClassInstanceCreation SimpleName css text
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string reader
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName css text
+reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+parser SimpleName MethodInvocation SimpleName set document handler
+parser SimpleName MethodInvocation SimpleName handler
+set document handler SimpleName MethodInvocation SimpleName handler
+input source SimpleName SimpleType ClassInstanceCreation SimpleName r
+parser SimpleName MethodInvocation SimpleName parse style declaration
+parser SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName input source
+parser SimpleName MethodInvocation ClassInstanceCreation SimpleName r
+parse style declaration SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName input source
+parse style declaration SimpleName MethodInvocation ClassInstanceCreation SimpleName r
+dom exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+properties SimpleName Assignment SimpleName pm
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+properties SimpleName Assignment SimpleName pm
+cssdom exception factory SimpleName MethodInvocation SimpleName create dom exception
+cssdom exception factory SimpleName MethodInvocation QualifiedName dom exceptioninvalid access err
+cssdom exception factory SimpleName MethodInvocation StringLiteral styledeclarationvalue
+cssdom exception factory SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName css text
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptioninvalid access err
+create dom exception SimpleName MethodInvocation StringLiteral styledeclarationvalue
+create dom exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName css text
+dom exceptioninvalid access err QualifiedName MethodInvocation StringLiteral styledeclarationvalue
+dom exceptioninvalid access err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName css text
+styledeclarationvalue StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName css text
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+pm SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName pm
+i SimpleName InfixExpression MethodInvocation SimpleName size
+pm SimpleName MethodInvocation SimpleName item
+pm SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName pm
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+ve SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName value entry
+ve SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName pm
+ve SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+ve SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+value entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ve
+vevalue QualifiedName MethodInvocation SimpleName set css value change listener
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+old properties SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName old properties
+i SimpleName InfixExpression MethodInvocation SimpleName size
+old properties SimpleName MethodInvocation SimpleName item
+old properties SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName old properties
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+ve SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName value entry
+ve SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName old properties
+ve SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+ve SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+value entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ve
+old properties SimpleName MethodInvocation SimpleName key
+old properties SimpleName MethodInvocation SimpleName i
+key SimpleName MethodInvocation SimpleName i
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName old properties
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName key
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+css value change SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+css value change SimpleName MethodInvocation CastExpression MethodInvocation SimpleName old properties
+css value change SimpleName MethodInvocation CastExpression MethodInvocation SimpleName key
+css value change SimpleName MethodInvocation CastExpression MethodInvocation SimpleName i
+css value change SimpleName MethodInvocation QualifiedName vevalue
+string SimpleName SimpleType CastExpression MethodInvocation QualifiedName vevalue
+old properties SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName vevalue
+key SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName vevalue
+i SimpleName MethodInvocation CastExpression MethodInvocation QualifiedName vevalue
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set css text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName css text
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set css text
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName css text
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set css text SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set css text SimpleName MethodDeclaration SingleVariableDeclaration SimpleName css text
+set css text SimpleName MethodDeclaration SimpleType SimpleName dom exception
+css text SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set css text
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName css text
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set css text
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName css text
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

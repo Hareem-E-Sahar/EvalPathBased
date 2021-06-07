@@ -1,0 +1,98 @@
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral unknown composite rule type
+rule SimpleName SwitchStatement SwitchCase SimpleName rule over
+rule SimpleName SwitchStatement ReturnStatement SimpleName over
+rule SimpleName SwitchStatement SwitchCase SimpleName rule in
+rule SimpleName SwitchStatement ReturnStatement SimpleName in
+rule SimpleName SwitchStatement SwitchCase SimpleName rule out
+rule over SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName over
+rule over SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule in
+rule over SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName in
+rule over SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule out
+rule over SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName out
+over SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule in
+over SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName in
+over SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule out
+over SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName out
+over SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule atop
+rule in SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName in
+rule in SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule out
+rule in SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName out
+rule in SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule atop
+rule in SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName atop
+in SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule out
+in SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName out
+in SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule atop
+in SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName atop
+in SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule xor
+rule out SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName out
+rule out SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule atop
+rule out SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName atop
+rule out SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule xor
+rule out SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName xor
+out SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule atop
+out SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName atop
+out SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule xor
+out SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName xor
+out SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule arithmetic
+rule atop SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName atop
+rule atop SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule xor
+rule atop SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName xor
+rule atop SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule arithmetic
+atop SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule xor
+atop SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName xor
+atop SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule arithmetic
+atop SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule multiply
+rule xor SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName xor
+rule xor SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule arithmetic
+rule xor SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule multiply
+rule xor SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName multiply
+xor SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule arithmetic
+xor SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule multiply
+xor SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName multiply
+xor SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule screen
+rule arithmetic SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule multiply
+rule arithmetic SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName multiply
+rule arithmetic SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule screen
+rule arithmetic SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName screen
+rule multiply SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName multiply
+rule multiply SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule screen
+rule multiply SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName screen
+rule multiply SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule darken
+rule multiply SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName darken
+multiply SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule screen
+multiply SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName screen
+multiply SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule darken
+multiply SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName darken
+multiply SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule lighten
+rule screen SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName screen
+rule screen SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule darken
+rule screen SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName darken
+rule screen SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule lighten
+rule screen SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName lighten
+screen SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule darken
+screen SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName darken
+screen SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule lighten
+screen SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName lighten
+rule darken SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName darken
+rule darken SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rule lighten
+rule darken SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName lighten
+darken SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName rule lighten
+darken SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName lighten
+rule lighten SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName lighten
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName read resolve
+private Modifier MethodDeclaration SimpleType QualifiedName javaioobject stream exception
+private Modifier MethodDeclaration Block SwitchStatement SimpleName rule
+object SimpleName SimpleType MethodDeclaration SimpleName read resolve
+object SimpleName SimpleType MethodDeclaration SimpleType QualifiedName javaioobject stream exception
+read resolve SimpleName MethodDeclaration SimpleType QualifiedName javaioobject stream exception
+read resolve SimpleName MethodDeclaration Block SwitchStatement SimpleName rule
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName read resolve
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName javaioobject stream exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read resolve
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName javaioobject stream exception

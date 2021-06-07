@@ -1,0 +1,13 @@
+graphics node mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName mouse moved
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+mouse moved SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+mouse moved SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mouse moved
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mouse moved
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

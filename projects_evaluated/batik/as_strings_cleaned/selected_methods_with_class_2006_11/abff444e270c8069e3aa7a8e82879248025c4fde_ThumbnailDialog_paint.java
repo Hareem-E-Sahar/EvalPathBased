@@ -1,0 +1,59 @@
+graphics SimpleName SimpleType SingleVariableDeclaration SimpleName g
+graphics d SimpleName SimpleType CastExpression SimpleName g
+g d SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName graphics d
+g d SimpleName VariableDeclarationFragment CastExpression SimpleName g
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g d
+g d SimpleName MethodInvocation SimpleName transform
+g d SimpleName MethodInvocation SimpleName painting transform
+transform SimpleName MethodInvocation SimpleName painting transform
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName set color
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName color
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set color SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName color
+set color SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set color SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set color SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set color SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName fill
+g d SimpleName MethodInvocation SimpleName s
+fill SimpleName MethodInvocation SimpleName s
+g d SimpleName MethodInvocation SimpleName set color
+g d SimpleName MethodInvocation QualifiedName colorblack
+set color SimpleName MethodInvocation QualifiedName colorblack
+g d SimpleName MethodInvocation SimpleName set stroke
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName basic stroke
+set stroke SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName basic stroke
+g d SimpleName MethodInvocation SimpleName draw
+g d SimpleName MethodInvocation SimpleName s
+draw SimpleName MethodInvocation SimpleName s
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName g
+void PrimitiveType MethodDeclaration SimpleName paint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName g
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName paint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName paint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g

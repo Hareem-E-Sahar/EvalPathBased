@@ -1,0 +1,27 @@
+clipboard SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cb
+toolkit SimpleName MethodInvocation SimpleName get default toolkit
+toolkit SimpleName MethodInvocation MethodInvocation SimpleName get system clipboard
+get default toolkit SimpleName MethodInvocation MethodInvocation SimpleName get system clipboard
+cb SimpleName Assignment MethodInvocation MethodInvocation SimpleName toolkit
+cb SimpleName Assignment MethodInvocation MethodInvocation SimpleName get default toolkit
+cb SimpleName Assignment MethodInvocation SimpleName get system clipboard
+string selection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sel
+string selection SimpleName SimpleType ClassInstanceCreation SimpleName str sel
+sel SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string selection
+sel SimpleName Assignment ClassInstanceCreation SimpleName str sel
+cb SimpleName MethodInvocation SimpleName set contents
+cb SimpleName MethodInvocation SimpleName sel
+cb SimpleName MethodInvocation SimpleName sel
+set contents SimpleName MethodInvocation SimpleName sel
+set contents SimpleName MethodInvocation SimpleName sel
+sel SimpleName MethodInvocation SimpleName sel
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

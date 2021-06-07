@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+sax parse exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+sax parse exception SimpleName SimpleType ClassInstanceCreation SimpleName message
+sax parse exception SimpleName SimpleType ClassInstanceCreation SimpleName locator
+message SimpleName ClassInstanceCreation SimpleName locator
+e SimpleName Assignment ClassInstanceCreation SimpleType SimpleName sax parse exception
+e SimpleName Assignment ClassInstanceCreation SimpleName message
+e SimpleName Assignment ClassInstanceCreation SimpleName locator
+sax parse exception SimpleName SimpleType ClassInstanceCreation SimpleName message
+sax parse exception SimpleName SimpleType ClassInstanceCreation PrefixExpression NumberLiteral empty
+sax parse exception SimpleName SimpleType ClassInstanceCreation PrefixExpression NumberLiteral empty
+message SimpleName ClassInstanceCreation PrefixExpression NumberLiteral empty
+message SimpleName ClassInstanceCreation PrefixExpression NumberLiteral empty
+empty NumberLiteral PrefixExpression ClassInstanceCreation PrefixExpression NumberLiteral empty
+e SimpleName Assignment ClassInstanceCreation SimpleType SimpleName sax parse exception
+e SimpleName Assignment ClassInstanceCreation SimpleName message
+e SimpleName Assignment ClassInstanceCreation PrefixExpression NumberLiteral empty
+e SimpleName Assignment ClassInstanceCreation PrefixExpression NumberLiteral empty
+error handler SimpleName MethodInvocation SimpleName error
+error handler SimpleName MethodInvocation SimpleName e
+error SimpleName MethodInvocation SimpleName e
+void PrimitiveType MethodDeclaration SimpleName report error
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax exception
+report error SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+report error SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+report error SimpleName MethodDeclaration SimpleType SimpleName sax exception
+message SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName report error
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName report error
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

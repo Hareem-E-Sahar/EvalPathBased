@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+type SimpleName MethodInvocation SimpleName equals
+type SimpleName MethodInvocation StringLiteral motion
+equals SimpleName MethodInvocation StringLiteral motion
+set transform SimpleName MethodInvocation SimpleName node
+set transform SimpleName MethodInvocation SimpleName e
+node SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle other animation changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SimpleName handle other animation changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+handle other animation changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+handle other animation changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle other animation changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle other animation changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

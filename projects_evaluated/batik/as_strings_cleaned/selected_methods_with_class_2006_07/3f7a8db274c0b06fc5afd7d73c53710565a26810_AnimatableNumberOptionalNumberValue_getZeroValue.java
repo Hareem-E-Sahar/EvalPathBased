@@ -1,0 +1,21 @@
+animatable number optional number value SimpleName SimpleType ClassInstanceCreation SimpleName target
+animatable number optional number value SimpleName SimpleType ClassInstanceCreation NumberLiteral f
+animatable number optional number value SimpleName SimpleType ClassInstanceCreation NumberLiteral f
+target SimpleName ClassInstanceCreation NumberLiteral f
+target SimpleName ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+animatable number optional number value SimpleName SimpleType ClassInstanceCreation SimpleName target
+animatable number optional number value SimpleName SimpleType ClassInstanceCreation NumberLiteral f
+target SimpleName ClassInstanceCreation NumberLiteral f
+public Modifier MethodDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SimpleName get zero value
+public Modifier MethodDeclaration Block IfStatement SimpleName has optional number
+animatable value SimpleName SimpleType MethodDeclaration SimpleName get zero value
+get zero value SimpleName MethodDeclaration Block IfStatement SimpleName has optional number
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get zero value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get zero value

@@ -1,0 +1,84 @@
+int PrimitiveType SingleVariableDeclaration SimpleName w
+int PrimitiveType SingleVariableDeclaration SimpleName h
+global buffer SimpleName MethodInvocation SimpleName get width
+global buffer SimpleName MethodInvocation InfixExpression SimpleName w
+get width SimpleName MethodInvocation InfixExpression SimpleName w
+global buffer SimpleName InfixExpression InfixExpression InfixExpression SimpleName w
+global buffer SimpleName MethodInvocation SimpleName get height
+global buffer SimpleName MethodInvocation InfixExpression SimpleName h
+get height SimpleName MethodInvocation InfixExpression SimpleName h
+buffered image SimpleName SimpleType ClassInstanceCreation SimpleName w
+buffered image SimpleName SimpleType ClassInstanceCreation SimpleName h
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName buffered imagetype int rgb
+w SimpleName ClassInstanceCreation SimpleName h
+w SimpleName ClassInstanceCreation QualifiedName buffered imagetype int rgb
+h SimpleName ClassInstanceCreation QualifiedName buffered imagetype int rgb
+global buffer SimpleName Assignment ClassInstanceCreation SimpleType SimpleName buffered image
+global buffer SimpleName Assignment ClassInstanceCreation SimpleName w
+global buffer SimpleName Assignment ClassInstanceCreation SimpleName h
+global buffer SimpleName Assignment ClassInstanceCreation QualifiedName buffered imagetype int rgb
+buffer SimpleName Assignment SimpleName global buffer
+repaint SimpleName Assignment BooleanLiteral true
+buffer SimpleName MethodInvocation SimpleName get width
+buffer SimpleName MethodInvocation InfixExpression SimpleName w
+get width SimpleName MethodInvocation InfixExpression SimpleName w
+buffer SimpleName MethodInvocation SimpleName get height
+buffer SimpleName MethodInvocation InfixExpression SimpleName h
+get height SimpleName MethodInvocation InfixExpression SimpleName h
+w SimpleName InfixExpression InfixExpression InfixExpression SimpleName h
+global buffer SimpleName MethodInvocation SimpleName get subimage
+global buffer SimpleName MethodInvocation NumberLiteral empty
+global buffer SimpleName MethodInvocation NumberLiteral empty
+global buffer SimpleName MethodInvocation SimpleName w
+global buffer SimpleName MethodInvocation SimpleName h
+get subimage SimpleName MethodInvocation NumberLiteral empty
+get subimage SimpleName MethodInvocation NumberLiteral empty
+get subimage SimpleName MethodInvocation SimpleName w
+get subimage SimpleName MethodInvocation SimpleName h
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName w
+empty NumberLiteral MethodInvocation SimpleName h
+empty NumberLiteral MethodInvocation SimpleName w
+empty NumberLiteral MethodInvocation SimpleName h
+w SimpleName MethodInvocation SimpleName h
+buffer SimpleName Assignment MethodInvocation SimpleName global buffer
+buffer SimpleName Assignment MethodInvocation SimpleName get subimage
+buffer SimpleName Assignment MethodInvocation NumberLiteral empty
+buffer SimpleName Assignment MethodInvocation NumberLiteral empty
+buffer SimpleName Assignment MethodInvocation SimpleName w
+buffer SimpleName Assignment MethodInvocation SimpleName h
+repaint SimpleName Assignment BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName w
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName h
+void PrimitiveType MethodDeclaration SimpleName update buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName w
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName h
+update buffer SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+update buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName w
+update buffer SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+update buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName h
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+w SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+w SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h

@@ -1,0 +1,23 @@
+blur area SimpleName MethodInvocation SimpleName get region
+set pad rect SimpleName MethodInvocation MethodInvocation SimpleName blur area
+set pad rect SimpleName MethodInvocation MethodInvocation SimpleName get region
+blur area SimpleName MethodInvocation SimpleName get region
+pad rable StringLiteral InfixExpression MethodInvocation SimpleName blur area
+pad rable StringLiteral InfixExpression MethodInvocation SimpleName get region
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral pad rable
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName blur area
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get region
+println SimpleName MethodInvocation InfixExpression StringLiteral pad rable
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName blur area
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get region
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName get bounds d
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get bounds d
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bounds d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bounds d

@@ -1,0 +1,17 @@
+timed element SimpleName MethodInvocation SimpleName begin element
+timed element SimpleName MethodInvocation SimpleName can begin
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName begin element
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+boolean PrimitiveType MethodDeclaration SimpleName begin element
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+begin element SimpleName MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName begin element
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName begin element
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

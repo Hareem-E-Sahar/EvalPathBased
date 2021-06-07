@@ -1,0 +1,25 @@
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+parse l SimpleName MethodInvocation BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse l
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName parse l
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+parse l SimpleName MethodDeclaration SimpleType SimpleName parse exception
+parse l SimpleName MethodDeclaration SimpleType SimpleName io exception
+parse exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse l
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse l
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

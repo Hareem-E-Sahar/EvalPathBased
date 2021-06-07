@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName document view
+public Modifier MethodDeclaration SimpleName get document
+document view SimpleName SimpleType MethodDeclaration SimpleName get document
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName document view
+public Modifier TypeDeclaration MethodDeclaration SimpleName get document
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName document view
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get document

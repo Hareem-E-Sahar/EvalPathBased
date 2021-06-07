@@ -1,0 +1,54 @@
+e SimpleName MethodInvocation SimpleName get owner document
+document event SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+document event SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+d SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName document event
+d SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+d SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+document event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+d SimpleName MethodInvocation SimpleName create event
+d SimpleName MethodInvocation StringLiteral svg events
+create event SimpleName MethodInvocation StringLiteral svg events
+abstract event SimpleName SimpleType CastExpression MethodInvocation SimpleName d
+abstract event SimpleName SimpleType CastExpression MethodInvocation SimpleName create event
+abstract event SimpleName SimpleType CastExpression MethodInvocation StringLiteral svg events
+evt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract event
+evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName d
+evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName create event
+evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral svg events
+abstract event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName evt
+evt SimpleName MethodInvocation SimpleName init event ns
+evt SimpleName MethodInvocation SimpleName svg namespace uri
+evt SimpleName MethodInvocation StringLiteral shapechange
+evt SimpleName MethodInvocation BooleanLiteral true
+evt SimpleName MethodInvocation BooleanLiteral false
+init event ns SimpleName MethodInvocation SimpleName svg namespace uri
+init event ns SimpleName MethodInvocation StringLiteral shapechange
+init event ns SimpleName MethodInvocation BooleanLiteral true
+init event ns SimpleName MethodInvocation BooleanLiteral false
+svg namespace uri SimpleName MethodInvocation StringLiteral shapechange
+svg namespace uri SimpleName MethodInvocation BooleanLiteral true
+svg namespace uri SimpleName MethodInvocation BooleanLiteral false
+shapechange StringLiteral MethodInvocation BooleanLiteral true
+shapechange StringLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation BooleanLiteral false
+event target SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName dispatch event
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName evt
+dispatch event SimpleName MethodInvocation SimpleName evt
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ctx SimpleName MethodInvocation SimpleName get user agent
+ctx SimpleName MethodInvocation MethodInvocation SimpleName display error
+get user agent SimpleName MethodInvocation MethodInvocation SimpleName display error
+ctx SimpleName MethodInvocation MethodInvocation SimpleName ex
+get user agent SimpleName MethodInvocation MethodInvocation SimpleName ex
+display error SimpleName MethodInvocation SimpleName ex
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName fire shape change event
+void PrimitiveType MethodDeclaration SimpleName fire shape change event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fire shape change event
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fire shape change event

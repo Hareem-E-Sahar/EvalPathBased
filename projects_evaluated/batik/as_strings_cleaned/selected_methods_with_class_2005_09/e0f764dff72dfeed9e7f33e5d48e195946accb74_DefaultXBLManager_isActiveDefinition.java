@@ -1,0 +1,51 @@
+xblom definition element SimpleName SimpleType SingleVariableDeclaration SimpleName def
+element SimpleName SimpleType SingleVariableDeclaration SimpleName imp
+definitions SimpleName MethodInvocation SimpleName get
+definitions SimpleName MethodInvocation SimpleName def
+definitions SimpleName MethodInvocation SimpleName imp
+get SimpleName MethodInvocation SimpleName def
+get SimpleName MethodInvocation SimpleName imp
+def SimpleName MethodInvocation SimpleName imp
+definition record SimpleName SimpleType CastExpression MethodInvocation SimpleName definitions
+definition record SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+definition record SimpleName SimpleType CastExpression MethodInvocation SimpleName def
+definition record SimpleName SimpleType CastExpression MethodInvocation SimpleName imp
+def rec SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName definition record
+def rec SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName definitions
+def rec SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+def rec SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName def
+def rec SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName imp
+definition record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName def rec
+get active definition SimpleName MethodInvocation QualifiedName def recnamespace uri
+get active definition SimpleName MethodInvocation QualifiedName def reclocal name
+def recnamespace uri QualifiedName MethodInvocation QualifiedName def reclocal name
+def rec SimpleName InfixExpression MethodInvocation SimpleName get active definition
+def rec SimpleName InfixExpression MethodInvocation QualifiedName def recnamespace uri
+def rec SimpleName InfixExpression MethodInvocation QualifiedName def reclocal name
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is active definition
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom definition element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName def
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName imp
+boolean PrimitiveType MethodDeclaration SimpleName is active definition
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom definition element
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName def
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName imp
+is active definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom definition element
+is active definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName def
+is active definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+is active definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName imp
+def SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is active definition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is active definition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp

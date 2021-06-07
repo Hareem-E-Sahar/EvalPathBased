@@ -1,0 +1,48 @@
+gn SimpleName VariableDeclarationFragment SimpleName node
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+ctm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName affine transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctm
+elt SimpleName VariableDeclarationFragment SimpleName e
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+elt SimpleName InstanceofExpression SimpleType SimpleName svg fit to view box
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+gn SimpleName InstanceofExpression SimpleType SimpleName canvas graphics node
+canvas graphics node SimpleName SimpleType CastExpression SimpleName gn
+gn SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get viewing transform
+at SimpleName Assignment MethodInvocation SimpleName get viewing transform
+gn SimpleName MethodInvocation SimpleName get transform
+at SimpleName Assignment MethodInvocation SimpleName gn
+at SimpleName Assignment MethodInvocation SimpleName get transform
+ctm SimpleName MethodInvocation SimpleName pre concatenate
+ctm SimpleName MethodInvocation SimpleName at
+pre concatenate SimpleName MethodInvocation SimpleName at
+gn SimpleName MethodInvocation SimpleName get transform
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName gn
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+ctm SimpleName MethodInvocation SimpleName pre concatenate
+ctm SimpleName MethodInvocation SimpleName at
+pre concatenate SimpleName MethodInvocation SimpleName at
+svgcss engine SimpleName MethodInvocation SimpleName get parent css stylable element
+svgcss engine SimpleName MethodInvocation SimpleName elt
+get parent css stylable element SimpleName MethodInvocation SimpleName elt
+elt SimpleName Assignment MethodInvocation SimpleName svgcss engine
+elt SimpleName Assignment MethodInvocation SimpleName get parent css stylable element
+elt SimpleName Assignment MethodInvocation SimpleName elt
+gn SimpleName MethodInvocation SimpleName get parent
+gn SimpleName Assignment MethodInvocation SimpleName gn
+gn SimpleName Assignment MethodInvocation SimpleName get parent
+public Modifier MethodDeclaration SimpleType SimpleName affine transform
+public Modifier MethodDeclaration SimpleName get ctm
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ctm
+affine transform SimpleName SimpleType MethodDeclaration SimpleName get ctm
+get ctm SimpleName MethodDeclaration Block ReturnStatement SimpleName ctm
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName affine transform
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ctm
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName affine transform
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ctm

@@ -1,0 +1,237 @@
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current value
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+string SimpleName SimpleType ClassInstanceCreation SimpleName name
+name str SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+name str SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name str
+attributes SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName linked list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attributes
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName space
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+space SimpleName Assignment MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitsname
+att name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current value
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName att name
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName space
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+space SimpleName Assignment MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitseq
+fatal error SimpleName MethodInvocation StringLiteral token
+fatal error SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral =
+token StringLiteral MethodInvocation ArrayCreation ArrayInitializer StringLiteral =
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName space
+type SimpleName InfixExpression QualifiedName lexical unitss
+space SimpleName Assignment MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitsstring
+type SimpleName InfixExpression QualifiedName lexical unitsfirst attribute fragment
+type SimpleName InfixExpression InfixExpression InfixExpression SimpleName type
+type SimpleName InfixExpression InfixExpression InfixExpression QualifiedName lexical unitsfirst attribute fragment
+lexical unitsstring QualifiedName InfixExpression InfixExpression InfixExpression SimpleName type
+lexical unitsstring QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName lexical unitsfirst attribute fragment
+fatal error SimpleName MethodInvocation StringLiteral string
+scanner SimpleName MethodInvocation SimpleName get string delimiter
+value delim SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner
+value delim SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string delimiter
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName value delim
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName scanner
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get string delimiter
+has entity ref SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has entity ref
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName get current value
+append SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName clear buffer
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName get current value
+append SimpleName MethodInvocation MethodInvocation SimpleName get current value
+has entity ref SimpleName Assignment BooleanLiteral true
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral &#
+append SimpleName MethodInvocation StringLiteral &#
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName get current value
+append SimpleName MethodInvocation MethodInvocation SimpleName get current value
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral 
+append SimpleName MethodInvocation StringLiteral 
+has entity ref SimpleName Assignment BooleanLiteral true
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral &
+append SimpleName MethodInvocation StringLiteral &
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName get current value
+append SimpleName MethodInvocation MethodInvocation SimpleName get current value
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral 
+append SimpleName MethodInvocation StringLiteral 
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsstring
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsfirst attribute fragment
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitslast attribute fragment
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsattribute fragment
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName sb
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName append
+lexical unitsstring QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsfirst attribute fragment
+lexical unitsstring QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitslast attribute fragment
+lexical unitsstring QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsattribute fragment
+lexical unitsfirst attribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitslast attribute fragment
+lexical unitsfirst attribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsattribute fragment
+lexical unitsfirst attribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitscharacter reference
+lexical unitslast attribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsattribute fragment
+lexical unitslast attribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitscharacter reference
+lexical unitsattribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitscharacter reference
+string SimpleName SimpleType ClassInstanceCreation SimpleName sb
+output managerattribute info QualifiedName SimpleType ClassInstanceCreation SimpleName space
+output managerattribute info QualifiedName SimpleType ClassInstanceCreation SimpleName att name
+output managerattribute info QualifiedName SimpleType ClassInstanceCreation SimpleName space
+output managerattribute info QualifiedName SimpleType ClassInstanceCreation SimpleName space
+output managerattribute info QualifiedName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName sb
+space SimpleName ClassInstanceCreation SimpleName att name
+space SimpleName ClassInstanceCreation SimpleName space
+space SimpleName ClassInstanceCreation SimpleName space
+space SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName string
+space SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName sb
+space SimpleName ClassInstanceCreation SimpleName value delim
+att name SimpleName ClassInstanceCreation SimpleName space
+att name SimpleName ClassInstanceCreation SimpleName space
+att name SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName string
+att name SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName sb
+att name SimpleName ClassInstanceCreation SimpleName value delim
+att name SimpleName ClassInstanceCreation SimpleName has entity ref
+space SimpleName ClassInstanceCreation SimpleName space
+space SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName string
+space SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName sb
+space SimpleName ClassInstanceCreation SimpleName value delim
+space SimpleName ClassInstanceCreation SimpleName has entity ref
+space SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName string
+space SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName sb
+space SimpleName ClassInstanceCreation SimpleName value delim
+space SimpleName ClassInstanceCreation SimpleName has entity ref
+string SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName value delim
+sb SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName value delim
+string SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName has entity ref
+sb SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName has entity ref
+value delim SimpleName ClassInstanceCreation SimpleName has entity ref
+attributes SimpleName MethodInvocation SimpleName add
+attributes SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName output managerattribute info
+attributes SimpleName MethodInvocation ClassInstanceCreation SimpleName space
+attributes SimpleName MethodInvocation ClassInstanceCreation SimpleName att name
+attributes SimpleName MethodInvocation ClassInstanceCreation SimpleName space
+attributes SimpleName MethodInvocation ClassInstanceCreation SimpleName space
+attributes SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName sb
+attributes SimpleName MethodInvocation ClassInstanceCreation SimpleName value delim
+attributes SimpleName MethodInvocation ClassInstanceCreation SimpleName has entity ref
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName output managerattribute info
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName space
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName att name
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName space
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName space
+add SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName sb
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName value delim
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName has entity ref
+char PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+char PrimitiveType VariableDeclarationStatement Block LabeledStatement SimpleName loop
+boolean PrimitiveType VariableDeclarationStatement Block LabeledStatement SimpleName loop
+output SimpleName MethodInvocation SimpleName print element start
+output SimpleName MethodInvocation SimpleName name
+output SimpleName MethodInvocation SimpleName attributes
+output SimpleName MethodInvocation SimpleName space
+print element start SimpleName MethodInvocation SimpleName name
+print element start SimpleName MethodInvocation SimpleName attributes
+print element start SimpleName MethodInvocation SimpleName space
+name SimpleName MethodInvocation SimpleName attributes
+name SimpleName MethodInvocation SimpleName space
+attributes SimpleName MethodInvocation SimpleName space
+fatal error SimpleName MethodInvocation StringLiteral xml
+output SimpleName MethodInvocation SimpleName print element end
+output SimpleName MethodInvocation SimpleName print character
+output SimpleName MethodInvocation CharacterLiteral >
+print character SimpleName MethodInvocation CharacterLiteral >
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+allow space at start SimpleName MethodInvocation SimpleName name str
+print content SimpleName MethodInvocation MethodInvocation SimpleName allow space at start
+print content SimpleName MethodInvocation MethodInvocation SimpleName name str
+type SimpleName InfixExpression QualifiedName lexical unitsend tag
+fatal error SimpleName MethodInvocation StringLiteral endtag
+name SimpleName Assignment MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+space SimpleName Assignment MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+output SimpleName MethodInvocation SimpleName print element end
+output SimpleName MethodInvocation SimpleName name
+output SimpleName MethodInvocation SimpleName space
+print element end SimpleName MethodInvocation SimpleName name
+print element end SimpleName MethodInvocation SimpleName space
+name SimpleName MethodInvocation SimpleName space
+type SimpleName InfixExpression QualifiedName lexical unitsend char
+fatal error SimpleName MethodInvocation StringLiteral end
+type SimpleName SwitchStatement ThrowStatement MethodInvocation SimpleName fatal error
+type SimpleName SwitchStatement ThrowStatement MethodInvocation StringLiteral xml
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsempty element end
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName output
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName print element end
+lexical unitsempty element end QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsend char
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName SwitchStatement Block ReturnStatement SimpleName name str
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName print element
+protected Modifier MethodDeclaration SimpleType SimpleName transcoder exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName print element
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName transcoder exception
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+print element SimpleName MethodDeclaration SimpleType SimpleName transcoder exception
+print element SimpleName MethodDeclaration SimpleType SimpleName xml exception
+print element SimpleName MethodDeclaration SimpleType SimpleName io exception
+print element SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+print element SimpleName MethodDeclaration Block ReturnStatement SimpleName name str
+transcoder exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+transcoder exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+xml exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName print element
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print element
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

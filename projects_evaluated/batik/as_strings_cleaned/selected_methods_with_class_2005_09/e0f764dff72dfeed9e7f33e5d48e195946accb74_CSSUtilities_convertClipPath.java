@@ -1,0 +1,103 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName clipped element
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName clipped node
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+get computed style SimpleName MethodInvocation SimpleName clipped element
+get computed style SimpleName MethodInvocation QualifiedName svgcss engineclip path index
+clipped element SimpleName MethodInvocation QualifiedName svgcss engineclip path index
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName clipped element
+v SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss engineclip path index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get primitive type
+v SimpleName MethodInvocation SimpleName get string value
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+ctx SimpleName MethodInvocation SimpleName get referenced element
+ctx SimpleName MethodInvocation SimpleName clipped element
+ctx SimpleName MethodInvocation SimpleName uri
+get referenced element SimpleName MethodInvocation SimpleName clipped element
+get referenced element SimpleName MethodInvocation SimpleName uri
+clipped element SimpleName MethodInvocation SimpleName uri
+cp SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+cp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get referenced element
+cp SimpleName VariableDeclarationFragment MethodInvocation SimpleName clipped element
+cp SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cp
+ctx SimpleName MethodInvocation SimpleName get bridge
+ctx SimpleName MethodInvocation SimpleName cp
+get bridge SimpleName MethodInvocation SimpleName cp
+bridge SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+bridge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bridge
+bridge SimpleName VariableDeclarationFragment MethodInvocation SimpleName cp
+bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bridge
+bridge SimpleName InstanceofExpression SimpleType SimpleName clip bridge
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName clipped element
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err css uri bad target
+clipped element SimpleName ClassInstanceCreation SimpleName err css uri bad target
+clipped element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+err css uri bad target SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+clip bridge SimpleName SimpleType CastExpression SimpleName bridge
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName create clip
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName ctx
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName cp
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName clipped element
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName clipped node
+create clip SimpleName MethodInvocation SimpleName ctx
+create clip SimpleName MethodInvocation SimpleName cp
+create clip SimpleName MethodInvocation SimpleName clipped element
+create clip SimpleName MethodInvocation SimpleName clipped node
+ctx SimpleName MethodInvocation SimpleName cp
+ctx SimpleName MethodInvocation SimpleName clipped element
+ctx SimpleName MethodInvocation SimpleName clipped node
+cp SimpleName MethodInvocation SimpleName clipped element
+cp SimpleName MethodInvocation SimpleName clipped node
+clipped element SimpleName MethodInvocation SimpleName clipped node
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss uri
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss uri
+css primitive valuecss ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss uri
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName clip rable
+public Modifier MethodDeclaration SimpleName convert clip path
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clipped element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clipped node
+static Modifier MethodDeclaration SimpleType SimpleName clip rable
+static Modifier MethodDeclaration SimpleName convert clip path
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName clipped element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName clipped node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+clip rable SimpleName SimpleType MethodDeclaration SimpleName convert clip path
+clip rable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clipped element
+clip rable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName clipped node
+clip rable SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert clip path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert clip path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clipped element
+convert clip path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+convert clip path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clipped node
+convert clip path SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+convert clip path SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+clipped element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clipped node
+clipped element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+clipped node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName clip rable
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert clip path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clipped element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clipped node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName clip rable
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert clip path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clipped element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clipped node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

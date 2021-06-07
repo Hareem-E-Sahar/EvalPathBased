@@ -1,0 +1,10 @@
+protected Modifier MethodDeclaration SimpleType SimpleName graphics node
+protected Modifier MethodDeclaration SimpleName instantiate graphics node
+graphics node SimpleName SimpleType MethodDeclaration SimpleName instantiate graphics node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName instantiate graphics node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName instantiate graphics node

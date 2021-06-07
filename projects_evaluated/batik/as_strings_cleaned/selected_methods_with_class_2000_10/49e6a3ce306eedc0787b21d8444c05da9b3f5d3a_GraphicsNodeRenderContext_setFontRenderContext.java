@@ -1,0 +1,27 @@
+font render context SimpleName SimpleType SingleVariableDeclaration SimpleName frc
+hints SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rendering hints
+rendering hints SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hints
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation SimpleName key font render context
+hints SimpleName MethodInvocation SimpleName frc
+put SimpleName MethodInvocation SimpleName key font render context
+put SimpleName MethodInvocation SimpleName frc
+key font render context SimpleName MethodInvocation SimpleName frc
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set font render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName font render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName frc
+void PrimitiveType MethodDeclaration SimpleName set font render context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName font render context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName frc
+set font render context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName font render context
+set font render context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName frc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set font render context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName frc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set font render context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName frc

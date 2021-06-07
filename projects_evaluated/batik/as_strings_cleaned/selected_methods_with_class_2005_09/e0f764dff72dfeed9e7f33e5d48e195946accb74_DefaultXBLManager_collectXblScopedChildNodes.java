@@ -1,0 +1,73 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+is child SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is child
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+n SimpleName MethodInvocation SimpleName get namespace uri
+n SimpleName MethodInvocation MethodInvocation SimpleName equals
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName equals
+n SimpleName MethodInvocation MethodInvocation SimpleName xbl namespace uri
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName xbl namespace uri
+equals SimpleName MethodInvocation SimpleName xbl namespace uri
+is child SimpleName Assignment BooleanLiteral true
+n SimpleName InstanceofExpression SimpleType SimpleName xblom content element
+get content manager SimpleName MethodInvocation SimpleName n
+cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get content manager
+cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+content manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+xblom content element SimpleName SimpleType CastExpression SimpleName n
+cm SimpleName MethodInvocation SimpleName get selected content
+cm SimpleName MethodInvocation CastExpression SimpleType SimpleName xblom content element
+cm SimpleName MethodInvocation CastExpression SimpleName n
+get selected content SimpleName MethodInvocation CastExpression SimpleType SimpleName xblom content element
+get selected content SimpleName MethodInvocation CastExpression SimpleName n
+selected SimpleName VariableDeclarationFragment MethodInvocation SimpleName cm
+selected SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selected content
+selected SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName n
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName selected
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+selected SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName selected
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+selected SimpleName MethodInvocation SimpleName item
+selected SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+collect xbl scoped child nodes SimpleName MethodInvocation MethodInvocation SimpleName selected
+collect xbl scoped child nodes SimpleName MethodInvocation MethodInvocation SimpleName item
+collect xbl scoped child nodes SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+is child SimpleName Assignment BooleanLiteral true
+nodes SimpleName MethodInvocation SimpleName add
+nodes SimpleName MethodInvocation SimpleName n
+add SimpleName MethodInvocation SimpleName n
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is child
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName collect xbl scoped child nodes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block IfStatement SimpleName is child
+void PrimitiveType MethodDeclaration SimpleName collect xbl scoped child nodes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName is child
+collect xbl scoped child nodes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+collect xbl scoped child nodes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+collect xbl scoped child nodes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+collect xbl scoped child nodes SimpleName MethodDeclaration Block IfStatement SimpleName is child
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName collect xbl scoped child nodes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName collect xbl scoped child nodes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

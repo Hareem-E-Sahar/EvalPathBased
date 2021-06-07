@@ -1,0 +1,28 @@
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName update rendering transform
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName update rendering transform
+initial transform SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+initial transform SimpleName MethodInvocation SimpleName equals
+initial transform SimpleName MethodInvocation MethodInvocation SimpleName get rendering transform
+equals SimpleName MethodInvocation MethodInvocation SimpleName get rendering transform
+set rendering transform SimpleName MethodInvocation SimpleName initial transform
+set rendering transform SimpleName MethodInvocation BooleanLiteral false
+initial transform SimpleName MethodInvocation BooleanLiteral false
+ret SimpleName Assignment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName compute rendering transform
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName compute rendering transform
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+compute rendering transform SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+compute rendering transform SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute rendering transform
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute rendering transform

@@ -1,0 +1,29 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+register tags SimpleName SuperMethodInvocation SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName put bridge
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg flow root element bridge
+put bridge SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg flow root element bridge
+ctx SimpleName MethodInvocation SimpleName put bridge
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg multi image element bridge
+put bridge SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg multi image element bridge
+ctx SimpleName MethodInvocation SimpleName put bridge
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg solid color element bridge
+put bridge SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg solid color element bridge
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName register tags
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SimpleName register tags
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+register tags SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+register tags SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register tags
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register tags
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

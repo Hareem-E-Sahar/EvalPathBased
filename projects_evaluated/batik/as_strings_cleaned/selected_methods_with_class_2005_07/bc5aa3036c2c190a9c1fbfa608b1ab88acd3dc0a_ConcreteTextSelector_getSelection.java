@@ -1,0 +1,17 @@
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+selection node SimpleName InstanceofExpression SimpleType SimpleName selectable
+selectable SimpleName SimpleType CastExpression SimpleName selection node
+selection node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get selection
+value SimpleName Assignment MethodInvocation SimpleName get selection
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get selection
+public Modifier MethodDeclaration Block ReturnStatement SimpleName value
+object SimpleName SimpleType MethodDeclaration SimpleName get selection
+get selection SimpleName MethodDeclaration Block ReturnStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get selection
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get selection

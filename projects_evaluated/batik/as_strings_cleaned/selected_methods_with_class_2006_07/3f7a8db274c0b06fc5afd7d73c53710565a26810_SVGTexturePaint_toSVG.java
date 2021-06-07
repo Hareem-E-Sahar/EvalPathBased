@@ -1,0 +1,330 @@
+texture paint SimpleName SimpleType SingleVariableDeclaration SimpleName texture
+desc map SimpleName MethodInvocation SimpleName get
+desc map SimpleName MethodInvocation SimpleName texture
+get SimpleName MethodInvocation SimpleName texture
+svg paint descriptor SimpleName SimpleType CastExpression MethodInvocation SimpleName desc map
+svg paint descriptor SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+svg paint descriptor SimpleName SimpleType CastExpression MethodInvocation SimpleName texture
+pattern desc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg paint descriptor
+pattern desc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName desc map
+pattern desc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+pattern desc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName texture
+svg paint descriptor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pattern desc
+dom factory SimpleName VariableDeclarationFragment QualifiedName generator contextdom factory
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dom factory
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName generator contextdom factory
+texture SimpleName MethodInvocation SimpleName get anchor rect
+anchor rect SimpleName VariableDeclarationFragment MethodInvocation SimpleName texture
+anchor rect SimpleName VariableDeclarationFragment MethodInvocation SimpleName get anchor rect
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anchor rect
+dom factory SimpleName MethodInvocation SimpleName create element ns
+dom factory SimpleName MethodInvocation SimpleName svg namespace uri
+dom factory SimpleName MethodInvocation SimpleName svg pattern tag
+create element ns SimpleName MethodInvocation SimpleName svg namespace uri
+create element ns SimpleName MethodInvocation SimpleName svg pattern tag
+svg namespace uri SimpleName MethodInvocation SimpleName svg pattern tag
+pattern def SimpleName VariableDeclarationFragment MethodInvocation SimpleName dom factory
+pattern def SimpleName VariableDeclarationFragment MethodInvocation SimpleName create element ns
+pattern def SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg namespace uri
+pattern def SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg pattern tag
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pattern def
+pattern def SimpleName MethodInvocation SimpleName set attribute ns
+pattern def SimpleName MethodInvocation SimpleName svg pattern units attribute
+pattern def SimpleName MethodInvocation SimpleName svg user space on use value
+set attribute ns SimpleName MethodInvocation SimpleName svg pattern units attribute
+set attribute ns SimpleName MethodInvocation SimpleName svg user space on use value
+svg pattern units attribute SimpleName MethodInvocation SimpleName svg user space on use value
+anchor rect SimpleName MethodInvocation SimpleName get x
+double string SimpleName MethodInvocation MethodInvocation SimpleName anchor rect
+double string SimpleName MethodInvocation MethodInvocation SimpleName get x
+pattern def SimpleName MethodInvocation SimpleName set attribute ns
+pattern def SimpleName MethodInvocation SimpleName svg x attribute
+pattern def SimpleName MethodInvocation MethodInvocation SimpleName double string
+pattern def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor rect
+pattern def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get x
+set attribute ns SimpleName MethodInvocation SimpleName svg x attribute
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName double string
+set attribute ns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor rect
+set attribute ns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get x
+svg x attribute SimpleName MethodInvocation MethodInvocation SimpleName double string
+svg x attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor rect
+svg x attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get x
+anchor rect SimpleName MethodInvocation SimpleName get y
+double string SimpleName MethodInvocation MethodInvocation SimpleName anchor rect
+double string SimpleName MethodInvocation MethodInvocation SimpleName get y
+pattern def SimpleName MethodInvocation SimpleName set attribute ns
+pattern def SimpleName MethodInvocation SimpleName svg y attribute
+pattern def SimpleName MethodInvocation MethodInvocation SimpleName double string
+pattern def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor rect
+pattern def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+set attribute ns SimpleName MethodInvocation SimpleName svg y attribute
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName double string
+set attribute ns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor rect
+set attribute ns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+svg y attribute SimpleName MethodInvocation MethodInvocation SimpleName double string
+svg y attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor rect
+svg y attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+anchor rect SimpleName MethodInvocation SimpleName get width
+double string SimpleName MethodInvocation MethodInvocation SimpleName anchor rect
+double string SimpleName MethodInvocation MethodInvocation SimpleName get width
+pattern def SimpleName MethodInvocation SimpleName set attribute ns
+pattern def SimpleName MethodInvocation SimpleName svg width attribute
+pattern def SimpleName MethodInvocation MethodInvocation SimpleName double string
+pattern def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor rect
+pattern def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get width
+set attribute ns SimpleName MethodInvocation SimpleName svg width attribute
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName double string
+set attribute ns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor rect
+set attribute ns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get width
+svg width attribute SimpleName MethodInvocation MethodInvocation SimpleName double string
+svg width attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor rect
+svg width attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get width
+anchor rect SimpleName MethodInvocation SimpleName get height
+double string SimpleName MethodInvocation MethodInvocation SimpleName anchor rect
+double string SimpleName MethodInvocation MethodInvocation SimpleName get height
+pattern def SimpleName MethodInvocation SimpleName set attribute ns
+pattern def SimpleName MethodInvocation SimpleName svg height attribute
+pattern def SimpleName MethodInvocation MethodInvocation SimpleName double string
+pattern def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor rect
+pattern def SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+set attribute ns SimpleName MethodInvocation SimpleName svg height attribute
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName double string
+set attribute ns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor rect
+set attribute ns SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+svg height attribute SimpleName MethodInvocation MethodInvocation SimpleName double string
+svg height attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anchor rect
+svg height attribute SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+texture SimpleName MethodInvocation SimpleName get image
+texture image SimpleName VariableDeclarationFragment MethodInvocation SimpleName texture
+texture image SimpleName VariableDeclarationFragment MethodInvocation SimpleName get image
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName texture image
+texture image SimpleName MethodInvocation SimpleName get width
+texture image SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get width SimpleName MethodInvocation InfixExpression NumberLiteral empty
+texture image SimpleName MethodInvocation SimpleName get height
+texture image SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get height SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+texture image SimpleName MethodInvocation SimpleName get width
+anchor rect SimpleName MethodInvocation SimpleName get width
+texture image SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName anchor rect
+texture image SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+get width SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName anchor rect
+get width SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+texture image SimpleName MethodInvocation SimpleName get height
+anchor rect SimpleName MethodInvocation SimpleName get height
+texture image SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName anchor rect
+texture image SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get height
+get height SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName anchor rect
+get height SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get height
+anchor rect SimpleName MethodInvocation SimpleName get width
+anchor rect SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get width SimpleName MethodInvocation InfixExpression NumberLiteral empty
+anchor rect SimpleName MethodInvocation SimpleName get height
+anchor rect SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get height SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+anchor rect SimpleName MethodInvocation SimpleName get width
+texture image SimpleName MethodInvocation SimpleName get width
+anchor rect SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName texture image
+anchor rect SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+get width SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName texture image
+get width SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+scale x SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName anchor rect
+scale x SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get width
+scale x SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName texture image
+scale x SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get width
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName scale x
+anchor rect SimpleName MethodInvocation SimpleName get height
+texture image SimpleName MethodInvocation SimpleName get height
+anchor rect SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName texture image
+anchor rect SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get height
+get height SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName texture image
+get height SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get height
+scale y SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName anchor rect
+scale y SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get height
+scale y SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName texture image
+scale y SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get height
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName scale y
+texture image SimpleName MethodInvocation SimpleName get width
+scale x SimpleName InfixExpression MethodInvocation SimpleName texture image
+scale x SimpleName InfixExpression MethodInvocation SimpleName get width
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName scale x
+texture image SimpleName MethodInvocation SimpleName get height
+scale y SimpleName InfixExpression MethodInvocation SimpleName texture image
+scale y SimpleName InfixExpression MethodInvocation SimpleName get height
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName scale y
+buffered image SimpleName SimpleType ClassInstanceCreation CastExpression PrimitiveType int
+buffered image SimpleName SimpleType ClassInstanceCreation CastExpression PrimitiveType int
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName buffered imagetype int argb
+int PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName buffered imagetype int argb
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName buffered imagetype int argb
+new image SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered image
+new image SimpleName VariableDeclarationFragment ClassInstanceCreation CastExpression PrimitiveType int
+new image SimpleName VariableDeclarationFragment ClassInstanceCreation CastExpression PrimitiveType int
+new image SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName buffered imagetype int argb
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new image
+new image SimpleName MethodInvocation SimpleName create graphics
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName new image
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName create graphics
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+g SimpleName MethodInvocation SimpleName scale
+g SimpleName MethodInvocation SimpleName scale x
+g SimpleName MethodInvocation SimpleName scale y
+scale SimpleName MethodInvocation SimpleName scale x
+scale SimpleName MethodInvocation SimpleName scale y
+scale x SimpleName MethodInvocation SimpleName scale y
+g SimpleName MethodInvocation SimpleName draw image
+g SimpleName MethodInvocation SimpleName texture image
+g SimpleName MethodInvocation NumberLiteral empty
+g SimpleName MethodInvocation NumberLiteral empty
+draw image SimpleName MethodInvocation SimpleName texture image
+draw image SimpleName MethodInvocation NumberLiteral empty
+draw image SimpleName MethodInvocation NumberLiteral empty
+texture image SimpleName MethodInvocation NumberLiteral empty
+texture image SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+g SimpleName MethodInvocation SimpleName dispose
+texture image SimpleName Assignment SimpleName new image
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+generator contextgeneric image handler QualifiedName MethodInvocation SimpleName create element
+generator contextgeneric image handler QualifiedName MethodInvocation SimpleName generator context
+create element SimpleName MethodInvocation SimpleName generator context
+pattern content SimpleName VariableDeclarationFragment MethodInvocation QualifiedName generator contextgeneric image handler
+pattern content SimpleName VariableDeclarationFragment MethodInvocation SimpleName create element
+pattern content SimpleName VariableDeclarationFragment MethodInvocation SimpleName generator context
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pattern content
+rendered image SimpleName SimpleType CastExpression SimpleName texture image
+texture image SimpleName MethodInvocation SimpleName get width
+texture image SimpleName MethodInvocation SimpleName get height
+generator contextgeneric image handler QualifiedName MethodInvocation SimpleName handle image
+generator contextgeneric image handler QualifiedName MethodInvocation CastExpression SimpleType SimpleName rendered image
+generator contextgeneric image handler QualifiedName MethodInvocation CastExpression SimpleName texture image
+generator contextgeneric image handler QualifiedName MethodInvocation SimpleName pattern content
+generator contextgeneric image handler QualifiedName MethodInvocation NumberLiteral empty
+generator contextgeneric image handler QualifiedName MethodInvocation NumberLiteral empty
+handle image SimpleName MethodInvocation CastExpression SimpleType SimpleName rendered image
+handle image SimpleName MethodInvocation CastExpression SimpleName texture image
+handle image SimpleName MethodInvocation SimpleName pattern content
+handle image SimpleName MethodInvocation NumberLiteral empty
+handle image SimpleName MethodInvocation NumberLiteral empty
+handle image SimpleName MethodInvocation MethodInvocation SimpleName texture image
+handle image SimpleName MethodInvocation MethodInvocation SimpleName get width
+rendered image SimpleName SimpleType CastExpression MethodInvocation SimpleName pattern content
+texture image SimpleName CastExpression MethodInvocation SimpleName pattern content
+rendered image SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+texture image SimpleName CastExpression MethodInvocation NumberLiteral empty
+rendered image SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+texture image SimpleName CastExpression MethodInvocation NumberLiteral empty
+texture image SimpleName CastExpression MethodInvocation MethodInvocation SimpleName texture image
+texture image SimpleName CastExpression MethodInvocation MethodInvocation SimpleName get width
+texture image SimpleName CastExpression MethodInvocation MethodInvocation SimpleName texture image
+texture image SimpleName CastExpression MethodInvocation MethodInvocation SimpleName get height
+pattern content SimpleName MethodInvocation NumberLiteral empty
+pattern content SimpleName MethodInvocation NumberLiteral empty
+pattern content SimpleName MethodInvocation MethodInvocation SimpleName texture image
+pattern content SimpleName MethodInvocation MethodInvocation SimpleName get width
+pattern content SimpleName MethodInvocation MethodInvocation SimpleName texture image
+pattern content SimpleName MethodInvocation MethodInvocation SimpleName get height
+pattern content SimpleName MethodInvocation SimpleName generator context
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName texture image
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get width
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName texture image
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get height
+empty NumberLiteral MethodInvocation SimpleName generator context
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName texture image
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get width
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName texture image
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get height
+empty NumberLiteral MethodInvocation SimpleName generator context
+texture image SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName texture image
+texture image SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName texture image
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+texture image SimpleName MethodInvocation MethodInvocation SimpleName generator context
+get width SimpleName MethodInvocation MethodInvocation SimpleName generator context
+texture image SimpleName MethodInvocation MethodInvocation SimpleName generator context
+get height SimpleName MethodInvocation MethodInvocation SimpleName generator context
+pattern def SimpleName MethodInvocation SimpleName append child
+pattern def SimpleName MethodInvocation SimpleName pattern content
+append child SimpleName MethodInvocation SimpleName pattern content
+generator contextid generator QualifiedName MethodInvocation SimpleName generate id
+generator contextid generator QualifiedName MethodInvocation SimpleName id prefix pattern
+generate id SimpleName MethodInvocation SimpleName id prefix pattern
+pattern def SimpleName MethodInvocation SimpleName set attribute ns
+pattern def SimpleName MethodInvocation SimpleName svg id attribute
+pattern def SimpleName MethodInvocation MethodInvocation QualifiedName generator contextid generator
+pattern def SimpleName MethodInvocation MethodInvocation SimpleName generate id
+pattern def SimpleName MethodInvocation MethodInvocation SimpleName id prefix pattern
+set attribute ns SimpleName MethodInvocation SimpleName svg id attribute
+set attribute ns SimpleName MethodInvocation MethodInvocation QualifiedName generator contextid generator
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName generate id
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName id prefix pattern
+svg id attribute SimpleName MethodInvocation MethodInvocation QualifiedName generator contextid generator
+svg id attribute SimpleName MethodInvocation MethodInvocation SimpleName generate id
+svg id attribute SimpleName MethodInvocation MethodInvocation SimpleName id prefix pattern
+string buffer SimpleName SimpleType ClassInstanceCreation SimpleName url prefix
+pattern attr buf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+pattern attr buf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName url prefix
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pattern attr buf
+pattern attr buf SimpleName MethodInvocation SimpleName append
+pattern attr buf SimpleName MethodInvocation SimpleName sign pound
+append SimpleName MethodInvocation SimpleName sign pound
+pattern def SimpleName MethodInvocation SimpleName get attribute ns
+pattern def SimpleName MethodInvocation SimpleName svg id attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg id attribute
+pattern attr buf SimpleName MethodInvocation SimpleName append
+pattern attr buf SimpleName MethodInvocation MethodInvocation SimpleName pattern def
+pattern attr buf SimpleName MethodInvocation MethodInvocation SimpleName get attribute ns
+pattern attr buf SimpleName MethodInvocation MethodInvocation SimpleName svg id attribute
+append SimpleName MethodInvocation MethodInvocation SimpleName pattern def
+append SimpleName MethodInvocation MethodInvocation SimpleName get attribute ns
+append SimpleName MethodInvocation MethodInvocation SimpleName svg id attribute
+pattern attr buf SimpleName MethodInvocation SimpleName append
+pattern attr buf SimpleName MethodInvocation SimpleName url suffix
+append SimpleName MethodInvocation SimpleName url suffix
+pattern attr buf SimpleName MethodInvocation SimpleName to string
+svg paint descriptor SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName pattern attr buf
+svg paint descriptor SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+svg paint descriptor SimpleName SimpleType ClassInstanceCreation SimpleName svg opaque value
+svg paint descriptor SimpleName SimpleType ClassInstanceCreation SimpleName pattern def
+pattern attr buf SimpleName MethodInvocation ClassInstanceCreation SimpleName svg opaque value
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName svg opaque value
+pattern attr buf SimpleName MethodInvocation ClassInstanceCreation SimpleName pattern def
+to string SimpleName MethodInvocation ClassInstanceCreation SimpleName pattern def
+svg opaque value SimpleName ClassInstanceCreation SimpleName pattern def
+pattern desc SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svg paint descriptor
+pattern desc SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName pattern attr buf
+pattern desc SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName to string
+pattern desc SimpleName Assignment ClassInstanceCreation SimpleName svg opaque value
+pattern desc SimpleName Assignment ClassInstanceCreation SimpleName pattern def
+desc map SimpleName MethodInvocation SimpleName put
+desc map SimpleName MethodInvocation SimpleName texture
+desc map SimpleName MethodInvocation SimpleName pattern desc
+put SimpleName MethodInvocation SimpleName texture
+put SimpleName MethodInvocation SimpleName pattern desc
+texture SimpleName MethodInvocation SimpleName pattern desc
+def set SimpleName MethodInvocation SimpleName add
+def set SimpleName MethodInvocation SimpleName pattern def
+add SimpleName MethodInvocation SimpleName pattern def
+public Modifier MethodDeclaration SimpleType SimpleName svg paint descriptor
+public Modifier MethodDeclaration SimpleName to svg
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName texture paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName texture
+public Modifier MethodDeclaration Block ReturnStatement SimpleName pattern desc
+svg paint descriptor SimpleName SimpleType MethodDeclaration SimpleName to svg
+svg paint descriptor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName texture
+to svg SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName texture paint
+to svg SimpleName MethodDeclaration SingleVariableDeclaration SimpleName texture
+to svg SimpleName MethodDeclaration Block ReturnStatement SimpleName pattern desc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg paint descriptor
+public Modifier TypeDeclaration MethodDeclaration SimpleName to svg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName texture
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg paint descriptor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to svg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName texture

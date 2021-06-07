@@ -1,0 +1,13 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pn
+boolean PrimitiveType MethodDeclaration SimpleName is property additive
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pn
+is property additive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is property additive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is property additive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is property additive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn

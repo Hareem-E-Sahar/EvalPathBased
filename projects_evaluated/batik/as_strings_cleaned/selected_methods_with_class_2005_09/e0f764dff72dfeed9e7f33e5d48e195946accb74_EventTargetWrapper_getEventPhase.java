@@ -1,0 +1,21 @@
+call SimpleName MethodInvocation StringLiteral get event phase
+context SimpleName MethodInvocation SimpleName to type
+context SimpleName MethodInvocation MethodInvocation SimpleName call
+context SimpleName MethodInvocation MethodInvocation StringLiteral get event phase
+context SimpleName MethodInvocation TypeLiteral SimpleType SimpleName integer
+to type SimpleName MethodInvocation MethodInvocation SimpleName call
+to type SimpleName MethodInvocation MethodInvocation StringLiteral get event phase
+to type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName integer
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName context
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName to type
+short PrimitiveType CastExpression MethodInvocation SimpleName int value
+public Modifier MethodDeclaration PrimitiveType short
+public Modifier MethodDeclaration SimpleName get event phase
+short PrimitiveType MethodDeclaration SimpleName get event phase
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName get event phase
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get event phase

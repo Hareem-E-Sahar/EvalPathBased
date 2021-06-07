@@ -1,0 +1,233 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName filter element
+element SimpleName SimpleType SingleVariableDeclaration SimpleName filtered element
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName filtered node
+filter SimpleName SimpleType SingleVariableDeclaration SimpleName input filter
+rectangle d SimpleName SimpleType SingleVariableDeclaration SimpleName filter region
+map SimpleName SimpleType SingleVariableDeclaration SimpleName filter map
+get in SimpleName MethodInvocation SimpleName filter element
+get in SimpleName MethodInvocation SimpleName filtered element
+get in SimpleName MethodInvocation SimpleName filtered node
+get in SimpleName MethodInvocation SimpleName input filter
+get in SimpleName MethodInvocation SimpleName filter map
+filter element SimpleName MethodInvocation SimpleName filtered element
+filter element SimpleName MethodInvocation SimpleName filtered node
+filter element SimpleName MethodInvocation SimpleName input filter
+filter element SimpleName MethodInvocation SimpleName filter map
+filter element SimpleName MethodInvocation SimpleName ctx
+filtered element SimpleName MethodInvocation SimpleName filtered node
+filtered element SimpleName MethodInvocation SimpleName input filter
+filtered element SimpleName MethodInvocation SimpleName filter map
+filtered element SimpleName MethodInvocation SimpleName ctx
+filtered node SimpleName MethodInvocation SimpleName input filter
+filtered node SimpleName MethodInvocation SimpleName filter map
+filtered node SimpleName MethodInvocation SimpleName ctx
+input filter SimpleName MethodInvocation SimpleName filter map
+input filter SimpleName MethodInvocation SimpleName ctx
+filter map SimpleName MethodInvocation SimpleName ctx
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName get in
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter element
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName filtered element
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName filtered node
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName input filter
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter map
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in
+in SimpleName MethodInvocation SimpleName get bounds d
+default region SimpleName VariableDeclarationFragment MethodInvocation SimpleName in
+default region SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default region
+svg utilities SimpleName MethodInvocation SimpleName convert filter primitive region
+svg utilities SimpleName MethodInvocation SimpleName filter element
+svg utilities SimpleName MethodInvocation SimpleName filtered element
+svg utilities SimpleName MethodInvocation SimpleName filtered node
+svg utilities SimpleName MethodInvocation SimpleName default region
+convert filter primitive region SimpleName MethodInvocation SimpleName filter element
+convert filter primitive region SimpleName MethodInvocation SimpleName filtered element
+convert filter primitive region SimpleName MethodInvocation SimpleName filtered node
+convert filter primitive region SimpleName MethodInvocation SimpleName default region
+convert filter primitive region SimpleName MethodInvocation SimpleName filter region
+filter element SimpleName MethodInvocation SimpleName filtered element
+filter element SimpleName MethodInvocation SimpleName filtered node
+filter element SimpleName MethodInvocation SimpleName default region
+filter element SimpleName MethodInvocation SimpleName filter region
+filter element SimpleName MethodInvocation SimpleName ctx
+filtered element SimpleName MethodInvocation SimpleName filtered node
+filtered element SimpleName MethodInvocation SimpleName default region
+filtered element SimpleName MethodInvocation SimpleName filter region
+filtered element SimpleName MethodInvocation SimpleName ctx
+filtered node SimpleName MethodInvocation SimpleName default region
+filtered node SimpleName MethodInvocation SimpleName filter region
+filtered node SimpleName MethodInvocation SimpleName ctx
+default region SimpleName MethodInvocation SimpleName filter region
+default region SimpleName MethodInvocation SimpleName ctx
+filter region SimpleName MethodInvocation SimpleName ctx
+primitive region SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg utilities
+primitive region SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert filter primitive region
+primitive region SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter element
+primitive region SimpleName VariableDeclarationFragment MethodInvocation SimpleName filtered element
+primitive region SimpleName VariableDeclarationFragment MethodInvocation SimpleName filtered node
+primitive region SimpleName VariableDeclarationFragment MethodInvocation SimpleName default region
+primitive region SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter region
+primitive region SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName primitive region
+convert type SimpleName MethodInvocation SimpleName filter element
+convert type SimpleName MethodInvocation SimpleName ctx
+filter element SimpleName MethodInvocation SimpleName ctx
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter element
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName convert type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName filter element
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ctx
+color matrix rable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName color matrix
+convert values to hue rotate SimpleName MethodInvocation SimpleName filter element
+convert values to hue rotate SimpleName MethodInvocation SimpleName ctx
+filter element SimpleName MethodInvocation SimpleName ctx
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert values to hue rotate
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter element
+a SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName convert values to hue rotate
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName filter element
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ctx
+color matrix rable bit SimpleName MethodInvocation SimpleName build hue rotate
+color matrix rable bit SimpleName MethodInvocation SimpleName a
+build hue rotate SimpleName MethodInvocation SimpleName a
+color matrix SimpleName Assignment MethodInvocation SimpleName color matrix rable bit
+color matrix SimpleName Assignment MethodInvocation SimpleName build hue rotate
+color matrix SimpleName Assignment MethodInvocation SimpleName a
+color matrix rable bit SimpleName MethodInvocation SimpleName build luminance to alpha
+color matrix SimpleName Assignment MethodInvocation SimpleName color matrix rable bit
+color matrix SimpleName Assignment MethodInvocation SimpleName build luminance to alpha
+convert values to matrix SimpleName MethodInvocation SimpleName filter element
+convert values to matrix SimpleName MethodInvocation SimpleName ctx
+filter element SimpleName MethodInvocation SimpleName ctx
+matrix SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert values to matrix
+matrix SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter element
+matrix SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName matrix
+color matrix rable bit SimpleName MethodInvocation SimpleName build matrix
+color matrix rable bit SimpleName MethodInvocation SimpleName matrix
+build matrix SimpleName MethodInvocation SimpleName matrix
+color matrix SimpleName Assignment MethodInvocation SimpleName color matrix rable bit
+color matrix SimpleName Assignment MethodInvocation SimpleName build matrix
+color matrix SimpleName Assignment MethodInvocation SimpleName matrix
+convert values to saturate SimpleName MethodInvocation SimpleName filter element
+convert values to saturate SimpleName MethodInvocation SimpleName ctx
+filter element SimpleName MethodInvocation SimpleName ctx
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert values to saturate
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName filter element
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName convert values to saturate
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName filter element
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ctx
+color matrix rable bit SimpleName MethodInvocation SimpleName build saturate
+color matrix rable bit SimpleName MethodInvocation SimpleName s
+build saturate SimpleName MethodInvocation SimpleName s
+color matrix SimpleName Assignment MethodInvocation SimpleName color matrix rable bit
+color matrix SimpleName Assignment MethodInvocation SimpleName build saturate
+color matrix SimpleName Assignment MethodInvocation SimpleName s
+type SimpleName SwitchStatement SwitchCase QualifiedName color matrix rabletype hue rotate
+type SimpleName SwitchStatement VariableDeclarationStatement PrimitiveType float
+type SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName color matrix
+type SimpleName SwitchStatement SwitchCase QualifiedName color matrix rabletype luminance to alpha
+color matrix rabletype hue rotate QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType float
+color matrix rabletype hue rotate QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName color matrix rabletype luminance to alpha
+float PrimitiveType VariableDeclarationStatement SwitchStatement SwitchCase QualifiedName color matrix rabletype luminance to alpha
+color matrix rabletype luminance to alpha QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName color matrix rabletype matrix
+color matrix rabletype matrix QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName color matrix rabletype saturate
+color matrix rabletype matrix QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType float
+color matrix rabletype saturate QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType float
+color matrix SimpleName MethodInvocation SimpleName set source
+color matrix SimpleName MethodInvocation SimpleName in
+set source SimpleName MethodInvocation SimpleName in
+handle color interpolation filters SimpleName MethodInvocation SimpleName color matrix
+handle color interpolation filters SimpleName MethodInvocation SimpleName filter element
+color matrix SimpleName MethodInvocation SimpleName filter element
+pad rable bit SimpleName SimpleType ClassInstanceCreation SimpleName color matrix
+pad rable bit SimpleName SimpleType ClassInstanceCreation SimpleName primitive region
+pad rable bit SimpleName SimpleType ClassInstanceCreation QualifiedName pad modezero pad
+color matrix SimpleName ClassInstanceCreation SimpleName primitive region
+color matrix SimpleName ClassInstanceCreation QualifiedName pad modezero pad
+primitive region SimpleName ClassInstanceCreation QualifiedName pad modezero pad
+filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName pad rable bit
+filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName color matrix
+filter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName primitive region
+filter SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName pad modezero pad
+filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter
+update filter map SimpleName MethodInvocation SimpleName filter element
+update filter map SimpleName MethodInvocation SimpleName filter
+update filter map SimpleName MethodInvocation SimpleName filter map
+filter element SimpleName MethodInvocation SimpleName filter
+filter element SimpleName MethodInvocation SimpleName filter map
+filter SimpleName MethodInvocation SimpleName filter map
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName type
+type SimpleName SwitchStatement Block ReturnStatement SimpleName filter
+public Modifier MethodDeclaration SimpleType SimpleName filter
+public Modifier MethodDeclaration SimpleName create filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filtered element
+filter SimpleName SimpleType MethodDeclaration SimpleName create filter
+filter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+filter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName filter element
+filter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName filtered element
+filter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName filtered node
+create filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter element
+create filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filtered element
+create filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+create filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filtered node
+create filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+create filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input filter
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filtered element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filtered node
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input filter
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter region
+filter element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filtered element
+filter element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filtered node
+filter element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input filter
+filter element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter region
+filter element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map
+filtered element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filtered node
+filtered element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input filter
+filtered element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter region
+filtered element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map
+filtered node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input filter
+filtered node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter region
+filtered node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map
+input filter SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter region
+input filter SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map
+filter region SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName filter
+public Modifier TypeDeclaration MethodDeclaration SimpleName create filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filtered element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filtered node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter region
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filtered element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filtered node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter region
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter map

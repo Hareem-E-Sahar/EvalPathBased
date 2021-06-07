@@ -1,0 +1,22 @@
+document handler SimpleName SimpleType SingleVariableDeclaration SimpleName handler
+parser SimpleName MethodInvocation SimpleName set document handler
+parser SimpleName MethodInvocation SimpleName handler
+set document handler SimpleName MethodInvocation SimpleName handler
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set document handler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document handler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName handler
+void PrimitiveType MethodDeclaration SimpleName set document handler
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document handler
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName handler
+set document handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document handler
+set document handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName handler
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set document handler
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set document handler
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler

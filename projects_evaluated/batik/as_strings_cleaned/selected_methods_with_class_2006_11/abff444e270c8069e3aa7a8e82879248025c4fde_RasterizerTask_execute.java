@@ -1,0 +1,83 @@
+xml resource descriptor SimpleName MethodInvocation SimpleName get xml parser class name
+default parser SimpleName VariableDeclarationFragment MethodInvocation SimpleName xml resource descriptor
+default parser SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xml parser class name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default parser
+get parser class name SimpleName MethodInvocation SimpleName reader class name
+xml resource descriptor SimpleName MethodInvocation SimpleName set xml parser class name
+xml resource descriptor SimpleName MethodInvocation MethodInvocation SimpleName get parser class name
+xml resource descriptor SimpleName MethodInvocation MethodInvocation SimpleName reader class name
+set xml parser class name SimpleName MethodInvocation MethodInvocation SimpleName get parser class name
+set xml parser class name SimpleName MethodInvocation MethodInvocation SimpleName reader class name
+build exception SimpleName SimpleType ClassInstanceCreation StringLiteral dest attribute is not set
+filesets SimpleName MethodInvocation SimpleName size
+filesets SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+build exception SimpleName SimpleType ClassInstanceCreation StringLiteral no input files either srcdir or fileset have to be set
+build exception SimpleName SimpleType ClassInstanceCreation StringLiteral destdir attribute is not set
+sources SimpleName Assignment MethodInvocation SimpleName get source files
+converter SimpleName MethodInvocation SimpleName set sources
+converter SimpleName MethodInvocation SimpleName sources
+set sources SimpleName MethodInvocation SimpleName sources
+converter SimpleName MethodInvocation SimpleName set dst
+converter SimpleName MethodInvocation FieldAccess SimpleName dest file
+set dst SimpleName MethodInvocation FieldAccess SimpleName dest file
+converter SimpleName MethodInvocation SimpleName set dst
+converter SimpleName MethodInvocation FieldAccess SimpleName dest dir
+set dst SimpleName MethodInvocation FieldAccess SimpleName dest dir
+sourceslength QualifiedName InfixExpression NumberLiteral empty
+sourceslength QualifiedName InfixExpression ConditionalExpression StringLiteral image
+empty NumberLiteral InfixExpression ConditionalExpression StringLiteral image
+sourceslength QualifiedName InfixExpression ConditionalExpression StringLiteral images
+empty NumberLiteral InfixExpression ConditionalExpression StringLiteral images
+image StringLiteral ConditionalExpression StringLiteral images
+result type SimpleName FieldAccess MethodInvocation SimpleName to string
+rasterizing StringLiteral InfixExpression QualifiedName sourceslength
+rasterizing StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral image
+rasterizing StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral images
+rasterizing StringLiteral InfixExpression StringLiteral from svg to
+rasterizing StringLiteral InfixExpression MethodInvocation FieldAccess SimpleName result type
+rasterizing StringLiteral InfixExpression MethodInvocation SimpleName to string
+rasterizing StringLiteral InfixExpression StringLiteral .
+sourceslength QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral image
+sourceslength QualifiedName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral images
+sourceslength QualifiedName InfixExpression StringLiteral from svg to
+sourceslength QualifiedName InfixExpression MethodInvocation FieldAccess SimpleName result type
+sourceslength QualifiedName InfixExpression MethodInvocation SimpleName to string
+sourceslength QualifiedName InfixExpression StringLiteral .
+image StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral from svg to
+images StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral from svg to
+image StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral .
+images StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression StringLiteral .
+from svg to StringLiteral InfixExpression MethodInvocation FieldAccess SimpleName result type
+from svg to StringLiteral InfixExpression MethodInvocation SimpleName to string
+from svg to StringLiteral InfixExpression StringLiteral .
+result type SimpleName FieldAccess MethodInvocation InfixExpression StringLiteral .
+to string SimpleName MethodInvocation InfixExpression StringLiteral .
+log SimpleName MethodInvocation InfixExpression StringLiteral rasterizing
+log SimpleName MethodInvocation InfixExpression QualifiedName sourceslength
+log SimpleName MethodInvocation InfixExpression StringLiteral from svg to
+log SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+log SimpleName MethodInvocation InfixExpression StringLiteral .
+converter SimpleName MethodInvocation SimpleName execute
+svg converter exception SimpleName SimpleType SingleVariableDeclaration SimpleName sce
+sce SimpleName MethodInvocation SimpleName get message
+build exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName sce
+build exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+xml resource descriptor SimpleName MethodInvocation SimpleName set xml parser class name
+xml resource descriptor SimpleName MethodInvocation SimpleName default parser
+set xml parser class name SimpleName MethodInvocation SimpleName default parser
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName execute
+public Modifier MethodDeclaration SimpleType SimpleName build exception
+void PrimitiveType MethodDeclaration SimpleName execute
+void PrimitiveType MethodDeclaration SimpleType SimpleName build exception
+execute SimpleName MethodDeclaration SimpleType SimpleName build exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName execute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName build exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName execute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName build exception

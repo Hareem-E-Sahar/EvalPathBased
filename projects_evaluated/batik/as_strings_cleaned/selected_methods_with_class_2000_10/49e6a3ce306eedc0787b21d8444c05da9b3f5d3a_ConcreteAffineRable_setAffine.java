@@ -1,0 +1,24 @@
+affine transform SimpleName SimpleType SingleVariableDeclaration SimpleName affine
+affine SimpleName FieldAccess Assignment SimpleName affine
+affine SimpleName MethodInvocation SimpleName create inverse
+inv affine SimpleName Assignment MethodInvocation SimpleName affine
+inv affine SimpleName Assignment MethodInvocation SimpleName create inverse
+noninvertible transform exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set affine
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName affine
+void PrimitiveType MethodDeclaration SimpleName set affine
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName affine
+set affine SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+set affine SimpleName MethodDeclaration SingleVariableDeclaration SimpleName affine
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set affine
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName affine
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set affine
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName affine

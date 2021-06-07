@@ -1,0 +1,125 @@
+event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get current target
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get current target
+elt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+elt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName evt
+elt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get current target
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+elt SimpleName MethodInvocation SimpleName get attribute ns
+elt SimpleName MethodInvocation SimpleName attribute
+get attribute ns SimpleName MethodInvocation SimpleName attribute
+script SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+script SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+script SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName script
+script SimpleName MethodInvocation SimpleName length
+script SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+bridge context SimpleName MethodInvocation SimpleName get document loader
+dl SimpleName VariableDeclarationFragment MethodInvocation SimpleName bridge context
+dl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get document loader
+document loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dl
+elt SimpleName MethodInvocation SimpleName get owner document
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName elt
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+d SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg document
+d SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName elt
+d SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+svg document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+dl SimpleName MethodInvocation SimpleName get line number
+dl SimpleName MethodInvocation SimpleName elt
+get line number SimpleName MethodInvocation SimpleName elt
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName dl
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName get line number
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName line
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName dl
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get line number
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName elt
+d SimpleName MethodInvocation SimpleName get url
+integer SimpleName SimpleType ClassInstanceCreation SimpleName line
+d SimpleName MethodInvocation ArrayInitializer SimpleName attribute
+get url SimpleName MethodInvocation ArrayInitializer SimpleName attribute
+d SimpleName MethodInvocation ArrayInitializer ClassInstanceCreation SimpleName line
+get url SimpleName MethodInvocation ArrayInitializer ClassInstanceCreation SimpleName line
+attribute SimpleName ArrayInitializer ClassInstanceCreation SimpleType SimpleName integer
+attribute SimpleName ArrayInitializer ClassInstanceCreation SimpleName line
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation SimpleName event script description
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName attribute
+format message SimpleName MethodInvocation SimpleName event script description
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName attribute
+event script description SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName attribute
+desc SimpleName VariableDeclarationFragment MethodInvocation SimpleName messages
+desc SimpleName VariableDeclarationFragment MethodInvocation SimpleName format message
+desc SimpleName VariableDeclarationFragment MethodInvocation SimpleName event script description
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName desc
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName messages
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName format message
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName event script description
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName desc
+e SimpleName VariableDeclarationFragment SimpleName elt
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+e SimpleName MethodInvocation SimpleName get namespace uri
+svg constantssvg namespace uri QualifiedName MethodInvocation SimpleName equals
+svg constantssvg namespace uri QualifiedName MethodInvocation MethodInvocation SimpleName e
+svg constantssvg namespace uri QualifiedName MethodInvocation MethodInvocation SimpleName get namespace uri
+equals SimpleName MethodInvocation MethodInvocation SimpleName e
+equals SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+e SimpleName MethodInvocation SimpleName get local name
+svg constantssvg svg tag QualifiedName MethodInvocation SimpleName equals
+svg constantssvg svg tag QualifiedName MethodInvocation MethodInvocation SimpleName e
+svg constantssvg svg tag QualifiedName MethodInvocation MethodInvocation SimpleName get local name
+equals SimpleName MethodInvocation MethodInvocation SimpleName e
+equals SimpleName MethodInvocation MethodInvocation SimpleName get local name
+svg utilities SimpleName MethodInvocation SimpleName get parent element
+svg utilities SimpleName MethodInvocation SimpleName e
+get parent element SimpleName MethodInvocation SimpleName e
+e SimpleName Assignment MethodInvocation SimpleName svg utilities
+e SimpleName Assignment MethodInvocation SimpleName get parent element
+e SimpleName Assignment MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName get attribute ns
+e SimpleName MethodInvocation QualifiedName svg constantssvg content script type attribute
+get attribute ns SimpleName MethodInvocation QualifiedName svg constantssvg content script type attribute
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+lang SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+lang SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svg constantssvg content script type attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lang
+run event handler SimpleName MethodInvocation SimpleName script
+run event handler SimpleName MethodInvocation SimpleName evt
+run event handler SimpleName MethodInvocation SimpleName lang
+run event handler SimpleName MethodInvocation SimpleName desc
+script SimpleName MethodInvocation SimpleName evt
+script SimpleName MethodInvocation SimpleName lang
+script SimpleName MethodInvocation SimpleName desc
+evt SimpleName MethodInvocation SimpleName lang
+evt SimpleName MethodInvocation SimpleName desc
+lang SimpleName MethodInvocation SimpleName desc
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName handle event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+handle event SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+handle event SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

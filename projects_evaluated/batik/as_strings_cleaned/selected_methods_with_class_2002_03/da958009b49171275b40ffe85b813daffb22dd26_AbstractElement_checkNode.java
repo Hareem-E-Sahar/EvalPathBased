@@ -1,0 +1,41 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName arg
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynodemap
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynodemap
+arg SimpleName MethodInvocation SimpleName get owner document
+get owner document SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arg
+get owner document SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get owner document
+arg SimpleName MethodInvocation SimpleName get node type
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName arg
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+arg SimpleName MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionwrong document err
+create dom exception SimpleName MethodInvocation StringLiteral nodefromwrongdocument
+dom exceptionwrong document err QualifiedName MethodInvocation StringLiteral nodefromwrongdocument
+arg SimpleName MethodInvocation SimpleName get node type
+arg SimpleName MethodInvocation InfixExpression SimpleName attribute node
+get node type SimpleName MethodInvocation InfixExpression SimpleName attribute node
+attr SimpleName SimpleType CastExpression SimpleName arg
+arg SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get owner element
+arg SimpleName MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionwrong document err
+create dom exception SimpleName MethodInvocation StringLiteral inuseattribute
+dom exceptionwrong document err QualifiedName MethodInvocation StringLiteral inuseattribute
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName check node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName arg
+void PrimitiveType MethodDeclaration SimpleName check node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName arg
+check node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+check node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName arg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg

@@ -1,0 +1,20 @@
+suspended SimpleName Assignment BooleanLiteral false
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName safe resume
+public Modifier MethodDeclaration Block IfStatement SimpleName suspended
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName safe resume
+synchronized Modifier MethodDeclaration Block IfStatement SimpleName suspended
+void PrimitiveType MethodDeclaration SimpleName safe resume
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName suspended
+safe resume SimpleName MethodDeclaration Block IfStatement SimpleName suspended
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName safe resume
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName safe resume

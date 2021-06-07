@@ -1,0 +1,68 @@
+read fully SimpleName MethodInvocation SimpleName ruile buf
+ruile buf SimpleName ArrayAccess NumberLiteral empty
+ruile buf SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+ch SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression NumberLiteral xff
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+ruile buf SimpleName ArrayAccess NumberLiteral empty
+ruile buf SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+ch SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression NumberLiteral xff
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+ruile buf SimpleName ArrayAccess NumberLiteral empty
+ruile buf SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+ch SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression NumberLiteral xff
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+ruile buf SimpleName ArrayAccess NumberLiteral empty
+ruile buf SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+ch SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression NumberLiteral xff
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+ch SimpleName InfixExpression NumberLiteral empty
+ch SimpleName InfixExpression NumberLiteral empty
+ch SimpleName InfixExpression NumberLiteral empty
+ch SimpleName InfixExpression NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName read unsigned int le
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+final Modifier MethodDeclaration PrimitiveType long
+final Modifier MethodDeclaration SimpleName read unsigned int le
+final Modifier MethodDeclaration SimpleType SimpleName io exception
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration SimpleName read unsigned int le
+long PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+long PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+read unsigned int le SimpleName MethodDeclaration SimpleType SimpleName io exception
+read unsigned int le SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+read unsigned int le SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+read unsigned int le SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+read unsigned int le SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName read unsigned int le
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read unsigned int le
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,29 @@
+char PrimitiveType ArrayType SingleVariableDeclaration SimpleName space
+print spaces SimpleName MethodInvocation SimpleName space
+print spaces SimpleName MethodInvocation BooleanLiteral true
+space SimpleName MethodInvocation BooleanLiteral true
+print character SimpleName MethodInvocation CharacterLiteral >
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print doctype end
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName space
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName print doctype end
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName space
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+print doctype end SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+print doctype end SimpleName MethodDeclaration SingleVariableDeclaration SimpleName space
+print doctype end SimpleName MethodDeclaration SimpleType SimpleName io exception
+space SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print doctype end
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName space
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print doctype end
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName space
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

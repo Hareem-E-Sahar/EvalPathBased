@@ -1,0 +1,24 @@
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName attribute ns uri
+element SimpleName MethodInvocation SimpleName attribute name
+get attribute ns SimpleName MethodInvocation SimpleName attribute ns uri
+get attribute ns SimpleName MethodInvocation SimpleName attribute name
+attribute ns uri SimpleName MethodInvocation SimpleName attribute name
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute ns uri
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation StringLiteral true
+equals SimpleName MethodInvocation StringLiteral true
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get base val
+boolean PrimitiveType MethodDeclaration SimpleName get base val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get base val
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get base val

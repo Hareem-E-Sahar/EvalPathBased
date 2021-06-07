@@ -1,0 +1,24 @@
+xblom content element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+selected nodes SimpleName MethodInvocation SimpleName get
+selected nodes SimpleName MethodInvocation SimpleName e
+get SimpleName MethodInvocation SimpleName e
+node list SimpleName SimpleType CastExpression MethodInvocation SimpleName selected nodes
+node list SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+node list SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName node list
+public Modifier MethodDeclaration SimpleName get selected content
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom content element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+node list SimpleName SimpleType MethodDeclaration SimpleName get selected content
+node list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+get selected content SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom content element
+get selected content SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get selected content
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get selected content
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

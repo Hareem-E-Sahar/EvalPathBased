@@ -1,0 +1,31 @@
+passed SimpleName VariableDeclarationFragment MethodInvocation SimpleName run impl basic
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName passed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName run impl basic
+report SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default test report
+default test report SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName report
+report SimpleName MethodInvocation SimpleName set error code
+report SimpleName MethodInvocation QualifiedName test reporterror test failed
+set error code SimpleName MethodInvocation QualifiedName test reporterror test failed
+report SimpleName MethodInvocation SimpleName set passed
+report SimpleName MethodInvocation SimpleName passed
+set passed SimpleName MethodInvocation SimpleName passed
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName report
+public Modifier MethodDeclaration SimpleType SimpleName test report
+public Modifier MethodDeclaration SimpleName run impl
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName report
+test report SimpleName SimpleType MethodDeclaration SimpleName run impl
+test report SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+run impl SimpleName MethodDeclaration SimpleType SimpleName exception
+run impl SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+run impl SimpleName MethodDeclaration Block ReturnStatement SimpleName report
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName test report
+public Modifier TypeDeclaration MethodDeclaration SimpleName run impl
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName test report
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run impl
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

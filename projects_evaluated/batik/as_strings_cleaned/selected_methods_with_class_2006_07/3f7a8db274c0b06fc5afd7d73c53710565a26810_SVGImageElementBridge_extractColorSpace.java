@@ -1,0 +1,110 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginecolor profile index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginecolor profile index
+element SimpleName MethodInvocation QualifiedName svgcss enginecolor profile index
+css utilities SimpleName MethodInvocation MethodInvocation SimpleName get string value
+get computed style SimpleName MethodInvocation MethodInvocation SimpleName get string value
+element SimpleName MethodInvocation MethodInvocation SimpleName get string value
+svgcss enginecolor profile index QualifiedName MethodInvocation MethodInvocation SimpleName get string value
+color profile property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName css utilities
+color profile property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get computed style
+color profile property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName element
+color profile property SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation QualifiedName svgcss enginecolor profile index
+color profile property SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName color profile property
+icc color space ext SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName color space
+css srgb value SimpleName MethodInvocation SimpleName equals ignore case
+css srgb value SimpleName MethodInvocation SimpleName color profile property
+equals ignore case SimpleName MethodInvocation SimpleName color profile property
+icc profile SimpleName MethodInvocation SimpleName get instance
+icc profile SimpleName MethodInvocation QualifiedName color spacecs s rgb
+get instance SimpleName MethodInvocation QualifiedName color spacecs s rgb
+icc color space ext SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName icc profile
+icc color space ext SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get instance
+icc color space ext SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName color spacecs s rgb
+icc color space ext SimpleName SimpleType ClassInstanceCreation QualifiedName icc color space extauto
+icc profile SimpleName MethodInvocation ClassInstanceCreation QualifiedName icc color space extauto
+get instance SimpleName MethodInvocation ClassInstanceCreation QualifiedName icc color space extauto
+color spacecs s rgb QualifiedName MethodInvocation ClassInstanceCreation QualifiedName icc color space extauto
+color space SimpleName Assignment ClassInstanceCreation SimpleType SimpleName icc color space ext
+color space SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName icc profile
+color space SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get instance
+color space SimpleName Assignment ClassInstanceCreation MethodInvocation QualifiedName color spacecs s rgb
+color space SimpleName Assignment ClassInstanceCreation QualifiedName icc color space extauto
+css auto value SimpleName MethodInvocation SimpleName equals ignore case
+css auto value SimpleName MethodInvocation SimpleName color profile property
+equals ignore case SimpleName MethodInvocation SimpleName color profile property
+empty StringLiteral MethodInvocation SimpleName equals ignore case
+empty StringLiteral MethodInvocation SimpleName color profile property
+equals ignore case SimpleName MethodInvocation SimpleName color profile property
+ctx SimpleName MethodInvocation SimpleName get bridge
+ctx SimpleName MethodInvocation SimpleName svg namespace uri
+ctx SimpleName MethodInvocation SimpleName svg color profile tag
+get bridge SimpleName MethodInvocation SimpleName svg namespace uri
+get bridge SimpleName MethodInvocation SimpleName svg color profile tag
+svg namespace uri SimpleName MethodInvocation SimpleName svg color profile tag
+svg color profile element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName ctx
+svg color profile element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName get bridge
+svg color profile element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName svg namespace uri
+svg color profile element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName svg color profile tag
+profile bridge SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg color profile element bridge
+profile bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ctx
+profile bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get bridge
+profile bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName svg namespace uri
+profile bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName svg color profile tag
+svg color profile element bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName profile bridge
+profile bridge SimpleName MethodInvocation SimpleName create icc color space ext
+profile bridge SimpleName MethodInvocation SimpleName ctx
+profile bridge SimpleName MethodInvocation SimpleName element
+profile bridge SimpleName MethodInvocation SimpleName color profile property
+create icc color space ext SimpleName MethodInvocation SimpleName ctx
+create icc color space ext SimpleName MethodInvocation SimpleName element
+create icc color space ext SimpleName MethodInvocation SimpleName color profile property
+ctx SimpleName MethodInvocation SimpleName element
+ctx SimpleName MethodInvocation SimpleName color profile property
+element SimpleName MethodInvocation SimpleName color profile property
+color space SimpleName Assignment MethodInvocation SimpleName profile bridge
+color space SimpleName Assignment MethodInvocation SimpleName create icc color space ext
+color space SimpleName Assignment MethodInvocation SimpleName ctx
+color space SimpleName Assignment MethodInvocation SimpleName element
+color space SimpleName Assignment MethodInvocation SimpleName color profile property
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName icc color space ext
+protected Modifier MethodDeclaration SimpleName extract color space
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration SimpleType SimpleName icc color space ext
+static Modifier MethodDeclaration SimpleName extract color space
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration Block ReturnStatement SimpleName color space
+icc color space ext SimpleName SimpleType MethodDeclaration SimpleName extract color space
+icc color space ext SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+icc color space ext SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+extract color space SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+extract color space SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+extract color space SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+extract color space SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+extract color space SimpleName MethodDeclaration Block ReturnStatement SimpleName color space
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName icc color space ext
+public Modifier TypeDeclaration MethodDeclaration SimpleName extract color space
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName icc color space ext
+test SimpleName TypeDeclaration MethodDeclaration SimpleName extract color space
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

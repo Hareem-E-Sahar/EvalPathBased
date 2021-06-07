@@ -1,0 +1,305 @@
+writable raster SimpleName SimpleType SingleVariableDeclaration SimpleName wr
+get sources SimpleName MethodInvocation MethodInvocation SimpleName get
+get sources SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+cachable red SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+cachable red SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+src SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName cachable red
+src SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+src SimpleName VariableDeclarationFragment CastExpression MethodInvocation NumberLiteral empty
+cachable red SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src
+src SimpleName MethodInvocation SimpleName get bounds
+src r SimpleName VariableDeclarationFragment MethodInvocation SimpleName src
+src r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src r
+wr SimpleName MethodInvocation SimpleName get bounds
+wr r SimpleName VariableDeclarationFragment MethodInvocation SimpleName wr
+wr r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wr r
+wr r SimpleName MethodInvocation SimpleName intersection
+wr r SimpleName MethodInvocation SimpleName src r
+intersection SimpleName MethodInvocation SimpleName src r
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName wr r
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName intersection
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName src r
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+r SimpleName MethodInvocation SimpleName is empty
+writable raster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src wr
+wr SimpleName MethodInvocation SimpleName create writable child
+wr SimpleName MethodInvocation QualifiedName rx
+wr SimpleName MethodInvocation QualifiedName ry
+wr SimpleName MethodInvocation QualifiedName rwidth
+wr SimpleName MethodInvocation QualifiedName rheight
+create writable child SimpleName MethodInvocation QualifiedName rx
+create writable child SimpleName MethodInvocation QualifiedName ry
+create writable child SimpleName MethodInvocation QualifiedName rwidth
+create writable child SimpleName MethodInvocation QualifiedName rheight
+create writable child SimpleName MethodInvocation QualifiedName rx
+rx QualifiedName MethodInvocation QualifiedName ry
+rx QualifiedName MethodInvocation QualifiedName rwidth
+rx QualifiedName MethodInvocation QualifiedName rheight
+rx QualifiedName MethodInvocation QualifiedName rx
+rx QualifiedName MethodInvocation QualifiedName ry
+ry QualifiedName MethodInvocation QualifiedName rwidth
+ry QualifiedName MethodInvocation QualifiedName rheight
+ry QualifiedName MethodInvocation QualifiedName rx
+ry QualifiedName MethodInvocation QualifiedName ry
+rwidth QualifiedName MethodInvocation QualifiedName rheight
+rwidth QualifiedName MethodInvocation QualifiedName rx
+rwidth QualifiedName MethodInvocation QualifiedName ry
+rheight QualifiedName MethodInvocation QualifiedName rx
+rheight QualifiedName MethodInvocation QualifiedName ry
+rx QualifiedName MethodInvocation QualifiedName ry
+src wr SimpleName Assignment MethodInvocation SimpleName wr
+src wr SimpleName Assignment MethodInvocation SimpleName create writable child
+src wr SimpleName Assignment MethodInvocation QualifiedName rx
+src wr SimpleName Assignment MethodInvocation QualifiedName ry
+src wr SimpleName Assignment MethodInvocation QualifiedName rwidth
+src wr SimpleName Assignment MethodInvocation QualifiedName rheight
+src wr SimpleName Assignment MethodInvocation QualifiedName rx
+src wr SimpleName Assignment MethodInvocation QualifiedName ry
+src SimpleName MethodInvocation SimpleName copy data
+src SimpleName MethodInvocation SimpleName src wr
+copy data SimpleName MethodInvocation SimpleName src wr
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bi
+wr SimpleName MethodInvocation SimpleName create writable translated child
+wr SimpleName MethodInvocation NumberLiteral empty
+wr SimpleName MethodInvocation NumberLiteral empty
+create writable translated child SimpleName MethodInvocation NumberLiteral empty
+create writable translated child SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+get color model SimpleName MethodInvocation MethodInvocation SimpleName is alpha premultiplied
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get color model
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName wr
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create writable translated child
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName wr
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create writable translated child
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+wr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+create writable translated child SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+empty NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+empty NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+bi SimpleName Assignment ClassInstanceCreation SimpleType SimpleName buffered image
+bi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get color model
+bi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName wr
+bi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName create writable translated child
+bi SimpleName Assignment ClassInstanceCreation MethodInvocation NumberLiteral empty
+bi SimpleName Assignment ClassInstanceCreation MethodInvocation NumberLiteral empty
+bi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+bi SimpleName MethodInvocation SimpleName create graphics
+g d SimpleName VariableDeclarationFragment MethodInvocation SimpleName bi
+g d SimpleName VariableDeclarationFragment MethodInvocation SimpleName create graphics
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g d
+g d SimpleName MethodInvocation SimpleName set rendering hints
+g d SimpleName MethodInvocation SimpleName hints
+set rendering hints SimpleName MethodInvocation SimpleName hints
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName set color
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName color
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set color SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName color
+set color SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set color SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set color SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set color SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+wr SimpleName MethodInvocation SimpleName get min x
+wr SimpleName MethodInvocation SimpleName get min y
+g d SimpleName MethodInvocation SimpleName translate
+g d SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName wr
+g d SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get min x
+g d SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName wr
+g d SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get min y
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName wr
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get min x
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName wr
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get min y
+g d SimpleName MethodInvocation SimpleName set composite
+g d SimpleName MethodInvocation QualifiedName alpha compositesrc
+set composite SimpleName MethodInvocation QualifiedName alpha compositesrc
+x SimpleName VariableDeclarationFragment QualifiedName wr rx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName wr rx
+y SimpleName VariableDeclarationFragment QualifiedName wr rx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName wr rx
+width SimpleName VariableDeclarationFragment QualifiedName wr rwidth
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName width
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName wr rwidth
+height SimpleName VariableDeclarationFragment QualifiedName wr rheight
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName height
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName wr rheight
+x SimpleName InfixExpression QualifiedName src rx
+src rx QualifiedName InfixExpression SimpleName x
+w SimpleName VariableDeclarationFragment InfixExpression QualifiedName src rx
+w SimpleName VariableDeclarationFragment InfixExpression SimpleName x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName src rx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName x
+w SimpleName InfixExpression QualifiedName wr rwidth
+w SimpleName Assignment QualifiedName wr rwidth
+g d SimpleName MethodInvocation SimpleName fill rect
+g d SimpleName MethodInvocation SimpleName x
+g d SimpleName MethodInvocation SimpleName y
+g d SimpleName MethodInvocation SimpleName w
+g d SimpleName MethodInvocation SimpleName height
+fill rect SimpleName MethodInvocation SimpleName x
+fill rect SimpleName MethodInvocation SimpleName y
+fill rect SimpleName MethodInvocation SimpleName w
+fill rect SimpleName MethodInvocation SimpleName height
+x SimpleName MethodInvocation SimpleName y
+x SimpleName MethodInvocation SimpleName w
+x SimpleName MethodInvocation SimpleName height
+y SimpleName MethodInvocation SimpleName w
+y SimpleName MethodInvocation SimpleName height
+w SimpleName MethodInvocation SimpleName height
+x SimpleName Assignment SimpleName w
+width SimpleName Assignment SimpleName w
+y SimpleName InfixExpression QualifiedName src ry
+src ry QualifiedName InfixExpression SimpleName y
+h SimpleName VariableDeclarationFragment InfixExpression QualifiedName src ry
+h SimpleName VariableDeclarationFragment InfixExpression SimpleName y
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName src ry
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName y
+h SimpleName InfixExpression SimpleName height
+h SimpleName Assignment SimpleName height
+g d SimpleName MethodInvocation SimpleName fill rect
+g d SimpleName MethodInvocation SimpleName x
+g d SimpleName MethodInvocation SimpleName y
+g d SimpleName MethodInvocation SimpleName width
+g d SimpleName MethodInvocation SimpleName h
+fill rect SimpleName MethodInvocation SimpleName x
+fill rect SimpleName MethodInvocation SimpleName y
+fill rect SimpleName MethodInvocation SimpleName width
+fill rect SimpleName MethodInvocation SimpleName h
+x SimpleName MethodInvocation SimpleName y
+x SimpleName MethodInvocation SimpleName width
+x SimpleName MethodInvocation SimpleName h
+y SimpleName MethodInvocation SimpleName width
+y SimpleName MethodInvocation SimpleName h
+width SimpleName MethodInvocation SimpleName h
+y SimpleName Assignment SimpleName h
+height SimpleName Assignment SimpleName h
+y SimpleName InfixExpression SimpleName height
+src ry QualifiedName InfixExpression QualifiedName src rheight
+y SimpleName InfixExpression InfixExpression InfixExpression QualifiedName src ry
+y SimpleName InfixExpression InfixExpression InfixExpression QualifiedName src rheight
+height SimpleName InfixExpression InfixExpression InfixExpression QualifiedName src ry
+height SimpleName InfixExpression InfixExpression InfixExpression QualifiedName src rheight
+src ry QualifiedName InfixExpression QualifiedName src rheight
+y SimpleName InfixExpression SimpleName height
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+h SimpleName InfixExpression SimpleName height
+h SimpleName Assignment SimpleName height
+y SimpleName InfixExpression SimpleName height
+y SimpleName InfixExpression InfixExpression SimpleName h
+height SimpleName InfixExpression InfixExpression SimpleName h
+y SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName y
+y SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName height
+y SimpleName VariableDeclarationFragment InfixExpression SimpleName h
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName h
+g d SimpleName MethodInvocation SimpleName fill rect
+g d SimpleName MethodInvocation SimpleName x
+g d SimpleName MethodInvocation SimpleName y
+g d SimpleName MethodInvocation SimpleName width
+g d SimpleName MethodInvocation SimpleName h
+fill rect SimpleName MethodInvocation SimpleName x
+fill rect SimpleName MethodInvocation SimpleName y
+fill rect SimpleName MethodInvocation SimpleName width
+fill rect SimpleName MethodInvocation SimpleName h
+x SimpleName MethodInvocation SimpleName y
+x SimpleName MethodInvocation SimpleName width
+x SimpleName MethodInvocation SimpleName h
+y SimpleName MethodInvocation SimpleName width
+y SimpleName MethodInvocation SimpleName h
+width SimpleName MethodInvocation SimpleName h
+height SimpleName Assignment SimpleName h
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+x SimpleName InfixExpression SimpleName width
+src rx QualifiedName InfixExpression QualifiedName src rwidth
+x SimpleName InfixExpression InfixExpression InfixExpression QualifiedName src rx
+x SimpleName InfixExpression InfixExpression InfixExpression QualifiedName src rwidth
+width SimpleName InfixExpression InfixExpression InfixExpression QualifiedName src rx
+width SimpleName InfixExpression InfixExpression InfixExpression QualifiedName src rwidth
+src rx QualifiedName InfixExpression QualifiedName src rwidth
+x SimpleName InfixExpression SimpleName width
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+w SimpleName InfixExpression SimpleName width
+w SimpleName Assignment SimpleName width
+x SimpleName InfixExpression SimpleName width
+x SimpleName InfixExpression InfixExpression SimpleName w
+width SimpleName InfixExpression InfixExpression SimpleName w
+x SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName x
+x SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName width
+x SimpleName VariableDeclarationFragment InfixExpression SimpleName w
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName w
+g d SimpleName MethodInvocation SimpleName fill rect
+g d SimpleName MethodInvocation SimpleName x
+g d SimpleName MethodInvocation SimpleName y
+g d SimpleName MethodInvocation SimpleName w
+g d SimpleName MethodInvocation SimpleName height
+fill rect SimpleName MethodInvocation SimpleName x
+fill rect SimpleName MethodInvocation SimpleName y
+fill rect SimpleName MethodInvocation SimpleName w
+fill rect SimpleName MethodInvocation SimpleName height
+x SimpleName MethodInvocation SimpleName y
+x SimpleName MethodInvocation SimpleName w
+x SimpleName MethodInvocation SimpleName height
+y SimpleName MethodInvocation SimpleName w
+y SimpleName MethodInvocation SimpleName height
+w SimpleName MethodInvocation SimpleName height
+width SimpleName Assignment SimpleName w
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName wr
+public Modifier MethodDeclaration SimpleType SimpleName writable raster
+public Modifier MethodDeclaration SimpleName copy data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable raster
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName wr
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName wr
+writable raster SimpleName SimpleType MethodDeclaration SimpleName copy data
+writable raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName wr
+copy data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName writable raster
+copy data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName wr
+copy data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+copy data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+copy data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+copy data SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+copy data SimpleName MethodDeclaration Block ReturnStatement SimpleName wr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName writable raster
+public Modifier TypeDeclaration MethodDeclaration SimpleName copy data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wr
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName writable raster
+test SimpleName TypeDeclaration MethodDeclaration SimpleName copy data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wr

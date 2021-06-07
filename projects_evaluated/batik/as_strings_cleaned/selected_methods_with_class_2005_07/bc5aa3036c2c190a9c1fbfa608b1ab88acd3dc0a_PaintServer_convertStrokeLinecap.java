@@ -1,0 +1,63 @@
+value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+v SimpleName MethodInvocation SimpleName get string value
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+s SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName basic strokecap butt
+char at SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName basic strokecap butt
+empty NumberLiteral MethodInvocation SwitchStatement ReturnStatement QualifiedName basic strokecap butt
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+s SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName basic strokecap round
+char at SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName basic strokecap round
+empty NumberLiteral MethodInvocation SwitchStatement ReturnStatement QualifiedName basic strokecap round
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral s
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral s
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral s
+b CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName basic strokecap butt
+b CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral r
+b CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName basic strokecap round
+b CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral s
+b CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName basic strokecap square
+basic strokecap butt QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral r
+basic strokecap butt QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName basic strokecap round
+basic strokecap butt QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral s
+basic strokecap butt QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName basic strokecap square
+r CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName basic strokecap round
+r CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral s
+r CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName basic strokecap square
+basic strokecap round QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral s
+basic strokecap round QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName basic strokecap square
+s CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName basic strokecap square
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName convert stroke linecap
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName convert stroke linecap
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+int PrimitiveType MethodDeclaration SimpleName convert stroke linecap
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+convert stroke linecap SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+convert stroke linecap SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert stroke linecap
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert stroke linecap
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

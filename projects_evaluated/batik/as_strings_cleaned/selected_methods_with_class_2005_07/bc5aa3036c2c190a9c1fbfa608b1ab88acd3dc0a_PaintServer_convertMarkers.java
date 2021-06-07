@@ -1,0 +1,127 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+shape node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginemarker start index
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginemarker start index
+e SimpleName MethodInvocation QualifiedName svgcss enginemarker start index
+v SimpleName Assignment MethodInvocation SimpleName css utilities
+v SimpleName Assignment MethodInvocation SimpleName get computed style
+v SimpleName Assignment MethodInvocation SimpleName e
+v SimpleName Assignment MethodInvocation QualifiedName svgcss enginemarker start index
+convert marker SimpleName MethodInvocation SimpleName e
+convert marker SimpleName MethodInvocation SimpleName v
+convert marker SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation SimpleName v
+e SimpleName MethodInvocation SimpleName ctx
+v SimpleName MethodInvocation SimpleName ctx
+start marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert marker
+start marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+start marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+start marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+marker SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start marker
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginemarker mid index
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginemarker mid index
+e SimpleName MethodInvocation QualifiedName svgcss enginemarker mid index
+v SimpleName Assignment MethodInvocation SimpleName css utilities
+v SimpleName Assignment MethodInvocation SimpleName get computed style
+v SimpleName Assignment MethodInvocation SimpleName e
+v SimpleName Assignment MethodInvocation QualifiedName svgcss enginemarker mid index
+convert marker SimpleName MethodInvocation SimpleName e
+convert marker SimpleName MethodInvocation SimpleName v
+convert marker SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation SimpleName v
+e SimpleName MethodInvocation SimpleName ctx
+v SimpleName MethodInvocation SimpleName ctx
+mid marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert marker
+mid marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+mid marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+mid marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+marker SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mid marker
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginemarker end index
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginemarker end index
+e SimpleName MethodInvocation QualifiedName svgcss enginemarker end index
+v SimpleName Assignment MethodInvocation SimpleName css utilities
+v SimpleName Assignment MethodInvocation SimpleName get computed style
+v SimpleName Assignment MethodInvocation SimpleName e
+v SimpleName Assignment MethodInvocation QualifiedName svgcss enginemarker end index
+convert marker SimpleName MethodInvocation SimpleName e
+convert marker SimpleName MethodInvocation SimpleName v
+convert marker SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation SimpleName v
+e SimpleName MethodInvocation SimpleName ctx
+v SimpleName MethodInvocation SimpleName ctx
+end marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert marker
+end marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+end marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+end marker SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+marker SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end marker
+start marker SimpleName InfixExpression InfixExpression InfixExpression SimpleName mid marker
+node SimpleName MethodInvocation SimpleName get shape
+marker shape painter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName node
+marker shape painter SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get shape
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName marker shape painter
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName node
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get shape
+marker shape painter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName set start marker
+p SimpleName MethodInvocation SimpleName start marker
+set start marker SimpleName MethodInvocation SimpleName start marker
+p SimpleName MethodInvocation SimpleName set middle marker
+p SimpleName MethodInvocation SimpleName mid marker
+set middle marker SimpleName MethodInvocation SimpleName mid marker
+p SimpleName MethodInvocation SimpleName set end marker
+p SimpleName MethodInvocation SimpleName end marker
+set end marker SimpleName MethodInvocation SimpleName end marker
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName shape painter
+public Modifier MethodDeclaration SimpleName convert markers
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+static Modifier MethodDeclaration SimpleType SimpleName shape painter
+static Modifier MethodDeclaration SimpleName convert markers
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+shape painter SimpleName SimpleType MethodDeclaration SimpleName convert markers
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert markers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert markers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+convert markers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape node
+convert markers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+convert markers SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+convert markers SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName shape painter
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert markers
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName shape painter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert markers
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

@@ -1,0 +1,54 @@
+mutation event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get attr name
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attr name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+attr name SimpleName MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation SimpleName svg transform attribute
+equals SimpleName MethodInvocation SimpleName svg transform attribute
+evt SimpleName MethodInvocation SimpleName get new value
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get new value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+at SimpleName VariableDeclarationFragment QualifiedName graphics nodeidentity
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName graphics nodeidentity
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+svg utilities SimpleName MethodInvocation SimpleName convert transform
+svg utilities SimpleName MethodInvocation SimpleName e
+svg utilities SimpleName MethodInvocation SimpleName svg transform attribute
+svg utilities SimpleName MethodInvocation SimpleName s
+convert transform SimpleName MethodInvocation SimpleName e
+convert transform SimpleName MethodInvocation SimpleName svg transform attribute
+convert transform SimpleName MethodInvocation SimpleName s
+e SimpleName MethodInvocation SimpleName svg transform attribute
+e SimpleName MethodInvocation SimpleName s
+svg transform attribute SimpleName MethodInvocation SimpleName s
+at SimpleName Assignment MethodInvocation SimpleName svg utilities
+at SimpleName Assignment MethodInvocation SimpleName convert transform
+at SimpleName Assignment MethodInvocation SimpleName e
+at SimpleName Assignment MethodInvocation SimpleName svg transform attribute
+at SimpleName Assignment MethodInvocation SimpleName s
+node SimpleName MethodInvocation SimpleName set transform
+node SimpleName MethodInvocation SimpleName at
+set transform SimpleName MethodInvocation SimpleName at
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle dom attr modified event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName handle dom attr modified event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+handle dom attr modified event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+handle dom attr modified event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle dom attr modified event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle dom attr modified event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

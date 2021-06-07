@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+generic entity reference SimpleName SimpleType ClassInstanceCreation SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName entity reference
+public Modifier MethodDeclaration SimpleName create entity reference
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+entity reference SimpleName SimpleType MethodDeclaration SimpleName create entity reference
+entity reference SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+entity reference SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+create entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create entity reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+create entity reference SimpleName MethodDeclaration SimpleType SimpleName dom exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName entity reference
+public Modifier TypeDeclaration MethodDeclaration SimpleName create entity reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName entity reference
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create entity reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

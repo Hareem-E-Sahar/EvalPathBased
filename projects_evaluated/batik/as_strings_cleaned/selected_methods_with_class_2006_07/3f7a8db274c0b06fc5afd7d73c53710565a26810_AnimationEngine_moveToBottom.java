@@ -1,0 +1,54 @@
+abstract animation SimpleName SimpleType SingleVariableDeclaration SimpleName anim
+get animation info SimpleName MethodInvocation SimpleName anim
+anim info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get animation info
+anim info SimpleName VariableDeclarationFragment MethodInvocation SimpleName anim
+animation info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anim info
+get sandwich SimpleName MethodInvocation QualifiedName anim infotarget
+get sandwich SimpleName MethodInvocation QualifiedName anim infotype
+get sandwich SimpleName MethodInvocation QualifiedName anim infoattribute namespace uri
+get sandwich SimpleName MethodInvocation QualifiedName anim infoattribute local name
+anim infotarget QualifiedName MethodInvocation QualifiedName anim infotype
+anim infotarget QualifiedName MethodInvocation QualifiedName anim infoattribute namespace uri
+anim infotarget QualifiedName MethodInvocation QualifiedName anim infoattribute local name
+anim infotype QualifiedName MethodInvocation QualifiedName anim infoattribute namespace uri
+anim infotype QualifiedName MethodInvocation QualifiedName anim infoattribute local name
+anim infoattribute namespace uri QualifiedName MethodInvocation QualifiedName anim infoattribute local name
+sandwich SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sandwich
+sandwich SimpleName VariableDeclarationFragment MethodInvocation QualifiedName anim infotarget
+sandwich SimpleName VariableDeclarationFragment MethodInvocation QualifiedName anim infotype
+sandwich SimpleName VariableDeclarationFragment MethodInvocation QualifiedName anim infoattribute namespace uri
+sandwich SimpleName VariableDeclarationFragment MethodInvocation QualifiedName anim infoattribute local name
+sandwich SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sandwich
+next lower SimpleName VariableDeclarationFragment QualifiedName animlower animation
+abstract animation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next lower
+abstract animation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName animlower animation
+next lower SimpleName MethodInvocation SimpleName mark dirty
+animlower animationhigher animation QualifiedName Assignment QualifiedName animhigher animation
+animhigher animationlower animation QualifiedName Assignment QualifiedName animlower animation
+sandwichanimation QualifiedName Assignment SimpleName next lower
+sandwichshould update QualifiedName Assignment BooleanLiteral true
+sandwichlowest animationlower animation QualifiedName Assignment SimpleName anim
+animhigher animation QualifiedName Assignment QualifiedName sandwichlowest animation
+sandwichlowest animation QualifiedName Assignment SimpleName anim
+sandwichshould update QualifiedName Assignment BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName move to bottom
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract animation
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName anim
+protected Modifier MethodDeclaration Block IfStatement QualifiedName sandwichanimationis dirty
+void PrimitiveType MethodDeclaration SimpleName move to bottom
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract animation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName anim
+void PrimitiveType MethodDeclaration Block IfStatement QualifiedName sandwichanimationis dirty
+move to bottom SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract animation
+move to bottom SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anim
+move to bottom SimpleName MethodDeclaration Block IfStatement QualifiedName sandwichanimationis dirty
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName move to bottom
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anim
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName move to bottom
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anim

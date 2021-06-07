@@ -1,0 +1,41 @@
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+timing specifier list handler SimpleName SimpleType CastExpression SimpleName timing specifier handler
+timing specifier handler SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName start timing specifier list
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+spec SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse timing specifier
+handle timing specifier SimpleName MethodInvocation SimpleName spec
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral 
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+timing specifier list handler SimpleName SimpleType CastExpression SimpleName timing specifier handler
+timing specifier handler SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName end timing specifier list
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do parse
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName do parse
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+do parse SimpleName MethodDeclaration SimpleType SimpleName parse exception
+do parse SimpleName MethodDeclaration SimpleType SimpleName io exception
+parse exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do parse
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do parse
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

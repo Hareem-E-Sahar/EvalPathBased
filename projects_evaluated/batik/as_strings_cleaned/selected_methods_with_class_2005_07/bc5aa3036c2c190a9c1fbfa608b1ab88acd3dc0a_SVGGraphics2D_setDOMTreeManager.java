@@ -1,0 +1,30 @@
+dom tree manager SimpleName SimpleType SingleVariableDeclaration SimpleName tree mgr
+dom tree manager SimpleName FieldAccess Assignment SimpleName tree mgr
+generator ctxgeneric image handler QualifiedName MethodInvocation SimpleName set dom tree manager
+generator ctxgeneric image handler QualifiedName MethodInvocation SimpleName dom tree manager
+set dom tree manager SimpleName MethodInvocation SimpleName dom tree manager
+protected Modifier MethodDeclaration Modifier final
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set dom tree manager
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom tree manager
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName tree mgr
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName set dom tree manager
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom tree manager
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName tree mgr
+void PrimitiveType MethodDeclaration SimpleName set dom tree manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom tree manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tree mgr
+set dom tree manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom tree manager
+set dom tree manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tree mgr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set dom tree manager
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tree mgr
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set dom tree manager
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tree mgr

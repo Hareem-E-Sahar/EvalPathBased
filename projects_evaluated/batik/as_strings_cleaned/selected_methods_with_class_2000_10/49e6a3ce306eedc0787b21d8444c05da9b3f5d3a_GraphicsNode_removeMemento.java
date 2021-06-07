@@ -1,0 +1,13 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SimpleName remove memento
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+remove memento SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+remove memento SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove memento
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove memento
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

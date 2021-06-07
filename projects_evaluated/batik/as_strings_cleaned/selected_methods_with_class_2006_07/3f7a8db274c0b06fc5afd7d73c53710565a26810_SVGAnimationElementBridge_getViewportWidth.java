@@ -1,0 +1,13 @@
+ctx SimpleName MethodInvocation SimpleName get block width
+ctx SimpleName MethodInvocation SimpleName element
+get block width SimpleName MethodInvocation SimpleName element
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get viewport width
+float PrimitiveType MethodDeclaration SimpleName get viewport width
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get viewport width
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get viewport width

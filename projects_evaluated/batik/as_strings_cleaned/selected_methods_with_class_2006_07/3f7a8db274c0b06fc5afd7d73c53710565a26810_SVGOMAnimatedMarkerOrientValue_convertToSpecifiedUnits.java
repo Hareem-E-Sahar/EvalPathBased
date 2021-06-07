@@ -1,0 +1,27 @@
+short PrimitiveType SingleVariableDeclaration SimpleName unit
+element SimpleName MethodInvocation SimpleName create dom exception
+element SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+element SimpleName MethodInvocation StringLiteral readonlyangle
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlyangle
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlyangle
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName convert to specified units
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName unit
+void PrimitiveType MethodDeclaration SimpleName convert to specified units
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName unit
+convert to specified units SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+convert to specified units SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unit
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert to specified units
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert to specified units
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit

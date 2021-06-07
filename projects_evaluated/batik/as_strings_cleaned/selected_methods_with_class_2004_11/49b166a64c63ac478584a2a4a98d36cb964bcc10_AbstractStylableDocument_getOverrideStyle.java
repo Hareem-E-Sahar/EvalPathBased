@@ -1,0 +1,28 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pseudo elt
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! not implemented
+public Modifier MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier MethodDeclaration SimpleName get override style
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+css style declaration SimpleName SimpleType MethodDeclaration SimpleName get override style
+css style declaration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+css style declaration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+get override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+get override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get override style
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get override style
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt

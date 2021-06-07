@@ -1,0 +1,35 @@
+cdata buffer SimpleName MethodInvocation SimpleName to string
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName cdata buffer
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+c data info SimpleName SimpleType ClassInstanceCreation SimpleName data
+pre info SimpleName MethodInvocation SimpleName add
+pre info SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName c data info
+pre info SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName c data info
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+document SimpleName MethodInvocation SimpleName create cdata section
+document SimpleName MethodInvocation SimpleName data
+create cdata section SimpleName MethodInvocation SimpleName data
+current node SimpleName MethodInvocation SimpleName append child
+current node SimpleName MethodInvocation MethodInvocation SimpleName document
+current node SimpleName MethodInvocation MethodInvocation SimpleName create cdata section
+current node SimpleName MethodInvocation MethodInvocation SimpleName data
+append child SimpleName MethodInvocation MethodInvocation SimpleName document
+append child SimpleName MethodInvocation MethodInvocation SimpleName create cdata section
+append child SimpleName MethodInvocation MethodInvocation SimpleName data
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName end cdata
+public Modifier MethodDeclaration SimpleType SimpleName sax exception
+void PrimitiveType MethodDeclaration SimpleName end cdata
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax exception
+end cdata SimpleName MethodDeclaration SimpleType SimpleName sax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName end cdata
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName end cdata
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

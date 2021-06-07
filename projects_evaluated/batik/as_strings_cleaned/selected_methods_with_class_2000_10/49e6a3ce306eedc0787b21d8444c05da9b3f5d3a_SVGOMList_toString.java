@@ -1,0 +1,42 @@
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+list SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName list
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+it SimpleName MethodInvocation MethodInvocation SimpleName to string
+next SimpleName MethodInvocation MethodInvocation SimpleName to string
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName it
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+result SimpleName MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName it
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+it SimpleName MethodInvocation SimpleName has next
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation MethodInvocation SimpleName get separator
+append SimpleName MethodInvocation MethodInvocation SimpleName get separator
+it SimpleName MethodInvocation SimpleName next
+it SimpleName MethodInvocation MethodInvocation SimpleName to string
+next SimpleName MethodInvocation MethodInvocation SimpleName to string
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName it
+result SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+result SimpleName MethodInvocation MethodInvocation SimpleName to string
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName it
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next
+append SimpleName MethodInvocation MethodInvocation SimpleName to string
+result SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

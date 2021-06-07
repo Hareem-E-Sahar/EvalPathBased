@@ -1,0 +1,53 @@
+svg animated length list SimpleName SimpleType SingleVariableDeclaration SimpleName a
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName val
+svgom animated length list SimpleName SimpleType CastExpression SimpleName a
+all SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom animated length list
+all SimpleName VariableDeclarationFragment CastExpression SimpleName a
+svgom animated length list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName all
+all SimpleName MethodInvocation SimpleName reset animated value
+animatable length list value SimpleName SimpleType CastExpression SimpleName val
+anim length list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable length list value
+anim length list SimpleName VariableDeclarationFragment CastExpression SimpleName val
+animatable length list value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anim length list
+anim length list SimpleName MethodInvocation SimpleName get length types
+anim length list SimpleName MethodInvocation SimpleName get length values
+all SimpleName MethodInvocation SimpleName set animated value
+all SimpleName MethodInvocation MethodInvocation SimpleName anim length list
+all SimpleName MethodInvocation MethodInvocation SimpleName get length types
+all SimpleName MethodInvocation MethodInvocation SimpleName anim length list
+all SimpleName MethodInvocation MethodInvocation SimpleName get length values
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim length list
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get length types
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim length list
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get length values
+anim length list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim length list
+anim length list SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length values
+get length types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim length list
+get length types SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get length values
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update length list attribute value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated length list
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName update length list attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated length list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+update length list attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated length list
+update length list attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+update length list attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+update length list attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+a SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update length list attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update length list attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

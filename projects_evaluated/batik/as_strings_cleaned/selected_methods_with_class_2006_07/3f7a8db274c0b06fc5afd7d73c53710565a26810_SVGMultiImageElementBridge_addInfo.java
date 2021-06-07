@@ -1,0 +1,169 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+collection SimpleName SimpleType SingleVariableDeclaration SimpleName elems
+collection SimpleName SimpleType SingleVariableDeclaration SimpleName min dim
+collection SimpleName SimpleType SingleVariableDeclaration SimpleName max dim
+rectangle d SimpleName SimpleType SingleVariableDeclaration SimpleName bounds
+e SimpleName MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get owner document
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName create element ns
+doc SimpleName MethodInvocation SimpleName svg namespace uri
+doc SimpleName MethodInvocation SimpleName svg g tag
+create element ns SimpleName MethodInvocation SimpleName svg namespace uri
+create element ns SimpleName MethodInvocation SimpleName svg g tag
+svg namespace uri SimpleName MethodInvocation SimpleName svg g tag
+g elem SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+g elem SimpleName VariableDeclarationFragment MethodInvocation SimpleName create element ns
+g elem SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg namespace uri
+g elem SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg g tag
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g elem
+e SimpleName MethodInvocation SimpleName get attributes
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attrs
+attrs SimpleName MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName attrs
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attrs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+attrs SimpleName MethodInvocation SimpleName item
+attrs SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName attrs
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+attr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName attr
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attrs
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get namespace uri
+attr SimpleName MethodInvocation SimpleName get name
+attr SimpleName MethodInvocation SimpleName get value
+g elem SimpleName MethodInvocation SimpleName set attribute ns
+g elem SimpleName MethodInvocation MethodInvocation SimpleName attr
+g elem SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+g elem SimpleName MethodInvocation MethodInvocation SimpleName attr
+g elem SimpleName MethodInvocation MethodInvocation SimpleName get name
+g elem SimpleName MethodInvocation MethodInvocation SimpleName attr
+g elem SimpleName MethodInvocation MethodInvocation SimpleName get value
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName attr
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName attr
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName get name
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName attr
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName get value
+attr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+attr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+get namespace uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+get namespace uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get name
+attr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+attr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get namespace uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+get namespace uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+attr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+attr SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName attr
+get name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+e SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+e SimpleName MethodInvocation SimpleName get first child
+n SimpleName Assignment MethodInvocation SimpleName e
+n SimpleName Assignment MethodInvocation SimpleName get first child
+g elem SimpleName MethodInvocation SimpleName append child
+g elem SimpleName MethodInvocation SimpleName n
+append child SimpleName MethodInvocation SimpleName n
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+e SimpleName MethodInvocation SimpleName append child
+e SimpleName MethodInvocation SimpleName g elem
+append child SimpleName MethodInvocation SimpleName g elem
+elems SimpleName MethodInvocation SimpleName add
+elems SimpleName MethodInvocation SimpleName g elem
+add SimpleName MethodInvocation SimpleName g elem
+get element min pixel SimpleName MethodInvocation SimpleName e
+get element min pixel SimpleName MethodInvocation SimpleName bounds
+e SimpleName MethodInvocation SimpleName bounds
+min dim SimpleName MethodInvocation SimpleName add
+min dim SimpleName MethodInvocation MethodInvocation SimpleName get element min pixel
+min dim SimpleName MethodInvocation MethodInvocation SimpleName e
+min dim SimpleName MethodInvocation MethodInvocation SimpleName bounds
+add SimpleName MethodInvocation MethodInvocation SimpleName get element min pixel
+add SimpleName MethodInvocation MethodInvocation SimpleName e
+add SimpleName MethodInvocation MethodInvocation SimpleName bounds
+get element max pixel SimpleName MethodInvocation SimpleName e
+get element max pixel SimpleName MethodInvocation SimpleName bounds
+e SimpleName MethodInvocation SimpleName bounds
+max dim SimpleName MethodInvocation SimpleName add
+max dim SimpleName MethodInvocation MethodInvocation SimpleName get element max pixel
+max dim SimpleName MethodInvocation MethodInvocation SimpleName e
+max dim SimpleName MethodInvocation MethodInvocation SimpleName bounds
+add SimpleName MethodInvocation MethodInvocation SimpleName get element max pixel
+add SimpleName MethodInvocation MethodInvocation SimpleName e
+add SimpleName MethodInvocation MethodInvocation SimpleName bounds
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add info
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName collection
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName elems
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName collection
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName min dim
+void PrimitiveType MethodDeclaration SimpleName add info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName collection
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elems
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName collection
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName min dim
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName collection
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max dim
+add info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+add info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+add info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName collection
+add info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elems
+add info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName collection
+add info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName min dim
+add info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName collection
+add info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max dim
+add info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle d
+add info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bounds
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elems
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName min dim
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max dim
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bounds
+elems SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName min dim
+elems SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max dim
+elems SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bounds
+min dim SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max dim
+min dim SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bounds
+max dim SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bounds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elems
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName min dim
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max dim
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bounds
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elems
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName min dim
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max dim
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bounds

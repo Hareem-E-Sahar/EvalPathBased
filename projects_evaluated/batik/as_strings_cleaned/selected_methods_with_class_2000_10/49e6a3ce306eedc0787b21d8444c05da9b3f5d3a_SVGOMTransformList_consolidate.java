@@ -1,0 +1,11 @@
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! todo svg transform listconsolidate
+public Modifier MethodDeclaration SimpleType SimpleName svg transform
+public Modifier MethodDeclaration SimpleName consolidate
+svg transform SimpleName SimpleType MethodDeclaration SimpleName consolidate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg transform
+public Modifier TypeDeclaration MethodDeclaration SimpleName consolidate
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg transform
+test SimpleName TypeDeclaration MethodDeclaration SimpleName consolidate

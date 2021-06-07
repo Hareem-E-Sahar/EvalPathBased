@@ -1,0 +1,13 @@
+color SimpleName SimpleType SingleVariableDeclaration SimpleName color
+void PrimitiveType MethodDeclaration SimpleName set color
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName color
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName color
+set color SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName color
+set color SimpleName MethodDeclaration SingleVariableDeclaration SimpleName color
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set color
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName color
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set color
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName color

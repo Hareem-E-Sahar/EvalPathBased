@@ -1,0 +1,74 @@
+short PrimitiveType SingleVariableDeclaration SimpleName string type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName string value
+factory SimpleName MethodInvocation SimpleName create string value
+factory SimpleName MethodInvocation SimpleName string type
+factory SimpleName MethodInvocation SimpleName string value
+create string value SimpleName MethodInvocation SimpleName string type
+create string value SimpleName MethodInvocation SimpleName string value
+string type SimpleName MethodInvocation SimpleName string value
+value SimpleName Assignment MethodInvocation SimpleName factory
+value SimpleName Assignment MethodInvocation SimpleName create string value
+value SimpleName Assignment MethodInvocation SimpleName string type
+value SimpleName Assignment MethodInvocation SimpleName string value
+cssom read only value SimpleName SimpleType ClassInstanceCreation SimpleName value
+old SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cssom read only value
+old SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName value
+css value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old
+factory SimpleName MethodInvocation SimpleName create string value
+factory SimpleName MethodInvocation SimpleName string type
+factory SimpleName MethodInvocation SimpleName string value
+create string value SimpleName MethodInvocation SimpleName string type
+create string value SimpleName MethodInvocation SimpleName string value
+string type SimpleName MethodInvocation SimpleName string value
+value SimpleName Assignment MethodInvocation SimpleName factory
+value SimpleName Assignment MethodInvocation SimpleName create string value
+value SimpleName Assignment MethodInvocation SimpleName string type
+value SimpleName Assignment MethodInvocation SimpleName string value
+factory SimpleName MethodInvocation SimpleName get property name
+listener SimpleName MethodInvocation SimpleName css value change
+listener SimpleName MethodInvocation MethodInvocation SimpleName factory
+listener SimpleName MethodInvocation MethodInvocation SimpleName get property name
+listener SimpleName MethodInvocation SimpleName old
+css value change SimpleName MethodInvocation MethodInvocation SimpleName factory
+css value change SimpleName MethodInvocation MethodInvocation SimpleName get property name
+css value change SimpleName MethodInvocation SimpleName old
+factory SimpleName MethodInvocation MethodInvocation SimpleName old
+get property name SimpleName MethodInvocation MethodInvocation SimpleName old
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set string value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName string type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName string value
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set string value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName string type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName string value
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set string value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+set string value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName string type
+set string value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set string value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName string value
+set string value SimpleName MethodDeclaration SimpleType SimpleName dom exception
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string value
+string type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string value
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+string type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+string value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set string value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set string value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

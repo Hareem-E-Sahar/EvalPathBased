@@ -1,0 +1,29 @@
+mask SimpleName SimpleType SingleVariableDeclaration SimpleName new mask
+old mask SimpleName VariableDeclarationFragment SimpleName mask
+mask SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old mask
+mask SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mask
+mask SimpleName FieldAccess Assignment SimpleName new mask
+fire property change SimpleName MethodInvocation StringLiteral mask
+fire property change SimpleName MethodInvocation SimpleName old mask
+fire property change SimpleName MethodInvocation SimpleName new mask
+mask StringLiteral MethodInvocation SimpleName old mask
+mask StringLiteral MethodInvocation SimpleName new mask
+old mask SimpleName MethodInvocation SimpleName new mask
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set mask
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mask
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new mask
+void PrimitiveType MethodDeclaration SimpleName set mask
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mask
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new mask
+set mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mask
+set mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new mask
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set mask
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new mask
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set mask
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new mask

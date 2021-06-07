@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get width
+public Modifier MethodDeclaration Block ReturnStatement SimpleName width
+float PrimitiveType MethodDeclaration SimpleName get width
+float PrimitiveType MethodDeclaration Block ReturnStatement SimpleName width
+get width SimpleName MethodDeclaration Block ReturnStatement SimpleName width
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get width
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get width

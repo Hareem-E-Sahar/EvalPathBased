@@ -1,0 +1,167 @@
+svg document SimpleName MethodInvocation SimpleName get root element
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg document
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root element
+svgsvg element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName get size
+dimension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+old d SimpleName VariableDeclarationFragment SimpleName prev component size
+dimension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old d
+dimension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev component size
+old d SimpleName Assignment SimpleName d
+prev component size SimpleName Assignment SimpleName d
+dwidth QualifiedName InfixExpression NumberLiteral empty
+dwidth QualifiedName Assignment NumberLiteral empty
+dheight QualifiedName InfixExpression NumberLiteral empty
+dheight QualifiedName Assignment NumberLiteral empty
+calculate viewing transform SimpleName MethodInvocation SimpleName fragment identifier
+calculate viewing transform SimpleName MethodInvocation SimpleName elt
+fragment identifier SimpleName MethodInvocation SimpleName elt
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName calculate viewing transform
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName fragment identifier
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+final Modifier VariableDeclarationStatement SimpleType SimpleName affine transform
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName calculate viewing transform
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName fragment identifier
+final Modifier VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName elt
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+vt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get viewing transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vt
+at SimpleName MethodInvocation SimpleName equals
+at SimpleName MethodInvocation SimpleName vt
+equals SimpleName MethodInvocation SimpleName vt
+old dwidth QualifiedName InfixExpression QualifiedName dwidth
+old dheight QualifiedName InfixExpression QualifiedName dheight
+recenter on resize SimpleName PrefixExpression IfStatement ReturnStatement BooleanLiteral true
+old dwidth QualifiedName InfixExpression NumberLiteral . f
+old dheight QualifiedName InfixExpression NumberLiteral . f
+point dfloat QualifiedName SimpleType ClassInstanceCreation InfixExpression QualifiedName old dwidth
+point dfloat QualifiedName SimpleType ClassInstanceCreation InfixExpression NumberLiteral . f
+point dfloat QualifiedName SimpleType ClassInstanceCreation InfixExpression QualifiedName old dheight
+point dfloat QualifiedName SimpleType ClassInstanceCreation InfixExpression NumberLiteral . f
+old dwidth QualifiedName InfixExpression ClassInstanceCreation InfixExpression QualifiedName old dheight
+old dwidth QualifiedName InfixExpression ClassInstanceCreation InfixExpression NumberLiteral . f
+. f NumberLiteral InfixExpression ClassInstanceCreation InfixExpression QualifiedName old dheight
+. f NumberLiteral InfixExpression ClassInstanceCreation InfixExpression NumberLiteral . f
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point dfloat
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName old dwidth
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression NumberLiteral . f
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression QualifiedName old dheight
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression NumberLiteral . f
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pt
+rend at SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rendering transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rend at
+rend at SimpleName MethodInvocation SimpleName create inverse
+inv rend at SimpleName VariableDeclarationFragment MethodInvocation SimpleName rend at
+inv rend at SimpleName VariableDeclarationFragment MethodInvocation SimpleName create inverse
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inv rend at
+inv rend at SimpleName MethodInvocation SimpleName transform
+inv rend at SimpleName MethodInvocation SimpleName pt
+transform SimpleName MethodInvocation SimpleName pt
+pt SimpleName Assignment MethodInvocation SimpleName inv rend at
+pt SimpleName Assignment MethodInvocation SimpleName transform
+pt SimpleName Assignment MethodInvocation SimpleName pt
+noninvertible transform exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+vt SimpleName MethodInvocation SimpleName create inverse
+inv vt SimpleName VariableDeclarationFragment MethodInvocation SimpleName vt
+inv vt SimpleName VariableDeclarationFragment MethodInvocation SimpleName create inverse
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inv vt
+inv vt SimpleName MethodInvocation SimpleName transform
+inv vt SimpleName MethodInvocation SimpleName pt
+transform SimpleName MethodInvocation SimpleName pt
+pt SimpleName Assignment MethodInvocation SimpleName inv vt
+pt SimpleName Assignment MethodInvocation SimpleName transform
+pt SimpleName Assignment MethodInvocation SimpleName pt
+noninvertible transform exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+at SimpleName MethodInvocation SimpleName transform
+at SimpleName MethodInvocation SimpleName pt
+transform SimpleName MethodInvocation SimpleName pt
+pt SimpleName Assignment MethodInvocation SimpleName at
+pt SimpleName Assignment MethodInvocation SimpleName transform
+pt SimpleName Assignment MethodInvocation SimpleName pt
+rend at SimpleName MethodInvocation SimpleName transform
+rend at SimpleName MethodInvocation SimpleName pt
+transform SimpleName MethodInvocation SimpleName pt
+pt SimpleName Assignment MethodInvocation SimpleName rend at
+pt SimpleName Assignment MethodInvocation SimpleName transform
+pt SimpleName Assignment MethodInvocation SimpleName pt
+dwidth QualifiedName InfixExpression NumberLiteral . f
+pt SimpleName MethodInvocation SimpleName get x
+dx SimpleName VariableDeclarationFragment CastExpression PrimitiveType float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType float
+dheight QualifiedName InfixExpression NumberLiteral . f
+pt SimpleName MethodInvocation SimpleName get y
+dy SimpleName VariableDeclarationFragment CastExpression PrimitiveType float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dy
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType float
+dx SimpleName InfixExpression NumberLiteral empty
+dx SimpleName InfixExpression NumberLiteral .
+dx SimpleName InfixExpression NumberLiteral .
+dx SimpleName Assignment CastExpression PrimitiveType int
+dy SimpleName InfixExpression NumberLiteral empty
+dy SimpleName InfixExpression NumberLiteral .
+dy SimpleName InfixExpression NumberLiteral .
+dy SimpleName Assignment CastExpression PrimitiveType int
+dx SimpleName InfixExpression NumberLiteral empty
+dy SimpleName InfixExpression NumberLiteral empty
+affine transform SimpleName MethodInvocation SimpleName get translate instance
+affine transform SimpleName MethodInvocation SimpleName dx
+affine transform SimpleName MethodInvocation SimpleName dy
+get translate instance SimpleName MethodInvocation SimpleName dx
+get translate instance SimpleName MethodInvocation SimpleName dy
+dx SimpleName MethodInvocation SimpleName dy
+rend at SimpleName MethodInvocation SimpleName pre concatenate
+rend at SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+rend at SimpleName MethodInvocation MethodInvocation SimpleName get translate instance
+rend at SimpleName MethodInvocation MethodInvocation SimpleName dx
+rend at SimpleName MethodInvocation MethodInvocation SimpleName dy
+pre concatenate SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+pre concatenate SimpleName MethodInvocation MethodInvocation SimpleName get translate instance
+pre concatenate SimpleName MethodInvocation MethodInvocation SimpleName dx
+pre concatenate SimpleName MethodInvocation MethodInvocation SimpleName dy
+set rendering transform SimpleName MethodInvocation SimpleName rend at
+set rendering transform SimpleName MethodInvocation BooleanLiteral false
+rend at SimpleName MethodInvocation BooleanLiteral false
+viewing transform SimpleName Assignment SimpleName at
+my at SimpleName VariableDeclarationFragment SimpleName at
+affine transform SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName my at
+affine transform SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName at
+my cgn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get canvas graphics node
+canvas graphics node SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName my cgn
+my cgn SimpleName MethodInvocation SimpleName set viewing transform
+my cgn SimpleName MethodInvocation SimpleName my at
+set viewing transform SimpleName MethodInvocation SimpleName my at
+viewing transform SimpleName InfixExpression SimpleName my at
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+r SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName runnable
+runnable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+um SimpleName VariableDeclarationFragment MethodInvocation SimpleName get update manager
+update manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName um
+um SimpleName MethodInvocation SimpleName get update runnable queue
+um SimpleName MethodInvocation MethodInvocation SimpleName invoke later
+get update runnable queue SimpleName MethodInvocation MethodInvocation SimpleName invoke later
+um SimpleName MethodInvocation MethodInvocation SimpleName r
+get update runnable queue SimpleName MethodInvocation MethodInvocation SimpleName r
+invoke later SimpleName MethodInvocation SimpleName r
+r SimpleName MethodInvocation SimpleName run
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+bridge exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName update rendering transform
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName update rendering transform
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+update rendering transform SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName update rendering transform
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update rendering transform

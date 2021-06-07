@@ -1,0 +1,32 @@
+float PrimitiveType SingleVariableDeclaration SimpleName offset
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName access key svg
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key name
+void PrimitiveType MethodDeclaration SimpleName access key svg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName offset
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key name
+access key svg SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+access key svg SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+access key svg SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+access key svg SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key name
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key name
+offset SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName access key svg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName access key svg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key name

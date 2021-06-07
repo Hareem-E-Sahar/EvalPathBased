@@ -1,0 +1,29 @@
+point d SimpleName SimpleType SingleVariableDeclaration SimpleName new location
+old location SimpleName VariableDeclarationFragment SimpleName location
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old location
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location
+location SimpleName FieldAccess Assignment SimpleName new location
+fire property change SimpleName MethodInvocation StringLiteral location
+fire property change SimpleName MethodInvocation SimpleName old location
+fire property change SimpleName MethodInvocation SimpleName new location
+location StringLiteral MethodInvocation SimpleName old location
+location StringLiteral MethodInvocation SimpleName new location
+old location SimpleName MethodInvocation SimpleName new location
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set location
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new location
+void PrimitiveType MethodDeclaration SimpleName set location
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new location
+set location SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+set location SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new location
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set location
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new location
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set location
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new location

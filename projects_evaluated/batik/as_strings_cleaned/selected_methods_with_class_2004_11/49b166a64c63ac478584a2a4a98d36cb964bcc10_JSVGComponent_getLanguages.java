@@ -1,0 +1,13 @@
+svg user agent SimpleName MethodInvocation SimpleName get languages
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get languages
+public Modifier MethodDeclaration Block ReturnStatement StringLiteral en
+string SimpleName SimpleType MethodDeclaration SimpleName get languages
+get languages SimpleName MethodDeclaration Block ReturnStatement StringLiteral en
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get languages
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get languages

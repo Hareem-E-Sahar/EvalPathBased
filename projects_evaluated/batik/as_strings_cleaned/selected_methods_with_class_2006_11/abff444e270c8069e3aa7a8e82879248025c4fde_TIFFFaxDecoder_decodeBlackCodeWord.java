@@ -1,0 +1,139 @@
+code SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName current
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bits
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is t
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName code
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+current SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+current SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName bits
+current SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName is t
+current SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName code
+entry SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName bits
+entry SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName is t
+entry SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName code
+bits SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName is t
+bits SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName code
+is t SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName code
+run length SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName run length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+is white SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is white
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+next lesser than bits SimpleName MethodInvocation NumberLiteral empty
+current SimpleName Assignment MethodInvocation SimpleName next lesser than bits
+current SimpleName Assignment MethodInvocation NumberLiteral empty
+init black SimpleName ArrayAccess SimpleName current
+entry SimpleName Assignment ArrayAccess SimpleName init black
+entry SimpleName Assignment ArrayAccess SimpleName current
+entry SimpleName InfixExpression NumberLiteral x
+is t SimpleName Assignment InfixExpression SimpleName entry
+is t SimpleName Assignment InfixExpression NumberLiteral x
+entry SimpleName InfixExpression NumberLiteral empty
+entry SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x f
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x f
+bits SimpleName Assignment InfixExpression NumberLiteral x f
+entry SimpleName InfixExpression NumberLiteral empty
+entry SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+code SimpleName Assignment InfixExpression NumberLiteral x ff
+code SimpleName InfixExpression NumberLiteral empty
+next n bits SimpleName MethodInvocation NumberLiteral empty
+current SimpleName Assignment MethodInvocation SimpleName next n bits
+current SimpleName Assignment MethodInvocation NumberLiteral empty
+black SimpleName ArrayAccess SimpleName current
+entry SimpleName Assignment ArrayAccess SimpleName black
+entry SimpleName Assignment ArrayAccess SimpleName current
+entry SimpleName InfixExpression NumberLiteral x
+is t SimpleName Assignment InfixExpression SimpleName entry
+is t SimpleName Assignment InfixExpression NumberLiteral x
+entry SimpleName InfixExpression NumberLiteral empty
+entry SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x f
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x f
+bits SimpleName Assignment InfixExpression NumberLiteral x f
+entry SimpleName InfixExpression NumberLiteral empty
+entry SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+code SimpleName Assignment InfixExpression NumberLiteral x ff
+bits SimpleName InfixExpression NumberLiteral empty
+update pointer SimpleName MethodInvocation NumberLiteral empty
+next lesser than bits SimpleName MethodInvocation NumberLiteral empty
+current SimpleName Assignment MethodInvocation SimpleName next lesser than bits
+current SimpleName Assignment MethodInvocation NumberLiteral empty
+additional makeup SimpleName ArrayAccess SimpleName current
+entry SimpleName Assignment ArrayAccess SimpleName additional makeup
+entry SimpleName Assignment ArrayAccess SimpleName current
+entry SimpleName InfixExpression NumberLiteral empty
+entry SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+bits SimpleName Assignment InfixExpression NumberLiteral x
+entry SimpleName InfixExpression NumberLiteral empty
+entry SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x fff
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x fff
+code SimpleName Assignment InfixExpression NumberLiteral x fff
+run length SimpleName Assignment SimpleName code
+empty NumberLiteral InfixExpression SimpleName bits
+update pointer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+update pointer SimpleName MethodInvocation InfixExpression SimpleName bits
+bits SimpleName InfixExpression NumberLiteral empty
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff fax decoder
+run length SimpleName Assignment SimpleName code
+empty NumberLiteral InfixExpression SimpleName bits
+update pointer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+update pointer SimpleName MethodInvocation InfixExpression SimpleName bits
+is t SimpleName InfixExpression NumberLiteral empty
+is white SimpleName Assignment BooleanLiteral true
+code SimpleName InfixExpression NumberLiteral empty
+next lesser than bits SimpleName MethodInvocation NumberLiteral empty
+current SimpleName Assignment MethodInvocation SimpleName next lesser than bits
+current SimpleName Assignment MethodInvocation NumberLiteral empty
+two bit black SimpleName ArrayAccess SimpleName current
+entry SimpleName Assignment ArrayAccess SimpleName two bit black
+entry SimpleName Assignment ArrayAccess SimpleName current
+entry SimpleName InfixExpression NumberLiteral empty
+entry SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+code SimpleName Assignment InfixExpression NumberLiteral x ff
+run length SimpleName Assignment SimpleName code
+entry SimpleName InfixExpression NumberLiteral empty
+entry SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x f
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x f
+bits SimpleName Assignment InfixExpression NumberLiteral x f
+empty NumberLiteral InfixExpression SimpleName bits
+update pointer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+update pointer SimpleName MethodInvocation InfixExpression SimpleName bits
+is white SimpleName Assignment BooleanLiteral true
+run length SimpleName Assignment SimpleName code
+empty NumberLiteral InfixExpression SimpleName bits
+update pointer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+update pointer SimpleName MethodInvocation InfixExpression SimpleName bits
+is white SimpleName Assignment BooleanLiteral true
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName run length
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName run length
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName run length
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName decode black code word
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+private Modifier MethodDeclaration Block ReturnStatement SimpleName run length
+int PrimitiveType MethodDeclaration SimpleName decode black code word
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName run length
+decode black code word SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+decode black code word SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+decode black code word SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+decode black code word SimpleName MethodDeclaration Block ReturnStatement SimpleName run length
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode black code word
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode black code word

@@ -1,0 +1,13 @@
+end SimpleName InfixExpression NumberLiteral empty
+set index SimpleName MethodInvocation InfixExpression SimpleName end
+set index SimpleName MethodInvocation InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType char
+public Modifier MethodDeclaration SimpleName last
+char PrimitiveType MethodDeclaration SimpleName last
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName last
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName last

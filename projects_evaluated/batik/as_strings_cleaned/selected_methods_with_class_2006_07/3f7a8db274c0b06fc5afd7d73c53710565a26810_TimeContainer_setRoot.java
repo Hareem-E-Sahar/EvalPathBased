@@ -1,0 +1,53 @@
+timed element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+timed document root SimpleName SimpleType SingleVariableDeclaration SimpleName root
+eroot QualifiedName Assignment SimpleName root
+e SimpleName InstanceofExpression SimpleType SimpleName time container
+time container SimpleName SimpleType CastExpression SimpleName e
+c SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName time container
+c SimpleName VariableDeclarationFragment CastExpression SimpleName e
+time container SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName get children
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName get children
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName eslength
+es SimpleName ArrayAccess SimpleName i
+set root SimpleName MethodInvocation ArrayAccess SimpleName es
+set root SimpleName MethodInvocation ArrayAccess SimpleName i
+set root SimpleName MethodInvocation SimpleName root
+es SimpleName ArrayAccess MethodInvocation SimpleName root
+i SimpleName ArrayAccess MethodInvocation SimpleName root
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName eslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+eslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set root
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed document root
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName root
+void PrimitiveType MethodDeclaration SimpleName set root
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed document root
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName root
+set root SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed element
+set root SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+set root SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed document root
+set root SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set root
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set root
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root

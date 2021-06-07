@@ -1,0 +1,12 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+element SimpleName SimpleType MethodDeclaration SimpleName get xbl previous element sibling
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get xbl previous element sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get xbl previous element sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get xbl previous element sibling
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get xbl previous element sibling
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

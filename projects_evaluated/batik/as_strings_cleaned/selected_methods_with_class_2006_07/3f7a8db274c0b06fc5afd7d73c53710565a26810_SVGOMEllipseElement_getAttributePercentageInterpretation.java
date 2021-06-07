@@ -1,0 +1,62 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ln
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg cx attribute
+equals SimpleName MethodInvocation SimpleName svg cx attribute
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg rx attribute
+equals SimpleName MethodInvocation SimpleName svg rx attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rx attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rx attribute
+svg cx attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg cx attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg cx attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rx attribute
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg cy attribute
+equals SimpleName MethodInvocation SimpleName svg cy attribute
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg ry attribute
+equals SimpleName MethodInvocation SimpleName svg ry attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg ry attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg ry attribute
+svg cy attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg cy attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg cy attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg ry attribute
+get attribute percentage interpretation SimpleName SuperMethodInvocation SimpleName ns
+get attribute percentage interpretation SimpleName SuperMethodInvocation SimpleName ln
+ns SimpleName SuperMethodInvocation SimpleName ln
+protected Modifier MethodDeclaration PrimitiveType short
+protected Modifier MethodDeclaration SimpleName get attribute percentage interpretation
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ln
+short PrimitiveType MethodDeclaration SimpleName get attribute percentage interpretation
+short PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+short PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ns
+short PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+short PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ln
+get attribute percentage interpretation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get attribute percentage interpretation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+get attribute percentage interpretation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get attribute percentage interpretation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ln
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute percentage interpretation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute percentage interpretation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln

@@ -1,0 +1,23 @@
+locale SimpleName SimpleType SingleVariableDeclaration SimpleName l
+set locale SimpleName SuperMethodInvocation SimpleName l
+localizable support SimpleName MethodInvocation SimpleName set locale
+localizable support SimpleName MethodInvocation SimpleName l
+set locale SimpleName MethodInvocation SimpleName l
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set locale
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName locale
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName set locale
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName locale
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+set locale SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName locale
+set locale SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set locale
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set locale
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

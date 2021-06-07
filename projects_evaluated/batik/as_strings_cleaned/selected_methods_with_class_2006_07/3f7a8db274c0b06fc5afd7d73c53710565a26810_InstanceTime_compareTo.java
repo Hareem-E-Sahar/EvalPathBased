@@ -1,0 +1,27 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+instance time SimpleName SimpleType CastExpression SimpleName o
+o SimpleName CastExpression ParenthesizedExpression FieldAccess SimpleName time
+float SimpleName MethodInvocation SimpleName compare
+float SimpleName MethodInvocation SimpleName time
+float SimpleName MethodInvocation FieldAccess SimpleName time
+compare SimpleName MethodInvocation SimpleName time
+compare SimpleName MethodInvocation FieldAccess SimpleName time
+time SimpleName MethodInvocation FieldAccess SimpleName time
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compare to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+int PrimitiveType MethodDeclaration SimpleName compare to
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+compare to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

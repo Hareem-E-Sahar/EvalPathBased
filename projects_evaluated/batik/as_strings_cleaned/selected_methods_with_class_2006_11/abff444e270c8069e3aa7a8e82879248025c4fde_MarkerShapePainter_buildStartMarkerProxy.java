@@ -1,0 +1,131 @@
+get ext shape SimpleName MethodInvocation MethodInvocation SimpleName get extended path iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get ext shape
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get extended path iterator
+extended path iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+double PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+coords SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType double
+coords SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName coords
+seg type SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName seg type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName is done
+iter SimpleName MethodInvocation SimpleName current segment
+iter SimpleName MethodInvocation SimpleName coords
+current segment SimpleName MethodInvocation SimpleName coords
+seg type SimpleName Assignment MethodInvocation SimpleName iter
+seg type SimpleName Assignment MethodInvocation SimpleName current segment
+seg type SimpleName Assignment MethodInvocation SimpleName coords
+seg type SimpleName InfixExpression QualifiedName extended path iteratorseg moveto
+iter SimpleName MethodInvocation SimpleName next
+coords SimpleName ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName coords
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName coords
+point ddouble QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName coords
+coords SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName coords
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+marker position SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+marker position SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName coords
+marker position SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+marker position SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName coords
+marker position SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName marker position
+start marker SimpleName MethodInvocation SimpleName get orient
+rotation SimpleName VariableDeclarationFragment MethodInvocation SimpleName start marker
+rotation SimpleName VariableDeclarationFragment MethodInvocation SimpleName get orient
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rotation
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName start marker
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get orient
+double SimpleName MethodInvocation SimpleName is na n
+double SimpleName MethodInvocation SimpleName rotation
+is na n SimpleName MethodInvocation SimpleName rotation
+iter SimpleName MethodInvocation SimpleName is done
+double PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+next SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType double
+next SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName next
+next seg type SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName next seg type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName current segment
+iter SimpleName MethodInvocation SimpleName next
+current segment SimpleName MethodInvocation SimpleName next
+next seg type SimpleName Assignment MethodInvocation SimpleName iter
+next seg type SimpleName Assignment MethodInvocation SimpleName current segment
+next seg type SimpleName Assignment MethodInvocation SimpleName next
+next seg type SimpleName InfixExpression QualifiedName path iteratorseg close
+next seg type SimpleName Assignment QualifiedName path iteratorseg lineto
+next SimpleName ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess Assignment ArrayAccess SimpleName coords
+next SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName coords
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess NumberLiteral empty
+coords SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess Assignment ArrayAccess SimpleName coords
+next SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName coords
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+compute rotation SimpleName MethodInvocation NumberLiteral empty
+compute rotation SimpleName MethodInvocation SimpleName coords
+compute rotation SimpleName MethodInvocation SimpleName seg type
+compute rotation SimpleName MethodInvocation SimpleName next
+empty NumberLiteral MethodInvocation SimpleName coords
+empty NumberLiteral MethodInvocation SimpleName seg type
+empty NumberLiteral MethodInvocation SimpleName next
+empty NumberLiteral MethodInvocation SimpleName next seg type
+coords SimpleName MethodInvocation SimpleName seg type
+coords SimpleName MethodInvocation SimpleName next
+coords SimpleName MethodInvocation SimpleName next seg type
+seg type SimpleName MethodInvocation SimpleName next
+seg type SimpleName MethodInvocation SimpleName next seg type
+next SimpleName MethodInvocation SimpleName next seg type
+rotation SimpleName Assignment MethodInvocation SimpleName compute rotation
+rotation SimpleName Assignment MethodInvocation NumberLiteral empty
+rotation SimpleName Assignment MethodInvocation SimpleName coords
+rotation SimpleName Assignment MethodInvocation SimpleName seg type
+rotation SimpleName Assignment MethodInvocation SimpleName next
+rotation SimpleName Assignment MethodInvocation SimpleName next seg type
+compute marker transform SimpleName MethodInvocation SimpleName start marker
+compute marker transform SimpleName MethodInvocation SimpleName marker position
+compute marker transform SimpleName MethodInvocation SimpleName rotation
+start marker SimpleName MethodInvocation SimpleName marker position
+start marker SimpleName MethodInvocation SimpleName rotation
+marker position SimpleName MethodInvocation SimpleName rotation
+marker txf SimpleName VariableDeclarationFragment MethodInvocation SimpleName compute marker transform
+marker txf SimpleName VariableDeclarationFragment MethodInvocation SimpleName start marker
+marker txf SimpleName VariableDeclarationFragment MethodInvocation SimpleName marker position
+marker txf SimpleName VariableDeclarationFragment MethodInvocation SimpleName rotation
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName marker txf
+gn SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName proxy graphics node
+proxy graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn
+start marker SimpleName MethodInvocation SimpleName get marker node
+gn SimpleName MethodInvocation SimpleName set source
+gn SimpleName MethodInvocation MethodInvocation SimpleName start marker
+gn SimpleName MethodInvocation MethodInvocation SimpleName get marker node
+set source SimpleName MethodInvocation MethodInvocation SimpleName start marker
+set source SimpleName MethodInvocation MethodInvocation SimpleName get marker node
+gn SimpleName MethodInvocation SimpleName set transform
+gn SimpleName MethodInvocation SimpleName marker txf
+set transform SimpleName MethodInvocation SimpleName marker txf
+protected Modifier MethodDeclaration SimpleType SimpleName proxy graphics node
+protected Modifier MethodDeclaration SimpleName build start marker proxy
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName gn
+proxy graphics node SimpleName SimpleType MethodDeclaration SimpleName build start marker proxy
+build start marker proxy SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+build start marker proxy SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+build start marker proxy SimpleName MethodDeclaration Block ReturnStatement SimpleName gn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName proxy graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName build start marker proxy
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName proxy graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build start marker proxy

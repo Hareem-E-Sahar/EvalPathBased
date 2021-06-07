@@ -1,0 +1,6 @@
+rendering hints SimpleName SimpleType MethodDeclaration SimpleName get rendering hints
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rendering hints
+public Modifier TypeDeclaration MethodDeclaration SimpleName get rendering hints
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rendering hints
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get rendering hints

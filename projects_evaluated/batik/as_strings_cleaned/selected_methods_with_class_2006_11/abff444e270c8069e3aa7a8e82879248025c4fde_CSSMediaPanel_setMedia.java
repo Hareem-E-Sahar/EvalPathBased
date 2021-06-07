@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName media
+list model SimpleName MethodInvocation SimpleName remove all elements
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName media
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+media SimpleName ClassInstanceCreation StringLiteral empty
+tokens SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+tokens SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName media
+tokens SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tokens
+tokens SimpleName MethodInvocation SimpleName has more tokens
+tokens SimpleName MethodInvocation SimpleName next token
+list model SimpleName MethodInvocation SimpleName add element
+list model SimpleName MethodInvocation MethodInvocation SimpleName tokens
+list model SimpleName MethodInvocation MethodInvocation SimpleName next token
+add element SimpleName MethodInvocation MethodInvocation SimpleName tokens
+add element SimpleName MethodInvocation MethodInvocation SimpleName next token
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set media
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName media
+void PrimitiveType MethodDeclaration SimpleName set media
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName media
+set media SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set media SimpleName MethodDeclaration SingleVariableDeclaration SimpleName media
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set media
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName media
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set media
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName media

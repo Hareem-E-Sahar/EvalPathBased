@@ -1,0 +1,20 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName v
+owner element SimpleName Assignment SimpleName v
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set owner element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+void PrimitiveType MethodDeclaration SimpleName set owner element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+set owner element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+set owner element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set owner element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set owner element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

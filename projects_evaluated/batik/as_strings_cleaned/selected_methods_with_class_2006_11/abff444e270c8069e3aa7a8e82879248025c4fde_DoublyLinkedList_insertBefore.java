@@ -1,0 +1,32 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName nde
+set next SimpleName MethodInvocation SimpleName nde
+nde SimpleName MethodInvocation SimpleName get prev
+set prev SimpleName MethodInvocation MethodInvocation SimpleName nde
+set prev SimpleName MethodInvocation MethodInvocation SimpleName get prev
+nde SimpleName MethodInvocation SimpleName set prev
+get prev SimpleName MethodInvocation MethodInvocation SimpleName set next
+protected Modifier MethodDeclaration Modifier final
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName insert before
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName nde
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName insert before
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName nde
+void PrimitiveType MethodDeclaration SimpleName insert before
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName nde
+insert before SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+insert before SimpleName MethodDeclaration SingleVariableDeclaration SimpleName nde
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName insert before
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nde
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName insert before
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nde

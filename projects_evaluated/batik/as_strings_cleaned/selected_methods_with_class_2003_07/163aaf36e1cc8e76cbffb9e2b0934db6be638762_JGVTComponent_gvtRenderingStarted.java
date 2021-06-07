@@ -1,0 +1,62 @@
+gvt tree renderer event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+progressive paint SimpleName InfixExpression PrefixExpression SimpleName double buffered rendering
+e SimpleName MethodInvocation SimpleName get image
+image SimpleName Assignment MethodInvocation SimpleName e
+image SimpleName Assignment MethodInvocation SimpleName get image
+final Modifier VariableDeclarationStatement SimpleType SimpleName thread
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName this thread
+thread SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName this thread
+progressive paint thread SimpleName InfixExpression SimpleName this thread
+dim SimpleName VariableDeclarationFragment MethodInvocation SimpleName get size
+dimension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dim
+repaint SimpleName MethodInvocation NumberLiteral empty
+repaint SimpleName MethodInvocation NumberLiteral empty
+repaint SimpleName MethodInvocation QualifiedName dimwidth
+repaint SimpleName MethodInvocation QualifiedName dimheight
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName dimwidth
+empty NumberLiteral MethodInvocation QualifiedName dimheight
+empty NumberLiteral MethodInvocation QualifiedName dimwidth
+empty NumberLiteral MethodInvocation QualifiedName dimheight
+dimwidth QualifiedName MethodInvocation QualifiedName dimheight
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+event queue SimpleName MethodInvocation SimpleName invoke later
+event queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+invoke later SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+sleep SimpleName MethodInvocation NumberLiteral empty
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+run SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+progressive paint thread SimpleName Assignment ClassInstanceCreation SimpleType SimpleName thread
+threadmin priority QualifiedName InfixExpression NumberLiteral empty
+progressive paint thread SimpleName MethodInvocation SimpleName set priority
+progressive paint thread SimpleName MethodInvocation InfixExpression QualifiedName threadmin priority
+progressive paint thread SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set priority SimpleName MethodInvocation InfixExpression QualifiedName threadmin priority
+set priority SimpleName MethodInvocation InfixExpression NumberLiteral empty
+progressive paint thread SimpleName MethodInvocation SimpleName start
+suspend interactions SimpleName Assignment BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName gvt rendering started
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt tree renderer event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName gvt rendering started
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt tree renderer event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+gvt rendering started SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt tree renderer event
+gvt rendering started SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName gvt rendering started
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName gvt rendering started
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

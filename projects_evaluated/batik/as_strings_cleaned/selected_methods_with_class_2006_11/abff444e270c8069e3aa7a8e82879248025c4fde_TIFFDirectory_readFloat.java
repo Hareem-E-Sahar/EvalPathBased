@@ -1,0 +1,30 @@
+seekable stream SimpleName SimpleType SingleVariableDeclaration SimpleName stream
+stream SimpleName MethodInvocation SimpleName read float
+stream SimpleName MethodInvocation SimpleName read float le
+private Modifier MethodDeclaration PrimitiveType float
+private Modifier MethodDeclaration SimpleName read float
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName seekable stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName stream
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block IfStatement SimpleName is big endian
+float PrimitiveType MethodDeclaration SimpleName read float
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName seekable stream
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stream
+float PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+float PrimitiveType MethodDeclaration Block IfStatement SimpleName is big endian
+read float SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName seekable stream
+read float SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stream
+read float SimpleName MethodDeclaration SimpleType SimpleName io exception
+read float SimpleName MethodDeclaration Block IfStatement SimpleName is big endian
+stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName read float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

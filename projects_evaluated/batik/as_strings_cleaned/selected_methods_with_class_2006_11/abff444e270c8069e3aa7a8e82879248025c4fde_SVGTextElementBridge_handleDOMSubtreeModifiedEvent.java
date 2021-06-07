@@ -1,0 +1,25 @@
+mutation event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+compute laidout text SimpleName MethodInvocation SimpleName ctx
+compute laidout text SimpleName MethodInvocation SimpleName e
+compute laidout text SimpleName MethodInvocation MethodInvocation SimpleName get text node
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation MethodInvocation SimpleName get text node
+e SimpleName MethodInvocation MethodInvocation SimpleName get text node
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle dom subtree modified event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName handle dom subtree modified event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+handle dom subtree modified event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+handle dom subtree modified event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle dom subtree modified event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle dom subtree modified event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

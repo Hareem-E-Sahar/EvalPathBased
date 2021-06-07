@@ -1,0 +1,76 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+create graphics node SimpleName SuperMethodInvocation SimpleName ctx
+create graphics node SimpleName SuperMethodInvocation SimpleName e
+ctx SimpleName SuperMethodInvocation SimpleName e
+shape node SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName create graphics node
+shape node SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName ctx
+shape node SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName e
+shape node SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName shape node
+shape node SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName create graphics node
+shape node SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName ctx
+shape node SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName e
+shape node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shape node
+associate svg context SimpleName MethodInvocation SimpleName ctx
+associate svg context SimpleName MethodInvocation SimpleName e
+associate svg context SimpleName MethodInvocation SimpleName shape node
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName shape node
+e SimpleName MethodInvocation SimpleName shape node
+build shape SimpleName MethodInvocation SimpleName ctx
+build shape SimpleName MethodInvocation SimpleName e
+build shape SimpleName MethodInvocation SimpleName shape node
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName shape node
+e SimpleName MethodInvocation SimpleName shape node
+rendering hints SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hints
+css utilities SimpleName MethodInvocation SimpleName convert color rendering
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation SimpleName hints
+convert color rendering SimpleName MethodInvocation SimpleName e
+convert color rendering SimpleName MethodInvocation SimpleName hints
+e SimpleName MethodInvocation SimpleName hints
+hints SimpleName Assignment MethodInvocation SimpleName css utilities
+hints SimpleName Assignment MethodInvocation SimpleName convert color rendering
+hints SimpleName Assignment MethodInvocation SimpleName e
+hints SimpleName Assignment MethodInvocation SimpleName hints
+css utilities SimpleName MethodInvocation SimpleName convert shape rendering
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation SimpleName hints
+convert shape rendering SimpleName MethodInvocation SimpleName e
+convert shape rendering SimpleName MethodInvocation SimpleName hints
+e SimpleName MethodInvocation SimpleName hints
+hints SimpleName Assignment MethodInvocation SimpleName css utilities
+hints SimpleName Assignment MethodInvocation SimpleName convert shape rendering
+hints SimpleName Assignment MethodInvocation SimpleName e
+hints SimpleName Assignment MethodInvocation SimpleName hints
+shape node SimpleName MethodInvocation SimpleName set rendering hints
+shape node SimpleName MethodInvocation SimpleName hints
+set rendering hints SimpleName MethodInvocation SimpleName hints
+public Modifier MethodDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SimpleName create graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block ReturnStatement SimpleName shape node
+graphics node SimpleName SimpleType MethodDeclaration SimpleName create graphics node
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+create graphics node SimpleName MethodDeclaration Block ReturnStatement SimpleName shape node
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create graphics node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create graphics node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

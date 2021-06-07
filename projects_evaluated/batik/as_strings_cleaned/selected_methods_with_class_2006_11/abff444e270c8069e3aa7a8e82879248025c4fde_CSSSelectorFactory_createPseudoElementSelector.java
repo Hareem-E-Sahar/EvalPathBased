@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pseudo name
+css pseudo element selector SimpleName SimpleType ClassInstanceCreation SimpleName namespace uri
+css pseudo element selector SimpleName SimpleType ClassInstanceCreation SimpleName pseudo name
+namespace uri SimpleName ClassInstanceCreation SimpleName pseudo name
+public Modifier MethodDeclaration SimpleType SimpleName element selector
+public Modifier MethodDeclaration SimpleName create pseudo element selector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pseudo name
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+element selector SimpleName SimpleType MethodDeclaration SimpleName create pseudo element selector
+element selector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+element selector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pseudo name
+element selector SimpleName SimpleType MethodDeclaration SimpleType SimpleName css exception
+create pseudo element selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create pseudo element selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+create pseudo element selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create pseudo element selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pseudo name
+create pseudo element selector SimpleName MethodDeclaration SimpleType SimpleName css exception
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo name
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+pseudo name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element selector
+public Modifier TypeDeclaration MethodDeclaration SimpleName create pseudo element selector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element selector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create pseudo element selector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

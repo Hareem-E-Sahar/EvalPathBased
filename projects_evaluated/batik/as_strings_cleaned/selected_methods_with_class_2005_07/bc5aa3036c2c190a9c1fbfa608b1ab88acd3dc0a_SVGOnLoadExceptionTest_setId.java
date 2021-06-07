@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+set id SimpleName SuperMethodInvocation SimpleName id
+id SimpleName MethodInvocation SimpleName index of
+id SimpleName MethodInvocation StringLiteral (
+index of SimpleName MethodInvocation StringLiteral (
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+i SimpleName VariableDeclarationFragment MethodInvocation StringLiteral (
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName id
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral (
+i SimpleName InfixExpression PrefixExpression NumberLiteral empty
+id SimpleName MethodInvocation SimpleName substring
+id SimpleName MethodInvocation NumberLiteral empty
+id SimpleName MethodInvocation SimpleName i
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName i
+empty NumberLiteral MethodInvocation SimpleName i
+id SimpleName Assignment MethodInvocation SimpleName id
+id SimpleName Assignment MethodInvocation SimpleName substring
+id SimpleName Assignment MethodInvocation NumberLiteral empty
+id SimpleName Assignment MethodInvocation SimpleName i
+testresourcesorgapachebatik StringLiteral InfixExpression SimpleName id
+testresourcesorgapachebatik StringLiteral InfixExpression StringLiteral svg
+id SimpleName InfixExpression StringLiteral svg
+file name SimpleName Assignment InfixExpression StringLiteral testresourcesorgapachebatik
+file name SimpleName Assignment InfixExpression SimpleName id
+file name SimpleName Assignment InfixExpression StringLiteral svg
+resolve url SimpleName MethodInvocation SimpleName file name
+svg url SimpleName Assignment MethodInvocation SimpleName resolve url
+svg url SimpleName Assignment MethodInvocation SimpleName file name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleName set id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+set id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

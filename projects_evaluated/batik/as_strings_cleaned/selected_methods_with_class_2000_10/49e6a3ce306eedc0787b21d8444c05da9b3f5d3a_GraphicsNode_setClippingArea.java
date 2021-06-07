@@ -1,0 +1,13 @@
+shape SimpleName SimpleType SingleVariableDeclaration SimpleName new clipping area
+void PrimitiveType MethodDeclaration SimpleName set clipping area
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new clipping area
+set clipping area SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+set clipping area SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new clipping area
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set clipping area
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new clipping area
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set clipping area
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new clipping area

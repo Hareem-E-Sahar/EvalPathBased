@@ -1,0 +1,162 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+boolean PrimitiveType SingleVariableDeclaration SimpleName show whitespace
+default mutable tree node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+node info SimpleName SimpleType ClassInstanceCreation SimpleName node
+default mutable tree node SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName node
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName default mutable tree node
+result SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName node
+node SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName InstanceofExpression SimpleType QualifiedName orgw cdomtext
+n SimpleName MethodInvocation SimpleName get node value
+txt SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+txt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get node value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName txt
+txt SimpleName MethodInvocation SimpleName trim
+txt SimpleName MethodInvocation MethodInvocation SimpleName length
+trim SimpleName MethodInvocation MethodInvocation SimpleName length
+txt SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+trim SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+create tree SimpleName MethodInvocation SimpleName n
+create tree SimpleName MethodInvocation SimpleName show whitespace
+n SimpleName MethodInvocation SimpleName show whitespace
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation MethodInvocation SimpleName create tree
+result SimpleName MethodInvocation MethodInvocation SimpleName n
+result SimpleName MethodInvocation MethodInvocation SimpleName show whitespace
+add SimpleName MethodInvocation MethodInvocation SimpleName create tree
+add SimpleName MethodInvocation MethodInvocation SimpleName n
+add SimpleName MethodInvocation MethodInvocation SimpleName show whitespace
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+node SimpleName InstanceofExpression SimpleType SimpleName node xbl
+node xbl SimpleName SimpleType CastExpression SimpleName node
+node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get xbl shadow tree
+shadow tree SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xbl shadow tree
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shadow tree
+shadow node info SimpleName SimpleType ClassInstanceCreation SimpleName shadow tree
+default mutable tree node SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName shadow tree
+shadow node SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default mutable tree node
+shadow node SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName shadow tree
+default mutable tree node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shadow node
+create tree SimpleName MethodInvocation SimpleName shadow tree
+create tree SimpleName MethodInvocation SimpleName show whitespace
+shadow tree SimpleName MethodInvocation SimpleName show whitespace
+shadow node SimpleName MethodInvocation SimpleName add
+shadow node SimpleName MethodInvocation MethodInvocation SimpleName create tree
+shadow node SimpleName MethodInvocation MethodInvocation SimpleName shadow tree
+shadow node SimpleName MethodInvocation MethodInvocation SimpleName show whitespace
+add SimpleName MethodInvocation MethodInvocation SimpleName create tree
+add SimpleName MethodInvocation MethodInvocation SimpleName shadow tree
+add SimpleName MethodInvocation MethodInvocation SimpleName show whitespace
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName shadow node
+add SimpleName MethodInvocation SimpleName shadow node
+node SimpleName InstanceofExpression SimpleType SimpleName xblom content element
+node SimpleName MethodInvocation SimpleName get owner document
+abstract document SimpleName SimpleType CastExpression MethodInvocation SimpleName node
+abstract document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract document
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName node
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+abstract document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get xbl manager
+xm SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+xm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xbl manager
+xbl manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName xm
+xm SimpleName InstanceofExpression SimpleType SimpleName default xbl manager
+content node info SimpleName SimpleType ClassInstanceCreation SimpleName node
+default mutable tree node SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName node
+selected content node SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default mutable tree node
+selected content node SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation SimpleName node
+default mutable tree node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName selected content node
+default xbl manager SimpleName SimpleType CastExpression SimpleName xm
+dxm SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName default xbl manager
+dxm SimpleName VariableDeclarationFragment CastExpression SimpleName xm
+default xbl manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dxm
+dxm SimpleName MethodInvocation SimpleName get content manager
+dxm SimpleName MethodInvocation SimpleName node
+get content manager SimpleName MethodInvocation SimpleName node
+cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName dxm
+cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get content manager
+cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+content manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+xblom content element SimpleName SimpleType CastExpression SimpleName node
+cm SimpleName MethodInvocation SimpleName get selected content
+cm SimpleName MethodInvocation CastExpression SimpleType SimpleName xblom content element
+cm SimpleName MethodInvocation CastExpression SimpleName node
+get selected content SimpleName MethodInvocation CastExpression SimpleType SimpleName xblom content element
+get selected content SimpleName MethodInvocation CastExpression SimpleName node
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName cm
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selected content
+nl SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName node
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nl
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+nl SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName nl
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+nl SimpleName MethodInvocation SimpleName item
+nl SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+create tree SimpleName MethodInvocation MethodInvocation SimpleName nl
+create tree SimpleName MethodInvocation MethodInvocation SimpleName item
+create tree SimpleName MethodInvocation MethodInvocation SimpleName i
+create tree SimpleName MethodInvocation SimpleName show whitespace
+nl SimpleName MethodInvocation MethodInvocation SimpleName show whitespace
+item SimpleName MethodInvocation MethodInvocation SimpleName show whitespace
+i SimpleName MethodInvocation MethodInvocation SimpleName show whitespace
+selected content node SimpleName MethodInvocation SimpleName add
+selected content node SimpleName MethodInvocation MethodInvocation SimpleName create tree
+selected content node SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nl
+selected content node SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName item
+selected content node SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+selected content node SimpleName MethodInvocation MethodInvocation SimpleName show whitespace
+add SimpleName MethodInvocation MethodInvocation SimpleName create tree
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName nl
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName item
+add SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName i
+add SimpleName MethodInvocation MethodInvocation SimpleName show whitespace
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation SimpleName selected content node
+add SimpleName MethodInvocation SimpleName selected content node
+protected Modifier MethodDeclaration SimpleType SimpleName mutable tree node
+protected Modifier MethodDeclaration SimpleName create tree
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName show whitespace
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName result
+mutable tree node SimpleName SimpleType MethodDeclaration SimpleName create tree
+mutable tree node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+mutable tree node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+mutable tree node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName show whitespace
+create tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+create tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+create tree SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+create tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleName show whitespace
+create tree SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName show whitespace
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutable tree node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create tree
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName show whitespace
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutable tree node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create tree
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName show whitespace

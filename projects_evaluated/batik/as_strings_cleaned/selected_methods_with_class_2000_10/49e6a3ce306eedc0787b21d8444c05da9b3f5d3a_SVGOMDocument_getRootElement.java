@@ -1,0 +1,11 @@
+svgsvg element SimpleName SimpleType CastExpression MethodInvocation SimpleName get document element
+public Modifier MethodDeclaration SimpleType SimpleName svgsvg element
+public Modifier MethodDeclaration SimpleName get root element
+svgsvg element SimpleName SimpleType MethodDeclaration SimpleName get root element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svgsvg element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get root element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svgsvg element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get root element

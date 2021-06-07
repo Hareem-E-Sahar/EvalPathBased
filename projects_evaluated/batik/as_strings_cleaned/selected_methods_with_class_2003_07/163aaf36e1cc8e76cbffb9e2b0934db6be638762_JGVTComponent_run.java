@@ -1,0 +1,37 @@
+final Modifier VariableDeclarationStatement SimpleType SimpleName thread
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName this thread
+thread SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName this thread
+progressive paint thread SimpleName InfixExpression SimpleName this thread
+dim SimpleName VariableDeclarationFragment MethodInvocation SimpleName get size
+dimension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dim
+repaint SimpleName MethodInvocation NumberLiteral empty
+repaint SimpleName MethodInvocation NumberLiteral empty
+repaint SimpleName MethodInvocation QualifiedName dimwidth
+repaint SimpleName MethodInvocation QualifiedName dimheight
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName dimwidth
+empty NumberLiteral MethodInvocation QualifiedName dimheight
+empty NumberLiteral MethodInvocation QualifiedName dimwidth
+empty NumberLiteral MethodInvocation QualifiedName dimheight
+dimwidth QualifiedName MethodInvocation QualifiedName dimheight
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+event queue SimpleName MethodInvocation SimpleName invoke later
+event queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+invoke later SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+sleep SimpleName MethodInvocation NumberLiteral empty
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+run SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

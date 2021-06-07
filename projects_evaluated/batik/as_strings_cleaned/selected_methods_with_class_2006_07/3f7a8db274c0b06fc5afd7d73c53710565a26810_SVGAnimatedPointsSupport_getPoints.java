@@ -1,0 +1,28 @@
+abstract element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+get svgom animated points SimpleName MethodInvocation SimpleName e
+get svgom animated points SimpleName MethodInvocation MethodInvocation SimpleName get points
+e SimpleName MethodInvocation MethodInvocation SimpleName get points
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName svg point list
+public Modifier MethodDeclaration SimpleName get points
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SimpleType SimpleName svg point list
+static Modifier MethodDeclaration SimpleName get points
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+svg point list SimpleName SimpleType MethodDeclaration SimpleName get points
+svg point list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+get points SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract element
+get points SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg point list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get points
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg point list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get points
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

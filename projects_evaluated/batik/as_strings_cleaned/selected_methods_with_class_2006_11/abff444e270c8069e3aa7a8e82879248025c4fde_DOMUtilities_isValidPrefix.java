@@ -1,0 +1,32 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName index of
+s SimpleName MethodInvocation CharacterLiteral :
+index of SimpleName MethodInvocation CharacterLiteral :
+s SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+index of SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+: CharacterLiteral MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is valid prefix
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is valid prefix
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+boolean PrimitiveType MethodDeclaration SimpleName is valid prefix
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+is valid prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is valid prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is valid prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is valid prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

@@ -1,0 +1,138 @@
+mutation event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get attr name
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+attr name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attr name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+attr name SimpleName MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation SimpleName svg x attribute
+equals SimpleName MethodInvocation SimpleName svg x attribute
+attr name SimpleName MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation SimpleName svg y attribute
+equals SimpleName MethodInvocation SimpleName svg y attribute
+attr name SimpleName MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation SimpleName svg dx attribute
+equals SimpleName MethodInvocation SimpleName svg dx attribute
+attr name SimpleName MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation SimpleName svg dy attribute
+equals SimpleName MethodInvocation SimpleName svg dy attribute
+attr name SimpleName MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation SimpleName svg rotate attribute
+equals SimpleName MethodInvocation SimpleName svg rotate attribute
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg y attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg y attribute
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg y attribute
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dx attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dx attribute
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dx attribute
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dy attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dy attribute
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dy attribute
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rotate attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rotate attribute
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rotate attribute
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dx attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dx attribute
+svg y attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+svg y attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg y attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dx attribute
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dy attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dy attribute
+svg y attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+svg y attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg y attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dy attribute
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rotate attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rotate attribute
+svg y attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+svg y attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg y attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rotate attribute
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dy attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dy attribute
+svg dx attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+svg dx attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg dx attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg dy attribute
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rotate attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rotate attribute
+svg dx attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+svg dx attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg dx attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rotate attribute
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+attr name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rotate attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rotate attribute
+svg dy attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr name
+svg dy attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg dy attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg rotate attribute
+text bridge SimpleName MethodInvocation SimpleName compute laidout text
+text bridge SimpleName MethodInvocation SimpleName ctx
+text bridge SimpleName MethodInvocation QualifiedName text bridgee
+text bridge SimpleName MethodInvocation QualifiedName text bridgenode
+compute laidout text SimpleName MethodInvocation SimpleName ctx
+compute laidout text SimpleName MethodInvocation QualifiedName text bridgee
+compute laidout text SimpleName MethodInvocation QualifiedName text bridgenode
+ctx SimpleName MethodInvocation QualifiedName text bridgee
+ctx SimpleName MethodInvocation QualifiedName text bridgenode
+text bridgee QualifiedName MethodInvocation QualifiedName text bridgenode
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle dom attr modified event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName handle dom attr modified event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+handle dom attr modified event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+handle dom attr modified event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle dom attr modified event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle dom attr modified event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

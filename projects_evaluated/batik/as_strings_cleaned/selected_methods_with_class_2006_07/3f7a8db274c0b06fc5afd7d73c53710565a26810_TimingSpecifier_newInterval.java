@@ -1,0 +1,13 @@
+interval SimpleName SimpleType SingleVariableDeclaration SimpleName interval
+void PrimitiveType MethodDeclaration SimpleName new interval
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName interval
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName interval
+new interval SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName interval
+new interval SimpleName MethodDeclaration SingleVariableDeclaration SimpleName interval
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName new interval
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interval
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new interval
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interval

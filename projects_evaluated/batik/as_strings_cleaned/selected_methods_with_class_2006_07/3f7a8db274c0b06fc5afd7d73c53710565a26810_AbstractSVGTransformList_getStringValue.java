@@ -1,0 +1,144 @@
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral translate
+append SimpleName MethodInvocation StringLiteral translate
+affine transform SimpleName MethodInvocation SimpleName get translate x
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+buf SimpleName MethodInvocation MethodInvocation SimpleName get translate x
+append SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+append SimpleName MethodInvocation MethodInvocation SimpleName get translate x
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+affine transform SimpleName MethodInvocation SimpleName get translate y
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+buf SimpleName MethodInvocation MethodInvocation SimpleName get translate y
+append SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+append SimpleName MethodInvocation MethodInvocation SimpleName get translate y
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation CharacterLiteral )
+append SimpleName MethodInvocation CharacterLiteral )
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral rotate
+append SimpleName MethodInvocation StringLiteral rotate
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation SimpleName angle
+append SimpleName MethodInvocation SimpleName angle
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation SimpleName x
+append SimpleName MethodInvocation SimpleName x
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation SimpleName y
+append SimpleName MethodInvocation SimpleName y
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation CharacterLiteral )
+append SimpleName MethodInvocation CharacterLiteral )
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral scale
+append SimpleName MethodInvocation StringLiteral scale
+affine transform SimpleName MethodInvocation SimpleName get scale x
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+buf SimpleName MethodInvocation MethodInvocation SimpleName get scale x
+append SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+append SimpleName MethodInvocation MethodInvocation SimpleName get scale x
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+affine transform SimpleName MethodInvocation SimpleName get scale y
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+buf SimpleName MethodInvocation MethodInvocation SimpleName get scale y
+append SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+append SimpleName MethodInvocation MethodInvocation SimpleName get scale y
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation CharacterLiteral )
+append SimpleName MethodInvocation CharacterLiteral )
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral skew x
+append SimpleName MethodInvocation StringLiteral skew x
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation SimpleName angle
+append SimpleName MethodInvocation SimpleName angle
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation CharacterLiteral )
+append SimpleName MethodInvocation CharacterLiteral )
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral skew y
+append SimpleName MethodInvocation StringLiteral skew y
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation SimpleName angle
+append SimpleName MethodInvocation SimpleName angle
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation CharacterLiteral )
+append SimpleName MethodInvocation CharacterLiteral )
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation StringLiteral matrix
+append SimpleName MethodInvocation StringLiteral matrix
+double PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+matrix SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType double
+matrix SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName matrix
+affine transform SimpleName MethodInvocation SimpleName get matrix
+affine transform SimpleName MethodInvocation SimpleName matrix
+get matrix SimpleName MethodInvocation SimpleName matrix
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+matrix SimpleName ArrayAccess SimpleName i
+float PrimitiveType CastExpression ArrayAccess SimpleName matrix
+float PrimitiveType CastExpression ArrayAccess SimpleName i
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation CastExpression PrimitiveType float
+buf SimpleName MethodInvocation CastExpression ArrayAccess SimpleName matrix
+buf SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+append SimpleName MethodInvocation CastExpression PrimitiveType float
+append SimpleName MethodInvocation CastExpression ArrayAccess SimpleName matrix
+append SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation CharacterLiteral )
+append SimpleName MethodInvocation CharacterLiteral )
+type SimpleName SwitchStatement SwitchCase QualifiedName svg transformsvg transform translate
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName buf
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName append
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation StringLiteral translate
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName buf
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName append
+type SimpleName SwitchStatement IfStatement PrefixExpression SimpleName x only
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName buf
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName append
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation CharacterLiteral )
+svg transformsvg transform skewx QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svg transformsvg transform skewy
+svg transformsvg transform skewy QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svg transformsvg transform matrix
+buf SimpleName MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get string value
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName type
+string SimpleName SimpleType MethodDeclaration SimpleName get string value
+get string value SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get string value
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get string value

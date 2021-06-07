@@ -1,0 +1,61 @@
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current value
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName space
+type SimpleName InfixExpression QualifiedName lexical unitss
+space SimpleName Assignment MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitspi data
+fatal error SimpleName MethodInvocation StringLiteral pidata
+data SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current value
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitspi end
+fatal error SimpleName MethodInvocation StringLiteral piend
+output SimpleName MethodInvocation SimpleName print pi
+output SimpleName MethodInvocation SimpleName target
+output SimpleName MethodInvocation SimpleName space
+output SimpleName MethodInvocation SimpleName data
+print pi SimpleName MethodInvocation SimpleName target
+print pi SimpleName MethodInvocation SimpleName space
+print pi SimpleName MethodInvocation SimpleName data
+target SimpleName MethodInvocation SimpleName space
+target SimpleName MethodInvocation SimpleName data
+space SimpleName MethodInvocation SimpleName data
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName print pi
+protected Modifier MethodDeclaration SimpleType SimpleName transcoder exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName print pi
+void PrimitiveType MethodDeclaration SimpleType SimpleName transcoder exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+print pi SimpleName MethodDeclaration SimpleType SimpleName transcoder exception
+print pi SimpleName MethodDeclaration SimpleType SimpleName xml exception
+print pi SimpleName MethodDeclaration SimpleType SimpleName io exception
+transcoder exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+transcoder exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+xml exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print pi
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print pi
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,14 @@
+resolve url SimpleName MethodInvocation SimpleName input uri
+resolve url SimpleName MethodInvocation MethodInvocation SimpleName to string
+input uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+transcoder input SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration SimpleType SimpleName transcoder input
+protected Modifier MethodDeclaration SimpleName create transcoder input
+transcoder input SimpleName SimpleType MethodDeclaration SimpleName create transcoder input
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder input
+public Modifier TypeDeclaration MethodDeclaration SimpleName create transcoder input
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder input
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create transcoder input

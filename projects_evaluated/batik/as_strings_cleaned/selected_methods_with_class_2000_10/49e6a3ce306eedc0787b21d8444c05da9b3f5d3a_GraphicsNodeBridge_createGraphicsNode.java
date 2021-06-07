@@ -1,0 +1,19 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+graphics node SimpleName SimpleType MethodDeclaration SimpleName create graphics node
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create graphics node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create graphics node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

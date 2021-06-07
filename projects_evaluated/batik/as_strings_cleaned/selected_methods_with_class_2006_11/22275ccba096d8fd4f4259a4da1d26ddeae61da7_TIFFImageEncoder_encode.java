@@ -1,0 +1,500 @@
+rendered image SimpleName SimpleType SingleVariableDeclaration SimpleName im
+tiff encode param SimpleName SimpleType SingleVariableDeclaration SimpleName encode param
+int PrimitiveType SingleVariableDeclaration SimpleName ifd offset
+boolean PrimitiveType SingleVariableDeclaration SimpleName is last
+encode param SimpleName MethodInvocation SimpleName get compression
+compression SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode param
+compression SimpleName VariableDeclarationFragment MethodInvocation SimpleName get compression
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName compression
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName encode param
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get compression
+encode param SimpleName MethodInvocation SimpleName get write tiled
+is tiled SimpleName VariableDeclarationFragment MethodInvocation SimpleName encode param
+is tiled SimpleName VariableDeclarationFragment MethodInvocation SimpleName get write tiled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is tiled
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName encode param
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get write tiled
+im SimpleName MethodInvocation SimpleName get min x
+min x SimpleName VariableDeclarationFragment MethodInvocation SimpleName im
+min x SimpleName VariableDeclarationFragment MethodInvocation SimpleName get min x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName min x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName im
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get min x
+im SimpleName MethodInvocation SimpleName get min y
+min y SimpleName VariableDeclarationFragment MethodInvocation SimpleName im
+min y SimpleName VariableDeclarationFragment MethodInvocation SimpleName get min y
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName min y
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName im
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get min y
+im SimpleName MethodInvocation SimpleName get width
+width SimpleName VariableDeclarationFragment MethodInvocation SimpleName im
+width SimpleName VariableDeclarationFragment MethodInvocation SimpleName get width
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName width
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName im
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get width
+im SimpleName MethodInvocation SimpleName get height
+height SimpleName VariableDeclarationFragment MethodInvocation SimpleName im
+height SimpleName VariableDeclarationFragment MethodInvocation SimpleName get height
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName height
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName im
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get height
+im SimpleName MethodInvocation SimpleName get sample model
+sample model SimpleName VariableDeclarationFragment MethodInvocation SimpleName im
+sample model SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sample model
+sample model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sample model
+sample model SimpleName MethodInvocation SimpleName get sample size
+sample size SimpleName VariableDeclarationFragment MethodInvocation SimpleName sample model
+sample size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sample size
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName sample size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName sample sizelength
+sample size SimpleName ArrayAccess SimpleName i
+sample size SimpleName ArrayAccess NumberLiteral empty
+sample size SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName sample size
+sample size SimpleName ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+i SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName sample size
+i SimpleName ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName sample sizelength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sample sizelength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+sample model SimpleName MethodInvocation SimpleName get num bands
+num bands SimpleName VariableDeclarationFragment MethodInvocation SimpleName sample model
+num bands SimpleName VariableDeclarationFragment MethodInvocation SimpleName get num bands
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num bands
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sample model
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get num bands
+sample size SimpleName ArrayAccess NumberLiteral empty
+sample size SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+sample size SimpleName ArrayAccess NumberLiteral empty
+sample size SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+num bands SimpleName InfixExpression NumberLiteral empty
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+sample model SimpleName MethodInvocation SimpleName get data type
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName sample model
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sample model
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get data type
+sample size SimpleName ArrayAccess NumberLiteral empty
+sample size SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+sample size SimpleName ArrayAccess NumberLiteral empty
+sample size SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+sample size SimpleName ArrayAccess NumberLiteral empty
+sample size SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+sample size SimpleName ArrayAccess NumberLiteral empty
+sample size SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+sample size SimpleName ArrayAccess NumberLiteral empty
+sample size SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+data type SimpleName SwitchStatement SwitchCase QualifiedName data buffertype byte
+data type SimpleName SwitchStatement SwitchCase QualifiedName data buffertype short
+data type SimpleName SwitchStatement SwitchCase QualifiedName data buffertype ushort
+data buffertype byte QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName data buffertype short
+data buffertype byte QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName data buffertype ushort
+data buffertype short QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName data buffertype ushort
+data buffertype short QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName data buffertype int
+data buffertype short QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName data buffertype float
+data buffertype ushort QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName data buffertype int
+data buffertype ushort QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName data buffertype float
+data buffertype int QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName data buffertype float
+data type SimpleName InfixExpression QualifiedName data buffertype short
+data type SimpleName InfixExpression QualifiedName data buffertype ushort
+data type SimpleName InfixExpression InfixExpression InfixExpression SimpleName data type
+data type SimpleName InfixExpression InfixExpression InfixExpression QualifiedName data buffertype ushort
+data buffertype short QualifiedName InfixExpression InfixExpression InfixExpression SimpleName data type
+data buffertype short QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName data buffertype ushort
+data type is short SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName data type
+data type is short SimpleName VariableDeclarationFragment InfixExpression InfixExpression QualifiedName data buffertype short
+data type is short SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName data type
+data type is short SimpleName VariableDeclarationFragment InfixExpression InfixExpression QualifiedName data buffertype ushort
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data type is short
+im SimpleName MethodInvocation SimpleName get color model
+color model SimpleName VariableDeclarationFragment MethodInvocation SimpleName im
+color model SimpleName VariableDeclarationFragment MethodInvocation SimpleName get color model
+color model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName color model
+color model SimpleName InstanceofExpression SimpleType SimpleName index color model
+color model SimpleName InfixExpression InfixExpression InstanceofExpression SimpleName color model
+data type SimpleName InfixExpression QualifiedName data buffertype byte
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+index color model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName icm
+size of colormap SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size of colormap
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName colormap
+image type SimpleName VariableDeclarationFragment SimpleName tiff unsupported
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName image type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tiff unsupported
+num extra samples SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num extra samples
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+extra sample type SimpleName VariableDeclarationFragment SimpleName extra sample unspecified
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName extra sample type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName extra sample unspecified
+color model SimpleName InstanceofExpression SimpleType SimpleName index color model
+index color model SimpleName SimpleType CastExpression SimpleName color model
+icm SimpleName Assignment CastExpression SimpleType SimpleName index color model
+icm SimpleName Assignment CastExpression SimpleName color model
+icm SimpleName MethodInvocation SimpleName get map size
+map size SimpleName VariableDeclarationFragment MethodInvocation SimpleName icm
+map size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get map size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName map size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName icm
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get map size
+sample size SimpleName ArrayAccess NumberLiteral empty
+sample size SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+num bands SimpleName InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName num bands
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+map size SimpleName InfixExpression NumberLiteral empty
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+byte PrimitiveType ArrayType ArrayCreation SimpleName map size
+r SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+r SimpleName VariableDeclarationFragment ArrayCreation SimpleName map size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+icm SimpleName MethodInvocation SimpleName get reds
+icm SimpleName MethodInvocation SimpleName r
+get reds SimpleName MethodInvocation SimpleName r
+byte PrimitiveType ArrayType ArrayCreation SimpleName map size
+g SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+g SimpleName VariableDeclarationFragment ArrayCreation SimpleName map size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+icm SimpleName MethodInvocation SimpleName get greens
+icm SimpleName MethodInvocation SimpleName g
+get greens SimpleName MethodInvocation SimpleName g
+byte PrimitiveType ArrayType ArrayCreation SimpleName map size
+b SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+b SimpleName VariableDeclarationFragment ArrayCreation SimpleName map size
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+icm SimpleName MethodInvocation SimpleName get blues
+icm SimpleName MethodInvocation SimpleName b
+get blues SimpleName MethodInvocation SimpleName b
+r SimpleName ArrayAccess NumberLiteral empty
+r SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+r SimpleName ArrayAccess NumberLiteral empty
+r SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+g SimpleName ArrayAccess NumberLiteral empty
+g SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+g SimpleName ArrayAccess NumberLiteral empty
+g SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+b SimpleName ArrayAccess NumberLiteral empty
+b SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+b SimpleName ArrayAccess NumberLiteral empty
+b SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+image type SimpleName Assignment SimpleName tiff bilevel black is zero
+r SimpleName ArrayAccess NumberLiteral empty
+r SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+r SimpleName ArrayAccess NumberLiteral empty
+r SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+g SimpleName ArrayAccess NumberLiteral empty
+g SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+g SimpleName ArrayAccess NumberLiteral empty
+g SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+b SimpleName ArrayAccess NumberLiteral empty
+b SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+b SimpleName ArrayAccess NumberLiteral empty
+b SimpleName ArrayAccess InfixExpression NumberLiteral xff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+image type SimpleName Assignment SimpleName tiff bilevel white is zero
+image type SimpleName Assignment SimpleName tiff palette
+num bands SimpleName InfixExpression NumberLiteral empty
+image type SimpleName Assignment SimpleName tiff palette
+sample size SimpleName ArrayAccess NumberLiteral empty
+sample size SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+num bands SimpleName InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName num bands
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+image type SimpleName Assignment SimpleName tiff bilevel black is zero
+image type SimpleName Assignment SimpleName tiff generic
+num bands SimpleName InfixExpression NumberLiteral empty
+num bands SimpleName InfixExpression NumberLiteral empty
+num extra samples SimpleName Assignment InfixExpression SimpleName num bands
+num extra samples SimpleName Assignment InfixExpression NumberLiteral empty
+color model SimpleName MethodInvocation SimpleName get color space
+color space SimpleName VariableDeclarationFragment MethodInvocation SimpleName color model
+color space SimpleName VariableDeclarationFragment MethodInvocation SimpleName get color space
+color space SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName color space
+color space SimpleName MethodInvocation SimpleName get type
+image type SimpleName Assignment SimpleName tiff cmyk
+image type SimpleName Assignment SimpleName tiff gray
+image type SimpleName Assignment SimpleName tiff cielab
+compression SimpleName InfixExpression SimpleName comp jpeg ttn
+encode param SimpleName MethodInvocation SimpleName get jpeg compress rgb to y cb cr
+compression SimpleName InfixExpression InfixExpression MethodInvocation SimpleName encode param
+compression SimpleName InfixExpression InfixExpression MethodInvocation SimpleName get jpeg compress rgb to y cb cr
+comp jpeg ttn SimpleName InfixExpression InfixExpression MethodInvocation SimpleName encode param
+comp jpeg ttn SimpleName InfixExpression InfixExpression MethodInvocation SimpleName get jpeg compress rgb to y cb cr
+image type SimpleName Assignment SimpleName tiff ycbcr
+image type SimpleName Assignment SimpleName tiff rgb
+image type SimpleName Assignment SimpleName tiff ycbcr
+image type SimpleName Assignment SimpleName tiff generic
+color space SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName color spacetype cmyk
+get type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName color spacetype cmyk
+color space SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName color spacetype gray
+get type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName color spacetype gray
+color spacetype cmyk QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName color spacetype gray
+color spacetype gray QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName color spacetype lab
+color spacetype lab QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName color spacetype rgb
+color spacetype rgb QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName color spacetype y cb cr
+image type SimpleName InfixExpression SimpleName tiff generic
+num bands SimpleName InfixExpression NumberLiteral empty
+num extra samples SimpleName Assignment InfixExpression SimpleName num bands
+num extra samples SimpleName Assignment InfixExpression NumberLiteral empty
+num bands SimpleName InfixExpression NumberLiteral empty
+color space SimpleName MethodInvocation SimpleName get num components
+num bands SimpleName InfixExpression MethodInvocation SimpleName color space
+num bands SimpleName InfixExpression MethodInvocation SimpleName get num components
+num extra samples SimpleName Assignment InfixExpression SimpleName num bands
+num extra samples SimpleName Assignment InfixExpression MethodInvocation SimpleName color space
+num extra samples SimpleName Assignment InfixExpression MethodInvocation SimpleName get num components
+num extra samples SimpleName InfixExpression NumberLiteral empty
+color model SimpleName MethodInvocation SimpleName has alpha
+num extra samples SimpleName InfixExpression InfixExpression MethodInvocation SimpleName color model
+num extra samples SimpleName InfixExpression InfixExpression MethodInvocation SimpleName has alpha
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName color model
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName has alpha
+color model SimpleName MethodInvocation SimpleName is alpha premultiplied
+color model SimpleName MethodInvocation ConditionalExpression SimpleName extra sample associated alpha
+is alpha premultiplied SimpleName MethodInvocation ConditionalExpression SimpleName extra sample associated alpha
+color model SimpleName MethodInvocation ConditionalExpression SimpleName extra sample unassociated alpha
+is alpha premultiplied SimpleName MethodInvocation ConditionalExpression SimpleName extra sample unassociated alpha
+extra sample associated alpha SimpleName ConditionalExpression SimpleName extra sample unassociated alpha
+extra sample type SimpleName Assignment ConditionalExpression MethodInvocation SimpleName color model
+extra sample type SimpleName Assignment ConditionalExpression MethodInvocation SimpleName is alpha premultiplied
+extra sample type SimpleName Assignment ConditionalExpression SimpleName extra sample associated alpha
+extra sample type SimpleName Assignment ConditionalExpression SimpleName extra sample unassociated alpha
+image type SimpleName InfixExpression SimpleName tiff unsupported
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+compression SimpleName InfixExpression SimpleName comp jpeg ttn
+image type SimpleName InfixExpression SimpleName tiff palette
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+sample size SimpleName ArrayAccess NumberLiteral empty
+sample size SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+image type SimpleName InfixExpression SimpleName tiff gray
+image type SimpleName InfixExpression SimpleName tiff rgb
+image type SimpleName InfixExpression InfixExpression InfixExpression SimpleName image type
+image type SimpleName InfixExpression InfixExpression InfixExpression SimpleName tiff rgb
+tiff gray SimpleName InfixExpression InfixExpression InfixExpression SimpleName image type
+tiff gray SimpleName InfixExpression InfixExpression InfixExpression SimpleName tiff rgb
+image type SimpleName InfixExpression SimpleName tiff ycbcr
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+photometric interpretation SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName photometric interpretation
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+photometric interpretation SimpleName Assignment NumberLiteral empty
+photometric interpretation SimpleName Assignment NumberLiteral empty
+photometric interpretation SimpleName Assignment NumberLiteral empty
+photometric interpretation SimpleName Assignment NumberLiteral empty
+index color model SimpleName SimpleType CastExpression SimpleName color model
+icm SimpleName Assignment CastExpression SimpleType SimpleName index color model
+icm SimpleName Assignment CastExpression SimpleName color model
+icm SimpleName MethodInvocation SimpleName get map size
+size of colormap SimpleName Assignment MethodInvocation SimpleName icm
+size of colormap SimpleName Assignment MethodInvocation SimpleName get map size
+byte PrimitiveType ArrayType ArrayCreation SimpleName size of colormap
+r SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+r SimpleName VariableDeclarationFragment ArrayCreation SimpleName size of colormap
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+icm SimpleName MethodInvocation SimpleName get reds
+icm SimpleName MethodInvocation SimpleName r
+get reds SimpleName MethodInvocation SimpleName r
+byte PrimitiveType ArrayType ArrayCreation SimpleName size of colormap
+g SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+g SimpleName VariableDeclarationFragment ArrayCreation SimpleName size of colormap
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+icm SimpleName MethodInvocation SimpleName get greens
+icm SimpleName MethodInvocation SimpleName g
+get greens SimpleName MethodInvocation SimpleName g
+byte PrimitiveType ArrayType ArrayCreation SimpleName size of colormap
+b SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+b SimpleName VariableDeclarationFragment ArrayCreation SimpleName size of colormap
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+icm SimpleName MethodInvocation SimpleName get blues
+icm SimpleName MethodInvocation SimpleName b
+get blues SimpleName MethodInvocation SimpleName b
+red index SimpleName VariableDeclarationFragment NumberLiteral empty
+green index SimpleName VariableDeclarationFragment SimpleName size of colormap
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName red index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName green index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size of colormap
+red index SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName green index
+red index SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName size of colormap
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName green index
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName size of colormap
+empty NumberLiteral InfixExpression SimpleName size of colormap
+blue index SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+blue index SimpleName VariableDeclarationFragment InfixExpression SimpleName size of colormap
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName blue index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName size of colormap
+size of colormap SimpleName InfixExpression NumberLiteral empty
+char PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName size of colormap
+char PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+colormap SimpleName Assignment ArrayCreation ArrayType PrimitiveType char
+colormap SimpleName Assignment ArrayCreation InfixExpression SimpleName size of colormap
+colormap SimpleName Assignment ArrayCreation InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName size of colormap
+colormap SimpleName ArrayAccess PostfixExpression SimpleName red index
+r SimpleName ArrayAccess SimpleName i
+r SimpleName ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName ArrayAccess InfixExpression NumberLiteral empty
+r SimpleName ArrayAccess SimpleName i
+char PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral xffff
+colormap SimpleName ArrayAccess Assignment CastExpression PrimitiveType char
+colormap SimpleName ArrayAccess PostfixExpression SimpleName green index
+g SimpleName ArrayAccess SimpleName i
+g SimpleName ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName ArrayAccess InfixExpression NumberLiteral empty
+g SimpleName ArrayAccess SimpleName i
+char PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral xffff
+colormap SimpleName ArrayAccess Assignment CastExpression PrimitiveType char
+colormap SimpleName ArrayAccess PostfixExpression SimpleName blue index
+b SimpleName ArrayAccess SimpleName i
+b SimpleName ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName ArrayAccess InfixExpression NumberLiteral empty
+b SimpleName ArrayAccess SimpleName i
+char PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral xffff
+colormap SimpleName ArrayAccess Assignment CastExpression PrimitiveType char
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName size of colormap
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+size of colormap SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+size of colormap SimpleName Assignment NumberLiteral empty
+photometric interpretation SimpleName Assignment NumberLiteral empty
+photometric interpretation SimpleName Assignment NumberLiteral empty
+photometric interpretation SimpleName Assignment NumberLiteral empty
+photometric interpretation SimpleName Assignment NumberLiteral empty
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+image type SimpleName SwitchStatement SwitchCase SimpleName tiff bilevel white is zero
+image type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName photometric interpretation
+image type SimpleName SwitchStatement ExpressionStatement Assignment NumberLiteral empty
+image type SimpleName SwitchStatement SwitchCase SimpleName tiff bilevel black is zero
+image type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName photometric interpretation
+image type SimpleName SwitchStatement ExpressionStatement Assignment NumberLiteral empty
+tiff bilevel white is zero SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tiff bilevel black is zero
+tiff bilevel black is zero SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tiff gray
+tiff bilevel black is zero SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tiff generic
+tiff gray SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tiff generic
+tiff gray SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tiff palette
+tiff generic SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tiff palette
+int PrimitiveType VariableDeclarationStatement SwitchStatement VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement SwitchStatement SwitchCase SimpleName tiff rgb
+tiff rgb SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tiff cmyk
+tiff cmyk SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tiff ycbcr
+tiff ycbcr SimpleName SwitchCase SwitchStatement SwitchCase SimpleName tiff cielab
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tile width
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tile height
+encode param SimpleName MethodInvocation SimpleName get tile width
+encode param SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get tile width SimpleName MethodInvocation InfixExpression NumberLiteral empty
+encode param SimpleName MethodInvocation SimpleName get tile width
+im SimpleName MethodInvocation SimpleName get tile width
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName encode param
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName get tile width
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName im
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName get tile width
+encode param SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName im
+encode param SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get tile width
+get tile width SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName im
+get tile width SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get tile width
+tile width SimpleName Assignment ConditionalExpression InfixExpression NumberLiteral empty
+tile width SimpleName Assignment ConditionalExpression MethodInvocation SimpleName encode param
+tile width SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get tile width
+tile width SimpleName Assignment ConditionalExpression MethodInvocation SimpleName im
+tile width SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get tile width
+encode param SimpleName MethodInvocation SimpleName get tile height
+encode param SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get tile height SimpleName MethodInvocation InfixExpression NumberLiteral empty
+encode param SimpleName MethodInvocation SimpleName get tile height
+im SimpleName MethodInvocation SimpleName get tile height
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName encode param
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName get tile height
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName im
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName get tile height
+encode param SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName im
+encode param SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get tile height
+get tile height SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName im
+get tile height SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get tile height
+tile height SimpleName Assignment ConditionalExpression InfixExpression NumberLiteral empty
+tile height SimpleName Assignment ConditionalExpression MethodInvocation SimpleName encode param
+tile height SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get tile height
+tile height SimpleName Assignment ConditionalExpression MethodInvocation SimpleName im
+tile height SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get tile height
+tile width SimpleName Assignment SimpleName width
+encode param SimpleName MethodInvocation SimpleName get tile height
+encode param SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get tile height SimpleName MethodInvocation InfixExpression NumberLiteral empty
+encode param SimpleName MethodInvocation SimpleName get tile height
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName encode param
+empty NumberLiteral InfixExpression ConditionalExpression MethodInvocation SimpleName get tile height
+encode param SimpleName MethodInvocation InfixExpression ConditionalExpression SimpleName default rows per strip
+get tile height SimpleName MethodInvocation InfixExpression ConditionalExpression SimpleName default rows per strip
+empty NumberLiteral InfixExpression ConditionalExpression SimpleName default rows per strip
+encode param SimpleName MethodInvocation ConditionalExpression SimpleName default rows per strip
+get tile height SimpleName MethodInvocation ConditionalExpression SimpleName default rows per strip
+tile height SimpleName Assignment ConditionalExpression InfixExpression NumberLiteral empty
+tile height SimpleName Assignment ConditionalExpression MethodInvocation SimpleName encode param
+tile height SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get tile height
+tile height SimpleName Assignment ConditionalExpression SimpleName default rows per strip
+jpeg encode param SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jep
+compression SimpleName InfixExpression SimpleName comp jpeg ttn
+encode param SimpleName MethodInvocation SimpleName get jpeg encode param
+jep SimpleName Assignment MethodInvocation SimpleName encode param
+jep SimpleName Assignment MethodInvocation SimpleName get jpeg encode param
+jep SimpleName MethodInvocation SimpleName get horizontal subsampling
+jep SimpleName MethodInvocation NumberLiteral empty
+get horizontal subsampling SimpleName MethodInvocation NumberLiteral empty
+max sub h SimpleName VariableDeclarationFragment MethodInvocation SimpleName jep
+max sub h SimpleName VariableDeclarationFragment MethodInvocation SimpleName get horizontal subsampling
+max sub h SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max sub h
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName jep

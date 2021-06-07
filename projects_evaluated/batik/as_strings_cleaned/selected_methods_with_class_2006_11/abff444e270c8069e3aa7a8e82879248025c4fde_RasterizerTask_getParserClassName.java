@@ -1,0 +1,53 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName class name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName class name
+name SimpleName VariableDeclarationFragment SimpleName class name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class name
+class name SimpleName MethodInvocation SimpleName equals
+class name SimpleName MethodInvocation SimpleName jaxp parser
+equals SimpleName MethodInvocation SimpleName jaxp parser
+jaxp utils SimpleName MethodInvocation SimpleName get xml reader
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName jaxp utils
+reader SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xml reader
+xml reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+reader SimpleName MethodInvocation SimpleName get class
+reader SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+name SimpleName Assignment MethodInvocation MethodInvocation SimpleName reader
+name SimpleName Assignment MethodInvocation MethodInvocation SimpleName get class
+name SimpleName Assignment MethodInvocation SimpleName get name
+using class StringLiteral InfixExpression SimpleName name
+using class StringLiteral InfixExpression StringLiteral to parse svg documents
+name SimpleName InfixExpression StringLiteral to parse svg documents
+log SimpleName MethodInvocation InfixExpression StringLiteral using class
+log SimpleName MethodInvocation InfixExpression SimpleName name
+log SimpleName MethodInvocation InfixExpression StringLiteral to parse svg documents
+log SimpleName MethodInvocation QualifiedName projectmsg verbose
+using class StringLiteral InfixExpression MethodInvocation QualifiedName projectmsg verbose
+name SimpleName InfixExpression MethodInvocation QualifiedName projectmsg verbose
+to parse svg documents StringLiteral InfixExpression MethodInvocation QualifiedName projectmsg verbose
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get parser class name
+private Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName class name
+private Modifier MethodDeclaration Block ReturnStatement SimpleName name
+string SimpleName SimpleType MethodDeclaration SimpleName get parser class name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration Modifier final
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName class name
+get parser class name SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get parser class name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get parser class name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class name
+get parser class name SimpleName MethodDeclaration Block ReturnStatement SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parser class name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parser class name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name

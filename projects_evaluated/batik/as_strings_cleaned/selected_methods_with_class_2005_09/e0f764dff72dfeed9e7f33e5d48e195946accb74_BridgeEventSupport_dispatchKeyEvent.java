@@ -1,0 +1,165 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName event type
+graphics node key event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+context SimpleName MethodInvocation SimpleName get focus manager
+fmgr SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+fmgr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get focus manager
+focus manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fmgr
+fmgr SimpleName MethodInvocation SimpleName get current event target
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName fmgr
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get current event target
+target element SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+target element SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName fmgr
+target element SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get current event target
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target element
+target element SimpleName MethodInvocation SimpleName get owner document
+document event SimpleName SimpleType CastExpression MethodInvocation SimpleName target element
+document event SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+d SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName document event
+d SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName target element
+d SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+document event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+d SimpleName MethodInvocation SimpleName create event
+d SimpleName MethodInvocation StringLiteral key events
+create event SimpleName MethodInvocation StringLiteral key events
+dom key event SimpleName SimpleType CastExpression MethodInvocation SimpleName d
+dom key event SimpleName SimpleType CastExpression MethodInvocation SimpleName create event
+dom key event SimpleName SimpleType CastExpression MethodInvocation StringLiteral key events
+key evt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName dom key event
+key evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName d
+key evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName create event
+key evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral key events
+dom key event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key evt
+evt SimpleName MethodInvocation SimpleName is control down
+evt SimpleName MethodInvocation SimpleName is alt down
+evt SimpleName MethodInvocation SimpleName is shift down
+evt SimpleName MethodInvocation SimpleName is meta down
+evt SimpleName MethodInvocation SimpleName get key code
+map key code SimpleName MethodInvocation MethodInvocation SimpleName evt
+map key code SimpleName MethodInvocation MethodInvocation SimpleName get key code
+evt SimpleName MethodInvocation SimpleName get key char
+key evt SimpleName MethodInvocation SimpleName init key event
+key evt SimpleName MethodInvocation SimpleName event type
+key evt SimpleName MethodInvocation BooleanLiteral true
+key evt SimpleName MethodInvocation BooleanLiteral true
+key evt SimpleName MethodInvocation MethodInvocation SimpleName evt
+key evt SimpleName MethodInvocation MethodInvocation SimpleName is control down
+init key event SimpleName MethodInvocation SimpleName event type
+init key event SimpleName MethodInvocation BooleanLiteral true
+init key event SimpleName MethodInvocation BooleanLiteral true
+init key event SimpleName MethodInvocation MethodInvocation SimpleName evt
+init key event SimpleName MethodInvocation MethodInvocation SimpleName is control down
+init key event SimpleName MethodInvocation MethodInvocation SimpleName evt
+init key event SimpleName MethodInvocation MethodInvocation SimpleName is alt down
+event type SimpleName MethodInvocation BooleanLiteral true
+event type SimpleName MethodInvocation BooleanLiteral true
+event type SimpleName MethodInvocation MethodInvocation SimpleName evt
+event type SimpleName MethodInvocation MethodInvocation SimpleName is control down
+event type SimpleName MethodInvocation MethodInvocation SimpleName evt
+event type SimpleName MethodInvocation MethodInvocation SimpleName is alt down
+event type SimpleName MethodInvocation MethodInvocation SimpleName evt
+event type SimpleName MethodInvocation MethodInvocation SimpleName is shift down
+true BooleanLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName is control down
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName is alt down
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName is shift down
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName is meta down
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName is control down
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName is alt down
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName is shift down
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName is meta down
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName map key code
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key code
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is alt down
+is control down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+is control down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is alt down
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is shift down
+is control down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+is control down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is shift down
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is meta down
+is control down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+is control down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is meta down
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map key code
+is control down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map key code
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+is control down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+is control down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is shift down
+is alt down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+is alt down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is shift down
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is meta down
+is alt down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+is alt down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is meta down
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map key code
+is alt down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map key code
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+is alt down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+is alt down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is meta down
+is shift down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+is shift down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName is meta down
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map key code
+is shift down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map key code
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+is shift down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+is shift down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map key code
+is meta down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map key code
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+is meta down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+is meta down SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+map key code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+map key code SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+event target SimpleName SimpleType CastExpression SimpleName target element
+target element SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName dispatch event
+target element SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName key evt
+dispatch event SimpleName MethodInvocation SimpleName key evt
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+ua SimpleName MethodInvocation SimpleName display error
+ua SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName dispatch key event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName event type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName dispatch key event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+dispatch key event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+dispatch key event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event type
+dispatch key event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+dispatch key event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+event type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch key event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch key event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

@@ -1,0 +1,68 @@
+abstract element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get live attribute value
+e SimpleName MethodInvocation QualifiedName svg constantssvg d attribute
+get live attribute value SimpleName MethodInvocation QualifiedName svg constantssvg d attribute
+svgom animated path data SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+svgom animated path data SimpleName SimpleType CastExpression MethodInvocation SimpleName get live attribute value
+svgom animated path data SimpleName SimpleType CastExpression MethodInvocation QualifiedName svg constantssvg d attribute
+result SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom animated path data
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get live attribute value
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName svg constantssvg d attribute
+svgom animated path data SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+svgom animated path data SimpleName SimpleType ClassInstanceCreation SimpleName e
+svgom animated path data SimpleName SimpleType ClassInstanceCreation QualifiedName svg constantssvg d attribute
+svgom animated path data SimpleName SimpleType ClassInstanceCreation SimpleName d default value
+e SimpleName ClassInstanceCreation QualifiedName svg constantssvg d attribute
+e SimpleName ClassInstanceCreation SimpleName d default value
+svg constantssvg d attribute QualifiedName ClassInstanceCreation SimpleName d default value
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svgom animated path data
+result SimpleName Assignment ClassInstanceCreation SimpleName e
+result SimpleName Assignment ClassInstanceCreation QualifiedName svg constantssvg d attribute
+result SimpleName Assignment ClassInstanceCreation SimpleName d default value
+e SimpleName MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom document
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get animated attribute listener
+result SimpleName MethodInvocation SimpleName add animated attribute listener
+result SimpleName MethodInvocation MethodInvocation SimpleName doc
+result SimpleName MethodInvocation MethodInvocation SimpleName get animated attribute listener
+add animated attribute listener SimpleName MethodInvocation MethodInvocation SimpleName doc
+add animated attribute listener SimpleName MethodInvocation MethodInvocation SimpleName get animated attribute listener
+e SimpleName MethodInvocation SimpleName put live attribute value
+e SimpleName MethodInvocation QualifiedName svg constantssvg d attribute
+e SimpleName MethodInvocation SimpleName result
+put live attribute value SimpleName MethodInvocation QualifiedName svg constantssvg d attribute
+put live attribute value SimpleName MethodInvocation SimpleName result
+svg constantssvg d attribute QualifiedName MethodInvocation SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName svgom animated path data
+public Modifier MethodDeclaration SimpleName get animated path data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration SimpleType SimpleName svgom animated path data
+static Modifier MethodDeclaration SimpleName get animated path data
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+svgom animated path data SimpleName SimpleType MethodDeclaration SimpleName get animated path data
+svgom animated path data SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+get animated path data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract element
+get animated path data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+get animated path data SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svgom animated path data
+public Modifier TypeDeclaration MethodDeclaration SimpleName get animated path data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svgom animated path data
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get animated path data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

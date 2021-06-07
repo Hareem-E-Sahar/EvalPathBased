@@ -1,0 +1,6 @@
+interpreter pool SimpleName SimpleType MethodDeclaration SimpleName get interpreter pool
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interpreter pool
+public Modifier TypeDeclaration MethodDeclaration SimpleName get interpreter pool
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interpreter pool
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get interpreter pool

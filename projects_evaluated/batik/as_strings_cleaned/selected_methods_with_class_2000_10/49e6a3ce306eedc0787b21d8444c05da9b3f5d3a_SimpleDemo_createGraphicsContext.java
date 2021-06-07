@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName graphics node render context
+public Modifier MethodDeclaration SimpleName create graphics context
+graphics node render context SimpleName SimpleType MethodDeclaration SimpleName create graphics context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node render context
+public Modifier TypeDeclaration MethodDeclaration SimpleName create graphics context
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node render context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create graphics context

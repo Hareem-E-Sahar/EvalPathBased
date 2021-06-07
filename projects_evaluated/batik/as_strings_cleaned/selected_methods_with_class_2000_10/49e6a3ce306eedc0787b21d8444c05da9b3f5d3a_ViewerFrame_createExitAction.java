@@ -1,0 +1,6 @@
+action SimpleName SimpleType MethodDeclaration SimpleName create exit action
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName action
+public Modifier TypeDeclaration MethodDeclaration SimpleName create exit action
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName action
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create exit action

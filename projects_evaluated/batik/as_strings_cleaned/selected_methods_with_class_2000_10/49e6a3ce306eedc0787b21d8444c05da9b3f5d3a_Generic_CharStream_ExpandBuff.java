@@ -1,0 +1,306 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName wrap around
+bufsize SimpleName InfixExpression NumberLiteral empty
+char PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName bufsize
+char PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+newbuffer SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType char
+newbuffer SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName bufsize
+newbuffer SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName newbuffer
+bufsize SimpleName InfixExpression NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName bufsize
+int PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+newbufline SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+newbufline SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName bufsize
+newbufline SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName newbufline
+bufsize SimpleName InfixExpression NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName bufsize
+int PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+newbufcolumn SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+newbufcolumn SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName bufsize
+newbufcolumn SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName newbufcolumn
+bufsize SimpleName InfixExpression SimpleName token begin
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName buffer
+system SimpleName MethodInvocation SimpleName token begin
+system SimpleName MethodInvocation SimpleName newbuffer
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName buffer
+arraycopy SimpleName MethodInvocation SimpleName token begin
+arraycopy SimpleName MethodInvocation SimpleName newbuffer
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufsize
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName token begin
+buffer SimpleName MethodInvocation SimpleName token begin
+buffer SimpleName MethodInvocation SimpleName newbuffer
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation InfixExpression SimpleName bufsize
+buffer SimpleName MethodInvocation InfixExpression SimpleName token begin
+token begin SimpleName MethodInvocation SimpleName newbuffer
+token begin SimpleName MethodInvocation NumberLiteral empty
+token begin SimpleName MethodInvocation InfixExpression SimpleName bufsize
+token begin SimpleName MethodInvocation InfixExpression SimpleName token begin
+newbuffer SimpleName MethodInvocation NumberLiteral empty
+newbuffer SimpleName MethodInvocation InfixExpression SimpleName bufsize
+newbuffer SimpleName MethodInvocation InfixExpression SimpleName token begin
+empty NumberLiteral MethodInvocation InfixExpression SimpleName bufsize
+empty NumberLiteral MethodInvocation InfixExpression SimpleName token begin
+bufsize SimpleName InfixExpression SimpleName token begin
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName buffer
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName newbuffer
+system SimpleName MethodInvocation InfixExpression SimpleName bufsize
+system SimpleName MethodInvocation InfixExpression SimpleName token begin
+arraycopy SimpleName MethodInvocation SimpleName buffer
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName newbuffer
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufsize
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName token begin
+arraycopy SimpleName MethodInvocation SimpleName bufpos
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation SimpleName newbuffer
+buffer SimpleName MethodInvocation InfixExpression SimpleName bufsize
+buffer SimpleName MethodInvocation InfixExpression SimpleName token begin
+buffer SimpleName MethodInvocation SimpleName bufpos
+empty NumberLiteral MethodInvocation SimpleName newbuffer
+empty NumberLiteral MethodInvocation InfixExpression SimpleName bufsize
+empty NumberLiteral MethodInvocation InfixExpression SimpleName token begin
+empty NumberLiteral MethodInvocation SimpleName bufpos
+newbuffer SimpleName MethodInvocation InfixExpression SimpleName bufsize
+newbuffer SimpleName MethodInvocation InfixExpression SimpleName token begin
+newbuffer SimpleName MethodInvocation SimpleName bufpos
+bufsize SimpleName InfixExpression MethodInvocation SimpleName bufpos
+token begin SimpleName InfixExpression MethodInvocation SimpleName bufpos
+buffer SimpleName Assignment SimpleName newbuffer
+bufsize SimpleName InfixExpression SimpleName token begin
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName bufline
+system SimpleName MethodInvocation SimpleName token begin
+system SimpleName MethodInvocation SimpleName newbufline
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName bufline
+arraycopy SimpleName MethodInvocation SimpleName token begin
+arraycopy SimpleName MethodInvocation SimpleName newbufline
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufsize
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName token begin
+bufline SimpleName MethodInvocation SimpleName token begin
+bufline SimpleName MethodInvocation SimpleName newbufline
+bufline SimpleName MethodInvocation NumberLiteral empty
+bufline SimpleName MethodInvocation InfixExpression SimpleName bufsize
+bufline SimpleName MethodInvocation InfixExpression SimpleName token begin
+token begin SimpleName MethodInvocation SimpleName newbufline
+token begin SimpleName MethodInvocation NumberLiteral empty
+token begin SimpleName MethodInvocation InfixExpression SimpleName bufsize
+token begin SimpleName MethodInvocation InfixExpression SimpleName token begin
+newbufline SimpleName MethodInvocation NumberLiteral empty
+newbufline SimpleName MethodInvocation InfixExpression SimpleName bufsize
+newbufline SimpleName MethodInvocation InfixExpression SimpleName token begin
+empty NumberLiteral MethodInvocation InfixExpression SimpleName bufsize
+empty NumberLiteral MethodInvocation InfixExpression SimpleName token begin
+bufsize SimpleName InfixExpression SimpleName token begin
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName bufline
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName newbufline
+system SimpleName MethodInvocation InfixExpression SimpleName bufsize
+system SimpleName MethodInvocation InfixExpression SimpleName token begin
+arraycopy SimpleName MethodInvocation SimpleName bufline
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName newbufline
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufsize
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName token begin
+arraycopy SimpleName MethodInvocation SimpleName bufpos
+bufline SimpleName MethodInvocation NumberLiteral empty
+bufline SimpleName MethodInvocation SimpleName newbufline
+bufline SimpleName MethodInvocation InfixExpression SimpleName bufsize
+bufline SimpleName MethodInvocation InfixExpression SimpleName token begin
+bufline SimpleName MethodInvocation SimpleName bufpos
+empty NumberLiteral MethodInvocation SimpleName newbufline
+empty NumberLiteral MethodInvocation InfixExpression SimpleName bufsize
+empty NumberLiteral MethodInvocation InfixExpression SimpleName token begin
+empty NumberLiteral MethodInvocation SimpleName bufpos
+newbufline SimpleName MethodInvocation InfixExpression SimpleName bufsize
+newbufline SimpleName MethodInvocation InfixExpression SimpleName token begin
+newbufline SimpleName MethodInvocation SimpleName bufpos
+bufsize SimpleName InfixExpression MethodInvocation SimpleName bufpos
+token begin SimpleName InfixExpression MethodInvocation SimpleName bufpos
+bufline SimpleName Assignment SimpleName newbufline
+bufsize SimpleName InfixExpression SimpleName token begin
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName bufcolumn
+system SimpleName MethodInvocation SimpleName token begin
+system SimpleName MethodInvocation SimpleName newbufcolumn
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName bufcolumn
+arraycopy SimpleName MethodInvocation SimpleName token begin
+arraycopy SimpleName MethodInvocation SimpleName newbufcolumn
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufsize
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName token begin
+bufcolumn SimpleName MethodInvocation SimpleName token begin
+bufcolumn SimpleName MethodInvocation SimpleName newbufcolumn
+bufcolumn SimpleName MethodInvocation NumberLiteral empty
+bufcolumn SimpleName MethodInvocation InfixExpression SimpleName bufsize
+bufcolumn SimpleName MethodInvocation InfixExpression SimpleName token begin
+token begin SimpleName MethodInvocation SimpleName newbufcolumn
+token begin SimpleName MethodInvocation NumberLiteral empty
+token begin SimpleName MethodInvocation InfixExpression SimpleName bufsize
+token begin SimpleName MethodInvocation InfixExpression SimpleName token begin
+newbufcolumn SimpleName MethodInvocation NumberLiteral empty
+newbufcolumn SimpleName MethodInvocation InfixExpression SimpleName bufsize
+newbufcolumn SimpleName MethodInvocation InfixExpression SimpleName token begin
+empty NumberLiteral MethodInvocation InfixExpression SimpleName bufsize
+empty NumberLiteral MethodInvocation InfixExpression SimpleName token begin
+bufsize SimpleName InfixExpression SimpleName token begin
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName bufcolumn
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName newbufcolumn
+system SimpleName MethodInvocation InfixExpression SimpleName bufsize
+system SimpleName MethodInvocation InfixExpression SimpleName token begin
+arraycopy SimpleName MethodInvocation SimpleName bufcolumn
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName newbufcolumn
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufsize
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName token begin
+arraycopy SimpleName MethodInvocation SimpleName bufpos
+bufcolumn SimpleName MethodInvocation NumberLiteral empty
+bufcolumn SimpleName MethodInvocation SimpleName newbufcolumn
+bufcolumn SimpleName MethodInvocation InfixExpression SimpleName bufsize
+bufcolumn SimpleName MethodInvocation InfixExpression SimpleName token begin
+bufcolumn SimpleName MethodInvocation SimpleName bufpos
+empty NumberLiteral MethodInvocation SimpleName newbufcolumn
+empty NumberLiteral MethodInvocation InfixExpression SimpleName bufsize
+empty NumberLiteral MethodInvocation InfixExpression SimpleName token begin
+empty NumberLiteral MethodInvocation SimpleName bufpos
+newbufcolumn SimpleName MethodInvocation InfixExpression SimpleName bufsize
+newbufcolumn SimpleName MethodInvocation InfixExpression SimpleName token begin
+newbufcolumn SimpleName MethodInvocation SimpleName bufpos
+bufsize SimpleName InfixExpression MethodInvocation SimpleName bufpos
+token begin SimpleName InfixExpression MethodInvocation SimpleName bufpos
+bufcolumn SimpleName Assignment SimpleName newbufcolumn
+bufsize SimpleName InfixExpression SimpleName token begin
+bufpos SimpleName Assignment ParenthesizedExpression InfixExpression SimpleName bufsize
+bufpos SimpleName Assignment ParenthesizedExpression InfixExpression SimpleName token begin
+max next char ind SimpleName Assignment ParenthesizedExpression Assignment SimpleName bufpos
+bufsize SimpleName InfixExpression SimpleName token begin
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName buffer
+system SimpleName MethodInvocation SimpleName token begin
+system SimpleName MethodInvocation SimpleName newbuffer
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName buffer
+arraycopy SimpleName MethodInvocation SimpleName token begin
+arraycopy SimpleName MethodInvocation SimpleName newbuffer
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufsize
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName token begin
+buffer SimpleName MethodInvocation SimpleName token begin
+buffer SimpleName MethodInvocation SimpleName newbuffer
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation InfixExpression SimpleName bufsize
+buffer SimpleName MethodInvocation InfixExpression SimpleName token begin
+token begin SimpleName MethodInvocation SimpleName newbuffer
+token begin SimpleName MethodInvocation NumberLiteral empty
+token begin SimpleName MethodInvocation InfixExpression SimpleName bufsize
+token begin SimpleName MethodInvocation InfixExpression SimpleName token begin
+newbuffer SimpleName MethodInvocation NumberLiteral empty
+newbuffer SimpleName MethodInvocation InfixExpression SimpleName bufsize
+newbuffer SimpleName MethodInvocation InfixExpression SimpleName token begin
+empty NumberLiteral MethodInvocation InfixExpression SimpleName bufsize
+empty NumberLiteral MethodInvocation InfixExpression SimpleName token begin
+buffer SimpleName Assignment SimpleName newbuffer
+bufsize SimpleName InfixExpression SimpleName token begin
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName bufline
+system SimpleName MethodInvocation SimpleName token begin
+system SimpleName MethodInvocation SimpleName newbufline
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName bufline
+arraycopy SimpleName MethodInvocation SimpleName token begin
+arraycopy SimpleName MethodInvocation SimpleName newbufline
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufsize
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName token begin
+bufline SimpleName MethodInvocation SimpleName token begin
+bufline SimpleName MethodInvocation SimpleName newbufline
+bufline SimpleName MethodInvocation NumberLiteral empty
+bufline SimpleName MethodInvocation InfixExpression SimpleName bufsize
+bufline SimpleName MethodInvocation InfixExpression SimpleName token begin
+token begin SimpleName MethodInvocation SimpleName newbufline
+token begin SimpleName MethodInvocation NumberLiteral empty
+token begin SimpleName MethodInvocation InfixExpression SimpleName bufsize
+token begin SimpleName MethodInvocation InfixExpression SimpleName token begin
+newbufline SimpleName MethodInvocation NumberLiteral empty
+newbufline SimpleName MethodInvocation InfixExpression SimpleName bufsize
+newbufline SimpleName MethodInvocation InfixExpression SimpleName token begin
+empty NumberLiteral MethodInvocation InfixExpression SimpleName bufsize
+empty NumberLiteral MethodInvocation InfixExpression SimpleName token begin
+bufline SimpleName Assignment SimpleName newbufline
+bufsize SimpleName InfixExpression SimpleName token begin
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName bufcolumn
+system SimpleName MethodInvocation SimpleName token begin
+system SimpleName MethodInvocation SimpleName newbufcolumn
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName bufcolumn
+arraycopy SimpleName MethodInvocation SimpleName token begin
+arraycopy SimpleName MethodInvocation SimpleName newbufcolumn
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName bufsize
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName token begin
+bufcolumn SimpleName MethodInvocation SimpleName token begin
+bufcolumn SimpleName MethodInvocation SimpleName newbufcolumn
+bufcolumn SimpleName MethodInvocation NumberLiteral empty
+bufcolumn SimpleName MethodInvocation InfixExpression SimpleName bufsize
+bufcolumn SimpleName MethodInvocation InfixExpression SimpleName token begin
+token begin SimpleName MethodInvocation SimpleName newbufcolumn
+token begin SimpleName MethodInvocation NumberLiteral empty
+token begin SimpleName MethodInvocation InfixExpression SimpleName bufsize
+token begin SimpleName MethodInvocation InfixExpression SimpleName token begin
+newbufcolumn SimpleName MethodInvocation NumberLiteral empty
+newbufcolumn SimpleName MethodInvocation InfixExpression SimpleName bufsize
+newbufcolumn SimpleName MethodInvocation InfixExpression SimpleName token begin
+empty NumberLiteral MethodInvocation InfixExpression SimpleName bufsize
+empty NumberLiteral MethodInvocation InfixExpression SimpleName token begin
+bufcolumn SimpleName Assignment SimpleName newbufcolumn
+bufpos SimpleName Assignment SimpleName token begin
+max next char ind SimpleName Assignment ParenthesizedExpression Assignment SimpleName bufpos
+max next char ind SimpleName Assignment ParenthesizedExpression Assignment SimpleName token begin
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+t SimpleName MethodInvocation SimpleName get message
+error SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName t
+error SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+bufsize SimpleName Assignment NumberLiteral empty
+available SimpleName Assignment SimpleName bufsize
+token begin SimpleName Assignment NumberLiteral empty
+private Modifier MethodDeclaration Modifier final
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName expand buff
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName wrap around
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName expand buff
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName wrap around
+void PrimitiveType MethodDeclaration SimpleName expand buff
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName wrap around
+expand buff SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+expand buff SimpleName MethodDeclaration SingleVariableDeclaration SimpleName wrap around
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName expand buff
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wrap around
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName expand buff
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wrap around

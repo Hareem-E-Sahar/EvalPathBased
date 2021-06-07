@@ -1,0 +1,13 @@
+context SimpleName VariableDeclarationFragment MethodInvocation SimpleName get svg context
+svg context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+context SimpleName MethodInvocation SimpleName get screen transform
+protected Modifier MethodDeclaration SimpleType SimpleName affine transform
+protected Modifier MethodDeclaration SimpleName get screen transform
+affine transform SimpleName SimpleType MethodDeclaration SimpleName get screen transform
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName affine transform
+public Modifier TypeDeclaration MethodDeclaration SimpleName get screen transform
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName affine transform
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get screen transform

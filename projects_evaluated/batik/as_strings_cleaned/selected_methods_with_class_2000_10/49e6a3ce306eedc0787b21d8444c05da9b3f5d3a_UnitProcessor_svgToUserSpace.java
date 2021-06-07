@@ -1,0 +1,100 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+svg element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+short PrimitiveType SingleVariableDeclaration SimpleName d
+context SimpleName SimpleType SingleVariableDeclaration SimpleName c
+value SimpleName MethodInvocation SimpleName length
+value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation SimpleName get parser factory
+c SimpleName MethodInvocation MethodInvocation SimpleName create length parser
+get parser factory SimpleName MethodInvocation MethodInvocation SimpleName create length parser
+p SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName c
+p SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get parser factory
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName create length parser
+length parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+ur SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName unit resolver
+unit resolver SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ur
+p SimpleName MethodInvocation SimpleName set length handler
+p SimpleName MethodInvocation SimpleName ur
+set length handler SimpleName MethodInvocation SimpleName ur
+string reader SimpleName SimpleType ClassInstanceCreation SimpleName value
+p SimpleName MethodInvocation SimpleName parse
+p SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string reader
+p SimpleName MethodInvocation ClassInstanceCreation SimpleName value
+parse SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string reader
+parse SimpleName MethodInvocation ClassInstanceCreation SimpleName value
+svg to user space SimpleName MethodInvocation QualifiedName urunit
+svg to user space SimpleName MethodInvocation QualifiedName urvalue
+svg to user space SimpleName MethodInvocation SimpleName e
+svg to user space SimpleName MethodInvocation SimpleName d
+svg to user space SimpleName MethodInvocation SimpleName c
+urunit QualifiedName MethodInvocation QualifiedName urvalue
+urunit QualifiedName MethodInvocation SimpleName e
+urunit QualifiedName MethodInvocation SimpleName d
+urunit QualifiedName MethodInvocation SimpleName c
+urvalue QualifiedName MethodInvocation SimpleName e
+urvalue QualifiedName MethodInvocation SimpleName d
+urvalue QualifiedName MethodInvocation SimpleName c
+e SimpleName MethodInvocation SimpleName d
+e SimpleName MethodInvocation SimpleName c
+d SimpleName MethodInvocation SimpleName c
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName svg to user space
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration PrimitiveType float
+static Modifier MethodDeclaration SimpleName svg to user space
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName d
+float PrimitiveType MethodDeclaration SimpleName svg to user space
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName d
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+svg to user space SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+svg to user space SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+svg to user space SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+svg to user space SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+svg to user space SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+svg to user space SimpleName MethodDeclaration SingleVariableDeclaration SimpleName d
+svg to user space SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+svg to user space SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+d SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName svg to user space
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName svg to user space
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

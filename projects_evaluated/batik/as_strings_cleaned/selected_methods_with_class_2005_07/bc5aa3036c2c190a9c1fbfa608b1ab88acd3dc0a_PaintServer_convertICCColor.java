@@ -1,0 +1,163 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+icc color SimpleName SimpleType SingleVariableDeclaration SimpleName c
+float PrimitiveType SingleVariableDeclaration SimpleName opacity
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+c SimpleName MethodInvocation SimpleName get color profile
+icc profile name SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+icc profile name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get color profile
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName icc profile name
+ctx SimpleName MethodInvocation SimpleName get bridge
+ctx SimpleName MethodInvocation SimpleName svg namespace uri
+ctx SimpleName MethodInvocation SimpleName svg color profile tag
+get bridge SimpleName MethodInvocation SimpleName svg namespace uri
+get bridge SimpleName MethodInvocation SimpleName svg color profile tag
+svg namespace uri SimpleName MethodInvocation SimpleName svg color profile tag
+svg color profile element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName ctx
+svg color profile element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName get bridge
+svg color profile element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName svg namespace uri
+svg color profile element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName svg color profile tag
+profile bridge SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg color profile element bridge
+profile bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ctx
+profile bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get bridge
+profile bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName svg namespace uri
+profile bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName svg color profile tag
+svg color profile element bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName profile bridge
+profile bridge SimpleName MethodInvocation SimpleName create icc color space ext
+profile bridge SimpleName MethodInvocation SimpleName ctx
+profile bridge SimpleName MethodInvocation SimpleName e
+profile bridge SimpleName MethodInvocation SimpleName icc profile name
+create icc color space ext SimpleName MethodInvocation SimpleName ctx
+create icc color space ext SimpleName MethodInvocation SimpleName e
+create icc color space ext SimpleName MethodInvocation SimpleName icc profile name
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName icc profile name
+e SimpleName MethodInvocation SimpleName icc profile name
+profile cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName profile bridge
+profile cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName create icc color space ext
+profile cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+profile cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+profile cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName icc profile name
+icc color space ext SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName profile cs
+c SimpleName MethodInvocation SimpleName get number of colors
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get number of colors
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get number of colors
+float PrimitiveType ArrayType ArrayCreation SimpleName n
+color value SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+color value SimpleName VariableDeclarationFragment ArrayCreation SimpleName n
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName color value
+n SimpleName InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName n
+color value SimpleName ArrayAccess SimpleName i
+c SimpleName MethodInvocation SimpleName get color
+c SimpleName MethodInvocation SimpleName i
+get color SimpleName MethodInvocation SimpleName i
+color value SimpleName ArrayAccess Assignment MethodInvocation SimpleName c
+color value SimpleName ArrayAccess Assignment MethodInvocation SimpleName get color
+color value SimpleName ArrayAccess Assignment MethodInvocation SimpleName i
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName c
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName get color
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName n
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+n SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+profile cs SimpleName MethodInvocation SimpleName intended to rgb
+profile cs SimpleName MethodInvocation SimpleName color value
+intended to rgb SimpleName MethodInvocation SimpleName color value
+rgb SimpleName VariableDeclarationFragment MethodInvocation SimpleName profile cs
+rgb SimpleName VariableDeclarationFragment MethodInvocation SimpleName intended to rgb
+rgb SimpleName VariableDeclarationFragment MethodInvocation SimpleName color value
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName rgb
+rgb SimpleName ArrayAccess NumberLiteral empty
+rgb SimpleName ArrayAccess NumberLiteral empty
+rgb SimpleName ArrayAccess NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName rgb
+color SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName rgb
+color SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName rgb
+color SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation SimpleName opacity
+rgb SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rgb
+rgb SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rgb
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+rgb SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rgb
+rgb SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rgb
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+rgb SimpleName ArrayAccess ClassInstanceCreation SimpleName opacity
+empty NumberLiteral ArrayAccess ClassInstanceCreation SimpleName opacity
+rgb SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rgb
+rgb SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rgb
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+rgb SimpleName ArrayAccess ClassInstanceCreation SimpleName opacity
+empty NumberLiteral ArrayAccess ClassInstanceCreation SimpleName opacity
+rgb SimpleName ArrayAccess ClassInstanceCreation SimpleName opacity
+empty NumberLiteral ArrayAccess ClassInstanceCreation SimpleName opacity
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName color
+public Modifier MethodDeclaration SimpleName convert icc color
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName icc color
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration SimpleType SimpleName color
+static Modifier MethodDeclaration SimpleName convert icc color
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName icc color
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName opacity
+color SimpleName SimpleType MethodDeclaration SimpleName convert icc color
+color SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+color SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName c
+color SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+color SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName opacity
+color SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert icc color SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert icc color SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+convert icc color SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName icc color
+convert icc color SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+convert icc color SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+convert icc color SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opacity
+convert icc color SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+convert icc color SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert icc color SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opacity
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opacity
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+opacity SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName color
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert icc color
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opacity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName color
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert icc color
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opacity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

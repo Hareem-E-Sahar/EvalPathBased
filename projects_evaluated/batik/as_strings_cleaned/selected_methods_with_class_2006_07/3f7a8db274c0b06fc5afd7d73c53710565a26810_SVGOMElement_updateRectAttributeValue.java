@@ -1,0 +1,83 @@
+svg animated rect SimpleName SimpleType SingleVariableDeclaration SimpleName a
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName val
+svgom animated rect SimpleName SimpleType CastExpression SimpleName a
+ar SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom animated rect
+ar SimpleName VariableDeclarationFragment CastExpression SimpleName a
+svgom animated rect SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ar
+ar SimpleName MethodInvocation SimpleName reset animated value
+animatable rect value SimpleName SimpleType CastExpression SimpleName val
+anim rect SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable rect value
+anim rect SimpleName VariableDeclarationFragment CastExpression SimpleName val
+animatable rect value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anim rect
+anim rect SimpleName MethodInvocation SimpleName get x
+anim rect SimpleName MethodInvocation SimpleName get y
+anim rect SimpleName MethodInvocation SimpleName get width
+anim rect SimpleName MethodInvocation SimpleName get height
+ar SimpleName MethodInvocation SimpleName set animated value
+ar SimpleName MethodInvocation MethodInvocation SimpleName anim rect
+ar SimpleName MethodInvocation MethodInvocation SimpleName get x
+ar SimpleName MethodInvocation MethodInvocation SimpleName anim rect
+ar SimpleName MethodInvocation MethodInvocation SimpleName get y
+ar SimpleName MethodInvocation MethodInvocation SimpleName anim rect
+ar SimpleName MethodInvocation MethodInvocation SimpleName get width
+ar SimpleName MethodInvocation MethodInvocation SimpleName anim rect
+ar SimpleName MethodInvocation MethodInvocation SimpleName get height
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim rect
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get x
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim rect
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get y
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim rect
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get width
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim rect
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get height
+anim rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim rect
+anim rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim rect
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+anim rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim rect
+anim rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get width
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim rect
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get width
+anim rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim rect
+anim rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim rect
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+anim rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim rect
+anim rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get width
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim rect
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get width
+anim rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim rect
+anim rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim rect
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+anim rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim rect
+anim rect SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim rect
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update rect attribute value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated rect
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName update rect attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated rect
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+update rect attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated rect
+update rect attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+update rect attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+update rect attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+a SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update rect attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update rect attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

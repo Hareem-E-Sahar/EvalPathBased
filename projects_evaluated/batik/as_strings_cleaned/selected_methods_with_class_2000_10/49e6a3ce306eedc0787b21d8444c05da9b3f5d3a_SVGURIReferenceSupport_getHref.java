@@ -1,0 +1,19 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! todo svguri reference supportget href
+public Modifier MethodDeclaration SimpleType SimpleName svg animated string
+public Modifier MethodDeclaration SimpleName get href
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+svg animated string SimpleName SimpleType MethodDeclaration SimpleName get href
+svg animated string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+get href SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get href SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get href
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get href
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt

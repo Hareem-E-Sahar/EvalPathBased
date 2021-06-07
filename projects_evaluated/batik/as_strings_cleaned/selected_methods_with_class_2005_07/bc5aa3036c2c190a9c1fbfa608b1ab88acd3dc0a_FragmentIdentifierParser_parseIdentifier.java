@@ -1,0 +1,31 @@
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml name character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name character SimpleName MethodInvocation CastExpression SimpleName current
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse identifier
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName parse identifier
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+parse identifier SimpleName MethodDeclaration SimpleType SimpleName parse exception
+parse identifier SimpleName MethodDeclaration SimpleType SimpleName io exception
+parse exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse identifier
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse identifier
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

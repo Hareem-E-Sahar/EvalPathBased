@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName max
+max SimpleName MethodInvocation SimpleName equals
+max SimpleName MethodInvocation SimpleName smil media value
+equals SimpleName MethodInvocation SimpleName smil media value
+max media SimpleName Assignment BooleanLiteral true
+max media SimpleName Assignment BooleanLiteral false
+max SimpleName MethodInvocation SimpleName length
+max SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+max SimpleName MethodInvocation SimpleName equals
+max SimpleName MethodInvocation SimpleName smil indefinite value
+equals SimpleName MethodInvocation SimpleName smil indefinite value
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName max
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName equals
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName smil indefinite value
+max SimpleName FieldAccess Assignment SimpleName indefinite
+parse clock value SimpleName MethodInvocation SimpleName max
+max SimpleName FieldAccess Assignment MethodInvocation SimpleName parse clock value
+max SimpleName FieldAccess Assignment MethodInvocation SimpleName max
+max SimpleName FieldAccess InfixExpression NumberLiteral empty
+max SimpleName FieldAccess Assignment NumberLiteral empty
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse max
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName max
+void PrimitiveType MethodDeclaration SimpleName parse max
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max
+parse max SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse max SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse max
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse max
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max

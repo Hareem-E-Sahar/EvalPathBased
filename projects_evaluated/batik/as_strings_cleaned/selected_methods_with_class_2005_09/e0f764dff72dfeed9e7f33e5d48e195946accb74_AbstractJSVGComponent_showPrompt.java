@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+string SimpleName SimpleType SingleVariableDeclaration SimpleName default value
+svg user agent SimpleName MethodInvocation SimpleName show prompt
+svg user agent SimpleName MethodInvocation SimpleName message
+svg user agent SimpleName MethodInvocation SimpleName default value
+show prompt SimpleName MethodInvocation SimpleName message
+show prompt SimpleName MethodInvocation SimpleName default value
+message SimpleName MethodInvocation SimpleName default value
+abstract jsvg component SimpleName ThisExpression MethodInvocation SimpleName show prompt
+abstract jsvg component SimpleName ThisExpression MethodInvocation SimpleName message
+abstract jsvg component SimpleName ThisExpression MethodInvocation SimpleName default value
+show prompt SimpleName MethodInvocation SimpleName message
+show prompt SimpleName MethodInvocation SimpleName default value
+message SimpleName MethodInvocation SimpleName default value
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName show prompt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName default value
+string SimpleName SimpleType MethodDeclaration SimpleName show prompt
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName message
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName default value
+show prompt SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+show prompt SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+show prompt SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+show prompt SimpleName MethodDeclaration SingleVariableDeclaration SimpleName default value
+message SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName show prompt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName show prompt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default value

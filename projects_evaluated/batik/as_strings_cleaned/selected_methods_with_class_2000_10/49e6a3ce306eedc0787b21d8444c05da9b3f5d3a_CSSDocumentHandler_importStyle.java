@@ -1,0 +1,82 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+sac media list SimpleName SimpleType SingleVariableDeclaration SimpleName media
+string SimpleName SimpleType SingleVariableDeclaration SimpleName default namespace uri
+l SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dom media list
+dom media list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+media SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName media
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+media SimpleName MethodInvocation SimpleName item
+media SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+l SimpleName MethodInvocation SimpleName append medium
+l SimpleName MethodInvocation MethodInvocation SimpleName media
+l SimpleName MethodInvocation MethodInvocation SimpleName item
+l SimpleName MethodInvocation MethodInvocation SimpleName i
+append medium SimpleName MethodInvocation MethodInvocation SimpleName media
+append medium SimpleName MethodInvocation MethodInvocation SimpleName item
+append medium SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+cssom import rule SimpleName SimpleType ClassInstanceCreation SimpleName style sheet
+cssom import rule SimpleName SimpleType ClassInstanceCreation SimpleName uri
+cssom import rule SimpleName SimpleType ClassInstanceCreation SimpleName l
+style sheet SimpleName ClassInstanceCreation SimpleName uri
+style sheet SimpleName ClassInstanceCreation SimpleName l
+uri SimpleName ClassInstanceCreation SimpleName l
+current rule SimpleName Assignment ClassInstanceCreation SimpleType SimpleName cssom import rule
+current rule SimpleName Assignment ClassInstanceCreation SimpleName style sheet
+current rule SimpleName Assignment ClassInstanceCreation SimpleName uri
+current rule SimpleName Assignment ClassInstanceCreation SimpleName l
+style sheet SimpleName MethodInvocation SimpleName append rule
+style sheet SimpleName MethodInvocation SimpleName current rule
+append rule SimpleName MethodInvocation SimpleName current rule
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName import style
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sac media list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName media
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName default namespace uri
+void PrimitiveType MethodDeclaration SimpleName import style
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName uri
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sac media list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName media
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName default namespace uri
+void PrimitiveType MethodDeclaration SimpleType SimpleName css exception
+import style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+import style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sac media list
+import style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName media
+import style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+import style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName default namespace uri
+import style SimpleName MethodDeclaration SimpleType SimpleName css exception
+import style SimpleName MethodDeclaration Block IfStatement SimpleName append
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName media
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default namespace uri
+uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+media SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default namespace uri
+media SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+default namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName import style
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName media
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default namespace uri
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName import style
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName media
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName default namespace uri
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

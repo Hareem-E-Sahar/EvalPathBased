@@ -1,0 +1,101 @@
+int PrimitiveType SingleVariableDeclaration SimpleName num values
+empty NumberLiteral InfixExpression SimpleName num values
+float PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+float PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName num values
+values SimpleName Assignment ArrayCreation ArrayType PrimitiveType float
+values SimpleName Assignment ArrayCreation InfixExpression NumberLiteral empty
+values SimpleName Assignment ArrayCreation InfixExpression SimpleName num values
+int PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+types SimpleName Assignment ArrayCreation ArrayType PrimitiveType int
+types SimpleName Assignment ArrayCreation NumberLiteral empty
+num vals SimpleName Assignment NumberLiteral empty
+num seg SimpleName Assignment NumberLiteral empty
+num vals SimpleName InfixExpression SimpleName num values
+num vals SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName valueslength
+num values SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName valueslength
+valueslength QualifiedName InfixExpression NumberLiteral empty
+nlen SimpleName VariableDeclarationFragment InfixExpression QualifiedName valueslength
+nlen SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nlen
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName valueslength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+num vals SimpleName InfixExpression SimpleName num values
+nlen SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName num vals
+nlen SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName num values
+num vals SimpleName InfixExpression SimpleName num values
+nlen SimpleName Assignment InfixExpression SimpleName num vals
+nlen SimpleName Assignment InfixExpression SimpleName num values
+float PrimitiveType ArrayType ArrayCreation SimpleName nlen
+nvals SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+nvals SimpleName VariableDeclarationFragment ArrayCreation SimpleName nlen
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName nvals
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName values
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName nvals
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName values
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName nvals
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName num vals
+values SimpleName MethodInvocation NumberLiteral empty
+values SimpleName MethodInvocation SimpleName nvals
+values SimpleName MethodInvocation NumberLiteral empty
+values SimpleName MethodInvocation SimpleName num vals
+empty NumberLiteral MethodInvocation SimpleName nvals
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName num vals
+nvals SimpleName MethodInvocation NumberLiteral empty
+nvals SimpleName MethodInvocation SimpleName num vals
+empty NumberLiteral MethodInvocation SimpleName num vals
+values SimpleName Assignment SimpleName nvals
+num seg SimpleName InfixExpression QualifiedName typeslength
+typeslength QualifiedName InfixExpression NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation InfixExpression QualifiedName typeslength
+int PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+ntypes SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+ntypes SimpleName VariableDeclarationFragment ArrayCreation InfixExpression QualifiedName typeslength
+ntypes SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName ntypes
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName types
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName ntypes
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName types
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName ntypes
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName typeslength
+types SimpleName MethodInvocation NumberLiteral empty
+types SimpleName MethodInvocation SimpleName ntypes
+types SimpleName MethodInvocation NumberLiteral empty
+types SimpleName MethodInvocation QualifiedName typeslength
+empty NumberLiteral MethodInvocation SimpleName ntypes
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName typeslength
+ntypes SimpleName MethodInvocation NumberLiteral empty
+ntypes SimpleName MethodInvocation QualifiedName typeslength
+empty NumberLiteral MethodInvocation QualifiedName typeslength
+types SimpleName Assignment SimpleName ntypes
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName make room
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName num values
+void PrimitiveType MethodDeclaration SimpleName make room
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName num values
+make room SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+make room SimpleName MethodDeclaration SingleVariableDeclaration SimpleName num values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName make room
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num values
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make room
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num values

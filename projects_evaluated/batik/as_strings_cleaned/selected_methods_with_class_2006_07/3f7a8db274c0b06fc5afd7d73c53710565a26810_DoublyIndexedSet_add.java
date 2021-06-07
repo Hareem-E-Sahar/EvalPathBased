@@ -1,0 +1,39 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+table SimpleName MethodInvocation SimpleName put
+table SimpleName MethodInvocation SimpleName o
+table SimpleName MethodInvocation SimpleName o
+table SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName o
+put SimpleName MethodInvocation SimpleName o
+put SimpleName MethodInvocation SimpleName value
+o SimpleName MethodInvocation SimpleName o
+o SimpleName MethodInvocation SimpleName value
+o SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+void PrimitiveType MethodDeclaration SimpleName add
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+o SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

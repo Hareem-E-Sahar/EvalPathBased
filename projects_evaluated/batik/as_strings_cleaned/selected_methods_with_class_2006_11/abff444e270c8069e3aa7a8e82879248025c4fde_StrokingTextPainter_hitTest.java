@@ -1,0 +1,121 @@
+double PrimitiveType SingleVariableDeclaration SimpleName x
+double PrimitiveType SingleVariableDeclaration SimpleName y
+text node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aci
+node SimpleName MethodInvocation SimpleName get attributed character iterator
+aci SimpleName Assignment MethodInvocation SimpleName node
+aci SimpleName Assignment MethodInvocation SimpleName get attributed character iterator
+get text runs SimpleName MethodInvocation SimpleName node
+get text runs SimpleName MethodInvocation SimpleName aci
+node SimpleName MethodInvocation SimpleName aci
+text runs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text runs
+text runs SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+text runs SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text runs
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+text runs SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName text runs
+i SimpleName InfixExpression MethodInvocation SimpleName size
+text runs SimpleName MethodInvocation SimpleName get
+text runs SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+text run SimpleName SimpleType CastExpression MethodInvocation SimpleName text runs
+text run SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+text run SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+text run SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName text run
+text run SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName text runs
+text run SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+text run SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+text run SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text run
+text run SimpleName MethodInvocation SimpleName get layout
+layout SimpleName VariableDeclarationFragment MethodInvocation SimpleName text run
+layout SimpleName VariableDeclarationFragment MethodInvocation SimpleName get layout
+text span layout SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName layout
+float PrimitiveType CastExpression SimpleName x
+float PrimitiveType CastExpression SimpleName y
+layout SimpleName MethodInvocation SimpleName hit test char
+layout SimpleName MethodInvocation CastExpression PrimitiveType float
+layout SimpleName MethodInvocation CastExpression SimpleName x
+layout SimpleName MethodInvocation CastExpression PrimitiveType float
+layout SimpleName MethodInvocation CastExpression SimpleName y
+hit test char SimpleName MethodInvocation CastExpression PrimitiveType float
+hit test char SimpleName MethodInvocation CastExpression SimpleName x
+hit test char SimpleName MethodInvocation CastExpression PrimitiveType float
+hit test char SimpleName MethodInvocation CastExpression SimpleName y
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression SimpleName y
+x SimpleName CastExpression MethodInvocation CastExpression PrimitiveType float
+x SimpleName CastExpression MethodInvocation CastExpression SimpleName y
+text hit SimpleName VariableDeclarationFragment MethodInvocation SimpleName layout
+text hit SimpleName VariableDeclarationFragment MethodInvocation SimpleName hit test char
+text hit SimpleName VariableDeclarationFragment MethodInvocation CastExpression PrimitiveType float
+text hit SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName x
+text hit SimpleName VariableDeclarationFragment MethodInvocation CastExpression PrimitiveType float
+text hit SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName y
+text hit SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text hit
+layout SimpleName MethodInvocation SimpleName get bounds d
+layout SimpleName MethodInvocation MethodInvocation SimpleName contains
+get bounds d SimpleName MethodInvocation MethodInvocation SimpleName contains
+layout SimpleName MethodInvocation MethodInvocation SimpleName x
+get bounds d SimpleName MethodInvocation MethodInvocation SimpleName x
+layout SimpleName MethodInvocation MethodInvocation SimpleName y
+get bounds d SimpleName MethodInvocation MethodInvocation SimpleName y
+contains SimpleName MethodInvocation SimpleName x
+contains SimpleName MethodInvocation SimpleName y
+x SimpleName MethodInvocation SimpleName y
+text hit SimpleName InfixExpression InfixExpression MethodInvocation SimpleName contains
+text hit SimpleName InfixExpression InfixExpression MethodInvocation SimpleName x
+text hit SimpleName InfixExpression InfixExpression MethodInvocation SimpleName y
+basic text painterbasic mark QualifiedName SimpleType ClassInstanceCreation SimpleName node
+basic text painterbasic mark QualifiedName SimpleType ClassInstanceCreation SimpleName text hit
+node SimpleName ClassInstanceCreation SimpleName text hit
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+protected Modifier MethodDeclaration SimpleType SimpleName mark
+protected Modifier MethodDeclaration SimpleName hit test
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName x
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName y
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+mark SimpleName SimpleType MethodDeclaration SimpleName hit test
+mark SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+mark SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName x
+mark SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+mark SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName y
+mark SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+hit test SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+hit test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName x
+hit test SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+hit test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName y
+hit test SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+hit test SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+y SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mark
+public Modifier TypeDeclaration MethodDeclaration SimpleName hit test
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName x
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mark
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hit test
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName x
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

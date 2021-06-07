@@ -1,0 +1,13 @@
+alpha compositesrc over QualifiedName MethodInvocation SimpleName equals
+alpha compositesrc over QualifiedName MethodInvocation SimpleName composite
+equals SimpleName MethodInvocation SimpleName composite
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is offscreen buffer needed
+boolean PrimitiveType MethodDeclaration SimpleName is offscreen buffer needed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is offscreen buffer needed
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is offscreen buffer needed

@@ -1,0 +1,72 @@
+max next char ind SimpleName InfixExpression SimpleName available
+available SimpleName InfixExpression SimpleName bufsize
+token begin SimpleName InfixExpression NumberLiteral empty
+max next char ind SimpleName Assignment NumberLiteral empty
+bufpos SimpleName Assignment Assignment SimpleName max next char ind
+bufpos SimpleName Assignment Assignment NumberLiteral empty
+available SimpleName Assignment SimpleName token begin
+token begin SimpleName InfixExpression NumberLiteral empty
+max next char ind SimpleName Assignment NumberLiteral empty
+bufpos SimpleName Assignment Assignment SimpleName max next char ind
+bufpos SimpleName Assignment Assignment NumberLiteral empty
+expand buff SimpleName MethodInvocation BooleanLiteral false
+available SimpleName InfixExpression SimpleName token begin
+available SimpleName Assignment SimpleName bufsize
+token begin SimpleName InfixExpression SimpleName available
+token begin SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+available SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+expand buff SimpleName MethodInvocation BooleanLiteral true
+available SimpleName Assignment SimpleName token begin
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+available SimpleName InfixExpression SimpleName max next char ind
+reader SimpleName MethodInvocation SimpleName read
+reader SimpleName MethodInvocation SimpleName buffer
+reader SimpleName MethodInvocation SimpleName max next char ind
+reader SimpleName MethodInvocation InfixExpression SimpleName available
+reader SimpleName MethodInvocation InfixExpression SimpleName max next char ind
+read SimpleName MethodInvocation SimpleName buffer
+read SimpleName MethodInvocation SimpleName max next char ind
+read SimpleName MethodInvocation InfixExpression SimpleName available
+read SimpleName MethodInvocation InfixExpression SimpleName max next char ind
+buffer SimpleName MethodInvocation SimpleName max next char ind
+buffer SimpleName MethodInvocation InfixExpression SimpleName available
+buffer SimpleName MethodInvocation InfixExpression SimpleName max next char ind
+max next char ind SimpleName MethodInvocation InfixExpression SimpleName available
+max next char ind SimpleName MethodInvocation InfixExpression SimpleName max next char ind
+i SimpleName Assignment MethodInvocation SimpleName reader
+i SimpleName Assignment MethodInvocation SimpleName read
+i SimpleName Assignment MethodInvocation SimpleName buffer
+i SimpleName Assignment MethodInvocation SimpleName max next char ind
+i SimpleName Assignment MethodInvocation InfixExpression SimpleName available
+i SimpleName Assignment MethodInvocation InfixExpression SimpleName max next char ind
+reader SimpleName MethodInvocation SimpleName close
+max next char ind SimpleName Assignment SimpleName i
+javaioio exception QualifiedName SimpleType SingleVariableDeclaration SimpleName e
+backup SimpleName MethodInvocation NumberLiteral empty
+token begin SimpleName InfixExpression PrefixExpression NumberLiteral empty
+token begin SimpleName Assignment SimpleName bufpos
+private Modifier MethodDeclaration Modifier final
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName fill buff
+private Modifier MethodDeclaration SimpleType QualifiedName javaioio exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName fill buff
+final Modifier MethodDeclaration SimpleType QualifiedName javaioio exception
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName fill buff
+void PrimitiveType MethodDeclaration SimpleType QualifiedName javaioio exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+fill buff SimpleName MethodDeclaration SimpleType QualifiedName javaioio exception
+fill buff SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fill buff
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName javaioio exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fill buff
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName javaioio exception

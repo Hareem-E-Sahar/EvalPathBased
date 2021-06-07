@@ -1,0 +1,68 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName new item
+int PrimitiveType SingleVariableDeclaration SimpleName index
+check item SimpleName MethodInvocation SimpleName new item
+index SimpleName InfixExpression NumberLiteral empty
+list SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation SimpleName list
+index SimpleName InfixExpression MethodInvocation SimpleName size
+index SimpleName InfixExpression InfixExpression InfixExpression SimpleName index
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName index
+integer SimpleName SimpleType ClassInstanceCreation SimpleName index
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionindex size err
+create dom exception SimpleName MethodInvocation StringLiteral indexoutofbounds
+dom exceptionindex size err QualifiedName MethodInvocation StringLiteral indexoutofbounds
+list SimpleName MethodInvocation SimpleName set
+list SimpleName MethodInvocation SimpleName index
+list SimpleName MethodInvocation SimpleName new item
+set SimpleName MethodInvocation SimpleName index
+set SimpleName MethodInvocation SimpleName new item
+index SimpleName MethodInvocation SimpleName new item
+attribute modifier SimpleName MethodInvocation SimpleName set attribute value
+attribute modifier SimpleName MethodInvocation MethodInvocation SimpleName to string
+set attribute value SimpleName MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName replace item
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+object SimpleName SimpleType MethodDeclaration SimpleName replace item
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new item
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName index
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName svg exception
+replace item SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+replace item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new item
+replace item SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+replace item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+replace item SimpleName MethodDeclaration SimpleType SimpleName dom exception
+replace item SimpleName MethodDeclaration SimpleType SimpleName svg exception
+replace item SimpleName MethodDeclaration Block ReturnStatement SimpleName new item
+new item SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+new item SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+new item SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+new item SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName svg exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+index SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName svg exception
+index SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName svg exception
+dom exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName svg exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName replace item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replace item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg exception

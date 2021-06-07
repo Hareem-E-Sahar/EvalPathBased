@@ -1,0 +1,6 @@
+anchor SimpleName SimpleType MethodDeclaration SimpleName get anchor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName anchor
+public Modifier TypeDeclaration MethodDeclaration SimpleName get anchor
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName anchor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get anchor

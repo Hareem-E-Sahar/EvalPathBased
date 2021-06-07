@@ -1,0 +1,31 @@
+float PrimitiveType SingleVariableDeclaration SimpleName t
+float SimpleName MethodInvocation SimpleName is na n
+float SimpleName MethodInvocation SimpleName t
+is na n SimpleName MethodInvocation SimpleName t
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is unresolved
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is unresolved
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+boolean PrimitiveType MethodDeclaration SimpleName is unresolved
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+is unresolved SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+is unresolved SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is unresolved
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is unresolved
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

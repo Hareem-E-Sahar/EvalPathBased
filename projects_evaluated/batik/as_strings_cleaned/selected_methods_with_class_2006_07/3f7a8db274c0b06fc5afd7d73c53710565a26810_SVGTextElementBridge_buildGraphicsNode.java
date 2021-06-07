@@ -1,0 +1,138 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+e SimpleName MethodInvocation SimpleName normalize
+compute laidout text SimpleName MethodInvocation SimpleName ctx
+compute laidout text SimpleName MethodInvocation SimpleName e
+compute laidout text SimpleName MethodInvocation SimpleName node
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName node
+e SimpleName MethodInvocation SimpleName node
+css utilities SimpleName MethodInvocation SimpleName convert opacity
+css utilities SimpleName MethodInvocation SimpleName e
+convert opacity SimpleName MethodInvocation SimpleName e
+node SimpleName MethodInvocation SimpleName set composite
+node SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+node SimpleName MethodInvocation MethodInvocation SimpleName convert opacity
+node SimpleName MethodInvocation MethodInvocation SimpleName e
+set composite SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+set composite SimpleName MethodInvocation MethodInvocation SimpleName convert opacity
+set composite SimpleName MethodInvocation MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation SimpleName convert filter
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation SimpleName node
+css utilities SimpleName MethodInvocation SimpleName ctx
+convert filter SimpleName MethodInvocation SimpleName e
+convert filter SimpleName MethodInvocation SimpleName node
+convert filter SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation SimpleName node
+e SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName set filter
+node SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+node SimpleName MethodInvocation MethodInvocation SimpleName convert filter
+node SimpleName MethodInvocation MethodInvocation SimpleName e
+node SimpleName MethodInvocation MethodInvocation SimpleName node
+node SimpleName MethodInvocation MethodInvocation SimpleName ctx
+set filter SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+set filter SimpleName MethodInvocation MethodInvocation SimpleName convert filter
+set filter SimpleName MethodInvocation MethodInvocation SimpleName e
+set filter SimpleName MethodInvocation MethodInvocation SimpleName node
+set filter SimpleName MethodInvocation MethodInvocation SimpleName ctx
+css utilities SimpleName MethodInvocation SimpleName convert mask
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation SimpleName node
+css utilities SimpleName MethodInvocation SimpleName ctx
+convert mask SimpleName MethodInvocation SimpleName e
+convert mask SimpleName MethodInvocation SimpleName node
+convert mask SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation SimpleName node
+e SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName set mask
+node SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+node SimpleName MethodInvocation MethodInvocation SimpleName convert mask
+node SimpleName MethodInvocation MethodInvocation SimpleName e
+node SimpleName MethodInvocation MethodInvocation SimpleName node
+node SimpleName MethodInvocation MethodInvocation SimpleName ctx
+set mask SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+set mask SimpleName MethodInvocation MethodInvocation SimpleName convert mask
+set mask SimpleName MethodInvocation MethodInvocation SimpleName e
+set mask SimpleName MethodInvocation MethodInvocation SimpleName node
+set mask SimpleName MethodInvocation MethodInvocation SimpleName ctx
+css utilities SimpleName MethodInvocation SimpleName convert clip path
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation SimpleName node
+css utilities SimpleName MethodInvocation SimpleName ctx
+convert clip path SimpleName MethodInvocation SimpleName e
+convert clip path SimpleName MethodInvocation SimpleName node
+convert clip path SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation SimpleName node
+e SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName set clip
+node SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+node SimpleName MethodInvocation MethodInvocation SimpleName convert clip path
+node SimpleName MethodInvocation MethodInvocation SimpleName e
+node SimpleName MethodInvocation MethodInvocation SimpleName node
+node SimpleName MethodInvocation MethodInvocation SimpleName ctx
+set clip SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+set clip SimpleName MethodInvocation MethodInvocation SimpleName convert clip path
+set clip SimpleName MethodInvocation MethodInvocation SimpleName e
+set clip SimpleName MethodInvocation MethodInvocation SimpleName node
+set clip SimpleName MethodInvocation MethodInvocation SimpleName ctx
+css utilities SimpleName MethodInvocation SimpleName convert pointer events
+css utilities SimpleName MethodInvocation SimpleName e
+convert pointer events SimpleName MethodInvocation SimpleName e
+node SimpleName MethodInvocation SimpleName set pointer event type
+node SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+node SimpleName MethodInvocation MethodInvocation SimpleName convert pointer events
+node SimpleName MethodInvocation MethodInvocation SimpleName e
+set pointer event type SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+set pointer event type SimpleName MethodInvocation MethodInvocation SimpleName convert pointer events
+set pointer event type SimpleName MethodInvocation MethodInvocation SimpleName e
+initialize dynamic support SimpleName MethodInvocation SimpleName ctx
+initialize dynamic support SimpleName MethodInvocation SimpleName e
+initialize dynamic support SimpleName MethodInvocation SimpleName node
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName node
+e SimpleName MethodInvocation SimpleName node
+ctx SimpleName MethodInvocation SimpleName is dynamic
+elem tpi SimpleName MethodInvocation SimpleName clear
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName build graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleName build graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+build graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+build graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+build graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+build graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+build graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+build graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName build graphics node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build graphics node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

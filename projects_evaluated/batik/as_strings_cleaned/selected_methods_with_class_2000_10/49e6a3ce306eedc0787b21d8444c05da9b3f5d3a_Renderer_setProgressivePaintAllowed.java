@@ -1,0 +1,21 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName allow progressive
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set progressive paint allowed
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName allow progressive
+void PrimitiveType MethodDeclaration SimpleName set progressive paint allowed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName allow progressive
+set progressive paint allowed SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set progressive paint allowed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName allow progressive
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set progressive paint allowed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName allow progressive
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set progressive paint allowed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName allow progressive

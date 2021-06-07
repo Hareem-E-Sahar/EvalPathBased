@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+abstract node SimpleName SimpleType CastExpression SimpleName context node
+context node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName lookup namespace uri
+context node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName prefix
+lookup namespace uri SimpleName MethodInvocation SimpleName prefix
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName lookup namespace uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+string SimpleName SimpleType MethodDeclaration SimpleName lookup namespace uri
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName prefix
+lookup namespace uri SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+lookup namespace uri SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName lookup namespace uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lookup namespace uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix

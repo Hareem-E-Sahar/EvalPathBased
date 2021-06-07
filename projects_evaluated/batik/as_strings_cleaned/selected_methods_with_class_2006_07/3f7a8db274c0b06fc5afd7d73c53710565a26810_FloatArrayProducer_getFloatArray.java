@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration ArrayType PrimitiveType float
+public Modifier MethodDeclaration SimpleName get float array
+public Modifier MethodDeclaration Block ReturnStatement SimpleName a
+float PrimitiveType ArrayType MethodDeclaration SimpleName get float array
+get float array SimpleName MethodDeclaration Block ReturnStatement SimpleName a
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get float array
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get float array

@@ -1,0 +1,93 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base
+node SimpleName MethodInvocation SimpleName get parent node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName n
+get cascaded xml base SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+get cascaded xml base SimpleName MethodInvocation CastExpression SimpleName n
+base SimpleName Assignment MethodInvocation SimpleName get cascaded xml base
+base SimpleName Assignment MethodInvocation CastExpression SimpleName n
+n SimpleName InstanceofExpression SimpleType SimpleName css navigable node
+css navigable node SimpleName SimpleType CastExpression SimpleName n
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get css parent node
+n SimpleName Assignment MethodInvocation SimpleName get css parent node
+n SimpleName MethodInvocation SimpleName get parent node
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node
+abstract document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+node SimpleName MethodInvocation SimpleName get node type
+node SimpleName MethodInvocation InfixExpression QualifiedName nodedocument node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodedocument node
+abstract document SimpleName SimpleType CastExpression SimpleName node
+doc SimpleName Assignment CastExpression SimpleType SimpleName abstract document
+doc SimpleName Assignment CastExpression SimpleName node
+node SimpleName MethodInvocation SimpleName get owner document
+abstract document SimpleName SimpleType CastExpression MethodInvocation SimpleName node
+abstract document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName Assignment CastExpression SimpleType SimpleName abstract document
+doc SimpleName Assignment CastExpression MethodInvocation SimpleName node
+doc SimpleName Assignment CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName MethodInvocation SimpleName get document uri
+base SimpleName Assignment MethodInvocation SimpleName doc
+base SimpleName Assignment MethodInvocation SimpleName get document uri
+node SimpleName MethodInvocation SimpleName get node type
+node SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+node SimpleName InfixExpression InfixExpression InfixExpression QualifiedName nodeelement node
+node SimpleName MethodInvocation SimpleName get parent node
+node SimpleName Assignment MethodInvocation SimpleName node
+node SimpleName Assignment MethodInvocation SimpleName get parent node
+element SimpleName SimpleType CastExpression SimpleName node
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+e SimpleName VariableDeclarationFragment CastExpression SimpleName node
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get attribute node ns
+e SimpleName MethodInvocation QualifiedName xml constantsxml namespace uri
+e SimpleName MethodInvocation QualifiedName xml constantsxml base attribute
+get attribute node ns SimpleName MethodInvocation QualifiedName xml constantsxml namespace uri
+get attribute node ns SimpleName MethodInvocation QualifiedName xml constantsxml base attribute
+xml constantsxml namespace uri QualifiedName MethodInvocation QualifiedName xml constantsxml base attribute
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute node ns
+attr SimpleName VariableDeclarationFragment MethodInvocation QualifiedName xml constantsxml namespace uri
+attr SimpleName VariableDeclarationFragment MethodInvocation QualifiedName xml constantsxml base attribute
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get node value
+base SimpleName Assignment MethodInvocation SimpleName attr
+base SimpleName Assignment MethodInvocation SimpleName get node value
+attr SimpleName MethodInvocation SimpleName get node value
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName base
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName attr
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node value
+base SimpleName ClassInstanceCreation MethodInvocation SimpleName attr
+base SimpleName ClassInstanceCreation MethodInvocation SimpleName get node value
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+base SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+attr SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get node value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+base SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName base
+base SimpleName Assignment MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get cascaded xml base
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName base
+string SimpleName SimpleType MethodDeclaration SimpleName get cascaded xml base
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+get cascaded xml base SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get cascaded xml base SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+get cascaded xml base SimpleName MethodDeclaration Block ReturnStatement SimpleName base
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cascaded xml base
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cascaded xml base
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

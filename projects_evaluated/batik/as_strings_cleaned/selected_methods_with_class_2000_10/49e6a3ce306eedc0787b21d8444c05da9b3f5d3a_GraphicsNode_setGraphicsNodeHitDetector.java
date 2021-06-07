@@ -1,0 +1,13 @@
+graphics node hit detector SimpleName SimpleType SingleVariableDeclaration SimpleName hit detector
+void PrimitiveType MethodDeclaration SimpleName set graphics node hit detector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node hit detector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hit detector
+set graphics node hit detector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node hit detector
+set graphics node hit detector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hit detector
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set graphics node hit detector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hit detector
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set graphics node hit detector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hit detector

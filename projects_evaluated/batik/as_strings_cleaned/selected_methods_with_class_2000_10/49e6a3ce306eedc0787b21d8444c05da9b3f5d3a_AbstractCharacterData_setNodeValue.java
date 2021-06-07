@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName node value
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+val SimpleName VariableDeclarationFragment FieldAccess SimpleName node value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+node value SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+node value SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName node value
+empty StringLiteral ConditionalExpression SimpleName node value
+node value SimpleName FieldAccess Assignment ConditionalExpression StringLiteral empty
+node value SimpleName FieldAccess Assignment ConditionalExpression SimpleName node value
+fire dom character data modified event SimpleName MethodInvocation SimpleName val
+fire dom character data modified event SimpleName MethodInvocation FieldAccess SimpleName node value
+val SimpleName MethodInvocation FieldAccess SimpleName node value
+abstract parent node SimpleName SimpleType CastExpression MethodInvocation SimpleName get parent node
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set node value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node value
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set node value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node value
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set node value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set node value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node value
+set node value SimpleName MethodDeclaration SimpleType SimpleName dom exception
+node value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set node value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set node value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

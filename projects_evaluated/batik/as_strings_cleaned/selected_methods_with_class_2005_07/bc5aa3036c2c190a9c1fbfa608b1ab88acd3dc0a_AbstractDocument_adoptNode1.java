@@ -1,0 +1,93 @@
+abstract node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName MethodInvocation SimpleName get node type
+abstract attr SimpleName SimpleType CastExpression SimpleName n
+attr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract attr
+attr SimpleName VariableDeclarationFragment CastExpression SimpleName n
+abstract attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attrunspecified QualifiedName Assignment BooleanLiteral false
+n SimpleName MethodInvocation SimpleName get attributes
+nnm SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+nnm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nnm
+nnm SimpleName MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName nnm
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nnm
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+nnm SimpleName MethodInvocation SimpleName item
+nnm SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName nnm
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+attr SimpleName Assignment CastExpression SimpleType SimpleName abstract attr
+attr SimpleName Assignment CastExpression MethodInvocation SimpleName nnm
+attr SimpleName Assignment CastExpression MethodInvocation SimpleName item
+attr SimpleName Assignment CastExpression MethodInvocation SimpleName i
+attr SimpleName MethodInvocation SimpleName get specified
+adopt node SimpleName MethodInvocation SimpleName attr
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+n SimpleName MethodInvocation SimpleName get first child
+n SimpleName MethodInvocation SimpleName get first child
+n SimpleName MethodInvocation SimpleName remove child
+n SimpleName MethodInvocation MethodInvocation SimpleName n
+n SimpleName MethodInvocation MethodInvocation SimpleName get first child
+remove child SimpleName MethodInvocation MethodInvocation SimpleName n
+remove child SimpleName MethodInvocation MethodInvocation SimpleName get first child
+n SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodeattribute node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodeattribute node
+nodeattribute node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodeelement node
+nodeelement node QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType int
+nodeelement node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodeentity reference node
+int PrimitiveType VariableDeclarationStatement SwitchStatement SwitchCase QualifiedName nodeentity reference node
+fire user data handlers SimpleName MethodInvocation QualifiedName user data handlernode adopted
+fire user data handlers SimpleName MethodInvocation SimpleName n
+user data handlernode adopted QualifiedName MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName get first child
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName get next sibling
+m SimpleName Assignment MethodInvocation SimpleName m
+m SimpleName Assignment MethodInvocation SimpleName get next sibling
+m SimpleName MethodInvocation SimpleName get node type
+m SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodedocument type node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodedocument type node
+m SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodeentity node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodeentity node
+m SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodenotation node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodenotation node
+nodedocument type node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodeentity node
+nodedocument type node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodenotation node
+nodeentity node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodenotation node
+abstract node SimpleName SimpleType CastExpression SimpleName m
+adopt node SimpleName MethodInvocation CastExpression SimpleType SimpleName abstract node
+adopt node SimpleName MethodInvocation CastExpression SimpleName m
+m SimpleName InfixExpression ForStatement Assignment SimpleName m
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName adopt node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName adopt node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+adopt node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract node
+adopt node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName adopt node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName adopt node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

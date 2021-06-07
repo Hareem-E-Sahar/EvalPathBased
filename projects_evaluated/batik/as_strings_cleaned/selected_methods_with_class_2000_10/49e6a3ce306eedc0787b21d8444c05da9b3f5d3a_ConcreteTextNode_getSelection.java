@@ -1,0 +1,67 @@
+graphics node render context SimpleName SimpleType SingleVariableDeclaration SimpleName rc
+rc SimpleName MethodInvocation SimpleName get text painter
+rc SimpleName MethodInvocation MethodInvocation SimpleName get selected
+get text painter SimpleName MethodInvocation MethodInvocation SimpleName get selected
+rc SimpleName MethodInvocation MethodInvocation SimpleName aci
+get text painter SimpleName MethodInvocation MethodInvocation SimpleName aci
+rc SimpleName MethodInvocation MethodInvocation SimpleName begin mark
+get text painter SimpleName MethodInvocation MethodInvocation SimpleName begin mark
+rc SimpleName MethodInvocation MethodInvocation SimpleName end mark
+get text painter SimpleName MethodInvocation MethodInvocation SimpleName end mark
+get selected SimpleName MethodInvocation SimpleName aci
+get selected SimpleName MethodInvocation SimpleName begin mark
+get selected SimpleName MethodInvocation SimpleName end mark
+aci SimpleName MethodInvocation SimpleName begin mark
+aci SimpleName MethodInvocation SimpleName end mark
+begin mark SimpleName MethodInvocation SimpleName end mark
+ranges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rc
+ranges SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get text painter
+ranges SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selected
+ranges SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+ranges SimpleName VariableDeclarationFragment MethodInvocation SimpleName begin mark
+ranges SimpleName VariableDeclarationFragment MethodInvocation SimpleName end mark
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName ranges
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+end mark SimpleName InfixExpression SimpleName begin mark
+o SimpleName Assignment SimpleName aci
+rangeslength QualifiedName InfixExpression NumberLiteral empty
+ranges SimpleName ArrayAccess NumberLiteral empty
+ranges SimpleName ArrayAccess NumberLiteral empty
+attributed character span iterator SimpleName SimpleType ClassInstanceCreation SimpleName aci
+attributed character span iterator SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName ranges
+attributed character span iterator SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+attributed character span iterator SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName ranges
+attributed character span iterator SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+aci SimpleName ClassInstanceCreation ArrayAccess SimpleName ranges
+aci SimpleName ClassInstanceCreation ArrayAccess NumberLiteral empty
+aci SimpleName ClassInstanceCreation ArrayAccess SimpleName ranges
+aci SimpleName ClassInstanceCreation ArrayAccess NumberLiteral empty
+ranges SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName ranges
+ranges SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName ranges
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+o SimpleName Assignment ClassInstanceCreation SimpleType SimpleName attributed character span iterator
+o SimpleName Assignment ClassInstanceCreation SimpleName aci
+o SimpleName Assignment ClassInstanceCreation ArrayAccess SimpleName ranges
+o SimpleName Assignment ClassInstanceCreation ArrayAccess NumberLiteral empty
+o SimpleName Assignment ClassInstanceCreation ArrayAccess SimpleName ranges
+o SimpleName Assignment ClassInstanceCreation ArrayAccess NumberLiteral empty
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get selection
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rc
+public Modifier MethodDeclaration Block ReturnStatement SimpleName o
+object SimpleName SimpleType MethodDeclaration SimpleName get selection
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rc
+get selection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node render context
+get selection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rc
+get selection SimpleName MethodDeclaration Block ReturnStatement SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get selection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get selection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc

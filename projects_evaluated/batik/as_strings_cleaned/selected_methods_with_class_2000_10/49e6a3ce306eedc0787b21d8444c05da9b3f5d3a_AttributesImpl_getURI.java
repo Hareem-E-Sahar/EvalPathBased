@@ -1,0 +1,30 @@
+int PrimitiveType SingleVariableDeclaration SimpleName index
+index SimpleName InfixExpression NumberLiteral empty
+index SimpleName InfixExpression SimpleName length
+index SimpleName InfixExpression InfixExpression InfixExpression SimpleName index
+index SimpleName InfixExpression InfixExpression InfixExpression SimpleName length
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName index
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName length
+index SimpleName InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression SimpleName index
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get uri
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+string SimpleName SimpleType MethodDeclaration SimpleName get uri
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName index
+get uri SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get uri SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index

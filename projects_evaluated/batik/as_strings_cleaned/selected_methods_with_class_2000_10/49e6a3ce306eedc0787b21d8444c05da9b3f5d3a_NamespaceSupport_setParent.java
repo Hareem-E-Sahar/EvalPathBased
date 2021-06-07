@@ -1,0 +1,20 @@
+context SimpleName SimpleType SingleVariableDeclaration SimpleName parent
+parent SimpleName FieldAccess Assignment SimpleName parent
+prefix table SimpleName Assignment QualifiedName parentprefix table
+uri table SimpleName Assignment QualifiedName parenturi table
+element name table SimpleName Assignment QualifiedName parentelement name table
+attribute name table SimpleName Assignment QualifiedName parentattribute name table
+default ns SimpleName Assignment QualifiedName parentdefault ns
+tables dirty SimpleName Assignment BooleanLiteral false
+void PrimitiveType MethodDeclaration SimpleName set parent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName parent
+set parent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+set parent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set parent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set parent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent

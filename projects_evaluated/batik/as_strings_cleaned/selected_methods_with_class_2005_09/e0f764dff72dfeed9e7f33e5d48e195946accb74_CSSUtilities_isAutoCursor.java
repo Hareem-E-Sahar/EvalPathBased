@@ -1,0 +1,99 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginecursor index
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginecursor index
+e SimpleName MethodInvocation QualifiedName svgcss enginecursor index
+cursor value SimpleName VariableDeclarationFragment MethodInvocation SimpleName css utilities
+cursor value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+cursor value SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+cursor value SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss enginecursor index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cursor value
+is auto SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is auto
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+cursor value SimpleName MethodInvocation SimpleName get css value type
+cursor value SimpleName MethodInvocation InfixExpression QualifiedName css valuecss primitive value
+get css value type SimpleName MethodInvocation InfixExpression QualifiedName css valuecss primitive value
+cursor value SimpleName MethodInvocation SimpleName get primitive type
+cursor value SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss ident
+get primitive type SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss ident
+css valuecss primitive value QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName css primitive valuecss ident
+cursor value SimpleName MethodInvocation SimpleName get string value
+cursor value SimpleName MethodInvocation MethodInvocation SimpleName char at
+get string value SimpleName MethodInvocation MethodInvocation SimpleName char at
+cursor value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get string value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+cursor value SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral a
+get string value SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+is auto SimpleName Assignment BooleanLiteral true
+cursor value SimpleName MethodInvocation SimpleName get css value type
+cursor value SimpleName MethodInvocation InfixExpression QualifiedName css valuecss value list
+get css value type SimpleName MethodInvocation InfixExpression QualifiedName css valuecss value list
+cursor value SimpleName MethodInvocation SimpleName get length
+cursor value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+css valuecss value list QualifiedName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+cursor value SimpleName MethodInvocation SimpleName item
+cursor value SimpleName MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+l value SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor value
+l value SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+l value SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l value
+l value SimpleName MethodInvocation SimpleName get css value type
+l value SimpleName MethodInvocation InfixExpression QualifiedName css valuecss primitive value
+get css value type SimpleName MethodInvocation InfixExpression QualifiedName css valuecss primitive value
+l value SimpleName InfixExpression InfixExpression InfixExpression QualifiedName css valuecss primitive value
+l value SimpleName MethodInvocation SimpleName get primitive type
+l value SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss ident
+get primitive type SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss ident
+l value SimpleName MethodInvocation SimpleName get string value
+l value SimpleName MethodInvocation MethodInvocation SimpleName char at
+get string value SimpleName MethodInvocation MethodInvocation SimpleName char at
+l value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get string value SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+l value SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral a
+get string value SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+is auto SimpleName Assignment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName is auto
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is auto cursor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName is auto
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is auto cursor
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block ReturnStatement SimpleName is auto
+boolean PrimitiveType MethodDeclaration SimpleName is auto cursor
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName is auto
+is auto cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+is auto cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+is auto cursor SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is auto cursor SimpleName MethodDeclaration Block ReturnStatement SimpleName is auto
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is auto cursor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is auto cursor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

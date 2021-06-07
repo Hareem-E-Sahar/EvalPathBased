@@ -1,0 +1,43 @@
+media SimpleName MethodInvocation SimpleName get media text
+media StringLiteral InfixExpression MethodInvocation SimpleName media
+media StringLiteral InfixExpression MethodInvocation SimpleName get media text
+media StringLiteral InfixExpression StringLiteral {
+media SimpleName MethodInvocation InfixExpression StringLiteral {
+get media text SimpleName MethodInvocation InfixExpression StringLiteral {
+result SimpleName VariableDeclarationFragment InfixExpression StringLiteral media
+result SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName media
+result SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get media text
+result SimpleName VariableDeclarationFragment InfixExpression StringLiteral {
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+css rules SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName css rules
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+css rules SimpleName MethodInvocation SimpleName item
+css rules SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+css rules SimpleName MethodInvocation MethodInvocation SimpleName get css text
+item SimpleName MethodInvocation MethodInvocation SimpleName get css text
+i SimpleName MethodInvocation MethodInvocation SimpleName get css text
+css rules SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+item SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+i SimpleName MethodInvocation MethodInvocation InfixExpression StringLiteral empty
+get css text SimpleName MethodInvocation InfixExpression StringLiteral empty
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+result SimpleName Assignment InfixExpression StringLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+result SimpleName InfixExpression StringLiteral }
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get css text
+string SimpleName SimpleType MethodDeclaration SimpleName get css text
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get css text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get css text

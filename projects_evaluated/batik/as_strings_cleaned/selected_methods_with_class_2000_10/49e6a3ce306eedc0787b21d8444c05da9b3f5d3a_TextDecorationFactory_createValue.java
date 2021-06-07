@@ -1,0 +1,79 @@
+lexical unit SimpleName SimpleType SingleVariableDeclaration SimpleName lu
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get string value
+lu SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+get string value SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+lu SimpleName MethodInvocation MethodInvocation SimpleName none
+get string value SimpleName MethodInvocation MethodInvocation SimpleName none
+equals ignore case SimpleName MethodInvocation SimpleName none
+immutable value list SimpleName SimpleType ClassInstanceCreation CharacterLiteral empty
+list SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName immutable value list
+list SimpleName VariableDeclarationFragment ClassInstanceCreation CharacterLiteral empty
+immutable value list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+ident factory SimpleName MethodInvocation SimpleName create value
+ident factory SimpleName MethodInvocation SimpleName lu
+create value SimpleName MethodInvocation SimpleName lu
+cssom value SimpleName SimpleType ClassInstanceCreation SimpleName ident factory
+cssom value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ident factory
+cssom value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create value
+cssom value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+ident factory SimpleName ClassInstanceCreation MethodInvocation SimpleName ident factory
+ident factory SimpleName ClassInstanceCreation MethodInvocation SimpleName create value
+ident factory SimpleName ClassInstanceCreation MethodInvocation SimpleName lu
+list SimpleName MethodInvocation SimpleName append
+list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName cssom value
+list SimpleName MethodInvocation ClassInstanceCreation SimpleName ident factory
+list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ident factory
+list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create value
+list SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName lu
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName cssom value
+append SimpleName MethodInvocation ClassInstanceCreation SimpleName ident factory
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName ident factory
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create value
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName lu
+lu SimpleName MethodInvocation SimpleName get next lexical unit
+lu SimpleName Assignment MethodInvocation SimpleName lu
+lu SimpleName Assignment MethodInvocation SimpleName get next lexical unit
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get lexical unit type
+cssdom exception factory SimpleName MethodInvocation SimpleName create dom exception
+cssdom exception factory SimpleName MethodInvocation QualifiedName dom exceptioninvalid access err
+cssdom exception factory SimpleName MethodInvocation StringLiteral invalidlexicalunit
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptioninvalid access err
+create dom exception SimpleName MethodInvocation StringLiteral invalidlexicalunit
+dom exceptioninvalid access err QualifiedName MethodInvocation StringLiteral invalidlexicalunit
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac inherit
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac inherit
+lu SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName inherit
+get lexical unit type SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName inherit
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+lexical unitsac inherit QualifiedName SwitchCase SwitchStatement ReturnStatement SimpleName inherit
+lexical unitsac inherit QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+inherit SimpleName ReturnStatement SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+inherit SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName list
+lexical unitsac ident QualifiedName SwitchCase SwitchStatement ReturnStatement SimpleName list
+public Modifier MethodDeclaration SimpleType SimpleName immutable value
+public Modifier MethodDeclaration SimpleName create value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lu
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+immutable value SimpleName SimpleType MethodDeclaration SimpleName create value
+immutable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName lu
+immutable value SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lu
+create value SimpleName MethodDeclaration SimpleType SimpleName dom exception
+lu SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName immutable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName create value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName immutable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

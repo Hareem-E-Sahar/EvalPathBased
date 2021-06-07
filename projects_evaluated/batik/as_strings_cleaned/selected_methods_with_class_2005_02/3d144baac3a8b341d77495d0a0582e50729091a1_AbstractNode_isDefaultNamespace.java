@@ -1,0 +1,114 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace uri
+abstract node SimpleName SimpleType CastExpression MethodInvocation SimpleName get document element
+de SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+de SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get document element
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName de
+de SimpleName MethodInvocation SimpleName is default namespace
+de SimpleName MethodInvocation SimpleName namespace uri
+is default namespace SimpleName MethodInvocation SimpleName namespace uri
+abstract node SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner element
+owner SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+owner SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner element
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName owner
+owner SimpleName MethodInvocation SimpleName is default namespace
+owner SimpleName MethodInvocation SimpleName namespace uri
+is default namespace SimpleName MethodInvocation SimpleName namespace uri
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns
+ns SimpleName InfixExpression InfixExpression InfixExpression SimpleName namespace uri
+ns SimpleName MethodInvocation SimpleName equals
+ns SimpleName MethodInvocation SimpleName namespace uri
+equals SimpleName MethodInvocation SimpleName namespace uri
+ns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName ns
+ns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+ns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName namespace uri
+nnm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nnm
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+nnm SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName nnm
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+nnm SimpleName MethodInvocation SimpleName item
+nnm SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName nnm
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get local name
+xml constantsxmlns prefix QualifiedName MethodInvocation SimpleName equals
+xml constantsxmlns prefix QualifiedName MethodInvocation MethodInvocation SimpleName attr
+xml constantsxmlns prefix QualifiedName MethodInvocation MethodInvocation SimpleName get local name
+equals SimpleName MethodInvocation MethodInvocation SimpleName attr
+equals SimpleName MethodInvocation MethodInvocation SimpleName get local name
+attr SimpleName MethodInvocation SimpleName get node value
+attr SimpleName MethodInvocation MethodInvocation SimpleName equals
+get node value SimpleName MethodInvocation MethodInvocation SimpleName equals
+attr SimpleName MethodInvocation MethodInvocation SimpleName namespace uri
+get node value SimpleName MethodInvocation MethodInvocation SimpleName namespace uri
+equals SimpleName MethodInvocation SimpleName namespace uri
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get parent node
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression SimpleName element node
+get node type SimpleName MethodInvocation InfixExpression SimpleName element node
+abstract node SimpleName SimpleType CastExpression SimpleName n
+an SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+an SimpleName VariableDeclarationFragment CastExpression SimpleName n
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName an
+an SimpleName MethodInvocation SimpleName is default namespace
+an SimpleName MethodInvocation SimpleName namespace uri
+is default namespace SimpleName MethodInvocation SimpleName namespace uri
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName document node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName entity node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName notation node
+document node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName entity node
+document node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName notation node
+document node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document type node
+entity node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName notation node
+entity node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document type node
+entity node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document fragment node
+entity node SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+entity node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName attribute node
+notation node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document type node
+notation node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document fragment node
+notation node SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+notation node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName attribute node
+document type node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document fragment node
+document type node SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+document type node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName attribute node
+document fragment node SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+document fragment node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName attribute node
+document fragment node SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+false BooleanLiteral ReturnStatement SwitchStatement SwitchCase SimpleName attribute node
+false BooleanLiteral ReturnStatement SwitchStatement ReturnStatement BooleanLiteral false
+false BooleanLiteral ReturnStatement SwitchStatement SwitchCase SimpleName element node
+attribute node SimpleName SwitchCase SwitchStatement ReturnStatement BooleanLiteral false
+attribute node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName element node
+false BooleanLiteral ReturnStatement SwitchStatement SwitchCase SimpleName element node
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is default namespace
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+boolean PrimitiveType MethodDeclaration SimpleName is default namespace
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+is default namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is default namespace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is default namespace
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is default namespace
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri

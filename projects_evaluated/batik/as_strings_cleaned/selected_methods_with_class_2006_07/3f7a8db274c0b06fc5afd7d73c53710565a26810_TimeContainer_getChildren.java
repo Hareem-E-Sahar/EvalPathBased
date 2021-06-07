@@ -1,0 +1,12 @@
+timed element SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+children SimpleName MethodInvocation SimpleName to array
+children SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+to array SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName timed element
+public Modifier MethodDeclaration SimpleName get children
+timed element SimpleName SimpleType ArrayType MethodDeclaration SimpleName get children
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get children
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get children

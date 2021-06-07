@@ -1,0 +1,32 @@
+ua SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user agent
+user agent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ua
+get bridge extensions SimpleName MethodInvocation SimpleName document
+ext SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bridge extensions
+ext SimpleName VariableDeclarationFragment MethodInvocation SimpleName document
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ext
+ext SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName ext
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+bridge extension SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+bridge extension SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+be SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName bridge extension
+be SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+be SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+bridge extension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName be
+be SimpleName MethodInvocation SimpleName register tags
+ua SimpleName MethodInvocation SimpleName register extension
+ua SimpleName MethodInvocation SimpleName be
+register extension SimpleName MethodInvocation SimpleName be
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName register svg bridges
+void PrimitiveType MethodDeclaration SimpleName register svg bridges
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register svg bridges
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register svg bridges

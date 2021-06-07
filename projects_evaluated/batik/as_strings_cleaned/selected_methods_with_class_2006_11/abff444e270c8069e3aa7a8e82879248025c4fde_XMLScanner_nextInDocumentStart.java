@@ -1,0 +1,167 @@
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml space
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml space SimpleName MethodInvocation CastExpression SimpleName current
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName xml utilities
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is xml space
+depth SimpleName InfixExpression NumberLiteral empty
+depth SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName top level context
+empty NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName top level context
+depth SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName content context
+empty NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName content context
+top level context SimpleName ConditionalExpression SimpleName content context
+context SimpleName Assignment ConditionalExpression SimpleName top level context
+context SimpleName Assignment ConditionalExpression SimpleName content context
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName next char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next char
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName c
+xml utilities SimpleName MethodInvocation SimpleName is xml name first character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName c
+is xml name first character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name first character SimpleName MethodInvocation CastExpression SimpleName c
+create xml exception SimpleName MethodInvocation StringLiteral invalidpitarget
+context SimpleName Assignment SimpleName pi context
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName next char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next char
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName c
+xml utilities SimpleName MethodInvocation SimpleName is xml name character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName c
+is xml name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name character SimpleName MethodInvocation CastExpression SimpleName c
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName next char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next char
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName c
+xml utilities SimpleName MethodInvocation SimpleName is xml name character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName c
+is xml name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name character SimpleName MethodInvocation CastExpression SimpleName c
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName next char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next char
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName c
+xml utilities SimpleName MethodInvocation SimpleName is xml name character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName c
+is xml name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name character SimpleName MethodInvocation CastExpression SimpleName c
+c SimpleName InfixExpression InfixExpression MethodInvocation SimpleName xml utilities
+c SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is xml name character
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml name character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name character SimpleName MethodInvocation CastExpression SimpleName current
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName xml utilities
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is xml name character
+c SimpleName InfixExpression CharacterLiteral x
+c SimpleName InfixExpression CharacterLiteral m
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+c SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral m
+x CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName c
+x CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral m
+c SimpleName InfixExpression CharacterLiteral l
+context SimpleName Assignment SimpleName xml decl context
+c SimpleName InfixExpression CharacterLiteral x
+c SimpleName InfixExpression CharacterLiteral x
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+c SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral x
+x CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName c
+x CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral x
+c SimpleName InfixExpression CharacterLiteral m
+c SimpleName InfixExpression CharacterLiteral m
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+c SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral m
+m CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName c
+m CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral m
+c SimpleName InfixExpression CharacterLiteral l
+c SimpleName InfixExpression CharacterLiteral l
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+c SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral l
+l CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName c
+l CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral l
+create xml exception SimpleName MethodInvocation StringLiteral xmlreserved
+context SimpleName Assignment SimpleName doctype context
+read identifier SimpleName MethodInvocation StringLiteral octype
+read identifier SimpleName MethodInvocation QualifiedName lexical unitsdoctype start
+read identifier SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+octype StringLiteral MethodInvocation QualifiedName lexical unitsdoctype start
+octype StringLiteral MethodInvocation PrefixExpression NumberLiteral empty
+lexical unitsdoctype start QualifiedName MethodInvocation PrefixExpression NumberLiteral empty
+create xml exception SimpleName MethodInvocation StringLiteral invaliddoctype
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral -
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral d
+- CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral d
+context SimpleName Assignment SimpleName start tag context
+read name SimpleName MethodInvocation QualifiedName lexical unitsstart tag
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral ?
+next char SimpleName MethodInvocation SwitchStatement VariableDeclarationStatement PrimitiveType int
+next char SimpleName MethodInvocation SwitchStatement VariableDeclarationStatement PrimitiveType int
+? CharacterLiteral SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType int
+? CharacterLiteral SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement SwitchStatement VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement SwitchStatement VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement SwitchStatement VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement SwitchStatement VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement SwitchStatement VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement SwitchStatement ReturnStatement QualifiedName lexical unitspi start
+int PrimitiveType VariableDeclarationStatement SwitchStatement SwitchCase CharacterLiteral !
+lexical unitspi start QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral !
+depth SimpleName InfixExpression NumberLiteral empty
+create xml exception SimpleName MethodInvocation StringLiteral invalidcharacter
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+current SimpleName SwitchStatement SwitchCase NumberLiteral x a
+current SimpleName SwitchStatement SwitchCase NumberLiteral x d
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x d
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x d
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x a NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x d NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral <
+x NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral <
+lexical unitss QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral <
+lexical unitss QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName lexical unitseof
+< CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitseof
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName next in document start
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName current
+int PrimitiveType MethodDeclaration SimpleName next in document start
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+int PrimitiveType MethodDeclaration Block SwitchStatement SimpleName current
+next in document start SimpleName MethodDeclaration SimpleType SimpleName io exception
+next in document start SimpleName MethodDeclaration SimpleType SimpleName xml exception
+next in document start SimpleName MethodDeclaration Block SwitchStatement SimpleName current
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName next in document start
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next in document start
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception

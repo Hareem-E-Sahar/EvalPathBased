@@ -1,0 +1,40 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+result SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+node SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+node count SimpleName MethodInvocation SimpleName n
+result SimpleName Assignment MethodInvocation SimpleName node count
+result SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName node count
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName result
+int PrimitiveType MethodDeclaration SimpleName node count
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName result
+node count SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+node count SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+node count SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+node count SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName node count
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName node count
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

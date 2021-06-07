@@ -1,0 +1,38 @@
+selector list SimpleName SimpleType SingleVariableDeclaration SimpleName selectors
+cssom style rule SimpleName ThisExpression FieldAccess SimpleName selectors
+sl SimpleName VariableDeclarationFragment FieldAccess ThisExpression SimpleName cssom style rule
+sl SimpleName VariableDeclarationFragment FieldAccess SimpleName selectors
+selector list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sl
+cssom style rule SimpleName ThisExpression FieldAccess SimpleName selectors
+cssom style rule SimpleName ThisExpression FieldAccess Assignment SimpleName selectors
+selectors SimpleName FieldAccess Assignment SimpleName selectors
+style rule change support SimpleName MethodInvocation SimpleName fire selector list change
+style rule change support SimpleName MethodInvocation SimpleName sl
+style rule change support SimpleName MethodInvocation SimpleName selectors
+fire selector list change SimpleName MethodInvocation SimpleName sl
+fire selector list change SimpleName MethodInvocation SimpleName selectors
+sl SimpleName MethodInvocation SimpleName selectors
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start selector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName selectors
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+void PrimitiveType MethodDeclaration SimpleName start selector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName selectors
+void PrimitiveType MethodDeclaration SimpleType SimpleName css exception
+start selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector list
+start selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName selectors
+start selector SimpleName MethodDeclaration SimpleType SimpleName css exception
+selectors SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start selector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selectors
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start selector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selectors
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

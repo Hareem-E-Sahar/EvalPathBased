@@ -1,0 +1,500 @@
+ascent SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ascent
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+descent SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName descent
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+font SimpleName MethodInvocation SimpleName get line metrics
+font SimpleName MethodInvocation StringLiteral by
+font SimpleName MethodInvocation SimpleName frc
+get line metrics SimpleName MethodInvocation StringLiteral by
+get line metrics SimpleName MethodInvocation SimpleName frc
+by StringLiteral MethodInvocation SimpleName frc
+line metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName font
+line metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName get line metrics
+line metrics SimpleName VariableDeclarationFragment MethodInvocation StringLiteral by
+line metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName frc
+gvt line metrics SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName line metrics
+line metrics SimpleName MethodInvocation SimpleName get ascent
+ascent SimpleName Assignment MethodInvocation SimpleName line metrics
+ascent SimpleName Assignment MethodInvocation SimpleName get ascent
+line metrics SimpleName MethodInvocation SimpleName get descent
+descent SimpleName Assignment MethodInvocation SimpleName line metrics
+descent SimpleName Assignment MethodInvocation SimpleName get descent
+descent SimpleName InfixExpression NumberLiteral empty
+descent SimpleName Assignment PrefixExpression SimpleName descent
+ascent SimpleName InfixExpression NumberLiteral empty
+max ascent SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max ascent
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+max descent SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max descent
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation SimpleName get num glyphs
+glyph visible SimpleName ArrayAccess SimpleName i
+get glyph metrics SimpleName MethodInvocation SimpleName i
+glyph metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph metrics
+glyph metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+gvt glyph metrics SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph metrics
+glyph metrics SimpleName MethodInvocation SimpleName get bounds d
+glyph bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName glyph metrics
+glyph bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph bounds
+glyph bounds SimpleName MethodInvocation SimpleName get min y
+ascent SimpleName Assignment CastExpression PrimitiveType float
+glyph bounds SimpleName MethodInvocation SimpleName get height
+glyph bounds SimpleName MethodInvocation InfixExpression SimpleName ascent
+get height SimpleName MethodInvocation InfixExpression SimpleName ascent
+float PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName ascent
+descent SimpleName Assignment CastExpression PrimitiveType float
+ascent SimpleName InfixExpression SimpleName max ascent
+max ascent SimpleName Assignment SimpleName ascent
+descent SimpleName InfixExpression SimpleName max descent
+max descent SimpleName Assignment SimpleName descent
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+ascent SimpleName Assignment SimpleName max ascent
+descent SimpleName Assignment SimpleName max descent
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+temp logical bounds SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName get num glyphs
+boolean PrimitiveType ArrayType ArrayCreation MethodInvocation SimpleName get num glyphs
+rotated SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType boolean
+rotated SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName get num glyphs
+boolean PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName rotated
+max width SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max width
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+max height SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max height
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation SimpleName get num glyphs
+glyph visible SimpleName ArrayAccess SimpleName i
+temp logical bounds SimpleName ArrayAccess SimpleName i
+get glyph transform SimpleName MethodInvocation SimpleName i
+glyph transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph transform
+glyph transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph transform
+get glyph metrics SimpleName MethodInvocation SimpleName i
+glyph metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph metrics
+glyph metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+gvt glyph metrics SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph metrics
+glyph metrics SimpleName MethodInvocation SimpleName get horizontal advance
+ascent SimpleName InfixExpression SimpleName descent
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation PrefixExpression SimpleName ascent
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName glyph metrics
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get horizontal advance
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName ascent
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName descent
+empty NumberLiteral ClassInstanceCreation PrefixExpression SimpleName ascent
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName glyph metrics
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get horizontal advance
+empty NumberLiteral ClassInstanceCreation InfixExpression SimpleName ascent
+empty NumberLiteral ClassInstanceCreation InfixExpression SimpleName descent
+ascent SimpleName PrefixExpression ClassInstanceCreation MethodInvocation SimpleName glyph metrics
+ascent SimpleName PrefixExpression ClassInstanceCreation MethodInvocation SimpleName get horizontal advance
+ascent SimpleName PrefixExpression ClassInstanceCreation InfixExpression SimpleName ascent
+ascent SimpleName PrefixExpression ClassInstanceCreation InfixExpression SimpleName descent
+glyph metrics SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName ascent
+glyph metrics SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName descent
+get horizontal advance SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName ascent
+get horizontal advance SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName descent
+glyph bounds SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName rectangle ddouble
+glyph bounds SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+glyph bounds SimpleName VariableDeclarationFragment ClassInstanceCreation PrefixExpression SimpleName ascent
+glyph bounds SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName glyph metrics
+glyph bounds SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get horizontal advance
+glyph bounds SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName ascent
+glyph bounds SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName descent
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph bounds
+glyph bounds SimpleName MethodInvocation SimpleName is empty
+i SimpleName InfixExpression NumberLiteral empty
+rotated SimpleName ArrayAccess SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+rotated SimpleName ArrayAccess InfixExpression SimpleName i
+rotated SimpleName ArrayAccess InfixExpression NumberLiteral empty
+rotated SimpleName ArrayAccess Assignment ArrayAccess SimpleName rotated
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName rotated
+rotated SimpleName ArrayAccess SimpleName i
+rotated SimpleName ArrayAccess Assignment BooleanLiteral true
+i SimpleName ArrayAccess Assignment BooleanLiteral true
+glyph bounds SimpleName MethodInvocation SimpleName get min x
+glyph bounds SimpleName MethodInvocation SimpleName get min y
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get min x
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get min y
+glyph bounds SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+glyph bounds SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get min y
+get min x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+get min x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get min y
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get min x
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get min y
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+glyph bounds SimpleName MethodInvocation SimpleName get max x
+glyph bounds SimpleName MethodInvocation SimpleName get min y
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get max x
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get min y
+glyph bounds SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+glyph bounds SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get min y
+get max x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+get max x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get min y
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get max x
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get min y
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+glyph bounds SimpleName MethodInvocation SimpleName get min x
+glyph bounds SimpleName MethodInvocation SimpleName get max y
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get min x
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get max y
+glyph bounds SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+glyph bounds SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get max y
+get min x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+get min x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get max y
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get min x
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName glyph bounds
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get max y
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+get glyph position SimpleName MethodInvocation SimpleName i
+gpos SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph position
+gpos SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gpos
+gpos SimpleName MethodInvocation SimpleName get x
+gpos SimpleName MethodInvocation SimpleName get y
+affine transform SimpleName MethodInvocation SimpleName get translate instance
+affine transform SimpleName MethodInvocation MethodInvocation SimpleName gpos
+affine transform SimpleName MethodInvocation MethodInvocation SimpleName get x
+affine transform SimpleName MethodInvocation MethodInvocation SimpleName gpos
+affine transform SimpleName MethodInvocation MethodInvocation SimpleName get y
+get translate instance SimpleName MethodInvocation MethodInvocation SimpleName gpos
+get translate instance SimpleName MethodInvocation MethodInvocation SimpleName get x
+get translate instance SimpleName MethodInvocation MethodInvocation SimpleName gpos
+get translate instance SimpleName MethodInvocation MethodInvocation SimpleName get y
+gpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName gpos
+gpos SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName gpos
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+tr SimpleName VariableDeclarationFragment MethodInvocation SimpleName affine transform
+tr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get translate instance
+tr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName gpos
+tr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get x
+tr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName gpos
+tr SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get y
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tr
+tr SimpleName MethodInvocation SimpleName concatenate
+tr SimpleName MethodInvocation SimpleName glyph transform
+concatenate SimpleName MethodInvocation SimpleName glyph transform
+temp logical bounds SimpleName ArrayAccess SimpleName i
+tr SimpleName MethodInvocation SimpleName create transformed shape
+tr SimpleName MethodInvocation SimpleName glyph bounds
+create transformed shape SimpleName MethodInvocation SimpleName glyph bounds
+temp logical bounds SimpleName ArrayAccess Assignment MethodInvocation SimpleName tr
+temp logical bounds SimpleName ArrayAccess Assignment MethodInvocation SimpleName create transformed shape
+temp logical bounds SimpleName ArrayAccess Assignment MethodInvocation SimpleName glyph bounds
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName tr
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName create transformed shape
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName glyph bounds
+tp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tp
+tp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tp
+tp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tp
+tr SimpleName MethodInvocation SimpleName transform
+tr SimpleName MethodInvocation SimpleName p
+tr SimpleName MethodInvocation SimpleName tp
+transform SimpleName MethodInvocation SimpleName p
+transform SimpleName MethodInvocation SimpleName tp
+p SimpleName MethodInvocation SimpleName tp
+tr SimpleName MethodInvocation SimpleName transform
+tr SimpleName MethodInvocation SimpleName p
+tr SimpleName MethodInvocation SimpleName tp
+transform SimpleName MethodInvocation SimpleName p
+transform SimpleName MethodInvocation SimpleName tp
+p SimpleName MethodInvocation SimpleName tp
+tr SimpleName MethodInvocation SimpleName transform
+tr SimpleName MethodInvocation SimpleName p
+tr SimpleName MethodInvocation SimpleName tp
+transform SimpleName MethodInvocation SimpleName p
+transform SimpleName MethodInvocation SimpleName tp
+p SimpleName MethodInvocation SimpleName tp
+tp SimpleName MethodInvocation SimpleName get x
+tp SimpleName MethodInvocation SimpleName get x
+tp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+tp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+tdx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName tp
+tdx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get x
+tdx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName tp
+tdx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tdx
+tp SimpleName MethodInvocation SimpleName get x
+tp SimpleName MethodInvocation SimpleName get x
+tp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+tp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+tdx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName tp
+tdx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get x
+tdx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName tp
+tdx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tdx
+tp SimpleName MethodInvocation SimpleName get y
+tp SimpleName MethodInvocation SimpleName get y
+tp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+tp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+tdy SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName tp
+tdy SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get y
+tdy SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName tp
+tdy SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tdy
+tp SimpleName MethodInvocation SimpleName get y
+tp SimpleName MethodInvocation SimpleName get y
+tp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+tp SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tp
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+tdy SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName tp
+tdy SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get y
+tdy SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName tp
+tdy SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tdy
+math SimpleName MethodInvocation SimpleName abs
+math SimpleName MethodInvocation SimpleName tdx
+abs SimpleName MethodInvocation SimpleName tdx
+math SimpleName MethodInvocation InfixExpression NumberLiteral .
+abs SimpleName MethodInvocation InfixExpression NumberLiteral .
+tdx SimpleName MethodInvocation InfixExpression NumberLiteral .
+math SimpleName MethodInvocation SimpleName abs
+math SimpleName MethodInvocation SimpleName tdy
+abs SimpleName MethodInvocation SimpleName tdy
+math SimpleName MethodInvocation InfixExpression NumberLiteral .
+abs SimpleName MethodInvocation InfixExpression NumberLiteral .
+tdy SimpleName MethodInvocation InfixExpression NumberLiteral .
+rotated SimpleName ArrayAccess SimpleName i
+rotated SimpleName ArrayAccess Assignment BooleanLiteral false
+i SimpleName ArrayAccess Assignment BooleanLiteral false
+math SimpleName MethodInvocation SimpleName abs
+math SimpleName MethodInvocation SimpleName tdx
+abs SimpleName MethodInvocation SimpleName tdx
+math SimpleName MethodInvocation InfixExpression NumberLiteral .
+abs SimpleName MethodInvocation InfixExpression NumberLiteral .
+tdx SimpleName MethodInvocation InfixExpression NumberLiteral .
+math SimpleName MethodInvocation SimpleName abs
+math SimpleName MethodInvocation SimpleName tdy
+abs SimpleName MethodInvocation SimpleName tdy
+math SimpleName MethodInvocation InfixExpression NumberLiteral .
+abs SimpleName MethodInvocation InfixExpression NumberLiteral .
+tdy SimpleName MethodInvocation InfixExpression NumberLiteral .
+rotated SimpleName ArrayAccess SimpleName i
+rotated SimpleName ArrayAccess Assignment BooleanLiteral false
+i SimpleName ArrayAccess Assignment BooleanLiteral false
+rotated SimpleName ArrayAccess SimpleName i
+rotated SimpleName ArrayAccess Assignment BooleanLiteral true
+i SimpleName ArrayAccess Assignment BooleanLiteral true
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rect bounds
+temp logical bounds SimpleName ArrayAccess SimpleName i
+temp logical bounds SimpleName ArrayAccess MethodInvocation SimpleName get bounds d
+i SimpleName ArrayAccess MethodInvocation SimpleName get bounds d
+rect bounds SimpleName Assignment MethodInvocation ArrayAccess SimpleName temp logical bounds
+rect bounds SimpleName Assignment MethodInvocation ArrayAccess SimpleName i
+rect bounds SimpleName Assignment MethodInvocation SimpleName get bounds d
+rect bounds SimpleName MethodInvocation SimpleName get width
+rect bounds SimpleName MethodInvocation InfixExpression SimpleName max width
+get width SimpleName MethodInvocation InfixExpression SimpleName max width
+rect bounds SimpleName MethodInvocation SimpleName get width
+max width SimpleName Assignment MethodInvocation SimpleName rect bounds
+max width SimpleName Assignment MethodInvocation SimpleName get width
+rect bounds SimpleName MethodInvocation SimpleName get height
+rect bounds SimpleName MethodInvocation InfixExpression SimpleName max height
+get height SimpleName MethodInvocation InfixExpression SimpleName max height
+rect bounds SimpleName MethodInvocation SimpleName get height
+max height SimpleName Assignment MethodInvocation SimpleName rect bounds
+max height SimpleName Assignment MethodInvocation SimpleName get height
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+logical bounds path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName general path
+general path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName logical bounds path
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation SimpleName get num glyphs
+temp logical bounds SimpleName ArrayAccess SimpleName i
+temp logical bounds SimpleName ArrayAccess SimpleName i
+logical bounds path SimpleName MethodInvocation SimpleName append
+logical bounds path SimpleName MethodInvocation ArrayAccess SimpleName temp logical bounds
+logical bounds path SimpleName MethodInvocation ArrayAccess SimpleName i
+logical bounds path SimpleName MethodInvocation BooleanLiteral false
+append SimpleName MethodInvocation ArrayAccess SimpleName temp logical bounds
+append SimpleName MethodInvocation ArrayAccess SimpleName i
+append SimpleName MethodInvocation BooleanLiteral false
+temp logical bounds SimpleName ArrayAccess MethodInvocation BooleanLiteral false
+i SimpleName ArrayAccess MethodInvocation BooleanLiteral false
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+logical bounds path SimpleName MethodInvocation SimpleName get bounds d
+full bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName logical bounds path
+full bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName full bounds
+full bounds SimpleName MethodInvocation SimpleName get height
+max height SimpleName InfixExpression NumberLiteral .
+full bounds SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max height
+full bounds SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+get height SimpleName MethodInvocation InfixExpression InfixExpression SimpleName max height
+get height SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral .
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation SimpleName get num glyphs
+rotated SimpleName ArrayAccess SimpleName i
+temp logical bounds SimpleName ArrayAccess SimpleName i
+temp logical bounds SimpleName ArrayAccess SimpleName i
+temp logical bounds SimpleName ArrayAccess MethodInvocation SimpleName get bounds d
+i SimpleName ArrayAccess MethodInvocation SimpleName get bounds d
+glyph bounds SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName temp logical bounds
+glyph bounds SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName i
+glyph bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph bounds
+glyph bounds SimpleName MethodInvocation SimpleName get min x
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName glyph bounds
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName get min x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName glyph bounds
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get min x
+glyph bounds SimpleName MethodInvocation SimpleName get width
+width SimpleName VariableDeclarationFragment MethodInvocation SimpleName glyph bounds
+width SimpleName VariableDeclarationFragment MethodInvocation SimpleName get width
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName width
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName glyph bounds
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get width
+get num glyphs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName get num glyphs
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+temp logical bounds SimpleName ArrayAccess InfixExpression SimpleName i
+temp logical bounds SimpleName ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+temp logical bounds SimpleName ArrayAccess InfixExpression SimpleName i
+temp logical bounds SimpleName ArrayAccess InfixExpression NumberLiteral empty
+temp logical bounds SimpleName ArrayAccess MethodInvocation SimpleName get bounds d
+i SimpleName InfixExpression ArrayAccess MethodInvocation SimpleName get bounds d
+empty NumberLiteral InfixExpression ArrayAccess MethodInvocation SimpleName get bounds d
+ngb SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName temp logical bounds
+ngb SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ngb
+ngb SimpleName MethodInvocation SimpleName get x
+ngb SimpleName MethodInvocation InfixExpression SimpleName x
+get x SimpleName MethodInvocation InfixExpression SimpleName x
+ngb SimpleName MethodInvocation SimpleName get x
+ngb SimpleName MethodInvocation InfixExpression SimpleName x
+get x SimpleName MethodInvocation InfixExpression SimpleName x
+nw SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName ngb
+nw SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get x
+nw SimpleName VariableDeclarationFragment InfixExpression SimpleName x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nw
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName x
+width SimpleName InfixExpression NumberLiteral .
+nw SimpleName InfixExpression InfixExpression SimpleName width
+nw SimpleName InfixExpression InfixExpression NumberLiteral .
+width SimpleName InfixExpression NumberLiteral .
+nw SimpleName InfixExpression InfixExpression SimpleName width
+nw SimpleName InfixExpression InfixExpression NumberLiteral .
+nw SimpleName InfixExpression SimpleName width
+nw SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+width SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral .
+delta SimpleName VariableDeclarationFragment InfixExpression NumberLiteral .
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName delta
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral .
+width SimpleName Assignment SimpleName delta
+ngb SimpleName MethodInvocation SimpleName get x
+ngb SimpleName MethodInvocation InfixExpression SimpleName delta
+get x SimpleName MethodInvocation InfixExpression SimpleName delta
+ngb SimpleName MethodInvocation SimpleName get y
+ngb SimpleName MethodInvocation SimpleName get width
+ngb SimpleName MethodInvocation InfixExpression SimpleName delta
+get width SimpleName MethodInvocation InfixExpression SimpleName delta
+ngb SimpleName MethodInvocation SimpleName get height
+ngb SimpleName MethodInvocation SimpleName set rect
+ngb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ngb
+ngb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+ngb SimpleName MethodInvocation InfixExpression SimpleName delta
+ngb SimpleName MethodInvocation MethodInvocation SimpleName ngb
+ngb SimpleName MethodInvocation MethodInvocation SimpleName get y
+ngb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ngb
+ngb SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+ngb SimpleName MethodInvocation InfixExpression SimpleName delta
+ngb SimpleName MethodInvocation MethodInvocation SimpleName ngb
+ngb SimpleName MethodInvocation MethodInvocation SimpleName get height
+set rect SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ngb
+set rect SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+set rect SimpleName MethodInvocation InfixExpression SimpleName delta
+set rect SimpleName MethodInvocation MethodInvocation SimpleName ngb
+set rect SimpleName MethodInvocation MethodInvocation SimpleName get y
+set rect SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ngb
+set rect SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+set rect SimpleName MethodInvocation InfixExpression SimpleName delta
+set rect SimpleName MethodInvocation MethodInvocation SimpleName ngb
+set rect SimpleName MethodInvocation MethodInvocation SimpleName get height
+delta SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ngb
+delta SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get y
+delta SimpleName InfixExpression MethodInvocation InfixExpression SimpleName delta
+delta SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ngb
+delta SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get height
+ngb SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName delta
+get y SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName delta
+ngb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ngb
+ngb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ngb
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+delta SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName ngb
+delta SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get height
+temp logical bounds SimpleName ArrayAccess SimpleName i
+full bounds SimpleName MethodInvocation SimpleName get min y
+full bounds SimpleName MethodInvocation SimpleName get height
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName x
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName full bounds
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get min y
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName width
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName full bounds
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get height
+x SimpleName ClassInstanceCreation MethodInvocation SimpleName full bounds
+x SimpleName ClassInstanceCreation MethodInvocation SimpleName get min y
+x SimpleName ClassInstanceCreation SimpleName width
+x SimpleName ClassInstanceCreation MethodInvocation SimpleName full bounds
+x SimpleName ClassInstanceCreation MethodInvocation SimpleName get height
+full bounds SimpleName MethodInvocation ClassInstanceCreation SimpleName width
+get min y SimpleName MethodInvocation ClassInstanceCreation SimpleName width
+full bounds SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName full bounds
+full bounds SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get min y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName full bounds
+get min y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+width SimpleName ClassInstanceCreation MethodInvocation SimpleName full bounds

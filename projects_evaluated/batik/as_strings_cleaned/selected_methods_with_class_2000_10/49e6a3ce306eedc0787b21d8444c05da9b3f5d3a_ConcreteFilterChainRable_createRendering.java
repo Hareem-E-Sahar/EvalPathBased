@@ -1,0 +1,27 @@
+render context SimpleName SimpleType SingleVariableDeclaration SimpleName context
+filter region SimpleName MethodInvocation SimpleName get region
+crop SimpleName MethodInvocation SimpleName set pad rect
+crop SimpleName MethodInvocation MethodInvocation SimpleName filter region
+crop SimpleName MethodInvocation MethodInvocation SimpleName get region
+set pad rect SimpleName MethodInvocation MethodInvocation SimpleName filter region
+set pad rect SimpleName MethodInvocation MethodInvocation SimpleName get region
+crop SimpleName MethodInvocation SimpleName create rendering
+crop SimpleName MethodInvocation SimpleName context
+create rendering SimpleName MethodInvocation SimpleName context
+public Modifier MethodDeclaration SimpleType SimpleName rendered image
+public Modifier MethodDeclaration SimpleName create rendering
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context
+rendered image SimpleName SimpleType MethodDeclaration SimpleName create rendering
+rendered image SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName context
+create rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+create rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rendered image
+public Modifier TypeDeclaration MethodDeclaration SimpleName create rendering
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rendered image
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create rendering
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context

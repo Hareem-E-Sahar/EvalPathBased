@@ -1,0 +1,69 @@
+rectangle SimpleName SimpleType SingleVariableDeclaration SimpleName rect
+shape SimpleName SimpleType SingleVariableDeclaration SimpleName s
+boolean PrimitiveType SingleVariableDeclaration SimpleName on stroke
+gc SimpleName MethodInvocation SimpleName get stroke
+gc SimpleName MethodInvocation MethodInvocation SimpleName create stroked shape
+get stroke SimpleName MethodInvocation MethodInvocation SimpleName create stroked shape
+gc SimpleName MethodInvocation MethodInvocation SimpleName s
+get stroke SimpleName MethodInvocation MethodInvocation SimpleName s
+create stroked shape SimpleName MethodInvocation SimpleName s
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName gc
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName get stroke
+s SimpleName Assignment MethodInvocation SimpleName create stroked shape
+s SimpleName Assignment MethodInvocation SimpleName s
+gc SimpleName MethodInvocation SimpleName get transform
+gc SimpleName MethodInvocation MethodInvocation SimpleName create transformed shape
+get transform SimpleName MethodInvocation MethodInvocation SimpleName create transformed shape
+gc SimpleName MethodInvocation MethodInvocation SimpleName s
+get transform SimpleName MethodInvocation MethodInvocation SimpleName s
+create transformed shape SimpleName MethodInvocation SimpleName s
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName gc
+s SimpleName Assignment MethodInvocation MethodInvocation SimpleName get transform
+s SimpleName Assignment MethodInvocation SimpleName create transformed shape
+s SimpleName Assignment MethodInvocation SimpleName s
+s SimpleName MethodInvocation SimpleName intersects
+s SimpleName MethodInvocation SimpleName rect
+intersects SimpleName MethodInvocation SimpleName rect
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName hit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rect
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName on stroke
+boolean PrimitiveType MethodDeclaration SimpleName hit
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rect
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName on stroke
+boolean PrimitiveType MethodDeclaration Block IfStatement SimpleName on stroke
+hit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle
+hit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rect
+hit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+hit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+hit SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+hit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName on stroke
+hit SimpleName MethodDeclaration Block IfStatement SimpleName on stroke
+rect SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+rect SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+rect SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName on stroke
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName on stroke
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName hit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rect
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName on stroke
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rect
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName on stroke

@@ -1,0 +1,22 @@
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName other
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName distance to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier MethodDeclaration Block ReturnStatement NumberLiteral f
+float PrimitiveType MethodDeclaration SimpleName distance to
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+float PrimitiveType MethodDeclaration Block ReturnStatement NumberLiteral f
+distance to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+distance to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+distance to SimpleName MethodDeclaration Block ReturnStatement NumberLiteral f
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName distance to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName distance to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

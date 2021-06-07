@@ -1,0 +1,25 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+selection StringLiteral InfixExpression SimpleName o
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral selection
+systemout QualifiedName MethodInvocation InfixExpression SimpleName o
+println SimpleName MethodInvocation InfixExpression StringLiteral selection
+println SimpleName MethodInvocation InfixExpression SimpleName o
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName squawk like a parrot
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+void PrimitiveType MethodDeclaration SimpleName squawk like a parrot
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+squawk like a parrot SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+squawk like a parrot SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName squawk like a parrot
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName squawk like a parrot
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

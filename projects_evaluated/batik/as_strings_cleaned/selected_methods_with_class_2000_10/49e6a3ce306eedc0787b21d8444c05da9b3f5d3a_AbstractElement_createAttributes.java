@@ -1,0 +1,10 @@
+protected Modifier MethodDeclaration SimpleType SimpleName named node map
+protected Modifier MethodDeclaration SimpleName create attributes
+named node map SimpleName SimpleType MethodDeclaration SimpleName create attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName named node map
+public Modifier TypeDeclaration MethodDeclaration SimpleName create attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName named node map
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create attributes

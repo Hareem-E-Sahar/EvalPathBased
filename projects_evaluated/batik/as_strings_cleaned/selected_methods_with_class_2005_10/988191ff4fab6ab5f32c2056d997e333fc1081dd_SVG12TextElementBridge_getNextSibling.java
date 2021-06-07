@@ -1,0 +1,20 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+node xbl SimpleName SimpleType CastExpression SimpleName n
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get xbl next sibling
+protected Modifier MethodDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SimpleName get next sibling
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleName get next sibling
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get next sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get next sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get next sibling
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get next sibling
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

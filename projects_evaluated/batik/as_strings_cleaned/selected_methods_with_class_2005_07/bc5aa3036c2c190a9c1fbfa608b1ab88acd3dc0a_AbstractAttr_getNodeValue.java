@@ -1,0 +1,39 @@
+first SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName first
+first SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName first
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+first SimpleName MethodInvocation SimpleName get node value
+first SimpleName MethodInvocation SimpleName get node value
+string buffer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName first
+string buffer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node value
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName first
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get node value
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+n SimpleName MethodInvocation SimpleName get node value
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation MethodInvocation SimpleName n
+result SimpleName MethodInvocation MethodInvocation SimpleName get node value
+append SimpleName MethodInvocation MethodInvocation SimpleName n
+append SimpleName MethodInvocation MethodInvocation SimpleName get node value
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+result SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get node value
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+string SimpleName SimpleType MethodDeclaration SimpleName get node value
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+get node value SimpleName MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get node value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get node value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

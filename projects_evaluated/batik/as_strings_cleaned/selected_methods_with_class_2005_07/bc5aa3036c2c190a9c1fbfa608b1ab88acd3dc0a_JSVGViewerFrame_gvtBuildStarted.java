@@ -1,0 +1,44 @@
+gvt tree builder event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral messagetree build
+get string SimpleName MethodInvocation StringLiteral messagetree build
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName resources
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+msg SimpleName VariableDeclarationFragment MethodInvocation StringLiteral messagetree build
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName msg
+println SimpleName MethodInvocation SimpleName msg
+system SimpleName MethodInvocation SimpleName current time millis
+time SimpleName Assignment MethodInvocation SimpleName system
+time SimpleName Assignment MethodInvocation SimpleName current time millis
+status bar SimpleName MethodInvocation SimpleName set main message
+status bar SimpleName MethodInvocation SimpleName msg
+set main message SimpleName MethodInvocation SimpleName msg
+stop action SimpleName MethodInvocation SimpleName update
+stop action SimpleName MethodInvocation BooleanLiteral true
+update SimpleName MethodInvocation BooleanLiteral true
+svg canvas SimpleName MethodInvocation SimpleName set cursor
+svg canvas SimpleName MethodInvocation SimpleName wait cursor
+set cursor SimpleName MethodInvocation SimpleName wait cursor
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName gvt build started
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt tree builder event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block IfStatement SimpleName debug
+void PrimitiveType MethodDeclaration SimpleName gvt build started
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt tree builder event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName debug
+gvt build started SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt tree builder event
+gvt build started SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+gvt build started SimpleName MethodDeclaration Block IfStatement SimpleName debug
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName gvt build started
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName gvt build started
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

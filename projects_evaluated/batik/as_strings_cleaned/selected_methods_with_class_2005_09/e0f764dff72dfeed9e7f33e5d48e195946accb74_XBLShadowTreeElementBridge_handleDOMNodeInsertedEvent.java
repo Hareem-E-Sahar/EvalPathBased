@@ -1,0 +1,37 @@
+mutation event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get target
+evt SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName element
+get target SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName element
+composite graphics node SimpleName SimpleType CastExpression SimpleName node
+evt SimpleName MethodInvocation SimpleName get target
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get target
+handle element added SimpleName MethodInvocation CastExpression SimpleType SimpleName composite graphics node
+handle element added SimpleName MethodInvocation CastExpression SimpleName node
+handle element added SimpleName MethodInvocation SimpleName e
+handle element added SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+handle element added SimpleName MethodInvocation CastExpression MethodInvocation SimpleName evt
+handle element added SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get target
+composite graphics node SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+node SimpleName CastExpression MethodInvocation SimpleName e
+e SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+e SimpleName MethodInvocation CastExpression MethodInvocation SimpleName evt
+e SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get target
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle dom node inserted event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName handle dom node inserted event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+handle dom node inserted event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mutation event
+handle dom node inserted event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle dom node inserted event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle dom node inserted event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

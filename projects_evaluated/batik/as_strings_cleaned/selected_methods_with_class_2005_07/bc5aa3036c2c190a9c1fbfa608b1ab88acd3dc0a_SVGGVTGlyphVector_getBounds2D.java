@@ -1,0 +1,69 @@
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName aci
+aci SimpleName MethodInvocation SimpleName first
+aci SimpleName MethodInvocation SimpleName get attribute
+aci SimpleName MethodInvocation SimpleName paint info
+get attribute SimpleName MethodInvocation SimpleName paint info
+text paint info SimpleName SimpleType CastExpression MethodInvocation SimpleName aci
+text paint info SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+text paint info SimpleName SimpleType CastExpression MethodInvocation SimpleName paint info
+tpi SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName text paint info
+tpi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName aci
+tpi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+tpi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName paint info
+text paint info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tpi
+text paint info SimpleName MethodInvocation SimpleName equivilent
+text paint info SimpleName MethodInvocation SimpleName tpi
+text paint info SimpleName MethodInvocation SimpleName cache tpi
+equivilent SimpleName MethodInvocation SimpleName tpi
+equivilent SimpleName MethodInvocation SimpleName cache tpi
+tpi SimpleName MethodInvocation SimpleName cache tpi
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression MethodInvocation SimpleName get num glyphs
+glyph visible SimpleName ArrayAccess SimpleName i
+glyphs SimpleName ArrayAccess SimpleName i
+glyphs SimpleName ArrayAccess MethodInvocation SimpleName get bounds d
+i SimpleName ArrayAccess MethodInvocation SimpleName get bounds d
+glyph bounds SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName glyphs
+glyph bounds SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName i
+glyph bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph bounds
+b SimpleName Assignment SimpleName glyph bounds
+glyph bounds SimpleName MethodInvocation SimpleName create union
+glyph bounds SimpleName MethodInvocation SimpleName b
+create union SimpleName MethodInvocation SimpleName b
+b SimpleName Assignment MethodInvocation SimpleName glyph bounds
+b SimpleName Assignment MethodInvocation SimpleName create union
+b SimpleName Assignment MethodInvocation SimpleName b
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+bounds d SimpleName Assignment SimpleName b
+bounds d SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName rectangle dfloat
+text paint info SimpleName SimpleType ClassInstanceCreation SimpleName tpi
+cache tpi SimpleName Assignment ClassInstanceCreation SimpleType SimpleName text paint info
+cache tpi SimpleName Assignment ClassInstanceCreation SimpleName tpi
+tpivisible QualifiedName IfStatement Block ReturnStatement SimpleName bounds d
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName get bounds d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName aci
+public Modifier MethodDeclaration Block IfStatement QualifiedName tpivisible
+public Modifier MethodDeclaration Block ReturnStatement SimpleName bounds d
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get bounds d
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName aci
+get bounds d SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+get bounds d SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aci
+get bounds d SimpleName MethodDeclaration Block IfStatement QualifiedName tpivisible
+get bounds d SimpleName MethodDeclaration Block ReturnStatement SimpleName bounds d
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bounds d
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bounds d
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci

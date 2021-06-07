@@ -1,0 +1,88 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr
+attr to dom event SimpleName MethodInvocation SimpleName get
+attr to dom event SimpleName MethodInvocation SimpleName attr
+get SimpleName MethodInvocation SimpleName attr
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName attr to dom event
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName attr
+dom evt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+dom evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attr to dom event
+dom evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+dom evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attr
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dom evt
+attr to listener SimpleName MethodInvocation SimpleName get
+attr to listener SimpleName MethodInvocation SimpleName attr
+get SimpleName MethodInvocation SimpleName attr
+event listener SimpleName SimpleType CastExpression MethodInvocation SimpleName attr to listener
+event listener SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+event listener SimpleName SimpleType CastExpression MethodInvocation SimpleName attr
+listener SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName event listener
+listener SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attr to listener
+listener SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+listener SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attr
+event listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+node event target SimpleName SimpleType CastExpression SimpleName elt
+target SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node event target
+target SimpleName VariableDeclarationFragment CastExpression SimpleName elt
+node event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+elt SimpleName MethodInvocation SimpleName has attribute ns
+elt SimpleName MethodInvocation SimpleName attr
+has attribute ns SimpleName MethodInvocation SimpleName attr
+target SimpleName MethodInvocation SimpleName add event listener ns
+target SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+target SimpleName MethodInvocation SimpleName dom evt
+target SimpleName MethodInvocation SimpleName listener
+target SimpleName MethodInvocation BooleanLiteral false
+add event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+add event listener ns SimpleName MethodInvocation SimpleName dom evt
+add event listener ns SimpleName MethodInvocation SimpleName listener
+add event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName dom evt
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+dom evt SimpleName MethodInvocation SimpleName listener
+dom evt SimpleName MethodInvocation BooleanLiteral false
+listener SimpleName MethodInvocation BooleanLiteral false
+target SimpleName MethodInvocation SimpleName remove event listener ns
+target SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+target SimpleName MethodInvocation SimpleName dom evt
+target SimpleName MethodInvocation SimpleName listener
+target SimpleName MethodInvocation BooleanLiteral false
+remove event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+remove event listener ns SimpleName MethodInvocation SimpleName dom evt
+remove event listener ns SimpleName MethodInvocation SimpleName listener
+remove event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName dom evt
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+dom evt SimpleName MethodInvocation SimpleName listener
+dom evt SimpleName MethodInvocation BooleanLiteral false
+listener SimpleName MethodInvocation BooleanLiteral false
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update scripting listeners
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr
+void PrimitiveType MethodDeclaration SimpleName update scripting listeners
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elt
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attr
+update scripting listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+update scripting listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+update scripting listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update scripting listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update scripting listeners
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update scripting listeners
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr

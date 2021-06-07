@@ -1,0 +1,36 @@
+xbl manager SimpleName SimpleType SingleVariableDeclaration SimpleName m
+xbl manager SimpleName MethodInvocation SimpleName is processing
+was processing SimpleName VariableDeclarationFragment MethodInvocation SimpleName xbl manager
+was processing SimpleName VariableDeclarationFragment MethodInvocation SimpleName is processing
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName was processing
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName xbl manager
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is processing
+xbl manager SimpleName MethodInvocation SimpleName stop processing
+m SimpleName Assignment ClassInstanceCreation SimpleType SimpleName generic xbl manager
+xbl manager SimpleName Assignment SimpleName m
+xbl manager SimpleName MethodInvocation SimpleName start processing
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName was processing
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set xbl manager
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xbl manager
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block IfStatement SimpleName was processing
+void PrimitiveType MethodDeclaration SimpleName set xbl manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xbl manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName was processing
+set xbl manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xbl manager
+set xbl manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+set xbl manager SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+set xbl manager SimpleName MethodDeclaration Block IfStatement SimpleName was processing
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set xbl manager
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set xbl manager
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m

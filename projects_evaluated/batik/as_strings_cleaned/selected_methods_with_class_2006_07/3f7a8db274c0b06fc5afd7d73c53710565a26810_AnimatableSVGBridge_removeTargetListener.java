@@ -1,0 +1,43 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pn
+animation target listener SimpleName SimpleType SingleVariableDeclaration SimpleName l
+target listeners SimpleName MethodInvocation SimpleName get
+target listeners SimpleName MethodInvocation SimpleName pn
+get SimpleName MethodInvocation SimpleName pn
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName target listeners
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName pn
+ll SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName linked list
+ll SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName target listeners
+ll SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+ll SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName pn
+linked list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ll
+ll SimpleName MethodInvocation SimpleName remove
+ll SimpleName MethodInvocation SimpleName l
+remove SimpleName MethodInvocation SimpleName l
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove target listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pn
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName remove target listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+remove target listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove target listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pn
+remove target listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target listener
+remove target listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+pn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove target listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove target listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

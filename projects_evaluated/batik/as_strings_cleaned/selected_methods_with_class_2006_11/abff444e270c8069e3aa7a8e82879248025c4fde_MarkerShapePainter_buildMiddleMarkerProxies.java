@@ -1,0 +1,195 @@
+get ext shape SimpleName MethodInvocation MethodInvocation SimpleName get extended path iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get ext shape
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get extended path iterator
+extended path iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+double PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+prev SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType double
+prev SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev
+double PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+curr SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType double
+curr SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName curr
+double PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+next SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType double
+next SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName next
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+next SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+prev seg type SimpleName VariableDeclarationFragment NumberLiteral empty
+curr seg type SimpleName VariableDeclarationFragment NumberLiteral empty
+next seg type SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev seg type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName curr seg type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName next seg type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+prev seg type SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName curr seg type
+prev seg type SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName curr seg type
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+prev seg type SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName next seg type
+prev seg type SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName next seg type
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+curr seg type SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName next seg type
+curr seg type SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName next seg type
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName is done
+iter SimpleName MethodInvocation SimpleName current segment
+iter SimpleName MethodInvocation SimpleName prev
+current segment SimpleName MethodInvocation SimpleName prev
+prev seg type SimpleName Assignment MethodInvocation SimpleName iter
+prev seg type SimpleName Assignment MethodInvocation SimpleName current segment
+prev seg type SimpleName Assignment MethodInvocation SimpleName prev
+double PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+move to SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType double
+move to SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName move to
+prev seg type SimpleName InfixExpression QualifiedName path iteratorseg moveto
+move to SimpleName ArrayAccess NumberLiteral empty
+prev SimpleName ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess Assignment ArrayAccess SimpleName prev
+move to SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName prev
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess NumberLiteral empty
+prev SimpleName ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess Assignment ArrayAccess SimpleName prev
+move to SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName prev
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName next
+iter SimpleName MethodInvocation SimpleName is done
+iter SimpleName MethodInvocation SimpleName current segment
+iter SimpleName MethodInvocation SimpleName curr
+current segment SimpleName MethodInvocation SimpleName curr
+curr seg type SimpleName Assignment MethodInvocation SimpleName iter
+curr seg type SimpleName Assignment MethodInvocation SimpleName current segment
+curr seg type SimpleName Assignment MethodInvocation SimpleName curr
+curr seg type SimpleName InfixExpression QualifiedName path iteratorseg moveto
+move to SimpleName ArrayAccess NumberLiteral empty
+curr SimpleName ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess Assignment ArrayAccess SimpleName curr
+move to SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName curr
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess NumberLiteral empty
+curr SimpleName ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess Assignment ArrayAccess SimpleName curr
+move to SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName curr
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+curr seg type SimpleName InfixExpression QualifiedName path iteratorseg close
+curr seg type SimpleName Assignment QualifiedName path iteratorseg lineto
+curr SimpleName ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess NumberLiteral empty
+curr SimpleName ArrayAccess Assignment ArrayAccess SimpleName move to
+curr SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName move to
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+curr SimpleName ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess NumberLiteral empty
+curr SimpleName ArrayAccess Assignment ArrayAccess SimpleName move to
+curr SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName move to
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName next
+proxies SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName vector
+vector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName proxies
+iter SimpleName MethodInvocation SimpleName is done
+iter SimpleName MethodInvocation SimpleName current segment
+iter SimpleName MethodInvocation SimpleName next
+current segment SimpleName MethodInvocation SimpleName next
+next seg type SimpleName Assignment MethodInvocation SimpleName iter
+next seg type SimpleName Assignment MethodInvocation SimpleName current segment
+next seg type SimpleName Assignment MethodInvocation SimpleName next
+next seg type SimpleName InfixExpression QualifiedName path iteratorseg moveto
+move to SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess Assignment ArrayAccess SimpleName next
+move to SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName next
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess Assignment ArrayAccess SimpleName next
+move to SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName next
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+next seg type SimpleName InfixExpression QualifiedName path iteratorseg close
+next seg type SimpleName Assignment QualifiedName path iteratorseg lineto
+next SimpleName ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess Assignment ArrayAccess SimpleName move to
+next SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName move to
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess NumberLiteral empty
+move to SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess Assignment ArrayAccess SimpleName move to
+next SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName move to
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+create middle marker SimpleName MethodInvocation SimpleName prev
+create middle marker SimpleName MethodInvocation SimpleName prev seg type
+create middle marker SimpleName MethodInvocation SimpleName curr
+create middle marker SimpleName MethodInvocation SimpleName curr seg type
+create middle marker SimpleName MethodInvocation SimpleName next
+prev SimpleName MethodInvocation SimpleName prev seg type
+prev SimpleName MethodInvocation SimpleName curr
+prev SimpleName MethodInvocation SimpleName curr seg type
+prev SimpleName MethodInvocation SimpleName next
+prev SimpleName MethodInvocation SimpleName next seg type
+prev seg type SimpleName MethodInvocation SimpleName curr
+prev seg type SimpleName MethodInvocation SimpleName curr seg type
+prev seg type SimpleName MethodInvocation SimpleName next
+prev seg type SimpleName MethodInvocation SimpleName next seg type
+curr SimpleName MethodInvocation SimpleName curr seg type
+curr SimpleName MethodInvocation SimpleName next
+curr SimpleName MethodInvocation SimpleName next seg type
+curr seg type SimpleName MethodInvocation SimpleName next
+curr seg type SimpleName MethodInvocation SimpleName next seg type
+next SimpleName MethodInvocation SimpleName next seg type
+proxies SimpleName MethodInvocation SimpleName add element
+proxies SimpleName MethodInvocation MethodInvocation SimpleName create middle marker
+proxies SimpleName MethodInvocation MethodInvocation SimpleName prev
+proxies SimpleName MethodInvocation MethodInvocation SimpleName prev seg type
+proxies SimpleName MethodInvocation MethodInvocation SimpleName curr
+proxies SimpleName MethodInvocation MethodInvocation SimpleName curr seg type
+proxies SimpleName MethodInvocation MethodInvocation SimpleName next
+proxies SimpleName MethodInvocation MethodInvocation SimpleName next seg type
+add element SimpleName MethodInvocation MethodInvocation SimpleName create middle marker
+add element SimpleName MethodInvocation MethodInvocation SimpleName prev
+add element SimpleName MethodInvocation MethodInvocation SimpleName prev seg type
+add element SimpleName MethodInvocation MethodInvocation SimpleName curr
+add element SimpleName MethodInvocation MethodInvocation SimpleName curr seg type
+add element SimpleName MethodInvocation MethodInvocation SimpleName next
+add element SimpleName MethodInvocation MethodInvocation SimpleName next seg type
+tmp SimpleName Assignment SimpleName prev
+prev SimpleName Assignment SimpleName curr
+prev seg type SimpleName Assignment SimpleName curr seg type
+curr SimpleName Assignment SimpleName next
+curr seg type SimpleName Assignment SimpleName next seg type
+next SimpleName Assignment SimpleName tmp
+iter SimpleName MethodInvocation SimpleName next
+proxies SimpleName MethodInvocation SimpleName size
+gn SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName proxies
+gn SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName size
+proxies SimpleName MethodInvocation SimpleName copy into
+proxies SimpleName MethodInvocation SimpleName gn
+copy into SimpleName MethodInvocation SimpleName gn
+protected Modifier MethodDeclaration ArrayType SimpleType SimpleName proxy graphics node
+protected Modifier MethodDeclaration SimpleName build middle marker proxies
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName gn
+proxy graphics node SimpleName SimpleType ArrayType MethodDeclaration SimpleName build middle marker proxies
+build middle marker proxies SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+build middle marker proxies SimpleName MethodDeclaration Block ReturnStatement SimpleName gn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName build middle marker proxies
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build middle marker proxies

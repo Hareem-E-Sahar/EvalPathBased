@@ -1,0 +1,21 @@
+document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+doc SimpleName MethodInvocation SimpleName create text node
+doc SimpleName MethodInvocation SimpleName text
+create text node SimpleName MethodInvocation SimpleName text
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName create node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+node SimpleName SimpleType MethodDeclaration SimpleName create node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName doc
+create node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+create node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc

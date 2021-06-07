@@ -1,0 +1,106 @@
+selection event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get selection
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selection
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+o SimpleName InstanceofExpression SimpleType SimpleName character iterator
+character iterator SimpleName SimpleType CastExpression SimpleName o
+iter SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName character iterator
+iter SimpleName VariableDeclarationFragment CastExpression SimpleName o
+character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+security manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName security manager
+system SimpleName MethodInvocation SimpleName get security manager
+security manager SimpleName Assignment MethodInvocation SimpleName system
+security manager SimpleName Assignment MethodInvocation SimpleName get security manager
+security manager SimpleName MethodInvocation SimpleName check system clipboard access
+security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+iter SimpleName MethodInvocation SimpleName get end index
+iter SimpleName MethodInvocation SimpleName get begin index
+iter SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName iter
+iter SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get begin index
+get end index SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName iter
+get end index SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get begin index
+sz SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName iter
+sz SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get end index
+sz SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName iter
+sz SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get begin index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sz
+sz SimpleName InfixExpression NumberLiteral empty
+char PrimitiveType ArrayType ArrayCreation SimpleName sz
+cbuff SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType char
+cbuff SimpleName VariableDeclarationFragment ArrayCreation SimpleName sz
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName cbuff
+cbuff SimpleName ArrayAccess NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName first
+cbuff SimpleName ArrayAccess Assignment MethodInvocation SimpleName iter
+cbuff SimpleName ArrayAccess Assignment MethodInvocation SimpleName first
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName iter
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName first
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName cbufflength
+cbuff SimpleName ArrayAccess SimpleName i
+iter SimpleName MethodInvocation SimpleName next
+cbuff SimpleName ArrayAccess Assignment MethodInvocation SimpleName iter
+cbuff SimpleName ArrayAccess Assignment MethodInvocation SimpleName next
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName iter
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName next
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName cbufflength
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+cbufflength QualifiedName InfixExpression ForStatement PrefixExpression SimpleName i
+string SimpleName SimpleType ClassInstanceCreation SimpleName cbuff
+str sel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+str sel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName cbuff
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName str sel
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName cbuff
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str sel
+clipboard SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cb
+toolkit SimpleName MethodInvocation SimpleName get default toolkit
+toolkit SimpleName MethodInvocation MethodInvocation SimpleName get system clipboard
+get default toolkit SimpleName MethodInvocation MethodInvocation SimpleName get system clipboard
+cb SimpleName Assignment MethodInvocation MethodInvocation SimpleName toolkit
+cb SimpleName Assignment MethodInvocation MethodInvocation SimpleName get default toolkit
+cb SimpleName Assignment MethodInvocation SimpleName get system clipboard
+string selection SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sel
+string selection SimpleName SimpleType ClassInstanceCreation SimpleName str sel
+sel SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string selection
+sel SimpleName Assignment ClassInstanceCreation SimpleName str sel
+cb SimpleName MethodInvocation SimpleName set contents
+cb SimpleName MethodInvocation SimpleName sel
+cb SimpleName MethodInvocation SimpleName sel
+set contents SimpleName MethodInvocation SimpleName sel
+set contents SimpleName MethodInvocation SimpleName sel
+sel SimpleName MethodInvocation SimpleName sel
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+thread SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName start
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName selection done
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selection event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName selection done
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selection event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+selection done SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selection event
+selection done SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+selection done SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+selection done SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName selection done
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName selection done
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

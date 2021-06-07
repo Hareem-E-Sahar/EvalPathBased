@@ -1,0 +1,50 @@
+document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+view css SimpleName SimpleType SingleVariableDeclaration SimpleName view
+document SimpleName Assignment SimpleName doc
+view css SimpleName Assignment SimpleName view
+create tree SimpleName MethodInvocation SimpleName doc
+create tree SimpleName MethodInvocation SimpleName show whitespace
+doc SimpleName MethodInvocation SimpleName show whitespace
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName create tree
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName show whitespace
+tree node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+tree SimpleName MethodInvocation SimpleName get model
+default tree model SimpleName SimpleType CastExpression MethodInvocation SimpleName tree
+default tree model SimpleName SimpleType CastExpression MethodInvocation SimpleName get model
+set root SimpleName MethodInvocation SimpleName root
+right panel SimpleName MethodInvocation SimpleName get component count
+right panel SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get component count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+right panel SimpleName MethodInvocation SimpleName remove
+right panel SimpleName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+split pane SimpleName MethodInvocation SimpleName revalidate
+split pane SimpleName MethodInvocation SimpleName repaint
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName view css
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName view
+void PrimitiveType MethodDeclaration SimpleName set document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName view css
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName view
+set document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+set document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+set document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName view css
+set document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName view
+doc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName view
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName view
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName view

@@ -1,0 +1,14 @@
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current document
+abstract document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get events enabled
+abstract element SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner element
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName fire dom subtree modified event
+void PrimitiveType MethodDeclaration SimpleName fire dom subtree modified event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fire dom subtree modified event
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fire dom subtree modified event

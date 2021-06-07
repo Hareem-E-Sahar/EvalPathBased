@@ -1,0 +1,25 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName new item
+svg number SimpleName SimpleType CastExpression SimpleName new item
+l SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg number
+l SimpleName VariableDeclarationFragment CastExpression SimpleName new item
+svg number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+l SimpleName MethodInvocation SimpleName get value
+svg number item SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName l
+svg number item SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value
+protected Modifier MethodDeclaration SimpleType SimpleName svg item
+protected Modifier MethodDeclaration SimpleName create svg item
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName new item
+svg item SimpleName SimpleType MethodDeclaration SimpleName create svg item
+svg item SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new item
+create svg item SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+create svg item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg item
+public Modifier TypeDeclaration MethodDeclaration SimpleName create svg item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg item
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create svg item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item

@@ -1,0 +1,19 @@
+attributed string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleName set string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+set string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+set string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

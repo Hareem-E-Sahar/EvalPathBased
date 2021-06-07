@@ -1,0 +1,42 @@
+event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+dispatcher SimpleName MethodInvocation SimpleName remove graphics node mouse listener
+dispatcher SimpleName MethodInvocation SimpleName listener
+remove graphics node mouse listener SimpleName MethodInvocation SimpleName listener
+dispatcher SimpleName MethodInvocation SimpleName remove graphics node key listener
+dispatcher SimpleName MethodInvocation SimpleName listener
+remove graphics node key listener SimpleName MethodInvocation SimpleName listener
+evt SimpleName MethodInvocation SimpleName get target
+node event target SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+node event target SimpleName SimpleType CastExpression MethodInvocation SimpleName get target
+et SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node event target
+et SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName evt
+et SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get target
+node event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName et
+et SimpleName MethodInvocation SimpleName remove event listener ns
+et SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+et SimpleName MethodInvocation StringLiteral svg unload
+et SimpleName MethodInvocation BooleanLiteral false
+remove event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+remove event listener ns SimpleName MethodInvocation StringLiteral svg unload
+remove event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral svg unload
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+svg unload StringLiteral MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName handle event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

@@ -1,0 +1,70 @@
+point d SimpleName SimpleType SingleVariableDeclaration SimpleName p
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sensitive bounds
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bounds
+count SimpleName InfixExpression NumberLiteral empty
+count SimpleName InfixExpression InfixExpression InfixExpression SimpleName bounds
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName bounds
+bounds SimpleName MethodInvocation SimpleName contains
+bounds SimpleName MethodInvocation SimpleName p
+contains SimpleName MethodInvocation SimpleName p
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pt
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cp
+count SimpleName InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression SimpleName count
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+children SimpleName ArrayAccess SimpleName i
+children SimpleName ArrayAccess MethodInvocation SimpleName get inverse transform
+i SimpleName ArrayAccess MethodInvocation SimpleName get inverse transform
+t SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName children
+t SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName i
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get inverse transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName MethodInvocation SimpleName transform
+t SimpleName MethodInvocation SimpleName p
+t SimpleName MethodInvocation SimpleName pt
+transform SimpleName MethodInvocation SimpleName p
+transform SimpleName MethodInvocation SimpleName pt
+p SimpleName MethodInvocation SimpleName pt
+pt SimpleName Assignment MethodInvocation SimpleName t
+pt SimpleName Assignment MethodInvocation SimpleName transform
+pt SimpleName Assignment MethodInvocation SimpleName p
+pt SimpleName Assignment MethodInvocation SimpleName pt
+cp SimpleName Assignment SimpleName pt
+cp SimpleName Assignment SimpleName p
+children SimpleName ArrayAccess SimpleName i
+children SimpleName ArrayAccess MethodInvocation SimpleName node hit at
+i SimpleName ArrayAccess MethodInvocation SimpleName node hit at
+children SimpleName ArrayAccess MethodInvocation SimpleName cp
+i SimpleName ArrayAccess MethodInvocation SimpleName cp
+node hit at SimpleName MethodInvocation SimpleName cp
+node SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName children
+node SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName i
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName node hit at
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName cp
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PrefixExpression SimpleName i
+public Modifier MethodDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SimpleName node hit at
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+graphics node SimpleName SimpleType MethodDeclaration SimpleName node hit at
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName p
+node hit at SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+node hit at SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName node hit at
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName node hit at
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p

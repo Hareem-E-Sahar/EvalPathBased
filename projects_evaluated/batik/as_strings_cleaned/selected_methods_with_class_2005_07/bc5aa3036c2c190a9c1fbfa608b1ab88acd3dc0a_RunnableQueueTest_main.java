@@ -1,0 +1,29 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+runnable queue test SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+rqt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName runnable queue test
+rqt SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+runnable queue test SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rqt
+rqt SimpleName MethodInvocation SimpleName run impl
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

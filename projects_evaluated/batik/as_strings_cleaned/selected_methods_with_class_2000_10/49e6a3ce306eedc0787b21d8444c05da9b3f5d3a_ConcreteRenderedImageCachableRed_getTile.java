@@ -1,0 +1,42 @@
+int PrimitiveType SingleVariableDeclaration SimpleName tile x
+int PrimitiveType SingleVariableDeclaration SimpleName tile y
+src SimpleName MethodInvocation SimpleName get tile
+src SimpleName MethodInvocation SimpleName tile x
+src SimpleName MethodInvocation SimpleName tile y
+get tile SimpleName MethodInvocation SimpleName tile x
+get tile SimpleName MethodInvocation SimpleName tile y
+tile x SimpleName MethodInvocation SimpleName tile y
+public Modifier MethodDeclaration SimpleType SimpleName raster
+public Modifier MethodDeclaration SimpleName get tile
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tile x
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tile y
+raster SimpleName SimpleType MethodDeclaration SimpleName get tile
+raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tile x
+raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tile y
+get tile SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get tile SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tile x
+get tile SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get tile SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tile y
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tile y
+tile x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+tile x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tile y
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName raster
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tile
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tile x
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tile y
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName raster
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tile
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tile x
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tile y

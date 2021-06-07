@@ -1,0 +1,53 @@
+resolve url SimpleName MethodInvocation SimpleName input uri
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName resolve url
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName input uri
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+xml resource descriptor SimpleName MethodInvocation SimpleName get xml parser class name
+parser SimpleName VariableDeclarationFragment MethodInvocation SimpleName xml resource descriptor
+parser SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xml parser class name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parser
+generic dom implementation SimpleName MethodInvocation SimpleName get dom implementation
+impl SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic dom implementation
+impl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get dom implementation
+dom implementation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName impl
+sax document factory SimpleName SimpleType ClassInstanceCreation SimpleName impl
+sax document factory SimpleName SimpleType ClassInstanceCreation SimpleName parser
+impl SimpleName ClassInstanceCreation SimpleName parser
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName sax document factory
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName impl
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName parser
+sax document factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+url SimpleName MethodInvocation SimpleName to string
+f SimpleName MethodInvocation SimpleName create document
+f SimpleName MethodInvocation MethodInvocation SimpleName url
+f SimpleName MethodInvocation MethodInvocation SimpleName to string
+create document SimpleName MethodInvocation MethodInvocation SimpleName url
+create document SimpleName MethodInvocation MethodInvocation SimpleName to string
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName create document
+doc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName url
+doc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+transcoder input SimpleName SimpleType ClassInstanceCreation SimpleName doc
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName transcoder input
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName doc
+transcoder input SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input
+url SimpleName MethodInvocation SimpleName to string
+input SimpleName MethodInvocation SimpleName set uri
+input SimpleName MethodInvocation MethodInvocation SimpleName url
+input SimpleName MethodInvocation MethodInvocation SimpleName to string
+set uri SimpleName MethodInvocation MethodInvocation SimpleName url
+set uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName print stack trace
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName input uri
+protected Modifier MethodDeclaration SimpleType SimpleName transcoder input
+protected Modifier MethodDeclaration SimpleName create transcoder input
+transcoder input SimpleName SimpleType MethodDeclaration SimpleName create transcoder input
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder input
+public Modifier TypeDeclaration MethodDeclaration SimpleName create transcoder input
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder input
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create transcoder input

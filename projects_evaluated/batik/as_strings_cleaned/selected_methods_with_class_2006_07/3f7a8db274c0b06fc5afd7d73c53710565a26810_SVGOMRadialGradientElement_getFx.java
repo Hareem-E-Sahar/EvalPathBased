@@ -1,0 +1,49 @@
+get live attribute value SimpleName MethodInvocation SimpleName svg fx attribute
+svg animated length SimpleName SimpleType CastExpression MethodInvocation SimpleName get live attribute value
+svg animated length SimpleName SimpleType CastExpression MethodInvocation SimpleName svg fx attribute
+result SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg animated length
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get live attribute value
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName svg fx attribute
+svg animated length SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+get attribute node ns SimpleName MethodInvocation SimpleName svg cx attribute
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute node ns
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg cx attribute
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get value
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get default value
+string SimpleName SimpleType MethodDeclaration SimpleName get default value
+abstract svg animated length SimpleName SimpleType ClassInstanceCreation SimpleName svg fx attribute
+abstract svg animated length SimpleName SimpleType ClassInstanceCreation QualifiedName svgom animated lengthhorizontal length
+abstract svg animated length SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+svg fx attribute SimpleName ClassInstanceCreation QualifiedName svgom animated lengthhorizontal length
+svg fx attribute SimpleName ClassInstanceCreation BooleanLiteral false
+svg fx attribute SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+svg fx attribute SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get default value
+svgom animated lengthhorizontal length QualifiedName ClassInstanceCreation BooleanLiteral false
+svgom animated lengthhorizontal length QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+svgom animated lengthhorizontal length QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get default value
+false BooleanLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier protected
+false BooleanLiteral ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName get default value
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName abstract svg animated length
+result SimpleName Assignment ClassInstanceCreation SimpleName svg fx attribute
+result SimpleName Assignment ClassInstanceCreation QualifiedName svgom animated lengthhorizontal length
+result SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+live attribute value SimpleName SimpleType CastExpression SimpleName result
+put live attribute value SimpleName MethodInvocation SimpleName svg fx attribute
+put live attribute value SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+put live attribute value SimpleName MethodInvocation CastExpression SimpleName result
+svg fx attribute SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+svg fx attribute SimpleName MethodInvocation CastExpression SimpleName result
+public Modifier MethodDeclaration SimpleType SimpleName svg animated length
+public Modifier MethodDeclaration SimpleName get fx
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+svg animated length SimpleName SimpleType MethodDeclaration SimpleName get fx
+get fx SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated length
+public Modifier TypeDeclaration MethodDeclaration SimpleName get fx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated length
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get fx

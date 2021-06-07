@@ -1,0 +1,20 @@
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation StringLiteral id
+get attribute ns SimpleName MethodInvocation StringLiteral id
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+id SimpleName VariableDeclarationFragment MethodInvocation StringLiteral id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+id SimpleName MethodInvocation SimpleName length
+id SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

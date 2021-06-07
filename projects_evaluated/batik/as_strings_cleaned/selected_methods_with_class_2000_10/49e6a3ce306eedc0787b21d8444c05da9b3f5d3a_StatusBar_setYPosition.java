@@ -1,0 +1,27 @@
+int PrimitiveType SingleVariableDeclaration SimpleName y
+y StringLiteral InfixExpression SimpleName y
+y position SimpleName MethodInvocation SimpleName set text
+y position SimpleName MethodInvocation InfixExpression StringLiteral y
+y position SimpleName MethodInvocation InfixExpression SimpleName y
+set text SimpleName MethodInvocation InfixExpression StringLiteral y
+set text SimpleName MethodInvocation InfixExpression SimpleName y
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set y position
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName y
+void PrimitiveType MethodDeclaration SimpleName set y position
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName y
+set y position SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set y position SimpleName MethodDeclaration SingleVariableDeclaration SimpleName y
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set y position
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set y position
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y

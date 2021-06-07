@@ -1,0 +1,19 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! todo svg stylable supportget class name
+public Modifier MethodDeclaration SimpleType SimpleName svg animated string
+public Modifier MethodDeclaration SimpleName get class name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+svg animated string SimpleName SimpleType MethodDeclaration SimpleName get class name
+svg animated string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+get class name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get class name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get class name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get class name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt

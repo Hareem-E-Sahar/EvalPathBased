@@ -1,0 +1,40 @@
+int PrimitiveType SingleVariableDeclaration SimpleName s
+s SimpleName InfixExpression NumberLiteral xff
+s SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+xff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+output SimpleName MethodInvocation SimpleName write
+output SimpleName MethodInvocation InfixExpression NumberLiteral empty
+write SimpleName MethodInvocation InfixExpression NumberLiteral empty
+s SimpleName InfixExpression NumberLiteral x ff
+output SimpleName MethodInvocation SimpleName write
+output SimpleName MethodInvocation InfixExpression SimpleName s
+output SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+write SimpleName MethodInvocation InfixExpression SimpleName s
+write SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName write unsigned short
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName write unsigned short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write unsigned short SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+write unsigned short SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+write unsigned short SimpleName MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write unsigned short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write unsigned short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

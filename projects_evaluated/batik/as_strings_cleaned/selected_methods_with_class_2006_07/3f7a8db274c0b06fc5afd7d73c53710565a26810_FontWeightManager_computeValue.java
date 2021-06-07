@@ -1,0 +1,163 @@
+css stylable element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pseudo
+css engine SimpleName SimpleType SingleVariableDeclaration SimpleName engine
+int PrimitiveType SingleVariableDeclaration SimpleName idx
+style map SimpleName SimpleType SingleVariableDeclaration SimpleName sm
+value SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value SimpleName InfixExpression QualifiedName value constantsbolder value
+sm SimpleName MethodInvocation SimpleName put parent relative
+sm SimpleName MethodInvocation SimpleName idx
+sm SimpleName MethodInvocation BooleanLiteral true
+put parent relative SimpleName MethodInvocation SimpleName idx
+put parent relative SimpleName MethodInvocation BooleanLiteral true
+idx SimpleName MethodInvocation BooleanLiteral true
+engine SimpleName MethodInvocation SimpleName get css context
+ctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName engine
+ctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css context
+css context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctx
+css engine SimpleName MethodInvocation SimpleName get parent css stylable element
+css engine SimpleName MethodInvocation SimpleName elt
+get parent css stylable element SimpleName MethodInvocation SimpleName elt
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName css engine
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent css stylable element
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+css stylable element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName fw
+fw SimpleName Assignment NumberLiteral empty
+engine SimpleName MethodInvocation SimpleName get computed style
+engine SimpleName MethodInvocation SimpleName p
+engine SimpleName MethodInvocation SimpleName pseudo
+engine SimpleName MethodInvocation SimpleName idx
+get computed style SimpleName MethodInvocation SimpleName p
+get computed style SimpleName MethodInvocation SimpleName pseudo
+get computed style SimpleName MethodInvocation SimpleName idx
+p SimpleName MethodInvocation SimpleName pseudo
+p SimpleName MethodInvocation SimpleName idx
+pseudo SimpleName MethodInvocation SimpleName idx
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName engine
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName pseudo
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName idx
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get float value
+fw SimpleName Assignment MethodInvocation SimpleName v
+fw SimpleName Assignment MethodInvocation SimpleName get float value
+ctx SimpleName MethodInvocation SimpleName get bolder font weight
+ctx SimpleName MethodInvocation SimpleName fw
+get bolder font weight SimpleName MethodInvocation SimpleName fw
+create font weight SimpleName MethodInvocation MethodInvocation SimpleName ctx
+create font weight SimpleName MethodInvocation MethodInvocation SimpleName get bolder font weight
+create font weight SimpleName MethodInvocation MethodInvocation SimpleName fw
+value SimpleName InfixExpression QualifiedName value constantslighter value
+sm SimpleName MethodInvocation SimpleName put parent relative
+sm SimpleName MethodInvocation SimpleName idx
+sm SimpleName MethodInvocation BooleanLiteral true
+put parent relative SimpleName MethodInvocation SimpleName idx
+put parent relative SimpleName MethodInvocation BooleanLiteral true
+idx SimpleName MethodInvocation BooleanLiteral true
+engine SimpleName MethodInvocation SimpleName get css context
+ctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName engine
+ctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css context
+css context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctx
+css engine SimpleName MethodInvocation SimpleName get parent css stylable element
+css engine SimpleName MethodInvocation SimpleName elt
+get parent css stylable element SimpleName MethodInvocation SimpleName elt
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName css engine
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent css stylable element
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+css stylable element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName fw
+fw SimpleName Assignment NumberLiteral empty
+engine SimpleName MethodInvocation SimpleName get computed style
+engine SimpleName MethodInvocation SimpleName p
+engine SimpleName MethodInvocation SimpleName pseudo
+engine SimpleName MethodInvocation SimpleName idx
+get computed style SimpleName MethodInvocation SimpleName p
+get computed style SimpleName MethodInvocation SimpleName pseudo
+get computed style SimpleName MethodInvocation SimpleName idx
+p SimpleName MethodInvocation SimpleName pseudo
+p SimpleName MethodInvocation SimpleName idx
+pseudo SimpleName MethodInvocation SimpleName idx
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName engine
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName pseudo
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName idx
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get float value
+fw SimpleName Assignment MethodInvocation SimpleName v
+fw SimpleName Assignment MethodInvocation SimpleName get float value
+ctx SimpleName MethodInvocation SimpleName get lighter font weight
+ctx SimpleName MethodInvocation SimpleName fw
+get lighter font weight SimpleName MethodInvocation SimpleName fw
+create font weight SimpleName MethodInvocation MethodInvocation SimpleName ctx
+create font weight SimpleName MethodInvocation MethodInvocation SimpleName get lighter font weight
+create font weight SimpleName MethodInvocation MethodInvocation SimpleName fw
+value SimpleName InfixExpression QualifiedName value constantsnormal value
+value SimpleName InfixExpression QualifiedName value constantsbold value
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName compute value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css stylable element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pseudo
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName engine
+value SimpleName SimpleType MethodDeclaration SimpleName compute value
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pseudo
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName engine
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName idx
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css stylable element
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pseudo
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName engine
+compute value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName idx
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName style map
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sm
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idx
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sm
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+pseudo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+pseudo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+pseudo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idx
+pseudo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sm
+pseudo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+engine SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+engine SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idx
+engine SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sm
+engine SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sm
+idx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sm
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+idx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+sm SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sm
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName idx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sm
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

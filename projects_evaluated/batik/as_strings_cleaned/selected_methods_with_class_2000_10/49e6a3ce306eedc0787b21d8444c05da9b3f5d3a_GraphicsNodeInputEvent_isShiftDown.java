@@ -1,0 +1,13 @@
+modifiers SimpleName InfixExpression SimpleName shift mask
+modifiers SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+shift mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is shift down
+boolean PrimitiveType MethodDeclaration SimpleName is shift down
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is shift down
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is shift down

@@ -1,0 +1,52 @@
+document SimpleName MethodInvocation SimpleName create dom exception
+document SimpleName MethodInvocation QualifiedName dom exceptioninvalid state err
+document SimpleName MethodInvocation StringLiteral detachediterator
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptioninvalid state err
+create dom exception SimpleName MethodInvocation StringLiteral detachediterator
+dom exceptioninvalid state err QualifiedName MethodInvocation StringLiteral detachediterator
+state SimpleName Assignment SimpleName forward
+state SimpleName SwitchStatement SwitchCase SimpleName invalid
+state SimpleName SwitchStatement ThrowStatement MethodInvocation SimpleName document
+state SimpleName SwitchStatement ThrowStatement MethodInvocation SimpleName create dom exception
+state SimpleName SwitchStatement ThrowStatement MethodInvocation QualifiedName dom exceptioninvalid state err
+state SimpleName SwitchStatement ThrowStatement MethodInvocation StringLiteral detachediterator
+state SimpleName SwitchStatement SwitchCase SimpleName backward
+state SimpleName SwitchStatement SwitchCase SimpleName initial
+state SimpleName SwitchStatement ExpressionStatement Assignment SimpleName state
+state SimpleName SwitchStatement ExpressionStatement Assignment SimpleName forward
+invalid SimpleName SwitchCase SwitchStatement SwitchCase SimpleName backward
+invalid SimpleName SwitchCase SwitchStatement SwitchCase SimpleName initial
+invalid SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName reference node
+backward SimpleName SwitchCase SwitchStatement SwitchCase SimpleName initial
+backward SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName reference node
+backward SimpleName SwitchCase SwitchStatement SwitchCase SimpleName forward
+initial SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName reference node
+initial SimpleName SwitchCase SwitchStatement SwitchCase SimpleName forward
+reference node SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName forward
+reference node SimpleName MethodInvocation SimpleName get node type
+reference node SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get node type SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName reference node
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName get node type
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+what to show SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+what to show SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+filter SimpleName MethodInvocation SimpleName accept node
+filter SimpleName MethodInvocation SimpleName reference node
+accept node SimpleName MethodInvocation SimpleName reference node
+filter SimpleName MethodInvocation InfixExpression QualifiedName node filterfilter accept
+accept node SimpleName MethodInvocation InfixExpression QualifiedName node filterfilter accept
+reference node SimpleName MethodInvocation InfixExpression QualifiedName node filterfilter accept
+filter SimpleName InfixExpression InfixExpression InfixExpression QualifiedName node filterfilter accept
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName next node
+public Modifier MethodDeclaration Block SwitchStatement SimpleName state
+node SimpleName SimpleType MethodDeclaration SimpleName next node
+next node SimpleName MethodDeclaration Block SwitchStatement SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName next node
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next node

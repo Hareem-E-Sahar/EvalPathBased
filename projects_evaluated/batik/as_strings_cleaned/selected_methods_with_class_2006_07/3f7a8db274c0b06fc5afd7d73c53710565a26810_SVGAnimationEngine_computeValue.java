@@ -1,0 +1,103 @@
+css stylable element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pn
+value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+css engine SimpleName MethodInvocation SimpleName get value managers
+vms SimpleName VariableDeclarationFragment MethodInvocation SimpleName css engine
+vms SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value managers
+css engine SimpleName MethodInvocation SimpleName get property index
+css engine SimpleName MethodInvocation SimpleName pn
+get property index SimpleName MethodInvocation SimpleName pn
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName css engine
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property index
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName pn
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName css engine
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pn
+idx SimpleName InfixExpression PrefixExpression NumberLiteral empty
+v SimpleName MethodInvocation SimpleName get css value type
+v SimpleName MethodInvocation InfixExpression QualifiedName css valuecss inherit
+get css value type SimpleName MethodInvocation InfixExpression QualifiedName css valuecss inherit
+css engine SimpleName MethodInvocation SimpleName get parent css stylable element
+css engine SimpleName MethodInvocation SimpleName elt
+get parent css stylable element SimpleName MethodInvocation SimpleName elt
+elt SimpleName Assignment MethodInvocation SimpleName css engine
+elt SimpleName Assignment MethodInvocation SimpleName get parent css stylable element
+elt SimpleName Assignment MethodInvocation SimpleName elt
+css engine SimpleName MethodInvocation SimpleName get computed style
+css engine SimpleName MethodInvocation SimpleName elt
+css engine SimpleName MethodInvocation SimpleName idx
+get computed style SimpleName MethodInvocation SimpleName elt
+get computed style SimpleName MethodInvocation SimpleName idx
+elt SimpleName MethodInvocation SimpleName idx
+vms SimpleName ArrayAccess SimpleName idx
+vms SimpleName ArrayAccess MethodInvocation SimpleName get default value
+idx SimpleName ArrayAccess MethodInvocation SimpleName get default value
+vms SimpleName ArrayAccess SimpleName idx
+vms SimpleName ArrayAccess MethodInvocation SimpleName compute value
+idx SimpleName ArrayAccess MethodInvocation SimpleName compute value
+vms SimpleName ArrayAccess MethodInvocation SimpleName elt
+idx SimpleName ArrayAccess MethodInvocation SimpleName elt
+vms SimpleName ArrayAccess MethodInvocation SimpleName css engine
+idx SimpleName ArrayAccess MethodInvocation SimpleName css engine
+vms SimpleName ArrayAccess MethodInvocation SimpleName idx
+idx SimpleName ArrayAccess MethodInvocation SimpleName idx
+compute value SimpleName MethodInvocation SimpleName elt
+compute value SimpleName MethodInvocation SimpleName css engine
+compute value SimpleName MethodInvocation SimpleName idx
+compute value SimpleName MethodInvocation SimpleName dummy style map
+elt SimpleName MethodInvocation SimpleName css engine
+elt SimpleName MethodInvocation SimpleName idx
+elt SimpleName MethodInvocation SimpleName dummy style map
+elt SimpleName MethodInvocation SimpleName v
+css engine SimpleName MethodInvocation SimpleName idx
+css engine SimpleName MethodInvocation SimpleName dummy style map
+css engine SimpleName MethodInvocation SimpleName v
+idx SimpleName MethodInvocation SimpleName dummy style map
+idx SimpleName MethodInvocation SimpleName v
+dummy style map SimpleName MethodInvocation SimpleName v
+v SimpleName Assignment MethodInvocation ArrayAccess SimpleName vms
+v SimpleName Assignment MethodInvocation ArrayAccess SimpleName idx
+v SimpleName Assignment MethodInvocation SimpleName compute value
+v SimpleName Assignment MethodInvocation SimpleName elt
+v SimpleName Assignment MethodInvocation SimpleName css engine
+v SimpleName Assignment MethodInvocation SimpleName idx
+v SimpleName Assignment MethodInvocation SimpleName dummy style map
+v SimpleName Assignment MethodInvocation SimpleName v
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName v
+protected Modifier MethodDeclaration SimpleType SimpleName value
+protected Modifier MethodDeclaration SimpleName compute value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css stylable element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName pn
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+value SimpleName SimpleType MethodDeclaration SimpleName compute value
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pn
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName v
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css stylable element
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pn
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+compute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+compute value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compute value SimpleName MethodDeclaration Block ReturnStatement SimpleName v
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+pn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

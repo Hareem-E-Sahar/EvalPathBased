@@ -1,0 +1,39 @@
+buffered image SimpleName SimpleType SingleVariableDeclaration SimpleName src
+src SimpleName MethodInvocation SimpleName get width
+src SimpleName MethodInvocation SimpleName get height
+rectangle SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName src
+rectangle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get width
+rectangle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName src
+rectangle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get height
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName src
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get width
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName src
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get height
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName src
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get width
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName src
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get height
+src SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName src
+src SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName src
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName get bounds d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get bounds d
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName src
+get bounds d SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+get bounds d SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bounds d
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bounds d
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src

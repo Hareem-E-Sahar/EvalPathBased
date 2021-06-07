@@ -1,0 +1,26 @@
+word info SimpleName SimpleType SingleVariableDeclaration SimpleName wi
+merge glyph groups SimpleName MethodInvocation SimpleName wi
+assign glyph group ranges SimpleName MethodInvocation SimpleName new size
+assign glyph group ranges SimpleName MethodInvocation SimpleName new ggis
+new size SimpleName MethodInvocation SimpleName new ggis
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName insert word
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName word info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName wi
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName insert word
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName word info
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName wi
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+insert word SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName word info
+insert word SimpleName MethodDeclaration SingleVariableDeclaration SimpleName wi
+insert word SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName insert word
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wi
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName insert word
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wi

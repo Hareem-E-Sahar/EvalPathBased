@@ -1,0 +1,208 @@
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation StringLiteral element
+write SimpleName MethodInvocation StringLiteral element
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+fatal error SimpleName MethodInvocation StringLiteral space
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+fatal error SimpleName MethodInvocation StringLiteral name
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+type SimpleName SwitchStatement ThrowStatement MethodInvocation SimpleName fatal error
+type SimpleName SwitchStatement ThrowStatement MethodInvocation StringLiteral name
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsname
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName writer
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName write
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+fatal error SimpleName MethodInvocation StringLiteral space
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation StringLiteral empty
+write SimpleName MethodInvocation StringLiteral empty
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation StringLiteral any
+write SimpleName MethodInvocation StringLiteral any
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral (
+write SimpleName MethodInvocation CharacterLiteral (
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation StringLiteral pcdata
+write SimpleName MethodInvocation StringLiteral pcdata
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral 
+write SimpleName MethodInvocation CharacterLiteral 
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitsname
+fatal error SimpleName MethodInvocation StringLiteral name
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral )
+write SimpleName MethodInvocation CharacterLiteral )
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitss
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName writer
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName write
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName type
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitspipe
+lexical unitss QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitspipe
+lexical unitsright brace QualifiedName SwitchCase SwitchStatement BreakStatement SimpleName mixed
+type SimpleName InfixExpression QualifiedName lexical unitsright brace
+fatal error SimpleName MethodInvocation StringLiteral rightbrace
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral )
+write SimpleName MethodInvocation CharacterLiteral )
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral ?
+write SimpleName MethodInvocation CharacterLiteral ?
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral *
+write SimpleName MethodInvocation CharacterLiteral *
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral +
+write SimpleName MethodInvocation CharacterLiteral +
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsquestion
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName writer
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName write
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation CharacterLiteral ?
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName type
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsstar
+lexical unitsquestion QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsstar
+lexical unitsstar QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsplus
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitspcdata identifier
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName writer
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName write
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation StringLiteral pcdata
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName type
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsname
+lexical unitspcdata identifier QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsname
+lexical unitspcdata identifier QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsleft brace
+lexical unitsname QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsleft brace
+mixed SimpleName LabeledStatement SwitchStatement SimpleName type
+mixed SimpleName LabeledStatement SwitchStatement SwitchCase QualifiedName lexical unitspcdata identifier
+mixed SimpleName LabeledStatement SwitchStatement SwitchCase QualifiedName lexical unitsname
+mixed SimpleName LabeledStatement SwitchStatement SwitchCase QualifiedName lexical unitsleft brace
+mixed SimpleName LabeledStatement SwitchStatement SwitchStatement SimpleName type
+type SimpleName Assignment SwitchStatement SwitchCase QualifiedName lexical unitsempty identifier
+type SimpleName Assignment SwitchStatement SwitchCase QualifiedName lexical unitsany identifier
+lexical unitsempty identifier QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsany identifier
+lexical unitsany identifier QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsleft brace
+lexical unitsleft brace QualifiedName SwitchCase SwitchStatement LabeledStatement SimpleName mixed
+type SimpleName InfixExpression QualifiedName lexical unitss
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitsend char
+fatal error SimpleName MethodInvocation StringLiteral end
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral >
+write SimpleName MethodInvocation CharacterLiteral >
+scanner SimpleName MethodInvocation SimpleName next
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName print element declaration
+protected Modifier MethodDeclaration SimpleType SimpleName transcoder exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName print element declaration
+void PrimitiveType MethodDeclaration SimpleType SimpleName transcoder exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName type
+print element declaration SimpleName MethodDeclaration SimpleType SimpleName transcoder exception
+print element declaration SimpleName MethodDeclaration SimpleType SimpleName xml exception
+print element declaration SimpleName MethodDeclaration SimpleType SimpleName io exception
+print element declaration SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+transcoder exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+transcoder exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+xml exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print element declaration
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print element declaration
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

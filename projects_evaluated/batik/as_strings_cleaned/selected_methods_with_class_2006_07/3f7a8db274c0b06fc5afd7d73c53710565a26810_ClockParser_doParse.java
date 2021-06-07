@@ -1,0 +1,36 @@
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+clock value SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse clock value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName clock value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse clock value
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral endofstreamexpected
+clock handler SimpleName MethodInvocation SimpleName clock value
+clock handler SimpleName MethodInvocation SimpleName clock value
+clock value SimpleName MethodInvocation SimpleName clock value
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName do parse
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration SimpleName do parse
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+do parse SimpleName MethodDeclaration SimpleType SimpleName parse exception
+do parse SimpleName MethodDeclaration SimpleType SimpleName io exception
+do parse SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+parse exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName do parse
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do parse
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

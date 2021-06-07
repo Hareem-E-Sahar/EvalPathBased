@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName repeat count
+repeat count SimpleName MethodInvocation SimpleName length
+repeat count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+repeat count SimpleName FieldAccess Assignment SimpleName unresolved
+repeat count SimpleName MethodInvocation SimpleName equals
+repeat count SimpleName MethodInvocation SimpleName smil indefinite value
+equals SimpleName MethodInvocation SimpleName smil indefinite value
+repeat count SimpleName FieldAccess Assignment SimpleName indefinite
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation SimpleName repeat count
+parse float SimpleName MethodInvocation SimpleName repeat count
+repeat count SimpleName FieldAccess Assignment MethodInvocation SimpleName float
+repeat count SimpleName FieldAccess Assignment MethodInvocation SimpleName parse float
+repeat count SimpleName FieldAccess Assignment MethodInvocation SimpleName repeat count
+repeat count SimpleName FieldAccess InfixExpression NumberLiteral empty
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+create exception SimpleName MethodInvocation StringLiteral attributemalformed
+create exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName smil repeat count attribute
+attributemalformed StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName smil repeat count attribute
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse repeat count
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName repeat count
+void PrimitiveType MethodDeclaration SimpleName parse repeat count
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName repeat count
+parse repeat count SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse repeat count SimpleName MethodDeclaration SingleVariableDeclaration SimpleName repeat count
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse repeat count
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repeat count
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse repeat count
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repeat count

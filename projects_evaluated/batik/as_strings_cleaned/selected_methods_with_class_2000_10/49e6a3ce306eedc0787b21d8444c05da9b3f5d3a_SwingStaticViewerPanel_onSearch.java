@@ -1,0 +1,13 @@
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral search
+println SimpleName MethodInvocation StringLiteral search
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on search
+void PrimitiveType MethodDeclaration SimpleName on search
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on search
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on search

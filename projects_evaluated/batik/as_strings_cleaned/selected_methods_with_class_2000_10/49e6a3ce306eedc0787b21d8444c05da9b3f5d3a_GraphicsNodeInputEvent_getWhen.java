@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get when
+public Modifier MethodDeclaration Block ReturnStatement SimpleName when
+long PrimitiveType MethodDeclaration SimpleName get when
+long PrimitiveType MethodDeclaration Block ReturnStatement SimpleName when
+get when SimpleName MethodDeclaration Block ReturnStatement SimpleName when
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get when
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get when

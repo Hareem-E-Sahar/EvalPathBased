@@ -1,0 +1,51 @@
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bounds
+srcs SimpleName FieldAccess MethodInvocation SimpleName size
+srcs SimpleName FieldAccess MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+srcs SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName srcs
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName next
+filter SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+filter SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+src SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName filter
+src SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+src SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src
+src SimpleName MethodInvocation SimpleName get bounds d
+bounds SimpleName Assignment MethodInvocation SimpleName src
+bounds SimpleName Assignment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+filter SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+filter SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+src SimpleName Assignment CastExpression SimpleType SimpleName filter
+src SimpleName Assignment CastExpression MethodInvocation SimpleName i
+src SimpleName Assignment CastExpression MethodInvocation SimpleName next
+src SimpleName MethodInvocation SimpleName get bounds d
+r SimpleName Assignment MethodInvocation SimpleName src
+r SimpleName Assignment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName MethodInvocation SimpleName union
+rectangle d SimpleName MethodInvocation SimpleName bounds
+rectangle d SimpleName MethodInvocation SimpleName r
+rectangle d SimpleName MethodInvocation SimpleName bounds
+union SimpleName MethodInvocation SimpleName bounds
+union SimpleName MethodInvocation SimpleName r
+union SimpleName MethodInvocation SimpleName bounds
+bounds SimpleName MethodInvocation SimpleName r
+bounds SimpleName MethodInvocation SimpleName bounds
+r SimpleName MethodInvocation SimpleName bounds
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName get bounds d
+public Modifier MethodDeclaration Block ReturnStatement SimpleName bounds
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get bounds d
+get bounds d SimpleName MethodDeclaration Block ReturnStatement SimpleName bounds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bounds d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bounds d

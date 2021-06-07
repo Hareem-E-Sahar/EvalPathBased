@@ -1,0 +1,37 @@
+pre info SimpleName Assignment ClassInstanceCreation SimpleType SimpleName linked list
+namespaces SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hash table stack
+namespaces SimpleName MethodInvocation SimpleName put
+namespaces SimpleName MethodInvocation StringLiteral xml
+namespaces SimpleName MethodInvocation QualifiedName xml supportxml namespace uri
+put SimpleName MethodInvocation StringLiteral xml
+put SimpleName MethodInvocation QualifiedName xml supportxml namespace uri
+xml StringLiteral MethodInvocation QualifiedName xml supportxml namespace uri
+namespaces SimpleName MethodInvocation SimpleName put
+namespaces SimpleName MethodInvocation StringLiteral xmlns
+namespaces SimpleName MethodInvocation QualifiedName xml supportxmlns namespace uri
+put SimpleName MethodInvocation StringLiteral xmlns
+put SimpleName MethodInvocation QualifiedName xml supportxmlns namespace uri
+xmlns StringLiteral MethodInvocation QualifiedName xml supportxmlns namespace uri
+namespaces SimpleName MethodInvocation SimpleName put
+namespaces SimpleName MethodInvocation StringLiteral empty
+put SimpleName MethodInvocation StringLiteral empty
+in dtd SimpleName Assignment BooleanLiteral false
+document descriptor SimpleName Assignment ClassInstanceCreation SimpleType SimpleName document descriptor
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start document
+public Modifier MethodDeclaration SimpleType SimpleName sax exception
+public Modifier MethodDeclaration Block IfStatement SimpleName create document descriptor
+void PrimitiveType MethodDeclaration SimpleName start document
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName create document descriptor
+start document SimpleName MethodDeclaration SimpleType SimpleName sax exception
+start document SimpleName MethodDeclaration Block IfStatement SimpleName create document descriptor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start document
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start document
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

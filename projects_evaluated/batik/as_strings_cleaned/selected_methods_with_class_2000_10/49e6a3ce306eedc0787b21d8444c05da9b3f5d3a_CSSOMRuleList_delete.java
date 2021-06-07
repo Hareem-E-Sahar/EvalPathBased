@@ -1,0 +1,40 @@
+int PrimitiveType SingleVariableDeclaration SimpleName index
+index SimpleName InfixExpression NumberLiteral empty
+list SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation SimpleName list
+index SimpleName InfixExpression MethodInvocation SimpleName size
+index SimpleName InfixExpression InfixExpression InfixExpression SimpleName index
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName index
+integer SimpleName SimpleType ClassInstanceCreation SimpleName index
+cssdom exception factory SimpleName MethodInvocation SimpleName create dom exception
+cssdom exception factory SimpleName MethodInvocation QualifiedName dom exceptioninvalid access err
+cssdom exception factory SimpleName MethodInvocation StringLiteral outofboundsindex
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptioninvalid access err
+create dom exception SimpleName MethodInvocation StringLiteral outofboundsindex
+dom exceptioninvalid access err QualifiedName MethodInvocation StringLiteral outofboundsindex
+list SimpleName MethodInvocation SimpleName remove
+list SimpleName MethodInvocation SimpleName index
+remove SimpleName MethodInvocation SimpleName index
+css rule SimpleName SimpleType CastExpression MethodInvocation SimpleName list
+css rule SimpleName SimpleType CastExpression MethodInvocation SimpleName remove
+css rule SimpleName SimpleType CastExpression MethodInvocation SimpleName index
+public Modifier MethodDeclaration SimpleType SimpleName css rule
+public Modifier MethodDeclaration SimpleName delete
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+css rule SimpleName SimpleType MethodDeclaration SimpleName delete
+css rule SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+css rule SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName index
+delete SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+delete SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css rule
+public Modifier TypeDeclaration MethodDeclaration SimpleName delete
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css rule
+test SimpleName TypeDeclaration MethodDeclaration SimpleName delete
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index

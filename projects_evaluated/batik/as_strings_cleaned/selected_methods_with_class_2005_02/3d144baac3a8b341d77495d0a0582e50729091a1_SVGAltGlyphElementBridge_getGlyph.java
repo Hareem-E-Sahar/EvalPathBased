@@ -1,0 +1,363 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+string SimpleName SimpleType SingleVariableDeclaration SimpleName glyph uri
+element SimpleName SimpleType SingleVariableDeclaration SimpleName alt glyph element
+float PrimitiveType SingleVariableDeclaration SimpleName font size
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName aci
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref glyph element
+ctx SimpleName MethodInvocation SimpleName get referenced element
+ctx SimpleName MethodInvocation SimpleName alt glyph element
+ctx SimpleName MethodInvocation SimpleName glyph uri
+get referenced element SimpleName MethodInvocation SimpleName alt glyph element
+get referenced element SimpleName MethodInvocation SimpleName glyph uri
+alt glyph element SimpleName MethodInvocation SimpleName glyph uri
+ref glyph element SimpleName Assignment MethodInvocation SimpleName ctx
+ref glyph element SimpleName Assignment MethodInvocation SimpleName get referenced element
+ref glyph element SimpleName Assignment MethodInvocation SimpleName alt glyph element
+ref glyph element SimpleName Assignment MethodInvocation SimpleName glyph uri
+bridge exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get code
+err uri unsecure SimpleName MethodInvocation SimpleName equals
+err uri unsecure SimpleName MethodInvocation MethodInvocation SimpleName e
+err uri unsecure SimpleName MethodInvocation MethodInvocation SimpleName get code
+equals SimpleName MethodInvocation MethodInvocation SimpleName e
+equals SimpleName MethodInvocation MethodInvocation SimpleName get code
+ctx SimpleName MethodInvocation SimpleName get user agent
+ctx SimpleName MethodInvocation MethodInvocation SimpleName display error
+get user agent SimpleName MethodInvocation MethodInvocation SimpleName display error
+ctx SimpleName MethodInvocation MethodInvocation SimpleName e
+get user agent SimpleName MethodInvocation MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+ref glyph element SimpleName MethodInvocation SimpleName get tag name
+ref glyph element SimpleName MethodInvocation MethodInvocation SimpleName equals
+get tag name SimpleName MethodInvocation MethodInvocation SimpleName equals
+ref glyph element SimpleName MethodInvocation MethodInvocation SimpleName svg glyph tag
+get tag name SimpleName MethodInvocation MethodInvocation SimpleName svg glyph tag
+equals SimpleName MethodInvocation SimpleName svg glyph tag
+alt glyph element SimpleName MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName alt glyph element
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+document SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom document
+document SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName alt glyph element
+document SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName document
+ref glyph element SimpleName MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName ref glyph element
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+ref document SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom document
+ref document SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ref glyph element
+ref document SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref document
+ref document SimpleName InfixExpression SimpleName document
+is local SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression SimpleName ref document
+is local SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression SimpleName document
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is local
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local glyph element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local font face element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local font element
+local glyph element SimpleName Assignment SimpleName ref glyph element
+local glyph element SimpleName MethodInvocation SimpleName get parent node
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName local glyph element
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get parent node
+local font element SimpleName Assignment CastExpression SimpleType SimpleName element
+local font element SimpleName Assignment CastExpression MethodInvocation SimpleName local glyph element
+local font element SimpleName Assignment CastExpression MethodInvocation SimpleName get parent node
+local font element SimpleName MethodInvocation SimpleName get elements by tag name ns
+local font element SimpleName MethodInvocation SimpleName svg namespace uri
+local font element SimpleName MethodInvocation SimpleName svg font face tag
+get elements by tag name ns SimpleName MethodInvocation SimpleName svg namespace uri
+get elements by tag name ns SimpleName MethodInvocation SimpleName svg font face tag
+svg namespace uri SimpleName MethodInvocation SimpleName svg font face tag
+font face elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName local font element
+font face elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName get elements by tag name ns
+font face elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg namespace uri
+font face elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg font face tag
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font face elements
+font face elements SimpleName MethodInvocation SimpleName get length
+font face elements SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+font face elements SimpleName MethodInvocation SimpleName item
+font face elements SimpleName MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName font face elements
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+element SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+local font face element SimpleName Assignment CastExpression SimpleType SimpleName element
+local font face element SimpleName Assignment CastExpression MethodInvocation SimpleName font face elements
+local font face element SimpleName Assignment CastExpression MethodInvocation SimpleName item
+local font face element SimpleName Assignment CastExpression MethodInvocation NumberLiteral empty
+ref glyph element SimpleName MethodInvocation SimpleName get parent node
+document SimpleName MethodInvocation SimpleName import node
+document SimpleName MethodInvocation MethodInvocation SimpleName ref glyph element
+document SimpleName MethodInvocation MethodInvocation SimpleName get parent node
+document SimpleName MethodInvocation BooleanLiteral true
+import node SimpleName MethodInvocation MethodInvocation SimpleName ref glyph element
+import node SimpleName MethodInvocation MethodInvocation SimpleName get parent node
+import node SimpleName MethodInvocation BooleanLiteral true
+ref glyph element SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get parent node SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName document
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName import node
+element SimpleName SimpleType CastExpression MethodInvocation BooleanLiteral true
+local font element SimpleName Assignment CastExpression SimpleType SimpleName element
+local font element SimpleName Assignment CastExpression MethodInvocation SimpleName document
+local font element SimpleName Assignment CastExpression MethodInvocation SimpleName import node
+local font element SimpleName Assignment CastExpression MethodInvocation BooleanLiteral true
+abstract node SimpleName MethodInvocation SimpleName get base uri
+abstract node SimpleName MethodInvocation SimpleName alt glyph element
+get base uri SimpleName MethodInvocation SimpleName alt glyph element
+base SimpleName VariableDeclarationFragment MethodInvocation SimpleName abstract node
+base SimpleName VariableDeclarationFragment MethodInvocation SimpleName get base uri
+base SimpleName VariableDeclarationFragment MethodInvocation SimpleName alt glyph element
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base
+document SimpleName MethodInvocation SimpleName create element ns
+document SimpleName MethodInvocation SimpleName svg namespace uri
+document SimpleName MethodInvocation SimpleName svg g tag
+create element ns SimpleName MethodInvocation SimpleName svg namespace uri
+create element ns SimpleName MethodInvocation SimpleName svg g tag
+svg namespace uri SimpleName MethodInvocation SimpleName svg g tag
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName document
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName create element ns
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg namespace uri
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg g tag
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+g SimpleName MethodInvocation SimpleName append child
+g SimpleName MethodInvocation SimpleName local font element
+append child SimpleName MethodInvocation SimpleName local font element
+g SimpleName MethodInvocation SimpleName set attribute ns
+g SimpleName MethodInvocation QualifiedName xml constantsxml namespace uri
+g SimpleName MethodInvocation StringLiteral xmlbase
+g SimpleName MethodInvocation SimpleName base
+set attribute ns SimpleName MethodInvocation QualifiedName xml constantsxml namespace uri
+set attribute ns SimpleName MethodInvocation StringLiteral xmlbase
+set attribute ns SimpleName MethodInvocation SimpleName base
+xml constantsxml namespace uri QualifiedName MethodInvocation StringLiteral xmlbase
+xml constantsxml namespace uri QualifiedName MethodInvocation SimpleName base
+xmlbase StringLiteral MethodInvocation SimpleName base
+ref glyph element SimpleName MethodInvocation SimpleName get parent node
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName ref glyph element
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get parent node
+css utilities SimpleName MethodInvocation SimpleName compute style and ur is
+css utilities SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+css utilities SimpleName MethodInvocation CastExpression MethodInvocation SimpleName ref glyph element
+css utilities SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get parent node
+css utilities SimpleName MethodInvocation SimpleName local font element
+css utilities SimpleName MethodInvocation SimpleName glyph uri
+compute style and ur is SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+compute style and ur is SimpleName MethodInvocation CastExpression MethodInvocation SimpleName ref glyph element
+compute style and ur is SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get parent node
+compute style and ur is SimpleName MethodInvocation SimpleName local font element
+compute style and ur is SimpleName MethodInvocation SimpleName glyph uri
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName local font element
+ref glyph element SimpleName MethodInvocation CastExpression MethodInvocation SimpleName local font element
+get parent node SimpleName MethodInvocation CastExpression MethodInvocation SimpleName local font element
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName glyph uri
+ref glyph element SimpleName MethodInvocation CastExpression MethodInvocation SimpleName glyph uri
+get parent node SimpleName MethodInvocation CastExpression MethodInvocation SimpleName glyph uri
+local font element SimpleName MethodInvocation SimpleName glyph uri
+ref glyph element SimpleName MethodInvocation SimpleName get attribute ns
+ref glyph element SimpleName MethodInvocation SimpleName svg id attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg id attribute
+glyph id SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref glyph element
+glyph id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+glyph id SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg id attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph id
+local font element SimpleName MethodInvocation SimpleName get elements by tag name ns
+local font element SimpleName MethodInvocation SimpleName svg namespace uri
+local font element SimpleName MethodInvocation SimpleName svg glyph tag
+get elements by tag name ns SimpleName MethodInvocation SimpleName svg namespace uri
+get elements by tag name ns SimpleName MethodInvocation SimpleName svg glyph tag
+svg namespace uri SimpleName MethodInvocation SimpleName svg glyph tag
+glyph elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName local font element
+glyph elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName get elements by tag name ns
+glyph elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg namespace uri
+glyph elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg glyph tag
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph elements
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+glyph elements SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName glyph elements
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+glyph elements SimpleName MethodInvocation SimpleName item
+glyph elements SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName glyph elements
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+glyph elem SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+glyph elem SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName glyph elements
+glyph elem SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+glyph elem SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph elem
+glyph elem SimpleName MethodInvocation SimpleName get attribute ns
+glyph elem SimpleName MethodInvocation SimpleName svg id attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg id attribute
+glyph elem SimpleName MethodInvocation MethodInvocation SimpleName equals
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName equals
+svg id attribute SimpleName MethodInvocation MethodInvocation SimpleName equals
+glyph elem SimpleName MethodInvocation MethodInvocation SimpleName glyph id
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName glyph id
+svg id attribute SimpleName MethodInvocation MethodInvocation SimpleName glyph id
+equals SimpleName MethodInvocation SimpleName glyph id
+local glyph element SimpleName Assignment SimpleName glyph elem
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+local font element SimpleName MethodInvocation SimpleName get elements by tag name ns
+local font element SimpleName MethodInvocation SimpleName svg namespace uri
+local font element SimpleName MethodInvocation SimpleName svg font face tag
+get elements by tag name ns SimpleName MethodInvocation SimpleName svg namespace uri
+get elements by tag name ns SimpleName MethodInvocation SimpleName svg font face tag
+svg namespace uri SimpleName MethodInvocation SimpleName svg font face tag
+font face elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName local font element
+font face elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName get elements by tag name ns
+font face elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg namespace uri
+font face elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg font face tag
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font face elements
+font face elements SimpleName MethodInvocation SimpleName get length
+font face elements SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+font face elements SimpleName MethodInvocation SimpleName item
+font face elements SimpleName MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName font face elements
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+element SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+local font face element SimpleName Assignment CastExpression SimpleType SimpleName element
+local font face element SimpleName Assignment CastExpression MethodInvocation SimpleName font face elements
+local font face element SimpleName Assignment CastExpression MethodInvocation SimpleName item
+local font face element SimpleName Assignment CastExpression MethodInvocation NumberLiteral empty
+local glyph element SimpleName InfixExpression InfixExpression InfixExpression SimpleName local font face element
+ctx SimpleName MethodInvocation SimpleName get bridge
+ctx SimpleName MethodInvocation SimpleName local font face element
+get bridge SimpleName MethodInvocation SimpleName local font face element
+svg font face element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName ctx
+svg font face element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName get bridge
+svg font face element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName local font face element
+font face bridge SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg font face element bridge
+font face bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ctx
+font face bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get bridge
+font face bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName local font face element
+svg font face element bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font face bridge
+font face bridge SimpleName MethodInvocation SimpleName create font face
+font face bridge SimpleName MethodInvocation SimpleName ctx
+font face bridge SimpleName MethodInvocation SimpleName local font face element
+create font face SimpleName MethodInvocation SimpleName ctx
+create font face SimpleName MethodInvocation SimpleName local font face element
+ctx SimpleName MethodInvocation SimpleName local font face element
+font face SimpleName VariableDeclarationFragment MethodInvocation SimpleName font face bridge
+font face SimpleName VariableDeclarationFragment MethodInvocation SimpleName create font face
+font face SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+font face SimpleName VariableDeclarationFragment MethodInvocation SimpleName local font face element
+svg font face SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font face
+ctx SimpleName MethodInvocation SimpleName get bridge
+ctx SimpleName MethodInvocation SimpleName local glyph element
+get bridge SimpleName MethodInvocation SimpleName local glyph element
+svg glyph element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName ctx
+svg glyph element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName get bridge
+svg glyph element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName local glyph element
+glyph bridge SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg glyph element bridge
+glyph bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ctx
+glyph bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get bridge
+glyph bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName local glyph element
+svg glyph element bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph bridge
+aci SimpleName MethodInvocation SimpleName first
+aci SimpleName MethodInvocation SimpleName get attribute
+aci SimpleName MethodInvocation SimpleName paint info
+get attribute SimpleName MethodInvocation SimpleName paint info
+text paint info SimpleName SimpleType CastExpression MethodInvocation SimpleName aci
+text paint info SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+text paint info SimpleName SimpleType CastExpression MethodInvocation SimpleName paint info
+tpi SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName text paint info
+tpi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName aci
+tpi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+tpi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName paint info
+text paint info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tpi
+glyph bridge SimpleName MethodInvocation SimpleName create glyph
+glyph bridge SimpleName MethodInvocation SimpleName ctx
+glyph bridge SimpleName MethodInvocation SimpleName local glyph element
+glyph bridge SimpleName MethodInvocation SimpleName alt glyph element
+glyph bridge SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+create glyph SimpleName MethodInvocation SimpleName ctx
+create glyph SimpleName MethodInvocation SimpleName local glyph element
+create glyph SimpleName MethodInvocation SimpleName alt glyph element
+create glyph SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+create glyph SimpleName MethodInvocation SimpleName font size
+ctx SimpleName MethodInvocation SimpleName local glyph element
+ctx SimpleName MethodInvocation SimpleName alt glyph element
+ctx SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+ctx SimpleName MethodInvocation SimpleName font size
+ctx SimpleName MethodInvocation SimpleName font face
+local glyph element SimpleName MethodInvocation SimpleName alt glyph element
+local glyph element SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+local glyph element SimpleName MethodInvocation SimpleName font size
+local glyph element SimpleName MethodInvocation SimpleName font face
+local glyph element SimpleName MethodInvocation SimpleName tpi
+alt glyph element SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+alt glyph element SimpleName MethodInvocation SimpleName font size
+alt glyph element SimpleName MethodInvocation SimpleName font face
+alt glyph element SimpleName MethodInvocation SimpleName tpi
+empty NumberLiteral PrefixExpression MethodInvocation SimpleName font size
+empty NumberLiteral PrefixExpression MethodInvocation SimpleName font face
+empty NumberLiteral PrefixExpression MethodInvocation SimpleName tpi
+font size SimpleName MethodInvocation SimpleName font face
+font size SimpleName MethodInvocation SimpleName tpi
+font face SimpleName MethodInvocation SimpleName tpi
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName is local
+private Modifier MethodDeclaration SimpleType SimpleName glyph
+private Modifier MethodDeclaration SimpleName get glyph
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName glyph uri
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName alt glyph element
+glyph SimpleName SimpleType MethodDeclaration SimpleName get glyph
+glyph SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+glyph SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName glyph uri
+glyph SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName alt glyph element
+glyph SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+glyph SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName font size
+get glyph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+get glyph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+get glyph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get glyph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName glyph uri
+get glyph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get glyph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName alt glyph element
+get glyph SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+get glyph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName font size
+get glyph SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+get glyph SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aci
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glyph uri
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alt glyph element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font size
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+glyph uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alt glyph element
+glyph uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+glyph uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font size
+glyph uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+alt glyph element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+alt glyph element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font size
+alt glyph element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+font size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName glyph
+public Modifier TypeDeclaration MethodDeclaration SimpleName get glyph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glyph uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alt glyph element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName glyph
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get glyph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glyph uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alt glyph element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci

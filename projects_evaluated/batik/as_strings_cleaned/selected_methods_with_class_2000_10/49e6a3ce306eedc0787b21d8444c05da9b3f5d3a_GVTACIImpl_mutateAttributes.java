@@ -1,0 +1,20 @@
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName aci
+public Modifier MethodDeclaration SimpleType SimpleName attributed character iterator
+public Modifier MethodDeclaration SimpleName mutate attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName aci
+public Modifier MethodDeclaration Block ReturnStatement SimpleName aci
+attributed character iterator SimpleName SimpleType MethodDeclaration SimpleName mutate attributes
+attributed character iterator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName aci
+mutate attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+mutate attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aci
+mutate attributes SimpleName MethodDeclaration Block ReturnStatement SimpleName aci
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributed character iterator
+public Modifier TypeDeclaration MethodDeclaration SimpleName mutate attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributed character iterator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mutate attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci

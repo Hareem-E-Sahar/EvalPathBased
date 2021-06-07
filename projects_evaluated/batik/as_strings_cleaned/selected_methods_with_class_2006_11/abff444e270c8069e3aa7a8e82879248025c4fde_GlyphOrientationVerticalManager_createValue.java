@@ -1,0 +1,49 @@
+lexical unit SimpleName SimpleType SingleVariableDeclaration SimpleName lu
+css engine SimpleName SimpleType SingleVariableDeclaration SimpleName engine
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation InfixExpression QualifiedName lexical unitsac ident
+get lexical unit type SimpleName MethodInvocation InfixExpression QualifiedName lexical unitsac ident
+lu SimpleName MethodInvocation SimpleName get string value
+lu SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+get string value SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+lu SimpleName MethodInvocation MethodInvocation QualifiedName css constantscss auto value
+get string value SimpleName MethodInvocation MethodInvocation QualifiedName css constantscss auto value
+equals ignore case SimpleName MethodInvocation QualifiedName css constantscss auto value
+lu SimpleName MethodInvocation SimpleName get string value
+create invalid identifier dom exception SimpleName MethodInvocation MethodInvocation SimpleName lu
+create invalid identifier dom exception SimpleName MethodInvocation MethodInvocation SimpleName get string value
+create value SimpleName SuperMethodInvocation SimpleName lu
+create value SimpleName SuperMethodInvocation SimpleName engine
+lu SimpleName SuperMethodInvocation SimpleName engine
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName create value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lu
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName engine
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+value SimpleName SimpleType MethodDeclaration SimpleName create value
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName lu
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName engine
+value SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lu
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName engine
+create value SimpleName MethodDeclaration SimpleType SimpleName dom exception
+lu SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+lu SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+engine SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName create value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

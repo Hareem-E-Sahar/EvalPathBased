@@ -1,0 +1,100 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+svg image element SimpleName SimpleType CastExpression SimpleName element
+ie SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg image element
+ie SimpleName VariableDeclarationFragment CastExpression SimpleName element
+svg image element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ie
+ie SimpleName MethodInvocation SimpleName get x
+ie SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get x SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+ie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+x SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get anim val
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+ie SimpleName MethodInvocation SimpleName get y
+ie SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get y SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+ie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+y SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get anim val
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+ie SimpleName MethodInvocation SimpleName get width
+ie SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get width SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+ie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+w SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get anim val
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+ie SimpleName MethodInvocation SimpleName get height
+ie SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get height SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+ie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get height SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get anim val
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName x
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName y
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName w
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName h
+x SimpleName ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName w
+x SimpleName ClassInstanceCreation SimpleName h
+y SimpleName ClassInstanceCreation SimpleName w
+y SimpleName ClassInstanceCreation SimpleName h
+w SimpleName ClassInstanceCreation SimpleName h
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+live attribute exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+ctx SimpleName ClassInstanceCreation SimpleName ex
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName rectangle d
+protected Modifier MethodDeclaration SimpleName get image bounds
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+static Modifier MethodDeclaration SimpleType SimpleName rectangle d
+static Modifier MethodDeclaration SimpleName get image bounds
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get image bounds
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+get image bounds SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+get image bounds SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+get image bounds SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get image bounds SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get image bounds
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get image bounds
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

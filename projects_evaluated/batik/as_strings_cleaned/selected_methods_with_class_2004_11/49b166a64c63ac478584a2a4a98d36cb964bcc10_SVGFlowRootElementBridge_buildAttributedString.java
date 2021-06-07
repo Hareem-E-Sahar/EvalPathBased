@@ -1,0 +1,61 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+get regions SimpleName MethodInvocation SimpleName ctx
+get regions SimpleName MethodInvocation SimpleName element
+ctx SimpleName MethodInvocation SimpleName element
+rgns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get regions
+rgns SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+rgns SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rgns
+get flow div SimpleName MethodInvocation SimpleName ctx
+get flow div SimpleName MethodInvocation SimpleName element
+ctx SimpleName MethodInvocation SimpleName element
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName get flow div
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+attributed string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName MethodInvocation SimpleName add attribute
+ret SimpleName MethodInvocation SimpleName flow regions
+ret SimpleName MethodInvocation SimpleName rgns
+ret SimpleName MethodInvocation NumberLiteral empty
+ret SimpleName MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation SimpleName flow regions
+add attribute SimpleName MethodInvocation SimpleName rgns
+add attribute SimpleName MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation NumberLiteral empty
+flow regions SimpleName MethodInvocation SimpleName rgns
+flow regions SimpleName MethodInvocation NumberLiteral empty
+flow regions SimpleName MethodInvocation NumberLiteral empty
+rgns SimpleName MethodInvocation NumberLiteral empty
+rgns SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+text line breaks SimpleName MethodInvocation SimpleName find line brk
+text line breaks SimpleName MethodInvocation SimpleName ret
+find line brk SimpleName MethodInvocation SimpleName ret
+protected Modifier MethodDeclaration SimpleType SimpleName attributed string
+protected Modifier MethodDeclaration SimpleName build attributed string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+attributed string SimpleName SimpleType MethodDeclaration SimpleName build attributed string
+attributed string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+attributed string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+build attributed string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+build attributed string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+build attributed string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+build attributed string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+build attributed string SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributed string
+public Modifier TypeDeclaration MethodDeclaration SimpleName build attributed string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributed string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build attributed string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

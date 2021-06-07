@@ -1,0 +1,49 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation QualifiedName svgcss engineopacity index
+e SimpleName MethodInvocation QualifiedName svgcss engineopacity index
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+v SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss engineopacity index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get float value
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get float value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName v
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get float value
+f SimpleName InfixExpression NumberLiteral f
+f SimpleName InfixExpression NumberLiteral f
+alpha composite SimpleName MethodInvocation SimpleName get instance
+alpha composite SimpleName MethodInvocation QualifiedName alpha compositesrc over
+alpha composite SimpleName MethodInvocation SimpleName f
+get instance SimpleName MethodInvocation QualifiedName alpha compositesrc over
+get instance SimpleName MethodInvocation SimpleName f
+alpha compositesrc over QualifiedName MethodInvocation SimpleName f
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName composite
+public Modifier MethodDeclaration SimpleName convert opacity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+static Modifier MethodDeclaration SimpleType SimpleName composite
+static Modifier MethodDeclaration SimpleName convert opacity
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+composite SimpleName SimpleType MethodDeclaration SimpleName convert opacity
+composite SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+convert opacity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert opacity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+convert opacity SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName composite
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert opacity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName composite
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert opacity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

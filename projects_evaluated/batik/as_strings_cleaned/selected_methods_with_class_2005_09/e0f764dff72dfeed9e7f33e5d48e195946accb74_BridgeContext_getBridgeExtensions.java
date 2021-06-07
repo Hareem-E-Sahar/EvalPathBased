@@ -1,0 +1,86 @@
+document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+svgom document SimpleName SimpleType CastExpression SimpleName doc
+doc SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get root element
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+root SimpleName MethodInvocation SimpleName get attribute ns
+root SimpleName MethodInvocation QualifiedName svg constantssvg version attribute
+get attribute ns SimpleName MethodInvocation QualifiedName svg constantssvg version attribute
+ver SimpleName VariableDeclarationFragment MethodInvocation SimpleName root
+ver SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+ver SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svg constantssvg version attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ver
+bridge extension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg be
+ver SimpleName MethodInvocation SimpleName length
+ver SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ver SimpleName MethodInvocation SimpleName equals
+ver SimpleName MethodInvocation StringLiteral .
+equals SimpleName MethodInvocation StringLiteral .
+ver SimpleName MethodInvocation SimpleName equals
+ver SimpleName MethodInvocation StringLiteral .
+equals SimpleName MethodInvocation StringLiteral .
+ver SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ver
+ver SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ver SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral .
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ver
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral .
+. StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName ver
+. StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+. StringLiteral MethodInvocation InfixExpression MethodInvocation StringLiteral .
+svg be SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svg bridge extension
+svg be SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svg bridge extension
+svg be SimpleName MethodInvocation SimpleName get priority
+priority SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg be
+priority SimpleName VariableDeclarationFragment MethodInvocation SimpleName get priority
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName priority
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg be
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get priority
+linked list SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get global bridge extensions
+extensions SimpleName Assignment ClassInstanceCreation SimpleType SimpleName linked list
+extensions SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get global bridge extensions
+extensions SimpleName MethodInvocation SimpleName list iterator
+li SimpleName VariableDeclarationFragment MethodInvocation SimpleName extensions
+li SimpleName VariableDeclarationFragment MethodInvocation SimpleName list iterator
+list iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName li
+li SimpleName MethodInvocation SimpleName has next
+li SimpleName MethodInvocation SimpleName add
+li SimpleName MethodInvocation SimpleName svg be
+add SimpleName MethodInvocation SimpleName svg be
+li SimpleName MethodInvocation SimpleName next
+bridge extension SimpleName SimpleType CastExpression MethodInvocation SimpleName li
+bridge extension SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+lbe SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName bridge extension
+lbe SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName li
+lbe SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+bridge extension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lbe
+lbe SimpleName MethodInvocation SimpleName get priority
+lbe SimpleName MethodInvocation InfixExpression SimpleName priority
+get priority SimpleName MethodInvocation InfixExpression SimpleName priority
+li SimpleName MethodInvocation SimpleName previous
+li SimpleName MethodInvocation SimpleName add
+li SimpleName MethodInvocation SimpleName svg be
+add SimpleName MethodInvocation SimpleName svg be
+float PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName extensions
+public Modifier MethodDeclaration SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName get bridge extensions
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block ReturnStatement SimpleName extensions
+list SimpleName SimpleType MethodDeclaration SimpleName get bridge extensions
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName doc
+get bridge extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+get bridge extensions SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+get bridge extensions SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get bridge extensions SimpleName MethodDeclaration Block ReturnStatement SimpleName extensions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bridge extensions
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bridge extensions
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc

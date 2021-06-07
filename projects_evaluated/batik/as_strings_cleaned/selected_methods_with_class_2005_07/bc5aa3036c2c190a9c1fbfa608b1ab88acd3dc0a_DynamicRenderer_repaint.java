@@ -1,0 +1,382 @@
+rect list manager SimpleName SimpleType SingleVariableDeclaration SimpleName dev rlm
+cachable red SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cr
+writable raster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sync raster
+writable raster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName copy raster
+cr SimpleName Assignment SimpleName root cr
+sync raster SimpleName Assignment SimpleName working base raster
+copy raster SimpleName Assignment SimpleName working raster
+root cr SimpleName MethodInvocation SimpleName get bounds
+src r SimpleName VariableDeclarationFragment MethodInvocation SimpleName root cr
+src r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src r
+working raster SimpleName MethodInvocation SimpleName get bounds
+dst r SimpleName VariableDeclarationFragment MethodInvocation SimpleName working raster
+dst r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dst r
+dst rx QualifiedName InfixExpression QualifiedName src rx
+dst ry QualifiedName InfixExpression QualifiedName src ry
+dst rx QualifiedName InfixExpression QualifiedName dst rwidth
+src rx QualifiedName InfixExpression QualifiedName src rwidth
+dst rx QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName src rx
+dst rx QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName src rwidth
+dst rwidth QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName src rx
+dst rwidth QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName src rwidth
+dst ry QualifiedName InfixExpression QualifiedName dst rheight
+src ry QualifiedName InfixExpression QualifiedName src rheight
+dst ry QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName src ry
+dst ry QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName src rheight
+dst rheight QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName src ry
+dst rheight QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName src rheight
+pad red SimpleName SimpleType ClassInstanceCreation SimpleName cr
+pad red SimpleName SimpleType ClassInstanceCreation SimpleName dst r
+pad red SimpleName SimpleType ClassInstanceCreation QualifiedName pad modezero pad
+cr SimpleName ClassInstanceCreation SimpleName dst r
+cr SimpleName ClassInstanceCreation QualifiedName pad modezero pad
+dst r SimpleName ClassInstanceCreation QualifiedName pad modezero pad
+cr SimpleName Assignment ClassInstanceCreation SimpleType SimpleName pad red
+cr SimpleName Assignment ClassInstanceCreation SimpleName cr
+cr SimpleName Assignment ClassInstanceCreation SimpleName dst r
+cr SimpleName Assignment ClassInstanceCreation QualifiedName pad modezero pad
+repaint all SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName repaint all
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+copy raster SimpleName MethodInvocation SimpleName get bounds
+dr SimpleName VariableDeclarationFragment MethodInvocation SimpleName copy raster
+dr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dr
+cr SimpleName MethodInvocation SimpleName copy data
+cr SimpleName MethodInvocation SimpleName copy raster
+copy data SimpleName MethodInvocation SimpleName copy raster
+javaawtgraphics d QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g d
+working off screen SimpleName MethodInvocation SimpleName get color model
+copy raster SimpleName MethodInvocation SimpleName create writable translated child
+copy raster SimpleName MethodInvocation NumberLiteral empty
+copy raster SimpleName MethodInvocation NumberLiteral empty
+create writable translated child SimpleName MethodInvocation NumberLiteral empty
+create writable translated child SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+working off screen SimpleName MethodInvocation SimpleName is alpha premultiplied
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName working off screen
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get color model
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName copy raster
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName create writable translated child
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName working off screen
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+working off screen SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName copy raster
+working off screen SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create writable translated child
+working off screen SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+working off screen SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName copy raster
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName create writable translated child
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation NumberLiteral empty
+working off screen SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName working off screen
+working off screen SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName working off screen
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+copy raster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName working off screen
+copy raster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+create writable translated child SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName working off screen
+create writable translated child SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+empty NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName working off screen
+empty NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+empty NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName working off screen
+empty NumberLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+tmp bi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered image
+tmp bi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName working off screen
+tmp bi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get color model
+tmp bi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName copy raster
+tmp bi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName create writable translated child
+tmp bi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation NumberLiteral empty
+tmp bi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation NumberLiteral empty
+tmp bi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName working off screen
+tmp bi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp bi
+graphics util SimpleName MethodInvocation SimpleName create graphics
+graphics util SimpleName MethodInvocation SimpleName tmp bi
+create graphics SimpleName MethodInvocation SimpleName tmp bi
+g d SimpleName Assignment MethodInvocation SimpleName graphics util
+g d SimpleName Assignment MethodInvocation SimpleName create graphics
+g d SimpleName Assignment MethodInvocation SimpleName tmp bi
+copy raster SimpleName MethodInvocation SimpleName get min x
+copy raster SimpleName MethodInvocation SimpleName get min y
+g d SimpleName MethodInvocation SimpleName translate
+g d SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName copy raster
+g d SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get min x
+g d SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName copy raster
+g d SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get min y
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName copy raster
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get min x
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName copy raster
+translate SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName get min y
+damaged areas SimpleName MethodInvocation SimpleName subtract
+damaged areas SimpleName MethodInvocation SimpleName dev rlm
+damaged areas SimpleName MethodInvocation SimpleName copy overhead
+damaged areas SimpleName MethodInvocation SimpleName copy line overhead
+subtract SimpleName MethodInvocation SimpleName dev rlm
+subtract SimpleName MethodInvocation SimpleName copy overhead
+subtract SimpleName MethodInvocation SimpleName copy line overhead
+dev rlm SimpleName MethodInvocation SimpleName copy overhead
+dev rlm SimpleName MethodInvocation SimpleName copy line overhead
+copy overhead SimpleName MethodInvocation SimpleName copy line overhead
+damaged areas SimpleName MethodInvocation SimpleName merge rects
+damaged areas SimpleName MethodInvocation SimpleName copy overhead
+damaged areas SimpleName MethodInvocation SimpleName copy line overhead
+merge rects SimpleName MethodInvocation SimpleName copy overhead
+merge rects SimpleName MethodInvocation SimpleName copy line overhead
+copy overhead SimpleName MethodInvocation SimpleName copy line overhead
+damaged areas SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName damaged areas
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+rectangle SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+rectangle SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+r SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName rectangle
+r SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+r SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+dr SimpleName MethodInvocation SimpleName intersects
+dr SimpleName MethodInvocation SimpleName r
+intersects SimpleName MethodInvocation SimpleName r
+dr SimpleName MethodInvocation SimpleName intersection
+dr SimpleName MethodInvocation SimpleName r
+intersection SimpleName MethodInvocation SimpleName r
+r SimpleName Assignment MethodInvocation SimpleName dr
+r SimpleName Assignment MethodInvocation SimpleName intersection
+r SimpleName Assignment MethodInvocation SimpleName r
+current raster SimpleName MethodInvocation SimpleName create writable child
+current raster SimpleName MethodInvocation QualifiedName rx
+current raster SimpleName MethodInvocation QualifiedName ry
+current raster SimpleName MethodInvocation QualifiedName rwidth
+current raster SimpleName MethodInvocation QualifiedName rheight
+create writable child SimpleName MethodInvocation QualifiedName rx
+create writable child SimpleName MethodInvocation QualifiedName ry
+create writable child SimpleName MethodInvocation QualifiedName rwidth
+create writable child SimpleName MethodInvocation QualifiedName rheight
+create writable child SimpleName MethodInvocation QualifiedName rx
+rx QualifiedName MethodInvocation QualifiedName ry
+rx QualifiedName MethodInvocation QualifiedName rwidth
+rx QualifiedName MethodInvocation QualifiedName rheight
+rx QualifiedName MethodInvocation QualifiedName rx
+rx QualifiedName MethodInvocation QualifiedName ry
+ry QualifiedName MethodInvocation QualifiedName rwidth
+ry QualifiedName MethodInvocation QualifiedName rheight
+ry QualifiedName MethodInvocation QualifiedName rx
+ry QualifiedName MethodInvocation QualifiedName ry
+rwidth QualifiedName MethodInvocation QualifiedName rheight
+rwidth QualifiedName MethodInvocation QualifiedName rx
+rwidth QualifiedName MethodInvocation QualifiedName ry
+rheight QualifiedName MethodInvocation QualifiedName rx
+rheight QualifiedName MethodInvocation QualifiedName ry
+rx QualifiedName MethodInvocation QualifiedName ry
+src SimpleName VariableDeclarationFragment MethodInvocation SimpleName current raster
+src SimpleName VariableDeclarationFragment MethodInvocation SimpleName create writable child
+src SimpleName VariableDeclarationFragment MethodInvocation QualifiedName rx
+src SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ry
+src SimpleName VariableDeclarationFragment MethodInvocation QualifiedName rwidth
+src SimpleName VariableDeclarationFragment MethodInvocation QualifiedName rheight
+src SimpleName VariableDeclarationFragment MethodInvocation QualifiedName rx
+src SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ry
+raster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src
+graphics util SimpleName MethodInvocation SimpleName copy data
+graphics util SimpleName MethodInvocation SimpleName src
+graphics util SimpleName MethodInvocation SimpleName copy raster
+copy data SimpleName MethodInvocation SimpleName src
+copy data SimpleName MethodInvocation SimpleName copy raster
+src SimpleName MethodInvocation SimpleName copy raster
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javaawtcolor
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javaawtcolor
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName fill
+g d SimpleName MethodInvocation SimpleName r
+fill SimpleName MethodInvocation SimpleName r
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javaawtcolor
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javaawtcolor
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName draw
+g d SimpleName MethodInvocation SimpleName r
+draw SimpleName MethodInvocation SimpleName r
+dev rlm SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName dev rlm
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+rectangle SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+rectangle SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+r SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName rectangle
+r SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+r SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+dr SimpleName MethodInvocation SimpleName intersects
+dr SimpleName MethodInvocation SimpleName r
+intersects SimpleName MethodInvocation SimpleName r
+dr SimpleName MethodInvocation SimpleName intersection
+dr SimpleName MethodInvocation SimpleName r
+intersection SimpleName MethodInvocation SimpleName r
+r SimpleName Assignment MethodInvocation SimpleName dr
+r SimpleName Assignment MethodInvocation SimpleName intersection
+r SimpleName Assignment MethodInvocation SimpleName r
+copy raster SimpleName MethodInvocation SimpleName create writable child
+copy raster SimpleName MethodInvocation QualifiedName rx
+copy raster SimpleName MethodInvocation QualifiedName ry
+copy raster SimpleName MethodInvocation QualifiedName rwidth
+copy raster SimpleName MethodInvocation QualifiedName rheight
+create writable child SimpleName MethodInvocation QualifiedName rx
+create writable child SimpleName MethodInvocation QualifiedName ry
+create writable child SimpleName MethodInvocation QualifiedName rwidth
+create writable child SimpleName MethodInvocation QualifiedName rheight
+create writable child SimpleName MethodInvocation QualifiedName rx
+rx QualifiedName MethodInvocation QualifiedName ry
+rx QualifiedName MethodInvocation QualifiedName rwidth
+rx QualifiedName MethodInvocation QualifiedName rheight
+rx QualifiedName MethodInvocation QualifiedName rx
+rx QualifiedName MethodInvocation QualifiedName ry
+ry QualifiedName MethodInvocation QualifiedName rwidth
+ry QualifiedName MethodInvocation QualifiedName rheight
+ry QualifiedName MethodInvocation QualifiedName rx
+ry QualifiedName MethodInvocation QualifiedName ry
+rwidth QualifiedName MethodInvocation QualifiedName rheight
+rwidth QualifiedName MethodInvocation QualifiedName rx
+rwidth QualifiedName MethodInvocation QualifiedName ry
+rheight QualifiedName MethodInvocation QualifiedName rx
+rheight QualifiedName MethodInvocation QualifiedName ry
+rx QualifiedName MethodInvocation QualifiedName ry
+dst SimpleName VariableDeclarationFragment MethodInvocation SimpleName copy raster
+dst SimpleName VariableDeclarationFragment MethodInvocation SimpleName create writable child
+dst SimpleName VariableDeclarationFragment MethodInvocation QualifiedName rx
+dst SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ry
+dst SimpleName VariableDeclarationFragment MethodInvocation QualifiedName rwidth
+dst SimpleName VariableDeclarationFragment MethodInvocation QualifiedName rheight
+dst SimpleName VariableDeclarationFragment MethodInvocation QualifiedName rx
+dst SimpleName VariableDeclarationFragment MethodInvocation QualifiedName ry
+writable raster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dst
+cr SimpleName MethodInvocation SimpleName copy data
+cr SimpleName MethodInvocation SimpleName dst
+copy data SimpleName MethodInvocation SimpleName dst
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javaawtcolor
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javaawtcolor
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName fill
+g d SimpleName MethodInvocation SimpleName r
+fill SimpleName MethodInvocation SimpleName r
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtcolor QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javaawtcolor
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javaawtcolor
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set paint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName draw
+g d SimpleName MethodInvocation SimpleName r
+draw SimpleName MethodInvocation SimpleName r
+repaint all SimpleName IfStatement Block IfStatement BooleanLiteral false
+sync raster SimpleName SynchronizedStatement Block IfStatement SimpleName repaint all
+halting thread SimpleName MethodInvocation SimpleName has been halted
+tmp bi SimpleName VariableDeclarationFragment SimpleName working off screen
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp bi
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName working off screen
+working base raster SimpleName Assignment SimpleName current base raster
+working raster SimpleName Assignment SimpleName current raster
+working off screen SimpleName Assignment SimpleName current off screen
+current raster SimpleName Assignment SimpleName copy raster
+current base raster SimpleName Assignment SimpleName sync raster
+current off screen SimpleName Assignment SimpleName tmp bi
+damaged areas SimpleName Assignment SimpleName dev rlm
+boolean PrimitiveType VariableDeclarationStatement Block SynchronizedStatement SimpleName sync raster
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName repaint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rect list manager
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dev rlm
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName sync raster
+void PrimitiveType MethodDeclaration SimpleName repaint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rect list manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dev rlm
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName sync raster
+repaint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rect list manager
+repaint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dev rlm
+repaint SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+repaint SimpleName MethodDeclaration Block SynchronizedStatement SimpleName sync raster
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName repaint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dev rlm
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName repaint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dev rlm

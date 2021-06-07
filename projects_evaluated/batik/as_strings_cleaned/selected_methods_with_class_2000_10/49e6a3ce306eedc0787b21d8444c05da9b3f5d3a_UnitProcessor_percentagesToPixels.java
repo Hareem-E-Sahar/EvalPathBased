@@ -1,0 +1,316 @@
+float PrimitiveType SingleVariableDeclaration SimpleName v
+svg element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+short PrimitiveType SingleVariableDeclaration SimpleName d
+context SimpleName SimpleType SingleVariableDeclaration SimpleName c
+format message SimpleName MethodInvocation StringLiteral elementneeded
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format message
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral elementneeded
+e SimpleName MethodInvocation SimpleName get owner svg element
+svg SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+svg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get owner svg element
+svgsvg element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg
+format message SimpleName MethodInvocation StringLiteral svgelementneeded
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format message
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral svgelementneeded
+d SimpleName InfixExpression SimpleName horizontal length
+svg SimpleName MethodInvocation SimpleName get width
+svg SimpleName MethodInvocation MethodInvocation SimpleName get base val
+get width SimpleName MethodInvocation MethodInvocation SimpleName get base val
+len SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName svg
+len SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get width
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get base val
+svg length SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+len SimpleName MethodInvocation SimpleName get unit type
+len SimpleName MethodInvocation SimpleName get value in specified units
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName len
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName get unit type
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName len
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName get value in specified units
+svg to user space SimpleName MethodInvocation SimpleName svg
+svg to user space SimpleName MethodInvocation SimpleName d
+svg to user space SimpleName MethodInvocation SimpleName c
+len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName len
+len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value in specified units
+get unit type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName len
+get unit type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value in specified units
+len SimpleName MethodInvocation MethodInvocation SimpleName svg
+get unit type SimpleName MethodInvocation MethodInvocation SimpleName svg
+len SimpleName MethodInvocation MethodInvocation SimpleName d
+get unit type SimpleName MethodInvocation MethodInvocation SimpleName d
+len SimpleName MethodInvocation MethodInvocation SimpleName c
+get unit type SimpleName MethodInvocation MethodInvocation SimpleName c
+len SimpleName MethodInvocation MethodInvocation SimpleName svg
+get value in specified units SimpleName MethodInvocation MethodInvocation SimpleName svg
+len SimpleName MethodInvocation MethodInvocation SimpleName d
+get value in specified units SimpleName MethodInvocation MethodInvocation SimpleName d
+len SimpleName MethodInvocation MethodInvocation SimpleName c
+get value in specified units SimpleName MethodInvocation MethodInvocation SimpleName c
+svg SimpleName MethodInvocation SimpleName d
+svg SimpleName MethodInvocation SimpleName c
+d SimpleName MethodInvocation SimpleName c
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+w SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName len
+w SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get unit type
+w SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName len
+w SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value in specified units
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName d
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName d
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName c
+w SimpleName InfixExpression SimpleName v
+w SimpleName InfixExpression InfixExpression NumberLiteral empty
+v SimpleName InfixExpression InfixExpression NumberLiteral empty
+d SimpleName InfixExpression SimpleName vertical length
+svg SimpleName MethodInvocation SimpleName get height
+svg SimpleName MethodInvocation MethodInvocation SimpleName get base val
+get height SimpleName MethodInvocation MethodInvocation SimpleName get base val
+len SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName svg
+len SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get height
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get base val
+svg length SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+len SimpleName MethodInvocation SimpleName get unit type
+len SimpleName MethodInvocation SimpleName get value in specified units
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName len
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName get unit type
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName len
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName get value in specified units
+svg to user space SimpleName MethodInvocation SimpleName svg
+svg to user space SimpleName MethodInvocation SimpleName d
+svg to user space SimpleName MethodInvocation SimpleName c
+len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName len
+len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value in specified units
+get unit type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName len
+get unit type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value in specified units
+len SimpleName MethodInvocation MethodInvocation SimpleName svg
+get unit type SimpleName MethodInvocation MethodInvocation SimpleName svg
+len SimpleName MethodInvocation MethodInvocation SimpleName d
+get unit type SimpleName MethodInvocation MethodInvocation SimpleName d
+len SimpleName MethodInvocation MethodInvocation SimpleName c
+get unit type SimpleName MethodInvocation MethodInvocation SimpleName c
+len SimpleName MethodInvocation MethodInvocation SimpleName svg
+get value in specified units SimpleName MethodInvocation MethodInvocation SimpleName svg
+len SimpleName MethodInvocation MethodInvocation SimpleName d
+get value in specified units SimpleName MethodInvocation MethodInvocation SimpleName d
+len SimpleName MethodInvocation MethodInvocation SimpleName c
+get value in specified units SimpleName MethodInvocation MethodInvocation SimpleName c
+svg SimpleName MethodInvocation SimpleName d
+svg SimpleName MethodInvocation SimpleName c
+d SimpleName MethodInvocation SimpleName c
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName len
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get unit type
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName len
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value in specified units
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName d
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName d
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName c
+h SimpleName InfixExpression SimpleName v
+h SimpleName InfixExpression InfixExpression NumberLiteral empty
+v SimpleName InfixExpression InfixExpression NumberLiteral empty
+svg SimpleName MethodInvocation SimpleName get width
+svg SimpleName MethodInvocation MethodInvocation SimpleName get base val
+get width SimpleName MethodInvocation MethodInvocation SimpleName get base val
+len SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName svg
+len SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get width
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get base val
+svg length SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+len SimpleName MethodInvocation SimpleName get unit type
+len SimpleName MethodInvocation SimpleName get value in specified units
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName len
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName get unit type
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName len
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName get value in specified units
+svg to user space SimpleName MethodInvocation SimpleName svg
+svg to user space SimpleName MethodInvocation SimpleName horizontal length
+svg to user space SimpleName MethodInvocation SimpleName c
+len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName len
+len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value in specified units
+get unit type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName len
+get unit type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value in specified units
+len SimpleName MethodInvocation MethodInvocation SimpleName svg
+get unit type SimpleName MethodInvocation MethodInvocation SimpleName svg
+len SimpleName MethodInvocation MethodInvocation SimpleName horizontal length
+get unit type SimpleName MethodInvocation MethodInvocation SimpleName horizontal length
+len SimpleName MethodInvocation MethodInvocation SimpleName c
+get unit type SimpleName MethodInvocation MethodInvocation SimpleName c
+len SimpleName MethodInvocation MethodInvocation SimpleName svg
+get value in specified units SimpleName MethodInvocation MethodInvocation SimpleName svg
+len SimpleName MethodInvocation MethodInvocation SimpleName horizontal length
+get value in specified units SimpleName MethodInvocation MethodInvocation SimpleName horizontal length
+len SimpleName MethodInvocation MethodInvocation SimpleName c
+get value in specified units SimpleName MethodInvocation MethodInvocation SimpleName c
+svg SimpleName MethodInvocation SimpleName horizontal length
+svg SimpleName MethodInvocation SimpleName c
+horizontal length SimpleName MethodInvocation SimpleName c
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+w SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName len
+w SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get unit type
+w SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName len
+w SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value in specified units
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName horizontal length
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName horizontal length
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName c
+svg SimpleName MethodInvocation SimpleName get height
+svg SimpleName MethodInvocation MethodInvocation SimpleName get base val
+get height SimpleName MethodInvocation MethodInvocation SimpleName get base val
+len SimpleName Assignment MethodInvocation MethodInvocation SimpleName svg
+len SimpleName Assignment MethodInvocation MethodInvocation SimpleName get height
+len SimpleName Assignment MethodInvocation SimpleName get base val
+len SimpleName MethodInvocation SimpleName get unit type
+len SimpleName MethodInvocation SimpleName get value in specified units
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName len
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName get unit type
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName len
+svg to user space SimpleName MethodInvocation MethodInvocation SimpleName get value in specified units
+svg to user space SimpleName MethodInvocation SimpleName svg
+svg to user space SimpleName MethodInvocation SimpleName vertical length
+svg to user space SimpleName MethodInvocation SimpleName c
+len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName len
+len SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value in specified units
+get unit type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName len
+get unit type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value in specified units
+len SimpleName MethodInvocation MethodInvocation SimpleName svg
+get unit type SimpleName MethodInvocation MethodInvocation SimpleName svg
+len SimpleName MethodInvocation MethodInvocation SimpleName vertical length
+get unit type SimpleName MethodInvocation MethodInvocation SimpleName vertical length
+len SimpleName MethodInvocation MethodInvocation SimpleName c
+get unit type SimpleName MethodInvocation MethodInvocation SimpleName c
+len SimpleName MethodInvocation MethodInvocation SimpleName svg
+get value in specified units SimpleName MethodInvocation MethodInvocation SimpleName svg
+len SimpleName MethodInvocation MethodInvocation SimpleName vertical length
+get value in specified units SimpleName MethodInvocation MethodInvocation SimpleName vertical length
+len SimpleName MethodInvocation MethodInvocation SimpleName c
+get value in specified units SimpleName MethodInvocation MethodInvocation SimpleName c
+svg SimpleName MethodInvocation SimpleName vertical length
+svg SimpleName MethodInvocation SimpleName c
+vertical length SimpleName MethodInvocation SimpleName c
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName len
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get unit type
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName len
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get value in specified units
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName vertical length
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName vertical length
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName c
+w SimpleName InfixExpression SimpleName w
+h SimpleName InfixExpression SimpleName h
+w SimpleName InfixExpression InfixExpression InfixExpression SimpleName h
+w SimpleName InfixExpression InfixExpression InfixExpression SimpleName h
+w SimpleName InfixExpression InfixExpression InfixExpression SimpleName h
+w SimpleName InfixExpression InfixExpression InfixExpression SimpleName h
+math SimpleName MethodInvocation SimpleName sqrt
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName w
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName w
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName h
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName h
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName w
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName w
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName h
+sqrt SimpleName MethodInvocation InfixExpression InfixExpression SimpleName h
+math SimpleName MethodInvocation SimpleName sqrt
+math SimpleName MethodInvocation NumberLiteral empty
+sqrt SimpleName MethodInvocation NumberLiteral empty
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sqrt
+math SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+sqrt SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+sqrt SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName sqrt
+sqrt SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+vpp SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName math
+vpp SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName sqrt
+vpp SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName math
+vpp SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName sqrt
+vpp SimpleName VariableDeclarationFragment InfixExpression MethodInvocation NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName vpp
+vpp SimpleName InfixExpression SimpleName v
+vpp SimpleName InfixExpression InfixExpression NumberLiteral empty
+v SimpleName InfixExpression InfixExpression NumberLiteral empty
+float PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SimpleName percentages to pixels
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration PrimitiveType float
+static Modifier MethodDeclaration SimpleName percentages to pixels
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName d
+float PrimitiveType MethodDeclaration SimpleName percentages to pixels
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName d
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+percentages to pixels SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+percentages to pixels SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+percentages to pixels SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+percentages to pixels SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+percentages to pixels SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+percentages to pixels SimpleName MethodDeclaration SingleVariableDeclaration SimpleName d
+percentages to pixels SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+percentages to pixels SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+d SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName percentages to pixels
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName percentages to pixels
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

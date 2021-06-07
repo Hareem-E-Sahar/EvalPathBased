@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+xml version SimpleName MethodInvocation SimpleName equals
+xml version SimpleName MethodInvocation QualifiedName xml constantsxml version
+equals SimpleName MethodInvocation QualifiedName xml constantsxml version
+dom utilities SimpleName MethodInvocation SimpleName is valid name
+dom utilities SimpleName MethodInvocation SimpleName s
+is valid name SimpleName MethodInvocation SimpleName s
+dom utilities SimpleName MethodInvocation SimpleName is valid name
+dom utilities SimpleName MethodInvocation SimpleName s
+is valid name SimpleName MethodInvocation SimpleName s
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName check name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+boolean PrimitiveType MethodDeclaration SimpleName check name
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+check name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

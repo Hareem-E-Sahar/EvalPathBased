@@ -1,0 +1,6 @@
+composite SimpleName SimpleType MethodDeclaration SimpleName get composite
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName composite
+public Modifier TypeDeclaration MethodDeclaration SimpleName get composite
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName composite
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get composite

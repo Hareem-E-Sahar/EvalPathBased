@@ -1,0 +1,25 @@
+simple selector SimpleName SimpleType SingleVariableDeclaration SimpleName selector
+css exception SimpleName SimpleType ClassInstanceCreation StringLiteral not implemented in css
+public Modifier MethodDeclaration SimpleType SimpleName negative selector
+public Modifier MethodDeclaration SimpleName create negative selector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName simple selector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName selector
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+negative selector SimpleName SimpleType MethodDeclaration SimpleName create negative selector
+negative selector SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName selector
+negative selector SimpleName SimpleType MethodDeclaration SimpleType SimpleName css exception
+create negative selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName simple selector
+create negative selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName selector
+create negative selector SimpleName MethodDeclaration SimpleType SimpleName css exception
+selector SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName negative selector
+public Modifier TypeDeclaration MethodDeclaration SimpleName create negative selector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName negative selector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create negative selector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

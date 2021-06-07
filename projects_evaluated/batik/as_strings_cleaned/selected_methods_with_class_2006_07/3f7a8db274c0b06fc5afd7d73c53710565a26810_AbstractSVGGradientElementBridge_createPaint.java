@@ -1,0 +1,243 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName paint element
+element SimpleName SimpleType SingleVariableDeclaration SimpleName painted element
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName painted node
+float PrimitiveType SingleVariableDeclaration SimpleName opacity
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+extract stop SimpleName MethodInvocation SimpleName paint element
+extract stop SimpleName MethodInvocation SimpleName opacity
+extract stop SimpleName MethodInvocation SimpleName ctx
+paint element SimpleName MethodInvocation SimpleName opacity
+paint element SimpleName MethodInvocation SimpleName ctx
+opacity SimpleName MethodInvocation SimpleName ctx
+stops SimpleName VariableDeclarationFragment MethodInvocation SimpleName extract stop
+stops SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint element
+stops SimpleName VariableDeclarationFragment MethodInvocation SimpleName opacity
+stops SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stops
+stops SimpleName MethodInvocation SimpleName size
+stop length SimpleName VariableDeclarationFragment MethodInvocation SimpleName stops
+stop length SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName stop length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName stops
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+stop length SimpleName InfixExpression NumberLiteral empty
+stops SimpleName MethodInvocation SimpleName get
+stops SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+stop SimpleName SimpleType CastExpression MethodInvocation SimpleName stops
+stop SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+stop SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+float PrimitiveType ArrayType ArrayCreation SimpleName stop length
+offsets SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+offsets SimpleName VariableDeclarationFragment ArrayCreation SimpleName stop length
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName offsets
+color SimpleName SimpleType ArrayType ArrayCreation SimpleName stop length
+colors SimpleName VariableDeclarationFragment ArrayCreation SimpleName stop length
+stops SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName stops
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+stop SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+stop SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+stop SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName stop
+stop SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+stop SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+stop SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stop
+offsets SimpleName ArrayAccess SimpleName i
+offsets SimpleName ArrayAccess Assignment QualifiedName stopoffset
+i SimpleName ArrayAccess Assignment QualifiedName stopoffset
+colors SimpleName ArrayAccess SimpleName i
+colors SimpleName ArrayAccess Assignment QualifiedName stopcolor
+i SimpleName ArrayAccess Assignment QualifiedName stopcolor
+int PrimitiveType VariableDeclarationExpression ForStatement MethodInvocation SimpleName iter
+int PrimitiveType VariableDeclarationExpression ForStatement MethodInvocation SimpleName has next
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+iter SimpleName MethodInvocation ForStatement PrefixExpression SimpleName i
+has next SimpleName MethodInvocation ForStatement PrefixExpression SimpleName i
+spread method SimpleName VariableDeclarationFragment QualifiedName multiple gradient paintno cycle
+multiple gradient paintcycle method enum QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName spread method
+multiple gradient paintcycle method enum QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName multiple gradient paintno cycle
+svg utilities SimpleName MethodInvocation SimpleName get chainable attribute ns
+svg utilities SimpleName MethodInvocation SimpleName paint element
+svg utilities SimpleName MethodInvocation SimpleName svg spread method attribute
+svg utilities SimpleName MethodInvocation SimpleName ctx
+get chainable attribute ns SimpleName MethodInvocation SimpleName paint element
+get chainable attribute ns SimpleName MethodInvocation SimpleName svg spread method attribute
+get chainable attribute ns SimpleName MethodInvocation SimpleName ctx
+paint element SimpleName MethodInvocation SimpleName svg spread method attribute
+paint element SimpleName MethodInvocation SimpleName ctx
+svg spread method attribute SimpleName MethodInvocation SimpleName ctx
+s SimpleName Assignment MethodInvocation SimpleName svg utilities
+s SimpleName Assignment MethodInvocation SimpleName get chainable attribute ns
+s SimpleName Assignment MethodInvocation SimpleName paint element
+s SimpleName Assignment MethodInvocation SimpleName svg spread method attribute
+s SimpleName Assignment MethodInvocation SimpleName ctx
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+convert spread method SimpleName MethodInvocation SimpleName paint element
+convert spread method SimpleName MethodInvocation SimpleName s
+convert spread method SimpleName MethodInvocation SimpleName ctx
+paint element SimpleName MethodInvocation SimpleName s
+paint element SimpleName MethodInvocation SimpleName ctx
+s SimpleName MethodInvocation SimpleName ctx
+spread method SimpleName Assignment MethodInvocation SimpleName convert spread method
+spread method SimpleName Assignment MethodInvocation SimpleName paint element
+spread method SimpleName Assignment MethodInvocation SimpleName s
+spread method SimpleName Assignment MethodInvocation SimpleName ctx
+css utilities SimpleName MethodInvocation SimpleName convert color interpolation
+css utilities SimpleName MethodInvocation SimpleName paint element
+convert color interpolation SimpleName MethodInvocation SimpleName paint element
+color space SimpleName VariableDeclarationFragment MethodInvocation SimpleName css utilities
+color space SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert color interpolation
+color space SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint element
+multiple gradient paintcolor space enum QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName color space
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transform
+svg utilities SimpleName MethodInvocation SimpleName get chainable attribute ns
+svg utilities SimpleName MethodInvocation SimpleName paint element
+svg utilities SimpleName MethodInvocation SimpleName svg gradient transform attribute
+svg utilities SimpleName MethodInvocation SimpleName ctx
+get chainable attribute ns SimpleName MethodInvocation SimpleName paint element
+get chainable attribute ns SimpleName MethodInvocation SimpleName svg gradient transform attribute
+get chainable attribute ns SimpleName MethodInvocation SimpleName ctx
+paint element SimpleName MethodInvocation SimpleName svg gradient transform attribute
+paint element SimpleName MethodInvocation SimpleName ctx
+svg gradient transform attribute SimpleName MethodInvocation SimpleName ctx
+s SimpleName Assignment MethodInvocation SimpleName svg utilities
+s SimpleName Assignment MethodInvocation SimpleName get chainable attribute ns
+s SimpleName Assignment MethodInvocation SimpleName paint element
+s SimpleName Assignment MethodInvocation SimpleName svg gradient transform attribute
+s SimpleName Assignment MethodInvocation SimpleName ctx
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+svg utilities SimpleName MethodInvocation SimpleName convert transform
+svg utilities SimpleName MethodInvocation SimpleName paint element
+svg utilities SimpleName MethodInvocation SimpleName svg gradient transform attribute
+svg utilities SimpleName MethodInvocation SimpleName s
+svg utilities SimpleName MethodInvocation SimpleName ctx
+convert transform SimpleName MethodInvocation SimpleName paint element
+convert transform SimpleName MethodInvocation SimpleName svg gradient transform attribute
+convert transform SimpleName MethodInvocation SimpleName s
+convert transform SimpleName MethodInvocation SimpleName ctx
+paint element SimpleName MethodInvocation SimpleName svg gradient transform attribute
+paint element SimpleName MethodInvocation SimpleName s
+paint element SimpleName MethodInvocation SimpleName ctx
+svg gradient transform attribute SimpleName MethodInvocation SimpleName s
+svg gradient transform attribute SimpleName MethodInvocation SimpleName ctx
+s SimpleName MethodInvocation SimpleName ctx
+transform SimpleName Assignment MethodInvocation SimpleName svg utilities
+transform SimpleName Assignment MethodInvocation SimpleName convert transform
+transform SimpleName Assignment MethodInvocation SimpleName paint element
+transform SimpleName Assignment MethodInvocation SimpleName svg gradient transform attribute
+transform SimpleName Assignment MethodInvocation SimpleName s
+transform SimpleName Assignment MethodInvocation SimpleName ctx
+transform SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+build gradient SimpleName MethodInvocation SimpleName paint element
+build gradient SimpleName MethodInvocation SimpleName painted element
+build gradient SimpleName MethodInvocation SimpleName painted node
+build gradient SimpleName MethodInvocation SimpleName spread method
+build gradient SimpleName MethodInvocation SimpleName color space
+paint element SimpleName MethodInvocation SimpleName painted element
+paint element SimpleName MethodInvocation SimpleName painted node
+paint element SimpleName MethodInvocation SimpleName spread method
+paint element SimpleName MethodInvocation SimpleName color space
+paint element SimpleName MethodInvocation SimpleName transform
+painted element SimpleName MethodInvocation SimpleName painted node
+painted element SimpleName MethodInvocation SimpleName spread method
+painted element SimpleName MethodInvocation SimpleName color space
+painted element SimpleName MethodInvocation SimpleName transform
+painted element SimpleName MethodInvocation SimpleName colors
+painted node SimpleName MethodInvocation SimpleName spread method
+painted node SimpleName MethodInvocation SimpleName color space
+painted node SimpleName MethodInvocation SimpleName transform
+painted node SimpleName MethodInvocation SimpleName colors
+painted node SimpleName MethodInvocation SimpleName offsets
+spread method SimpleName MethodInvocation SimpleName color space
+spread method SimpleName MethodInvocation SimpleName transform
+spread method SimpleName MethodInvocation SimpleName colors
+spread method SimpleName MethodInvocation SimpleName offsets
+spread method SimpleName MethodInvocation SimpleName ctx
+color space SimpleName MethodInvocation SimpleName transform
+color space SimpleName MethodInvocation SimpleName colors
+color space SimpleName MethodInvocation SimpleName offsets
+color space SimpleName MethodInvocation SimpleName ctx
+transform SimpleName MethodInvocation SimpleName colors
+transform SimpleName MethodInvocation SimpleName offsets
+transform SimpleName MethodInvocation SimpleName ctx
+colors SimpleName MethodInvocation SimpleName offsets
+colors SimpleName MethodInvocation SimpleName ctx
+offsets SimpleName MethodInvocation SimpleName ctx
+paint SimpleName VariableDeclarationFragment MethodInvocation SimpleName build gradient
+paint SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint element
+paint SimpleName VariableDeclarationFragment MethodInvocation SimpleName painted element
+paint SimpleName VariableDeclarationFragment MethodInvocation SimpleName painted node
+paint SimpleName VariableDeclarationFragment MethodInvocation SimpleName spread method
+paint SimpleName VariableDeclarationFragment MethodInvocation SimpleName color space
+paint SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform
+paint SimpleName VariableDeclarationFragment MethodInvocation SimpleName colors
+paint SimpleName VariableDeclarationFragment MethodInvocation SimpleName offsets
+paint SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+paint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName paint
+public Modifier MethodDeclaration SimpleType SimpleName paint
+public Modifier MethodDeclaration SimpleName create paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName paint element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName painted element
+paint SimpleName SimpleType MethodDeclaration SimpleName create paint
+paint SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+paint SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName paint element
+paint SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName painted element
+paint SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName painted node
+create paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName paint element
+create paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName painted element
+create paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+create paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName painted node
+create paint SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+create paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName opacity
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paint element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted node
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opacity
+paint element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted element
+paint element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted node
+paint element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+paint element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opacity
+painted element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted node
+painted element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+painted element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opacity
+painted node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+painted node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opacity
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName paint
+public Modifier TypeDeclaration MethodDeclaration SimpleName create paint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paint element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opacity
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName paint
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create paint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paint element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName opacity

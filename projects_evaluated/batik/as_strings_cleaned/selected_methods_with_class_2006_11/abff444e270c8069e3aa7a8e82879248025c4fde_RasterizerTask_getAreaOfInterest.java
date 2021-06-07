@@ -1,0 +1,114 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName area
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName width
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName height
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName area
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral trf
+area SimpleName ClassInstanceCreation StringLiteral trf
+tokenizer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+tokenizer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName area
+tokenizer SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral trf
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tokenizer
+tokenizer SimpleName MethodInvocation SimpleName count tokens
+tokenizer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+count tokens SimpleName MethodInvocation InfixExpression NumberLiteral empty
+build exception SimpleName SimpleType ClassInstanceCreation StringLiteral there must be four numbers in the area parameter x y width and height
+tokenizer SimpleName MethodInvocation SimpleName next token
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+float SimpleName MethodInvocation MethodInvocation SimpleName next token
+parse float SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+parse float SimpleName MethodInvocation MethodInvocation SimpleName next token
+x SimpleName Assignment MethodInvocation SimpleName float
+x SimpleName Assignment MethodInvocation SimpleName parse float
+x SimpleName Assignment MethodInvocation MethodInvocation SimpleName tokenizer
+x SimpleName Assignment MethodInvocation MethodInvocation SimpleName next token
+tokenizer SimpleName MethodInvocation SimpleName next token
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+float SimpleName MethodInvocation MethodInvocation SimpleName next token
+parse float SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+parse float SimpleName MethodInvocation MethodInvocation SimpleName next token
+y SimpleName Assignment MethodInvocation SimpleName float
+y SimpleName Assignment MethodInvocation SimpleName parse float
+y SimpleName Assignment MethodInvocation MethodInvocation SimpleName tokenizer
+y SimpleName Assignment MethodInvocation MethodInvocation SimpleName next token
+tokenizer SimpleName MethodInvocation SimpleName next token
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+float SimpleName MethodInvocation MethodInvocation SimpleName next token
+parse float SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+parse float SimpleName MethodInvocation MethodInvocation SimpleName next token
+width SimpleName Assignment MethodInvocation SimpleName float
+width SimpleName Assignment MethodInvocation SimpleName parse float
+width SimpleName Assignment MethodInvocation MethodInvocation SimpleName tokenizer
+width SimpleName Assignment MethodInvocation MethodInvocation SimpleName next token
+tokenizer SimpleName MethodInvocation SimpleName next token
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+float SimpleName MethodInvocation MethodInvocation SimpleName next token
+parse float SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+parse float SimpleName MethodInvocation MethodInvocation SimpleName next token
+height SimpleName Assignment MethodInvocation SimpleName float
+height SimpleName Assignment MethodInvocation SimpleName parse float
+height SimpleName Assignment MethodInvocation MethodInvocation SimpleName tokenizer
+height SimpleName Assignment MethodInvocation MethodInvocation SimpleName next token
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName nfe
+nfe SimpleName MethodInvocation SimpleName to string
+invalid area parameter value StringLiteral InfixExpression MethodInvocation SimpleName nfe
+invalid area parameter value StringLiteral InfixExpression MethodInvocation SimpleName to string
+build exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid area parameter value
+x SimpleName InfixExpression NumberLiteral empty
+y SimpleName InfixExpression NumberLiteral empty
+width SimpleName InfixExpression NumberLiteral empty
+height SimpleName InfixExpression NumberLiteral empty
+build exception SimpleName SimpleType ClassInstanceCreation StringLiteral negative values are not allowed in area parameter
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName x
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName y
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName width
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName height
+x SimpleName ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName width
+x SimpleName ClassInstanceCreation SimpleName height
+y SimpleName ClassInstanceCreation SimpleName width
+y SimpleName ClassInstanceCreation SimpleName height
+width SimpleName ClassInstanceCreation SimpleName height
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration SimpleType SimpleName rectangle d
+protected Modifier MethodDeclaration SimpleName get area of interest
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName area
+protected Modifier MethodDeclaration SimpleType SimpleName build exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get area of interest
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName area
+rectangle d SimpleName SimpleType MethodDeclaration SimpleType SimpleName build exception
+get area of interest SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get area of interest SimpleName MethodDeclaration SingleVariableDeclaration SimpleName area
+get area of interest SimpleName MethodDeclaration SimpleType SimpleName build exception
+get area of interest SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get area of interest SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get area of interest SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get area of interest SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+area SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName build exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get area of interest
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName area
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName build exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get area of interest
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName area
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName build exception

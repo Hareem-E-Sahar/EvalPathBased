@@ -1,0 +1,16 @@
+set SimpleName MethodInvocation SimpleName remove
+set SimpleName MethodInvocation SimpleName mememto
+remove SimpleName MethodInvocation SimpleName mememto
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName cleared
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName set
+void PrimitiveType MethodDeclaration SimpleName cleared
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName set
+cleared SimpleName MethodDeclaration Block SynchronizedStatement SimpleName set
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName cleared
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName cleared

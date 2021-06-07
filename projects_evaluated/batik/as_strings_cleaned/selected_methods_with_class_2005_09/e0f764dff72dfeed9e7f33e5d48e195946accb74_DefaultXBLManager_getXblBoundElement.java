@@ -1,0 +1,30 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName InstanceofExpression SimpleType SimpleName xbl shadow tree element
+get xbl content element SimpleName MethodInvocation SimpleName n
+content SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xbl content element
+content SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+xblom content element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName content
+n SimpleName Assignment SimpleName content
+n SimpleName MethodInvocation SimpleName get parent node
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node
+get record SimpleName MethodInvocation SimpleName n
+get record SimpleName MethodInvocation FieldAccess SimpleName bound element
+n SimpleName MethodInvocation FieldAccess SimpleName bound element
+public Modifier MethodDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SimpleName get xbl bound element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+element SimpleName SimpleType MethodDeclaration SimpleName get xbl bound element
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get xbl bound element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get xbl bound element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get xbl bound element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get xbl bound element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

@@ -1,0 +1,45 @@
+svg number SimpleName SimpleType SingleVariableDeclaration SimpleName new item
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionno modification allowed err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptionno modification allowed err QualifiedName ClassInstanceCreation StringLiteral empty
+new item SimpleName MethodInvocation SimpleName get value
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName new item
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName new item
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+icc colors SimpleName Assignment ClassInstanceCreation SimpleType SimpleName array list
+color number SimpleName SimpleType ClassInstanceCreation SimpleName f
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName color number
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName f
+svg number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+icc colors SimpleName MethodInvocation SimpleName add
+icc colors SimpleName MethodInvocation SimpleName result
+add SimpleName MethodInvocation SimpleName result
+handler SimpleName MethodInvocation SimpleName colors initialized
+handler SimpleName MethodInvocation SimpleName f
+colors initialized SimpleName MethodInvocation SimpleName f
+float PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration SimpleType SimpleName svg number
+public Modifier MethodDeclaration SimpleName initialize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg number
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+svg number SimpleName SimpleType MethodDeclaration SimpleName initialize
+svg number SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new item
+svg number SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg number
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new item
+initialize SimpleName MethodDeclaration SimpleType SimpleName dom exception
+new item SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg number
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg number
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

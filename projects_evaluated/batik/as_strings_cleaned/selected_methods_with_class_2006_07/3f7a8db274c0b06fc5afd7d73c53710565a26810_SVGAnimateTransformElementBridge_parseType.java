@@ -1,0 +1,45 @@
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg type attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg type attribute
+type string SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+type string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+type string SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg type attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type string
+type string SimpleName MethodInvocation SimpleName equals
+type string SimpleName MethodInvocation StringLiteral translate
+equals SimpleName MethodInvocation StringLiteral translate
+type string SimpleName MethodInvocation SimpleName equals
+type string SimpleName MethodInvocation StringLiteral scale
+equals SimpleName MethodInvocation StringLiteral scale
+type string SimpleName MethodInvocation SimpleName equals
+type string SimpleName MethodInvocation StringLiteral rotate
+equals SimpleName MethodInvocation StringLiteral rotate
+type string SimpleName MethodInvocation SimpleName equals
+type string SimpleName MethodInvocation StringLiteral skew x
+equals SimpleName MethodInvocation StringLiteral skew x
+type string SimpleName MethodInvocation SimpleName equals
+type string SimpleName MethodInvocation StringLiteral skew y
+equals SimpleName MethodInvocation StringLiteral skew y
+svg type attribute SimpleName ArrayInitializer SimpleName type string
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName element
+bridge exception SimpleName SimpleType ClassInstanceCreation QualifiedName error constantserr attribute value malformed
+ctx SimpleName ClassInstanceCreation SimpleName element
+ctx SimpleName ClassInstanceCreation QualifiedName error constantserr attribute value malformed
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg type attribute
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName type string
+element SimpleName ClassInstanceCreation QualifiedName error constantserr attribute value malformed
+element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg type attribute
+element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName type string
+error constantserr attribute value malformed QualifiedName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg type attribute
+error constantserr attribute value malformed QualifiedName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName type string
+protected Modifier MethodDeclaration PrimitiveType short
+protected Modifier MethodDeclaration SimpleName parse type
+short PrimitiveType MethodDeclaration SimpleName parse type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse type
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse type

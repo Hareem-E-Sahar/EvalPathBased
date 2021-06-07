@@ -1,0 +1,30 @@
+dom implementation SimpleName SimpleType SingleVariableDeclaration SimpleName dom impl
+string SimpleName SimpleType SingleVariableDeclaration SimpleName parser classname
+sax document factory SimpleName SimpleType ClassInstanceCreation SimpleName dom impl
+sax document factory SimpleName SimpleType ClassInstanceCreation SimpleName parser classname
+dom impl SimpleName ClassInstanceCreation SimpleName parser classname
+protected Modifier MethodDeclaration SimpleType SimpleName document factory
+protected Modifier MethodDeclaration SimpleName create document factory
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom implementation
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName dom impl
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName parser classname
+document factory SimpleName SimpleType MethodDeclaration SimpleName create document factory
+document factory SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dom impl
+document factory SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName parser classname
+create document factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom implementation
+create document factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dom impl
+create document factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create document factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parser classname
+dom impl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parser classname
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName document factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName create document factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dom impl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parser classname
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName document factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create document factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dom impl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parser classname

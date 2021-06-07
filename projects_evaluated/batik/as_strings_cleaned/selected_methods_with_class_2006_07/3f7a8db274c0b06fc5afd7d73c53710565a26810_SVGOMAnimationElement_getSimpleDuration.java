@@ -1,0 +1,30 @@
+svg animation context SimpleName SimpleType CastExpression MethodInvocation SimpleName get svg context
+dur SimpleName VariableDeclarationFragment MethodInvocation SimpleName get simple duration
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dur
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get simple duration
+dur SimpleName InfixExpression QualifiedName timed elementindefinite
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot supported err
+create dom exception SimpleName MethodInvocation StringLiteral animationdurindefinite
+dom exceptionnot supported err QualifiedName MethodInvocation StringLiteral animationdurindefinite
+float PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName dur
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get simple duration
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block ReturnStatement SimpleName dur
+float PrimitiveType MethodDeclaration SimpleName get simple duration
+float PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType MethodDeclaration Block ReturnStatement SimpleName dur
+get simple duration SimpleName MethodDeclaration SimpleType SimpleName dom exception
+get simple duration SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get simple duration SimpleName MethodDeclaration Block ReturnStatement SimpleName dur
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get simple duration
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get simple duration
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

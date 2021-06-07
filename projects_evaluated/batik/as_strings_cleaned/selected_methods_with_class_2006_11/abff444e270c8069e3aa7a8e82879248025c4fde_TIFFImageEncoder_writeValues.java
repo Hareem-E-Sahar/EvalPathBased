@@ -1,0 +1,262 @@
+tiff field SimpleName SimpleType SingleVariableDeclaration SimpleName field
+field SimpleName MethodInvocation SimpleName get type
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName field
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get type
+field SimpleName MethodInvocation SimpleName get count
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName field
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get count
+field SimpleName MethodInvocation SimpleName get as bytes
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get as bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+bytes SimpleName ArrayAccess SimpleName i
+output SimpleName MethodInvocation SimpleName write
+output SimpleName MethodInvocation ArrayAccess SimpleName bytes
+output SimpleName MethodInvocation ArrayAccess SimpleName i
+write SimpleName MethodInvocation ArrayAccess SimpleName bytes
+write SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+field SimpleName MethodInvocation SimpleName get as chars
+chars SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+chars SimpleName VariableDeclarationFragment MethodInvocation SimpleName get as chars
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName chars
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+chars SimpleName ArrayAccess SimpleName i
+write unsigned short SimpleName MethodInvocation ArrayAccess SimpleName chars
+write unsigned short SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+field SimpleName MethodInvocation SimpleName get as shorts
+shorts SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+shorts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get as shorts
+short PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName shorts
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+shorts SimpleName ArrayAccess SimpleName i
+write unsigned short SimpleName MethodInvocation ArrayAccess SimpleName shorts
+write unsigned short SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+field SimpleName MethodInvocation SimpleName get as longs
+longs SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+longs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get as longs
+long PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName longs
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+longs SimpleName ArrayAccess SimpleName i
+write long SimpleName MethodInvocation ArrayAccess SimpleName longs
+write long SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+field SimpleName MethodInvocation SimpleName get as floats
+floats SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+floats SimpleName VariableDeclarationFragment MethodInvocation SimpleName get as floats
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName floats
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+floats SimpleName ArrayAccess SimpleName i
+float SimpleName MethodInvocation SimpleName float to int bits
+float SimpleName MethodInvocation ArrayAccess SimpleName floats
+float SimpleName MethodInvocation ArrayAccess SimpleName i
+float to int bits SimpleName MethodInvocation ArrayAccess SimpleName floats
+float to int bits SimpleName MethodInvocation ArrayAccess SimpleName i
+int bits SimpleName VariableDeclarationFragment MethodInvocation SimpleName float
+int bits SimpleName VariableDeclarationFragment MethodInvocation SimpleName float to int bits
+int bits SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName floats
+int bits SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName int bits
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName float
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName float to int bits
+write long SimpleName MethodInvocation SimpleName int bits
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+field SimpleName MethodInvocation SimpleName get as doubles
+doubles SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+doubles SimpleName VariableDeclarationFragment MethodInvocation SimpleName get as doubles
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName doubles
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+doubles SimpleName ArrayAccess SimpleName i
+double SimpleName MethodInvocation SimpleName double to long bits
+double SimpleName MethodInvocation ArrayAccess SimpleName doubles
+double SimpleName MethodInvocation ArrayAccess SimpleName i
+double to long bits SimpleName MethodInvocation ArrayAccess SimpleName doubles
+double to long bits SimpleName MethodInvocation ArrayAccess SimpleName i
+long bits SimpleName VariableDeclarationFragment MethodInvocation SimpleName double
+long bits SimpleName VariableDeclarationFragment MethodInvocation SimpleName double to long bits
+long bits SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName doubles
+long bits SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName i
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName long bits
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName double
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName double to long bits
+long bits SimpleName InfixExpression NumberLiteral empty
+write long SimpleName MethodInvocation InfixExpression SimpleName long bits
+write long SimpleName MethodInvocation InfixExpression NumberLiteral empty
+long bits SimpleName InfixExpression NumberLiteral xffffffff
+write long SimpleName MethodInvocation InfixExpression SimpleName long bits
+write long SimpleName MethodInvocation InfixExpression NumberLiteral xffffffff
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+field SimpleName MethodInvocation SimpleName get as rationals
+rationals SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+rationals SimpleName VariableDeclarationFragment MethodInvocation SimpleName get as rationals
+long PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName rationals
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+rationals SimpleName ArrayAccess SimpleName i
+rationals SimpleName ArrayAccess ArrayAccess NumberLiteral empty
+i SimpleName ArrayAccess ArrayAccess NumberLiteral empty
+write long SimpleName MethodInvocation ArrayAccess ArrayAccess SimpleName rationals
+write long SimpleName MethodInvocation ArrayAccess ArrayAccess SimpleName i
+write long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+rationals SimpleName ArrayAccess SimpleName i
+rationals SimpleName ArrayAccess ArrayAccess NumberLiteral empty
+i SimpleName ArrayAccess ArrayAccess NumberLiteral empty
+write long SimpleName MethodInvocation ArrayAccess ArrayAccess SimpleName rationals
+write long SimpleName MethodInvocation ArrayAccess ArrayAccess SimpleName i
+write long SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+field SimpleName MethodInvocation SimpleName get as string
+field SimpleName MethodInvocation SimpleName i
+get as string SimpleName MethodInvocation SimpleName i
+field SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get as string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+i SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+string bytes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName field
+string bytes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get as string
+string bytes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName i
+string bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName string bytes
+output SimpleName MethodInvocation SimpleName write
+output SimpleName MethodInvocation SimpleName string bytes
+write SimpleName MethodInvocation SimpleName string bytes
+string byteslength QualifiedName InfixExpression NumberLiteral empty
+string bytes SimpleName ArrayAccess InfixExpression QualifiedName string byteslength
+string bytes SimpleName ArrayAccess InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression NumberLiteral empty
+string bytes SimpleName ArrayAccess InfixExpression CastExpression PrimitiveType byte
+string bytes SimpleName ArrayAccess InfixExpression CastExpression NumberLiteral empty
+byte PrimitiveType CastExpression NumberLiteral empty
+output SimpleName MethodInvocation SimpleName write
+output SimpleName MethodInvocation CastExpression PrimitiveType byte
+output SimpleName MethodInvocation CastExpression NumberLiteral empty
+write SimpleName MethodInvocation CastExpression PrimitiveType byte
+write SimpleName MethodInvocation CastExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image encoder
+data type SimpleName SwitchStatement SwitchCase QualifiedName tiff fieldtiff byte
+data type SimpleName SwitchStatement SwitchCase QualifiedName tiff fieldtiff sbyte
+data type SimpleName SwitchStatement SwitchCase QualifiedName tiff fieldtiff undefined
+data type SimpleName SwitchStatement VariableDeclarationStatement ArrayType PrimitiveType byte
+data type SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes
+data type SimpleName SwitchStatement ForStatement VariableDeclarationExpression PrimitiveType int
+data type SimpleName SwitchStatement ForStatement InfixExpression SimpleName i
+data type SimpleName SwitchStatement ForStatement InfixExpression SimpleName count
+data type SimpleName SwitchStatement ForStatement PostfixExpression SimpleName i
+tiff fieldtiff byte QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff sbyte
+tiff fieldtiff byte QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff undefined
+tiff fieldtiff sbyte QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff undefined
+tiff fieldtiff sbyte QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff short
+tiff fieldtiff undefined QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff short
+tiff fieldtiff short QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff sshort
+tiff fieldtiff sshort QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff long
+tiff fieldtiff sshort QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff slong
+tiff fieldtiff long QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff slong
+tiff fieldtiff long QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff float
+tiff fieldtiff slong QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff float
+tiff fieldtiff float QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff double
+tiff fieldtiff double QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff rational
+tiff fieldtiff double QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff srational
+tiff fieldtiff rational QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff srational
+tiff fieldtiff rational QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff ascii
+tiff fieldtiff srational QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName tiff fieldtiff ascii
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName data type
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName data type
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName write values
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tiff field
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName field
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block SwitchStatement SimpleName data type
+void PrimitiveType MethodDeclaration SimpleName write values
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tiff field
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName field
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName data type
+write values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tiff field
+write values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field
+write values SimpleName MethodDeclaration SimpleType SimpleName io exception
+write values SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+write values SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+write values SimpleName MethodDeclaration Block SwitchStatement SimpleName data type
+field SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,86 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName an
+element SimpleName MethodInvocation SimpleName has attribute ns
+element SimpleName MethodInvocation SimpleName an
+has attribute ns SimpleName MethodInvocation SimpleName an
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName an
+get attribute ns SimpleName MethodInvocation SimpleName an
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName an
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+animation type SimpleName InfixExpression QualifiedName animation engineanim type css
+eng SimpleName MethodInvocation SimpleName parse animatable value
+eng SimpleName MethodInvocation SimpleName element
+eng SimpleName MethodInvocation SimpleName animation target
+eng SimpleName MethodInvocation SimpleName attribute namespace uri
+eng SimpleName MethodInvocation SimpleName attribute local name
+parse animatable value SimpleName MethodInvocation SimpleName element
+parse animatable value SimpleName MethodInvocation SimpleName animation target
+parse animatable value SimpleName MethodInvocation SimpleName attribute namespace uri
+parse animatable value SimpleName MethodInvocation SimpleName attribute local name
+parse animatable value SimpleName MethodInvocation InfixExpression SimpleName animation type
+parse animatable value SimpleName MethodInvocation InfixExpression QualifiedName animation engineanim type css
+element SimpleName MethodInvocation SimpleName animation target
+element SimpleName MethodInvocation SimpleName attribute namespace uri
+element SimpleName MethodInvocation SimpleName attribute local name
+element SimpleName MethodInvocation InfixExpression SimpleName animation type
+element SimpleName MethodInvocation InfixExpression QualifiedName animation engineanim type css
+element SimpleName MethodInvocation SimpleName s
+animation target SimpleName MethodInvocation SimpleName attribute namespace uri
+animation target SimpleName MethodInvocation SimpleName attribute local name
+animation target SimpleName MethodInvocation InfixExpression SimpleName animation type
+animation target SimpleName MethodInvocation InfixExpression QualifiedName animation engineanim type css
+animation target SimpleName MethodInvocation SimpleName s
+attribute namespace uri SimpleName MethodInvocation SimpleName attribute local name
+attribute namespace uri SimpleName MethodInvocation InfixExpression SimpleName animation type
+attribute namespace uri SimpleName MethodInvocation InfixExpression QualifiedName animation engineanim type css
+attribute namespace uri SimpleName MethodInvocation SimpleName s
+attribute local name SimpleName MethodInvocation InfixExpression SimpleName animation type
+attribute local name SimpleName MethodInvocation InfixExpression QualifiedName animation engineanim type css
+attribute local name SimpleName MethodInvocation SimpleName s
+animation type SimpleName InfixExpression MethodInvocation SimpleName s
+animation engineanim type css QualifiedName InfixExpression MethodInvocation SimpleName s
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName eng
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse animatable value
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName animation target
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute namespace uri
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute local name
+val SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName animation type
+val SimpleName VariableDeclarationFragment MethodInvocation InfixExpression QualifiedName animation engineanim type css
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+animatable value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+check value type SimpleName MethodInvocation SimpleName val
+an SimpleName ArrayInitializer SimpleName s
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName element
+bridge exception SimpleName SimpleType ClassInstanceCreation QualifiedName error constantserr attribute value malformed
+ctx SimpleName ClassInstanceCreation SimpleName element
+ctx SimpleName ClassInstanceCreation QualifiedName error constantserr attribute value malformed
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName an
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName s
+element SimpleName ClassInstanceCreation QualifiedName error constantserr attribute value malformed
+element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName an
+element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName s
+error constantserr attribute value malformed QualifiedName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName an
+error constantserr attribute value malformed QualifiedName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName s
+protected Modifier MethodDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SimpleName parse animatable value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName an
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName val
+animatable value SimpleName SimpleType MethodDeclaration SimpleName parse animatable value
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName an
+parse animatable value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse animatable value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName an
+parse animatable value SimpleName MethodDeclaration Block ReturnStatement SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse animatable value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName an
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse animatable value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName an

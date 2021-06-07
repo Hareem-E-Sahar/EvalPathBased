@@ -1,0 +1,26 @@
+timed element SimpleName SimpleType SingleVariableDeclaration SimpleName child
+public Modifier MethodDeclaration Modifier abstract
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get default begin
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName child
+abstract Modifier MethodDeclaration PrimitiveType float
+abstract Modifier MethodDeclaration SimpleName get default begin
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed element
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName child
+float PrimitiveType MethodDeclaration SimpleName get default begin
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed element
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName child
+get default begin SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed element
+get default begin SimpleName MethodDeclaration SingleVariableDeclaration SimpleName child
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default begin
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default begin
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child

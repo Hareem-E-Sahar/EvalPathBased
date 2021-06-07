@@ -1,0 +1,30 @@
+lexical unit SimpleName SimpleType SingleVariableDeclaration SimpleName lu
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get integer value
+lu SimpleName MethodInvocation SimpleName get float value
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac integer
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac integer
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac real
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac real
+lexical unitsac integer QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac real
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName lu
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName get lexical unit type
+protected Modifier MethodDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SimpleName get color value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName lu
+float PrimitiveType MethodDeclaration SimpleName get color value
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lu
+get color value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+get color value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lu
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get color value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get color value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu

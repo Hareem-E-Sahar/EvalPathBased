@@ -1,0 +1,28 @@
+int PrimitiveType SingleVariableDeclaration SimpleName col
+col SimpleName InfixExpression NumberLiteral empty
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral css values tablecolumn
+get string SimpleName MethodInvocation StringLiteral css values tablecolumn
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral css values tablecolumn
+get string SimpleName MethodInvocation StringLiteral css values tablecolumn
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get column name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName col
+string SimpleName SimpleType MethodDeclaration SimpleName get column name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName col
+get column name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get column name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName col
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get column name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get column name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col

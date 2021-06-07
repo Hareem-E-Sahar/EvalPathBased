@@ -1,0 +1,87 @@
+xblom template element SimpleName SimpleType SingleVariableDeclaration SimpleName template
+template SimpleName MethodInvocation SimpleName get owner document
+template SimpleName MethodInvocation MethodInvocation SimpleName create element ns
+get owner document SimpleName MethodInvocation MethodInvocation SimpleName create element ns
+template SimpleName MethodInvocation MethodInvocation SimpleName xbl namespace uri
+get owner document SimpleName MethodInvocation MethodInvocation SimpleName xbl namespace uri
+template SimpleName MethodInvocation MethodInvocation SimpleName xbl shadow tree tag
+get owner document SimpleName MethodInvocation MethodInvocation SimpleName xbl shadow tree tag
+create element ns SimpleName MethodInvocation SimpleName xbl namespace uri
+create element ns SimpleName MethodInvocation SimpleName xbl shadow tree tag
+xbl namespace uri SimpleName MethodInvocation SimpleName xbl shadow tree tag
+xblom shadow tree element SimpleName SimpleType CastExpression MethodInvocation SimpleName create element ns
+xblom shadow tree element SimpleName SimpleType CastExpression MethodInvocation SimpleName xbl namespace uri
+xblom shadow tree element SimpleName SimpleType CastExpression MethodInvocation SimpleName xbl shadow tree tag
+clone SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName xblom shadow tree element
+clone SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName create element ns
+clone SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName xbl namespace uri
+clone SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName xbl shadow tree tag
+xblom shadow tree element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clone
+template SimpleName MethodInvocation SimpleName get attributes
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName template
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attrs
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+attrs SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName attrs
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+attrs SimpleName MethodInvocation SimpleName item
+attrs SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName attrs
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+attr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName attr
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attrs
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName InstanceofExpression SimpleType SimpleName abstract attr ns
+clone SimpleName MethodInvocation SimpleName set attribute node ns
+clone SimpleName MethodInvocation SimpleName attr
+set attribute node ns SimpleName MethodInvocation SimpleName attr
+clone SimpleName MethodInvocation SimpleName set attribute node
+clone SimpleName MethodInvocation SimpleName attr
+set attribute node SimpleName MethodInvocation SimpleName attr
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+template SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName template
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName clone node
+n SimpleName MethodInvocation BooleanLiteral true
+clone node SimpleName MethodInvocation BooleanLiteral true
+clone SimpleName MethodInvocation SimpleName append child
+clone SimpleName MethodInvocation MethodInvocation SimpleName n
+clone SimpleName MethodInvocation MethodInvocation SimpleName clone node
+clone SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+append child SimpleName MethodInvocation MethodInvocation SimpleName n
+append child SimpleName MethodInvocation MethodInvocation SimpleName clone node
+append child SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+protected Modifier MethodDeclaration SimpleType SimpleName xblom shadow tree element
+protected Modifier MethodDeclaration SimpleName clone template
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom template element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName template
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName clone
+xblom shadow tree element SimpleName SimpleType MethodDeclaration SimpleName clone template
+xblom shadow tree element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName template
+clone template SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom template element
+clone template SimpleName MethodDeclaration SingleVariableDeclaration SimpleName template
+clone template SimpleName MethodDeclaration Block ReturnStatement SimpleName clone
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xblom shadow tree element
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone template
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName template
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xblom shadow tree element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone template
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName template

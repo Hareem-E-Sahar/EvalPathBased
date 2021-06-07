@@ -1,0 +1,33 @@
+calendar SimpleName SimpleType SingleVariableDeclaration SimpleName time
+wallclock timing specifier SimpleName SimpleType ClassInstanceCreation SimpleName owner
+wallclock timing specifier SimpleName SimpleType ClassInstanceCreation SimpleName is begin
+wallclock timing specifier SimpleName SimpleType ClassInstanceCreation SimpleName time
+owner SimpleName ClassInstanceCreation SimpleName is begin
+owner SimpleName ClassInstanceCreation SimpleName time
+is begin SimpleName ClassInstanceCreation SimpleName time
+ts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName wallclock timing specifier
+ts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName owner
+ts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName is begin
+ts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName time
+timing specifier SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+timing specifiers SimpleName MethodInvocation SimpleName add
+timing specifiers SimpleName MethodInvocation SimpleName ts
+add SimpleName MethodInvocation SimpleName ts
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName wallclock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName calendar
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName time
+void PrimitiveType MethodDeclaration SimpleName wallclock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName calendar
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName time
+wallclock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName calendar
+wallclock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName wallclock
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wallclock
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time

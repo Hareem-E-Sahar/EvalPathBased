@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local name
+get named item SimpleName MethodInvocation SimpleName local name
+named node hash map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+table ns SimpleName MethodInvocation SimpleName get
+table ns SimpleName MethodInvocation SimpleName namespace uri
+get SimpleName MethodInvocation SimpleName namespace uri
+named node hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName table ns
+named node hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+named node hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName namespace uri
+attr SimpleName Assignment CastExpression SimpleType SimpleName named node hash map
+attr SimpleName Assignment CastExpression MethodInvocation SimpleName table ns
+attr SimpleName Assignment CastExpression MethodInvocation SimpleName get
+attr SimpleName Assignment CastExpression MethodInvocation SimpleName namespace uri
+attr SimpleName MethodInvocation SimpleName get named item
+attr SimpleName MethodInvocation SimpleName local name
+get named item SimpleName MethodInvocation SimpleName local name
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName get named item ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local name
+node SimpleName SimpleType MethodDeclaration SimpleName get named item ns
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local name
+get named item ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get named item ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+get named item ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get named item ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local name
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get named item ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get named item ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name

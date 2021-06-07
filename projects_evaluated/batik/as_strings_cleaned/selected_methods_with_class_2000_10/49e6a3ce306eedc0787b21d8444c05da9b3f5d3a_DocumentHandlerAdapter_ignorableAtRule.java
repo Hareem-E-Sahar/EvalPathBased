@@ -1,0 +1,26 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName at rule
+css exception SimpleName SimpleType ClassInstanceCreation StringLiteral illegal css text
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName ignorable at rule
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName at rule
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+void PrimitiveType MethodDeclaration SimpleName ignorable at rule
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName at rule
+void PrimitiveType MethodDeclaration SimpleType SimpleName css exception
+ignorable at rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+ignorable at rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName at rule
+ignorable at rule SimpleName MethodDeclaration SimpleType SimpleName css exception
+at rule SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName ignorable at rule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName at rule
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ignorable at rule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName at rule
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

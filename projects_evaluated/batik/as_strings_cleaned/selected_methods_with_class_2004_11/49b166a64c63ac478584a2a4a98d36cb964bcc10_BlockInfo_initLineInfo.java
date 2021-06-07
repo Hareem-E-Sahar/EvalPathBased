@@ -1,0 +1,96 @@
+font render context SimpleName SimpleType SingleVariableDeclaration SimpleName frc
+font size SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName font size
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+font attrs SimpleName MethodInvocation SimpleName get
+font attrs SimpleName MethodInvocation QualifiedName text attributesize
+get SimpleName MethodInvocation QualifiedName text attributesize
+float SimpleName SimpleType CastExpression MethodInvocation SimpleName font attrs
+float SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+float SimpleName SimpleType CastExpression MethodInvocation QualifiedName text attributesize
+fs float SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName float
+fs float SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName font attrs
+fs float SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+fs float SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName text attributesize
+float SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs float
+fs float SimpleName MethodInvocation SimpleName float value
+font size SimpleName Assignment MethodInvocation SimpleName fs float
+font size SimpleName Assignment MethodInvocation SimpleName float value
+font family list SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName font family list
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+gvt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+gvt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+font family SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName gvt font family
+font family SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+font family SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+gvt font family SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font family
+font family SimpleName InstanceofExpression SimpleType SimpleName unresolved font family
+unresolved font family SimpleName SimpleType CastExpression SimpleName font family
+font family resolver SimpleName MethodInvocation SimpleName resolve
+font family resolver SimpleName MethodInvocation CastExpression SimpleType SimpleName unresolved font family
+font family resolver SimpleName MethodInvocation CastExpression SimpleName font family
+resolve SimpleName MethodInvocation CastExpression SimpleType SimpleName unresolved font family
+resolve SimpleName MethodInvocation CastExpression SimpleName font family
+font family SimpleName Assignment MethodInvocation SimpleName font family resolver
+font family SimpleName Assignment MethodInvocation SimpleName resolve
+font family SimpleName Assignment MethodInvocation CastExpression SimpleName font family
+font family SimpleName MethodInvocation SimpleName derive font
+font family SimpleName MethodInvocation SimpleName font size
+font family SimpleName MethodInvocation SimpleName font attrs
+derive font SimpleName MethodInvocation SimpleName font size
+derive font SimpleName MethodInvocation SimpleName font attrs
+font size SimpleName MethodInvocation SimpleName font attrs
+font SimpleName VariableDeclarationFragment MethodInvocation SimpleName font family
+font SimpleName VariableDeclarationFragment MethodInvocation SimpleName derive font
+font SimpleName VariableDeclarationFragment MethodInvocation SimpleName font size
+font SimpleName VariableDeclarationFragment MethodInvocation SimpleName font attrs
+gvt font SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font
+font SimpleName MethodInvocation SimpleName get line metrics
+font SimpleName MethodInvocation StringLiteral empty
+font SimpleName MethodInvocation SimpleName frc
+get line metrics SimpleName MethodInvocation StringLiteral empty
+get line metrics SimpleName MethodInvocation SimpleName frc
+empty StringLiteral MethodInvocation SimpleName frc
+lm SimpleName VariableDeclarationFragment MethodInvocation SimpleName font
+lm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get line metrics
+lm SimpleName VariableDeclarationFragment MethodInvocation StringLiteral empty
+lm SimpleName VariableDeclarationFragment MethodInvocation SimpleName frc
+gvt line metrics SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lm
+lm SimpleName MethodInvocation SimpleName get ascent
+ascent SimpleName FieldAccess Assignment MethodInvocation SimpleName lm
+ascent SimpleName FieldAccess Assignment MethodInvocation SimpleName get ascent
+lm SimpleName MethodInvocation SimpleName get descent
+descent SimpleName FieldAccess Assignment MethodInvocation SimpleName lm
+descent SimpleName FieldAccess Assignment MethodInvocation SimpleName get descent
+ascent SimpleName InfixExpression PrefixExpression NumberLiteral empty
+font size SimpleName InfixExpression NumberLiteral . f
+ascent SimpleName Assignment InfixExpression SimpleName font size
+ascent SimpleName Assignment InfixExpression NumberLiteral . f
+font size SimpleName InfixExpression NumberLiteral . f
+descent SimpleName Assignment InfixExpression SimpleName font size
+descent SimpleName Assignment InfixExpression NumberLiteral . f
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init line info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName font render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName frc
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration SimpleName init line info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName font render context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName frc
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+init line info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName font render context
+init line info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName frc
+init line info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init line info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName frc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init line info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName frc

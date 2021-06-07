@@ -1,0 +1,83 @@
+canvas SimpleName MethodInvocation SimpleName get svg document
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName canvas
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get svg document
+svg document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get root element
+el SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+el SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root element
+svgsvg element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName el
+el SimpleName MethodInvocation SimpleName get attribute ns
+el SimpleName MethodInvocation QualifiedName svg constantssvg view box attribute
+get attribute ns SimpleName MethodInvocation QualifiedName svg constantssvg view box attribute
+view box str SimpleName VariableDeclarationFragment MethodInvocation SimpleName el
+view box str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+view box str SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svg constantssvg view box attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName view box str
+view box str SimpleName MethodInvocation SimpleName length
+view box str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+view box SimpleName MethodInvocation SimpleName parse view box attribute
+view box SimpleName MethodInvocation SimpleName el
+view box SimpleName MethodInvocation SimpleName view box str
+parse view box attribute SimpleName MethodInvocation SimpleName el
+parse view box attribute SimpleName MethodInvocation SimpleName view box str
+el SimpleName MethodInvocation SimpleName view box str
+rect SimpleName VariableDeclarationFragment MethodInvocation SimpleName view box
+rect SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse view box attribute
+rect SimpleName VariableDeclarationFragment MethodInvocation SimpleName el
+rect SimpleName VariableDeclarationFragment MethodInvocation SimpleName view box str
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName rect
+rect SimpleName ArrayAccess NumberLiteral empty
+rect SimpleName ArrayAccess NumberLiteral empty
+rect SimpleName ArrayAccess NumberLiteral empty
+rect SimpleName ArrayAccess NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName rect
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName rect
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName rect
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation ArrayAccess SimpleName rect
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+rect SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rect
+rect SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rect
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+rect SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rect
+rect SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rect
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+rect SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rect
+rect SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rect
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+rect SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rect
+rect SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rect
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+rect SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rect
+rect SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rect
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+rect SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rect
+rect SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName rect
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+canvas SimpleName MethodInvocation SimpleName get graphics node
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName canvas
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graphics node
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn
+gn SimpleName MethodInvocation SimpleName get bounds
+gn SimpleName MethodInvocation MethodInvocation SimpleName clone
+get bounds SimpleName MethodInvocation MethodInvocation SimpleName clone
+rectangle d SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+protected Modifier MethodDeclaration SimpleType SimpleName rectangle d
+protected Modifier MethodDeclaration SimpleName get view box rect
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get view box rect
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get view box rect
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get view box rect

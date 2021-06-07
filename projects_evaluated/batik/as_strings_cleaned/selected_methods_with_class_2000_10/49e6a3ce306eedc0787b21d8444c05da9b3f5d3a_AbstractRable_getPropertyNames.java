@@ -1,0 +1,91 @@
+props SimpleName MethodInvocation SimpleName key set
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+keys SimpleName VariableDeclarationFragment MethodInvocation SimpleName key set
+set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName keys
+keys SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName keys
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+keys SimpleName MethodInvocation SimpleName size
+ret SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName keys
+ret SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+iter SimpleName MethodInvocation SimpleName has next
+ret SimpleName ArrayAccess PostfixExpression SimpleName i
+iter SimpleName MethodInvocation SimpleName next
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+srcs SimpleName MethodInvocation SimpleName iterator
+iter SimpleName Assignment MethodInvocation SimpleName srcs
+iter SimpleName Assignment MethodInvocation SimpleName iterator
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+renderable image SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+renderable image SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+ri SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName renderable image
+ri SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+ri SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+renderable image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ri
+ri SimpleName MethodInvocation SimpleName get property names
+src props SimpleName VariableDeclarationFragment MethodInvocation SimpleName ri
+src props SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property names
+src propslength QualifiedName InfixExpression NumberLiteral empty
+retlength QualifiedName InfixExpression QualifiedName src propslength
+tmp SimpleName VariableDeclarationFragment ArrayCreation InfixExpression QualifiedName retlength
+tmp SimpleName VariableDeclarationFragment ArrayCreation InfixExpression QualifiedName src propslength
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName tmp
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName tmp
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName tmp
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName tmp
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName retlength
+tmp SimpleName MethodInvocation NumberLiteral empty
+tmp SimpleName MethodInvocation SimpleName tmp
+tmp SimpleName MethodInvocation NumberLiteral empty
+tmp SimpleName MethodInvocation QualifiedName retlength
+empty NumberLiteral MethodInvocation SimpleName tmp
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName retlength
+tmp SimpleName MethodInvocation NumberLiteral empty
+tmp SimpleName MethodInvocation QualifiedName retlength
+empty NumberLiteral MethodInvocation QualifiedName retlength
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName tmp
+system SimpleName MethodInvocation QualifiedName retlength
+system SimpleName MethodInvocation SimpleName src props
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName tmp
+arraycopy SimpleName MethodInvocation QualifiedName retlength
+arraycopy SimpleName MethodInvocation SimpleName src props
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName src propslength
+tmp SimpleName MethodInvocation QualifiedName retlength
+tmp SimpleName MethodInvocation SimpleName src props
+tmp SimpleName MethodInvocation NumberLiteral empty
+tmp SimpleName MethodInvocation QualifiedName src propslength
+retlength QualifiedName MethodInvocation SimpleName src props
+retlength QualifiedName MethodInvocation NumberLiteral empty
+retlength QualifiedName MethodInvocation QualifiedName src propslength
+src props SimpleName MethodInvocation NumberLiteral empty
+src props SimpleName MethodInvocation QualifiedName src propslength
+empty NumberLiteral MethodInvocation QualifiedName src propslength
+ret SimpleName Assignment SimpleName tmp
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get property names
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get property names
+get property names SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get property names SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property names
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property names

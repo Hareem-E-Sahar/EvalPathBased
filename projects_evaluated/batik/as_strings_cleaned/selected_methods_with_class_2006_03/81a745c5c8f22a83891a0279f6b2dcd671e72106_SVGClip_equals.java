@@ -1,0 +1,24 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName clip key
+clip key SimpleName InstanceofExpression SimpleType SimpleName clip key
+clip key SimpleName SimpleType CastExpression SimpleName clip key
+clip key SimpleName CastExpression ParenthesizedExpression FieldAccess SimpleName hash code value
+hash code value SimpleName InfixExpression FieldAccess SimpleName hash code value
+clip key SimpleName InstanceofExpression InfixExpression InfixExpression SimpleName hash code value
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName clip key
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName clip key
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clip key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clip key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clip key

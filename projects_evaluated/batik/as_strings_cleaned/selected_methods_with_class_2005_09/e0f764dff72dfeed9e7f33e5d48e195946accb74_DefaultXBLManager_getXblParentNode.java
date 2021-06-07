@@ -1,0 +1,48 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+get xbl content element SimpleName MethodInvocation SimpleName n
+content element SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xbl content element
+content element SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName content element
+n SimpleName MethodInvocation SimpleName get parent node
+content element SimpleName MethodInvocation SimpleName get parent node
+content element SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName n
+content element SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get parent node
+content element SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName content element
+content element SimpleName InfixExpression ConditionalExpression MethodInvocation SimpleName get parent node
+n SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName content element
+n SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get parent node
+get parent node SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName content element
+get parent node SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get parent node
+parent SimpleName VariableDeclarationFragment ConditionalExpression InfixExpression SimpleName content element
+parent SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName n
+parent SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get parent node
+parent SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName content element
+parent SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent
+parent SimpleName InstanceofExpression SimpleType SimpleName xblom content element
+parent SimpleName MethodInvocation SimpleName get parent node
+parent SimpleName Assignment MethodInvocation SimpleName parent
+parent SimpleName Assignment MethodInvocation SimpleName get parent node
+parent SimpleName InstanceofExpression SimpleType SimpleName xblom shadow tree element
+get xbl bound element SimpleName MethodInvocation SimpleName parent
+parent SimpleName Assignment MethodInvocation SimpleName get xbl bound element
+parent SimpleName Assignment MethodInvocation SimpleName parent
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName get xbl parent node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration Block ReturnStatement SimpleName parent
+node SimpleName SimpleType MethodDeclaration SimpleName get xbl parent node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get xbl parent node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get xbl parent node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+get xbl parent node SimpleName MethodDeclaration Block ReturnStatement SimpleName parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get xbl parent node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get xbl parent node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

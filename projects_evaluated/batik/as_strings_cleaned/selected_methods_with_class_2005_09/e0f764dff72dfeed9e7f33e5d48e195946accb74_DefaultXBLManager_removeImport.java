@@ -1,0 +1,121 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName imp
+imports SimpleName MethodInvocation SimpleName get
+imports SimpleName MethodInvocation SimpleName imp
+get SimpleName MethodInvocation SimpleName imp
+import record SimpleName SimpleType CastExpression MethodInvocation SimpleName imports
+import record SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+import record SimpleName SimpleType CastExpression MethodInvocation SimpleName imp
+ir SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName import record
+ir SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName imports
+ir SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+ir SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName imp
+import record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ir
+node event target SimpleName SimpleType CastExpression QualifiedName irnode
+et SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node event target
+et SimpleName VariableDeclarationFragment CastExpression QualifiedName irnode
+node event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName et
+et SimpleName MethodInvocation SimpleName remove event listener ns
+et SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+et SimpleName MethodInvocation StringLiteral dom node inserted
+et SimpleName MethodInvocation QualifiedName irimport inserted listener
+et SimpleName MethodInvocation BooleanLiteral false
+remove event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+remove event listener ns SimpleName MethodInvocation StringLiteral dom node inserted
+remove event listener ns SimpleName MethodInvocation QualifiedName irimport inserted listener
+remove event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral dom node inserted
+xml constantsxml events namespace uri QualifiedName MethodInvocation QualifiedName irimport inserted listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+dom node inserted StringLiteral MethodInvocation QualifiedName irimport inserted listener
+dom node inserted StringLiteral MethodInvocation BooleanLiteral false
+irimport inserted listener QualifiedName MethodInvocation BooleanLiteral false
+et SimpleName MethodInvocation SimpleName remove event listener ns
+et SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+et SimpleName MethodInvocation StringLiteral dom node removed
+et SimpleName MethodInvocation QualifiedName irimport removed listener
+et SimpleName MethodInvocation BooleanLiteral false
+remove event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+remove event listener ns SimpleName MethodInvocation StringLiteral dom node removed
+remove event listener ns SimpleName MethodInvocation QualifiedName irimport removed listener
+remove event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral dom node removed
+xml constantsxml events namespace uri QualifiedName MethodInvocation QualifiedName irimport removed listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+dom node removed StringLiteral MethodInvocation QualifiedName irimport removed listener
+dom node removed StringLiteral MethodInvocation BooleanLiteral false
+irimport removed listener QualifiedName MethodInvocation BooleanLiteral false
+et SimpleName MethodInvocation SimpleName remove event listener ns
+et SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+et SimpleName MethodInvocation StringLiteral dom subtree modified
+et SimpleName MethodInvocation QualifiedName irimport subtree listener
+et SimpleName MethodInvocation BooleanLiteral false
+remove event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+remove event listener ns SimpleName MethodInvocation StringLiteral dom subtree modified
+remove event listener ns SimpleName MethodInvocation QualifiedName irimport subtree listener
+remove event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral dom subtree modified
+xml constantsxml events namespace uri QualifiedName MethodInvocation QualifiedName irimport subtree listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+dom subtree modified StringLiteral MethodInvocation QualifiedName irimport subtree listener
+dom subtree modified StringLiteral MethodInvocation BooleanLiteral false
+irimport subtree listener QualifiedName MethodInvocation BooleanLiteral false
+node event target SimpleName SimpleType CastExpression SimpleName imp
+et SimpleName Assignment CastExpression SimpleType SimpleName node event target
+et SimpleName Assignment CastExpression SimpleName imp
+et SimpleName MethodInvocation SimpleName remove event listener ns
+et SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+et SimpleName MethodInvocation StringLiteral dom attr modified
+et SimpleName MethodInvocation SimpleName import attr listener
+et SimpleName MethodInvocation BooleanLiteral false
+remove event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+remove event listener ns SimpleName MethodInvocation StringLiteral dom attr modified
+remove event listener ns SimpleName MethodInvocation SimpleName import attr listener
+remove event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral dom attr modified
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName import attr listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+dom attr modified StringLiteral MethodInvocation SimpleName import attr listener
+dom attr modified StringLiteral MethodInvocation BooleanLiteral false
+import attr listener SimpleName MethodInvocation BooleanLiteral false
+definitions SimpleName MethodInvocation SimpleName get values array
+def recs SimpleName VariableDeclarationFragment MethodInvocation SimpleName definitions
+def recs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get values array
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName def recslength
+def recs SimpleName ArrayAccess SimpleName i
+definition record SimpleName SimpleType CastExpression ArrayAccess SimpleName def recs
+definition record SimpleName SimpleType CastExpression ArrayAccess SimpleName i
+def rec SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName definition record
+def rec SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName def recs
+def rec SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName i
+definition record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName def rec
+def recimport element QualifiedName InfixExpression SimpleName imp
+remove definition SimpleName MethodInvocation SimpleName def rec
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName def recslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+def recslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+imports SimpleName MethodInvocation SimpleName remove
+imports SimpleName MethodInvocation SimpleName imp
+remove SimpleName MethodInvocation SimpleName imp
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName remove import
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName imp
+void PrimitiveType MethodDeclaration SimpleName remove import
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName imp
+remove import SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+remove import SimpleName MethodDeclaration SingleVariableDeclaration SimpleName imp
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove import
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove import
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp

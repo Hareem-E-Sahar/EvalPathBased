@@ -1,0 +1,22 @@
+property change listener SimpleName SimpleType SingleVariableDeclaration SimpleName l
+pcs SimpleName MethodInvocation SimpleName remove property change listener
+pcs SimpleName MethodInvocation SimpleName l
+remove property change listener SimpleName MethodInvocation SimpleName l
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove global property change listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName remove global property change listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+remove global property change listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change listener
+remove global property change listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove global property change listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove global property change listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

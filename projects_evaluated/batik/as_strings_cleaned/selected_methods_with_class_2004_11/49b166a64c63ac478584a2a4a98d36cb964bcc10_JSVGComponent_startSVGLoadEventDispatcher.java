@@ -1,0 +1,61 @@
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName root
+update manager SimpleName SimpleType ClassInstanceCreation SimpleName bridge context
+update manager SimpleName SimpleType ClassInstanceCreation SimpleName root
+update manager SimpleName SimpleType ClassInstanceCreation SimpleName svg document
+bridge context SimpleName ClassInstanceCreation SimpleName root
+bridge context SimpleName ClassInstanceCreation SimpleName svg document
+root SimpleName ClassInstanceCreation SimpleName svg document
+um SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName update manager
+um SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName bridge context
+um SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName root
+um SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName svg document
+update manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName um
+svg load event dispatcher SimpleName SimpleType ClassInstanceCreation SimpleName root
+svg load event dispatcher SimpleName SimpleType ClassInstanceCreation SimpleName svg document
+svg load event dispatcher SimpleName SimpleType ClassInstanceCreation SimpleName bridge context
+svg load event dispatcher SimpleName SimpleType ClassInstanceCreation SimpleName um
+root SimpleName ClassInstanceCreation SimpleName svg document
+root SimpleName ClassInstanceCreation SimpleName bridge context
+root SimpleName ClassInstanceCreation SimpleName um
+svg document SimpleName ClassInstanceCreation SimpleName bridge context
+svg document SimpleName ClassInstanceCreation SimpleName um
+bridge context SimpleName ClassInstanceCreation SimpleName um
+svg load event dispatcher SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svg load event dispatcher
+svg load event dispatcher SimpleName Assignment ClassInstanceCreation SimpleName root
+svg load event dispatcher SimpleName Assignment ClassInstanceCreation SimpleName svg document
+svg load event dispatcher SimpleName Assignment ClassInstanceCreation SimpleName bridge context
+svg load event dispatcher SimpleName Assignment ClassInstanceCreation SimpleName um
+svg load event dispatcher listeners SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg load event dispatcher listeners
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+svg load event dispatcher listener SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+svg load event dispatcher listener SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+svg load event dispatcher SimpleName MethodInvocation SimpleName add svg load event dispatcher listener
+svg load event dispatcher SimpleName MethodInvocation CastExpression SimpleType SimpleName svg load event dispatcher listener
+svg load event dispatcher SimpleName MethodInvocation CastExpression MethodInvocation SimpleName it
+svg load event dispatcher SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+add svg load event dispatcher listener SimpleName MethodInvocation CastExpression SimpleType SimpleName svg load event dispatcher listener
+add svg load event dispatcher listener SimpleName MethodInvocation CastExpression MethodInvocation SimpleName it
+add svg load event dispatcher listener SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+svg load event dispatcher SimpleName MethodInvocation SimpleName start
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName start svg load event dispatcher
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName root
+void PrimitiveType MethodDeclaration SimpleName start svg load event dispatcher
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName root
+start svg load event dispatcher SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+start svg load event dispatcher SimpleName MethodDeclaration SingleVariableDeclaration SimpleName root
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start svg load event dispatcher
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start svg load event dispatcher
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName root

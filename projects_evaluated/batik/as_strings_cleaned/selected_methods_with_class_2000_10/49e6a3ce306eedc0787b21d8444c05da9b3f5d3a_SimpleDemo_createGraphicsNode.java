@@ -1,0 +1,155 @@
+concrete gvt factory SimpleName MethodInvocation SimpleName get gvt factory implementation
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName concrete gvt factory
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get gvt factory implementation
+gvt factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName MethodInvocation SimpleName create canvas graphics node
+canvas SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+canvas SimpleName VariableDeclarationFragment MethodInvocation SimpleName create canvas graphics node
+canvas graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName canvas
+canvas SimpleName MethodInvocation SimpleName set background paint
+canvas SimpleName MethodInvocation QualifiedName colorwhite
+set background paint SimpleName MethodInvocation QualifiedName colorwhite
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shape
+shape node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shape node
+fill shape painter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fill painter
+stroke shape painter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stroke painter
+composite shape painter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shape painter
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+shape SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName rectangle dfloat
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+f SimpleName MethodInvocation SimpleName create stroke shape painter
+stroke painter SimpleName Assignment MethodInvocation SimpleName f
+stroke painter SimpleName Assignment MethodInvocation SimpleName create stroke shape painter
+basic stroke SimpleName SimpleType ClassInstanceCreation NumberLiteral f
+stroke painter SimpleName MethodInvocation SimpleName set stroke
+stroke painter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName basic stroke
+stroke painter SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+set stroke SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName basic stroke
+set stroke SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+stroke painter SimpleName MethodInvocation SimpleName set paint
+stroke painter SimpleName MethodInvocation QualifiedName colorblack
+set paint SimpleName MethodInvocation QualifiedName colorblack
+f SimpleName MethodInvocation SimpleName create fill shape painter
+fill painter SimpleName Assignment MethodInvocation SimpleName f
+fill painter SimpleName Assignment MethodInvocation SimpleName create fill shape painter
+fill painter SimpleName MethodInvocation SimpleName set paint
+fill painter SimpleName MethodInvocation QualifiedName colorblue
+set paint SimpleName MethodInvocation QualifiedName colorblue
+f SimpleName MethodInvocation SimpleName create composite shape painter
+shape painter SimpleName Assignment MethodInvocation SimpleName f
+shape painter SimpleName Assignment MethodInvocation SimpleName create composite shape painter
+shape painter SimpleName MethodInvocation SimpleName add shape painter
+shape painter SimpleName MethodInvocation SimpleName fill painter
+add shape painter SimpleName MethodInvocation SimpleName fill painter
+shape painter SimpleName MethodInvocation SimpleName add shape painter
+shape painter SimpleName MethodInvocation SimpleName stroke painter
+add shape painter SimpleName MethodInvocation SimpleName stroke painter
+f SimpleName MethodInvocation SimpleName create shape node
+shape node SimpleName Assignment MethodInvocation SimpleName f
+shape node SimpleName Assignment MethodInvocation SimpleName create shape node
+shape node SimpleName MethodInvocation SimpleName set shape
+shape node SimpleName MethodInvocation SimpleName shape
+set shape SimpleName MethodInvocation SimpleName shape
+shape node SimpleName MethodInvocation SimpleName set shape painter
+shape node SimpleName MethodInvocation SimpleName shape painter
+set shape painter SimpleName MethodInvocation SimpleName shape painter
+mathpi QualifiedName InfixExpression NumberLiteral empty
+affine transform SimpleName MethodInvocation SimpleName get rotate instance
+affine transform SimpleName MethodInvocation InfixExpression QualifiedName mathpi
+affine transform SimpleName MethodInvocation InfixExpression NumberLiteral empty
+affine transform SimpleName MethodInvocation NumberLiteral empty
+affine transform SimpleName MethodInvocation NumberLiteral empty
+get rotate instance SimpleName MethodInvocation InfixExpression QualifiedName mathpi
+get rotate instance SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get rotate instance SimpleName MethodInvocation NumberLiteral empty
+get rotate instance SimpleName MethodInvocation NumberLiteral empty
+mathpi QualifiedName InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+mathpi QualifiedName InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+shape node SimpleName MethodInvocation SimpleName set transform
+shape node SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+shape node SimpleName MethodInvocation MethodInvocation SimpleName get rotate instance
+shape node SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName mathpi
+shape node SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+shape node SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+shape node SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set transform SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+set transform SimpleName MethodInvocation MethodInvocation SimpleName get rotate instance
+set transform SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName mathpi
+set transform SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+set transform SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set transform SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+shape node SimpleName MethodInvocation SimpleName set rendering hint
+shape node SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+shape node SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+rendering hintskey antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue antialias on
+canvas SimpleName MethodInvocation SimpleName get children
+canvas SimpleName MethodInvocation MethodInvocation SimpleName add
+get children SimpleName MethodInvocation MethodInvocation SimpleName add
+canvas SimpleName MethodInvocation MethodInvocation SimpleName shape node
+get children SimpleName MethodInvocation MethodInvocation SimpleName shape node
+add SimpleName MethodInvocation SimpleName shape node
+ellipse dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+ellipse dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+ellipse dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+ellipse dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+shape SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName ellipse dfloat
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+f SimpleName MethodInvocation SimpleName create fill shape painter
+fill painter SimpleName Assignment MethodInvocation SimpleName f
+fill painter SimpleName Assignment MethodInvocation SimpleName create fill shape painter
+fill painter SimpleName MethodInvocation SimpleName set paint
+fill painter SimpleName MethodInvocation QualifiedName colorred
+set paint SimpleName MethodInvocation QualifiedName colorred
+f SimpleName MethodInvocation SimpleName create shape node
+shape node SimpleName Assignment MethodInvocation SimpleName f
+shape node SimpleName Assignment MethodInvocation SimpleName create shape node
+shape node SimpleName MethodInvocation SimpleName set shape
+shape node SimpleName MethodInvocation SimpleName shape
+set shape SimpleName MethodInvocation SimpleName shape
+shape node SimpleName MethodInvocation SimpleName set shape painter
+shape node SimpleName MethodInvocation SimpleName fill painter
+set shape painter SimpleName MethodInvocation SimpleName fill painter
+canvas SimpleName MethodInvocation SimpleName get children
+canvas SimpleName MethodInvocation MethodInvocation SimpleName add
+get children SimpleName MethodInvocation MethodInvocation SimpleName add
+canvas SimpleName MethodInvocation MethodInvocation SimpleName shape node
+get children SimpleName MethodInvocation MethodInvocation SimpleName shape node
+add SimpleName MethodInvocation SimpleName shape node
+public Modifier MethodDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SimpleName create graphics node
+public Modifier MethodDeclaration Block ReturnStatement SimpleName canvas
+graphics node SimpleName SimpleType MethodDeclaration SimpleName create graphics node
+create graphics node SimpleName MethodDeclaration Block ReturnStatement SimpleName canvas
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create graphics node
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create graphics node

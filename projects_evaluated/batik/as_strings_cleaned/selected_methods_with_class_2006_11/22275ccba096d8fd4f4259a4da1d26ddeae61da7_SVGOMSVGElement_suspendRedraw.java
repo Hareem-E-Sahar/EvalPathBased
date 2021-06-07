@@ -1,0 +1,32 @@
+int PrimitiveType SingleVariableDeclaration SimpleName max wait milliseconds
+max wait milliseconds SimpleName InfixExpression NumberLiteral empty
+max wait milliseconds SimpleName Assignment NumberLiteral empty
+max wait milliseconds SimpleName InfixExpression NumberLiteral empty
+max wait milliseconds SimpleName Assignment NumberLiteral empty
+svgsvg context SimpleName SimpleType CastExpression MethodInvocation SimpleName get svg context
+ctx SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgsvg context
+ctx SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get svg context
+svgsvg context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName suspend redraw
+ctx SimpleName MethodInvocation SimpleName max wait milliseconds
+suspend redraw SimpleName MethodInvocation SimpleName max wait milliseconds
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName suspend redraw
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max wait milliseconds
+int PrimitiveType MethodDeclaration SimpleName suspend redraw
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max wait milliseconds
+suspend redraw SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+suspend redraw SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max wait milliseconds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName suspend redraw
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait milliseconds
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName suspend redraw
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max wait milliseconds

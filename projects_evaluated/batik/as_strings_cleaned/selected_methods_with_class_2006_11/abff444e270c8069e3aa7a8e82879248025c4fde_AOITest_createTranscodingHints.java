@@ -1,0 +1,40 @@
+hash map SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+hints SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hash map
+hints SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hints
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName image transcoderkey aoi
+hints SimpleName MethodInvocation SimpleName aoi
+put SimpleName MethodInvocation QualifiedName image transcoderkey aoi
+put SimpleName MethodInvocation SimpleName aoi
+image transcoderkey aoi QualifiedName MethodInvocation SimpleName aoi
+img width SimpleName MethodInvocation SimpleName float value
+img width SimpleName MethodInvocation InfixExpression NumberLiteral empty
+float value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName image transcoderkey width
+hints SimpleName MethodInvocation SimpleName img width
+put SimpleName MethodInvocation QualifiedName image transcoderkey width
+put SimpleName MethodInvocation SimpleName img width
+image transcoderkey width QualifiedName MethodInvocation SimpleName img width
+img height SimpleName MethodInvocation SimpleName float value
+img height SimpleName MethodInvocation InfixExpression NumberLiteral empty
+float value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName image transcoderkey height
+hints SimpleName MethodInvocation SimpleName img height
+put SimpleName MethodInvocation QualifiedName image transcoderkey height
+put SimpleName MethodInvocation SimpleName img height
+image transcoderkey height QualifiedName MethodInvocation SimpleName img height
+protected Modifier MethodDeclaration SimpleType SimpleName map
+protected Modifier MethodDeclaration SimpleName create transcoding hints
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName hints
+map SimpleName SimpleType MethodDeclaration SimpleName create transcoding hints
+create transcoding hints SimpleName MethodDeclaration Block ReturnStatement SimpleName hints
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SimpleName create transcoding hints
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create transcoding hints

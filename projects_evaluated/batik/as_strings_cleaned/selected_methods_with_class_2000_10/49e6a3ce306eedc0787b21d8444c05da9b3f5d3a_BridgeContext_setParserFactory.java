@@ -1,0 +1,13 @@
+parser factory SimpleName SimpleType SingleVariableDeclaration SimpleName parser factory
+void PrimitiveType MethodDeclaration SimpleName set parser factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parser factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName parser factory
+set parser factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parser factory
+set parser factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parser factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set parser factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parser factory
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set parser factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parser factory

@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str
+x link support SimpleName MethodInvocation SimpleName set x link arc role
+x link support SimpleName MethodInvocation SimpleName str
+set x link arc role SimpleName MethodInvocation SimpleName str
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set xlink arc role
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+void PrimitiveType MethodDeclaration SimpleName set xlink arc role
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName str
+set xlink arc role SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set xlink arc role SimpleName MethodDeclaration SingleVariableDeclaration SimpleName str
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set xlink arc role
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set xlink arc role
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str

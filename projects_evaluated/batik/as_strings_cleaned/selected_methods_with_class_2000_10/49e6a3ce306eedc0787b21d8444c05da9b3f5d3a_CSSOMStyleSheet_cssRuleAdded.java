@@ -1,0 +1,27 @@
+css rule SimpleName SimpleType SingleVariableDeclaration SimpleName r
+r SimpleName MethodInvocation SimpleName get type
+cssom style rule SimpleName SimpleType CastExpression SimpleName r
+r SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName add css style rule change listener
+r SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css rulestyle rule
+get type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css rulestyle rule
+style sheet change support SimpleName MethodInvocation SimpleName fire css rule added
+style sheet change support SimpleName MethodInvocation SimpleName r
+fire css rule added SimpleName MethodInvocation SimpleName r
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName css rule added
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css rule
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+void PrimitiveType MethodDeclaration SimpleName css rule added
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css rule
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+css rule added SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css rule
+css rule added SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName css rule added
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName css rule added
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r

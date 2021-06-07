@@ -1,0 +1,39 @@
+result SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+length SimpleName InfixExpression NumberLiteral empty
+table SimpleName ArrayAccess NumberLiteral empty
+table SimpleName ArrayAccess MethodInvocation SimpleName get css text
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get css text
+result SimpleName Assignment MethodInvocation ArrayAccess SimpleName table
+result SimpleName Assignment MethodInvocation ArrayAccess NumberLiteral empty
+result SimpleName Assignment MethodInvocation SimpleName get css text
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName length
+table SimpleName ArrayAccess SimpleName i
+table SimpleName ArrayAccess MethodInvocation SimpleName get css text
+i SimpleName ArrayAccess MethodInvocation SimpleName get css text
+separator SimpleName InfixExpression MethodInvocation ArrayAccess SimpleName table
+separator SimpleName InfixExpression MethodInvocation ArrayAccess SimpleName i
+separator SimpleName InfixExpression MethodInvocation SimpleName get css text
+result SimpleName Assignment InfixExpression SimpleName separator
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName get css text
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName length
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+length SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get css text
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+string SimpleName SimpleType MethodDeclaration SimpleName get css text
+get css text SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get css text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get css text

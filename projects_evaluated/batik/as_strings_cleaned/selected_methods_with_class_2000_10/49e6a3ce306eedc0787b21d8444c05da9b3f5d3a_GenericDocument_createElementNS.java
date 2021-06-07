@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName qualified name
+qualified name SimpleName MethodInvocation SimpleName intern
+generic element SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName qualified name
+generic element SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName intern
+namespace uri SimpleName MethodInvocation SimpleName intern
+qualified name SimpleName MethodInvocation SimpleName intern
+generic element ns SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName namespace uri
+generic element ns SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName intern
+generic element ns SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName qualified name
+generic element ns SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName intern
+namespace uri SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName qualified name
+namespace uri SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName intern
+intern SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName qualified name
+intern SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName intern
+public Modifier MethodDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SimpleName create element ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+element SimpleName SimpleType MethodDeclaration SimpleName create element ns
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+element SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+create element ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create element ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+create element ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create element ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+create element ns SimpleName MethodDeclaration SimpleType SimpleName dom exception
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+qualified name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName create element ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create element ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

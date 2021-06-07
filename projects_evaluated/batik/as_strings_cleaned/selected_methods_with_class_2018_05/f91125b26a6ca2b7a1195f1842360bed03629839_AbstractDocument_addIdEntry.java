@@ -1,0 +1,146 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+tmp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hash map
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+id soft ref SimpleName SimpleType ClassInstanceCreation SimpleName e
+id soft ref SimpleName SimpleType ClassInstanceCreation SimpleName id
+e SimpleName ClassInstanceCreation SimpleName id
+tmp SimpleName MethodInvocation SimpleName put
+tmp SimpleName MethodInvocation SimpleName id
+tmp SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+tmp SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+tmp SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+put SimpleName MethodInvocation SimpleName id
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+id SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+id SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+id SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+elements by id SimpleName Assignment SimpleName tmp
+elements by id SimpleName MethodInvocation SimpleName get
+elements by id SimpleName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName elements by id
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+id soft ref SimpleName SimpleType ClassInstanceCreation SimpleName e
+id soft ref SimpleName SimpleType ClassInstanceCreation SimpleName id
+e SimpleName ClassInstanceCreation SimpleName id
+elements by id SimpleName MethodInvocation SimpleName put
+elements by id SimpleName MethodInvocation SimpleName id
+elements by id SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+elements by id SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+elements by id SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+put SimpleName MethodInvocation SimpleName id
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+id SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+id SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+id SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+o SimpleName InstanceofExpression SimpleType SimpleName id soft ref
+id soft ref SimpleName SimpleType CastExpression SimpleName o
+ip SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName id soft ref
+ip SimpleName VariableDeclarationFragment CastExpression SimpleName o
+id soft ref SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ip
+ip SimpleName MethodInvocation SimpleName get
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName ip
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+id soft ref SimpleName SimpleType ClassInstanceCreation SimpleName e
+id soft ref SimpleName SimpleType ClassInstanceCreation SimpleName id
+e SimpleName ClassInstanceCreation SimpleName id
+elements by id SimpleName MethodInvocation SimpleName put
+elements by id SimpleName MethodInvocation SimpleName id
+elements by id SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+elements by id SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+elements by id SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+put SimpleName MethodInvocation SimpleName id
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+id SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+id SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+id SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+array list SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+l SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+l SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+ip SimpleName MethodInvocation SimpleName set list
+ip SimpleName MethodInvocation SimpleName l
+set list SimpleName MethodInvocation SimpleName l
+l SimpleName MethodInvocation SimpleName add
+l SimpleName MethodInvocation SimpleName ip
+add SimpleName MethodInvocation SimpleName ip
+id soft ref SimpleName SimpleType ClassInstanceCreation SimpleName e
+id soft ref SimpleName SimpleType ClassInstanceCreation SimpleName id
+id soft ref SimpleName SimpleType ClassInstanceCreation SimpleName l
+e SimpleName ClassInstanceCreation SimpleName id
+e SimpleName ClassInstanceCreation SimpleName l
+id SimpleName ClassInstanceCreation SimpleName l
+l SimpleName MethodInvocation SimpleName add
+l SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+l SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+l SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+l SimpleName MethodInvocation ClassInstanceCreation SimpleName l
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName l
+elements by id SimpleName MethodInvocation SimpleName put
+elements by id SimpleName MethodInvocation SimpleName id
+elements by id SimpleName MethodInvocation SimpleName l
+put SimpleName MethodInvocation SimpleName id
+put SimpleName MethodInvocation SimpleName l
+id SimpleName MethodInvocation SimpleName l
+list SimpleName SimpleType CastExpression SimpleName o
+l SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+l SimpleName VariableDeclarationFragment CastExpression SimpleName o
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+id soft ref SimpleName SimpleType ClassInstanceCreation SimpleName e
+id soft ref SimpleName SimpleType ClassInstanceCreation SimpleName id
+id soft ref SimpleName SimpleType ClassInstanceCreation SimpleName l
+e SimpleName ClassInstanceCreation SimpleName id
+e SimpleName ClassInstanceCreation SimpleName l
+id SimpleName ClassInstanceCreation SimpleName l
+l SimpleName MethodInvocation SimpleName add
+l SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+l SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+l SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+l SimpleName MethodInvocation ClassInstanceCreation SimpleName l
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName id soft ref
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName id
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName l
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add id entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName elements by id
+void PrimitiveType MethodDeclaration SimpleName add id entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName elements by id
+add id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+add id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+add id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+add id entry SimpleName MethodDeclaration Block SynchronizedStatement SimpleName elements by id
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add id entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add id entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

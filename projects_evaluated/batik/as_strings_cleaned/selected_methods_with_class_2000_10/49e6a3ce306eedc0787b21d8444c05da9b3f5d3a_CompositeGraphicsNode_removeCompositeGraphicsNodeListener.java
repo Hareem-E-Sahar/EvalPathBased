@@ -1,0 +1,13 @@
+composite graphics node listener SimpleName SimpleType SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName remove composite graphics node listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+remove composite graphics node listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node listener
+remove composite graphics node listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove composite graphics node listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove composite graphics node listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

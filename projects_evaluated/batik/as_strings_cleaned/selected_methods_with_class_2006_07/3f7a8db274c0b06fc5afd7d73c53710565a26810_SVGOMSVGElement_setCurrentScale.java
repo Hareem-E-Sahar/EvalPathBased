@@ -1,0 +1,121 @@
+float PrimitiveType SingleVariableDeclaration SimpleName current scale
+context SimpleName VariableDeclarationFragment MethodInvocation SimpleName get svg context
+svg context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+context SimpleName MethodInvocation SimpleName get screen transform
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName get screen transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scrn trans
+scale SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName scale
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+scrn trans SimpleName MethodInvocation SimpleName get determinant
+math SimpleName MethodInvocation SimpleName sqrt
+math SimpleName MethodInvocation MethodInvocation SimpleName scrn trans
+math SimpleName MethodInvocation MethodInvocation SimpleName get determinant
+sqrt SimpleName MethodInvocation MethodInvocation SimpleName scrn trans
+sqrt SimpleName MethodInvocation MethodInvocation SimpleName get determinant
+float PrimitiveType CastExpression MethodInvocation SimpleName math
+float PrimitiveType CastExpression MethodInvocation SimpleName sqrt
+float PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName scrn trans
+float PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get determinant
+scale SimpleName Assignment CastExpression PrimitiveType float
+scale SimpleName Assignment CastExpression MethodInvocation SimpleName math
+scale SimpleName Assignment CastExpression MethodInvocation SimpleName sqrt
+current scale SimpleName InfixExpression SimpleName scale
+delta SimpleName VariableDeclarationFragment InfixExpression SimpleName current scale
+delta SimpleName VariableDeclarationFragment InfixExpression SimpleName scale
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName delta
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName current scale
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName scale
+scrn trans SimpleName MethodInvocation SimpleName get scale x
+scrn trans SimpleName MethodInvocation InfixExpression SimpleName delta
+get scale x SimpleName MethodInvocation InfixExpression SimpleName delta
+scrn trans SimpleName MethodInvocation SimpleName get shear y
+scrn trans SimpleName MethodInvocation InfixExpression SimpleName delta
+get shear y SimpleName MethodInvocation InfixExpression SimpleName delta
+scrn trans SimpleName MethodInvocation SimpleName get shear x
+scrn trans SimpleName MethodInvocation InfixExpression SimpleName delta
+get shear x SimpleName MethodInvocation InfixExpression SimpleName delta
+scrn trans SimpleName MethodInvocation SimpleName get scale y
+scrn trans SimpleName MethodInvocation InfixExpression SimpleName delta
+get scale y SimpleName MethodInvocation InfixExpression SimpleName delta
+scrn trans SimpleName MethodInvocation SimpleName get translate x
+scrn trans SimpleName MethodInvocation SimpleName get translate y
+affine transform SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName delta
+affine transform SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName delta
+affine transform SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName delta
+affine transform SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName delta
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName scrn trans
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get translate x
+delta SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName delta
+delta SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName delta
+delta SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName delta
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName scrn trans
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName get translate x
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName scrn trans
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName get translate y
+delta SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName delta
+delta SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName delta
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName scrn trans
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName get translate x
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName scrn trans
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName get translate y
+delta SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName delta
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName scrn trans
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName get translate x
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName scrn trans
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName get translate y
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName scrn trans
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName get translate x
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName scrn trans
+delta SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName get translate y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate y
+get translate x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get translate x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate y
+scrn trans SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+scrn trans SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName delta
+scrn trans SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName delta
+scrn trans SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName delta
+scrn trans SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName delta
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get translate x
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get translate y
+context SimpleName MethodInvocation SimpleName set screen transform
+context SimpleName MethodInvocation SimpleName scrn trans
+set screen transform SimpleName MethodInvocation SimpleName scrn trans
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set current scale
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName current scale
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration SimpleName set current scale
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName current scale
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+set current scale SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set current scale SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current scale
+set current scale SimpleName MethodDeclaration SimpleType SimpleName dom exception
+set current scale SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+set current scale SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+current scale SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set current scale
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current scale
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set current scale
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current scale
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

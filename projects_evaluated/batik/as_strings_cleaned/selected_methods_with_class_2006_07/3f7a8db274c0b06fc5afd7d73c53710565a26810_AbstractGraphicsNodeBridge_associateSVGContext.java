@@ -1,0 +1,58 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+e SimpleName FieldAccess Assignment SimpleName e
+node SimpleName FieldAccess Assignment SimpleName node
+ctx SimpleName FieldAccess Assignment SimpleName ctx
+unit processor SimpleName MethodInvocation SimpleName create context
+unit processor SimpleName MethodInvocation SimpleName ctx
+unit processor SimpleName MethodInvocation SimpleName e
+create context SimpleName MethodInvocation SimpleName ctx
+create context SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+unit context SimpleName FieldAccess Assignment MethodInvocation SimpleName unit processor
+unit context SimpleName FieldAccess Assignment MethodInvocation SimpleName create context
+unit context SimpleName FieldAccess Assignment MethodInvocation SimpleName ctx
+unit context SimpleName FieldAccess Assignment MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName is svg
+is svg SimpleName FieldAccess Assignment MethodInvocation SimpleName ctx
+is svg SimpleName FieldAccess Assignment MethodInvocation SimpleName is svg
+svgom element SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set svg context
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName associate svg context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleName associate svg context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+associate svg context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+associate svg context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+associate svg context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+associate svg context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+associate svg context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+associate svg context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName associate svg context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName associate svg context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

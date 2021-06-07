@@ -1,0 +1,118 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName public id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName system id
+dtd props SimpleName Assignment ClassInstanceCreation SimpleType SimpleName properties
+cls SimpleName VariableDeclarationFragment TypeLiteral SimpleType SimpleName saxsvg document factory
+class SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cls
+cls SimpleName MethodInvocation SimpleName get resource as stream
+cls SimpleName MethodInvocation StringLiteral resourcesdtdidsproperties
+get resource as stream SimpleName MethodInvocation StringLiteral resourcesdtdidsproperties
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName cls
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource as stream
+is SimpleName VariableDeclarationFragment MethodInvocation StringLiteral resourcesdtdidsproperties
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+dtd props SimpleName MethodInvocation SimpleName load
+dtd props SimpleName MethodInvocation SimpleName is
+load SimpleName MethodInvocation SimpleName is
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+sax exception SimpleName SimpleType ClassInstanceCreation SimpleName ioe
+dtd props SimpleName MethodInvocation SimpleName get property
+dtd props SimpleName MethodInvocation SimpleName key public ids
+get property SimpleName MethodInvocation SimpleName key public ids
+dtdids SimpleName Assignment MethodInvocation SimpleName dtd props
+dtdids SimpleName Assignment MethodInvocation SimpleName get property
+dtdids SimpleName Assignment MethodInvocation SimpleName key public ids
+dtd props SimpleName MethodInvocation SimpleName get property
+dtd props SimpleName MethodInvocation SimpleName key skippable public ids
+get property SimpleName MethodInvocation SimpleName key skippable public ids
+skippable dtdids SimpleName Assignment MethodInvocation SimpleName dtd props
+skippable dtdids SimpleName Assignment MethodInvocation SimpleName get property
+skippable dtdids SimpleName Assignment MethodInvocation SimpleName key skippable public ids
+dtd props SimpleName MethodInvocation SimpleName get property
+dtd props SimpleName MethodInvocation SimpleName key skip dtd
+get property SimpleName MethodInvocation SimpleName key skip dtd
+skip dtd SimpleName Assignment MethodInvocation SimpleName dtd props
+skip dtd SimpleName Assignment MethodInvocation SimpleName get property
+skip dtd SimpleName Assignment MethodInvocation SimpleName key skip dtd
+skippable dtdids SimpleName MethodInvocation SimpleName index of
+skippable dtdids SimpleName MethodInvocation SimpleName public id
+index of SimpleName MethodInvocation SimpleName public id
+skippable dtdids SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+index of SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+public id SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+string reader SimpleName SimpleType ClassInstanceCreation SimpleName skip dtd
+input source SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName skip dtd
+dtdids SimpleName MethodInvocation SimpleName index of
+dtdids SimpleName MethodInvocation SimpleName public id
+index of SimpleName MethodInvocation SimpleName public id
+dtdids SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+index of SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+public id SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+public id SimpleName MethodInvocation SimpleName replace
+public id SimpleName MethodInvocation CharacterLiteral empty
+public id SimpleName MethodInvocation CharacterLiteral empty
+replace SimpleName MethodInvocation CharacterLiteral empty
+replace SimpleName MethodInvocation CharacterLiteral empty
+empty CharacterLiteral MethodInvocation CharacterLiteral empty
+key system id SimpleName InfixExpression MethodInvocation SimpleName public id
+key system id SimpleName InfixExpression MethodInvocation SimpleName replace
+key system id SimpleName InfixExpression MethodInvocation CharacterLiteral empty
+key system id SimpleName InfixExpression MethodInvocation CharacterLiteral empty
+dtd props SimpleName MethodInvocation SimpleName get property
+dtd props SimpleName MethodInvocation InfixExpression SimpleName key system id
+dtd props SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName public id
+dtd props SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName replace
+dtd props SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral empty
+dtd props SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral empty
+get property SimpleName MethodInvocation InfixExpression SimpleName key system id
+get property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName public id
+get property SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName replace
+get property SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral empty
+get property SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral empty
+local system id SimpleName VariableDeclarationFragment MethodInvocation SimpleName dtd props
+local system id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+local system id SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName key system id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local system id
+empty StringLiteral MethodInvocation SimpleName equals
+empty StringLiteral MethodInvocation SimpleName local system id
+equals SimpleName MethodInvocation SimpleName local system id
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class SimpleName MethodInvocation MethodInvocation SimpleName local system id
+get resource SimpleName MethodInvocation SimpleName local system id
+get class SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get resource SimpleName MethodInvocation MethodInvocation SimpleName to string
+local system id SimpleName MethodInvocation MethodInvocation SimpleName to string
+input source SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+missing resource exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+sax exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName input source
+public Modifier MethodDeclaration SimpleName resolve entity
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName public id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName system id
+public Modifier MethodDeclaration SimpleType SimpleName sax exception
+input source SimpleName SimpleType MethodDeclaration SimpleName resolve entity
+input source SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName public id
+input source SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName system id
+input source SimpleName SimpleType MethodDeclaration SimpleType SimpleName sax exception
+resolve entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName public id
+resolve entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve entity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName system id
+resolve entity SimpleName MethodDeclaration SimpleType SimpleName sax exception
+public id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+public id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+system id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName input source
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve entity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName public id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName input source
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve entity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName public id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

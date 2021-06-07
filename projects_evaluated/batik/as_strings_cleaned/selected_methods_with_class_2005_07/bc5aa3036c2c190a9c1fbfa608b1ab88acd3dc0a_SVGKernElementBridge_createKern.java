@@ -1,0 +1,477 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName kern element
+svggvt font SimpleName SimpleType SingleVariableDeclaration SimpleName font
+kern element SimpleName MethodInvocation SimpleName get attribute ns
+kern element SimpleName MethodInvocation SimpleName svg u attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg u attribute
+u SimpleName VariableDeclarationFragment MethodInvocation SimpleName kern element
+u SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+u SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg u attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName u
+kern element SimpleName MethodInvocation SimpleName get attribute ns
+kern element SimpleName MethodInvocation SimpleName svg u attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg u attribute
+u SimpleName VariableDeclarationFragment MethodInvocation SimpleName kern element
+u SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+u SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg u attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName u
+kern element SimpleName MethodInvocation SimpleName get attribute ns
+kern element SimpleName MethodInvocation SimpleName svg g attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg g attribute
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName kern element
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg g attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+kern element SimpleName MethodInvocation SimpleName get attribute ns
+kern element SimpleName MethodInvocation SimpleName svg g attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg g attribute
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName kern element
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg g attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+kern element SimpleName MethodInvocation SimpleName get attribute ns
+kern element SimpleName MethodInvocation SimpleName svg k attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg k attribute
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName kern element
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+k SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg k attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+k SimpleName MethodInvocation SimpleName length
+k SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+k SimpleName Assignment SimpleName svg kern k default value
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation SimpleName k
+parse float SimpleName MethodInvocation SimpleName k
+kern value SimpleName VariableDeclarationFragment MethodInvocation SimpleName float
+kern value SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse float
+kern value SimpleName VariableDeclarationFragment MethodInvocation SimpleName k
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName kern value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName k
+first glyph len SimpleName VariableDeclarationFragment NumberLiteral empty
+second glyph len SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first glyph len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName second glyph len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+first glyph len SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName second glyph len
+first glyph len SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName second glyph len
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName first glyph set
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName second glyph set
+first unicode ranges SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName first unicode ranges
+second unicode ranges SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName second unicode ranges
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName u
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+u SimpleName ClassInstanceCreation StringLiteral empty
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName u
+st SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+st SimpleName MethodInvocation SimpleName has more tokens
+st SimpleName MethodInvocation SimpleName next token
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName next token
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+token SimpleName MethodInvocation SimpleName starts with
+token SimpleName MethodInvocation StringLiteral u
+starts with SimpleName MethodInvocation StringLiteral u
+unicode range SimpleName SimpleType ClassInstanceCreation SimpleName token
+first unicode ranges SimpleName MethodInvocation SimpleName add
+first unicode ranges SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName unicode range
+first unicode ranges SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName unicode range
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+font SimpleName MethodInvocation SimpleName get glyph codes for unicode
+font SimpleName MethodInvocation SimpleName token
+get glyph codes for unicode SimpleName MethodInvocation SimpleName token
+glyph codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName font
+glyph codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph codes for unicode
+glyph codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName token
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph codes
+first glyph set SimpleName Assignment SimpleName glyph codes
+first glyph len SimpleName Assignment QualifiedName glyph codeslength
+first glyph len SimpleName InfixExpression QualifiedName glyph codeslength
+first glyph len SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName first glyph setlength
+glyph codeslength QualifiedName InfixExpression ParenthesizedExpression InfixExpression QualifiedName first glyph setlength
+first glyph setlength QualifiedName InfixExpression NumberLiteral empty
+sz SimpleName VariableDeclarationFragment InfixExpression QualifiedName first glyph setlength
+sz SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sz
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName first glyph setlength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+first glyph len SimpleName InfixExpression QualifiedName glyph codeslength
+sz SimpleName InfixExpression InfixExpression SimpleName first glyph len
+sz SimpleName InfixExpression InfixExpression QualifiedName glyph codeslength
+first glyph len SimpleName InfixExpression QualifiedName glyph codeslength
+sz SimpleName Assignment InfixExpression SimpleName first glyph len
+sz SimpleName Assignment InfixExpression QualifiedName glyph codeslength
+int PrimitiveType ArrayType ArrayCreation SimpleName sz
+tmp SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+tmp SimpleName VariableDeclarationFragment ArrayCreation SimpleName sz
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName first glyph len
+tmp SimpleName ArrayAccess SimpleName i
+first glyph set SimpleName ArrayAccess SimpleName i
+tmp SimpleName ArrayAccess Assignment ArrayAccess SimpleName first glyph set
+tmp SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName first glyph set
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName first glyph len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+first glyph len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+first glyph set SimpleName Assignment SimpleName tmp
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName glyph codeslength
+first glyph set SimpleName ArrayAccess PostfixExpression SimpleName first glyph len
+glyph codes SimpleName ArrayAccess SimpleName i
+first glyph set SimpleName ArrayAccess Assignment ArrayAccess SimpleName glyph codes
+first glyph set SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName glyph codeslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+glyph codeslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName u
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+u SimpleName ClassInstanceCreation StringLiteral empty
+st SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName Assignment ClassInstanceCreation SimpleName u
+st SimpleName Assignment ClassInstanceCreation StringLiteral empty
+st SimpleName MethodInvocation SimpleName has more tokens
+st SimpleName MethodInvocation SimpleName next token
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName next token
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+token SimpleName MethodInvocation SimpleName starts with
+token SimpleName MethodInvocation StringLiteral u
+starts with SimpleName MethodInvocation StringLiteral u
+unicode range SimpleName SimpleType ClassInstanceCreation SimpleName token
+second unicode ranges SimpleName MethodInvocation SimpleName add
+second unicode ranges SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName unicode range
+second unicode ranges SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName unicode range
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName token
+font SimpleName MethodInvocation SimpleName get glyph codes for unicode
+font SimpleName MethodInvocation SimpleName token
+get glyph codes for unicode SimpleName MethodInvocation SimpleName token
+glyph codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName font
+glyph codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph codes for unicode
+glyph codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName token
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph codes
+second glyph set SimpleName Assignment SimpleName glyph codes
+second glyph len SimpleName Assignment QualifiedName glyph codeslength
+second glyph len SimpleName InfixExpression QualifiedName glyph codeslength
+second glyph len SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName second glyph setlength
+glyph codeslength QualifiedName InfixExpression ParenthesizedExpression InfixExpression QualifiedName second glyph setlength
+second glyph setlength QualifiedName InfixExpression NumberLiteral empty
+sz SimpleName VariableDeclarationFragment InfixExpression QualifiedName second glyph setlength
+sz SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sz
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName second glyph setlength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+second glyph len SimpleName InfixExpression QualifiedName glyph codeslength
+sz SimpleName InfixExpression InfixExpression SimpleName second glyph len
+sz SimpleName InfixExpression InfixExpression QualifiedName glyph codeslength
+second glyph len SimpleName InfixExpression QualifiedName glyph codeslength
+sz SimpleName Assignment InfixExpression SimpleName second glyph len
+sz SimpleName Assignment InfixExpression QualifiedName glyph codeslength
+int PrimitiveType ArrayType ArrayCreation SimpleName sz
+tmp SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+tmp SimpleName VariableDeclarationFragment ArrayCreation SimpleName sz
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName second glyph len
+tmp SimpleName ArrayAccess SimpleName i
+second glyph set SimpleName ArrayAccess SimpleName i
+tmp SimpleName ArrayAccess Assignment ArrayAccess SimpleName second glyph set
+tmp SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName second glyph set
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName second glyph len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+second glyph len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+second glyph set SimpleName Assignment SimpleName tmp
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName glyph codeslength
+second glyph set SimpleName ArrayAccess PostfixExpression SimpleName second glyph len
+glyph codes SimpleName ArrayAccess SimpleName i
+second glyph set SimpleName ArrayAccess Assignment ArrayAccess SimpleName glyph codes
+second glyph set SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName glyph codeslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+glyph codeslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName g
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+g SimpleName ClassInstanceCreation StringLiteral empty
+st SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName Assignment ClassInstanceCreation SimpleName g
+st SimpleName Assignment ClassInstanceCreation StringLiteral empty
+st SimpleName MethodInvocation SimpleName has more tokens
+st SimpleName MethodInvocation SimpleName next token
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName next token
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+font SimpleName MethodInvocation SimpleName get glyph codes for name
+font SimpleName MethodInvocation SimpleName token
+get glyph codes for name SimpleName MethodInvocation SimpleName token
+glyph codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName font
+glyph codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph codes for name
+glyph codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName token
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph codes
+first glyph set SimpleName Assignment SimpleName glyph codes
+first glyph len SimpleName Assignment QualifiedName glyph codeslength
+first glyph len SimpleName InfixExpression QualifiedName glyph codeslength
+first glyph len SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName first glyph setlength
+glyph codeslength QualifiedName InfixExpression ParenthesizedExpression InfixExpression QualifiedName first glyph setlength
+first glyph setlength QualifiedName InfixExpression NumberLiteral empty
+sz SimpleName VariableDeclarationFragment InfixExpression QualifiedName first glyph setlength
+sz SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sz
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName first glyph setlength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+first glyph len SimpleName InfixExpression QualifiedName glyph codeslength
+sz SimpleName InfixExpression InfixExpression SimpleName first glyph len
+sz SimpleName InfixExpression InfixExpression QualifiedName glyph codeslength
+first glyph len SimpleName InfixExpression QualifiedName glyph codeslength
+sz SimpleName Assignment InfixExpression SimpleName first glyph len
+sz SimpleName Assignment InfixExpression QualifiedName glyph codeslength
+int PrimitiveType ArrayType ArrayCreation SimpleName sz
+tmp SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+tmp SimpleName VariableDeclarationFragment ArrayCreation SimpleName sz
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName first glyph len
+tmp SimpleName ArrayAccess SimpleName i
+first glyph set SimpleName ArrayAccess SimpleName i
+tmp SimpleName ArrayAccess Assignment ArrayAccess SimpleName first glyph set
+tmp SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName first glyph set
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName first glyph len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+first glyph len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+first glyph set SimpleName Assignment SimpleName tmp
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName glyph codeslength
+first glyph set SimpleName ArrayAccess PostfixExpression SimpleName first glyph len
+glyph codes SimpleName ArrayAccess SimpleName i
+first glyph set SimpleName ArrayAccess Assignment ArrayAccess SimpleName glyph codes
+first glyph set SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName glyph codeslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+glyph codeslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName g
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+g SimpleName ClassInstanceCreation StringLiteral empty
+st SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName Assignment ClassInstanceCreation SimpleName g
+st SimpleName Assignment ClassInstanceCreation StringLiteral empty
+st SimpleName MethodInvocation SimpleName has more tokens
+st SimpleName MethodInvocation SimpleName next token
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName next token
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+font SimpleName MethodInvocation SimpleName get glyph codes for name
+font SimpleName MethodInvocation SimpleName token
+get glyph codes for name SimpleName MethodInvocation SimpleName token
+glyph codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName font
+glyph codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph codes for name
+glyph codes SimpleName VariableDeclarationFragment MethodInvocation SimpleName token
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph codes
+second glyph set SimpleName Assignment SimpleName glyph codes
+second glyph len SimpleName Assignment QualifiedName glyph codeslength
+second glyph len SimpleName InfixExpression QualifiedName glyph codeslength
+second glyph len SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName second glyph setlength
+glyph codeslength QualifiedName InfixExpression ParenthesizedExpression InfixExpression QualifiedName second glyph setlength
+second glyph setlength QualifiedName InfixExpression NumberLiteral empty
+sz SimpleName VariableDeclarationFragment InfixExpression QualifiedName second glyph setlength
+sz SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sz
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName second glyph setlength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+second glyph len SimpleName InfixExpression QualifiedName glyph codeslength
+sz SimpleName InfixExpression InfixExpression SimpleName second glyph len
+sz SimpleName InfixExpression InfixExpression QualifiedName glyph codeslength
+second glyph len SimpleName InfixExpression QualifiedName glyph codeslength
+sz SimpleName Assignment InfixExpression SimpleName second glyph len
+sz SimpleName Assignment InfixExpression QualifiedName glyph codeslength
+int PrimitiveType ArrayType ArrayCreation SimpleName sz
+tmp SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+tmp SimpleName VariableDeclarationFragment ArrayCreation SimpleName sz
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName second glyph len
+tmp SimpleName ArrayAccess SimpleName i
+second glyph set SimpleName ArrayAccess SimpleName i
+tmp SimpleName ArrayAccess Assignment ArrayAccess SimpleName second glyph set
+tmp SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName second glyph set
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName second glyph len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+second glyph len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+second glyph set SimpleName Assignment SimpleName tmp
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName glyph codeslength
+second glyph set SimpleName ArrayAccess PostfixExpression SimpleName second glyph len
+glyph codes SimpleName ArrayAccess SimpleName i
+second glyph set SimpleName ArrayAccess Assignment ArrayAccess SimpleName glyph codes
+second glyph set SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName glyph codeslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+glyph codeslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName first glyphs
+first glyph len SimpleName InfixExpression NumberLiteral empty
+first glyph len SimpleName InfixExpression QualifiedName first glyph setlength
+first glyphs SimpleName Assignment SimpleName first glyph set
+int PrimitiveType ArrayType ArrayCreation SimpleName first glyph len
+first glyphs SimpleName Assignment ArrayCreation ArrayType PrimitiveType int
+first glyphs SimpleName Assignment ArrayCreation SimpleName first glyph len
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName first glyph set
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName first glyphs
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName first glyph set
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName first glyphs
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName first glyph len
+first glyph set SimpleName MethodInvocation NumberLiteral empty
+first glyph set SimpleName MethodInvocation SimpleName first glyphs
+first glyph set SimpleName MethodInvocation NumberLiteral empty
+first glyph set SimpleName MethodInvocation SimpleName first glyph len
+empty NumberLiteral MethodInvocation SimpleName first glyphs
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName first glyph len
+first glyphs SimpleName MethodInvocation NumberLiteral empty
+first glyphs SimpleName MethodInvocation SimpleName first glyph len
+empty NumberLiteral MethodInvocation SimpleName first glyph len
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName second glyphs
+second glyph len SimpleName InfixExpression NumberLiteral empty
+second glyph len SimpleName InfixExpression QualifiedName second glyph setlength
+second glyphs SimpleName Assignment SimpleName second glyph set
+int PrimitiveType ArrayType ArrayCreation SimpleName second glyph len
+second glyphs SimpleName Assignment ArrayCreation ArrayType PrimitiveType int
+second glyphs SimpleName Assignment ArrayCreation SimpleName second glyph len
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName second glyph set
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName second glyphs
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName second glyph set
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName second glyphs
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName second glyph len
+second glyph set SimpleName MethodInvocation NumberLiteral empty
+second glyph set SimpleName MethodInvocation SimpleName second glyphs
+second glyph set SimpleName MethodInvocation NumberLiteral empty
+second glyph set SimpleName MethodInvocation SimpleName second glyph len
+empty NumberLiteral MethodInvocation SimpleName second glyphs
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName second glyph len
+second glyphs SimpleName MethodInvocation NumberLiteral empty
+second glyphs SimpleName MethodInvocation SimpleName second glyph len
+empty NumberLiteral MethodInvocation SimpleName second glyph len
+first unicode ranges SimpleName MethodInvocation SimpleName size
+first ranges SimpleName Assignment ArrayCreation MethodInvocation SimpleName first unicode ranges
+first ranges SimpleName Assignment ArrayCreation MethodInvocation SimpleName size
+first unicode ranges SimpleName MethodInvocation SimpleName to array
+first unicode ranges SimpleName MethodInvocation SimpleName first ranges
+to array SimpleName MethodInvocation SimpleName first ranges
+second unicode ranges SimpleName MethodInvocation SimpleName size
+second ranges SimpleName Assignment ArrayCreation MethodInvocation SimpleName second unicode ranges
+second ranges SimpleName Assignment ArrayCreation MethodInvocation SimpleName size
+second unicode ranges SimpleName MethodInvocation SimpleName to array
+second unicode ranges SimpleName MethodInvocation SimpleName second ranges
+to array SimpleName MethodInvocation SimpleName second ranges
+kern SimpleName SimpleType ClassInstanceCreation SimpleName first glyphs
+kern SimpleName SimpleType ClassInstanceCreation SimpleName second glyphs
+kern SimpleName SimpleType ClassInstanceCreation SimpleName first ranges
+kern SimpleName SimpleType ClassInstanceCreation SimpleName second ranges
+kern SimpleName SimpleType ClassInstanceCreation SimpleName kern value
+first glyphs SimpleName ClassInstanceCreation SimpleName second glyphs
+first glyphs SimpleName ClassInstanceCreation SimpleName first ranges
+first glyphs SimpleName ClassInstanceCreation SimpleName second ranges
+first glyphs SimpleName ClassInstanceCreation SimpleName kern value
+second glyphs SimpleName ClassInstanceCreation SimpleName first ranges
+second glyphs SimpleName ClassInstanceCreation SimpleName second ranges
+second glyphs SimpleName ClassInstanceCreation SimpleName kern value
+first ranges SimpleName ClassInstanceCreation SimpleName second ranges
+first ranges SimpleName ClassInstanceCreation SimpleName kern value
+second ranges SimpleName ClassInstanceCreation SimpleName kern value
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration SimpleType SimpleName kern
+public Modifier MethodDeclaration SimpleName create kern
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName kern element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svggvt font
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName font
+kern SimpleName SimpleType MethodDeclaration SimpleName create kern
+kern SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+kern SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName kern element
+kern SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName font
+create kern SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create kern SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create kern SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create kern SimpleName MethodDeclaration SingleVariableDeclaration SimpleName kern element
+create kern SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svggvt font
+create kern SimpleName MethodDeclaration SingleVariableDeclaration SimpleName font
+create kern SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+create kern SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kern element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font
+kern element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName kern
+public Modifier TypeDeclaration MethodDeclaration SimpleName create kern
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kern element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName kern
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create kern
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kern element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font

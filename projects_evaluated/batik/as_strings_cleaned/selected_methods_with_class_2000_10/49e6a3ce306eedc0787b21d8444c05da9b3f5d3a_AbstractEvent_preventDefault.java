@@ -1,0 +1,16 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName state
+prevent default SimpleName FieldAccess Assignment SimpleName state
+void PrimitiveType MethodDeclaration SimpleName prevent default
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+prevent default SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+prevent default SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName prevent default
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName prevent default
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

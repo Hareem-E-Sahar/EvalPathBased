@@ -1,0 +1,26 @@
+blank characters SimpleName Assignment NumberLiteral empty
+position SimpleName InfixExpression NumberLiteral empty
+start SimpleName Assignment InfixExpression SimpleName position
+start SimpleName Assignment InfixExpression NumberLiteral empty
+previous type SimpleName Assignment SimpleName type
+position SimpleName InfixExpression MethodInvocation SimpleName end gap
+end SimpleName Assignment InfixExpression SimpleName position
+end SimpleName Assignment InfixExpression MethodInvocation SimpleName end gap
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName next
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName type
+int PrimitiveType MethodDeclaration SimpleName next
+int PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName type
+next SimpleName MethodDeclaration SimpleType SimpleName parse exception
+next SimpleName MethodDeclaration Block ReturnStatement SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

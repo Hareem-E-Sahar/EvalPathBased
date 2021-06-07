@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+get default SimpleName MethodInvocation SimpleName key
+url SimpleName SimpleType CastExpression MethodInvocation SimpleName get default
+url SimpleName SimpleType CastExpression MethodInvocation SimpleName key
+default value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName url
+default value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get default
+default value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName key
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default value
+internal SimpleName MethodInvocation SimpleName get property
+internal SimpleName MethodInvocation SimpleName key
+get property SimpleName MethodInvocation SimpleName key
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName internal
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sp
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+url SimpleName SimpleType ClassInstanceCreation SimpleName sp
+url SimpleName Assignment ClassInstanceCreation SimpleType SimpleName url
+url SimpleName Assignment ClassInstanceCreation SimpleName sp
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+internal SimpleName MethodInvocation SimpleName remove
+internal SimpleName MethodInvocation SimpleName key
+remove SimpleName MethodInvocation SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName url
+public Modifier MethodDeclaration SimpleName get url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration Block ReturnStatement SimpleName url
+url SimpleName SimpleType MethodDeclaration SimpleName get url
+url SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+get url SimpleName MethodDeclaration Block ReturnStatement SimpleName url
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName url
+public Modifier TypeDeclaration MethodDeclaration SimpleName get url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName url
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

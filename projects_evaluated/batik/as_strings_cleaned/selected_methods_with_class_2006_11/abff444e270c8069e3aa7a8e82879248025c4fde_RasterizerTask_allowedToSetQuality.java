@@ -1,0 +1,28 @@
+destination type SimpleName SimpleType SingleVariableDeclaration SimpleName type
+type SimpleName MethodInvocation SimpleName to string
+type SimpleName MethodInvocation MethodInvocation SimpleName equals
+to string SimpleName MethodInvocation MethodInvocation SimpleName equals
+type SimpleName MethodInvocation MethodInvocation QualifiedName destination typejpeg str
+to string SimpleName MethodInvocation MethodInvocation QualifiedName destination typejpeg str
+equals SimpleName MethodInvocation QualifiedName destination typejpeg str
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName allowed to set quality
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName destination type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName allowed to set quality
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName destination type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+allowed to set quality SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName destination type
+allowed to set quality SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+allowed to set quality SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName allowed to set quality
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName allowed to set quality
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

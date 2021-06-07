@@ -1,0 +1,35 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName context factory
+debugger methods SimpleName ArrayAccess SimpleName attach to method
+debugger methods SimpleName ArrayAccess MethodInvocation SimpleName invoke
+attach to method SimpleName ArrayAccess MethodInvocation SimpleName invoke
+debugger methods SimpleName ArrayAccess MethodInvocation SimpleName debugger instance
+attach to method SimpleName ArrayAccess MethodInvocation SimpleName debugger instance
+invoke SimpleName MethodInvocation SimpleName debugger instance
+invoke SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName context factory
+debugger instance SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName context factory
+invocation target exception SimpleName SimpleType SingleVariableDeclaration SimpleName ite
+ite SimpleName MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ite
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+illegal access exception SimpleName SimpleType SingleVariableDeclaration SimpleName iae
+iae SimpleName MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName iae
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName attach to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName context factory
+void PrimitiveType MethodDeclaration SimpleName attach to
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName context factory
+attach to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+attach to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName context factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName attach to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName attach to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName context factory

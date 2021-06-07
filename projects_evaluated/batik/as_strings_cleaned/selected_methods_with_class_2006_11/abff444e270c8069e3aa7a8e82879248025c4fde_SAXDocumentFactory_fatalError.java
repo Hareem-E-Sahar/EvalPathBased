@@ -1,0 +1,28 @@
+sax parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName fatal error
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sax parse exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ex
+public Modifier MethodDeclaration SimpleType SimpleName sax exception
+public Modifier MethodDeclaration Block ThrowStatement SimpleName ex
+void PrimitiveType MethodDeclaration SimpleName fatal error
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sax parse exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ex
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax exception
+void PrimitiveType MethodDeclaration Block ThrowStatement SimpleName ex
+fatal error SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sax parse exception
+fatal error SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ex
+fatal error SimpleName MethodDeclaration SimpleType SimpleName sax exception
+fatal error SimpleName MethodDeclaration Block ThrowStatement SimpleName ex
+ex SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fatal error
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fatal error
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

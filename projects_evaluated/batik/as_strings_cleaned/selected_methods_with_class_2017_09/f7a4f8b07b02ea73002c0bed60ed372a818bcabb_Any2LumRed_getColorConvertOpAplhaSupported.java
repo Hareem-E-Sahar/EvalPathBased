@@ -1,0 +1,113 @@
+size SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+buffered image SimpleName SimpleType ClassInstanceCreation SimpleName size
+buffered image SimpleName SimpleType ClassInstanceCreation SimpleName size
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName buffered imagetype int argb
+size SimpleName ClassInstanceCreation SimpleName size
+size SimpleName ClassInstanceCreation QualifiedName buffered imagetype int argb
+size SimpleName ClassInstanceCreation QualifiedName buffered imagetype int argb
+src image SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered image
+src image SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName size
+src image SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName size
+src image SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName buffered imagetype int argb
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src image
+src image SimpleName MethodInvocation SimpleName create graphics
+src graphics SimpleName VariableDeclarationFragment MethodInvocation SimpleName src image
+src graphics SimpleName VariableDeclarationFragment MethodInvocation SimpleName create graphics
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src graphics
+src graphics SimpleName MethodInvocation SimpleName set color
+src graphics SimpleName MethodInvocation QualifiedName colorred
+set color SimpleName MethodInvocation QualifiedName colorred
+src graphics SimpleName MethodInvocation SimpleName fill rect
+src graphics SimpleName MethodInvocation NumberLiteral empty
+src graphics SimpleName MethodInvocation NumberLiteral empty
+src graphics SimpleName MethodInvocation SimpleName size
+src graphics SimpleName MethodInvocation SimpleName size
+fill rect SimpleName MethodInvocation NumberLiteral empty
+fill rect SimpleName MethodInvocation NumberLiteral empty
+fill rect SimpleName MethodInvocation SimpleName size
+fill rect SimpleName MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation SimpleName size
+size SimpleName MethodInvocation SimpleName size
+src graphics SimpleName MethodInvocation SimpleName dispose
+buffered image SimpleName SimpleType ClassInstanceCreation SimpleName size
+buffered image SimpleName SimpleType ClassInstanceCreation SimpleName size
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName buffered imagetype int argb
+size SimpleName ClassInstanceCreation SimpleName size
+size SimpleName ClassInstanceCreation QualifiedName buffered imagetype int argb
+size SimpleName ClassInstanceCreation QualifiedName buffered imagetype int argb
+dst image SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered image
+dst image SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName size
+dst image SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName size
+dst image SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName buffered imagetype int argb
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dst image
+dst image SimpleName MethodInvocation SimpleName create graphics
+dst graphics SimpleName VariableDeclarationFragment MethodInvocation SimpleName dst image
+dst graphics SimpleName VariableDeclarationFragment MethodInvocation SimpleName create graphics
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dst graphics
+dst graphics SimpleName MethodInvocation SimpleName set composite
+dst graphics SimpleName MethodInvocation QualifiedName alpha compositeclear
+set composite SimpleName MethodInvocation QualifiedName alpha compositeclear
+dst graphics SimpleName MethodInvocation SimpleName fill rect
+dst graphics SimpleName MethodInvocation NumberLiteral empty
+dst graphics SimpleName MethodInvocation NumberLiteral empty
+dst graphics SimpleName MethodInvocation SimpleName size
+dst graphics SimpleName MethodInvocation SimpleName size
+fill rect SimpleName MethodInvocation NumberLiteral empty
+fill rect SimpleName MethodInvocation NumberLiteral empty
+fill rect SimpleName MethodInvocation SimpleName size
+fill rect SimpleName MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation SimpleName size
+empty NumberLiteral MethodInvocation SimpleName size
+size SimpleName MethodInvocation SimpleName size
+dst graphics SimpleName MethodInvocation SimpleName dispose
+color space SimpleName MethodInvocation SimpleName get instance
+color space SimpleName MethodInvocation QualifiedName color spacecs gray
+get instance SimpleName MethodInvocation QualifiedName color spacecs gray
+gray color space SimpleName VariableDeclarationFragment MethodInvocation SimpleName color space
+gray color space SimpleName VariableDeclarationFragment MethodInvocation SimpleName get instance
+gray color space SimpleName VariableDeclarationFragment MethodInvocation QualifiedName color spacecs gray
+color space SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gray color space
+color convert op SimpleName SimpleType ClassInstanceCreation SimpleName gray color space
+op SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName color convert op
+op SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName gray color space
+color convert op SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName op
+op SimpleName MethodInvocation SimpleName filter
+op SimpleName MethodInvocation SimpleName src image
+op SimpleName MethodInvocation SimpleName dst image
+filter SimpleName MethodInvocation SimpleName src image
+filter SimpleName MethodInvocation SimpleName dst image
+src image SimpleName MethodInvocation SimpleName dst image
+get alpha SimpleName MethodInvocation SimpleName src image
+get alpha SimpleName MethodInvocation SimpleName dst image
+get alpha SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get alpha
+get alpha SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName dst image
+src image SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get alpha
+src image SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName dst image
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName get color convert op aplha supported
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName get color convert op aplha supported
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration SimpleName get color convert op aplha supported
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get color convert op aplha supported SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get color convert op aplha supported
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get color convert op aplha supported

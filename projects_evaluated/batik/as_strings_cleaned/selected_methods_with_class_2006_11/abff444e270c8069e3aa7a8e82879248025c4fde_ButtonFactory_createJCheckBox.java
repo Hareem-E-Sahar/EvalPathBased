@@ -1,0 +1,60 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+name SimpleName InfixExpression SimpleName text suffix
+get string SimpleName MethodInvocation InfixExpression SimpleName name
+get string SimpleName MethodInvocation InfixExpression SimpleName text suffix
+j check box SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get string
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j check box
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get string
+j check box SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+initialize button SimpleName MethodInvocation SimpleName result
+initialize button SimpleName MethodInvocation SimpleName name
+result SimpleName MethodInvocation SimpleName name
+name SimpleName InfixExpression SimpleName selected suffix
+get boolean SimpleName MethodInvocation InfixExpression SimpleName name
+get boolean SimpleName MethodInvocation InfixExpression SimpleName selected suffix
+result SimpleName MethodInvocation SimpleName set selected
+result SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+result SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName name
+result SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName selected suffix
+set selected SimpleName MethodInvocation MethodInvocation SimpleName get boolean
+set selected SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName name
+set selected SimpleName MethodInvocation MethodInvocation InfixExpression SimpleName selected suffix
+missing resource exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName j check box
+public Modifier MethodDeclaration SimpleName create j check box
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName missing resource exception
+public Modifier MethodDeclaration SimpleType SimpleName resource format exception
+j check box SimpleName SimpleType MethodDeclaration SimpleName create j check box
+j check box SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+j check box SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing resource exception
+j check box SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource format exception
+j check box SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing listener exception
+create j check box SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create j check box SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+create j check box SimpleName MethodDeclaration SimpleType SimpleName missing resource exception
+create j check box SimpleName MethodDeclaration SimpleType SimpleName resource format exception
+create j check box SimpleName MethodDeclaration SimpleType SimpleName missing listener exception
+create j check box SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource format exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName missing listener exception
+missing resource exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource format exception
+missing resource exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing listener exception
+resource format exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing listener exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName j check box
+public Modifier TypeDeclaration MethodDeclaration SimpleName create j check box
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource format exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName missing listener exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName j check box
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create j check box
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource format exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName missing listener exception

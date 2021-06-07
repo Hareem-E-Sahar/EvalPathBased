@@ -1,0 +1,36 @@
+offset SimpleName InfixExpression NumberLiteral empty
+offset SimpleName InfixExpression ConditionalExpression SuperMethodInvocation SimpleName to string
+empty NumberLiteral InfixExpression ConditionalExpression SuperMethodInvocation SimpleName to string
+offset SimpleName InfixExpression ConditionalExpression StringLiteral empty
+empty NumberLiteral InfixExpression ConditionalExpression StringLiteral empty
+to string SimpleName SuperMethodInvocation ConditionalExpression StringLiteral empty
+access key StringLiteral InfixExpression SimpleName key name
+access key StringLiteral InfixExpression StringLiteral )
+access key StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+key name SimpleName InfixExpression StringLiteral )
+key name SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+) StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+offset SimpleName InfixExpression NumberLiteral empty
+offset SimpleName InfixExpression ConditionalExpression SuperMethodInvocation SimpleName to string
+empty NumberLiteral InfixExpression ConditionalExpression SuperMethodInvocation SimpleName to string
+offset SimpleName InfixExpression ConditionalExpression StringLiteral empty
+empty NumberLiteral InfixExpression ConditionalExpression StringLiteral empty
+to string SimpleName SuperMethodInvocation ConditionalExpression StringLiteral empty
+accesskey StringLiteral InfixExpression SimpleName accesskey
+accesskey StringLiteral InfixExpression StringLiteral )
+accesskey StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+accesskey SimpleName InfixExpression StringLiteral )
+accesskey SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+) StringLiteral InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+public Modifier MethodDeclaration Block IfStatement SimpleName is svg access key
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+to string SimpleName MethodDeclaration Block IfStatement SimpleName is svg access key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

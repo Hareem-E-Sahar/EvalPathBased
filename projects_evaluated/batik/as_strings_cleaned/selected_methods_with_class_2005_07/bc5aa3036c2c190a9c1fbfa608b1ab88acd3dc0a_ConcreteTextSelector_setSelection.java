@@ -1,0 +1,63 @@
+mark SimpleName SimpleType SingleVariableDeclaration SimpleName begin
+mark SimpleName SimpleType SingleVariableDeclaration SimpleName end
+begin SimpleName MethodInvocation SimpleName get text node
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName begin
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text node
+text node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+end SimpleName MethodInvocation SimpleName get text node
+node SimpleName InfixExpression MethodInvocation SimpleName end
+node SimpleName InfixExpression MethodInvocation SimpleName get text node
+error SimpleName SimpleType ClassInstanceCreation StringLiteral markers not from same text node
+node SimpleName MethodInvocation SimpleName set selection
+node SimpleName MethodInvocation SimpleName begin
+node SimpleName MethodInvocation SimpleName end
+set selection SimpleName MethodInvocation SimpleName begin
+set selection SimpleName MethodInvocation SimpleName end
+begin SimpleName MethodInvocation SimpleName end
+selection node SimpleName Assignment SimpleName node
+node SimpleName MethodInvocation SimpleName get root
+selection node root SimpleName Assignment MethodInvocation SimpleName node
+selection node root SimpleName Assignment MethodInvocation SimpleName get root
+selection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selection
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName selection
+node SimpleName MethodInvocation SimpleName get highlight shape
+shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName get highlight shape
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shape
+selection event SimpleName SimpleType ClassInstanceCreation SimpleName selection
+selection event SimpleName SimpleType ClassInstanceCreation QualifiedName selection eventselection done
+selection event SimpleName SimpleType ClassInstanceCreation SimpleName shape
+selection SimpleName ClassInstanceCreation QualifiedName selection eventselection done
+selection SimpleName ClassInstanceCreation SimpleName shape
+selection eventselection done QualifiedName ClassInstanceCreation SimpleName shape
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName selection event
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleName selection
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation QualifiedName selection eventselection done
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleName shape
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set selection
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mark
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName begin
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mark
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName end
+void PrimitiveType MethodDeclaration SimpleName set selection
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mark
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName begin
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mark
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName end
+set selection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mark
+set selection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName begin
+set selection SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mark
+set selection SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end
+begin SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set selection
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set selection
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end

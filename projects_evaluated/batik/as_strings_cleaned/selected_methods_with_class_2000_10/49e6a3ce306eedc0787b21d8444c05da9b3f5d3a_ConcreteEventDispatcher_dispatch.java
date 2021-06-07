@@ -1,0 +1,29 @@
+input event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName InstanceofExpression SimpleType SimpleName mouse event
+mouse event SimpleName SimpleType CastExpression SimpleName evt
+dispatch mouse event SimpleName MethodInvocation CastExpression SimpleType SimpleName mouse event
+dispatch mouse event SimpleName MethodInvocation CastExpression SimpleName evt
+evt SimpleName InstanceofExpression SimpleType SimpleName key event
+is node increment event SimpleName MethodInvocation SimpleName evt
+is node decrement event SimpleName MethodInvocation SimpleName evt
+key event SimpleName SimpleType CastExpression SimpleName evt
+dispatch key event SimpleName MethodInvocation CastExpression SimpleType SimpleName key event
+dispatch key event SimpleName MethodInvocation CastExpression SimpleName evt
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispatch
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName dispatch
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+dispatch SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input event
+dispatch SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

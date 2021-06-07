@@ -1,0 +1,106 @@
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml space
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml space SimpleName MethodInvocation CastExpression SimpleName current
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName xml utilities
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is xml space
+context SimpleName Assignment SimpleName doctype context
+in dtd SimpleName Assignment BooleanLiteral false
+context SimpleName Assignment SimpleName pi context
+context SimpleName Assignment SimpleName element declaration context
+read identifier SimpleName MethodInvocation StringLiteral ement
+read identifier SimpleName MethodInvocation QualifiedName lexical unitselement declaration start
+read identifier SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+ement StringLiteral MethodInvocation QualifiedName lexical unitselement declaration start
+ement StringLiteral MethodInvocation PrefixExpression NumberLiteral empty
+lexical unitselement declaration start QualifiedName MethodInvocation PrefixExpression NumberLiteral empty
+context SimpleName Assignment SimpleName entity context
+read identifier SimpleName MethodInvocation StringLiteral tity
+read identifier SimpleName MethodInvocation QualifiedName lexical unitsentity start
+read identifier SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+tity StringLiteral MethodInvocation QualifiedName lexical unitsentity start
+tity StringLiteral MethodInvocation PrefixExpression NumberLiteral empty
+lexical unitsentity start QualifiedName MethodInvocation PrefixExpression NumberLiteral empty
+create xml exception SimpleName MethodInvocation StringLiteral invalidcharacter
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral l
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral n
+l CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral n
+context SimpleName Assignment SimpleName attlist context
+read identifier SimpleName MethodInvocation StringLiteral ttlist
+read identifier SimpleName MethodInvocation QualifiedName lexical unitsattlist start
+read identifier SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+ttlist StringLiteral MethodInvocation QualifiedName lexical unitsattlist start
+ttlist StringLiteral MethodInvocation PrefixExpression NumberLiteral empty
+lexical unitsattlist start QualifiedName MethodInvocation PrefixExpression NumberLiteral empty
+context SimpleName Assignment SimpleName notation context
+read identifier SimpleName MethodInvocation StringLiteral otation
+read identifier SimpleName MethodInvocation QualifiedName lexical unitsnotation start
+read identifier SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+otation StringLiteral MethodInvocation QualifiedName lexical unitsnotation start
+otation StringLiteral MethodInvocation PrefixExpression NumberLiteral empty
+lexical unitsnotation start QualifiedName MethodInvocation PrefixExpression NumberLiteral empty
+create xml exception SimpleName MethodInvocation StringLiteral invalidcharacter
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral -
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral e
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral a
+- CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral e
+- CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral a
+e CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral a
+e CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral n
+a CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral n
+create xml exception SimpleName MethodInvocation StringLiteral invalidcharacter
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral ?
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral !
+? CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral !
+create xml exception SimpleName MethodInvocation StringLiteral invalidcharacter
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+current SimpleName SwitchStatement SwitchCase NumberLiteral x a
+current SimpleName SwitchStatement SwitchCase NumberLiteral x d
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x d
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x d
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x a NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ]
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x d NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ]
+x NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ]
+lexical unitss QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral ]
+lexical unitss QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName lexical unitsrsquare bracket
+] CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsrsquare bracket
+] CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral %
+lexical unitsrsquare bracket QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral %
+lexical unitsrsquare bracket QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral <
+% CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral <
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName next in dtd declarations
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName current
+int PrimitiveType MethodDeclaration SimpleName next in dtd declarations
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+int PrimitiveType MethodDeclaration Block SwitchStatement SimpleName current
+next in dtd declarations SimpleName MethodDeclaration SimpleType SimpleName io exception
+next in dtd declarations SimpleName MethodDeclaration SimpleType SimpleName xml exception
+next in dtd declarations SimpleName MethodDeclaration Block SwitchStatement SimpleName current
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName next in dtd declarations
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next in dtd declarations
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception

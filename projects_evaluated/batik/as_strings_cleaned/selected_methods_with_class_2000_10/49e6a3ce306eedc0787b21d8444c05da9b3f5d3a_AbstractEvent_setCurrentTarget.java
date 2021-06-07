@@ -1,0 +1,14 @@
+event target SimpleName SimpleType SingleVariableDeclaration SimpleName current target
+current target SimpleName FieldAccess Assignment SimpleName current target
+void PrimitiveType MethodDeclaration SimpleName set current target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName current target
+set current target SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+set current target SimpleName MethodDeclaration SingleVariableDeclaration SimpleName current target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set current target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current target
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set current target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName current target

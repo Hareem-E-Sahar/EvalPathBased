@@ -1,0 +1,61 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName node value
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get node value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get first child
+remove child SimpleName MethodInvocation SimpleName n
+node value SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+node value SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName node value
+empty StringLiteral ConditionalExpression SimpleName node value
+val SimpleName VariableDeclarationFragment ConditionalExpression StringLiteral empty
+val SimpleName VariableDeclarationFragment ConditionalExpression SimpleName node value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+get owner document SimpleName MethodInvocation MethodInvocation SimpleName create text node
+get owner document SimpleName MethodInvocation MethodInvocation SimpleName val
+create text node SimpleName MethodInvocation SimpleName val
+n SimpleName Assignment MethodInvocation MethodInvocation SimpleName get owner document
+n SimpleName Assignment MethodInvocation SimpleName create text node
+n SimpleName Assignment MethodInvocation SimpleName val
+append child SimpleName MethodInvocation SimpleName n
+owner element SimpleName MethodInvocation SimpleName fire dom attr modified event
+owner element SimpleName MethodInvocation SimpleName node name
+owner element SimpleName MethodInvocation SimpleName s
+owner element SimpleName MethodInvocation SimpleName val
+fire dom attr modified event SimpleName MethodInvocation SimpleName node name
+fire dom attr modified event SimpleName MethodInvocation SimpleName s
+fire dom attr modified event SimpleName MethodInvocation SimpleName val
+fire dom attr modified event SimpleName MethodInvocation QualifiedName mutation eventmodification
+node name SimpleName MethodInvocation SimpleName s
+node name SimpleName MethodInvocation SimpleName val
+node name SimpleName MethodInvocation QualifiedName mutation eventmodification
+s SimpleName MethodInvocation SimpleName val
+s SimpleName MethodInvocation QualifiedName mutation eventmodification
+val SimpleName MethodInvocation QualifiedName mutation eventmodification
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set node value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node value
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set node value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node value
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set node value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set node value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node value
+set node value SimpleName MethodDeclaration SimpleType SimpleName dom exception
+node value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set node value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set node value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

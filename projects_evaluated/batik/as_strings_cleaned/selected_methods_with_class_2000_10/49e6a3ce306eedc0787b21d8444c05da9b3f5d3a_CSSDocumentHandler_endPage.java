@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pseudo page
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName end page
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pseudo page
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+void PrimitiveType MethodDeclaration SimpleName end page
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pseudo page
+void PrimitiveType MethodDeclaration SimpleType SimpleName css exception
+end page SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+end page SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+end page SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+end page SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pseudo page
+end page SimpleName MethodDeclaration SimpleType SimpleName css exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo page
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+pseudo page SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName end page
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo page
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName end page
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo page
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

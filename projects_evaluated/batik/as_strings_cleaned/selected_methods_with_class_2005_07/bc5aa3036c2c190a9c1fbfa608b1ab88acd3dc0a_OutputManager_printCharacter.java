@@ -1,0 +1,32 @@
+char PrimitiveType SingleVariableDeclaration SimpleName c
+c SimpleName InfixExpression NumberLiteral empty
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation SimpleName c
+write SimpleName MethodInvocation SimpleName c
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print character
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName print character
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType char
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+print character SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType char
+print character SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+print character SimpleName MethodDeclaration SimpleType SimpleName io exception
+char PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+c SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print character
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print character
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

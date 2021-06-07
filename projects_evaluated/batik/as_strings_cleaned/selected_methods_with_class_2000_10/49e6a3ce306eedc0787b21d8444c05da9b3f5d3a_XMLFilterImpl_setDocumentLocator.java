@@ -1,0 +1,23 @@
+locator SimpleName SimpleType SingleVariableDeclaration SimpleName locator
+locator SimpleName FieldAccess Assignment SimpleName locator
+content handler SimpleName MethodInvocation SimpleName set document locator
+content handler SimpleName MethodInvocation SimpleName locator
+set document locator SimpleName MethodInvocation SimpleName locator
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set document locator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName locator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName locator
+void PrimitiveType MethodDeclaration SimpleName set document locator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName locator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName locator
+set document locator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName locator
+set document locator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName locator
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set document locator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName locator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set document locator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName locator

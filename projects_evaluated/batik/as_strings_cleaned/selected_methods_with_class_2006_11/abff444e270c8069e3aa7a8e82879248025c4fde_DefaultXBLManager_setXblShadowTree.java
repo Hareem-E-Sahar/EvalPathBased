@@ -1,0 +1,156 @@
+bindable element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+xblom shadow tree element SimpleName SimpleType SingleVariableDeclaration SimpleName new shadow
+get xbl shadow tree SimpleName MethodInvocation SimpleName elt
+xblom shadow tree element SimpleName SimpleType CastExpression MethodInvocation SimpleName get xbl shadow tree
+xblom shadow tree element SimpleName SimpleType CastExpression MethodInvocation SimpleName elt
+old shadow SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName xblom shadow tree element
+old shadow SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get xbl shadow tree
+old shadow SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName elt
+xblom shadow tree element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old shadow
+fire shadow tree event SimpleName MethodInvocation SimpleName elt
+fire shadow tree event SimpleName MethodInvocation SimpleName xbl unbinding event type
+fire shadow tree event SimpleName MethodInvocation SimpleName old shadow
+elt SimpleName MethodInvocation SimpleName xbl unbinding event type
+elt SimpleName MethodInvocation SimpleName old shadow
+xbl unbinding event type SimpleName MethodInvocation SimpleName old shadow
+get content manager SimpleName MethodInvocation SimpleName old shadow
+cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get content manager
+cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName old shadow
+content manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+cm SimpleName MethodInvocation SimpleName dispose
+elt SimpleName MethodInvocation SimpleName set shadow tree
+get record SimpleName MethodInvocation SimpleName old shadow
+rec SimpleName VariableDeclarationFragment MethodInvocation SimpleName get record
+rec SimpleName VariableDeclarationFragment MethodInvocation SimpleName old shadow
+xbl record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rec
+old shadow SimpleName MethodInvocation SimpleName remove event listener ns
+old shadow SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+old shadow SimpleName MethodInvocation StringLiteral dom subtree modified
+old shadow SimpleName MethodInvocation SimpleName doc subtree listener
+old shadow SimpleName MethodInvocation BooleanLiteral false
+remove event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+remove event listener ns SimpleName MethodInvocation StringLiteral dom subtree modified
+remove event listener ns SimpleName MethodInvocation SimpleName doc subtree listener
+remove event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral dom subtree modified
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName doc subtree listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+dom subtree modified StringLiteral MethodInvocation SimpleName doc subtree listener
+dom subtree modified StringLiteral MethodInvocation BooleanLiteral false
+doc subtree listener SimpleName MethodInvocation BooleanLiteral false
+new shadow SimpleName MethodInvocation SimpleName add event listener ns
+new shadow SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+new shadow SimpleName MethodInvocation StringLiteral dom subtree modified
+new shadow SimpleName MethodInvocation SimpleName doc subtree listener
+new shadow SimpleName MethodInvocation BooleanLiteral false
+add event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+add event listener ns SimpleName MethodInvocation StringLiteral dom subtree modified
+add event listener ns SimpleName MethodInvocation SimpleName doc subtree listener
+add event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral dom subtree modified
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName doc subtree listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+dom subtree modified StringLiteral MethodInvocation SimpleName doc subtree listener
+dom subtree modified StringLiteral MethodInvocation BooleanLiteral false
+doc subtree listener SimpleName MethodInvocation BooleanLiteral false
+fire shadow tree event SimpleName MethodInvocation SimpleName elt
+fire shadow tree event SimpleName MethodInvocation SimpleName xbl prebind event type
+fire shadow tree event SimpleName MethodInvocation SimpleName new shadow
+elt SimpleName MethodInvocation SimpleName xbl prebind event type
+elt SimpleName MethodInvocation SimpleName new shadow
+xbl prebind event type SimpleName MethodInvocation SimpleName new shadow
+elt SimpleName MethodInvocation SimpleName set shadow tree
+elt SimpleName MethodInvocation SimpleName new shadow
+set shadow tree SimpleName MethodInvocation SimpleName new shadow
+get record SimpleName MethodInvocation SimpleName new shadow
+rec SimpleName VariableDeclarationFragment MethodInvocation SimpleName get record
+rec SimpleName VariableDeclarationFragment MethodInvocation SimpleName new shadow
+xbl record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rec
+recbound element QualifiedName Assignment SimpleName elt
+elt SimpleName MethodInvocation SimpleName get owner document
+abstract document SimpleName SimpleType CastExpression MethodInvocation SimpleName elt
+abstract document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract document
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName elt
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+abstract document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get xbl manager
+xm SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+xm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xbl manager
+xbl manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName xm
+content manager SimpleName SimpleType ClassInstanceCreation SimpleName new shadow
+content manager SimpleName SimpleType ClassInstanceCreation SimpleName xm
+new shadow SimpleName ClassInstanceCreation SimpleName xm
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName content manager
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName new shadow
+cm SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName xm
+content manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+set content manager SimpleName MethodInvocation SimpleName new shadow
+set content manager SimpleName MethodInvocation SimpleName cm
+new shadow SimpleName MethodInvocation SimpleName cm
+invalidate child nodes SimpleName MethodInvocation SimpleName elt
+get xbl scoped child nodes SimpleName MethodInvocation SimpleName elt
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xbl scoped child nodes
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nl
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+nl SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName nl
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+nl SimpleName MethodInvocation SimpleName item
+nl SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName nl
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName n
+bind SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+bind SimpleName MethodInvocation CastExpression SimpleName n
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+dispatch binding changed event SimpleName MethodInvocation SimpleName elt
+dispatch binding changed event SimpleName MethodInvocation SimpleName new shadow
+elt SimpleName MethodInvocation SimpleName new shadow
+fire shadow tree event SimpleName MethodInvocation SimpleName elt
+fire shadow tree event SimpleName MethodInvocation SimpleName xbl bound event type
+fire shadow tree event SimpleName MethodInvocation SimpleName new shadow
+elt SimpleName MethodInvocation SimpleName xbl bound event type
+elt SimpleName MethodInvocation SimpleName new shadow
+xbl bound event type SimpleName MethodInvocation SimpleName new shadow
+dispatch binding changed event SimpleName MethodInvocation SimpleName elt
+dispatch binding changed event SimpleName MethodInvocation SimpleName new shadow
+elt SimpleName MethodInvocation SimpleName new shadow
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set xbl shadow tree
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bindable element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom shadow tree element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName new shadow
+void PrimitiveType MethodDeclaration SimpleName set xbl shadow tree
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bindable element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elt
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom shadow tree element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new shadow
+set xbl shadow tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bindable element
+set xbl shadow tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+set xbl shadow tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom shadow tree element
+set xbl shadow tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new shadow
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new shadow
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set xbl shadow tree
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new shadow
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set xbl shadow tree
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new shadow

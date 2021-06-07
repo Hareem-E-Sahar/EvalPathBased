@@ -1,0 +1,49 @@
+glyph group info SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName ggis
+int PrimitiveType SingleVariableDeclaration SimpleName sz
+sz SimpleName InfixExpression NumberLiteral empty
+sz SimpleName Assignment NumberLiteral empty
+glyph group info SimpleName SimpleType ArrayType ArrayCreation SimpleName sz
+sz SimpleName InfixExpression QualifiedName ggislength
+sz SimpleName InfixExpression IfStatement ReturnStatement SimpleName ggis
+ggislength QualifiedName InfixExpression IfStatement ReturnStatement SimpleName ggis
+ggislength QualifiedName InfixExpression NumberLiteral empty
+nsz SimpleName VariableDeclarationFragment InfixExpression QualifiedName ggislength
+nsz SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nsz
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName ggislength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+nsz SimpleName InfixExpression SimpleName sz
+nsz SimpleName Assignment SimpleName sz
+glyph group info SimpleName SimpleType ArrayType ArrayCreation SimpleName nsz
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName glyph group info
+public Modifier MethodDeclaration SimpleName assure size
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ggis
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sz
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName glyph group info
+static Modifier MethodDeclaration SimpleName assure size
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ggis
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sz
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+glyph group info SimpleName SimpleType ArrayType MethodDeclaration SimpleName assure size
+assure size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ggis
+assure size SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+assure size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sz
+assure size SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+ggis SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+ggis SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sz
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName assure size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ggis
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sz
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assure size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ggis
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sz

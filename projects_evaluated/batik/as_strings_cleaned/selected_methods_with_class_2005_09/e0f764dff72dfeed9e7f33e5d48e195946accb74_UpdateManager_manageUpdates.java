@@ -1,0 +1,52 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName image renderer
+final Modifier SingleVariableDeclaration SimpleName r
+image renderer SimpleName SimpleType SingleVariableDeclaration SimpleName r
+running SimpleName Assignment BooleanLiteral true
+update tracker SimpleName Assignment ClassInstanceCreation SimpleType SimpleName update tracker
+graphics node SimpleName MethodInvocation SimpleName get root
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName graphics node
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root
+root graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+root SimpleName MethodInvocation SimpleName add tree graphics node change listener
+root SimpleName MethodInvocation SimpleName update tracker
+add tree graphics node change listener SimpleName MethodInvocation SimpleName update tracker
+repaint manager SimpleName SimpleType ClassInstanceCreation SimpleName r
+repaint manager SimpleName Assignment ClassInstanceCreation SimpleType SimpleName repaint manager
+repaint manager SimpleName Assignment ClassInstanceCreation SimpleName r
+update manager event SimpleName SimpleType ClassInstanceCreation ThisExpression SimpleName update manager
+ev SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName update manager event
+ev SimpleName VariableDeclarationFragment ClassInstanceCreation ThisExpression SimpleName update manager
+update manager event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ev
+fire event SimpleName MethodInvocation SimpleName started dispatcher
+fire event SimpleName MethodInvocation SimpleName ev
+started dispatcher SimpleName MethodInvocation SimpleName ev
+started SimpleName Assignment BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+update runnable queue SimpleName MethodInvocation SimpleName preempt later
+update runnable queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+preempt later SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName manage updates
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName image renderer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+void PrimitiveType MethodDeclaration SimpleName manage updates
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName image renderer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+manage updates SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+manage updates SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName image renderer
+manage updates SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName manage updates
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName manage updates
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r

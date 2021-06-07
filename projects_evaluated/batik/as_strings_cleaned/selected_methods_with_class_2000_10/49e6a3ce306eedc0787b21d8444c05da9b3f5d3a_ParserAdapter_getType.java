@@ -1,0 +1,24 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName q name
+q atts SimpleName MethodInvocation SimpleName get type
+q atts SimpleName MethodInvocation SimpleName q name
+get type SimpleName MethodInvocation SimpleName q name
+q atts SimpleName MethodInvocation MethodInvocation SimpleName intern
+get type SimpleName MethodInvocation MethodInvocation SimpleName intern
+q name SimpleName MethodInvocation MethodInvocation SimpleName intern
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName q name
+string SimpleName SimpleType MethodDeclaration SimpleName get type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName q name
+get type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName q name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName q name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName q name

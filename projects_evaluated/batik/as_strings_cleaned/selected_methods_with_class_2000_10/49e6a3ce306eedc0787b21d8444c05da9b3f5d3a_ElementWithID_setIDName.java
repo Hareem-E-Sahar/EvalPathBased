@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleName set id name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName uri
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+set id name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set id name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+set id name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set id name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set id name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set id name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

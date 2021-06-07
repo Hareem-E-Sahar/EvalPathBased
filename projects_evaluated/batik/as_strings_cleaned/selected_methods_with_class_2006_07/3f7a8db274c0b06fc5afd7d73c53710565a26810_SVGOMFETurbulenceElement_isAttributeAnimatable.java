@@ -1,0 +1,137 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ln
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg base frequency attribute
+equals SimpleName MethodInvocation SimpleName svg base frequency attribute
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg num octaves attribute
+equals SimpleName MethodInvocation SimpleName svg num octaves attribute
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg seed attribute
+equals SimpleName MethodInvocation SimpleName svg seed attribute
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg stitch tiles attribute
+equals SimpleName MethodInvocation SimpleName svg stitch tiles attribute
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg type attribute
+equals SimpleName MethodInvocation SimpleName svg type attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg num octaves attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg num octaves attribute
+svg base frequency attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg base frequency attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg base frequency attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg num octaves attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg seed attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg seed attribute
+svg base frequency attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg base frequency attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg base frequency attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg seed attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg stitch tiles attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg stitch tiles attribute
+svg base frequency attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg base frequency attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg base frequency attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg stitch tiles attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg type attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg type attribute
+svg base frequency attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg base frequency attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg base frequency attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg type attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg seed attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg seed attribute
+svg num octaves attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg num octaves attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg num octaves attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg seed attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg stitch tiles attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg stitch tiles attribute
+svg num octaves attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg num octaves attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg num octaves attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg stitch tiles attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg type attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg type attribute
+svg num octaves attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg num octaves attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg num octaves attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg type attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg stitch tiles attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg stitch tiles attribute
+svg seed attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg seed attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg seed attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg stitch tiles attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg type attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg type attribute
+svg seed attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg seed attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg seed attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg type attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg type attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg type attribute
+svg stitch tiles attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg stitch tiles attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg stitch tiles attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg type attribute
+is attribute animatable SimpleName SuperMethodInvocation SimpleName ns
+is attribute animatable SimpleName SuperMethodInvocation SimpleName ln
+ns SimpleName SuperMethodInvocation SimpleName ln
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is attribute animatable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ln
+boolean PrimitiveType MethodDeclaration SimpleName is attribute animatable
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ns
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ln
+is attribute animatable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is attribute animatable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+is attribute animatable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is attribute animatable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ln
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is attribute animatable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is attribute animatable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln

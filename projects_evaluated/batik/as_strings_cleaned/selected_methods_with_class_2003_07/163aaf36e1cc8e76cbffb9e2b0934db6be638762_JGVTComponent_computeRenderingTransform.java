@@ -1,0 +1,18 @@
+initial transform SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+initial transform SimpleName InfixExpression SimpleName rendering transform
+set rendering transform SimpleName MethodInvocation SimpleName initial transform
+set rendering transform SimpleName MethodInvocation BooleanLiteral false
+initial transform SimpleName MethodInvocation BooleanLiteral false
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName compute rendering transform
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName compute rendering transform
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+compute rendering transform SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute rendering transform
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute rendering transform

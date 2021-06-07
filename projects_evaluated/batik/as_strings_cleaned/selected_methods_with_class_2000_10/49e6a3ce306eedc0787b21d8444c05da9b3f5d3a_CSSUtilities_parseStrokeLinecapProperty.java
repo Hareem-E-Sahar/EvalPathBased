@@ -1,0 +1,59 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+s SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName linecap butt
+char at SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName linecap butt
+empty NumberLiteral MethodInvocation SwitchStatement ReturnStatement SimpleName linecap butt
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+s SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName linecap round
+char at SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName linecap round
+empty NumberLiteral MethodInvocation SwitchStatement ReturnStatement SimpleName linecap round
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral s
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral s
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral s
+b CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName linecap butt
+b CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral r
+b CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName linecap round
+b CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral s
+b CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName linecap square
+linecap butt SimpleName ReturnStatement SwitchStatement SwitchCase CharacterLiteral r
+linecap butt SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName linecap round
+linecap butt SimpleName ReturnStatement SwitchStatement SwitchCase CharacterLiteral s
+linecap butt SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName linecap square
+r CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName linecap round
+r CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral s
+r CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName linecap square
+linecap round SimpleName ReturnStatement SwitchStatement SwitchCase CharacterLiteral s
+linecap round SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName linecap square
+s CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName linecap square
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName parse stroke linecap property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName parse stroke linecap property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+int PrimitiveType MethodDeclaration SimpleName parse stroke linecap property
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+parse stroke linecap property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse stroke linecap property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse stroke linecap property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse stroke linecap property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

@@ -1,0 +1,135 @@
+svg document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+svg document SimpleName Assignment SimpleName doc
+bridge context SimpleName MethodInvocation SimpleName dispose
+is dynamic document SimpleName Assignment BooleanLiteral false
+is interactive document SimpleName Assignment BooleanLiteral false
+disable interactions SimpleName Assignment BooleanLiteral true
+initial transform SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+set rendering transform SimpleName MethodInvocation SimpleName initial transform
+set rendering transform SimpleName MethodInvocation BooleanLiteral false
+initial transform SimpleName MethodInvocation BooleanLiteral false
+v rect SimpleName VariableDeclarationFragment MethodInvocation SimpleName get render rect
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v rect
+repaint SimpleName MethodInvocation QualifiedName v rectx
+repaint SimpleName MethodInvocation QualifiedName v recty
+repaint SimpleName MethodInvocation QualifiedName v rectwidth
+repaint SimpleName MethodInvocation QualifiedName v rectheight
+v rectx QualifiedName MethodInvocation QualifiedName v recty
+v rectx QualifiedName MethodInvocation QualifiedName v rectwidth
+v rectx QualifiedName MethodInvocation QualifiedName v rectheight
+v recty QualifiedName MethodInvocation QualifiedName v rectwidth
+v recty QualifiedName MethodInvocation QualifiedName v rectheight
+v rectwidth QualifiedName MethodInvocation QualifiedName v rectheight
+bridge context SimpleName Assignment MethodInvocation SimpleName create bridge context
+is dynamic document SimpleName Assignment BooleanLiteral false
+is interactive document SimpleName Assignment BooleanLiteral false
+is dynamic document SimpleName Assignment BooleanLiteral false
+is interactive document SimpleName Assignment BooleanLiteral true
+is dynamic document SimpleName Assignment BooleanLiteral true
+is interactive document SimpleName Assignment BooleanLiteral true
+bridge context SimpleName MethodInvocation SimpleName is dynamic document
+bridge context SimpleName MethodInvocation SimpleName doc
+is dynamic document SimpleName MethodInvocation SimpleName doc
+is dynamic document SimpleName Assignment MethodInvocation SimpleName bridge context
+is dynamic document SimpleName Assignment MethodInvocation SimpleName is dynamic document
+is dynamic document SimpleName Assignment MethodInvocation SimpleName doc
+is interactive document SimpleName Assignment BooleanLiteral true
+bridge context SimpleName MethodInvocation SimpleName is interactive document
+bridge context SimpleName MethodInvocation SimpleName doc
+is interactive document SimpleName MethodInvocation SimpleName doc
+is interactive document SimpleName Assignment MethodInvocation SimpleName bridge context
+is interactive document SimpleName Assignment MethodInvocation SimpleName is interactive document
+is interactive document SimpleName Assignment MethodInvocation SimpleName doc
+is dynamic document SimpleName IfStatement ExpressionStatement Assignment SimpleName is interactive document
+is dynamic document SimpleName IfStatement ExpressionStatement Assignment BooleanLiteral true
+is dynamic document SimpleName IfStatement ExpressionStatement Assignment SimpleName is interactive document
+document state SimpleName SwitchStatement SwitchCase SimpleName always static
+document state SimpleName SwitchStatement ExpressionStatement Assignment SimpleName is dynamic document
+document state SimpleName SwitchStatement ExpressionStatement Assignment BooleanLiteral false
+document state SimpleName SwitchStatement ExpressionStatement Assignment SimpleName is interactive document
+document state SimpleName SwitchStatement ExpressionStatement Assignment BooleanLiteral false
+document state SimpleName SwitchStatement SwitchCase SimpleName always interactive
+always static SimpleName SwitchCase SwitchStatement SwitchCase SimpleName always interactive
+always interactive SimpleName SwitchCase SwitchStatement SwitchCase SimpleName always dynamic
+always dynamic SimpleName SwitchCase SwitchStatement SwitchCase SimpleName autodetect
+autodetect SimpleName SwitchCase SwitchStatement IfStatement SimpleName is dynamic document
+bridge context SimpleName MethodInvocation SimpleName set dynamic state
+bridge context SimpleName MethodInvocation QualifiedName bridge contextdynamic
+set dynamic state SimpleName MethodInvocation QualifiedName bridge contextdynamic
+bridge context SimpleName MethodInvocation SimpleName set dynamic state
+bridge context SimpleName MethodInvocation QualifiedName bridge contextinteractive
+set dynamic state SimpleName MethodInvocation QualifiedName bridge contextinteractive
+is dynamic document SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName bridge context
+is dynamic document SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName set dynamic state
+is dynamic document SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName bridge contextdynamic
+is dynamic document SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName bridge context
+is dynamic document SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName set dynamic state
+is dynamic document SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName bridge contextinteractive
+is interactive document SimpleName IfStatement Block IfStatement SimpleName is dynamic document
+doc SimpleName MethodInvocation SimpleName get document element
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get document element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+root SimpleName MethodInvocation SimpleName get attribute ns
+root SimpleName MethodInvocation QualifiedName svg constantssvg zoom and pan attribute
+get attribute ns SimpleName MethodInvocation QualifiedName svg constantssvg zoom and pan attribute
+znp SimpleName VariableDeclarationFragment MethodInvocation SimpleName root
+znp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+znp SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svg constantssvg zoom and pan attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName znp
+znp SimpleName MethodInvocation SimpleName equals
+znp SimpleName MethodInvocation QualifiedName svg constantssvg magnify value
+equals SimpleName MethodInvocation QualifiedName svg constantssvg magnify value
+set disable interactions SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName znp
+set disable interactions SimpleName MethodInvocation PrefixExpression MethodInvocation SimpleName equals
+set disable interactions SimpleName MethodInvocation PrefixExpression MethodInvocation QualifiedName svg constantssvg magnify value
+gvt tree builder SimpleName SimpleType ClassInstanceCreation SimpleName doc
+gvt tree builder SimpleName SimpleType ClassInstanceCreation SimpleName bridge context
+doc SimpleName ClassInstanceCreation SimpleName bridge context
+next gvt tree builder SimpleName Assignment ClassInstanceCreation SimpleType SimpleName gvt tree builder
+next gvt tree builder SimpleName Assignment ClassInstanceCreation SimpleName doc
+next gvt tree builder SimpleName Assignment ClassInstanceCreation SimpleName bridge context
+next gvt tree builder SimpleName MethodInvocation SimpleName set priority
+next gvt tree builder SimpleName MethodInvocation QualifiedName threadmin priority
+set priority SimpleName MethodInvocation QualifiedName threadmin priority
+gvt tree builder listeners SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName gvt tree builder listeners
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+gvt tree builder listener SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+gvt tree builder listener SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+next gvt tree builder SimpleName MethodInvocation SimpleName add gvt tree builder listener
+next gvt tree builder SimpleName MethodInvocation CastExpression SimpleType SimpleName gvt tree builder listener
+next gvt tree builder SimpleName MethodInvocation CastExpression MethodInvocation SimpleName it
+next gvt tree builder SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+add gvt tree builder listener SimpleName MethodInvocation CastExpression SimpleType SimpleName gvt tree builder listener
+add gvt tree builder listener SimpleName MethodInvocation CastExpression MethodInvocation SimpleName it
+add gvt tree builder listener SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+gvt tree builder SimpleName InfixExpression InfixExpression InfixExpression SimpleName document loader
+document state SimpleName SwitchStatement Block IfStatement SimpleName is interactive document
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName install svg document
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName document state
+protected Modifier MethodDeclaration Block IfStatement SimpleName is interactive document
+void PrimitiveType MethodDeclaration SimpleName install svg document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName document state
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName is interactive document
+install svg document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+install svg document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+install svg document SimpleName MethodDeclaration Block SwitchStatement SimpleName document state
+install svg document SimpleName MethodDeclaration Block IfStatement SimpleName is interactive document
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName install svg document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName install svg document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc

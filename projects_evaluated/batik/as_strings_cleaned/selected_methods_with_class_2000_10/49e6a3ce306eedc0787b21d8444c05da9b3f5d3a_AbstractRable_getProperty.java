@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+props SimpleName MethodInvocation SimpleName get
+props SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName props
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName InfixExpression IfStatement ReturnStatement SimpleName ret
+srcs SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName srcs
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+renderable image SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+renderable image SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+ri SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName renderable image
+ri SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+ri SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+renderable image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ri
+ri SimpleName MethodInvocation SimpleName get property
+ri SimpleName MethodInvocation SimpleName name
+get property SimpleName MethodInvocation SimpleName name
+ret SimpleName Assignment MethodInvocation SimpleName ri
+ret SimpleName Assignment MethodInvocation SimpleName get property
+ret SimpleName Assignment MethodInvocation SimpleName name
+ret SimpleName InfixExpression IfStatement ReturnStatement SimpleName ret
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+object SimpleName SimpleType MethodDeclaration SimpleName get property
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

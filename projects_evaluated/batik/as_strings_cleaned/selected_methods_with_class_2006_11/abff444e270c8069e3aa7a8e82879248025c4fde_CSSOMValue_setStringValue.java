@@ -1,0 +1,53 @@
+short PrimitiveType SingleVariableDeclaration SimpleName string type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName string value
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionno modification allowed err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptionno modification allowed err QualifiedName ClassInstanceCreation StringLiteral empty
+handler SimpleName MethodInvocation SimpleName list string value changed
+handler SimpleName MethodInvocation SimpleName index
+handler SimpleName MethodInvocation SimpleName string type
+handler SimpleName MethodInvocation SimpleName string value
+list string value changed SimpleName MethodInvocation SimpleName index
+list string value changed SimpleName MethodInvocation SimpleName string type
+list string value changed SimpleName MethodInvocation SimpleName string value
+index SimpleName MethodInvocation SimpleName string type
+index SimpleName MethodInvocation SimpleName string value
+string type SimpleName MethodInvocation SimpleName string value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set string value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName string type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName string value
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set string value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName string type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName string value
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set string value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+set string value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName string type
+set string value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set string value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName string value
+set string value SimpleName MethodDeclaration SimpleType SimpleName dom exception
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string value
+string type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string value
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+string type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+string value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set string value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set string value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

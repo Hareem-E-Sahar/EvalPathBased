@@ -1,0 +1,53 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName base val
+base val SimpleName FieldAccess Assignment SimpleName base val
+valid SimpleName Assignment BooleanLiteral true
+changing SimpleName Assignment BooleanLiteral true
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName base val
+value of SimpleName MethodInvocation SimpleName base val
+element SimpleName MethodInvocation SimpleName set attribute ns
+element SimpleName MethodInvocation SimpleName namespace uri
+element SimpleName MethodInvocation SimpleName local name
+element SimpleName MethodInvocation MethodInvocation SimpleName string
+element SimpleName MethodInvocation MethodInvocation SimpleName value of
+element SimpleName MethodInvocation MethodInvocation SimpleName base val
+set attribute ns SimpleName MethodInvocation SimpleName namespace uri
+set attribute ns SimpleName MethodInvocation SimpleName local name
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName string
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName value of
+set attribute ns SimpleName MethodInvocation MethodInvocation SimpleName base val
+namespace uri SimpleName MethodInvocation SimpleName local name
+namespace uri SimpleName MethodInvocation MethodInvocation SimpleName string
+namespace uri SimpleName MethodInvocation MethodInvocation SimpleName value of
+namespace uri SimpleName MethodInvocation MethodInvocation SimpleName base val
+local name SimpleName MethodInvocation MethodInvocation SimpleName string
+local name SimpleName MethodInvocation MethodInvocation SimpleName value of
+local name SimpleName MethodInvocation MethodInvocation SimpleName base val
+changing SimpleName Assignment BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set base val
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName base val
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set base val
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName base val
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set base val SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set base val SimpleName MethodDeclaration SingleVariableDeclaration SimpleName base val
+set base val SimpleName MethodDeclaration SimpleType SimpleName dom exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+base val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set base val
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set base val
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

@@ -1,0 +1,25 @@
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName in
+font face SimpleName SimpleType SingleVariableDeclaration SimpleName font face
+gvt font family SimpleName SimpleType MethodDeclaration SimpleName load font
+gvt font family SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName in
+gvt font family SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName font face
+gvt font family SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+load font SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+load font SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+load font SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName font face
+load font SimpleName MethodDeclaration SingleVariableDeclaration SimpleName font face
+load font SimpleName MethodDeclaration SimpleType SimpleName exception
+in SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font face
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+font face SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName gvt font family
+public Modifier TypeDeclaration MethodDeclaration SimpleName load font
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font face
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName gvt font family
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load font
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font face
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

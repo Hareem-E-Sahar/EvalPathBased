@@ -1,0 +1,500 @@
+int PrimitiveType SingleVariableDeclaration SimpleName tile x
+int PrimitiveType SingleVariableDeclaration SimpleName tile y
+tile x SimpleName InfixExpression NumberLiteral empty
+tile x SimpleName InfixExpression SimpleName tiles x
+tile y SimpleName InfixExpression NumberLiteral empty
+tile y SimpleName InfixExpression SimpleName tiles y
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName bdata
+short PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName sdata
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName idata
+sample model SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sample model
+sample model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sample model
+make tile SimpleName MethodInvocation SimpleName tile x
+make tile SimpleName MethodInvocation SimpleName tile y
+tile x SimpleName MethodInvocation SimpleName tile y
+tile SimpleName VariableDeclarationFragment MethodInvocation SimpleName make tile
+tile SimpleName VariableDeclarationFragment MethodInvocation SimpleName tile x
+tile SimpleName VariableDeclarationFragment MethodInvocation SimpleName tile y
+writable raster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tile
+tile SimpleName MethodInvocation SimpleName get data buffer
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName tile
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data buffer
+data buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+sample model SimpleName MethodInvocation SimpleName get data type
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName sample model
+data type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName data type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sample model
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get data type
+data type SimpleName InfixExpression QualifiedName data buffertype byte
+data buffer byte SimpleName SimpleType CastExpression SimpleName buffer
+buffer SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get data
+bdata SimpleName Assignment MethodInvocation SimpleName get data
+data type SimpleName InfixExpression QualifiedName data buffertype ushort
+data buffer u short SimpleName SimpleType CastExpression SimpleName buffer
+buffer SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get data
+sdata SimpleName Assignment MethodInvocation SimpleName get data
+data type SimpleName InfixExpression QualifiedName data buffertype short
+data buffer short SimpleName SimpleType CastExpression SimpleName buffer
+buffer SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get data
+sdata SimpleName Assignment MethodInvocation SimpleName get data
+data type SimpleName InfixExpression QualifiedName data buffertype int
+data buffer int SimpleName SimpleType CastExpression SimpleName buffer
+buffer SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get data
+idata SimpleName Assignment MethodInvocation SimpleName get data
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bswap
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sswap
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName iswap
+save offset SimpleName VariableDeclarationFragment NumberLiteral empty
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName save offset
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+stream SimpleName MethodInvocation SimpleName get file pointer
+save offset SimpleName Assignment MethodInvocation SimpleName stream
+save offset SimpleName Assignment MethodInvocation SimpleName get file pointer
+tile y SimpleName InfixExpression SimpleName tiles x
+tile y SimpleName InfixExpression InfixExpression SimpleName tile x
+tiles x SimpleName InfixExpression InfixExpression SimpleName tile x
+tile offsets SimpleName ArrayAccess InfixExpression InfixExpression SimpleName tile y
+tile offsets SimpleName ArrayAccess InfixExpression InfixExpression SimpleName tiles x
+tile offsets SimpleName ArrayAccess InfixExpression SimpleName tile x
+stream SimpleName MethodInvocation SimpleName seek
+stream SimpleName MethodInvocation ArrayAccess SimpleName tile offsets
+stream SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName tile x
+seek SimpleName MethodInvocation ArrayAccess SimpleName tile offsets
+seek SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName tile x
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image
+tile y SimpleName InfixExpression SimpleName tiles x
+tile y SimpleName InfixExpression InfixExpression SimpleName tile x
+tiles x SimpleName InfixExpression InfixExpression SimpleName tile x
+tile byte counts SimpleName ArrayAccess InfixExpression InfixExpression SimpleName tile y
+tile byte counts SimpleName ArrayAccess InfixExpression InfixExpression SimpleName tiles x
+tile byte counts SimpleName ArrayAccess InfixExpression SimpleName tile x
+int PrimitiveType CastExpression ArrayAccess SimpleName tile byte counts
+int PrimitiveType CastExpression ArrayAccess InfixExpression SimpleName tile x
+byte count SimpleName VariableDeclarationFragment CastExpression PrimitiveType int
+byte count SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName tile byte counts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName byte count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType int
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new rect
+tile SimpleName MethodInvocation SimpleName get bounds
+new rect SimpleName Assignment MethodInvocation SimpleName tile
+new rect SimpleName Assignment MethodInvocation SimpleName get bounds
+tile SimpleName MethodInvocation SimpleName get min x
+tile SimpleName MethodInvocation SimpleName get min y
+rectangle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tile
+rectangle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get min x
+rectangle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tile
+rectangle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get min y
+rectangle SimpleName SimpleType ClassInstanceCreation SimpleName tile width
+rectangle SimpleName SimpleType ClassInstanceCreation SimpleName tile height
+tile SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tile
+tile SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get min y
+get min x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName tile
+get min x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get min y
+tile SimpleName MethodInvocation ClassInstanceCreation SimpleName tile width
+get min x SimpleName MethodInvocation ClassInstanceCreation SimpleName tile width
+tile SimpleName MethodInvocation ClassInstanceCreation SimpleName tile height
+get min x SimpleName MethodInvocation ClassInstanceCreation SimpleName tile height
+tile SimpleName MethodInvocation ClassInstanceCreation SimpleName tile width
+get min y SimpleName MethodInvocation ClassInstanceCreation SimpleName tile width
+tile SimpleName MethodInvocation ClassInstanceCreation SimpleName tile height
+get min y SimpleName MethodInvocation ClassInstanceCreation SimpleName tile height
+tile width SimpleName ClassInstanceCreation SimpleName tile height
+new rect SimpleName Assignment ClassInstanceCreation SimpleType SimpleName rectangle
+new rect SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName tile
+new rect SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get min x
+new rect SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName tile
+new rect SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get min y
+new rect SimpleName Assignment ClassInstanceCreation SimpleName tile width
+new rect SimpleName Assignment ClassInstanceCreation SimpleName tile height
+new rectwidth QualifiedName InfixExpression QualifiedName new rectheight
+new rectwidth QualifiedName InfixExpression SimpleName num bands
+new rectheight QualifiedName InfixExpression SimpleName num bands
+units in this tile SimpleName VariableDeclarationFragment InfixExpression QualifiedName new rectwidth
+units in this tile SimpleName VariableDeclarationFragment InfixExpression QualifiedName new rectheight
+units in this tile SimpleName VariableDeclarationFragment InfixExpression SimpleName num bands
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName units in this tile
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName new rectwidth
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName new rectheight
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName num bands
+compression SimpleName InfixExpression SimpleName comp none
+image type SimpleName InfixExpression SimpleName type palette
+compression SimpleName InfixExpression InfixExpression InfixExpression SimpleName image type
+compression SimpleName InfixExpression InfixExpression InfixExpression SimpleName type palette
+comp none SimpleName InfixExpression InfixExpression InfixExpression SimpleName image type
+comp none SimpleName InfixExpression InfixExpression InfixExpression SimpleName type palette
+byte PrimitiveType ArrayType ArrayCreation SimpleName byte count
+data SimpleName VariableDeclarationFragment ConditionalExpression ArrayCreation SimpleName byte count
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName data
+image type SimpleName InfixExpression SimpleName type bilevel
+compression SimpleName InfixExpression SimpleName comp packbits
+stream SimpleName MethodInvocation SimpleName read fully
+stream SimpleName MethodInvocation SimpleName data
+stream SimpleName MethodInvocation NumberLiteral empty
+stream SimpleName MethodInvocation SimpleName byte count
+read fully SimpleName MethodInvocation SimpleName data
+read fully SimpleName MethodInvocation NumberLiteral empty
+read fully SimpleName MethodInvocation SimpleName byte count
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName byte count
+empty NumberLiteral MethodInvocation SimpleName byte count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bytes in this tile
+new rectwidth QualifiedName InfixExpression NumberLiteral empty
+new rectwidth QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+new rectwidth QualifiedName InfixExpression NumberLiteral empty
+new rectwidth QualifiedName InfixExpression ParenthesizedExpression InfixExpression QualifiedName new rectheight
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression QualifiedName new rectheight
+bytes in this tile SimpleName Assignment InfixExpression QualifiedName new rectheight
+new rectwidth QualifiedName InfixExpression NumberLiteral empty
+new rectwidth QualifiedName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression QualifiedName new rectheight
+bytes in this tile SimpleName Assignment InfixExpression QualifiedName new rectheight
+decode packbits SimpleName MethodInvocation SimpleName data
+decode packbits SimpleName MethodInvocation SimpleName bytes in this tile
+decode packbits SimpleName MethodInvocation SimpleName bdata
+data SimpleName MethodInvocation SimpleName bytes in this tile
+data SimpleName MethodInvocation SimpleName bdata
+bytes in this tile SimpleName MethodInvocation SimpleName bdata
+compression SimpleName InfixExpression SimpleName comp lzw
+stream SimpleName MethodInvocation SimpleName read fully
+stream SimpleName MethodInvocation SimpleName data
+stream SimpleName MethodInvocation NumberLiteral empty
+stream SimpleName MethodInvocation SimpleName byte count
+read fully SimpleName MethodInvocation SimpleName data
+read fully SimpleName MethodInvocation NumberLiteral empty
+read fully SimpleName MethodInvocation SimpleName byte count
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName byte count
+empty NumberLiteral MethodInvocation SimpleName byte count
+lzw decoder SimpleName MethodInvocation SimpleName decode
+lzw decoder SimpleName MethodInvocation SimpleName data
+lzw decoder SimpleName MethodInvocation SimpleName bdata
+lzw decoder SimpleName MethodInvocation QualifiedName new rectheight
+decode SimpleName MethodInvocation SimpleName data
+decode SimpleName MethodInvocation SimpleName bdata
+decode SimpleName MethodInvocation QualifiedName new rectheight
+data SimpleName MethodInvocation SimpleName bdata
+data SimpleName MethodInvocation QualifiedName new rectheight
+bdata SimpleName MethodInvocation QualifiedName new rectheight
+compression SimpleName InfixExpression SimpleName comp fax g d
+stream SimpleName MethodInvocation SimpleName read fully
+stream SimpleName MethodInvocation SimpleName data
+stream SimpleName MethodInvocation NumberLiteral empty
+stream SimpleName MethodInvocation SimpleName byte count
+read fully SimpleName MethodInvocation SimpleName data
+read fully SimpleName MethodInvocation NumberLiteral empty
+read fully SimpleName MethodInvocation SimpleName byte count
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName byte count
+empty NumberLiteral MethodInvocation SimpleName byte count
+decoder SimpleName MethodInvocation SimpleName decode d
+decoder SimpleName MethodInvocation SimpleName bdata
+decoder SimpleName MethodInvocation SimpleName data
+decoder SimpleName MethodInvocation NumberLiteral empty
+decoder SimpleName MethodInvocation QualifiedName new rectheight
+decode d SimpleName MethodInvocation SimpleName bdata
+decode d SimpleName MethodInvocation SimpleName data
+decode d SimpleName MethodInvocation NumberLiteral empty
+decode d SimpleName MethodInvocation QualifiedName new rectheight
+bdata SimpleName MethodInvocation SimpleName data
+bdata SimpleName MethodInvocation NumberLiteral empty
+bdata SimpleName MethodInvocation QualifiedName new rectheight
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation QualifiedName new rectheight
+empty NumberLiteral MethodInvocation QualifiedName new rectheight
+compression SimpleName InfixExpression SimpleName comp fax g d
+stream SimpleName MethodInvocation SimpleName read fully
+stream SimpleName MethodInvocation SimpleName data
+stream SimpleName MethodInvocation NumberLiteral empty
+stream SimpleName MethodInvocation SimpleName byte count
+read fully SimpleName MethodInvocation SimpleName data
+read fully SimpleName MethodInvocation NumberLiteral empty
+read fully SimpleName MethodInvocation SimpleName byte count
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName byte count
+empty NumberLiteral MethodInvocation SimpleName byte count
+decoder SimpleName MethodInvocation SimpleName decode d
+decoder SimpleName MethodInvocation SimpleName bdata
+decoder SimpleName MethodInvocation SimpleName data
+decoder SimpleName MethodInvocation NumberLiteral empty
+decoder SimpleName MethodInvocation QualifiedName new rectheight
+decode d SimpleName MethodInvocation SimpleName bdata
+decode d SimpleName MethodInvocation SimpleName data
+decode d SimpleName MethodInvocation NumberLiteral empty
+decode d SimpleName MethodInvocation QualifiedName new rectheight
+decode d SimpleName MethodInvocation SimpleName tiff t options
+bdata SimpleName MethodInvocation SimpleName data
+bdata SimpleName MethodInvocation NumberLiteral empty
+bdata SimpleName MethodInvocation QualifiedName new rectheight
+bdata SimpleName MethodInvocation SimpleName tiff t options
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation QualifiedName new rectheight
+data SimpleName MethodInvocation SimpleName tiff t options
+empty NumberLiteral MethodInvocation QualifiedName new rectheight
+empty NumberLiteral MethodInvocation SimpleName tiff t options
+new rectheight QualifiedName MethodInvocation SimpleName tiff t options
+compression SimpleName InfixExpression SimpleName comp fax g d
+stream SimpleName MethodInvocation SimpleName read fully
+stream SimpleName MethodInvocation SimpleName data
+stream SimpleName MethodInvocation NumberLiteral empty
+stream SimpleName MethodInvocation SimpleName byte count
+read fully SimpleName MethodInvocation SimpleName data
+read fully SimpleName MethodInvocation NumberLiteral empty
+read fully SimpleName MethodInvocation SimpleName byte count
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName byte count
+empty NumberLiteral MethodInvocation SimpleName byte count
+decoder SimpleName MethodInvocation SimpleName decode t
+decoder SimpleName MethodInvocation SimpleName bdata
+decoder SimpleName MethodInvocation SimpleName data
+decoder SimpleName MethodInvocation NumberLiteral empty
+decoder SimpleName MethodInvocation QualifiedName new rectheight
+decode t SimpleName MethodInvocation SimpleName bdata
+decode t SimpleName MethodInvocation SimpleName data
+decode t SimpleName MethodInvocation NumberLiteral empty
+decode t SimpleName MethodInvocation QualifiedName new rectheight
+decode t SimpleName MethodInvocation SimpleName tiff t options
+bdata SimpleName MethodInvocation SimpleName data
+bdata SimpleName MethodInvocation NumberLiteral empty
+bdata SimpleName MethodInvocation QualifiedName new rectheight
+bdata SimpleName MethodInvocation SimpleName tiff t options
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation QualifiedName new rectheight
+data SimpleName MethodInvocation SimpleName tiff t options
+empty NumberLiteral MethodInvocation QualifiedName new rectheight
+empty NumberLiteral MethodInvocation SimpleName tiff t options
+new rectheight QualifiedName MethodInvocation SimpleName tiff t options
+compression SimpleName InfixExpression SimpleName comp deflate
+stream SimpleName MethodInvocation SimpleName read fully
+stream SimpleName MethodInvocation SimpleName data
+stream SimpleName MethodInvocation NumberLiteral empty
+stream SimpleName MethodInvocation SimpleName byte count
+read fully SimpleName MethodInvocation SimpleName data
+read fully SimpleName MethodInvocation NumberLiteral empty
+read fully SimpleName MethodInvocation SimpleName byte count
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName byte count
+empty NumberLiteral MethodInvocation SimpleName byte count
+inflate SimpleName MethodInvocation SimpleName data
+inflate SimpleName MethodInvocation SimpleName bdata
+data SimpleName MethodInvocation SimpleName bdata
+compression SimpleName InfixExpression SimpleName comp none
+stream SimpleName MethodInvocation SimpleName read fully
+stream SimpleName MethodInvocation SimpleName bdata
+stream SimpleName MethodInvocation NumberLiteral empty
+stream SimpleName MethodInvocation SimpleName byte count
+read fully SimpleName MethodInvocation SimpleName bdata
+read fully SimpleName MethodInvocation NumberLiteral empty
+read fully SimpleName MethodInvocation SimpleName byte count
+bdata SimpleName MethodInvocation NumberLiteral empty
+bdata SimpleName MethodInvocation SimpleName byte count
+empty NumberLiteral MethodInvocation SimpleName byte count
+stream SimpleName MethodInvocation SimpleName seek
+stream SimpleName MethodInvocation SimpleName save offset
+seek SimpleName MethodInvocation SimpleName save offset
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image
+image type SimpleName InfixExpression SimpleName type palette
+sample size SimpleName InfixExpression NumberLiteral empty
+short PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName temp data
+units in this tile SimpleName InfixExpression NumberLiteral empty
+units before lookup SimpleName VariableDeclarationFragment InfixExpression SimpleName units in this tile
+units before lookup SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName units before lookup
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName units in this tile
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+units before lookup SimpleName InfixExpression NumberLiteral empty
+entries SimpleName VariableDeclarationFragment InfixExpression SimpleName units before lookup
+entries SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName entries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName units before lookup
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+compression SimpleName InfixExpression SimpleName comp packbits
+stream SimpleName MethodInvocation SimpleName read fully
+stream SimpleName MethodInvocation SimpleName data
+stream SimpleName MethodInvocation NumberLiteral empty
+stream SimpleName MethodInvocation SimpleName byte count
+read fully SimpleName MethodInvocation SimpleName data
+read fully SimpleName MethodInvocation NumberLiteral empty
+read fully SimpleName MethodInvocation SimpleName byte count
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName byte count
+empty NumberLiteral MethodInvocation SimpleName byte count
+byte PrimitiveType ArrayType ArrayCreation SimpleName entries
+byte array SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+byte array SimpleName VariableDeclarationFragment ArrayCreation SimpleName entries
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName byte array
+decode packbits SimpleName MethodInvocation SimpleName data
+decode packbits SimpleName MethodInvocation SimpleName entries
+decode packbits SimpleName MethodInvocation SimpleName byte array
+data SimpleName MethodInvocation SimpleName entries
+data SimpleName MethodInvocation SimpleName byte array
+entries SimpleName MethodInvocation SimpleName byte array
+short PrimitiveType ArrayType ArrayCreation SimpleName units before lookup
+temp data SimpleName Assignment ArrayCreation ArrayType PrimitiveType short
+temp data SimpleName Assignment ArrayCreation SimpleName units before lookup
+interpret bytes as shorts SimpleName MethodInvocation SimpleName byte array
+interpret bytes as shorts SimpleName MethodInvocation SimpleName temp data
+interpret bytes as shorts SimpleName MethodInvocation SimpleName units before lookup
+byte array SimpleName MethodInvocation SimpleName temp data
+byte array SimpleName MethodInvocation SimpleName units before lookup
+temp data SimpleName MethodInvocation SimpleName units before lookup
+compression SimpleName InfixExpression SimpleName comp lzw
+stream SimpleName MethodInvocation SimpleName read fully
+stream SimpleName MethodInvocation SimpleName data
+stream SimpleName MethodInvocation NumberLiteral empty
+stream SimpleName MethodInvocation SimpleName byte count
+read fully SimpleName MethodInvocation SimpleName data
+read fully SimpleName MethodInvocation NumberLiteral empty
+read fully SimpleName MethodInvocation SimpleName byte count
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName byte count
+empty NumberLiteral MethodInvocation SimpleName byte count
+byte PrimitiveType ArrayType ArrayCreation SimpleName entries
+byte array SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+byte array SimpleName VariableDeclarationFragment ArrayCreation SimpleName entries
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName byte array
+lzw decoder SimpleName MethodInvocation SimpleName decode
+lzw decoder SimpleName MethodInvocation SimpleName data
+lzw decoder SimpleName MethodInvocation SimpleName byte array
+lzw decoder SimpleName MethodInvocation QualifiedName new rectheight
+decode SimpleName MethodInvocation SimpleName data
+decode SimpleName MethodInvocation SimpleName byte array
+decode SimpleName MethodInvocation QualifiedName new rectheight
+data SimpleName MethodInvocation SimpleName byte array
+data SimpleName MethodInvocation QualifiedName new rectheight
+byte array SimpleName MethodInvocation QualifiedName new rectheight
+short PrimitiveType ArrayType ArrayCreation SimpleName units before lookup
+temp data SimpleName Assignment ArrayCreation ArrayType PrimitiveType short
+temp data SimpleName Assignment ArrayCreation SimpleName units before lookup
+interpret bytes as shorts SimpleName MethodInvocation SimpleName byte array
+interpret bytes as shorts SimpleName MethodInvocation SimpleName temp data
+interpret bytes as shorts SimpleName MethodInvocation SimpleName units before lookup
+byte array SimpleName MethodInvocation SimpleName temp data
+byte array SimpleName MethodInvocation SimpleName units before lookup
+temp data SimpleName MethodInvocation SimpleName units before lookup
+compression SimpleName InfixExpression SimpleName comp deflate
+stream SimpleName MethodInvocation SimpleName read fully
+stream SimpleName MethodInvocation SimpleName data
+stream SimpleName MethodInvocation NumberLiteral empty
+stream SimpleName MethodInvocation SimpleName byte count
+read fully SimpleName MethodInvocation SimpleName data
+read fully SimpleName MethodInvocation NumberLiteral empty
+read fully SimpleName MethodInvocation SimpleName byte count
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName byte count
+empty NumberLiteral MethodInvocation SimpleName byte count
+byte PrimitiveType ArrayType ArrayCreation SimpleName entries
+byte array SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+byte array SimpleName VariableDeclarationFragment ArrayCreation SimpleName entries
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName byte array
+inflate SimpleName MethodInvocation SimpleName data
+inflate SimpleName MethodInvocation SimpleName byte array
+data SimpleName MethodInvocation SimpleName byte array
+short PrimitiveType ArrayType ArrayCreation SimpleName units before lookup
+temp data SimpleName Assignment ArrayCreation ArrayType PrimitiveType short
+temp data SimpleName Assignment ArrayCreation SimpleName units before lookup
+interpret bytes as shorts SimpleName MethodInvocation SimpleName byte array
+interpret bytes as shorts SimpleName MethodInvocation SimpleName temp data
+interpret bytes as shorts SimpleName MethodInvocation SimpleName units before lookup
+byte array SimpleName MethodInvocation SimpleName temp data
+byte array SimpleName MethodInvocation SimpleName units before lookup
+temp data SimpleName MethodInvocation SimpleName units before lookup
+compression SimpleName InfixExpression SimpleName comp none
+byte count SimpleName InfixExpression NumberLiteral empty
+short PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName byte count
+short PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+temp data SimpleName Assignment ArrayCreation ArrayType PrimitiveType short
+temp data SimpleName Assignment ArrayCreation InfixExpression SimpleName byte count
+temp data SimpleName Assignment ArrayCreation InfixExpression NumberLiteral empty
+byte count SimpleName InfixExpression NumberLiteral empty
+read shorts SimpleName MethodInvocation InfixExpression SimpleName byte count
+read shorts SimpleName MethodInvocation InfixExpression NumberLiteral empty
+read shorts SimpleName MethodInvocation SimpleName temp data
+byte count SimpleName InfixExpression MethodInvocation SimpleName temp data
+empty NumberLiteral InfixExpression MethodInvocation SimpleName temp data
+stream SimpleName MethodInvocation SimpleName seek
+stream SimpleName MethodInvocation SimpleName save offset
+seek SimpleName MethodInvocation SimpleName save offset
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image
+data type SimpleName InfixExpression QualifiedName data buffertype ushort
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmap value
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+colormaplength QualifiedName InfixExpression NumberLiteral empty
+len SimpleName VariableDeclarationFragment InfixExpression QualifiedName colormaplength
+len SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName lookup
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName colormaplength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+count SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName lookup
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName lookup
+count SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+lookup SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+len SimpleName InfixExpression NumberLiteral empty
+len SimpleName VariableDeclarationFragment InfixExpression SimpleName len
+len SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName units before lookup
+temp data SimpleName ArrayAccess SimpleName i
+temp data SimpleName ArrayAccess InfixExpression NumberLiteral xffff
+i SimpleName ArrayAccess InfixExpression NumberLiteral xffff
+lookup SimpleName Assignment InfixExpression ArrayAccess SimpleName temp data
+lookup SimpleName Assignment InfixExpression ArrayAccess SimpleName i
+lookup SimpleName Assignment InfixExpression NumberLiteral xffff
+lookup SimpleName InfixExpression SimpleName len
+colormap SimpleName ArrayAccess InfixExpression SimpleName lookup
+colormap SimpleName ArrayAccess InfixExpression SimpleName len
+cmap value SimpleName Assignment ArrayAccess SimpleName colormap
+cmap value SimpleName Assignment ArrayAccess InfixExpression SimpleName lookup
+cmap value SimpleName Assignment ArrayAccess InfixExpression SimpleName len
+sdata SimpleName ArrayAccess PostfixExpression SimpleName count
+cmap value SimpleName InfixExpression NumberLiteral xffff
+short PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName cmap value
+short PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral xffff
+sdata SimpleName ArrayAccess Assignment CastExpression PrimitiveType short
+lookup SimpleName InfixExpression SimpleName len
+colormap SimpleName ArrayAccess InfixExpression SimpleName lookup
+colormap SimpleName ArrayAccess InfixExpression SimpleName len
+cmap value SimpleName Assignment ArrayAccess SimpleName colormap
+cmap value SimpleName Assignment ArrayAccess InfixExpression SimpleName lookup
+cmap value SimpleName Assignment ArrayAccess InfixExpression SimpleName len
+sdata SimpleName ArrayAccess PostfixExpression SimpleName count
+cmap value SimpleName InfixExpression NumberLiteral xffff
+short PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName cmap value
+short PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral xffff
+sdata SimpleName ArrayAccess Assignment CastExpression PrimitiveType short
+colormap SimpleName ArrayAccess SimpleName lookup
+cmap value SimpleName Assignment ArrayAccess SimpleName colormap
+cmap value SimpleName Assignment ArrayAccess SimpleName lookup
+sdata SimpleName ArrayAccess PostfixExpression SimpleName count
+cmap value SimpleName InfixExpression NumberLiteral xffff
+short PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName cmap value
+short PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral xffff
+sdata SimpleName ArrayAccess Assignment CastExpression PrimitiveType short
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName units before lookup
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+units before lookup SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+data type SimpleName InfixExpression QualifiedName data buffertype short
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cmap value
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+colormaplength QualifiedName InfixExpression NumberLiteral empty
+len SimpleName VariableDeclarationFragment InfixExpression QualifiedName colormaplength

@@ -1,0 +1,48 @@
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+bridge mutation event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+event SimpleName MethodInvocation SimpleName get source
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName event
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get source
+context SimpleName MethodInvocation SimpleName get bridge
+context SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+context SimpleName MethodInvocation CastExpression MethodInvocation SimpleName event
+context SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get source
+get bridge SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+get bridge SimpleName MethodInvocation CastExpression MethodInvocation SimpleName event
+get bridge SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get source
+graphics node bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName context
+graphics node bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName get bridge
+bridge SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName graphics node bridge
+bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName context
+bridge SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get bridge
+graphics node bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bridge
+bridge SimpleName MethodInvocation SimpleName update
+bridge SimpleName MethodInvocation SimpleName event
+update SimpleName MethodInvocation SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add dirty node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge mutation event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName add dirty node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge mutation event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+add dirty node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+add dirty node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+add dirty node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge mutation event
+add dirty node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add dirty node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add dirty node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

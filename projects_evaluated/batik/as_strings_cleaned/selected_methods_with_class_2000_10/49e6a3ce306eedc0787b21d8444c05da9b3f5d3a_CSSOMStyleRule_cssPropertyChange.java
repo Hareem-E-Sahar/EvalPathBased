@@ -1,0 +1,47 @@
+css property change event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get property name
+evt SimpleName MethodInvocation SimpleName get old value
+evt SimpleName MethodInvocation SimpleName get new value
+style rule change support SimpleName MethodInvocation SimpleName fire css property change
+style rule change support SimpleName MethodInvocation MethodInvocation SimpleName evt
+style rule change support SimpleName MethodInvocation MethodInvocation SimpleName get property name
+style rule change support SimpleName MethodInvocation MethodInvocation SimpleName evt
+style rule change support SimpleName MethodInvocation MethodInvocation SimpleName get old value
+style rule change support SimpleName MethodInvocation MethodInvocation SimpleName evt
+style rule change support SimpleName MethodInvocation MethodInvocation SimpleName get new value
+fire css property change SimpleName MethodInvocation MethodInvocation SimpleName evt
+fire css property change SimpleName MethodInvocation MethodInvocation SimpleName get property name
+fire css property change SimpleName MethodInvocation MethodInvocation SimpleName evt
+fire css property change SimpleName MethodInvocation MethodInvocation SimpleName get old value
+fire css property change SimpleName MethodInvocation MethodInvocation SimpleName evt
+fire css property change SimpleName MethodInvocation MethodInvocation SimpleName get new value
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get old value
+get property name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+get property name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get old value
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get new value
+get property name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+get property name SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get new value
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get new value
+get old value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+get old value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get new value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName css property change
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css property change event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName css property change
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css property change event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+css property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css property change event
+css property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName css property change
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName css property change
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

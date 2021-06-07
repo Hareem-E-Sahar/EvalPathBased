@@ -1,0 +1,77 @@
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+element SimpleName SimpleType SingleVariableDeclaration SimpleName style
+element style att map SimpleName MethodInvocation SimpleName get
+element style att map SimpleName MethodInvocation SimpleName style
+get SimpleName MethodInvocation SimpleName style
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName element style att map
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName style
+list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName linked list
+list SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName element style att map
+list SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+list SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName style
+linked list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName removed
+list SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName list
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+style reference SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+style reference SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+style ref SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName style reference
+style ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName it
+style ref SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+style reference SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName style ref
+style ref SimpleName MethodInvocation SimpleName get graphics node
+style ref SimpleName MethodInvocation InfixExpression SimpleName node
+get graphics node SimpleName MethodInvocation InfixExpression SimpleName node
+removed SimpleName Assignment ClassInstanceCreation SimpleType SimpleName linked list
+removed SimpleName MethodInvocation SimpleName add
+removed SimpleName MethodInvocation SimpleName style ref
+add SimpleName MethodInvocation SimpleName style ref
+removed SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName removed
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+list SimpleName MethodInvocation SimpleName remove
+list SimpleName MethodInvocation MethodInvocation SimpleName it
+list SimpleName MethodInvocation MethodInvocation SimpleName next
+remove SimpleName MethodInvocation MethodInvocation SimpleName it
+remove SimpleName MethodInvocation MethodInvocation SimpleName next
+list SimpleName MethodInvocation SimpleName size
+list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+element style att map SimpleName MethodInvocation SimpleName remove
+element style att map SimpleName MethodInvocation SimpleName style
+remove SimpleName MethodInvocation SimpleName style
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName remove style reference
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName style
+void PrimitiveType MethodDeclaration SimpleName remove style reference
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName style
+remove style reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+remove style reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+remove style reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+remove style reference SimpleName MethodDeclaration SingleVariableDeclaration SimpleName style
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName style
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove style reference
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName style
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove style reference
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName style

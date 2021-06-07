@@ -1,0 +1,13 @@
+shape painter SimpleName SimpleType SingleVariableDeclaration SimpleName shape painter
+void PrimitiveType MethodDeclaration SimpleName add shape painter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape painter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shape painter
+add shape painter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape painter
+add shape painter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shape painter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add shape painter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape painter
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add shape painter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape painter

@@ -1,0 +1,396 @@
+size SimpleName InfixExpression NumberLiteral empty
+assign glyph group ranges SimpleName MethodInvocation SimpleName size
+assign glyph group ranges SimpleName MethodInvocation SimpleName ggis
+size SimpleName MethodInvocation SimpleName ggis
+ggis SimpleName ArrayAccess NumberLiteral empty
+ggis SimpleName ArrayAccess MethodInvocation SimpleName get glyph vector
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName get glyph vector
+gv SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName ggis
+gv SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+gv SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph vector
+gvt glyph vector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gv
+just type SimpleName VariableDeclarationFragment SimpleName full word
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName just type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName full word
+gg adv SimpleName VariableDeclarationFragment NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName gg adv
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+g adv SimpleName VariableDeclarationFragment NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName g adv
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation SimpleName num ranges
+range gg SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+range gg SimpleName VariableDeclarationFragment ArrayCreation SimpleName num ranges
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName range gg
+int PrimitiveType ArrayType ArrayCreation SimpleName num ranges
+range g SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+range g SimpleName VariableDeclarationFragment ArrayCreation SimpleName num ranges
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName range g
+ggis SimpleName ArrayAccess NumberLiteral empty
+ggi SimpleName VariableDeclarationFragment ArrayAccess SimpleName ggis
+ggi SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+glyph group info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ggi
+ggi SimpleName MethodInvocation SimpleName get range
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName ggi
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get range
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ggi
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get range
+range gg SimpleName ArrayAccess SimpleName r
+range g SimpleName ArrayAccess SimpleName r
+ggi SimpleName MethodInvocation SimpleName get glyph count
+range g SimpleName ArrayAccess Assignment MethodInvocation SimpleName ggi
+range g SimpleName ArrayAccess Assignment MethodInvocation SimpleName get glyph count
+r SimpleName ArrayAccess Assignment MethodInvocation SimpleName ggi
+r SimpleName ArrayAccess Assignment MethodInvocation SimpleName get glyph count
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName size
+ggis SimpleName ArrayAccess SimpleName i
+ggi SimpleName Assignment ArrayAccess SimpleName ggis
+ggi SimpleName Assignment ArrayAccess SimpleName i
+ggi SimpleName MethodInvocation SimpleName get range
+r SimpleName Assignment MethodInvocation SimpleName ggi
+r SimpleName Assignment MethodInvocation SimpleName get range
+ggi SimpleName MethodInvocation SimpleName get hide last
+range gg SimpleName ArrayAccess SimpleName r
+range g SimpleName ArrayAccess SimpleName r
+ggi SimpleName MethodInvocation SimpleName get glyph count
+range g SimpleName ArrayAccess Assignment MethodInvocation SimpleName ggi
+range g SimpleName ArrayAccess Assignment MethodInvocation SimpleName get glyph count
+r SimpleName ArrayAccess Assignment MethodInvocation SimpleName ggi
+r SimpleName ArrayAccess Assignment MethodInvocation SimpleName get glyph count
+i SimpleName InfixExpression NumberLiteral empty
+ggis SimpleName ArrayAccess InfixExpression SimpleName i
+ggis SimpleName ArrayAccess InfixExpression NumberLiteral empty
+pggi SimpleName VariableDeclarationFragment ArrayAccess SimpleName ggis
+pggi SimpleName VariableDeclarationFragment ArrayAccess InfixExpression SimpleName i
+pggi SimpleName VariableDeclarationFragment ArrayAccess InfixExpression NumberLiteral empty
+glyph group info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pggi
+pggi SimpleName MethodInvocation SimpleName get range
+pr SimpleName VariableDeclarationFragment MethodInvocation SimpleName pggi
+pr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get range
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pr
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pggi
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get range
+r SimpleName InfixExpression SimpleName pr
+range g SimpleName ArrayAccess SimpleName pr
+pggi SimpleName MethodInvocation SimpleName get last glyph count
+pggi SimpleName MethodInvocation SimpleName get glyph count
+pggi SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pggi
+pggi SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get glyph count
+get last glyph count SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName pggi
+get last glyph count SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get glyph count
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName size
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+size SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+range g SimpleName ArrayAccess SimpleName r
+ggi SimpleName MethodInvocation SimpleName get last glyph count
+ggi SimpleName MethodInvocation SimpleName get glyph count
+ggi SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ggi
+ggi SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get glyph count
+get last glyph count SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ggi
+get last glyph count SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get glyph count
+curr range SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName curr range
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+loc x SimpleName VariableDeclarationFragment NumberLiteral empty
+range SimpleName VariableDeclarationFragment NumberLiteral empty
+r adv SimpleName VariableDeclarationFragment NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName loc x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName range
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName r adv
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+loc x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName range
+loc x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName range
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+loc x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName r adv
+loc x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName r adv
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+range SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName r adv
+range SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName r adv
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+r SimpleName Assignment PrefixExpression NumberLiteral empty
+ggis SimpleName ArrayAccess NumberLiteral empty
+ggi SimpleName Assignment ArrayAccess SimpleName ggis
+ggi SimpleName Assignment ArrayAccess NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName size
+pggi SimpleName VariableDeclarationFragment SimpleName ggi
+glyph group info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pggi
+glyph group info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ggi
+prev range SimpleName VariableDeclarationFragment SimpleName curr range
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev range
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName curr range
+ggis SimpleName ArrayAccess SimpleName i
+ggi SimpleName Assignment ArrayAccess SimpleName ggis
+ggi SimpleName Assignment ArrayAccess SimpleName i
+ggi SimpleName MethodInvocation SimpleName get range
+curr range SimpleName Assignment MethodInvocation SimpleName ggi
+curr range SimpleName Assignment MethodInvocation SimpleName get range
+curr range SimpleName InfixExpression SimpleName prev range
+empty NumberLiteral InfixExpression SimpleName curr range
+ranges SimpleName ArrayAccess InfixExpression NumberLiteral empty
+ranges SimpleName ArrayAccess InfixExpression SimpleName curr range
+loc x SimpleName Assignment ArrayAccess SimpleName ranges
+loc x SimpleName Assignment ArrayAccess InfixExpression NumberLiteral empty
+loc x SimpleName Assignment ArrayAccess InfixExpression SimpleName curr range
+empty NumberLiteral InfixExpression SimpleName curr range
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+curr range SimpleName InfixExpression InfixExpression NumberLiteral empty
+ranges SimpleName ArrayAccess InfixExpression InfixExpression NumberLiteral empty
+ranges SimpleName ArrayAccess InfixExpression InfixExpression SimpleName curr range
+ranges SimpleName ArrayAccess InfixExpression NumberLiteral empty
+ranges SimpleName ArrayAccess InfixExpression SimpleName loc x
+empty NumberLiteral InfixExpression ArrayAccess InfixExpression SimpleName loc x
+range SimpleName Assignment InfixExpression ArrayAccess SimpleName ranges
+range SimpleName Assignment InfixExpression SimpleName loc x
+range adv SimpleName ArrayAccess SimpleName curr range
+r adv SimpleName Assignment ArrayAccess SimpleName range adv
+r adv SimpleName Assignment ArrayAccess SimpleName curr range
+bi SimpleName MethodInvocation SimpleName get text alignment
+text align SimpleName VariableDeclarationFragment MethodInvocation SimpleName bi
+text align SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text alignment
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName text align
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName bi
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get text alignment
+text align SimpleName InfixExpression QualifiedName block infoalign full
+text align SimpleName Assignment QualifiedName block infoalign start
+range SimpleName InfixExpression SimpleName r adv
+delta SimpleName VariableDeclarationFragment InfixExpression SimpleName range
+delta SimpleName VariableDeclarationFragment InfixExpression SimpleName r adv
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName delta
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName range
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName r adv
+just type SimpleName InfixExpression SimpleName full word
+range gg SimpleName ArrayAccess SimpleName curr range
+range gg SimpleName ArrayAccess InfixExpression NumberLiteral empty
+curr range SimpleName ArrayAccess InfixExpression NumberLiteral empty
+num sp SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName range gg
+num sp SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName curr range
+num sp SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num sp
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+num sp SimpleName InfixExpression NumberLiteral empty
+delta SimpleName InfixExpression SimpleName num sp
+gg adv SimpleName Assignment InfixExpression SimpleName delta
+gg adv SimpleName Assignment InfixExpression SimpleName num sp
+range g SimpleName ArrayAccess SimpleName curr range
+range g SimpleName ArrayAccess InfixExpression NumberLiteral empty
+curr range SimpleName ArrayAccess InfixExpression NumberLiteral empty
+num sp SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName range g
+num sp SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName curr range
+num sp SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num sp
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+num sp SimpleName InfixExpression NumberLiteral empty
+delta SimpleName InfixExpression SimpleName num sp
+g adv SimpleName Assignment InfixExpression SimpleName delta
+g adv SimpleName Assignment InfixExpression SimpleName num sp
+range SimpleName InfixExpression SimpleName r adv
+range SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+r adv SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+loc x SimpleName Assignment InfixExpression NumberLiteral empty
+range SimpleName InfixExpression SimpleName r adv
+loc x SimpleName Assignment ParenthesizedExpression InfixExpression SimpleName range
+loc x SimpleName Assignment ParenthesizedExpression InfixExpression SimpleName r adv
+text align SimpleName SwitchStatement SwitchCase QualifiedName block infoalign full
+text align SimpleName SwitchStatement Block VariableDeclarationStatement PrimitiveType double
+text align SimpleName SwitchStatement SwitchCase QualifiedName block infoalign start
+block infoalign full QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName block infoalign start
+block infoalign full QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName block infoalign middle
+block infoalign start QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName block infoalign middle
+block infoalign start QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName block infoalign end
+block infoalign middle QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName block infoalign end
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName text align
+pggi SimpleName MethodInvocation SimpleName get hide last
+pggi SimpleName MethodInvocation SimpleName get end
+gv SimpleName MethodInvocation SimpleName set glyph visible
+gv SimpleName MethodInvocation MethodInvocation SimpleName pggi
+gv SimpleName MethodInvocation MethodInvocation SimpleName get end
+gv SimpleName MethodInvocation BooleanLiteral false
+set glyph visible SimpleName MethodInvocation MethodInvocation SimpleName pggi
+set glyph visible SimpleName MethodInvocation MethodInvocation SimpleName get end
+set glyph visible SimpleName MethodInvocation BooleanLiteral false
+pggi SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get end SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+ggi SimpleName MethodInvocation SimpleName get start
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName ggi
+start SimpleName VariableDeclarationFragment MethodInvocation SimpleName get start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ggi
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get start
+ggi SimpleName MethodInvocation SimpleName get end
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName ggi
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName get end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ggi
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get end
+ggi SimpleName MethodInvocation SimpleName get hide
+hide SimpleName VariableDeclarationFragment MethodInvocation SimpleName ggi
+hide SimpleName VariableDeclarationFragment MethodInvocation SimpleName get hide
+boolean PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName hide
+gv SimpleName MethodInvocation SimpleName get glyph position
+gv SimpleName MethodInvocation SimpleName start
+get glyph position SimpleName MethodInvocation SimpleName start
+p d SimpleName VariableDeclarationFragment MethodInvocation SimpleName gv
+p d SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph position
+p d SimpleName VariableDeclarationFragment MethodInvocation SimpleName start
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p d
+p d SimpleName MethodInvocation SimpleName get x
+delta x SimpleName VariableDeclarationFragment MethodInvocation SimpleName p d
+delta x SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName delta x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName p d
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get x
+adv adj SimpleName VariableDeclarationFragment NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName adv adj
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+g SimpleName VariableDeclarationFragment SimpleName start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName g
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName start
+g SimpleName InfixExpression SimpleName end
+g SimpleName InfixExpression NumberLiteral empty
+gv SimpleName MethodInvocation SimpleName get glyph position
+gv SimpleName MethodInvocation InfixExpression SimpleName g
+gv SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get glyph position SimpleName MethodInvocation InfixExpression SimpleName g
+get glyph position SimpleName MethodInvocation InfixExpression NumberLiteral empty
+np d SimpleName VariableDeclarationFragment MethodInvocation SimpleName gv
+np d SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph position
+np d SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName g
+np d SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName np d
+g SimpleName InfixExpression SimpleName start
+hide SimpleName ArrayAccess InfixExpression SimpleName g
+hide SimpleName ArrayAccess InfixExpression SimpleName start
+gv SimpleName MethodInvocation SimpleName set glyph visible
+gv SimpleName MethodInvocation SimpleName g
+gv SimpleName MethodInvocation BooleanLiteral false
+set glyph visible SimpleName MethodInvocation SimpleName g
+set glyph visible SimpleName MethodInvocation BooleanLiteral false
+g SimpleName MethodInvocation BooleanLiteral false
+np d SimpleName MethodInvocation SimpleName get x
+p d SimpleName MethodInvocation SimpleName get x
+np d SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p d
+np d SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p d
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+adv adj SimpleName Assignment InfixExpression MethodInvocation SimpleName np d
+adv adj SimpleName Assignment InfixExpression MethodInvocation SimpleName get x
+adv adj SimpleName Assignment InfixExpression MethodInvocation SimpleName p d
+adv adj SimpleName Assignment InfixExpression MethodInvocation SimpleName get x
+gv SimpleName MethodInvocation SimpleName set glyph visible
+gv SimpleName MethodInvocation SimpleName g
+gv SimpleName MethodInvocation BooleanLiteral true
+set glyph visible SimpleName MethodInvocation SimpleName g
+set glyph visible SimpleName MethodInvocation BooleanLiteral true
+g SimpleName MethodInvocation BooleanLiteral true
+p d SimpleName MethodInvocation SimpleName get x
+p d SimpleName MethodInvocation InfixExpression SimpleName delta x
+get x SimpleName MethodInvocation InfixExpression SimpleName delta x
+p d SimpleName MethodInvocation InfixExpression SimpleName adv adj
+get x SimpleName MethodInvocation InfixExpression SimpleName adv adj
+delta x SimpleName InfixExpression SimpleName adv adj
+p d SimpleName MethodInvocation InfixExpression InfixExpression SimpleName loc x
+get x SimpleName MethodInvocation InfixExpression InfixExpression SimpleName loc x
+delta x SimpleName InfixExpression InfixExpression SimpleName loc x
+adv adj SimpleName InfixExpression InfixExpression SimpleName loc x
+p d SimpleName MethodInvocation SimpleName get y
+p d SimpleName MethodInvocation InfixExpression SimpleName baseline
+get y SimpleName MethodInvocation InfixExpression SimpleName baseline
+p d SimpleName MethodInvocation SimpleName set location
+p d SimpleName MethodInvocation InfixExpression InfixExpression SimpleName delta x
+p d SimpleName MethodInvocation InfixExpression InfixExpression SimpleName adv adj
+p d SimpleName MethodInvocation InfixExpression SimpleName loc x
+p d SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p d
+p d SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+p d SimpleName MethodInvocation InfixExpression SimpleName baseline
+set location SimpleName MethodInvocation InfixExpression InfixExpression SimpleName delta x
+set location SimpleName MethodInvocation InfixExpression InfixExpression SimpleName adv adj
+set location SimpleName MethodInvocation InfixExpression SimpleName loc x
+set location SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName p d
+set location SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+set location SimpleName MethodInvocation InfixExpression SimpleName baseline
+loc x SimpleName InfixExpression MethodInvocation InfixExpression SimpleName baseline
+gv SimpleName MethodInvocation SimpleName set glyph position
+gv SimpleName MethodInvocation SimpleName g
+gv SimpleName MethodInvocation SimpleName p d
+set glyph position SimpleName MethodInvocation SimpleName g
+set glyph position SimpleName MethodInvocation SimpleName p d
+g SimpleName MethodInvocation SimpleName p d
+p d SimpleName Assignment SimpleName np d
+adv adj SimpleName Assignment SimpleName g adv
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName g
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName g
+g SimpleName InfixExpression ForStatement PostfixExpression SimpleName g
+end SimpleName InfixExpression ForStatement PostfixExpression SimpleName g
+ggi SimpleName MethodInvocation SimpleName get advance
+ggi SimpleName MethodInvocation InfixExpression SimpleName adv adj
+get advance SimpleName MethodInvocation InfixExpression SimpleName adv adj
+ggi SimpleName MethodInvocation InfixExpression InfixExpression SimpleName gg adv
+get advance SimpleName MethodInvocation InfixExpression InfixExpression SimpleName gg adv
+adv adj SimpleName InfixExpression InfixExpression SimpleName gg adv
+loc x SimpleName Assignment InfixExpression InfixExpression SimpleName adv adj
+loc x SimpleName Assignment InfixExpression SimpleName gg adv
+prev range SimpleName Assignment SimpleName curr range
+pggi SimpleName Assignment SimpleName ggi
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName size
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+size SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName layout
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+void PrimitiveType MethodDeclaration SimpleName layout
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+layout SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+layout SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+layout SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+layout SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+layout SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+layout SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName layout
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName layout

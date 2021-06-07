@@ -1,0 +1,22 @@
+float PrimitiveType SingleVariableDeclaration SimpleName distance
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! svgom path elementget path seg at length
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get path seg at length
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName distance
+int PrimitiveType MethodDeclaration SimpleName get path seg at length
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName distance
+get path seg at length SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+get path seg at length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName distance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get path seg at length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName distance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get path seg at length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName distance

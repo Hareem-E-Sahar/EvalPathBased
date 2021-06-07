@@ -1,0 +1,66 @@
+rectangle d SimpleName SimpleType SingleVariableDeclaration SimpleName r
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+node SimpleName MethodInvocation SimpleName get geometry bounds
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get geometry bounds
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bounds
+bounds SimpleName MethodInvocation SimpleName get x
+r SimpleName MethodInvocation SimpleName get x
+bounds SimpleName MethodInvocation SimpleName get width
+r SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bounds
+r SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bounds
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+bounds SimpleName MethodInvocation SimpleName get y
+r SimpleName MethodInvocation SimpleName get y
+bounds SimpleName MethodInvocation SimpleName get height
+r SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bounds
+r SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get height
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bounds
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get height
+r SimpleName MethodInvocation SimpleName get width
+bounds SimpleName MethodInvocation SimpleName get width
+r SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bounds
+r SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+get width SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bounds
+get width SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+r SimpleName MethodInvocation SimpleName get height
+bounds SimpleName MethodInvocation SimpleName get height
+r SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bounds
+r SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get height
+get height SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bounds
+get height SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get height
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName to object b box
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+static Modifier MethodDeclaration SimpleType SimpleName rectangle d
+static Modifier MethodDeclaration SimpleName to object b box
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle d
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName to object b box
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName r
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+to object b box SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle d
+to object b box SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+to object b box SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+to object b box SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+r SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName to object b box
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to object b box
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

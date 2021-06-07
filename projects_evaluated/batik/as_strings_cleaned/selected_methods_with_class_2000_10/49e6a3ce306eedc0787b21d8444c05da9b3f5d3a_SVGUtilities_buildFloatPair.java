@@ -1,0 +1,122 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName attr name
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName uri
+element SimpleName MethodInvocation SimpleName attr name
+get attribute ns SimpleName MethodInvocation SimpleName uri
+get attribute ns SimpleName MethodInvocation SimpleName attr name
+uri SimpleName MethodInvocation SimpleName attr name
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+std deviation : StringLiteral InfixExpression SimpleName attr value
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral std deviation :
+systemout QualifiedName MethodInvocation InfixExpression SimpleName attr value
+println SimpleName MethodInvocation InfixExpression StringLiteral std deviation :
+println SimpleName MethodInvocation InfixExpression SimpleName attr value
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName attr value
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName attr value
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+float SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+pair SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+st SimpleName MethodInvocation SimpleName count tokens
+st SimpleName MethodInvocation InfixExpression NumberLiteral empty
+count tokens SimpleName MethodInvocation InfixExpression NumberLiteral empty
+st SimpleName MethodInvocation SimpleName next token
+first value SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+first value SimpleName VariableDeclarationFragment MethodInvocation SimpleName next token
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName first value
+pair SimpleName ArrayAccess NumberLiteral empty
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation SimpleName first value
+parse float SimpleName MethodInvocation SimpleName first value
+float SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName float
+float SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse float
+float SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName first value
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+pair SimpleName ArrayAccess NumberLiteral empty
+st SimpleName MethodInvocation SimpleName has more tokens
+st SimpleName MethodInvocation SimpleName next token
+second value SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+second value SimpleName VariableDeclarationFragment MethodInvocation SimpleName next token
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName second value
+pair SimpleName ArrayAccess NumberLiteral empty
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation SimpleName second value
+parse float SimpleName MethodInvocation SimpleName second value
+float SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName float
+float SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse float
+float SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName second value
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+pair SimpleName ArrayAccess NumberLiteral empty
+pair SimpleName ArrayAccess NumberLiteral empty
+pair : StringLiteral InfixExpression ArrayAccess SimpleName pair
+pair : StringLiteral InfixExpression ArrayAccess NumberLiteral empty
+pair : StringLiteral InfixExpression StringLiteral /
+pair : StringLiteral InfixExpression ArrayAccess SimpleName pair
+pair : StringLiteral InfixExpression ArrayAccess NumberLiteral empty
+pair SimpleName ArrayAccess InfixExpression StringLiteral /
+empty NumberLiteral ArrayAccess InfixExpression StringLiteral /
+pair SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName pair
+pair SimpleName ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression ArrayAccess SimpleName pair
+empty NumberLiteral ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+/ StringLiteral InfixExpression ArrayAccess SimpleName pair
+/ StringLiteral InfixExpression ArrayAccess NumberLiteral empty
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral pair :
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess SimpleName pair
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral /
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess SimpleName pair
+systemout QualifiedName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+println SimpleName MethodInvocation InfixExpression StringLiteral pair :
+println SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName pair
+println SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+println SimpleName MethodInvocation InfixExpression StringLiteral /
+println SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName pair
+println SimpleName MethodInvocation InfixExpression ArrayAccess NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName float
+public Modifier MethodDeclaration SimpleName build float pair
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName float
+static Modifier MethodDeclaration SimpleName build float pair
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName attr name
+float SimpleName SimpleType ArrayType MethodDeclaration SimpleName build float pair
+build float pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+build float pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+build float pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+build float pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+build float pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+build float pair SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attr name
+build float pair SimpleName MethodDeclaration Block ReturnStatement SimpleName pair
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName build float pair
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build float pair
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attr name

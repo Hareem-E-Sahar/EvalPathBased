@@ -1,0 +1,13 @@
+renderable image SimpleName SimpleType SingleVariableDeclaration SimpleName new image
+void PrimitiveType MethodDeclaration SimpleName set image
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName renderable image
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new image
+set image SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName renderable image
+set image SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new image
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set image
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new image
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set image
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new image

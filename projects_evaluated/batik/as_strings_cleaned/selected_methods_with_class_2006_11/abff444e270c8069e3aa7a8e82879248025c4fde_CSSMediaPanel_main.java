@@ -1,0 +1,50 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+media SimpleName VariableDeclarationFragment StringLiteral all aural braille embossed handheld print projection screen tty tv
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName media
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral all aural braille embossed handheld print projection screen tty tv
+css media panel SimpleName MethodInvocation SimpleName show dialog
+css media panel SimpleName MethodInvocation StringLiteral test
+css media panel SimpleName MethodInvocation SimpleName media
+show dialog SimpleName MethodInvocation StringLiteral test
+show dialog SimpleName MethodInvocation SimpleName media
+test StringLiteral MethodInvocation SimpleName media
+code SimpleName VariableDeclarationFragment MethodInvocation SimpleName css media panel
+code SimpleName VariableDeclarationFragment MethodInvocation SimpleName show dialog
+code SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test
+code SimpleName VariableDeclarationFragment MethodInvocation SimpleName media
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName code
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName css media panel
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName show dialog
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation StringLiteral test
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName media
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName code
+println SimpleName MethodInvocation SimpleName code
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

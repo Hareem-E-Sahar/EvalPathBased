@@ -1,0 +1,111 @@
+svg document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get local name
+tag SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+tag SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tag
+svg constantssvg a tag QualifiedName MethodInvocation SimpleName equals
+svg constantssvg a tag QualifiedName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+svg constantssvg a tag QualifiedName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+equals SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+tag SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+svg constantssvg title tag QualifiedName MethodInvocation SimpleName equals
+svg constantssvg title tag QualifiedName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+e SimpleName MethodInvocation SimpleName get parent node
+doc SimpleName MethodInvocation SimpleName get root element
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName doc
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root element
+get parent node SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName doc
+get parent node SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root element
+svg constantssvg desc tag QualifiedName MethodInvocation SimpleName equals
+svg constantssvg desc tag QualifiedName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+e SimpleName MethodInvocation SimpleName get parent node
+doc SimpleName MethodInvocation SimpleName get root element
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName doc
+e SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root element
+get parent node SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName doc
+get parent node SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get root element
+svg constantssvg cursor tag QualifiedName MethodInvocation SimpleName equals
+svg constantssvg cursor tag QualifiedName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+svg constantssvg cursor tag QualifiedName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+equals SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+tag SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+e SimpleName MethodInvocation SimpleName get attribute
+e SimpleName MethodInvocation QualifiedName css constantscss cursor property
+get attribute SimpleName MethodInvocation QualifiedName css constantscss cursor property
+e SimpleName MethodInvocation MethodInvocation SimpleName length
+get attribute SimpleName MethodInvocation MethodInvocation SimpleName length
+css constantscss cursor property QualifiedName MethodInvocation MethodInvocation SimpleName length
+e SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get attribute SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+css constantscss cursor property QualifiedName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral true
+svg ns SimpleName VariableDeclarationFragment QualifiedName svg constantssvg namespace uri
+final Modifier VariableDeclarationStatement SimpleType SimpleName string
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName svg ns
+final Modifier VariableDeclarationStatement VariableDeclarationFragment QualifiedName svg constantssvg namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg ns
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName svg constantssvg namespace uri
+e SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName n
+child SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+child SimpleName VariableDeclarationFragment CastExpression SimpleName n
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName child
+child SimpleName MethodInvocation SimpleName get namespace uri
+svg ns SimpleName MethodInvocation SimpleName equals
+svg ns SimpleName MethodInvocation MethodInvocation SimpleName child
+svg ns SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+equals SimpleName MethodInvocation MethodInvocation SimpleName child
+equals SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+check interactive element SimpleName MethodInvocation SimpleName child
+check interactive element SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+child SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+final Modifier VariableDeclarationStatement Block ReturnStatement BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName check interactive element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName check interactive element
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+check interactive element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+check interactive element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+check interactive element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+check interactive element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+check interactive element SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+check interactive element SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+doc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check interactive element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check interactive element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

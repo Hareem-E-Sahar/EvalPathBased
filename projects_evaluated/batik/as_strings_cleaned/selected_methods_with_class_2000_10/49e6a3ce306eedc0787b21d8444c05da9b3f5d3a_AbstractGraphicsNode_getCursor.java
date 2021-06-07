@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName cursor
+public Modifier MethodDeclaration SimpleName get cursor
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cursor
+cursor SimpleName SimpleType MethodDeclaration SimpleName get cursor
+get cursor SimpleName MethodDeclaration Block ReturnStatement SimpleName cursor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cursor
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cursor
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cursor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cursor

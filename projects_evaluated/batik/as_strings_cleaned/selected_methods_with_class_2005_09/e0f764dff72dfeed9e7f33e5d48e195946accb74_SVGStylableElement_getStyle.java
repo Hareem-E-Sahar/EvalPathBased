@@ -1,0 +1,25 @@
+get live attribute value SimpleName MethodInvocation SimpleName svg style attribute
+css style declaration SimpleName SimpleType CastExpression MethodInvocation SimpleName get live attribute value
+css style declaration SimpleName SimpleType CastExpression MethodInvocation SimpleName svg style attribute
+result SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css style declaration
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get live attribute value
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName svg style attribute
+css style declaration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css engine
+css engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eng
+style declaration SimpleName SimpleType ClassInstanceCreation SimpleName eng
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName style declaration
+result SimpleName Assignment ClassInstanceCreation SimpleName eng
+public Modifier MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier MethodDeclaration SimpleName get style
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+css style declaration SimpleName SimpleType MethodDeclaration SimpleName get style
+get style SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get style
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get style

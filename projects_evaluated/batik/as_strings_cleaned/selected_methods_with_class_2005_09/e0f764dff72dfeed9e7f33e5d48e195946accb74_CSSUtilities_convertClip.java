@@ -1,0 +1,64 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation QualifiedName svgcss engineclip index
+e SimpleName MethodInvocation QualifiedName svgcss engineclip index
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+v SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss engineclip index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get primitive type
+float PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+off SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+off SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName off
+off SimpleName ArrayAccess NumberLiteral empty
+v SimpleName MethodInvocation SimpleName get top
+v SimpleName MethodInvocation MethodInvocation SimpleName get float value
+get top SimpleName MethodInvocation MethodInvocation SimpleName get float value
+off SimpleName ArrayAccess Assignment MethodInvocation SimpleName get float value
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName get float value
+off SimpleName ArrayAccess NumberLiteral empty
+v SimpleName MethodInvocation SimpleName get right
+v SimpleName MethodInvocation MethodInvocation SimpleName get float value
+get right SimpleName MethodInvocation MethodInvocation SimpleName get float value
+off SimpleName ArrayAccess Assignment MethodInvocation SimpleName get float value
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName get float value
+off SimpleName ArrayAccess NumberLiteral empty
+v SimpleName MethodInvocation SimpleName get bottom
+v SimpleName MethodInvocation MethodInvocation SimpleName get float value
+get bottom SimpleName MethodInvocation MethodInvocation SimpleName get float value
+off SimpleName ArrayAccess Assignment MethodInvocation SimpleName get float value
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName get float value
+off SimpleName ArrayAccess NumberLiteral empty
+v SimpleName MethodInvocation SimpleName get left
+v SimpleName MethodInvocation MethodInvocation SimpleName get float value
+get left SimpleName MethodInvocation MethodInvocation SimpleName get float value
+off SimpleName ArrayAccess Assignment MethodInvocation SimpleName get float value
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName get float value
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss rect
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss rect
+off SimpleName ReturnStatement SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType float
+public Modifier MethodDeclaration SimpleName convert clip
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration ArrayType PrimitiveType float
+static Modifier MethodDeclaration SimpleName convert clip
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+float PrimitiveType ArrayType MethodDeclaration SimpleName convert clip
+float PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName e
+convert clip SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert clip SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert clip
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert clip
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

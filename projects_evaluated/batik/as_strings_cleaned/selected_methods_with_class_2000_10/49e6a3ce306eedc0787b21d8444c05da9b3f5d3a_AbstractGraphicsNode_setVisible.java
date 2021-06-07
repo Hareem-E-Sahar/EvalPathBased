@@ -1,0 +1,34 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName is visible
+old is visible SimpleName VariableDeclarationFragment FieldAccess SimpleName is visible
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName old is visible
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment FieldAccess SimpleName is visible
+is visible SimpleName FieldAccess Assignment SimpleName is visible
+fire property change SimpleName MethodInvocation StringLiteral visible
+fire property change SimpleName MethodInvocation SimpleName old is visible
+fire property change SimpleName MethodInvocation SimpleName is visible
+visible StringLiteral MethodInvocation SimpleName old is visible
+visible StringLiteral MethodInvocation SimpleName is visible
+old is visible SimpleName MethodInvocation SimpleName is visible
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set visible
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is visible
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName set visible
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName is visible
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+set visible SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set visible SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is visible
+set visible SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set visible
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is visible
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set visible
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is visible

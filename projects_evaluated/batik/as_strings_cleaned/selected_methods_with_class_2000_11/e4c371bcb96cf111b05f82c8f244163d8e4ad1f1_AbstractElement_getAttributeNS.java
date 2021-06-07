@@ -1,0 +1,47 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local name
+attributes SimpleName MethodInvocation SimpleName get named item ns
+attributes SimpleName MethodInvocation SimpleName namespace uri
+attributes SimpleName MethodInvocation SimpleName local name
+get named item ns SimpleName MethodInvocation SimpleName namespace uri
+get named item ns SimpleName MethodInvocation SimpleName local name
+namespace uri SimpleName MethodInvocation SimpleName local name
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName attributes
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName get named item ns
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName namespace uri
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName local name
+attr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName attr
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName attributes
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get named item ns
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName namespace uri
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName local name
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get value
+attr SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+empty StringLiteral ConditionalExpression MethodInvocation SimpleName attr
+empty StringLiteral ConditionalExpression MethodInvocation SimpleName get value
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get attribute ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local name
+string SimpleName SimpleType MethodDeclaration SimpleName get attribute ns
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName local name
+get attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+get attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local name
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name

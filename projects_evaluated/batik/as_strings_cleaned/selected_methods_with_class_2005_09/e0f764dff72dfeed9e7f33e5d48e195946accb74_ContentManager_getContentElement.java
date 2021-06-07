@@ -1,0 +1,21 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+xbl manager SimpleName MethodInvocation SimpleName get xbl content element
+xbl manager SimpleName MethodInvocation SimpleName n
+get xbl content element SimpleName MethodInvocation SimpleName n
+protected Modifier MethodDeclaration SimpleType SimpleName xblom content element
+protected Modifier MethodDeclaration SimpleName get content element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+xblom content element SimpleName SimpleType MethodDeclaration SimpleName get content element
+xblom content element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get content element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get content element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xblom content element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get content element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xblom content element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get content element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

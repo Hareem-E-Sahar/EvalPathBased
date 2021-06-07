@@ -1,0 +1,16 @@
+check something SimpleName MethodInvocation SimpleName load monitor
+check something SimpleName MethodInvocation SimpleName error cannot load svg
+load monitor SimpleName MethodInvocation SimpleName error cannot load svg
+delegate SimpleName MethodInvocation SimpleName canvas loaded
+delegate SimpleName MethodInvocation SimpleName canvas
+canvas loaded SimpleName MethodInvocation SimpleName canvas
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName check load
+void PrimitiveType MethodDeclaration SimpleName check load
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check load
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check load

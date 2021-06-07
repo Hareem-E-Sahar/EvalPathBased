@@ -1,0 +1,15 @@
+svg animation engine SimpleName SimpleType ClassInstanceCreation SimpleName document
+animation engine SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svg animation engine
+animation engine SimpleName Assignment ClassInstanceCreation SimpleName document
+public Modifier MethodDeclaration SimpleType SimpleName svg animation engine
+public Modifier MethodDeclaration SimpleName get animation engine
+public Modifier MethodDeclaration Block ReturnStatement SimpleName animation engine
+svg animation engine SimpleName SimpleType MethodDeclaration SimpleName get animation engine
+get animation engine SimpleName MethodDeclaration Block ReturnStatement SimpleName animation engine
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animation engine
+public Modifier TypeDeclaration MethodDeclaration SimpleName get animation engine
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animation engine
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get animation engine

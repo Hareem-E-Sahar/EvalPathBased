@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName desc
+string SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+strs SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+strs SimpleName ArrayAccess NumberLiteral empty
+strs SimpleName ArrayAccess Assignment SimpleName desc
+empty NumberLiteral ArrayAccess Assignment SimpleName desc
+check objects SimpleName MethodInvocation SimpleName strs
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName check object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName desc
+boolean PrimitiveType MethodDeclaration SimpleName check object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName desc
+check object SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName desc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desc

@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName error code
+report SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default test report
+default test report SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName report
+report SimpleName MethodInvocation SimpleName set error code
+report SimpleName MethodInvocation SimpleName error code
+set error code SimpleName MethodInvocation SimpleName error code
+report SimpleName MethodInvocation SimpleName set passed
+report SimpleName MethodInvocation BooleanLiteral false
+set passed SimpleName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration SimpleType SimpleName test report
+public Modifier MethodDeclaration SimpleName report error
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName error code
+public Modifier MethodDeclaration Block ReturnStatement SimpleName report
+test report SimpleName SimpleType MethodDeclaration SimpleName report error
+test report SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName error code
+report error SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+report error SimpleName MethodDeclaration SingleVariableDeclaration SimpleName error code
+report error SimpleName MethodDeclaration Block ReturnStatement SimpleName report
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName test report
+public Modifier TypeDeclaration MethodDeclaration SimpleName report error
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName error code
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName test report
+test SimpleName TypeDeclaration MethodDeclaration SimpleName report error
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName error code

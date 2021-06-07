@@ -1,0 +1,52 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+parent SimpleName MethodInvocation SimpleName set property
+parent SimpleName MethodInvocation SimpleName name
+parent SimpleName MethodInvocation SimpleName value
+set property SimpleName MethodInvocation SimpleName name
+set property SimpleName MethodInvocation SimpleName value
+name SimpleName MethodInvocation SimpleName value
+property StringLiteral InfixExpression SimpleName name
+sax not recognized exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral property
+sax not recognized exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName sax not recognized exception
+void PrimitiveType MethodDeclaration SimpleName set property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax not recognized exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax not supported exception
+set property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+set property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+set property SimpleName MethodDeclaration SimpleType SimpleName sax not recognized exception
+set property SimpleName MethodDeclaration SimpleType SimpleName sax not supported exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not recognized exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not recognized exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception
+sax not recognized exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName sax not supported exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax not recognized exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax not recognized exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception

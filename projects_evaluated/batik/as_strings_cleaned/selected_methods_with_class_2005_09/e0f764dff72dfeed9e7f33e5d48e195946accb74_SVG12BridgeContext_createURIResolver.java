@@ -1,0 +1,30 @@
+svg document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+document loader SimpleName SimpleType SingleVariableDeclaration SimpleName dl
+svg uri resolver SimpleName SimpleType ClassInstanceCreation SimpleName doc
+svg uri resolver SimpleName SimpleType ClassInstanceCreation SimpleName dl
+doc SimpleName ClassInstanceCreation SimpleName dl
+public Modifier MethodDeclaration SimpleType SimpleName uri resolver
+public Modifier MethodDeclaration SimpleName create uri resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document loader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dl
+uri resolver SimpleName SimpleType MethodDeclaration SimpleName create uri resolver
+uri resolver SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName doc
+uri resolver SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dl
+create uri resolver SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+create uri resolver SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+create uri resolver SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document loader
+create uri resolver SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dl
+doc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName uri resolver
+public Modifier TypeDeclaration MethodDeclaration SimpleName create uri resolver
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dl
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName uri resolver
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create uri resolver
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dl

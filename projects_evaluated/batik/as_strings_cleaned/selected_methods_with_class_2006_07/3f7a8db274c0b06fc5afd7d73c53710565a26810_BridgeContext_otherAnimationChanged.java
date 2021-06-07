@@ -1,0 +1,40 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+get bridge update handler SimpleName MethodInvocation SimpleName e
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bridge update handler
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+bridge update handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+h SimpleName MethodInvocation SimpleName handle other animation changed
+h SimpleName MethodInvocation SimpleName type
+handle other animation changed SimpleName MethodInvocation SimpleName type
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName ex
+display error SimpleName MethodInvocation SimpleName ex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName other animation changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SimpleName other animation changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+other animation changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+other animation changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+other animation changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+other animation changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName other animation changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName other animation changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

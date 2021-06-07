@@ -1,0 +1,25 @@
+selector list SimpleName SimpleType SingleVariableDeclaration SimpleName selectors
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName end selector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName selectors
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+void PrimitiveType MethodDeclaration SimpleName end selector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName selectors
+void PrimitiveType MethodDeclaration SimpleType SimpleName css exception
+end selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector list
+end selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName selectors
+end selector SimpleName MethodDeclaration SimpleType SimpleName css exception
+selectors SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName end selector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selectors
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName end selector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selectors
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

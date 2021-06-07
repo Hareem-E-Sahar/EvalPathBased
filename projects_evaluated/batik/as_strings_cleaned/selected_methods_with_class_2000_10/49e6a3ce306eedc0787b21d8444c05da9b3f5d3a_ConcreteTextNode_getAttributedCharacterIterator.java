@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName attributed character iterator
+public Modifier MethodDeclaration SimpleName get attributed character iterator
+public Modifier MethodDeclaration Block ReturnStatement SimpleName aci
+attributed character iterator SimpleName SimpleType MethodDeclaration SimpleName get attributed character iterator
+get attributed character iterator SimpleName MethodDeclaration Block ReturnStatement SimpleName aci
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributed character iterator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attributed character iterator
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributed character iterator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attributed character iterator

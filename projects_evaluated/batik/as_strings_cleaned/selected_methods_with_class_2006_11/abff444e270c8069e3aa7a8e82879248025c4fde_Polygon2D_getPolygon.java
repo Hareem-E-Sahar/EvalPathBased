@@ -1,0 +1,45 @@
+int PrimitiveType ArrayType ArrayCreation SimpleName npoints
+xpoints SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+xpoints SimpleName VariableDeclarationFragment ArrayCreation SimpleName npoints
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName xpoints
+int PrimitiveType ArrayType ArrayCreation SimpleName npoints
+ypoints SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+ypoints SimpleName VariableDeclarationFragment ArrayCreation SimpleName npoints
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName ypoints
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName npoints
+xpoints SimpleName ArrayAccess SimpleName i
+xpoints SimpleName ArrayAccess SimpleName i
+int PrimitiveType CastExpression ArrayAccess SimpleName xpoints
+int PrimitiveType CastExpression ArrayAccess SimpleName i
+xpoints SimpleName ArrayAccess Assignment CastExpression PrimitiveType int
+i SimpleName ArrayAccess Assignment CastExpression PrimitiveType int
+ypoints SimpleName ArrayAccess SimpleName i
+ypoints SimpleName ArrayAccess SimpleName i
+int PrimitiveType CastExpression ArrayAccess SimpleName ypoints
+int PrimitiveType CastExpression ArrayAccess SimpleName i
+ypoints SimpleName ArrayAccess Assignment CastExpression PrimitiveType int
+i SimpleName ArrayAccess Assignment CastExpression PrimitiveType int
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName npoints
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+npoints SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+polygon SimpleName SimpleType ClassInstanceCreation SimpleName xpoints
+polygon SimpleName SimpleType ClassInstanceCreation SimpleName ypoints
+polygon SimpleName SimpleType ClassInstanceCreation SimpleName npoints
+xpoints SimpleName ClassInstanceCreation SimpleName ypoints
+xpoints SimpleName ClassInstanceCreation SimpleName npoints
+ypoints SimpleName ClassInstanceCreation SimpleName npoints
+public Modifier MethodDeclaration SimpleType SimpleName polygon
+public Modifier MethodDeclaration SimpleName get polygon
+polygon SimpleName SimpleType MethodDeclaration SimpleName get polygon
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName polygon
+public Modifier TypeDeclaration MethodDeclaration SimpleName get polygon
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName polygon
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get polygon

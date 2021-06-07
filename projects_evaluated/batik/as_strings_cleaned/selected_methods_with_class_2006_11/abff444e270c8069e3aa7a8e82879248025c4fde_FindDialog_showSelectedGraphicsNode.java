@@ -1,0 +1,253 @@
+walker SimpleName MethodInvocation SimpleName get current graphics node
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName walker
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current graphics node
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn
+gn SimpleName InstanceofExpression SimpleType SimpleName text node
+text node SimpleName SimpleType CastExpression SimpleName gn
+text node SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName text node
+text node SimpleName VariableDeclarationFragment CastExpression SimpleName gn
+text node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text node
+text node SimpleName MethodInvocation SimpleName get text
+text SimpleName VariableDeclarationFragment MethodInvocation SimpleName text node
+text SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text
+search SimpleName MethodInvocation SimpleName get text
+pattern SimpleName VariableDeclarationFragment MethodInvocation SimpleName search
+pattern SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pattern
+case sensitive SimpleName MethodInvocation SimpleName is selected
+text SimpleName MethodInvocation SimpleName to lower case
+text SimpleName Assignment MethodInvocation SimpleName text
+text SimpleName Assignment MethodInvocation SimpleName to lower case
+pattern SimpleName MethodInvocation SimpleName to lower case
+pattern SimpleName Assignment MethodInvocation SimpleName pattern
+pattern SimpleName Assignment MethodInvocation SimpleName to lower case
+text SimpleName MethodInvocation SimpleName index of
+text SimpleName MethodInvocation SimpleName pattern
+text SimpleName MethodInvocation SimpleName current index
+index of SimpleName MethodInvocation SimpleName pattern
+index of SimpleName MethodInvocation SimpleName current index
+pattern SimpleName MethodInvocation SimpleName current index
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName text
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName pattern
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName current index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName text
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pattern
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current index
+text node SimpleName MethodInvocation SimpleName get attributed character iterator
+aci SimpleName VariableDeclarationFragment MethodInvocation SimpleName text node
+aci SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributed character iterator
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aci
+aci SimpleName MethodInvocation SimpleName first
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName end
+aci SimpleName MethodInvocation SimpleName next
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName end
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+end SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+aci SimpleName MethodInvocation SimpleName get index
+text node SimpleName MethodInvocation SimpleName get marker for char
+text node SimpleName MethodInvocation MethodInvocation SimpleName aci
+text node SimpleName MethodInvocation MethodInvocation SimpleName get index
+text node SimpleName MethodInvocation BooleanLiteral true
+get marker for char SimpleName MethodInvocation MethodInvocation SimpleName aci
+get marker for char SimpleName MethodInvocation MethodInvocation SimpleName get index
+get marker for char SimpleName MethodInvocation BooleanLiteral true
+aci SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get index SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+start mark SimpleName VariableDeclarationFragment MethodInvocation SimpleName text node
+start mark SimpleName VariableDeclarationFragment MethodInvocation SimpleName get marker for char
+start mark SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName aci
+start mark SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get index
+start mark SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+mark SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start mark
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+pattern SimpleName MethodInvocation SimpleName length
+pattern SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName pattern
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName length
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+aci SimpleName MethodInvocation SimpleName next
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+aci SimpleName MethodInvocation SimpleName get index
+text node SimpleName MethodInvocation SimpleName get marker for char
+text node SimpleName MethodInvocation MethodInvocation SimpleName aci
+text node SimpleName MethodInvocation MethodInvocation SimpleName get index
+text node SimpleName MethodInvocation BooleanLiteral false
+get marker for char SimpleName MethodInvocation MethodInvocation SimpleName aci
+get marker for char SimpleName MethodInvocation MethodInvocation SimpleName get index
+get marker for char SimpleName MethodInvocation BooleanLiteral false
+aci SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get index SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+end mark SimpleName VariableDeclarationFragment MethodInvocation SimpleName text node
+end mark SimpleName VariableDeclarationFragment MethodInvocation SimpleName get marker for char
+end mark SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName aci
+end mark SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get index
+end mark SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral false
+mark SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end mark
+svg canvas SimpleName MethodInvocation SimpleName select
+svg canvas SimpleName MethodInvocation SimpleName start mark
+svg canvas SimpleName MethodInvocation SimpleName end mark
+select SimpleName MethodInvocation SimpleName start mark
+select SimpleName MethodInvocation SimpleName end mark
+start mark SimpleName MethodInvocation SimpleName end mark
+highlight button SimpleName MethodInvocation SimpleName is selected
+text node SimpleName MethodInvocation SimpleName get highlight shape
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName text node
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get highlight shape
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+highlight center zoom button SimpleName MethodInvocation SimpleName is selected
+svg canvas SimpleName MethodInvocation SimpleName get initial transform
+at SimpleName Assignment MethodInvocation SimpleName svg canvas
+at SimpleName Assignment MethodInvocation SimpleName get initial transform
+svg canvas SimpleName MethodInvocation SimpleName get rendering transform
+at SimpleName Assignment MethodInvocation SimpleName svg canvas
+at SimpleName Assignment MethodInvocation SimpleName get rendering transform
+at SimpleName MethodInvocation SimpleName create transformed shape
+at SimpleName MethodInvocation SimpleName s
+create transformed shape SimpleName MethodInvocation SimpleName s
+at SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+create transformed shape SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+s SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+gnb SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName at
+gnb SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create transformed shape
+gnb SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName s
+gnb SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gnb
+svg canvas SimpleName MethodInvocation SimpleName get size
+canvas size SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg canvas
+canvas size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get size
+dimension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName canvas size
+gnb SimpleName MethodInvocation SimpleName get x
+gnb SimpleName MethodInvocation SimpleName get width
+gnb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get width SimpleName MethodInvocation InfixExpression NumberLiteral empty
+gnb SimpleName MethodInvocation SimpleName get y
+gnb SimpleName MethodInvocation SimpleName get height
+gnb SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get height SimpleName MethodInvocation InfixExpression NumberLiteral empty
+affine transform SimpleName MethodInvocation SimpleName get translate instance
+affine transform SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+affine transform SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get translate instance SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get translate instance SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+tx SimpleName VariableDeclarationFragment MethodInvocation SimpleName affine transform
+tx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get translate instance
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tx
+highlight center zoom button SimpleName MethodInvocation SimpleName is selected
+gnb SimpleName MethodInvocation SimpleName get width
+canvas sizewidth QualifiedName InfixExpression MethodInvocation SimpleName gnb
+canvas sizewidth QualifiedName InfixExpression MethodInvocation SimpleName get width
+sx SimpleName VariableDeclarationFragment InfixExpression QualifiedName canvas sizewidth
+sx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName gnb
+sx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get width
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sx
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName canvas sizewidth
+gnb SimpleName MethodInvocation SimpleName get height
+canvas sizeheight QualifiedName InfixExpression MethodInvocation SimpleName gnb
+canvas sizeheight QualifiedName InfixExpression MethodInvocation SimpleName get height
+sy SimpleName VariableDeclarationFragment InfixExpression QualifiedName canvas sizeheight
+sy SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName gnb
+sy SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get height
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sy
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName canvas sizeheight
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation SimpleName sx
+math SimpleName MethodInvocation SimpleName sy
+min SimpleName MethodInvocation SimpleName sx
+min SimpleName MethodInvocation SimpleName sy
+sx SimpleName MethodInvocation SimpleName sy
+math SimpleName MethodInvocation InfixExpression NumberLiteral empty
+min SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sx SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sy SimpleName MethodInvocation InfixExpression NumberLiteral empty
+scale SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName math
+scale SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName min
+scale SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName sx
+scale SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName sy
+scale SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName scale
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+scale SimpleName InfixExpression NumberLiteral empty
+affine transform SimpleName MethodInvocation SimpleName get scale instance
+affine transform SimpleName MethodInvocation SimpleName scale
+affine transform SimpleName MethodInvocation SimpleName scale
+get scale instance SimpleName MethodInvocation SimpleName scale
+get scale instance SimpleName MethodInvocation SimpleName scale
+scale SimpleName MethodInvocation SimpleName scale
+tx SimpleName MethodInvocation SimpleName pre concatenate
+tx SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+tx SimpleName MethodInvocation MethodInvocation SimpleName get scale instance
+tx SimpleName MethodInvocation MethodInvocation SimpleName scale
+tx SimpleName MethodInvocation MethodInvocation SimpleName scale
+pre concatenate SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+pre concatenate SimpleName MethodInvocation MethodInvocation SimpleName get scale instance
+pre concatenate SimpleName MethodInvocation MethodInvocation SimpleName scale
+pre concatenate SimpleName MethodInvocation MethodInvocation SimpleName scale
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+canvas sizewidth QualifiedName InfixExpression NumberLiteral empty
+canvas sizeheight QualifiedName InfixExpression NumberLiteral empty
+affine transform SimpleName MethodInvocation SimpleName get translate instance
+affine transform SimpleName MethodInvocation InfixExpression QualifiedName canvas sizewidth
+affine transform SimpleName MethodInvocation InfixExpression NumberLiteral empty
+affine transform SimpleName MethodInvocation InfixExpression QualifiedName canvas sizeheight
+affine transform SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get translate instance SimpleName MethodInvocation InfixExpression QualifiedName canvas sizewidth
+get translate instance SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get translate instance SimpleName MethodInvocation InfixExpression QualifiedName canvas sizeheight
+get translate instance SimpleName MethodInvocation InfixExpression NumberLiteral empty
+canvas sizewidth QualifiedName InfixExpression MethodInvocation InfixExpression QualifiedName canvas sizeheight
+canvas sizewidth QualifiedName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression QualifiedName canvas sizeheight
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+tx SimpleName MethodInvocation SimpleName pre concatenate
+tx SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+tx SimpleName MethodInvocation MethodInvocation SimpleName get translate instance
+tx SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName canvas sizewidth
+tx SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+tx SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName canvas sizeheight
+tx SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+pre concatenate SimpleName MethodInvocation MethodInvocation SimpleName affine transform
+pre concatenate SimpleName MethodInvocation MethodInvocation SimpleName get translate instance
+pre concatenate SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName canvas sizewidth
+pre concatenate SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+pre concatenate SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName canvas sizeheight
+pre concatenate SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+affine transform SimpleName SimpleType ClassInstanceCreation SimpleName at
+new rt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName affine transform
+new rt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName at
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new rt
+new rt SimpleName MethodInvocation SimpleName pre concatenate
+new rt SimpleName MethodInvocation SimpleName tx
+pre concatenate SimpleName MethodInvocation SimpleName tx
+svg canvas SimpleName MethodInvocation SimpleName set rendering transform
+svg canvas SimpleName MethodInvocation SimpleName new rt
+set rendering transform SimpleName MethodInvocation SimpleName new rt
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName show selected graphics node
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName show selected graphics node
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+show selected graphics node SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName show selected graphics node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName show selected graphics node

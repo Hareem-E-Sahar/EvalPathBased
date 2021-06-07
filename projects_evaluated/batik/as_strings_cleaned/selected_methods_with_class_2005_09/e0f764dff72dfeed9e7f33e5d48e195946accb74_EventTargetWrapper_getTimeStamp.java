@@ -1,0 +1,21 @@
+call SimpleName MethodInvocation StringLiteral get time stamp
+context SimpleName MethodInvocation SimpleName to type
+context SimpleName MethodInvocation MethodInvocation SimpleName call
+context SimpleName MethodInvocation MethodInvocation StringLiteral get time stamp
+context SimpleName MethodInvocation TypeLiteral SimpleType SimpleName double
+to type SimpleName MethodInvocation MethodInvocation SimpleName call
+to type SimpleName MethodInvocation MethodInvocation StringLiteral get time stamp
+to type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName double
+double SimpleName SimpleType CastExpression MethodInvocation SimpleName context
+double SimpleName SimpleType CastExpression MethodInvocation SimpleName to type
+long PrimitiveType CastExpression MethodInvocation SimpleName double value
+public Modifier MethodDeclaration PrimitiveType long
+public Modifier MethodDeclaration SimpleName get time stamp
+long PrimitiveType MethodDeclaration SimpleName get time stamp
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SimpleName get time stamp
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get time stamp

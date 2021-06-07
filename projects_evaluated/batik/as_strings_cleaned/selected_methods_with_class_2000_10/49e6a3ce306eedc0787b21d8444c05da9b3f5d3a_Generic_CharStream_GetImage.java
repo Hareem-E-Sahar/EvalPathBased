@@ -1,0 +1,53 @@
+bufpos SimpleName InfixExpression SimpleName token begin
+bufpos SimpleName InfixExpression SimpleName token begin
+bufpos SimpleName InfixExpression InfixExpression NumberLiteral empty
+token begin SimpleName InfixExpression InfixExpression NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName buffer
+string SimpleName SimpleType ClassInstanceCreation SimpleName token begin
+string SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+buffer SimpleName ClassInstanceCreation SimpleName token begin
+buffer SimpleName ClassInstanceCreation InfixExpression InfixExpression SimpleName bufpos
+buffer SimpleName ClassInstanceCreation InfixExpression InfixExpression SimpleName token begin
+buffer SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+token begin SimpleName ClassInstanceCreation InfixExpression InfixExpression SimpleName bufpos
+token begin SimpleName ClassInstanceCreation InfixExpression InfixExpression SimpleName token begin
+token begin SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+bufsize SimpleName InfixExpression SimpleName token begin
+string SimpleName SimpleType ClassInstanceCreation SimpleName buffer
+string SimpleName SimpleType ClassInstanceCreation SimpleName token begin
+string SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName bufsize
+string SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName token begin
+buffer SimpleName ClassInstanceCreation SimpleName token begin
+buffer SimpleName ClassInstanceCreation InfixExpression SimpleName bufsize
+buffer SimpleName ClassInstanceCreation InfixExpression SimpleName token begin
+token begin SimpleName ClassInstanceCreation InfixExpression SimpleName bufsize
+token begin SimpleName ClassInstanceCreation InfixExpression SimpleName token begin
+bufpos SimpleName InfixExpression NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName buffer
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName bufpos
+string SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+buffer SimpleName ClassInstanceCreation NumberLiteral empty
+buffer SimpleName ClassInstanceCreation InfixExpression SimpleName bufpos
+buffer SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation InfixExpression SimpleName bufpos
+empty NumberLiteral ClassInstanceCreation InfixExpression NumberLiteral empty
+buffer SimpleName ClassInstanceCreation InfixExpression ClassInstanceCreation SimpleName buffer
+buffer SimpleName ClassInstanceCreation InfixExpression ClassInstanceCreation NumberLiteral empty
+token begin SimpleName ClassInstanceCreation InfixExpression ClassInstanceCreation SimpleName buffer
+token begin SimpleName ClassInstanceCreation InfixExpression ClassInstanceCreation NumberLiteral empty
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get image
+final Modifier MethodDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName get image
+string SimpleName SimpleType MethodDeclaration SimpleName get image
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get image
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get image

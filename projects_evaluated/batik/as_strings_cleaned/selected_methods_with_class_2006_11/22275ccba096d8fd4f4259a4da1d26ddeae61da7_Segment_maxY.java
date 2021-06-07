@@ -1,0 +1,6 @@
+double PrimitiveType MethodDeclaration SimpleName max y
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SimpleName max y
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SimpleName max y

@@ -1,0 +1,83 @@
+pushback input stream SimpleName SimpleType SingleVariableDeclaration SimpleName pbis
+string SimpleName SimpleType SingleVariableDeclaration SimpleName enc
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buf SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buf SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+pbis SimpleName MethodInvocation SimpleName read
+pbis SimpleName MethodInvocation SimpleName buf
+read SimpleName MethodInvocation SimpleName buf
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName pbis
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName buf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pbis
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buf
+len SimpleName InfixExpression NumberLiteral empty
+pbis SimpleName MethodInvocation SimpleName unread
+pbis SimpleName MethodInvocation SimpleName buf
+pbis SimpleName MethodInvocation NumberLiteral empty
+pbis SimpleName MethodInvocation SimpleName len
+unread SimpleName MethodInvocation SimpleName buf
+unread SimpleName MethodInvocation NumberLiteral empty
+unread SimpleName MethodInvocation SimpleName len
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation SimpleName len
+empty NumberLiteral MethodInvocation SimpleName len
+byte array input stream SimpleName SimpleType ClassInstanceCreation SimpleName buf
+byte array input stream SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+byte array input stream SimpleName SimpleType ClassInstanceCreation SimpleName len
+buf SimpleName ClassInstanceCreation NumberLiteral empty
+buf SimpleName ClassInstanceCreation SimpleName len
+empty NumberLiteral ClassInstanceCreation SimpleName len
+input stream reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName buf
+input stream reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation NumberLiteral empty
+input stream reader SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName len
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName enc
+byte array input stream SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName enc
+buf SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName enc
+empty NumberLiteral ClassInstanceCreation ClassInstanceCreation SimpleName enc
+len SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName enc
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName reader
+protected Modifier MethodDeclaration SimpleName create xml declaration reader
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pushback input stream
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName pbis
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName enc
+static Modifier MethodDeclaration SimpleType SimpleName reader
+static Modifier MethodDeclaration SimpleName create xml declaration reader
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pushback input stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName pbis
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName enc
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+reader SimpleName SimpleType MethodDeclaration SimpleName create xml declaration reader
+reader SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pbis
+reader SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName enc
+reader SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create xml declaration reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName pushback input stream
+create xml declaration reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pbis
+create xml declaration reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create xml declaration reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enc
+create xml declaration reader SimpleName MethodDeclaration SimpleType SimpleName io exception
+create xml declaration reader SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+pbis SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc
+pbis SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+enc SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName reader
+public Modifier TypeDeclaration MethodDeclaration SimpleName create xml declaration reader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pbis
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName reader
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create xml declaration reader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pbis
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,23 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionhierarchy request err
+create dom exception SimpleName MethodInvocation StringLiteral siblingnotallowed
+dom exceptionhierarchy request err QualifiedName MethodInvocation StringLiteral siblingnotallowed
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set next sibling
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName set next sibling
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+set next sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+set next sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set next sibling
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set next sibling
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

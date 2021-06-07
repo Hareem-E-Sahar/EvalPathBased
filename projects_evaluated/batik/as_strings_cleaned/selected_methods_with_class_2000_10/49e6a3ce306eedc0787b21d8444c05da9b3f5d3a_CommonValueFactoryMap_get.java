@@ -1,0 +1,30 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property
+property SimpleName MethodInvocation SimpleName to lower case
+property SimpleName MethodInvocation MethodInvocation SimpleName intern
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName intern
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+table SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+table SimpleName MethodInvocation MethodInvocation SimpleName intern
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName property
+get SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to lower case
+get SimpleName MethodInvocation MethodInvocation SimpleName intern
+value factory SimpleName SimpleType CastExpression MethodInvocation SimpleName table
+value factory SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+public Modifier MethodDeclaration SimpleType SimpleName value factory
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property
+value factory SimpleName SimpleType MethodDeclaration SimpleName get
+value factory SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property

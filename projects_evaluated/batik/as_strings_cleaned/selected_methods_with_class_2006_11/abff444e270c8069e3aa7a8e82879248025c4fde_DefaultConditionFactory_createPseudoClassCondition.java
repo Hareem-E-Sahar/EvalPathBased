@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+default pseudo class condition SimpleName SimpleType ClassInstanceCreation SimpleName namespace uri
+default pseudo class condition SimpleName SimpleType ClassInstanceCreation SimpleName value
+namespace uri SimpleName ClassInstanceCreation SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName attribute condition
+public Modifier MethodDeclaration SimpleName create pseudo class condition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+attribute condition SimpleName SimpleType MethodDeclaration SimpleName create pseudo class condition
+attribute condition SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+attribute condition SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName value
+attribute condition SimpleName SimpleType MethodDeclaration SimpleType SimpleName css exception
+create pseudo class condition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create pseudo class condition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+create pseudo class condition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create pseudo class condition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+create pseudo class condition SimpleName MethodDeclaration SimpleType SimpleName css exception
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attribute condition
+public Modifier TypeDeclaration MethodDeclaration SimpleName create pseudo class condition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attribute condition
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create pseudo class condition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

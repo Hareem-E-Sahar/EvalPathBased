@@ -1,0 +1,72 @@
+value provider SimpleName MethodInvocation SimpleName get value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName value provider
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName MethodInvocation SimpleName get css value type
+css value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+css value type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css value type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName css value type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get css value type
+value SimpleName MethodInvocation SimpleName get primitive type
+primitive type SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+primitive type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get primitive type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName primitive type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get primitive type
+value SimpleName MethodInvocation SimpleName get string value
+value SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+get string value SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+value SimpleName MethodInvocation MethodInvocation QualifiedName css constantscss currentcolor value
+get string value SimpleName MethodInvocation MethodInvocation QualifiedName css constantscss currentcolor value
+equals ignore case SimpleName MethodInvocation QualifiedName css constantscss currentcolor value
+equals ignore case SimpleName MethodInvocation IfStatement ReturnStatement SimpleName svg colortype currentcolor
+css constantscss currentcolor value QualifiedName MethodInvocation IfStatement ReturnStatement SimpleName svg colortype currentcolor
+primitive type SimpleName SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+primitive type SimpleName SwitchStatement Block ReturnStatement SimpleName svg colortype rgbcolor
+primitive type SimpleName SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+primitive type SimpleName SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor
+css primitive valuecss ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+css primitive valuecss ident QualifiedName SwitchCase SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor
+css primitive valuecss rgbcolor QualifiedName SwitchCase SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor
+found unexpected primitive type StringLiteral InfixExpression SimpleName primitive type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral found unexpected primitive type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName primitive type
+css value type SimpleName SwitchStatement SwitchCase QualifiedName css valuecss primitive value
+css value type SimpleName SwitchStatement VariableDeclarationStatement PrimitiveType int
+css value type SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment SimpleName primitive type
+css value type SimpleName SwitchStatement SwitchStatement SimpleName primitive type
+css value type SimpleName SwitchStatement SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+css value type SimpleName SwitchStatement SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+css value type SimpleName SwitchStatement SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor
+css value type SimpleName SwitchStatement SwitchCase QualifiedName css valuecss value list
+css valuecss primitive value QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType int
+css valuecss primitive value QualifiedName SwitchCase SwitchStatement SwitchStatement SimpleName primitive type
+css valuecss primitive value QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css valuecss value list
+css valuecss primitive value QualifiedName SwitchCase SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor icccolor
+int PrimitiveType VariableDeclarationStatement SwitchStatement SwitchStatement SimpleName primitive type
+int PrimitiveType VariableDeclarationStatement SwitchStatement SwitchCase QualifiedName css valuecss value list
+int PrimitiveType VariableDeclarationStatement SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor icccolor
+primitive type SimpleName SwitchStatement SwitchStatement SwitchCase QualifiedName css valuecss value list
+primitive type SimpleName SwitchStatement SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor icccolor
+css valuecss value list QualifiedName SwitchCase SwitchStatement ReturnStatement SimpleName svg colortype rgbcolor icccolor
+found unexpected css value type StringLiteral InfixExpression SimpleName css value type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral found unexpected css value type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName css value type
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName css value type
+public Modifier MethodDeclaration PrimitiveType short
+public Modifier MethodDeclaration SimpleName get color type
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block SwitchStatement SimpleName css value type
+short PrimitiveType MethodDeclaration SimpleName get color type
+short PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+short PrimitiveType MethodDeclaration Block SwitchStatement SimpleName css value type
+get color type SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get color type SimpleName MethodDeclaration Block SwitchStatement SimpleName css value type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName get color type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get color type

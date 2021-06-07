@@ -1,0 +1,22 @@
+svg animation element bridge SimpleName SimpleType SingleVariableDeclaration SimpleName b
+initial bridges SimpleName MethodInvocation SimpleName add
+initial bridges SimpleName MethodInvocation SimpleName b
+add SimpleName MethodInvocation SimpleName b
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add initial bridge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animation element bridge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName b
+void PrimitiveType MethodDeclaration SimpleName add initial bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animation element bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName b
+add initial bridge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animation element bridge
+add initial bridge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add initial bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add initial bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName b

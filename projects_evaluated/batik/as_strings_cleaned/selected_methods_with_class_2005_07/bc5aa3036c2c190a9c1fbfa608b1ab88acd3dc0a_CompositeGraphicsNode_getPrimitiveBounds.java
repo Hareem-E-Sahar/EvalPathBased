@@ -1,0 +1,55 @@
+primitive bounds SimpleName InfixExpression SimpleName null rect
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bounds
+i SimpleName InfixExpression SimpleName count
+children SimpleName ArrayAccess PostfixExpression SimpleName i
+children SimpleName ArrayAccess MethodInvocation SimpleName get transformed bounds
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName get transformed bounds
+children SimpleName ArrayAccess MethodInvocation SimpleName identity
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName identity
+get transformed bounds SimpleName MethodInvocation SimpleName identity
+bounds SimpleName Assignment MethodInvocation ArrayAccess SimpleName children
+bounds SimpleName Assignment MethodInvocation SimpleName get transformed bounds
+bounds SimpleName Assignment MethodInvocation SimpleName identity
+i SimpleName InfixExpression NumberLiteral x f
+i SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+x f NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+halting thread SimpleName MethodInvocation SimpleName has been halted
+halting thread SimpleName MethodInvocation SimpleName has been halted
+primitive bounds SimpleName Assignment SimpleName null rect
+primitive bounds SimpleName Assignment SimpleName bounds
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctb
+i SimpleName InfixExpression SimpleName count
+children SimpleName ArrayAccess PostfixExpression SimpleName i
+children SimpleName ArrayAccess MethodInvocation SimpleName get transformed bounds
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName get transformed bounds
+children SimpleName ArrayAccess MethodInvocation SimpleName identity
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName identity
+get transformed bounds SimpleName MethodInvocation SimpleName identity
+ctb SimpleName Assignment MethodInvocation ArrayAccess SimpleName children
+ctb SimpleName Assignment MethodInvocation SimpleName get transformed bounds
+ctb SimpleName Assignment MethodInvocation SimpleName identity
+primitive bounds SimpleName MethodInvocation SimpleName add
+primitive bounds SimpleName MethodInvocation SimpleName ctb
+add SimpleName MethodInvocation SimpleName ctb
+i SimpleName InfixExpression NumberLiteral x f
+i SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+x f NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+halting thread SimpleName MethodInvocation SimpleName has been halted
+halting thread SimpleName MethodInvocation SimpleName has been halted
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName get primitive bounds
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName primitive bounds
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get primitive bounds
+get primitive bounds SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get primitive bounds SimpleName MethodDeclaration Block ReturnStatement SimpleName primitive bounds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get primitive bounds
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get primitive bounds

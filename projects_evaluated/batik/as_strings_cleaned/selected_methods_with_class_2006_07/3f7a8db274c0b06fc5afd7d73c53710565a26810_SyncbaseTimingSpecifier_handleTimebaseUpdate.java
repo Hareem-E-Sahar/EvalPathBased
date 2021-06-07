@@ -1,0 +1,40 @@
+instance time SimpleName SimpleType SingleVariableDeclaration SimpleName instance time
+float PrimitiveType SingleVariableDeclaration SimpleName new time
+float SimpleName SimpleType ClassInstanceCreation SimpleName new time
+instance time SimpleName ArrayInitializer ClassInstanceCreation SimpleType SimpleName float
+instance time SimpleName ArrayInitializer ClassInstanceCreation SimpleName new time
+trace SimpleName MethodInvocation SimpleName enter
+trace SimpleName MethodInvocation StringLiteral handle timebase update
+trace SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName instance time
+enter SimpleName MethodInvocation StringLiteral handle timebase update
+enter SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName instance time
+handle timebase update StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName instance time
+owner SimpleName MethodInvocation SimpleName instance time changed
+owner SimpleName MethodInvocation SimpleName instance time
+owner SimpleName MethodInvocation SimpleName is begin
+instance time changed SimpleName MethodInvocation SimpleName instance time
+instance time changed SimpleName MethodInvocation SimpleName is begin
+instance time SimpleName MethodInvocation SimpleName is begin
+trace SimpleName MethodInvocation SimpleName exit
+void PrimitiveType MethodDeclaration SimpleName handle timebase update
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance time
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName instance time
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new time
+handle timebase update SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName instance time
+handle timebase update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName instance time
+handle timebase update SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+handle timebase update SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new time
+instance time SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+instance time SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle timebase update
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new time
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle timebase update
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName instance time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new time

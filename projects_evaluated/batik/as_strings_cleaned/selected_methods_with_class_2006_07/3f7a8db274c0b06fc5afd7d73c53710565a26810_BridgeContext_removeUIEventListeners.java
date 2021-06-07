@@ -1,0 +1,99 @@
+document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+doc SimpleName MethodInvocation SimpleName get document element
+event target SimpleName SimpleType CastExpression MethodInvocation SimpleName doc
+event target SimpleName SimpleType CastExpression MethodInvocation SimpleName get document element
+evt target SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName event target
+evt target SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName doc
+evt target SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get document element
+event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName evt target
+event listener set SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName event listener set
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+event listener mememto SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+event listener mememto SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+elm SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName event listener mememto
+elm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+elm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+event listener mememto SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elm
+elm SimpleName MethodInvocation SimpleName get target
+et SimpleName VariableDeclarationFragment MethodInvocation SimpleName elm
+et SimpleName VariableDeclarationFragment MethodInvocation SimpleName get target
+node event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName et
+et SimpleName InfixExpression SimpleName evt target
+elm SimpleName MethodInvocation SimpleName get listener
+el SimpleName VariableDeclarationFragment MethodInvocation SimpleName elm
+el SimpleName VariableDeclarationFragment MethodInvocation SimpleName get listener
+event listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName el
+elm SimpleName MethodInvocation SimpleName get use capture
+uc SimpleName VariableDeclarationFragment MethodInvocation SimpleName elm
+uc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get use capture
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName uc
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName elm
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get use capture
+elm SimpleName MethodInvocation SimpleName get event type
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName elm
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get event type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+elm SimpleName MethodInvocation SimpleName get namespaced
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName elm
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespaced
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName elm
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get namespaced
+et SimpleName InfixExpression InfixExpression InfixExpression SimpleName el
+elm SimpleName MethodInvocation SimpleName get namespace uri
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName elm
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns
+et SimpleName MethodInvocation SimpleName remove event listener ns
+et SimpleName MethodInvocation SimpleName ns
+et SimpleName MethodInvocation SimpleName t
+et SimpleName MethodInvocation SimpleName el
+et SimpleName MethodInvocation SimpleName uc
+remove event listener ns SimpleName MethodInvocation SimpleName ns
+remove event listener ns SimpleName MethodInvocation SimpleName t
+remove event listener ns SimpleName MethodInvocation SimpleName el
+remove event listener ns SimpleName MethodInvocation SimpleName uc
+ns SimpleName MethodInvocation SimpleName t
+ns SimpleName MethodInvocation SimpleName el
+ns SimpleName MethodInvocation SimpleName uc
+t SimpleName MethodInvocation SimpleName el
+t SimpleName MethodInvocation SimpleName uc
+el SimpleName MethodInvocation SimpleName uc
+et SimpleName MethodInvocation SimpleName remove event listener
+et SimpleName MethodInvocation SimpleName t
+et SimpleName MethodInvocation SimpleName el
+et SimpleName MethodInvocation SimpleName uc
+remove event listener SimpleName MethodInvocation SimpleName t
+remove event listener SimpleName MethodInvocation SimpleName el
+remove event listener SimpleName MethodInvocation SimpleName uc
+t SimpleName MethodInvocation SimpleName el
+t SimpleName MethodInvocation SimpleName uc
+el SimpleName MethodInvocation SimpleName uc
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName n
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName n
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove ui event listeners
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName event listener set
+void PrimitiveType MethodDeclaration SimpleName remove ui event listeners
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName event listener set
+remove ui event listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+remove ui event listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+remove ui event listeners SimpleName MethodDeclaration Block SynchronizedStatement SimpleName event listener set
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove ui event listeners
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove ui event listeners
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc

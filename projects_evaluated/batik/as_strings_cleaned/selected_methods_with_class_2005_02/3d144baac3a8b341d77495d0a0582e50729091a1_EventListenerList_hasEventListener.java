@@ -1,0 +1,26 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace uri
+n SimpleName InfixExpression NumberLiteral empty
+counts SimpleName MethodInvocation SimpleName get
+counts SimpleName MethodInvocation SimpleName namespace uri
+get SimpleName MethodInvocation SimpleName namespace uri
+counts SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+namespace uri SimpleName MethodInvocation InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has event listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+boolean PrimitiveType MethodDeclaration SimpleName has event listener
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+has event listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+has event listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has event listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has event listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri

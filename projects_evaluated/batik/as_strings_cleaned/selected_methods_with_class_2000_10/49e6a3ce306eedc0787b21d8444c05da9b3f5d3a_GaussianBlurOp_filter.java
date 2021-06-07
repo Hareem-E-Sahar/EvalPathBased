@@ -1,0 +1,238 @@
+buffered image SimpleName SimpleType SingleVariableDeclaration SimpleName src
+buffered image SimpleName SimpleType SingleVariableDeclaration SimpleName dest
+src SimpleName InfixExpression InfixExpression InfixExpression SimpleName dest
+null pointer exception SimpleName SimpleType ClassInstanceCreation StringLiteral src image should not be null if dest is null
+src SimpleName MethodInvocation SimpleName get width
+src SimpleName MethodInvocation SimpleName get height
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName src
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get width
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName src
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get height
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+src SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName src
+src SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName src
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+src SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+get width SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+src SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+get height SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+dest SimpleName Assignment ClassInstanceCreation SimpleType SimpleName buffered image
+dest SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName src
+dest SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get width
+dest SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName src
+dest SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get height
+dest SimpleName Assignment ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+src SimpleName MethodInvocation SimpleName get raster
+dest SimpleName MethodInvocation SimpleName get raster
+filter SimpleName MethodInvocation MethodInvocation SimpleName src
+filter SimpleName MethodInvocation MethodInvocation SimpleName get raster
+filter SimpleName MethodInvocation MethodInvocation SimpleName dest
+filter SimpleName MethodInvocation MethodInvocation SimpleName get raster
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dest
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raster
+get raster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dest
+get raster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raster
+final dest SimpleName VariableDeclarationFragment SimpleName dest
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName final dest
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dest
+color model SimpleName MethodInvocation SimpleName get rg bdefault
+s rgbcm SimpleName VariableDeclarationFragment MethodInvocation SimpleName color model
+s rgbcm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rg bdefault
+color model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s rgbcm
+src SimpleName MethodInvocation SimpleName get color model
+src cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName src
+src cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get color model
+color model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName src cm
+color model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dst cm
+src need un multiply SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName src need un multiply
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+dst need un multiply SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dst need un multiply
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+src cm SimpleName MethodInvocation SimpleName equals
+src cm SimpleName MethodInvocation SimpleName s rgbcm
+equals SimpleName MethodInvocation SimpleName s rgbcm
+src SimpleName MethodInvocation SimpleName get raster
+src cm SimpleName MethodInvocation SimpleName coerce data
+src cm SimpleName MethodInvocation MethodInvocation SimpleName src
+src cm SimpleName MethodInvocation MethodInvocation SimpleName get raster
+src cm SimpleName MethodInvocation BooleanLiteral true
+coerce data SimpleName MethodInvocation MethodInvocation SimpleName src
+coerce data SimpleName MethodInvocation MethodInvocation SimpleName get raster
+coerce data SimpleName MethodInvocation BooleanLiteral true
+src SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get raster SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+src need un multiply SimpleName Assignment BooleanLiteral true
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new src
+src SimpleName MethodInvocation SimpleName get width
+src SimpleName MethodInvocation SimpleName get height
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName src
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get width
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName src
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get height
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+src SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName src
+src SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName src
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+src SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+get width SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+src SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+get height SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+new src SimpleName Assignment ClassInstanceCreation SimpleType SimpleName buffered image
+new src SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName src
+new src SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get width
+new src SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName src
+new src SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get height
+new src SimpleName Assignment ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+op SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName color convert op
+color convert op SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName op
+op SimpleName MethodInvocation SimpleName filter
+op SimpleName MethodInvocation SimpleName src
+op SimpleName MethodInvocation SimpleName new src
+filter SimpleName MethodInvocation SimpleName src
+filter SimpleName MethodInvocation SimpleName new src
+src SimpleName MethodInvocation SimpleName new src
+src SimpleName Assignment MethodInvocation SimpleName op
+src SimpleName Assignment MethodInvocation SimpleName filter
+src SimpleName Assignment MethodInvocation SimpleName src
+src SimpleName Assignment MethodInvocation SimpleName new src
+dest SimpleName MethodInvocation SimpleName get color model
+is compatible SimpleName MethodInvocation MethodInvocation SimpleName dest
+is compatible SimpleName MethodInvocation MethodInvocation SimpleName get color model
+create compatible dest image SimpleName MethodInvocation SimpleName src
+dest SimpleName Assignment MethodInvocation SimpleName create compatible dest image
+dest SimpleName Assignment MethodInvocation SimpleName src
+dest SimpleName MethodInvocation SimpleName get color model
+dst cm SimpleName Assignment MethodInvocation SimpleName dest
+dst cm SimpleName Assignment MethodInvocation SimpleName get color model
+dst cm SimpleName MethodInvocation SimpleName equals
+dst cm SimpleName MethodInvocation SimpleName s rgbcm
+equals SimpleName MethodInvocation SimpleName s rgbcm
+dest SimpleName MethodInvocation SimpleName get raster
+dst cm SimpleName MethodInvocation SimpleName coerce data
+dst cm SimpleName MethodInvocation MethodInvocation SimpleName dest
+dst cm SimpleName MethodInvocation MethodInvocation SimpleName get raster
+dst cm SimpleName MethodInvocation BooleanLiteral true
+coerce data SimpleName MethodInvocation MethodInvocation SimpleName dest
+coerce data SimpleName MethodInvocation MethodInvocation SimpleName get raster
+coerce data SimpleName MethodInvocation BooleanLiteral true
+dest SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get raster SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+dst need un multiply SimpleName Assignment BooleanLiteral true
+op SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName color convert op
+color convert op SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName op
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new dest
+src SimpleName MethodInvocation SimpleName get width
+src SimpleName MethodInvocation SimpleName get height
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName src
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get width
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName src
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get height
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+src SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName src
+src SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName src
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+src SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+get width SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+src SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+get height SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+new dest SimpleName Assignment ClassInstanceCreation SimpleType SimpleName buffered image
+new dest SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName src
+new dest SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get width
+new dest SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName src
+new dest SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get height
+new dest SimpleName Assignment ClassInstanceCreation QualifiedName buffered imagetype int argb pre
+filter SimpleName MethodInvocation SimpleName dest
+filter SimpleName MethodInvocation SimpleName new dest
+dest SimpleName MethodInvocation SimpleName new dest
+dest SimpleName Assignment MethodInvocation SimpleName filter
+dest SimpleName Assignment MethodInvocation SimpleName dest
+dest SimpleName Assignment MethodInvocation SimpleName new dest
+src SimpleName MethodInvocation SimpleName get raster
+dest SimpleName MethodInvocation SimpleName get raster
+filter SimpleName MethodInvocation MethodInvocation SimpleName src
+filter SimpleName MethodInvocation MethodInvocation SimpleName get raster
+filter SimpleName MethodInvocation MethodInvocation SimpleName dest
+filter SimpleName MethodInvocation MethodInvocation SimpleName get raster
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dest
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raster
+get raster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName dest
+get raster SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get raster
+src SimpleName MethodInvocation SimpleName get raster
+src cm SimpleName MethodInvocation SimpleName coerce data
+src cm SimpleName MethodInvocation MethodInvocation SimpleName src
+src cm SimpleName MethodInvocation MethodInvocation SimpleName get raster
+src cm SimpleName MethodInvocation BooleanLiteral false
+coerce data SimpleName MethodInvocation MethodInvocation SimpleName src
+coerce data SimpleName MethodInvocation MethodInvocation SimpleName get raster
+coerce data SimpleName MethodInvocation BooleanLiteral false
+src SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get raster SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+src need un multiply SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName src cm
+src need un multiply SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName coerce data
+src need un multiply SimpleName IfStatement ExpressionStatement MethodInvocation BooleanLiteral false
+dest SimpleName MethodInvocation SimpleName get raster
+dst cm SimpleName MethodInvocation SimpleName coerce data
+dst cm SimpleName MethodInvocation MethodInvocation SimpleName dest
+dst cm SimpleName MethodInvocation MethodInvocation SimpleName get raster
+dst cm SimpleName MethodInvocation BooleanLiteral false
+coerce data SimpleName MethodInvocation MethodInvocation SimpleName dest
+coerce data SimpleName MethodInvocation MethodInvocation SimpleName get raster
+coerce data SimpleName MethodInvocation BooleanLiteral false
+dest SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get raster SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+dst need un multiply SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName dst cm
+dst need un multiply SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName coerce data
+dst need un multiply SimpleName IfStatement ExpressionStatement MethodInvocation BooleanLiteral false
+dest SimpleName InfixExpression SimpleName final dest
+op SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName color convert op
+color convert op SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName op
+op SimpleName MethodInvocation SimpleName filter
+op SimpleName MethodInvocation SimpleName dest
+op SimpleName MethodInvocation SimpleName final dest
+filter SimpleName MethodInvocation SimpleName dest
+filter SimpleName MethodInvocation SimpleName final dest
+dest SimpleName MethodInvocation SimpleName final dest
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+src need un multiply SimpleName IfStatement Block IfStatement SimpleName dst need un multiply
+src need un multiply SimpleName IfStatement Block ReturnStatement SimpleName final dest
+dst need un multiply SimpleName IfStatement Block ReturnStatement SimpleName final dest
+public Modifier MethodDeclaration SimpleType SimpleName buffered image
+public Modifier MethodDeclaration SimpleName filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dest
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block IfStatement SimpleName src need un multiply
+public Modifier MethodDeclaration Block IfStatement SimpleName dst need un multiply
+public Modifier MethodDeclaration Block ReturnStatement SimpleName final dest
+buffered image SimpleName SimpleType MethodDeclaration SimpleName filter
+buffered image SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName src
+buffered image SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dest
+filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dest
+filter SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+filter SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+filter SimpleName MethodDeclaration Block IfStatement SimpleName src need un multiply
+filter SimpleName MethodDeclaration Block IfStatement SimpleName dst need un multiply
+filter SimpleName MethodDeclaration Block ReturnStatement SimpleName final dest
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName buffered image
+public Modifier TypeDeclaration MethodDeclaration SimpleName filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName buffered image
+test SimpleName TypeDeclaration MethodDeclaration SimpleName filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest

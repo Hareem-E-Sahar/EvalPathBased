@@ -1,0 +1,22 @@
+the ctx SimpleName MethodInvocation SimpleName get user agent
+ua SimpleName VariableDeclarationFragment MethodInvocation SimpleName the ctx
+ua SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user agent
+user agent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ua
+svgom element SimpleName SimpleType CastExpression SimpleName the elt
+the elt SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set svg context
+ua SimpleName MethodInvocation SimpleName handle element
+ua SimpleName MethodInvocation SimpleName the elt
+ua SimpleName MethodInvocation SimpleName parent
+handle element SimpleName MethodInvocation SimpleName the elt
+handle element SimpleName MethodInvocation SimpleName parent
+the elt SimpleName MethodInvocation SimpleName parent
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispose
+void PrimitiveType MethodDeclaration SimpleName dispose
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispose
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispose

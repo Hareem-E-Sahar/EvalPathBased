@@ -1,0 +1,85 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+node SimpleName SimpleType SingleVariableDeclaration SimpleName arg
+set named item SimpleName SuperMethodInvocation SimpleName name
+set named item SimpleName SuperMethodInvocation SimpleName arg
+name SimpleName SuperMethodInvocation SimpleName arg
+attr SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName set named item
+attr SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName name
+attr SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName arg
+result SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName attr
+result SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName set named item
+result SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName name
+result SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName arg
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+live attribute values SimpleName MethodInvocation SimpleName get
+live attribute values SimpleName MethodInvocation SimpleName namespace uri
+get SimpleName MethodInvocation SimpleName namespace uri
+hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName live attribute values
+hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName namespace uri
+hm SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName hash map
+hm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName live attribute values
+hm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+hm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName namespace uri
+hash map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hm
+hm SimpleName MethodInvocation SimpleName get
+hm SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+weak reference SimpleName SimpleType CastExpression MethodInvocation SimpleName hm
+weak reference SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+weak reference SimpleName SimpleType CastExpression MethodInvocation SimpleName name
+wr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName weak reference
+wr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName hm
+wr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+wr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName name
+weak reference SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wr
+live attribute value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lav
+wr SimpleName MethodInvocation SimpleName get
+live attribute value SimpleName SimpleType CastExpression MethodInvocation SimpleName wr
+live attribute value SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+lav SimpleName Assignment CastExpression SimpleType SimpleName live attribute value
+lav SimpleName Assignment CastExpression MethodInvocation SimpleName wr
+lav SimpleName Assignment CastExpression MethodInvocation SimpleName get
+attr SimpleName SimpleType CastExpression SimpleName arg
+lav SimpleName MethodInvocation SimpleName value changed
+lav SimpleName MethodInvocation SimpleName result
+lav SimpleName MethodInvocation CastExpression SimpleType SimpleName attr
+lav SimpleName MethodInvocation CastExpression SimpleName arg
+value changed SimpleName MethodInvocation SimpleName result
+value changed SimpleName MethodInvocation CastExpression SimpleType SimpleName attr
+value changed SimpleName MethodInvocation CastExpression SimpleName arg
+result SimpleName MethodInvocation CastExpression SimpleType SimpleName attr
+result SimpleName MethodInvocation CastExpression SimpleName arg
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName set named item
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName arg
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+node SimpleName SimpleType MethodDeclaration SimpleName set named item
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName arg
+node SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+set named item SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set named item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+set named item SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+set named item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName arg
+set named item SimpleName MethodDeclaration SimpleType SimpleName dom exception
+set named item SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+arg SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName set named item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set named item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

@@ -1,0 +1,36 @@
+attr SimpleName SimpleType SingleVariableDeclaration SimpleName old attr
+old attr SimpleName MethodInvocation SimpleName get name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot found err
+create dom exception SimpleName MethodInvocation StringLiteral attributemissing
+dom exceptionnot found err QualifiedName MethodInvocation StringLiteral attributemissing
+old attr SimpleName MethodInvocation SimpleName get node name
+attributes SimpleName MethodInvocation SimpleName remove named item
+attributes SimpleName MethodInvocation MethodInvocation SimpleName old attr
+attributes SimpleName MethodInvocation MethodInvocation SimpleName get node name
+remove named item SimpleName MethodInvocation MethodInvocation SimpleName old attr
+remove named item SimpleName MethodInvocation MethodInvocation SimpleName get node name
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName attributes
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName remove named item
+public Modifier MethodDeclaration SimpleType SimpleName attr
+public Modifier MethodDeclaration SimpleName remove attribute node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attr
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName old attr
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+attr SimpleName SimpleType MethodDeclaration SimpleName remove attribute node
+attr SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName old attr
+attr SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+remove attribute node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attr
+remove attribute node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old attr
+remove attribute node SimpleName MethodDeclaration SimpleType SimpleName dom exception
+old attr SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attr
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove attribute node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old attr
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attr
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove attribute node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old attr
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

@@ -1,0 +1,175 @@
+invalid dimension StringLiteral InfixExpression SimpleName type
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid dimension
+illegal state exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName type
+type SimpleName SwitchStatement SwitchCase SimpleName sac percentage
+type SimpleName SwitchStatement ReturnStatement StringLiteral %
+type SimpleName SwitchStatement SwitchCase SimpleName sac em
+type SimpleName SwitchStatement ReturnStatement StringLiteral em
+type SimpleName SwitchStatement SwitchCase SimpleName sac ex
+sac percentage SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral %
+sac percentage SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac em
+sac percentage SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral em
+sac percentage SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac ex
+sac percentage SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral ex
+% StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac em
+% StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral em
+% StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac ex
+% StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral ex
+% StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac pixel
+sac em SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral em
+sac em SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac ex
+sac em SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral ex
+sac em SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac pixel
+sac em SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral px
+em StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac ex
+em StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral ex
+em StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac pixel
+em StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral px
+em StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac centimeter
+sac ex SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral ex
+sac ex SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac pixel
+sac ex SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral px
+sac ex SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac centimeter
+sac ex SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral cm
+ex StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac pixel
+ex StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral px
+ex StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac centimeter
+ex StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral cm
+ex StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac millimeter
+sac pixel SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral px
+sac pixel SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac centimeter
+sac pixel SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral cm
+sac pixel SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac millimeter
+sac pixel SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral mm
+px StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac centimeter
+px StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral cm
+px StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac millimeter
+px StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral mm
+px StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac inch
+sac centimeter SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral cm
+sac centimeter SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac millimeter
+sac centimeter SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral mm
+sac centimeter SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac inch
+sac centimeter SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral in
+cm StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac millimeter
+cm StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral mm
+cm StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac inch
+cm StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral in
+cm StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac point
+sac millimeter SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral mm
+sac millimeter SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac inch
+sac millimeter SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral in
+sac millimeter SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac point
+sac millimeter SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral pt
+mm StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac inch
+mm StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral in
+mm StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac point
+mm StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral pt
+mm StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac pica
+sac inch SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral in
+sac inch SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac point
+sac inch SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral pt
+sac inch SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac pica
+sac inch SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral pc
+in StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac point
+in StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral pt
+in StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac pica
+in StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral pc
+in StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac degree
+sac point SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral pt
+sac point SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac pica
+sac point SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral pc
+sac point SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac degree
+sac point SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral deg
+pt StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac pica
+pt StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral pc
+pt StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac degree
+pt StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral deg
+pt StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac radian
+sac pica SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral pc
+sac pica SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac degree
+sac pica SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral deg
+sac pica SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac radian
+sac pica SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral rad
+pc StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac degree
+pc StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral deg
+pc StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac radian
+pc StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral rad
+pc StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac gradian
+sac degree SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral deg
+sac degree SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac radian
+sac degree SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral rad
+sac degree SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac gradian
+sac degree SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral grad
+deg StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac radian
+deg StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral rad
+deg StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac gradian
+deg StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral grad
+deg StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac millisecond
+sac radian SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral rad
+sac radian SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac gradian
+sac radian SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral grad
+sac radian SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac millisecond
+sac radian SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral ms
+rad StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac gradian
+rad StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral grad
+rad StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac millisecond
+rad StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral ms
+rad StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac second
+sac gradian SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral grad
+sac gradian SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac millisecond
+sac gradian SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral ms
+sac gradian SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac second
+sac gradian SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral s
+grad StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac millisecond
+grad StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral ms
+grad StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac second
+grad StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral s
+grad StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac hertz
+sac millisecond SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral ms
+sac millisecond SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac second
+sac millisecond SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral s
+sac millisecond SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac hertz
+sac millisecond SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral hz
+ms StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac second
+ms StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral s
+ms StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac hertz
+ms StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral hz
+ms StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac kilohertz
+sac second SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral s
+sac second SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac hertz
+sac second SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral hz
+sac second SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac kilohertz
+sac second SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral k hz
+s StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac hertz
+s StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral hz
+s StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac kilohertz
+s StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral k hz
+s StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac dimension
+sac hertz SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral hz
+sac hertz SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac kilohertz
+sac hertz SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral k hz
+sac hertz SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac dimension
+sac hertz SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName sdimension
+hz StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac kilohertz
+hz StringLiteral ReturnStatement SwitchStatement ReturnStatement StringLiteral k hz
+hz StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac dimension
+hz StringLiteral ReturnStatement SwitchStatement ReturnStatement SimpleName sdimension
+sac kilohertz SimpleName SwitchCase SwitchStatement ReturnStatement StringLiteral k hz
+sac kilohertz SimpleName SwitchCase SwitchStatement SwitchCase SimpleName sac dimension
+sac kilohertz SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName sdimension
+k hz StringLiteral ReturnStatement SwitchStatement SwitchCase SimpleName sac dimension
+k hz StringLiteral ReturnStatement SwitchStatement ReturnStatement SimpleName sdimension
+sac dimension SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName sdimension
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get dimension unit text
+public Modifier MethodDeclaration Block SwitchStatement SimpleName type
+string SimpleName SimpleType MethodDeclaration SimpleName get dimension unit text
+get dimension unit text SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get dimension unit text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get dimension unit text

@@ -1,0 +1,23 @@
+runnable SimpleName SimpleType SingleVariableDeclaration SimpleName r
+event queue SimpleName MethodInvocation SimpleName invoke and wait
+event queue SimpleName MethodInvocation SimpleName r
+invoke and wait SimpleName MethodInvocation SimpleName r
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName invoke and wait
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+void PrimitiveType MethodDeclaration SimpleName invoke and wait
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+invoke and wait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+invoke and wait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName invoke and wait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName invoke and wait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r

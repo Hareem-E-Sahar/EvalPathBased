@@ -1,0 +1,153 @@
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml space
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml space SimpleName MethodInvocation CastExpression SimpleName current
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName xml utilities
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is xml space
+context SimpleName Assignment SimpleName dtd declarations context
+read identifier SimpleName MethodInvocation StringLiteral ystem
+read identifier SimpleName MethodInvocation QualifiedName lexical unitssystem identifier
+read identifier SimpleName MethodInvocation QualifiedName lexical unitsname
+ystem StringLiteral MethodInvocation QualifiedName lexical unitssystem identifier
+ystem StringLiteral MethodInvocation QualifiedName lexical unitsname
+lexical unitssystem identifier QualifiedName MethodInvocation QualifiedName lexical unitsname
+read identifier SimpleName MethodInvocation StringLiteral ublic
+read identifier SimpleName MethodInvocation QualifiedName lexical unitspublic identifier
+read identifier SimpleName MethodInvocation QualifiedName lexical unitsname
+ublic StringLiteral MethodInvocation QualifiedName lexical unitspublic identifier
+ublic StringLiteral MethodInvocation QualifiedName lexical unitsname
+lexical unitspublic identifier QualifiedName MethodInvocation QualifiedName lexical unitsname
+read identifier SimpleName MethodInvocation StringLiteral data
+read identifier SimpleName MethodInvocation QualifiedName lexical unitsndata identifier
+read identifier SimpleName MethodInvocation QualifiedName lexical unitsname
+data StringLiteral MethodInvocation QualifiedName lexical unitsndata identifier
+data StringLiteral MethodInvocation QualifiedName lexical unitsname
+lexical unitsndata identifier QualifiedName MethodInvocation QualifiedName lexical unitsname
+attr delimiter SimpleName Assignment CharacterLiteral empty
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+create xml exception SimpleName MethodInvocation StringLiteral unexpectedeof
+current SimpleName InfixExpression CharacterLiteral empty
+current SimpleName InfixExpression CharacterLiteral &
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral &
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral &
+current SimpleName InfixExpression CharacterLiteral %
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral empty
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+current SimpleName InfixExpression CharacterLiteral &
+current SimpleName InfixExpression CharacterLiteral %
+create xml exception SimpleName MethodInvocation StringLiteral invalidcharacter
+context SimpleName Assignment SimpleName entity value context
+current SimpleName SwitchStatement ThrowStatement MethodInvocation SimpleName create xml exception
+current SimpleName SwitchStatement ThrowStatement MethodInvocation StringLiteral invalidcharacter
+current SimpleName SwitchStatement SwitchCase CharacterLiteral &
+current SimpleName SwitchStatement SwitchCase CharacterLiteral %
+current SimpleName SwitchStatement ExpressionStatement Assignment SimpleName context
+current SimpleName SwitchStatement ExpressionStatement Assignment SimpleName entity value context
+& CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral %
+& CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+% CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+% CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsstring
+empty CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsstring
+attr delimiter SimpleName Assignment CharacterLiteral \
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+create xml exception SimpleName MethodInvocation StringLiteral unexpectedeof
+current SimpleName InfixExpression CharacterLiteral \
+current SimpleName InfixExpression CharacterLiteral &
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral &
+\ CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
+\ CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral &
+current SimpleName InfixExpression CharacterLiteral %
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral \
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral \
+current SimpleName InfixExpression CharacterLiteral &
+current SimpleName InfixExpression CharacterLiteral %
+create xml exception SimpleName MethodInvocation StringLiteral invalidcharacter
+context SimpleName Assignment SimpleName entity value context
+current SimpleName SwitchStatement ThrowStatement MethodInvocation SimpleName create xml exception
+current SimpleName SwitchStatement ThrowStatement MethodInvocation StringLiteral invalidcharacter
+current SimpleName SwitchStatement SwitchCase CharacterLiteral &
+current SimpleName SwitchStatement SwitchCase CharacterLiteral %
+current SimpleName SwitchStatement ExpressionStatement Assignment SimpleName context
+current SimpleName SwitchStatement ExpressionStatement Assignment SimpleName entity value context
+& CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral %
+& CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral \
+% CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral \
+% CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsstring
+\ CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsstring
+read name SimpleName MethodInvocation QualifiedName lexical unitsname
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+current SimpleName SwitchStatement SwitchCase NumberLiteral x a
+current SimpleName SwitchStatement SwitchCase NumberLiteral x d
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x d
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x d
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x a NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral >
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x d NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral >
+x NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral >
+lexical unitss QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral >
+lexical unitss QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName lexical unitsend char
+lexical unitss QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral %
+> CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsend char
+> CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral %
+lexical unitsend char QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral %
+lexical unitsend char QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName lexical unitspercent
+lexical unitsend char QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral s
+% CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitspercent
+% CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral s
+% CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral p
+lexical unitspercent QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral s
+lexical unitspercent QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral p
+lexical unitspercent QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral n
+s CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral p
+s CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral n
+p CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral n
+p CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+n CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchStatement SimpleName current
+current SimpleName SwitchStatement SwitchStatement ReturnStatement QualifiedName lexical unitsfirst attribute fragment
+current SimpleName SwitchStatement SwitchStatement SwitchCase CharacterLiteral \
+lexical unitsfirst attribute fragment QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral \
+\ CharacterLiteral SwitchCase SwitchStatement SwitchStatement SimpleName current
+current SimpleName SwitchStatement SwitchStatement ReturnStatement QualifiedName lexical unitsfirst attribute fragment
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName next in entity
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName current
+int PrimitiveType MethodDeclaration SimpleName next in entity
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+int PrimitiveType MethodDeclaration Block SwitchStatement SimpleName current
+next in entity SimpleName MethodDeclaration SimpleType SimpleName io exception
+next in entity SimpleName MethodDeclaration SimpleType SimpleName xml exception
+next in entity SimpleName MethodDeclaration Block SwitchStatement SimpleName current
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName next in entity
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next in entity
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception

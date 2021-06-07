@@ -1,0 +1,44 @@
+int PrimitiveType SingleVariableDeclaration SimpleName xloc
+xloc SimpleName InfixExpression SimpleName tile grid x off
+tgx SimpleName VariableDeclarationFragment InfixExpression SimpleName xloc
+tgx SimpleName VariableDeclarationFragment InfixExpression SimpleName tile grid x off
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tgx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName xloc
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName tile grid x off
+tgx SimpleName InfixExpression NumberLiteral empty
+tgx SimpleName InfixExpression SimpleName tile width
+tgx SimpleName InfixExpression SimpleName tile width
+tgx SimpleName InfixExpression InfixExpression NumberLiteral empty
+tile width SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName tile width
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get x tile
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName xloc
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration PrimitiveType int
+final Modifier MethodDeclaration SimpleName get x tile
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName xloc
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration SimpleName get x tile
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName xloc
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get x tile SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get x tile SimpleName MethodDeclaration SingleVariableDeclaration SimpleName xloc
+get x tile SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get x tile
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xloc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get x tile
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xloc

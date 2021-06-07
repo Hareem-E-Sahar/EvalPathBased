@@ -1,0 +1,79 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName new child
+node SimpleName SimpleType SingleVariableDeclaration SimpleName ref child
+ref child SimpleName InfixExpression InfixExpression InfixExpression SimpleName child nodes
+ref child SimpleName MethodInvocation SimpleName get node type
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ref child
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+ref child SimpleName MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot found err
+create dom exception SimpleName MethodInvocation StringLiteral childmissing
+dom exceptionnot found err QualifiedName MethodInvocation StringLiteral childmissing
+check and remove SimpleName MethodInvocation SimpleName new child
+new child SimpleName MethodInvocation SimpleName get node type
+new child SimpleName MethodInvocation InfixExpression SimpleName document fragment node
+get node type SimpleName MethodInvocation InfixExpression SimpleName document fragment node
+new child SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName new child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns
+insert before SimpleName MethodInvocation SimpleName n
+insert before SimpleName MethodInvocation SimpleName ref child
+n SimpleName MethodInvocation SimpleName ref child
+n SimpleName Assignment SimpleName ns
+child nodes SimpleName Assignment ClassInstanceCreation SimpleType SimpleName child nodes
+extended node SimpleName SimpleType CastExpression SimpleName new child
+extended node SimpleName SimpleType CastExpression SimpleName ref child
+child nodes SimpleName MethodInvocation SimpleName insert
+child nodes SimpleName MethodInvocation CastExpression SimpleType SimpleName extended node
+child nodes SimpleName MethodInvocation CastExpression SimpleName new child
+child nodes SimpleName MethodInvocation CastExpression SimpleType SimpleName extended node
+child nodes SimpleName MethodInvocation CastExpression SimpleName ref child
+insert SimpleName MethodInvocation CastExpression SimpleType SimpleName extended node
+insert SimpleName MethodInvocation CastExpression SimpleName new child
+insert SimpleName MethodInvocation CastExpression SimpleType SimpleName extended node
+insert SimpleName MethodInvocation CastExpression SimpleName ref child
+new child SimpleName CastExpression MethodInvocation CastExpression SimpleName ref child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName child nodes
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName insert
+n SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName new child
+n SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName ref child
+extended node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName set parent node
+node added SimpleName MethodInvocation SimpleName n
+fire dom node inserted event SimpleName MethodInvocation SimpleName n
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName insert before
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new child
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ref child
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+node SimpleName SimpleType MethodDeclaration SimpleName insert before
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new child
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ref child
+node SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+insert before SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+insert before SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new child
+insert before SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+insert before SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ref child
+insert before SimpleName MethodDeclaration SimpleType SimpleName dom exception
+new child SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref child
+new child SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+ref child SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName insert before
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new child
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref child
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName insert before
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new child
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref child
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

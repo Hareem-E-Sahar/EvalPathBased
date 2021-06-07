@@ -1,0 +1,41 @@
+selector SimpleName SimpleType SingleVariableDeclaration SimpleName selector
+current SimpleName InfixExpression QualifiedName selectorslength
+old SimpleName VariableDeclarationFragment SimpleName selectors
+oldlength QualifiedName InfixExpression QualifiedName oldlength
+selectors SimpleName Assignment ArrayCreation InfixExpression QualifiedName oldlength
+selectors SimpleName Assignment ArrayCreation InfixExpression QualifiedName oldlength
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName old
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName selectors
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName old
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName selectors
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName oldlength
+old SimpleName MethodInvocation NumberLiteral empty
+old SimpleName MethodInvocation SimpleName selectors
+old SimpleName MethodInvocation NumberLiteral empty
+old SimpleName MethodInvocation QualifiedName oldlength
+empty NumberLiteral MethodInvocation SimpleName selectors
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName oldlength
+selectors SimpleName MethodInvocation NumberLiteral empty
+selectors SimpleName MethodInvocation QualifiedName oldlength
+empty NumberLiteral MethodInvocation QualifiedName oldlength
+selectors SimpleName ArrayAccess PostfixExpression SimpleName current
+selectors SimpleName ArrayAccess Assignment SimpleName selector
+current SimpleName PostfixExpression ArrayAccess Assignment SimpleName selector
+void PrimitiveType MethodDeclaration SimpleName add selector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName selector
+add selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector
+add selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName selector
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add selector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add selector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector

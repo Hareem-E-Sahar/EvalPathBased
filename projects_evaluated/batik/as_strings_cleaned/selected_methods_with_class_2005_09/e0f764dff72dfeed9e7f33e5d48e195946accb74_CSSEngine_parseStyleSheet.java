@@ -1,0 +1,96 @@
+style sheet SimpleName SimpleType SingleVariableDeclaration SimpleName ss
+input source SimpleName SimpleType SingleVariableDeclaration SimpleName is
+url SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+parser SimpleName MethodInvocation SimpleName set selector factory
+parser SimpleName MethodInvocation QualifiedName css selector factoryinstance
+set selector factory SimpleName MethodInvocation QualifiedName css selector factoryinstance
+parser SimpleName MethodInvocation SimpleName set condition factory
+parser SimpleName MethodInvocation SimpleName css condition factory
+set condition factory SimpleName MethodInvocation SimpleName css condition factory
+css base uri SimpleName Assignment SimpleName uri
+style sheet document handlerstyle sheet QualifiedName Assignment SimpleName ss
+parser SimpleName MethodInvocation SimpleName set document handler
+parser SimpleName MethodInvocation SimpleName style sheet document handler
+set document handler SimpleName MethodInvocation SimpleName style sheet document handler
+parser SimpleName MethodInvocation SimpleName parse style sheet
+parser SimpleName MethodInvocation SimpleName is
+parse style sheet SimpleName MethodInvocation SimpleName is
+ss SimpleName MethodInvocation SimpleName get size
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName ss
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ss
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+ss SimpleName MethodInvocation SimpleName get rule
+ss SimpleName MethodInvocation SimpleName i
+get rule SimpleName MethodInvocation SimpleName i
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName ss
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rule
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+rule SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+r SimpleName MethodInvocation SimpleName get type
+r SimpleName MethodInvocation InfixExpression QualifiedName import ruletype
+get type SimpleName MethodInvocation InfixExpression QualifiedName import ruletype
+import rule SimpleName SimpleType CastExpression SimpleName r
+ir SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName import rule
+ir SimpleName VariableDeclarationFragment CastExpression SimpleName r
+import rule SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ir
+ir SimpleName MethodInvocation SimpleName get uri
+parse style sheet SimpleName MethodInvocation SimpleName ir
+parse style sheet SimpleName MethodInvocation MethodInvocation SimpleName ir
+parse style sheet SimpleName MethodInvocation MethodInvocation SimpleName get uri
+ir SimpleName MethodInvocation MethodInvocation SimpleName ir
+ir SimpleName MethodInvocation MethodInvocation SimpleName get uri
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse style sheet
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName style sheet
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ss
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input source
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName is
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+void PrimitiveType MethodDeclaration SimpleName parse style sheet
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName style sheet
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ss
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName is
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName uri
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+parse style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName style sheet
+parse style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ss
+parse style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input source
+parse style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is
+parse style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+parse style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+parse style sheet SimpleName MethodDeclaration SimpleType SimpleName io exception
+ss SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+ss SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+ss SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+is SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+is SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse style sheet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ss
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse style sheet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ss
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

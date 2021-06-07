@@ -1,0 +1,189 @@
+graphics d SimpleName SimpleType SingleVariableDeclaration SimpleName g
+g SimpleName MethodInvocation SimpleName set rendering hint
+g SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+g SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+rendering hintskey antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue antialias on
+toolkit SimpleName MethodInvocation SimpleName get default toolkit
+toolkit SimpleName MethodInvocation MethodInvocation SimpleName create image
+get default toolkit SimpleName MethodInvocation MethodInvocation SimpleName create image
+toolkit SimpleName MethodInvocation MethodInvocation StringLiteral testresourcesorgapachebatiksvggenresourcesvangoghpng
+get default toolkit SimpleName MethodInvocation MethodInvocation StringLiteral testresourcesorgapachebatiksvggenresourcesvangoghpng
+create image SimpleName MethodInvocation StringLiteral testresourcesorgapachebatiksvggenresourcesvangoghpng
+image SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName toolkit
+image SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get default toolkit
+image SimpleName VariableDeclarationFragment MethodInvocation SimpleName create image
+image SimpleName VariableDeclarationFragment MethodInvocation StringLiteral testresourcesorgapachebatiksvggenresourcesvangoghpng
+image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName image
+button SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+media tracker SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+tracker SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName media tracker
+tracker SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation StringLiteral empty
+media tracker SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tracker
+tracker SimpleName MethodInvocation SimpleName add image
+tracker SimpleName MethodInvocation SimpleName image
+tracker SimpleName MethodInvocation NumberLiteral empty
+add image SimpleName MethodInvocation SimpleName image
+add image SimpleName MethodInvocation NumberLiteral empty
+image SimpleName MethodInvocation NumberLiteral empty
+tracker SimpleName MethodInvocation SimpleName wait for all
+interrupted exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+tracker SimpleName MethodInvocation SimpleName remove image
+tracker SimpleName MethodInvocation SimpleName image
+remove image SimpleName MethodInvocation SimpleName image
+tracker SimpleName MethodInvocation SimpleName remove image
+tracker SimpleName MethodInvocation SimpleName image
+remove image SimpleName MethodInvocation SimpleName image
+tracker SimpleName MethodInvocation SimpleName is error any
+image SimpleName MethodInvocation SimpleName get width
+image SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get width SimpleName MethodInvocation InfixExpression NumberLiteral empty
+image SimpleName MethodInvocation SimpleName get height
+image SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get height SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral could not load image
+image SimpleName MethodInvocation SimpleName get width
+image SimpleName MethodInvocation SimpleName get height
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName image
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get width
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName image
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get height
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName buffered imagetype int rgb
+image SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName image
+image SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName image
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+image SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int rgb
+get width SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int rgb
+image SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int rgb
+get height SimpleName MethodInvocation ClassInstanceCreation QualifiedName buffered imagetype int rgb
+bi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName buffered image
+bi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName image
+bi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get width
+bi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName image
+bi SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get height
+bi SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName buffered imagetype int rgb
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bi
+bi SimpleName MethodInvocation SimpleName create graphics
+ig SimpleName VariableDeclarationFragment MethodInvocation SimpleName bi
+ig SimpleName VariableDeclarationFragment MethodInvocation SimpleName create graphics
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ig
+ig SimpleName MethodInvocation SimpleName draw image
+ig SimpleName MethodInvocation SimpleName image
+ig SimpleName MethodInvocation NumberLiteral empty
+ig SimpleName MethodInvocation NumberLiteral empty
+draw image SimpleName MethodInvocation SimpleName image
+draw image SimpleName MethodInvocation NumberLiteral empty
+draw image SimpleName MethodInvocation NumberLiteral empty
+image SimpleName MethodInvocation NumberLiteral empty
+image SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+lookup SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+lookup SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName lookup
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+lookup SimpleName ArrayAccess SimpleName i
+empty NumberLiteral InfixExpression SimpleName i
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName i
+lookup SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+i SimpleName ArrayAccess Assignment CastExpression PrimitiveType byte
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+byte lookup table SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+byte lookup table SimpleName SimpleType ClassInstanceCreation SimpleName lookup
+empty NumberLiteral ClassInstanceCreation SimpleName lookup
+table SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte lookup table
+table SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+table SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName lookup
+lookup table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+javaawtimagelookup op QualifiedName SimpleType ClassInstanceCreation SimpleName table
+inverter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName javaawtimagelookup op
+inverter SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName table
+javaawtimagelookup op QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inverter
+g SimpleName MethodInvocation SimpleName set paint
+g SimpleName MethodInvocation QualifiedName colorblack
+set paint SimpleName MethodInvocation QualifiedName colorblack
+g SimpleName MethodInvocation SimpleName draw string
+g SimpleName MethodInvocation StringLiteral normal / inverted
+g SimpleName MethodInvocation NumberLiteral empty
+g SimpleName MethodInvocation NumberLiteral empty
+draw string SimpleName MethodInvocation StringLiteral normal / inverted
+draw string SimpleName MethodInvocation NumberLiteral empty
+draw string SimpleName MethodInvocation NumberLiteral empty
+normal / inverted StringLiteral MethodInvocation NumberLiteral empty
+normal / inverted StringLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+g SimpleName MethodInvocation SimpleName draw image
+g SimpleName MethodInvocation SimpleName image
+g SimpleName MethodInvocation NumberLiteral empty
+g SimpleName MethodInvocation NumberLiteral empty
+draw image SimpleName MethodInvocation SimpleName image
+draw image SimpleName MethodInvocation NumberLiteral empty
+draw image SimpleName MethodInvocation NumberLiteral empty
+image SimpleName MethodInvocation NumberLiteral empty
+image SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+bi SimpleName MethodInvocation SimpleName get width
+empty NumberLiteral InfixExpression MethodInvocation SimpleName bi
+empty NumberLiteral InfixExpression MethodInvocation SimpleName get width
+empty NumberLiteral InfixExpression NumberLiteral empty
+bi SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get width SimpleName MethodInvocation InfixExpression NumberLiteral empty
+g SimpleName MethodInvocation SimpleName draw image
+g SimpleName MethodInvocation SimpleName bi
+g SimpleName MethodInvocation SimpleName inverter
+g SimpleName MethodInvocation InfixExpression NumberLiteral empty
+g SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bi
+g SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+g SimpleName MethodInvocation InfixExpression NumberLiteral empty
+g SimpleName MethodInvocation NumberLiteral empty
+draw image SimpleName MethodInvocation SimpleName bi
+draw image SimpleName MethodInvocation SimpleName inverter
+draw image SimpleName MethodInvocation InfixExpression NumberLiteral empty
+draw image SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bi
+draw image SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+draw image SimpleName MethodInvocation InfixExpression NumberLiteral empty
+draw image SimpleName MethodInvocation NumberLiteral empty
+bi SimpleName MethodInvocation SimpleName inverter
+bi SimpleName MethodInvocation InfixExpression NumberLiteral empty
+bi SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bi
+bi SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+bi SimpleName MethodInvocation InfixExpression NumberLiteral empty
+bi SimpleName MethodInvocation NumberLiteral empty
+inverter SimpleName MethodInvocation InfixExpression NumberLiteral empty
+inverter SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName bi
+inverter SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get width
+inverter SimpleName MethodInvocation InfixExpression NumberLiteral empty
+inverter SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+bi SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+get width SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName g
+void PrimitiveType MethodDeclaration SimpleName paint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName g
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName paint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName paint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g

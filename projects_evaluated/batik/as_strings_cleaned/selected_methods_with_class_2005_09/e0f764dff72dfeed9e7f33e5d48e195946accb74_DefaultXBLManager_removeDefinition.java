@@ -1,0 +1,82 @@
+definition record SimpleName SimpleType SingleVariableDeclaration SimpleName def rec
+definition lists SimpleName MethodInvocation SimpleName get
+definition lists SimpleName MethodInvocation QualifiedName def recnamespace uri
+definition lists SimpleName MethodInvocation QualifiedName def reclocal name
+get SimpleName MethodInvocation QualifiedName def recnamespace uri
+get SimpleName MethodInvocation QualifiedName def reclocal name
+def recnamespace uri QualifiedName MethodInvocation QualifiedName def reclocal name
+tree set SimpleName SimpleType CastExpression MethodInvocation SimpleName definition lists
+tree set SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+tree set SimpleName SimpleType CastExpression MethodInvocation QualifiedName def recnamespace uri
+tree set SimpleName SimpleType CastExpression MethodInvocation QualifiedName def reclocal name
+defs SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName tree set
+defs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName definition lists
+defs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+defs SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName def recnamespace uri
+defs SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName def reclocal name
+tree set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName defs
+imp SimpleName VariableDeclarationFragment QualifiedName def recimport element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName imp
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName def recimport element
+imports SimpleName MethodInvocation SimpleName get
+imports SimpleName MethodInvocation SimpleName imp
+get SimpleName MethodInvocation SimpleName imp
+import record SimpleName SimpleType CastExpression MethodInvocation SimpleName imports
+import record SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+import record SimpleName SimpleType CastExpression MethodInvocation SimpleName imp
+ir SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName import record
+ir SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName imports
+ir SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+ir SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName imp
+import record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ir
+defs SimpleName MethodInvocation SimpleName first
+definition record SimpleName SimpleType CastExpression MethodInvocation SimpleName defs
+definition record SimpleName SimpleType CastExpression MethodInvocation SimpleName first
+active def rec SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName definition record
+active def rec SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName defs
+active def rec SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName first
+definition record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName active def rec
+defs SimpleName MethodInvocation SimpleName remove
+defs SimpleName MethodInvocation SimpleName def rec
+remove SimpleName MethodInvocation SimpleName def rec
+definitions SimpleName MethodInvocation SimpleName remove
+definitions SimpleName MethodInvocation QualifiedName def recdefinition
+definitions SimpleName MethodInvocation SimpleName imp
+remove SimpleName MethodInvocation QualifiedName def recdefinition
+remove SimpleName MethodInvocation SimpleName imp
+def recdefinition QualifiedName MethodInvocation SimpleName imp
+remove definition element listeners SimpleName MethodInvocation QualifiedName def recdefinition
+remove definition element listeners SimpleName MethodInvocation SimpleName ir
+def recdefinition QualifiedName MethodInvocation SimpleName ir
+def rec SimpleName InfixExpression SimpleName active def rec
+remove template element listeners SimpleName MethodInvocation QualifiedName def rectemplate
+remove template element listeners SimpleName MethodInvocation SimpleName ir
+def rectemplate QualifiedName MethodInvocation SimpleName ir
+document SimpleName MethodInvocation SimpleName get document element
+rebind SimpleName MethodInvocation QualifiedName def recnamespace uri
+rebind SimpleName MethodInvocation QualifiedName def reclocal name
+rebind SimpleName MethodInvocation MethodInvocation SimpleName document
+rebind SimpleName MethodInvocation MethodInvocation SimpleName get document element
+def recnamespace uri QualifiedName MethodInvocation QualifiedName def reclocal name
+def recnamespace uri QualifiedName MethodInvocation MethodInvocation SimpleName document
+def recnamespace uri QualifiedName MethodInvocation MethodInvocation SimpleName get document element
+def reclocal name QualifiedName MethodInvocation MethodInvocation SimpleName document
+def reclocal name QualifiedName MethodInvocation MethodInvocation SimpleName get document element
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName remove definition
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName definition record
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName def rec
+void PrimitiveType MethodDeclaration SimpleName remove definition
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName definition record
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName def rec
+remove definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName definition record
+remove definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName def rec
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove definition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def rec
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove definition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def rec

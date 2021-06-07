@@ -1,0 +1,41 @@
+nnm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nnm
+nnm SimpleName MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName nnm
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nnm
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+nnm SimpleName MethodInvocation SimpleName item
+nnm SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName nnm
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+a SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract attr
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName nnm
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+abstract attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+a SimpleName MethodInvocation SimpleName is id
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+protected Modifier MethodDeclaration SimpleType SimpleName attr
+protected Modifier MethodDeclaration SimpleName get id attribute
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+attr SimpleName SimpleType MethodDeclaration SimpleName get id attribute
+get id attribute SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attr
+public Modifier TypeDeclaration MethodDeclaration SimpleName get id attribute
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attr
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get id attribute

@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName interpreter pool
+public Modifier MethodDeclaration SimpleName get interpreter pool
+public Modifier MethodDeclaration Block ReturnStatement SimpleName interpreter pool
+interpreter pool SimpleName SimpleType MethodDeclaration SimpleName get interpreter pool
+get interpreter pool SimpleName MethodDeclaration Block ReturnStatement SimpleName interpreter pool
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interpreter pool
+public Modifier TypeDeclaration MethodDeclaration SimpleName get interpreter pool
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interpreter pool
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get interpreter pool

@@ -1,0 +1,26 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName text
+css exception SimpleName SimpleType ClassInstanceCreation StringLiteral illegal css text
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName comment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+void PrimitiveType MethodDeclaration SimpleName comment
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName text
+void PrimitiveType MethodDeclaration SimpleType SimpleName css exception
+comment SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+comment SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text
+comment SimpleName MethodDeclaration SimpleType SimpleName css exception
+text SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName comment
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName comment
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

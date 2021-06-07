@@ -1,0 +1,43 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+elt SimpleName MethodInvocation SimpleName get attribute
+elt SimpleName MethodInvocation SimpleName zoom and pan
+get attribute SimpleName MethodInvocation SimpleName zoom and pan
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName zoom and pan
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation SimpleName magnify
+equals SimpleName MethodInvocation SimpleName magnify
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation SimpleName zoom
+equals SimpleName MethodInvocation SimpleName zoom
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType short
+public Modifier MethodDeclaration SimpleName get zoom and pan
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName svg zoom and pansvg zoomandpan disable
+static Modifier MethodDeclaration PrimitiveType short
+static Modifier MethodDeclaration SimpleName get zoom and pan
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+static Modifier MethodDeclaration Block ReturnStatement QualifiedName svg zoom and pansvg zoomandpan disable
+short PrimitiveType MethodDeclaration SimpleName get zoom and pan
+short PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+short PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elt
+short PrimitiveType MethodDeclaration Block ReturnStatement QualifiedName svg zoom and pansvg zoomandpan disable
+get zoom and pan SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get zoom and pan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+get zoom and pan SimpleName MethodDeclaration Block ReturnStatement QualifiedName svg zoom and pansvg zoomandpan disable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName get zoom and pan
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get zoom and pan
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt

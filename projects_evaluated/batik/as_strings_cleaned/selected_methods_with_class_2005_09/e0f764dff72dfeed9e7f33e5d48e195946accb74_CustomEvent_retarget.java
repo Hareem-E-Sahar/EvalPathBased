@@ -1,0 +1,12 @@
+event target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+custom event SimpleName SimpleType MethodDeclaration SimpleName retarget
+custom event SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+retarget SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+retarget SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName custom event
+public Modifier TypeDeclaration MethodDeclaration SimpleName retarget
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName custom event
+test SimpleName TypeDeclaration MethodDeclaration SimpleName retarget
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

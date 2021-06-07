@@ -1,0 +1,130 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ln
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName val
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg external resources required attribute
+equals SimpleName MethodInvocation SimpleName svg external resources required attribute
+update boolean attribute value SimpleName MethodInvocation MethodInvocation SimpleName get external resources required
+update boolean attribute value SimpleName MethodInvocation SimpleName val
+get external resources required SimpleName MethodInvocation MethodInvocation SimpleName val
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg ref x attribute
+equals SimpleName MethodInvocation SimpleName svg ref x attribute
+update length attribute value SimpleName MethodInvocation MethodInvocation SimpleName get ref x
+update length attribute value SimpleName MethodInvocation SimpleName val
+get ref x SimpleName MethodInvocation MethodInvocation SimpleName val
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg ref y attribute
+equals SimpleName MethodInvocation SimpleName svg ref y attribute
+update length attribute value SimpleName MethodInvocation MethodInvocation SimpleName get ref y
+update length attribute value SimpleName MethodInvocation SimpleName val
+get ref y SimpleName MethodInvocation MethodInvocation SimpleName val
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg marker units attribute
+equals SimpleName MethodInvocation SimpleName svg marker units attribute
+update enumeration attribute value SimpleName MethodInvocation MethodInvocation SimpleName get marker units
+update enumeration attribute value SimpleName MethodInvocation SimpleName val
+get marker units SimpleName MethodInvocation MethodInvocation SimpleName val
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg marker width attribute
+equals SimpleName MethodInvocation SimpleName svg marker width attribute
+update length attribute value SimpleName MethodInvocation MethodInvocation SimpleName get marker width
+update length attribute value SimpleName MethodInvocation SimpleName val
+get marker width SimpleName MethodInvocation MethodInvocation SimpleName val
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg marker height attribute
+equals SimpleName MethodInvocation SimpleName svg marker height attribute
+update length attribute value SimpleName MethodInvocation MethodInvocation SimpleName get marker height
+update length attribute value SimpleName MethodInvocation SimpleName val
+get marker height SimpleName MethodInvocation MethodInvocation SimpleName val
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg preserve aspect ratio attribute
+equals SimpleName MethodInvocation SimpleName svg preserve aspect ratio attribute
+update preserve aspect ratio attribute value SimpleName MethodInvocation MethodInvocation SimpleName get preserve aspect ratio
+update preserve aspect ratio attribute value SimpleName MethodInvocation SimpleName val
+get preserve aspect ratio SimpleName MethodInvocation MethodInvocation SimpleName val
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg orient attribute
+equals SimpleName MethodInvocation SimpleName svg orient attribute
+get live attribute value SimpleName MethodInvocation SimpleName ln
+svgom animated marker orient value SimpleName SimpleType CastExpression MethodInvocation SimpleName get live attribute value
+svgom animated marker orient value SimpleName SimpleType CastExpression MethodInvocation SimpleName ln
+orient SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom animated marker orient value
+orient SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get live attribute value
+orient SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ln
+svgom animated marker orient value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName orient
+orient SimpleName MethodInvocation SimpleName reset animated value
+animatable angle or ident value SimpleName SimpleType CastExpression SimpleName val
+aloiv SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable angle or ident value
+aloiv SimpleName VariableDeclarationFragment CastExpression SimpleName val
+animatable angle or ident value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aloiv
+aloiv SimpleName MethodInvocation SimpleName is ident
+aloiv SimpleName MethodInvocation SimpleName get ident
+aloiv SimpleName MethodInvocation MethodInvocation SimpleName equals
+get ident SimpleName MethodInvocation MethodInvocation SimpleName equals
+aloiv SimpleName MethodInvocation MethodInvocation SimpleName svg auto value
+get ident SimpleName MethodInvocation MethodInvocation SimpleName svg auto value
+equals SimpleName MethodInvocation SimpleName svg auto value
+aloiv SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+aloiv SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg auto value
+is ident SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+is ident SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg auto value
+orient SimpleName MethodInvocation SimpleName set animated value to auto
+aloiv SimpleName MethodInvocation SimpleName get unit
+aloiv SimpleName MethodInvocation SimpleName get value
+orient SimpleName MethodInvocation SimpleName set animated value to angle
+orient SimpleName MethodInvocation MethodInvocation SimpleName aloiv
+orient SimpleName MethodInvocation MethodInvocation SimpleName get unit
+orient SimpleName MethodInvocation MethodInvocation SimpleName aloiv
+orient SimpleName MethodInvocation MethodInvocation SimpleName get value
+set animated value to angle SimpleName MethodInvocation MethodInvocation SimpleName aloiv
+set animated value to angle SimpleName MethodInvocation MethodInvocation SimpleName get unit
+set animated value to angle SimpleName MethodInvocation MethodInvocation SimpleName aloiv
+set animated value to angle SimpleName MethodInvocation MethodInvocation SimpleName get value
+aloiv SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aloiv
+aloiv SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get unit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName aloiv
+get unit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+update attribute value SimpleName SuperMethodInvocation SimpleName ns
+update attribute value SimpleName SuperMethodInvocation SimpleName ln
+update attribute value SimpleName SuperMethodInvocation SimpleName val
+ns SimpleName SuperMethodInvocation SimpleName ln
+ns SimpleName SuperMethodInvocation SimpleName val
+ln SimpleName SuperMethodInvocation SimpleName val
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName update attribute value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName update attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ns
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ln
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+update attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+update attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+update attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ln
+update attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+update attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+ln SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

@@ -1,0 +1,14 @@
+composite graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName new parent
+parent SimpleName FieldAccess Assignment SimpleName new parent
+void PrimitiveType MethodDeclaration SimpleName set parent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new parent
+set parent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node
+set parent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set parent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new parent
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set parent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new parent

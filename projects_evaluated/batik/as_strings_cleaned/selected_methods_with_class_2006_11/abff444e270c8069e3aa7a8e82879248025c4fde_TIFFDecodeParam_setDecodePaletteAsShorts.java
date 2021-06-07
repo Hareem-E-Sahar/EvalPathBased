@@ -1,0 +1,22 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName decode palette as shorts
+decode palette as shorts SimpleName FieldAccess Assignment SimpleName decode palette as shorts
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set decode palette as shorts
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName decode palette as shorts
+void PrimitiveType MethodDeclaration SimpleName set decode palette as shorts
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName decode palette as shorts
+set decode palette as shorts SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set decode palette as shorts SimpleName MethodDeclaration SingleVariableDeclaration SimpleName decode palette as shorts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set decode palette as shorts
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decode palette as shorts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set decode palette as shorts
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decode palette as shorts

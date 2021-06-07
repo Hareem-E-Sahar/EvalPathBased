@@ -1,0 +1,15 @@
+public Modifier MethodDeclaration Modifier abstract
+public Modifier MethodDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SimpleName get element
+abstract Modifier MethodDeclaration SimpleType SimpleName element
+abstract Modifier MethodDeclaration SimpleName get element
+element SimpleName SimpleType MethodDeclaration SimpleName get element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get element

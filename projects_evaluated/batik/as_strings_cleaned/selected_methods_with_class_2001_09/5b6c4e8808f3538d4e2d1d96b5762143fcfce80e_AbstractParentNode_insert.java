@@ -1,0 +1,72 @@
+extended node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+extended node SimpleName SimpleType SingleVariableDeclaration SimpleName r
+append SimpleName MethodInvocation SimpleName n
+r SimpleName InfixExpression SimpleName first child
+first child SimpleName MethodInvocation SimpleName set previous sibling
+first child SimpleName MethodInvocation SimpleName n
+set previous sibling SimpleName MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName set next sibling
+n SimpleName MethodInvocation SimpleName first child
+set next sibling SimpleName MethodInvocation SimpleName first child
+first child SimpleName Assignment SimpleName n
+o SimpleName VariableDeclarationFragment SimpleName first child
+extended node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+extended node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName first child
+o SimpleName InfixExpression SimpleName r
+r SimpleName MethodInvocation SimpleName get previous sibling
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName r
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName get previous sibling
+ps SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName extended node
+ps SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName r
+ps SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get previous sibling
+extended node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ps
+ps SimpleName MethodInvocation SimpleName set next sibling
+ps SimpleName MethodInvocation SimpleName n
+set next sibling SimpleName MethodInvocation SimpleName n
+r SimpleName MethodInvocation SimpleName set previous sibling
+r SimpleName MethodInvocation SimpleName n
+set previous sibling SimpleName MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName set next sibling
+n SimpleName MethodInvocation SimpleName r
+set next sibling SimpleName MethodInvocation SimpleName r
+n SimpleName MethodInvocation SimpleName set previous sibling
+n SimpleName MethodInvocation SimpleName ps
+set previous sibling SimpleName MethodInvocation SimpleName ps
+o SimpleName MethodInvocation SimpleName get next sibling
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName o
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName get next sibling
+o SimpleName Assignment CastExpression SimpleType SimpleName extended node
+o SimpleName Assignment CastExpression MethodInvocation SimpleName o
+o SimpleName Assignment CastExpression MethodInvocation SimpleName get next sibling
+r SimpleName MethodInvocation SimpleName get node type
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName r
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+r SimpleName MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot found err
+create dom exception SimpleName MethodInvocation StringLiteral childmissing
+dom exceptionnot found err QualifiedName MethodInvocation StringLiteral childmissing
+public Modifier MethodDeclaration SimpleType SimpleName extended node
+public Modifier MethodDeclaration SimpleName insert
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+extended node SimpleName SimpleType MethodDeclaration SimpleName insert
+extended node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+extended node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName r
+insert SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended node
+insert SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+insert SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended node
+insert SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName extended node
+public Modifier TypeDeclaration MethodDeclaration SimpleName insert
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName extended node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName insert
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r

@@ -1,0 +1,58 @@
+char PrimitiveType ArrayType SingleVariableDeclaration SimpleName target
+char PrimitiveType ArrayType SingleVariableDeclaration SimpleName space
+char PrimitiveType ArrayType SingleVariableDeclaration SimpleName data
+pretty printer SimpleName MethodInvocation SimpleName get format
+margin SimpleName MethodInvocation SimpleName to string
+print string SimpleName MethodInvocation MethodInvocation SimpleName margin
+print string SimpleName MethodInvocation MethodInvocation SimpleName to string
+print string SimpleName MethodInvocation StringLiteral <?
+print characters SimpleName MethodInvocation SimpleName target
+print spaces SimpleName MethodInvocation SimpleName space
+print spaces SimpleName MethodInvocation BooleanLiteral false
+space SimpleName MethodInvocation BooleanLiteral false
+print characters SimpleName MethodInvocation SimpleName data
+print string SimpleName MethodInvocation StringLiteral ?>
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print pi
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName space
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+void PrimitiveType MethodDeclaration SimpleName print pi
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName space
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+print pi SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+print pi SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+print pi SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+print pi SimpleName MethodDeclaration SingleVariableDeclaration SimpleName space
+print pi SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+print pi SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+print pi SimpleName MethodDeclaration SimpleType SimpleName io exception
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName space
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+target SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+space SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print pi
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName space
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print pi
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName space
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

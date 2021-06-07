@@ -1,0 +1,20 @@
+bridge mutation event SimpleName SimpleType SingleVariableDeclaration SimpleName event
+style mutation event SimpleName Assignment SimpleName event
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set style mutation event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge mutation event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event
+void PrimitiveType MethodDeclaration SimpleName set style mutation event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge mutation event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event
+set style mutation event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge mutation event
+set style mutation event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set style mutation event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set style mutation event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event

@@ -1,0 +1,84 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+nodes SimpleName SimpleType SingleVariableDeclaration SimpleName list
+node SimpleName MethodInvocation SimpleName get node type
+node SimpleName MethodInvocation InfixExpression SimpleName element node
+get node type SimpleName MethodInvocation InfixExpression SimpleName element node
+name SimpleName MethodInvocation SimpleName equals
+name SimpleName MethodInvocation StringLiteral *
+equals SimpleName MethodInvocation StringLiteral *
+node SimpleName MethodInvocation SimpleName get node name
+name SimpleName MethodInvocation SimpleName equals
+name SimpleName MethodInvocation MethodInvocation SimpleName node
+name SimpleName MethodInvocation MethodInvocation SimpleName get node name
+equals SimpleName MethodInvocation MethodInvocation SimpleName node
+equals SimpleName MethodInvocation MethodInvocation SimpleName get node name
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+* StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName name
+* StringLiteral MethodInvocation InfixExpression MethodInvocation SimpleName equals
+list SimpleName MethodInvocation SimpleName append
+list SimpleName MethodInvocation SimpleName node
+append SimpleName MethodInvocation SimpleName node
+node SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+get elements by tag name SimpleName MethodInvocation SimpleName n
+get elements by tag name SimpleName MethodInvocation SimpleName name
+get elements by tag name SimpleName MethodInvocation SimpleName list
+n SimpleName MethodInvocation SimpleName name
+n SimpleName MethodInvocation SimpleName list
+name SimpleName MethodInvocation SimpleName list
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName get elements by tag name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName get elements by tag name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName nodes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName list
+void PrimitiveType MethodDeclaration SimpleName get elements by tag name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName nodes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName list
+get elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+get elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName nodes
+get elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName list
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get elements by tag name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get elements by tag name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list

@@ -1,0 +1,46 @@
+xblom content element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+content selection changed listener SimpleName SimpleType SingleVariableDeclaration SimpleName l
+listeners SimpleName MethodInvocation SimpleName get
+listeners SimpleName MethodInvocation SimpleName e
+get SimpleName MethodInvocation SimpleName e
+event listener list SimpleName SimpleType CastExpression MethodInvocation SimpleName listeners
+event listener list SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+event listener list SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+ll SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName event listener list
+ll SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName listeners
+ll SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+ll SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+event listener list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ll
+ll SimpleName MethodInvocation SimpleName remove
+ll SimpleName MethodInvocation TypeLiteral SimpleType SimpleName content selection changed listener
+ll SimpleName MethodInvocation SimpleName l
+remove SimpleName MethodInvocation TypeLiteral SimpleType SimpleName content selection changed listener
+remove SimpleName MethodInvocation SimpleName l
+content selection changed listener SimpleName SimpleType TypeLiteral MethodInvocation SimpleName l
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove content selection changed listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom content element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content selection changed listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName remove content selection changed listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom content element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content selection changed listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+remove content selection changed listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xblom content element
+remove content selection changed listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+remove content selection changed listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content selection changed listener
+remove content selection changed listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove content selection changed listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove content selection changed listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

@@ -1,0 +1,51 @@
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName other
+animatable angle value SimpleName SimpleType CastExpression SimpleName other
+o SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable angle value
+o SimpleName VariableDeclarationFragment CastExpression SimpleName other
+animatable angle value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+rad SimpleName MethodInvocation SimpleName value
+rad SimpleName MethodInvocation SimpleName unit
+value SimpleName MethodInvocation SimpleName unit
+rad SimpleName MethodInvocation QualifiedName ovalue
+rad SimpleName MethodInvocation QualifiedName ounit
+ovalue QualifiedName MethodInvocation QualifiedName ounit
+rad SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rad
+rad SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName ovalue
+rad SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName ounit
+value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rad
+value SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName ovalue
+value SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName ounit
+unit SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rad
+unit SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName ovalue
+unit SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName ounit
+math SimpleName MethodInvocation SimpleName abs
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rad
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unit
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rad
+math SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName ovalue
+math SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName ounit
+abs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rad
+abs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName value
+abs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName unit
+abs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rad
+abs SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName ovalue
+abs SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName ounit
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName distance to
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+float PrimitiveType MethodDeclaration SimpleName distance to
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+distance to SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+distance to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName distance to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName distance to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

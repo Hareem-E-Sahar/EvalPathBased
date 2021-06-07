@@ -1,0 +1,31 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName xmlbase
+set attribute ns SimpleName MethodInvocation SimpleName xml namespace uri
+set attribute ns SimpleName MethodInvocation SimpleName xml base qname
+set attribute ns SimpleName MethodInvocation SimpleName xmlbase
+xml namespace uri SimpleName MethodInvocation SimpleName xml base qname
+xml namespace uri SimpleName MethodInvocation SimpleName xmlbase
+xml base qname SimpleName MethodInvocation SimpleName xmlbase
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set xm lbase
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName xmlbase
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set xm lbase
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName xmlbase
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set xm lbase SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set xm lbase SimpleName MethodDeclaration SingleVariableDeclaration SimpleName xmlbase
+set xm lbase SimpleName MethodDeclaration SimpleType SimpleName dom exception
+xmlbase SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set xm lbase
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xmlbase
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set xm lbase
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xmlbase
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

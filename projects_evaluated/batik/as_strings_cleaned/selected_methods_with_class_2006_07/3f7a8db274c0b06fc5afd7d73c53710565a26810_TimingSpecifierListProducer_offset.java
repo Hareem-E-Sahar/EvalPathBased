@@ -1,0 +1,35 @@
+float PrimitiveType SingleVariableDeclaration SimpleName offset
+offset timing specifier SimpleName SimpleType ClassInstanceCreation SimpleName owner
+offset timing specifier SimpleName SimpleType ClassInstanceCreation SimpleName is begin
+offset timing specifier SimpleName SimpleType ClassInstanceCreation SimpleName offset
+owner SimpleName ClassInstanceCreation SimpleName is begin
+owner SimpleName ClassInstanceCreation SimpleName offset
+is begin SimpleName ClassInstanceCreation SimpleName offset
+ts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName offset timing specifier
+ts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName owner
+ts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName is begin
+ts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName offset
+timing specifier SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+timing specifiers SimpleName MethodInvocation SimpleName add
+timing specifiers SimpleName MethodInvocation SimpleName ts
+add SimpleName MethodInvocation SimpleName ts
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName offset
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+void PrimitiveType MethodDeclaration SimpleName offset
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName offset
+offset SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+offset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName offset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset

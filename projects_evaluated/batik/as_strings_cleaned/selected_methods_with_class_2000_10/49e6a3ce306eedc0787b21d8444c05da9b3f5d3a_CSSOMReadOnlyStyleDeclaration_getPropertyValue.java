@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+property name SimpleName MethodInvocation SimpleName to lower case
+property name SimpleName MethodInvocation MethodInvocation SimpleName intern
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName intern
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName property name
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to lower case
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName intern
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation SimpleName s
+get SimpleName MethodInvocation SimpleName s
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName properties
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName s
+ve SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName value entry
+ve SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName properties
+ve SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+ve SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName s
+value entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ve
+vevalue QualifiedName MethodInvocation SimpleName get css text
+ve SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+empty StringLiteral ConditionalExpression MethodInvocation QualifiedName vevalue
+empty StringLiteral ConditionalExpression MethodInvocation SimpleName get css text
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get property value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+string SimpleName SimpleType MethodDeclaration SimpleName get property value
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property name
+get property value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get property value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name

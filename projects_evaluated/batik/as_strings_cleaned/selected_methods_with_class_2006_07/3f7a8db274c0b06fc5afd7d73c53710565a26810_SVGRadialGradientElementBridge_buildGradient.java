@@ -1,0 +1,382 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName paint element
+element SimpleName SimpleType SingleVariableDeclaration SimpleName painted element
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName painted node
+multiple gradient paintcycle method enum QualifiedName SimpleType SingleVariableDeclaration SimpleName spread method
+multiple gradient paintcolor space enum QualifiedName SimpleType SingleVariableDeclaration SimpleName color space
+affine transform SimpleName SimpleType SingleVariableDeclaration SimpleName transform
+color SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName colors
+float PrimitiveType ArrayType SingleVariableDeclaration SimpleName offsets
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+svg utilities SimpleName MethodInvocation SimpleName get chainable attribute ns
+svg utilities SimpleName MethodInvocation SimpleName paint element
+svg utilities SimpleName MethodInvocation SimpleName svg cx attribute
+svg utilities SimpleName MethodInvocation SimpleName ctx
+get chainable attribute ns SimpleName MethodInvocation SimpleName paint element
+get chainable attribute ns SimpleName MethodInvocation SimpleName svg cx attribute
+get chainable attribute ns SimpleName MethodInvocation SimpleName ctx
+paint element SimpleName MethodInvocation SimpleName svg cx attribute
+paint element SimpleName MethodInvocation SimpleName ctx
+svg cx attribute SimpleName MethodInvocation SimpleName ctx
+cx str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg utilities
+cx str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get chainable attribute ns
+cx str SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint element
+cx str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg cx attribute
+cx str SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cx str
+cx str SimpleName MethodInvocation SimpleName length
+cx str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cx str SimpleName Assignment SimpleName svg radial gradient cx default value
+svg utilities SimpleName MethodInvocation SimpleName get chainable attribute ns
+svg utilities SimpleName MethodInvocation SimpleName paint element
+svg utilities SimpleName MethodInvocation SimpleName svg cy attribute
+svg utilities SimpleName MethodInvocation SimpleName ctx
+get chainable attribute ns SimpleName MethodInvocation SimpleName paint element
+get chainable attribute ns SimpleName MethodInvocation SimpleName svg cy attribute
+get chainable attribute ns SimpleName MethodInvocation SimpleName ctx
+paint element SimpleName MethodInvocation SimpleName svg cy attribute
+paint element SimpleName MethodInvocation SimpleName ctx
+svg cy attribute SimpleName MethodInvocation SimpleName ctx
+cy str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg utilities
+cy str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get chainable attribute ns
+cy str SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint element
+cy str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg cy attribute
+cy str SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cy str
+cy str SimpleName MethodInvocation SimpleName length
+cy str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cy str SimpleName Assignment SimpleName svg radial gradient cy default value
+svg utilities SimpleName MethodInvocation SimpleName get chainable attribute ns
+svg utilities SimpleName MethodInvocation SimpleName paint element
+svg utilities SimpleName MethodInvocation SimpleName svg r attribute
+svg utilities SimpleName MethodInvocation SimpleName ctx
+get chainable attribute ns SimpleName MethodInvocation SimpleName paint element
+get chainable attribute ns SimpleName MethodInvocation SimpleName svg r attribute
+get chainable attribute ns SimpleName MethodInvocation SimpleName ctx
+paint element SimpleName MethodInvocation SimpleName svg r attribute
+paint element SimpleName MethodInvocation SimpleName ctx
+svg r attribute SimpleName MethodInvocation SimpleName ctx
+r str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg utilities
+r str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get chainable attribute ns
+r str SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint element
+r str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg r attribute
+r str SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r str
+r str SimpleName MethodInvocation SimpleName length
+r str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+r str SimpleName Assignment SimpleName svg radial gradient r default value
+svg utilities SimpleName MethodInvocation SimpleName get chainable attribute ns
+svg utilities SimpleName MethodInvocation SimpleName paint element
+svg utilities SimpleName MethodInvocation SimpleName svg fx attribute
+svg utilities SimpleName MethodInvocation SimpleName ctx
+get chainable attribute ns SimpleName MethodInvocation SimpleName paint element
+get chainable attribute ns SimpleName MethodInvocation SimpleName svg fx attribute
+get chainable attribute ns SimpleName MethodInvocation SimpleName ctx
+paint element SimpleName MethodInvocation SimpleName svg fx attribute
+paint element SimpleName MethodInvocation SimpleName ctx
+svg fx attribute SimpleName MethodInvocation SimpleName ctx
+fx str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg utilities
+fx str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get chainable attribute ns
+fx str SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint element
+fx str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg fx attribute
+fx str SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fx str
+fx str SimpleName MethodInvocation SimpleName length
+fx str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+fx str SimpleName Assignment SimpleName cx str
+svg utilities SimpleName MethodInvocation SimpleName get chainable attribute ns
+svg utilities SimpleName MethodInvocation SimpleName paint element
+svg utilities SimpleName MethodInvocation SimpleName svg fy attribute
+svg utilities SimpleName MethodInvocation SimpleName ctx
+get chainable attribute ns SimpleName MethodInvocation SimpleName paint element
+get chainable attribute ns SimpleName MethodInvocation SimpleName svg fy attribute
+get chainable attribute ns SimpleName MethodInvocation SimpleName ctx
+paint element SimpleName MethodInvocation SimpleName svg fy attribute
+paint element SimpleName MethodInvocation SimpleName ctx
+svg fy attribute SimpleName MethodInvocation SimpleName ctx
+fy str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg utilities
+fy str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get chainable attribute ns
+fy str SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint element
+fy str SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg fy attribute
+fy str SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fy str
+fy str SimpleName MethodInvocation SimpleName length
+fy str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+fy str SimpleName Assignment SimpleName cy str
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName coord system type
+svg utilities SimpleName MethodInvocation SimpleName get chainable attribute ns
+svg utilities SimpleName MethodInvocation SimpleName paint element
+svg utilities SimpleName MethodInvocation SimpleName svg gradient units attribute
+svg utilities SimpleName MethodInvocation SimpleName ctx
+get chainable attribute ns SimpleName MethodInvocation SimpleName paint element
+get chainable attribute ns SimpleName MethodInvocation SimpleName svg gradient units attribute
+get chainable attribute ns SimpleName MethodInvocation SimpleName ctx
+paint element SimpleName MethodInvocation SimpleName svg gradient units attribute
+paint element SimpleName MethodInvocation SimpleName ctx
+svg gradient units attribute SimpleName MethodInvocation SimpleName ctx
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg utilities
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get chainable attribute ns
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint element
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg gradient units attribute
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+coord system type SimpleName Assignment QualifiedName svg utilitiesobject bounding box
+svg utilities SimpleName MethodInvocation SimpleName parse coordinate system
+svg utilities SimpleName MethodInvocation SimpleName paint element
+svg utilities SimpleName MethodInvocation SimpleName svg gradient units attribute
+svg utilities SimpleName MethodInvocation SimpleName s
+svg utilities SimpleName MethodInvocation SimpleName ctx
+parse coordinate system SimpleName MethodInvocation SimpleName paint element
+parse coordinate system SimpleName MethodInvocation SimpleName svg gradient units attribute
+parse coordinate system SimpleName MethodInvocation SimpleName s
+parse coordinate system SimpleName MethodInvocation SimpleName ctx
+paint element SimpleName MethodInvocation SimpleName svg gradient units attribute
+paint element SimpleName MethodInvocation SimpleName s
+paint element SimpleName MethodInvocation SimpleName ctx
+svg gradient units attribute SimpleName MethodInvocation SimpleName s
+svg gradient units attribute SimpleName MethodInvocation SimpleName ctx
+s SimpleName MethodInvocation SimpleName ctx
+coord system type SimpleName Assignment MethodInvocation SimpleName svg utilities
+coord system type SimpleName Assignment MethodInvocation SimpleName parse coordinate system
+coord system type SimpleName Assignment MethodInvocation SimpleName paint element
+coord system type SimpleName Assignment MethodInvocation SimpleName svg gradient units attribute
+coord system type SimpleName Assignment MethodInvocation SimpleName s
+coord system type SimpleName Assignment MethodInvocation SimpleName ctx
+coord system type SimpleName InfixExpression QualifiedName svg utilitiesobject bounding box
+svg utilities SimpleName MethodInvocation SimpleName to object b box
+svg utilities SimpleName MethodInvocation SimpleName transform
+svg utilities SimpleName MethodInvocation SimpleName painted node
+to object b box SimpleName MethodInvocation SimpleName transform
+to object b box SimpleName MethodInvocation SimpleName painted node
+transform SimpleName MethodInvocation SimpleName painted node
+transform SimpleName Assignment MethodInvocation SimpleName svg utilities
+transform SimpleName Assignment MethodInvocation SimpleName to object b box
+transform SimpleName Assignment MethodInvocation SimpleName transform
+transform SimpleName Assignment MethodInvocation SimpleName painted node
+unit processor SimpleName MethodInvocation SimpleName create context
+unit processor SimpleName MethodInvocation SimpleName ctx
+unit processor SimpleName MethodInvocation SimpleName paint element
+create context SimpleName MethodInvocation SimpleName ctx
+create context SimpleName MethodInvocation SimpleName paint element
+ctx SimpleName MethodInvocation SimpleName paint element
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName unit processor
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName create context
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint element
+unit processorcontext QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uctx
+svg utilities SimpleName MethodInvocation SimpleName convert length
+svg utilities SimpleName MethodInvocation SimpleName r str
+svg utilities SimpleName MethodInvocation SimpleName svg r attribute
+svg utilities SimpleName MethodInvocation SimpleName coord system type
+svg utilities SimpleName MethodInvocation SimpleName uctx
+convert length SimpleName MethodInvocation SimpleName r str
+convert length SimpleName MethodInvocation SimpleName svg r attribute
+convert length SimpleName MethodInvocation SimpleName coord system type
+convert length SimpleName MethodInvocation SimpleName uctx
+r str SimpleName MethodInvocation SimpleName svg r attribute
+r str SimpleName MethodInvocation SimpleName coord system type
+r str SimpleName MethodInvocation SimpleName uctx
+svg r attribute SimpleName MethodInvocation SimpleName coord system type
+svg r attribute SimpleName MethodInvocation SimpleName uctx
+coord system type SimpleName MethodInvocation SimpleName uctx
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg utilities
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert length
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName r str
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg r attribute
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName coord system type
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName uctx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg utilities
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName convert length
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName r str
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg r attribute
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName coord system type
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName uctx
+r SimpleName InfixExpression NumberLiteral empty
+colorslength QualifiedName InfixExpression NumberLiteral empty
+colors SimpleName ArrayAccess InfixExpression QualifiedName colorslength
+colors SimpleName ArrayAccess InfixExpression NumberLiteral empty
+svg utilities SimpleName MethodInvocation SimpleName convert point
+svg utilities SimpleName MethodInvocation SimpleName cx str
+svg utilities SimpleName MethodInvocation SimpleName svg cx attribute
+svg utilities SimpleName MethodInvocation SimpleName cy str
+svg utilities SimpleName MethodInvocation SimpleName svg cy attribute
+convert point SimpleName MethodInvocation SimpleName cx str
+convert point SimpleName MethodInvocation SimpleName svg cx attribute
+convert point SimpleName MethodInvocation SimpleName cy str
+convert point SimpleName MethodInvocation SimpleName svg cy attribute
+convert point SimpleName MethodInvocation SimpleName coord system type
+cx str SimpleName MethodInvocation SimpleName svg cx attribute
+cx str SimpleName MethodInvocation SimpleName cy str
+cx str SimpleName MethodInvocation SimpleName svg cy attribute
+cx str SimpleName MethodInvocation SimpleName coord system type
+cx str SimpleName MethodInvocation SimpleName uctx
+svg cx attribute SimpleName MethodInvocation SimpleName cy str
+svg cx attribute SimpleName MethodInvocation SimpleName svg cy attribute
+svg cx attribute SimpleName MethodInvocation SimpleName coord system type
+svg cx attribute SimpleName MethodInvocation SimpleName uctx
+cy str SimpleName MethodInvocation SimpleName svg cy attribute
+cy str SimpleName MethodInvocation SimpleName coord system type
+cy str SimpleName MethodInvocation SimpleName uctx
+svg cy attribute SimpleName MethodInvocation SimpleName coord system type
+svg cy attribute SimpleName MethodInvocation SimpleName uctx
+coord system type SimpleName MethodInvocation SimpleName uctx
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg utilities
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert point
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName cx str
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg cx attribute
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName cy str
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg cy attribute
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName coord system type
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName uctx
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+svg utilities SimpleName MethodInvocation SimpleName convert point
+svg utilities SimpleName MethodInvocation SimpleName fx str
+svg utilities SimpleName MethodInvocation SimpleName svg fx attribute
+svg utilities SimpleName MethodInvocation SimpleName fy str
+svg utilities SimpleName MethodInvocation SimpleName svg fy attribute
+convert point SimpleName MethodInvocation SimpleName fx str
+convert point SimpleName MethodInvocation SimpleName svg fx attribute
+convert point SimpleName MethodInvocation SimpleName fy str
+convert point SimpleName MethodInvocation SimpleName svg fy attribute
+convert point SimpleName MethodInvocation SimpleName coord system type
+fx str SimpleName MethodInvocation SimpleName svg fx attribute
+fx str SimpleName MethodInvocation SimpleName fy str
+fx str SimpleName MethodInvocation SimpleName svg fy attribute
+fx str SimpleName MethodInvocation SimpleName coord system type
+fx str SimpleName MethodInvocation SimpleName uctx
+svg fx attribute SimpleName MethodInvocation SimpleName fy str
+svg fx attribute SimpleName MethodInvocation SimpleName svg fy attribute
+svg fx attribute SimpleName MethodInvocation SimpleName coord system type
+svg fx attribute SimpleName MethodInvocation SimpleName uctx
+fy str SimpleName MethodInvocation SimpleName svg fy attribute
+fy str SimpleName MethodInvocation SimpleName coord system type
+fy str SimpleName MethodInvocation SimpleName uctx
+svg fy attribute SimpleName MethodInvocation SimpleName coord system type
+svg fy attribute SimpleName MethodInvocation SimpleName uctx
+coord system type SimpleName MethodInvocation SimpleName uctx
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg utilities
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert point
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName fx str
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg fx attribute
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName fy str
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg fy attribute
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName coord system type
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName uctx
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+radial gradient paint SimpleName SimpleType ClassInstanceCreation SimpleName c
+radial gradient paint SimpleName SimpleType ClassInstanceCreation SimpleName r
+radial gradient paint SimpleName SimpleType ClassInstanceCreation SimpleName f
+radial gradient paint SimpleName SimpleType ClassInstanceCreation SimpleName offsets
+radial gradient paint SimpleName SimpleType ClassInstanceCreation SimpleName colors
+c SimpleName ClassInstanceCreation SimpleName r
+c SimpleName ClassInstanceCreation SimpleName f
+c SimpleName ClassInstanceCreation SimpleName offsets
+c SimpleName ClassInstanceCreation SimpleName colors
+c SimpleName ClassInstanceCreation SimpleName spread method
+r SimpleName ClassInstanceCreation SimpleName f
+r SimpleName ClassInstanceCreation SimpleName offsets
+r SimpleName ClassInstanceCreation SimpleName colors
+r SimpleName ClassInstanceCreation SimpleName spread method
+r SimpleName ClassInstanceCreation QualifiedName radial gradient paintsrgb
+f SimpleName ClassInstanceCreation SimpleName offsets
+f SimpleName ClassInstanceCreation SimpleName colors
+f SimpleName ClassInstanceCreation SimpleName spread method
+f SimpleName ClassInstanceCreation QualifiedName radial gradient paintsrgb
+f SimpleName ClassInstanceCreation SimpleName transform
+offsets SimpleName ClassInstanceCreation SimpleName colors
+offsets SimpleName ClassInstanceCreation SimpleName spread method
+offsets SimpleName ClassInstanceCreation QualifiedName radial gradient paintsrgb
+offsets SimpleName ClassInstanceCreation SimpleName transform
+colors SimpleName ClassInstanceCreation SimpleName spread method
+colors SimpleName ClassInstanceCreation QualifiedName radial gradient paintsrgb
+colors SimpleName ClassInstanceCreation SimpleName transform
+spread method SimpleName ClassInstanceCreation QualifiedName radial gradient paintsrgb
+spread method SimpleName ClassInstanceCreation SimpleName transform
+radial gradient paintsrgb QualifiedName ClassInstanceCreation SimpleName transform
+short PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration SimpleType SimpleName paint
+protected Modifier MethodDeclaration SimpleName build gradient
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName paint element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName painted element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName painted node
+paint SimpleName SimpleType MethodDeclaration SimpleName build gradient
+paint SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName paint element
+paint SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName painted element
+paint SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName painted node
+paint SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName spread method
+build gradient SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+build gradient SimpleName MethodDeclaration SingleVariableDeclaration SimpleName paint element
+build gradient SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+build gradient SimpleName MethodDeclaration SingleVariableDeclaration SimpleName painted element
+build gradient SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+build gradient SimpleName MethodDeclaration SingleVariableDeclaration SimpleName painted node
+build gradient SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName multiple gradient paintcycle method enum
+build gradient SimpleName MethodDeclaration SingleVariableDeclaration SimpleName spread method
+build gradient SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName multiple gradient paintcolor space enum
+build gradient SimpleName MethodDeclaration SingleVariableDeclaration SimpleName color space
+paint element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted element
+paint element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted node
+paint element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName spread method
+paint element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName color space
+paint element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transform
+painted element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted node
+painted element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName spread method
+painted element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName color space
+painted element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transform
+painted element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName colors
+painted node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName spread method
+painted node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName color space
+painted node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transform
+painted node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName colors
+painted node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offsets
+spread method SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName color space
+spread method SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transform
+spread method SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName colors
+spread method SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offsets
+spread method SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+color space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transform
+color space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName colors
+color space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offsets
+color space SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+transform SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName colors
+transform SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offsets
+transform SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+colors SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offsets
+colors SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+offsets SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName paint
+public Modifier TypeDeclaration MethodDeclaration SimpleName build gradient
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paint element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName spread method
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName color space
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName colors
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offsets
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName paint
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build gradient
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName paint element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName painted node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName spread method
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName color space
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName colors
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offsets
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

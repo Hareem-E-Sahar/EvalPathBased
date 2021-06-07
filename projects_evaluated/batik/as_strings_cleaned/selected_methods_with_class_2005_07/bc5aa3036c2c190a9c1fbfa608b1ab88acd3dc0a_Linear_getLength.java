@@ -1,0 +1,21 @@
+double PrimitiveType SingleVariableDeclaration SimpleName max err
+public Modifier MethodDeclaration PrimitiveType double
+public Modifier MethodDeclaration SimpleName get length
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName max err
+double PrimitiveType MethodDeclaration SimpleName get length
+double PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+double PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName max err
+get length SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+get length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName max err
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SimpleName get length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max err
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName max err

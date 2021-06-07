@@ -1,0 +1,24 @@
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+v SimpleName InstanceofExpression SimpleType SimpleName animatable paint value
+animatable paint value SimpleName SimpleType CastExpression SimpleName v
+v SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get paint type
+get paint type SimpleName MethodInvocation InfixExpression QualifiedName animatable paint valuepaint color
+v SimpleName InstanceofExpression SimpleType SimpleName animatable color value
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName check value type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+boolean PrimitiveType MethodDeclaration SimpleName check value type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+check value type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+check value type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check value type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check value type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

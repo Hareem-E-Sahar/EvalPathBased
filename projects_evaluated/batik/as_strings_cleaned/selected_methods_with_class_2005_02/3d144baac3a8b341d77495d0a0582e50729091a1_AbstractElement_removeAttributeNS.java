@@ -1,0 +1,45 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName local name
+has attribute ns SimpleName MethodInvocation SimpleName namespace uri
+has attribute ns SimpleName MethodInvocation SimpleName local name
+namespace uri SimpleName MethodInvocation SimpleName local name
+attributes SimpleName MethodInvocation SimpleName remove named item ns
+attributes SimpleName MethodInvocation SimpleName namespace uri
+attributes SimpleName MethodInvocation SimpleName local name
+remove named item ns SimpleName MethodInvocation SimpleName namespace uri
+remove named item ns SimpleName MethodInvocation SimpleName local name
+namespace uri SimpleName MethodInvocation SimpleName local name
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove attribute ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName local name
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName remove attribute ns
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName local name
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+remove attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+remove attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove attribute ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName local name
+remove attribute ns SimpleName MethodDeclaration SimpleType SimpleName dom exception
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+local name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove attribute ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove attribute ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName local name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

@@ -1,0 +1,22 @@
+raster SimpleName SimpleType SingleVariableDeclaration SimpleName src
+src SimpleName MethodInvocation SimpleName get sample model
+check compatible SimpleName MethodInvocation MethodInvocation SimpleName src
+check compatible SimpleName MethodInvocation MethodInvocation SimpleName get sample model
+src SimpleName MethodInvocation SimpleName create compatible writable raster
+public Modifier MethodDeclaration SimpleType SimpleName writable raster
+public Modifier MethodDeclaration SimpleName create compatible dest raster
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName raster
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+writable raster SimpleName SimpleType MethodDeclaration SimpleName create compatible dest raster
+writable raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName src
+create compatible dest raster SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName raster
+create compatible dest raster SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName writable raster
+public Modifier TypeDeclaration MethodDeclaration SimpleName create compatible dest raster
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName writable raster
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create compatible dest raster
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src

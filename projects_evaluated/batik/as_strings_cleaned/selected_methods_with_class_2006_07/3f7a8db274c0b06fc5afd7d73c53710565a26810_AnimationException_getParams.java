@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get params
+public Modifier MethodDeclaration Block ReturnStatement SimpleName params
+object SimpleName SimpleType ArrayType MethodDeclaration SimpleName get params
+get params SimpleName MethodDeclaration Block ReturnStatement SimpleName params
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get params
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get params

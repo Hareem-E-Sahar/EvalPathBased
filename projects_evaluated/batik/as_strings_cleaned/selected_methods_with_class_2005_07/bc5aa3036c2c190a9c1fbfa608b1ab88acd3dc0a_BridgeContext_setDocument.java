@@ -1,0 +1,21 @@
+document SimpleName SimpleType SingleVariableDeclaration SimpleName document
+document SimpleName FieldAccess InfixExpression SimpleName document
+document SimpleName FieldAccess Assignment SimpleName document
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set document
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName document
+void PrimitiveType MethodDeclaration SimpleName set document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName document
+set document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+set document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName document
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName document
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName document

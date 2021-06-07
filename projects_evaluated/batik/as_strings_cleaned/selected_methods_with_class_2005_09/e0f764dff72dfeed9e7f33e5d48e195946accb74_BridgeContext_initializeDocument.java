@@ -1,0 +1,88 @@
+document SimpleName SimpleType SingleVariableDeclaration SimpleName document
+svgom document SimpleName SimpleType CastExpression SimpleName document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleName document
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get css engine
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css engine
+css engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eng
+svgdom implementation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName impl
+doc SimpleName MethodInvocation SimpleName get implementation
+svgdom implementation SimpleName SimpleType CastExpression MethodInvocation SimpleName doc
+svgdom implementation SimpleName SimpleType CastExpression MethodInvocation SimpleName get implementation
+impl SimpleName Assignment CastExpression SimpleType SimpleName svgdom implementation
+impl SimpleName Assignment CastExpression MethodInvocation SimpleName doc
+impl SimpleName Assignment CastExpression MethodInvocation SimpleName get implementation
+impl SimpleName MethodInvocation SimpleName create css engine
+impl SimpleName MethodInvocation SimpleName doc
+create css engine SimpleName MethodInvocation SimpleName doc
+eng SimpleName Assignment MethodInvocation SimpleName impl
+eng SimpleName Assignment MethodInvocation SimpleName create css engine
+eng SimpleName Assignment MethodInvocation SimpleName doc
+css engine user agent wrapper SimpleName SimpleType ClassInstanceCreation SimpleName user agent
+eng SimpleName MethodInvocation SimpleName set css engine user agent
+eng SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName css engine user agent wrapper
+eng SimpleName MethodInvocation ClassInstanceCreation SimpleName user agent
+set css engine user agent SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName css engine user agent wrapper
+set css engine user agent SimpleName MethodInvocation ClassInstanceCreation SimpleName user agent
+doc SimpleName MethodInvocation SimpleName set css engine
+doc SimpleName MethodInvocation SimpleName eng
+set css engine SimpleName MethodInvocation SimpleName eng
+user agent SimpleName MethodInvocation SimpleName get media
+eng SimpleName MethodInvocation SimpleName set media
+eng SimpleName MethodInvocation MethodInvocation SimpleName user agent
+eng SimpleName MethodInvocation MethodInvocation SimpleName get media
+set media SimpleName MethodInvocation MethodInvocation SimpleName user agent
+set media SimpleName MethodInvocation MethodInvocation SimpleName get media
+user agent SimpleName MethodInvocation SimpleName get user style sheet uri
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName user agent
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user style sheet uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+url SimpleName SimpleType ClassInstanceCreation SimpleName uri
+url SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName url
+url SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName uri
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+eng SimpleName MethodInvocation SimpleName parse style sheet
+eng SimpleName MethodInvocation SimpleName url
+eng SimpleName MethodInvocation StringLiteral all
+parse style sheet SimpleName MethodInvocation SimpleName url
+parse style sheet SimpleName MethodInvocation StringLiteral all
+url SimpleName MethodInvocation StringLiteral all
+eng SimpleName MethodInvocation SimpleName set user agent style sheet
+eng SimpleName MethodInvocation MethodInvocation SimpleName eng
+eng SimpleName MethodInvocation MethodInvocation SimpleName parse style sheet
+eng SimpleName MethodInvocation MethodInvocation SimpleName url
+eng SimpleName MethodInvocation MethodInvocation StringLiteral all
+set user agent style sheet SimpleName MethodInvocation MethodInvocation SimpleName eng
+set user agent style sheet SimpleName MethodInvocation MethodInvocation SimpleName parse style sheet
+set user agent style sheet SimpleName MethodInvocation MethodInvocation SimpleName url
+set user agent style sheet SimpleName MethodInvocation MethodInvocation StringLiteral all
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+user agent SimpleName MethodInvocation SimpleName get alternate style sheet
+eng SimpleName MethodInvocation SimpleName set alternate style sheet
+eng SimpleName MethodInvocation MethodInvocation SimpleName user agent
+eng SimpleName MethodInvocation MethodInvocation SimpleName get alternate style sheet
+set alternate style sheet SimpleName MethodInvocation MethodInvocation SimpleName user agent
+set alternate style sheet SimpleName MethodInvocation MethodInvocation SimpleName get alternate style sheet
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName initialize document
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName document
+void PrimitiveType MethodDeclaration SimpleName initialize document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName document
+initialize document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+initialize document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName document
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName document
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName document

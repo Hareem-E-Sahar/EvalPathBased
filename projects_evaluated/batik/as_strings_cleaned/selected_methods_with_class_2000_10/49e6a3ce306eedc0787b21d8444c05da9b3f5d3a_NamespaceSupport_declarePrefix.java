@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+declarations SimpleName Assignment ClassInstanceCreation SimpleType SimpleName vector
+prefix SimpleName MethodInvocation SimpleName intern
+prefix SimpleName Assignment MethodInvocation SimpleName prefix
+prefix SimpleName Assignment MethodInvocation SimpleName intern
+uri SimpleName MethodInvocation SimpleName intern
+uri SimpleName Assignment MethodInvocation SimpleName uri
+uri SimpleName Assignment MethodInvocation SimpleName intern
+empty StringLiteral MethodInvocation SimpleName equals
+empty StringLiteral MethodInvocation SimpleName prefix
+equals SimpleName MethodInvocation SimpleName prefix
+empty StringLiteral MethodInvocation SimpleName equals
+empty StringLiteral MethodInvocation SimpleName uri
+equals SimpleName MethodInvocation SimpleName uri
+default ns SimpleName Assignment SimpleName uri
+prefix table SimpleName MethodInvocation SimpleName put
+prefix table SimpleName MethodInvocation SimpleName prefix
+prefix table SimpleName MethodInvocation SimpleName uri
+put SimpleName MethodInvocation SimpleName prefix
+put SimpleName MethodInvocation SimpleName uri
+prefix SimpleName MethodInvocation SimpleName uri
+uri table SimpleName MethodInvocation SimpleName put
+uri table SimpleName MethodInvocation SimpleName uri
+uri table SimpleName MethodInvocation SimpleName prefix
+put SimpleName MethodInvocation SimpleName uri
+put SimpleName MethodInvocation SimpleName prefix
+uri SimpleName MethodInvocation SimpleName prefix
+declarations SimpleName MethodInvocation SimpleName add element
+declarations SimpleName MethodInvocation SimpleName prefix
+add element SimpleName MethodInvocation SimpleName prefix
+void PrimitiveType MethodDeclaration SimpleName declare prefix
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prefix
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName uri
+declare prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+declare prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+declare prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+declare prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName declare prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName declare prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri

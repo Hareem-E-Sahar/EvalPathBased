@@ -1,0 +1,36 @@
+short PrimitiveType SingleVariableDeclaration SimpleName base val
+base val SimpleName InfixExpression QualifiedName svg marker elementsvg marker orient auto
+base enumeration val SimpleName Assignment SimpleName base val
+base angle valunit type QualifiedName Assignment QualifiedName svg anglesvg angletype unspecified
+base angle valvalue QualifiedName Assignment NumberLiteral empty
+base angle val SimpleName MethodInvocation SimpleName reset
+base val SimpleName InfixExpression QualifiedName svg marker elementsvg marker orient angle
+base enumeration val SimpleName Assignment SimpleName base val
+base angle val SimpleName MethodInvocation SimpleName reset
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set base val
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName base val
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set base val
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName base val
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set base val SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+set base val SimpleName MethodDeclaration SingleVariableDeclaration SimpleName base val
+set base val SimpleName MethodDeclaration SimpleType SimpleName dom exception
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+base val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set base val
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set base val
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

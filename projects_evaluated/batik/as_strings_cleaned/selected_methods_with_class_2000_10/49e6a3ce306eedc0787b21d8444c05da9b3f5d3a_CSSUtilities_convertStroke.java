@@ -1,0 +1,452 @@
+svg element SimpleName SimpleType SingleVariableDeclaration SimpleName svg element
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+css style declaration SimpleName SimpleType SingleVariableDeclaration SimpleName decl
+unit processorcontext QualifiedName SimpleType SingleVariableDeclaration SimpleName uctx
+ctx SimpleName MethodInvocation SimpleName get gvt factory
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get gvt factory
+gvt factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+stroke shape painter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName painter
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName stroke property
+get property css value SimpleName MethodInvocation SimpleName stroke property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName stroke property
+v SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css primitive value
+v SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName decl
+v SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get property css value
+v SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName stroke property
+css primitive value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get primitive type
+f SimpleName MethodInvocation SimpleName create stroke shape painter
+painter SimpleName Assignment MethodInvocation SimpleName f
+painter SimpleName Assignment MethodInvocation SimpleName create stroke shape painter
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName stroke opacity property
+get property css value SimpleName MethodInvocation SimpleName stroke opacity property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName stroke opacity property
+vv SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css primitive value
+vv SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName decl
+vv SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get property css value
+vv SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName stroke opacity property
+css primitive value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vv
+convert opacity SimpleName MethodInvocation SimpleName vv
+opacity SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert opacity
+opacity SimpleName VariableDeclarationFragment MethodInvocation SimpleName vv
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName opacity
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName convert opacity
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName vv
+v SimpleName MethodInvocation SimpleName get rgb color value
+convert color SimpleName MethodInvocation MethodInvocation SimpleName v
+convert color SimpleName MethodInvocation MethodInvocation SimpleName get rgb color value
+convert color SimpleName MethodInvocation SimpleName opacity
+v SimpleName MethodInvocation MethodInvocation SimpleName opacity
+get rgb color value SimpleName MethodInvocation MethodInvocation SimpleName opacity
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert color
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName v
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get rgb color value
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName opacity
+color SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+painter SimpleName MethodInvocation SimpleName set paint
+painter SimpleName MethodInvocation SimpleName c
+set paint SimpleName MethodInvocation SimpleName c
+error SimpleName SimpleType ClassInstanceCreation StringLiteral not yet implemented
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss ident
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+css primitive valuecss ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss rgbcolor
+css primitive valuecss ident QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType float
+css primitive valuecss rgbcolor QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement SwitchStatement SwitchCase QualifiedName css primitive valuecss uri
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName stroke width property
+get property css value SimpleName MethodInvocation SimpleName stroke width property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName stroke width property
+v SimpleName Assignment CastExpression SimpleType SimpleName css primitive value
+v SimpleName Assignment CastExpression MethodInvocation SimpleName decl
+v SimpleName Assignment CastExpression MethodInvocation SimpleName get property css value
+v SimpleName Assignment CastExpression MethodInvocation SimpleName stroke width property
+v SimpleName MethodInvocation SimpleName get primitive type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get primitive type
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName v
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get primitive type
+v SimpleName MethodInvocation SimpleName get float value
+v SimpleName MethodInvocation SimpleName type
+get float value SimpleName MethodInvocation SimpleName type
+unit processor SimpleName MethodInvocation SimpleName css to user space
+unit processor SimpleName MethodInvocation SimpleName type
+unit processor SimpleName MethodInvocation MethodInvocation SimpleName v
+unit processor SimpleName MethodInvocation MethodInvocation SimpleName get float value
+unit processor SimpleName MethodInvocation MethodInvocation SimpleName type
+unit processor SimpleName MethodInvocation SimpleName svg element
+unit processor SimpleName MethodInvocation QualifiedName unit processorother length
+css to user space SimpleName MethodInvocation SimpleName type
+css to user space SimpleName MethodInvocation MethodInvocation SimpleName v
+css to user space SimpleName MethodInvocation MethodInvocation SimpleName get float value
+css to user space SimpleName MethodInvocation MethodInvocation SimpleName type
+css to user space SimpleName MethodInvocation SimpleName svg element
+css to user space SimpleName MethodInvocation QualifiedName unit processorother length
+css to user space SimpleName MethodInvocation SimpleName uctx
+type SimpleName MethodInvocation MethodInvocation SimpleName v
+type SimpleName MethodInvocation MethodInvocation SimpleName get float value
+type SimpleName MethodInvocation MethodInvocation SimpleName type
+type SimpleName MethodInvocation SimpleName svg element
+type SimpleName MethodInvocation QualifiedName unit processorother length
+type SimpleName MethodInvocation SimpleName uctx
+v SimpleName MethodInvocation MethodInvocation SimpleName svg element
+get float value SimpleName MethodInvocation MethodInvocation SimpleName svg element
+type SimpleName MethodInvocation MethodInvocation SimpleName svg element
+v SimpleName MethodInvocation MethodInvocation QualifiedName unit processorother length
+get float value SimpleName MethodInvocation MethodInvocation QualifiedName unit processorother length
+type SimpleName MethodInvocation MethodInvocation QualifiedName unit processorother length
+v SimpleName MethodInvocation MethodInvocation SimpleName uctx
+get float value SimpleName MethodInvocation MethodInvocation SimpleName uctx
+type SimpleName MethodInvocation MethodInvocation SimpleName uctx
+svg element SimpleName MethodInvocation QualifiedName unit processorother length
+svg element SimpleName MethodInvocation SimpleName uctx
+unit processorother length QualifiedName MethodInvocation SimpleName uctx
+width SimpleName VariableDeclarationFragment MethodInvocation SimpleName unit processor
+width SimpleName VariableDeclarationFragment MethodInvocation SimpleName css to user space
+width SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+width SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName v
+width SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get float value
+width SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName type
+width SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg element
+width SimpleName VariableDeclarationFragment MethodInvocation QualifiedName unit processorother length
+width SimpleName VariableDeclarationFragment MethodInvocation SimpleName uctx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName width
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName unit processor
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName css to user space
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName type
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg element
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName unit processorother length
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName uctx
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName stroke linecap property
+get property css value SimpleName MethodInvocation SimpleName stroke linecap property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName stroke linecap property
+v SimpleName Assignment CastExpression SimpleType SimpleName css primitive value
+v SimpleName Assignment CastExpression MethodInvocation SimpleName decl
+v SimpleName Assignment CastExpression MethodInvocation SimpleName get property css value
+v SimpleName Assignment CastExpression MethodInvocation SimpleName stroke linecap property
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName linecap
+v SimpleName MethodInvocation SimpleName get string value
+parse stroke linecap property SimpleName MethodInvocation MethodInvocation SimpleName v
+parse stroke linecap property SimpleName MethodInvocation MethodInvocation SimpleName get string value
+linecap SimpleName Assignment QualifiedName basic strokecap butt
+linecap SimpleName Assignment QualifiedName basic strokecap round
+linecap SimpleName Assignment QualifiedName basic strokecap square
+parse stroke linecap property SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName linecap butt
+parse stroke linecap property SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName linecap round
+linecap butt SimpleName SwitchCase SwitchStatement SwitchCase SimpleName linecap round
+linecap round SimpleName SwitchCase SwitchStatement SwitchCase SimpleName linecap square
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName stroke linejoin property
+get property css value SimpleName MethodInvocation SimpleName stroke linejoin property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName stroke linejoin property
+v SimpleName Assignment CastExpression SimpleType SimpleName css primitive value
+v SimpleName Assignment CastExpression MethodInvocation SimpleName decl
+v SimpleName Assignment CastExpression MethodInvocation SimpleName get property css value
+v SimpleName Assignment CastExpression MethodInvocation SimpleName stroke linejoin property
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName linejoin
+v SimpleName MethodInvocation SimpleName get string value
+parse stroke linejoin property SimpleName MethodInvocation MethodInvocation SimpleName v
+parse stroke linejoin property SimpleName MethodInvocation MethodInvocation SimpleName get string value
+linejoin SimpleName Assignment QualifiedName basic strokejoin miter
+linejoin SimpleName Assignment QualifiedName basic strokejoin bevel
+linejoin SimpleName Assignment QualifiedName basic strokejoin round
+parse stroke linejoin property SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName linejoin miter
+parse stroke linejoin property SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName linejoin bevel
+linejoin miter SimpleName SwitchCase SwitchStatement SwitchCase SimpleName linejoin bevel
+linejoin bevel SimpleName SwitchCase SwitchStatement SwitchCase SimpleName linejoin round
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName stroke miterlimit property
+get property css value SimpleName MethodInvocation SimpleName stroke miterlimit property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName stroke miterlimit property
+v SimpleName Assignment CastExpression SimpleType SimpleName css primitive value
+v SimpleName Assignment CastExpression MethodInvocation SimpleName decl
+v SimpleName Assignment CastExpression MethodInvocation SimpleName get property css value
+v SimpleName Assignment CastExpression MethodInvocation SimpleName stroke miterlimit property
+v SimpleName MethodInvocation SimpleName get float value
+v SimpleName MethodInvocation QualifiedName css primitive valuecss number
+get float value SimpleName MethodInvocation QualifiedName css primitive valuecss number
+miterlimit SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+miterlimit SimpleName VariableDeclarationFragment MethodInvocation SimpleName get float value
+miterlimit SimpleName VariableDeclarationFragment MethodInvocation QualifiedName css primitive valuecss number
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName miterlimit
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName v
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get float value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName css primitive valuecss number
+miterlimit SimpleName InfixExpression NumberLiteral empty
+miterlimit SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral empty
+miterlimit SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName miterlimit
+empty NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName miterlimit
+empty NumberLiteral ConditionalExpression SimpleName miterlimit
+miterlimit SimpleName Assignment ConditionalExpression NumberLiteral empty
+miterlimit SimpleName Assignment ConditionalExpression SimpleName miterlimit
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName stroke dasharray property
+get property css value SimpleName MethodInvocation SimpleName stroke dasharray property
+vv SimpleName VariableDeclarationFragment MethodInvocation SimpleName decl
+vv SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property css value
+vv SimpleName VariableDeclarationFragment MethodInvocation SimpleName stroke dasharray property
+css value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vv
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName dash array
+dash offset SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dash offset
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+vv SimpleName MethodInvocation SimpleName get css value type
+vv SimpleName MethodInvocation InfixExpression QualifiedName css valuecss value list
+get css value type SimpleName MethodInvocation InfixExpression QualifiedName css valuecss value list
+css value list SimpleName SimpleType CastExpression SimpleName vv
+l SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css value list
+l SimpleName VariableDeclarationFragment CastExpression SimpleName vv
+css value list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+l SimpleName MethodInvocation SimpleName get length
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName l
+length SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName l
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+float PrimitiveType ArrayType ArrayCreation SimpleName length
+dash array SimpleName Assignment ArrayCreation ArrayType PrimitiveType float
+dash array SimpleName Assignment ArrayCreation SimpleName length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName length
+l SimpleName MethodInvocation SimpleName item
+l SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName l
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+v SimpleName Assignment CastExpression SimpleType SimpleName css primitive value
+v SimpleName Assignment CastExpression MethodInvocation SimpleName l
+v SimpleName Assignment CastExpression MethodInvocation SimpleName item
+v SimpleName Assignment CastExpression MethodInvocation SimpleName i
+v SimpleName MethodInvocation SimpleName get primitive type
+type SimpleName Assignment MethodInvocation SimpleName v
+type SimpleName Assignment MethodInvocation SimpleName get primitive type
+dash array SimpleName ArrayAccess SimpleName i
+v SimpleName MethodInvocation SimpleName get float value
+v SimpleName MethodInvocation SimpleName type
+get float value SimpleName MethodInvocation SimpleName type
+unit processor SimpleName MethodInvocation SimpleName css to user space
+unit processor SimpleName MethodInvocation SimpleName type
+unit processor SimpleName MethodInvocation MethodInvocation SimpleName v
+unit processor SimpleName MethodInvocation MethodInvocation SimpleName get float value
+unit processor SimpleName MethodInvocation MethodInvocation SimpleName type
+unit processor SimpleName MethodInvocation SimpleName svg element
+unit processor SimpleName MethodInvocation QualifiedName unit processorother length
+css to user space SimpleName MethodInvocation SimpleName type
+css to user space SimpleName MethodInvocation MethodInvocation SimpleName v
+css to user space SimpleName MethodInvocation MethodInvocation SimpleName get float value
+css to user space SimpleName MethodInvocation MethodInvocation SimpleName type
+css to user space SimpleName MethodInvocation SimpleName svg element
+css to user space SimpleName MethodInvocation QualifiedName unit processorother length
+css to user space SimpleName MethodInvocation SimpleName uctx
+type SimpleName MethodInvocation MethodInvocation SimpleName v
+type SimpleName MethodInvocation MethodInvocation SimpleName get float value
+type SimpleName MethodInvocation MethodInvocation SimpleName type
+type SimpleName MethodInvocation SimpleName svg element
+type SimpleName MethodInvocation QualifiedName unit processorother length
+type SimpleName MethodInvocation SimpleName uctx
+v SimpleName MethodInvocation MethodInvocation SimpleName svg element
+get float value SimpleName MethodInvocation MethodInvocation SimpleName svg element
+type SimpleName MethodInvocation MethodInvocation SimpleName svg element
+v SimpleName MethodInvocation MethodInvocation QualifiedName unit processorother length
+get float value SimpleName MethodInvocation MethodInvocation QualifiedName unit processorother length
+type SimpleName MethodInvocation MethodInvocation QualifiedName unit processorother length
+v SimpleName MethodInvocation MethodInvocation SimpleName uctx
+get float value SimpleName MethodInvocation MethodInvocation SimpleName uctx
+type SimpleName MethodInvocation MethodInvocation SimpleName uctx
+svg element SimpleName MethodInvocation QualifiedName unit processorother length
+svg element SimpleName MethodInvocation SimpleName uctx
+unit processorother length QualifiedName MethodInvocation SimpleName uctx
+dash array SimpleName ArrayAccess Assignment MethodInvocation SimpleName unit processor
+dash array SimpleName ArrayAccess Assignment MethodInvocation SimpleName css to user space
+dash array SimpleName ArrayAccess Assignment MethodInvocation SimpleName type
+dash array SimpleName ArrayAccess Assignment MethodInvocation SimpleName svg element
+dash array SimpleName ArrayAccess Assignment MethodInvocation QualifiedName unit processorother length
+dash array SimpleName ArrayAccess Assignment MethodInvocation SimpleName uctx
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName unit processor
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName css to user space
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName type
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName svg element
+i SimpleName ArrayAccess Assignment MethodInvocation QualifiedName unit processorother length
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName uctx
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName length
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+length SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName stroke dashoffset property
+get property css value SimpleName MethodInvocation SimpleName stroke dashoffset property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName stroke dashoffset property
+v SimpleName Assignment CastExpression SimpleType SimpleName css primitive value
+v SimpleName Assignment CastExpression MethodInvocation SimpleName decl
+v SimpleName Assignment CastExpression MethodInvocation SimpleName get property css value
+v SimpleName Assignment CastExpression MethodInvocation SimpleName stroke dashoffset property
+v SimpleName MethodInvocation SimpleName get primitive type
+type SimpleName Assignment MethodInvocation SimpleName v
+type SimpleName Assignment MethodInvocation SimpleName get primitive type
+v SimpleName MethodInvocation SimpleName get float value
+v SimpleName MethodInvocation SimpleName type
+get float value SimpleName MethodInvocation SimpleName type
+unit processor SimpleName MethodInvocation SimpleName css to user space
+unit processor SimpleName MethodInvocation SimpleName type
+unit processor SimpleName MethodInvocation MethodInvocation SimpleName v
+unit processor SimpleName MethodInvocation MethodInvocation SimpleName get float value
+unit processor SimpleName MethodInvocation MethodInvocation SimpleName type
+unit processor SimpleName MethodInvocation SimpleName svg element
+unit processor SimpleName MethodInvocation QualifiedName unit processorother length
+css to user space SimpleName MethodInvocation SimpleName type
+css to user space SimpleName MethodInvocation MethodInvocation SimpleName v
+css to user space SimpleName MethodInvocation MethodInvocation SimpleName get float value
+css to user space SimpleName MethodInvocation MethodInvocation SimpleName type
+css to user space SimpleName MethodInvocation SimpleName svg element
+css to user space SimpleName MethodInvocation QualifiedName unit processorother length
+css to user space SimpleName MethodInvocation SimpleName uctx
+type SimpleName MethodInvocation MethodInvocation SimpleName v
+type SimpleName MethodInvocation MethodInvocation SimpleName get float value
+type SimpleName MethodInvocation MethodInvocation SimpleName type
+type SimpleName MethodInvocation SimpleName svg element
+type SimpleName MethodInvocation QualifiedName unit processorother length
+type SimpleName MethodInvocation SimpleName uctx
+v SimpleName MethodInvocation MethodInvocation SimpleName svg element
+get float value SimpleName MethodInvocation MethodInvocation SimpleName svg element
+type SimpleName MethodInvocation MethodInvocation SimpleName svg element
+v SimpleName MethodInvocation MethodInvocation QualifiedName unit processorother length
+get float value SimpleName MethodInvocation MethodInvocation QualifiedName unit processorother length
+type SimpleName MethodInvocation MethodInvocation QualifiedName unit processorother length
+v SimpleName MethodInvocation MethodInvocation SimpleName uctx
+get float value SimpleName MethodInvocation MethodInvocation SimpleName uctx
+type SimpleName MethodInvocation MethodInvocation SimpleName uctx
+svg element SimpleName MethodInvocation QualifiedName unit processorother length
+svg element SimpleName MethodInvocation SimpleName uctx
+unit processorother length QualifiedName MethodInvocation SimpleName uctx
+dash offset SimpleName Assignment MethodInvocation SimpleName unit processor
+dash offset SimpleName Assignment MethodInvocation SimpleName css to user space
+dash offset SimpleName Assignment MethodInvocation SimpleName type
+dash offset SimpleName Assignment MethodInvocation MethodInvocation SimpleName v
+dash offset SimpleName Assignment MethodInvocation MethodInvocation SimpleName get float value
+dash offset SimpleName Assignment MethodInvocation MethodInvocation SimpleName type
+dash offset SimpleName Assignment MethodInvocation SimpleName svg element
+dash offset SimpleName Assignment MethodInvocation QualifiedName unit processorother length
+dash offset SimpleName Assignment MethodInvocation SimpleName uctx
+basic stroke SimpleName SimpleType ClassInstanceCreation SimpleName width
+basic stroke SimpleName SimpleType ClassInstanceCreation SimpleName linecap
+basic stroke SimpleName SimpleType ClassInstanceCreation SimpleName linejoin
+basic stroke SimpleName SimpleType ClassInstanceCreation SimpleName miterlimit
+basic stroke SimpleName SimpleType ClassInstanceCreation SimpleName dash array
+width SimpleName ClassInstanceCreation SimpleName linecap
+width SimpleName ClassInstanceCreation SimpleName linejoin
+width SimpleName ClassInstanceCreation SimpleName miterlimit
+width SimpleName ClassInstanceCreation SimpleName dash array
+width SimpleName ClassInstanceCreation SimpleName dash offset
+linecap SimpleName ClassInstanceCreation SimpleName linejoin
+linecap SimpleName ClassInstanceCreation SimpleName miterlimit
+linecap SimpleName ClassInstanceCreation SimpleName dash array
+linecap SimpleName ClassInstanceCreation SimpleName dash offset
+linejoin SimpleName ClassInstanceCreation SimpleName miterlimit
+linejoin SimpleName ClassInstanceCreation SimpleName dash array
+linejoin SimpleName ClassInstanceCreation SimpleName dash offset
+miterlimit SimpleName ClassInstanceCreation SimpleName dash array
+miterlimit SimpleName ClassInstanceCreation SimpleName dash offset
+dash array SimpleName ClassInstanceCreation SimpleName dash offset
+stroke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName basic stroke
+stroke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName width
+stroke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName linecap
+stroke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName linejoin
+stroke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName miterlimit
+stroke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName dash array
+stroke SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName dash offset
+stroke SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stroke
+painter SimpleName MethodInvocation SimpleName set stroke
+painter SimpleName MethodInvocation SimpleName stroke
+set stroke SimpleName MethodInvocation SimpleName stroke
+short PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+short PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName painter
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName shape painter
+public Modifier MethodDeclaration SimpleName convert stroke
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName svg element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration SimpleType SimpleName shape painter
+static Modifier MethodDeclaration SimpleName convert stroke
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName svg element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css style declaration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName decl
+shape painter SimpleName SimpleType MethodDeclaration SimpleName convert stroke
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName svg element
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName decl
+shape painter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uctx
+convert stroke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+convert stroke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName svg element
+convert stroke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+convert stroke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert stroke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css style declaration
+convert stroke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName decl
+convert stroke SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName unit processorcontext
+convert stroke SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uctx
+convert stroke SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType short
+convert stroke SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+convert stroke SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+convert stroke SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+convert stroke SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+convert stroke SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+convert stroke SimpleName MethodDeclaration Block ReturnStatement SimpleName painter
+svg element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+svg element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+svg element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+decl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName shape painter
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert stroke
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName shape painter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert stroke
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx

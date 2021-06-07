@@ -1,0 +1,34 @@
+event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+event support SimpleName Assignment ClassInstanceCreation SimpleType SimpleName event support
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current document
+abstract document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName set events enabled
+doc SimpleName MethodInvocation BooleanLiteral true
+set events enabled SimpleName MethodInvocation BooleanLiteral true
+event support SimpleName MethodInvocation SimpleName dispatch event
+event support SimpleName MethodInvocation SimpleName evt
+dispatch event SimpleName MethodInvocation SimpleName evt
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName dispatch event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier MethodDeclaration SimpleType SimpleName event exception
+boolean PrimitiveType MethodDeclaration SimpleName dispatch event
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName event exception
+dispatch event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+dispatch event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+dispatch event SimpleName MethodDeclaration SimpleType SimpleName event exception
+evt SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName event exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName event exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName event exception

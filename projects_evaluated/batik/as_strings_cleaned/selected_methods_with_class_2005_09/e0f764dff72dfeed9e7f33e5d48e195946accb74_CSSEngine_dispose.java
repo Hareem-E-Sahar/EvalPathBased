@@ -1,0 +1,17 @@
+document SimpleName MethodInvocation SimpleName get document element
+dispose style maps SimpleName MethodInvocation MethodInvocation SimpleName document
+dispose style maps SimpleName MethodInvocation MethodInvocation SimpleName get document element
+document SimpleName InstanceofExpression SimpleType SimpleName event target
+event target SimpleName SimpleType CastExpression SimpleName document
+remove event listeners SimpleName MethodInvocation CastExpression SimpleType SimpleName event target
+remove event listeners SimpleName MethodInvocation CastExpression SimpleName document
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispose
+void PrimitiveType MethodDeclaration SimpleName dispose
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispose
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispose

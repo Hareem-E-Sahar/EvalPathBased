@@ -1,0 +1,22 @@
+timegraph listener SimpleName SimpleType SingleVariableDeclaration SimpleName l
+timed document root SimpleName MethodInvocation SimpleName add timegraph listener
+timed document root SimpleName MethodInvocation SimpleName l
+add timegraph listener SimpleName MethodInvocation SimpleName l
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add timegraph listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timegraph listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName add timegraph listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timegraph listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+add timegraph listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timegraph listener
+add timegraph listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add timegraph listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add timegraph listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

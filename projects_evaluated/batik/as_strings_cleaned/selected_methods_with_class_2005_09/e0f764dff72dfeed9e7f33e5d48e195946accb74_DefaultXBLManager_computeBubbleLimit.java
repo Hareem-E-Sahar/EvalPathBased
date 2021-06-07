@@ -1,0 +1,150 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName from
+node SimpleName SimpleType SingleVariableDeclaration SimpleName to
+array list SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+from list SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+from list SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+array list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName from list
+array list SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+to list SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+to list SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+array list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName to list
+from list SimpleName MethodInvocation SimpleName add
+from list SimpleName MethodInvocation SimpleName from
+add SimpleName MethodInvocation SimpleName from
+node xbl SimpleName SimpleType CastExpression SimpleName from
+from SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get xbl parent node
+from SimpleName Assignment MethodInvocation SimpleName get xbl parent node
+to list SimpleName MethodInvocation SimpleName add
+to list SimpleName MethodInvocation SimpleName to
+add SimpleName MethodInvocation SimpleName to
+node xbl SimpleName SimpleType CastExpression SimpleName to
+to SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get xbl parent node
+to SimpleName Assignment MethodInvocation SimpleName get xbl parent node
+from list SimpleName MethodInvocation SimpleName size
+from size SimpleName VariableDeclarationFragment MethodInvocation SimpleName from list
+from size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName from size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName from list
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+to list SimpleName MethodInvocation SimpleName size
+to size SimpleName VariableDeclarationFragment MethodInvocation SimpleName to list
+to size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName to size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to list
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName from size
+i SimpleName InfixExpression SimpleName to size
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName i
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName to size
+from size SimpleName InfixExpression InfixExpression InfixExpression SimpleName i
+from size SimpleName InfixExpression InfixExpression InfixExpression SimpleName to size
+from size SimpleName InfixExpression SimpleName i
+from size SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+from list SimpleName MethodInvocation SimpleName get
+from list SimpleName MethodInvocation InfixExpression SimpleName from size
+from list SimpleName MethodInvocation InfixExpression SimpleName i
+from list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression SimpleName from size
+get SimpleName MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName from list
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+n SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName from list
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+to size SimpleName InfixExpression SimpleName i
+to size SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+to list SimpleName MethodInvocation SimpleName get
+to list SimpleName MethodInvocation InfixExpression SimpleName to size
+to list SimpleName MethodInvocation InfixExpression SimpleName i
+to list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression SimpleName to size
+get SimpleName MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName to list
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+n SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName to list
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName InfixExpression SimpleName n
+node xbl SimpleName SimpleType CastExpression SimpleName n
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get xbl bound element
+prev bound element SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xbl bound element
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev bound element
+i SimpleName InfixExpression NumberLiteral empty
+from size SimpleName InfixExpression SimpleName i
+from size SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+from list SimpleName MethodInvocation SimpleName get
+from list SimpleName MethodInvocation InfixExpression SimpleName from size
+from list SimpleName MethodInvocation InfixExpression SimpleName i
+from list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression SimpleName from size
+get SimpleName MethodInvocation InfixExpression SimpleName i
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+prev bound element SimpleName InfixExpression MethodInvocation SimpleName from list
+prev bound element SimpleName InfixExpression MethodInvocation SimpleName get
+prev bound element SimpleName InfixExpression MethodInvocation InfixExpression SimpleName from size
+prev bound element SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+prev bound element SimpleName InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName prev bound element
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName prev bound element
+from size SimpleName InfixExpression SimpleName i
+from size SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName compute bubble limit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName from
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName to
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName compute bubble limit
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName from
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName to
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement NumberLiteral empty
+int PrimitiveType MethodDeclaration SimpleName compute bubble limit
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName from
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName to
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement NumberLiteral empty
+compute bubble limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+compute bubble limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName from
+compute bubble limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+compute bubble limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to
+compute bubble limit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compute bubble limit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compute bubble limit SimpleName MethodDeclaration Block ReturnStatement NumberLiteral empty
+from SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute bubble limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute bubble limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName from
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to

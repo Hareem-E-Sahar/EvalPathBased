@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName can end
+public Modifier MethodDeclaration Block ReturnStatement SimpleName is active
+boolean PrimitiveType MethodDeclaration SimpleName can end
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName is active
+can end SimpleName MethodDeclaration Block ReturnStatement SimpleName is active
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName can end
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName can end

@@ -1,0 +1,6 @@
+paint SimpleName SimpleType MethodDeclaration SimpleName get background paint
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName paint
+public Modifier TypeDeclaration MethodDeclaration SimpleName get background paint
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName paint
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get background paint

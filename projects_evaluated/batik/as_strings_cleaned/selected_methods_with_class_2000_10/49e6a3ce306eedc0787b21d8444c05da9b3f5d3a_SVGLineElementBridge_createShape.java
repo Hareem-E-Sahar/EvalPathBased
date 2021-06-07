@@ -1,0 +1,202 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+svg element SimpleName SimpleType SingleVariableDeclaration SimpleName svg element
+css style declaration SimpleName SimpleType SingleVariableDeclaration SimpleName decl
+unit processorcontext QualifiedName SimpleType SingleVariableDeclaration SimpleName uctx
+svg element SimpleName MethodInvocation SimpleName get attribute ns
+svg element SimpleName MethodInvocation SimpleName attr x
+get attribute ns SimpleName MethodInvocation SimpleName attr x
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg element
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr x
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg element
+unit processor SimpleName MethodInvocation QualifiedName unit processorhorizontal length
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg to user space SimpleName MethodInvocation SimpleName s
+svg to user space SimpleName MethodInvocation SimpleName svg element
+svg to user space SimpleName MethodInvocation QualifiedName unit processorhorizontal length
+svg to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg element
+s SimpleName MethodInvocation QualifiedName unit processorhorizontal length
+s SimpleName MethodInvocation SimpleName uctx
+svg element SimpleName MethodInvocation QualifiedName unit processorhorizontal length
+svg element SimpleName MethodInvocation SimpleName uctx
+unit processorhorizontal length QualifiedName MethodInvocation SimpleName uctx
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName unit processor
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg element
+x SimpleName VariableDeclarationFragment MethodInvocation QualifiedName unit processorhorizontal length
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName uctx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName unit processor
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg element
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName unit processorhorizontal length
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName uctx
+svg element SimpleName MethodInvocation SimpleName get attribute ns
+svg element SimpleName MethodInvocation SimpleName attr y
+get attribute ns SimpleName MethodInvocation SimpleName attr y
+s SimpleName Assignment MethodInvocation SimpleName svg element
+s SimpleName Assignment MethodInvocation SimpleName get attribute ns
+s SimpleName Assignment MethodInvocation SimpleName attr y
+unit processor SimpleName MethodInvocation SimpleName svg to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg element
+unit processor SimpleName MethodInvocation QualifiedName unit processorvertical length
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg to user space SimpleName MethodInvocation SimpleName s
+svg to user space SimpleName MethodInvocation SimpleName svg element
+svg to user space SimpleName MethodInvocation QualifiedName unit processorvertical length
+svg to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg element
+s SimpleName MethodInvocation QualifiedName unit processorvertical length
+s SimpleName MethodInvocation SimpleName uctx
+svg element SimpleName MethodInvocation QualifiedName unit processorvertical length
+svg element SimpleName MethodInvocation SimpleName uctx
+unit processorvertical length QualifiedName MethodInvocation SimpleName uctx
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName unit processor
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg element
+y SimpleName VariableDeclarationFragment MethodInvocation QualifiedName unit processorvertical length
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName uctx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName unit processor
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg element
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName unit processorvertical length
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName uctx
+svg element SimpleName MethodInvocation SimpleName get attribute ns
+svg element SimpleName MethodInvocation SimpleName attr x
+get attribute ns SimpleName MethodInvocation SimpleName attr x
+s SimpleName Assignment MethodInvocation SimpleName svg element
+s SimpleName Assignment MethodInvocation SimpleName get attribute ns
+s SimpleName Assignment MethodInvocation SimpleName attr x
+unit processor SimpleName MethodInvocation SimpleName svg to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg element
+unit processor SimpleName MethodInvocation QualifiedName unit processorhorizontal length
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg to user space SimpleName MethodInvocation SimpleName s
+svg to user space SimpleName MethodInvocation SimpleName svg element
+svg to user space SimpleName MethodInvocation QualifiedName unit processorhorizontal length
+svg to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg element
+s SimpleName MethodInvocation QualifiedName unit processorhorizontal length
+s SimpleName MethodInvocation SimpleName uctx
+svg element SimpleName MethodInvocation QualifiedName unit processorhorizontal length
+svg element SimpleName MethodInvocation SimpleName uctx
+unit processorhorizontal length QualifiedName MethodInvocation SimpleName uctx
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName unit processor
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg element
+x SimpleName VariableDeclarationFragment MethodInvocation QualifiedName unit processorhorizontal length
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName uctx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName unit processor
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg element
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName unit processorhorizontal length
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName uctx
+svg element SimpleName MethodInvocation SimpleName get attribute ns
+svg element SimpleName MethodInvocation SimpleName attr y
+get attribute ns SimpleName MethodInvocation SimpleName attr y
+s SimpleName Assignment MethodInvocation SimpleName svg element
+s SimpleName Assignment MethodInvocation SimpleName get attribute ns
+s SimpleName Assignment MethodInvocation SimpleName attr y
+unit processor SimpleName MethodInvocation SimpleName svg to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg element
+unit processor SimpleName MethodInvocation QualifiedName unit processorvertical length
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg to user space SimpleName MethodInvocation SimpleName s
+svg to user space SimpleName MethodInvocation SimpleName svg element
+svg to user space SimpleName MethodInvocation QualifiedName unit processorvertical length
+svg to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg element
+s SimpleName MethodInvocation QualifiedName unit processorvertical length
+s SimpleName MethodInvocation SimpleName uctx
+svg element SimpleName MethodInvocation QualifiedName unit processorvertical length
+svg element SimpleName MethodInvocation SimpleName uctx
+unit processorvertical length QualifiedName MethodInvocation SimpleName uctx
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName unit processor
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg element
+y SimpleName VariableDeclarationFragment MethodInvocation QualifiedName unit processorvertical length
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName uctx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName unit processor
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg to user space
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg element
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName unit processorvertical length
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName uctx
+line dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName x
+line dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName y
+line dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName x
+line dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName x
+x SimpleName ClassInstanceCreation SimpleName y
+y SimpleName ClassInstanceCreation SimpleName x
+y SimpleName ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName y
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration SimpleType SimpleName shape
+protected Modifier MethodDeclaration SimpleName create shape
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName svg element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css style declaration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName decl
+shape SimpleName SimpleType MethodDeclaration SimpleName create shape
+shape SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+shape SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName svg element
+shape SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName decl
+shape SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uctx
+create shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg element
+create shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName svg element
+create shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css style declaration
+create shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName decl
+create shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName unit processorcontext
+create shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uctx
+create shape SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+create shape SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+create shape SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+create shape SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+svg element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+svg element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+decl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName shape
+public Modifier TypeDeclaration MethodDeclaration SimpleName create shape
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName shape
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create shape
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uctx

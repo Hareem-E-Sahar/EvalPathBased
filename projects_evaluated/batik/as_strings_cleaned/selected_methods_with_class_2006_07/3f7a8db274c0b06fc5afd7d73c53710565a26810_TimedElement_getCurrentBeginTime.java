@@ -1,0 +1,23 @@
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin
+current interval SimpleName MethodInvocation SimpleName get begin
+begin SimpleName Assignment MethodInvocation SimpleName current interval
+begin SimpleName Assignment MethodInvocation SimpleName get begin
+begin SimpleName Assignment ParenthesizedExpression InfixExpression SimpleName last sample time
+current interval SimpleName InfixExpression InfixExpression InfixExpression SimpleName last sample time
+float PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName begin
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get current begin time
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block ReturnStatement SimpleName begin
+float PrimitiveType MethodDeclaration SimpleName get current begin time
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType MethodDeclaration Block ReturnStatement SimpleName begin
+get current begin time SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get current begin time SimpleName MethodDeclaration Block ReturnStatement SimpleName begin
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current begin time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current begin time

@@ -1,0 +1,48 @@
+rectangle SimpleName SimpleType SingleVariableDeclaration SimpleName rect
+sm SimpleName MethodInvocation SimpleName create compatible sample model
+sm SimpleName MethodInvocation QualifiedName rectwidth
+sm SimpleName MethodInvocation QualifiedName rectheight
+create compatible sample model SimpleName MethodInvocation QualifiedName rectwidth
+create compatible sample model SimpleName MethodInvocation QualifiedName rectheight
+rectwidth QualifiedName MethodInvocation QualifiedName rectheight
+sm ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName sm
+sm ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName create compatible sample model
+sm ret SimpleName VariableDeclarationFragment MethodInvocation QualifiedName rectwidth
+sm ret SimpleName VariableDeclarationFragment MethodInvocation QualifiedName rectheight
+sample model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sm ret
+point SimpleName SimpleType ClassInstanceCreation QualifiedName rectx
+point SimpleName SimpleType ClassInstanceCreation QualifiedName recty
+rectx QualifiedName ClassInstanceCreation QualifiedName recty
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName point
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName rectx
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName recty
+point SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pt
+raster SimpleName MethodInvocation SimpleName create writable raster
+raster SimpleName MethodInvocation SimpleName sm ret
+raster SimpleName MethodInvocation SimpleName pt
+create writable raster SimpleName MethodInvocation SimpleName sm ret
+create writable raster SimpleName MethodInvocation SimpleName pt
+sm ret SimpleName MethodInvocation SimpleName pt
+wr SimpleName VariableDeclarationFragment MethodInvocation SimpleName raster
+wr SimpleName VariableDeclarationFragment MethodInvocation SimpleName create writable raster
+wr SimpleName VariableDeclarationFragment MethodInvocation SimpleName sm ret
+wr SimpleName VariableDeclarationFragment MethodInvocation SimpleName pt
+writable raster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wr
+copy data SimpleName MethodInvocation SimpleName wr
+public Modifier MethodDeclaration SimpleType SimpleName raster
+public Modifier MethodDeclaration SimpleName get data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rect
+raster SimpleName SimpleType MethodDeclaration SimpleName get data
+raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rect
+get data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle
+get data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rect
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName raster
+public Modifier TypeDeclaration MethodDeclaration SimpleName get data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rect
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName raster
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rect

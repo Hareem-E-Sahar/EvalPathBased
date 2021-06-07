@@ -1,0 +1,67 @@
+painting transform SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+svg canvas SimpleName MethodInvocation SimpleName get size
+dim SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg canvas
+dim SimpleName VariableDeclarationFragment MethodInvocation SimpleName get size
+dimension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dim
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation QualifiedName dimwidth
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation QualifiedName dimheight
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation QualifiedName dimwidth
+empty NumberLiteral ClassInstanceCreation QualifiedName dimheight
+empty NumberLiteral ClassInstanceCreation QualifiedName dimwidth
+empty NumberLiteral ClassInstanceCreation QualifiedName dimheight
+dimwidth QualifiedName ClassInstanceCreation QualifiedName dimheight
+s SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName rectangle dfloat
+s SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+s SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+s SimpleName Assignment ClassInstanceCreation QualifiedName dimwidth
+s SimpleName Assignment ClassInstanceCreation QualifiedName dimheight
+svg canvas SimpleName MethodInvocation SimpleName get rendering transform
+svg canvas SimpleName MethodInvocation MethodInvocation SimpleName create inverse
+get rendering transform SimpleName MethodInvocation MethodInvocation SimpleName create inverse
+at SimpleName Assignment MethodInvocation MethodInvocation SimpleName svg canvas
+at SimpleName Assignment MethodInvocation MethodInvocation SimpleName get rendering transform
+at SimpleName Assignment MethodInvocation SimpleName create inverse
+svg thumbnail canvas SimpleName MethodInvocation SimpleName get rendering transform
+at SimpleName MethodInvocation SimpleName pre concatenate
+at SimpleName MethodInvocation MethodInvocation SimpleName svg thumbnail canvas
+at SimpleName MethodInvocation MethodInvocation SimpleName get rendering transform
+pre concatenate SimpleName MethodInvocation MethodInvocation SimpleName svg thumbnail canvas
+pre concatenate SimpleName MethodInvocation MethodInvocation SimpleName get rendering transform
+at SimpleName MethodInvocation SimpleName create transformed shape
+at SimpleName MethodInvocation SimpleName s
+create transformed shape SimpleName MethodInvocation SimpleName s
+s SimpleName Assignment MethodInvocation SimpleName at
+s SimpleName Assignment MethodInvocation SimpleName create transformed shape
+s SimpleName Assignment MethodInvocation SimpleName s
+noninvertible transform exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+svg thumbnail canvas SimpleName MethodInvocation SimpleName get size
+dim SimpleName Assignment MethodInvocation SimpleName svg thumbnail canvas
+dim SimpleName Assignment MethodInvocation SimpleName get size
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation QualifiedName dimwidth
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation QualifiedName dimheight
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation QualifiedName dimwidth
+empty NumberLiteral ClassInstanceCreation QualifiedName dimheight
+empty NumberLiteral ClassInstanceCreation QualifiedName dimwidth
+empty NumberLiteral ClassInstanceCreation QualifiedName dimheight
+dimwidth QualifiedName ClassInstanceCreation QualifiedName dimheight
+s SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName rectangle dfloat
+s SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+s SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+s SimpleName Assignment ClassInstanceCreation QualifiedName dimwidth
+s SimpleName Assignment ClassInstanceCreation QualifiedName dimheight
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName synchronize area of interest
+void PrimitiveType MethodDeclaration SimpleName synchronize area of interest
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName synchronize area of interest
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName synchronize area of interest

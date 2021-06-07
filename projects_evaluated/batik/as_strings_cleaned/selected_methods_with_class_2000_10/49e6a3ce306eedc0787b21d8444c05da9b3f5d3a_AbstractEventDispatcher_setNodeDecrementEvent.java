@@ -1,0 +1,29 @@
+input event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get id
+node decrement event id SimpleName Assignment MethodInvocation SimpleName e
+node decrement event id SimpleName Assignment MethodInvocation SimpleName get id
+e SimpleName InstanceofExpression SimpleType SimpleName key event
+key event SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get key code
+node decrement event code SimpleName Assignment MethodInvocation SimpleName get key code
+e SimpleName MethodInvocation SimpleName get modifiers
+node decrement event modifiers SimpleName Assignment MethodInvocation SimpleName e
+node decrement event modifiers SimpleName Assignment MethodInvocation SimpleName get modifiers
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set node decrement event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName set node decrement event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+set node decrement event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input event
+set node decrement event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set node decrement event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set node decrement event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

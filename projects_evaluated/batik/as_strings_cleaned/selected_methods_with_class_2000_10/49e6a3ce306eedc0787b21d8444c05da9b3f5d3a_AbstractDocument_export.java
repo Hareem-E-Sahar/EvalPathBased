@@ -1,0 +1,30 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+document SimpleName SimpleType SingleVariableDeclaration SimpleName d
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot supported err
+create dom exception SimpleName MethodInvocation StringLiteral importdocument
+dom exceptionnot supported err QualifiedName MethodInvocation StringLiteral importdocument
+protected Modifier MethodDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SimpleName export
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName d
+node SimpleName SimpleType MethodDeclaration SimpleName export
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName d
+export SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+export SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+export SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+export SimpleName MethodDeclaration SingleVariableDeclaration SimpleName d
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName export
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName export
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName d

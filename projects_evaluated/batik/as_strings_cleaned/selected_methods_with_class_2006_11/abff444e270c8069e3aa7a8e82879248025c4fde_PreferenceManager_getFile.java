@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+get default SimpleName MethodInvocation SimpleName key
+file SimpleName SimpleType CastExpression MethodInvocation SimpleName get default
+file SimpleName SimpleType CastExpression MethodInvocation SimpleName key
+default value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName file
+default value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get default
+default value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName key
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default value
+internal SimpleName MethodInvocation SimpleName get property
+internal SimpleName MethodInvocation SimpleName key
+get property SimpleName MethodInvocation SimpleName key
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName internal
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sp
+file SimpleName SimpleType ClassInstanceCreation SimpleName sp
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sp
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName exists
+internal SimpleName MethodInvocation SimpleName remove
+internal SimpleName MethodInvocation SimpleName key
+remove SimpleName MethodInvocation SimpleName key
+file SimpleName MethodInvocation IfStatement ReturnStatement SimpleName file
+exists SimpleName MethodInvocation IfStatement ReturnStatement SimpleName file
+public Modifier MethodDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SimpleName get file
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+file SimpleName SimpleType MethodDeclaration SimpleName get file
+file SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName get file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

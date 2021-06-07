@@ -1,0 +1,29 @@
+shape node SimpleName SimpleType CastExpression SimpleName node
+shape node SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName shape node
+shape node SimpleName VariableDeclarationFragment CastExpression SimpleName node
+shape node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shape node
+create shape painter SimpleName MethodInvocation SimpleName ctx
+create shape painter SimpleName MethodInvocation SimpleName e
+create shape painter SimpleName MethodInvocation SimpleName shape node
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName shape node
+e SimpleName MethodInvocation SimpleName shape node
+shape node SimpleName MethodInvocation SimpleName set shape painter
+shape node SimpleName MethodInvocation MethodInvocation SimpleName create shape painter
+shape node SimpleName MethodInvocation MethodInvocation SimpleName ctx
+shape node SimpleName MethodInvocation MethodInvocation SimpleName e
+shape node SimpleName MethodInvocation MethodInvocation SimpleName shape node
+set shape painter SimpleName MethodInvocation MethodInvocation SimpleName create shape painter
+set shape painter SimpleName MethodInvocation MethodInvocation SimpleName ctx
+set shape painter SimpleName MethodInvocation MethodInvocation SimpleName e
+set shape painter SimpleName MethodInvocation MethodInvocation SimpleName shape node
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle geometry changed
+void PrimitiveType MethodDeclaration SimpleName handle geometry changed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle geometry changed
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle geometry changed

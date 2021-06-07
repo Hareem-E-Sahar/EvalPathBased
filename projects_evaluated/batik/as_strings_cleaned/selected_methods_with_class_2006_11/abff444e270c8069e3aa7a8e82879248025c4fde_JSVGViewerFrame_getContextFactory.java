@@ -1,0 +1,29 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName rhino interpreter
+get context factory method SimpleName MethodInvocation SimpleName invoke
+get context factory method SimpleName MethodInvocation SimpleName rhino interpreter
+invoke SimpleName MethodInvocation SimpleName rhino interpreter
+invocation target exception SimpleName SimpleType SingleVariableDeclaration SimpleName ite
+ite SimpleName MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ite
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+illegal access exception SimpleName SimpleType SingleVariableDeclaration SimpleName iae
+iae SimpleName MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName iae
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+protected Modifier MethodDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SimpleName get context factory
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName rhino interpreter
+object SimpleName SimpleType MethodDeclaration SimpleName get context factory
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rhino interpreter
+get context factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get context factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rhino interpreter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get context factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rhino interpreter
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get context factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rhino interpreter

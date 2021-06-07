@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName text
+combo box SimpleName MethodInvocation SimpleName get editor
+combo box SimpleName MethodInvocation MethodInvocation SimpleName set item
+get editor SimpleName MethodInvocation MethodInvocation SimpleName set item
+combo box SimpleName MethodInvocation MethodInvocation SimpleName text
+get editor SimpleName MethodInvocation MethodInvocation SimpleName text
+set item SimpleName MethodInvocation SimpleName text
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName text
+void PrimitiveType MethodDeclaration SimpleName set text
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName text
+set text SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set text SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set text
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set text
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text

@@ -1,0 +1,36 @@
+float PrimitiveType SingleVariableDeclaration SimpleName parent simple time
+children SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName children
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+timed element SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+timed element SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName timed element
+e SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+e SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+timed element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName sample at
+e SimpleName MethodInvocation SimpleName parent simple time
+sample at SimpleName MethodInvocation SimpleName parent simple time
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName sample children
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent simple time
+void PrimitiveType MethodDeclaration SimpleName sample children
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName parent simple time
+sample children SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+sample children SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent simple time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName sample children
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent simple time
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sample children
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent simple time

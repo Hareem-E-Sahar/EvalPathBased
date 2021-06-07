@@ -1,0 +1,24 @@
+float PrimitiveType ArrayType ArrayCreation QualifiedName length valueslength
+vs SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+vs SimpleName VariableDeclarationFragment ArrayCreation QualifiedName length valueslength
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName vs
+animatable length list value SimpleName SimpleType ClassInstanceCreation SimpleName target
+animatable length list value SimpleName SimpleType ClassInstanceCreation SimpleName length types
+animatable length list value SimpleName SimpleType ClassInstanceCreation SimpleName vs
+animatable length list value SimpleName SimpleType ClassInstanceCreation SimpleName percentage interpretation
+target SimpleName ClassInstanceCreation SimpleName length types
+target SimpleName ClassInstanceCreation SimpleName vs
+target SimpleName ClassInstanceCreation SimpleName percentage interpretation
+length types SimpleName ClassInstanceCreation SimpleName vs
+length types SimpleName ClassInstanceCreation SimpleName percentage interpretation
+vs SimpleName ClassInstanceCreation SimpleName percentage interpretation
+public Modifier MethodDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SimpleName get zero value
+animatable value SimpleName SimpleType MethodDeclaration SimpleName get zero value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get zero value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get zero value

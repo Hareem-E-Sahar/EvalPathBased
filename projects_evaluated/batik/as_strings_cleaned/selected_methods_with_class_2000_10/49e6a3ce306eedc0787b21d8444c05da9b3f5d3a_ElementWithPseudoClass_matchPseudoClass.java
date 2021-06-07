@@ -1,0 +1,13 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pseudo class
+boolean PrimitiveType MethodDeclaration SimpleName match pseudo class
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pseudo class
+match pseudo class SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+match pseudo class SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pseudo class
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName match pseudo class
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo class
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName match pseudo class
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo class

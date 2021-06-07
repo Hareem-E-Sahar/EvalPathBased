@@ -1,0 +1,15 @@
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptioninvalid state err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptioninvalid state err QualifiedName ClassInstanceCreation StringLiteral empty
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName get value
+public Modifier MethodDeclaration Block ReturnStatement SimpleName value
+value SimpleName SimpleType MethodDeclaration SimpleName get value
+get value SimpleName MethodDeclaration Block ReturnStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get value

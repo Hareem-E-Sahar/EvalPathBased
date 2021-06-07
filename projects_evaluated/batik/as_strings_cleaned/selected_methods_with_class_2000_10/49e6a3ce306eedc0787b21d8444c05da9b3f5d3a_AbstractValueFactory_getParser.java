@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName parser
+public Modifier MethodDeclaration SimpleName get parser
+public Modifier MethodDeclaration Block ReturnStatement SimpleName parser
+parser SimpleName SimpleType MethodDeclaration SimpleName get parser
+get parser SimpleName MethodDeclaration Block ReturnStatement SimpleName parser
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parser
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parser
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parser
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parser

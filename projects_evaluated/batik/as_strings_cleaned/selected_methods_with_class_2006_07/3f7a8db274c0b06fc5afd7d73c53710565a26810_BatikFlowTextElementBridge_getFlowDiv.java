@@ -1,0 +1,58 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+element SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+n SimpleName MethodInvocation SimpleName get namespace uri
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName equals
+get namespace uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName n
+get namespace uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get namespace uri
+equals SimpleName MethodInvocation MethodInvocation SimpleName n
+equals SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+element SimpleName SimpleType CastExpression SimpleName n
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+e SimpleName VariableDeclarationFragment CastExpression SimpleName n
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+n SimpleName MethodInvocation SimpleName get local name
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName batik ext flow div tag
+equals SimpleName MethodInvocation SimpleName batik ext flow div tag
+gather flow para SimpleName MethodInvocation SimpleName ctx
+gather flow para SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+protected Modifier MethodDeclaration SimpleType SimpleName attributed string
+protected Modifier MethodDeclaration SimpleName get flow div
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+attributed string SimpleName SimpleType MethodDeclaration SimpleName get flow div
+attributed string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+attributed string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+get flow div SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+get flow div SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+get flow div SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get flow div SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributed string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get flow div
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributed string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get flow div
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

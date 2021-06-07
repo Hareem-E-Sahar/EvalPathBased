@@ -1,0 +1,301 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName cursor element
+x link support SimpleName MethodInvocation SimpleName get x link href
+x link support SimpleName MethodInvocation SimpleName cursor element
+get x link href SimpleName MethodInvocation SimpleName cursor element
+uri str SimpleName VariableDeclarationFragment MethodInvocation SimpleName x link support
+uri str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x link href
+uri str SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor element
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri str
+uri str SimpleName MethodInvocation SimpleName length
+uri str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName cursor element
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err attribute missing
+ctx SimpleName ClassInstanceCreation SimpleName cursor element
+ctx SimpleName ClassInstanceCreation SimpleName err attribute missing
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer StringLiteral xlinkhref
+cursor element SimpleName ClassInstanceCreation SimpleName err attribute missing
+cursor element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer StringLiteral xlinkhref
+err attribute missing SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer StringLiteral xlinkhref
+abstract node SimpleName MethodInvocation SimpleName get base uri
+abstract node SimpleName MethodInvocation SimpleName cursor element
+get base uri SimpleName MethodInvocation SimpleName cursor element
+base uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName abstract node
+base uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get base uri
+base uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor element
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base uri
+parsed url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName purl
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName uri str
+purl SimpleName Assignment ClassInstanceCreation SimpleType SimpleName parsed url
+purl SimpleName Assignment ClassInstanceCreation SimpleName uri str
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName base uri
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName uri str
+base uri SimpleName ClassInstanceCreation SimpleName uri str
+purl SimpleName Assignment ClassInstanceCreation SimpleType SimpleName parsed url
+purl SimpleName Assignment ClassInstanceCreation SimpleName base uri
+purl SimpleName Assignment ClassInstanceCreation SimpleName uri str
+unit processor SimpleName MethodInvocation SimpleName create context
+unit processor SimpleName MethodInvocation SimpleName ctx
+unit processor SimpleName MethodInvocation SimpleName cursor element
+create context SimpleName MethodInvocation SimpleName ctx
+create context SimpleName MethodInvocation SimpleName cursor element
+ctx SimpleName MethodInvocation SimpleName cursor element
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName unit processor
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName create context
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor element
+unit processorcontext QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uctx
+cursor element SimpleName MethodInvocation SimpleName get attribute ns
+cursor element SimpleName MethodInvocation SimpleName svg x attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg x attribute
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor element
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg x attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+x SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+unit processor SimpleName MethodInvocation SimpleName svg horizontal coordinate to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg x attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg horizontal coordinate to user space SimpleName MethodInvocation SimpleName s
+svg horizontal coordinate to user space SimpleName MethodInvocation SimpleName svg x attribute
+svg horizontal coordinate to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg x attribute
+s SimpleName MethodInvocation SimpleName uctx
+svg x attribute SimpleName MethodInvocation SimpleName uctx
+x SimpleName Assignment MethodInvocation SimpleName unit processor
+x SimpleName Assignment MethodInvocation SimpleName svg horizontal coordinate to user space
+x SimpleName Assignment MethodInvocation SimpleName s
+x SimpleName Assignment MethodInvocation SimpleName svg x attribute
+x SimpleName Assignment MethodInvocation SimpleName uctx
+cursor element SimpleName MethodInvocation SimpleName get attribute ns
+cursor element SimpleName MethodInvocation SimpleName svg y attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg y attribute
+s SimpleName Assignment MethodInvocation SimpleName cursor element
+s SimpleName Assignment MethodInvocation SimpleName get attribute ns
+s SimpleName Assignment MethodInvocation SimpleName svg y attribute
+y SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+unit processor SimpleName MethodInvocation SimpleName svg vertical coordinate to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg y attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg vertical coordinate to user space SimpleName MethodInvocation SimpleName s
+svg vertical coordinate to user space SimpleName MethodInvocation SimpleName svg y attribute
+svg vertical coordinate to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg y attribute
+s SimpleName MethodInvocation SimpleName uctx
+svg y attribute SimpleName MethodInvocation SimpleName uctx
+y SimpleName Assignment MethodInvocation SimpleName unit processor
+y SimpleName Assignment MethodInvocation SimpleName svg vertical coordinate to user space
+y SimpleName Assignment MethodInvocation SimpleName s
+y SimpleName Assignment MethodInvocation SimpleName svg y attribute
+y SimpleName Assignment MethodInvocation SimpleName uctx
+cursor descriptor SimpleName SimpleType ClassInstanceCreation SimpleName purl
+cursor descriptor SimpleName SimpleType ClassInstanceCreation SimpleName x
+cursor descriptor SimpleName SimpleType ClassInstanceCreation SimpleName y
+purl SimpleName ClassInstanceCreation SimpleName x
+purl SimpleName ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName y
+desc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cursor descriptor
+desc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName purl
+desc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName x
+desc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName y
+cursor descriptor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName desc
+cursor cache SimpleName MethodInvocation SimpleName get cursor
+cursor cache SimpleName MethodInvocation SimpleName desc
+get cursor SimpleName MethodInvocation SimpleName desc
+cached cursor SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor cache
+cached cursor SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cursor
+cached cursor SimpleName VariableDeclarationFragment MethodInvocation SimpleName desc
+cursor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cached cursor
+point dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName x
+point dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName y
+hot spot SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point dfloat
+hot spot SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName x
+hot spot SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName y
+point dfloat QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hot spot
+cursor href to filter SimpleName MethodInvocation SimpleName cursor element
+cursor href to filter SimpleName MethodInvocation SimpleName purl
+cursor href to filter SimpleName MethodInvocation SimpleName hot spot
+cursor element SimpleName MethodInvocation SimpleName purl
+cursor element SimpleName MethodInvocation SimpleName hot spot
+purl SimpleName MethodInvocation SimpleName hot spot
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor href to filter
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor element
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName purl
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName hot spot
+filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+cursor cache SimpleName MethodInvocation SimpleName clear cursor
+cursor cache SimpleName MethodInvocation SimpleName desc
+clear cursor SimpleName MethodInvocation SimpleName desc
+f SimpleName MethodInvocation SimpleName get bounds d
+f SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+get bounds d SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+cursor size SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName f
+cursor size SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get bounds d
+cursor size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cursor size
+f SimpleName MethodInvocation SimpleName create scaled rendering
+f SimpleName MethodInvocation QualifiedName cursor sizewidth
+f SimpleName MethodInvocation QualifiedName cursor sizeheight
+create scaled rendering SimpleName MethodInvocation QualifiedName cursor sizewidth
+create scaled rendering SimpleName MethodInvocation QualifiedName cursor sizeheight
+cursor sizewidth QualifiedName MethodInvocation QualifiedName cursor sizeheight
+ri SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+ri SimpleName VariableDeclarationFragment MethodInvocation SimpleName create scaled rendering
+ri SimpleName VariableDeclarationFragment MethodInvocation QualifiedName cursor sizewidth
+ri SimpleName VariableDeclarationFragment MethodInvocation QualifiedName cursor sizeheight
+rendered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ri
+image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName img
+ri SimpleName InstanceofExpression SimpleType SimpleName image
+image SimpleName SimpleType CastExpression SimpleName ri
+img SimpleName Assignment CastExpression SimpleType SimpleName image
+img SimpleName Assignment CastExpression SimpleName ri
+rendered image to image SimpleName MethodInvocation SimpleName ri
+img SimpleName Assignment MethodInvocation SimpleName rendered image to image
+img SimpleName Assignment MethodInvocation SimpleName ri
+hot spotx QualifiedName InfixExpression NumberLiteral empty
+hot spotx QualifiedName InfixExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ConditionalExpression NumberLiteral empty
+hot spotx QualifiedName InfixExpression ConditionalExpression QualifiedName hot spotx
+empty NumberLiteral InfixExpression ConditionalExpression QualifiedName hot spotx
+empty NumberLiteral ConditionalExpression QualifiedName hot spotx
+hot spotx QualifiedName Assignment ConditionalExpression InfixExpression QualifiedName hot spotx
+hot spotx QualifiedName Assignment ConditionalExpression InfixExpression NumberLiteral empty
+hot spotx QualifiedName Assignment ConditionalExpression NumberLiteral empty
+hot spotx QualifiedName Assignment ConditionalExpression QualifiedName hot spotx
+hot spoty QualifiedName InfixExpression NumberLiteral empty
+hot spoty QualifiedName InfixExpression ConditionalExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ConditionalExpression NumberLiteral empty
+hot spoty QualifiedName InfixExpression ConditionalExpression QualifiedName hot spoty
+empty NumberLiteral InfixExpression ConditionalExpression QualifiedName hot spoty
+empty NumberLiteral ConditionalExpression QualifiedName hot spoty
+hot spoty QualifiedName Assignment ConditionalExpression InfixExpression QualifiedName hot spoty
+hot spoty QualifiedName Assignment ConditionalExpression InfixExpression NumberLiteral empty
+hot spoty QualifiedName Assignment ConditionalExpression NumberLiteral empty
+hot spoty QualifiedName Assignment ConditionalExpression QualifiedName hot spoty
+cursor sizewidth QualifiedName InfixExpression NumberLiteral empty
+hot spotx QualifiedName InfixExpression ParenthesizedExpression InfixExpression QualifiedName cursor sizewidth
+hot spotx QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+cursor sizewidth QualifiedName InfixExpression NumberLiteral empty
+hot spotx QualifiedName InfixExpression ConditionalExpression InfixExpression QualifiedName cursor sizewidth
+hot spotx QualifiedName InfixExpression ConditionalExpression InfixExpression NumberLiteral empty
+hot spotx QualifiedName InfixExpression ConditionalExpression QualifiedName hot spotx
+cursor sizewidth QualifiedName InfixExpression ConditionalExpression QualifiedName hot spotx
+empty NumberLiteral InfixExpression ConditionalExpression QualifiedName hot spotx
+hot spotx QualifiedName Assignment ConditionalExpression InfixExpression QualifiedName hot spotx
+hot spotx QualifiedName Assignment ConditionalExpression InfixExpression QualifiedName cursor sizewidth
+hot spotx QualifiedName Assignment ConditionalExpression InfixExpression NumberLiteral empty
+hot spotx QualifiedName Assignment ConditionalExpression QualifiedName hot spotx
+cursor sizeheight QualifiedName InfixExpression NumberLiteral empty
+hot spoty QualifiedName InfixExpression ParenthesizedExpression InfixExpression QualifiedName cursor sizeheight
+hot spoty QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+cursor sizeheight QualifiedName InfixExpression NumberLiteral empty
+hot spoty QualifiedName InfixExpression ConditionalExpression InfixExpression QualifiedName cursor sizeheight
+hot spoty QualifiedName InfixExpression ConditionalExpression InfixExpression NumberLiteral empty
+hot spoty QualifiedName InfixExpression ConditionalExpression QualifiedName hot spoty
+cursor sizeheight QualifiedName InfixExpression ConditionalExpression QualifiedName hot spoty
+empty NumberLiteral InfixExpression ConditionalExpression QualifiedName hot spoty
+hot spoty QualifiedName Assignment ConditionalExpression InfixExpression QualifiedName hot spoty
+hot spoty QualifiedName Assignment ConditionalExpression InfixExpression QualifiedName cursor sizeheight
+hot spoty QualifiedName Assignment ConditionalExpression InfixExpression NumberLiteral empty
+hot spoty QualifiedName Assignment ConditionalExpression QualifiedName hot spoty
+toolkit SimpleName MethodInvocation SimpleName get default toolkit
+math SimpleName MethodInvocation SimpleName round
+math SimpleName MethodInvocation QualifiedName hot spotx
+round SimpleName MethodInvocation QualifiedName hot spotx
+math SimpleName MethodInvocation SimpleName round
+math SimpleName MethodInvocation QualifiedName hot spoty
+round SimpleName MethodInvocation QualifiedName hot spoty
+point SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName math
+point SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName round
+point SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hot spotx
+point SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName math
+point SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName round
+point SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName hot spoty
+math SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName math
+math SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName round
+math SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hot spoty
+round SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName math
+round SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName round
+round SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hot spoty
+hot spotx QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName math
+hot spotx QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName round
+hot spotx QualifiedName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hot spoty
+purl SimpleName MethodInvocation SimpleName to string
+toolkit SimpleName MethodInvocation MethodInvocation SimpleName create custom cursor
+get default toolkit SimpleName MethodInvocation MethodInvocation SimpleName create custom cursor
+toolkit SimpleName MethodInvocation MethodInvocation SimpleName img
+get default toolkit SimpleName MethodInvocation MethodInvocation SimpleName img
+toolkit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName purl
+toolkit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get default toolkit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName purl
+get default toolkit SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+create custom cursor SimpleName MethodInvocation SimpleName img
+create custom cursor SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName point
+create custom cursor SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName math
+create custom cursor SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName round
+create custom cursor SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hot spotx
+create custom cursor SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName math
+create custom cursor SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName round
+create custom cursor SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hot spoty
+create custom cursor SimpleName MethodInvocation MethodInvocation SimpleName purl
+create custom cursor SimpleName MethodInvocation MethodInvocation SimpleName to string
+img SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName point
+img SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName math
+img SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName round
+img SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hot spotx
+img SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName math
+img SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName round
+img SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName hot spoty
+img SimpleName MethodInvocation MethodInvocation SimpleName purl
+img SimpleName MethodInvocation MethodInvocation SimpleName to string
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName toolkit
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get default toolkit
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName create custom cursor
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName img
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName purl
+c SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+cursor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+cursor cache SimpleName MethodInvocation SimpleName put cursor
+cursor cache SimpleName MethodInvocation SimpleName desc
+cursor cache SimpleName MethodInvocation SimpleName c
+put cursor SimpleName MethodInvocation SimpleName desc
+put cursor SimpleName MethodInvocation SimpleName c
+desc SimpleName MethodInvocation SimpleName c
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration SimpleType SimpleName cursor
+public Modifier MethodDeclaration SimpleName convert svg cursor element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cursor element
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block ReturnStatement SimpleName c
+cursor SimpleName SimpleType MethodDeclaration SimpleName convert svg cursor element
+cursor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cursor element
+convert svg cursor element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert svg cursor element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cursor element
+convert svg cursor element SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+convert svg cursor element SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+convert svg cursor element SimpleName MethodDeclaration Block ReturnStatement SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cursor
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert svg cursor element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cursor element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cursor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert svg cursor element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cursor element

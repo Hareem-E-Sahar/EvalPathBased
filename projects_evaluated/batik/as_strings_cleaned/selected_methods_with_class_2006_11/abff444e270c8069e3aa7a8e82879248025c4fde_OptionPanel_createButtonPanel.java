@@ -1,0 +1,30 @@
+panel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j panel
+j panel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName panel
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral ok buttontext
+get string SimpleName MethodInvocation StringLiteral ok buttontext
+j button SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName resources
+j button SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get string
+j button SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral ok buttontext
+ok SimpleName Assignment ClassInstanceCreation SimpleType SimpleName j button
+ok SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName resources
+ok SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get string
+ok SimpleName Assignment ClassInstanceCreation MethodInvocation StringLiteral ok buttontext
+ok SimpleName MethodInvocation SimpleName add action listener
+ok SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ok button action
+add action listener SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ok button action
+panel SimpleName MethodInvocation SimpleName add
+panel SimpleName MethodInvocation SimpleName ok
+add SimpleName MethodInvocation SimpleName ok
+protected Modifier MethodDeclaration SimpleType SimpleName j panel
+protected Modifier MethodDeclaration SimpleName create button panel
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName panel
+j panel SimpleName SimpleType MethodDeclaration SimpleName create button panel
+create button panel SimpleName MethodDeclaration Block ReturnStatement SimpleName panel
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName j panel
+public Modifier TypeDeclaration MethodDeclaration SimpleName create button panel
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName j panel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create button panel

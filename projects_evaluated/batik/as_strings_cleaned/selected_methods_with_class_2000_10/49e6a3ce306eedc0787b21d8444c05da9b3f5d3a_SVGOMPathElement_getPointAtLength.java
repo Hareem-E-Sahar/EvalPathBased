@@ -1,0 +1,22 @@
+float PrimitiveType SingleVariableDeclaration SimpleName distance
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! svgom path elementget point at length
+public Modifier MethodDeclaration SimpleType SimpleName svg point
+public Modifier MethodDeclaration SimpleName get point at length
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName distance
+svg point SimpleName SimpleType MethodDeclaration SimpleName get point at length
+svg point SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+svg point SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName distance
+get point at length SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+get point at length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName distance
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg point
+public Modifier TypeDeclaration MethodDeclaration SimpleName get point at length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName distance
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg point
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get point at length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName distance

@@ -1,0 +1,74 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+input source SimpleName SimpleType SingleVariableDeclaration SimpleName is
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+create document SimpleName MethodInvocation QualifiedName svgdom implementationsvg namespace uri
+create document SimpleName MethodInvocation StringLiteral svg
+create document SimpleName MethodInvocation SimpleName uri
+create document SimpleName MethodInvocation SimpleName is
+svgdom implementationsvg namespace uri QualifiedName MethodInvocation StringLiteral svg
+svgdom implementationsvg namespace uri QualifiedName MethodInvocation SimpleName uri
+svgdom implementationsvg namespace uri QualifiedName MethodInvocation SimpleName is
+svg StringLiteral MethodInvocation SimpleName uri
+svg StringLiteral MethodInvocation SimpleName is
+uri SimpleName MethodInvocation SimpleName is
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName create document
+svgom document SimpleName SimpleType CastExpression MethodInvocation QualifiedName svgdom implementationsvg namespace uri
+svgom document SimpleName SimpleType CastExpression MethodInvocation StringLiteral svg
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName uri
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName is
+doc SimpleName Assignment CastExpression SimpleType SimpleName svgom document
+doc SimpleName Assignment CastExpression MethodInvocation SimpleName create document
+doc SimpleName Assignment CastExpression MethodInvocation QualifiedName svgdom implementationsvg namespace uri
+doc SimpleName Assignment CastExpression MethodInvocation StringLiteral svg
+doc SimpleName Assignment CastExpression MethodInvocation SimpleName uri
+doc SimpleName Assignment CastExpression MethodInvocation SimpleName is
+url SimpleName SimpleType ClassInstanceCreation SimpleName uri
+doc SimpleName MethodInvocation SimpleName set url object
+doc SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName url
+doc SimpleName MethodInvocation ClassInstanceCreation SimpleName uri
+set url object SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName url
+set url object SimpleName MethodInvocation ClassInstanceCreation SimpleName uri
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+public Modifier MethodDeclaration SimpleType SimpleName svgom document
+public Modifier MethodDeclaration SimpleName create document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input source
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+svgom document SimpleName SimpleType MethodDeclaration SimpleName create document
+svgom document SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uri
+svgom document SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is
+svgom document SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+svgom document SimpleName SimpleType MethodDeclaration SimpleType SimpleName sax exception
+create document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+create document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input source
+create document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is
+create document SimpleName MethodDeclaration SimpleType SimpleName dom exception
+create document SimpleName MethodDeclaration SimpleType SimpleName sax exception
+create document SimpleName MethodDeclaration Block ReturnStatement SimpleName doc
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+is SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+is SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+dom exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName sax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svgom document
+public Modifier TypeDeclaration MethodDeclaration SimpleName create document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svgom document
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

@@ -1,0 +1,64 @@
+current SimpleName SwitchStatement BreakStatement SimpleName wsp
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+current SimpleName SwitchStatement SwitchCase NumberLiteral x d
+wsp SimpleName BreakStatement SwitchStatement SwitchCase NumberLiteral x
+wsp SimpleName BreakStatement SwitchStatement SwitchCase NumberLiteral x
+wsp SimpleName BreakStatement SwitchStatement SwitchCase NumberLiteral x d
+wsp SimpleName BreakStatement SwitchStatement SwitchCase NumberLiteral x a
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x d
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x d
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral empty
+current SimpleName InfixExpression IfStatement ReturnStatement BooleanLiteral false
+empty CharacterLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName Assignment SwitchStatement BreakStatement SimpleName wsp
+current SimpleName Assignment SwitchStatement SwitchCase NumberLiteral x
+current SimpleName Assignment SwitchStatement SwitchCase NumberLiteral x
+current SimpleName Assignment SwitchStatement SwitchCase NumberLiteral x d
+wsp SimpleName BreakStatement SwitchStatement SwitchCase NumberLiteral x
+wsp SimpleName BreakStatement SwitchStatement SwitchCase NumberLiteral x
+wsp SimpleName BreakStatement SwitchStatement SwitchCase NumberLiteral x d
+wsp SimpleName BreakStatement SwitchStatement SwitchCase NumberLiteral x a
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x d
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x d
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+wsp SimpleName LabeledStatement Block LabeledStatement SimpleName wsp
+wsp SimpleName LabeledStatement Block ReturnStatement BooleanLiteral true
+wsp SimpleName LabeledStatement Block ReturnStatement BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName skip comma spaces
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block LabeledStatement SimpleName wsp
+protected Modifier MethodDeclaration Block LabeledStatement SimpleName wsp
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName skip comma spaces
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration Block LabeledStatement SimpleName wsp
+boolean PrimitiveType MethodDeclaration Block LabeledStatement SimpleName wsp
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+skip comma spaces SimpleName MethodDeclaration SimpleType SimpleName io exception
+skip comma spaces SimpleName MethodDeclaration Block LabeledStatement SimpleName wsp
+skip comma spaces SimpleName MethodDeclaration Block LabeledStatement SimpleName wsp
+skip comma spaces SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName skip comma spaces
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName skip comma spaces
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

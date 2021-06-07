@@ -1,0 +1,48 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName lang
+elt SimpleName MethodInvocation SimpleName set attribute ns
+elt SimpleName MethodInvocation SimpleName xml namespace uri
+elt SimpleName MethodInvocation StringLiteral lang
+elt SimpleName MethodInvocation SimpleName lang
+set attribute ns SimpleName MethodInvocation SimpleName xml namespace uri
+set attribute ns SimpleName MethodInvocation StringLiteral lang
+set attribute ns SimpleName MethodInvocation SimpleName lang
+xml namespace uri SimpleName MethodInvocation StringLiteral lang
+xml namespace uri SimpleName MethodInvocation SimpleName lang
+lang StringLiteral MethodInvocation SimpleName lang
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set xml lang
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lang
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName set xml lang
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName lang
+void PrimitiveType MethodDeclaration SimpleName set xml lang
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elt
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lang
+set xml lang SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+set xml lang SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+set xml lang SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set xml lang SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lang
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lang
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set xml lang
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lang
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set xml lang
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lang

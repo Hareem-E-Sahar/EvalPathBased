@@ -1,0 +1,63 @@
+char PrimitiveType SingleVariableDeclaration SimpleName c
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+awt font families SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName awt font families
+i SimpleName InfixExpression MethodInvocation SimpleName size
+awt font families SimpleName MethodInvocation SimpleName get
+awt font families SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+awt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName awt font families
+awt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+awt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+font family SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName awt font family
+font family SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName awt font families
+font family SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+font family SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+awt font family SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font family
+awt fonts SimpleName MethodInvocation SimpleName get
+awt fonts SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+awtgvt font SimpleName SimpleType CastExpression MethodInvocation SimpleName awt fonts
+awtgvt font SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+awtgvt font SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+font SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName awtgvt font
+font SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName awt fonts
+font SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+font SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+awtgvt font SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font
+font SimpleName MethodInvocation SimpleName can display
+font SimpleName MethodInvocation SimpleName c
+can display SimpleName MethodInvocation SimpleName c
+font family SimpleName MethodInvocation SimpleName get family name
+font family SimpleName MethodInvocation MethodInvocation SimpleName index of
+get family name SimpleName MethodInvocation MethodInvocation SimpleName index of
+font family SimpleName MethodInvocation MethodInvocation StringLiteral song
+get family name SimpleName MethodInvocation MethodInvocation StringLiteral song
+index of SimpleName MethodInvocation StringLiteral song
+index of SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+song StringLiteral MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration SimpleType SimpleName gvt font family
+public Modifier MethodDeclaration SimpleName get family that can display
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+gvt font family SimpleName SimpleType MethodDeclaration SimpleName get family that can display
+gvt font family SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType char
+gvt font family SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName c
+get family that can display SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType char
+get family that can display SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName gvt font family
+public Modifier TypeDeclaration MethodDeclaration SimpleName get family that can display
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName gvt font family
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get family that can display
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

@@ -1,0 +1,13 @@
+modifiers SimpleName InfixExpression SimpleName alt graph mask
+modifiers SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+alt graph mask SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is alt graph down
+boolean PrimitiveType MethodDeclaration SimpleName is alt graph down
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is alt graph down
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is alt graph down

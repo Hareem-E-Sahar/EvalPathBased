@@ -1,0 +1,28 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+last ret SimpleName InfixExpression PrefixExpression NumberLiteral empty
+composite graphics node SimpleName ThisExpression MethodInvocation SimpleName set
+composite graphics node SimpleName ThisExpression MethodInvocation SimpleName last ret
+composite graphics node SimpleName ThisExpression MethodInvocation SimpleName o
+set SimpleName MethodInvocation SimpleName last ret
+set SimpleName MethodInvocation SimpleName o
+last ret SimpleName MethodInvocation SimpleName o
+expected mod count SimpleName Assignment SimpleName mod count
+index out of bounds exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+void PrimitiveType MethodDeclaration SimpleName set
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

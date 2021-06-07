@@ -1,0 +1,28 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+node SimpleName InstanceofExpression SimpleType SimpleName svgom element
+svgom element SimpleName SimpleType CastExpression SimpleName node
+node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get svg context
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName svg context
+protected Modifier MethodDeclaration SimpleName get svg context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+static Modifier MethodDeclaration SimpleType SimpleName svg context
+static Modifier MethodDeclaration SimpleName get svg context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+svg context SimpleName SimpleType MethodDeclaration SimpleName get svg context
+svg context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+get svg context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get svg context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg context
+public Modifier TypeDeclaration MethodDeclaration SimpleName get svg context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get svg context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

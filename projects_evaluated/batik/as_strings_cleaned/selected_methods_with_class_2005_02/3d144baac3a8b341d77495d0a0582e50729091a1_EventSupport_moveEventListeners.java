@@ -1,0 +1,21 @@
+event support SimpleName SimpleType SingleVariableDeclaration SimpleName other
+othercapturing listeners QualifiedName Assignment SimpleName capturing listeners
+otherbubbling listeners QualifiedName Assignment SimpleName bubbling listeners
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName move event listeners
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event support
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+void PrimitiveType MethodDeclaration SimpleName move event listeners
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event support
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+move event listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event support
+move event listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName move event listeners
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName move event listeners
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

@@ -1,0 +1,41 @@
+svg document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+document SimpleName Assignment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get document element
+view css SimpleName SimpleType CastExpression MethodInvocation SimpleName doc
+view css SimpleName SimpleType CastExpression MethodInvocation SimpleName get document element
+bridge context SimpleName MethodInvocation SimpleName set view css
+bridge context SimpleName MethodInvocation CastExpression SimpleType SimpleName view css
+bridge context SimpleName MethodInvocation CastExpression MethodInvocation SimpleName doc
+bridge context SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get document element
+set view css SimpleName MethodInvocation CastExpression SimpleType SimpleName view css
+set view css SimpleName MethodInvocation CastExpression MethodInvocation SimpleName doc
+set view css SimpleName MethodInvocation CastExpression MethodInvocation SimpleName get document element
+builder SimpleName MethodInvocation SimpleName build
+builder SimpleName MethodInvocation SimpleName bridge context
+builder SimpleName MethodInvocation SimpleName document
+build SimpleName MethodInvocation SimpleName bridge context
+build SimpleName MethodInvocation SimpleName document
+bridge context SimpleName MethodInvocation SimpleName document
+gvt root SimpleName Assignment MethodInvocation SimpleName builder
+gvt root SimpleName Assignment MethodInvocation SimpleName build
+gvt root SimpleName Assignment MethodInvocation SimpleName bridge context
+gvt root SimpleName Assignment MethodInvocation SimpleName document
+repaint SimpleName Assignment BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set svg document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+void PrimitiveType MethodDeclaration SimpleName set svg document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc
+set svg document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+set svg document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set svg document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set svg document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc

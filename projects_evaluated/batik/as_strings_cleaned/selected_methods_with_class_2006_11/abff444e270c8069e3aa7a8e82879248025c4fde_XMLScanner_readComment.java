@@ -1,0 +1,45 @@
+next char SimpleName MethodInvocation InfixExpression CharacterLiteral -
+create xml exception SimpleName MethodInvocation StringLiteral malformedcomment
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName next char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next char
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+c SimpleName InfixExpression CharacterLiteral -
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+c SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral -
+c SimpleName Assignment MethodInvocation SimpleName next char
+c SimpleName Assignment MethodInvocation SimpleName next char
+c SimpleName InfixExpression CharacterLiteral -
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+create xml exception SimpleName MethodInvocation StringLiteral unexpectedeof
+c SimpleName Assignment MethodInvocation SimpleName next char
+c SimpleName InfixExpression CharacterLiteral >
+create xml exception SimpleName MethodInvocation StringLiteral malformedcomment
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName read comment
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement QualifiedName lexical unitscomment
+int PrimitiveType MethodDeclaration SimpleName read comment
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement QualifiedName lexical unitscomment
+read comment SimpleName MethodDeclaration SimpleType SimpleName io exception
+read comment SimpleName MethodDeclaration SimpleType SimpleName xml exception
+read comment SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read comment SimpleName MethodDeclaration Block ReturnStatement QualifiedName lexical unitscomment
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName read comment
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read comment
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception

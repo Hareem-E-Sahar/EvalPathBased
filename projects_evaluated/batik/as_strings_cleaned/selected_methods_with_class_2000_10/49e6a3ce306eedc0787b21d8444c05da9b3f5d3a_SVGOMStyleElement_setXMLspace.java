@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName xmlspace
+xml support SimpleName MethodInvocation SimpleName set xml space
+xml support SimpleName MethodInvocation SimpleName xmlspace
+set xml space SimpleName MethodInvocation SimpleName xmlspace
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set xm lspace
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName xmlspace
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set xm lspace
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName xmlspace
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set xm lspace SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set xm lspace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName xmlspace
+set xm lspace SimpleName MethodDeclaration SimpleType SimpleName dom exception
+xmlspace SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set xm lspace
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xmlspace
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set xm lspace
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xmlspace
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

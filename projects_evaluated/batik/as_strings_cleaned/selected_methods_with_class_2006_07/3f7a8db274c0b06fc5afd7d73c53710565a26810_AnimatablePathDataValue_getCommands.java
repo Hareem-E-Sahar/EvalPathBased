@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration ArrayType PrimitiveType short
+public Modifier MethodDeclaration SimpleName get commands
+public Modifier MethodDeclaration Block ReturnStatement SimpleName commands
+short PrimitiveType ArrayType MethodDeclaration SimpleName get commands
+get commands SimpleName MethodDeclaration Block ReturnStatement SimpleName commands
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName get commands
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get commands

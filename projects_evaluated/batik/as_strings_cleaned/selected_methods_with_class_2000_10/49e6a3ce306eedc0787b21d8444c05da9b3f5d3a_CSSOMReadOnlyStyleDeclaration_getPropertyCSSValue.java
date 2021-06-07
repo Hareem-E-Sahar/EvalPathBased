@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+property name SimpleName MethodInvocation SimpleName to lower case
+property name SimpleName MethodInvocation MethodInvocation SimpleName intern
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName intern
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName property name
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to lower case
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName intern
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+properties SimpleName MethodInvocation SimpleName get
+properties SimpleName MethodInvocation SimpleName s
+get SimpleName MethodInvocation SimpleName s
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName properties
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName s
+ve SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName value entry
+ve SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName properties
+ve SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+ve SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName s
+value entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ve
+ve SimpleName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName vevalue
+public Modifier MethodDeclaration SimpleType SimpleName css value
+public Modifier MethodDeclaration SimpleName get property css value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+css value SimpleName SimpleType MethodDeclaration SimpleName get property css value
+css value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property name
+get property css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get property css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property css value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property css value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name

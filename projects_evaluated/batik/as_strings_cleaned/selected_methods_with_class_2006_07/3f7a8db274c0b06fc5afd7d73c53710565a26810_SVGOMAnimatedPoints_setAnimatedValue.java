@@ -1,0 +1,88 @@
+float PrimitiveType ArrayType SingleVariableDeclaration SimpleName pts
+item list SimpleName MethodInvocation SimpleName size
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName item list
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName item list
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName size
+ptslength QualifiedName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression QualifiedName ptslength
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName i
+size SimpleName InfixExpression InfixExpression InfixExpression SimpleName i
+item list SimpleName MethodInvocation SimpleName get
+item list SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+svg point item SimpleName SimpleType CastExpression MethodInvocation SimpleName item list
+svg point item SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+svg point item SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+p SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg point item
+p SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item list
+p SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+p SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+svg point item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+i SimpleName InfixExpression NumberLiteral empty
+pts SimpleName ArrayAccess InfixExpression SimpleName i
+pts SimpleName ArrayAccess InfixExpression NumberLiteral empty
+px QualifiedName Assignment ArrayAccess SimpleName pts
+px QualifiedName Assignment ArrayAccess InfixExpression SimpleName i
+px QualifiedName Assignment ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+pts SimpleName ArrayAccess InfixExpression InfixExpression SimpleName i
+pts SimpleName ArrayAccess InfixExpression InfixExpression NumberLiteral empty
+pts SimpleName ArrayAccess InfixExpression NumberLiteral empty
+py QualifiedName Assignment ArrayAccess SimpleName pts
+py QualifiedName Assignment ArrayAccess InfixExpression NumberLiteral empty
+ptslength QualifiedName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression QualifiedName ptslength
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+pts SimpleName ArrayAccess InfixExpression SimpleName i
+pts SimpleName ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+pts SimpleName ArrayAccess InfixExpression InfixExpression SimpleName i
+pts SimpleName ArrayAccess InfixExpression InfixExpression NumberLiteral empty
+pts SimpleName ArrayAccess InfixExpression NumberLiteral empty
+svg point item SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName pts
+svg point item SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName pts
+pts SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName pts
+append item impl SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg point item
+append item impl SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName pts
+append item impl SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName pts
+ptslength QualifiedName InfixExpression NumberLiteral empty
+size SimpleName InfixExpression InfixExpression QualifiedName ptslength
+size SimpleName InfixExpression InfixExpression NumberLiteral empty
+remove item impl SimpleName MethodInvocation PrefixExpression SimpleName size
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set animated value
+protected Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType float
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName pts
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName set animated value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pts
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+set animated value SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType float
+set animated value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pts
+set animated value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+set animated value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set animated value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pts
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set animated value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pts

@@ -1,0 +1,84 @@
+get type SimpleName MethodInvocation MethodInvocation SimpleName equals
+get type SimpleName MethodInvocation MethodInvocation StringLiteral textcss
+equals SimpleName MethodInvocation StringLiteral textcss
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom document
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get css engine
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css engine
+css engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+text SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName ncdata section node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName ncdata section node
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName ntext node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName ntext node
+ncdata section node QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName ntext node
+n SimpleName MethodInvocation SimpleName get node value
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName n
+sb SimpleName MethodInvocation MethodInvocation SimpleName get node value
+append SimpleName MethodInvocation MethodInvocation SimpleName n
+append SimpleName MethodInvocation MethodInvocation SimpleName get node value
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+sb SimpleName MethodInvocation SimpleName to string
+text SimpleName Assignment MethodInvocation SimpleName sb
+text SimpleName Assignment MethodInvocation SimpleName to string
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName burl
+xml base support SimpleName MethodInvocation SimpleName get cascaded xml base
+bu SimpleName VariableDeclarationFragment MethodInvocation SimpleName xml base support
+bu SimpleName VariableDeclarationFragment MethodInvocation SimpleName get cascaded xml base
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bu
+url SimpleName SimpleType ClassInstanceCreation SimpleName bu
+burl SimpleName Assignment ClassInstanceCreation SimpleType SimpleName url
+burl SimpleName Assignment ClassInstanceCreation SimpleName bu
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName print stack trace
+get attribute ns SimpleName MethodInvocation SimpleName svg media attribute
+media SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+media SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg media attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName media
+e SimpleName MethodInvocation SimpleName parse style sheet
+e SimpleName MethodInvocation SimpleName text
+e SimpleName MethodInvocation SimpleName burl
+e SimpleName MethodInvocation SimpleName media
+parse style sheet SimpleName MethodInvocation SimpleName text
+parse style sheet SimpleName MethodInvocation SimpleName burl
+parse style sheet SimpleName MethodInvocation SimpleName media
+text SimpleName MethodInvocation SimpleName burl
+text SimpleName MethodInvocation SimpleName media
+burl SimpleName MethodInvocation SimpleName media
+style sheet SimpleName Assignment MethodInvocation SimpleName e
+style sheet SimpleName Assignment MethodInvocation SimpleName parse style sheet
+style sheet SimpleName Assignment MethodInvocation SimpleName text
+style sheet SimpleName Assignment MethodInvocation SimpleName burl
+style sheet SimpleName Assignment MethodInvocation SimpleName media
+add event listener SimpleName MethodInvocation StringLiteral dom character data modified
+add event listener SimpleName MethodInvocation SimpleName dom character data modified listener
+add event listener SimpleName MethodInvocation BooleanLiteral false
+dom character data modified StringLiteral MethodInvocation SimpleName dom character data modified listener
+dom character data modified StringLiteral MethodInvocation BooleanLiteral false
+dom character data modified listener SimpleName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration SimpleType SimpleName style sheet
+public Modifier MethodDeclaration SimpleName get css style sheet
+public Modifier MethodDeclaration Block ReturnStatement SimpleName style sheet
+style sheet SimpleName SimpleType MethodDeclaration SimpleName get css style sheet
+get css style sheet SimpleName MethodDeclaration Block ReturnStatement SimpleName style sheet
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName style sheet
+public Modifier TypeDeclaration MethodDeclaration SimpleName get css style sheet
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName style sheet
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get css style sheet

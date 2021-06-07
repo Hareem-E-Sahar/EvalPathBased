@@ -1,0 +1,65 @@
+char PrimitiveType ArrayType SingleVariableDeclaration SimpleName text
+pretty printer SimpleName MethodInvocation SimpleName get format
+margin SimpleName MethodInvocation SimpleName to string
+print string SimpleName MethodInvocation MethodInvocation SimpleName margin
+print string SimpleName MethodInvocation MethodInvocation SimpleName to string
+print string SimpleName MethodInvocation StringLiteral <!--
+column SimpleName InfixExpression QualifiedName textlength
+column SimpleName InfixExpression NumberLiteral empty
+textlength QualifiedName InfixExpression NumberLiteral empty
+pretty printer SimpleName MethodInvocation SimpleName get document width
+column SimpleName InfixExpression InfixExpression MethodInvocation SimpleName pretty printer
+column SimpleName InfixExpression InfixExpression MethodInvocation SimpleName get document width
+textlength QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName pretty printer
+textlength QualifiedName InfixExpression InfixExpression MethodInvocation SimpleName get document width
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName pretty printer
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName get document width
+print characters SimpleName MethodInvocation SimpleName text
+margin SimpleName MethodInvocation SimpleName to string
+format text SimpleName MethodInvocation SimpleName text
+format text SimpleName MethodInvocation MethodInvocation SimpleName margin
+format text SimpleName MethodInvocation MethodInvocation SimpleName to string
+format text SimpleName MethodInvocation BooleanLiteral false
+text SimpleName MethodInvocation MethodInvocation SimpleName margin
+text SimpleName MethodInvocation MethodInvocation SimpleName to string
+text SimpleName MethodInvocation BooleanLiteral false
+margin SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+to string SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+print character SimpleName MethodInvocation CharacterLiteral empty
+column SimpleName InfixExpression NumberLiteral empty
+pretty printer SimpleName MethodInvocation SimpleName get document width
+column SimpleName InfixExpression InfixExpression MethodInvocation SimpleName pretty printer
+column SimpleName InfixExpression InfixExpression MethodInvocation SimpleName get document width
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName pretty printer
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName get document width
+margin SimpleName MethodInvocation SimpleName to string
+print string SimpleName MethodInvocation MethodInvocation SimpleName margin
+print string SimpleName MethodInvocation MethodInvocation SimpleName to string
+print string SimpleName MethodInvocation StringLiteral -->
+print string SimpleName MethodInvocation StringLiteral <!--
+print characters SimpleName MethodInvocation SimpleName text
+print string SimpleName MethodInvocation StringLiteral -->
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print comment
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName print comment
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName text
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+print comment SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+print comment SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text
+print comment SimpleName MethodDeclaration SimpleType SimpleName io exception
+text SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print comment
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print comment
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

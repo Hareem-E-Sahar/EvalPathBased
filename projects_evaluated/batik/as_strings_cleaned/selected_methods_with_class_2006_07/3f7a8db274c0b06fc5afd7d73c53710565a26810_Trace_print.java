@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+systemerr QualifiedName MethodInvocation SimpleName print
+systemerr QualifiedName MethodInvocation StringLiteral logt
+print SimpleName MethodInvocation StringLiteral logt
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName level
+systemerr QualifiedName MethodInvocation SimpleName print
+systemerr QualifiedName MethodInvocation StringLiteral empty
+print SimpleName MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName level
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+level SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation SimpleName s
+println SimpleName MethodInvocation SimpleName s
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration Block IfStatement SimpleName enabled
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName print
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration Block IfStatement SimpleName enabled
+void PrimitiveType MethodDeclaration SimpleName print
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName enabled
+print SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+print SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+print SimpleName MethodDeclaration Block IfStatement SimpleName enabled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

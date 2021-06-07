@@ -1,0 +1,57 @@
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName in
+font face SimpleName SimpleType SingleVariableDeclaration SimpleName ff
+in SimpleName MethodInvocation SimpleName to url
+in SimpleName MethodInvocation MethodInvocation SimpleName open stream
+to url SimpleName MethodInvocation MethodInvocation SimpleName open stream
+font SimpleName MethodInvocation SimpleName create font
+font SimpleName MethodInvocation QualifiedName fonttruetype font
+font SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in
+font SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to url
+font SimpleName MethodInvocation MethodInvocation SimpleName open stream
+create font SimpleName MethodInvocation QualifiedName fonttruetype font
+create font SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName in
+create font SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to url
+create font SimpleName MethodInvocation MethodInvocation SimpleName open stream
+fonttruetype font QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName in
+fonttruetype font QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName to url
+fonttruetype font QualifiedName MethodInvocation MethodInvocation SimpleName open stream
+font SimpleName VariableDeclarationFragment MethodInvocation SimpleName font
+font SimpleName VariableDeclarationFragment MethodInvocation SimpleName create font
+font SimpleName VariableDeclarationFragment MethodInvocation QualifiedName fonttruetype font
+font SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName open stream
+font SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font
+awt font family SimpleName SimpleType ClassInstanceCreation SimpleName ff
+awt font family SimpleName SimpleType ClassInstanceCreation SimpleName font
+ff SimpleName ClassInstanceCreation SimpleName font
+public Modifier MethodDeclaration SimpleType SimpleName gvt font family
+public Modifier MethodDeclaration SimpleName load font
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName font face
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ff
+public Modifier MethodDeclaration SimpleType SimpleName exception
+gvt font family SimpleName SimpleType MethodDeclaration SimpleName load font
+gvt font family SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName in
+gvt font family SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ff
+gvt font family SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+load font SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+load font SimpleName MethodDeclaration SingleVariableDeclaration SimpleName in
+load font SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName font face
+load font SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ff
+load font SimpleName MethodDeclaration SimpleType SimpleName exception
+in SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ff
+in SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+ff SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName gvt font family
+public Modifier TypeDeclaration MethodDeclaration SimpleName load font
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ff
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName gvt font family
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load font
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName in
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ff
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

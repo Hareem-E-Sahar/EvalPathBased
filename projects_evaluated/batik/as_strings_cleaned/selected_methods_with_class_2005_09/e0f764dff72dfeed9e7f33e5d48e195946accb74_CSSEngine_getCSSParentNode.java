@@ -1,0 +1,29 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName InstanceofExpression SimpleType SimpleName css navigable node
+css navigable node SimpleName SimpleType CastExpression SimpleName n
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get css parent node
+n SimpleName MethodInvocation SimpleName get parent node
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName get css parent node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+static Modifier MethodDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SimpleName get css parent node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleName get css parent node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get css parent node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get css parent node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get css parent node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get css parent node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

@@ -1,0 +1,104 @@
+point d SimpleName SimpleType SingleVariableDeclaration SimpleName offset
+offset SimpleName MethodInvocation SimpleName get x
+offset SimpleName FieldAccess MethodInvocation SimpleName get x
+offset SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+offset SimpleName MethodInvocation SimpleName get y
+offset SimpleName FieldAccess MethodInvocation SimpleName get y
+offset SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+layout applied SimpleName ParenthesizedExpression InfixExpression ParenthesizedExpression SimpleName spacing applied
+offset SimpleName MethodInvocation SimpleName get x
+offset SimpleName FieldAccess MethodInvocation SimpleName get x
+offset SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+dx SimpleName VariableDeclarationFragment CastExpression PrimitiveType float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType float
+offset SimpleName MethodInvocation SimpleName get y
+offset SimpleName FieldAccess MethodInvocation SimpleName get y
+offset SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+dy SimpleName VariableDeclarationFragment CastExpression PrimitiveType float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dy
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType float
+gv SimpleName MethodInvocation SimpleName get num glyphs
+num glyphs SimpleName VariableDeclarationFragment MethodInvocation SimpleName gv
+num glyphs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get num glyphs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num glyphs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName gv
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get num glyphs
+num glyphs SimpleName InfixExpression NumberLiteral empty
+gv SimpleName MethodInvocation SimpleName get glyph positions
+gv SimpleName MethodInvocation NumberLiteral empty
+gv SimpleName MethodInvocation InfixExpression SimpleName num glyphs
+gv SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get glyph positions SimpleName MethodInvocation NumberLiteral empty
+get glyph positions SimpleName MethodInvocation InfixExpression SimpleName num glyphs
+get glyph positions SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression SimpleName num glyphs
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+gp SimpleName VariableDeclarationFragment MethodInvocation SimpleName gv
+gp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph positions
+gp SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+gp SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName num glyphs
+gp SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName gp
+pos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point dfloat
+point dfloat QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num glyphs
+empty NumberLiteral InfixExpression SimpleName i
+gp SimpleName ArrayAccess InfixExpression NumberLiteral empty
+gp SimpleName ArrayAccess InfixExpression SimpleName i
+gp SimpleName ArrayAccess InfixExpression SimpleName dx
+empty NumberLiteral InfixExpression ArrayAccess InfixExpression SimpleName dx
+i SimpleName InfixExpression ArrayAccess InfixExpression SimpleName dx
+posx QualifiedName Assignment InfixExpression ArrayAccess SimpleName gp
+posx QualifiedName Assignment InfixExpression SimpleName dx
+empty NumberLiteral InfixExpression SimpleName i
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+gp SimpleName ArrayAccess InfixExpression InfixExpression NumberLiteral empty
+gp SimpleName ArrayAccess InfixExpression InfixExpression SimpleName i
+gp SimpleName ArrayAccess InfixExpression NumberLiteral empty
+gp SimpleName ArrayAccess InfixExpression SimpleName dy
+empty NumberLiteral InfixExpression ArrayAccess InfixExpression SimpleName dy
+posy QualifiedName Assignment InfixExpression ArrayAccess SimpleName gp
+posy QualifiedName Assignment InfixExpression SimpleName dy
+gv SimpleName MethodInvocation SimpleName set glyph position
+gv SimpleName MethodInvocation SimpleName i
+gv SimpleName MethodInvocation SimpleName pos
+set glyph position SimpleName MethodInvocation SimpleName i
+set glyph position SimpleName MethodInvocation SimpleName pos
+i SimpleName MethodInvocation SimpleName pos
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num glyphs
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num glyphs SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+offset SimpleName FieldAccess Assignment SimpleName offset
+path applied SimpleName Assignment BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set offset
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+void PrimitiveType MethodDeclaration SimpleName set offset
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName offset
+set offset SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+set offset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set offset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set offset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset

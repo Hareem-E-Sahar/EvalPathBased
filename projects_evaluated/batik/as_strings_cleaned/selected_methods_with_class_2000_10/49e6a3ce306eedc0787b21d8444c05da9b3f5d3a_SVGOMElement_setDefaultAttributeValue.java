@@ -1,0 +1,55 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName ns uri
+object SimpleName SimpleType SingleVariableDeclaration SimpleName name
+object SimpleName SimpleType SingleVariableDeclaration SimpleName value
+attributes SimpleName Assignment MethodInvocation SimpleName create attributes
+svg named node hash map SimpleName SimpleType CastExpression SimpleName attributes
+string SimpleName SimpleType CastExpression SimpleName ns uri
+string SimpleName SimpleType CastExpression SimpleName name
+string SimpleName SimpleType CastExpression SimpleName value
+attributes SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set attribute
+set attribute SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+set attribute SimpleName MethodInvocation CastExpression SimpleName ns uri
+set attribute SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+set attribute SimpleName MethodInvocation CastExpression SimpleName name
+set attribute SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+set attribute SimpleName MethodInvocation CastExpression SimpleName value
+ns uri SimpleName CastExpression MethodInvocation CastExpression SimpleName name
+ns uri SimpleName CastExpression MethodInvocation CastExpression SimpleName value
+name SimpleName CastExpression MethodInvocation CastExpression SimpleName value
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set default attribute value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns uri
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName set default attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ns uri
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+set default attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set default attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns uri
+set default attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set default attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+set default attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set default attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+ns uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+ns uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set default attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set default attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

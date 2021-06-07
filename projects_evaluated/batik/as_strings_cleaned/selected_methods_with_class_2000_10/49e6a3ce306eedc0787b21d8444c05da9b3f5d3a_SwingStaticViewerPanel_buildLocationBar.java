@@ -1,0 +1,136 @@
+location bar SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j grid bag panel
+j grid bag panel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location bar
+j label SimpleName SimpleType ClassInstanceCreation QualifiedName messageslabel location
+location label SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j label
+location label SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName messageslabel location
+j label SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location label
+model SimpleName MethodInvocation SimpleName get entity ur is
+j combo box SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName model
+j combo box SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get entity ur is
+location list SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j combo box
+location list SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName model
+location list SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get entity ur is
+final Modifier VariableDeclarationStatement SimpleType SimpleName j combo box
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName location list
+j combo box SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location list
+location list SimpleName MethodInvocation SimpleName set editable
+location list SimpleName MethodInvocation BooleanLiteral true
+set editable SimpleName MethodInvocation BooleanLiteral true
+location bar SimpleName MethodInvocation SimpleName add
+location bar SimpleName MethodInvocation SimpleName location label
+location bar SimpleName MethodInvocation NumberLiteral empty
+location bar SimpleName MethodInvocation NumberLiteral empty
+location bar SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation SimpleName location label
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation NumberLiteral empty
+location label SimpleName MethodInvocation NumberLiteral empty
+location label SimpleName MethodInvocation NumberLiteral empty
+location label SimpleName MethodInvocation NumberLiteral empty
+location label SimpleName MethodInvocation NumberLiteral empty
+location label SimpleName MethodInvocation QualifiedName location barcenter
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName location barcenter
+empty NumberLiteral MethodInvocation QualifiedName location barhorizontal
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName location barcenter
+empty NumberLiteral MethodInvocation QualifiedName location barhorizontal
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName location barcenter
+empty NumberLiteral MethodInvocation QualifiedName location barhorizontal
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName location barcenter
+empty NumberLiteral MethodInvocation QualifiedName location barhorizontal
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+location barcenter QualifiedName MethodInvocation QualifiedName location barhorizontal
+location barcenter QualifiedName MethodInvocation NumberLiteral empty
+location barcenter QualifiedName MethodInvocation NumberLiteral empty
+location barhorizontal QualifiedName MethodInvocation NumberLiteral empty
+location barhorizontal QualifiedName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+location bar SimpleName MethodInvocation SimpleName add
+location bar SimpleName MethodInvocation SimpleName location list
+location bar SimpleName MethodInvocation NumberLiteral empty
+location bar SimpleName MethodInvocation NumberLiteral empty
+location bar SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation SimpleName location list
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation NumberLiteral empty
+add SimpleName MethodInvocation NumberLiteral empty
+location list SimpleName MethodInvocation NumberLiteral empty
+location list SimpleName MethodInvocation NumberLiteral empty
+location list SimpleName MethodInvocation NumberLiteral empty
+location list SimpleName MethodInvocation NumberLiteral empty
+location list SimpleName MethodInvocation QualifiedName location barcenter
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName location barcenter
+empty NumberLiteral MethodInvocation QualifiedName location barhorizontal
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName location barcenter
+empty NumberLiteral MethodInvocation QualifiedName location barhorizontal
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName location barcenter
+empty NumberLiteral MethodInvocation QualifiedName location barhorizontal
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName location barcenter
+empty NumberLiteral MethodInvocation QualifiedName location barhorizontal
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+location barcenter QualifiedName MethodInvocation QualifiedName location barhorizontal
+location barcenter QualifiedName MethodInvocation NumberLiteral empty
+location barcenter QualifiedName MethodInvocation NumberLiteral empty
+location barhorizontal QualifiedName MethodInvocation NumberLiteral empty
+location barhorizontal QualifiedName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+action event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+location list SimpleName MethodInvocation SimpleName get selected item
+location list SimpleName MethodInvocation MethodInvocation SimpleName to string
+get selected item SimpleName MethodInvocation MethodInvocation SimpleName to string
+model SimpleName MethodInvocation SimpleName set entity uri
+model SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName location list
+model SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get selected item
+model SimpleName MethodInvocation MethodInvocation SimpleName to string
+set entity uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName location list
+set entity uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get selected item
+set entity uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName action performed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName action performed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+location list SimpleName MethodInvocation SimpleName add action listener
+location list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName action listener
+add action listener SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName action listener
+final Modifier VariableDeclarationStatement Block ReturnStatement SimpleName location bar
+private Modifier MethodDeclaration SimpleType SimpleName container
+private Modifier MethodDeclaration SimpleName build location bar
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName location bar
+container SimpleName SimpleType MethodDeclaration SimpleName build location bar
+build location bar SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+build location bar SimpleName MethodDeclaration Block ReturnStatement SimpleName location bar
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName container
+public Modifier TypeDeclaration MethodDeclaration SimpleName build location bar
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName container
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build location bar

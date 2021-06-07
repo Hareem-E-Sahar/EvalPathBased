@@ -1,0 +1,35 @@
+xml resource descriptor SimpleName MethodInvocation SimpleName get xml parser class name
+parser SimpleName VariableDeclarationFragment MethodInvocation SimpleName xml resource descriptor
+parser SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xml parser class name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parser
+saxsvg document factory SimpleName SimpleType ClassInstanceCreation SimpleName parser
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName saxsvg document factory
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName parser
+saxsvg document factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+resolve url SimpleName MethodInvocation SimpleName input uri
+resolve url SimpleName MethodInvocation MethodInvocation SimpleName to string
+input uri SimpleName MethodInvocation MethodInvocation SimpleName to string
+f SimpleName MethodInvocation SimpleName create document
+f SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resolve url
+f SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName input uri
+f SimpleName MethodInvocation MethodInvocation SimpleName to string
+create document SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resolve url
+create document SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName input uri
+create document SimpleName MethodInvocation MethodInvocation SimpleName to string
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName create document
+doc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to string
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+transcoder input SimpleName SimpleType ClassInstanceCreation SimpleName doc
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName input uri
+protected Modifier MethodDeclaration SimpleType SimpleName transcoder input
+protected Modifier MethodDeclaration SimpleName create transcoder input
+transcoder input SimpleName SimpleType MethodDeclaration SimpleName create transcoder input
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder input
+public Modifier TypeDeclaration MethodDeclaration SimpleName create transcoder input
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder input
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create transcoder input

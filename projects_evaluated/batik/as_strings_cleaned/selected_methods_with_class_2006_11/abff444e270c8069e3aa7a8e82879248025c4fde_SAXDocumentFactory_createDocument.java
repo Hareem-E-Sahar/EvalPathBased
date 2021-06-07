@@ -1,0 +1,89 @@
+input source SimpleName SimpleType SingleVariableDeclaration SimpleName is
+xml reader factory SimpleName MethodInvocation SimpleName create xml reader
+xml reader factory SimpleName MethodInvocation SimpleName parser class name
+create xml reader SimpleName MethodInvocation SimpleName parser class name
+parser SimpleName Assignment MethodInvocation SimpleName xml reader factory
+parser SimpleName Assignment MethodInvocation SimpleName create xml reader
+parser SimpleName Assignment MethodInvocation SimpleName parser class name
+sax parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sax parser
+sax factory SimpleName MethodInvocation SimpleName new sax parser
+sax parser SimpleName Assignment MethodInvocation SimpleName sax factory
+sax parser SimpleName Assignment MethodInvocation SimpleName new sax parser
+parser configuration exception SimpleName SimpleType SingleVariableDeclaration SimpleName pce
+pce SimpleName MethodInvocation SimpleName get message
+could not create sax parser StringLiteral InfixExpression MethodInvocation SimpleName pce
+could not create sax parser StringLiteral InfixExpression MethodInvocation SimpleName get message
+io exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral could not create sax parser
+sax parser SimpleName MethodInvocation SimpleName get xml reader
+parser SimpleName Assignment MethodInvocation SimpleName sax parser
+parser SimpleName Assignment MethodInvocation SimpleName get xml reader
+parser SimpleName MethodInvocation SimpleName set content handler
+parser SimpleName MethodInvocation SimpleName set dtd handler
+parser SimpleName MethodInvocation SimpleName set entity resolver
+error handler SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName error handler
+parser SimpleName MethodInvocation SimpleName set error handler
+parser SimpleName MethodInvocation ConditionalExpression SimpleName error handler
+set error handler SimpleName MethodInvocation ConditionalExpression SimpleName error handler
+parser SimpleName MethodInvocation SimpleName set feature
+parser SimpleName MethodInvocation StringLiteral httpxmlorgsaxfeaturesnamespaces
+parser SimpleName MethodInvocation BooleanLiteral true
+set feature SimpleName MethodInvocation StringLiteral httpxmlorgsaxfeaturesnamespaces
+set feature SimpleName MethodInvocation BooleanLiteral true
+httpxmlorgsaxfeaturesnamespaces StringLiteral MethodInvocation BooleanLiteral true
+parser SimpleName MethodInvocation SimpleName set feature
+parser SimpleName MethodInvocation StringLiteral httpxmlorgsaxfeaturesnamespaceprefixes
+parser SimpleName MethodInvocation BooleanLiteral true
+set feature SimpleName MethodInvocation StringLiteral httpxmlorgsaxfeaturesnamespaceprefixes
+set feature SimpleName MethodInvocation BooleanLiteral true
+httpxmlorgsaxfeaturesnamespaceprefixes StringLiteral MethodInvocation BooleanLiteral true
+parser SimpleName MethodInvocation SimpleName set feature
+parser SimpleName MethodInvocation StringLiteral httpxmlorgsaxfeaturesvalidation
+parser SimpleName MethodInvocation SimpleName is validating
+set feature SimpleName MethodInvocation StringLiteral httpxmlorgsaxfeaturesvalidation
+set feature SimpleName MethodInvocation SimpleName is validating
+httpxmlorgsaxfeaturesvalidation StringLiteral MethodInvocation SimpleName is validating
+parser SimpleName MethodInvocation SimpleName set property
+parser SimpleName MethodInvocation StringLiteral httpxmlorgsaxpropertieslexicalhandler
+set property SimpleName MethodInvocation StringLiteral httpxmlorgsaxpropertieslexicalhandler
+parser SimpleName MethodInvocation SimpleName parse
+parser SimpleName MethodInvocation SimpleName is
+parse SimpleName MethodInvocation SimpleName is
+sax exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get exception
+ex SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+ex SimpleName VariableDeclarationFragment MethodInvocation SimpleName get exception
+exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ex
+ex SimpleName InstanceofExpression SimpleType SimpleName interrupted io exception
+ex SimpleName InfixExpression InfixExpression InstanceofExpression SimpleName ex
+interrupted io exception SimpleName SimpleType CastExpression SimpleName ex
+e SimpleName MethodInvocation SimpleName get message
+io exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+io exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+ret SimpleName VariableDeclarationFragment SimpleName document
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName document
+protected Modifier MethodDeclaration SimpleType SimpleName document
+protected Modifier MethodDeclaration SimpleName create document
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input source
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName is
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+document SimpleName SimpleType MethodDeclaration SimpleName create document
+document SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is
+document SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input source
+create document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is
+create document SimpleName MethodDeclaration SimpleType SimpleName io exception
+create document SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+is SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName document
+public Modifier TypeDeclaration MethodDeclaration SimpleName create document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName document
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

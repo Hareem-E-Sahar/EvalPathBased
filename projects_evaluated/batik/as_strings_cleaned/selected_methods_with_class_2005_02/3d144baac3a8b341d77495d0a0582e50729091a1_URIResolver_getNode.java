@@ -1,0 +1,136 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+element SimpleName SimpleType SingleVariableDeclaration SimpleName ref
+abstract node SimpleName MethodInvocation SimpleName get base uri
+abstract node SimpleName MethodInvocation SimpleName ref
+get base uri SimpleName MethodInvocation SimpleName ref
+base uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName abstract node
+base uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get base uri
+base uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName ref
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base uri
+uri SimpleName MethodInvocation SimpleName starts with
+uri SimpleName MethodInvocation StringLiteral #
+starts with SimpleName MethodInvocation StringLiteral #
+uri SimpleName MethodInvocation SimpleName substring
+uri SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+document SimpleName MethodInvocation SimpleName get element by id
+document SimpleName MethodInvocation MethodInvocation SimpleName uri
+document SimpleName MethodInvocation MethodInvocation SimpleName substring
+document SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get element by id SimpleName MethodInvocation MethodInvocation SimpleName uri
+get element by id SimpleName MethodInvocation MethodInvocation SimpleName substring
+get element by id SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName base uri
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName uri
+base uri SimpleName ClassInstanceCreation SimpleName uri
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName parsed url
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName base uri
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName uri
+parsed url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName purl
+document SimpleName MethodInvocation SimpleName get url
+document uri SimpleName Assignment MethodInvocation SimpleName document
+document uri SimpleName Assignment MethodInvocation SimpleName get url
+purl SimpleName MethodInvocation SimpleName get ref
+frag SimpleName VariableDeclarationFragment MethodInvocation SimpleName purl
+frag SimpleName VariableDeclarationFragment MethodInvocation SimpleName get ref
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName frag
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName document uri
+p doc url SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName parsed url
+p doc url SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName document uri
+parsed url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p doc url
+p doc url SimpleName MethodInvocation SimpleName same file
+p doc url SimpleName MethodInvocation SimpleName purl
+same file SimpleName MethodInvocation SimpleName purl
+document SimpleName MethodInvocation SimpleName get element by id
+document SimpleName MethodInvocation SimpleName frag
+get element by id SimpleName MethodInvocation SimpleName frag
+parsed url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p doc url
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName document uri
+p doc url SimpleName Assignment ClassInstanceCreation SimpleType SimpleName parsed url
+p doc url SimpleName Assignment ClassInstanceCreation SimpleName document uri
+document loader SimpleName MethodInvocation SimpleName get user agent
+user agent SimpleName VariableDeclarationFragment MethodInvocation SimpleName document loader
+user agent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user agent
+user agent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user agent
+user agent SimpleName MethodInvocation SimpleName check load external resource
+user agent SimpleName MethodInvocation SimpleName purl
+user agent SimpleName MethodInvocation SimpleName p doc url
+check load external resource SimpleName MethodInvocation SimpleName purl
+check load external resource SimpleName MethodInvocation SimpleName p doc url
+purl SimpleName MethodInvocation SimpleName p doc url
+purl SimpleName MethodInvocation SimpleName to string
+purl str SimpleName VariableDeclarationFragment MethodInvocation SimpleName purl
+purl str SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName purl str
+purl str SimpleName MethodInvocation SimpleName length
+frag SimpleName MethodInvocation SimpleName length
+frag SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+purl str SimpleName MethodInvocation SimpleName substring
+purl str SimpleName MethodInvocation NumberLiteral empty
+purl str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName purl str
+purl str SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName purl str
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName purl str
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+purl str SimpleName Assignment MethodInvocation SimpleName purl str
+purl str SimpleName Assignment MethodInvocation SimpleName substring
+purl str SimpleName Assignment MethodInvocation NumberLiteral empty
+document loader SimpleName MethodInvocation SimpleName load document
+document loader SimpleName MethodInvocation SimpleName purl str
+load document SimpleName MethodInvocation SimpleName purl str
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName document loader
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName load document
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName purl str
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get element by id
+doc SimpleName MethodInvocation SimpleName frag
+get element by id SimpleName MethodInvocation SimpleName frag
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName get node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ref
+public Modifier MethodDeclaration SimpleType SimpleName malformed url exception
+node SimpleName SimpleType MethodDeclaration SimpleName get node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uri
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ref
+node SimpleName SimpleType MethodDeclaration SimpleType SimpleName malformed url exception
+node SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+get node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ref
+get node SimpleName MethodDeclaration SimpleType SimpleName malformed url exception
+get node SimpleName MethodDeclaration SimpleType SimpleName io exception
+get node SimpleName MethodDeclaration SimpleType SimpleName security exception
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName security exception
+ref SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+ref SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+ref SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName security exception
+malformed url exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+malformed url exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName security exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName malformed url exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName security exception

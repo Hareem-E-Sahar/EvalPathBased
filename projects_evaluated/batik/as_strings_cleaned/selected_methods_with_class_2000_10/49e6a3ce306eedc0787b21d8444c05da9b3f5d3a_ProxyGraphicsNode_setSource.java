@@ -1,0 +1,13 @@
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName new source
+void PrimitiveType MethodDeclaration SimpleName set source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new source
+set source SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+set source SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new source
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set source
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new source
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set source
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new source

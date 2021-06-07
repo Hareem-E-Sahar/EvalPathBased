@@ -1,0 +1,28 @@
+event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+time event SimpleName SimpleType CastExpression SimpleName e
+evt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName time event
+evt SimpleName VariableDeclarationFragment CastExpression SimpleName e
+time event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName evt
+evt SimpleName MethodInvocation SimpleName get detail
+evt SimpleName MethodInvocation InfixExpression SimpleName repeat iteration
+get detail SimpleName MethodInvocation InfixExpression SimpleName repeat iteration
+repeat iteration specified SimpleName PrefixExpression InfixExpression InfixExpression SimpleName repeat iteration
+handle event SimpleName SuperMethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName handle event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

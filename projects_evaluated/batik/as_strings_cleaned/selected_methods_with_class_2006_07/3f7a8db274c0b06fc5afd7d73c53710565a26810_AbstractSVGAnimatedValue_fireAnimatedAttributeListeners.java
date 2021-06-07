@@ -1,0 +1,25 @@
+listeners SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName listeners
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+animated attribute listener SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+animated attribute listener SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+listener SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animated attribute listener
+listener SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+listener SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+animated attribute listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+listener SimpleName MethodInvocation SimpleName animated attribute changed
+listener SimpleName MethodInvocation SimpleName element
+animated attribute changed SimpleName MethodInvocation SimpleName element
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName fire animated attribute listeners
+void PrimitiveType MethodDeclaration SimpleName fire animated attribute listeners
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fire animated attribute listeners
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fire animated attribute listeners

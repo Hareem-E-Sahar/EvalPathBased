@@ -1,0 +1,27 @@
+prefix table SimpleName MethodInvocation SimpleName clone
+hashtable SimpleName SimpleType CastExpression MethodInvocation SimpleName prefix table
+hashtable SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+prefix table SimpleName Assignment CastExpression SimpleType SimpleName hashtable
+prefix table SimpleName Assignment CastExpression MethodInvocation SimpleName prefix table
+prefix table SimpleName Assignment CastExpression MethodInvocation SimpleName clone
+prefix table SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hashtable
+uri table SimpleName MethodInvocation SimpleName clone
+hashtable SimpleName SimpleType CastExpression MethodInvocation SimpleName uri table
+hashtable SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+uri table SimpleName Assignment CastExpression SimpleType SimpleName hashtable
+uri table SimpleName Assignment CastExpression MethodInvocation SimpleName uri table
+uri table SimpleName Assignment CastExpression MethodInvocation SimpleName clone
+uri table SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hashtable
+element name table SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hashtable
+attribute name table SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hashtable
+tables dirty SimpleName Assignment BooleanLiteral true
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName copy tables
+void PrimitiveType MethodDeclaration SimpleName copy tables
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName copy tables
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName copy tables

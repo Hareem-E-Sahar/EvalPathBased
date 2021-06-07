@@ -1,0 +1,54 @@
+svg document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+doc SimpleName MethodInvocation SimpleName get implementation
+doc SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName svgdom implementation
+get implementation SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName svgdom implementation
+dom implementation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName impl
+svgdom implementation SimpleName MethodInvocation SimpleName get dom implementation
+impl SimpleName Assignment MethodInvocation SimpleName svgdom implementation
+impl SimpleName Assignment MethodInvocation SimpleName get dom implementation
+dom utilities SimpleName MethodInvocation SimpleName deep clone document
+dom utilities SimpleName MethodInvocation SimpleName doc
+dom utilities SimpleName MethodInvocation SimpleName impl
+deep clone document SimpleName MethodInvocation SimpleName doc
+deep clone document SimpleName MethodInvocation SimpleName impl
+doc SimpleName MethodInvocation SimpleName impl
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName dom utilities
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName deep clone document
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+d SimpleName VariableDeclarationFragment MethodInvocation SimpleName impl
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+svg document SimpleName SimpleType CastExpression SimpleName d
+doc SimpleName Assignment CastExpression SimpleType SimpleName svg document
+doc SimpleName Assignment CastExpression SimpleName d
+svgdoc SimpleName VariableDeclarationFragment SimpleName doc
+final Modifier VariableDeclarationStatement SimpleType SimpleName svg document
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName svgdoc
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+svg document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svgdoc
+svg document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+install svg document SimpleName MethodInvocation SimpleName svgdoc
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+stop then run SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set svg document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName set svg document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+set svg document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document
+set svg document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+set svg document SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set svg document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set svg document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc

@@ -1,0 +1,77 @@
+reader SimpleName SimpleType SingleVariableDeclaration SimpleName r
+initialize SimpleName MethodInvocation SimpleName r
+path handler SimpleName MethodInvocation SimpleName start path
+path handler SimpleName MethodInvocation SimpleName close path
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+current SimpleName SwitchStatement SwitchCase NumberLiteral x d
+current SimpleName SwitchStatement SwitchCase NumberLiteral x a
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName read
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral z
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral z
+x NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral z
+x NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral z
+x NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral z
+z CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral z
+z CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral m
+z CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral m
+m CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral l
+m CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral m
+l CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral m
+l CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral l
+m CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral l
+m CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral h
+l CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral h
+h CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral h
+h CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral v
+v CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral v
+v CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral c
+c CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral c
+c CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral q
+q CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral q
+q CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral s
+s CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral s
+s CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral t
+t CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral t
+t CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral a
+a CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral a
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral endofstreamexpected
+path handler SimpleName MethodInvocation SimpleName end path
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName parse
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+public Modifier MethodDeclaration Block LabeledStatement SimpleName loop
+void PrimitiveType MethodDeclaration SimpleName parse
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration Block LabeledStatement SimpleName loop
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+parse SimpleName MethodDeclaration SimpleType SimpleName parse exception
+parse SimpleName MethodDeclaration Block LabeledStatement SimpleName loop
+r SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

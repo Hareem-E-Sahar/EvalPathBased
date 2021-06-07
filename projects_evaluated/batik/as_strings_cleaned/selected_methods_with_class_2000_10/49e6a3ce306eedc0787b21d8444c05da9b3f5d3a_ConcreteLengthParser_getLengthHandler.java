@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName length handler
+public Modifier MethodDeclaration SimpleName get length handler
+public Modifier MethodDeclaration Block ReturnStatement SimpleName length handler
+length handler SimpleName SimpleType MethodDeclaration SimpleName get length handler
+get length handler SimpleName MethodDeclaration Block ReturnStatement SimpleName length handler
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName length handler
+public Modifier TypeDeclaration MethodDeclaration SimpleName get length handler
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName length handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get length handler

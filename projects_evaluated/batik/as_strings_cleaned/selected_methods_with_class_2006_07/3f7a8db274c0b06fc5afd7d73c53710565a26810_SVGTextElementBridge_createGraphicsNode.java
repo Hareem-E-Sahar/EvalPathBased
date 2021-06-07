@@ -1,0 +1,103 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+create graphics node SimpleName SuperMethodInvocation SimpleName ctx
+create graphics node SimpleName SuperMethodInvocation SimpleName e
+ctx SimpleName SuperMethodInvocation SimpleName e
+text node SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName create graphics node
+text node SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName ctx
+text node SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName e
+node SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName text node
+node SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName create graphics node
+node SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName ctx
+node SimpleName VariableDeclarationFragment CastExpression SuperMethodInvocation SimpleName e
+text node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+associate svg context SimpleName MethodInvocation SimpleName ctx
+associate svg context SimpleName MethodInvocation SimpleName e
+associate svg context SimpleName MethodInvocation SimpleName node
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName node
+e SimpleName MethodInvocation SimpleName node
+get first child SimpleName MethodInvocation SimpleName e
+child SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+child SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName child
+child SimpleName MethodInvocation SimpleName get node type
+child SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName child
+add context to child SimpleName MethodInvocation SimpleName ctx
+add context to child SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+add context to child SimpleName MethodInvocation CastExpression SimpleName child
+ctx SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+ctx SimpleName MethodInvocation CastExpression SimpleName child
+get next sibling SimpleName MethodInvocation SimpleName child
+child SimpleName Assignment MethodInvocation SimpleName get next sibling
+child SimpleName Assignment MethodInvocation SimpleName child
+ctx SimpleName MethodInvocation SimpleName get text painter
+ctx SimpleName MethodInvocation SimpleName get text painter
+node SimpleName MethodInvocation SimpleName set text painter
+node SimpleName MethodInvocation MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation MethodInvocation SimpleName get text painter
+set text painter SimpleName MethodInvocation MethodInvocation SimpleName ctx
+set text painter SimpleName MethodInvocation MethodInvocation SimpleName get text painter
+rendering hints SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hints
+css utilities SimpleName MethodInvocation SimpleName convert color rendering
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation SimpleName hints
+convert color rendering SimpleName MethodInvocation SimpleName e
+convert color rendering SimpleName MethodInvocation SimpleName hints
+e SimpleName MethodInvocation SimpleName hints
+hints SimpleName Assignment MethodInvocation SimpleName css utilities
+hints SimpleName Assignment MethodInvocation SimpleName convert color rendering
+hints SimpleName Assignment MethodInvocation SimpleName e
+hints SimpleName Assignment MethodInvocation SimpleName hints
+css utilities SimpleName MethodInvocation SimpleName convert text rendering
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation SimpleName hints
+convert text rendering SimpleName MethodInvocation SimpleName e
+convert text rendering SimpleName MethodInvocation SimpleName hints
+e SimpleName MethodInvocation SimpleName hints
+hints SimpleName Assignment MethodInvocation SimpleName css utilities
+hints SimpleName Assignment MethodInvocation SimpleName convert text rendering
+hints SimpleName Assignment MethodInvocation SimpleName e
+hints SimpleName Assignment MethodInvocation SimpleName hints
+node SimpleName MethodInvocation SimpleName set rendering hints
+node SimpleName MethodInvocation SimpleName hints
+set rendering hints SimpleName MethodInvocation SimpleName hints
+get location SimpleName MethodInvocation SimpleName ctx
+get location SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+node SimpleName MethodInvocation SimpleName set location
+node SimpleName MethodInvocation MethodInvocation SimpleName get location
+node SimpleName MethodInvocation MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation MethodInvocation SimpleName e
+set location SimpleName MethodInvocation MethodInvocation SimpleName get location
+set location SimpleName MethodInvocation MethodInvocation SimpleName ctx
+set location SimpleName MethodInvocation MethodInvocation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SimpleName create graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block ReturnStatement SimpleName node
+graphics node SimpleName SimpleType MethodDeclaration SimpleName create graphics node
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+create graphics node SimpleName MethodDeclaration Block ReturnStatement SimpleName node
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create graphics node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create graphics node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

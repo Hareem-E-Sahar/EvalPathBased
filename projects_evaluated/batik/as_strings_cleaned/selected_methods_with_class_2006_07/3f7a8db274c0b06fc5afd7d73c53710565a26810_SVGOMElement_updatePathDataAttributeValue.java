@@ -1,0 +1,53 @@
+svg animated path data SimpleName SimpleType SingleVariableDeclaration SimpleName a
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName val
+svgom animated path data SimpleName SimpleType CastExpression SimpleName a
+apd SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom animated path data
+apd SimpleName VariableDeclarationFragment CastExpression SimpleName a
+svgom animated path data SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName apd
+apd SimpleName MethodInvocation SimpleName reset animated value
+animatable path data value SimpleName SimpleType CastExpression SimpleName val
+anim path data SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable path data value
+anim path data SimpleName VariableDeclarationFragment CastExpression SimpleName val
+animatable path data value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anim path data
+anim path data SimpleName MethodInvocation SimpleName get commands
+anim path data SimpleName MethodInvocation SimpleName get parameters
+apd SimpleName MethodInvocation SimpleName set animated value
+apd SimpleName MethodInvocation MethodInvocation SimpleName anim path data
+apd SimpleName MethodInvocation MethodInvocation SimpleName get commands
+apd SimpleName MethodInvocation MethodInvocation SimpleName anim path data
+apd SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim path data
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get commands
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim path data
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get parameters
+anim path data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim path data
+anim path data SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get parameters
+get commands SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim path data
+get commands SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get parameters
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update path data attribute value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated path data
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName update path data attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated path data
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+update path data attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated path data
+update path data attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+update path data attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+update path data attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+a SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update path data attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update path data attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

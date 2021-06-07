@@ -1,0 +1,21 @@
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName next token
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+abstract Modifier MethodDeclaration PrimitiveType void
+abstract Modifier MethodDeclaration SimpleName next token
+abstract Modifier MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleName next token
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+next token SimpleName MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName next token
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next token
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

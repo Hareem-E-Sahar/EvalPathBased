@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName event type
+event support SimpleName MethodInvocation SimpleName create event
+event support SimpleName MethodInvocation SimpleName event type
+create event SimpleName MethodInvocation SimpleName event type
+public Modifier MethodDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SimpleName create event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName event type
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+event SimpleName SimpleType MethodDeclaration SimpleName create event
+event SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName event type
+event SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+create event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event type
+create event SimpleName MethodDeclaration SimpleType SimpleName dom exception
+event type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName event
+public Modifier TypeDeclaration MethodDeclaration SimpleName create event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName event
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

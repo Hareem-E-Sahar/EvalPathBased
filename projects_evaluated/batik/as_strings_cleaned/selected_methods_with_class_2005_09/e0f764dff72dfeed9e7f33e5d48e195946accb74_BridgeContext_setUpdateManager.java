@@ -1,0 +1,32 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+update manager SimpleName SimpleType SingleVariableDeclaration SimpleName um
+ctx SimpleName MethodInvocation SimpleName set update manager
+ctx SimpleName MethodInvocation SimpleName um
+set update manager SimpleName MethodInvocation SimpleName um
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set update manager
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName update manager
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName um
+void PrimitiveType MethodDeclaration SimpleName set update manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName update manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName um
+set update manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+set update manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+set update manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName update manager
+set update manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleName um
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName um
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set update manager
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName um
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set update manager
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName um

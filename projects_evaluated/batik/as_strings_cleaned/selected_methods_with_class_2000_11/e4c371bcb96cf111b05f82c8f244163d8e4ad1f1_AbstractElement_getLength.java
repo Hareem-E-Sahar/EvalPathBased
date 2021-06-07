@@ -1,0 +1,46 @@
+table SimpleName MethodInvocation SimpleName size
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+table ns SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName table ns
+i SimpleName InfixExpression MethodInvocation SimpleName size
+table ns SimpleName MethodInvocation SimpleName item
+table ns SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+named node hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName table ns
+named node hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+named node hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+hm SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName named node hash map
+hm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table ns
+hm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+hm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+named node hash map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hm
+hm SimpleName MethodInvocation SimpleName get length
+result SimpleName Assignment MethodInvocation SimpleName hm
+result SimpleName Assignment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get length
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+int PrimitiveType MethodDeclaration SimpleName get length
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName result
+get length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get length SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get length
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get length

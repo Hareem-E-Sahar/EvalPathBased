@@ -1,0 +1,28 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+concrete composite graphics node SimpleName ThisExpression MethodInvocation SimpleName add
+concrete composite graphics node SimpleName ThisExpression MethodInvocation PostfixExpression SimpleName cursor
+concrete composite graphics node SimpleName ThisExpression MethodInvocation SimpleName o
+add SimpleName MethodInvocation PostfixExpression SimpleName cursor
+add SimpleName MethodInvocation SimpleName o
+cursor SimpleName PostfixExpression MethodInvocation SimpleName o
+last ret SimpleName Assignment PrefixExpression NumberLiteral empty
+expected mod count SimpleName Assignment SimpleName mod count
+index out of bounds exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+void PrimitiveType MethodDeclaration SimpleName add
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

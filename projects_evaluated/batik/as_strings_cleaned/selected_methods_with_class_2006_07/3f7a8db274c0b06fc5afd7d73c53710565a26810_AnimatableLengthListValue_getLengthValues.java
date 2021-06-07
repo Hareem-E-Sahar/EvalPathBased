@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration ArrayType PrimitiveType float
+public Modifier MethodDeclaration SimpleName get length values
+public Modifier MethodDeclaration Block ReturnStatement SimpleName length values
+float PrimitiveType ArrayType MethodDeclaration SimpleName get length values
+get length values SimpleName MethodDeclaration Block ReturnStatement SimpleName length values
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get length values
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get length values

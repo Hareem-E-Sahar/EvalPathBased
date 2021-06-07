@@ -1,0 +1,36 @@
+object output stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName default write object
+implementation SimpleName MethodInvocation SimpleName get class
+implementation SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+s SimpleName MethodInvocation SimpleName write object
+s SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName implementation
+s SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+s SimpleName MethodInvocation MethodInvocation SimpleName get name
+write object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName implementation
+write object SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get class
+write object SimpleName MethodInvocation MethodInvocation SimpleName get name
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName write object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object output stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName write object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object output stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write object SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object output stream
+write object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+write object SimpleName MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

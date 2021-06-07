@@ -1,0 +1,60 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName glyph lang
+glyph lang SimpleName MethodInvocation SimpleName length
+glyph lang SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+glyph lang SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName glyph lang
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+glyph lang SimpleName ClassInstanceCreation StringLiteral empty
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName glyph lang
+st SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+st SimpleName MethodInvocation SimpleName has more tokens
+st SimpleName MethodInvocation SimpleName next token
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName next token
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation SimpleName language
+equals SimpleName MethodInvocation SimpleName language
+s SimpleName MethodInvocation SimpleName starts with
+s SimpleName MethodInvocation SimpleName language
+starts with SimpleName MethodInvocation SimpleName language
+s SimpleName MethodInvocation SimpleName length
+language SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName language
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName language
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+language SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation MethodInvocation SimpleName language
+s SimpleName MethodInvocation MethodInvocation SimpleName length
+char at SimpleName MethodInvocation MethodInvocation SimpleName language
+char at SimpleName MethodInvocation MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression CharacterLiteral -
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral -
+language SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral -
+length SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral -
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName language matches
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName glyph lang
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName language matches
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName glyph lang
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+language matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+language matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleName glyph lang
+language matches SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName language matches
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glyph lang
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName language matches
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName glyph lang

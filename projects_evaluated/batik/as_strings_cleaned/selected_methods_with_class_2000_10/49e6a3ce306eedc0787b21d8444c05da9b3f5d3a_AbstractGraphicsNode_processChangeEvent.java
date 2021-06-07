@@ -1,0 +1,69 @@
+composite graphics node event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+accept event SimpleName MethodInvocation SimpleName evt
+get listeners SimpleName MethodInvocation TypeLiteral SimpleType SimpleName composite graphics node listener
+listeners SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get listeners
+evt SimpleName MethodInvocation SimpleName get id
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName listenerslength
+listeners SimpleName ArrayAccess SimpleName i
+evt SimpleName MethodInvocation SimpleName clone
+composite graphics node event SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+composite graphics node event SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+listeners SimpleName ArrayAccess MethodInvocation SimpleName graphics node added
+i SimpleName ArrayAccess MethodInvocation SimpleName graphics node added
+graphics node added SimpleName MethodInvocation CastExpression SimpleType SimpleName composite graphics node event
+graphics node added SimpleName MethodInvocation CastExpression MethodInvocation SimpleName evt
+graphics node added SimpleName MethodInvocation CastExpression MethodInvocation SimpleName clone
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName listenerslength
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+listenerslength QualifiedName InfixExpression ForStatement PrefixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName listenerslength
+listeners SimpleName ArrayAccess SimpleName i
+evt SimpleName MethodInvocation SimpleName clone
+composite graphics node event SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+composite graphics node event SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+listeners SimpleName ArrayAccess MethodInvocation SimpleName graphics node removed
+i SimpleName ArrayAccess MethodInvocation SimpleName graphics node removed
+graphics node removed SimpleName MethodInvocation CastExpression SimpleType SimpleName composite graphics node event
+graphics node removed SimpleName MethodInvocation CastExpression MethodInvocation SimpleName evt
+graphics node removed SimpleName MethodInvocation CastExpression MethodInvocation SimpleName clone
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName listenerslength
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+listenerslength QualifiedName InfixExpression ForStatement PrefixExpression SimpleName i
+evt SimpleName MethodInvocation SimpleName get id
+unknown key event type StringLiteral InfixExpression MethodInvocation SimpleName evt
+unknown key event type StringLiteral InfixExpression MethodInvocation SimpleName get id
+error SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral unknown key event type
+evt SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName composite graphics node eventgraphics node added
+get id SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName composite graphics node eventgraphics node added
+evt SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName composite graphics node eventgraphics node removed
+get id SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName composite graphics node eventgraphics node removed
+composite graphics node eventgraphics node added QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName composite graphics node eventgraphics node removed
+evt SimpleName MethodInvocation SimpleName consume
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName process change event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName process change event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+process change event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName composite graphics node event
+process change event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName process change event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process change event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

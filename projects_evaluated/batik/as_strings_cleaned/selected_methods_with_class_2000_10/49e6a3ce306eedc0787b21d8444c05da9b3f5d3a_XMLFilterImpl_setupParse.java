@@ -1,0 +1,15 @@
+null pointer exception SimpleName SimpleType ClassInstanceCreation StringLiteral no parent for filter
+parent SimpleName MethodInvocation SimpleName set entity resolver
+parent SimpleName MethodInvocation SimpleName set dtd handler
+parent SimpleName MethodInvocation SimpleName set content handler
+parent SimpleName MethodInvocation SimpleName set error handler
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName setup parse
+void PrimitiveType MethodDeclaration SimpleName setup parse
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup parse
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup parse

@@ -1,0 +1,31 @@
+event target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+retarget method SimpleName MethodInvocation SimpleName invoke
+retarget method SimpleName MethodInvocation SimpleName e
+retarget method SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName target
+invoke SimpleName MethodInvocation SimpleName e
+invoke SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName target
+e SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName target
+orgw cdomeventscustom event QualifiedName SimpleType CastExpression MethodInvocation SimpleName retarget method
+orgw cdomeventscustom event QualifiedName SimpleType CastExpression MethodInvocation SimpleName invoke
+orgw cdomeventscustom event QualifiedName SimpleType CastExpression MethodInvocation SimpleName e
+invocation target exception SimpleName SimpleType SingleVariableDeclaration SimpleName ite
+ite SimpleName MethodInvocation SimpleName print stack trace
+illegal access exception SimpleName SimpleType SingleVariableDeclaration SimpleName iae
+iae SimpleName MethodInvocation SimpleName print stack trace
+public Modifier MethodDeclaration SimpleType SimpleName custom event
+public Modifier MethodDeclaration SimpleName retarget
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+custom event SimpleName SimpleType MethodDeclaration SimpleName retarget
+custom event SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+retarget SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+retarget SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName custom event
+public Modifier TypeDeclaration MethodDeclaration SimpleName retarget
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName custom event
+test SimpleName TypeDeclaration MethodDeclaration SimpleName retarget
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

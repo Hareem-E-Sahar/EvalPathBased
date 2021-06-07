@@ -1,0 +1,66 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral no or multiple svg files were specified
+println SimpleName MethodInvocation StringLiteral no or multiple svg files were specified
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral usage scroll example svg file name
+println SimpleName MethodInvocation StringLiteral usage scroll example svg file name
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+file SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName args
+file SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+file SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName args
+file SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess NumberLiteral empty
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file
+file SimpleName MethodInvocation SimpleName exists
+file StringLiteral InfixExpression SimpleName file
+file StringLiteral InfixExpression StringLiteral does not exist
+file SimpleName InfixExpression StringLiteral does not exist
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral file
+systemout QualifiedName MethodInvocation InfixExpression SimpleName file
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral does not exist
+println SimpleName MethodInvocation InfixExpression StringLiteral file
+println SimpleName MethodInvocation InfixExpression SimpleName file
+println SimpleName MethodInvocation InfixExpression StringLiteral does not exist
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+file SimpleName MethodInvocation SimpleName to url
+scroll example SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName file
+scroll example SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to url
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral cannot convert file to a valid url
+println SimpleName MethodInvocation StringLiteral cannot convert file to a valid url
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName e
+println SimpleName MethodInvocation SimpleName e
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

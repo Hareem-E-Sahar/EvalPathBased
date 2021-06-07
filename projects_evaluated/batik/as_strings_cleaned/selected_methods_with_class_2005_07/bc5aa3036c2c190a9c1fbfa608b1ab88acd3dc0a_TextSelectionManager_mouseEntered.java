@@ -1,0 +1,34 @@
+graphics node mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get source
+evt SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName selectable
+get source SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName selectable
+text selector SimpleName MethodInvocation SimpleName mouse entered
+text selector SimpleName MethodInvocation SimpleName evt
+mouse entered SimpleName MethodInvocation SimpleName evt
+component SimpleName MethodInvocation SimpleName get cursor
+previous cursor SimpleName Assignment MethodInvocation SimpleName component
+previous cursor SimpleName Assignment MethodInvocation SimpleName get cursor
+previous cursor SimpleName MethodInvocation SimpleName get type
+previous cursor SimpleName MethodInvocation InfixExpression QualifiedName cursordefault cursor
+get type SimpleName MethodInvocation InfixExpression QualifiedName cursordefault cursor
+component SimpleName MethodInvocation SimpleName set cursor
+component SimpleName MethodInvocation SimpleName text cursor
+set cursor SimpleName MethodInvocation SimpleName text cursor
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse entered
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName mouse entered
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+mouse entered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+mouse entered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mouse entered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mouse entered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

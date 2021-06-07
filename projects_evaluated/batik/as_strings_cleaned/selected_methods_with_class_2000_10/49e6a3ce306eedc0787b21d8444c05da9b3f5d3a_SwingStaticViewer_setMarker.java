@@ -1,0 +1,52 @@
+shape SimpleName SimpleType SingleVariableDeclaration SimpleName marker
+marker SimpleName FieldAccess Assignment SimpleName marker
+new dirty area SimpleName VariableDeclarationFragment SimpleName dirty area
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new dirty area
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dirty area
+marker stroke SimpleName MethodInvocation SimpleName create stroked shape
+marker stroke SimpleName MethodInvocation SimpleName marker
+create stroked shape SimpleName MethodInvocation SimpleName marker
+marker stroke SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+create stroked shape SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+marker SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+new dirty area SimpleName Assignment MethodInvocation MethodInvocation SimpleName marker stroke
+new dirty area SimpleName Assignment MethodInvocation MethodInvocation SimpleName create stroked shape
+new dirty area SimpleName Assignment MethodInvocation MethodInvocation SimpleName marker
+new dirty area SimpleName Assignment MethodInvocation SimpleName get bounds
+dirty area SimpleName Assignment SimpleName new dirty area
+rectangle SimpleName SimpleType ClassInstanceCreation SimpleName new dirty area
+refresh area SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName rectangle
+refresh area SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName new dirty area
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName refresh area
+refresh area SimpleName MethodInvocation SimpleName add
+refresh area SimpleName MethodInvocation SimpleName dirty area
+add SimpleName MethodInvocation SimpleName dirty area
+paint immediately SimpleName MethodInvocation QualifiedName refresh areax
+paint immediately SimpleName MethodInvocation QualifiedName refresh areay
+paint immediately SimpleName MethodInvocation QualifiedName refresh areawidth
+paint immediately SimpleName MethodInvocation QualifiedName refresh areaheight
+refresh areax QualifiedName MethodInvocation QualifiedName refresh areay
+refresh areax QualifiedName MethodInvocation QualifiedName refresh areawidth
+refresh areax QualifiedName MethodInvocation QualifiedName refresh areaheight
+refresh areay QualifiedName MethodInvocation QualifiedName refresh areawidth
+refresh areay QualifiedName MethodInvocation QualifiedName refresh areaheight
+refresh areawidth QualifiedName MethodInvocation QualifiedName refresh areaheight
+dirty area SimpleName Assignment SimpleName new dirty area
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set marker
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName marker
+void PrimitiveType MethodDeclaration SimpleName set marker
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName marker
+set marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+set marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleName marker
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set marker
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName marker
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set marker
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName marker

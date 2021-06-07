@@ -1,0 +1,488 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+value SimpleName MethodInvocation SimpleName length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+value SimpleName MethodInvocation SimpleName length
+value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+len SimpleName InfixExpression NumberLiteral empty
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral c
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral c
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral c
+a CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral c
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral k
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral k
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral k
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral g
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral g
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral g
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral r
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral r
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral r
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral o
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral o
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral o
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral u
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral u
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral u
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral n
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral n
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral n
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral d
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral d
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral d
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral l
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral l
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral l
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral p
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral p
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral p
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral h
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral h
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral h
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral c
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral c
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral c
+a CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral c
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral k
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral k
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral k
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral g
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral g
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral g
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral r
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral r
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral r
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral o
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral o
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral o
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral u
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral u
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral u
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral n
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral n
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral n
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral d
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral d
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral d
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral m
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral m
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral m
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral g
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral g
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral g
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral e
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral e
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral e
+value SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral a
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral a
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral a
+value SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName background alpha
+char at SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName background alpha
+empty NumberLiteral MethodInvocation SwitchStatement ReturnStatement SimpleName background alpha
+value SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral i
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral i
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral i
+a CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName background alpha
+a CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral i
+a CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName background image
+background alpha SimpleName ReturnStatement SwitchStatement SwitchCase CharacterLiteral i
+background alpha SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName background image
+background alpha SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName identifier
+i CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName background image
+i CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName identifier
+background image SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName identifier
+len SimpleName InfixExpression NumberLiteral empty
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral i
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral i
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral i
+len SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral i
+empty NumberLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral i
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral l
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral l
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral l
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral l
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral l
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral l
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral p
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral p
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral p
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral i
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral i
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral i
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral n
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral n
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral n
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral t
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral t
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral t
+len SimpleName InfixExpression NumberLiteral empty
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+len SimpleName InfixExpression NumberLiteral empty
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral u
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral u
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral u
+len SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral u
+empty NumberLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral u
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral r
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral r
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral r
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral c
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral c
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral c
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral e
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral e
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral e
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral l
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral l
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral l
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral p
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral p
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral p
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral h
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral h
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral h
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+len SimpleName InfixExpression NumberLiteral empty
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral u
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral u
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral u
+len SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral u
+empty NumberLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral u
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral r
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral r
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral r
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral c
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral c
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral c
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral e
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral e
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral e
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral r
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral r
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral r
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral p
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral p
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral p
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral h
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral h
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral h
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral i
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral i
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral i
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral c
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral c
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral c
+value SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral a
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral a
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral a
+value SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName identifier
+char at SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName identifier
+empty NumberLiteral MethodInvocation SwitchStatement ReturnStatement SimpleName identifier
+value SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral g
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral g
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral g
+a CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName identifier
+a CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral g
+a CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName identifier
+identifier SimpleName ReturnStatement SwitchStatement SwitchCase CharacterLiteral g
+identifier SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName identifier
+identifier SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName identifier
+g CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName identifier
+g CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName identifier
+identifier SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName identifier
+len SimpleName InfixExpression NumberLiteral empty
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral r
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral r
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral r
+len SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral r
+empty NumberLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral r
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral o
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral o
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral o
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral k
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral k
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral k
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral e
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral e
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral e
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral p
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral p
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral p
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral i
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral i
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral i
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral n
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral n
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral n
+value SimpleName MethodInvocation SimpleName char at
+value SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation InfixExpression CharacterLiteral t
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral t
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral t
+value SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral o
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral o
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral o
+value SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral t
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral t
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral t
+value SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName stroke paint
+char at SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName stroke paint
+empty NumberLiteral MethodInvocation SwitchStatement ReturnStatement SimpleName stroke paint
+o CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral t
+o CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName stroke paint
+t CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName stroke paint
+t CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName identifier
+stroke paint SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName identifier
+value SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+value SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral f
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral f
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral f
+b CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral f
+b CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName fill paint
+f CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName fill paint
+f CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral s
+fill paint SimpleName ReturnStatement SwitchStatement SwitchCase CharacterLiteral s
+fill paint SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName identifier
+s CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName identifier
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName parse in attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration SimpleName parse in attribute
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse in attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse in attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+parse in attribute SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse in attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse in attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

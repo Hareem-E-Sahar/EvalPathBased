@@ -1,0 +1,13 @@
+view css SimpleName SimpleType SingleVariableDeclaration SimpleName view css
+void PrimitiveType MethodDeclaration SimpleName set view css
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName view css
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName view css
+set view css SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName view css
+set view css SimpleName MethodDeclaration SingleVariableDeclaration SimpleName view css
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set view css
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName view css
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set view css
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName view css

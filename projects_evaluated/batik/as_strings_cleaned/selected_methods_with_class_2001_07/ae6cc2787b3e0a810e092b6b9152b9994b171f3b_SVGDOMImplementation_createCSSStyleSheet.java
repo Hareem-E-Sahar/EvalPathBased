@@ -1,0 +1,46 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName title
+string SimpleName SimpleType SingleVariableDeclaration SimpleName media
+dom media list SimpleName SimpleType ClassInstanceCreation SimpleName media
+css document handler SimpleName MethodInvocation SimpleName create parser
+cssom style sheet SimpleName SimpleType ClassInstanceCreation SimpleName title
+cssom style sheet SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName media
+title SimpleName ClassInstanceCreation ClassInstanceCreation SimpleType SimpleName dom media list
+title SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName media
+title SimpleName ClassInstanceCreation SimpleName value factory map
+title SimpleName ClassInstanceCreation MethodInvocation SimpleName css document handler
+title SimpleName ClassInstanceCreation MethodInvocation SimpleName create parser
+dom media list SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName value factory map
+media SimpleName ClassInstanceCreation ClassInstanceCreation SimpleName value factory map
+media SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName css document handler
+media SimpleName ClassInstanceCreation ClassInstanceCreation MethodInvocation SimpleName create parser
+value factory map SimpleName ClassInstanceCreation MethodInvocation SimpleName css document handler
+value factory map SimpleName ClassInstanceCreation MethodInvocation SimpleName create parser
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+public Modifier MethodDeclaration SimpleType SimpleName css style sheet
+public Modifier MethodDeclaration SimpleName create css style sheet
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName title
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName media
+css style sheet SimpleName SimpleType MethodDeclaration SimpleName create css style sheet
+css style sheet SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName title
+css style sheet SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName media
+create css style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create css style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName title
+create css style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create css style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName media
+title SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName media
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css style sheet
+public Modifier TypeDeclaration MethodDeclaration SimpleName create css style sheet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName title
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName media
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css style sheet
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create css style sheet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName title
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName media

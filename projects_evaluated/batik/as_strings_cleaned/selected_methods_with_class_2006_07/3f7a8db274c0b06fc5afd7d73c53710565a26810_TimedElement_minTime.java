@@ -1,0 +1,74 @@
+float PrimitiveType SingleVariableDeclaration SimpleName t
+float PrimitiveType SingleVariableDeclaration SimpleName t
+t SimpleName InfixExpression NumberLiteral . f
+t SimpleName InfixExpression NumberLiteral . f
+t SimpleName InfixExpression InfixExpression InfixExpression SimpleName t
+t SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral . f
+. f NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName t
+. f NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral . f
+t SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation SimpleName t
+t SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is unresolved
+t SimpleName InfixExpression InfixExpression MethodInvocation SimpleName t
+indefinite SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is unresolved
+indefinite SimpleName InfixExpression InfixExpression MethodInvocation SimpleName t
+t SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation SimpleName t
+t SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation SimpleName t
+t SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is unresolved
+t SimpleName InfixExpression InfixExpression MethodInvocation SimpleName t
+indefinite SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is unresolved
+indefinite SimpleName InfixExpression InfixExpression MethodInvocation SimpleName t
+t SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation SimpleName t
+t SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation SimpleName t
+t SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is unresolved
+t SimpleName InfixExpression InfixExpression MethodInvocation SimpleName t
+indefinite SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is unresolved
+indefinite SimpleName InfixExpression InfixExpression MethodInvocation SimpleName t
+is unresolved SimpleName MethodInvocation SimpleName t
+t SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation InfixExpression InfixExpression SimpleName t
+is unresolved SimpleName MethodInvocation InfixExpression InfixExpression SimpleName indefinite
+t SimpleName MethodInvocation InfixExpression InfixExpression SimpleName t
+t SimpleName MethodInvocation InfixExpression InfixExpression SimpleName indefinite
+t SimpleName InfixExpression SimpleName t
+protected Modifier MethodDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SimpleName min time
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName t
+float PrimitiveType MethodDeclaration SimpleName min time
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+float PrimitiveType MethodDeclaration Block ReturnStatement SimpleName t
+min time SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+min time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+min time SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+min time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+min time SimpleName MethodDeclaration Block ReturnStatement SimpleName t
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName min time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName min time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

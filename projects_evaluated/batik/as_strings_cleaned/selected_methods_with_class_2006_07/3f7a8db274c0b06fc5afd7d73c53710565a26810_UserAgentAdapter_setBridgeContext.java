@@ -1,0 +1,20 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+ctx SimpleName FieldAccess Assignment SimpleName ctx
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SimpleName set bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+set bridge context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+set bridge context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set bridge context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set bridge context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

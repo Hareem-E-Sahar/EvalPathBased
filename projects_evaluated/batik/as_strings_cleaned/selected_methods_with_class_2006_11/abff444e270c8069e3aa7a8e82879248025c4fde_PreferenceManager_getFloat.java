@@ -1,0 +1,56 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+default value SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName default value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+get default SimpleName MethodInvocation SimpleName key
+get default SimpleName MethodInvocation SimpleName key
+float SimpleName SimpleType CastExpression MethodInvocation SimpleName get default
+float SimpleName SimpleType CastExpression MethodInvocation SimpleName key
+default value SimpleName Assignment MethodInvocation SimpleName float value
+internal SimpleName MethodInvocation SimpleName get property
+internal SimpleName MethodInvocation SimpleName key
+get property SimpleName MethodInvocation SimpleName key
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName internal
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sp
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation SimpleName sp
+parse float SimpleName MethodInvocation SimpleName sp
+value SimpleName Assignment MethodInvocation SimpleName float
+value SimpleName Assignment MethodInvocation SimpleName parse float
+value SimpleName Assignment MethodInvocation SimpleName sp
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+set float SimpleName MethodInvocation SimpleName key
+set float SimpleName MethodInvocation SimpleName default value
+key SimpleName MethodInvocation SimpleName default value
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName value
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block ReturnStatement SimpleName value
+float PrimitiveType MethodDeclaration SimpleName get float
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType MethodDeclaration Block ReturnStatement SimpleName value
+get float SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get float SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+get float SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get float SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get float SimpleName MethodDeclaration Block ReturnStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key

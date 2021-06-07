@@ -1,0 +1,29 @@
+int PrimitiveType SingleVariableDeclaration SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+names SimpleName MethodInvocation SimpleName element at
+names SimpleName MethodInvocation SimpleName i
+element at SimpleName MethodInvocation SimpleName i
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName names
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName element at
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+array index out of bounds exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get name
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName i
+string SimpleName SimpleType MethodDeclaration SimpleName get name
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName i
+get name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName i
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i

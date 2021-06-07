@@ -1,0 +1,41 @@
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+ch SimpleName InfixExpression SimpleName ch
+ch SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ch SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+ch SimpleName InfixExpression NumberLiteral empty
+ch SimpleName InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType char
+public Modifier MethodDeclaration SimpleName read char le
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration PrimitiveType char
+final Modifier MethodDeclaration SimpleName read char le
+final Modifier MethodDeclaration SimpleType SimpleName io exception
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+char PrimitiveType MethodDeclaration SimpleName read char le
+char PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+char PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+char PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read char le SimpleName MethodDeclaration SimpleType SimpleName io exception
+read char le SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read char le SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName read char le
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read char le
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

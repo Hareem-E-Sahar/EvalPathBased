@@ -1,0 +1,20 @@
+rectangle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get min x
+rectangle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get min y
+rectangle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get width
+rectangle SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get height
+get min x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get min y
+get min x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get width
+get min x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get min y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get width
+get min y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+public Modifier MethodDeclaration SimpleType SimpleName rectangle
+public Modifier MethodDeclaration SimpleName get bounds
+rectangle SimpleName SimpleType MethodDeclaration SimpleName get bounds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bounds
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bounds

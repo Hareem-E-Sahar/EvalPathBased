@@ -1,0 +1,30 @@
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+current SimpleName InfixExpression SimpleName attr delimiter
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName attr delimiter
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+create xml exception SimpleName MethodInvocation StringLiteral unexpectedeof
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName read string
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration Block ReturnStatement QualifiedName lexical unitsstring
+int PrimitiveType MethodDeclaration SimpleName read string
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+int PrimitiveType MethodDeclaration Block ReturnStatement QualifiedName lexical unitsstring
+read string SimpleName MethodDeclaration SimpleType SimpleName io exception
+read string SimpleName MethodDeclaration SimpleType SimpleName xml exception
+read string SimpleName MethodDeclaration Block ReturnStatement QualifiedName lexical unitsstring
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName read string
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read string
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception

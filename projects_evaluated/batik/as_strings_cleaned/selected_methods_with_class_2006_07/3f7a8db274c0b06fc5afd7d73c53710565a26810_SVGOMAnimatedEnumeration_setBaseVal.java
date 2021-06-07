@@ -1,0 +1,53 @@
+short PrimitiveType SingleVariableDeclaration SimpleName base val
+base val SimpleName InfixExpression NumberLiteral empty
+base val SimpleName InfixExpression QualifiedName valueslength
+base val SimpleName InfixExpression InfixExpression InfixExpression SimpleName base val
+base val SimpleName InfixExpression InfixExpression InfixExpression QualifiedName valueslength
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName base val
+empty NumberLiteral InfixExpression InfixExpression InfixExpression QualifiedName valueslength
+base val SimpleName FieldAccess Assignment SimpleName base val
+valid SimpleName Assignment BooleanLiteral true
+changing SimpleName Assignment BooleanLiteral true
+values SimpleName ArrayAccess SimpleName base val
+element SimpleName MethodInvocation SimpleName set attribute ns
+element SimpleName MethodInvocation SimpleName namespace uri
+element SimpleName MethodInvocation SimpleName local name
+element SimpleName MethodInvocation ArrayAccess SimpleName values
+element SimpleName MethodInvocation ArrayAccess SimpleName base val
+set attribute ns SimpleName MethodInvocation SimpleName namespace uri
+set attribute ns SimpleName MethodInvocation SimpleName local name
+set attribute ns SimpleName MethodInvocation ArrayAccess SimpleName values
+set attribute ns SimpleName MethodInvocation ArrayAccess SimpleName base val
+namespace uri SimpleName MethodInvocation SimpleName local name
+namespace uri SimpleName MethodInvocation ArrayAccess SimpleName values
+namespace uri SimpleName MethodInvocation ArrayAccess SimpleName base val
+local name SimpleName MethodInvocation ArrayAccess SimpleName values
+local name SimpleName MethodInvocation ArrayAccess SimpleName base val
+changing SimpleName Assignment BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set base val
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName base val
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set base val
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName base val
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set base val SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+set base val SimpleName MethodDeclaration SingleVariableDeclaration SimpleName base val
+set base val SimpleName MethodDeclaration SimpleType SimpleName dom exception
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+base val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set base val
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set base val
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

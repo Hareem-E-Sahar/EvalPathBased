@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SimpleName get image
+public Modifier MethodDeclaration Block ReturnStatement SimpleName image
+graphics node SimpleName SimpleType MethodDeclaration SimpleName get image
+get image SimpleName MethodDeclaration Block ReturnStatement SimpleName image
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get image
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get image

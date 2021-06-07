@@ -1,0 +1,122 @@
+lexical unit SimpleName SimpleType SingleVariableDeclaration SimpleName lu
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get string value
+lu SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+get string value SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+lu SimpleName MethodInvocation MethodInvocation QualifiedName css constantscss auto value
+get string value SimpleName MethodInvocation MethodInvocation QualifiedName css constantscss auto value
+equals ignore case SimpleName MethodInvocation QualifiedName css constantscss auto value
+lu SimpleName MethodInvocation SimpleName get float value
+float value SimpleName SimpleType ClassInstanceCreation QualifiedName css primitive valuecss ems
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get float value
+css primitive valuecss ems QualifiedName ClassInstanceCreation MethodInvocation SimpleName lu
+css primitive valuecss ems QualifiedName ClassInstanceCreation MethodInvocation SimpleName get float value
+lu SimpleName MethodInvocation SimpleName get float value
+float value SimpleName SimpleType ClassInstanceCreation QualifiedName css primitive valuecss exs
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get float value
+css primitive valuecss exs QualifiedName ClassInstanceCreation MethodInvocation SimpleName lu
+css primitive valuecss exs QualifiedName ClassInstanceCreation MethodInvocation SimpleName get float value
+lu SimpleName MethodInvocation SimpleName get float value
+float value SimpleName SimpleType ClassInstanceCreation QualifiedName css primitive valuecss px
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get float value
+css primitive valuecss px QualifiedName ClassInstanceCreation MethodInvocation SimpleName lu
+css primitive valuecss px QualifiedName ClassInstanceCreation MethodInvocation SimpleName get float value
+lu SimpleName MethodInvocation SimpleName get float value
+float value SimpleName SimpleType ClassInstanceCreation QualifiedName css primitive valuecss cm
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get float value
+css primitive valuecss cm QualifiedName ClassInstanceCreation MethodInvocation SimpleName lu
+css primitive valuecss cm QualifiedName ClassInstanceCreation MethodInvocation SimpleName get float value
+lu SimpleName MethodInvocation SimpleName get float value
+float value SimpleName SimpleType ClassInstanceCreation QualifiedName css primitive valuecss mm
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get float value
+css primitive valuecss mm QualifiedName ClassInstanceCreation MethodInvocation SimpleName lu
+css primitive valuecss mm QualifiedName ClassInstanceCreation MethodInvocation SimpleName get float value
+lu SimpleName MethodInvocation SimpleName get float value
+float value SimpleName SimpleType ClassInstanceCreation QualifiedName css primitive valuecss in
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get float value
+css primitive valuecss in QualifiedName ClassInstanceCreation MethodInvocation SimpleName lu
+css primitive valuecss in QualifiedName ClassInstanceCreation MethodInvocation SimpleName get float value
+lu SimpleName MethodInvocation SimpleName get float value
+float value SimpleName SimpleType ClassInstanceCreation QualifiedName css primitive valuecss pt
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get float value
+css primitive valuecss pt QualifiedName ClassInstanceCreation MethodInvocation SimpleName lu
+css primitive valuecss pt QualifiedName ClassInstanceCreation MethodInvocation SimpleName get float value
+lu SimpleName MethodInvocation SimpleName get float value
+float value SimpleName SimpleType ClassInstanceCreation QualifiedName css primitive valuecss pc
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get float value
+css primitive valuecss pc QualifiedName ClassInstanceCreation MethodInvocation SimpleName lu
+css primitive valuecss pc QualifiedName ClassInstanceCreation MethodInvocation SimpleName get float value
+lu SimpleName MethodInvocation SimpleName get integer value
+float value SimpleName SimpleType ClassInstanceCreation QualifiedName css primitive valuecss number
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get integer value
+css primitive valuecss number QualifiedName ClassInstanceCreation MethodInvocation SimpleName lu
+css primitive valuecss number QualifiedName ClassInstanceCreation MethodInvocation SimpleName get integer value
+lu SimpleName MethodInvocation SimpleName get float value
+float value SimpleName SimpleType ClassInstanceCreation QualifiedName css primitive valuecss number
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get float value
+css primitive valuecss number QualifiedName ClassInstanceCreation MethodInvocation SimpleName lu
+css primitive valuecss number QualifiedName ClassInstanceCreation MethodInvocation SimpleName get float value
+lu SimpleName MethodInvocation SimpleName get float value
+float value SimpleName SimpleType ClassInstanceCreation QualifiedName css primitive valuecss percentage
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+float value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get float value
+css primitive valuecss percentage QualifiedName ClassInstanceCreation MethodInvocation SimpleName lu
+css primitive valuecss percentage QualifiedName ClassInstanceCreation MethodInvocation SimpleName get float value
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac em
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac em
+lexical unitsac ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac em
+lexical unitsac ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac ex
+lexical unitsac em QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac ex
+lexical unitsac em QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac pixel
+lexical unitsac ex QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac pixel
+lexical unitsac ex QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac centimeter
+lexical unitsac pixel QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac centimeter
+lexical unitsac pixel QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac millimeter
+lexical unitsac centimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac millimeter
+lexical unitsac centimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac inch
+lexical unitsac millimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac inch
+lexical unitsac millimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac point
+lexical unitsac inch QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac point
+lexical unitsac inch QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac pica
+lexical unitsac point QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac pica
+lexical unitsac point QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac integer
+lexical unitsac pica QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac integer
+lexical unitsac pica QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac real
+lexical unitsac integer QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac real
+lexical unitsac integer QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac percentage
+lexical unitsac real QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac percentage
+private Modifier MethodDeclaration SimpleType SimpleName value
+private Modifier MethodDeclaration SimpleName create rect component
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName lu
+private Modifier MethodDeclaration SimpleType SimpleName dom exception
+value SimpleName SimpleType MethodDeclaration SimpleName create rect component
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName lu
+value SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+create rect component SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+create rect component SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lu
+create rect component SimpleName MethodDeclaration SimpleType SimpleName dom exception
+lu SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName create rect component
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create rect component
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

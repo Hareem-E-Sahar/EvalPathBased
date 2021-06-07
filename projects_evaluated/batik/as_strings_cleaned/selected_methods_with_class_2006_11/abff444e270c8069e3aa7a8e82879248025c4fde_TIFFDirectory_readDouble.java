@@ -1,0 +1,30 @@
+seekable stream SimpleName SimpleType SingleVariableDeclaration SimpleName stream
+stream SimpleName MethodInvocation SimpleName read double
+stream SimpleName MethodInvocation SimpleName read double le
+private Modifier MethodDeclaration PrimitiveType double
+private Modifier MethodDeclaration SimpleName read double
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName seekable stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName stream
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration Block IfStatement SimpleName is big endian
+double PrimitiveType MethodDeclaration SimpleName read double
+double PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName seekable stream
+double PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stream
+double PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+double PrimitiveType MethodDeclaration Block IfStatement SimpleName is big endian
+read double SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName seekable stream
+read double SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stream
+read double SimpleName MethodDeclaration SimpleType SimpleName io exception
+read double SimpleName MethodDeclaration Block IfStatement SimpleName is big endian
+stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SimpleName read double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

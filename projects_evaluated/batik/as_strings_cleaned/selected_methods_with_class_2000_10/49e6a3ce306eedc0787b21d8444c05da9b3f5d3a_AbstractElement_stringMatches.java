@@ -1,0 +1,46 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName InfixExpression InfixExpression InfixExpression SimpleName s
+s SimpleName InfixExpression InfixExpression InfixExpression SimpleName s
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation StringLiteral *
+equals SimpleName MethodInvocation StringLiteral *
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation SimpleName s
+equals SimpleName MethodInvocation SimpleName s
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName string matches
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName string matches
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+boolean PrimitiveType MethodDeclaration SimpleName string matches
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+string matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+string matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+string matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+string matches SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName string matches
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName string matches
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

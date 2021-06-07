@@ -1,0 +1,32 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+element SimpleName MethodInvocation SimpleName get namespace uri
+namespace uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+namespace uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName namespace uri
+element SimpleName MethodInvocation SimpleName get local name
+local name SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+local name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local name
+bridge pool SimpleName MethodInvocation SimpleName get bridge
+bridge pool SimpleName MethodInvocation SimpleName namespace uri
+bridge pool SimpleName MethodInvocation SimpleName local name
+get bridge SimpleName MethodInvocation SimpleName namespace uri
+get bridge SimpleName MethodInvocation SimpleName local name
+namespace uri SimpleName MethodInvocation SimpleName local name
+public Modifier MethodDeclaration SimpleType SimpleName bridge
+public Modifier MethodDeclaration SimpleName get bridge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+bridge SimpleName SimpleType MethodDeclaration SimpleName get bridge
+bridge SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+get bridge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get bridge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName bridge
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName bridge
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

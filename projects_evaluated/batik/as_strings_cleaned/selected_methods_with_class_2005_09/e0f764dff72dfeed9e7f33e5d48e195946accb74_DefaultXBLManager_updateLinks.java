@@ -1,0 +1,29 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+get record SimpleName MethodInvocation SimpleName n
+rec SimpleName VariableDeclarationFragment MethodInvocation SimpleName get record
+rec SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+xbl record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rec
+reclinks valid QualifiedName Assignment BooleanLiteral true
+get xbl parent node SimpleName MethodInvocation SimpleName n
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xbl parent node
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+get xbl child nodes SimpleName MethodInvocation SimpleName p
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update links
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName update links
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+update links SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+update links SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update links
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update links
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

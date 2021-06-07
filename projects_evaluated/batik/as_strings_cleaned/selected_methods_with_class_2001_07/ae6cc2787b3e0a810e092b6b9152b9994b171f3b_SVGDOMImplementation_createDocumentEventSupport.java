@@ -1,0 +1,23 @@
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName document event support
+document event support SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+public Modifier MethodDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SimpleName create event
+event SimpleName SimpleType MethodDeclaration SimpleName create event
+result SimpleName MethodInvocation SimpleName register event factory
+result SimpleName MethodInvocation StringLiteral svg events
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName document event supportevent factory
+register event factory SimpleName MethodInvocation StringLiteral svg events
+register event factory SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName document event supportevent factory
+svg events StringLiteral MethodInvocation ClassInstanceCreation SimpleType QualifiedName document event supportevent factory
+public Modifier MethodDeclaration SimpleType SimpleName document event support
+public Modifier MethodDeclaration SimpleName create document event support
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+document event support SimpleName SimpleType MethodDeclaration SimpleName create document event support
+create document event support SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName document event support
+public Modifier TypeDeclaration MethodDeclaration SimpleName create document event support
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName document event support
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create document event support

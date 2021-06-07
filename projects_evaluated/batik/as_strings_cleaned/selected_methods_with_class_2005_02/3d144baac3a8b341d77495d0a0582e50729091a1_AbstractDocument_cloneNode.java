@@ -1,0 +1,55 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName deep
+document SimpleName SimpleType CastExpression MethodInvocation SimpleName new node
+n SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName document
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName new node
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+copy into SimpleName MethodInvocation SimpleName n
+fire user data handlers SimpleName MethodInvocation QualifiedName user data handlernode cloned
+fire user data handlers SimpleName MethodInvocation SimpleName n
+user data handlernode cloned QualifiedName MethodInvocation SimpleName n
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName get next sibling
+c SimpleName Assignment MethodInvocation SimpleName c
+c SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName import node
+n SimpleName MethodInvocation SimpleName c
+n SimpleName MethodInvocation SimpleName deep
+import node SimpleName MethodInvocation SimpleName c
+import node SimpleName MethodInvocation SimpleName deep
+c SimpleName MethodInvocation SimpleName deep
+n SimpleName MethodInvocation SimpleName append child
+n SimpleName MethodInvocation MethodInvocation SimpleName n
+n SimpleName MethodInvocation MethodInvocation SimpleName import node
+n SimpleName MethodInvocation MethodInvocation SimpleName c
+n SimpleName MethodInvocation MethodInvocation SimpleName deep
+append child SimpleName MethodInvocation MethodInvocation SimpleName n
+append child SimpleName MethodInvocation MethodInvocation SimpleName import node
+append child SimpleName MethodInvocation MethodInvocation SimpleName c
+append child SimpleName MethodInvocation MethodInvocation SimpleName deep
+c SimpleName InfixExpression ForStatement Assignment SimpleName c
+deep SimpleName IfStatement Block ReturnStatement SimpleName n
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName clone node
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName deep
+public Modifier MethodDeclaration Block IfStatement SimpleName deep
+public Modifier MethodDeclaration Block ReturnStatement SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleName clone node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName deep
+clone node SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+clone node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName deep
+clone node SimpleName MethodDeclaration Block IfStatement SimpleName deep
+clone node SimpleName MethodDeclaration Block ReturnStatement SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deep
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deep

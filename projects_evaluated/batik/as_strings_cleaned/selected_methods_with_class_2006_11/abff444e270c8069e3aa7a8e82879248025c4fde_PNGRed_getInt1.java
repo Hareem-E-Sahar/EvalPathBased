@@ -1,0 +1,24 @@
+int PrimitiveType SingleVariableDeclaration SimpleName offset
+data SimpleName ArrayAccess SimpleName offset
+data SimpleName ArrayAccess InfixExpression NumberLiteral xff
+offset SimpleName ArrayAccess InfixExpression NumberLiteral xff
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get int
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+int PrimitiveType MethodDeclaration SimpleName get int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName offset
+get int SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get int SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset

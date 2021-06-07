@@ -1,0 +1,13 @@
+svg bridge context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user agent
+svg bridge context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get document loader
+get user agent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get document loader
+public Modifier MethodDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SimpleName create bridge context
+bridge context SimpleName SimpleType MethodDeclaration SimpleName create bridge context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName bridge context
+public Modifier TypeDeclaration MethodDeclaration SimpleName create bridge context
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName bridge context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create bridge context

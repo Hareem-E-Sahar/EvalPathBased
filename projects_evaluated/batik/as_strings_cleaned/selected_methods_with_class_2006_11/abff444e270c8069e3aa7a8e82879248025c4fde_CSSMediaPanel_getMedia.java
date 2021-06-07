@@ -1,0 +1,30 @@
+list model SimpleName MethodInvocation SimpleName size
+array list SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName list model
+array list SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName size
+media SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+media SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName list model
+media SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName media
+list model SimpleName MethodInvocation SimpleName elements
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName list model
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName elements
+enumeration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName has more elements
+e SimpleName MethodInvocation SimpleName next element
+media SimpleName MethodInvocation SimpleName add
+media SimpleName MethodInvocation MethodInvocation SimpleName e
+media SimpleName MethodInvocation MethodInvocation SimpleName next element
+add SimpleName MethodInvocation MethodInvocation SimpleName e
+add SimpleName MethodInvocation MethodInvocation SimpleName next element
+public Modifier MethodDeclaration SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName get media
+public Modifier MethodDeclaration Block ReturnStatement SimpleName media
+list SimpleName SimpleType MethodDeclaration SimpleName get media
+get media SimpleName MethodDeclaration Block ReturnStatement SimpleName media
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get media
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get media

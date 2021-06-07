@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SimpleName get owner element
+public Modifier MethodDeclaration Block ReturnStatement SimpleName owner element
+element SimpleName SimpleType MethodDeclaration SimpleName get owner element
+get owner element SimpleName MethodDeclaration Block ReturnStatement SimpleName owner element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get owner element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get owner element

@@ -1,0 +1,55 @@
+int PrimitiveType SingleVariableDeclaration SimpleName offset
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+data SimpleName ArrayAccess SimpleName offset
+char PrimitiveType CastExpression ArrayAccess SimpleName data
+char PrimitiveType CastExpression ArrayAccess SimpleName offset
+s SimpleName Assignment CastExpression PrimitiveType char
+s SimpleName Assignment CastExpression ArrayAccess SimpleName data
+s SimpleName Assignment CastExpression ArrayAccess SimpleName offset
+offset SimpleName InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression SimpleName offset
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+char PrimitiveType CastExpression ArrayAccess SimpleName data
+char PrimitiveType CastExpression ArrayAccess InfixExpression SimpleName offset
+char PrimitiveType CastExpression ArrayAccess InfixExpression NumberLiteral empty
+s SimpleName Assignment CastExpression PrimitiveType char
+s SimpleName Assignment CastExpression ArrayAccess SimpleName data
+offset SimpleName InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression SimpleName offset
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+char PrimitiveType CastExpression ArrayAccess SimpleName data
+char PrimitiveType CastExpression ArrayAccess InfixExpression SimpleName offset
+char PrimitiveType CastExpression ArrayAccess InfixExpression NumberLiteral empty
+s SimpleName Assignment CastExpression PrimitiveType char
+s SimpleName Assignment CastExpression ArrayAccess SimpleName data
+offset SimpleName InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression SimpleName offset
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+char PrimitiveType CastExpression ArrayAccess SimpleName data
+char PrimitiveType CastExpression ArrayAccess InfixExpression SimpleName offset
+char PrimitiveType CastExpression ArrayAccess InfixExpression NumberLiteral empty
+s SimpleName Assignment CastExpression PrimitiveType char
+s SimpleName Assignment CastExpression ArrayAccess SimpleName data
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get string
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier MethodDeclaration Block ReturnStatement SimpleName s
+string SimpleName SimpleType MethodDeclaration SimpleName get string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName offset
+get string SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+get string SimpleName MethodDeclaration Block ReturnStatement SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset

@@ -1,0 +1,67 @@
+current SimpleName InfixExpression CharacterLiteral e
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral e
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+e CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+current SimpleName InfixExpression CharacterLiteral w
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral w
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+w CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+skew x SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName skew x
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+skew x SimpleName Assignment BooleanLiteral true
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral x
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+x CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+current SimpleName SwitchStatement SwitchCase CharacterLiteral x
+current SimpleName SwitchStatement ExpressionStatement Assignment SimpleName skew x
+current SimpleName SwitchStatement ExpressionStatement Assignment BooleanLiteral true
+current SimpleName SwitchStatement SwitchCase CharacterLiteral y
+x CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral y
+current SimpleName InfixExpression CharacterLiteral (
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral (
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+( CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+sk SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sk
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse float
+current SimpleName InfixExpression CharacterLiteral )
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral )
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+) CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+transform list handler SimpleName MethodInvocation SimpleName skew x
+transform list handler SimpleName MethodInvocation SimpleName sk
+skew x SimpleName MethodInvocation SimpleName sk
+transform list handler SimpleName MethodInvocation SimpleName skew y
+transform list handler SimpleName MethodInvocation SimpleName sk
+skew y SimpleName MethodInvocation SimpleName sk
+float PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName skew x
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+report error SimpleName MethodInvocation StringLiteral floatformat
+boolean PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName current
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse skew
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName current
+void PrimitiveType MethodDeclaration SimpleName parse skew
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName current
+parse skew SimpleName MethodDeclaration SimpleType SimpleName parse exception
+parse skew SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+parse skew SimpleName MethodDeclaration Block SwitchStatement SimpleName current
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse skew
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse skew
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

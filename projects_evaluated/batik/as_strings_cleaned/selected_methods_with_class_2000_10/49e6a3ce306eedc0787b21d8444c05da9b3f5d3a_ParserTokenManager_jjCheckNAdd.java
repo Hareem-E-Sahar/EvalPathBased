@@ -1,0 +1,37 @@
+int PrimitiveType SingleVariableDeclaration SimpleName state
+jjrounds SimpleName ArrayAccess SimpleName state
+jjrounds SimpleName ArrayAccess InfixExpression SimpleName jjround
+state SimpleName ArrayAccess InfixExpression SimpleName jjround
+jjstate set SimpleName ArrayAccess PostfixExpression SimpleName jjnew state cnt
+jjstate set SimpleName ArrayAccess Assignment SimpleName state
+jjnew state cnt SimpleName PostfixExpression ArrayAccess Assignment SimpleName state
+jjrounds SimpleName ArrayAccess SimpleName state
+jjrounds SimpleName ArrayAccess Assignment SimpleName jjround
+state SimpleName ArrayAccess Assignment SimpleName jjround
+private Modifier MethodDeclaration Modifier final
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName jj check n add
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName jj check n add
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName state
+void PrimitiveType MethodDeclaration SimpleName jj check n add
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName state
+jj check n add SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+jj check n add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName jj check n add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName jj check n add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName state

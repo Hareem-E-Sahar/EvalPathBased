@@ -1,0 +1,105 @@
+tiff field SimpleName SimpleType SingleVariableDeclaration SimpleName field
+field SimpleName MethodInvocation SimpleName get type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName field
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get type
+field SimpleName MethodInvocation SimpleName get count
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName field
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName field
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get count
+value size SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName value size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+type SimpleName InfixExpression QualifiedName tiff fieldtiff ascii
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+field SimpleName MethodInvocation SimpleName get as string
+field SimpleName MethodInvocation SimpleName i
+get as string SimpleName MethodInvocation SimpleName i
+field SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+get as string SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+i SimpleName MethodInvocation MethodInvocation SimpleName get bytes
+string bytes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName field
+string bytes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get as string
+string bytes SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName i
+string bytes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bytes
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName string bytes
+value size SimpleName Assignment QualifiedName string byteslength
+string byteslength QualifiedName InfixExpression NumberLiteral empty
+string bytes SimpleName ArrayAccess InfixExpression QualifiedName string byteslength
+string bytes SimpleName ArrayAccess InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression NumberLiteral empty
+string bytes SimpleName ArrayAccess InfixExpression CastExpression PrimitiveType byte
+string bytes SimpleName ArrayAccess InfixExpression CastExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+size of type SimpleName ArrayAccess SimpleName type
+count SimpleName InfixExpression ArrayAccess SimpleName size of type
+count SimpleName InfixExpression ArrayAccess SimpleName type
+value size SimpleName Assignment InfixExpression SimpleName count
+value size SimpleName Assignment InfixExpression ArrayAccess SimpleName size of type
+value size SimpleName Assignment InfixExpression ArrayAccess SimpleName type
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName value size
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName value size
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName value size
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration Modifier final
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName get value size
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tiff field
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName field
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName get value size
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tiff field
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName field
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName value size
+final Modifier MethodDeclaration PrimitiveType int
+final Modifier MethodDeclaration SimpleName get value size
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tiff field
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName field
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration Block ReturnStatement SimpleName value size
+int PrimitiveType MethodDeclaration SimpleName get value size
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tiff field
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName field
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName value size
+get value size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tiff field
+get value size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName field
+get value size SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get value size SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get value size SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get value size SimpleName MethodDeclaration Block ReturnStatement SimpleName value size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get value size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get value size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName field

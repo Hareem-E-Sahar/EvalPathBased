@@ -1,0 +1,131 @@
+svga element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+x link support SimpleName MethodInvocation SimpleName get x link show
+x link support SimpleName MethodInvocation SimpleName elt
+get x link show SimpleName MethodInvocation SimpleName elt
+show SimpleName VariableDeclarationFragment MethodInvocation SimpleName x link support
+show SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x link show
+show SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName show
+x link support SimpleName MethodInvocation SimpleName get x link href
+x link support SimpleName MethodInvocation SimpleName elt
+get x link href SimpleName MethodInvocation SimpleName elt
+href SimpleName VariableDeclarationFragment MethodInvocation SimpleName x link support
+href SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x link href
+href SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName href
+show SimpleName MethodInvocation SimpleName equals
+show SimpleName MethodInvocation StringLiteral new
+equals SimpleName MethodInvocation StringLiteral new
+fire link activated event SimpleName MethodInvocation SimpleName elt
+fire link activated event SimpleName MethodInvocation SimpleName href
+elt SimpleName MethodInvocation SimpleName href
+svg document SimpleName MethodInvocation SimpleName get url
+old uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg document
+old uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get url
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old uri
+parsed url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new uri
+elt SimpleName MethodInvocation SimpleName get owner document
+elt SimpleName MethodInvocation InfixExpression SimpleName svg document
+get owner document SimpleName MethodInvocation InfixExpression SimpleName svg document
+elt SimpleName MethodInvocation SimpleName get owner document
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName elt
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg document
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName elt
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+svg document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get url
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName doc
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get url
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName href
+doc SimpleName MethodInvocation ClassInstanceCreation SimpleName href
+get url SimpleName MethodInvocation ClassInstanceCreation SimpleName href
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+doc SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+get url SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName to string
+href SimpleName ClassInstanceCreation MethodInvocation SimpleName to string
+href SimpleName Assignment MethodInvocation ClassInstanceCreation SimpleName href
+href SimpleName Assignment MethodInvocation SimpleName to string
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName old uri
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName href
+old uri SimpleName ClassInstanceCreation SimpleName href
+new uri SimpleName Assignment ClassInstanceCreation SimpleType SimpleName parsed url
+new uri SimpleName Assignment ClassInstanceCreation SimpleName old uri
+new uri SimpleName Assignment ClassInstanceCreation SimpleName href
+new uri SimpleName MethodInvocation SimpleName to string
+href SimpleName Assignment MethodInvocation SimpleName new uri
+href SimpleName Assignment MethodInvocation SimpleName to string
+svg user agent SimpleName MethodInvocation SimpleName open link
+svg user agent SimpleName MethodInvocation SimpleName href
+svg user agent SimpleName MethodInvocation BooleanLiteral true
+open link SimpleName MethodInvocation SimpleName href
+open link SimpleName MethodInvocation BooleanLiteral true
+href SimpleName MethodInvocation BooleanLiteral true
+jsvg component SimpleName ThisExpression MethodInvocation SimpleName load svg document
+jsvg component SimpleName ThisExpression MethodInvocation SimpleName href
+load svg document SimpleName MethodInvocation SimpleName href
+elt SimpleName MethodInvocation SimpleName get owner document
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName elt
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get url
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName href
+get url SimpleName MethodInvocation ClassInstanceCreation SimpleName href
+new uri SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName parsed url
+new uri SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get url
+new uri SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName href
+parsed url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new uri
+new uri SimpleName MethodInvocation SimpleName to string
+href SimpleName Assignment MethodInvocation SimpleName new uri
+href SimpleName Assignment MethodInvocation SimpleName to string
+svg document SimpleName MethodInvocation SimpleName get url
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName svg document
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get url
+old uri SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName parsed url
+old uri SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName svg document
+old uri SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get url
+parsed url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old uri
+new uri SimpleName MethodInvocation SimpleName same file
+new uri SimpleName MethodInvocation SimpleName old uri
+same file SimpleName MethodInvocation SimpleName old uri
+new uri SimpleName MethodInvocation SimpleName get ref
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName new uri
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get ref
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+fragment identifier SimpleName InfixExpression SimpleName s
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation SimpleName fragment identifier
+equals SimpleName MethodInvocation SimpleName fragment identifier
+fragment identifier SimpleName Assignment SimpleName s
+fire link activated event SimpleName MethodInvocation SimpleName elt
+fire link activated event SimpleName MethodInvocation SimpleName href
+elt SimpleName MethodInvocation SimpleName href
+fire link activated event SimpleName MethodInvocation SimpleName elt
+fire link activated event SimpleName MethodInvocation SimpleName href
+elt SimpleName MethodInvocation SimpleName href
+svg user agent SimpleName MethodInvocation SimpleName open link
+svg user agent SimpleName MethodInvocation SimpleName href
+svg user agent SimpleName MethodInvocation BooleanLiteral false
+open link SimpleName MethodInvocation SimpleName href
+open link SimpleName MethodInvocation BooleanLiteral false
+href SimpleName MethodInvocation BooleanLiteral false
+jsvg component SimpleName ThisExpression MethodInvocation SimpleName load svg document
+jsvg component SimpleName ThisExpression MethodInvocation SimpleName href
+load svg document SimpleName MethodInvocation SimpleName href
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName open link
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svga element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+void PrimitiveType MethodDeclaration SimpleName open link
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svga element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elt
+open link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svga element
+open link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName open link
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName open link
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt

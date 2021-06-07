@@ -1,0 +1,108 @@
+double PrimitiveType SingleVariableDeclaration SimpleName y
+segments SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName segments
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+segment list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName above
+segment list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName below
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+segment SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+segment SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+seg SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName segment
+seg SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+seg SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+segment SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName seg
+seg SimpleName MethodInvocation SimpleName split
+seg SimpleName MethodInvocation SimpleName y
+split SimpleName MethodInvocation SimpleName y
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName seg
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName split
+results SimpleName VariableDeclarationFragment MethodInvocation SimpleName y
+segmentsplit results QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName results
+seg SimpleName MethodInvocation SimpleName get bounds d
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName seg
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bounds
+bounds SimpleName MethodInvocation SimpleName get y
+bounds SimpleName MethodInvocation InfixExpression SimpleName y
+get y SimpleName MethodInvocation InfixExpression SimpleName y
+below SimpleName Assignment ClassInstanceCreation SimpleType SimpleName segment list
+below SimpleName MethodInvocation SimpleName add
+below SimpleName MethodInvocation SimpleName seg
+add SimpleName MethodInvocation SimpleName seg
+bounds SimpleName MethodInvocation SimpleName get y
+bounds SimpleName MethodInvocation InfixExpression SimpleName y
+get y SimpleName MethodInvocation InfixExpression SimpleName y
+bounds SimpleName MethodInvocation SimpleName get height
+bounds SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get height SimpleName MethodInvocation InfixExpression NumberLiteral empty
+below SimpleName Assignment ClassInstanceCreation SimpleType SimpleName segment list
+below SimpleName MethodInvocation SimpleName add
+below SimpleName MethodInvocation SimpleName seg
+add SimpleName MethodInvocation SimpleName seg
+above SimpleName Assignment ClassInstanceCreation SimpleType SimpleName segment list
+above SimpleName MethodInvocation SimpleName add
+above SimpleName MethodInvocation SimpleName seg
+add SimpleName MethodInvocation SimpleName seg
+results SimpleName MethodInvocation SimpleName get above
+res above SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+res above SimpleName VariableDeclarationFragment MethodInvocation SimpleName get above
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName res abovelength
+above SimpleName Assignment ClassInstanceCreation SimpleType SimpleName segment list
+res above SimpleName ArrayAccess SimpleName i
+above SimpleName MethodInvocation SimpleName add
+above SimpleName MethodInvocation ArrayAccess SimpleName res above
+above SimpleName MethodInvocation ArrayAccess SimpleName i
+add SimpleName MethodInvocation ArrayAccess SimpleName res above
+add SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName res abovelength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+res abovelength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+results SimpleName MethodInvocation SimpleName get below
+res below SimpleName VariableDeclarationFragment MethodInvocation SimpleName results
+res below SimpleName VariableDeclarationFragment MethodInvocation SimpleName get below
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName res belowlength
+below SimpleName Assignment ClassInstanceCreation SimpleType SimpleName segment list
+res below SimpleName ArrayAccess SimpleName i
+below SimpleName MethodInvocation SimpleName add
+below SimpleName MethodInvocation ArrayAccess SimpleName res below
+below SimpleName MethodInvocation ArrayAccess SimpleName i
+add SimpleName MethodInvocation ArrayAccess SimpleName res below
+add SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName res belowlength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+res belowlength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+segment listsplit results QualifiedName SimpleType ClassInstanceCreation SimpleName above
+segment listsplit results QualifiedName SimpleType ClassInstanceCreation SimpleName below
+above SimpleName ClassInstanceCreation SimpleName below
+public Modifier MethodDeclaration SimpleType QualifiedName segment listsplit results
+public Modifier MethodDeclaration SimpleName split
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName y
+segment listsplit results QualifiedName SimpleType MethodDeclaration SimpleName split
+segment listsplit results QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+segment listsplit results QualifiedName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName y
+split SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName y
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName segment listsplit results
+public Modifier TypeDeclaration MethodDeclaration SimpleName split
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName segment listsplit results
+test SimpleName TypeDeclaration MethodDeclaration SimpleName split
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y

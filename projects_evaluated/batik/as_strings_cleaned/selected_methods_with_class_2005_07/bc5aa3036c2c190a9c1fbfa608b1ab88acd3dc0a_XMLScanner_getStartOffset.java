@@ -1,0 +1,74 @@
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitssection end
+type SimpleName SwitchStatement ReturnStatement PrefixExpression NumberLiteral empty
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitspi end
+type SimpleName SwitchStatement ReturnStatement PrefixExpression NumberLiteral empty
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsstring
+lexical unitssection end QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitspi end
+lexical unitssection end QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsstring
+lexical unitssection end QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsentity reference
+lexical unitspi end QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsstring
+lexical unitspi end QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsentity reference
+lexical unitspi end QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsparameter entity reference
+lexical unitspi end QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsstart tag
+lexical unitsstring QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsentity reference
+lexical unitsstring QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsparameter entity reference
+lexical unitsstring QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsstart tag
+lexical unitsstring QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsfirst attribute fragment
+lexical unitsstring QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitsentity reference QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsparameter entity reference
+lexical unitsentity reference QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsstart tag
+lexical unitsentity reference QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsfirst attribute fragment
+lexical unitsentity reference QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitsentity reference QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitspi start
+lexical unitsparameter entity reference QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsstart tag
+lexical unitsparameter entity reference QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsfirst attribute fragment
+lexical unitsparameter entity reference QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitsparameter entity reference QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitspi start
+lexical unitsparameter entity reference QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsend tag
+lexical unitsstart tag QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsfirst attribute fragment
+lexical unitsstart tag QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitsstart tag QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitspi start
+lexical unitsstart tag QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsend tag
+lexical unitsstart tag QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitscharacter reference
+lexical unitsfirst attribute fragment QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitsfirst attribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitspi start
+lexical unitsfirst attribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsend tag
+lexical unitsfirst attribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitscharacter reference
+lexical unitsfirst attribute fragment QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+empty NumberLiteral ReturnStatement SwitchStatement SwitchCase QualifiedName lexical unitspi start
+empty NumberLiteral ReturnStatement SwitchStatement SwitchCase QualifiedName lexical unitsend tag
+empty NumberLiteral ReturnStatement SwitchStatement SwitchCase QualifiedName lexical unitscharacter reference
+empty NumberLiteral ReturnStatement SwitchStatement ReturnStatement NumberLiteral empty
+empty NumberLiteral ReturnStatement SwitchStatement SwitchCase QualifiedName lexical unitscomment
+lexical unitspi start QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsend tag
+lexical unitspi start QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitscharacter reference
+lexical unitspi start QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitspi start QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitscomment
+lexical unitspi start QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitsend tag QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitscharacter reference
+lexical unitsend tag QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitsend tag QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitscomment
+lexical unitsend tag QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitscharacter reference QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitscharacter reference QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitscomment
+lexical unitscharacter reference QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitscharacter reference QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+empty NumberLiteral ReturnStatement SwitchStatement SwitchCase QualifiedName lexical unitscomment
+empty NumberLiteral ReturnStatement SwitchStatement ReturnStatement NumberLiteral empty
+empty NumberLiteral ReturnStatement SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitscomment QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+lexical unitscomment QualifiedName SwitchCase SwitchStatement ReturnStatement NumberLiteral empty
+empty NumberLiteral ReturnStatement SwitchStatement ReturnStatement NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get start offset
+public Modifier MethodDeclaration Block SwitchStatement SimpleName type
+int PrimitiveType MethodDeclaration SimpleName get start offset
+int PrimitiveType MethodDeclaration Block SwitchStatement SimpleName type
+get start offset SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get start offset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get start offset

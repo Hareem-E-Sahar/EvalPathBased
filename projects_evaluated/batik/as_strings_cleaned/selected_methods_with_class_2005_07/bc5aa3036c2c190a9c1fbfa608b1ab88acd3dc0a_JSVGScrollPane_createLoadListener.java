@@ -1,0 +1,10 @@
+protected Modifier MethodDeclaration SimpleType SimpleName svg document loader listener
+protected Modifier MethodDeclaration SimpleName create load listener
+svg document loader listener SimpleName SimpleType MethodDeclaration SimpleName create load listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg document loader listener
+public Modifier TypeDeclaration MethodDeclaration SimpleName create load listener
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg document loader listener
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create load listener

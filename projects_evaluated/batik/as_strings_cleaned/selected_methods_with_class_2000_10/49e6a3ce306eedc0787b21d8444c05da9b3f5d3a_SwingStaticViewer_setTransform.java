@@ -1,0 +1,34 @@
+affine transform SimpleName SimpleType SingleVariableDeclaration SimpleName usr dev
+usr dev SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+affine transform SimpleName SimpleType ClassInstanceCreation SimpleName usr dev
+usr dev SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+usr dev SimpleName Assignment ClassInstanceCreation SimpleName usr dev
+usr dev SimpleName MethodInvocation SimpleName get determinant
+usr dev SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get determinant SimpleName MethodInvocation InfixExpression NumberLiteral empty
+noninvertible transform exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+usr dev SimpleName FieldAccess Assignment SimpleName usr dev
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName usr dev
+public Modifier MethodDeclaration SimpleType SimpleName noninvertible transform exception
+void PrimitiveType MethodDeclaration SimpleName set transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName usr dev
+void PrimitiveType MethodDeclaration SimpleType SimpleName noninvertible transform exception
+set transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+set transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName usr dev
+set transform SimpleName MethodDeclaration SimpleType SimpleName noninvertible transform exception
+usr dev SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName noninvertible transform exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName usr dev
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName noninvertible transform exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName usr dev
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName noninvertible transform exception

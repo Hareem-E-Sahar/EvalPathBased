@@ -1,0 +1,53 @@
+svg animated preserve aspect ratio SimpleName SimpleType SingleVariableDeclaration SimpleName a
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName val
+svgom animated preserve aspect ratio SimpleName SimpleType CastExpression SimpleName a
+par SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom animated preserve aspect ratio
+par SimpleName VariableDeclarationFragment CastExpression SimpleName a
+svgom animated preserve aspect ratio SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName par
+par SimpleName MethodInvocation SimpleName reset animated value
+animatable preserve aspect ratio value SimpleName SimpleType CastExpression SimpleName val
+anim preserve aspect ratio SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable preserve aspect ratio value
+anim preserve aspect ratio SimpleName VariableDeclarationFragment CastExpression SimpleName val
+animatable preserve aspect ratio value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anim preserve aspect ratio
+anim preserve aspect ratio SimpleName MethodInvocation SimpleName get align
+anim preserve aspect ratio SimpleName MethodInvocation SimpleName get meet or slice
+par SimpleName MethodInvocation SimpleName set animated value
+par SimpleName MethodInvocation MethodInvocation SimpleName anim preserve aspect ratio
+par SimpleName MethodInvocation MethodInvocation SimpleName get align
+par SimpleName MethodInvocation MethodInvocation SimpleName anim preserve aspect ratio
+par SimpleName MethodInvocation MethodInvocation SimpleName get meet or slice
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim preserve aspect ratio
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get align
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim preserve aspect ratio
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get meet or slice
+anim preserve aspect ratio SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim preserve aspect ratio
+anim preserve aspect ratio SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get meet or slice
+get align SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName anim preserve aspect ratio
+get align SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get meet or slice
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update preserve aspect ratio attribute value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated preserve aspect ratio
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName update preserve aspect ratio attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated preserve aspect ratio
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+update preserve aspect ratio attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated preserve aspect ratio
+update preserve aspect ratio attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+update preserve aspect ratio attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+update preserve aspect ratio attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+a SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update preserve aspect ratio attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update preserve aspect ratio attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

@@ -1,0 +1,500 @@
+attributed character iterator SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName acis
+list SimpleName SimpleType SingleVariableDeclaration SimpleName chunk layouts
+list SimpleName SimpleType SingleVariableDeclaration SimpleName flow rects
+gvt glyph vector SimpleName SimpleType ArrayType ArrayCreation QualifiedName acislength
+gvs SimpleName VariableDeclarationFragment ArrayCreation QualifiedName acislength
+list SimpleName SimpleType ArrayType ArrayCreation QualifiedName acislength
+chunk line infos SimpleName VariableDeclarationFragment ArrayCreation QualifiedName acislength
+glyph iterator SimpleName SimpleType ArrayType ArrayCreation QualifiedName acislength
+gis SimpleName VariableDeclarationFragment ArrayCreation QualifiedName acislength
+chunk layouts SimpleName MethodInvocation SimpleName iterator
+cl iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName chunk layouts
+cl iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl iter
+flow rects SimpleName MethodInvocation SimpleName iterator
+flow rects iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName flow rects
+flow rects iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName flow rects iter
+region info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current region
+height SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName width
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName height
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+y SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+y SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName width
+y SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName height
+y SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName width
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName height
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+width SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName height
+width SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+flow rects iter SimpleName MethodInvocation SimpleName has next
+flow rects iter SimpleName MethodInvocation SimpleName next
+region info SimpleName SimpleType CastExpression MethodInvocation SimpleName flow rects iter
+region info SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+current region SimpleName Assignment CastExpression SimpleType SimpleName region info
+current region SimpleName Assignment CastExpression MethodInvocation SimpleName flow rects iter
+current region SimpleName Assignment CastExpression MethodInvocation SimpleName next
+current region SimpleName MethodInvocation SimpleName get height
+float PrimitiveType CastExpression MethodInvocation SimpleName current region
+float PrimitiveType CastExpression MethodInvocation SimpleName get height
+height SimpleName Assignment CastExpression PrimitiveType float
+height SimpleName Assignment CastExpression MethodInvocation SimpleName current region
+height SimpleName Assignment CastExpression MethodInvocation SimpleName get height
+line height relative SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName line height relative
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+line height SimpleName VariableDeclarationFragment NumberLiteral . f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName line height
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral . f
+next line mult SimpleName VariableDeclarationFragment NumberLiteral . f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName next line mult
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral . f
+dy SimpleName VariableDeclarationFragment NumberLiteral . f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dy
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral . f
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+vertical align offset SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point dfloat
+vertical align offset SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+vertical align offset SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+point dfloat QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vertical align offset
+prev bot margin SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev bot margin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+chunk SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName chunk
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+cl iter SimpleName MethodInvocation SimpleName has next
+acis SimpleName ArrayAccess SimpleName chunk
+aci SimpleName VariableDeclarationFragment ArrayAccess SimpleName acis
+aci SimpleName VariableDeclarationFragment ArrayAccess SimpleName chunk
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aci
+aci SimpleName MethodInvocation SimpleName get attribute
+aci SimpleName MethodInvocation SimpleName flow empty paragraph
+get attribute SimpleName MethodInvocation SimpleName flow empty paragraph
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName aci
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName flow empty paragraph
+extra p SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+extra p SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName aci
+extra p SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+extra p SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName flow empty paragraph
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName extra p
+extra p SimpleName MethodInvocation SimpleName iterator
+epi SimpleName VariableDeclarationFragment MethodInvocation SimpleName extra p
+epi SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName epi
+epi SimpleName MethodInvocation SimpleName has next
+epi SimpleName MethodInvocation SimpleName next
+margin info SimpleName SimpleType CastExpression MethodInvocation SimpleName epi
+margin info SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+emi SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName margin info
+emi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName epi
+emi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+margin info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName emi
+emi SimpleName MethodInvocation SimpleName get top margin
+prev bot margin SimpleName InfixExpression MethodInvocation SimpleName emi
+prev bot margin SimpleName InfixExpression MethodInvocation SimpleName get top margin
+emi SimpleName MethodInvocation SimpleName get top margin
+prev bot margin SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName prev bot margin
+prev bot margin SimpleName ConditionalExpression MethodInvocation SimpleName emi
+prev bot margin SimpleName ConditionalExpression MethodInvocation SimpleName get top margin
+inc SimpleName VariableDeclarationFragment ParenthesizedExpression ConditionalExpression SimpleName prev bot margin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName inc
+dy SimpleName InfixExpression SimpleName inc
+dy SimpleName InfixExpression InfixExpression SimpleName height
+inc SimpleName InfixExpression InfixExpression SimpleName height
+emi SimpleName MethodInvocation SimpleName is flow region break
+dy SimpleName Assignment SimpleName inc
+emi SimpleName MethodInvocation SimpleName get bottom margin
+prev bot margin SimpleName Assignment MethodInvocation SimpleName emi
+prev bot margin SimpleName Assignment MethodInvocation SimpleName get bottom margin
+flow rects iter SimpleName MethodInvocation SimpleName has next
+flow rects iter SimpleName MethodInvocation SimpleName next
+region info SimpleName SimpleType CastExpression MethodInvocation SimpleName flow rects iter
+region info SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+current region SimpleName Assignment CastExpression SimpleType SimpleName region info
+current region SimpleName Assignment CastExpression MethodInvocation SimpleName flow rects iter
+current region SimpleName Assignment CastExpression MethodInvocation SimpleName next
+current region SimpleName MethodInvocation SimpleName get height
+float PrimitiveType CastExpression MethodInvocation SimpleName current region
+float PrimitiveType CastExpression MethodInvocation SimpleName get height
+height SimpleName Assignment CastExpression PrimitiveType float
+height SimpleName Assignment CastExpression MethodInvocation SimpleName current region
+height SimpleName Assignment CastExpression MethodInvocation SimpleName get height
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+vertical align offset SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName point dfloat
+vertical align offset SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+vertical align offset SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+dy SimpleName Assignment NumberLiteral empty
+prev bot margin SimpleName Assignment NumberLiteral empty
+gvl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName linked list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gvl
+cl iter SimpleName MethodInvocation SimpleName next
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName cl iter
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+layouts SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+layouts SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName cl iter
+layouts SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName layouts
+layouts SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName layouts
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+glyph layout SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+glyph layout SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+gl SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName glyph layout
+gl SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+gl SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+glyph layout SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gl
+gl SimpleName MethodInvocation SimpleName get glyph vector
+gvl SimpleName MethodInvocation SimpleName add
+gvl SimpleName MethodInvocation MethodInvocation SimpleName gl
+gvl SimpleName MethodInvocation MethodInvocation SimpleName get glyph vector
+add SimpleName MethodInvocation MethodInvocation SimpleName gl
+add SimpleName MethodInvocation MethodInvocation SimpleName get glyph vector
+multi glyph vector SimpleName SimpleType ClassInstanceCreation SimpleName gvl
+gv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName multi glyph vector
+gv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName gvl
+gvt glyph vector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gv
+gvs SimpleName ArrayAccess SimpleName chunk
+gvs SimpleName ArrayAccess Assignment SimpleName gv
+chunk SimpleName ArrayAccess Assignment SimpleName gv
+gv SimpleName MethodInvocation SimpleName get num glyphs
+num glyphs SimpleName VariableDeclarationFragment MethodInvocation SimpleName gv
+num glyphs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get num glyphs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num glyphs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName gv
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get num glyphs
+aci SimpleName MethodInvocation SimpleName first
+aci SimpleName MethodInvocation SimpleName get attribute
+aci SimpleName MethodInvocation SimpleName flow paragraph
+get attribute SimpleName MethodInvocation SimpleName flow paragraph
+margin info SimpleName SimpleType CastExpression MethodInvocation SimpleName aci
+margin info SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+margin info SimpleName SimpleType CastExpression MethodInvocation SimpleName flow paragraph
+mi SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName margin info
+mi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName aci
+mi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+mi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName flow paragraph
+margin info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mi
+idx SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+idx SimpleName InfixExpression SimpleName num glyphs
+gv SimpleName MethodInvocation SimpleName set glyph visible
+gv SimpleName MethodInvocation SimpleName idx
+gv SimpleName MethodInvocation BooleanLiteral false
+set glyph visible SimpleName MethodInvocation SimpleName idx
+set glyph visible SimpleName MethodInvocation BooleanLiteral false
+idx SimpleName MethodInvocation BooleanLiteral false
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName idx
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num glyphs
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName idx
+idx SimpleName InfixExpression ForStatement PostfixExpression SimpleName idx
+num glyphs SimpleName InfixExpression ForStatement PostfixExpression SimpleName idx
+mi SimpleName MethodInvocation SimpleName get top margin
+prev bot margin SimpleName InfixExpression MethodInvocation SimpleName mi
+prev bot margin SimpleName InfixExpression MethodInvocation SimpleName get top margin
+mi SimpleName MethodInvocation SimpleName get top margin
+prev bot margin SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName prev bot margin
+prev bot margin SimpleName ConditionalExpression MethodInvocation SimpleName mi
+prev bot margin SimpleName ConditionalExpression MethodInvocation SimpleName get top margin
+inc SimpleName VariableDeclarationFragment ParenthesizedExpression ConditionalExpression SimpleName prev bot margin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName inc
+dy SimpleName InfixExpression SimpleName inc
+dy SimpleName InfixExpression InfixExpression SimpleName height
+inc SimpleName InfixExpression InfixExpression SimpleName height
+dy SimpleName Assignment SimpleName inc
+flow rects iter SimpleName MethodInvocation SimpleName has next
+flow rects iter SimpleName MethodInvocation SimpleName next
+region info SimpleName SimpleType CastExpression MethodInvocation SimpleName flow rects iter
+region info SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+current region SimpleName Assignment CastExpression SimpleType SimpleName region info
+current region SimpleName Assignment CastExpression MethodInvocation SimpleName flow rects iter
+current region SimpleName Assignment CastExpression MethodInvocation SimpleName next
+current region SimpleName MethodInvocation SimpleName get height
+float PrimitiveType CastExpression MethodInvocation SimpleName current region
+float PrimitiveType CastExpression MethodInvocation SimpleName get height
+height SimpleName Assignment CastExpression PrimitiveType float
+height SimpleName Assignment CastExpression MethodInvocation SimpleName current region
+height SimpleName Assignment CastExpression MethodInvocation SimpleName get height
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+vertical align offset SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName point dfloat
+vertical align offset SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+vertical align offset SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+mi SimpleName MethodInvocation SimpleName get top margin
+dy SimpleName Assignment MethodInvocation SimpleName mi
+dy SimpleName Assignment MethodInvocation SimpleName get top margin
+mi SimpleName MethodInvocation SimpleName get bottom margin
+prev bot margin SimpleName Assignment MethodInvocation SimpleName mi
+prev bot margin SimpleName Assignment MethodInvocation SimpleName get bottom margin
+mi SimpleName MethodInvocation SimpleName get left margin
+left margin SimpleName VariableDeclarationFragment MethodInvocation SimpleName mi
+left margin SimpleName VariableDeclarationFragment MethodInvocation SimpleName get left margin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName left margin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mi
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get left margin
+mi SimpleName MethodInvocation SimpleName get right margin
+right margin SimpleName VariableDeclarationFragment MethodInvocation SimpleName mi
+right margin SimpleName VariableDeclarationFragment MethodInvocation SimpleName get right margin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName right margin
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName mi
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get right margin
+layouts SimpleName MethodInvocation SimpleName get
+layouts SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+glyph layout SimpleName SimpleType CastExpression MethodInvocation SimpleName layouts
+glyph layout SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+glyph layout SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+mi SimpleName MethodInvocation SimpleName get indent
+left margin SimpleName Assignment MethodInvocation SimpleName mi
+left margin SimpleName Assignment MethodInvocation SimpleName get indent
+mi SimpleName MethodInvocation SimpleName get indent
+right margin SimpleName Assignment MethodInvocation SimpleName mi
+right margin SimpleName Assignment MethodInvocation SimpleName get indent
+current region SimpleName MethodInvocation SimpleName get x
+float PrimitiveType CastExpression MethodInvocation SimpleName current region
+float PrimitiveType CastExpression MethodInvocation SimpleName get x
+float PrimitiveType CastExpression InfixExpression SimpleName left margin
+current region SimpleName MethodInvocation CastExpression InfixExpression SimpleName left margin
+get x SimpleName MethodInvocation CastExpression InfixExpression SimpleName left margin
+x SimpleName Assignment InfixExpression CastExpression PrimitiveType float
+x SimpleName Assignment InfixExpression SimpleName left margin
+current region SimpleName MethodInvocation SimpleName get y
+float PrimitiveType CastExpression MethodInvocation SimpleName current region
+float PrimitiveType CastExpression MethodInvocation SimpleName get y
+y SimpleName Assignment CastExpression PrimitiveType float
+y SimpleName Assignment CastExpression MethodInvocation SimpleName current region
+y SimpleName Assignment CastExpression MethodInvocation SimpleName get y
+current region SimpleName MethodInvocation SimpleName get width
+left margin SimpleName InfixExpression SimpleName right margin
+width SimpleName Assignment CastExpression PrimitiveType float
+current region SimpleName MethodInvocation SimpleName get height
+float PrimitiveType CastExpression MethodInvocation SimpleName current region
+float PrimitiveType CastExpression MethodInvocation SimpleName get height
+height SimpleName Assignment CastExpression PrimitiveType float
+height SimpleName Assignment CastExpression MethodInvocation SimpleName current region
+height SimpleName Assignment CastExpression MethodInvocation SimpleName get height
+line infos SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName linked list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName line infos
+chunk line infos SimpleName ArrayAccess SimpleName chunk
+chunk line infos SimpleName ArrayAccess Assignment SimpleName line infos
+chunk SimpleName ArrayAccess Assignment SimpleName line infos
+prev desc SimpleName VariableDeclarationFragment NumberLiteral . f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev desc
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral . f
+glyph iterator SimpleName SimpleType ClassInstanceCreation SimpleName aci
+glyph iterator SimpleName SimpleType ClassInstanceCreation SimpleName gv
+aci SimpleName ClassInstanceCreation SimpleName gv
+gi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName glyph iterator
+gi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName aci
+gi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName gv
+glyph iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gi
+gis SimpleName ArrayAccess SimpleName chunk
+gis SimpleName ArrayAccess Assignment SimpleName gi
+chunk SimpleName ArrayAccess Assignment SimpleName gi
+glyph iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName break gi
+glyph iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new break gi
+break gi SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName new break gi
+gi SimpleName MethodInvocation SimpleName done
+gi SimpleName MethodInvocation SimpleName is printing
+update vertical align offset SimpleName MethodInvocation SimpleName vertical align offset
+update vertical align offset SimpleName MethodInvocation SimpleName current region
+update vertical align offset SimpleName MethodInvocation SimpleName dy
+vertical align offset SimpleName MethodInvocation SimpleName current region
+vertical align offset SimpleName MethodInvocation SimpleName dy
+current region SimpleName MethodInvocation SimpleName dy
+y SimpleName InfixExpression SimpleName dy
+point dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName x
+point dfloat QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName y
+point dfloat QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName dy
+x SimpleName ClassInstanceCreation InfixExpression SimpleName y
+x SimpleName ClassInstanceCreation InfixExpression SimpleName dy
+gi SimpleName MethodInvocation SimpleName new line
+gi SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName point dfloat
+gi SimpleName MethodInvocation ClassInstanceCreation SimpleName x
+gi SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName y
+gi SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName dy
+gi SimpleName MethodInvocation SimpleName width
+gi SimpleName MethodInvocation BooleanLiteral true
+gi SimpleName MethodInvocation SimpleName vertical align offset
+new line SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName point dfloat
+new line SimpleName MethodInvocation ClassInstanceCreation SimpleName x
+new line SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName y
+new line SimpleName MethodInvocation ClassInstanceCreation InfixExpression SimpleName dy
+new line SimpleName MethodInvocation SimpleName width
+new line SimpleName MethodInvocation BooleanLiteral true
+new line SimpleName MethodInvocation SimpleName vertical align offset
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName width
+x SimpleName ClassInstanceCreation MethodInvocation SimpleName width
+y SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName width
+dy SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName width
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral true
+x SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral true
+y SimpleName InfixExpression ClassInstanceCreation MethodInvocation BooleanLiteral true
+dy SimpleName InfixExpression ClassInstanceCreation MethodInvocation BooleanLiteral true
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName vertical align offset
+x SimpleName ClassInstanceCreation MethodInvocation SimpleName vertical align offset
+y SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName vertical align offset
+dy SimpleName InfixExpression ClassInstanceCreation MethodInvocation SimpleName vertical align offset
+width SimpleName MethodInvocation BooleanLiteral true
+width SimpleName MethodInvocation SimpleName vertical align offset
+true BooleanLiteral MethodInvocation SimpleName vertical align offset
+line infos SimpleName MethodInvocation SimpleName add
+line infos SimpleName MethodInvocation MethodInvocation SimpleName gi
+line infos SimpleName MethodInvocation MethodInvocation SimpleName new line
+line infos SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName x
+line infos SimpleName MethodInvocation MethodInvocation SimpleName width
+line infos SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+line infos SimpleName MethodInvocation MethodInvocation SimpleName vertical align offset
+add SimpleName MethodInvocation MethodInvocation SimpleName gi
+add SimpleName MethodInvocation MethodInvocation SimpleName new line
+add SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName x
+add SimpleName MethodInvocation MethodInvocation SimpleName width
+add SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+add SimpleName MethodInvocation MethodInvocation SimpleName vertical align offset
+gi SimpleName MethodInvocation SimpleName copy
+line gi SimpleName VariableDeclarationFragment MethodInvocation SimpleName gi
+line gi SimpleName VariableDeclarationFragment MethodInvocation SimpleName copy
+glyph iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName line gi
+first line SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first line
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+gi SimpleName MethodInvocation SimpleName done
+do break SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName do break
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+partial SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName partial
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+gi SimpleName MethodInvocation SimpleName is printing
+gi SimpleName MethodInvocation SimpleName get adv
+gi SimpleName MethodInvocation InfixExpression SimpleName width
+get adv SimpleName MethodInvocation InfixExpression SimpleName width
+flow rects iter SimpleName MethodInvocation SimpleName has next
+line gi SimpleName MethodInvocation SimpleName copy
+line gi SimpleName MethodInvocation SimpleName gi
+copy SimpleName MethodInvocation SimpleName gi
+gi SimpleName Assignment MethodInvocation SimpleName line gi
+gi SimpleName Assignment MethodInvocation SimpleName copy
+gi SimpleName Assignment MethodInvocation SimpleName gi
+flow rects iter SimpleName MethodInvocation SimpleName next
+region info SimpleName SimpleType CastExpression MethodInvocation SimpleName flow rects iter
+region info SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+current region SimpleName Assignment CastExpression SimpleType SimpleName region info
+current region SimpleName Assignment CastExpression MethodInvocation SimpleName flow rects iter
+current region SimpleName Assignment CastExpression MethodInvocation SimpleName next
+current region SimpleName MethodInvocation SimpleName get x
+float PrimitiveType CastExpression MethodInvocation SimpleName current region
+float PrimitiveType CastExpression MethodInvocation SimpleName get x
+float PrimitiveType CastExpression InfixExpression SimpleName left margin
+current region SimpleName MethodInvocation CastExpression InfixExpression SimpleName left margin
+get x SimpleName MethodInvocation CastExpression InfixExpression SimpleName left margin
+x SimpleName Assignment InfixExpression CastExpression PrimitiveType float
+x SimpleName Assignment InfixExpression SimpleName left margin
+current region SimpleName MethodInvocation SimpleName get y
+float PrimitiveType CastExpression MethodInvocation SimpleName current region
+float PrimitiveType CastExpression MethodInvocation SimpleName get y
+y SimpleName Assignment CastExpression PrimitiveType float
+y SimpleName Assignment CastExpression MethodInvocation SimpleName current region
+y SimpleName Assignment CastExpression MethodInvocation SimpleName get y
+current region SimpleName MethodInvocation SimpleName get width
+left margin SimpleName InfixExpression SimpleName right margin
+width SimpleName Assignment CastExpression PrimitiveType float
+current region SimpleName MethodInvocation SimpleName get height
+float PrimitiveType CastExpression MethodInvocation SimpleName current region
+float PrimitiveType CastExpression MethodInvocation SimpleName get height
+height SimpleName Assignment CastExpression PrimitiveType float
+height SimpleName Assignment CastExpression MethodInvocation SimpleName current region
+height SimpleName Assignment CastExpression MethodInvocation SimpleName get height
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+vertical align offset SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName point dfloat
+vertical align offset SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+vertical align offset SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+mi SimpleName MethodInvocation SimpleName get top margin
+first line SimpleName ConditionalExpression MethodInvocation SimpleName mi
+first line SimpleName ConditionalExpression MethodInvocation SimpleName get top margin
+first line SimpleName ConditionalExpression NumberLiteral empty
+mi SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+get top margin SimpleName MethodInvocation ConditionalExpression NumberLiteral empty
+dy SimpleName Assignment ConditionalExpression SimpleName first line
+dy SimpleName Assignment ConditionalExpression MethodInvocation SimpleName mi
+dy SimpleName Assignment ConditionalExpression MethodInvocation SimpleName get top margin
+dy SimpleName Assignment ConditionalExpression NumberLiteral empty
+prev desc SimpleName Assignment NumberLiteral empty
+line gi SimpleName MethodInvocation SimpleName copy
+line gi SimpleName MethodInvocation SimpleName gi
+copy SimpleName MethodInvocation SimpleName gi
+gi SimpleName Assignment MethodInvocation SimpleName line gi
+gi SimpleName Assignment MethodInvocation SimpleName copy
+gi SimpleName Assignment MethodInvocation SimpleName gi
+break gi SimpleName MethodInvocation SimpleName copy
+break gi SimpleName MethodInvocation SimpleName gi
+copy SimpleName MethodInvocation SimpleName gi
+gi SimpleName Assignment MethodInvocation SimpleName break gi
+gi SimpleName Assignment MethodInvocation SimpleName copy
+gi SimpleName Assignment MethodInvocation SimpleName gi
+next line mult SimpleName Assignment NumberLiteral empty
+do break SimpleName Assignment BooleanLiteral true
+partial SimpleName Assignment BooleanLiteral false
+gi SimpleName MethodInvocation SimpleName is last char
+next line mult SimpleName Assignment NumberLiteral empty
+do break SimpleName Assignment BooleanLiteral true
+partial SimpleName Assignment BooleanLiteral true
+gi SimpleName MethodInvocation SimpleName get line breaks
+ln breaks SimpleName VariableDeclarationFragment MethodInvocation SimpleName gi
+ln breaks SimpleName VariableDeclarationFragment MethodInvocation SimpleName get line breaks
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln breaks
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName gi
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get line breaks
+ln breaks SimpleName InfixExpression NumberLiteral empty
+next line mult SimpleName Assignment NumberLiteral empty
+do break SimpleName IfStatement ExpressionStatement Assignment SimpleName next line mult
+do break SimpleName IfStatement ExpressionStatement Assignment NumberLiteral empty
+next line mult SimpleName Assignment SimpleName ln breaks
+do break SimpleName Assignment BooleanLiteral true
+partial SimpleName Assignment BooleanLiteral true
+gi SimpleName MethodInvocation SimpleName is break char
+break gi SimpleName MethodInvocation SimpleName is break char
+gi SimpleName MethodInvocation SimpleName copy
+gi SimpleName MethodInvocation SimpleName new break gi
+copy SimpleName MethodInvocation SimpleName new break gi
+new break gi SimpleName Assignment MethodInvocation SimpleName gi
+new break gi SimpleName Assignment MethodInvocation SimpleName copy
+new break gi SimpleName Assignment MethodInvocation SimpleName new break gi
+gi SimpleName MethodInvocation SimpleName next char
+gi SimpleName MethodInvocation SimpleName get char
+gi SimpleName MethodInvocation InfixExpression QualifiedName glyph iteratorzero width joiner
+get char SimpleName MethodInvocation InfixExpression QualifiedName glyph iteratorzero width joiner
+tmp gi SimpleName VariableDeclarationFragment SimpleName break gi
+glyph iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp gi
+glyph iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName break gi
+break gi SimpleName Assignment SimpleName new break gi
+new break gi SimpleName Assignment SimpleName tmp gi
+gi SimpleName MethodInvocation SimpleName next char
+gi SimpleName MethodInvocation SimpleName get max ascent
+gi SimpleName MethodInvocation SimpleName get max descent
+gi SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName gi
+gi SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get max descent
+get max ascent SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName gi
+get max ascent SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get max descent
+line size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName gi
+line size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get max ascent
+line size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName gi
+line size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get max descent
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName line size
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName line box height

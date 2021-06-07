@@ -1,0 +1,135 @@
+ignore scroll change SimpleName Assignment BooleanLiteral true
+canvas SimpleName MethodInvocation SimpleName get view box transform
+vbt SimpleName VariableDeclarationFragment MethodInvocation SimpleName canvas
+vbt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get view box transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vbt
+vbt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+vbt SimpleName MethodInvocation SimpleName create transformed shape
+vbt SimpleName MethodInvocation SimpleName view box
+create transformed shape SimpleName MethodInvocation SimpleName view box
+vbt SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+create transformed shape SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+view box SimpleName MethodInvocation MethodInvocation SimpleName get bounds
+r d SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName vbt
+r d SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName create transformed shape
+r d SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName view box
+r d SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r d
+max w SimpleName VariableDeclarationFragment QualifiedName r dwidth
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max w
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName r dwidth
+max h SimpleName VariableDeclarationFragment QualifiedName r dheight
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max h
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName r dheight
+tx SimpleName VariableDeclarationFragment NumberLiteral empty
+ty SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+tx SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName ty
+tx SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName ty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+r dx QualifiedName InfixExpression NumberLiteral empty
+max w SimpleName Assignment QualifiedName r dx
+tx SimpleName Assignment QualifiedName r dx
+r dy QualifiedName InfixExpression NumberLiteral empty
+max h SimpleName Assignment QualifiedName r dy
+ty SimpleName Assignment QualifiedName r dy
+update scrollbar visibility SimpleName MethodInvocation SimpleName tx
+update scrollbar visibility SimpleName MethodInvocation SimpleName ty
+update scrollbar visibility SimpleName MethodInvocation SimpleName max w
+update scrollbar visibility SimpleName MethodInvocation SimpleName max h
+tx SimpleName MethodInvocation SimpleName ty
+tx SimpleName MethodInvocation SimpleName max w
+tx SimpleName MethodInvocation SimpleName max h
+ty SimpleName MethodInvocation SimpleName max w
+ty SimpleName MethodInvocation SimpleName max h
+max w SimpleName MethodInvocation SimpleName max h
+vp size SimpleName VariableDeclarationFragment MethodInvocation SimpleName update scrollbar visibility
+vp size SimpleName VariableDeclarationFragment MethodInvocation SimpleName tx
+vp size SimpleName VariableDeclarationFragment MethodInvocation SimpleName ty
+vp size SimpleName VariableDeclarationFragment MethodInvocation SimpleName max w
+vp size SimpleName VariableDeclarationFragment MethodInvocation SimpleName max h
+dimension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vp size
+vertical SimpleName MethodInvocation SimpleName set values
+vertical SimpleName MethodInvocation SimpleName ty
+vertical SimpleName MethodInvocation QualifiedName vp sizeheight
+vertical SimpleName MethodInvocation NumberLiteral empty
+vertical SimpleName MethodInvocation SimpleName max h
+set values SimpleName MethodInvocation SimpleName ty
+set values SimpleName MethodInvocation QualifiedName vp sizeheight
+set values SimpleName MethodInvocation NumberLiteral empty
+set values SimpleName MethodInvocation SimpleName max h
+ty SimpleName MethodInvocation QualifiedName vp sizeheight
+ty SimpleName MethodInvocation NumberLiteral empty
+ty SimpleName MethodInvocation SimpleName max h
+vp sizeheight QualifiedName MethodInvocation NumberLiteral empty
+vp sizeheight QualifiedName MethodInvocation SimpleName max h
+empty NumberLiteral MethodInvocation SimpleName max h
+horizontal SimpleName MethodInvocation SimpleName set values
+horizontal SimpleName MethodInvocation SimpleName tx
+horizontal SimpleName MethodInvocation QualifiedName vp sizewidth
+horizontal SimpleName MethodInvocation NumberLiteral empty
+horizontal SimpleName MethodInvocation SimpleName max w
+set values SimpleName MethodInvocation SimpleName tx
+set values SimpleName MethodInvocation QualifiedName vp sizewidth
+set values SimpleName MethodInvocation NumberLiteral empty
+set values SimpleName MethodInvocation SimpleName max w
+tx SimpleName MethodInvocation QualifiedName vp sizewidth
+tx SimpleName MethodInvocation NumberLiteral empty
+tx SimpleName MethodInvocation SimpleName max w
+vp sizewidth QualifiedName MethodInvocation NumberLiteral empty
+vp sizewidth QualifiedName MethodInvocation SimpleName max w
+empty NumberLiteral MethodInvocation SimpleName max w
+. f NumberLiteral InfixExpression QualifiedName vp sizeheight
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral . f
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression QualifiedName vp sizeheight
+vertical SimpleName MethodInvocation SimpleName set block increment
+vertical SimpleName MethodInvocation CastExpression PrimitiveType int
+set block increment SimpleName MethodInvocation CastExpression PrimitiveType int
+. f NumberLiteral InfixExpression QualifiedName vp sizewidth
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral . f
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression QualifiedName vp sizewidth
+horizontal SimpleName MethodInvocation SimpleName set block increment
+horizontal SimpleName MethodInvocation CastExpression PrimitiveType int
+set block increment SimpleName MethodInvocation CastExpression PrimitiveType int
+. f NumberLiteral InfixExpression QualifiedName vp sizeheight
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral . f
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression QualifiedName vp sizeheight
+vertical SimpleName MethodInvocation SimpleName set unit increment
+vertical SimpleName MethodInvocation CastExpression PrimitiveType int
+set unit increment SimpleName MethodInvocation CastExpression PrimitiveType int
+. f NumberLiteral InfixExpression QualifiedName vp sizewidth
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral . f
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression QualifiedName vp sizewidth
+horizontal SimpleName MethodInvocation SimpleName set unit increment
+horizontal SimpleName MethodInvocation CastExpression PrimitiveType int
+set unit increment SimpleName MethodInvocation CastExpression PrimitiveType int
+horizontal panel SimpleName MethodInvocation SimpleName do layout
+horizontal SimpleName MethodInvocation SimpleName do layout
+vertical SimpleName MethodInvocation SimpleName do layout
+ignore scroll change SimpleName Assignment BooleanLiteral false
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName resize scroll bars
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName resize scroll bars
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+resize scroll bars SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+resize scroll bars SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+resize scroll bars SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName resize scroll bars
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resize scroll bars

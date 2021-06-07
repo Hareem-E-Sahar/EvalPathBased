@@ -1,0 +1,65 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+deep copy into SimpleName SuperMethodInvocation SimpleName n
+abstract element SimpleName SimpleType CastExpression SimpleName n
+ae SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract element
+ae SimpleName VariableDeclarationFragment CastExpression SimpleName n
+abstract element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ae
+map SimpleName VariableDeclarationFragment SimpleName attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attributes
+map SimpleName MethodInvocation SimpleName get length
+map SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName map
+i SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+map SimpleName MethodInvocation SimpleName item
+map SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+map SimpleName MethodInvocation MethodInvocation SimpleName clone node
+item SimpleName MethodInvocation MethodInvocation SimpleName clone node
+i SimpleName MethodInvocation MethodInvocation SimpleName clone node
+map SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+item SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+i SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+clone node SimpleName MethodInvocation BooleanLiteral true
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName clone node
+abstract attr SimpleName SimpleType CastExpression MethodInvocation BooleanLiteral true
+aa SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract attr
+aa SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName clone node
+aa SimpleName VariableDeclarationFragment CastExpression MethodInvocation BooleanLiteral true
+abstract attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aa
+aa SimpleName InstanceofExpression SimpleType SimpleName abstract attr ns
+ae SimpleName MethodInvocation SimpleName set attribute node ns
+ae SimpleName MethodInvocation SimpleName aa
+set attribute node ns SimpleName MethodInvocation SimpleName aa
+ae SimpleName MethodInvocation SimpleName set attribute node
+ae SimpleName MethodInvocation SimpleName aa
+set attribute node SimpleName MethodInvocation SimpleName aa
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+protected Modifier MethodDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SimpleName deep copy into
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleName deep copy into
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+deep copy into SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+deep copy into SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+deep copy into SimpleName MethodDeclaration Block ReturnStatement SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName deep copy into
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName deep copy into
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

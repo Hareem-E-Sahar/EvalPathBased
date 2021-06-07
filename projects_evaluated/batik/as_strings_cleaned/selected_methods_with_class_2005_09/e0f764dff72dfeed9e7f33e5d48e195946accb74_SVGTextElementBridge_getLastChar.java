@@ -1,0 +1,33 @@
+count SimpleName InfixExpression NumberLiteral empty
+count SimpleName InfixExpression NumberLiteral empty
+strings SimpleName MethodInvocation SimpleName get
+strings SimpleName MethodInvocation InfixExpression SimpleName count
+strings SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression SimpleName count
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName strings
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+s SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName strings
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get last char
+int PrimitiveType MethodDeclaration SimpleName get last char
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get last char
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get last char

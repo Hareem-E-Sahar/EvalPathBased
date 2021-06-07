@@ -1,0 +1,29 @@
+graphics SimpleName SimpleType SingleVariableDeclaration SimpleName g
+graphics d SimpleName SimpleType CastExpression SimpleName g
+node SimpleName MethodInvocation SimpleName paint
+node SimpleName MethodInvocation CastExpression SimpleType SimpleName graphics d
+node SimpleName MethodInvocation CastExpression SimpleName g
+node SimpleName MethodInvocation SimpleName context
+paint SimpleName MethodInvocation CastExpression SimpleType SimpleName graphics d
+paint SimpleName MethodInvocation CastExpression SimpleName g
+paint SimpleName MethodInvocation SimpleName context
+graphics d SimpleName SimpleType CastExpression MethodInvocation SimpleName context
+g SimpleName CastExpression MethodInvocation SimpleName context
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName paint component
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName g
+void PrimitiveType MethodDeclaration SimpleName paint component
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName g
+paint component SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+paint component SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName paint component
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName paint component
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g

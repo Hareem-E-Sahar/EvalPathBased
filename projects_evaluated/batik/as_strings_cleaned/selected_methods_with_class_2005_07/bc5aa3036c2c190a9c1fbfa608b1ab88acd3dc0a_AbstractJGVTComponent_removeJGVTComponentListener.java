@@ -1,0 +1,22 @@
+jgvt component listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+jgvt listeners SimpleName MethodInvocation SimpleName remove
+jgvt listeners SimpleName MethodInvocation SimpleName listener
+remove SimpleName MethodInvocation SimpleName listener
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove jgvt component listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jgvt component listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SimpleName remove jgvt component listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jgvt component listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+remove jgvt component listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jgvt component listener
+remove jgvt component listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove jgvt component listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove jgvt component listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

@@ -1,0 +1,44 @@
+generator contextdom factory QualifiedName MethodInvocation SimpleName create element ns
+generator contextdom factory QualifiedName MethodInvocation SimpleName svg namespace uri
+generator contextdom factory QualifiedName MethodInvocation SimpleName svg defs tag
+create element ns SimpleName MethodInvocation SimpleName svg namespace uri
+create element ns SimpleName MethodInvocation SimpleName svg defs tag
+svg namespace uri SimpleName MethodInvocation SimpleName svg defs tag
+generic defs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName generator contextdom factory
+generic defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName create element ns
+generic defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg namespace uri
+generic defs SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg defs tag
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName generic defs
+generic def set SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName generic def set
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+generic defs SimpleName MethodInvocation SimpleName append child
+generic defs SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+generic defs SimpleName MethodInvocation CastExpression MethodInvocation SimpleName iter
+generic defs SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+append child SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+append child SimpleName MethodInvocation CastExpression MethodInvocation SimpleName iter
+append child SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+generic defs SimpleName MethodInvocation SimpleName set attribute ns
+generic defs SimpleName MethodInvocation SimpleName attr id
+generic defs SimpleName MethodInvocation SimpleName id prefix generic defs
+set attribute ns SimpleName MethodInvocation SimpleName attr id
+set attribute ns SimpleName MethodInvocation SimpleName id prefix generic defs
+attr id SimpleName MethodInvocation SimpleName id prefix generic defs
+public Modifier MethodDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SimpleName get generic definitions
+public Modifier MethodDeclaration Block ReturnStatement SimpleName generic defs
+element SimpleName SimpleType MethodDeclaration SimpleName get generic definitions
+get generic definitions SimpleName MethodDeclaration Block ReturnStatement SimpleName generic defs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get generic definitions
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get generic definitions

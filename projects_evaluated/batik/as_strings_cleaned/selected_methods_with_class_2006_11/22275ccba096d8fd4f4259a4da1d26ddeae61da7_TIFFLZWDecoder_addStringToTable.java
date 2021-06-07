@@ -1,0 +1,28 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName string
+string table SimpleName ArrayAccess PostfixExpression SimpleName table index
+string table SimpleName ArrayAccess Assignment SimpleName string
+table index SimpleName PostfixExpression ArrayAccess Assignment SimpleName string
+table index SimpleName InfixExpression NumberLiteral empty
+bits to get SimpleName Assignment NumberLiteral empty
+table index SimpleName InfixExpression NumberLiteral empty
+bits to get SimpleName Assignment NumberLiteral empty
+table index SimpleName InfixExpression NumberLiteral empty
+bits to get SimpleName Assignment NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add string to table
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName string
+void PrimitiveType MethodDeclaration SimpleName add string to table
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName string
+add string to table SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+add string to table SimpleName MethodDeclaration SingleVariableDeclaration SimpleName string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add string to table
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add string to table
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName string

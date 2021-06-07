@@ -1,0 +1,13 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName set previous sibling
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+set previous sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+set previous sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set previous sibling
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set previous sibling
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

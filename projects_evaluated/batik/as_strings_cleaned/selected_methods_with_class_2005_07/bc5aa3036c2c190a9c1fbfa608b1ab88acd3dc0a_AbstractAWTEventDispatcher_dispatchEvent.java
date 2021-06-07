@@ -1,0 +1,43 @@
+event object SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+event queue max size SimpleName InfixExpression NumberLiteral empty
+event queue SimpleName MethodInvocation SimpleName add
+event queue SimpleName MethodInvocation SimpleName evt
+add SimpleName MethodInvocation SimpleName evt
+event queue SimpleName MethodInvocation SimpleName size
+event queue SimpleName MethodInvocation InfixExpression SimpleName event queue max size
+size SimpleName MethodInvocation InfixExpression SimpleName event queue max size
+event queue SimpleName MethodInvocation SimpleName remove
+event queue SimpleName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+evt SimpleName InstanceofExpression SimpleType SimpleName mouse event
+mouse event SimpleName SimpleType CastExpression SimpleName evt
+dispatch mouse event SimpleName MethodInvocation CastExpression SimpleType SimpleName mouse event
+dispatch mouse event SimpleName MethodInvocation CastExpression SimpleName evt
+evt SimpleName InstanceofExpression SimpleType SimpleName key event
+input event SimpleName SimpleType CastExpression SimpleName evt
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName input event
+e SimpleName VariableDeclarationFragment CastExpression SimpleName evt
+input event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+is node increment event SimpleName MethodInvocation SimpleName e
+is node decrement event SimpleName MethodInvocation SimpleName e
+key event SimpleName SimpleType CastExpression SimpleName evt
+dispatch key event SimpleName MethodInvocation CastExpression SimpleType SimpleName key event
+dispatch key event SimpleName MethodInvocation CastExpression SimpleName evt
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispatch event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName dispatch event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+dispatch event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event object
+dispatch event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

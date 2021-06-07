@@ -1,0 +1,28 @@
+float PrimitiveType SingleVariableDeclaration SimpleName y
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName lineto vertical rel
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName y
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleName lineto vertical rel
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName y
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+lineto vertical rel SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+lineto vertical rel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName y
+lineto vertical rel SimpleName MethodDeclaration SimpleType SimpleName parse exception
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+y SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName lineto vertical rel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lineto vertical rel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

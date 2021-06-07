@@ -1,0 +1,29 @@
+filter SimpleName SimpleType SingleVariableDeclaration SimpleName new filter
+old filter SimpleName VariableDeclarationFragment SimpleName filter
+filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old filter
+filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter
+filter SimpleName FieldAccess Assignment SimpleName new filter
+fire property change SimpleName MethodInvocation StringLiteral filter
+fire property change SimpleName MethodInvocation SimpleName old filter
+fire property change SimpleName MethodInvocation SimpleName new filter
+filter StringLiteral MethodInvocation SimpleName old filter
+filter StringLiteral MethodInvocation SimpleName new filter
+old filter SimpleName MethodInvocation SimpleName new filter
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new filter
+void PrimitiveType MethodDeclaration SimpleName set filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new filter
+set filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+set filter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new filter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set filter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new filter
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set filter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new filter

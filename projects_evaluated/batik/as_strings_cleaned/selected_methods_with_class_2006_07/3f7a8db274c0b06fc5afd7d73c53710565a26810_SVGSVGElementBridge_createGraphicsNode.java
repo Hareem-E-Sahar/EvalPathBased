@@ -1,0 +1,353 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+ctx SimpleName MethodInvocation SimpleName get user agent
+svg utilities SimpleName MethodInvocation SimpleName match user agent
+svg utilities SimpleName MethodInvocation SimpleName e
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName ctx
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+match user agent SimpleName MethodInvocation SimpleName e
+match user agent SimpleName MethodInvocation MethodInvocation SimpleName ctx
+match user agent SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+e SimpleName MethodInvocation MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+canvas graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cgn
+canvas graphics node SimpleName SimpleType CastExpression MethodInvocation SimpleName instantiate graphics node
+cgn SimpleName Assignment CastExpression SimpleType SimpleName canvas graphics node
+cgn SimpleName Assignment CastExpression MethodInvocation SimpleName instantiate graphics node
+associate svg context SimpleName MethodInvocation SimpleName ctx
+associate svg context SimpleName MethodInvocation SimpleName e
+associate svg context SimpleName MethodInvocation SimpleName cgn
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName cgn
+e SimpleName MethodInvocation SimpleName cgn
+e SimpleName MethodInvocation SimpleName get owner document
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg document
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+svg document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+svgomsvg element SimpleName SimpleType CastExpression SimpleName e
+se SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgomsvg element
+se SimpleName VariableDeclarationFragment CastExpression SimpleName e
+svgomsvg element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName se
+doc SimpleName MethodInvocation SimpleName get root element
+doc SimpleName MethodInvocation InfixExpression SimpleName e
+get root element SimpleName MethodInvocation InfixExpression SimpleName e
+is outermost SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression SimpleName e
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is outermost
+x SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+y SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+se SimpleName MethodInvocation SimpleName get x
+se SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get x SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+se SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+x SimpleName Assignment MethodInvocation MethodInvocation SimpleName get anim val
+x SimpleName Assignment MethodInvocation SimpleName get value
+se SimpleName MethodInvocation SimpleName get y
+se SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get y SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+se SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+y SimpleName Assignment MethodInvocation MethodInvocation SimpleName get anim val
+y SimpleName Assignment MethodInvocation SimpleName get value
+se SimpleName MethodInvocation SimpleName get width
+se SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get width SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+se SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+w SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get anim val
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+se SimpleName MethodInvocation SimpleName get height
+se SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get height SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+se SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get height SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get anim val
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+css utilities SimpleName MethodInvocation SimpleName convert visibility
+css utilities SimpleName MethodInvocation SimpleName e
+convert visibility SimpleName MethodInvocation SimpleName e
+cgn SimpleName MethodInvocation SimpleName set visible
+cgn SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+cgn SimpleName MethodInvocation MethodInvocation SimpleName convert visibility
+cgn SimpleName MethodInvocation MethodInvocation SimpleName e
+set visible SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+set visible SimpleName MethodInvocation MethodInvocation SimpleName convert visibility
+set visible SimpleName MethodInvocation MethodInvocation SimpleName e
+view box SimpleName MethodInvocation SimpleName get preserve aspect ratio transform
+view box SimpleName MethodInvocation SimpleName e
+view box SimpleName MethodInvocation SimpleName w
+view box SimpleName MethodInvocation SimpleName h
+view box SimpleName MethodInvocation SimpleName ctx
+get preserve aspect ratio transform SimpleName MethodInvocation SimpleName e
+get preserve aspect ratio transform SimpleName MethodInvocation SimpleName w
+get preserve aspect ratio transform SimpleName MethodInvocation SimpleName h
+get preserve aspect ratio transform SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation SimpleName w
+e SimpleName MethodInvocation SimpleName h
+e SimpleName MethodInvocation SimpleName ctx
+w SimpleName MethodInvocation SimpleName h
+w SimpleName MethodInvocation SimpleName ctx
+h SimpleName MethodInvocation SimpleName ctx
+viewing transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName view box
+viewing transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName get preserve aspect ratio transform
+viewing transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+viewing transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName w
+viewing transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName h
+viewing transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName viewing transform
+actual width SimpleName VariableDeclarationFragment SimpleName w
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual width
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+actual height SimpleName VariableDeclarationFragment SimpleName h
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName actual height
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+viewing transform SimpleName MethodInvocation SimpleName create inverse
+vt inv SimpleName VariableDeclarationFragment MethodInvocation SimpleName viewing transform
+vt inv SimpleName VariableDeclarationFragment MethodInvocation SimpleName create inverse
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vt inv
+vt inv SimpleName MethodInvocation SimpleName get scale x
+w SimpleName InfixExpression MethodInvocation SimpleName vt inv
+w SimpleName InfixExpression MethodInvocation SimpleName get scale x
+float PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName w
+actual width SimpleName Assignment CastExpression PrimitiveType float
+vt inv SimpleName MethodInvocation SimpleName get scale y
+h SimpleName InfixExpression MethodInvocation SimpleName vt inv
+h SimpleName InfixExpression MethodInvocation SimpleName get scale y
+float PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName h
+actual height SimpleName Assignment CastExpression PrimitiveType float
+noninvertible transform exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+affine transform SimpleName MethodInvocation SimpleName get translate instance
+affine transform SimpleName MethodInvocation SimpleName x
+affine transform SimpleName MethodInvocation SimpleName y
+get translate instance SimpleName MethodInvocation SimpleName x
+get translate instance SimpleName MethodInvocation SimpleName y
+x SimpleName MethodInvocation SimpleName y
+position transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName affine transform
+position transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName get translate instance
+position transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName x
+position transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName y
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName position transform
+cgn SimpleName MethodInvocation SimpleName set position transform
+cgn SimpleName MethodInvocation SimpleName position transform
+set position transform SimpleName MethodInvocation SimpleName position transform
+ctx SimpleName MethodInvocation SimpleName get document
+doc SimpleName InfixExpression MethodInvocation SimpleName ctx
+doc SimpleName InfixExpression MethodInvocation SimpleName get document
+w SimpleName InfixExpression NumberLiteral . f
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName w
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral . f
+h SimpleName InfixExpression NumberLiteral . f
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName h
+int PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral . f
+dimension SimpleName SimpleType ClassInstanceCreation CastExpression PrimitiveType int
+dimension SimpleName SimpleType ClassInstanceCreation CastExpression PrimitiveType int
+int PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+ctx SimpleName MethodInvocation SimpleName set document size
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName dimension
+ctx SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+ctx SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+set document size SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName dimension
+set document size SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+set document size SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+cgn SimpleName MethodInvocation SimpleName set viewing transform
+cgn SimpleName MethodInvocation SimpleName viewing transform
+set viewing transform SimpleName MethodInvocation SimpleName viewing transform
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clip
+css utilities SimpleName MethodInvocation SimpleName convert overflow
+css utilities SimpleName MethodInvocation SimpleName e
+convert overflow SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation SimpleName convert clip
+css utilities SimpleName MethodInvocation SimpleName e
+convert clip SimpleName MethodInvocation SimpleName e
+offsets SimpleName VariableDeclarationFragment MethodInvocation SimpleName css utilities
+offsets SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert clip
+offsets SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName offsets
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName x
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName y
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName w
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName h
+x SimpleName ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName w
+x SimpleName ClassInstanceCreation SimpleName h
+y SimpleName ClassInstanceCreation SimpleName w
+y SimpleName ClassInstanceCreation SimpleName h
+w SimpleName ClassInstanceCreation SimpleName h
+clip SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName rectangle dfloat
+clip SimpleName Assignment ClassInstanceCreation SimpleName x
+clip SimpleName Assignment ClassInstanceCreation SimpleName y
+clip SimpleName Assignment ClassInstanceCreation SimpleName w
+clip SimpleName Assignment ClassInstanceCreation SimpleName h
+offsets SimpleName ArrayAccess NumberLiteral empty
+x SimpleName InfixExpression ArrayAccess SimpleName offsets
+x SimpleName InfixExpression ArrayAccess NumberLiteral empty
+offsets SimpleName ArrayAccess NumberLiteral empty
+y SimpleName InfixExpression ArrayAccess SimpleName offsets
+y SimpleName InfixExpression ArrayAccess NumberLiteral empty
+offsets SimpleName ArrayAccess NumberLiteral empty
+offsets SimpleName ArrayAccess NumberLiteral empty
+w SimpleName InfixExpression ArrayAccess SimpleName offsets
+w SimpleName InfixExpression ArrayAccess NumberLiteral empty
+w SimpleName InfixExpression ArrayAccess SimpleName offsets
+w SimpleName InfixExpression ArrayAccess NumberLiteral empty
+offsets SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName offsets
+offsets SimpleName ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression ArrayAccess SimpleName offsets
+empty NumberLiteral ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+offsets SimpleName ArrayAccess NumberLiteral empty
+offsets SimpleName ArrayAccess NumberLiteral empty
+h SimpleName InfixExpression ArrayAccess SimpleName offsets
+h SimpleName InfixExpression ArrayAccess NumberLiteral empty
+h SimpleName InfixExpression ArrayAccess SimpleName offsets
+h SimpleName InfixExpression ArrayAccess NumberLiteral empty
+offsets SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName offsets
+offsets SimpleName ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression ArrayAccess SimpleName offsets
+empty NumberLiteral ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName x
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName y
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName w
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName h
+x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName y
+x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName w
+x SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName h
+y SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName w
+y SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName h
+w SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName h
+clip SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName rectangle dfloat
+clip SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName x
+clip SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName y
+clip SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName w
+clip SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName h
+affine transform SimpleName SimpleType ClassInstanceCreation SimpleName position transform
+at SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName affine transform
+at SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName position transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+at SimpleName MethodInvocation SimpleName concatenate
+at SimpleName MethodInvocation SimpleName viewing transform
+concatenate SimpleName MethodInvocation SimpleName viewing transform
+at SimpleName MethodInvocation SimpleName create inverse
+at SimpleName Assignment MethodInvocation SimpleName at
+at SimpleName Assignment MethodInvocation SimpleName create inverse
+at SimpleName MethodInvocation SimpleName create transformed shape
+at SimpleName MethodInvocation SimpleName clip
+create transformed shape SimpleName MethodInvocation SimpleName clip
+clip SimpleName Assignment MethodInvocation SimpleName at
+clip SimpleName Assignment MethodInvocation SimpleName create transformed shape
+clip SimpleName Assignment MethodInvocation SimpleName clip
+cgn SimpleName MethodInvocation SimpleName get graphics node rable
+cgn SimpleName MethodInvocation BooleanLiteral true
+get graphics node rable SimpleName MethodInvocation BooleanLiteral true
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName cgn
+filter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graphics node rable
+filter SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+filter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filter
+clip rable bit SimpleName SimpleType ClassInstanceCreation SimpleName filter
+clip rable bit SimpleName SimpleType ClassInstanceCreation SimpleName clip
+filter SimpleName ClassInstanceCreation SimpleName clip
+cgn SimpleName MethodInvocation SimpleName set clip
+cgn SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName clip rable bit
+cgn SimpleName MethodInvocation ClassInstanceCreation SimpleName filter
+cgn SimpleName MethodInvocation ClassInstanceCreation SimpleName clip
+set clip SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName clip rable bit
+set clip SimpleName MethodInvocation ClassInstanceCreation SimpleName filter
+set clip SimpleName MethodInvocation ClassInstanceCreation SimpleName clip
+noninvertible transform exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+rendering hints SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hints
+css utilities SimpleName MethodInvocation SimpleName convert color rendering
+css utilities SimpleName MethodInvocation SimpleName e
+css utilities SimpleName MethodInvocation SimpleName hints
+convert color rendering SimpleName MethodInvocation SimpleName e
+convert color rendering SimpleName MethodInvocation SimpleName hints
+e SimpleName MethodInvocation SimpleName hints
+hints SimpleName Assignment MethodInvocation SimpleName css utilities
+hints SimpleName Assignment MethodInvocation SimpleName convert color rendering
+hints SimpleName Assignment MethodInvocation SimpleName e
+hints SimpleName Assignment MethodInvocation SimpleName hints
+cgn SimpleName MethodInvocation SimpleName set rendering hints
+cgn SimpleName MethodInvocation SimpleName hints
+set rendering hints SimpleName MethodInvocation SimpleName hints
+css utilities SimpleName MethodInvocation SimpleName convert enable background
+css utilities SimpleName MethodInvocation SimpleName e
+convert enable background SimpleName MethodInvocation SimpleName e
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName css utilities
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert enable background
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+cgn SimpleName MethodInvocation SimpleName set background enable
+cgn SimpleName MethodInvocation SimpleName r
+set background enable SimpleName MethodInvocation SimpleName r
+svgsvg element viewport SimpleName SimpleType ClassInstanceCreation SimpleName actual width
+svgsvg element viewport SimpleName SimpleType ClassInstanceCreation SimpleName actual height
+actual width SimpleName ClassInstanceCreation SimpleName actual height
+ctx SimpleName MethodInvocation SimpleName open viewport
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svgsvg element viewport
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleName actual width
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleName actual height
+open viewport SimpleName MethodInvocation SimpleName e
+open viewport SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svgsvg element viewport
+open viewport SimpleName MethodInvocation ClassInstanceCreation SimpleName actual width
+open viewport SimpleName MethodInvocation ClassInstanceCreation SimpleName actual height
+e SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svgsvg element viewport
+e SimpleName MethodInvocation ClassInstanceCreation SimpleName actual width
+e SimpleName MethodInvocation ClassInstanceCreation SimpleName actual height
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+live attribute exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+ctx SimpleName ClassInstanceCreation SimpleName ex
+public Modifier MethodDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SimpleName create graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+graphics node SimpleName SimpleType MethodDeclaration SimpleName create graphics node
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create graphics node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create graphics node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

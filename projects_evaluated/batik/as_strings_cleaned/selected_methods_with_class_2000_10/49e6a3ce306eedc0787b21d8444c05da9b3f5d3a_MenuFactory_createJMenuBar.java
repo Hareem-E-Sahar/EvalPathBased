@@ -1,0 +1,59 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu bar
+j menu bar SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+get string list SimpleName MethodInvocation SimpleName name
+menus SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string list
+menus SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName menus
+menus SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName menus
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+create j menu component SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+create j menu component SimpleName MethodInvocation CastExpression MethodInvocation SimpleName it
+create j menu component SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation MethodInvocation SimpleName create j menu component
+add SimpleName MethodInvocation MethodInvocation SimpleName create j menu component
+public Modifier MethodDeclaration SimpleType SimpleName j menu bar
+public Modifier MethodDeclaration SimpleName create j menu bar
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SimpleType SimpleName missing resource exception
+public Modifier MethodDeclaration SimpleType SimpleName resource format exception
+j menu bar SimpleName SimpleType MethodDeclaration SimpleName create j menu bar
+j menu bar SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+j menu bar SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing resource exception
+j menu bar SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource format exception
+j menu bar SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing listener exception
+create j menu bar SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create j menu bar SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+create j menu bar SimpleName MethodDeclaration SimpleType SimpleName missing resource exception
+create j menu bar SimpleName MethodDeclaration SimpleType SimpleName resource format exception
+create j menu bar SimpleName MethodDeclaration SimpleType SimpleName missing listener exception
+create j menu bar SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName resource format exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName missing listener exception
+missing resource exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName resource format exception
+missing resource exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing listener exception
+resource format exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing listener exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName j menu bar
+public Modifier TypeDeclaration MethodDeclaration SimpleName create j menu bar
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource format exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName missing listener exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName j menu bar
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create j menu bar
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource format exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName missing listener exception

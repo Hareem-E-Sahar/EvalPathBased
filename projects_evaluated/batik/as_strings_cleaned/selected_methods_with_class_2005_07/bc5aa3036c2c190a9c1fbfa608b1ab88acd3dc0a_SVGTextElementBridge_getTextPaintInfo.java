@@ -1,0 +1,97 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+text paint info SimpleName SimpleType SingleVariableDeclaration SimpleName parent
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginetext decoration index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginetext decoration index
+element SimpleName MethodInvocation QualifiedName svgcss enginetext decoration index
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName css utilities
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+val SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss enginetext decoration index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+text paint info SimpleName SimpleType ClassInstanceCreation SimpleName parent
+pi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text paint info
+pi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName parent
+text paint info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pi
+css stylable element SimpleName SimpleType CastExpression SimpleName element
+element SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get computed style map
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style map
+style map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sm
+sm SimpleName MethodInvocation SimpleName is null cascaded
+sm SimpleName MethodInvocation QualifiedName svgcss enginetext decoration index
+is null cascaded SimpleName MethodInvocation QualifiedName svgcss enginetext decoration index
+sm SimpleName MethodInvocation SimpleName is null cascaded
+sm SimpleName MethodInvocation QualifiedName svgcss enginefill index
+is null cascaded SimpleName MethodInvocation QualifiedName svgcss enginefill index
+sm SimpleName MethodInvocation SimpleName is null cascaded
+sm SimpleName MethodInvocation QualifiedName svgcss enginestroke index
+is null cascaded SimpleName MethodInvocation QualifiedName svgcss enginestroke index
+sm SimpleName MethodInvocation SimpleName is null cascaded
+sm SimpleName MethodInvocation QualifiedName svgcss enginestroke width index
+is null cascaded SimpleName MethodInvocation QualifiedName svgcss enginestroke width index
+sm SimpleName MethodInvocation SimpleName is null cascaded
+sm SimpleName MethodInvocation QualifiedName svgcss engineopacity index
+is null cascaded SimpleName MethodInvocation QualifiedName svgcss engineopacity index
+set base text paint info SimpleName MethodInvocation SimpleName pi
+set base text paint info SimpleName MethodInvocation SimpleName element
+set base text paint info SimpleName MethodInvocation SimpleName node
+set base text paint info SimpleName MethodInvocation SimpleName ctx
+pi SimpleName MethodInvocation SimpleName element
+pi SimpleName MethodInvocation SimpleName node
+pi SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName node
+element SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName ctx
+sm SimpleName MethodInvocation SimpleName is null cascaded
+sm SimpleName MethodInvocation QualifiedName svgcss enginetext decoration index
+is null cascaded SimpleName MethodInvocation QualifiedName svgcss enginetext decoration index
+set decoration text paint info SimpleName MethodInvocation SimpleName pi
+set decoration text paint info SimpleName MethodInvocation SimpleName element
+pi SimpleName MethodInvocation SimpleName element
+protected Modifier MethodDeclaration SimpleType SimpleName text paint info
+protected Modifier MethodDeclaration SimpleName get text paint info
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text paint info
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent
+text paint info SimpleName SimpleType MethodDeclaration SimpleName get text paint info
+text paint info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+text paint info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+text paint info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName parent
+text paint info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+get text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+get text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+get text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+get text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text paint info
+get text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent
+get text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+get text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+get text paint info SimpleName MethodDeclaration Block ReturnStatement SimpleName pi
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+parent SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text paint info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get text paint info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text paint info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get text paint info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

@@ -1,0 +1,15 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tag name
+boolean PrimitiveType MethodDeclaration SimpleName allow space at start
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tag name
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+allow space at start SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+allow space at start SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tag name
+allow space at start SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName allow space at start
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tag name
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName allow space at start
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tag name

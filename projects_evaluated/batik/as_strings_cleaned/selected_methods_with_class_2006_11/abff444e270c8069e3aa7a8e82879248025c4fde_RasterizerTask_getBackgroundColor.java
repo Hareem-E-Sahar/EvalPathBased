@@ -1,0 +1,122 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName argb
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName argb
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral trf
+argb SimpleName ClassInstanceCreation StringLiteral trf
+tokenizer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+tokenizer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName argb
+tokenizer SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral trf
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tokenizer
+tokenizer SimpleName MethodInvocation SimpleName count tokens
+tokenizer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+count tokens SimpleName MethodInvocation InfixExpression NumberLiteral empty
+a SimpleName Assignment NumberLiteral empty
+tokenizer SimpleName MethodInvocation SimpleName count tokens
+tokenizer SimpleName MethodInvocation InfixExpression NumberLiteral empty
+count tokens SimpleName MethodInvocation InfixExpression NumberLiteral empty
+tokenizer SimpleName MethodInvocation SimpleName next token
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+integer SimpleName MethodInvocation MethodInvocation SimpleName next token
+parse int SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+parse int SimpleName MethodInvocation MethodInvocation SimpleName next token
+a SimpleName Assignment MethodInvocation SimpleName integer
+a SimpleName Assignment MethodInvocation SimpleName parse int
+a SimpleName Assignment MethodInvocation MethodInvocation SimpleName tokenizer
+a SimpleName Assignment MethodInvocation MethodInvocation SimpleName next token
+build exception SimpleName SimpleType ClassInstanceCreation StringLiteral there must be either three or four numbers in bg parameter alpha red green and blue
+tokenizer SimpleName MethodInvocation SimpleName next token
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+integer SimpleName MethodInvocation MethodInvocation SimpleName next token
+parse int SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+parse int SimpleName MethodInvocation MethodInvocation SimpleName next token
+r SimpleName Assignment MethodInvocation SimpleName integer
+r SimpleName Assignment MethodInvocation SimpleName parse int
+r SimpleName Assignment MethodInvocation MethodInvocation SimpleName tokenizer
+r SimpleName Assignment MethodInvocation MethodInvocation SimpleName next token
+tokenizer SimpleName MethodInvocation SimpleName next token
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+integer SimpleName MethodInvocation MethodInvocation SimpleName next token
+parse int SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+parse int SimpleName MethodInvocation MethodInvocation SimpleName next token
+g SimpleName Assignment MethodInvocation SimpleName integer
+g SimpleName Assignment MethodInvocation SimpleName parse int
+g SimpleName Assignment MethodInvocation MethodInvocation SimpleName tokenizer
+g SimpleName Assignment MethodInvocation MethodInvocation SimpleName next token
+tokenizer SimpleName MethodInvocation SimpleName next token
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+integer SimpleName MethodInvocation MethodInvocation SimpleName next token
+parse int SimpleName MethodInvocation MethodInvocation SimpleName tokenizer
+parse int SimpleName MethodInvocation MethodInvocation SimpleName next token
+b SimpleName Assignment MethodInvocation SimpleName integer
+b SimpleName Assignment MethodInvocation SimpleName parse int
+b SimpleName Assignment MethodInvocation MethodInvocation SimpleName tokenizer
+b SimpleName Assignment MethodInvocation MethodInvocation SimpleName next token
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName nfe
+nfe SimpleName MethodInvocation SimpleName to string
+invalid bg parameter value StringLiteral InfixExpression MethodInvocation SimpleName nfe
+invalid bg parameter value StringLiteral InfixExpression MethodInvocation SimpleName to string
+build exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral invalid bg parameter value
+a SimpleName InfixExpression NumberLiteral empty
+a SimpleName InfixExpression NumberLiteral empty
+r SimpleName InfixExpression NumberLiteral empty
+r SimpleName InfixExpression NumberLiteral empty
+g SimpleName InfixExpression NumberLiteral empty
+g SimpleName InfixExpression NumberLiteral empty
+b SimpleName InfixExpression NumberLiteral empty
+b SimpleName InfixExpression NumberLiteral empty
+build exception SimpleName SimpleType ClassInstanceCreation StringLiteral bg parameter value is invalid numbers have to be between and .
+color SimpleName SimpleType ClassInstanceCreation SimpleName r
+color SimpleName SimpleType ClassInstanceCreation SimpleName g
+color SimpleName SimpleType ClassInstanceCreation SimpleName b
+color SimpleName SimpleType ClassInstanceCreation SimpleName a
+r SimpleName ClassInstanceCreation SimpleName g
+r SimpleName ClassInstanceCreation SimpleName b
+r SimpleName ClassInstanceCreation SimpleName a
+g SimpleName ClassInstanceCreation SimpleName b
+g SimpleName ClassInstanceCreation SimpleName a
+b SimpleName ClassInstanceCreation SimpleName a
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration SimpleType SimpleName color
+protected Modifier MethodDeclaration SimpleName get background color
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName argb
+protected Modifier MethodDeclaration SimpleType SimpleName build exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+color SimpleName SimpleType MethodDeclaration SimpleName get background color
+color SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName argb
+color SimpleName SimpleType MethodDeclaration SimpleType SimpleName build exception
+get background color SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get background color SimpleName MethodDeclaration SingleVariableDeclaration SimpleName argb
+get background color SimpleName MethodDeclaration SimpleType SimpleName build exception
+get background color SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get background color SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get background color SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get background color SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+argb SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName build exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName color
+public Modifier TypeDeclaration MethodDeclaration SimpleName get background color
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName argb
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName build exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName color
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get background color
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName argb
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName build exception

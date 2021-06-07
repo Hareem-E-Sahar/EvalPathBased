@@ -1,0 +1,15 @@
+location SimpleName SimpleType ClassInstanceCreation SimpleName bridge context
+location SimpleName Assignment ClassInstanceCreation SimpleType SimpleName location
+location SimpleName Assignment ClassInstanceCreation SimpleName bridge context
+public Modifier MethodDeclaration SimpleType QualifiedName orgapachebatikw cdomlocation
+public Modifier MethodDeclaration SimpleName get location
+public Modifier MethodDeclaration Block ReturnStatement SimpleName location
+orgapachebatikw cdomlocation QualifiedName SimpleType MethodDeclaration SimpleName get location
+get location SimpleName MethodDeclaration Block ReturnStatement SimpleName location
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapachebatikw cdomlocation
+public Modifier TypeDeclaration MethodDeclaration SimpleName get location
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapachebatikw cdomlocation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get location

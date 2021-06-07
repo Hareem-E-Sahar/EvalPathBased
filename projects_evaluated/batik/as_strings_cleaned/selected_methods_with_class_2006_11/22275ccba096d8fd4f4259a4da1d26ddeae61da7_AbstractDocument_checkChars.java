@@ -1,0 +1,73 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+xml version SimpleName MethodInvocation SimpleName equals
+xml version SimpleName MethodInvocation QualifiedName xml constantsxml version
+equals SimpleName MethodInvocation QualifiedName xml constantsxml version
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+dom utilities SimpleName MethodInvocation SimpleName is xml character
+dom utilities SimpleName MethodInvocation MethodInvocation SimpleName s
+dom utilities SimpleName MethodInvocation MethodInvocation SimpleName char at
+dom utilities SimpleName MethodInvocation MethodInvocation SimpleName i
+is xml character SimpleName MethodInvocation MethodInvocation SimpleName s
+is xml character SimpleName MethodInvocation MethodInvocation SimpleName char at
+is xml character SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+dom utilities SimpleName MethodInvocation SimpleName is xml character
+dom utilities SimpleName MethodInvocation MethodInvocation SimpleName s
+dom utilities SimpleName MethodInvocation MethodInvocation SimpleName char at
+dom utilities SimpleName MethodInvocation MethodInvocation SimpleName i
+is xml character SimpleName MethodInvocation MethodInvocation SimpleName s
+is xml character SimpleName MethodInvocation MethodInvocation SimpleName char at
+is xml character SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName check chars
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName check chars
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+check chars SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check chars SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+check chars SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+check chars SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check chars
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check chars
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

@@ -1,0 +1,6 @@
+resource bundle SimpleName SimpleType MethodDeclaration SimpleName get resource bundle
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName resource bundle
+public Modifier TypeDeclaration MethodDeclaration SimpleName get resource bundle
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName resource bundle
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get resource bundle

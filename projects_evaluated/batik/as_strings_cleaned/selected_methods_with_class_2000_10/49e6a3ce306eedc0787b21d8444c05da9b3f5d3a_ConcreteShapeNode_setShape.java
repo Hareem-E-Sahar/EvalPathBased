@@ -1,0 +1,29 @@
+shape SimpleName SimpleType SingleVariableDeclaration SimpleName new shape
+old shape SimpleName VariableDeclarationFragment SimpleName shape
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old shape
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shape
+shape SimpleName FieldAccess Assignment SimpleName new shape
+fire property change SimpleName MethodInvocation StringLiteral shape
+fire property change SimpleName MethodInvocation SimpleName old shape
+fire property change SimpleName MethodInvocation SimpleName new shape
+shape StringLiteral MethodInvocation SimpleName old shape
+shape StringLiteral MethodInvocation SimpleName new shape
+old shape SimpleName MethodInvocation SimpleName new shape
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set shape
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new shape
+void PrimitiveType MethodDeclaration SimpleName set shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new shape
+set shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+set shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new shape
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set shape
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new shape
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set shape
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new shape

@@ -1,0 +1,56 @@
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName is
+boolean PrimitiveType SingleVariableDeclaration SimpleName can seek backwards
+seekable stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stream
+file cache seekable stream SimpleName SimpleType ClassInstanceCreation SimpleName is
+stream SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file cache seekable stream
+stream SimpleName Assignment ClassInstanceCreation SimpleName is
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+memory cache seekable stream SimpleName SimpleType ClassInstanceCreation SimpleName is
+stream SimpleName Assignment ClassInstanceCreation SimpleType SimpleName memory cache seekable stream
+stream SimpleName Assignment ClassInstanceCreation SimpleName is
+forward seekable stream SimpleName SimpleType ClassInstanceCreation SimpleName is
+stream SimpleName Assignment ClassInstanceCreation SimpleType SimpleName forward seekable stream
+stream SimpleName Assignment ClassInstanceCreation SimpleName is
+can seek backwards SimpleName IfStatement Block ReturnStatement SimpleName stream
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName seekable stream
+public Modifier MethodDeclaration SimpleName wrap input stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName can seek backwards
+static Modifier MethodDeclaration SimpleType SimpleName seekable stream
+static Modifier MethodDeclaration SimpleName wrap input stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName is
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName can seek backwards
+static Modifier MethodDeclaration Block IfStatement SimpleName can seek backwards
+static Modifier MethodDeclaration Block ReturnStatement SimpleName stream
+seekable stream SimpleName SimpleType MethodDeclaration SimpleName wrap input stream
+seekable stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is
+seekable stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+seekable stream SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName can seek backwards
+wrap input stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+wrap input stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is
+wrap input stream SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+wrap input stream SimpleName MethodDeclaration SingleVariableDeclaration SimpleName can seek backwards
+wrap input stream SimpleName MethodDeclaration Block IfStatement SimpleName can seek backwards
+wrap input stream SimpleName MethodDeclaration Block ReturnStatement SimpleName stream
+is SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+is SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName can seek backwards
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName seekable stream
+public Modifier TypeDeclaration MethodDeclaration SimpleName wrap input stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName can seek backwards
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName seekable stream
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wrap input stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName can seek backwards

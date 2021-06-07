@@ -1,0 +1,13 @@
+affine transform SimpleName SimpleType SingleVariableDeclaration SimpleName new transform
+void PrimitiveType MethodDeclaration SimpleName set transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new transform
+set transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+set transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new transform
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new transform
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new transform

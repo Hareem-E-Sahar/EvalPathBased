@@ -1,0 +1,21 @@
+entity resolver SimpleName SimpleType SingleVariableDeclaration SimpleName resolver
+null pointer exception SimpleName SimpleType ClassInstanceCreation StringLiteral null entity resolver
+entity resolver SimpleName Assignment SimpleName resolver
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set entity resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resolver
+void PrimitiveType MethodDeclaration SimpleName set entity resolver
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity resolver
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resolver
+set entity resolver SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName entity resolver
+set entity resolver SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resolver
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set entity resolver
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set entity resolver
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver

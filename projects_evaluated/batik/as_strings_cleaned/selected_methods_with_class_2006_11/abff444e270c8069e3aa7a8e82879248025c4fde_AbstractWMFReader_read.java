@@ -1,0 +1,132 @@
+data input stream SimpleName SimpleType SingleVariableDeclaration SimpleName is
+set reading SimpleName MethodInvocation BooleanLiteral true
+read int SimpleName MethodInvocation SimpleName is
+dw is aldus SimpleName VariableDeclarationFragment MethodInvocation SimpleName read int
+dw is aldus SimpleName VariableDeclarationFragment MethodInvocation SimpleName is
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dw is aldus
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is
+dw is aldus SimpleName InfixExpression QualifiedName wmf constantsmeta aldus apm
+key SimpleName VariableDeclarationFragment SimpleName dw is aldus
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dw is aldus
+read short SimpleName MethodInvocation SimpleName is
+read short SimpleName MethodInvocation SimpleName is
+left SimpleName Assignment MethodInvocation SimpleName read short
+left SimpleName Assignment MethodInvocation SimpleName is
+read short SimpleName MethodInvocation SimpleName is
+top SimpleName Assignment MethodInvocation SimpleName read short
+top SimpleName Assignment MethodInvocation SimpleName is
+read short SimpleName MethodInvocation SimpleName is
+right SimpleName Assignment MethodInvocation SimpleName read short
+right SimpleName Assignment MethodInvocation SimpleName is
+read short SimpleName MethodInvocation SimpleName is
+bottom SimpleName Assignment MethodInvocation SimpleName read short
+bottom SimpleName Assignment MethodInvocation SimpleName is
+read short SimpleName MethodInvocation SimpleName is
+inch SimpleName Assignment MethodInvocation SimpleName read short
+inch SimpleName Assignment MethodInvocation SimpleName is
+read int SimpleName MethodInvocation SimpleName is
+reserved SimpleName VariableDeclarationFragment MethodInvocation SimpleName read int
+reserved SimpleName VariableDeclarationFragment MethodInvocation SimpleName is
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName reserved
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is
+read short SimpleName MethodInvocation SimpleName is
+checksum SimpleName VariableDeclarationFragment MethodInvocation SimpleName read short
+checksum SimpleName VariableDeclarationFragment MethodInvocation SimpleName is
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName checksum
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read short
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is
+right SimpleName InfixExpression SimpleName left
+width SimpleName Assignment InfixExpression SimpleName right
+width SimpleName Assignment InfixExpression SimpleName left
+bottom SimpleName InfixExpression SimpleName top
+height SimpleName Assignment InfixExpression SimpleName bottom
+height SimpleName Assignment InfixExpression SimpleName top
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType short
+set reading SimpleName MethodInvocation BooleanLiteral false
+is SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral unable to read file it is not a aldus placable metafile
+read short SimpleName MethodInvocation SimpleName is
+mt type SimpleName Assignment MethodInvocation SimpleName read short
+mt type SimpleName Assignment MethodInvocation SimpleName is
+read short SimpleName MethodInvocation SimpleName is
+mt header size SimpleName Assignment MethodInvocation SimpleName read short
+mt header size SimpleName Assignment MethodInvocation SimpleName is
+read short SimpleName MethodInvocation SimpleName is
+mt version SimpleName Assignment MethodInvocation SimpleName read short
+mt version SimpleName Assignment MethodInvocation SimpleName is
+read int SimpleName MethodInvocation SimpleName is
+mt size SimpleName Assignment MethodInvocation SimpleName read int
+mt size SimpleName Assignment MethodInvocation SimpleName is
+read short SimpleName MethodInvocation SimpleName is
+mt no objects SimpleName Assignment MethodInvocation SimpleName read short
+mt no objects SimpleName Assignment MethodInvocation SimpleName is
+read int SimpleName MethodInvocation SimpleName is
+mt max record SimpleName Assignment MethodInvocation SimpleName read int
+mt max record SimpleName Assignment MethodInvocation SimpleName is
+read short SimpleName MethodInvocation SimpleName is
+mt no parameters SimpleName Assignment MethodInvocation SimpleName read short
+mt no parameters SimpleName Assignment MethodInvocation SimpleName is
+num objects SimpleName Assignment SimpleName mt no objects
+object vector SimpleName MethodInvocation SimpleName ensure capacity
+object vector SimpleName MethodInvocation SimpleName num objects
+ensure capacity SimpleName MethodInvocation SimpleName num objects
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num objects
+gdi object SimpleName SimpleType ClassInstanceCreation SimpleName i
+gdi object SimpleName SimpleType ClassInstanceCreation BooleanLiteral false
+i SimpleName ClassInstanceCreation BooleanLiteral false
+object vector SimpleName MethodInvocation SimpleName add element
+object vector SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName gdi object
+object vector SimpleName MethodInvocation ClassInstanceCreation SimpleName i
+object vector SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+add element SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName gdi object
+add element SimpleName MethodInvocation ClassInstanceCreation SimpleName i
+add element SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num objects
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num objects SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+read records SimpleName MethodInvocation SimpleName is
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName read records
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName is
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read records
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName is
+is SimpleName MethodInvocation SimpleName close
+io exception SimpleName SimpleType ClassInstanceCreation StringLiteral unhandled exception while reading records
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName read
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration SimpleName read
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName is
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input stream
+read SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is
+read SimpleName MethodDeclaration SimpleType SimpleName io exception
+read SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+is SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName read
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

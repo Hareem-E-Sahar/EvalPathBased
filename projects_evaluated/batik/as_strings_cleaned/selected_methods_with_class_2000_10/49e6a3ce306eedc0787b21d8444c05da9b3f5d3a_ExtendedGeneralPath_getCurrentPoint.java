@@ -1,0 +1,16 @@
+path SimpleName MethodInvocation SimpleName get current point
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration SimpleType SimpleName point d
+public Modifier MethodDeclaration SimpleName get current point
+synchronized Modifier MethodDeclaration SimpleType SimpleName point d
+synchronized Modifier MethodDeclaration SimpleName get current point
+point d SimpleName SimpleType MethodDeclaration SimpleName get current point
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName point d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current point
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName point d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current point

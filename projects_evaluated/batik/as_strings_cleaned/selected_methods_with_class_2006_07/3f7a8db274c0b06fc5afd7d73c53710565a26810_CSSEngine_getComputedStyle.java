@@ -1,0 +1,167 @@
+css stylable element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pseudo
+int PrimitiveType SingleVariableDeclaration SimpleName propidx
+elt SimpleName MethodInvocation SimpleName get computed style map
+elt SimpleName MethodInvocation SimpleName pseudo
+get computed style map SimpleName MethodInvocation SimpleName pseudo
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style map
+sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName pseudo
+style map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sm
+get cascaded style map SimpleName MethodInvocation SimpleName elt
+get cascaded style map SimpleName MethodInvocation SimpleName pseudo
+elt SimpleName MethodInvocation SimpleName pseudo
+sm SimpleName Assignment MethodInvocation SimpleName get cascaded style map
+sm SimpleName Assignment MethodInvocation SimpleName elt
+sm SimpleName Assignment MethodInvocation SimpleName pseudo
+elt SimpleName MethodInvocation SimpleName set computed style map
+elt SimpleName MethodInvocation SimpleName pseudo
+elt SimpleName MethodInvocation SimpleName sm
+set computed style map SimpleName MethodInvocation SimpleName pseudo
+set computed style map SimpleName MethodInvocation SimpleName sm
+pseudo SimpleName MethodInvocation SimpleName sm
+sm SimpleName MethodInvocation SimpleName get value
+sm SimpleName MethodInvocation SimpleName propidx
+get value SimpleName MethodInvocation SimpleName propidx
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName sm
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName propidx
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+sm SimpleName MethodInvocation SimpleName is computed
+sm SimpleName MethodInvocation SimpleName propidx
+is computed SimpleName MethodInvocation SimpleName propidx
+sm SimpleName MethodInvocation IfStatement ReturnStatement SimpleName value
+is computed SimpleName MethodInvocation IfStatement ReturnStatement SimpleName value
+propidx SimpleName MethodInvocation IfStatement ReturnStatement SimpleName value
+result SimpleName VariableDeclarationFragment SimpleName value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value managers SimpleName ArrayAccess SimpleName propidx
+vm SimpleName VariableDeclarationFragment ArrayAccess SimpleName value managers
+vm SimpleName VariableDeclarationFragment ArrayAccess SimpleName propidx
+value manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vm
+get parent css stylable element SimpleName MethodInvocation SimpleName elt
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent css stylable element
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+css stylable element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+vm SimpleName MethodInvocation SimpleName is inherited property
+vm SimpleName MethodInvocation SimpleName get default value
+result SimpleName Assignment MethodInvocation SimpleName vm
+result SimpleName Assignment MethodInvocation SimpleName get default value
+value SimpleName InfixExpression QualifiedName inherit valueinstance
+get computed style SimpleName MethodInvocation SimpleName p
+get computed style SimpleName MethodInvocation SimpleName propidx
+p SimpleName MethodInvocation SimpleName propidx
+result SimpleName Assignment MethodInvocation SimpleName get computed style
+result SimpleName Assignment MethodInvocation SimpleName p
+result SimpleName Assignment MethodInvocation SimpleName propidx
+sm SimpleName MethodInvocation SimpleName put parent relative
+sm SimpleName MethodInvocation SimpleName propidx
+sm SimpleName MethodInvocation BooleanLiteral true
+put parent relative SimpleName MethodInvocation SimpleName propidx
+put parent relative SimpleName MethodInvocation BooleanLiteral true
+propidx SimpleName MethodInvocation BooleanLiteral true
+sm SimpleName MethodInvocation SimpleName put inherited
+sm SimpleName MethodInvocation SimpleName propidx
+sm SimpleName MethodInvocation BooleanLiteral true
+put inherited SimpleName MethodInvocation SimpleName propidx
+put inherited SimpleName MethodInvocation BooleanLiteral true
+propidx SimpleName MethodInvocation BooleanLiteral true
+vm SimpleName MethodInvocation SimpleName compute value
+vm SimpleName MethodInvocation SimpleName elt
+vm SimpleName MethodInvocation SimpleName pseudo
+vm SimpleName MethodInvocation SimpleName propidx
+compute value SimpleName MethodInvocation SimpleName elt
+compute value SimpleName MethodInvocation SimpleName pseudo
+compute value SimpleName MethodInvocation SimpleName propidx
+compute value SimpleName MethodInvocation SimpleName sm
+elt SimpleName MethodInvocation SimpleName pseudo
+elt SimpleName MethodInvocation SimpleName propidx
+elt SimpleName MethodInvocation SimpleName sm
+elt SimpleName MethodInvocation SimpleName result
+pseudo SimpleName MethodInvocation SimpleName propidx
+pseudo SimpleName MethodInvocation SimpleName sm
+pseudo SimpleName MethodInvocation SimpleName result
+propidx SimpleName MethodInvocation SimpleName sm
+propidx SimpleName MethodInvocation SimpleName result
+sm SimpleName MethodInvocation SimpleName result
+result SimpleName Assignment MethodInvocation SimpleName vm
+result SimpleName Assignment MethodInvocation SimpleName compute value
+result SimpleName Assignment MethodInvocation SimpleName elt
+result SimpleName Assignment MethodInvocation SimpleName pseudo
+result SimpleName Assignment MethodInvocation SimpleName propidx
+result SimpleName Assignment MethodInvocation SimpleName sm
+result SimpleName Assignment MethodInvocation SimpleName result
+sm SimpleName MethodInvocation SimpleName put value
+sm SimpleName MethodInvocation SimpleName propidx
+sm SimpleName MethodInvocation SimpleName result
+put value SimpleName MethodInvocation SimpleName propidx
+put value SimpleName MethodInvocation SimpleName result
+propidx SimpleName MethodInvocation SimpleName result
+sm SimpleName MethodInvocation SimpleName put null cascaded
+sm SimpleName MethodInvocation SimpleName propidx
+sm SimpleName MethodInvocation BooleanLiteral true
+put null cascaded SimpleName MethodInvocation SimpleName propidx
+put null cascaded SimpleName MethodInvocation BooleanLiteral true
+propidx SimpleName MethodInvocation BooleanLiteral true
+result SimpleName InfixExpression SimpleName value
+computed value SimpleName SimpleType ClassInstanceCreation SimpleName value
+cv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName computed value
+cv SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName value
+computed value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cv
+cv SimpleName MethodInvocation SimpleName set computed value
+cv SimpleName MethodInvocation SimpleName result
+set computed value SimpleName MethodInvocation SimpleName result
+sm SimpleName MethodInvocation SimpleName put value
+sm SimpleName MethodInvocation SimpleName propidx
+sm SimpleName MethodInvocation SimpleName cv
+put value SimpleName MethodInvocation SimpleName propidx
+put value SimpleName MethodInvocation SimpleName cv
+propidx SimpleName MethodInvocation SimpleName cv
+result SimpleName Assignment SimpleName cv
+sm SimpleName MethodInvocation SimpleName put computed
+sm SimpleName MethodInvocation SimpleName propidx
+sm SimpleName MethodInvocation BooleanLiteral true
+put computed SimpleName MethodInvocation SimpleName propidx
+put computed SimpleName MethodInvocation BooleanLiteral true
+propidx SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName get computed style
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css stylable element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pseudo
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName propidx
+value SimpleName SimpleType MethodDeclaration SimpleName get computed style
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pseudo
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName propidx
+get computed style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css stylable element
+get computed style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+get computed style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get computed style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pseudo
+get computed style SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get computed style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName propidx
+get computed style SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName propidx
+pseudo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+pseudo SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName propidx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get computed style
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName propidx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get computed style
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName propidx

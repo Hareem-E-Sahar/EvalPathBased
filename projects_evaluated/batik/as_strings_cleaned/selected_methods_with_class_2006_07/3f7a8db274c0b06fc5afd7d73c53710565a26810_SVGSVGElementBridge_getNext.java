@@ -1,0 +1,61 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName curr
+element SimpleName SimpleType SingleVariableDeclaration SimpleName base
+element SimpleName SimpleType SingleVariableDeclaration SimpleName end
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next
+curr SimpleName MethodInvocation SimpleName get next sibling
+next SimpleName Assignment MethodInvocation SimpleName curr
+next SimpleName Assignment MethodInvocation SimpleName get next sibling
+next SimpleName InstanceofExpression SimpleType SimpleName element
+next SimpleName MethodInvocation SimpleName get next sibling
+next SimpleName Assignment MethodInvocation SimpleName next
+next SimpleName Assignment MethodInvocation SimpleName get next sibling
+curr SimpleName MethodInvocation SimpleName get parent node
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName curr
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get parent node
+curr SimpleName Assignment CastExpression SimpleType SimpleName element
+curr SimpleName Assignment CastExpression MethodInvocation SimpleName curr
+curr SimpleName Assignment CastExpression MethodInvocation SimpleName get parent node
+curr SimpleName InfixExpression SimpleName end
+curr SimpleName InfixExpression SimpleName base
+curr SimpleName MethodInvocation SimpleName get next sibling
+next SimpleName Assignment MethodInvocation SimpleName curr
+next SimpleName Assignment MethodInvocation SimpleName get next sibling
+next SimpleName InstanceofExpression SimpleType SimpleName element
+next SimpleName MethodInvocation SimpleName get next sibling
+next SimpleName Assignment MethodInvocation SimpleName next
+next SimpleName Assignment MethodInvocation SimpleName get next sibling
+element SimpleName SimpleType CastExpression SimpleName next
+protected Modifier MethodDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SimpleName get next
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName curr
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName base
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName end
+element SimpleName SimpleType MethodDeclaration SimpleName get next
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName curr
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName base
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end
+get next SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get next SimpleName MethodDeclaration SingleVariableDeclaration SimpleName curr
+get next SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get next SimpleName MethodDeclaration SingleVariableDeclaration SimpleName base
+get next SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get next SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end
+curr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base
+curr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+base SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get next
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get next
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end

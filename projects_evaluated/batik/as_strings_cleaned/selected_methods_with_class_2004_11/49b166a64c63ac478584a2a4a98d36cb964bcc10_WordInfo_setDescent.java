@@ -1,0 +1,22 @@
+float PrimitiveType SingleVariableDeclaration SimpleName descent
+descent SimpleName FieldAccess Assignment SimpleName descent
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set descent
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName descent
+void PrimitiveType MethodDeclaration SimpleName set descent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName descent
+set descent SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set descent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName descent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set descent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName descent
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set descent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName descent

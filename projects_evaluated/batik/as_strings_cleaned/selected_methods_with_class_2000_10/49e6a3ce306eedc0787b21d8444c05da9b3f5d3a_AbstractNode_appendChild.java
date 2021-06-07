@@ -1,0 +1,28 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName new child
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionhierarchy request err
+create dom exception SimpleName MethodInvocation StringLiteral childrennotallowed
+dom exceptionhierarchy request err QualifiedName MethodInvocation StringLiteral childrennotallowed
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName append child
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new child
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+node SimpleName SimpleType MethodDeclaration SimpleName append child
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new child
+node SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+append child SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+append child SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new child
+append child SimpleName MethodDeclaration SimpleType SimpleName dom exception
+new child SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName append child
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new child
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append child
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new child
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

@@ -1,0 +1,38 @@
+float PrimitiveType SingleVariableDeclaration SimpleName skx
+skew x StringLiteral InfixExpression SimpleName skx
+skew x StringLiteral InfixExpression StringLiteral )
+skx SimpleName InfixExpression StringLiteral )
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral skew x
+systemout QualifiedName MethodInvocation InfixExpression SimpleName skx
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral )
+println SimpleName MethodInvocation InfixExpression StringLiteral skew x
+println SimpleName MethodInvocation InfixExpression SimpleName skx
+println SimpleName MethodInvocation InfixExpression StringLiteral )
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName skew x
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName skx
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleName skew x
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName skx
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+skew x SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+skew x SimpleName MethodDeclaration SingleVariableDeclaration SimpleName skx
+skew x SimpleName MethodDeclaration SimpleType SimpleName parse exception
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+skx SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName skew x
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName skx
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName skew x
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName skx
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

@@ -1,0 +1,19 @@
+stylable support SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svg stylable support
+protected Modifier MethodDeclaration Modifier final
+protected Modifier MethodDeclaration SimpleType SimpleName svg stylable support
+protected Modifier MethodDeclaration SimpleName get stylable support
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName stylable support
+final Modifier MethodDeclaration SimpleType SimpleName svg stylable support
+final Modifier MethodDeclaration SimpleName get stylable support
+final Modifier MethodDeclaration Block ReturnStatement SimpleName stylable support
+svg stylable support SimpleName SimpleType MethodDeclaration SimpleName get stylable support
+get stylable support SimpleName MethodDeclaration Block ReturnStatement SimpleName stylable support
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg stylable support
+public Modifier TypeDeclaration MethodDeclaration SimpleName get stylable support
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg stylable support
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get stylable support

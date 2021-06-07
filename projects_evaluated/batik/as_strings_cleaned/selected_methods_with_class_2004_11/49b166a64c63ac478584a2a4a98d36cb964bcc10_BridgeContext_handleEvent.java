@@ -1,0 +1,44 @@
+event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get target
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName evt
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName get target
+node SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node
+node SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName evt
+node SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get target
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+node SimpleName InstanceofExpression SimpleType SimpleName svgom element
+node SimpleName MethodInvocation SimpleName get parent node
+node SimpleName Assignment MethodInvocation SimpleName node
+node SimpleName Assignment MethodInvocation SimpleName get parent node
+get bridge update handler SimpleName MethodInvocation SimpleName node
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bridge update handler
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+bridge update handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+mutation event SimpleName SimpleType CastExpression SimpleName evt
+h SimpleName MethodInvocation SimpleName handle dom character data modified
+h SimpleName MethodInvocation CastExpression SimpleType SimpleName mutation event
+h SimpleName MethodInvocation CastExpression SimpleName evt
+handle dom character data modified SimpleName MethodInvocation CastExpression SimpleType SimpleName mutation event
+handle dom character data modified SimpleName MethodInvocation CastExpression SimpleName evt
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName handle event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

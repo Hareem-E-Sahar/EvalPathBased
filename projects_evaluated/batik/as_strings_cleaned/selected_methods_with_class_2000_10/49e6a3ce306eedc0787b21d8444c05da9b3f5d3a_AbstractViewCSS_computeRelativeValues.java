@@ -1,0 +1,211 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pe
+cssom read only style declaration SimpleName SimpleType SingleVariableDeclaration SimpleName rd
+cssom read only style declaration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sd
+cssom read only value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName orig
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prio
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prop
+relative value resolvers SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName relative value resolvers
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+relative value resolver SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+relative value resolver SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+rvr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName relative value resolver
+rvr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName it
+rvr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+relative value resolver SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rvr
+rvr SimpleName MethodInvocation SimpleName get property name
+prop SimpleName Assignment MethodInvocation SimpleName rvr
+prop SimpleName Assignment MethodInvocation SimpleName get property name
+rd SimpleName MethodInvocation SimpleName get property css value
+rd SimpleName MethodInvocation SimpleName prop
+get property css value SimpleName MethodInvocation SimpleName prop
+cssom read only value SimpleName SimpleType CastExpression MethodInvocation SimpleName rd
+cssom read only value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+cssom read only value SimpleName SimpleType CastExpression MethodInvocation SimpleName prop
+val SimpleName Assignment CastExpression SimpleType SimpleName cssom read only value
+val SimpleName Assignment CastExpression MethodInvocation SimpleName rd
+val SimpleName Assignment CastExpression MethodInvocation SimpleName get property css value
+val SimpleName Assignment CastExpression MethodInvocation SimpleName prop
+rd SimpleName MethodInvocation SimpleName get property priority
+rd SimpleName MethodInvocation SimpleName prop
+get property priority SimpleName MethodInvocation SimpleName prop
+prio SimpleName Assignment MethodInvocation SimpleName rd
+prio SimpleName Assignment MethodInvocation SimpleName get property priority
+prio SimpleName Assignment MethodInvocation SimpleName prop
+rd SimpleName MethodInvocation SimpleName get property origin
+rd SimpleName MethodInvocation SimpleName prop
+get property origin SimpleName MethodInvocation SimpleName prop
+orig SimpleName Assignment MethodInvocation SimpleName rd
+orig SimpleName Assignment MethodInvocation SimpleName get property origin
+orig SimpleName Assignment MethodInvocation SimpleName prop
+rvr SimpleName MethodInvocation SimpleName is inherited property
+val SimpleName MethodInvocation SimpleName get css value type
+val SimpleName MethodInvocation InfixExpression QualifiedName css valuecss inherit
+get css value type SimpleName MethodInvocation InfixExpression QualifiedName css valuecss inherit
+val SimpleName InfixExpression InfixExpression InfixExpression QualifiedName css valuecss inherit
+rvr SimpleName MethodInvocation SimpleName is inherited property
+val SimpleName MethodInvocation SimpleName get css value type
+val SimpleName MethodInvocation InfixExpression QualifiedName css valuecss inherit
+get css value type SimpleName MethodInvocation InfixExpression QualifiedName css valuecss inherit
+val SimpleName InfixExpression InfixExpression InfixExpression QualifiedName css valuecss inherit
+css value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+get parent element SimpleName MethodInvocation SimpleName e
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent element
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+get computed style SimpleName MethodInvocation SimpleName elt
+cssom read only style declaration SimpleName SimpleType CastExpression MethodInvocation SimpleName get computed style
+cssom read only style declaration SimpleName SimpleType CastExpression MethodInvocation SimpleName elt
+sd SimpleName Assignment CastExpression SimpleType SimpleName cssom read only style declaration
+sd SimpleName Assignment CastExpression MethodInvocation SimpleName get computed style
+sd SimpleName Assignment CastExpression MethodInvocation SimpleName elt
+sd SimpleName MethodInvocation SimpleName get property css value
+sd SimpleName MethodInvocation SimpleName prop
+get property css value SimpleName MethodInvocation SimpleName prop
+sd SimpleName MethodInvocation SimpleName get property priority
+sd SimpleName MethodInvocation SimpleName prop
+get property priority SimpleName MethodInvocation SimpleName prop
+sd SimpleName MethodInvocation SimpleName get property origin
+sd SimpleName MethodInvocation SimpleName prop
+get property origin SimpleName MethodInvocation SimpleName prop
+rd SimpleName MethodInvocation SimpleName set property css value
+rd SimpleName MethodInvocation SimpleName prop
+rd SimpleName MethodInvocation MethodInvocation SimpleName sd
+rd SimpleName MethodInvocation MethodInvocation SimpleName get property css value
+rd SimpleName MethodInvocation MethodInvocation SimpleName prop
+rd SimpleName MethodInvocation MethodInvocation SimpleName sd
+rd SimpleName MethodInvocation MethodInvocation SimpleName get property priority
+rd SimpleName MethodInvocation MethodInvocation SimpleName prop
+rd SimpleName MethodInvocation MethodInvocation SimpleName sd
+rd SimpleName MethodInvocation MethodInvocation SimpleName get property origin
+rd SimpleName MethodInvocation MethodInvocation SimpleName prop
+set property css value SimpleName MethodInvocation SimpleName prop
+set property css value SimpleName MethodInvocation MethodInvocation SimpleName sd
+set property css value SimpleName MethodInvocation MethodInvocation SimpleName get property css value
+set property css value SimpleName MethodInvocation MethodInvocation SimpleName prop
+set property css value SimpleName MethodInvocation MethodInvocation SimpleName sd
+set property css value SimpleName MethodInvocation MethodInvocation SimpleName get property priority
+set property css value SimpleName MethodInvocation MethodInvocation SimpleName prop
+set property css value SimpleName MethodInvocation MethodInvocation SimpleName sd
+set property css value SimpleName MethodInvocation MethodInvocation SimpleName get property origin
+set property css value SimpleName MethodInvocation MethodInvocation SimpleName prop
+prop SimpleName MethodInvocation MethodInvocation SimpleName sd
+prop SimpleName MethodInvocation MethodInvocation SimpleName get property css value
+prop SimpleName MethodInvocation MethodInvocation SimpleName prop
+prop SimpleName MethodInvocation MethodInvocation SimpleName sd
+prop SimpleName MethodInvocation MethodInvocation SimpleName get property priority
+prop SimpleName MethodInvocation MethodInvocation SimpleName prop
+prop SimpleName MethodInvocation MethodInvocation SimpleName sd
+prop SimpleName MethodInvocation MethodInvocation SimpleName get property origin
+prop SimpleName MethodInvocation MethodInvocation SimpleName prop
+sd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sd
+sd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property priority
+sd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop
+get property css value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sd
+get property css value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property priority
+get property css value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sd
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property priority
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop
+sd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sd
+sd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property origin
+sd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop
+get property css value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sd
+get property css value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property origin
+get property css value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sd
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property origin
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop
+sd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sd
+sd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property origin
+sd SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop
+get property priority SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sd
+get property priority SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property origin
+get property priority SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sd
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get property origin
+prop SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName prop
+rvr SimpleName MethodInvocation SimpleName get default value
+val SimpleName Assignment MethodInvocation SimpleName rvr
+val SimpleName Assignment MethodInvocation SimpleName get default value
+rd SimpleName MethodInvocation SimpleName set property css value
+rd SimpleName MethodInvocation SimpleName prop
+rd SimpleName MethodInvocation SimpleName val
+rd SimpleName MethodInvocation SimpleName prio
+rd SimpleName MethodInvocation SimpleName orig
+set property css value SimpleName MethodInvocation SimpleName prop
+set property css value SimpleName MethodInvocation SimpleName val
+set property css value SimpleName MethodInvocation SimpleName prio
+set property css value SimpleName MethodInvocation SimpleName orig
+prop SimpleName MethodInvocation SimpleName val
+prop SimpleName MethodInvocation SimpleName prio
+prop SimpleName MethodInvocation SimpleName orig
+val SimpleName MethodInvocation SimpleName prio
+val SimpleName MethodInvocation SimpleName orig
+prio SimpleName MethodInvocation SimpleName orig
+rvr SimpleName MethodInvocation SimpleName resolve value
+rvr SimpleName MethodInvocation SimpleName e
+rvr SimpleName MethodInvocation SimpleName pe
+rvr SimpleName MethodInvocation SimpleName rd
+resolve value SimpleName MethodInvocation SimpleName e
+resolve value SimpleName MethodInvocation SimpleName pe
+resolve value SimpleName MethodInvocation SimpleName rd
+resolve value SimpleName MethodInvocation SimpleName val
+e SimpleName MethodInvocation SimpleName pe
+e SimpleName MethodInvocation SimpleName rd
+e SimpleName MethodInvocation SimpleName val
+e SimpleName MethodInvocation SimpleName prio
+pe SimpleName MethodInvocation SimpleName rd
+pe SimpleName MethodInvocation SimpleName val
+pe SimpleName MethodInvocation SimpleName prio
+pe SimpleName MethodInvocation SimpleName orig
+rd SimpleName MethodInvocation SimpleName val
+rd SimpleName MethodInvocation SimpleName prio
+rd SimpleName MethodInvocation SimpleName orig
+val SimpleName MethodInvocation SimpleName prio
+val SimpleName MethodInvocation SimpleName orig
+prio SimpleName MethodInvocation SimpleName orig
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName compute relative values
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName pe
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom read only style declaration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName rd
+void PrimitiveType MethodDeclaration SimpleName compute relative values
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pe
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom read only style declaration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rd
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compute relative values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+compute relative values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+compute relative values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+compute relative values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pe
+compute relative values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom read only style declaration
+compute relative values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rd
+compute relative values SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rd
+pe SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute relative values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rd
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute relative values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rd

@@ -1,0 +1,108 @@
+key event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get id
+evt SimpleName MethodInvocation SimpleName get when
+evt SimpleName MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation SimpleName get key code
+evt SimpleName MethodInvocation SimpleName get key char
+graphics node key event SimpleName SimpleType ClassInstanceCreation SimpleName current key event target
+graphics node key event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node key event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get id
+graphics node key event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node key event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get when
+graphics node key event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node key event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get modifiers
+graphics node key event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node key event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get key code
+current key event target SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+current key event target SimpleName ClassInstanceCreation MethodInvocation SimpleName get id
+current key event target SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+current key event target SimpleName ClassInstanceCreation MethodInvocation SimpleName get when
+current key event target SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+current key event target SimpleName ClassInstanceCreation MethodInvocation SimpleName get modifiers
+current key event target SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+current key event target SimpleName ClassInstanceCreation MethodInvocation SimpleName get key code
+current key event target SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+current key event target SimpleName ClassInstanceCreation MethodInvocation SimpleName get key char
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get when
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get when
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key code
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key code
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key char
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key char
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key code
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key code
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key char
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key char
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key code
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key code
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key char
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key char
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key char
+get key code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get key code SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key char
+current key event target SimpleName MethodInvocation SimpleName process key event
+current key event target SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName graphics node key event
+current key event target SimpleName MethodInvocation ClassInstanceCreation SimpleName current key event target
+current key event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+current key event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get id
+current key event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+current key event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get when
+current key event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+current key event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+current key event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+current key event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key code
+current key event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+current key event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key char
+process key event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName graphics node key event
+process key event SimpleName MethodInvocation ClassInstanceCreation SimpleName current key event target
+process key event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process key event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get id
+process key event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process key event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get when
+process key event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process key event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+process key event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process key event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key code
+process key event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+process key event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get key char
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName dispatch key event
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key event
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName dispatch key event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+dispatch key event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key event
+dispatch key event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch key event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch key event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

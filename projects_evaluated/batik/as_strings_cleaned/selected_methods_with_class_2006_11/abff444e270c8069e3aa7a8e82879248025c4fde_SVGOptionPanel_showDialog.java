@@ -1,0 +1,52 @@
+component SimpleName SimpleType SingleVariableDeclaration SimpleName parent
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral svg option paneldialogtitle
+get string SimpleName MethodInvocation StringLiteral svg option paneldialogtitle
+title SimpleName VariableDeclarationFragment MethodInvocation SimpleName resources
+title SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+title SimpleName VariableDeclarationFragment MethodInvocation StringLiteral svg option paneldialogtitle
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName title
+panel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName svg option panel
+svg option panel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName panel
+dialog SimpleName SimpleType ClassInstanceCreation SimpleName parent
+dialog SimpleName SimpleType ClassInstanceCreation SimpleName title
+dialog SimpleName SimpleType ClassInstanceCreation SimpleName panel
+parent SimpleName ClassInstanceCreation SimpleName title
+parent SimpleName ClassInstanceCreation SimpleName panel
+title SimpleName ClassInstanceCreation SimpleName panel
+dialog SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dialog
+dialog SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName parent
+dialog SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName title
+dialog SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName panel
+dialog SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dialog
+dialog SimpleName MethodInvocation SimpleName pack
+dialog SimpleName MethodInvocation SimpleName set visible
+dialog SimpleName MethodInvocation BooleanLiteral true
+set visible SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName svg option panel
+public Modifier MethodDeclaration SimpleName show dialog
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName component
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent
+public Modifier MethodDeclaration Block ReturnStatement SimpleName panel
+static Modifier MethodDeclaration SimpleType SimpleName svg option panel
+static Modifier MethodDeclaration SimpleName show dialog
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName component
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent
+static Modifier MethodDeclaration Block ReturnStatement SimpleName panel
+svg option panel SimpleName SimpleType MethodDeclaration SimpleName show dialog
+svg option panel SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName parent
+show dialog SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName component
+show dialog SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent
+show dialog SimpleName MethodDeclaration Block ReturnStatement SimpleName panel
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg option panel
+public Modifier TypeDeclaration MethodDeclaration SimpleName show dialog
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg option panel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName show dialog
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent

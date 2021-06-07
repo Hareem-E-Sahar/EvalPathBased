@@ -1,0 +1,28 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName text
+get css parent node SimpleName MethodInvocation SimpleName text
+get css parent node SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName css style sheet node
+text SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName css style sheet node
+document SimpleName MethodInvocation SimpleName get document element
+invalidate properties SimpleName MethodInvocation MethodInvocation SimpleName document
+invalidate properties SimpleName MethodInvocation MethodInvocation SimpleName get document element
+invalidate properties SimpleName MethodInvocation BooleanLiteral true
+document SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get document element SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName character data modified
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName text
+void PrimitiveType MethodDeclaration SimpleName character data modified
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName text
+character data modified SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+character data modified SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName character data modified
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName character data modified
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text

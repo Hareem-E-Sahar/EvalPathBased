@@ -1,0 +1,57 @@
+document SimpleName MethodInvocation SimpleName get root element
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName document
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root element
+svgsvg element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get size
+dimension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+w SimpleName VariableDeclarationFragment QualifiedName sizewidth
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName sizewidth
+h SimpleName VariableDeclarationFragment QualifiedName sizeheight
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName sizeheight
+bridge context SimpleName MethodInvocation SimpleName get parser factory
+svg utilities SimpleName MethodInvocation SimpleName get preserve aspect ratio transform
+svg utilities SimpleName MethodInvocation SimpleName elt
+svg utilities SimpleName MethodInvocation SimpleName w
+svg utilities SimpleName MethodInvocation SimpleName h
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName bridge context
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName get parser factory
+get preserve aspect ratio transform SimpleName MethodInvocation SimpleName elt
+get preserve aspect ratio transform SimpleName MethodInvocation SimpleName w
+get preserve aspect ratio transform SimpleName MethodInvocation SimpleName h
+get preserve aspect ratio transform SimpleName MethodInvocation MethodInvocation SimpleName bridge context
+get preserve aspect ratio transform SimpleName MethodInvocation MethodInvocation SimpleName get parser factory
+elt SimpleName MethodInvocation SimpleName w
+elt SimpleName MethodInvocation SimpleName h
+elt SimpleName MethodInvocation MethodInvocation SimpleName bridge context
+elt SimpleName MethodInvocation MethodInvocation SimpleName get parser factory
+w SimpleName MethodInvocation SimpleName h
+w SimpleName MethodInvocation MethodInvocation SimpleName bridge context
+w SimpleName MethodInvocation MethodInvocation SimpleName get parser factory
+h SimpleName MethodInvocation MethodInvocation SimpleName bridge context
+h SimpleName MethodInvocation MethodInvocation SimpleName get parser factory
+transform SimpleName Assignment MethodInvocation SimpleName svg utilities
+transform SimpleName Assignment MethodInvocation SimpleName get preserve aspect ratio transform
+transform SimpleName Assignment MethodInvocation SimpleName elt
+transform SimpleName Assignment MethodInvocation SimpleName w
+transform SimpleName Assignment MethodInvocation SimpleName h
+transform SimpleName Assignment MethodInvocation MethodInvocation SimpleName bridge context
+transform SimpleName Assignment MethodInvocation MethodInvocation SimpleName get parser factory
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName compute transform
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName compute transform
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compute transform SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compute transform SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute transform
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute transform

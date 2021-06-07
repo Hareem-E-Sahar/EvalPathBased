@@ -1,0 +1,49 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName arg
+arg SimpleName MethodInvocation SimpleName get namespace uri
+ns uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName arg
+ns uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns uri
+arg SimpleName MethodInvocation SimpleName get node name
+arg SimpleName MethodInvocation SimpleName get local name
+arg SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName arg
+arg SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get local name
+get node name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName arg
+get node name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get local name
+set named item SimpleName MethodInvocation SimpleName ns uri
+set named item SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName arg
+set named item SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get node name
+set named item SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName arg
+set named item SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get local name
+set named item SimpleName MethodInvocation SimpleName arg
+ns uri SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName arg
+ns uri SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get node name
+ns uri SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName arg
+ns uri SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get local name
+ns uri SimpleName MethodInvocation SimpleName arg
+arg SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName arg
+get node name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName arg
+arg SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName arg
+get local name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName arg
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName set named item ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName arg
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+node SimpleName SimpleType MethodDeclaration SimpleName set named item ns
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName arg
+node SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+set named item ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+set named item ns SimpleName MethodDeclaration SingleVariableDeclaration SimpleName arg
+set named item ns SimpleName MethodDeclaration SimpleType SimpleName dom exception
+arg SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName set named item ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set named item ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

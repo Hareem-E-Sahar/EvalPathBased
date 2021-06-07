@@ -1,0 +1,14 @@
+attribute list SimpleName SimpleType SingleVariableDeclaration SimpleName q atts
+q atts SimpleName FieldAccess Assignment SimpleName q atts
+void PrimitiveType MethodDeclaration SimpleName set attribute list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName q atts
+set attribute list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attribute list
+set attribute list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName q atts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attribute list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName q atts
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attribute list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName q atts

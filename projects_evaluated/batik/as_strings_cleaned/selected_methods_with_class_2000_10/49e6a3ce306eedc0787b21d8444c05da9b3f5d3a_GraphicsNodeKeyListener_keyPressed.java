@@ -1,0 +1,13 @@
+graphics node key event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName key pressed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+key pressed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+key pressed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName key pressed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName key pressed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

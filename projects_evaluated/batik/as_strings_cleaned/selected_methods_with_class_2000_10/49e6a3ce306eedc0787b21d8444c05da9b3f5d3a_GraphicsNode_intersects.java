@@ -1,0 +1,13 @@
+rectangle d SimpleName SimpleType SingleVariableDeclaration SimpleName r
+boolean PrimitiveType MethodDeclaration SimpleName intersects
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle d
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+intersects SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle d
+intersects SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName intersects
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName intersects
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r

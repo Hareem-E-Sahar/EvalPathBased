@@ -1,0 +1,45 @@
+in buf SimpleName InfixExpression NumberLiteral empty
+char PrimitiveType CastExpression NumberLiteral xff
+bufsize SimpleName InfixExpression NumberLiteral empty
+bufpos SimpleName InfixExpression InfixExpression SimpleName bufsize
+bufpos SimpleName InfixExpression InfixExpression NumberLiteral empty
+bufpos SimpleName Assignment NumberLiteral empty
+buffer SimpleName ArrayAccess ConditionalExpression PrefixExpression SimpleName bufpos
+char PrimitiveType CastExpression InfixExpression ArrayAccess SimpleName buffer
+xff NumberLiteral CastExpression InfixExpression ArrayAccess SimpleName buffer
+bufpos SimpleName PrefixExpression InfixExpression SimpleName max next char ind
+char PrimitiveType CastExpression NumberLiteral xff
+buffer SimpleName ArrayAccess SimpleName bufpos
+char PrimitiveType CastExpression InfixExpression ArrayAccess SimpleName buffer
+char PrimitiveType CastExpression InfixExpression ArrayAccess SimpleName bufpos
+xff NumberLiteral CastExpression InfixExpression ArrayAccess SimpleName buffer
+xff NumberLiteral CastExpression InfixExpression ArrayAccess SimpleName bufpos
+c SimpleName VariableDeclarationFragment CastExpression PrimitiveType char
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType char
+update line column SimpleName MethodInvocation SimpleName c
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType char
+public Modifier MethodDeclaration SimpleName read char
+public Modifier MethodDeclaration SimpleType QualifiedName javaioio exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+final Modifier MethodDeclaration PrimitiveType char
+final Modifier MethodDeclaration SimpleName read char
+final Modifier MethodDeclaration SimpleType QualifiedName javaioio exception
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+char PrimitiveType MethodDeclaration SimpleName read char
+char PrimitiveType MethodDeclaration SimpleType QualifiedName javaioio exception
+char PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+read char SimpleName MethodDeclaration SimpleType QualifiedName javaioio exception
+read char SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName read char
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName javaioio exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read char
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName javaioio exception

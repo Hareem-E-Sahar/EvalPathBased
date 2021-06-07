@@ -1,0 +1,34 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName MethodInvocation SimpleName get first child
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get first child
+is selected SimpleName MethodInvocation SimpleName n
+descendant selected SimpleName MethodInvocation SimpleName n
+is selected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName descendant selected
+is selected SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+n SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName descendant selected
+n SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName descendant selected
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName descendant selected
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+descendant selected SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+descendant selected SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+descendant selected SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName descendant selected
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName descendant selected
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

@@ -1,0 +1,30 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+protected Modifier MethodDeclaration SimpleType SimpleName point d
+protected Modifier MethodDeclaration SimpleName get location
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+point d SimpleName SimpleType MethodDeclaration SimpleName get location
+point d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+point d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+get location SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+get location SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+get location SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get location SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName point d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get location
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName point d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get location
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

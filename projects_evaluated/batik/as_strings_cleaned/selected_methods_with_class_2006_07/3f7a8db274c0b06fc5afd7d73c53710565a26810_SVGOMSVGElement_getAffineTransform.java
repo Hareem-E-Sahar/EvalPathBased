@@ -1,0 +1,12 @@
+protected Modifier MethodDeclaration SimpleType SimpleName affine transform
+protected Modifier MethodDeclaration SimpleName get affine transform
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName at
+affine transform SimpleName SimpleType MethodDeclaration SimpleName get affine transform
+get affine transform SimpleName MethodDeclaration Block ReturnStatement SimpleName at
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName affine transform
+public Modifier TypeDeclaration MethodDeclaration SimpleName get affine transform
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName affine transform
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get affine transform

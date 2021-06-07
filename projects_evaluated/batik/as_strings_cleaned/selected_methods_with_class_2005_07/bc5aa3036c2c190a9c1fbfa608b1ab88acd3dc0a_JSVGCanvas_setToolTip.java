@@ -1,0 +1,43 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tool tip
+tool tip map SimpleName Assignment ClassInstanceCreation SimpleType SimpleName weak hash map
+tool tip map SimpleName MethodInvocation SimpleName put
+tool tip map SimpleName MethodInvocation SimpleName elt
+tool tip map SimpleName MethodInvocation SimpleName tool tip
+put SimpleName MethodInvocation SimpleName elt
+put SimpleName MethodInvocation SimpleName tool tip
+elt SimpleName MethodInvocation SimpleName tool tip
+elt SimpleName InfixExpression SimpleName last target
+tool tip runnable SimpleName SimpleType ClassInstanceCreation SimpleName tool tip
+event queue SimpleName MethodInvocation SimpleName invoke later
+event queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tool tip runnable
+event queue SimpleName MethodInvocation ClassInstanceCreation SimpleName tool tip
+invoke later SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tool tip runnable
+invoke later SimpleName MethodInvocation ClassInstanceCreation SimpleName tool tip
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set tool tip
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tool tip
+void PrimitiveType MethodDeclaration SimpleName set tool tip
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elt
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName tool tip
+set tool tip SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+set tool tip SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+set tool tip SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set tool tip SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tool tip
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tool tip
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set tool tip
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tool tip
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set tool tip
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tool tip

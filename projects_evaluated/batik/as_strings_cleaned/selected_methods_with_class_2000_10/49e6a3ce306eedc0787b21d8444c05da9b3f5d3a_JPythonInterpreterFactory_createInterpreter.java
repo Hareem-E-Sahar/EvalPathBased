@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName interpreter
+public Modifier MethodDeclaration SimpleName create interpreter
+interpreter SimpleName SimpleType MethodDeclaration SimpleName create interpreter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interpreter
+public Modifier TypeDeclaration MethodDeclaration SimpleName create interpreter
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interpreter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create interpreter

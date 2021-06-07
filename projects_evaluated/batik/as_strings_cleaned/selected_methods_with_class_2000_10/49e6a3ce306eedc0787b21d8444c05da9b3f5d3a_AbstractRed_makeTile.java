@@ -1,0 +1,228 @@
+int PrimitiveType SingleVariableDeclaration SimpleName tile x
+int PrimitiveType SingleVariableDeclaration SimpleName tile y
+tile x SimpleName InfixExpression SimpleName min tile x
+min tile x SimpleName InfixExpression SimpleName num x tiles
+tile x SimpleName InfixExpression InfixExpression SimpleName min tile x
+tile x SimpleName InfixExpression InfixExpression SimpleName num x tiles
+tile y SimpleName InfixExpression SimpleName min tile y
+min tile y SimpleName InfixExpression SimpleName num y tiles
+tile y SimpleName InfixExpression InfixExpression SimpleName min tile y
+tile y SimpleName InfixExpression InfixExpression SimpleName num y tiles
+requested tile ( StringLiteral InfixExpression SimpleName tile x
+requested tile ( StringLiteral InfixExpression StringLiteral empty
+requested tile ( StringLiteral InfixExpression SimpleName tile y
+requested tile ( StringLiteral InfixExpression StringLiteral ) lies outside the bounds of image
+tile x SimpleName InfixExpression StringLiteral empty
+tile x SimpleName InfixExpression SimpleName tile y
+tile x SimpleName InfixExpression StringLiteral ) lies outside the bounds of image
+empty StringLiteral InfixExpression SimpleName tile y
+empty StringLiteral InfixExpression StringLiteral ) lies outside the bounds of image
+tile y SimpleName InfixExpression StringLiteral ) lies outside the bounds of image
+index out of bounds exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral requested tile (
+index out of bounds exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName tile x
+index out of bounds exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral empty
+index out of bounds exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName tile y
+index out of bounds exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral ) lies outside the bounds of image
+tile x SimpleName InfixExpression SimpleName tile width
+tile grid x off SimpleName InfixExpression InfixExpression SimpleName tile x
+tile grid x off SimpleName InfixExpression InfixExpression SimpleName tile width
+tile y SimpleName InfixExpression SimpleName tile height
+tile grid y off SimpleName InfixExpression InfixExpression SimpleName tile y
+tile grid y off SimpleName InfixExpression InfixExpression SimpleName tile height
+point SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName tile grid x off
+point SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName tile grid y off
+tile grid x off SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName tile grid y off
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName point
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName tile grid x off
+pt SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression SimpleName tile grid y off
+point SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pt
+raster SimpleName MethodInvocation SimpleName create writable raster
+raster SimpleName MethodInvocation SimpleName sm
+raster SimpleName MethodInvocation SimpleName pt
+create writable raster SimpleName MethodInvocation SimpleName sm
+create writable raster SimpleName MethodInvocation SimpleName pt
+sm SimpleName MethodInvocation SimpleName pt
+wr SimpleName VariableDeclarationFragment MethodInvocation SimpleName raster
+wr SimpleName VariableDeclarationFragment MethodInvocation SimpleName create writable raster
+wr SimpleName VariableDeclarationFragment MethodInvocation SimpleName sm
+wr SimpleName VariableDeclarationFragment MethodInvocation SimpleName pt
+writable raster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wr
+wr SimpleName MethodInvocation SimpleName get min x
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName wr
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName get min x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName wr
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get min x
+wr SimpleName MethodInvocation SimpleName get min y
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName wr
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName get min y
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName wr
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get min y
+wr SimpleName MethodInvocation SimpleName get width
+x SimpleName InfixExpression MethodInvocation SimpleName wr
+x SimpleName InfixExpression MethodInvocation SimpleName get width
+x SimpleName InfixExpression InfixExpression NumberLiteral empty
+wr SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get width SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+x SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName x
+x SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+wr SimpleName MethodInvocation SimpleName get height
+y SimpleName InfixExpression MethodInvocation SimpleName wr
+y SimpleName InfixExpression MethodInvocation SimpleName get height
+y SimpleName InfixExpression InfixExpression NumberLiteral empty
+wr SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+get height SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+y SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName y
+y SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+x SimpleName InfixExpression QualifiedName boundsx
+boundsx QualifiedName InfixExpression QualifiedName boundswidth
+x SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName boundsx
+x SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName boundswidth
+y SimpleName InfixExpression QualifiedName boundsy
+boundsy QualifiedName InfixExpression QualifiedName boundsheight
+y SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName boundsy
+y SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName boundsheight
+x SimpleName InfixExpression QualifiedName boundsx
+x SimpleName Assignment QualifiedName boundsx
+y SimpleName InfixExpression QualifiedName boundsy
+y SimpleName Assignment QualifiedName boundsy
+boundsx QualifiedName InfixExpression QualifiedName boundswidth
+x SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName boundsx
+x SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName boundswidth
+boundsx QualifiedName InfixExpression QualifiedName boundswidth
+boundsx QualifiedName InfixExpression InfixExpression NumberLiteral empty
+boundswidth QualifiedName InfixExpression InfixExpression NumberLiteral empty
+x SimpleName Assignment InfixExpression InfixExpression QualifiedName boundsx
+x SimpleName Assignment InfixExpression InfixExpression QualifiedName boundswidth
+x SimpleName Assignment InfixExpression NumberLiteral empty
+boundsy QualifiedName InfixExpression QualifiedName boundsheight
+y SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName boundsy
+y SimpleName InfixExpression ParenthesizedExpression InfixExpression QualifiedName boundsheight
+boundsy QualifiedName InfixExpression QualifiedName boundsheight
+boundsy QualifiedName InfixExpression InfixExpression NumberLiteral empty
+boundsheight QualifiedName InfixExpression InfixExpression NumberLiteral empty
+y SimpleName Assignment InfixExpression InfixExpression QualifiedName boundsy
+y SimpleName Assignment InfixExpression InfixExpression QualifiedName boundsheight
+y SimpleName Assignment InfixExpression NumberLiteral empty
+x SimpleName InfixExpression SimpleName x
+x SimpleName InfixExpression InfixExpression NumberLiteral empty
+x SimpleName InfixExpression InfixExpression NumberLiteral empty
+y SimpleName InfixExpression SimpleName y
+y SimpleName InfixExpression InfixExpression NumberLiteral empty
+y SimpleName InfixExpression InfixExpression NumberLiteral empty
+wr SimpleName MethodInvocation SimpleName create writable child
+wr SimpleName MethodInvocation SimpleName x
+wr SimpleName MethodInvocation SimpleName y
+wr SimpleName MethodInvocation InfixExpression InfixExpression SimpleName x
+wr SimpleName MethodInvocation InfixExpression InfixExpression SimpleName x
+wr SimpleName MethodInvocation InfixExpression NumberLiteral empty
+wr SimpleName MethodInvocation InfixExpression InfixExpression SimpleName y
+wr SimpleName MethodInvocation InfixExpression InfixExpression SimpleName y
+wr SimpleName MethodInvocation InfixExpression NumberLiteral empty
+create writable child SimpleName MethodInvocation SimpleName x
+create writable child SimpleName MethodInvocation SimpleName y
+create writable child SimpleName MethodInvocation InfixExpression InfixExpression SimpleName x
+create writable child SimpleName MethodInvocation InfixExpression InfixExpression SimpleName x
+create writable child SimpleName MethodInvocation InfixExpression NumberLiteral empty
+create writable child SimpleName MethodInvocation InfixExpression InfixExpression SimpleName y
+create writable child SimpleName MethodInvocation InfixExpression InfixExpression SimpleName y
+create writable child SimpleName MethodInvocation InfixExpression NumberLiteral empty
+create writable child SimpleName MethodInvocation SimpleName x
+x SimpleName MethodInvocation SimpleName y
+x SimpleName MethodInvocation InfixExpression InfixExpression SimpleName x
+x SimpleName MethodInvocation InfixExpression InfixExpression SimpleName x
+x SimpleName MethodInvocation InfixExpression NumberLiteral empty
+x SimpleName MethodInvocation InfixExpression InfixExpression SimpleName y
+x SimpleName MethodInvocation InfixExpression InfixExpression SimpleName y
+x SimpleName MethodInvocation InfixExpression NumberLiteral empty
+x SimpleName MethodInvocation SimpleName x
+x SimpleName MethodInvocation SimpleName y
+y SimpleName MethodInvocation InfixExpression InfixExpression SimpleName x
+y SimpleName MethodInvocation InfixExpression InfixExpression SimpleName x
+y SimpleName MethodInvocation InfixExpression NumberLiteral empty
+y SimpleName MethodInvocation InfixExpression InfixExpression SimpleName y
+y SimpleName MethodInvocation InfixExpression InfixExpression SimpleName y
+y SimpleName MethodInvocation InfixExpression NumberLiteral empty
+y SimpleName MethodInvocation SimpleName x
+y SimpleName MethodInvocation SimpleName y
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+x SimpleName InfixExpression InfixExpression MethodInvocation SimpleName x
+x SimpleName InfixExpression InfixExpression MethodInvocation SimpleName x
+empty NumberLiteral InfixExpression MethodInvocation SimpleName x
+x SimpleName InfixExpression InfixExpression MethodInvocation SimpleName y
+x SimpleName InfixExpression InfixExpression MethodInvocation SimpleName y
+empty NumberLiteral InfixExpression MethodInvocation SimpleName y
+y SimpleName InfixExpression InfixExpression MethodInvocation SimpleName x
+y SimpleName InfixExpression InfixExpression MethodInvocation SimpleName x
+empty NumberLiteral InfixExpression MethodInvocation SimpleName x
+y SimpleName InfixExpression InfixExpression MethodInvocation SimpleName y
+y SimpleName InfixExpression InfixExpression MethodInvocation SimpleName y
+empty NumberLiteral InfixExpression MethodInvocation SimpleName y
+x SimpleName MethodInvocation SimpleName y
+wr SimpleName Assignment MethodInvocation SimpleName wr
+wr SimpleName Assignment MethodInvocation SimpleName create writable child
+wr SimpleName Assignment MethodInvocation SimpleName x
+wr SimpleName Assignment MethodInvocation SimpleName y
+wr SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+wr SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+wr SimpleName Assignment MethodInvocation SimpleName x
+wr SimpleName Assignment MethodInvocation SimpleName y
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName wr
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName wr
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName wr
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName wr
+public Modifier MethodDeclaration SimpleType SimpleName writable raster
+public Modifier MethodDeclaration SimpleName make tile
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tile x
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tile y
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName wr
+writable raster SimpleName SimpleType MethodDeclaration SimpleName make tile
+writable raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+writable raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tile x
+writable raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+writable raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tile y
+make tile SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+make tile SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tile x
+make tile SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+make tile SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tile y
+make tile SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+make tile SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+make tile SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+make tile SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+make tile SimpleName MethodDeclaration Block ReturnStatement SimpleName wr
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tile y
+tile x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+tile x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tile y
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName writable raster
+public Modifier TypeDeclaration MethodDeclaration SimpleName make tile
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tile x
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tile y
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName writable raster
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make tile
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tile x
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tile y

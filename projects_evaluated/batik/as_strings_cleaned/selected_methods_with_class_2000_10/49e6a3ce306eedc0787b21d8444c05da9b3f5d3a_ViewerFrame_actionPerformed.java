@@ -1,0 +1,52 @@
+action event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+location bar SimpleName MethodInvocation SimpleName get text
+location bar SimpleName MethodInvocation MethodInvocation SimpleName trim
+get text SimpleName MethodInvocation MethodInvocation SimpleName trim
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName location bar
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get text
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName trim
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation SimpleName uri
+equals SimpleName MethodInvocation SimpleName uri
+uri SimpleName Assignment SimpleName s
+file SimpleName SimpleType ClassInstanceCreation SimpleName uri
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName uri
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName MethodInvocation SimpleName exists
+f SimpleName MethodInvocation SimpleName is directory
+file StringLiteral InfixExpression SimpleName uri
+uri SimpleName Assignment InfixExpression StringLiteral file
+uri SimpleName Assignment InfixExpression SimpleName uri
+location bar SimpleName MethodInvocation SimpleName set text
+location bar SimpleName MethodInvocation SimpleName uri
+set text SimpleName MethodInvocation SimpleName uri
+location bar SimpleName MethodInvocation SimpleName add to history
+location bar SimpleName MethodInvocation SimpleName uri
+add to history SimpleName MethodInvocation SimpleName uri
+document thread SimpleName SimpleType ClassInstanceCreation SimpleName uri
+thread SimpleName Assignment ClassInstanceCreation SimpleType SimpleName document thread
+thread SimpleName Assignment ClassInstanceCreation SimpleName uri
+thread SimpleName MethodInvocation SimpleName start
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName action performed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName action performed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName action performed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName action performed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

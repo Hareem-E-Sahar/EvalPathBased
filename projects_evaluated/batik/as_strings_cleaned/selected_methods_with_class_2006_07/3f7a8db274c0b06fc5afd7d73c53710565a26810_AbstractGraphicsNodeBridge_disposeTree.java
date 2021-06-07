@@ -1,0 +1,59 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+boolean PrimitiveType SingleVariableDeclaration SimpleName remove context
+node SimpleName InstanceofExpression SimpleType SimpleName svgom element
+svgom element SimpleName SimpleType CastExpression SimpleName node
+elt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom element
+elt SimpleName VariableDeclarationFragment CastExpression SimpleName node
+svgom element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+elt SimpleName MethodInvocation SimpleName get svg context
+ctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+ctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get svg context
+svg context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctx
+ctx SimpleName InstanceofExpression SimpleType SimpleName bridge update handler
+bridge update handler SimpleName SimpleType CastExpression SimpleName ctx
+h SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName bridge update handler
+h SimpleName VariableDeclarationFragment CastExpression SimpleName ctx
+bridge update handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+elt SimpleName MethodInvocation SimpleName set svg context
+h SimpleName MethodInvocation SimpleName dispose
+node SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+dispose tree SimpleName MethodInvocation SimpleName n
+dispose tree SimpleName MethodInvocation SimpleName remove context
+n SimpleName MethodInvocation SimpleName remove context
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName dispose tree
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName remove context
+void PrimitiveType MethodDeclaration SimpleName dispose tree
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName remove context
+dispose tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+dispose tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+dispose tree SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+dispose tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleName remove context
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remove context
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispose tree
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remove context
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispose tree
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName remove context

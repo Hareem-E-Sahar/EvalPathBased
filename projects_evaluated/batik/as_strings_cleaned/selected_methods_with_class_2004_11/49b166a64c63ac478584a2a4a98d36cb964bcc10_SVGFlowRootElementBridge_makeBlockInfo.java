@@ -1,0 +1,271 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+margin top index SimpleName InfixExpression PrefixExpression NumberLiteral empty
+init css property indexes SimpleName MethodInvocation SimpleName element
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation SimpleName margin top index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation SimpleName margin top index
+element SimpleName MethodInvocation SimpleName margin top index
+v SimpleName Assignment MethodInvocation SimpleName css utilities
+v SimpleName Assignment MethodInvocation SimpleName get computed style
+v SimpleName Assignment MethodInvocation SimpleName element
+v SimpleName Assignment MethodInvocation SimpleName margin top index
+v SimpleName MethodInvocation SimpleName get float value
+top SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+top SimpleName VariableDeclarationFragment MethodInvocation SimpleName get float value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName top
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName v
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get float value
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation SimpleName margin right index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation SimpleName margin right index
+element SimpleName MethodInvocation SimpleName margin right index
+v SimpleName Assignment MethodInvocation SimpleName css utilities
+v SimpleName Assignment MethodInvocation SimpleName get computed style
+v SimpleName Assignment MethodInvocation SimpleName element
+v SimpleName Assignment MethodInvocation SimpleName margin right index
+v SimpleName MethodInvocation SimpleName get float value
+right SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+right SimpleName VariableDeclarationFragment MethodInvocation SimpleName get float value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName right
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName v
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get float value
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation SimpleName margin bottom index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation SimpleName margin bottom index
+element SimpleName MethodInvocation SimpleName margin bottom index
+v SimpleName Assignment MethodInvocation SimpleName css utilities
+v SimpleName Assignment MethodInvocation SimpleName get computed style
+v SimpleName Assignment MethodInvocation SimpleName element
+v SimpleName Assignment MethodInvocation SimpleName margin bottom index
+v SimpleName MethodInvocation SimpleName get float value
+bottom SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+bottom SimpleName VariableDeclarationFragment MethodInvocation SimpleName get float value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bottom
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName v
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get float value
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation SimpleName margin left index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation SimpleName margin left index
+element SimpleName MethodInvocation SimpleName margin left index
+v SimpleName Assignment MethodInvocation SimpleName css utilities
+v SimpleName Assignment MethodInvocation SimpleName get computed style
+v SimpleName Assignment MethodInvocation SimpleName element
+v SimpleName Assignment MethodInvocation SimpleName margin left index
+v SimpleName MethodInvocation SimpleName get float value
+left SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+left SimpleName VariableDeclarationFragment MethodInvocation SimpleName get float value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName left
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName v
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get float value
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation SimpleName indent index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation SimpleName indent index
+element SimpleName MethodInvocation SimpleName indent index
+v SimpleName Assignment MethodInvocation SimpleName css utilities
+v SimpleName Assignment MethodInvocation SimpleName get computed style
+v SimpleName Assignment MethodInvocation SimpleName element
+v SimpleName Assignment MethodInvocation SimpleName indent index
+v SimpleName MethodInvocation SimpleName get float value
+indent SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+indent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get float value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName indent
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName v
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get float value
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation SimpleName text align index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation SimpleName text align index
+element SimpleName MethodInvocation SimpleName text align index
+v SimpleName Assignment MethodInvocation SimpleName css utilities
+v SimpleName Assignment MethodInvocation SimpleName get computed style
+v SimpleName Assignment MethodInvocation SimpleName element
+v SimpleName Assignment MethodInvocation SimpleName text align index
+v SimpleName InfixExpression QualifiedName value constantsinherit value
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginedirection index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginedirection index
+element SimpleName MethodInvocation QualifiedName svgcss enginedirection index
+v SimpleName Assignment MethodInvocation SimpleName css utilities
+v SimpleName Assignment MethodInvocation SimpleName get computed style
+v SimpleName Assignment MethodInvocation SimpleName element
+v SimpleName Assignment MethodInvocation QualifiedName svgcss enginedirection index
+v SimpleName InfixExpression QualifiedName value constantsltr value
+v SimpleName Assignment QualifiedName svg value constantsstart value
+v SimpleName Assignment QualifiedName svg value constantsend value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName text align
+v SimpleName InfixExpression QualifiedName svg value constantsstart value
+text align SimpleName Assignment QualifiedName block infoalign start
+v SimpleName InfixExpression QualifiedName svg value constantsmiddle value
+text align SimpleName Assignment QualifiedName block infoalign middle
+v SimpleName InfixExpression QualifiedName svg value constantsend value
+text align SimpleName Assignment QualifiedName block infoalign end
+text align SimpleName Assignment QualifiedName block infoalign full
+get font properties SimpleName MethodInvocation SimpleName ctx
+get font properties SimpleName MethodInvocation SimpleName element
+ctx SimpleName MethodInvocation SimpleName element
+font attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get font properties
+font attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+font attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font attrs
+font attrs SimpleName MethodInvocation SimpleName get
+font attrs SimpleName MethodInvocation QualifiedName text attributesize
+get SimpleName MethodInvocation QualifiedName text attributesize
+float SimpleName SimpleType CastExpression MethodInvocation SimpleName font attrs
+float SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+float SimpleName SimpleType CastExpression MethodInvocation QualifiedName text attributesize
+fs SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName float
+fs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName font attrs
+fs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+fs SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName text attributesize
+float SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+fs SimpleName MethodInvocation SimpleName float value
+font size SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+font size SimpleName VariableDeclarationFragment MethodInvocation SimpleName float value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName font size
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName fs
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName float value
+get line height SimpleName MethodInvocation SimpleName ctx
+get line height SimpleName MethodInvocation SimpleName element
+get line height SimpleName MethodInvocation SimpleName font size
+ctx SimpleName MethodInvocation SimpleName element
+ctx SimpleName MethodInvocation SimpleName font size
+element SimpleName MethodInvocation SimpleName font size
+line height SimpleName VariableDeclarationFragment MethodInvocation SimpleName get line height
+line height SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+line height SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+line height SimpleName VariableDeclarationFragment MethodInvocation SimpleName font size
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName line height
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get line height
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ctx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName element
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName font size
+get font family list SimpleName MethodInvocation SimpleName element
+get font family list SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName ctx
+font family list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get font family list
+font family list SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+font family list SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font family list
+element SimpleName MethodInvocation SimpleName get local name
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rgn br
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg flow region break tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg flow region break tag
+rgn br SimpleName Assignment MethodInvocation SimpleName ln
+rgn br SimpleName Assignment MethodInvocation SimpleName equals
+rgn br SimpleName Assignment MethodInvocation QualifiedName svg constantssvg flow region break tag
+block info SimpleName SimpleType ClassInstanceCreation SimpleName top
+block info SimpleName SimpleType ClassInstanceCreation SimpleName right
+block info SimpleName SimpleType ClassInstanceCreation SimpleName bottom
+block info SimpleName SimpleType ClassInstanceCreation SimpleName left
+block info SimpleName SimpleType ClassInstanceCreation SimpleName indent
+top SimpleName ClassInstanceCreation SimpleName right
+top SimpleName ClassInstanceCreation SimpleName bottom
+top SimpleName ClassInstanceCreation SimpleName left
+top SimpleName ClassInstanceCreation SimpleName indent
+top SimpleName ClassInstanceCreation SimpleName text align
+right SimpleName ClassInstanceCreation SimpleName bottom
+right SimpleName ClassInstanceCreation SimpleName left
+right SimpleName ClassInstanceCreation SimpleName indent
+right SimpleName ClassInstanceCreation SimpleName text align
+right SimpleName ClassInstanceCreation SimpleName line height
+bottom SimpleName ClassInstanceCreation SimpleName left
+bottom SimpleName ClassInstanceCreation SimpleName indent
+bottom SimpleName ClassInstanceCreation SimpleName text align
+bottom SimpleName ClassInstanceCreation SimpleName line height
+bottom SimpleName ClassInstanceCreation SimpleName font family list
+left SimpleName ClassInstanceCreation SimpleName indent
+left SimpleName ClassInstanceCreation SimpleName text align
+left SimpleName ClassInstanceCreation SimpleName line height
+left SimpleName ClassInstanceCreation SimpleName font family list
+left SimpleName ClassInstanceCreation SimpleName font attrs
+indent SimpleName ClassInstanceCreation SimpleName text align
+indent SimpleName ClassInstanceCreation SimpleName line height
+indent SimpleName ClassInstanceCreation SimpleName font family list
+indent SimpleName ClassInstanceCreation SimpleName font attrs
+indent SimpleName ClassInstanceCreation SimpleName rgn br
+text align SimpleName ClassInstanceCreation SimpleName line height
+text align SimpleName ClassInstanceCreation SimpleName font family list
+text align SimpleName ClassInstanceCreation SimpleName font attrs
+text align SimpleName ClassInstanceCreation SimpleName rgn br
+line height SimpleName ClassInstanceCreation SimpleName font family list
+line height SimpleName ClassInstanceCreation SimpleName font attrs
+line height SimpleName ClassInstanceCreation SimpleName rgn br
+font family list SimpleName ClassInstanceCreation SimpleName font attrs
+font family list SimpleName ClassInstanceCreation SimpleName rgn br
+font attrs SimpleName ClassInstanceCreation SimpleName rgn br
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration SimpleType SimpleName block info
+public Modifier MethodDeclaration SimpleName make block info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+block info SimpleName SimpleType MethodDeclaration SimpleName make block info
+block info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+block info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+make block info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+make block info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+make block info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+make block info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+make block info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+make block info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+make block info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+make block info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+make block info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+make block info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+make block info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+make block info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+make block info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName block info
+public Modifier TypeDeclaration MethodDeclaration SimpleName make block info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName block info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName make block info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

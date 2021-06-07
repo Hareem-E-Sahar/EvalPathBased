@@ -1,0 +1,21 @@
+double PrimitiveType SingleVariableDeclaration SimpleName y
+public Modifier MethodDeclaration SimpleType SimpleName split results
+public Modifier MethodDeclaration SimpleName split
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName y
+split results SimpleName SimpleType MethodDeclaration SimpleName split
+split results SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+split results SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName y
+split SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+split SimpleName MethodDeclaration SingleVariableDeclaration SimpleName y
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName split results
+public Modifier TypeDeclaration MethodDeclaration SimpleName split
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName split results
+test SimpleName TypeDeclaration MethodDeclaration SimpleName split
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y

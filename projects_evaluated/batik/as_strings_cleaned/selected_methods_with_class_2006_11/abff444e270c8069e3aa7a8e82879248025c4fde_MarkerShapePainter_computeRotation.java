@@ -1,0 +1,195 @@
+double PrimitiveType ArrayType SingleVariableDeclaration SimpleName prev
+int PrimitiveType SingleVariableDeclaration SimpleName prev seg type
+double PrimitiveType ArrayType SingleVariableDeclaration SimpleName curr
+int PrimitiveType SingleVariableDeclaration SimpleName curr seg type
+double PrimitiveType ArrayType SingleVariableDeclaration SimpleName next
+int PrimitiveType SingleVariableDeclaration SimpleName next seg type
+compute in slope SimpleName MethodInvocation SimpleName prev
+compute in slope SimpleName MethodInvocation SimpleName prev seg type
+compute in slope SimpleName MethodInvocation SimpleName curr
+compute in slope SimpleName MethodInvocation SimpleName curr seg type
+prev SimpleName MethodInvocation SimpleName prev seg type
+prev SimpleName MethodInvocation SimpleName curr
+prev SimpleName MethodInvocation SimpleName curr seg type
+prev seg type SimpleName MethodInvocation SimpleName curr
+prev seg type SimpleName MethodInvocation SimpleName curr seg type
+curr SimpleName MethodInvocation SimpleName curr seg type
+in slope SimpleName VariableDeclarationFragment MethodInvocation SimpleName compute in slope
+in slope SimpleName VariableDeclarationFragment MethodInvocation SimpleName prev
+in slope SimpleName VariableDeclarationFragment MethodInvocation SimpleName prev seg type
+in slope SimpleName VariableDeclarationFragment MethodInvocation SimpleName curr
+in slope SimpleName VariableDeclarationFragment MethodInvocation SimpleName curr seg type
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName in slope
+compute out slope SimpleName MethodInvocation SimpleName curr
+compute out slope SimpleName MethodInvocation SimpleName curr seg type
+compute out slope SimpleName MethodInvocation SimpleName next
+compute out slope SimpleName MethodInvocation SimpleName next seg type
+curr SimpleName MethodInvocation SimpleName curr seg type
+curr SimpleName MethodInvocation SimpleName next
+curr SimpleName MethodInvocation SimpleName next seg type
+curr seg type SimpleName MethodInvocation SimpleName next
+curr seg type SimpleName MethodInvocation SimpleName next seg type
+next SimpleName MethodInvocation SimpleName next seg type
+out slope SimpleName VariableDeclarationFragment MethodInvocation SimpleName compute out slope
+out slope SimpleName VariableDeclarationFragment MethodInvocation SimpleName curr
+out slope SimpleName VariableDeclarationFragment MethodInvocation SimpleName curr seg type
+out slope SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+out slope SimpleName VariableDeclarationFragment MethodInvocation SimpleName next seg type
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName out slope
+in slope SimpleName Assignment SimpleName out slope
+out slope SimpleName Assignment SimpleName in slope
+in slope SimpleName ArrayAccess NumberLiteral empty
+out slope SimpleName ArrayAccess NumberLiteral empty
+in slope SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName out slope
+in slope SimpleName ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression ArrayAccess SimpleName out slope
+empty NumberLiteral ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+dx SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName in slope
+dx SimpleName VariableDeclarationFragment InfixExpression ArrayAccess NumberLiteral empty
+dx SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName out slope
+dx SimpleName VariableDeclarationFragment InfixExpression ArrayAccess NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dx
+in slope SimpleName ArrayAccess NumberLiteral empty
+out slope SimpleName ArrayAccess NumberLiteral empty
+in slope SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName out slope
+in slope SimpleName ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression ArrayAccess SimpleName out slope
+empty NumberLiteral ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+dy SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName in slope
+dy SimpleName VariableDeclarationFragment InfixExpression ArrayAccess NumberLiteral empty
+dy SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName out slope
+dy SimpleName VariableDeclarationFragment InfixExpression ArrayAccess NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dy
+dx SimpleName InfixExpression NumberLiteral empty
+dy SimpleName InfixExpression NumberLiteral empty
+dx SimpleName InfixExpression InfixExpression InfixExpression SimpleName dy
+dx SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName dy
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+in slope SimpleName ArrayAccess NumberLiteral empty
+in slope SimpleName ArrayAccess NumberLiteral empty
+math SimpleName MethodInvocation SimpleName atan
+math SimpleName MethodInvocation ArrayAccess SimpleName in slope
+math SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+math SimpleName MethodInvocation ArrayAccess SimpleName in slope
+math SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+atan SimpleName MethodInvocation ArrayAccess SimpleName in slope
+atan SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+atan SimpleName MethodInvocation ArrayAccess SimpleName in slope
+atan SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+in slope SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName in slope
+in slope SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName in slope
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+math SimpleName MethodInvocation InfixExpression NumberLiteral .
+atan SimpleName MethodInvocation InfixExpression NumberLiteral .
+in slope SimpleName ArrayAccess MethodInvocation InfixExpression NumberLiteral .
+empty NumberLiteral ArrayAccess MethodInvocation InfixExpression NumberLiteral .
+in slope SimpleName ArrayAccess MethodInvocation InfixExpression NumberLiteral .
+empty NumberLiteral ArrayAccess MethodInvocation InfixExpression NumberLiteral .
+math SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName mathpi
+atan SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName mathpi
+. NumberLiteral InfixExpression InfixExpression QualifiedName mathpi
+. NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+mathpi QualifiedName InfixExpression InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation SimpleName atan
+math SimpleName MethodInvocation SimpleName dy
+math SimpleName MethodInvocation SimpleName dx
+atan SimpleName MethodInvocation SimpleName dy
+atan SimpleName MethodInvocation SimpleName dx
+dy SimpleName MethodInvocation SimpleName dx
+math SimpleName MethodInvocation InfixExpression NumberLiteral .
+atan SimpleName MethodInvocation InfixExpression NumberLiteral .
+dy SimpleName MethodInvocation InfixExpression NumberLiteral .
+dx SimpleName MethodInvocation InfixExpression NumberLiteral .
+math SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName mathpi
+atan SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName mathpi
+dy SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName mathpi
+dx SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName mathpi
+. NumberLiteral InfixExpression InfixExpression QualifiedName mathpi
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+private Modifier MethodDeclaration PrimitiveType double
+private Modifier MethodDeclaration SimpleName compute rotation
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName prev
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName prev seg type
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName curr
+double PrimitiveType MethodDeclaration SimpleName compute rotation
+double PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+double PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prev
+double PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+double PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prev seg type
+double PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+double PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName curr
+double PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+double PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+compute rotation SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+compute rotation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prev
+compute rotation SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+compute rotation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prev seg type
+compute rotation SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+compute rotation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName curr
+compute rotation SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+compute rotation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+compute rotation SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+compute rotation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName next
+prev SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+prev SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev seg type
+prev SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr
+prev SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+prev SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+prev SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+prev SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+prev SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr
+prev seg type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+prev seg type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+prev seg type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+prev seg type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+prev seg type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+prev seg type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+curr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+curr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+curr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+curr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+curr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+curr seg type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+curr seg type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+curr seg type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+next SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+next SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute rotation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev seg type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute rotation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prev seg type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type

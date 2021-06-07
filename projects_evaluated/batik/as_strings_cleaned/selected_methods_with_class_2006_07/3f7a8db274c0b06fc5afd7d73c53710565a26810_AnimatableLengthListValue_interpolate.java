@@ -1,0 +1,330 @@
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName result
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName to
+float PrimitiveType SingleVariableDeclaration SimpleName interpolation
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName accumulation
+int PrimitiveType SingleVariableDeclaration SimpleName multiplier
+animatable length list value SimpleName SimpleType CastExpression SimpleName to
+to length list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable length list value
+to length list SimpleName VariableDeclarationFragment CastExpression SimpleName to
+animatable length list value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName to length list
+animatable length list value SimpleName SimpleType CastExpression SimpleName accumulation
+acc length list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable length list value
+acc length list SimpleName VariableDeclarationFragment CastExpression SimpleName accumulation
+animatable length list value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName acc length list
+has to SimpleName VariableDeclarationFragment InfixExpression SimpleName to
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has to
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName to
+has acc SimpleName VariableDeclarationFragment InfixExpression SimpleName accumulation
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has acc
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName accumulation
+to length listlength typeslength QualifiedName InfixExpression QualifiedName length typeslength
+has to SimpleName InfixExpression InfixExpression QualifiedName to length listlength typeslength
+has to SimpleName InfixExpression InfixExpression QualifiedName length typeslength
+acc length listlength typeslength QualifiedName InfixExpression QualifiedName length typeslength
+has acc SimpleName InfixExpression InfixExpression QualifiedName acc length listlength typeslength
+has acc SimpleName InfixExpression InfixExpression QualifiedName length typeslength
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName can interpolate
+short PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName base length types
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName base length values
+interpolation SimpleName InfixExpression NumberLiteral .
+can interpolate SimpleName PrefixExpression InfixExpression SimpleName has to
+can interpolate SimpleName PrefixExpression InfixExpression InfixExpression SimpleName interpolation
+can interpolate SimpleName PrefixExpression InfixExpression InfixExpression NumberLiteral .
+has to SimpleName InfixExpression InfixExpression SimpleName interpolation
+has to SimpleName InfixExpression InfixExpression NumberLiteral .
+base length types SimpleName Assignment QualifiedName to length listlength types
+base length values SimpleName Assignment QualifiedName to length listlength values
+base length types SimpleName Assignment SimpleName length types
+base length values SimpleName Assignment SimpleName length values
+len SimpleName VariableDeclarationFragment QualifiedName base length typeslength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName base length typeslength
+animatable length list value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName res
+animatable length list value SimpleName SimpleType ClassInstanceCreation SimpleName target
+res SimpleName Assignment ClassInstanceCreation SimpleType SimpleName animatable length list value
+res SimpleName Assignment ClassInstanceCreation SimpleName target
+short PrimitiveType ArrayType ArrayCreation SimpleName len
+reslength types QualifiedName Assignment ArrayCreation ArrayType PrimitiveType short
+reslength types QualifiedName Assignment ArrayCreation SimpleName len
+float PrimitiveType ArrayType ArrayCreation SimpleName len
+reslength values QualifiedName Assignment ArrayCreation ArrayType PrimitiveType float
+reslength values QualifiedName Assignment ArrayCreation SimpleName len
+animatable length list value SimpleName SimpleType CastExpression SimpleName result
+res SimpleName Assignment CastExpression SimpleType SimpleName animatable length list value
+res SimpleName Assignment CastExpression SimpleName result
+reslength typeslength QualifiedName InfixExpression SimpleName len
+reslength types QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName reslength typeslength
+reslength types QualifiedName InfixExpression InfixExpression InfixExpression SimpleName len
+short PrimitiveType ArrayType ArrayCreation SimpleName len
+reslength types QualifiedName Assignment ArrayCreation ArrayType PrimitiveType short
+reslength types QualifiedName Assignment ArrayCreation SimpleName len
+float PrimitiveType ArrayType ArrayCreation SimpleName len
+reslength values QualifiedName Assignment ArrayCreation ArrayType PrimitiveType float
+reslength values QualifiedName Assignment ArrayCreation SimpleName len
+percentage interpretation SimpleName InfixExpression QualifiedName respercentage interpretation
+reshas changed QualifiedName Assignment InfixExpression SimpleName percentage interpretation
+reshas changed QualifiedName Assignment InfixExpression QualifiedName respercentage interpretation
+respercentage interpretation QualifiedName Assignment SimpleName percentage interpretation
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+to v SimpleName VariableDeclarationFragment NumberLiteral empty
+acc v SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName to v
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName acc v
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+to v SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName acc v
+to v SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName acc v
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+base length types SimpleName ArrayAccess SimpleName i
+new length type SimpleName VariableDeclarationFragment ArrayAccess SimpleName base length types
+new length type SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new length type
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName base length types
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName i
+base length values SimpleName ArrayAccess SimpleName i
+new length value SimpleName VariableDeclarationFragment ArrayAccess SimpleName base length values
+new length value SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new length value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName base length values
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName i
+to length listlength types QualifiedName ArrayAccess SimpleName i
+animatable length value SimpleName MethodInvocation SimpleName compatible types
+animatable length value SimpleName MethodInvocation SimpleName new length type
+animatable length value SimpleName MethodInvocation SimpleName percentage interpretation
+animatable length value SimpleName MethodInvocation ArrayAccess QualifiedName to length listlength types
+animatable length value SimpleName MethodInvocation ArrayAccess SimpleName i
+animatable length value SimpleName MethodInvocation QualifiedName to length listpercentage interpretation
+compatible types SimpleName MethodInvocation SimpleName new length type
+compatible types SimpleName MethodInvocation SimpleName percentage interpretation
+compatible types SimpleName MethodInvocation ArrayAccess QualifiedName to length listlength types
+compatible types SimpleName MethodInvocation ArrayAccess SimpleName i
+compatible types SimpleName MethodInvocation QualifiedName to length listpercentage interpretation
+new length type SimpleName MethodInvocation SimpleName percentage interpretation
+new length type SimpleName MethodInvocation ArrayAccess QualifiedName to length listlength types
+new length type SimpleName MethodInvocation ArrayAccess SimpleName i
+new length type SimpleName MethodInvocation QualifiedName to length listpercentage interpretation
+percentage interpretation SimpleName MethodInvocation ArrayAccess QualifiedName to length listlength types
+percentage interpretation SimpleName MethodInvocation ArrayAccess SimpleName i
+percentage interpretation SimpleName MethodInvocation QualifiedName to length listpercentage interpretation
+to length listlength types QualifiedName ArrayAccess MethodInvocation QualifiedName to length listpercentage interpretation
+i SimpleName ArrayAccess MethodInvocation QualifiedName to length listpercentage interpretation
+has to SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName animatable length value
+has to SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName compatible types
+has to SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName new length type
+has to SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName percentage interpretation
+has to SimpleName InfixExpression PrefixExpression MethodInvocation QualifiedName to length listpercentage interpretation
+acc length listlength types QualifiedName ArrayAccess SimpleName i
+animatable length value SimpleName MethodInvocation SimpleName compatible types
+animatable length value SimpleName MethodInvocation SimpleName new length type
+animatable length value SimpleName MethodInvocation SimpleName percentage interpretation
+animatable length value SimpleName MethodInvocation ArrayAccess QualifiedName acc length listlength types
+animatable length value SimpleName MethodInvocation ArrayAccess SimpleName i
+animatable length value SimpleName MethodInvocation QualifiedName acc length listpercentage interpretation
+compatible types SimpleName MethodInvocation SimpleName new length type
+compatible types SimpleName MethodInvocation SimpleName percentage interpretation
+compatible types SimpleName MethodInvocation ArrayAccess QualifiedName acc length listlength types
+compatible types SimpleName MethodInvocation ArrayAccess SimpleName i
+compatible types SimpleName MethodInvocation QualifiedName acc length listpercentage interpretation
+new length type SimpleName MethodInvocation SimpleName percentage interpretation
+new length type SimpleName MethodInvocation ArrayAccess QualifiedName acc length listlength types
+new length type SimpleName MethodInvocation ArrayAccess SimpleName i
+new length type SimpleName MethodInvocation QualifiedName acc length listpercentage interpretation
+percentage interpretation SimpleName MethodInvocation ArrayAccess QualifiedName acc length listlength types
+percentage interpretation SimpleName MethodInvocation ArrayAccess SimpleName i
+percentage interpretation SimpleName MethodInvocation QualifiedName acc length listpercentage interpretation
+acc length listlength types QualifiedName ArrayAccess MethodInvocation QualifiedName acc length listpercentage interpretation
+i SimpleName ArrayAccess MethodInvocation QualifiedName acc length listpercentage interpretation
+has acc SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName animatable length value
+has acc SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName compatible types
+has acc SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName new length type
+has acc SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName percentage interpretation
+has acc SimpleName InfixExpression PrefixExpression MethodInvocation QualifiedName acc length listpercentage interpretation
+has to SimpleName InfixExpression InfixExpression InfixExpression SimpleName has acc
+target SimpleName MethodInvocation SimpleName svg to user space
+target SimpleName MethodInvocation SimpleName new length value
+target SimpleName MethodInvocation SimpleName new length type
+target SimpleName MethodInvocation SimpleName percentage interpretation
+svg to user space SimpleName MethodInvocation SimpleName new length value
+svg to user space SimpleName MethodInvocation SimpleName new length type
+svg to user space SimpleName MethodInvocation SimpleName percentage interpretation
+new length value SimpleName MethodInvocation SimpleName new length type
+new length value SimpleName MethodInvocation SimpleName percentage interpretation
+new length type SimpleName MethodInvocation SimpleName percentage interpretation
+new length value SimpleName Assignment MethodInvocation SimpleName target
+new length value SimpleName Assignment MethodInvocation SimpleName svg to user space
+new length value SimpleName Assignment MethodInvocation SimpleName new length value
+new length value SimpleName Assignment MethodInvocation SimpleName new length type
+new length value SimpleName Assignment MethodInvocation SimpleName percentage interpretation
+new length type SimpleName Assignment QualifiedName svg lengthsvg lengthtype number
+to length listlength values QualifiedName ArrayAccess SimpleName i
+to length listlength types QualifiedName ArrayAccess SimpleName i
+totarget QualifiedName MethodInvocation SimpleName svg to user space
+totarget QualifiedName MethodInvocation ArrayAccess QualifiedName to length listlength values
+totarget QualifiedName MethodInvocation ArrayAccess SimpleName i
+totarget QualifiedName MethodInvocation ArrayAccess QualifiedName to length listlength types
+totarget QualifiedName MethodInvocation ArrayAccess SimpleName i
+totarget QualifiedName MethodInvocation QualifiedName to length listpercentage interpretation
+svg to user space SimpleName MethodInvocation ArrayAccess QualifiedName to length listlength values
+svg to user space SimpleName MethodInvocation ArrayAccess SimpleName i
+svg to user space SimpleName MethodInvocation ArrayAccess QualifiedName to length listlength types
+svg to user space SimpleName MethodInvocation ArrayAccess SimpleName i
+svg to user space SimpleName MethodInvocation QualifiedName to length listpercentage interpretation
+to length listlength values QualifiedName ArrayAccess MethodInvocation ArrayAccess QualifiedName to length listlength types
+to length listlength values QualifiedName ArrayAccess MethodInvocation ArrayAccess SimpleName i
+i SimpleName ArrayAccess MethodInvocation ArrayAccess QualifiedName to length listlength types
+i SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName i
+to length listlength values QualifiedName ArrayAccess MethodInvocation QualifiedName to length listpercentage interpretation
+i SimpleName ArrayAccess MethodInvocation QualifiedName to length listpercentage interpretation
+to length listlength types QualifiedName ArrayAccess MethodInvocation QualifiedName to length listpercentage interpretation
+i SimpleName ArrayAccess MethodInvocation QualifiedName to length listpercentage interpretation
+to v SimpleName Assignment MethodInvocation QualifiedName totarget
+to v SimpleName Assignment MethodInvocation SimpleName svg to user space
+to v SimpleName Assignment MethodInvocation ArrayAccess QualifiedName to length listlength values
+to v SimpleName Assignment MethodInvocation ArrayAccess SimpleName i
+to v SimpleName Assignment MethodInvocation ArrayAccess QualifiedName to length listlength types
+to v SimpleName Assignment MethodInvocation ArrayAccess SimpleName i
+to v SimpleName Assignment MethodInvocation QualifiedName to length listpercentage interpretation
+acc length listlength values QualifiedName ArrayAccess SimpleName i
+acc length listlength types QualifiedName ArrayAccess SimpleName i
+accumulationtarget QualifiedName MethodInvocation SimpleName svg to user space
+accumulationtarget QualifiedName MethodInvocation ArrayAccess QualifiedName acc length listlength values
+accumulationtarget QualifiedName MethodInvocation ArrayAccess SimpleName i
+accumulationtarget QualifiedName MethodInvocation ArrayAccess QualifiedName acc length listlength types
+accumulationtarget QualifiedName MethodInvocation ArrayAccess SimpleName i
+accumulationtarget QualifiedName MethodInvocation QualifiedName acc length listpercentage interpretation
+svg to user space SimpleName MethodInvocation ArrayAccess QualifiedName acc length listlength values
+svg to user space SimpleName MethodInvocation ArrayAccess SimpleName i
+svg to user space SimpleName MethodInvocation ArrayAccess QualifiedName acc length listlength types
+svg to user space SimpleName MethodInvocation ArrayAccess SimpleName i
+svg to user space SimpleName MethodInvocation QualifiedName acc length listpercentage interpretation
+acc length listlength values QualifiedName ArrayAccess MethodInvocation ArrayAccess QualifiedName acc length listlength types
+acc length listlength values QualifiedName ArrayAccess MethodInvocation ArrayAccess SimpleName i
+i SimpleName ArrayAccess MethodInvocation ArrayAccess QualifiedName acc length listlength types
+i SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName i
+acc length listlength values QualifiedName ArrayAccess MethodInvocation QualifiedName acc length listpercentage interpretation
+i SimpleName ArrayAccess MethodInvocation QualifiedName acc length listpercentage interpretation
+acc length listlength types QualifiedName ArrayAccess MethodInvocation QualifiedName acc length listpercentage interpretation
+i SimpleName ArrayAccess MethodInvocation QualifiedName acc length listpercentage interpretation
+acc v SimpleName Assignment MethodInvocation QualifiedName accumulationtarget
+acc v SimpleName Assignment MethodInvocation SimpleName svg to user space
+acc v SimpleName Assignment MethodInvocation ArrayAccess QualifiedName acc length listlength values
+acc v SimpleName Assignment MethodInvocation ArrayAccess SimpleName i
+acc v SimpleName Assignment MethodInvocation ArrayAccess QualifiedName acc length listlength types
+acc v SimpleName Assignment MethodInvocation ArrayAccess SimpleName i
+acc v SimpleName Assignment MethodInvocation QualifiedName acc length listpercentage interpretation
+has to SimpleName IfStatement Block IfStatement SimpleName has acc
+to length listlength values QualifiedName ArrayAccess SimpleName i
+to v SimpleName Assignment ArrayAccess QualifiedName to length listlength values
+to v SimpleName Assignment ArrayAccess SimpleName i
+acc length listlength values QualifiedName ArrayAccess SimpleName i
+acc v SimpleName Assignment ArrayAccess QualifiedName acc length listlength values
+acc v SimpleName Assignment ArrayAccess SimpleName i
+has to SimpleName IfStatement Block IfStatement SimpleName has acc
+to v SimpleName InfixExpression SimpleName new length value
+interpolation SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName to v
+interpolation SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName new length value
+multiplier SimpleName InfixExpression SimpleName acc v
+interpolation SimpleName InfixExpression InfixExpression InfixExpression SimpleName multiplier
+interpolation SimpleName InfixExpression InfixExpression InfixExpression SimpleName acc v
+new length value SimpleName Assignment InfixExpression InfixExpression SimpleName interpolation
+new length value SimpleName Assignment InfixExpression InfixExpression SimpleName multiplier
+new length value SimpleName Assignment InfixExpression InfixExpression SimpleName acc v
+reslength types QualifiedName ArrayAccess SimpleName i
+new length type SimpleName InfixExpression ArrayAccess QualifiedName reslength types
+new length type SimpleName InfixExpression ArrayAccess SimpleName i
+reslength values QualifiedName ArrayAccess SimpleName i
+new length value SimpleName InfixExpression ArrayAccess QualifiedName reslength values
+new length value SimpleName InfixExpression ArrayAccess SimpleName i
+new length type SimpleName InfixExpression InfixExpression InfixExpression SimpleName new length value
+reshas changed QualifiedName Assignment InfixExpression InfixExpression SimpleName new length type
+reshas changed QualifiedName Assignment InfixExpression InfixExpression SimpleName new length value
+reslength types QualifiedName ArrayAccess SimpleName i
+reslength types QualifiedName ArrayAccess Assignment SimpleName new length type
+i SimpleName ArrayAccess Assignment SimpleName new length type
+reslength values QualifiedName ArrayAccess SimpleName i
+reslength values QualifiedName ArrayAccess Assignment SimpleName new length value
+i SimpleName ArrayAccess Assignment SimpleName new length value
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType short
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName can interpolate
+short PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+short PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName can interpolate
+float PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName can interpolate
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SimpleName interpolate
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName to
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName interpolation
+animatable value SimpleName SimpleType MethodDeclaration SimpleName interpolate
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName result
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName to
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName interpolation
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName accumulation
+interpolate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+interpolate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName result
+interpolate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+interpolate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName to
+interpolate SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+interpolate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName interpolation
+interpolate SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+interpolate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName accumulation
+interpolate SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+interpolate SimpleName MethodDeclaration SingleVariableDeclaration SimpleName multiplier
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interpolation
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accumulation
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+result SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName multiplier
+to SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+to SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interpolation
+to SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accumulation
+to SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+to SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName multiplier
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accumulation
+interpolation SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accumulation
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName multiplier
+interpolation SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+interpolation SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName multiplier
+accumulation SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+accumulation SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName multiplier
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName interpolate
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interpolation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accumulation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName multiplier
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName interpolate
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName result
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName interpolation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName accumulation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName multiplier

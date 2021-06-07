@@ -1,0 +1,43 @@
+parsed url SimpleName SimpleType SingleVariableDeclaration SimpleName resource url
+parsed url SimpleName SimpleType SingleVariableDeclaration SimpleName doc url
+any StringLiteral MethodInvocation SimpleName equals
+any StringLiteral MethodInvocation SimpleName resource origin
+equals SimpleName MethodInvocation SimpleName resource origin
+relaxed external resource security SimpleName SimpleType ClassInstanceCreation SimpleName resource url
+relaxed external resource security SimpleName SimpleType ClassInstanceCreation SimpleName doc url
+resource url SimpleName ClassInstanceCreation SimpleName doc url
+document StringLiteral MethodInvocation SimpleName equals
+document StringLiteral MethodInvocation SimpleName resource origin
+equals SimpleName MethodInvocation SimpleName resource origin
+default external resource security SimpleName SimpleType ClassInstanceCreation SimpleName resource url
+default external resource security SimpleName SimpleType ClassInstanceCreation SimpleName doc url
+resource url SimpleName ClassInstanceCreation SimpleName doc url
+embeded StringLiteral MethodInvocation SimpleName equals
+embeded StringLiteral MethodInvocation SimpleName resource origin
+equals SimpleName MethodInvocation SimpleName resource origin
+embeded external resource security SimpleName SimpleType ClassInstanceCreation SimpleName resource url
+public Modifier MethodDeclaration SimpleType SimpleName external resource security
+public Modifier MethodDeclaration SimpleName get external resource security
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc url
+external resource security SimpleName SimpleType MethodDeclaration SimpleName get external resource security
+external resource security SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resource url
+external resource security SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName doc url
+get external resource security SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+get external resource security SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource url
+get external resource security SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+get external resource security SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc url
+resource url SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc url
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName external resource security
+public Modifier TypeDeclaration MethodDeclaration SimpleName get external resource security
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc url
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName external resource security
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get external resource security
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc url

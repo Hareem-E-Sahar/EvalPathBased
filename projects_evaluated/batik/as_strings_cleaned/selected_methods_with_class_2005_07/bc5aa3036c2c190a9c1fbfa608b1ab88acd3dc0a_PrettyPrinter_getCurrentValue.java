@@ -1,0 +1,66 @@
+scanner SimpleName MethodInvocation SimpleName get start
+scanner SimpleName MethodInvocation SimpleName get start offset
+scanner SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scanner
+scanner SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get start offset
+get start SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scanner
+get start SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get start offset
+off SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName scanner
+off SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get start
+off SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName scanner
+off SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get start offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName off
+scanner SimpleName MethodInvocation SimpleName get end
+scanner SimpleName MethodInvocation SimpleName get end offset
+scanner SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scanner
+scanner SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get end offset
+get end SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName scanner
+get end SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get end offset
+scanner SimpleName MethodInvocation InfixExpression InfixExpression SimpleName off
+get end SimpleName MethodInvocation InfixExpression InfixExpression SimpleName off
+scanner SimpleName MethodInvocation InfixExpression InfixExpression SimpleName off
+get end offset SimpleName MethodInvocation InfixExpression InfixExpression SimpleName off
+len SimpleName VariableDeclarationFragment InfixExpression SimpleName off
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName off
+char PrimitiveType ArrayType ArrayCreation SimpleName len
+result SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType char
+result SimpleName VariableDeclarationFragment ArrayCreation SimpleName len
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+scanner SimpleName MethodInvocation SimpleName get buffer
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner
+buffer SimpleName VariableDeclarationFragment MethodInvocation SimpleName get buffer
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+result SimpleName ArrayAccess SimpleName i
+off SimpleName InfixExpression SimpleName i
+buffer SimpleName ArrayAccess InfixExpression SimpleName off
+buffer SimpleName ArrayAccess InfixExpression SimpleName i
+result SimpleName ArrayAccess Assignment ArrayAccess SimpleName buffer
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName buffer
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+protected Modifier MethodDeclaration ArrayType PrimitiveType char
+protected Modifier MethodDeclaration SimpleName get current value
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName result
+char PrimitiveType ArrayType MethodDeclaration SimpleName get current value
+get current value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get current value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get current value SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current value
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current value

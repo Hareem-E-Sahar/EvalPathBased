@@ -1,0 +1,70 @@
+nodes SimpleName MethodInvocation SimpleName clone
+array list SimpleName SimpleType CastExpression MethodInvocation SimpleName nodes
+array list SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+old nodes SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName array list
+old nodes SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName nodes
+old nodes SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName clone
+array list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old nodes
+nodes SimpleName MethodInvocation SimpleName clear
+bound element SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName bound element
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+is selected SimpleName MethodInvocation SimpleName n
+nodes SimpleName MethodInvocation SimpleName add
+nodes SimpleName MethodInvocation SimpleName n
+add SimpleName MethodInvocation SimpleName n
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+nodes SimpleName MethodInvocation SimpleName size
+nodes size SimpleName VariableDeclarationFragment MethodInvocation SimpleName nodes
+nodes size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nodes size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nodes
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+old nodes SimpleName MethodInvocation SimpleName size
+old nodes SimpleName MethodInvocation InfixExpression SimpleName nodes size
+size SimpleName MethodInvocation InfixExpression SimpleName nodes size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName nodes size
+old nodes SimpleName MethodInvocation SimpleName get
+old nodes SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+nodes SimpleName MethodInvocation SimpleName get
+nodes SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+old nodes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName nodes
+old nodes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+old nodes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName i
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName nodes
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName i
+i SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName nodes
+i SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+i SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName nodes size
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+nodes size SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral false
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName update
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName update
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+update SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+update SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update

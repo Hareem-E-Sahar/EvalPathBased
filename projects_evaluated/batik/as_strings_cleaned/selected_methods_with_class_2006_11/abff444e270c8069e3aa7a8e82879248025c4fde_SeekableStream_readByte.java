@@ -1,0 +1,30 @@
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+ch SimpleName InfixExpression NumberLiteral empty
+byte PrimitiveType CastExpression ParenthesizedExpression SimpleName ch
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType byte
+public Modifier MethodDeclaration SimpleName read byte
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration PrimitiveType byte
+final Modifier MethodDeclaration SimpleName read byte
+final Modifier MethodDeclaration SimpleType SimpleName io exception
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+byte PrimitiveType MethodDeclaration SimpleName read byte
+byte PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+byte PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read byte SimpleName MethodDeclaration SimpleType SimpleName io exception
+read byte SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName read byte
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

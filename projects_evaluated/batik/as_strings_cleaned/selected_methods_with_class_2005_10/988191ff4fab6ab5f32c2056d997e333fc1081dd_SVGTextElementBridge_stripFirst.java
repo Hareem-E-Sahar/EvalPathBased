@@ -1,0 +1,58 @@
+strings SimpleName MethodInvocation SimpleName get
+strings SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName strings
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+s SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName strings
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+char at SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+char at SimpleName MethodInvocation InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression CharacterLiteral empty
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+attributes SimpleName MethodInvocation SimpleName remove
+attributes SimpleName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+strings SimpleName MethodInvocation SimpleName remove
+strings SimpleName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName substring
+s SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+strings SimpleName MethodInvocation SimpleName set
+strings SimpleName MethodInvocation NumberLiteral empty
+strings SimpleName MethodInvocation MethodInvocation SimpleName s
+strings SimpleName MethodInvocation MethodInvocation SimpleName substring
+strings SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation NumberLiteral empty
+set SimpleName MethodInvocation MethodInvocation SimpleName s
+set SimpleName MethodInvocation MethodInvocation SimpleName substring
+set SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName s
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName substring
+empty NumberLiteral MethodInvocation MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName strip first
+void PrimitiveType MethodDeclaration SimpleName strip first
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName strip first
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName strip first

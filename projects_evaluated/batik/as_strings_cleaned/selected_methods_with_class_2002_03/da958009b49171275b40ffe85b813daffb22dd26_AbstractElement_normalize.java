@@ -1,0 +1,32 @@
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+map SimpleName MethodInvocation SimpleName get length
+map SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName map
+i SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+map SimpleName MethodInvocation SimpleName item
+map SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+map SimpleName MethodInvocation MethodInvocation SimpleName normalize
+item SimpleName MethodInvocation MethodInvocation SimpleName normalize
+i SimpleName MethodInvocation MethodInvocation SimpleName normalize
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName normalize
+void PrimitiveType MethodDeclaration SimpleName normalize
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName normalize
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName normalize

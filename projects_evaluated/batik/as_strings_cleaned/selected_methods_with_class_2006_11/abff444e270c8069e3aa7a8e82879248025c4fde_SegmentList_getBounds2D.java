@@ -1,0 +1,45 @@
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+iter SimpleName MethodInvocation SimpleName next
+segment SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+segment SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+get bounds d SimpleName MethodInvocation MethodInvocation SimpleName clone
+rectangle d SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+ret SimpleName Assignment CastExpression SimpleType SimpleName rectangle d
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName clone
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+segment SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+segment SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+seg SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName segment
+seg SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+seg SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+segment SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName seg
+seg SimpleName MethodInvocation SimpleName get bounds d
+seg b SimpleName VariableDeclarationFragment MethodInvocation SimpleName seg
+seg b SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName seg b
+rectangle d SimpleName MethodInvocation SimpleName union
+rectangle d SimpleName MethodInvocation SimpleName seg b
+rectangle d SimpleName MethodInvocation SimpleName ret
+rectangle d SimpleName MethodInvocation SimpleName ret
+union SimpleName MethodInvocation SimpleName seg b
+union SimpleName MethodInvocation SimpleName ret
+union SimpleName MethodInvocation SimpleName ret
+seg b SimpleName MethodInvocation SimpleName ret
+seg b SimpleName MethodInvocation SimpleName ret
+ret SimpleName MethodInvocation SimpleName ret
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName get bounds d
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get bounds d
+get bounds d SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bounds d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bounds d

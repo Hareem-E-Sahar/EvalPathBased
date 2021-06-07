@@ -1,0 +1,19 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName other
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is same node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+boolean PrimitiveType MethodDeclaration SimpleName is same node
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+is same node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+is same node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is same node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is same node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

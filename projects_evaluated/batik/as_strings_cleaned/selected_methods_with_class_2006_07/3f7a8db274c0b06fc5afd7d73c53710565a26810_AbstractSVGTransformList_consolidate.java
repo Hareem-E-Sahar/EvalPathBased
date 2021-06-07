@@ -1,0 +1,58 @@
+item list SimpleName MethodInvocation SimpleName size
+item list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+item list SimpleName MethodInvocation SimpleName size
+item list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get item SimpleName MethodInvocation NumberLiteral empty
+get item impl SimpleName MethodInvocation NumberLiteral empty
+svg transform SimpleName SimpleType CastExpression MethodInvocation SimpleName get item impl
+svg transform SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+view SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg transform
+view SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get item impl
+view SimpleName VariableDeclarationFragment CastExpression MethodInvocation NumberLiteral empty
+svg transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName view
+svg transform item SimpleName SimpleType CastExpression SimpleName view
+view SimpleName CastExpression ParenthesizedExpression FieldAccess SimpleName affine transform
+affine transform SimpleName FieldAccess MethodInvocation SimpleName clone
+affine transform SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+transform SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName affine transform
+transform SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName clone
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName transform
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+item list SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName item list
+i SimpleName InfixExpression MethodInvocation SimpleName size
+get item impl SimpleName MethodInvocation SimpleName i
+svg transform SimpleName SimpleType CastExpression MethodInvocation SimpleName get item impl
+svg transform SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+view SimpleName Assignment CastExpression SimpleType SimpleName svg transform
+view SimpleName Assignment CastExpression MethodInvocation SimpleName get item impl
+view SimpleName Assignment CastExpression MethodInvocation SimpleName i
+svg transform item SimpleName SimpleType CastExpression SimpleName view
+view SimpleName CastExpression ParenthesizedExpression FieldAccess SimpleName affine transform
+transform SimpleName MethodInvocation SimpleName concatenate
+transform SimpleName MethodInvocation FieldAccess SimpleName affine transform
+concatenate SimpleName MethodInvocation FieldAccess SimpleName affine transform
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+svgom matrix SimpleName SimpleType ClassInstanceCreation SimpleName transform
+matrix SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName svgom matrix
+matrix SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName transform
+svgom matrix SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName matrix
+create svg transform from matrix SimpleName MethodInvocation SimpleName matrix
+initialize SimpleName MethodInvocation MethodInvocation SimpleName create svg transform from matrix
+initialize SimpleName MethodInvocation MethodInvocation SimpleName matrix
+public Modifier MethodDeclaration SimpleType SimpleName svg transform
+public Modifier MethodDeclaration SimpleName consolidate
+svg transform SimpleName SimpleType MethodDeclaration SimpleName consolidate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg transform
+public Modifier TypeDeclaration MethodDeclaration SimpleName consolidate
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg transform
+test SimpleName TypeDeclaration MethodDeclaration SimpleName consolidate

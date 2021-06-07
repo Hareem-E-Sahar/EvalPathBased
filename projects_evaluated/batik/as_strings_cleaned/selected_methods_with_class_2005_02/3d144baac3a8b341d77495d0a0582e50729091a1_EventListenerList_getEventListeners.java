@@ -1,0 +1,66 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace uri
+listeners ns SimpleName MethodInvocation SimpleName get
+listeners ns SimpleName MethodInvocation SimpleName namespace uri
+get SimpleName MethodInvocation SimpleName namespace uri
+ls SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName listeners ns
+ls SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+ls SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName namespace uri
+counts SimpleName MethodInvocation SimpleName get
+counts SimpleName MethodInvocation SimpleName namespace uri
+get SimpleName MethodInvocation SimpleName namespace uri
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName counts
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+count SimpleName VariableDeclarationFragment MethodInvocation SimpleName namespace uri
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName counts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName namespace uri
+count SimpleName InfixExpression NumberLiteral empty
+entry SimpleName SimpleType ArrayType ArrayCreation SimpleName count
+ls SimpleName Assignment ArrayCreation SimpleName count
+listeners ns SimpleName MethodInvocation SimpleName put
+listeners ns SimpleName MethodInvocation SimpleName namespace uri
+listeners ns SimpleName MethodInvocation SimpleName ls
+put SimpleName MethodInvocation SimpleName namespace uri
+put SimpleName MethodInvocation SimpleName ls
+namespace uri SimpleName MethodInvocation SimpleName ls
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+e SimpleName VariableDeclarationFragment SimpleName head
+entry SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName e
+entry SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName head
+i SimpleName InfixExpression SimpleName count
+e SimpleName Assignment QualifiedName enext
+namespace uri SimpleName MethodInvocation SimpleName equals
+namespace uri SimpleName MethodInvocation QualifiedName enamespace uri
+equals SimpleName MethodInvocation QualifiedName enamespace uri
+ls SimpleName ArrayAccess PostfixExpression SimpleName i
+ls SimpleName ArrayAccess Assignment SimpleName e
+i SimpleName PostfixExpression ArrayAccess Assignment SimpleName e
+i SimpleName InfixExpression ForStatement Assignment SimpleName e
+i SimpleName InfixExpression ForStatement Assignment QualifiedName enext
+count SimpleName InfixExpression ForStatement Assignment SimpleName e
+count SimpleName InfixExpression ForStatement Assignment QualifiedName enext
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ls
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName entry
+public Modifier MethodDeclaration SimpleName get event listeners
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ls
+entry SimpleName SimpleType ArrayType MethodDeclaration SimpleName get event listeners
+get event listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get event listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+get event listeners SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get event listeners SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get event listeners SimpleName MethodDeclaration Block ReturnStatement SimpleName ls
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get event listeners
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get event listeners
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri

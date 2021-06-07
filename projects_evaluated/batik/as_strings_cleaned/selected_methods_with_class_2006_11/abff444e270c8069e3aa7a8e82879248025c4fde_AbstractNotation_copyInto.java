@@ -1,0 +1,28 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+copy into SimpleName SuperMethodInvocation SimpleName n
+abstract notation SimpleName SimpleType CastExpression SimpleName n
+an SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract notation
+an SimpleName VariableDeclarationFragment CastExpression SimpleName n
+abstract notation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName an
+annode name QualifiedName Assignment SimpleName node name
+anpublic id QualifiedName Assignment SimpleName public id
+ansystem id QualifiedName Assignment SimpleName system id
+protected Modifier MethodDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SimpleName copy into
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleName copy into
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+copy into SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+copy into SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+copy into SimpleName MethodDeclaration Block ReturnStatement SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName copy into
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName copy into
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

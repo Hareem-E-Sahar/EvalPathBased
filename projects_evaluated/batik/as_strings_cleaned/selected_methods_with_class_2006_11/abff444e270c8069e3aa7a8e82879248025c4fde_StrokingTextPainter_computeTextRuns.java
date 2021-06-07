@@ -1,0 +1,165 @@
+text node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName aci
+attributed character iterator SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName chunk ac is
+int PrimitiveType ArrayType ArrayCreation QualifiedName chunk ac islength
+chunk char maps SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+chunk char maps SimpleName VariableDeclarationFragment ArrayCreation QualifiedName chunk ac islength
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName chunk char maps
+aci SimpleName MethodInvocation SimpleName get begin index
+chunk start SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+chunk start SimpleName VariableDeclarationFragment MethodInvocation SimpleName get begin index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName chunk start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get begin index
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName chunk ac islength
+bidi attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+chunk ac is SimpleName ArrayAccess SimpleName i
+bidi attributed character iterator SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName chunk ac is
+bidi attributed character iterator SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName i
+bidi attributed character iterator SimpleName SimpleType ClassInstanceCreation SimpleName font render context
+bidi attributed character iterator SimpleName SimpleType ClassInstanceCreation SimpleName chunk start
+chunk ac is SimpleName ArrayAccess ClassInstanceCreation SimpleName font render context
+i SimpleName ArrayAccess ClassInstanceCreation SimpleName font render context
+chunk ac is SimpleName ArrayAccess ClassInstanceCreation SimpleName chunk start
+i SimpleName ArrayAccess ClassInstanceCreation SimpleName chunk start
+font render context SimpleName ClassInstanceCreation SimpleName chunk start
+iter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName bidi attributed character iterator
+iter SimpleName Assignment ClassInstanceCreation ArrayAccess SimpleName chunk ac is
+iter SimpleName Assignment ClassInstanceCreation ArrayAccess SimpleName i
+iter SimpleName Assignment ClassInstanceCreation SimpleName font render context
+iter SimpleName Assignment ClassInstanceCreation SimpleName chunk start
+chunk ac is SimpleName ArrayAccess SimpleName i
+chunk ac is SimpleName ArrayAccess Assignment SimpleName iter
+i SimpleName ArrayAccess Assignment SimpleName iter
+chunk char maps SimpleName ArrayAccess SimpleName i
+iter SimpleName MethodInvocation SimpleName get char map
+chunk char maps SimpleName ArrayAccess Assignment MethodInvocation SimpleName iter
+chunk char maps SimpleName ArrayAccess Assignment MethodInvocation SimpleName get char map
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName iter
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName get char map
+chunk ac is SimpleName ArrayAccess SimpleName i
+chunk ac is SimpleName ArrayAccess SimpleName i
+create modified aci for font matching SimpleName MethodInvocation ArrayAccess SimpleName chunk ac is
+create modified aci for font matching SimpleName MethodInvocation ArrayAccess SimpleName i
+chunk ac is SimpleName ArrayAccess Assignment MethodInvocation SimpleName create modified aci for font matching
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName create modified aci for font matching
+chunk ac is SimpleName ArrayAccess SimpleName i
+chunk ac is SimpleName ArrayAccess MethodInvocation SimpleName get end index
+i SimpleName ArrayAccess MethodInvocation SimpleName get end index
+chunk ac is SimpleName ArrayAccess SimpleName i
+chunk ac is SimpleName ArrayAccess MethodInvocation SimpleName get begin index
+i SimpleName ArrayAccess MethodInvocation SimpleName get begin index
+get end index SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get begin index
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName chunk ac islength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+chunk ac islength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+text runs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text runs
+text chunk SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName chunk
+text chunk SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev chunk
+chunk SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName prev chunk
+current chunk SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName current chunk
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+node SimpleName MethodInvocation SimpleName get location
+location SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+location SimpleName VariableDeclarationFragment MethodInvocation SimpleName get location
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName location
+chunk ac is SimpleName ArrayAccess SimpleName current chunk
+chunk ac is SimpleName ArrayAccess MethodInvocation SimpleName first
+current chunk SimpleName ArrayAccess MethodInvocation SimpleName first
+chunk ac is SimpleName ArrayAccess SimpleName current chunk
+chunk char maps SimpleName ArrayAccess SimpleName current chunk
+get text chunk SimpleName MethodInvocation SimpleName node
+get text chunk SimpleName MethodInvocation ArrayAccess SimpleName chunk ac is
+get text chunk SimpleName MethodInvocation ArrayAccess SimpleName current chunk
+get text chunk SimpleName MethodInvocation ArrayAccess SimpleName chunk char maps
+get text chunk SimpleName MethodInvocation ArrayAccess SimpleName current chunk
+get text chunk SimpleName MethodInvocation SimpleName text runs
+get text chunk SimpleName MethodInvocation SimpleName prev chunk
+node SimpleName MethodInvocation ArrayAccess SimpleName chunk ac is
+node SimpleName MethodInvocation ArrayAccess SimpleName current chunk
+node SimpleName MethodInvocation ArrayAccess SimpleName chunk char maps
+node SimpleName MethodInvocation ArrayAccess SimpleName current chunk
+node SimpleName MethodInvocation SimpleName text runs
+node SimpleName MethodInvocation SimpleName prev chunk
+chunk ac is SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName chunk char maps
+chunk ac is SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName current chunk
+current chunk SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName chunk char maps
+current chunk SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName current chunk
+chunk ac is SimpleName ArrayAccess MethodInvocation SimpleName text runs
+current chunk SimpleName ArrayAccess MethodInvocation SimpleName text runs
+chunk ac is SimpleName ArrayAccess MethodInvocation SimpleName prev chunk
+current chunk SimpleName ArrayAccess MethodInvocation SimpleName prev chunk
+chunk char maps SimpleName ArrayAccess MethodInvocation SimpleName text runs
+current chunk SimpleName ArrayAccess MethodInvocation SimpleName text runs
+chunk char maps SimpleName ArrayAccess MethodInvocation SimpleName prev chunk
+current chunk SimpleName ArrayAccess MethodInvocation SimpleName prev chunk
+text runs SimpleName MethodInvocation SimpleName prev chunk
+chunk SimpleName Assignment MethodInvocation SimpleName get text chunk
+chunk SimpleName Assignment MethodInvocation SimpleName node
+chunk SimpleName Assignment MethodInvocation ArrayAccess SimpleName chunk ac is
+chunk SimpleName Assignment MethodInvocation ArrayAccess SimpleName current chunk
+chunk SimpleName Assignment MethodInvocation ArrayAccess SimpleName chunk char maps
+chunk SimpleName Assignment MethodInvocation ArrayAccess SimpleName current chunk
+chunk SimpleName Assignment MethodInvocation SimpleName text runs
+chunk SimpleName Assignment MethodInvocation SimpleName prev chunk
+chunk ac is SimpleName ArrayAccess SimpleName current chunk
+chunk ac is SimpleName ArrayAccess MethodInvocation SimpleName first
+current chunk SimpleName ArrayAccess MethodInvocation SimpleName first
+adjust chunk offsets SimpleName MethodInvocation SimpleName location
+adjust chunk offsets SimpleName MethodInvocation SimpleName text runs
+adjust chunk offsets SimpleName MethodInvocation SimpleName chunk
+location SimpleName MethodInvocation SimpleName text runs
+location SimpleName MethodInvocation SimpleName chunk
+text runs SimpleName MethodInvocation SimpleName chunk
+location SimpleName Assignment MethodInvocation SimpleName adjust chunk offsets
+location SimpleName Assignment MethodInvocation SimpleName location
+location SimpleName Assignment MethodInvocation SimpleName text runs
+location SimpleName Assignment MethodInvocation SimpleName chunk
+prev chunk SimpleName Assignment SimpleName chunk
+current chunk SimpleName InfixExpression QualifiedName chunk ac islength
+chunk SimpleName InfixExpression InfixExpression InfixExpression SimpleName current chunk
+chunk SimpleName InfixExpression InfixExpression InfixExpression QualifiedName chunk ac islength
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName text runs
+public Modifier MethodDeclaration SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName compute text runs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName aci
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName chunk ac is
+list SimpleName SimpleType MethodDeclaration SimpleName compute text runs
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName aci
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName chunk ac is
+compute text runs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+compute text runs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+compute text runs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+compute text runs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aci
+compute text runs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName chunk ac is
+compute text runs SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compute text runs SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compute text runs SimpleName MethodDeclaration Block ReturnStatement SimpleName text runs
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName chunk ac is
+aci SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName chunk ac is
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute text runs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName chunk ac is
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute text runs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName chunk ac is

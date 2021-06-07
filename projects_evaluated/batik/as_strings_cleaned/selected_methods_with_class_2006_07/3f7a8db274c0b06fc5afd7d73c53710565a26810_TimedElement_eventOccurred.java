@@ -1,0 +1,42 @@
+timing specifier SimpleName SimpleType SingleVariableDeclaration SimpleName t
+event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+handled events SimpleName MethodInvocation SimpleName get
+handled events SimpleName MethodInvocation SimpleName e
+get SimpleName MethodInvocation SimpleName e
+hash set SimpleName SimpleType CastExpression MethodInvocation SimpleName handled events
+hash set SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+hash set SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+ts SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName hash set
+ts SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName handled events
+ts SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+ts SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+hash set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+ts SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hash set
+handled events SimpleName MethodInvocation SimpleName put
+handled events SimpleName MethodInvocation SimpleName e
+handled events SimpleName MethodInvocation SimpleName ts
+put SimpleName MethodInvocation SimpleName e
+put SimpleName MethodInvocation SimpleName ts
+e SimpleName MethodInvocation SimpleName ts
+ts SimpleName MethodInvocation SimpleName add
+ts SimpleName MethodInvocation SimpleName t
+add SimpleName MethodInvocation SimpleName t
+void PrimitiveType MethodDeclaration SimpleName event occurred
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timing specifier
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+event occurred SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timing specifier
+event occurred SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+event occurred SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+event occurred SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName event occurred
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName event occurred
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

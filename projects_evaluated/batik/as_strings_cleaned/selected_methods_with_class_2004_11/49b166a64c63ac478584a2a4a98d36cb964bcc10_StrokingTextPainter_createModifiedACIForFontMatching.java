@@ -1,0 +1,500 @@
+text node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName aci
+aci SimpleName MethodInvocation SimpleName first
+attributed string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName as
+as off SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName as off
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+aci SimpleName MethodInvocation SimpleName get begin index
+begin SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+begin SimpleName VariableDeclarationFragment MethodInvocation SimpleName get begin index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get begin index
+more chunks SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName more chunks
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+aci SimpleName MethodInvocation SimpleName get run start
+aci SimpleName MethodInvocation SimpleName text compound delimiter
+get run start SimpleName MethodInvocation SimpleName text compound delimiter
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName get run start
+end SimpleName VariableDeclarationFragment MethodInvocation SimpleName text compound delimiter
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get run start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName text compound delimiter
+start SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName end
+start SimpleName Assignment SimpleName end
+aci SimpleName MethodInvocation SimpleName get run limit
+aci SimpleName MethodInvocation SimpleName text compound delimiter
+get run limit SimpleName MethodInvocation SimpleName text compound delimiter
+end SimpleName Assignment MethodInvocation SimpleName aci
+end SimpleName Assignment MethodInvocation SimpleName get run limit
+end SimpleName Assignment MethodInvocation SimpleName text compound delimiter
+end SimpleName InfixExpression SimpleName start
+aci length SimpleName VariableDeclarationFragment InfixExpression SimpleName end
+aci length SimpleName VariableDeclarationFragment InfixExpression SimpleName start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName aci length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName start
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font families
+aci SimpleName MethodInvocation SimpleName get attributes
+aci SimpleName MethodInvocation MethodInvocation SimpleName get
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName get
+aci SimpleName MethodInvocation MethodInvocation SimpleName gvt font families
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName gvt font families
+get SimpleName MethodInvocation SimpleName gvt font families
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName gvt font families
+font families SimpleName Assignment CastExpression SimpleType SimpleName list
+font families SimpleName Assignment CastExpression MethodInvocation SimpleName get
+font families SimpleName Assignment CastExpression MethodInvocation SimpleName gvt font families
+as off SimpleName Assignment SimpleName aci length
+aci SimpleName MethodInvocation SimpleName set index
+aci SimpleName MethodInvocation SimpleName end
+set index SimpleName MethodInvocation SimpleName end
+aci SimpleName MethodInvocation InfixExpression QualifiedName attributed character iteratordone
+set index SimpleName MethodInvocation InfixExpression QualifiedName attributed character iteratordone
+end SimpleName MethodInvocation InfixExpression QualifiedName attributed character iteratordone
+more chunks SimpleName Assignment ParenthesizedExpression InfixExpression QualifiedName attributed character iteratordone
+font families SimpleName MethodInvocation SimpleName size
+array list SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName font families
+array list SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName size
+resolved font families SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+resolved font families SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName font families
+resolved font families SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName size
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resolved font families
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+font families SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName font families
+i SimpleName InfixExpression MethodInvocation SimpleName size
+font families SimpleName MethodInvocation SimpleName get
+font families SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+gvt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName font families
+gvt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+gvt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+font family SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName gvt font family
+font family SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName font families
+font family SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+font family SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+gvt font family SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font family
+font family SimpleName InstanceofExpression SimpleType SimpleName unresolved font family
+unresolved font family SimpleName SimpleType CastExpression SimpleName font family
+font family resolver SimpleName MethodInvocation SimpleName resolve
+font family resolver SimpleName MethodInvocation CastExpression SimpleType SimpleName unresolved font family
+font family resolver SimpleName MethodInvocation CastExpression SimpleName font family
+resolve SimpleName MethodInvocation CastExpression SimpleType SimpleName unresolved font family
+resolve SimpleName MethodInvocation CastExpression SimpleName font family
+font family SimpleName Assignment MethodInvocation SimpleName font family resolver
+font family SimpleName Assignment MethodInvocation SimpleName resolve
+font family SimpleName Assignment MethodInvocation CastExpression SimpleName font family
+resolved font families SimpleName MethodInvocation SimpleName add
+resolved font families SimpleName MethodInvocation SimpleName font family
+add SimpleName MethodInvocation SimpleName font family
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+resolved font families SimpleName MethodInvocation SimpleName size
+resolved font families SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+resolved font families SimpleName MethodInvocation SimpleName add
+resolved font families SimpleName MethodInvocation QualifiedName font family resolverdefault font
+add SimpleName MethodInvocation QualifiedName font family resolverdefault font
+font size SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName font size
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+aci SimpleName MethodInvocation SimpleName get attributes
+aci SimpleName MethodInvocation MethodInvocation SimpleName get
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName get
+aci SimpleName MethodInvocation MethodInvocation QualifiedName text attributesize
+get attributes SimpleName MethodInvocation MethodInvocation QualifiedName text attributesize
+get SimpleName MethodInvocation QualifiedName text attributesize
+float SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+float SimpleName SimpleType CastExpression MethodInvocation QualifiedName text attributesize
+fs float SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName float
+fs float SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+fs float SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName text attributesize
+float SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs float
+fs float SimpleName MethodInvocation SimpleName float value
+font size SimpleName Assignment MethodInvocation SimpleName fs float
+font size SimpleName Assignment MethodInvocation SimpleName float value
+boolean PrimitiveType ArrayType ArrayCreation SimpleName aci length
+font assigned SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType boolean
+font assigned SimpleName VariableDeclarationFragment ArrayCreation SimpleName aci length
+boolean PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName font assigned
+attributed string SimpleName SimpleType ClassInstanceCreation SimpleName aci
+as SimpleName Assignment ClassInstanceCreation SimpleType SimpleName attributed string
+as SimpleName Assignment ClassInstanceCreation SimpleName aci
+gvt font SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default font
+num set SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num set
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+first unset SimpleName VariableDeclarationFragment SimpleName start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first unset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first unset set
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+resolved font families SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName resolved font families
+i SimpleName InfixExpression MethodInvocation SimpleName size
+current index SimpleName VariableDeclarationFragment SimpleName first unset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName current index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first unset
+first unset set SimpleName Assignment BooleanLiteral false
+aci SimpleName MethodInvocation SimpleName set index
+aci SimpleName MethodInvocation SimpleName current index
+set index SimpleName MethodInvocation SimpleName current index
+gvt font family SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ff
+resolved font families SimpleName MethodInvocation SimpleName get
+resolved font families SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+gvt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName resolved font families
+gvt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+gvt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+ff SimpleName MethodInvocation SimpleName derive font
+ff SimpleName MethodInvocation SimpleName font size
+ff SimpleName MethodInvocation SimpleName aci
+derive font SimpleName MethodInvocation SimpleName font size
+derive font SimpleName MethodInvocation SimpleName aci
+font size SimpleName MethodInvocation SimpleName aci
+font SimpleName VariableDeclarationFragment MethodInvocation SimpleName ff
+font SimpleName VariableDeclarationFragment MethodInvocation SimpleName derive font
+font SimpleName VariableDeclarationFragment MethodInvocation SimpleName font size
+font SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+gvt font SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font
+default font SimpleName Assignment SimpleName font
+current index SimpleName InfixExpression SimpleName end
+font SimpleName MethodInvocation SimpleName can display up to
+font SimpleName MethodInvocation SimpleName aci
+font SimpleName MethodInvocation SimpleName current index
+font SimpleName MethodInvocation SimpleName end
+can display up to SimpleName MethodInvocation SimpleName aci
+can display up to SimpleName MethodInvocation SimpleName current index
+can display up to SimpleName MethodInvocation SimpleName end
+aci SimpleName MethodInvocation SimpleName current index
+aci SimpleName MethodInvocation SimpleName end
+current index SimpleName MethodInvocation SimpleName end
+display up to index SimpleName VariableDeclarationFragment MethodInvocation SimpleName font
+display up to index SimpleName VariableDeclarationFragment MethodInvocation SimpleName can display up to
+display up to index SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+display up to index SimpleName VariableDeclarationFragment MethodInvocation SimpleName current index
+display up to index SimpleName VariableDeclarationFragment MethodInvocation SimpleName end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName display up to index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName font
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName can display up to
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName end
+aci SimpleName MethodInvocation SimpleName get attributes
+aci SimpleName MethodInvocation MethodInvocation SimpleName get
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName get
+aci SimpleName MethodInvocation MethodInvocation SimpleName alt glyph handler
+get attributes SimpleName MethodInvocation MethodInvocation SimpleName alt glyph handler
+get SimpleName MethodInvocation SimpleName alt glyph handler
+alt glyph element SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName aci
+alt glyph element SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get attributes
+alt glyph element SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+alt glyph element SimpleName VariableDeclarationFragment MethodInvocation SimpleName alt glyph handler
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName alt glyph element
+display up to index SimpleName Assignment PrefixExpression NumberLiteral empty
+display up to index SimpleName InfixExpression PrefixExpression NumberLiteral empty
+display up to index SimpleName Assignment SimpleName end
+display up to index SimpleName InfixExpression SimpleName current index
+first unset SimpleName Assignment SimpleName current index
+first unset set SimpleName Assignment BooleanLiteral true
+run start SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName run start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+j SimpleName VariableDeclarationFragment SimpleName current index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName current index
+j SimpleName InfixExpression SimpleName display up to index
+j SimpleName InfixExpression SimpleName start
+font assigned SimpleName ArrayAccess InfixExpression SimpleName j
+font assigned SimpleName ArrayAccess InfixExpression SimpleName start
+run start SimpleName InfixExpression PrefixExpression NumberLiteral empty
+run start SimpleName InfixExpression SimpleName begin
+j SimpleName InfixExpression SimpleName begin
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation SimpleName gvt font
+as SimpleName MethodInvocation SimpleName font
+as SimpleName MethodInvocation InfixExpression SimpleName run start
+as SimpleName MethodInvocation InfixExpression SimpleName begin
+as SimpleName MethodInvocation InfixExpression SimpleName j
+as SimpleName MethodInvocation InfixExpression SimpleName begin
+add attribute SimpleName MethodInvocation SimpleName gvt font
+add attribute SimpleName MethodInvocation SimpleName font
+add attribute SimpleName MethodInvocation InfixExpression SimpleName run start
+add attribute SimpleName MethodInvocation InfixExpression SimpleName begin
+add attribute SimpleName MethodInvocation InfixExpression SimpleName j
+add attribute SimpleName MethodInvocation InfixExpression SimpleName begin
+gvt font SimpleName MethodInvocation SimpleName font
+gvt font SimpleName MethodInvocation InfixExpression SimpleName run start
+gvt font SimpleName MethodInvocation InfixExpression SimpleName begin
+gvt font SimpleName MethodInvocation InfixExpression SimpleName j
+gvt font SimpleName MethodInvocation InfixExpression SimpleName begin
+font SimpleName MethodInvocation InfixExpression SimpleName run start
+font SimpleName MethodInvocation InfixExpression SimpleName begin
+font SimpleName MethodInvocation InfixExpression SimpleName j
+font SimpleName MethodInvocation InfixExpression SimpleName begin
+run start SimpleName InfixExpression MethodInvocation InfixExpression SimpleName j
+run start SimpleName InfixExpression MethodInvocation InfixExpression SimpleName begin
+begin SimpleName InfixExpression MethodInvocation InfixExpression SimpleName j
+begin SimpleName InfixExpression MethodInvocation InfixExpression SimpleName begin
+run start SimpleName Assignment PrefixExpression NumberLiteral empty
+run start SimpleName InfixExpression PrefixExpression NumberLiteral empty
+run start SimpleName Assignment SimpleName j
+j SimpleName InfixExpression SimpleName start
+font assigned SimpleName ArrayAccess InfixExpression SimpleName j
+font assigned SimpleName ArrayAccess InfixExpression SimpleName start
+font assigned SimpleName ArrayAccess Assignment BooleanLiteral true
+j SimpleName InfixExpression ArrayAccess Assignment BooleanLiteral true
+start SimpleName InfixExpression ArrayAccess Assignment BooleanLiteral true
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName display up to index
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+display up to index SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+run start SimpleName InfixExpression PrefixExpression NumberLiteral empty
+run start SimpleName InfixExpression SimpleName begin
+display up to index SimpleName InfixExpression SimpleName begin
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation SimpleName gvt font
+as SimpleName MethodInvocation SimpleName font
+as SimpleName MethodInvocation InfixExpression SimpleName run start
+as SimpleName MethodInvocation InfixExpression SimpleName begin
+as SimpleName MethodInvocation InfixExpression SimpleName display up to index
+as SimpleName MethodInvocation InfixExpression SimpleName begin
+add attribute SimpleName MethodInvocation SimpleName gvt font
+add attribute SimpleName MethodInvocation SimpleName font
+add attribute SimpleName MethodInvocation InfixExpression SimpleName run start
+add attribute SimpleName MethodInvocation InfixExpression SimpleName begin
+add attribute SimpleName MethodInvocation InfixExpression SimpleName display up to index
+add attribute SimpleName MethodInvocation InfixExpression SimpleName begin
+gvt font SimpleName MethodInvocation SimpleName font
+gvt font SimpleName MethodInvocation InfixExpression SimpleName run start
+gvt font SimpleName MethodInvocation InfixExpression SimpleName begin
+gvt font SimpleName MethodInvocation InfixExpression SimpleName display up to index
+gvt font SimpleName MethodInvocation InfixExpression SimpleName begin
+font SimpleName MethodInvocation InfixExpression SimpleName run start
+font SimpleName MethodInvocation InfixExpression SimpleName begin
+font SimpleName MethodInvocation InfixExpression SimpleName display up to index
+font SimpleName MethodInvocation InfixExpression SimpleName begin
+run start SimpleName InfixExpression MethodInvocation InfixExpression SimpleName display up to index
+run start SimpleName InfixExpression MethodInvocation InfixExpression SimpleName begin
+begin SimpleName InfixExpression MethodInvocation InfixExpression SimpleName display up to index
+begin SimpleName InfixExpression MethodInvocation InfixExpression SimpleName begin
+display up to index SimpleName InfixExpression NumberLiteral empty
+current index SimpleName Assignment InfixExpression SimpleName display up to index
+current index SimpleName Assignment InfixExpression NumberLiteral empty
+num set SimpleName InfixExpression SimpleName aci length
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+run start SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName run start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+gvt font family SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev ff
+prev f SimpleName VariableDeclarationFragment SimpleName default font
+gvt font SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev f
+gvt font SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default font
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName aci length
+font assigned SimpleName ArrayAccess SimpleName i
+run start SimpleName InfixExpression PrefixExpression NumberLiteral empty
+run start SimpleName InfixExpression SimpleName as off
+i SimpleName InfixExpression SimpleName as off
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation SimpleName gvt font
+as SimpleName MethodInvocation SimpleName prev f
+as SimpleName MethodInvocation InfixExpression SimpleName run start
+as SimpleName MethodInvocation InfixExpression SimpleName as off
+as SimpleName MethodInvocation InfixExpression SimpleName i
+as SimpleName MethodInvocation InfixExpression SimpleName as off
+add attribute SimpleName MethodInvocation SimpleName gvt font
+add attribute SimpleName MethodInvocation SimpleName prev f
+add attribute SimpleName MethodInvocation InfixExpression SimpleName run start
+add attribute SimpleName MethodInvocation InfixExpression SimpleName as off
+add attribute SimpleName MethodInvocation InfixExpression SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression SimpleName as off
+gvt font SimpleName MethodInvocation SimpleName prev f
+gvt font SimpleName MethodInvocation InfixExpression SimpleName run start
+gvt font SimpleName MethodInvocation InfixExpression SimpleName as off
+gvt font SimpleName MethodInvocation InfixExpression SimpleName i
+gvt font SimpleName MethodInvocation InfixExpression SimpleName as off
+prev f SimpleName MethodInvocation InfixExpression SimpleName run start
+prev f SimpleName MethodInvocation InfixExpression SimpleName as off
+prev f SimpleName MethodInvocation InfixExpression SimpleName i
+prev f SimpleName MethodInvocation InfixExpression SimpleName as off
+run start SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+run start SimpleName InfixExpression MethodInvocation InfixExpression SimpleName as off
+as off SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+as off SimpleName InfixExpression MethodInvocation InfixExpression SimpleName as off
+run start SimpleName Assignment PrefixExpression NumberLiteral empty
+start SimpleName InfixExpression SimpleName i
+aci SimpleName MethodInvocation SimpleName set index
+aci SimpleName MethodInvocation InfixExpression SimpleName start
+aci SimpleName MethodInvocation InfixExpression SimpleName i
+set index SimpleName MethodInvocation InfixExpression SimpleName start
+set index SimpleName MethodInvocation InfixExpression SimpleName i
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName set index
+c SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName start
+c SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName i
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName set index
+gvt font family SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font family
+font family resolver SimpleName MethodInvocation SimpleName get family that can display
+font family resolver SimpleName MethodInvocation SimpleName c
+get family that can display SimpleName MethodInvocation SimpleName c
+font family SimpleName Assignment MethodInvocation SimpleName font family resolver
+font family SimpleName Assignment MethodInvocation SimpleName get family that can display
+font family SimpleName Assignment MethodInvocation SimpleName c
+run start SimpleName InfixExpression PrefixExpression NumberLiteral empty
+run start SimpleName Assignment SimpleName i
+prev ff SimpleName Assignment SimpleName font family
+prev f SimpleName Assignment SimpleName default font
+font family SimpleName MethodInvocation SimpleName derive font
+font family SimpleName MethodInvocation SimpleName font size
+font family SimpleName MethodInvocation SimpleName aci
+derive font SimpleName MethodInvocation SimpleName font size
+derive font SimpleName MethodInvocation SimpleName aci
+font size SimpleName MethodInvocation SimpleName aci
+prev f SimpleName Assignment MethodInvocation SimpleName font family
+prev f SimpleName Assignment MethodInvocation SimpleName derive font
+prev f SimpleName Assignment MethodInvocation SimpleName font size
+prev f SimpleName Assignment MethodInvocation SimpleName aci
+prev ff SimpleName InfixExpression SimpleName font family
+run start SimpleName InfixExpression SimpleName as off
+i SimpleName InfixExpression SimpleName as off
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation SimpleName gvt font
+as SimpleName MethodInvocation SimpleName prev f
+as SimpleName MethodInvocation InfixExpression SimpleName run start
+as SimpleName MethodInvocation InfixExpression SimpleName as off
+as SimpleName MethodInvocation InfixExpression SimpleName i
+as SimpleName MethodInvocation InfixExpression SimpleName as off
+add attribute SimpleName MethodInvocation SimpleName gvt font
+add attribute SimpleName MethodInvocation SimpleName prev f
+add attribute SimpleName MethodInvocation InfixExpression SimpleName run start
+add attribute SimpleName MethodInvocation InfixExpression SimpleName as off
+add attribute SimpleName MethodInvocation InfixExpression SimpleName i
+add attribute SimpleName MethodInvocation InfixExpression SimpleName as off
+gvt font SimpleName MethodInvocation SimpleName prev f
+gvt font SimpleName MethodInvocation InfixExpression SimpleName run start
+gvt font SimpleName MethodInvocation InfixExpression SimpleName as off
+gvt font SimpleName MethodInvocation InfixExpression SimpleName i
+gvt font SimpleName MethodInvocation InfixExpression SimpleName as off
+prev f SimpleName MethodInvocation InfixExpression SimpleName run start
+prev f SimpleName MethodInvocation InfixExpression SimpleName as off
+prev f SimpleName MethodInvocation InfixExpression SimpleName i
+prev f SimpleName MethodInvocation InfixExpression SimpleName as off
+run start SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+run start SimpleName InfixExpression MethodInvocation InfixExpression SimpleName as off
+as off SimpleName InfixExpression MethodInvocation InfixExpression SimpleName i
+as off SimpleName InfixExpression MethodInvocation InfixExpression SimpleName as off
+run start SimpleName Assignment SimpleName i
+prev ff SimpleName Assignment SimpleName font family
+prev f SimpleName Assignment SimpleName default font
+font family SimpleName MethodInvocation SimpleName derive font
+font family SimpleName MethodInvocation SimpleName font size
+font family SimpleName MethodInvocation SimpleName aci
+derive font SimpleName MethodInvocation SimpleName font size
+derive font SimpleName MethodInvocation SimpleName aci
+font size SimpleName MethodInvocation SimpleName aci
+prev f SimpleName Assignment MethodInvocation SimpleName font family
+prev f SimpleName Assignment MethodInvocation SimpleName derive font
+prev f SimpleName Assignment MethodInvocation SimpleName font size
+prev f SimpleName Assignment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName aci length
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+aci length SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+run start SimpleName InfixExpression PrefixExpression NumberLiteral empty
+run start SimpleName InfixExpression SimpleName as off
+aci length SimpleName InfixExpression SimpleName as off
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation SimpleName gvt font
+as SimpleName MethodInvocation SimpleName prev f
+as SimpleName MethodInvocation InfixExpression SimpleName run start
+as SimpleName MethodInvocation InfixExpression SimpleName as off
+as SimpleName MethodInvocation InfixExpression SimpleName aci length
+as SimpleName MethodInvocation InfixExpression SimpleName as off
+add attribute SimpleName MethodInvocation SimpleName gvt font
+add attribute SimpleName MethodInvocation SimpleName prev f
+add attribute SimpleName MethodInvocation InfixExpression SimpleName run start
+add attribute SimpleName MethodInvocation InfixExpression SimpleName as off
+add attribute SimpleName MethodInvocation InfixExpression SimpleName aci length
+add attribute SimpleName MethodInvocation InfixExpression SimpleName as off
+gvt font SimpleName MethodInvocation SimpleName prev f
+gvt font SimpleName MethodInvocation InfixExpression SimpleName run start
+gvt font SimpleName MethodInvocation InfixExpression SimpleName as off
+gvt font SimpleName MethodInvocation InfixExpression SimpleName aci length
+gvt font SimpleName MethodInvocation InfixExpression SimpleName as off
+prev f SimpleName MethodInvocation InfixExpression SimpleName run start
+prev f SimpleName MethodInvocation InfixExpression SimpleName as off
+prev f SimpleName MethodInvocation InfixExpression SimpleName aci length
+prev f SimpleName MethodInvocation InfixExpression SimpleName as off
+run start SimpleName InfixExpression MethodInvocation InfixExpression SimpleName aci length
+run start SimpleName InfixExpression MethodInvocation InfixExpression SimpleName as off
+as off SimpleName InfixExpression MethodInvocation InfixExpression SimpleName aci length
+as off SimpleName InfixExpression MethodInvocation InfixExpression SimpleName as off
+as off SimpleName Assignment SimpleName aci length
+aci SimpleName MethodInvocation SimpleName set index
+aci SimpleName MethodInvocation SimpleName end
+set index SimpleName MethodInvocation SimpleName end
+aci SimpleName MethodInvocation InfixExpression QualifiedName attributed character iteratordone
+set index SimpleName MethodInvocation InfixExpression QualifiedName attributed character iteratordone
+end SimpleName MethodInvocation InfixExpression QualifiedName attributed character iteratordone
+more chunks SimpleName Assignment BooleanLiteral false
+start SimpleName Assignment SimpleName end
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+more chunks SimpleName WhileStatement Block VariableDeclarationStatement PrimitiveType int
+more chunks SimpleName WhileStatement Block VariableDeclarationStatement PrimitiveType float
+more chunks SimpleName WhileStatement Block VariableDeclarationStatement PrimitiveType int
+more chunks SimpleName WhileStatement Block VariableDeclarationStatement PrimitiveType int
+more chunks SimpleName WhileStatement Block VariableDeclarationStatement PrimitiveType boolean
+more chunks SimpleName WhileStatement Block VariableDeclarationStatement PrimitiveType int
+as SimpleName MethodInvocation SimpleName get iterator
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block WhileStatement SimpleName more chunks
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block WhileStatement SimpleName more chunks
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName aci
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block WhileStatement SimpleName more chunks
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName aci
+int PrimitiveType VariableDeclarationStatement Block WhileStatement SimpleName more chunks
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName aci
+more chunks SimpleName WhileStatement Block ReturnStatement SimpleName aci
+protected Modifier MethodDeclaration SimpleType SimpleName attributed character iterator
+protected Modifier MethodDeclaration SimpleName create modified aci for font matching
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName aci
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block WhileStatement SimpleName more chunks
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName aci

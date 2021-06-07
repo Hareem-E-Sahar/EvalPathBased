@@ -1,0 +1,314 @@
+orgapachebatikscriptwindow QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName window
+document SimpleName MethodInvocation SimpleName get elements by tag name ns
+document SimpleName MethodInvocation QualifiedName svg constantssvg namespace uri
+document SimpleName MethodInvocation QualifiedName svg constantssvg script tag
+get elements by tag name ns SimpleName MethodInvocation QualifiedName svg constantssvg namespace uri
+get elements by tag name ns SimpleName MethodInvocation QualifiedName svg constantssvg script tag
+svg constantssvg namespace uri QualifiedName MethodInvocation QualifiedName svg constantssvg script tag
+scripts SimpleName VariableDeclarationFragment MethodInvocation SimpleName document
+scripts SimpleName VariableDeclarationFragment MethodInvocation SimpleName get elements by tag name ns
+scripts SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svg constantssvg namespace uri
+scripts SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svg constantssvg script tag
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scripts
+scripts SimpleName MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName scripts
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName scripts
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+len SimpleName InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+scripts SimpleName MethodInvocation SimpleName item
+scripts SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+abstract element SimpleName SimpleType CastExpression MethodInvocation SimpleName scripts
+abstract element SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+abstract element SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+script SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract element
+script SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName scripts
+script SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+script SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+abstract element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName script
+script SimpleName MethodInvocation SimpleName get attribute ns
+script SimpleName MethodInvocation QualifiedName svg constantssvg type attribute
+get attribute ns SimpleName MethodInvocation QualifiedName svg constantssvg type attribute
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName script
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+type SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svg constantssvg type attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+type SimpleName MethodInvocation SimpleName length
+type SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+type SimpleName Assignment QualifiedName svg constantssvg script type default value
+type SimpleName MethodInvocation SimpleName equals
+type SimpleName MethodInvocation QualifiedName svg constantssvg script type java
+equals SimpleName MethodInvocation QualifiedName svg constantssvg script type java
+x link support SimpleName MethodInvocation SimpleName get x link href
+x link support SimpleName MethodInvocation SimpleName script
+get x link href SimpleName MethodInvocation SimpleName script
+href SimpleName VariableDeclarationFragment MethodInvocation SimpleName x link support
+href SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x link href
+href SimpleName VariableDeclarationFragment MethodInvocation SimpleName script
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName href
+script SimpleName MethodInvocation SimpleName get base uri
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName script
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get base uri
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName href
+script SimpleName MethodInvocation ClassInstanceCreation SimpleName href
+get base uri SimpleName MethodInvocation ClassInstanceCreation SimpleName href
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName parsed url
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName script
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get base uri
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName href
+parsed url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName purl
+check compatible script url SimpleName MethodInvocation SimpleName type
+check compatible script url SimpleName MethodInvocation SimpleName purl
+type SimpleName MethodInvocation SimpleName purl
+document jar class loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cll
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc url
+doc purl SimpleName MethodInvocation SimpleName to string
+url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName doc purl
+url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+doc url SimpleName Assignment ClassInstanceCreation SimpleType SimpleName url
+doc url SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName doc purl
+doc url SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName to string
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName mue
+purl SimpleName MethodInvocation SimpleName to string
+url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName purl
+url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+document jar class loader SimpleName SimpleType ClassInstanceCreation SimpleName doc url
+url SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName doc url
+purl SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName doc url
+to string SimpleName MethodInvocation ClassInstanceCreation ClassInstanceCreation SimpleName doc url
+cll SimpleName Assignment ClassInstanceCreation SimpleType SimpleName document jar class loader
+cll SimpleName Assignment ClassInstanceCreation SimpleName doc url
+cll SimpleName MethodInvocation SimpleName find resource
+cll SimpleName MethodInvocation StringLiteral metainfmanifestmf
+find resource SimpleName MethodInvocation StringLiteral metainfmanifestmf
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName cll
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName find resource
+url SimpleName VariableDeclarationFragment MethodInvocation StringLiteral metainfmanifestmf
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+url SimpleName MethodInvocation SimpleName open stream
+manifest SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName url
+manifest SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName open stream
+man SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName manifest
+man SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName url
+man SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName open stream
+manifest SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName man
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sh
+man SimpleName MethodInvocation SimpleName get main attributes
+man SimpleName MethodInvocation MethodInvocation SimpleName get value
+get main attributes SimpleName MethodInvocation MethodInvocation SimpleName get value
+man SimpleName MethodInvocation MethodInvocation StringLiteral scripthandler
+get main attributes SimpleName MethodInvocation MethodInvocation StringLiteral scripthandler
+get value SimpleName MethodInvocation StringLiteral scripthandler
+sh SimpleName Assignment MethodInvocation MethodInvocation SimpleName man
+sh SimpleName Assignment MethodInvocation MethodInvocation SimpleName get main attributes
+sh SimpleName Assignment MethodInvocation SimpleName get value
+sh SimpleName Assignment MethodInvocation StringLiteral scripthandler
+script handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+cll SimpleName MethodInvocation SimpleName load class
+cll SimpleName MethodInvocation SimpleName sh
+load class SimpleName MethodInvocation SimpleName sh
+cll SimpleName MethodInvocation MethodInvocation SimpleName new instance
+load class SimpleName MethodInvocation MethodInvocation SimpleName new instance
+sh SimpleName MethodInvocation MethodInvocation SimpleName new instance
+script handler SimpleName SimpleType CastExpression MethodInvocation SimpleName new instance
+h SimpleName Assignment CastExpression SimpleType SimpleName script handler
+h SimpleName Assignment CastExpression MethodInvocation SimpleName new instance
+window SimpleName Assignment MethodInvocation SimpleName create window
+h SimpleName MethodInvocation SimpleName run
+h SimpleName MethodInvocation SimpleName document
+h SimpleName MethodInvocation SimpleName window
+run SimpleName MethodInvocation SimpleName document
+run SimpleName MethodInvocation SimpleName window
+document SimpleName MethodInvocation SimpleName window
+man SimpleName MethodInvocation SimpleName get main attributes
+man SimpleName MethodInvocation MethodInvocation SimpleName get value
+get main attributes SimpleName MethodInvocation MethodInvocation SimpleName get value
+man SimpleName MethodInvocation MethodInvocation StringLiteral svghandlerclass
+get main attributes SimpleName MethodInvocation MethodInvocation StringLiteral svghandlerclass
+get value SimpleName MethodInvocation StringLiteral svghandlerclass
+sh SimpleName Assignment MethodInvocation MethodInvocation SimpleName man
+sh SimpleName Assignment MethodInvocation MethodInvocation SimpleName get main attributes
+sh SimpleName Assignment MethodInvocation SimpleName get value
+sh SimpleName Assignment MethodInvocation StringLiteral svghandlerclass
+event listener initializer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName initializer
+cll SimpleName MethodInvocation SimpleName load class
+cll SimpleName MethodInvocation SimpleName sh
+load class SimpleName MethodInvocation SimpleName sh
+cll SimpleName MethodInvocation MethodInvocation SimpleName new instance
+load class SimpleName MethodInvocation MethodInvocation SimpleName new instance
+sh SimpleName MethodInvocation MethodInvocation SimpleName new instance
+event listener initializer SimpleName SimpleType CastExpression MethodInvocation SimpleName new instance
+initializer SimpleName Assignment CastExpression SimpleType SimpleName event listener initializer
+initializer SimpleName Assignment CastExpression MethodInvocation SimpleName new instance
+window SimpleName Assignment MethodInvocation SimpleName create window
+svg document SimpleName SimpleType CastExpression SimpleName document
+initializer SimpleName MethodInvocation SimpleName initialize event listeners
+initializer SimpleName MethodInvocation CastExpression SimpleType SimpleName svg document
+initializer SimpleName MethodInvocation CastExpression SimpleName document
+initialize event listeners SimpleName MethodInvocation CastExpression SimpleType SimpleName svg document
+initialize event listeners SimpleName MethodInvocation CastExpression SimpleName document
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+get interpreter SimpleName MethodInvocation SimpleName type
+interpreter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get interpreter
+interpreter SimpleName VariableDeclarationFragment MethodInvocation SimpleName type
+interpreter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName interpreter
+x link support SimpleName MethodInvocation SimpleName get x link href
+x link support SimpleName MethodInvocation SimpleName script
+get x link href SimpleName MethodInvocation SimpleName script
+href SimpleName VariableDeclarationFragment MethodInvocation SimpleName x link support
+href SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x link href
+href SimpleName VariableDeclarationFragment MethodInvocation SimpleName script
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName href
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName desc
+reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reader
+href SimpleName MethodInvocation SimpleName length
+href SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+desc SimpleName Assignment SimpleName href
+script SimpleName MethodInvocation SimpleName get base uri
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName script
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get base uri
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName href
+script SimpleName MethodInvocation ClassInstanceCreation SimpleName href
+get base uri SimpleName MethodInvocation ClassInstanceCreation SimpleName href
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName parsed url
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName script
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get base uri
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName href
+parsed url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName purl
+check compatible script url SimpleName MethodInvocation SimpleName type
+check compatible script url SimpleName MethodInvocation SimpleName purl
+type SimpleName MethodInvocation SimpleName purl
+purl SimpleName MethodInvocation SimpleName open stream
+input stream reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName purl
+input stream reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName open stream
+reader SimpleName Assignment ClassInstanceCreation SimpleType SimpleName input stream reader
+reader SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName purl
+reader SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName open stream
+check compatible script url SimpleName MethodInvocation SimpleName type
+check compatible script url SimpleName MethodInvocation SimpleName doc purl
+type SimpleName MethodInvocation SimpleName doc purl
+bridge context SimpleName MethodInvocation SimpleName get document loader
+dl SimpleName VariableDeclarationFragment MethodInvocation SimpleName bridge context
+dl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get document loader
+document loader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dl
+e SimpleName VariableDeclarationFragment SimpleName script
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName script
+e SimpleName MethodInvocation SimpleName get owner document
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+d SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg document
+d SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+d SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+svg document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+dl SimpleName MethodInvocation SimpleName get line number
+dl SimpleName MethodInvocation SimpleName script
+get line number SimpleName MethodInvocation SimpleName script
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName dl
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName get line number
+line SimpleName VariableDeclarationFragment MethodInvocation SimpleName script
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName line
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName dl
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get line number
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName script
+d SimpleName MethodInvocation SimpleName get url
+script SimpleName MethodInvocation SimpleName get node name
+< StringLiteral InfixExpression MethodInvocation SimpleName script
+< StringLiteral InfixExpression MethodInvocation SimpleName get node name
+< StringLiteral InfixExpression StringLiteral >
+script SimpleName MethodInvocation InfixExpression StringLiteral >
+get node name SimpleName MethodInvocation InfixExpression StringLiteral >
+integer SimpleName SimpleType ClassInstanceCreation SimpleName line
+d SimpleName MethodInvocation ArrayInitializer InfixExpression StringLiteral <
+d SimpleName MethodInvocation ArrayInitializer InfixExpression StringLiteral >
+get url SimpleName MethodInvocation ArrayInitializer InfixExpression StringLiteral <
+get url SimpleName MethodInvocation ArrayInitializer InfixExpression StringLiteral >
+d SimpleName MethodInvocation ArrayInitializer ClassInstanceCreation SimpleName line
+get url SimpleName MethodInvocation ArrayInitializer ClassInstanceCreation SimpleName line
+< StringLiteral InfixExpression ArrayInitializer ClassInstanceCreation SimpleName line
+> StringLiteral InfixExpression ArrayInitializer ClassInstanceCreation SimpleName line
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation SimpleName inline script description
+format message SimpleName MethodInvocation SimpleName inline script description
+desc SimpleName Assignment MethodInvocation SimpleName messages
+desc SimpleName Assignment MethodInvocation SimpleName format message
+desc SimpleName Assignment MethodInvocation SimpleName inline script description
+script SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName script
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodecdata section node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodecdata section node
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodetext node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodetext node
+nodecdata section node QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName nodetext node
+n SimpleName MethodInvocation SimpleName get node value
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName n
+sb SimpleName MethodInvocation MethodInvocation SimpleName get node value
+append SimpleName MethodInvocation MethodInvocation SimpleName n
+append SimpleName MethodInvocation MethodInvocation SimpleName get node value
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+sb SimpleName MethodInvocation SimpleName to string
+string reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName sb
+string reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+reader SimpleName Assignment ClassInstanceCreation SimpleType SimpleName string reader
+reader SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName sb
+reader SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName to string
+interpreter SimpleName MethodInvocation SimpleName evaluate
+interpreter SimpleName MethodInvocation SimpleName reader
+interpreter SimpleName MethodInvocation SimpleName desc
+evaluate SimpleName MethodInvocation SimpleName reader
+evaluate SimpleName MethodInvocation SimpleName desc
+reader SimpleName MethodInvocation SimpleName desc
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+interpreter exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+interp except StringLiteral InfixExpression SimpleName e
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral interp except
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName e
+println SimpleName MethodInvocation InfixExpression StringLiteral interp except
+println SimpleName MethodInvocation InfixExpression SimpleName e
+handle interpreter exception SimpleName MethodInvocation SimpleName e
+security exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName load scripts
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName load scripts
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+load scripts SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName load scripts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName load scripts

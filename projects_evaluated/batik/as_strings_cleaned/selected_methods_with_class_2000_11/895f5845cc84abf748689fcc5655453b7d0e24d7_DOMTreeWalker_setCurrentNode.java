@@ -1,0 +1,27 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+abstract node SimpleName SimpleType CastExpression SimpleName root
+root SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName create dom exception
+root SimpleName CastExpression ParenthesizedExpression MethodInvocation QualifiedName dom exceptionnot supported err
+root SimpleName CastExpression ParenthesizedExpression MethodInvocation StringLiteral nullcurrentnode
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot supported err
+create dom exception SimpleName MethodInvocation StringLiteral nullcurrentnode
+dom exceptionnot supported err QualifiedName MethodInvocation StringLiteral nullcurrentnode
+current node SimpleName Assignment SimpleName n
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set current node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName set current node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+set current node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+set current node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set current node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set current node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

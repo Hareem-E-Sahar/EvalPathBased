@@ -1,0 +1,38 @@
+int PrimitiveType SingleVariableDeclaration SimpleName lex state
+lex state SimpleName InfixExpression NumberLiteral empty
+lex state SimpleName InfixExpression NumberLiteral empty
+lex state SimpleName InfixExpression InfixExpression InfixExpression SimpleName lex state
+lex state SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName lex state
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+error ignoring invalid lexical state : StringLiteral InfixExpression SimpleName lex state
+error ignoring invalid lexical state : StringLiteral InfixExpression StringLiteral . state unchanged
+lex state SimpleName InfixExpression StringLiteral . state unchanged
+token mgr error SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral error ignoring invalid lexical state :
+token mgr error SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName lex state
+token mgr error SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral . state unchanged
+token mgr error SimpleName SimpleType ClassInstanceCreation QualifiedName token mgr errorinvalid lexical state
+error ignoring invalid lexical state : StringLiteral InfixExpression ClassInstanceCreation QualifiedName token mgr errorinvalid lexical state
+lex state SimpleName InfixExpression ClassInstanceCreation QualifiedName token mgr errorinvalid lexical state
+. state unchanged StringLiteral InfixExpression ClassInstanceCreation QualifiedName token mgr errorinvalid lexical state
+cur lex state SimpleName Assignment SimpleName lex state
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName switch to
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lex state
+void PrimitiveType MethodDeclaration SimpleName switch to
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lex state
+switch to SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+switch to SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lex state
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName switch to
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lex state
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName switch to
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lex state

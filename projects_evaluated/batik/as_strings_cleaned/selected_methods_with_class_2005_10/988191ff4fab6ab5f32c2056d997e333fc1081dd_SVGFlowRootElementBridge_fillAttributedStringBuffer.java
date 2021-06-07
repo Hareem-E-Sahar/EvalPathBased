@@ -1,0 +1,500 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+boolean PrimitiveType SingleVariableDeclaration SimpleName top
+integer SimpleName SimpleType SingleVariableDeclaration SimpleName bidi level
+attributed string buffer SimpleName SimpleType SingleVariableDeclaration SimpleName asb
+list SimpleName SimpleType SingleVariableDeclaration SimpleName ln locs
+ctx SimpleName MethodInvocation SimpleName get user agent
+svg utilities SimpleName MethodInvocation SimpleName match user agent
+svg utilities SimpleName MethodInvocation SimpleName element
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName ctx
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+match user agent SimpleName MethodInvocation SimpleName element
+match user agent SimpleName MethodInvocation MethodInvocation SimpleName ctx
+match user agent SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+element SimpleName MethodInvocation MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+css utilities SimpleName MethodInvocation SimpleName convert display
+css utilities SimpleName MethodInvocation SimpleName element
+convert display SimpleName MethodInvocation SimpleName element
+xml support SimpleName MethodInvocation SimpleName get xml space
+xml support SimpleName MethodInvocation SimpleName element
+get xml space SimpleName MethodInvocation SimpleName element
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName xml support
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xml space
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation SimpleName svg preserve value
+equals SimpleName MethodInvocation SimpleName svg preserve value
+preserve SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+preserve SimpleName VariableDeclarationFragment MethodInvocation SimpleName equals
+preserve SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg preserve value
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName preserve
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName equals
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName svg preserve value
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev ends with space
+node element SimpleName VariableDeclarationFragment SimpleName element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName element
+asb SimpleName MethodInvocation SimpleName length
+start len SimpleName Assignment MethodInvocation SimpleName asb
+start len SimpleName Assignment MethodInvocation SimpleName length
+end limit SimpleName Assignment Assignment SimpleName start len
+end limit SimpleName Assignment Assignment MethodInvocation SimpleName asb
+end limit SimpleName Assignment Assignment MethodInvocation SimpleName length
+top SimpleName IfStatement ExpressionStatement Assignment SimpleName end limit
+end limit SimpleName Assignment SimpleName start len
+preserve SimpleName IfStatement ExpressionStatement Assignment SimpleName end limit
+preserve SimpleName IfStatement ExpressionStatement Assignment SimpleName start len
+get attribute map SimpleName MethodInvocation SimpleName ctx
+get attribute map SimpleName MethodInvocation SimpleName element
+get attribute map SimpleName MethodInvocation SimpleName bidi level
+ctx SimpleName MethodInvocation SimpleName element
+ctx SimpleName MethodInvocation SimpleName bidi level
+element SimpleName MethodInvocation SimpleName bidi level
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute map
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName bidi level
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation QualifiedName text attributebidi embedding
+get SimpleName MethodInvocation QualifiedName text attributebidi embedding
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName map
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+o SimpleName VariableDeclarationFragment MethodInvocation QualifiedName text attributebidi embedding
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+sub bidi level SimpleName VariableDeclarationFragment SimpleName bidi level
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sub bidi level
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bidi level
+integer SimpleName SimpleType CastExpression SimpleName o
+sub bidi level SimpleName Assignment CastExpression SimpleType SimpleName integer
+sub bidi level SimpleName Assignment CastExpression SimpleName o
+line break SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName line break
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+ln locs SimpleName MethodInvocation SimpleName size
+ln locs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ln locs SimpleName MethodInvocation SimpleName size
+ln locs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ln locs SimpleName MethodInvocation SimpleName get
+ln locs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln locs
+ln locs SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+ln locs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln locs
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName size
+get SimpleName MethodInvocation InfixExpression NumberLiteral empty
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName ln locs
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+line break SimpleName Assignment MethodInvocation SimpleName int value
+get first child SimpleName MethodInvocation SimpleName element
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+get next sibling SimpleName MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+prev ends with space SimpleName Assignment BooleanLiteral false
+asb SimpleName MethodInvocation SimpleName length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName asb
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName asb
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+len SimpleName InfixExpression SimpleName start len
+prev ends with space SimpleName Assignment BooleanLiteral true
+asb SimpleName MethodInvocation SimpleName get last char
+asb SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+get last char SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+prev ends with space SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral empty
+ln locs SimpleName MethodInvocation SimpleName size
+ln locs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+idx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName ln locs
+idx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName size
+idx SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+idx SimpleName InfixExpression NumberLiteral empty
+ln locs SimpleName MethodInvocation SimpleName get
+ln locs SimpleName MethodInvocation SimpleName idx
+get SimpleName MethodInvocation SimpleName idx
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName ln locs
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName idx
+i SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName integer
+i SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ln locs
+i SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+i SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName idx
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName int value
+i SimpleName MethodInvocation InfixExpression SimpleName len
+int value SimpleName MethodInvocation InfixExpression SimpleName len
+prev ends with space SimpleName Assignment BooleanLiteral true
+preserve SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation SimpleName get namespace uri
+svg namespace uri SimpleName MethodInvocation SimpleName equals
+svg namespace uri SimpleName MethodInvocation MethodInvocation SimpleName n
+svg namespace uri SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+equals SimpleName MethodInvocation MethodInvocation SimpleName n
+equals SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+element SimpleName SimpleType CastExpression SimpleName n
+node element SimpleName Assignment CastExpression SimpleType SimpleName element
+node element SimpleName Assignment CastExpression SimpleName n
+n SimpleName MethodInvocation SimpleName get local name
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg flow line tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg flow line tag
+fill attributed string buffer SimpleName MethodInvocation SimpleName ctx
+fill attributed string buffer SimpleName MethodInvocation SimpleName node element
+fill attributed string buffer SimpleName MethodInvocation BooleanLiteral false
+fill attributed string buffer SimpleName MethodInvocation SimpleName sub bidi level
+fill attributed string buffer SimpleName MethodInvocation SimpleName asb
+ctx SimpleName MethodInvocation SimpleName node element
+ctx SimpleName MethodInvocation BooleanLiteral false
+ctx SimpleName MethodInvocation SimpleName sub bidi level
+ctx SimpleName MethodInvocation SimpleName asb
+ctx SimpleName MethodInvocation SimpleName ln locs
+node element SimpleName MethodInvocation BooleanLiteral false
+node element SimpleName MethodInvocation SimpleName sub bidi level
+node element SimpleName MethodInvocation SimpleName asb
+node element SimpleName MethodInvocation SimpleName ln locs
+false BooleanLiteral MethodInvocation SimpleName sub bidi level
+false BooleanLiteral MethodInvocation SimpleName asb
+false BooleanLiteral MethodInvocation SimpleName ln locs
+sub bidi level SimpleName MethodInvocation SimpleName asb
+sub bidi level SimpleName MethodInvocation SimpleName ln locs
+asb SimpleName MethodInvocation SimpleName ln locs
+asb SimpleName MethodInvocation SimpleName length
+line break SimpleName Assignment MethodInvocation SimpleName asb
+line break SimpleName Assignment MethodInvocation SimpleName length
+integer SimpleName SimpleType ClassInstanceCreation SimpleName line break
+ln locs SimpleName MethodInvocation SimpleName add
+ln locs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+ln locs SimpleName MethodInvocation ClassInstanceCreation SimpleName line break
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName line break
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg flow span tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg flow span tag
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg alt glyph tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg alt glyph tag
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg alt glyph tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg alt glyph tag
+svg constantssvg flow span tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg constantssvg flow span tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg flow span tag QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg alt glyph tag
+fill attributed string buffer SimpleName MethodInvocation SimpleName ctx
+fill attributed string buffer SimpleName MethodInvocation SimpleName node element
+fill attributed string buffer SimpleName MethodInvocation BooleanLiteral false
+fill attributed string buffer SimpleName MethodInvocation SimpleName sub bidi level
+fill attributed string buffer SimpleName MethodInvocation SimpleName asb
+ctx SimpleName MethodInvocation SimpleName node element
+ctx SimpleName MethodInvocation BooleanLiteral false
+ctx SimpleName MethodInvocation SimpleName sub bidi level
+ctx SimpleName MethodInvocation SimpleName asb
+ctx SimpleName MethodInvocation SimpleName ln locs
+node element SimpleName MethodInvocation BooleanLiteral false
+node element SimpleName MethodInvocation SimpleName sub bidi level
+node element SimpleName MethodInvocation SimpleName asb
+node element SimpleName MethodInvocation SimpleName ln locs
+false BooleanLiteral MethodInvocation SimpleName sub bidi level
+false BooleanLiteral MethodInvocation SimpleName asb
+false BooleanLiteral MethodInvocation SimpleName ln locs
+sub bidi level SimpleName MethodInvocation SimpleName asb
+sub bidi level SimpleName MethodInvocation SimpleName ln locs
+asb SimpleName MethodInvocation SimpleName ln locs
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg a tag
+equals SimpleName MethodInvocation SimpleName svg a tag
+ctx SimpleName MethodInvocation SimpleName is interactive
+node event target SimpleName SimpleType CastExpression SimpleName node element
+target SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node event target
+target SimpleName VariableDeclarationFragment CastExpression SimpleName node element
+node event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+ctx SimpleName MethodInvocation SimpleName get user agent
+ua SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+ua SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user agent
+user agent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ua
+svga element bridgeanchor listener QualifiedName SimpleType ClassInstanceCreation SimpleName ua
+target SimpleName MethodInvocation SimpleName add event listener ns
+target SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+target SimpleName MethodInvocation SimpleName svg event click
+target SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName svga element bridgeanchor listener
+target SimpleName MethodInvocation ClassInstanceCreation SimpleName ua
+target SimpleName MethodInvocation BooleanLiteral false
+add event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+add event listener ns SimpleName MethodInvocation SimpleName svg event click
+add event listener ns SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName svga element bridgeanchor listener
+add event listener ns SimpleName MethodInvocation ClassInstanceCreation SimpleName ua
+add event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName svg event click
+xml constantsxml events namespace uri QualifiedName MethodInvocation ClassInstanceCreation SimpleType QualifiedName svga element bridgeanchor listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation ClassInstanceCreation SimpleName ua
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+svg event click SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName svga element bridgeanchor listener
+svg event click SimpleName MethodInvocation ClassInstanceCreation SimpleName ua
+svg event click SimpleName MethodInvocation BooleanLiteral false
+svga element bridgeanchor listener QualifiedName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+ua SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+svga element bridgecursor mouse over listener QualifiedName SimpleType ClassInstanceCreation SimpleName ua
+target SimpleName MethodInvocation SimpleName add event listener ns
+target SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+target SimpleName MethodInvocation SimpleName svg event mouseover
+target SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName svga element bridgecursor mouse over listener
+target SimpleName MethodInvocation ClassInstanceCreation SimpleName ua
+target SimpleName MethodInvocation BooleanLiteral false
+add event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+add event listener ns SimpleName MethodInvocation SimpleName svg event mouseover
+add event listener ns SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName svga element bridgecursor mouse over listener
+add event listener ns SimpleName MethodInvocation ClassInstanceCreation SimpleName ua
+add event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName svg event mouseover
+xml constantsxml events namespace uri QualifiedName MethodInvocation ClassInstanceCreation SimpleType QualifiedName svga element bridgecursor mouse over listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation ClassInstanceCreation SimpleName ua
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+svg event mouseover SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName svga element bridgecursor mouse over listener
+svg event mouseover SimpleName MethodInvocation ClassInstanceCreation SimpleName ua
+svg event mouseover SimpleName MethodInvocation BooleanLiteral false
+svga element bridgecursor mouse over listener QualifiedName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+ua SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+svga element bridgecursor mouse out listener QualifiedName SimpleType ClassInstanceCreation SimpleName ua
+target SimpleName MethodInvocation SimpleName add event listener ns
+target SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+target SimpleName MethodInvocation SimpleName svg event mouseout
+target SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName svga element bridgecursor mouse out listener
+target SimpleName MethodInvocation ClassInstanceCreation SimpleName ua
+target SimpleName MethodInvocation BooleanLiteral false
+add event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+add event listener ns SimpleName MethodInvocation SimpleName svg event mouseout
+add event listener ns SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName svga element bridgecursor mouse out listener
+add event listener ns SimpleName MethodInvocation ClassInstanceCreation SimpleName ua
+add event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName svg event mouseout
+xml constantsxml events namespace uri QualifiedName MethodInvocation ClassInstanceCreation SimpleType QualifiedName svga element bridgecursor mouse out listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation ClassInstanceCreation SimpleName ua
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+svg event mouseout SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName svga element bridgecursor mouse out listener
+svg event mouseout SimpleName MethodInvocation ClassInstanceCreation SimpleName ua
+svg event mouseout SimpleName MethodInvocation BooleanLiteral false
+svga element bridgecursor mouse out listener QualifiedName SimpleType ClassInstanceCreation MethodInvocation BooleanLiteral false
+ua SimpleName ClassInstanceCreation MethodInvocation BooleanLiteral false
+fill attributed string buffer SimpleName MethodInvocation SimpleName ctx
+fill attributed string buffer SimpleName MethodInvocation SimpleName node element
+fill attributed string buffer SimpleName MethodInvocation BooleanLiteral false
+fill attributed string buffer SimpleName MethodInvocation SimpleName sub bidi level
+fill attributed string buffer SimpleName MethodInvocation SimpleName asb
+ctx SimpleName MethodInvocation SimpleName node element
+ctx SimpleName MethodInvocation BooleanLiteral false
+ctx SimpleName MethodInvocation SimpleName sub bidi level
+ctx SimpleName MethodInvocation SimpleName asb
+ctx SimpleName MethodInvocation SimpleName ln locs
+node element SimpleName MethodInvocation BooleanLiteral false
+node element SimpleName MethodInvocation SimpleName sub bidi level
+node element SimpleName MethodInvocation SimpleName asb
+node element SimpleName MethodInvocation SimpleName ln locs
+false BooleanLiteral MethodInvocation SimpleName sub bidi level
+false BooleanLiteral MethodInvocation SimpleName asb
+false BooleanLiteral MethodInvocation SimpleName ln locs
+sub bidi level SimpleName MethodInvocation SimpleName asb
+sub bidi level SimpleName MethodInvocation SimpleName ln locs
+asb SimpleName MethodInvocation SimpleName ln locs
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg tref tag
+equals SimpleName MethodInvocation SimpleName svg tref tag
+element SimpleName SimpleType CastExpression SimpleName n
+x link support SimpleName MethodInvocation SimpleName get x link href
+x link support SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+x link support SimpleName MethodInvocation CastExpression SimpleName n
+get x link href SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+get x link href SimpleName MethodInvocation CastExpression SimpleName n
+uri str SimpleName VariableDeclarationFragment MethodInvocation SimpleName x link support
+uri str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x link href
+uri str SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName n
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri str
+element SimpleName SimpleType CastExpression SimpleName n
+ctx SimpleName MethodInvocation SimpleName get referenced element
+ctx SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+ctx SimpleName MethodInvocation CastExpression SimpleName n
+ctx SimpleName MethodInvocation SimpleName uri str
+get referenced element SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+get referenced element SimpleName MethodInvocation CastExpression SimpleName n
+get referenced element SimpleName MethodInvocation SimpleName uri str
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName uri str
+n SimpleName CastExpression MethodInvocation SimpleName uri str
+ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName get referenced element
+ref SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName n
+ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri str
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+text utilities SimpleName MethodInvocation SimpleName get element content
+text utilities SimpleName MethodInvocation SimpleName ref
+get element content SimpleName MethodInvocation SimpleName ref
+s SimpleName Assignment MethodInvocation SimpleName text utilities
+s SimpleName Assignment MethodInvocation SimpleName get element content
+s SimpleName Assignment MethodInvocation SimpleName ref
+normalize string SimpleName MethodInvocation SimpleName s
+normalize string SimpleName MethodInvocation SimpleName preserve
+normalize string SimpleName MethodInvocation SimpleName prev ends with space
+s SimpleName MethodInvocation SimpleName preserve
+s SimpleName MethodInvocation SimpleName prev ends with space
+preserve SimpleName MethodInvocation SimpleName prev ends with space
+s SimpleName Assignment MethodInvocation SimpleName normalize string
+s SimpleName Assignment MethodInvocation SimpleName s
+s SimpleName Assignment MethodInvocation SimpleName preserve
+s SimpleName Assignment MethodInvocation SimpleName prev ends with space
+get attribute map SimpleName MethodInvocation SimpleName ctx
+get attribute map SimpleName MethodInvocation SimpleName node element
+get attribute map SimpleName MethodInvocation SimpleName bidi level
+ctx SimpleName MethodInvocation SimpleName node element
+ctx SimpleName MethodInvocation SimpleName bidi level
+node element SimpleName MethodInvocation SimpleName bidi level
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute map
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName node element
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName bidi level
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+asb SimpleName MethodInvocation SimpleName append
+asb SimpleName MethodInvocation SimpleName s
+asb SimpleName MethodInvocation SimpleName m
+append SimpleName MethodInvocation SimpleName s
+append SimpleName MethodInvocation SimpleName m
+s SimpleName MethodInvocation SimpleName m
+n SimpleName MethodInvocation SimpleName get node value
+s SimpleName Assignment MethodInvocation SimpleName n
+s SimpleName Assignment MethodInvocation SimpleName get node value
+normalize string SimpleName MethodInvocation SimpleName s
+normalize string SimpleName MethodInvocation SimpleName preserve
+normalize string SimpleName MethodInvocation SimpleName prev ends with space
+s SimpleName MethodInvocation SimpleName preserve
+s SimpleName MethodInvocation SimpleName prev ends with space
+preserve SimpleName MethodInvocation SimpleName prev ends with space
+s SimpleName Assignment MethodInvocation SimpleName normalize string
+s SimpleName Assignment MethodInvocation SimpleName s
+s SimpleName Assignment MethodInvocation SimpleName preserve
+s SimpleName Assignment MethodInvocation SimpleName prev ends with space
+asb SimpleName MethodInvocation SimpleName append
+asb SimpleName MethodInvocation SimpleName s
+asb SimpleName MethodInvocation SimpleName map
+append SimpleName MethodInvocation SimpleName s
+append SimpleName MethodInvocation SimpleName map
+s SimpleName MethodInvocation SimpleName map
+asb SimpleName MethodInvocation SimpleName length
+end limit SimpleName Assignment MethodInvocation SimpleName asb
+end limit SimpleName Assignment MethodInvocation SimpleName length
+preserve SimpleName IfStatement ExpressionStatement Assignment SimpleName end limit
+n SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodeelement node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodeelement node
+nodetext node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodecdata section node
+nodetext node QualifiedName SwitchCase SwitchStatement IfStatement SimpleName preserve
+nodecdata section node QualifiedName SwitchCase SwitchStatement IfStatement SimpleName preserve
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+asb SimpleName MethodInvocation SimpleName length
+end limit SimpleName InfixExpression MethodInvocation SimpleName asb
+end limit SimpleName InfixExpression MethodInvocation SimpleName length
+asb SimpleName MethodInvocation SimpleName get last char
+asb SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+get last char SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+ln locs SimpleName MethodInvocation SimpleName size
+ln locs SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+idx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName ln locs
+idx SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName size
+idx SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+asb SimpleName MethodInvocation SimpleName length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName asb
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName asb
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+idx SimpleName InfixExpression NumberLiteral empty
+ln locs SimpleName MethodInvocation SimpleName get
+ln locs SimpleName MethodInvocation SimpleName idx
+get SimpleName MethodInvocation SimpleName idx
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName ln locs
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName idx
+i SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName integer
+i SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ln locs
+i SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+i SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName idx
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName int value
+i SimpleName MethodInvocation InfixExpression SimpleName len
+int value SimpleName MethodInvocation InfixExpression SimpleName len
+len SimpleName InfixExpression NumberLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName len
+integer SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+i SimpleName Assignment ClassInstanceCreation SimpleType SimpleName integer
+i SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName len
+i SimpleName Assignment ClassInstanceCreation InfixExpression NumberLiteral empty
+ln locs SimpleName MethodInvocation SimpleName set
+ln locs SimpleName MethodInvocation SimpleName idx
+ln locs SimpleName MethodInvocation SimpleName i
+set SimpleName MethodInvocation SimpleName idx
+set SimpleName MethodInvocation SimpleName i
+idx SimpleName MethodInvocation SimpleName i
+idx SimpleName InfixExpression NumberLiteral empty
+ln locs SimpleName MethodInvocation SimpleName get
+ln locs SimpleName MethodInvocation SimpleName idx
+get SimpleName MethodInvocation SimpleName idx
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName ln locs
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName idx
+i SimpleName Assignment CastExpression SimpleType SimpleName integer
+i SimpleName Assignment CastExpression MethodInvocation SimpleName ln locs
+i SimpleName Assignment CastExpression MethodInvocation SimpleName get
+i SimpleName Assignment CastExpression MethodInvocation SimpleName idx
+i SimpleName MethodInvocation SimpleName int value
+len SimpleName InfixExpression NumberLiteral empty
+i SimpleName MethodInvocation InfixExpression InfixExpression SimpleName len
+i SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+int value SimpleName MethodInvocation InfixExpression InfixExpression SimpleName len
+int value SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+ln locs SimpleName MethodInvocation SimpleName remove
+ln locs SimpleName MethodInvocation SimpleName idx
+remove SimpleName MethodInvocation SimpleName idx
+asb SimpleName MethodInvocation SimpleName strip last
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName top
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName preserve
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName top
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName preserve
+top SimpleName IfStatement Block IfStatement SimpleName preserve
+preserve SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName top
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName fill attributed string buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName top
+void PrimitiveType MethodDeclaration SimpleName fill attributed string buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName top
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bidi level
+fill attributed string buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+fill attributed string buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx

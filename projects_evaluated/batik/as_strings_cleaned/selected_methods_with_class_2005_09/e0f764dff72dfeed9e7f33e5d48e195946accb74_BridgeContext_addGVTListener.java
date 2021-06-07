@@ -1,0 +1,22 @@
+document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+bridge event support SimpleName MethodInvocation SimpleName add gvt listener
+bridge event support SimpleName MethodInvocation SimpleName doc
+add gvt listener SimpleName MethodInvocation SimpleName doc
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add gvt listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+void PrimitiveType MethodDeclaration SimpleName add gvt listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc
+add gvt listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+add gvt listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add gvt listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add gvt listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc

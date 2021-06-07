@@ -1,0 +1,74 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ln
+int PrimitiveType SingleVariableDeclaration SimpleName val
+get live attribute value SimpleName MethodInvocation SimpleName ns
+get live attribute value SimpleName MethodInvocation SimpleName ln
+ns SimpleName MethodInvocation SimpleName ln
+svg animated integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get live attribute value
+svg animated integer SimpleName SimpleType CastExpression MethodInvocation SimpleName ns
+svg animated integer SimpleName SimpleType CastExpression MethodInvocation SimpleName ln
+result SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg animated integer
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get live attribute value
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ns
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ln
+svg animated integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+svgom animated integer SimpleName SimpleType ClassInstanceCreation SimpleName ns
+svgom animated integer SimpleName SimpleType ClassInstanceCreation SimpleName ln
+svgom animated integer SimpleName SimpleType ClassInstanceCreation SimpleName val
+ns SimpleName ClassInstanceCreation SimpleName ln
+ns SimpleName ClassInstanceCreation SimpleName val
+ln SimpleName ClassInstanceCreation SimpleName val
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svgom animated integer
+result SimpleName Assignment ClassInstanceCreation SimpleName ns
+result SimpleName Assignment ClassInstanceCreation SimpleName ln
+result SimpleName Assignment ClassInstanceCreation SimpleName val
+live attribute value SimpleName SimpleType CastExpression SimpleName result
+put live attribute value SimpleName MethodInvocation SimpleName ns
+put live attribute value SimpleName MethodInvocation SimpleName ln
+put live attribute value SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+put live attribute value SimpleName MethodInvocation CastExpression SimpleName result
+ns SimpleName MethodInvocation SimpleName ln
+ns SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+ns SimpleName MethodInvocation CastExpression SimpleName result
+ln SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+ln SimpleName MethodInvocation CastExpression SimpleName result
+protected Modifier MethodDeclaration SimpleType SimpleName svg animated integer
+protected Modifier MethodDeclaration SimpleName get animated integer attribute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ln
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+svg animated integer SimpleName SimpleType MethodDeclaration SimpleName get animated integer attribute
+svg animated integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ns
+svg animated integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ln
+svg animated integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+svg animated integer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName val
+get animated integer attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get animated integer attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+get animated integer attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get animated integer attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ln
+get animated integer attribute SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get animated integer attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+get animated integer attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+ln SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+ln SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated integer
+public Modifier TypeDeclaration MethodDeclaration SimpleName get animated integer attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated integer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get animated integer attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

@@ -1,0 +1,25 @@
+animation target SimpleName SimpleType SingleVariableDeclaration SimpleName t
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration SimpleType SimpleName abstract animation
+protected Modifier MethodDeclaration SimpleName create animation
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+abstract Modifier MethodDeclaration SimpleType SimpleName abstract animation
+abstract Modifier MethodDeclaration SimpleName create animation
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+abstract animation SimpleName SimpleType MethodDeclaration SimpleName create animation
+abstract animation SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName t
+create animation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+create animation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName abstract animation
+public Modifier TypeDeclaration MethodDeclaration SimpleName create animation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName abstract animation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create animation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

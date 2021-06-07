@@ -1,0 +1,28 @@
+int PrimitiveType SingleVariableDeclaration SimpleName len
+abstract Modifier MethodDeclaration Modifier public
+abstract Modifier MethodDeclaration ArrayType PrimitiveType char
+abstract Modifier MethodDeclaration SimpleName get suffix
+abstract Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier MethodDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SimpleName get suffix
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName len
+char PrimitiveType ArrayType MethodDeclaration SimpleName get suffix
+char PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+char PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName len
+get suffix SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get suffix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName len
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName get suffix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get suffix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName len

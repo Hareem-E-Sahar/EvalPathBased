@@ -1,0 +1,122 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+value SimpleName SimpleType SingleVariableDeclaration SimpleName l
+l SimpleName MethodInvocation SimpleName get length
+n values SimpleName VariableDeclarationFragment MethodInvocation SimpleName l
+n values SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n values
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName l
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cursor element
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+n values SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression SimpleName n values
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+l SimpleName MethodInvocation SimpleName item
+l SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+cursor value SimpleName VariableDeclarationFragment MethodInvocation SimpleName l
+cursor value SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+cursor value SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cursor value
+cursor value SimpleName MethodInvocation SimpleName get primitive type
+cursor value SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss uri
+get primitive type SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss uri
+cursor value SimpleName MethodInvocation SimpleName get string value
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor value
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+ctx SimpleName MethodInvocation SimpleName get referenced element
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName uri
+get referenced element SimpleName MethodInvocation SimpleName e
+get referenced element SimpleName MethodInvocation SimpleName uri
+e SimpleName MethodInvocation SimpleName uri
+cursor element SimpleName Assignment MethodInvocation SimpleName ctx
+cursor element SimpleName Assignment MethodInvocation SimpleName get referenced element
+cursor element SimpleName Assignment MethodInvocation SimpleName e
+cursor element SimpleName Assignment MethodInvocation SimpleName uri
+bridge exception SimpleName SimpleType SingleVariableDeclaration SimpleName be
+be SimpleName MethodInvocation SimpleName get code
+err uri bad target SimpleName MethodInvocation SimpleName equals
+err uri bad target SimpleName MethodInvocation MethodInvocation SimpleName be
+err uri bad target SimpleName MethodInvocation MethodInvocation SimpleName get code
+equals SimpleName MethodInvocation MethodInvocation SimpleName be
+equals SimpleName MethodInvocation MethodInvocation SimpleName get code
+cursor element SimpleName MethodInvocation SimpleName get namespace uri
+cursor ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor element
+cursor ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cursor ns
+svg constantssvg namespace uri QualifiedName MethodInvocation SimpleName equals
+svg constantssvg namespace uri QualifiedName MethodInvocation SimpleName cursor ns
+equals SimpleName MethodInvocation SimpleName cursor ns
+cursor element SimpleName MethodInvocation SimpleName get local name
+svg constantssvg cursor tag QualifiedName MethodInvocation SimpleName equals
+svg constantssvg cursor tag QualifiedName MethodInvocation MethodInvocation SimpleName cursor element
+svg constantssvg cursor tag QualifiedName MethodInvocation MethodInvocation SimpleName get local name
+equals SimpleName MethodInvocation MethodInvocation SimpleName cursor element
+equals SimpleName MethodInvocation MethodInvocation SimpleName get local name
+svg constantssvg namespace uri QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg cursor tag
+svg constantssvg namespace uri QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg cursor tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+cursor ns SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg cursor tag
+cursor ns SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+convert svg cursor element SimpleName MethodInvocation SimpleName cursor element
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert svg cursor element
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor element
+cursor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+n values SimpleName InfixExpression NumberLiteral empty
+l SimpleName MethodInvocation SimpleName item
+l SimpleName MethodInvocation InfixExpression SimpleName n values
+l SimpleName MethodInvocation InfixExpression NumberLiteral empty
+item SimpleName MethodInvocation InfixExpression SimpleName n values
+item SimpleName MethodInvocation InfixExpression NumberLiteral empty
+cursor value SimpleName VariableDeclarationFragment MethodInvocation SimpleName l
+cursor value SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+cursor value SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName n values
+cursor value SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cursor value
+cursor str SimpleName VariableDeclarationFragment QualifiedName svg constantssvg auto value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cursor str
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName svg constantssvg auto value
+cursor value SimpleName MethodInvocation SimpleName get primitive type
+cursor value SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss ident
+get primitive type SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss ident
+cursor value SimpleName MethodInvocation SimpleName get string value
+cursor str SimpleName Assignment MethodInvocation SimpleName cursor value
+cursor str SimpleName Assignment MethodInvocation SimpleName get string value
+convert built in cursor SimpleName MethodInvocation SimpleName e
+convert built in cursor SimpleName MethodInvocation SimpleName cursor str
+e SimpleName MethodInvocation SimpleName cursor str
+public Modifier MethodDeclaration SimpleType SimpleName cursor
+public Modifier MethodDeclaration SimpleName convert svg cursor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+cursor SimpleName SimpleType MethodDeclaration SimpleName convert svg cursor
+cursor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+cursor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName l
+convert svg cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert svg cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+convert svg cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+convert svg cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+convert svg cursor SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cursor
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert svg cursor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cursor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert svg cursor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName fill
+fill SimpleName MethodInvocation SimpleName length
+fill SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+fill SimpleName MethodInvocation SimpleName equals
+fill SimpleName MethodInvocation SimpleName smil remove value
+equals SimpleName MethodInvocation SimpleName smil remove value
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName fill
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName equals
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName smil remove value
+fill mode SimpleName Assignment SimpleName fill remove
+fill SimpleName MethodInvocation SimpleName equals
+fill SimpleName MethodInvocation SimpleName smil freeze value
+equals SimpleName MethodInvocation SimpleName smil freeze value
+fill mode SimpleName Assignment SimpleName fill freeze
+create exception SimpleName MethodInvocation StringLiteral attributemalformed
+create exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName smil fill attribute
+attributemalformed StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName smil fill attribute
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse fill
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName fill
+void PrimitiveType MethodDeclaration SimpleName parse fill
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fill
+parse fill SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse fill SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fill
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse fill
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fill
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse fill
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fill

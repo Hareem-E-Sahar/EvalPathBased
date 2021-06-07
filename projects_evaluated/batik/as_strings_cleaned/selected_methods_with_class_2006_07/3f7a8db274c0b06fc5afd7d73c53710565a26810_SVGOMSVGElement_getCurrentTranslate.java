@@ -1,0 +1,395 @@
+context SimpleName VariableDeclarationFragment MethodInvocation SimpleName get svg context
+svg context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+context SimpleName MethodInvocation SimpleName get screen transform
+protected Modifier MethodDeclaration SimpleType SimpleName affine transform
+protected Modifier MethodDeclaration SimpleName get screen transform
+affine transform SimpleName SimpleType MethodDeclaration SimpleName get screen transform
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName get screen transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scrn trans
+scrn trans SimpleName MethodInvocation SimpleName get translate x
+float PrimitiveType CastExpression MethodInvocation SimpleName scrn trans
+float PrimitiveType CastExpression MethodInvocation SimpleName get translate x
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get x
+float PrimitiveType MethodDeclaration SimpleName get x
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName get screen transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scrn trans
+scrn trans SimpleName MethodInvocation SimpleName get translate y
+float PrimitiveType CastExpression MethodInvocation SimpleName scrn trans
+float PrimitiveType CastExpression MethodInvocation SimpleName get translate y
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get y
+float PrimitiveType MethodDeclaration SimpleName get y
+float PrimitiveType SingleVariableDeclaration SimpleName new x
+context SimpleName VariableDeclarationFragment MethodInvocation SimpleName get svg context
+svg context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+context SimpleName MethodInvocation SimpleName get screen transform
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName get screen transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scrn trans
+scrn trans SimpleName MethodInvocation SimpleName get scale x
+scrn trans SimpleName MethodInvocation SimpleName get shear y
+scrn trans SimpleName MethodInvocation SimpleName get shear x
+scrn trans SimpleName MethodInvocation SimpleName get scale y
+scrn trans SimpleName MethodInvocation SimpleName get translate y
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName scrn trans
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get scale x
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName scrn trans
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get shear y
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName scrn trans
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get shear x
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName scrn trans
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get scale y
+affine transform SimpleName SimpleType ClassInstanceCreation SimpleName new x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get shear y
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get shear y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get shear x
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get shear x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get scale y
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get scale y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation SimpleName new x
+get scale x SimpleName MethodInvocation ClassInstanceCreation SimpleName new x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate y
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get shear x
+get shear y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get shear y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get shear x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get scale y
+get shear y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get shear y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get scale y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation SimpleName new x
+get shear y SimpleName MethodInvocation ClassInstanceCreation SimpleName new x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate y
+get shear y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get shear y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get scale y
+get shear x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get shear x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get scale y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation SimpleName new x
+get shear x SimpleName MethodInvocation ClassInstanceCreation SimpleName new x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate y
+get shear x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get shear x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation SimpleName new x
+get scale y SimpleName MethodInvocation ClassInstanceCreation SimpleName new x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate y
+get scale y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get scale y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate y
+new x SimpleName ClassInstanceCreation MethodInvocation SimpleName scrn trans
+new x SimpleName ClassInstanceCreation MethodInvocation SimpleName get translate y
+scrn trans SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get scale x
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get shear y
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get shear x
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get scale y
+scrn trans SimpleName Assignment ClassInstanceCreation SimpleName new x
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get translate y
+context SimpleName MethodInvocation SimpleName set screen transform
+context SimpleName MethodInvocation SimpleName scrn trans
+set screen transform SimpleName MethodInvocation SimpleName scrn trans
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set x
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new x
+void PrimitiveType MethodDeclaration SimpleName set x
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new x
+set x SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set x SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new x
+float PrimitiveType SingleVariableDeclaration SimpleName new y
+context SimpleName VariableDeclarationFragment MethodInvocation SimpleName get svg context
+svg context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+context SimpleName MethodInvocation SimpleName get screen transform
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName get screen transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scrn trans
+scrn trans SimpleName MethodInvocation SimpleName get scale x
+scrn trans SimpleName MethodInvocation SimpleName get shear y
+scrn trans SimpleName MethodInvocation SimpleName get shear x
+scrn trans SimpleName MethodInvocation SimpleName get scale y
+scrn trans SimpleName MethodInvocation SimpleName get translate x
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName scrn trans
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get scale x
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName scrn trans
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get shear y
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName scrn trans
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get shear x
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName scrn trans
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get scale y
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName scrn trans
+affine transform SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get translate x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get shear y
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get shear y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get shear x
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get shear x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get scale y
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get scale y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate x
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get scale x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation SimpleName new y
+get scale x SimpleName MethodInvocation ClassInstanceCreation SimpleName new y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get shear x
+get shear y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get shear y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get shear x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get scale y
+get shear y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get shear y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get scale y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate x
+get shear y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get shear y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation SimpleName new y
+get shear y SimpleName MethodInvocation ClassInstanceCreation SimpleName new y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get scale y
+get shear x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get shear x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get scale y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate x
+get shear x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get shear x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation SimpleName new y
+get shear x SimpleName MethodInvocation ClassInstanceCreation SimpleName new y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate x
+get scale y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName scrn trans
+get scale y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get translate x
+scrn trans SimpleName MethodInvocation ClassInstanceCreation SimpleName new y
+get scale y SimpleName MethodInvocation ClassInstanceCreation SimpleName new y
+scrn trans SimpleName MethodInvocation ClassInstanceCreation SimpleName new y
+get translate x SimpleName MethodInvocation ClassInstanceCreation SimpleName new y
+scrn trans SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get scale x
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get shear y
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get shear x
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get scale y
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName scrn trans
+scrn trans SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get translate x
+scrn trans SimpleName Assignment ClassInstanceCreation SimpleName new y
+context SimpleName MethodInvocation SimpleName set screen transform
+context SimpleName MethodInvocation SimpleName scrn trans
+set screen transform SimpleName MethodInvocation SimpleName scrn trans
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set y
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new y
+void PrimitiveType MethodDeclaration SimpleName set y
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new y
+set y SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set y SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new y
+svg matrix SimpleName SimpleType SingleVariableDeclaration SimpleName mat
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName get screen transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scrn trans
+scrn trans SimpleName MethodInvocation SimpleName get translate x
+float PrimitiveType CastExpression MethodInvocation SimpleName scrn trans
+float PrimitiveType CastExpression MethodInvocation SimpleName get translate x
+x SimpleName VariableDeclarationFragment CastExpression PrimitiveType float
+x SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName scrn trans
+x SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get translate x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType float
+scrn trans SimpleName MethodInvocation SimpleName get translate y
+float PrimitiveType CastExpression MethodInvocation SimpleName scrn trans
+float PrimitiveType CastExpression MethodInvocation SimpleName get translate y
+y SimpleName VariableDeclarationFragment CastExpression PrimitiveType float
+y SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName scrn trans
+y SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get translate y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType float
+mat SimpleName MethodInvocation SimpleName get a
+mat SimpleName MethodInvocation InfixExpression SimpleName x
+get a SimpleName MethodInvocation InfixExpression SimpleName x
+mat SimpleName MethodInvocation SimpleName get c
+mat SimpleName MethodInvocation InfixExpression SimpleName y
+get c SimpleName MethodInvocation InfixExpression SimpleName y
+x SimpleName InfixExpression InfixExpression InfixExpression SimpleName y
+mat SimpleName MethodInvocation SimpleName get e
+new x SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName mat
+new x SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get e
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new x
+mat SimpleName MethodInvocation SimpleName get b
+mat SimpleName MethodInvocation InfixExpression SimpleName x
+get b SimpleName MethodInvocation InfixExpression SimpleName x
+mat SimpleName MethodInvocation SimpleName get d
+mat SimpleName MethodInvocation InfixExpression SimpleName y
+get d SimpleName MethodInvocation InfixExpression SimpleName y
+x SimpleName InfixExpression InfixExpression InfixExpression SimpleName y
+mat SimpleName MethodInvocation SimpleName get f
+new y SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName mat
+new y SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName new y
+svgom point SimpleName SimpleType ClassInstanceCreation SimpleName new x
+svgom point SimpleName SimpleType ClassInstanceCreation SimpleName new y
+new x SimpleName ClassInstanceCreation SimpleName new y
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration SimpleType SimpleName svg point
+public Modifier MethodDeclaration SimpleName matrix transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg matrix
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mat
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+svg point SimpleName SimpleType MethodDeclaration SimpleName matrix transform
+svg point SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName mat
+matrix transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg matrix
+matrix transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mat
+matrix transform SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+matrix transform SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+matrix transform SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+matrix transform SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType float
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get x
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType float
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get x
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType float
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get y
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType float
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get y
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set x
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set x
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set y
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set y
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+protected Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get screen transform SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get y
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType float
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get y
+get x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType float
+get x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName get y
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set x
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set x
+get x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+get x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set x
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set y
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set y
+get x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+get x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set y
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+get x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set x
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set x
+get y SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get y SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+get y SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set x
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set y
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set y
+get y SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get y SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+get y SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set y
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+float PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+get y SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+get y SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set y
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set y
+set x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+set x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+set x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName set y
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+set x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+set x SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+set y SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration Modifier public
+set y SimpleName MethodDeclaration AnonymousClassDeclaration MethodDeclaration SimpleName matrix transform
+public Modifier MethodDeclaration SimpleType SimpleName svg point
+public Modifier MethodDeclaration SimpleName get current translate
+svg point SimpleName SimpleType MethodDeclaration SimpleName get current translate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg point
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current translate
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg point
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current translate

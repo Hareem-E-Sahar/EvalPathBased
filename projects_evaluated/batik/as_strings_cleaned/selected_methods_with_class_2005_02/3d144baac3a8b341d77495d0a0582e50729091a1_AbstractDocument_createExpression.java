@@ -1,0 +1,44 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName expression
+x path ns resolver SimpleName SimpleType SingleVariableDeclaration SimpleName resolver
+x path expr SimpleName SimpleType ClassInstanceCreation SimpleName expression
+x path expr SimpleName SimpleType ClassInstanceCreation SimpleName resolver
+expression SimpleName ClassInstanceCreation SimpleName resolver
+public Modifier MethodDeclaration SimpleType SimpleName x path expression
+public Modifier MethodDeclaration SimpleName create expression
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName expression
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName x path ns resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resolver
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+x path expression SimpleName SimpleType MethodDeclaration SimpleName create expression
+x path expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName expression
+x path expression SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName resolver
+x path expression SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+x path expression SimpleName SimpleType MethodDeclaration SimpleType SimpleName x path exception
+create expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName expression
+create expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName x path ns resolver
+create expression SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resolver
+create expression SimpleName MethodDeclaration SimpleType SimpleName dom exception
+create expression SimpleName MethodDeclaration SimpleType SimpleName x path exception
+expression SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+expression SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+expression SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName x path exception
+resolver SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+resolver SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName x path exception
+dom exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName x path exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName x path expression
+public Modifier TypeDeclaration MethodDeclaration SimpleName create expression
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expression
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName x path exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName x path expression
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create expression
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName expression
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resolver
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName x path exception

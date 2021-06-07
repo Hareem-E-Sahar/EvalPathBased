@@ -1,0 +1,46 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+prefix SimpleName MethodInvocation SimpleName equals
+prefix SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+dom utilities SimpleName MethodInvocation SimpleName is valid name
+dom utilities SimpleName MethodInvocation SimpleName prefix
+is valid name SimpleName MethodInvocation SimpleName prefix
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName prefix
+get node type SimpleName MethodInvocation ClassInstanceCreation ArrayInitializer SimpleName prefix
+get node name SimpleName MethodInvocation ArrayInitializer SimpleName prefix
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptioninvalid character err
+create dom exception SimpleName MethodInvocation StringLiteral prefix
+create dom exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName prefix
+dom exceptioninvalid character err QualifiedName MethodInvocation StringLiteral prefix
+dom exceptioninvalid character err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName prefix
+prefix StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName prefix
+prefix SimpleName FieldAccess Assignment SimpleName prefix
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set prefix
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set prefix
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prefix
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+set prefix SimpleName MethodDeclaration SimpleType SimpleName dom exception
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

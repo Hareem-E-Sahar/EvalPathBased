@@ -1,0 +1,30 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+generic processing instruction SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+copy into SimpleName SuperMethodInvocation SimpleName n
+generic processing instruction SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName copy into
+generic processing instruction SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName n
+p SimpleName Assignment CastExpression SimpleType SimpleName generic processing instruction
+p SimpleName Assignment CastExpression SuperMethodInvocation SimpleName copy into
+p SimpleName Assignment CastExpression SuperMethodInvocation SimpleName n
+p SimpleName MethodInvocation SimpleName set target
+p SimpleName MethodInvocation MethodInvocation SimpleName get target
+set target SimpleName MethodInvocation MethodInvocation SimpleName get target
+protected Modifier MethodDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SimpleName copy into
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName p
+node SimpleName SimpleType MethodDeclaration SimpleName copy into
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+copy into SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+copy into SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+copy into SimpleName MethodDeclaration Block ReturnStatement SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName copy into
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName copy into
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

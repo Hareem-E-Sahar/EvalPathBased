@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName str
+parser SimpleName MethodInvocation SimpleName parse media
+parser SimpleName MethodInvocation SimpleName str
+parse media SimpleName MethodInvocation SimpleName str
+media SimpleName Assignment MethodInvocation SimpleName parser
+media SimpleName Assignment MethodInvocation SimpleName parse media
+media SimpleName Assignment MethodInvocation SimpleName str
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName Assignment StringLiteral empty
+str SimpleName ArrayInitializer SimpleName m
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation StringLiteral mediaerror
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName str
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName m
+format message SimpleName MethodInvocation StringLiteral mediaerror
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName str
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName m
+mediaerror StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName str
+mediaerror StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName m
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName messages
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName format message
+s SimpleName VariableDeclarationFragment MethodInvocation StringLiteral mediaerror
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionsyntax err
+dom exception SimpleName SimpleType ClassInstanceCreation SimpleName s
+dom exceptionsyntax err QualifiedName ClassInstanceCreation SimpleName s
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set media
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName str
+void PrimitiveType MethodDeclaration SimpleName set media
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName str
+set media SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set media SimpleName MethodDeclaration SingleVariableDeclaration SimpleName str
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set media
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set media
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName str

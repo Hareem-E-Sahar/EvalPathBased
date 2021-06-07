@@ -1,0 +1,30 @@
+runnable SimpleName SimpleType SingleVariableDeclaration SimpleName r
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral runnable queue not started or has exited
+link SimpleName SimpleType ClassInstanceCreation SimpleName r
+list SimpleName MethodInvocation SimpleName push
+list SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName link
+list SimpleName MethodInvocation ClassInstanceCreation SimpleName r
+push SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName link
+push SimpleName MethodInvocation ClassInstanceCreation SimpleName r
+list SimpleName MethodInvocation SimpleName notify
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName invoke later
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName list
+void PrimitiveType MethodDeclaration SimpleName invoke later
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName list
+invoke later SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+invoke later SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+invoke later SimpleName MethodDeclaration Block SynchronizedStatement SimpleName list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName invoke later
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName invoke later
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r

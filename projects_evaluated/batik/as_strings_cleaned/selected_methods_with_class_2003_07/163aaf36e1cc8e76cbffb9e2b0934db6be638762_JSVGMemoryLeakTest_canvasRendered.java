@@ -1,0 +1,31 @@
+jsvg canvas SimpleName SimpleType SingleVariableDeclaration SimpleName canvas
+canvas SimpleName MethodInvocation SimpleName get graphics node
+register object desc SimpleName MethodInvocation MethodInvocation SimpleName canvas
+register object desc SimpleName MethodInvocation MethodInvocation SimpleName get graphics node
+register object desc SimpleName MethodInvocation StringLiteral gvt
+canvas SimpleName MethodInvocation MethodInvocation StringLiteral gvt
+get graphics node SimpleName MethodInvocation MethodInvocation StringLiteral gvt
+canvas SimpleName MethodInvocation SimpleName get update manager
+register object desc SimpleName MethodInvocation MethodInvocation SimpleName canvas
+register object desc SimpleName MethodInvocation MethodInvocation SimpleName get update manager
+register object desc SimpleName MethodInvocation StringLiteral update manager
+canvas SimpleName MethodInvocation MethodInvocation StringLiteral update manager
+get update manager SimpleName MethodInvocation MethodInvocation StringLiteral update manager
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName canvas rendered
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jsvg canvas
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName canvas
+void PrimitiveType MethodDeclaration SimpleName canvas rendered
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jsvg canvas
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName canvas
+canvas rendered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jsvg canvas
+canvas rendered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName canvas
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName canvas rendered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName canvas
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName canvas rendered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName canvas

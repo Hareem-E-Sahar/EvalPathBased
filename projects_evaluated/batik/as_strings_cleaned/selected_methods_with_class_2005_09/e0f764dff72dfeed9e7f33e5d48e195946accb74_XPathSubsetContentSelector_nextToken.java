@@ -1,0 +1,128 @@
+type SimpleName Assignment SimpleName eof
+type SimpleName Assignment SimpleName colon
+type SimpleName Assignment SimpleName left square bracket
+type SimpleName Assignment SimpleName right square bracket
+type SimpleName Assignment SimpleName left parenthesis
+type SimpleName Assignment SimpleName right parenthesis
+type SimpleName Assignment SimpleName asterisk
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml space
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml space SimpleName MethodInvocation CastExpression SimpleName current
+type SimpleName Assignment MethodInvocation SimpleName string
+type SimpleName Assignment MethodInvocation SimpleName string
+type SimpleName Assignment MethodInvocation SimpleName number
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml name first character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml name first character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name first character SimpleName MethodInvocation CastExpression SimpleName current
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral :
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral :
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml name character
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml name character SimpleName MethodInvocation CastExpression SimpleName current
+type SimpleName Assignment SimpleName name
+reader SimpleName MethodInvocation SimpleName get line
+reader SimpleName MethodInvocation SimpleName get column
+parse exception SimpleName SimpleType ClassInstanceCreation StringLiteral identifiercharacter
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get line
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column
+identifiercharacter StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+identifiercharacter StringLiteral ClassInstanceCreation MethodInvocation SimpleName get line
+identifiercharacter StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+identifiercharacter StringLiteral ClassInstanceCreation MethodInvocation SimpleName get column
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+current SimpleName SwitchStatement SwitchCase PrefixExpression NumberLiteral empty
+current SimpleName SwitchStatement ExpressionStatement Assignment SimpleName type
+current SimpleName SwitchStatement ExpressionStatement Assignment SimpleName eof
+current SimpleName SwitchStatement SwitchCase CharacterLiteral :
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName next char
+: CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral [
+[ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ]
+] CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral (
+( CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral )
+) CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral *
+* CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+* CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral t
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral t
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral r
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral f
+t CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral r
+t CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+t CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral f
+r CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+r CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral f
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral f
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral \
+f CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral \
+\ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+parse exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName next token
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleName next token
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+next token SimpleName MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName next token
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next token
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

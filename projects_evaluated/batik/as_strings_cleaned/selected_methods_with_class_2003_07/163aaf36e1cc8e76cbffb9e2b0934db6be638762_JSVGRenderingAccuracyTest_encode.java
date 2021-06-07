@@ -1,0 +1,45 @@
+url SimpleName SimpleType SingleVariableDeclaration SimpleName src url
+file output stream SimpleName SimpleType SingleVariableDeclaration SimpleName fos
+src url SimpleName FieldAccess Assignment SimpleName src url
+fos SimpleName FieldAccess Assignment SimpleName fos
+handler SimpleName Assignment ClassInstanceCreation SimpleType SimpleName jsvg canvas handler
+done SimpleName Assignment BooleanLiteral false
+src url SimpleName MethodInvocation SimpleName to string
+handler SimpleName MethodInvocation SimpleName run canvas
+handler SimpleName MethodInvocation MethodInvocation SimpleName src url
+handler SimpleName MethodInvocation MethodInvocation SimpleName to string
+run canvas SimpleName MethodInvocation MethodInvocation SimpleName src url
+run canvas SimpleName MethodInvocation MethodInvocation SimpleName to string
+fail report SimpleName InfixExpression IfStatement ReturnStatement SimpleName fail report
+report SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default test report
+default test report SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName report
+report SimpleName MethodInvocation SimpleName set passed
+report SimpleName MethodInvocation BooleanLiteral true
+set passed SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName test report
+public Modifier MethodDeclaration SimpleName encode
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName src url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file output stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName fos
+public Modifier MethodDeclaration Block ReturnStatement SimpleName report
+test report SimpleName SimpleType MethodDeclaration SimpleName encode
+test report SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName src url
+test report SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName fos
+encode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+encode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src url
+encode SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName file output stream
+encode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fos
+encode SimpleName MethodDeclaration Block ReturnStatement SimpleName report
+src url SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fos
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName test report
+public Modifier TypeDeclaration MethodDeclaration SimpleName encode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fos
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName test report
+test SimpleName TypeDeclaration MethodDeclaration SimpleName encode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fos

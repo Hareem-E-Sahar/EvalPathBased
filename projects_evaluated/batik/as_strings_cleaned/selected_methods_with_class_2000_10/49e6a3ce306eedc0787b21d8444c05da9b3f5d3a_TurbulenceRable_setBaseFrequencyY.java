@@ -1,0 +1,21 @@
+double PrimitiveType SingleVariableDeclaration SimpleName yfreq
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set base frequency y
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName yfreq
+void PrimitiveType MethodDeclaration SimpleName set base frequency y
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName yfreq
+set base frequency y SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+set base frequency y SimpleName MethodDeclaration SingleVariableDeclaration SimpleName yfreq
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set base frequency y
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName yfreq
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set base frequency y
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName yfreq

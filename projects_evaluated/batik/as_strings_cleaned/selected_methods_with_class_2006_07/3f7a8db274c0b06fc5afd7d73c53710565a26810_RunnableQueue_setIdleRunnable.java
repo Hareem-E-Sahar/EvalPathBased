@@ -1,0 +1,27 @@
+runnable SimpleName SimpleType SingleVariableDeclaration SimpleName r
+idle runnable SimpleName Assignment SimpleName r
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set idle runnable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName set idle runnable
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+void PrimitiveType MethodDeclaration SimpleName set idle runnable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+set idle runnable SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+set idle runnable SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set idle runnable
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set idle runnable
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r

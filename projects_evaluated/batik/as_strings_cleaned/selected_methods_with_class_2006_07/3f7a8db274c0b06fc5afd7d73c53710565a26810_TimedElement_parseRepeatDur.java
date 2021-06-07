@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName repeat dur
+repeat dur SimpleName MethodInvocation SimpleName length
+repeat dur SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+repeat dur SimpleName FieldAccess Assignment SimpleName unresolved
+repeat dur SimpleName MethodInvocation SimpleName equals
+repeat dur SimpleName MethodInvocation SimpleName smil indefinite value
+equals SimpleName MethodInvocation SimpleName smil indefinite value
+repeat dur SimpleName FieldAccess Assignment SimpleName indefinite
+parse clock value SimpleName MethodInvocation SimpleName repeat dur
+repeat dur SimpleName FieldAccess Assignment MethodInvocation SimpleName parse clock value
+repeat dur SimpleName FieldAccess Assignment MethodInvocation SimpleName repeat dur
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+create exception SimpleName MethodInvocation StringLiteral attributemalformed
+create exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName smil repeat dur attribute
+attributemalformed StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName smil repeat dur attribute
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse repeat dur
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName repeat dur
+void PrimitiveType MethodDeclaration SimpleName parse repeat dur
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName repeat dur
+parse repeat dur SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse repeat dur SimpleName MethodDeclaration SingleVariableDeclaration SimpleName repeat dur
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse repeat dur
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repeat dur
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse repeat dur
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repeat dur

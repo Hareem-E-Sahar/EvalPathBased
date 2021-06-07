@@ -1,0 +1,22 @@
+selector factory SimpleName SimpleType SingleVariableDeclaration SimpleName selector factory
+parser SimpleName MethodInvocation SimpleName set selector factory
+parser SimpleName MethodInvocation SimpleName selector factory
+set selector factory SimpleName MethodInvocation SimpleName selector factory
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set selector factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName selector factory
+void PrimitiveType MethodDeclaration SimpleName set selector factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName selector factory
+set selector factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector factory
+set selector factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName selector factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set selector factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set selector factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector factory

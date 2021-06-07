@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get cancelable
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cancelable
+boolean PrimitiveType MethodDeclaration SimpleName get cancelable
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName cancelable
+get cancelable SimpleName MethodDeclaration Block ReturnStatement SimpleName cancelable
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get cancelable
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get cancelable

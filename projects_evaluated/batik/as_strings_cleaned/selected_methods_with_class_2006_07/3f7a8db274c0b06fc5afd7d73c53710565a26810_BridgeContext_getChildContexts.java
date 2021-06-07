@@ -1,0 +1,37 @@
+child contexts SimpleName MethodInvocation SimpleName size
+res SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName child contexts
+res SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName size
+child contexts SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName child contexts
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName reslength
+it SimpleName MethodInvocation SimpleName next
+weak reference SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+weak reference SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+wr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName weak reference
+wr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName it
+wr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+weak reference SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wr
+res SimpleName ArrayAccess SimpleName i
+wr SimpleName MethodInvocation SimpleName get
+bridge context SimpleName SimpleType CastExpression MethodInvocation SimpleName wr
+bridge context SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName reslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+reslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SimpleName get child contexts
+public Modifier MethodDeclaration Block ReturnStatement SimpleName res
+bridge context SimpleName SimpleType ArrayType MethodDeclaration SimpleName get child contexts
+get child contexts SimpleName MethodDeclaration Block ReturnStatement SimpleName res
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get child contexts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get child contexts

@@ -1,0 +1,89 @@
+sm SimpleName MethodInvocation SimpleName get width
+tile width SimpleName FieldAccess Assignment MethodInvocation SimpleName sm
+tile width SimpleName FieldAccess Assignment MethodInvocation SimpleName get width
+sm SimpleName MethodInvocation SimpleName get height
+tile height SimpleName FieldAccess Assignment MethodInvocation SimpleName sm
+tile height SimpleName FieldAccess Assignment MethodInvocation SimpleName get height
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+y SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+y SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+boundsx QualifiedName InfixExpression SimpleName tile grid x off
+x SimpleName Assignment InfixExpression QualifiedName boundsx
+x SimpleName Assignment InfixExpression SimpleName tile grid x off
+x SimpleName InfixExpression NumberLiteral empty
+x SimpleName InfixExpression SimpleName tile width
+x SimpleName InfixExpression InfixExpression NumberLiteral empty
+tile width SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName tile width
+min tile x SimpleName Assignment InfixExpression SimpleName tile width
+x SimpleName PrefixExpression ParenthesizedExpression InfixExpression SimpleName tile width
+tile width SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName tile width
+boundsy QualifiedName InfixExpression SimpleName tile grid y off
+y SimpleName Assignment InfixExpression QualifiedName boundsy
+y SimpleName Assignment InfixExpression SimpleName tile grid y off
+y SimpleName InfixExpression NumberLiteral empty
+y SimpleName InfixExpression SimpleName tile height
+y SimpleName InfixExpression InfixExpression NumberLiteral empty
+tile height SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName tile height
+min tile y SimpleName Assignment InfixExpression SimpleName tile height
+y SimpleName PrefixExpression ParenthesizedExpression InfixExpression SimpleName tile height
+tile height SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName tile height
+min tile x SimpleName InfixExpression SimpleName tile width
+min tile x SimpleName InfixExpression InfixExpression SimpleName tile grid x off
+tile width SimpleName InfixExpression InfixExpression SimpleName tile grid x off
+x SimpleName Assignment InfixExpression InfixExpression SimpleName min tile x
+x SimpleName Assignment InfixExpression InfixExpression SimpleName tile width
+x SimpleName Assignment InfixExpression SimpleName tile grid x off
+boundsx QualifiedName InfixExpression QualifiedName boundswidth
+boundsx QualifiedName InfixExpression InfixExpression NumberLiteral empty
+boundswidth QualifiedName InfixExpression InfixExpression NumberLiteral empty
+x SimpleName Assignment InfixExpression InfixExpression QualifiedName boundsx
+x SimpleName Assignment InfixExpression InfixExpression QualifiedName boundswidth
+x SimpleName Assignment InfixExpression NumberLiteral empty
+x SimpleName InfixExpression SimpleName x
+x SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName tile width
+x SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName tile width
+tile width SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName tile width
+num x tiles SimpleName Assignment InfixExpression SimpleName tile width
+min tile y SimpleName InfixExpression SimpleName tile height
+min tile y SimpleName InfixExpression InfixExpression SimpleName tile grid y off
+tile height SimpleName InfixExpression InfixExpression SimpleName tile grid y off
+y SimpleName Assignment InfixExpression InfixExpression SimpleName min tile y
+y SimpleName Assignment InfixExpression InfixExpression SimpleName tile height
+y SimpleName Assignment InfixExpression SimpleName tile grid y off
+boundsy QualifiedName InfixExpression QualifiedName boundsheight
+boundsy QualifiedName InfixExpression InfixExpression NumberLiteral empty
+boundsheight QualifiedName InfixExpression InfixExpression NumberLiteral empty
+y SimpleName Assignment InfixExpression InfixExpression QualifiedName boundsy
+y SimpleName Assignment InfixExpression InfixExpression QualifiedName boundsheight
+y SimpleName Assignment InfixExpression NumberLiteral empty
+y SimpleName InfixExpression SimpleName y
+y SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName tile height
+y SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName tile height
+tile height SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName tile height
+num y tiles SimpleName Assignment InfixExpression SimpleName tile height
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update tile grid info
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName update tile grid info
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+update tile grid info SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update tile grid info
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update tile grid info

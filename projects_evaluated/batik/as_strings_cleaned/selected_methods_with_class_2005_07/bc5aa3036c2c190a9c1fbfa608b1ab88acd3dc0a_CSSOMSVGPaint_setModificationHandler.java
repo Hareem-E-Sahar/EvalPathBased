@@ -1,0 +1,21 @@
+modification handler SimpleName SimpleType SingleVariableDeclaration SimpleName h
+h SimpleName InstanceofExpression SimpleType SimpleName paint modification handler
+set modification handler SimpleName SuperMethodInvocation SimpleName h
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set modification handler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName modification handler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName h
+void PrimitiveType MethodDeclaration SimpleName set modification handler
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName modification handler
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName h
+set modification handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName modification handler
+set modification handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName h
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set modification handler
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set modification handler
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h

@@ -1,0 +1,62 @@
+flow layout SimpleName SimpleType ClassInstanceCreation QualifiedName flow layoutright
+j panel SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName flow layoutright
+panel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j panel
+panel SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName flow layoutright
+j panel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName panel
+button factory SimpleName MethodInvocation SimpleName create j button
+button factory SimpleName MethodInvocation StringLiteral find button
+create j button SimpleName MethodInvocation StringLiteral find button
+find button SimpleName Assignment MethodInvocation SimpleName button factory
+find button SimpleName Assignment MethodInvocation SimpleName create j button
+find button SimpleName Assignment MethodInvocation StringLiteral find button
+panel SimpleName MethodInvocation SimpleName add
+panel SimpleName MethodInvocation Assignment SimpleName find button
+panel SimpleName MethodInvocation Assignment MethodInvocation SimpleName button factory
+panel SimpleName MethodInvocation Assignment MethodInvocation SimpleName create j button
+panel SimpleName MethodInvocation Assignment MethodInvocation StringLiteral find button
+add SimpleName MethodInvocation Assignment SimpleName find button
+add SimpleName MethodInvocation Assignment MethodInvocation SimpleName button factory
+add SimpleName MethodInvocation Assignment MethodInvocation SimpleName create j button
+add SimpleName MethodInvocation Assignment MethodInvocation StringLiteral find button
+button factory SimpleName MethodInvocation SimpleName create j button
+button factory SimpleName MethodInvocation StringLiteral clear button
+create j button SimpleName MethodInvocation StringLiteral clear button
+clear button SimpleName Assignment MethodInvocation SimpleName button factory
+clear button SimpleName Assignment MethodInvocation SimpleName create j button
+clear button SimpleName Assignment MethodInvocation StringLiteral clear button
+panel SimpleName MethodInvocation SimpleName add
+panel SimpleName MethodInvocation Assignment SimpleName clear button
+panel SimpleName MethodInvocation Assignment MethodInvocation SimpleName button factory
+panel SimpleName MethodInvocation Assignment MethodInvocation SimpleName create j button
+panel SimpleName MethodInvocation Assignment MethodInvocation StringLiteral clear button
+add SimpleName MethodInvocation Assignment SimpleName clear button
+add SimpleName MethodInvocation Assignment MethodInvocation SimpleName button factory
+add SimpleName MethodInvocation Assignment MethodInvocation SimpleName create j button
+add SimpleName MethodInvocation Assignment MethodInvocation StringLiteral clear button
+button factory SimpleName MethodInvocation SimpleName create j button
+button factory SimpleName MethodInvocation StringLiteral close button
+create j button SimpleName MethodInvocation StringLiteral close button
+close button SimpleName Assignment MethodInvocation SimpleName button factory
+close button SimpleName Assignment MethodInvocation SimpleName create j button
+close button SimpleName Assignment MethodInvocation StringLiteral close button
+panel SimpleName MethodInvocation SimpleName add
+panel SimpleName MethodInvocation Assignment SimpleName close button
+panel SimpleName MethodInvocation Assignment MethodInvocation SimpleName button factory
+panel SimpleName MethodInvocation Assignment MethodInvocation SimpleName create j button
+panel SimpleName MethodInvocation Assignment MethodInvocation StringLiteral close button
+add SimpleName MethodInvocation Assignment SimpleName close button
+add SimpleName MethodInvocation Assignment MethodInvocation SimpleName button factory
+add SimpleName MethodInvocation Assignment MethodInvocation SimpleName create j button
+add SimpleName MethodInvocation Assignment MethodInvocation StringLiteral close button
+protected Modifier MethodDeclaration SimpleType SimpleName j panel
+protected Modifier MethodDeclaration SimpleName create buttons panel
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName panel
+j panel SimpleName SimpleType MethodDeclaration SimpleName create buttons panel
+create buttons panel SimpleName MethodDeclaration Block ReturnStatement SimpleName panel
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName j panel
+public Modifier TypeDeclaration MethodDeclaration SimpleName create buttons panel
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName j panel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create buttons panel

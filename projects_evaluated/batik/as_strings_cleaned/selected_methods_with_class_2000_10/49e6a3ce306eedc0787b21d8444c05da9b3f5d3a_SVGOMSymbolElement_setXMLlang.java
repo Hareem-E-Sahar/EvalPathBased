@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName lang
+xml support SimpleName MethodInvocation SimpleName set xml lang
+xml support SimpleName MethodInvocation SimpleName lang
+set xml lang SimpleName MethodInvocation SimpleName lang
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set xm llang
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lang
+void PrimitiveType MethodDeclaration SimpleName set xm llang
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lang
+set xm llang SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set xm llang SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lang
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set xm llang
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lang
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set xm llang
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lang

@@ -1,0 +1,193 @@
+document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+dom implementation SimpleName SimpleType SingleVariableDeclaration SimpleName impl
+doc SimpleName MethodInvocation SimpleName get document element
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+root SimpleName VariableDeclarationFragment MethodInvocation SimpleName get document element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+root SimpleName MethodInvocation SimpleName get namespace uri
+root SimpleName MethodInvocation SimpleName get node name
+impl SimpleName MethodInvocation SimpleName create document
+impl SimpleName MethodInvocation MethodInvocation SimpleName root
+impl SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+impl SimpleName MethodInvocation MethodInvocation SimpleName root
+impl SimpleName MethodInvocation MethodInvocation SimpleName get node name
+create document SimpleName MethodInvocation MethodInvocation SimpleName root
+create document SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+create document SimpleName MethodInvocation MethodInvocation SimpleName root
+create document SimpleName MethodInvocation MethodInvocation SimpleName get node name
+root SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName root
+root SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get node name
+get namespace uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName root
+get namespace uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get node name
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName impl
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName create document
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName root
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get namespace uri
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName root
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get node name
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName get document element
+rroot SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+rroot SimpleName VariableDeclarationFragment MethodInvocation SimpleName get document element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rroot
+before SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName before
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+doc SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName InfixExpression SimpleName root
+before SimpleName Assignment BooleanLiteral false
+root SimpleName MethodInvocation SimpleName has attributes
+root SimpleName MethodInvocation SimpleName get attributes
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName root
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attr
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+attr SimpleName MethodInvocation SimpleName item
+attr SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+result SimpleName MethodInvocation SimpleName import node
+result SimpleName MethodInvocation MethodInvocation SimpleName attr
+result SimpleName MethodInvocation MethodInvocation SimpleName item
+result SimpleName MethodInvocation MethodInvocation SimpleName i
+result SimpleName MethodInvocation BooleanLiteral true
+import node SimpleName MethodInvocation MethodInvocation SimpleName attr
+import node SimpleName MethodInvocation MethodInvocation SimpleName item
+import node SimpleName MethodInvocation MethodInvocation SimpleName i
+import node SimpleName MethodInvocation BooleanLiteral true
+attr SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+item SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+i SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName result
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName import node
+attr SimpleName SimpleType CastExpression MethodInvocation BooleanLiteral true
+rroot SimpleName MethodInvocation SimpleName set attribute node
+rroot SimpleName MethodInvocation CastExpression SimpleType SimpleName attr
+rroot SimpleName MethodInvocation CastExpression MethodInvocation SimpleName result
+rroot SimpleName MethodInvocation CastExpression MethodInvocation SimpleName import node
+rroot SimpleName MethodInvocation CastExpression MethodInvocation BooleanLiteral true
+set attribute node SimpleName MethodInvocation CastExpression SimpleType SimpleName attr
+set attribute node SimpleName MethodInvocation CastExpression MethodInvocation SimpleName result
+set attribute node SimpleName MethodInvocation CastExpression MethodInvocation SimpleName import node
+set attribute node SimpleName MethodInvocation CastExpression MethodInvocation BooleanLiteral true
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+root SimpleName MethodInvocation SimpleName get first child
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName root
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName get next sibling
+c SimpleName Assignment MethodInvocation SimpleName c
+c SimpleName Assignment MethodInvocation SimpleName get next sibling
+result SimpleName MethodInvocation SimpleName import node
+result SimpleName MethodInvocation SimpleName c
+result SimpleName MethodInvocation BooleanLiteral true
+import node SimpleName MethodInvocation SimpleName c
+import node SimpleName MethodInvocation BooleanLiteral true
+c SimpleName MethodInvocation BooleanLiteral true
+rroot SimpleName MethodInvocation SimpleName append child
+rroot SimpleName MethodInvocation MethodInvocation SimpleName result
+rroot SimpleName MethodInvocation MethodInvocation SimpleName import node
+rroot SimpleName MethodInvocation MethodInvocation SimpleName c
+rroot SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+append child SimpleName MethodInvocation MethodInvocation SimpleName result
+append child SimpleName MethodInvocation MethodInvocation SimpleName import node
+append child SimpleName MethodInvocation MethodInvocation SimpleName c
+append child SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+c SimpleName InfixExpression ForStatement Assignment SimpleName c
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodedocument type node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodedocument type node
+result SimpleName MethodInvocation SimpleName import node
+result SimpleName MethodInvocation SimpleName n
+result SimpleName MethodInvocation BooleanLiteral true
+import node SimpleName MethodInvocation SimpleName n
+import node SimpleName MethodInvocation BooleanLiteral true
+n SimpleName MethodInvocation BooleanLiteral true
+result SimpleName MethodInvocation SimpleName insert before
+result SimpleName MethodInvocation MethodInvocation SimpleName result
+result SimpleName MethodInvocation MethodInvocation SimpleName import node
+result SimpleName MethodInvocation MethodInvocation SimpleName n
+result SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+result SimpleName MethodInvocation SimpleName rroot
+insert before SimpleName MethodInvocation MethodInvocation SimpleName result
+insert before SimpleName MethodInvocation MethodInvocation SimpleName import node
+insert before SimpleName MethodInvocation MethodInvocation SimpleName n
+insert before SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+insert before SimpleName MethodInvocation SimpleName rroot
+result SimpleName MethodInvocation MethodInvocation SimpleName rroot
+import node SimpleName MethodInvocation MethodInvocation SimpleName rroot
+n SimpleName MethodInvocation MethodInvocation SimpleName rroot
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName rroot
+result SimpleName MethodInvocation SimpleName import node
+result SimpleName MethodInvocation SimpleName n
+result SimpleName MethodInvocation BooleanLiteral true
+import node SimpleName MethodInvocation SimpleName n
+import node SimpleName MethodInvocation BooleanLiteral true
+n SimpleName MethodInvocation BooleanLiteral true
+result SimpleName MethodInvocation SimpleName append child
+result SimpleName MethodInvocation MethodInvocation SimpleName result
+result SimpleName MethodInvocation MethodInvocation SimpleName import node
+result SimpleName MethodInvocation MethodInvocation SimpleName n
+result SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+append child SimpleName MethodInvocation MethodInvocation SimpleName result
+append child SimpleName MethodInvocation MethodInvocation SimpleName import node
+append child SimpleName MethodInvocation MethodInvocation SimpleName n
+append child SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName document
+public Modifier MethodDeclaration SimpleName deep clone document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom implementation
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName impl
+static Modifier MethodDeclaration SimpleType SimpleName document
+static Modifier MethodDeclaration SimpleName deep clone document
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom implementation
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName impl
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+document SimpleName SimpleType MethodDeclaration SimpleName deep clone document
+document SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName doc
+document SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName impl
+deep clone document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+deep clone document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+deep clone document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom implementation
+deep clone document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName impl
+deep clone document SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+deep clone document SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+doc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName impl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName document
+public Modifier TypeDeclaration MethodDeclaration SimpleName deep clone document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName impl
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName document
+test SimpleName TypeDeclaration MethodDeclaration SimpleName deep clone document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName impl

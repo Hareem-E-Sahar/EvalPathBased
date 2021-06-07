@@ -1,0 +1,62 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName event type
+document SimpleName MethodInvocation SimpleName get document element
+svgsvg element SimpleName SimpleType CastExpression MethodInvocation SimpleName document
+svgsvg element SimpleName SimpleType CastExpression MethodInvocation SimpleName get document element
+root SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgsvg element
+root SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName document
+root SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get document element
+svgsvg element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+t SimpleName VariableDeclarationFragment SimpleName root
+event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName root
+document event SimpleName SimpleType CastExpression SimpleName document
+de SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName document event
+de SimpleName VariableDeclarationFragment CastExpression SimpleName document
+document event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName de
+de SimpleName MethodInvocation SimpleName create event
+de SimpleName MethodInvocation StringLiteral svg events
+create event SimpleName MethodInvocation StringLiteral svg events
+abstract event SimpleName SimpleType CastExpression MethodInvocation SimpleName de
+abstract event SimpleName SimpleType CastExpression MethodInvocation SimpleName create event
+abstract event SimpleName SimpleType CastExpression MethodInvocation StringLiteral svg events
+ev SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract event
+ev SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName de
+ev SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName create event
+ev SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral svg events
+abstract event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ev
+ev SimpleName MethodInvocation SimpleName init event ns
+ev SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+ev SimpleName MethodInvocation SimpleName event type
+ev SimpleName MethodInvocation BooleanLiteral false
+ev SimpleName MethodInvocation BooleanLiteral false
+init event ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+init event ns SimpleName MethodInvocation SimpleName event type
+init event ns SimpleName MethodInvocation BooleanLiteral false
+init event ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName event type
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+event type SimpleName MethodInvocation BooleanLiteral false
+event type SimpleName MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+t SimpleName MethodInvocation SimpleName dispatch event
+t SimpleName MethodInvocation SimpleName ev
+dispatch event SimpleName MethodInvocation SimpleName ev
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName dispatch svg doc event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName event type
+void PrimitiveType MethodDeclaration SimpleName dispatch svg doc event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event type
+dispatch svg doc event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+dispatch svg doc event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch svg doc event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event type
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch svg doc event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event type

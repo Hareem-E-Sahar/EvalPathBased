@@ -1,0 +1,75 @@
+object input stream SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName default read object
+get class SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+localizable support SimpleName SimpleType ClassInstanceCreation SimpleName resources
+localizable support SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get class loader
+resources SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get class
+resources SimpleName ClassInstanceCreation MethodInvocation SimpleName get class loader
+localizable support SimpleName Assignment ClassInstanceCreation SimpleType SimpleName localizable support
+localizable support SimpleName Assignment ClassInstanceCreation SimpleName resources
+localizable support SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get class loader
+s SimpleName MethodInvocation SimpleName read object
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName s
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName read object
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+class SimpleName MethodInvocation CastExpression MethodInvocation SimpleName s
+class SimpleName MethodInvocation CastExpression MethodInvocation SimpleName read object
+for name SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+for name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName s
+for name SimpleName MethodInvocation CastExpression MethodInvocation SimpleName read object
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName class
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName for name
+class SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName get method
+c SimpleName MethodInvocation StringLiteral get dom implementation
+get method SimpleName MethodInvocation StringLiteral get dom implementation
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get method
+m SimpleName VariableDeclarationFragment MethodInvocation StringLiteral get dom implementation
+method SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName invoke
+dom implementation SimpleName SimpleType CastExpression MethodInvocation SimpleName m
+dom implementation SimpleName SimpleType CastExpression MethodInvocation SimpleName invoke
+implementation SimpleName Assignment CastExpression SimpleType SimpleName dom implementation
+implementation SimpleName Assignment CastExpression MethodInvocation SimpleName m
+implementation SimpleName Assignment CastExpression MethodInvocation SimpleName invoke
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+c SimpleName MethodInvocation SimpleName new instance
+dom implementation SimpleName SimpleType CastExpression MethodInvocation SimpleName c
+dom implementation SimpleName SimpleType CastExpression MethodInvocation SimpleName new instance
+implementation SimpleName Assignment CastExpression SimpleType SimpleName dom implementation
+implementation SimpleName Assignment CastExpression MethodInvocation SimpleName c
+implementation SimpleName Assignment CastExpression MethodInvocation SimpleName new instance
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName read object
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object input stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+private Modifier MethodDeclaration SimpleType SimpleName class not found exception
+void PrimitiveType MethodDeclaration SimpleName read object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object input stream
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName class not found exception
+read object SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object input stream
+read object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+read object SimpleName MethodDeclaration SimpleType SimpleName io exception
+read object SimpleName MethodDeclaration SimpleType SimpleName class not found exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName class not found exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName class not found exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName read object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName class not found exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName class not found exception

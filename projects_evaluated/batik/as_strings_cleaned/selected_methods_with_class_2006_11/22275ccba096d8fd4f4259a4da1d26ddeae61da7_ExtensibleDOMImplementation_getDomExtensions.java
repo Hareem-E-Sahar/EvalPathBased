@@ -1,0 +1,69 @@
+extensions SimpleName InfixExpression IfStatement ReturnStatement SimpleName extensions
+extensions SimpleName Assignment ClassInstanceCreation SimpleType SimpleName linked list
+service SimpleName MethodInvocation SimpleName providers
+service SimpleName MethodInvocation TypeLiteral SimpleType SimpleName dom extension
+providers SimpleName MethodInvocation TypeLiteral SimpleType SimpleName dom extension
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName providers
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+dom extension SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+dom extension SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+de SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName dom extension
+de SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+de SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+dom extension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName de
+de SimpleName MethodInvocation SimpleName get priority
+priority SimpleName VariableDeclarationFragment MethodInvocation SimpleName de
+priority SimpleName VariableDeclarationFragment MethodInvocation SimpleName get priority
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName priority
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName de
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get priority
+extensions SimpleName MethodInvocation SimpleName list iterator
+li SimpleName VariableDeclarationFragment MethodInvocation SimpleName extensions
+li SimpleName VariableDeclarationFragment MethodInvocation SimpleName list iterator
+list iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName li
+li SimpleName MethodInvocation SimpleName has next
+li SimpleName MethodInvocation SimpleName add
+li SimpleName MethodInvocation SimpleName de
+add SimpleName MethodInvocation SimpleName de
+li SimpleName MethodInvocation SimpleName next
+dom extension SimpleName SimpleType CastExpression MethodInvocation SimpleName li
+dom extension SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+lde SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName dom extension
+lde SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName li
+lde SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+dom extension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lde
+lde SimpleName MethodInvocation SimpleName get priority
+lde SimpleName MethodInvocation InfixExpression SimpleName priority
+get priority SimpleName MethodInvocation InfixExpression SimpleName priority
+li SimpleName MethodInvocation SimpleName previous
+li SimpleName MethodInvocation SimpleName add
+li SimpleName MethodInvocation SimpleName de
+add SimpleName MethodInvocation SimpleName de
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration Modifier synchronized
+protected Modifier MethodDeclaration SimpleType SimpleName list
+protected Modifier MethodDeclaration SimpleName get dom extensions
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName extensions
+static Modifier MethodDeclaration Modifier synchronized
+static Modifier MethodDeclaration SimpleType SimpleName list
+static Modifier MethodDeclaration SimpleName get dom extensions
+static Modifier MethodDeclaration Block ReturnStatement SimpleName extensions
+synchronized Modifier MethodDeclaration SimpleType SimpleName list
+synchronized Modifier MethodDeclaration SimpleName get dom extensions
+synchronized Modifier MethodDeclaration Block ReturnStatement SimpleName extensions
+list SimpleName SimpleType MethodDeclaration SimpleName get dom extensions
+get dom extensions SimpleName MethodDeclaration Block ReturnStatement SimpleName extensions
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get dom extensions
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get dom extensions

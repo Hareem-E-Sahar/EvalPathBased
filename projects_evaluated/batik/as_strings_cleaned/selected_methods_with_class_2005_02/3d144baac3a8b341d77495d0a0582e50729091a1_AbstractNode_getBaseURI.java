@@ -1,0 +1,27 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+abstract node SimpleName SimpleType CastExpression SimpleName n
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get base uri
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get base uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get base uri
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+string SimpleName SimpleType MethodDeclaration SimpleName get base uri
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get base uri SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get base uri SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get base uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get base uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

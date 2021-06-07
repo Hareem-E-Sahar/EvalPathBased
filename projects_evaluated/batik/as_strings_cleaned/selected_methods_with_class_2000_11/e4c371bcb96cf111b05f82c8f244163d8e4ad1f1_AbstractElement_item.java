@@ -1,0 +1,68 @@
+int PrimitiveType SingleVariableDeclaration SimpleName index
+table SimpleName MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName table
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName table
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+index SimpleName InfixExpression SimpleName i
+table SimpleName MethodInvocation SimpleName item
+table SimpleName MethodInvocation SimpleName index
+item SimpleName MethodInvocation SimpleName index
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName table
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName index
+index SimpleName Assignment SimpleName i
+k SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName k
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+table ns SimpleName MethodInvocation SimpleName size
+k SimpleName InfixExpression MethodInvocation SimpleName table ns
+k SimpleName InfixExpression MethodInvocation SimpleName size
+table ns SimpleName MethodInvocation SimpleName item
+table ns SimpleName MethodInvocation SimpleName k
+item SimpleName MethodInvocation SimpleName k
+named node hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName table ns
+named node hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+named node hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName k
+hm SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName named node hash map
+hm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName table ns
+hm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+hm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName k
+named node hash map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hm
+hm SimpleName MethodInvocation SimpleName get length
+i SimpleName Assignment MethodInvocation SimpleName hm
+i SimpleName Assignment MethodInvocation SimpleName get length
+index SimpleName InfixExpression SimpleName i
+hm SimpleName MethodInvocation SimpleName item
+hm SimpleName MethodInvocation SimpleName index
+item SimpleName MethodInvocation SimpleName index
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName hm
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+node SimpleName SimpleType CastExpression MethodInvocation SimpleName index
+index SimpleName Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName k
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName k
+k SimpleName InfixExpression ForStatement PostfixExpression SimpleName k
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName item
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+node SimpleName SimpleType MethodDeclaration SimpleName item
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName index
+item SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+item SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index

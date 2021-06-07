@@ -1,0 +1,37 @@
+int PrimitiveType SingleVariableDeclaration SimpleName index
+index SimpleName InfixExpression SimpleName count
+index SimpleName InfixExpression NumberLiteral empty
+index SimpleName InfixExpression InfixExpression InfixExpression SimpleName index
+index SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+count SimpleName InfixExpression InfixExpression InfixExpression SimpleName index
+count SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+index StringLiteral InfixExpression SimpleName index
+index StringLiteral InfixExpression StringLiteral size
+index StringLiteral InfixExpression SimpleName count
+index SimpleName InfixExpression StringLiteral size
+index SimpleName InfixExpression SimpleName count
+size StringLiteral InfixExpression SimpleName count
+index out of bounds exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral index
+index out of bounds exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName index
+index out of bounds exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral size
+index out of bounds exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName count
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check range
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+void PrimitiveType MethodDeclaration SimpleName check range
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index
+check range SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+check range SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check range
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check range
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index

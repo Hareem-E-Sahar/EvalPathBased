@@ -1,0 +1,42 @@
+runnable SimpleName SimpleType SingleVariableDeclaration SimpleName r
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral runnable queue not started or has exited
+thread SimpleName MethodInvocation SimpleName current thread
+runnable queue thread SimpleName InfixExpression MethodInvocation SimpleName thread
+runnable queue thread SimpleName InfixExpression MethodInvocation SimpleName current thread
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral cannot be called from the runnable queue thread
+lockable link SimpleName SimpleType ClassInstanceCreation SimpleName r
+l SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName lockable link
+l SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName r
+lockable link SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+list SimpleName MethodInvocation SimpleName unpop
+list SimpleName MethodInvocation SimpleName l
+unpop SimpleName MethodInvocation SimpleName l
+list SimpleName MethodInvocation SimpleName notify
+l SimpleName MethodInvocation SimpleName lock
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName preempt and wait
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName list
+void PrimitiveType MethodDeclaration SimpleName preempt and wait
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName list
+preempt and wait SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName runnable
+preempt and wait SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+preempt and wait SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+preempt and wait SimpleName MethodDeclaration Block SynchronizedStatement SimpleName list
+r SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName preempt and wait
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName preempt and wait
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

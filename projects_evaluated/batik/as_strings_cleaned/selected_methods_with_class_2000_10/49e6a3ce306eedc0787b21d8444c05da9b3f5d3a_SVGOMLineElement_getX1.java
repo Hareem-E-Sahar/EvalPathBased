@@ -1,0 +1,25 @@
+svg animated length SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+x reference SimpleName MethodInvocation SimpleName get
+svg animated length SimpleName SimpleType CastExpression MethodInvocation SimpleName x reference
+svg animated length SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+result SimpleName Assignment CastExpression SimpleType SimpleName svg animated length
+result SimpleName Assignment CastExpression MethodInvocation SimpleName x reference
+result SimpleName Assignment CastExpression MethodInvocation SimpleName get
+svgom animated length SimpleName SimpleType ClassInstanceCreation StringLiteral x
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svgom animated length
+result SimpleName Assignment ClassInstanceCreation StringLiteral x
+weak reference SimpleName SimpleType ClassInstanceCreation SimpleName result
+x reference SimpleName Assignment ClassInstanceCreation SimpleType SimpleName weak reference
+x reference SimpleName Assignment ClassInstanceCreation SimpleName result
+public Modifier MethodDeclaration SimpleType SimpleName svg animated length
+public Modifier MethodDeclaration SimpleName get x
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+svg animated length SimpleName SimpleType MethodDeclaration SimpleName get x
+get x SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated length
+public Modifier TypeDeclaration MethodDeclaration SimpleName get x
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated length
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get x

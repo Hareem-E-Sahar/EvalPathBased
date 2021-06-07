@@ -1,0 +1,36 @@
+render context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+graphics node render context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn ctx
+ctx SimpleName InstanceofExpression SimpleType SimpleName graphics node render context
+graphics node render context SimpleName SimpleType CastExpression SimpleName ctx
+gn ctx SimpleName Assignment CastExpression SimpleType SimpleName graphics node render context
+gn ctx SimpleName Assignment CastExpression SimpleName ctx
+graphics node render context SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+gn ctx SimpleName Assignment ClassInstanceCreation SimpleType SimpleName graphics node render context
+gn ctx SimpleName Assignment ClassInstanceCreation SimpleName ctx
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName graphics node render context
+public Modifier MethodDeclaration SimpleName get graphics node render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration Block ReturnStatement SimpleName gn ctx
+static Modifier MethodDeclaration SimpleType SimpleName graphics node render context
+static Modifier MethodDeclaration SimpleName get graphics node render context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration Block ReturnStatement SimpleName gn ctx
+graphics node render context SimpleName SimpleType MethodDeclaration SimpleName get graphics node render context
+graphics node render context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+get graphics node render context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+get graphics node render context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+get graphics node render context SimpleName MethodDeclaration Block ReturnStatement SimpleName gn ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node render context
+public Modifier TypeDeclaration MethodDeclaration SimpleName get graphics node render context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node render context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get graphics node render context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

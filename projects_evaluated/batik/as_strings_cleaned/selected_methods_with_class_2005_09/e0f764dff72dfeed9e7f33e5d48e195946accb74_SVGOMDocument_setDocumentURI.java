@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+document uri SimpleName Assignment SimpleName uri
+url SimpleName SimpleType ClassInstanceCreation SimpleName uri
+uri SimpleName InfixExpression ConditionalExpression ClassInstanceCreation SimpleName uri
+url SimpleName Assignment ConditionalExpression InfixExpression SimpleName uri
+url SimpleName Assignment ConditionalExpression ClassInstanceCreation SimpleName uri
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set document uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+void PrimitiveType MethodDeclaration SimpleName set document uri
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName uri
+set document uri SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set document uri SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set document uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set document uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri

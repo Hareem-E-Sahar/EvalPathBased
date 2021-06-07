@@ -1,0 +1,30 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName shadow
+content manager SimpleName SimpleType SingleVariableDeclaration SimpleName cm
+content managers SimpleName MethodInvocation SimpleName remove
+content managers SimpleName MethodInvocation SimpleName shadow
+remove SimpleName MethodInvocation SimpleName shadow
+content managers SimpleName MethodInvocation SimpleName put
+content managers SimpleName MethodInvocation SimpleName shadow
+content managers SimpleName MethodInvocation SimpleName cm
+put SimpleName MethodInvocation SimpleName shadow
+put SimpleName MethodInvocation SimpleName cm
+shadow SimpleName MethodInvocation SimpleName cm
+void PrimitiveType MethodDeclaration SimpleName set content manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shadow
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName cm
+set content manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+set content manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shadow
+set content manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content manager
+set content manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cm
+shadow SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cm
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set content manager
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shadow
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cm
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set content manager
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shadow
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cm

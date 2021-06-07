@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName event name
+event name SimpleName MethodInvocation SimpleName equals
+event name SimpleName MethodInvocation StringLiteral focusin
+equals SimpleName MethodInvocation StringLiteral focusin
+event name SimpleName MethodInvocation SimpleName equals
+event name SimpleName MethodInvocation StringLiteral focusout
+equals SimpleName MethodInvocation StringLiteral focusout
+event name SimpleName MethodInvocation SimpleName equals
+event name SimpleName MethodInvocation StringLiteral activate
+equals SimpleName MethodInvocation StringLiteral activate
+animation event names SimpleName MethodInvocation SimpleName contains
+animation event names SimpleName MethodInvocation SimpleName event name
+contains SimpleName MethodInvocation SimpleName event name
+animation event names SimpleName MethodInvocation SimpleName contains
+animation event names SimpleName MethodInvocation SimpleName event name
+contains SimpleName MethodInvocation SimpleName event name
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get event type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName event name
+protected Modifier MethodDeclaration Block IfStatement SimpleName is svg
+string SimpleName SimpleType MethodDeclaration SimpleName get event type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName event name
+get event type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get event type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event name
+get event type SimpleName MethodDeclaration Block IfStatement SimpleName is svg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get event type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get event type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event name

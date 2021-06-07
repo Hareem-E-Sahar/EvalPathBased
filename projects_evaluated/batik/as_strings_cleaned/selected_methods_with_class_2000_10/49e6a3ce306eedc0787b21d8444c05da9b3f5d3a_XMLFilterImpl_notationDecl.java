@@ -1,0 +1,57 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName public id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName system id
+dtd handler SimpleName MethodInvocation SimpleName notation decl
+dtd handler SimpleName MethodInvocation SimpleName name
+dtd handler SimpleName MethodInvocation SimpleName public id
+dtd handler SimpleName MethodInvocation SimpleName system id
+notation decl SimpleName MethodInvocation SimpleName name
+notation decl SimpleName MethodInvocation SimpleName public id
+notation decl SimpleName MethodInvocation SimpleName system id
+name SimpleName MethodInvocation SimpleName public id
+name SimpleName MethodInvocation SimpleName system id
+public id SimpleName MethodInvocation SimpleName system id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName notation decl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName public id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName system id
+void PrimitiveType MethodDeclaration SimpleName notation decl
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName public id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName system id
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax exception
+notation decl SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+notation decl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+notation decl SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+notation decl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName public id
+notation decl SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+notation decl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName system id
+notation decl SimpleName MethodDeclaration SimpleType SimpleName sax exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName public id
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+public id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+public id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+system id SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName notation decl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName public id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName notation decl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName public id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

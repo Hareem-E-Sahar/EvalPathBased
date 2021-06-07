@@ -1,0 +1,48 @@
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+node style map SimpleName MethodInvocation SimpleName get
+node style map SimpleName MethodInvocation SimpleName node
+get SimpleName MethodInvocation SimpleName node
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName node style map
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName node
+styles SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+styles SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName node style map
+styles SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+styles SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName node
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName styles
+node style map SimpleName MethodInvocation SimpleName remove
+node style map SimpleName MethodInvocation SimpleName node
+remove SimpleName MethodInvocation SimpleName node
+styles SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName styles
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+style SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+style SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName it
+style SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName style
+remove style reference SimpleName MethodInvocation SimpleName node
+remove style reference SimpleName MethodInvocation SimpleName style
+node SimpleName MethodInvocation SimpleName style
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName remove style references
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleName remove style references
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+remove style references SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+remove style references SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove style references
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove style references
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

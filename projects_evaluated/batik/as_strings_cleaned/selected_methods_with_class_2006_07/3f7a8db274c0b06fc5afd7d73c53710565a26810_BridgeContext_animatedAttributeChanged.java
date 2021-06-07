@@ -1,0 +1,40 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+animated live attribute value SimpleName SimpleType SingleVariableDeclaration SimpleName alav
+get bridge update handler SimpleName MethodInvocation SimpleName e
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bridge update handler
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+bridge update handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+h SimpleName MethodInvocation SimpleName handle animated attribute changed
+h SimpleName MethodInvocation SimpleName alav
+handle animated attribute changed SimpleName MethodInvocation SimpleName alav
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName ex
+display error SimpleName MethodInvocation SimpleName ex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName animated attribute changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animated live attribute value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName alav
+void PrimitiveType MethodDeclaration SimpleName animated attribute changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animated live attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName alav
+animated attribute changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+animated attribute changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+animated attribute changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animated live attribute value
+animated attribute changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName alav
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alav
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName animated attribute changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alav
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName animated attribute changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alav

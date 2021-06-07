@@ -1,0 +1,120 @@
+context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+scriptable SimpleName SimpleType SingleVariableDeclaration SimpleName scope
+scriptable SimpleName SimpleType SingleVariableDeclaration SimpleName this obj
+object SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+native java object SimpleName SimpleType CastExpression SimpleName this obj
+njo SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName native java object
+njo SimpleName VariableDeclarationFragment CastExpression SimpleName this obj
+native java object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName njo
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess InstanceofExpression SimpleType SimpleName native object
+empty NumberLiteral ArrayAccess InstanceofExpression SimpleType SimpleName native object
+args SimpleName ArrayAccess NumberLiteral empty
+native object SimpleName SimpleType CastExpression ArrayAccess SimpleName args
+native object SimpleName SimpleType CastExpression ArrayAccess NumberLiteral empty
+object custom event SimpleName SimpleType ClassInstanceCreation SimpleName interpreter
+object custom event SimpleName SimpleType ClassInstanceCreation SimpleName event map
+native object SimpleName SimpleType CastExpression ClassInstanceCreation SimpleName interpreter
+args SimpleName ArrayAccess CastExpression ClassInstanceCreation SimpleName interpreter
+empty NumberLiteral ArrayAccess CastExpression ClassInstanceCreation SimpleName interpreter
+native object SimpleName SimpleType CastExpression ClassInstanceCreation SimpleName event map
+args SimpleName ArrayAccess CastExpression ClassInstanceCreation SimpleName event map
+empty NumberLiteral ArrayAccess CastExpression ClassInstanceCreation SimpleName event map
+interpreter SimpleName ClassInstanceCreation SimpleName event map
+evt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName object custom event
+evt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName interpreter
+evt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName event map
+event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName evt
+args SimpleName ArrayAccess NumberLiteral empty
+soft reference SimpleName SimpleType ClassInstanceCreation SimpleName evt
+event map SimpleName MethodInvocation SimpleName put
+event map SimpleName MethodInvocation ArrayAccess SimpleName args
+event map SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+event map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+event map SimpleName MethodInvocation ClassInstanceCreation SimpleName evt
+put SimpleName MethodInvocation ArrayAccess SimpleName args
+put SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName evt
+args SimpleName ArrayAccess MethodInvocation ClassInstanceCreation SimpleName evt
+empty NumberLiteral ArrayAccess MethodInvocation ClassInstanceCreation SimpleName evt
+args SimpleName ArrayAccess NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation SimpleName to type
+context SimpleName MethodInvocation ArrayAccess SimpleName args
+context SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+context SimpleName MethodInvocation TypeLiteral SimpleType SimpleName scriptable
+to type SimpleName MethodInvocation ArrayAccess SimpleName args
+to type SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+to type SimpleName MethodInvocation TypeLiteral SimpleType SimpleName scriptable
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName context
+args SimpleName ArrayAccess Assignment MethodInvocation SimpleName to type
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName context
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName to type
+njo SimpleName MethodInvocation SimpleName unwrap
+event target SimpleName SimpleType CastExpression MethodInvocation SimpleName njo
+event target SimpleName SimpleType CastExpression MethodInvocation SimpleName unwrap
+dispatch event SimpleName MethodInvocation SimpleName evt
+delegate SimpleName MethodInvocation SimpleName call
+delegate SimpleName MethodInvocation SimpleName ctx
+delegate SimpleName MethodInvocation SimpleName scope
+delegate SimpleName MethodInvocation SimpleName this obj
+delegate SimpleName MethodInvocation SimpleName args
+call SimpleName MethodInvocation SimpleName ctx
+call SimpleName MethodInvocation SimpleName scope
+call SimpleName MethodInvocation SimpleName this obj
+call SimpleName MethodInvocation SimpleName args
+ctx SimpleName MethodInvocation SimpleName scope
+ctx SimpleName MethodInvocation SimpleName this obj
+ctx SimpleName MethodInvocation SimpleName args
+scope SimpleName MethodInvocation SimpleName this obj
+scope SimpleName MethodInvocation SimpleName args
+this obj SimpleName MethodInvocation SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName call
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scriptable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName scope
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scriptable
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName this obj
+object SimpleName SimpleType MethodDeclaration SimpleName call
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName scope
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName this obj
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName context
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scriptable
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleName scope
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scriptable
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleName this obj
+call SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+call SimpleName MethodDeclaration SimpleType SimpleName java script exception
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scope
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName this obj
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName java script exception
+scope SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName this obj
+scope SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+scope SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName java script exception
+this obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+this obj SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName java script exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName java script exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName call
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scope
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName this obj
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName java script exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName scope
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName this obj
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName java script exception

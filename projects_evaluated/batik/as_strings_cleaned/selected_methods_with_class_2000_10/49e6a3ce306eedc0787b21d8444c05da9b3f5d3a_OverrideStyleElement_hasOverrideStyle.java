@@ -1,0 +1,13 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pseudo elt
+boolean PrimitiveType MethodDeclaration SimpleName has override style
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+has override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+has override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has override style
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has override style
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt

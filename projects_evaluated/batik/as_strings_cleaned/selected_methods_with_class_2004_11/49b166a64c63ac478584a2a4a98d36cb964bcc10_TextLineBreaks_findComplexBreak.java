@@ -1,0 +1,51 @@
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName aci
+cnt SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cnt
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+aci SimpleName MethodInvocation SimpleName current
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+ch SimpleName VariableDeclarationFragment MethodInvocation SimpleName current
+char PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName ch
+char PrimitiveType VariableDeclarationExpression VariableDeclarationFragment MethodInvocation SimpleName aci
+char PrimitiveType VariableDeclarationExpression VariableDeclarationFragment MethodInvocation SimpleName current
+ch SimpleName InfixExpression QualifiedName attributed character iteratordone
+aci SimpleName MethodInvocation SimpleName next
+ch SimpleName Assignment MethodInvocation SimpleName aci
+ch SimpleName Assignment MethodInvocation SimpleName next
+get char char class SimpleName MethodInvocation SimpleName ch
+get char char class SimpleName MethodInvocation InfixExpression SimpleName char class sa
+ch SimpleName MethodInvocation InfixExpression SimpleName char class sa
+char PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName ch
+char PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName attributed character iteratordone
+char PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName ch
+char PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName cnt
+ch SimpleName InfixExpression ForStatement Assignment SimpleName ch
+attributed character iteratordone QualifiedName InfixExpression ForStatement Assignment SimpleName ch
+ch SimpleName InfixExpression ForStatement PostfixExpression SimpleName cnt
+attributed character iteratordone QualifiedName InfixExpression ForStatement PostfixExpression SimpleName cnt
+ch SimpleName Assignment ForStatement PostfixExpression SimpleName cnt
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName cnt
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName find complex break
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName aci
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName cnt
+int PrimitiveType MethodDeclaration SimpleName find complex break
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName aci
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName cnt
+find complex break SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+find complex break SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aci
+find complex break SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+find complex break SimpleName MethodDeclaration Block ReturnStatement SimpleName cnt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName find complex break
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName find complex break
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci

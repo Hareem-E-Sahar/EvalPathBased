@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType QualifiedName orgapachebatikw cdomwindow
+public Modifier MethodDeclaration SimpleName get parent
+orgapachebatikw cdomwindow QualifiedName SimpleType MethodDeclaration SimpleName get parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapachebatikw cdomwindow
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parent
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName orgapachebatikw cdomwindow
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parent

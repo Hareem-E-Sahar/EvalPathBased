@@ -1,0 +1,24 @@
+document type SimpleName SimpleType SingleVariableDeclaration SimpleName dt
+append child SimpleName MethodInvocation SimpleName dt
+extended node SimpleName SimpleType CastExpression SimpleName dt
+dt SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set readonly
+dt SimpleName CastExpression ParenthesizedExpression MethodInvocation BooleanLiteral true
+set readonly SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set doctype
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dt
+void PrimitiveType MethodDeclaration SimpleName set doctype
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dt
+set doctype SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document type
+set doctype SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set doctype
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set doctype
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dt

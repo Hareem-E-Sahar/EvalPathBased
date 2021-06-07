@@ -1,0 +1,20 @@
+indefinite timing specifier SimpleName SimpleType ClassInstanceCreation SimpleName owner
+indefinite timing specifier SimpleName SimpleType ClassInstanceCreation SimpleName is begin
+owner SimpleName ClassInstanceCreation SimpleName is begin
+ts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName indefinite timing specifier
+ts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName owner
+ts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName is begin
+timing specifier SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ts
+timing specifiers SimpleName MethodInvocation SimpleName add
+timing specifiers SimpleName MethodInvocation SimpleName ts
+add SimpleName MethodInvocation SimpleName ts
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName indefinite
+void PrimitiveType MethodDeclaration SimpleName indefinite
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName indefinite
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName indefinite

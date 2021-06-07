@@ -1,0 +1,68 @@
+graphics SimpleName SimpleType SingleVariableDeclaration SimpleName g
+paint component SimpleName SuperMethodInvocation SimpleName g
+graphics d SimpleName SimpleType CastExpression SimpleName g
+g d SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName graphics d
+g d SimpleName VariableDeclarationFragment CastExpression SimpleName g
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g d
+vis rect SimpleName VariableDeclarationFragment MethodInvocation SimpleName get render rect
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vis rect
+g d SimpleName MethodInvocation SimpleName set composite
+g d SimpleName MethodInvocation QualifiedName alpha compositesrc over
+set composite SimpleName MethodInvocation QualifiedName alpha compositesrc over
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation MethodInvocation SimpleName get background
+set paint SimpleName MethodInvocation MethodInvocation SimpleName get background
+g d SimpleName MethodInvocation SimpleName fill rect
+g d SimpleName MethodInvocation QualifiedName vis rectx
+g d SimpleName MethodInvocation QualifiedName vis recty
+g d SimpleName MethodInvocation QualifiedName vis rectwidth
+g d SimpleName MethodInvocation QualifiedName vis rectheight
+fill rect SimpleName MethodInvocation QualifiedName vis rectx
+fill rect SimpleName MethodInvocation QualifiedName vis recty
+fill rect SimpleName MethodInvocation QualifiedName vis rectwidth
+fill rect SimpleName MethodInvocation QualifiedName vis rectheight
+vis rectx QualifiedName MethodInvocation QualifiedName vis recty
+vis rectx QualifiedName MethodInvocation QualifiedName vis rectwidth
+vis rectx QualifiedName MethodInvocation QualifiedName vis rectheight
+vis recty QualifiedName MethodInvocation QualifiedName vis rectwidth
+vis recty QualifiedName MethodInvocation QualifiedName vis rectheight
+vis rectwidth QualifiedName MethodInvocation QualifiedName vis rectheight
+g d SimpleName MethodInvocation SimpleName transform
+g d SimpleName MethodInvocation SimpleName painting transform
+transform SimpleName MethodInvocation SimpleName painting transform
+g d SimpleName MethodInvocation SimpleName draw rendered image
+g d SimpleName MethodInvocation SimpleName image
+draw rendered image SimpleName MethodInvocation SimpleName image
+g d SimpleName MethodInvocation SimpleName set rendering hint
+g d SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+g d SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias off
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias off
+rendering hintskey antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue antialias off
+overlays SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName overlays
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+overlay SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+overlay SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+paint SimpleName MethodInvocation SimpleName g
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName paint component
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName g
+void PrimitiveType MethodDeclaration SimpleName paint component
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName g
+paint component SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+paint component SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName paint component
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName paint component
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g

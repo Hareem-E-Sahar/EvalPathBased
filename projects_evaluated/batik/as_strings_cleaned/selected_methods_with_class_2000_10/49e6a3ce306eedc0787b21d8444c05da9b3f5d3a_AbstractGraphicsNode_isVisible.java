@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is visible
+public Modifier MethodDeclaration Block ReturnStatement SimpleName is visible
+boolean PrimitiveType MethodDeclaration SimpleName is visible
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName is visible
+is visible SimpleName MethodDeclaration Block ReturnStatement SimpleName is visible
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is visible
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is visible

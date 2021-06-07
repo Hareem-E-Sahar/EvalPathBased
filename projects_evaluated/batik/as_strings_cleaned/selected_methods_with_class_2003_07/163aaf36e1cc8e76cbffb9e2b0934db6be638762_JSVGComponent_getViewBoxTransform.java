@@ -1,0 +1,27 @@
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rendering transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+at SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+affine transform SimpleName SimpleType ClassInstanceCreation SimpleName at
+at SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+at SimpleName Assignment ClassInstanceCreation SimpleName at
+cgn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get canvas graphics node
+canvas graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cgn
+cgn SimpleName MethodInvocation SimpleName get viewing transform
+v at SimpleName VariableDeclarationFragment MethodInvocation SimpleName cgn
+v at SimpleName VariableDeclarationFragment MethodInvocation SimpleName get viewing transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v at
+at SimpleName MethodInvocation SimpleName concatenate
+at SimpleName MethodInvocation SimpleName v at
+concatenate SimpleName MethodInvocation SimpleName v at
+public Modifier MethodDeclaration SimpleType SimpleName affine transform
+public Modifier MethodDeclaration SimpleName get view box transform
+public Modifier MethodDeclaration Block ReturnStatement SimpleName at
+affine transform SimpleName SimpleType MethodDeclaration SimpleName get view box transform
+get view box transform SimpleName MethodDeclaration Block ReturnStatement SimpleName at
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName affine transform
+public Modifier TypeDeclaration MethodDeclaration SimpleName get view box transform
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName affine transform
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get view box transform

@@ -1,0 +1,16 @@
+svg animation context SimpleName SimpleType CastExpression MethodInvocation SimpleName get svg context
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName end element
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+boolean PrimitiveType MethodDeclaration SimpleName end element
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+end element SimpleName MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName end element
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName end element
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

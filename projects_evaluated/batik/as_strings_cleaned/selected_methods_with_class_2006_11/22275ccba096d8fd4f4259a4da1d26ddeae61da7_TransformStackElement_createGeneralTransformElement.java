@@ -1,0 +1,64 @@
+affine transform SimpleName SimpleType SingleVariableDeclaration SimpleName txf
+double PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+matrix SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType double
+matrix SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName matrix
+txf SimpleName MethodInvocation SimpleName get matrix
+txf SimpleName MethodInvocation SimpleName matrix
+get matrix SimpleName MethodInvocation SimpleName matrix
+double PrimitiveType ArrayType SingleVariableDeclaration SimpleName m
+m SimpleName ArrayAccess NumberLiteral empty
+m SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+m SimpleName ArrayAccess NumberLiteral empty
+m SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+m SimpleName ArrayAccess NumberLiteral empty
+m SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+m SimpleName ArrayAccess NumberLiteral empty
+m SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+m SimpleName ArrayAccess NumberLiteral empty
+m SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+m SimpleName ArrayAccess NumberLiteral empty
+m SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+boolean PrimitiveType MethodDeclaration SimpleName is identity
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+is identity SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+is identity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+transform stack element SimpleName SimpleType ClassInstanceCreation QualifiedName transform typegeneral
+transform stack element SimpleName SimpleType ClassInstanceCreation SimpleName matrix
+transform typegeneral QualifiedName ClassInstanceCreation SimpleName matrix
+transform typegeneral QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+transform typegeneral QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName is identity
+matrix SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType boolean
+matrix SimpleName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName is identity
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName transform stack element
+public Modifier MethodDeclaration SimpleName create general transform element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName txf
+static Modifier MethodDeclaration SimpleType SimpleName transform stack element
+static Modifier MethodDeclaration SimpleName create general transform element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName txf
+transform stack element SimpleName SimpleType MethodDeclaration SimpleName create general transform element
+transform stack element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName txf
+create general transform element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+create general transform element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName txf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName transform stack element
+public Modifier TypeDeclaration MethodDeclaration SimpleName create general transform element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txf
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName transform stack element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create general transform element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txf

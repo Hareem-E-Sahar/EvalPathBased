@@ -1,0 +1,17 @@
+get attribute ns SimpleName MethodInvocation StringLiteral element
+qname SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+qname SimpleName VariableDeclarationFragment MethodInvocation StringLiteral element
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName qname
+dom utilities SimpleName MethodInvocation SimpleName get local name
+dom utilities SimpleName MethodInvocation SimpleName qname
+get local name SimpleName MethodInvocation SimpleName qname
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get element local name
+string SimpleName SimpleType MethodDeclaration SimpleName get element local name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get element local name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get element local name

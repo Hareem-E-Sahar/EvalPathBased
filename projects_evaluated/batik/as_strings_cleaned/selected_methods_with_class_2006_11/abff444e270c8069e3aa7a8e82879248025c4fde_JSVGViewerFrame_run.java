@@ -1,0 +1,102 @@
+char PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buffer SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType char
+buffer SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+doc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName plain document
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+svg document SimpleName MethodInvocation SimpleName get url
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName svg document
+parsed url SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get url
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName parsed url
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName svg document
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get url
+parsed url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName purl
+get input handler SimpleName MethodInvocation SimpleName purl
+get input handler SimpleName MethodInvocation MethodInvocation SimpleName get handled mime types
+purl SimpleName MethodInvocation MethodInvocation SimpleName get handled mime types
+u SimpleName MethodInvocation SimpleName open stream
+u SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get input handler
+u SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName purl
+u SimpleName MethodInvocation MethodInvocation SimpleName get handled mime types
+open stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get input handler
+open stream SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName purl
+open stream SimpleName MethodInvocation MethodInvocation SimpleName get handled mime types
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName u
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName open stream
+is SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get handled mime types
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+xml utilities SimpleName MethodInvocation SimpleName create xml document reader
+xml utilities SimpleName MethodInvocation SimpleName is
+create xml document reader SimpleName MethodInvocation SimpleName is
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName xml utilities
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName create xml document reader
+in SimpleName VariableDeclarationFragment MethodInvocation SimpleName is
+reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName in
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+in SimpleName MethodInvocation SimpleName read
+in SimpleName MethodInvocation SimpleName buffer
+in SimpleName MethodInvocation NumberLiteral empty
+in SimpleName MethodInvocation QualifiedName bufferlength
+read SimpleName MethodInvocation SimpleName buffer
+read SimpleName MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation QualifiedName bufferlength
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation QualifiedName bufferlength
+empty NumberLiteral MethodInvocation QualifiedName bufferlength
+len SimpleName Assignment MethodInvocation SimpleName in
+len SimpleName Assignment MethodInvocation SimpleName read
+len SimpleName Assignment MethodInvocation SimpleName buffer
+len SimpleName Assignment MethodInvocation NumberLiteral empty
+len SimpleName Assignment MethodInvocation QualifiedName bufferlength
+doc SimpleName MethodInvocation SimpleName get length
+string SimpleName SimpleType ClassInstanceCreation SimpleName buffer
+string SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+string SimpleName SimpleType ClassInstanceCreation SimpleName len
+buffer SimpleName ClassInstanceCreation NumberLiteral empty
+buffer SimpleName ClassInstanceCreation SimpleName len
+empty NumberLiteral ClassInstanceCreation SimpleName len
+doc SimpleName MethodInvocation SimpleName insert string
+doc SimpleName MethodInvocation MethodInvocation SimpleName doc
+doc SimpleName MethodInvocation MethodInvocation SimpleName get length
+doc SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+doc SimpleName MethodInvocation ClassInstanceCreation SimpleName buffer
+doc SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+doc SimpleName MethodInvocation ClassInstanceCreation SimpleName len
+insert string SimpleName MethodInvocation MethodInvocation SimpleName doc
+insert string SimpleName MethodInvocation MethodInvocation SimpleName get length
+insert string SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string
+insert string SimpleName MethodInvocation ClassInstanceCreation SimpleName buffer
+insert string SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+insert string SimpleName MethodInvocation ClassInstanceCreation SimpleName len
+doc SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName buffer
+doc SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral empty
+doc SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName len
+get length SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName buffer
+get length SimpleName MethodInvocation MethodInvocation ClassInstanceCreation NumberLiteral empty
+get length SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName len
+ta SimpleName MethodInvocation SimpleName set document
+ta SimpleName MethodInvocation SimpleName doc
+set document SimpleName MethodInvocation SimpleName doc
+ta SimpleName MethodInvocation SimpleName set editable
+ta SimpleName MethodInvocation BooleanLiteral false
+set editable SimpleName MethodInvocation BooleanLiteral false
+ta SimpleName MethodInvocation SimpleName set background
+ta SimpleName MethodInvocation QualifiedName colorwhite
+set background SimpleName MethodInvocation QualifiedName colorwhite
+fr SimpleName MethodInvocation SimpleName set visible
+fr SimpleName MethodInvocation BooleanLiteral true
+set visible SimpleName MethodInvocation BooleanLiteral true
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName ex
+display error SimpleName MethodInvocation SimpleName ex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

@@ -1,0 +1,70 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elem
+elem SimpleName MethodInvocation SimpleName get namespace uri
+e ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName elem
+e ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e ns
+e ns SimpleName MethodInvocation SimpleName equals
+e ns SimpleName MethodInvocation SimpleName svg namespace uri
+equals SimpleName MethodInvocation SimpleName svg namespace uri
+elem SimpleName MethodInvocation SimpleName get local name
+node name SimpleName VariableDeclarationFragment MethodInvocation SimpleName elem
+node name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node name
+node name SimpleName MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation QualifiedName svg constantssvg flow div tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg flow div tag
+node name SimpleName MethodInvocation IfStatement ReturnStatement SimpleName elem
+equals SimpleName MethodInvocation IfStatement ReturnStatement SimpleName elem
+svg constantssvg flow div tag QualifiedName MethodInvocation IfStatement ReturnStatement SimpleName elem
+node name SimpleName MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation QualifiedName svg constantssvg flow root tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg flow root tag
+get first child SimpleName MethodInvocation SimpleName elem
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName elem
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+get next sibling SimpleName MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+n SimpleName MethodInvocation SimpleName get namespace uri
+n ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+n ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n ns
+svg namespace uri SimpleName MethodInvocation SimpleName equals
+svg namespace uri SimpleName MethodInvocation SimpleName n ns
+equals SimpleName MethodInvocation SimpleName n ns
+element SimpleName SimpleType CastExpression SimpleName n
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+e SimpleName VariableDeclarationFragment CastExpression SimpleName n
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get local name
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg flow div tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg flow div tag
+ln SimpleName MethodInvocation IfStatement ReturnStatement SimpleName e
+equals SimpleName MethodInvocation IfStatement ReturnStatement SimpleName e
+svg constantssvg flow div tag QualifiedName MethodInvocation IfStatement ReturnStatement SimpleName e
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+protected Modifier MethodDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SimpleName get flow div element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName elem
+element SimpleName SimpleType MethodDeclaration SimpleName get flow div element
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elem
+get flow div element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get flow div element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elem
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get flow div element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get flow div element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elem

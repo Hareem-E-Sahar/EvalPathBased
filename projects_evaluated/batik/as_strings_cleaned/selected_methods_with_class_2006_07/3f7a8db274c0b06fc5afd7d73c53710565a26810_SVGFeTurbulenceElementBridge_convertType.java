@@ -1,0 +1,67 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+e SimpleName MethodInvocation SimpleName get attribute ns
+e SimpleName MethodInvocation SimpleName svg type attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg type attribute
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg type attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+svg fractal noise value SimpleName MethodInvocation SimpleName equals
+svg fractal noise value SimpleName MethodInvocation SimpleName s
+equals SimpleName MethodInvocation SimpleName s
+svg turbulence value SimpleName MethodInvocation SimpleName equals
+svg turbulence value SimpleName MethodInvocation SimpleName s
+equals SimpleName MethodInvocation SimpleName s
+svg type attribute SimpleName ArrayInitializer SimpleName s
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err attribute value malformed
+ctx SimpleName ClassInstanceCreation SimpleName e
+ctx SimpleName ClassInstanceCreation SimpleName err attribute value malformed
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg type attribute
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName s
+e SimpleName ClassInstanceCreation SimpleName err attribute value malformed
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg type attribute
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName s
+err attribute value malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg type attribute
+err attribute value malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName s
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName convert type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName convert type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+boolean PrimitiveType MethodDeclaration SimpleName convert type
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+convert type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+convert type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

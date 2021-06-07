@@ -1,0 +1,24 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+element node map SimpleName MethodInvocation SimpleName get
+element node map SimpleName MethodInvocation SimpleName element
+get SimpleName MethodInvocation SimpleName element
+graphics node SimpleName SimpleType CastExpression MethodInvocation SimpleName element node map
+graphics node SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+graphics node SimpleName SimpleType CastExpression MethodInvocation SimpleName element
+public Modifier MethodDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SimpleName get graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+graphics node SimpleName SimpleType MethodDeclaration SimpleName get graphics node
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+get graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get graphics node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get graphics node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

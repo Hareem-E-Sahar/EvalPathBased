@@ -1,0 +1,118 @@
+text node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName aci
+node SimpleName MethodInvocation SimpleName get text runs
+text runs SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+text runs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text runs
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text runs
+get text chunk ac is SimpleName MethodInvocation SimpleName aci
+chunk ac is SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text chunk ac is
+chunk ac is SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+compute text runs SimpleName MethodInvocation SimpleName node
+compute text runs SimpleName MethodInvocation SimpleName aci
+compute text runs SimpleName MethodInvocation SimpleName chunk ac is
+node SimpleName MethodInvocation SimpleName aci
+node SimpleName MethodInvocation SimpleName chunk ac is
+aci SimpleName MethodInvocation SimpleName chunk ac is
+text runs SimpleName Assignment MethodInvocation SimpleName compute text runs
+text runs SimpleName Assignment MethodInvocation SimpleName node
+text runs SimpleName Assignment MethodInvocation SimpleName aci
+text runs SimpleName Assignment MethodInvocation SimpleName chunk ac is
+aci SimpleName MethodInvocation SimpleName first
+aci SimpleName MethodInvocation SimpleName get attribute
+aci SimpleName MethodInvocation SimpleName flow regions
+get attribute SimpleName MethodInvocation SimpleName flow regions
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName aci
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+list SimpleName SimpleType CastExpression MethodInvocation SimpleName flow regions
+rgns SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+rgns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName aci
+rgns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+rgns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName flow regions
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rgns
+text runs SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName text runs
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+chunk layouts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName chunk layouts
+i SimpleName MethodInvocation SimpleName next
+text run SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+text run SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+tr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName text run
+tr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+tr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+text run SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tr
+layouts SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName layouts
+chunk layouts SimpleName MethodInvocation SimpleName add
+chunk layouts SimpleName MethodInvocation SimpleName layouts
+add SimpleName MethodInvocation SimpleName layouts
+tr SimpleName MethodInvocation SimpleName get layout
+layouts SimpleName MethodInvocation SimpleName add
+layouts SimpleName MethodInvocation MethodInvocation SimpleName tr
+layouts SimpleName MethodInvocation MethodInvocation SimpleName get layout
+add SimpleName MethodInvocation MethodInvocation SimpleName tr
+add SimpleName MethodInvocation MethodInvocation SimpleName get layout
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+text run SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+text run SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+tr SimpleName Assignment CastExpression SimpleType SimpleName text run
+tr SimpleName Assignment CastExpression MethodInvocation SimpleName i
+tr SimpleName Assignment CastExpression MethodInvocation SimpleName next
+tr SimpleName MethodInvocation SimpleName is first run in chunk
+layouts SimpleName Assignment ClassInstanceCreation SimpleType SimpleName array list
+chunk layouts SimpleName MethodInvocation SimpleName add
+chunk layouts SimpleName MethodInvocation SimpleName layouts
+add SimpleName MethodInvocation SimpleName layouts
+tr SimpleName MethodInvocation SimpleName get layout
+layouts SimpleName MethodInvocation SimpleName add
+layouts SimpleName MethodInvocation MethodInvocation SimpleName tr
+layouts SimpleName MethodInvocation MethodInvocation SimpleName get layout
+add SimpleName MethodInvocation MethodInvocation SimpleName tr
+add SimpleName MethodInvocation MethodInvocation SimpleName get layout
+flow glyph layout SimpleName MethodInvocation SimpleName text wrap text chunk
+flow glyph layout SimpleName MethodInvocation SimpleName chunk ac is
+flow glyph layout SimpleName MethodInvocation SimpleName chunk layouts
+flow glyph layout SimpleName MethodInvocation SimpleName rgns
+flow glyph layout SimpleName MethodInvocation SimpleName font render context
+text wrap text chunk SimpleName MethodInvocation SimpleName chunk ac is
+text wrap text chunk SimpleName MethodInvocation SimpleName chunk layouts
+text wrap text chunk SimpleName MethodInvocation SimpleName rgns
+text wrap text chunk SimpleName MethodInvocation SimpleName font render context
+chunk ac is SimpleName MethodInvocation SimpleName chunk layouts
+chunk ac is SimpleName MethodInvocation SimpleName rgns
+chunk ac is SimpleName MethodInvocation SimpleName font render context
+chunk layouts SimpleName MethodInvocation SimpleName rgns
+chunk layouts SimpleName MethodInvocation SimpleName font render context
+rgns SimpleName MethodInvocation SimpleName font render context
+node SimpleName MethodInvocation SimpleName set text runs
+node SimpleName MethodInvocation SimpleName text runs
+set text runs SimpleName MethodInvocation SimpleName text runs
+public Modifier MethodDeclaration SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName get text runs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName aci
+public Modifier MethodDeclaration Block ReturnStatement SimpleName text runs
+list SimpleName SimpleType MethodDeclaration SimpleName get text runs
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName aci
+get text runs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+get text runs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+get text runs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+get text runs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aci
+get text runs SimpleName MethodDeclaration Block ReturnStatement SimpleName text runs
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get text runs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get text runs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci

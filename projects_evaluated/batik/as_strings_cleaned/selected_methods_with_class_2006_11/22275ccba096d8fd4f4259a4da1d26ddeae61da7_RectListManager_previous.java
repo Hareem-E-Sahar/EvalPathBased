@@ -1,0 +1,15 @@
+idx SimpleName InfixExpression NumberLiteral empty
+no such element exception SimpleName SimpleType ClassInstanceCreation StringLiteral no previous element
+forward SimpleName Assignment BooleanLiteral false
+remove ok SimpleName Assignment BooleanLiteral true
+rects SimpleName ArrayAccess PrefixExpression SimpleName idx
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName previous
+object SimpleName SimpleType MethodDeclaration SimpleName previous
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName previous
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName previous

@@ -1,0 +1,32 @@
+context listener SimpleName SimpleType CastExpression SimpleName debugger frame
+context SimpleName MethodInvocation SimpleName remove context listener
+context SimpleName MethodInvocation CastExpression SimpleType SimpleName context listener
+context SimpleName MethodInvocation CastExpression SimpleName debugger frame
+remove context listener SimpleName MethodInvocation CastExpression SimpleType SimpleName context listener
+remove context listener SimpleName MethodInvocation CastExpression SimpleName debugger frame
+debugger frame SimpleName MethodInvocation SimpleName set visible
+debugger frame SimpleName MethodInvocation BooleanLiteral false
+set visible SimpleName MethodInvocation BooleanLiteral false
+clear all breakpoints SimpleName MethodInvocation SimpleName invoke
+clear all breakpoints SimpleName MethodInvocation SimpleName debugger frame
+invoke SimpleName MethodInvocation SimpleName debugger frame
+script go SimpleName MethodInvocation SimpleName invoke
+script go SimpleName MethodInvocation SimpleName debugger frame
+invoke SimpleName MethodInvocation SimpleName debugger frame
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName print stack trace
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName hide debugger
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName hide debugger
+void PrimitiveType MethodDeclaration SimpleName hide debugger
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName hide debugger
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName hide debugger

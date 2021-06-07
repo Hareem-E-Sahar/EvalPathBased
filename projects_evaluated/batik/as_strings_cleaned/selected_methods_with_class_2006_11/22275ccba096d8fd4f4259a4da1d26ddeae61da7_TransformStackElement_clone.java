@@ -1,0 +1,43 @@
+transform stack element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new element
+transform stack element SimpleName SimpleType CastExpression SuperMethodInvocation SimpleName clone
+new element SimpleName Assignment CastExpression SimpleType SimpleName transform stack element
+new element SimpleName Assignment CastExpression SuperMethodInvocation SimpleName clone
+javalangclone not supported exception QualifiedName SimpleType SingleVariableDeclaration SimpleName ex
+transform parameters SimpleName FieldAccess FieldAccess SimpleName length
+double PrimitiveType ArrayType ArrayCreation FieldAccess SimpleName length
+transform parameters SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType double
+transform parameters SimpleName VariableDeclarationFragment ArrayCreation FieldAccess SimpleName length
+double PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName transform parameters
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation FieldAccess SimpleName transform parameters
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName transform parameters
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation FieldAccess SimpleName transform parameters
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName transform parameters
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName transform parameterslength
+transform parameters SimpleName FieldAccess MethodInvocation NumberLiteral empty
+transform parameters SimpleName FieldAccess MethodInvocation SimpleName transform parameters
+transform parameters SimpleName FieldAccess MethodInvocation NumberLiteral empty
+transform parameters SimpleName FieldAccess MethodInvocation QualifiedName transform parameterslength
+empty NumberLiteral MethodInvocation SimpleName transform parameters
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName transform parameterslength
+transform parameters SimpleName MethodInvocation NumberLiteral empty
+transform parameters SimpleName MethodInvocation QualifiedName transform parameterslength
+empty NumberLiteral MethodInvocation QualifiedName transform parameterslength
+new elementtransform parameters QualifiedName Assignment SimpleName transform parameters
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName clone
+public Modifier MethodDeclaration Block ReturnStatement SimpleName new element
+object SimpleName SimpleType MethodDeclaration SimpleName clone
+clone SimpleName MethodDeclaration Block ReturnStatement SimpleName new element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone

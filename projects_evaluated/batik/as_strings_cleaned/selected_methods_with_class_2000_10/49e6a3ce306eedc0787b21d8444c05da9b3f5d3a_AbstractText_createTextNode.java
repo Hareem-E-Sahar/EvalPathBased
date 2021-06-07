@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName text
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration SimpleType SimpleName text
+protected Modifier MethodDeclaration SimpleName create text node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName text
+abstract Modifier MethodDeclaration SimpleType SimpleName text
+abstract Modifier MethodDeclaration SimpleName create text node
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName text
+text SimpleName SimpleType MethodDeclaration SimpleName create text node
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName text
+create text node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create text node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleName create text node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create text node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text

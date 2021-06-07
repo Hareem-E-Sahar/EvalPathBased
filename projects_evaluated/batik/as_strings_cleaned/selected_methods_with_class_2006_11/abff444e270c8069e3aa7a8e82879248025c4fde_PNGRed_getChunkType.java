@@ -1,0 +1,58 @@
+data input stream SimpleName SimpleType SingleVariableDeclaration SimpleName distream
+distream SimpleName MethodInvocation SimpleName mark
+distream SimpleName MethodInvocation NumberLiteral empty
+mark SimpleName MethodInvocation NumberLiteral empty
+distream SimpleName MethodInvocation SimpleName read int
+distream SimpleName MethodInvocation SimpleName read int
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName distream
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName read int
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName distream
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read int
+distream SimpleName MethodInvocation SimpleName reset
+type string SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName type string
+type SimpleName InfixExpression NumberLiteral empty
+char PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName type
+char PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+type string SimpleName Assignment CastExpression PrimitiveType char
+type SimpleName InfixExpression NumberLiteral empty
+type SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral xff
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral xff
+char PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral xff
+type string SimpleName Assignment CastExpression PrimitiveType char
+type SimpleName InfixExpression NumberLiteral empty
+type SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral xff
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral xff
+char PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral xff
+type string SimpleName Assignment CastExpression PrimitiveType char
+type SimpleName InfixExpression NumberLiteral xff
+char PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName type
+char PrimitiveType CastExpression ParenthesizedExpression InfixExpression NumberLiteral xff
+type string SimpleName Assignment CastExpression PrimitiveType char
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName get chunk type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName distream
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get chunk type
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName distream
+string SimpleName SimpleType MethodDeclaration SimpleName get chunk type
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName distream
+get chunk type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName data input stream
+get chunk type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName distream
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get chunk type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName distream
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get chunk type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName distream

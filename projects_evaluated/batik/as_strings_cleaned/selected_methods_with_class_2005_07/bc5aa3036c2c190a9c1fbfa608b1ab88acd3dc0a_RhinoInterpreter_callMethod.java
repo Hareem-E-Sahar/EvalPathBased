@@ -1,0 +1,53 @@
+scriptable object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+string SimpleName SimpleType SingleVariableDeclaration SimpleName method name
+arguments builder SimpleName SimpleType SingleVariableDeclaration SimpleName ab
+ab SimpleName MethodInvocation SimpleName build arguments
+scriptable object SimpleName MethodInvocation SimpleName call method
+scriptable object SimpleName MethodInvocation SimpleName obj
+scriptable object SimpleName MethodInvocation SimpleName method name
+scriptable object SimpleName MethodInvocation MethodInvocation SimpleName ab
+scriptable object SimpleName MethodInvocation MethodInvocation SimpleName build arguments
+call method SimpleName MethodInvocation SimpleName obj
+call method SimpleName MethodInvocation SimpleName method name
+call method SimpleName MethodInvocation MethodInvocation SimpleName ab
+call method SimpleName MethodInvocation MethodInvocation SimpleName build arguments
+obj SimpleName MethodInvocation SimpleName method name
+obj SimpleName MethodInvocation MethodInvocation SimpleName ab
+obj SimpleName MethodInvocation MethodInvocation SimpleName build arguments
+method name SimpleName MethodInvocation MethodInvocation SimpleName ab
+method name SimpleName MethodInvocation MethodInvocation SimpleName build arguments
+context SimpleName MethodInvocation SimpleName exit
+void PrimitiveType MethodDeclaration SimpleName call method
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scriptable object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName method name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName arguments builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ab
+void PrimitiveType MethodDeclaration SimpleType SimpleName java script exception
+call method SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName scriptable object
+call method SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+call method SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+call method SimpleName MethodDeclaration SingleVariableDeclaration SimpleName method name
+call method SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName arguments builder
+call method SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ab
+call method SimpleName MethodDeclaration SimpleType SimpleName java script exception
+obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+obj SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ab
+obj SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName java script exception
+method name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ab
+method name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName java script exception
+ab SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName java script exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName call method
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ab
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName java script exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call method
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName method name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ab
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName java script exception

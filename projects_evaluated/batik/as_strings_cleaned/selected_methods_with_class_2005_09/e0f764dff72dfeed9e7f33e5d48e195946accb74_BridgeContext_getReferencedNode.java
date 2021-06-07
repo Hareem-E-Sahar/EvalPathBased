@@ -1,0 +1,92 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+e SimpleName MethodInvocation SimpleName get owner document
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+document SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg document
+document SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+document SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+svg document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName document
+create uri resolver SimpleName MethodInvocation SimpleName document
+create uri resolver SimpleName MethodInvocation SimpleName document loader
+document SimpleName MethodInvocation SimpleName document loader
+ur SimpleName VariableDeclarationFragment MethodInvocation SimpleName create uri resolver
+ur SimpleName VariableDeclarationFragment MethodInvocation SimpleName document
+ur SimpleName VariableDeclarationFragment MethodInvocation SimpleName document loader
+uri resolver SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ur
+ur SimpleName MethodInvocation SimpleName get node
+ur SimpleName MethodInvocation SimpleName uri
+ur SimpleName MethodInvocation SimpleName e
+get node SimpleName MethodInvocation SimpleName uri
+get node SimpleName MethodInvocation SimpleName e
+uri SimpleName MethodInvocation SimpleName e
+ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName ur
+ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName get node
+ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err uri bad target
+e SimpleName ClassInstanceCreation SimpleName err uri bad target
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+err uri bad target SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+ref SimpleName MethodInvocation SimpleName get node type
+ref SimpleName MethodInvocation InfixExpression QualifiedName nodedocument node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodedocument node
+ref SimpleName MethodInvocation SimpleName get owner document
+ref SimpleName MethodInvocation InfixExpression ConditionalExpression SimpleName ref
+get node type SimpleName MethodInvocation InfixExpression ConditionalExpression SimpleName ref
+nodedocument node QualifiedName InfixExpression ConditionalExpression SimpleName ref
+nodedocument node QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName ref
+nodedocument node QualifiedName InfixExpression ConditionalExpression MethodInvocation SimpleName get owner document
+ref SimpleName ConditionalExpression MethodInvocation SimpleName ref
+ref SimpleName ConditionalExpression MethodInvocation SimpleName get owner document
+ref doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom document
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref doc
+ref doc SimpleName InfixExpression SimpleName document
+create sub bridge context SimpleName MethodInvocation SimpleName ref doc
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err uri malformed
+e SimpleName ClassInstanceCreation SimpleName err uri malformed
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+err uri malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+interrupted io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName print stack trace
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err uri io
+e SimpleName ClassInstanceCreation SimpleName err uri io
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+err uri io SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+security exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err uri unsecure
+e SimpleName ClassInstanceCreation SimpleName err uri unsecure
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+err uri unsecure SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName get referenced node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+node SimpleName SimpleType MethodDeclaration SimpleName get referenced node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName uri
+get referenced node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get referenced node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+get referenced node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get referenced node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get referenced node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get referenced node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri

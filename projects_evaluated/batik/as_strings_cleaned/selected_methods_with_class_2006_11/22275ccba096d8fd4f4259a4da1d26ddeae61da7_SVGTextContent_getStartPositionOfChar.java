@@ -1,0 +1,15 @@
+int PrimitiveType SingleVariableDeclaration SimpleName charnum
+point d SimpleName SimpleType MethodDeclaration SimpleName get start position of char
+point d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+point d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName charnum
+get start position of char SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get start position of char SimpleName MethodDeclaration SingleVariableDeclaration SimpleName charnum
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName point d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get start position of char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName point d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get start position of char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum

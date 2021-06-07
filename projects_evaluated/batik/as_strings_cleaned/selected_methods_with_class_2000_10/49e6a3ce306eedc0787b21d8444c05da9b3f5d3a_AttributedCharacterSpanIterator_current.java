@@ -1,0 +1,11 @@
+aci SimpleName MethodInvocation SimpleName current
+public Modifier MethodDeclaration PrimitiveType char
+public Modifier MethodDeclaration SimpleName current
+char PrimitiveType MethodDeclaration SimpleName current
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName current
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName current

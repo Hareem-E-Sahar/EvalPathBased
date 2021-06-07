@@ -1,0 +1,38 @@
+buffer size SimpleName InfixExpression QualifiedName bufferlength
+bufferlength QualifiedName InfixExpression NumberLiteral empty
+char PrimitiveType ArrayType ArrayCreation InfixExpression QualifiedName bufferlength
+char PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+t SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType char
+t SimpleName VariableDeclarationFragment ArrayCreation InfixExpression QualifiedName bufferlength
+t SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName buffer size
+t SimpleName ArrayAccess SimpleName i
+buffer SimpleName ArrayAccess SimpleName i
+t SimpleName ArrayAccess Assignment ArrayAccess SimpleName buffer
+t SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName buffer
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName buffer size
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+buffer size SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+buffer SimpleName Assignment SimpleName t
+buffer SimpleName ArrayAccess PostfixExpression SimpleName buffer size
+char PrimitiveType CastExpression SimpleName current
+buffer SimpleName ArrayAccess Assignment CastExpression PrimitiveType char
+buffer SimpleName ArrayAccess Assignment CastExpression SimpleName current
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName bufferize
+void PrimitiveType MethodDeclaration SimpleName bufferize
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName bufferize
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bufferize

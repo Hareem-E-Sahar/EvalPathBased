@@ -1,0 +1,37 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName child
+get parent node SimpleName MethodInvocation SimpleName child
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName child
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent
+elem tpi SimpleName MethodInvocation SimpleName get
+elem tpi SimpleName MethodInvocation SimpleName parent
+get SimpleName MethodInvocation SimpleName parent
+text paint info SimpleName SimpleType CastExpression MethodInvocation SimpleName elem tpi
+text paint info SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+text paint info SimpleName SimpleType CastExpression MethodInvocation SimpleName parent
+tpi SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName text paint info
+tpi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName elem tpi
+tpi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+tpi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName parent
+text paint info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tpi
+tpi SimpleName InfixExpression IfStatement ReturnStatement SimpleName tpi
+get parent node SimpleName MethodInvocation SimpleName parent
+parent SimpleName Assignment MethodInvocation SimpleName get parent node
+parent SimpleName Assignment MethodInvocation SimpleName parent
+protected Modifier MethodDeclaration SimpleType SimpleName text paint info
+protected Modifier MethodDeclaration SimpleName get parent text paint info
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName child
+text paint info SimpleName SimpleType MethodDeclaration SimpleName get parent text paint info
+text paint info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName child
+get parent text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get parent text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName child
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text paint info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parent text paint info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text paint info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parent text paint info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child

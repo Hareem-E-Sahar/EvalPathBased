@@ -1,0 +1,44 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+dom constantsdom error handler param QualifiedName MethodInvocation SimpleName equals
+dom constantsdom error handler param QualifiedName MethodInvocation SimpleName name
+equals SimpleName MethodInvocation SimpleName name
+boolean param indexes SimpleName MethodInvocation SimpleName get
+boolean param indexes SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName boolean param indexes
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName name
+index SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName integer
+index SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName boolean param indexes
+index SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+index SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName name
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot found err
+create dom exception SimpleName MethodInvocation StringLiteral domconfigparamnotfound
+create dom exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName name
+dom exceptionnot found err QualifiedName MethodInvocation StringLiteral domconfigparamnotfound
+dom exceptionnot found err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName name
+domconfigparamnotfound StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName name
+boolean param values SimpleName ArrayAccess SimpleName index
+boolean param values SimpleName ArrayAccess ConditionalExpression QualifiedName booleantrue
+index SimpleName ArrayAccess ConditionalExpression QualifiedName booleantrue
+boolean param values SimpleName ArrayAccess ConditionalExpression QualifiedName booleanfalse
+index SimpleName ArrayAccess ConditionalExpression QualifiedName booleanfalse
+booleantrue QualifiedName ConditionalExpression QualifiedName booleanfalse
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get parameter
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+object SimpleName SimpleType MethodDeclaration SimpleName get parameter
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get parameter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get parameter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parameter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parameter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

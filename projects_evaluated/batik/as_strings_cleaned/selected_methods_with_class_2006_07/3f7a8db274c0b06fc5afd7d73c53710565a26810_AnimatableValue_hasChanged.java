@@ -1,0 +1,21 @@
+ret SimpleName VariableDeclarationFragment SimpleName has changed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has changed
+has changed SimpleName Assignment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has changed
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+boolean PrimitiveType MethodDeclaration SimpleName has changed
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ret
+has changed SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+has changed SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has changed
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has changed

@@ -1,0 +1,30 @@
+boolean PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+channels SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType boolean
+channels SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+boolean PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName channels
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+channels SimpleName FieldAccess FieldAccess SimpleName length
+i SimpleName InfixExpression FieldAccess FieldAccess SimpleName channels
+i SimpleName InfixExpression FieldAccess SimpleName length
+channels SimpleName FieldAccess ArrayAccess SimpleName i
+channels SimpleName ArrayAccess ArrayAccess FieldAccess SimpleName channels
+channels SimpleName ArrayAccess ArrayAccess SimpleName i
+channels SimpleName ArrayAccess Assignment BooleanLiteral true
+i SimpleName ArrayAccess ArrayAccess Assignment BooleanLiteral true
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration ArrayType PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get channels
+public Modifier MethodDeclaration Block ReturnStatement SimpleName channels
+boolean PrimitiveType ArrayType MethodDeclaration SimpleName get channels
+get channels SimpleName MethodDeclaration Block ReturnStatement SimpleName channels
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get channels
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get channels

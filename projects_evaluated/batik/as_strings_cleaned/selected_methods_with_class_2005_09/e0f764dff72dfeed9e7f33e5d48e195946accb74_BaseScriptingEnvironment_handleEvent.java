@@ -1,0 +1,50 @@
+event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName event
+evt SimpleName InstanceofExpression SimpleType SimpleName script event wrapper
+script event wrapper SimpleName SimpleType CastExpression SimpleName evt
+evt SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get event object
+event SimpleName Assignment MethodInvocation SimpleName get event object
+event SimpleName Assignment SimpleName evt
+interp SimpleName MethodInvocation SimpleName bind object
+interp SimpleName MethodInvocation SimpleName event name
+interp SimpleName MethodInvocation SimpleName event
+bind object SimpleName MethodInvocation SimpleName event name
+bind object SimpleName MethodInvocation SimpleName event
+event name SimpleName MethodInvocation SimpleName event
+interp SimpleName MethodInvocation SimpleName bind object
+interp SimpleName MethodInvocation SimpleName alternate event name
+interp SimpleName MethodInvocation SimpleName event
+bind object SimpleName MethodInvocation SimpleName alternate event name
+bind object SimpleName MethodInvocation SimpleName event
+alternate event name SimpleName MethodInvocation SimpleName event
+string reader SimpleName SimpleType ClassInstanceCreation SimpleName s
+interp SimpleName MethodInvocation SimpleName evaluate
+interp SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string reader
+interp SimpleName MethodInvocation ClassInstanceCreation SimpleName s
+interp SimpleName MethodInvocation SimpleName desc
+evaluate SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string reader
+evaluate SimpleName MethodInvocation ClassInstanceCreation SimpleName s
+evaluate SimpleName MethodInvocation SimpleName desc
+string reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName desc
+s SimpleName ClassInstanceCreation MethodInvocation SimpleName desc
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName io
+interpreter exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+handle interpreter exception SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName handle event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

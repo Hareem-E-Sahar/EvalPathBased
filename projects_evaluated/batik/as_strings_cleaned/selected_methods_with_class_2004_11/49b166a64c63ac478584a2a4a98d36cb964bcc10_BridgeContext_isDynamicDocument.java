@@ -1,0 +1,22 @@
+document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+base scripting environment SimpleName MethodInvocation SimpleName is dynamic document
+base scripting environment SimpleName MethodInvocation SimpleName doc
+is dynamic document SimpleName MethodInvocation SimpleName doc
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is dynamic document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+boolean PrimitiveType MethodDeclaration SimpleName is dynamic document
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc
+is dynamic document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+is dynamic document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is dynamic document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is dynamic document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc

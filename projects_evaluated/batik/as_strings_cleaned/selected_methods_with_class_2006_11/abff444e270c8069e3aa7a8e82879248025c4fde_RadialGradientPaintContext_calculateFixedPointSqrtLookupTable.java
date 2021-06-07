@@ -1,0 +1,50 @@
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sq step float
+fast gradient array size SimpleName InfixExpression SimpleName fast gradient array size
+max precision SimpleName InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName Assignment NumberLiteral empty
+max precision SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression SimpleName max precision
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+sqrt lut fixed SimpleName ArrayAccess SimpleName i
+i SimpleName InfixExpression SimpleName sq step float
+math SimpleName MethodInvocation SimpleName sqrt
+math SimpleName MethodInvocation InfixExpression SimpleName i
+math SimpleName MethodInvocation InfixExpression SimpleName sq step float
+sqrt SimpleName MethodInvocation InfixExpression SimpleName i
+sqrt SimpleName MethodInvocation InfixExpression SimpleName sq step float
+int PrimitiveType CastExpression ParenthesizedExpression MethodInvocation SimpleName math
+int PrimitiveType CastExpression ParenthesizedExpression MethodInvocation SimpleName sqrt
+sqrt lut fixed SimpleName ArrayAccess Assignment CastExpression PrimitiveType int
+i SimpleName ArrayAccess Assignment CastExpression PrimitiveType int
+i SimpleName Assignment ForStatement InfixExpression SimpleName i
+empty NumberLiteral Assignment ForStatement InfixExpression SimpleName i
+i SimpleName Assignment ForStatement PostfixExpression SimpleName i
+empty NumberLiteral Assignment ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sqrt lut fixed SimpleName ArrayAccess SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+sqrt lut fixed SimpleName ArrayAccess InfixExpression SimpleName i
+sqrt lut fixed SimpleName ArrayAccess InfixExpression NumberLiteral empty
+sqrt lut fixed SimpleName ArrayAccess Assignment ArrayAccess SimpleName sqrt lut fixed
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName sqrt lut fixed
+empty NumberLiteral InfixExpression SimpleName sq step float
+inv sq step float SimpleName Assignment InfixExpression NumberLiteral empty
+inv sq step float SimpleName Assignment InfixExpression SimpleName sq step float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName calculate fixed point sqrt lookup table
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName calculate fixed point sqrt lookup table
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+calculate fixed point sqrt lookup table SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+calculate fixed point sqrt lookup table SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName calculate fixed point sqrt lookup table
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName calculate fixed point sqrt lookup table

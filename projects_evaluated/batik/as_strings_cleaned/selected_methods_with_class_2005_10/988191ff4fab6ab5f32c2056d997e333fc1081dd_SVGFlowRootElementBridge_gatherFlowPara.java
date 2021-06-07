@@ -1,0 +1,262 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName div
+asb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName attributed string buffer
+attributed string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName asb
+para ends SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName para ends
+para elems SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName para elems
+ln locs SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln locs
+get first child SimpleName MethodInvocation SimpleName div
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName div
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+get next sibling SimpleName MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+n SimpleName MethodInvocation SimpleName get namespace uri
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName equals
+get namespace uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName n
+get namespace uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get namespace uri
+equals SimpleName MethodInvocation MethodInvocation SimpleName n
+equals SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+element SimpleName SimpleType CastExpression SimpleName n
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+e SimpleName VariableDeclarationFragment CastExpression SimpleName n
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get local name
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg flow para tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg flow para tag
+fill attributed string buffer SimpleName MethodInvocation SimpleName ctx
+fill attributed string buffer SimpleName MethodInvocation SimpleName e
+fill attributed string buffer SimpleName MethodInvocation BooleanLiteral true
+fill attributed string buffer SimpleName MethodInvocation SimpleName asb
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation BooleanLiteral true
+ctx SimpleName MethodInvocation SimpleName asb
+ctx SimpleName MethodInvocation SimpleName ln locs
+e SimpleName MethodInvocation BooleanLiteral true
+e SimpleName MethodInvocation SimpleName asb
+e SimpleName MethodInvocation SimpleName ln locs
+true BooleanLiteral MethodInvocation SimpleName asb
+true BooleanLiteral MethodInvocation SimpleName ln locs
+asb SimpleName MethodInvocation SimpleName ln locs
+para elems SimpleName MethodInvocation SimpleName add
+para elems SimpleName MethodInvocation SimpleName e
+add SimpleName MethodInvocation SimpleName e
+asb SimpleName MethodInvocation SimpleName length
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName asb
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName length
+para ends SimpleName MethodInvocation SimpleName add
+para ends SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+para ends SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName asb
+para ends SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName length
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName asb
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName length
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation QualifiedName svg constantssvg flow region break tag
+equals SimpleName MethodInvocation QualifiedName svg constantssvg flow region break tag
+fill attributed string buffer SimpleName MethodInvocation SimpleName ctx
+fill attributed string buffer SimpleName MethodInvocation SimpleName e
+fill attributed string buffer SimpleName MethodInvocation BooleanLiteral true
+fill attributed string buffer SimpleName MethodInvocation SimpleName asb
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation BooleanLiteral true
+ctx SimpleName MethodInvocation SimpleName asb
+ctx SimpleName MethodInvocation SimpleName ln locs
+e SimpleName MethodInvocation BooleanLiteral true
+e SimpleName MethodInvocation SimpleName asb
+e SimpleName MethodInvocation SimpleName ln locs
+true BooleanLiteral MethodInvocation SimpleName asb
+true BooleanLiteral MethodInvocation SimpleName ln locs
+asb SimpleName MethodInvocation SimpleName ln locs
+para elems SimpleName MethodInvocation SimpleName add
+para elems SimpleName MethodInvocation SimpleName e
+add SimpleName MethodInvocation SimpleName e
+asb SimpleName MethodInvocation SimpleName length
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName asb
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName length
+para ends SimpleName MethodInvocation SimpleName add
+para ends SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+para ends SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName asb
+para ends SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName length
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName asb
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName length
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+asb SimpleName MethodInvocation SimpleName to attributed string
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName asb
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName to attributed string
+attributed string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+prev ln SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev ln
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+ln locs SimpleName MethodInvocation SimpleName iterator
+ln iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName ln locs
+ln iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln iter
+ln iter SimpleName MethodInvocation SimpleName has next
+ln iter SimpleName MethodInvocation SimpleName next
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName ln iter
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+next ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName int value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName next ln
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName int value
+next ln SimpleName InfixExpression SimpleName prev ln
+ret SimpleName MethodInvocation SimpleName add attribute
+ret SimpleName MethodInvocation SimpleName flow line break
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName object
+ret SimpleName MethodInvocation SimpleName prev ln
+ret SimpleName MethodInvocation SimpleName next ln
+add attribute SimpleName MethodInvocation SimpleName flow line break
+add attribute SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName object
+add attribute SimpleName MethodInvocation SimpleName prev ln
+add attribute SimpleName MethodInvocation SimpleName next ln
+flow line break SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName object
+flow line break SimpleName MethodInvocation SimpleName prev ln
+flow line break SimpleName MethodInvocation SimpleName next ln
+object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName prev ln
+object SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName next ln
+prev ln SimpleName MethodInvocation SimpleName next ln
+prev ln SimpleName Assignment SimpleName next ln
+start SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName empty para
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+para elems SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName para elems
+i SimpleName InfixExpression MethodInvocation SimpleName size
+start SimpleName Assignment SimpleName end
+para elems SimpleName MethodInvocation SimpleName get
+para elems SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName para elems
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+elem SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+elem SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName para elems
+elem SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+elem SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elem
+para ends SimpleName MethodInvocation SimpleName get
+para ends SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName para ends
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+end SimpleName Assignment MethodInvocation SimpleName int value
+start SimpleName InfixExpression SimpleName end
+empty para SimpleName Assignment ClassInstanceCreation SimpleType SimpleName linked list
+make block info SimpleName MethodInvocation SimpleName ctx
+make block info SimpleName MethodInvocation SimpleName elem
+ctx SimpleName MethodInvocation SimpleName elem
+empty para SimpleName MethodInvocation SimpleName add
+empty para SimpleName MethodInvocation MethodInvocation SimpleName make block info
+empty para SimpleName MethodInvocation MethodInvocation SimpleName ctx
+empty para SimpleName MethodInvocation MethodInvocation SimpleName elem
+add SimpleName MethodInvocation MethodInvocation SimpleName make block info
+add SimpleName MethodInvocation MethodInvocation SimpleName ctx
+add SimpleName MethodInvocation MethodInvocation SimpleName elem
+make block info SimpleName MethodInvocation SimpleName ctx
+make block info SimpleName MethodInvocation SimpleName elem
+ctx SimpleName MethodInvocation SimpleName elem
+ret SimpleName MethodInvocation SimpleName add attribute
+ret SimpleName MethodInvocation SimpleName flow paragraph
+ret SimpleName MethodInvocation MethodInvocation SimpleName make block info
+ret SimpleName MethodInvocation MethodInvocation SimpleName ctx
+ret SimpleName MethodInvocation MethodInvocation SimpleName elem
+ret SimpleName MethodInvocation SimpleName start
+ret SimpleName MethodInvocation SimpleName end
+add attribute SimpleName MethodInvocation SimpleName flow paragraph
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName make block info
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName ctx
+add attribute SimpleName MethodInvocation MethodInvocation SimpleName elem
+add attribute SimpleName MethodInvocation SimpleName start
+add attribute SimpleName MethodInvocation SimpleName end
+flow paragraph SimpleName MethodInvocation MethodInvocation SimpleName make block info
+flow paragraph SimpleName MethodInvocation MethodInvocation SimpleName ctx
+flow paragraph SimpleName MethodInvocation MethodInvocation SimpleName elem
+flow paragraph SimpleName MethodInvocation SimpleName start
+flow paragraph SimpleName MethodInvocation SimpleName end
+make block info SimpleName MethodInvocation MethodInvocation SimpleName start
+ctx SimpleName MethodInvocation MethodInvocation SimpleName start
+elem SimpleName MethodInvocation MethodInvocation SimpleName start
+make block info SimpleName MethodInvocation MethodInvocation SimpleName end
+ctx SimpleName MethodInvocation MethodInvocation SimpleName end
+elem SimpleName MethodInvocation MethodInvocation SimpleName end
+start SimpleName MethodInvocation SimpleName end
+ret SimpleName MethodInvocation SimpleName add attribute
+ret SimpleName MethodInvocation SimpleName flow empty paragraph
+ret SimpleName MethodInvocation SimpleName empty para
+ret SimpleName MethodInvocation SimpleName start
+ret SimpleName MethodInvocation SimpleName end
+add attribute SimpleName MethodInvocation SimpleName flow empty paragraph
+add attribute SimpleName MethodInvocation SimpleName empty para
+add attribute SimpleName MethodInvocation SimpleName start
+add attribute SimpleName MethodInvocation SimpleName end
+flow empty paragraph SimpleName MethodInvocation SimpleName empty para
+flow empty paragraph SimpleName MethodInvocation SimpleName start
+flow empty paragraph SimpleName MethodInvocation SimpleName end
+empty para SimpleName MethodInvocation SimpleName start
+empty para SimpleName MethodInvocation SimpleName end
+start SimpleName MethodInvocation SimpleName end
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName start
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName end
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement Assignment SimpleName start
+i SimpleName InfixExpression ForStatement Assignment SimpleName end
+i SimpleName PostfixExpression ForStatement Assignment SimpleName start
+i SimpleName PostfixExpression ForStatement Assignment SimpleName end
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+protected Modifier MethodDeclaration SimpleType SimpleName attributed string
+protected Modifier MethodDeclaration SimpleName gather flow para
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName div
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+attributed string SimpleName SimpleType MethodDeclaration SimpleName gather flow para
+attributed string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+attributed string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName div
+gather flow para SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+gather flow para SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+gather flow para SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+gather flow para SimpleName MethodDeclaration SingleVariableDeclaration SimpleName div
+gather flow para SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+gather flow para SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+gather flow para SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+gather flow para SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName div
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attributed string
+public Modifier TypeDeclaration MethodDeclaration SimpleName gather flow para
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName div
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attributed string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName gather flow para
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName div

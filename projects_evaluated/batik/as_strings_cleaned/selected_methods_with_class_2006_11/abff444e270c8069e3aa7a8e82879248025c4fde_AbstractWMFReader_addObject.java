@@ -1,0 +1,70 @@
+int PrimitiveType SingleVariableDeclaration SimpleName type
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+start idx SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName start idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment SimpleName start idx
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName start idx
+i SimpleName InfixExpression SimpleName num objects
+object vector SimpleName MethodInvocation SimpleName element at
+object vector SimpleName MethodInvocation SimpleName i
+element at SimpleName MethodInvocation SimpleName i
+gdi object SimpleName SimpleType CastExpression MethodInvocation SimpleName object vector
+gdi object SimpleName SimpleType CastExpression MethodInvocation SimpleName element at
+gdi object SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+gdi SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName gdi object
+gdi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName object vector
+gdi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName element at
+gdi SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+gdi object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gdi
+gdiused QualifiedName InfixExpression BooleanLiteral false
+gdi SimpleName MethodInvocation SimpleName setup
+gdi SimpleName MethodInvocation SimpleName type
+gdi SimpleName MethodInvocation SimpleName obj
+setup SimpleName MethodInvocation SimpleName type
+setup SimpleName MethodInvocation SimpleName obj
+type SimpleName MethodInvocation SimpleName obj
+last object idx SimpleName Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num objects
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num objects SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName last object idx
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName add object
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName last object idx
+int PrimitiveType MethodDeclaration SimpleName add object
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName last object idx
+add object SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+add object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+add object SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+add object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+add object SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+add object SimpleName MethodDeclaration Block ReturnStatement SimpleName last object idx
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName add object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

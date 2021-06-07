@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is default prevented
+public Modifier MethodDeclaration Block ReturnStatement SimpleName prevent default
+boolean PrimitiveType MethodDeclaration SimpleName is default prevented
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName prevent default
+is default prevented SimpleName MethodDeclaration Block ReturnStatement SimpleName prevent default
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is default prevented
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is default prevented

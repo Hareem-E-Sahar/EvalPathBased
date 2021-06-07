@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+get element by id SimpleName MethodInvocation SimpleName id
+get element by id SimpleName MethodInvocation SimpleName n
+id SimpleName MethodInvocation SimpleName n
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element by id
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName svgom animation element
+svgom animation element SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get svg context
+svg animation element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName get svg context
+b SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg animation element bridge
+b SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get svg context
+svg animation element bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+b SimpleName MethodInvocation SimpleName get timed element
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName timed element
+public Modifier MethodDeclaration SimpleName get timed element by id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+static Modifier MethodDeclaration SimpleType SimpleName timed element
+static Modifier MethodDeclaration SimpleName get timed element by id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+timed element SimpleName SimpleType MethodDeclaration SimpleName get timed element by id
+timed element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+timed element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get timed element by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get timed element by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+get timed element by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get timed element by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName timed element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get timed element by id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName timed element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get timed element by id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

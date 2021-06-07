@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration ArrayType PrimitiveType short
+public Modifier MethodDeclaration SimpleName get length types
+public Modifier MethodDeclaration Block ReturnStatement SimpleName length types
+short PrimitiveType ArrayType MethodDeclaration SimpleName get length types
+get length types SimpleName MethodDeclaration Block ReturnStatement SimpleName length types
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName get length types
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get length types

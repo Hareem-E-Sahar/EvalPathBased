@@ -1,0 +1,60 @@
+lru obj SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName MethodInvocation SimpleName lru get
+nde SimpleName VariableDeclarationFragment MethodInvocation SimpleName obj
+nde SimpleName VariableDeclarationFragment MethodInvocation SimpleName lru get
+lru node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nde
+used SimpleName MethodInvocation SimpleName touch
+used SimpleName MethodInvocation SimpleName nde
+touch SimpleName MethodInvocation SimpleName nde
+free SimpleName MethodInvocation SimpleName get size
+free SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+free SimpleName MethodInvocation SimpleName pop
+lru node SimpleName SimpleType CastExpression MethodInvocation SimpleName free
+lru node SimpleName SimpleType CastExpression MethodInvocation SimpleName pop
+nde SimpleName Assignment CastExpression SimpleType SimpleName lru node
+nde SimpleName Assignment CastExpression MethodInvocation SimpleName free
+nde SimpleName Assignment CastExpression MethodInvocation SimpleName pop
+nde SimpleName MethodInvocation SimpleName set obj
+nde SimpleName MethodInvocation SimpleName obj
+set obj SimpleName MethodInvocation SimpleName obj
+used SimpleName MethodInvocation SimpleName add
+used SimpleName MethodInvocation SimpleName nde
+add SimpleName MethodInvocation SimpleName nde
+used SimpleName MethodInvocation SimpleName get tail
+lru node SimpleName SimpleType CastExpression MethodInvocation SimpleName used
+lru node SimpleName SimpleType CastExpression MethodInvocation SimpleName get tail
+nde SimpleName Assignment CastExpression SimpleType SimpleName lru node
+nde SimpleName Assignment CastExpression MethodInvocation SimpleName used
+nde SimpleName Assignment CastExpression MethodInvocation SimpleName get tail
+nde SimpleName MethodInvocation SimpleName set obj
+nde SimpleName MethodInvocation SimpleName obj
+set obj SimpleName MethodInvocation SimpleName obj
+used SimpleName MethodInvocation SimpleName touch
+used SimpleName MethodInvocation SimpleName nde
+touch SimpleName MethodInvocation SimpleName nde
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lru obj
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName add
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lru obj
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+void PrimitiveType MethodDeclaration SimpleName add
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lru obj
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lru obj
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

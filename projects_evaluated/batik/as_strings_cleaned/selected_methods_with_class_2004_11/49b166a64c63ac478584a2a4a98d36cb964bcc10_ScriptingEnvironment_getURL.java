@@ -1,0 +1,211 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName uri
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+final Modifier SingleVariableDeclaration SimpleType QualifiedName orgapachebatikscriptwindowurl response handler
+final Modifier SingleVariableDeclaration SimpleName h
+orgapachebatikscriptwindowurl response handler QualifiedName SimpleType SingleVariableDeclaration SimpleName h
+final Modifier SingleVariableDeclaration SimpleType SimpleName string
+final Modifier SingleVariableDeclaration SimpleName enc
+string SimpleName SimpleType SingleVariableDeclaration SimpleName enc
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName burl
+svgom document SimpleName SimpleType CastExpression SimpleName document
+document SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get url object
+burl SimpleName Assignment MethodInvocation SimpleName get url object
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName burl
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName uri
+burl SimpleName ClassInstanceCreation SimpleName uri
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName parsed url
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName burl
+purl SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName uri
+final Modifier VariableDeclarationStatement SimpleType SimpleName parsed url
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName purl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName burl
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName uri
+parsed url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName purl
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+encoding utilities SimpleName MethodInvocation SimpleName java encoding
+encoding utilities SimpleName MethodInvocation SimpleName enc
+java encoding SimpleName MethodInvocation SimpleName enc
+e SimpleName Assignment MethodInvocation SimpleName encoding utilities
+e SimpleName Assignment MethodInvocation SimpleName java encoding
+e SimpleName Assignment MethodInvocation SimpleName enc
+e SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName enc
+e SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName e
+enc SimpleName ConditionalExpression SimpleName e
+e SimpleName Assignment ParenthesizedExpression ConditionalExpression SimpleName enc
+e SimpleName Assignment ParenthesizedExpression ConditionalExpression SimpleName e
+purl SimpleName MethodInvocation SimpleName open stream
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName purl
+is SimpleName VariableDeclarationFragment MethodInvocation SimpleName open stream
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+purl SimpleName MethodInvocation SimpleName get content encoding
+e SimpleName Assignment MethodInvocation SimpleName purl
+e SimpleName Assignment MethodInvocation SimpleName get content encoding
+reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName is
+r SimpleName Assignment ClassInstanceCreation SimpleType SimpleName input stream reader
+r SimpleName Assignment ClassInstanceCreation SimpleName is
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName is
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName e
+is SimpleName ClassInstanceCreation SimpleName e
+r SimpleName Assignment ClassInstanceCreation SimpleType SimpleName input stream reader
+r SimpleName Assignment ClassInstanceCreation SimpleName is
+r SimpleName Assignment ClassInstanceCreation SimpleName e
+buffered reader SimpleName SimpleType ClassInstanceCreation SimpleName r
+r SimpleName Assignment ClassInstanceCreation SimpleType SimpleName buffered reader
+r SimpleName Assignment ClassInstanceCreation SimpleName r
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+final Modifier VariableDeclarationStatement SimpleType SimpleName string buffer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName read
+char PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buf SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType char
+buf SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+char PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+r SimpleName MethodInvocation SimpleName read
+r SimpleName MethodInvocation SimpleName buf
+r SimpleName MethodInvocation NumberLiteral empty
+r SimpleName MethodInvocation QualifiedName buflength
+read SimpleName MethodInvocation SimpleName buf
+read SimpleName MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation QualifiedName buflength
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation QualifiedName buflength
+empty NumberLiteral MethodInvocation QualifiedName buflength
+read SimpleName Assignment MethodInvocation SimpleName r
+read SimpleName Assignment MethodInvocation SimpleName read
+read SimpleName Assignment MethodInvocation SimpleName buf
+read SimpleName Assignment MethodInvocation NumberLiteral empty
+read SimpleName Assignment MethodInvocation QualifiedName buflength
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName buf
+sb SimpleName MethodInvocation NumberLiteral empty
+sb SimpleName MethodInvocation SimpleName read
+append SimpleName MethodInvocation SimpleName buf
+append SimpleName MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation SimpleName read
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation SimpleName read
+empty NumberLiteral MethodInvocation SimpleName read
+r SimpleName MethodInvocation SimpleName close
+purl SimpleName MethodInvocation SimpleName get content type
+sb SimpleName MethodInvocation SimpleName to string
+h SimpleName MethodInvocation SimpleName get url done
+h SimpleName MethodInvocation BooleanLiteral true
+h SimpleName MethodInvocation MethodInvocation SimpleName purl
+h SimpleName MethodInvocation MethodInvocation SimpleName get content type
+h SimpleName MethodInvocation MethodInvocation SimpleName sb
+h SimpleName MethodInvocation MethodInvocation SimpleName to string
+get url done SimpleName MethodInvocation BooleanLiteral true
+get url done SimpleName MethodInvocation MethodInvocation SimpleName purl
+get url done SimpleName MethodInvocation MethodInvocation SimpleName get content type
+get url done SimpleName MethodInvocation MethodInvocation SimpleName sb
+get url done SimpleName MethodInvocation MethodInvocation SimpleName to string
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName purl
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName get content type
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName sb
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName to string
+purl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sb
+purl SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+get content type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName sb
+get content type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to string
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+update runnable queue SimpleName MethodInvocation SimpleName invoke later
+update runnable queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+invoke later SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName security exception
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+h SimpleName MethodInvocation SimpleName get url done
+h SimpleName MethodInvocation BooleanLiteral false
+get url done SimpleName MethodInvocation BooleanLiteral false
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+update runnable queue SimpleName MethodInvocation SimpleName invoke later
+update runnable queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+invoke later SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+t SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName thread
+thread SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName MethodInvocation SimpleName set priority
+t SimpleName MethodInvocation QualifiedName threadmin priority
+set priority SimpleName MethodInvocation QualifiedName threadmin priority
+t SimpleName MethodInvocation SimpleName start
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName get url
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapachebatikscriptwindowurl response handler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName h
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName enc
+void PrimitiveType MethodDeclaration SimpleName get url
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName uri
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapachebatikscriptwindowurl response handler
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName h
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName enc
+get url SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+get url SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName orgapachebatikscriptwindowurl response handler
+get url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName h
+get url SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+get url SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get url SimpleName MethodDeclaration SingleVariableDeclaration SimpleName enc
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+final Modifier SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc
+h SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+h SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName enc

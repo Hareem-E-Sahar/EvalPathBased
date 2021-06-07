@@ -1,0 +1,29 @@
+paint SimpleName SimpleType SingleVariableDeclaration SimpleName new background paint
+old background paint SimpleName VariableDeclarationFragment SimpleName background paint
+paint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old background paint
+paint SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName background paint
+background paint SimpleName FieldAccess Assignment SimpleName new background paint
+fire property change SimpleName MethodInvocation StringLiteral background paint
+fire property change SimpleName MethodInvocation SimpleName old background paint
+fire property change SimpleName MethodInvocation SimpleName new background paint
+background paint StringLiteral MethodInvocation SimpleName old background paint
+background paint StringLiteral MethodInvocation SimpleName new background paint
+old background paint SimpleName MethodInvocation SimpleName new background paint
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set background paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new background paint
+void PrimitiveType MethodDeclaration SimpleName set background paint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName paint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new background paint
+set background paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName paint
+set background paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new background paint
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set background paint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new background paint
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set background paint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new background paint

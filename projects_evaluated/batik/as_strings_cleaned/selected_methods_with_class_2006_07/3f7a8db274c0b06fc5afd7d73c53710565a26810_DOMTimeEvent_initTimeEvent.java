@@ -1,0 +1,52 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type arg
+abstract view SimpleName SimpleType SingleVariableDeclaration SimpleName view arg
+int PrimitiveType SingleVariableDeclaration SimpleName detail arg
+init event SimpleName MethodInvocation SimpleName type arg
+init event SimpleName MethodInvocation BooleanLiteral false
+init event SimpleName MethodInvocation BooleanLiteral false
+type arg SimpleName MethodInvocation BooleanLiteral false
+type arg SimpleName MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+view SimpleName FieldAccess Assignment SimpleName view arg
+detail SimpleName FieldAccess Assignment SimpleName detail arg
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName init time event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type arg
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract view
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName view arg
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName detail arg
+void PrimitiveType MethodDeclaration SimpleName init time event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type arg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract view
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName view arg
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName detail arg
+init time event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+init time event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type arg
+init time event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract view
+init time event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName view arg
+init time event SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+init time event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName detail arg
+type arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName view arg
+type arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+type arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName detail arg
+view arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+view arg SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName detail arg
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init time event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type arg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName view arg
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName detail arg
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init time event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type arg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName view arg
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName detail arg

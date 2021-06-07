@@ -1,0 +1,90 @@
+result SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root element
+svgsvg element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+preserve SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName preserve
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+elt SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+n SimpleName MethodInvocation SimpleName get prefix
+n SimpleName MethodInvocation SimpleName get node name
+n SimpleName MethodInvocation SimpleName get local name
+n SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName n
+n SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get local name
+get node name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName n
+get node name SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName get local name
+name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName n
+name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get node name
+name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName n
+name SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+name SimpleName MethodInvocation SimpleName equals
+name SimpleName MethodInvocation StringLiteral title
+equals SimpleName MethodInvocation StringLiteral title
+svg lang space SimpleName SimpleType CastExpression SimpleName n
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get xm lspace
+get xm lspace SimpleName MethodInvocation MethodInvocation SimpleName equals
+get xm lspace SimpleName MethodInvocation MethodInvocation StringLiteral preserve
+equals SimpleName MethodInvocation StringLiteral preserve
+preserve SimpleName Assignment MethodInvocation MethodInvocation SimpleName get xm lspace
+preserve SimpleName Assignment MethodInvocation SimpleName equals
+preserve SimpleName Assignment MethodInvocation StringLiteral preserve
+n SimpleName MethodInvocation SimpleName get first child
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get first child
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodetext node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodetext node
+n SimpleName MethodInvocation SimpleName get node value
+result SimpleName Assignment MethodInvocation SimpleName n
+result SimpleName Assignment MethodInvocation SimpleName get node value
+n SimpleName Assignment ForStatement InfixExpression SimpleName n
+n SimpleName Assignment ForStatement Assignment SimpleName n
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+xml support SimpleName MethodInvocation SimpleName preserve xml space
+xml support SimpleName MethodInvocation SimpleName result
+preserve xml space SimpleName MethodInvocation SimpleName result
+xml support SimpleName MethodInvocation SimpleName default xml space
+xml support SimpleName MethodInvocation SimpleName result
+default xml space SimpleName MethodInvocation SimpleName result
+preserve SimpleName ParenthesizedExpression ConditionalExpression MethodInvocation SimpleName xml support
+preserve SimpleName ParenthesizedExpression ConditionalExpression MethodInvocation SimpleName preserve xml space
+preserve SimpleName ParenthesizedExpression ConditionalExpression MethodInvocation SimpleName result
+preserve SimpleName ParenthesizedExpression ConditionalExpression MethodInvocation SimpleName xml support
+preserve SimpleName ParenthesizedExpression ConditionalExpression MethodInvocation SimpleName default xml space
+preserve SimpleName ParenthesizedExpression ConditionalExpression MethodInvocation SimpleName result
+xml support SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName xml support
+xml support SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName default xml space
+xml support SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName result
+preserve xml space SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName xml support
+preserve xml space SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName default xml space
+preserve xml space SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName result
+result SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName xml support
+result SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName default xml space
+result SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName result
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get title
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SimpleName get title
+get title SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get title
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get title

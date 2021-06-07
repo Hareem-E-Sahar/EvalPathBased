@@ -1,0 +1,83 @@
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName gn
+boolean PrimitiveType SingleVariableDeclaration SimpleName create dispatcher
+bridge context SimpleName MethodInvocation SimpleName get document size
+dim SimpleName VariableDeclarationFragment MethodInvocation SimpleName bridge context
+dim SimpleName VariableDeclarationFragment MethodInvocation SimpleName get document size
+dimension d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dim
+dim SimpleName MethodInvocation SimpleName get width
+int PrimitiveType CastExpression MethodInvocation SimpleName dim
+int PrimitiveType CastExpression MethodInvocation SimpleName get width
+dim SimpleName MethodInvocation SimpleName get height
+int PrimitiveType CastExpression MethodInvocation SimpleName dim
+int PrimitiveType CastExpression MethodInvocation SimpleName get height
+dimension SimpleName SimpleType ClassInstanceCreation CastExpression PrimitiveType int
+dimension SimpleName SimpleType ClassInstanceCreation CastExpression PrimitiveType int
+int PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+my sz SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dimension
+my sz SimpleName VariableDeclarationFragment ClassInstanceCreation CastExpression PrimitiveType int
+my sz SimpleName VariableDeclarationFragment ClassInstanceCreation CastExpression PrimitiveType int
+dimension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName my sz
+abstract jsvg component SimpleName ThisExpression MethodInvocation SimpleName set my size
+abstract jsvg component SimpleName ThisExpression MethodInvocation SimpleName my sz
+set my size SimpleName MethodInvocation SimpleName my sz
+svg document SimpleName MethodInvocation SimpleName get root element
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg document
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root element
+svgsvg element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+prev component size SimpleName Assignment MethodInvocation SimpleName get size
+calculate viewing transform SimpleName MethodInvocation SimpleName fragment identifier
+calculate viewing transform SimpleName MethodInvocation SimpleName elt
+fragment identifier SimpleName MethodInvocation SimpleName elt
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName calculate viewing transform
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName fragment identifier
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+get canvas graphics node SimpleName MethodInvocation SimpleName gn
+cgn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get canvas graphics node
+cgn SimpleName VariableDeclarationFragment MethodInvocation SimpleName gn
+canvas graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cgn
+cgn SimpleName MethodInvocation SimpleName set viewing transform
+cgn SimpleName MethodInvocation SimpleName at
+set viewing transform SimpleName MethodInvocation SimpleName at
+initial transform SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+set rendering transform SimpleName MethodInvocation SimpleName initial transform
+set rendering transform SimpleName MethodInvocation BooleanLiteral false
+initial transform SimpleName MethodInvocation BooleanLiteral false
+jsvg component listener SimpleName MethodInvocation SimpleName update matrix
+jsvg component listener SimpleName MethodInvocation SimpleName initial transform
+update matrix SimpleName MethodInvocation SimpleName initial transform
+add jgvt component listener SimpleName MethodInvocation SimpleName jsvg component listener
+add component listener SimpleName MethodInvocation SimpleName jsvg component listener
+set graphics node SimpleName SuperMethodInvocation SimpleName gn
+set graphics node SimpleName SuperMethodInvocation SimpleName create dispatcher
+gn SimpleName SuperMethodInvocation SimpleName create dispatcher
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName gn
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName create dispatcher
+void PrimitiveType MethodDeclaration SimpleName set graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName gn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName create dispatcher
+set graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+set graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gn
+set graphics node SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set graphics node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName create dispatcher
+gn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+gn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName create dispatcher
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set graphics node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName create dispatcher
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set graphics node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName create dispatcher

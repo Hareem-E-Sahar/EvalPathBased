@@ -1,0 +1,139 @@
+float PrimitiveType ArrayType ArrayCreation SimpleName count
+all values SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+all values SimpleName VariableDeclarationFragment ArrayCreation SimpleName count
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName all values
+pos SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pos
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+vs SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName vs
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+float PrimitiveType ArrayType CastExpression MethodInvocation SimpleName it
+float PrimitiveType ArrayType CastExpression MethodInvocation SimpleName next
+a SimpleName VariableDeclarationFragment CastExpression ArrayType PrimitiveType float
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName it
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName a
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName all values
+system SimpleName MethodInvocation SimpleName pos
+arraycopy SimpleName MethodInvocation SimpleName a
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName all values
+arraycopy SimpleName MethodInvocation SimpleName pos
+arraycopy SimpleName MethodInvocation QualifiedName alength
+a SimpleName MethodInvocation NumberLiteral empty
+a SimpleName MethodInvocation SimpleName all values
+a SimpleName MethodInvocation SimpleName pos
+a SimpleName MethodInvocation QualifiedName alength
+empty NumberLiteral MethodInvocation SimpleName all values
+empty NumberLiteral MethodInvocation SimpleName pos
+empty NumberLiteral MethodInvocation QualifiedName alength
+all values SimpleName MethodInvocation SimpleName pos
+all values SimpleName MethodInvocation QualifiedName alength
+pos SimpleName MethodInvocation QualifiedName alength
+pos SimpleName Assignment QualifiedName alength
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName v
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName all values
+system SimpleName MethodInvocation SimpleName pos
+arraycopy SimpleName MethodInvocation SimpleName v
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName all values
+arraycopy SimpleName MethodInvocation SimpleName pos
+arraycopy SimpleName MethodInvocation SimpleName index
+v SimpleName MethodInvocation NumberLiteral empty
+v SimpleName MethodInvocation SimpleName all values
+v SimpleName MethodInvocation SimpleName pos
+v SimpleName MethodInvocation SimpleName index
+empty NumberLiteral MethodInvocation SimpleName all values
+empty NumberLiteral MethodInvocation SimpleName pos
+empty NumberLiteral MethodInvocation SimpleName index
+all values SimpleName MethodInvocation SimpleName pos
+all values SimpleName MethodInvocation SimpleName index
+pos SimpleName MethodInvocation SimpleName index
+vs SimpleName MethodInvocation SimpleName clear
+v SimpleName Assignment SimpleName all values
+short PrimitiveType ArrayType ArrayCreation SimpleName count
+all units SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType short
+all units SimpleName VariableDeclarationFragment ArrayCreation SimpleName count
+short PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName all units
+pos SimpleName Assignment NumberLiteral empty
+us SimpleName MethodInvocation SimpleName iterator
+it SimpleName Assignment MethodInvocation SimpleName us
+it SimpleName Assignment MethodInvocation SimpleName iterator
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+short PrimitiveType ArrayType CastExpression MethodInvocation SimpleName it
+short PrimitiveType ArrayType CastExpression MethodInvocation SimpleName next
+a SimpleName VariableDeclarationFragment CastExpression ArrayType PrimitiveType short
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName it
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+short PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName a
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName all units
+system SimpleName MethodInvocation SimpleName pos
+arraycopy SimpleName MethodInvocation SimpleName a
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName all units
+arraycopy SimpleName MethodInvocation SimpleName pos
+arraycopy SimpleName MethodInvocation QualifiedName alength
+a SimpleName MethodInvocation NumberLiteral empty
+a SimpleName MethodInvocation SimpleName all units
+a SimpleName MethodInvocation SimpleName pos
+a SimpleName MethodInvocation QualifiedName alength
+empty NumberLiteral MethodInvocation SimpleName all units
+empty NumberLiteral MethodInvocation SimpleName pos
+empty NumberLiteral MethodInvocation QualifiedName alength
+all units SimpleName MethodInvocation SimpleName pos
+all units SimpleName MethodInvocation QualifiedName alength
+pos SimpleName MethodInvocation QualifiedName alength
+pos SimpleName Assignment QualifiedName alength
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName u
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName all units
+system SimpleName MethodInvocation SimpleName pos
+arraycopy SimpleName MethodInvocation SimpleName u
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName all units
+arraycopy SimpleName MethodInvocation SimpleName pos
+arraycopy SimpleName MethodInvocation SimpleName index
+u SimpleName MethodInvocation NumberLiteral empty
+u SimpleName MethodInvocation SimpleName all units
+u SimpleName MethodInvocation SimpleName pos
+u SimpleName MethodInvocation SimpleName index
+empty NumberLiteral MethodInvocation SimpleName all units
+empty NumberLiteral MethodInvocation SimpleName pos
+empty NumberLiteral MethodInvocation SimpleName index
+all units SimpleName MethodInvocation SimpleName pos
+all units SimpleName MethodInvocation SimpleName index
+pos SimpleName MethodInvocation SimpleName index
+us SimpleName MethodInvocation SimpleName clear
+u SimpleName Assignment SimpleName all units
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName end length list
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName end length list
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+end length list SimpleName MethodDeclaration SimpleType SimpleName parse exception
+end length list SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName end length list
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName end length list
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

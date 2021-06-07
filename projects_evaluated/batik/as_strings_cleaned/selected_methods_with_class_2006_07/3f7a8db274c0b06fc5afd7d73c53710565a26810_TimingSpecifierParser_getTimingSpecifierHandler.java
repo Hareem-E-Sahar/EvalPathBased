@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName timing specifier handler
+public Modifier MethodDeclaration SimpleName get timing specifier handler
+public Modifier MethodDeclaration Block ReturnStatement SimpleName timing specifier handler
+timing specifier handler SimpleName SimpleType MethodDeclaration SimpleName get timing specifier handler
+get timing specifier handler SimpleName MethodDeclaration Block ReturnStatement SimpleName timing specifier handler
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName timing specifier handler
+public Modifier TypeDeclaration MethodDeclaration SimpleName get timing specifier handler
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName timing specifier handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get timing specifier handler

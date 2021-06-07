@@ -1,0 +1,135 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName anim elt
+animation target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pn
+css engine SimpleName MethodInvocation SimpleName get value managers
+vms SimpleName VariableDeclarationFragment MethodInvocation SimpleName css engine
+vms SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value managers
+css engine SimpleName MethodInvocation SimpleName get property index
+css engine SimpleName MethodInvocation SimpleName pn
+get property index SimpleName MethodInvocation SimpleName pn
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName css engine
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property index
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName pn
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName css engine
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pn
+idx SimpleName InfixExpression PrefixExpression NumberLiteral empty
+vms SimpleName ArrayAccess SimpleName idx
+vms SimpleName ArrayAccess MethodInvocation SimpleName get property type
+idx SimpleName ArrayAccess MethodInvocation SimpleName get property type
+type SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName vms
+type SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName idx
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property type
+factories SimpleName ArrayAccess SimpleName type
+factory SimpleName VariableDeclarationFragment ArrayAccess SimpleName factories
+factory SimpleName VariableDeclarationFragment ArrayAccess SimpleName type
+factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName factory
+target SimpleName MethodInvocation SimpleName get element
+target SimpleName MethodInvocation MethodInvocation SimpleName get node name
+get element SimpleName MethodInvocation MethodInvocation SimpleName get node name
+target SimpleName MethodInvocation MethodInvocation ArrayInitializer SimpleName pn
+get element SimpleName MethodInvocation MethodInvocation ArrayInitializer SimpleName pn
+get node name SimpleName MethodInvocation ArrayInitializer SimpleName pn
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName anim elt
+bridge exception SimpleName SimpleType ClassInstanceCreation StringLiteral attributenotanimatable
+ctx SimpleName ClassInstanceCreation SimpleName anim elt
+ctx SimpleName ClassInstanceCreation StringLiteral attributenotanimatable
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName pn
+anim elt SimpleName ClassInstanceCreation StringLiteral attributenotanimatable
+anim elt SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName pn
+attributenotanimatable StringLiteral ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName pn
+target SimpleName MethodInvocation SimpleName get element
+svg stylable element SimpleName SimpleType CastExpression MethodInvocation SimpleName target
+svg stylable element SimpleName SimpleType CastExpression MethodInvocation SimpleName get element
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg stylable element
+e SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName target
+e SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get element
+svg stylable element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get override style
+over SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+over SimpleName VariableDeclarationFragment MethodInvocation SimpleName get override style
+css style declaration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName over
+over SimpleName MethodInvocation SimpleName get property value
+over SimpleName MethodInvocation SimpleName pn
+get property value SimpleName MethodInvocation SimpleName pn
+old value SimpleName VariableDeclarationFragment MethodInvocation SimpleName over
+old value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property value
+old value SimpleName VariableDeclarationFragment MethodInvocation SimpleName pn
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old value
+over SimpleName MethodInvocation SimpleName remove property
+over SimpleName MethodInvocation SimpleName pn
+remove property SimpleName MethodInvocation SimpleName pn
+css engine SimpleName MethodInvocation SimpleName get computed style
+css engine SimpleName MethodInvocation SimpleName e
+css engine SimpleName MethodInvocation SimpleName idx
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation SimpleName idx
+e SimpleName MethodInvocation SimpleName idx
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName css engine
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName idx
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+old value SimpleName MethodInvocation SimpleName equals
+old value SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+over SimpleName MethodInvocation SimpleName set property
+over SimpleName MethodInvocation SimpleName pn
+over SimpleName MethodInvocation SimpleName old value
+set property SimpleName MethodInvocation SimpleName pn
+set property SimpleName MethodInvocation SimpleName old value
+pn SimpleName MethodInvocation SimpleName old value
+factories SimpleName ArrayAccess SimpleName type
+factories SimpleName ArrayAccess MethodInvocation SimpleName create value
+type SimpleName ArrayAccess MethodInvocation SimpleName create value
+factories SimpleName ArrayAccess MethodInvocation SimpleName target
+type SimpleName ArrayAccess MethodInvocation SimpleName target
+factories SimpleName ArrayAccess MethodInvocation SimpleName pn
+type SimpleName ArrayAccess MethodInvocation SimpleName pn
+factories SimpleName ArrayAccess MethodInvocation SimpleName v
+type SimpleName ArrayAccess MethodInvocation SimpleName v
+create value SimpleName MethodInvocation SimpleName target
+create value SimpleName MethodInvocation SimpleName pn
+create value SimpleName MethodInvocation SimpleName v
+target SimpleName MethodInvocation SimpleName pn
+target SimpleName MethodInvocation SimpleName v
+pn SimpleName MethodInvocation SimpleName v
+public Modifier MethodDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SimpleName get underlying css value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName anim elt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pn
+animatable value SimpleName SimpleType MethodDeclaration SimpleName get underlying css value
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName anim elt
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pn
+get underlying css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get underlying css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anim elt
+get underlying css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+get underlying css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+get underlying css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get underlying css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pn
+get underlying css value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+anim elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+anim elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get underlying css value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anim elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get underlying css value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anim elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn

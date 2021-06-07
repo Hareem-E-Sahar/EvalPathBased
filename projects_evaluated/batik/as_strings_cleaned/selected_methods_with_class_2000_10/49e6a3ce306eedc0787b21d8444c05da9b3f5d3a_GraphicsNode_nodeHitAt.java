@@ -1,0 +1,12 @@
+point d SimpleName SimpleType SingleVariableDeclaration SimpleName p
+graphics node SimpleName SimpleType MethodDeclaration SimpleName node hit at
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName p
+node hit at SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+node hit at SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName node hit at
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName node hit at
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p

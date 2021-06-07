@@ -1,0 +1,25 @@
+svg item SimpleName SimpleType SingleVariableDeclaration SimpleName item
+item SimpleName MethodInvocation SimpleName set parent
+item SimpleName MethodInvocation ThisExpression SimpleName abstract svg list
+set parent SimpleName MethodInvocation ThisExpression SimpleName abstract svg list
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation SimpleName item
+add SimpleName MethodInvocation SimpleName item
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName item
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg item
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName item
+void PrimitiveType MethodDeclaration SimpleName item
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg item
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName item
+item SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg item
+item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName item
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName item
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName item

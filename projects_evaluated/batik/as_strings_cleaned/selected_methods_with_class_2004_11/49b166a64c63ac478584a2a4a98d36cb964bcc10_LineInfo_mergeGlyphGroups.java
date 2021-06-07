@@ -1,0 +1,143 @@
+word info SimpleName SimpleType SingleVariableDeclaration SimpleName wi
+wi SimpleName MethodInvocation SimpleName get num glyph groups
+num gg SimpleName VariableDeclarationFragment MethodInvocation SimpleName wi
+num gg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get num glyph groups
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num gg
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName wi
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get num glyph groups
+new size SimpleName Assignment NumberLiteral empty
+new size SimpleName Assignment SimpleName num gg
+glyph group info SimpleName SimpleType ArrayType ArrayCreation SimpleName num gg
+new ggis SimpleName Assignment ArrayCreation SimpleName num gg
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num gg
+new ggis SimpleName ArrayAccess SimpleName i
+wi SimpleName MethodInvocation SimpleName get glyph group
+wi SimpleName MethodInvocation SimpleName i
+get glyph group SimpleName MethodInvocation SimpleName i
+new ggis SimpleName ArrayAccess Assignment MethodInvocation SimpleName wi
+new ggis SimpleName ArrayAccess Assignment MethodInvocation SimpleName get glyph group
+new ggis SimpleName ArrayAccess Assignment MethodInvocation SimpleName i
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName wi
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName get glyph group
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num gg
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num gg SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+s SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+wi SimpleName MethodInvocation SimpleName get glyph group
+wi SimpleName MethodInvocation SimpleName i
+get glyph group SimpleName MethodInvocation SimpleName i
+nggi SimpleName VariableDeclarationFragment MethodInvocation SimpleName wi
+nggi SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph group
+nggi SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+glyph group info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nggi
+nggi SimpleName MethodInvocation SimpleName get start
+n start SimpleName VariableDeclarationFragment MethodInvocation SimpleName nggi
+n start SimpleName VariableDeclarationFragment MethodInvocation SimpleName get start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nggi
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get start
+size SimpleName InfixExpression NumberLiteral empty
+ggis SimpleName ArrayAccess InfixExpression SimpleName size
+ggis SimpleName ArrayAccess InfixExpression NumberLiteral empty
+oggi SimpleName VariableDeclarationFragment ArrayAccess SimpleName ggis
+oggi SimpleName VariableDeclarationFragment ArrayAccess InfixExpression SimpleName size
+oggi SimpleName VariableDeclarationFragment ArrayAccess InfixExpression NumberLiteral empty
+glyph group info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName oggi
+oggi SimpleName MethodInvocation SimpleName get start
+o start SimpleName VariableDeclarationFragment MethodInvocation SimpleName oggi
+o start SimpleName VariableDeclarationFragment MethodInvocation SimpleName get start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName o start
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName oggi
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get start
+size SimpleName InfixExpression SimpleName num gg
+assure size SimpleName MethodInvocation SimpleName new ggis
+assure size SimpleName MethodInvocation InfixExpression SimpleName size
+assure size SimpleName MethodInvocation InfixExpression SimpleName num gg
+new ggis SimpleName MethodInvocation InfixExpression SimpleName size
+new ggis SimpleName MethodInvocation InfixExpression SimpleName num gg
+new ggis SimpleName Assignment MethodInvocation SimpleName assure size
+new ggis SimpleName Assignment MethodInvocation SimpleName new ggis
+new ggis SimpleName Assignment MethodInvocation InfixExpression SimpleName size
+new ggis SimpleName Assignment MethodInvocation InfixExpression SimpleName num gg
+n start SimpleName InfixExpression SimpleName o start
+ggis SimpleName ArrayAccess SimpleName s
+oggi SimpleName Assignment ArrayAccess SimpleName ggis
+oggi SimpleName Assignment ArrayAccess SimpleName s
+oggi SimpleName MethodInvocation SimpleName get start
+o start SimpleName Assignment MethodInvocation SimpleName oggi
+o start SimpleName Assignment MethodInvocation SimpleName get start
+s SimpleName InfixExpression SimpleName size
+i SimpleName InfixExpression SimpleName num gg
+n start SimpleName InfixExpression SimpleName o start
+new ggis SimpleName ArrayAccess PostfixExpression SimpleName new size
+new ggis SimpleName ArrayAccess Assignment SimpleName nggi
+new size SimpleName PostfixExpression ArrayAccess Assignment SimpleName nggi
+i SimpleName InfixExpression SimpleName num gg
+wi SimpleName MethodInvocation SimpleName get glyph group
+wi SimpleName MethodInvocation SimpleName i
+get glyph group SimpleName MethodInvocation SimpleName i
+nggi SimpleName Assignment MethodInvocation SimpleName wi
+nggi SimpleName Assignment MethodInvocation SimpleName get glyph group
+nggi SimpleName Assignment MethodInvocation SimpleName i
+nggi SimpleName MethodInvocation SimpleName get start
+n start SimpleName Assignment MethodInvocation SimpleName nggi
+n start SimpleName Assignment MethodInvocation SimpleName get start
+new ggis SimpleName ArrayAccess PostfixExpression SimpleName new size
+new ggis SimpleName ArrayAccess Assignment SimpleName oggi
+new size SimpleName PostfixExpression ArrayAccess Assignment SimpleName oggi
+s SimpleName InfixExpression SimpleName size
+ggis SimpleName ArrayAccess SimpleName s
+oggi SimpleName Assignment ArrayAccess SimpleName ggis
+oggi SimpleName Assignment ArrayAccess SimpleName s
+oggi SimpleName MethodInvocation SimpleName get start
+o start SimpleName Assignment MethodInvocation SimpleName oggi
+o start SimpleName Assignment MethodInvocation SimpleName get start
+s SimpleName InfixExpression SimpleName size
+new ggis SimpleName ArrayAccess PostfixExpression SimpleName new size
+ggis SimpleName ArrayAccess PostfixExpression SimpleName s
+new ggis SimpleName ArrayAccess Assignment ArrayAccess SimpleName ggis
+i SimpleName InfixExpression SimpleName num gg
+new ggis SimpleName ArrayAccess PostfixExpression SimpleName new size
+wi SimpleName MethodInvocation SimpleName get glyph group
+wi SimpleName MethodInvocation PostfixExpression SimpleName i
+get glyph group SimpleName MethodInvocation PostfixExpression SimpleName i
+new ggis SimpleName ArrayAccess Assignment MethodInvocation SimpleName wi
+new ggis SimpleName ArrayAccess Assignment MethodInvocation SimpleName get glyph group
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName merge glyph groups
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName word info
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName wi
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName merge glyph groups
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName word info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName wi
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+merge glyph groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName word info
+merge glyph groups SimpleName MethodDeclaration SingleVariableDeclaration SimpleName wi
+merge glyph groups SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName merge glyph groups
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wi
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName merge glyph groups
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wi

@@ -1,0 +1,24 @@
+point ddouble QualifiedName SimpleType ClassInstanceCreation QualifiedName p x
+point ddouble QualifiedName SimpleType ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation QualifiedName p y
+point ddouble QualifiedName SimpleType ClassInstanceCreation QualifiedName p x
+point ddouble QualifiedName SimpleType ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation QualifiedName p y
+linear SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+linear SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+linear SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+linear SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+public Modifier MethodDeclaration SimpleType SimpleName segment
+public Modifier MethodDeclaration SimpleName reverse
+segment SimpleName SimpleType MethodDeclaration SimpleName reverse
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName segment
+public Modifier TypeDeclaration MethodDeclaration SimpleName reverse
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName segment
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reverse

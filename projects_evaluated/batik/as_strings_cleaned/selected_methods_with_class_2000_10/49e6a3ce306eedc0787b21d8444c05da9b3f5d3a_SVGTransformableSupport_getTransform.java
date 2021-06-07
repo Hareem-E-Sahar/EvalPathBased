@@ -1,0 +1,19 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! todo svg transformable supportget transform
+public Modifier MethodDeclaration SimpleType SimpleName svg animated transform list
+public Modifier MethodDeclaration SimpleName get transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+svg animated transform list SimpleName SimpleType MethodDeclaration SimpleName get transform
+svg animated transform list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+get transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated transform list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated transform list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt

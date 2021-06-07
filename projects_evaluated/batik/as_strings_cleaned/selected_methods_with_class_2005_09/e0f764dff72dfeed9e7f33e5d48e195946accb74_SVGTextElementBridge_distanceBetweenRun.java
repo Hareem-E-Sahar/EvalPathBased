@@ -1,0 +1,70 @@
+character information SimpleName SimpleType SingleVariableDeclaration SimpleName last
+character information SimpleName SimpleType SingleVariableDeclaration SimpleName first
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName distance
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName start point
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end point
+info SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName character information
+character information SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName info
+infolayout QualifiedName Assignment QualifiedName lastlayout
+lastlayout QualifiedName MethodInvocation SimpleName get glyph count
+lastlayout QualifiedName MethodInvocation InfixExpression NumberLiteral empty
+get glyph count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+infoglyph index end QualifiedName Assignment InfixExpression MethodInvocation QualifiedName lastlayout
+infoglyph index end QualifiedName Assignment InfixExpression MethodInvocation SimpleName get glyph count
+infoglyph index end QualifiedName Assignment InfixExpression NumberLiteral empty
+get end point SimpleName MethodInvocation SimpleName info
+start point SimpleName Assignment MethodInvocation SimpleName get end point
+start point SimpleName Assignment MethodInvocation SimpleName info
+infolayout QualifiedName Assignment QualifiedName firstlayout
+infoglyph index start QualifiedName Assignment NumberLiteral empty
+get start point SimpleName MethodInvocation SimpleName info
+end point SimpleName Assignment MethodInvocation SimpleName get start point
+end point SimpleName Assignment MethodInvocation SimpleName info
+first SimpleName MethodInvocation SimpleName is vertical
+end point SimpleName MethodInvocation SimpleName get y
+start point SimpleName MethodInvocation SimpleName get y
+end point SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName start point
+end point SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName start point
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+distance SimpleName Assignment CastExpression PrimitiveType float
+end point SimpleName MethodInvocation SimpleName get x
+start point SimpleName MethodInvocation SimpleName get x
+end point SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName start point
+end point SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName start point
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+distance SimpleName Assignment CastExpression PrimitiveType float
+protected Modifier MethodDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SimpleName distance between run
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName character information
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName last
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName character information
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName first
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName distance
+float PrimitiveType MethodDeclaration SimpleName distance between run
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName character information
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName last
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName character information
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName first
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType MethodDeclaration Block ReturnStatement SimpleName distance
+distance between run SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName character information
+distance between run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName last
+distance between run SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName character information
+distance between run SimpleName MethodDeclaration SingleVariableDeclaration SimpleName first
+distance between run SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+distance between run SimpleName MethodDeclaration Block ReturnStatement SimpleName distance
+last SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName first
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName distance between run
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName first
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName distance between run
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName last
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName first

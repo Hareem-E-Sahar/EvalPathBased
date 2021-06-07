@@ -1,0 +1,103 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+get live attribute value SimpleName MethodInvocation SimpleName name
+css value SimpleName SimpleType CastExpression MethodInvocation SimpleName get live attribute value
+css value SimpleName SimpleType CastExpression MethodInvocation SimpleName name
+result SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css value
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get live attribute value
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName name
+css value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName InfixExpression IfStatement ReturnStatement SimpleName result
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css engine
+css engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eng
+eng SimpleName MethodInvocation SimpleName get property index
+eng SimpleName MethodInvocation SimpleName name
+get property index SimpleName MethodInvocation SimpleName name
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName eng
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property index
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName eng
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+idx SimpleName InfixExpression PrefixExpression NumberLiteral empty
+idx SimpleName InfixExpression QualifiedName svgcss enginefinal index
+eng SimpleName MethodInvocation SimpleName get value managers
+eng SimpleName MethodInvocation ArrayAccess SimpleName idx
+get value managers SimpleName MethodInvocation ArrayAccess SimpleName idx
+idx SimpleName ArrayAccess InstanceofExpression SimpleType SimpleName svg paint manager
+presentation attribute paint value SimpleName SimpleType ClassInstanceCreation SimpleName eng
+presentation attribute paint value SimpleName SimpleType ClassInstanceCreation SimpleName name
+eng SimpleName ClassInstanceCreation SimpleName name
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName presentation attribute paint value
+result SimpleName Assignment ClassInstanceCreation SimpleName eng
+result SimpleName Assignment ClassInstanceCreation SimpleName name
+eng SimpleName MethodInvocation SimpleName get value managers
+eng SimpleName MethodInvocation ArrayAccess SimpleName idx
+get value managers SimpleName MethodInvocation ArrayAccess SimpleName idx
+idx SimpleName ArrayAccess InstanceofExpression SimpleType SimpleName svg color manager
+presentation attribute color value SimpleName SimpleType ClassInstanceCreation SimpleName eng
+presentation attribute color value SimpleName SimpleType ClassInstanceCreation SimpleName name
+eng SimpleName ClassInstanceCreation SimpleName name
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName presentation attribute color value
+result SimpleName Assignment ClassInstanceCreation SimpleName eng
+result SimpleName Assignment ClassInstanceCreation SimpleName name
+presentation attribute paint value SimpleName SimpleType ClassInstanceCreation SimpleName eng
+presentation attribute paint value SimpleName SimpleType ClassInstanceCreation SimpleName name
+eng SimpleName ClassInstanceCreation SimpleName name
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName presentation attribute paint value
+result SimpleName Assignment ClassInstanceCreation SimpleName eng
+result SimpleName Assignment ClassInstanceCreation SimpleName name
+presentation attribute color value SimpleName SimpleType ClassInstanceCreation SimpleName eng
+presentation attribute color value SimpleName SimpleType ClassInstanceCreation SimpleName name
+eng SimpleName ClassInstanceCreation SimpleName name
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName presentation attribute color value
+result SimpleName Assignment ClassInstanceCreation SimpleName eng
+result SimpleName Assignment ClassInstanceCreation SimpleName name
+presentation attribute value SimpleName SimpleType ClassInstanceCreation SimpleName eng
+presentation attribute value SimpleName SimpleType ClassInstanceCreation SimpleName name
+eng SimpleName ClassInstanceCreation SimpleName name
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName presentation attribute value
+result SimpleName Assignment ClassInstanceCreation SimpleName eng
+result SimpleName Assignment ClassInstanceCreation SimpleName name
+idx SimpleName SwitchStatement SwitchCase QualifiedName svgcss enginefill index
+idx SimpleName SwitchStatement SwitchCase QualifiedName svgcss enginestroke index
+idx SimpleName SwitchStatement ExpressionStatement Assignment SimpleName result
+idx SimpleName SwitchStatement SwitchCase QualifiedName svgcss engineflood color index
+svgcss enginefill index QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svgcss enginestroke index
+svgcss enginefill index QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svgcss engineflood color index
+svgcss enginefill index QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svgcss enginelighting color index
+svgcss enginestroke index QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svgcss engineflood color index
+svgcss enginestroke index QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svgcss enginelighting color index
+svgcss enginestroke index QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svgcss enginestop color index
+svgcss engineflood color index QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svgcss enginelighting color index
+svgcss engineflood color index QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svgcss enginestop color index
+svgcss enginelighting color index QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svgcss enginestop color index
+live attribute value SimpleName SimpleType CastExpression SimpleName result
+put live attribute value SimpleName MethodInvocation SimpleName name
+put live attribute value SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+put live attribute value SimpleName MethodInvocation CastExpression SimpleName result
+name SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+name SimpleName MethodInvocation CastExpression SimpleName result
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration SimpleType SimpleName css value
+public Modifier MethodDeclaration SimpleName get presentation attribute
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+css value SimpleName SimpleType MethodDeclaration SimpleName get presentation attribute
+css value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get presentation attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get presentation attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get presentation attribute SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get presentation attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get presentation attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get presentation attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

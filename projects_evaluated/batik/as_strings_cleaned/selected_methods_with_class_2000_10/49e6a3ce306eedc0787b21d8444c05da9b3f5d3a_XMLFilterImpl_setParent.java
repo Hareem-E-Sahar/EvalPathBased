@@ -1,0 +1,21 @@
+xml reader SimpleName SimpleType SingleVariableDeclaration SimpleName parent
+null pointer exception SimpleName SimpleType ClassInstanceCreation StringLiteral null parent
+parent SimpleName FieldAccess Assignment SimpleName parent
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set parent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xml reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName parent
+void PrimitiveType MethodDeclaration SimpleName set parent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xml reader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName parent
+set parent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xml reader
+set parent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName parent
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set parent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set parent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName parent

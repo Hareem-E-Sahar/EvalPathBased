@@ -1,0 +1,25 @@
+float PrimitiveType SingleVariableDeclaration SimpleName margin
+top SimpleName FieldAccess Assignment SimpleName margin
+right SimpleName FieldAccess Assignment SimpleName margin
+bottom SimpleName FieldAccess Assignment SimpleName margin
+left SimpleName FieldAccess Assignment SimpleName margin
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set margin
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName margin
+void PrimitiveType MethodDeclaration SimpleName set margin
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName margin
+set margin SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set margin SimpleName MethodDeclaration SingleVariableDeclaration SimpleName margin
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set margin
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName margin
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set margin
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName margin

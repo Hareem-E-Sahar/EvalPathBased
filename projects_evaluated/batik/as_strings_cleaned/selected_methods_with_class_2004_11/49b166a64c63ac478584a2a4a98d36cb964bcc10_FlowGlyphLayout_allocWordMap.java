@@ -1,0 +1,76 @@
+int PrimitiveType ArrayType SingleVariableDeclaration SimpleName word map
+int PrimitiveType SingleVariableDeclaration SimpleName sz
+sz SimpleName InfixExpression QualifiedName word maplength
+sz SimpleName InfixExpression IfStatement ReturnStatement SimpleName word map
+word maplength QualifiedName InfixExpression IfStatement ReturnStatement SimpleName word map
+word maplength QualifiedName InfixExpression NumberLiteral empty
+sz SimpleName InfixExpression InfixExpression QualifiedName word maplength
+sz SimpleName InfixExpression InfixExpression NumberLiteral empty
+word maplength QualifiedName InfixExpression NumberLiteral empty
+sz SimpleName Assignment InfixExpression QualifiedName word maplength
+sz SimpleName Assignment InfixExpression NumberLiteral empty
+int PrimitiveType ArrayType ArrayCreation SimpleName sz
+ret SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+ret SimpleName VariableDeclarationFragment ArrayCreation SimpleName sz
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ext SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ext
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+ext SimpleName Assignment QualifiedName word maplength
+sz SimpleName InfixExpression SimpleName ext
+ext SimpleName Assignment SimpleName sz
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName ext
+ret SimpleName ArrayAccess SimpleName i
+word map SimpleName ArrayAccess SimpleName i
+ret SimpleName ArrayAccess Assignment ArrayAccess SimpleName word map
+ret SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName word map
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+ext SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression SimpleName sz
+ret SimpleName ArrayAccess SimpleName i
+ret SimpleName ArrayAccess Assignment PrefixExpression NumberLiteral empty
+i SimpleName ArrayAccess Assignment PrefixExpression NumberLiteral empty
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sz SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ArrayType PrimitiveType int
+static Modifier MethodDeclaration SimpleName alloc word map
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName word map
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sz
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+int PrimitiveType ArrayType MethodDeclaration SimpleName alloc word map
+int PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName word map
+int PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName sz
+alloc word map SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+alloc word map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName word map
+alloc word map SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+alloc word map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sz
+alloc word map SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+alloc word map SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+alloc word map SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+word map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+word map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sz
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName alloc word map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName word map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sz
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName alloc word map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName word map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sz

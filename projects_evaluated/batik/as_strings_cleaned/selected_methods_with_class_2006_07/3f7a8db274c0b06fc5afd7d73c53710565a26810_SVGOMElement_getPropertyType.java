@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pn
+abstract stylable document SimpleName SimpleType CastExpression SimpleName owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract stylable document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleName owner document
+abstract stylable document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get css engine
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css engine
+css engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eng
+eng SimpleName MethodInvocation SimpleName get property index
+eng SimpleName MethodInvocation SimpleName pn
+get property index SimpleName MethodInvocation SimpleName pn
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName eng
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property index
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName pn
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName eng
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pn
+idx SimpleName InfixExpression PrefixExpression NumberLiteral empty
+eng SimpleName MethodInvocation SimpleName get value managers
+vms SimpleName VariableDeclarationFragment MethodInvocation SimpleName eng
+vms SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value managers
+vms SimpleName ArrayAccess SimpleName idx
+vms SimpleName ArrayAccess MethodInvocation SimpleName get property type
+idx SimpleName ArrayAccess MethodInvocation SimpleName get property type
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement QualifiedName svg typestype unknown
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get property type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pn
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName svg typestype unknown
+int PrimitiveType MethodDeclaration SimpleName get property type
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pn
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement QualifiedName svg typestype unknown
+get property type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get property type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pn
+get property type SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get property type SimpleName MethodDeclaration Block ReturnStatement QualifiedName svg typestype unknown
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn

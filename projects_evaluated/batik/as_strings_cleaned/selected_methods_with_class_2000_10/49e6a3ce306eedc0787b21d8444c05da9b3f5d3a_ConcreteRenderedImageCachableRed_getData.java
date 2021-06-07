@@ -1,0 +1,21 @@
+rectangle SimpleName SimpleType SingleVariableDeclaration SimpleName rect
+src SimpleName MethodInvocation SimpleName get data
+src SimpleName MethodInvocation SimpleName rect
+get data SimpleName MethodInvocation SimpleName rect
+public Modifier MethodDeclaration SimpleType SimpleName raster
+public Modifier MethodDeclaration SimpleName get data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rect
+raster SimpleName SimpleType MethodDeclaration SimpleName get data
+raster SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rect
+get data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rectangle
+get data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rect
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName raster
+public Modifier TypeDeclaration MethodDeclaration SimpleName get data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rect
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName raster
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rect

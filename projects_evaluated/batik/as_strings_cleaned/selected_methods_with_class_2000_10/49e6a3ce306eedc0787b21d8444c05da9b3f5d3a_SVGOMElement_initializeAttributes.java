@@ -1,0 +1,69 @@
+element default values SimpleName MethodInvocation SimpleName get
+element default values SimpleName MethodInvocation MethodInvocation SimpleName get local name
+get SimpleName MethodInvocation MethodInvocation SimpleName get local name
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName element default values
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+m SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+m SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName element default values
+m SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName key set
+m SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName m
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key set
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+m SimpleName MethodInvocation SimpleName get
+m SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName m
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+map SimpleName SimpleType CastExpression MethodInvocation SimpleName key
+n SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName map
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName m
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName key
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName key set
+n SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName n
+it SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key set
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+key SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+n SimpleName MethodInvocation SimpleName get
+n SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+set default attribute value SimpleName MethodInvocation SimpleName key
+set default attribute value SimpleName MethodInvocation SimpleName key
+set default attribute value SimpleName MethodInvocation MethodInvocation SimpleName n
+set default attribute value SimpleName MethodInvocation MethodInvocation SimpleName get
+set default attribute value SimpleName MethodInvocation MethodInvocation SimpleName key
+key SimpleName MethodInvocation SimpleName key
+key SimpleName MethodInvocation MethodInvocation SimpleName n
+key SimpleName MethodInvocation MethodInvocation SimpleName get
+key SimpleName MethodInvocation MethodInvocation SimpleName key
+key SimpleName MethodInvocation MethodInvocation SimpleName n
+key SimpleName MethodInvocation MethodInvocation SimpleName get
+key SimpleName MethodInvocation MethodInvocation SimpleName key
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName initialize attributes
+void PrimitiveType MethodDeclaration SimpleName initialize attributes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize attributes

@@ -1,0 +1,10 @@
+condition SimpleName SimpleType MethodDeclaration SimpleName create only child condition
+condition SimpleName SimpleType MethodDeclaration SimpleType SimpleName css exception
+create only child condition SimpleName MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName condition
+public Modifier TypeDeclaration MethodDeclaration SimpleName create only child condition
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName condition
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create only child condition
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

@@ -1,0 +1,44 @@
+int PrimitiveType SingleVariableDeclaration SimpleName yloc
+yloc SimpleName InfixExpression SimpleName tile grid y off
+tgy SimpleName VariableDeclarationFragment InfixExpression SimpleName yloc
+tgy SimpleName VariableDeclarationFragment InfixExpression SimpleName tile grid y off
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tgy
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName yloc
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName tile grid y off
+tgy SimpleName InfixExpression NumberLiteral empty
+tgy SimpleName InfixExpression SimpleName tile height
+tgy SimpleName InfixExpression SimpleName tile height
+tgy SimpleName InfixExpression InfixExpression NumberLiteral empty
+tile height SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ParenthesizedExpression InfixExpression SimpleName tile height
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get y tile
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName yloc
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration PrimitiveType int
+final Modifier MethodDeclaration SimpleName get y tile
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName yloc
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration SimpleName get y tile
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName yloc
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get y tile SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get y tile SimpleName MethodDeclaration SingleVariableDeclaration SimpleName yloc
+get y tile SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get y tile
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName yloc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get y tile
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName yloc

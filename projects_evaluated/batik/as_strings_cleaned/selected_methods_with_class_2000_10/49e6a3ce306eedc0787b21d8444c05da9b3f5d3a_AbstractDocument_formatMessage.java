@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+object SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+localizable support SimpleName MethodInvocation SimpleName format message
+localizable support SimpleName MethodInvocation SimpleName key
+localizable support SimpleName MethodInvocation SimpleName args
+format message SimpleName MethodInvocation SimpleName key
+format message SimpleName MethodInvocation SimpleName args
+key SimpleName MethodInvocation SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName format message
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier MethodDeclaration SimpleType SimpleName missing resource exception
+string SimpleName SimpleType MethodDeclaration SimpleName format message
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName missing resource exception
+format message SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+format message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+format message SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+format message SimpleName MethodDeclaration SimpleType SimpleName missing resource exception
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+key SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+args SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName format message
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName missing resource exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName format message
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName missing resource exception

@@ -1,0 +1,22 @@
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+svg user agent SimpleName MethodInvocation SimpleName display error
+svg user agent SimpleName MethodInvocation SimpleName ex
+display error SimpleName MethodInvocation SimpleName ex
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName display error
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ex
+void PrimitiveType MethodDeclaration SimpleName display error
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ex
+display error SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName exception
+display error SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ex
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName display error
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ex
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName display error
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ex

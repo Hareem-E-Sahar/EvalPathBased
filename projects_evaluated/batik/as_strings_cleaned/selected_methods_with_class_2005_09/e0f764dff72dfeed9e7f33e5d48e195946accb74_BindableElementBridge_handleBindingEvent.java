@@ -1,0 +1,47 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName bindable element
+element SimpleName SimpleType SingleVariableDeclaration SimpleName shadow tree
+node SimpleName MethodInvocation SimpleName get parent
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent
+composite graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn
+gn SimpleName MethodInvocation SimpleName remove
+gn SimpleName MethodInvocation SimpleName node
+remove SimpleName MethodInvocation SimpleName node
+dispose tree SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SimpleName get parent node
+handle element added SimpleName MethodInvocation SimpleName gn
+handle element added SimpleName MethodInvocation MethodInvocation SimpleName e
+handle element added SimpleName MethodInvocation MethodInvocation SimpleName get parent node
+handle element added SimpleName MethodInvocation SimpleName e
+gn SimpleName MethodInvocation MethodInvocation SimpleName e
+gn SimpleName MethodInvocation MethodInvocation SimpleName get parent node
+gn SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation MethodInvocation SimpleName e
+get parent node SimpleName MethodInvocation MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle binding event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName bindable element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName shadow tree
+void PrimitiveType MethodDeclaration SimpleName handle binding event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bindable element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shadow tree
+handle binding event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+handle binding event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bindable element
+handle binding event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+handle binding event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shadow tree
+bindable element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shadow tree
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle binding event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bindable element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shadow tree
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle binding event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bindable element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shadow tree

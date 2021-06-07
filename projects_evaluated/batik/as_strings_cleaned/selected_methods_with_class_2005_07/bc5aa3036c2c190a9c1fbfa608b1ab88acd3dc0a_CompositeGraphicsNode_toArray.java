@@ -1,0 +1,40 @@
+object SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName a
+alength QualifiedName InfixExpression SimpleName count
+graphics node SimpleName SimpleType ArrayType ArrayCreation SimpleName count
+a SimpleName Assignment ArrayCreation SimpleName count
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName children
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName a
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName children
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName a
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName count
+children SimpleName MethodInvocation NumberLiteral empty
+children SimpleName MethodInvocation SimpleName a
+children SimpleName MethodInvocation NumberLiteral empty
+children SimpleName MethodInvocation SimpleName count
+empty NumberLiteral MethodInvocation SimpleName a
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName count
+a SimpleName MethodInvocation NumberLiteral empty
+a SimpleName MethodInvocation SimpleName count
+empty NumberLiteral MethodInvocation SimpleName count
+alength QualifiedName InfixExpression SimpleName count
+a SimpleName ArrayAccess SimpleName count
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName to array
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier MethodDeclaration Block ReturnStatement SimpleName a
+object SimpleName SimpleType ArrayType MethodDeclaration SimpleName to array
+to array SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+to array SimpleName MethodDeclaration Block ReturnStatement SimpleName a
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName to array
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to array
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a

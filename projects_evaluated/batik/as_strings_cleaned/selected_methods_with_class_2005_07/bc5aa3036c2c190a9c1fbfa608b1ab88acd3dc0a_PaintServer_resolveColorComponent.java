@@ -1,0 +1,84 @@
+value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+v SimpleName MethodInvocation SimpleName get primitive type
+v SimpleName MethodInvocation SimpleName get float value
+f SimpleName Assignment MethodInvocation SimpleName v
+f SimpleName Assignment MethodInvocation SimpleName get float value
+f SimpleName InfixExpression NumberLiteral f
+f SimpleName InfixExpression NumberLiteral f
+f SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName f
+f NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName f
+f NumberLiteral ConditionalExpression SimpleName f
+f SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f NumberLiteral ConditionalExpression ConditionalExpression NumberLiteral f
+f NumberLiteral ConditionalExpression ConditionalExpression SimpleName f
+f SimpleName Assignment ConditionalExpression NumberLiteral f
+f SimpleName Assignment ConditionalExpression ConditionalExpression NumberLiteral f
+f SimpleName Assignment ConditionalExpression ConditionalExpression SimpleName f
+f NumberLiteral InfixExpression SimpleName f
+f NumberLiteral InfixExpression InfixExpression NumberLiteral f
+f SimpleName InfixExpression InfixExpression NumberLiteral f
+math SimpleName MethodInvocation SimpleName round
+math SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral f
+math SimpleName MethodInvocation InfixExpression InfixExpression SimpleName f
+math SimpleName MethodInvocation InfixExpression NumberLiteral f
+round SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral f
+round SimpleName MethodInvocation InfixExpression InfixExpression SimpleName f
+round SimpleName MethodInvocation InfixExpression NumberLiteral f
+v SimpleName MethodInvocation SimpleName get float value
+f SimpleName Assignment MethodInvocation SimpleName v
+f SimpleName Assignment MethodInvocation SimpleName get float value
+f SimpleName InfixExpression NumberLiteral f
+f SimpleName InfixExpression NumberLiteral f
+f SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName f
+f NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression SimpleName f
+f NumberLiteral ConditionalExpression SimpleName f
+f SimpleName InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f NumberLiteral InfixExpression ParenthesizedExpression ConditionalExpression NumberLiteral f
+f NumberLiteral ConditionalExpression ConditionalExpression NumberLiteral f
+f NumberLiteral ConditionalExpression ConditionalExpression SimpleName f
+f SimpleName Assignment ConditionalExpression NumberLiteral f
+f SimpleName Assignment ConditionalExpression ConditionalExpression NumberLiteral f
+f SimpleName Assignment ConditionalExpression ConditionalExpression SimpleName f
+math SimpleName MethodInvocation SimpleName round
+math SimpleName MethodInvocation SimpleName f
+round SimpleName MethodInvocation SimpleName f
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss percentage
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss percentage
+v SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss number
+get primitive type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css primitive valuecss number
+css primitive valuecss percentage QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss number
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName resolve color component
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName resolve color component
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+int PrimitiveType MethodDeclaration SimpleName resolve color component
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+resolve color component SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+resolve color component SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+resolve color component SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve color component
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve color component
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

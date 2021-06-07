@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName composite
+public Modifier MethodDeclaration SimpleName get composite
+public Modifier MethodDeclaration Block ReturnStatement SimpleName composite
+composite SimpleName SimpleType MethodDeclaration SimpleName get composite
+get composite SimpleName MethodDeclaration Block ReturnStatement SimpleName composite
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName composite
+public Modifier TypeDeclaration MethodDeclaration SimpleName get composite
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName composite
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get composite

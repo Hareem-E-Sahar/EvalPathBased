@@ -1,0 +1,39 @@
+graphics node mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+button SimpleName VariableDeclarationFragment NumberLiteral empty
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName button
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+evt SimpleName MethodInvocation SimpleName get modifiers
+graphics node mouse eventbutton mask QualifiedName InfixExpression MethodInvocation SimpleName evt
+graphics node mouse eventbutton mask QualifiedName InfixExpression MethodInvocation SimpleName get modifiers
+graphics node mouse eventbutton mask QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+button SimpleName Assignment NumberLiteral empty
+evt SimpleName MethodInvocation SimpleName get modifiers
+graphics node mouse eventbutton mask QualifiedName InfixExpression MethodInvocation SimpleName evt
+graphics node mouse eventbutton mask QualifiedName InfixExpression MethodInvocation SimpleName get modifiers
+graphics node mouse eventbutton mask QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+button SimpleName Assignment NumberLiteral empty
+short PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName button
+protected Modifier MethodDeclaration PrimitiveType short
+protected Modifier MethodDeclaration SimpleName get button
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType short
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName button
+short PrimitiveType MethodDeclaration SimpleName get button
+short PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+short PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+short PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType short
+short PrimitiveType MethodDeclaration Block ReturnStatement SimpleName button
+get button SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+get button SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+get button SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType short
+get button SimpleName MethodDeclaration Block ReturnStatement SimpleName button
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName get button
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get button
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

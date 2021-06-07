@@ -1,0 +1,92 @@
+sample model SimpleName SimpleType SingleVariableDeclaration SimpleName sm
+sm SimpleName MethodInvocation SimpleName get data type
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName sm
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName get data type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sm
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get data type
+sm SimpleName MethodInvocation SimpleName get num bands
+bands SimpleName VariableDeclarationFragment MethodInvocation SimpleName sm
+bands SimpleName VariableDeclarationFragment MethodInvocation SimpleName get num bands
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName bands
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sm
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get num bands
+component color model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+type SimpleName InfixExpression QualifiedName data buffertype byte
+cm SimpleName Assignment SimpleName color model gray
+cm SimpleName Assignment SimpleName color model gray alpha
+cm SimpleName Assignment SimpleName color model rgb
+cm SimpleName Assignment SimpleName color model rgba
+bands SimpleName SwitchStatement SwitchCase NumberLiteral empty
+bands SimpleName SwitchStatement ExpressionStatement Assignment SimpleName cm
+bands SimpleName SwitchStatement ExpressionStatement Assignment SimpleName color model gray
+bands SimpleName SwitchStatement SwitchCase NumberLiteral empty
+bands SimpleName SwitchStatement ExpressionStatement Assignment SimpleName cm
+bands SimpleName SwitchStatement ExpressionStatement Assignment SimpleName color model gray alpha
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+type SimpleName InfixExpression QualifiedName data buffertype ushort
+cm SimpleName Assignment SimpleName color model gray
+cm SimpleName Assignment SimpleName color model gray alpha
+cm SimpleName Assignment SimpleName color model rgb
+cm SimpleName Assignment SimpleName color model rgba
+bands SimpleName SwitchStatement SwitchCase NumberLiteral empty
+bands SimpleName SwitchStatement ExpressionStatement Assignment SimpleName cm
+bands SimpleName SwitchStatement ExpressionStatement Assignment SimpleName color model gray
+bands SimpleName SwitchStatement SwitchCase NumberLiteral empty
+bands SimpleName SwitchStatement ExpressionStatement Assignment SimpleName cm
+bands SimpleName SwitchStatement ExpressionStatement Assignment SimpleName color model gray alpha
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+type SimpleName InfixExpression QualifiedName data buffertype int
+cm SimpleName Assignment SimpleName color model gray
+cm SimpleName Assignment SimpleName color model gray alpha
+cm SimpleName Assignment SimpleName color model rgb
+cm SimpleName Assignment SimpleName color model rgba
+bands SimpleName SwitchStatement SwitchCase NumberLiteral empty
+bands SimpleName SwitchStatement ExpressionStatement Assignment SimpleName cm
+bands SimpleName SwitchStatement ExpressionStatement Assignment SimpleName color model gray
+bands SimpleName SwitchStatement SwitchCase NumberLiteral empty
+bands SimpleName SwitchStatement ExpressionStatement Assignment SimpleName cm
+bands SimpleName SwitchStatement ExpressionStatement Assignment SimpleName color model gray alpha
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName cm
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName cm
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName color model
+public Modifier MethodDeclaration SimpleName create component color model
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sample model
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sm
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cm
+static Modifier MethodDeclaration SimpleType SimpleName color model
+static Modifier MethodDeclaration SimpleName create component color model
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sample model
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName sm
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName cm
+color model SimpleName SimpleType MethodDeclaration SimpleName create component color model
+color model SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName sm
+create component color model SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sample model
+create component color model SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sm
+create component color model SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+create component color model SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+create component color model SimpleName MethodDeclaration Block ReturnStatement SimpleName cm
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName color model
+public Modifier TypeDeclaration MethodDeclaration SimpleName create component color model
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sm
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName color model
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create component color model
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sm

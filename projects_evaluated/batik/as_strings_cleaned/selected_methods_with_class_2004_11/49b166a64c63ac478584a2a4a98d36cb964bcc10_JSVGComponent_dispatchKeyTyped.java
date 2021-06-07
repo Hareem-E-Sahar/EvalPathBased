@@ -1,0 +1,40 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName key event
+final Modifier SingleVariableDeclaration SimpleName e
+key event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+dispatch key typed SimpleName SuperMethodInvocation SimpleName e
+update manager SimpleName MethodInvocation SimpleName is running
+update manager SimpleName InfixExpression InfixExpression MethodInvocation SimpleName update manager
+update manager SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is running
+update manager SimpleName MethodInvocation SimpleName get update runnable queue
+event dispatcher SimpleName MethodInvocation SimpleName key typed
+event dispatcher SimpleName MethodInvocation SimpleName e
+key typed SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+update manager SimpleName MethodInvocation MethodInvocation SimpleName invoke later
+get update runnable queue SimpleName MethodInvocation MethodInvocation SimpleName invoke later
+invoke later SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName dispatch key typed
+protected Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName dispatch key typed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+dispatch key typed SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+dispatch key typed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName key event
+dispatch key typed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch key typed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch key typed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

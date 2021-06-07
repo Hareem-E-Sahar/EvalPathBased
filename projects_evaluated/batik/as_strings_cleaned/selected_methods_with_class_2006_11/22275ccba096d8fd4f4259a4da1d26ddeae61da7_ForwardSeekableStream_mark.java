@@ -1,0 +1,40 @@
+int PrimitiveType SingleVariableDeclaration SimpleName read limit
+mark pos SimpleName Assignment SimpleName pointer
+src SimpleName MethodInvocation SimpleName mark
+src SimpleName MethodInvocation SimpleName read limit
+mark SimpleName MethodInvocation SimpleName read limit
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mark
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName read limit
+final Modifier MethodDeclaration Modifier synchronized
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName mark
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName read limit
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName mark
+synchronized Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName read limit
+void PrimitiveType MethodDeclaration SimpleName mark
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName read limit
+mark SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+mark SimpleName MethodDeclaration SingleVariableDeclaration SimpleName read limit
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mark
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read limit
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mark
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName read limit

@@ -1,0 +1,123 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+lexical unit SimpleName SimpleType SingleVariableDeclaration SimpleName value
+boolean PrimitiveType SingleVariableDeclaration SimpleName important
+get property index SimpleName MethodInvocation SimpleName name
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property index
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName name
+i SimpleName InfixExpression PrefixExpression NumberLiteral empty
+get shorthand index SimpleName MethodInvocation SimpleName name
+i SimpleName Assignment MethodInvocation SimpleName get shorthand index
+i SimpleName Assignment MethodInvocation SimpleName name
+i SimpleName InfixExpression PrefixExpression NumberLiteral empty
+shorthand managers SimpleName ArrayAccess SimpleName i
+shorthand managers SimpleName ArrayAccess MethodInvocation SimpleName set values
+i SimpleName ArrayAccess MethodInvocation SimpleName set values
+shorthand managers SimpleName ArrayAccess MethodInvocation ThisExpression SimpleName css engine
+i SimpleName ArrayAccess MethodInvocation ThisExpression SimpleName css engine
+shorthand managers SimpleName ArrayAccess MethodInvocation SimpleName value
+i SimpleName ArrayAccess MethodInvocation SimpleName value
+shorthand managers SimpleName ArrayAccess MethodInvocation SimpleName important
+i SimpleName ArrayAccess MethodInvocation SimpleName important
+set values SimpleName MethodInvocation ThisExpression SimpleName css engine
+set values SimpleName MethodInvocation SimpleName value
+set values SimpleName MethodInvocation SimpleName important
+css engine SimpleName ThisExpression MethodInvocation SimpleName value
+css engine SimpleName ThisExpression MethodInvocation SimpleName important
+value SimpleName MethodInvocation SimpleName important
+style map SimpleName MethodInvocation SimpleName is important
+style map SimpleName MethodInvocation SimpleName i
+is important SimpleName MethodInvocation SimpleName i
+updated properties SimpleName ArrayAccess SimpleName i
+updated properties SimpleName ArrayAccess Assignment BooleanLiteral true
+i SimpleName ArrayAccess Assignment BooleanLiteral true
+value managers SimpleName ArrayAccess SimpleName i
+value managers SimpleName ArrayAccess MethodInvocation SimpleName create value
+i SimpleName ArrayAccess MethodInvocation SimpleName create value
+value managers SimpleName ArrayAccess MethodInvocation SimpleName value
+i SimpleName ArrayAccess MethodInvocation SimpleName value
+value managers SimpleName ArrayAccess MethodInvocation ThisExpression SimpleName css engine
+i SimpleName ArrayAccess MethodInvocation ThisExpression SimpleName css engine
+create value SimpleName MethodInvocation SimpleName value
+create value SimpleName MethodInvocation ThisExpression SimpleName css engine
+value SimpleName MethodInvocation ThisExpression SimpleName css engine
+v SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName value managers
+v SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName i
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName create value
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+v SimpleName VariableDeclarationFragment MethodInvocation ThisExpression SimpleName css engine
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+short PrimitiveType CastExpression NumberLiteral empty
+style map SimpleName MethodInvocation SimpleName put mask
+style map SimpleName MethodInvocation SimpleName i
+style map SimpleName MethodInvocation CastExpression PrimitiveType short
+style map SimpleName MethodInvocation CastExpression NumberLiteral empty
+put mask SimpleName MethodInvocation SimpleName i
+put mask SimpleName MethodInvocation CastExpression PrimitiveType short
+put mask SimpleName MethodInvocation CastExpression NumberLiteral empty
+i SimpleName MethodInvocation CastExpression PrimitiveType short
+i SimpleName MethodInvocation CastExpression NumberLiteral empty
+style map SimpleName MethodInvocation SimpleName put value
+style map SimpleName MethodInvocation SimpleName i
+style map SimpleName MethodInvocation SimpleName v
+put value SimpleName MethodInvocation SimpleName i
+put value SimpleName MethodInvocation SimpleName v
+i SimpleName MethodInvocation SimpleName v
+style map SimpleName MethodInvocation SimpleName put origin
+style map SimpleName MethodInvocation SimpleName i
+style map SimpleName MethodInvocation QualifiedName style mapinline author origin
+put origin SimpleName MethodInvocation SimpleName i
+put origin SimpleName MethodInvocation QualifiedName style mapinline author origin
+i SimpleName MethodInvocation QualifiedName style mapinline author origin
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName important
+void PrimitiveType MethodDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName important
+void PrimitiveType MethodDeclaration SimpleType SimpleName css exception
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+property SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName important
+property SimpleName MethodDeclaration SimpleType SimpleName css exception
+property SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName important
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName important
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+important SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName important
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName important
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

@@ -1,0 +1,52 @@
+int PrimitiveType SingleVariableDeclaration SimpleName index
+index SimpleName InfixExpression NumberLiteral empty
+item list SimpleName MethodInvocation SimpleName size
+index SimpleName InfixExpression MethodInvocation SimpleName item list
+index SimpleName InfixExpression MethodInvocation SimpleName size
+index SimpleName InfixExpression InfixExpression InfixExpression SimpleName index
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName index
+integer SimpleName SimpleType ClassInstanceCreation SimpleName index
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionindex size err
+create dom exception SimpleName MethodInvocation StringLiteral indexoutofbounds
+dom exceptionindex size err QualifiedName MethodInvocation StringLiteral indexoutofbounds
+item list SimpleName MethodInvocation SimpleName remove
+item list SimpleName MethodInvocation SimpleName index
+remove SimpleName MethodInvocation SimpleName index
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName item list
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName remove
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName index
+item SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg item
+item SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item list
+item SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName remove
+item SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName index
+svg item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName item
+item SimpleName MethodInvocation SimpleName set parent
+protected Modifier MethodDeclaration SimpleType SimpleName svg item
+protected Modifier MethodDeclaration SimpleName remove item impl
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+protected Modifier MethodDeclaration SimpleType SimpleName dom exception
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName item
+svg item SimpleName SimpleType MethodDeclaration SimpleName remove item impl
+svg item SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+svg item SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName index
+svg item SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+remove item impl SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+remove item impl SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+remove item impl SimpleName MethodDeclaration SimpleType SimpleName dom exception
+remove item impl SimpleName MethodDeclaration Block ReturnStatement SimpleName item
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+index SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg item
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove item impl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg item
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove item impl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

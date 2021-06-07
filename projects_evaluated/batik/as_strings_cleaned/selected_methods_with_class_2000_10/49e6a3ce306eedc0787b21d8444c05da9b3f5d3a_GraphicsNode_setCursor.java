@@ -1,0 +1,13 @@
+cursor SimpleName SimpleType SingleVariableDeclaration SimpleName new cursor
+void PrimitiveType MethodDeclaration SimpleName set cursor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cursor
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new cursor
+set cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cursor
+set cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new cursor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set cursor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new cursor
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set cursor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new cursor

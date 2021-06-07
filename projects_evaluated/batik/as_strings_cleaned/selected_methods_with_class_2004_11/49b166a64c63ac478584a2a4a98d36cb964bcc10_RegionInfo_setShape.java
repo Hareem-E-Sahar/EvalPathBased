@@ -1,0 +1,20 @@
+shape SimpleName SimpleType SingleVariableDeclaration SimpleName s
+shape SimpleName FieldAccess Assignment SimpleName s
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set shape
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleName set shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+set shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+set shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set shape
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set shape
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

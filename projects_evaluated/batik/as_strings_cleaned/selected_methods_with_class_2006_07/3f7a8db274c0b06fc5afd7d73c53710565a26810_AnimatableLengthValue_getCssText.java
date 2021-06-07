@@ -1,0 +1,45 @@
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation SimpleName length value
+value of SimpleName MethodInvocation SimpleName length value
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName string
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName value of
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName length value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName ends with
+s SimpleName MethodInvocation StringLiteral .
+ends with SimpleName MethodInvocation StringLiteral .
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName substring
+s SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName s
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName s
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+s SimpleName Assignment MethodInvocation SimpleName s
+s SimpleName Assignment MethodInvocation SimpleName substring
+s SimpleName Assignment MethodInvocation NumberLiteral empty
+s SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+length type SimpleName InfixExpression NumberLiteral empty
+units SimpleName ArrayAccess InfixExpression SimpleName length type
+units SimpleName ArrayAccess InfixExpression NumberLiteral empty
+s SimpleName InfixExpression ArrayAccess SimpleName units
+s SimpleName InfixExpression ArrayAccess InfixExpression SimpleName length type
+s SimpleName InfixExpression ArrayAccess InfixExpression NumberLiteral empty
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get css text
+string SimpleName SimpleType MethodDeclaration SimpleName get css text
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get css text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get css text

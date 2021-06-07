@@ -1,0 +1,22 @@
+event target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+call SimpleName MethodInvocation StringLiteral set target
+call SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName target
+set target StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName target
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+void PrimitiveType MethodDeclaration SimpleName set target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target
+set target SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+set target SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

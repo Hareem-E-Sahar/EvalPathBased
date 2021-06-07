@@ -1,0 +1,26 @@
+point d SimpleName SimpleType SingleVariableDeclaration SimpleName pt
+marker group SimpleName MethodInvocation SimpleName node hit at
+marker group SimpleName MethodInvocation SimpleName pt
+node hit at SimpleName MethodInvocation SimpleName pt
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName marker group
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName node hit at
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName pt
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName in painted area
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pt
+boolean PrimitiveType MethodDeclaration SimpleName in painted area
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pt
+in painted area SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+in painted area SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName in painted area
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName in painted area
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pt

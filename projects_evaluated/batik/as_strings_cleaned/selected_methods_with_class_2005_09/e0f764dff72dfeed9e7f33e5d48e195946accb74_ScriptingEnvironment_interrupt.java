@@ -1,0 +1,14 @@
+timer SimpleName MethodInvocation SimpleName cancel
+document SimpleName MethodInvocation SimpleName get document element
+remove scripting listeners SimpleName MethodInvocation MethodInvocation SimpleName document
+remove scripting listeners SimpleName MethodInvocation MethodInvocation SimpleName get document element
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName interrupt
+void PrimitiveType MethodDeclaration SimpleName interrupt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName interrupt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName interrupt

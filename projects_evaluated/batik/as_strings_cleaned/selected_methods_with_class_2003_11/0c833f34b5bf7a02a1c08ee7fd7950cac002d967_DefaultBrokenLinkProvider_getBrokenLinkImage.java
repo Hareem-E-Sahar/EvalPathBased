@@ -1,0 +1,185 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName base
+string SimpleName SimpleType SingleVariableDeclaration SimpleName code
+object SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName params
+broken link img SimpleName InfixExpression IfStatement ReturnStatement SimpleName broken link img
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bi
+buffered image SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+buffered image SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+buffered image SimpleName SimpleType ClassInstanceCreation QualifiedName buffered imagetype int argb
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation QualifiedName buffered imagetype int argb
+empty NumberLiteral ClassInstanceCreation QualifiedName buffered imagetype int argb
+bi SimpleName Assignment ClassInstanceCreation SimpleType SimpleName buffered image
+bi SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+bi SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+bi SimpleName Assignment ClassInstanceCreation QualifiedName buffered imagetype int argb
+ht SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hashtable
+hashtable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ht
+format message SimpleName MethodInvocation SimpleName base
+format message SimpleName MethodInvocation SimpleName code
+format message SimpleName MethodInvocation SimpleName params
+base SimpleName MethodInvocation SimpleName code
+base SimpleName MethodInvocation SimpleName params
+code SimpleName MethodInvocation SimpleName params
+ht SimpleName MethodInvocation SimpleName put
+ht SimpleName MethodInvocation SimpleName broken link property
+ht SimpleName MethodInvocation MethodInvocation SimpleName format message
+ht SimpleName MethodInvocation MethodInvocation SimpleName base
+ht SimpleName MethodInvocation MethodInvocation SimpleName code
+ht SimpleName MethodInvocation MethodInvocation SimpleName params
+put SimpleName MethodInvocation SimpleName broken link property
+put SimpleName MethodInvocation MethodInvocation SimpleName format message
+put SimpleName MethodInvocation MethodInvocation SimpleName base
+put SimpleName MethodInvocation MethodInvocation SimpleName code
+put SimpleName MethodInvocation MethodInvocation SimpleName params
+broken link property SimpleName MethodInvocation MethodInvocation SimpleName format message
+broken link property SimpleName MethodInvocation MethodInvocation SimpleName base
+broken link property SimpleName MethodInvocation MethodInvocation SimpleName code
+broken link property SimpleName MethodInvocation MethodInvocation SimpleName params
+bi SimpleName MethodInvocation SimpleName get color model
+bi SimpleName MethodInvocation SimpleName get raster
+bi SimpleName MethodInvocation SimpleName is alpha premultiplied
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bi
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get color model
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bi
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get raster
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bi
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+buffered image SimpleName SimpleType ClassInstanceCreation SimpleName ht
+bi SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bi
+bi SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get raster
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bi
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get raster
+bi SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bi
+bi SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bi
+get color model SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+bi SimpleName MethodInvocation ClassInstanceCreation SimpleName ht
+get color model SimpleName MethodInvocation ClassInstanceCreation SimpleName ht
+bi SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bi
+bi SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+get raster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName bi
+get raster SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+bi SimpleName MethodInvocation ClassInstanceCreation SimpleName ht
+get raster SimpleName MethodInvocation ClassInstanceCreation SimpleName ht
+bi SimpleName MethodInvocation ClassInstanceCreation SimpleName ht
+is alpha premultiplied SimpleName MethodInvocation ClassInstanceCreation SimpleName ht
+bi SimpleName Assignment ClassInstanceCreation SimpleType SimpleName buffered image
+bi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName bi
+bi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get color model
+bi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName bi
+bi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get raster
+bi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName bi
+bi SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+bi SimpleName Assignment ClassInstanceCreation SimpleName ht
+bi SimpleName MethodInvocation SimpleName create graphics
+g d SimpleName VariableDeclarationFragment MethodInvocation SimpleName bi
+g d SimpleName VariableDeclarationFragment MethodInvocation SimpleName create graphics
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g d
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+color SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName set color
+g d SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName color
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set color SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName color
+set color SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set color SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set color SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set color SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName fill rect
+g d SimpleName MethodInvocation NumberLiteral empty
+g d SimpleName MethodInvocation NumberLiteral empty
+g d SimpleName MethodInvocation NumberLiteral empty
+g d SimpleName MethodInvocation NumberLiteral empty
+fill rect SimpleName MethodInvocation NumberLiteral empty
+fill rect SimpleName MethodInvocation NumberLiteral empty
+fill rect SimpleName MethodInvocation NumberLiteral empty
+fill rect SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName set color
+g d SimpleName MethodInvocation QualifiedName colorblack
+set color SimpleName MethodInvocation QualifiedName colorblack
+g d SimpleName MethodInvocation SimpleName draw rect
+g d SimpleName MethodInvocation NumberLiteral empty
+g d SimpleName MethodInvocation NumberLiteral empty
+g d SimpleName MethodInvocation NumberLiteral empty
+g d SimpleName MethodInvocation NumberLiteral empty
+draw rect SimpleName MethodInvocation NumberLiteral empty
+draw rect SimpleName MethodInvocation NumberLiteral empty
+draw rect SimpleName MethodInvocation NumberLiteral empty
+draw rect SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName draw string
+g d SimpleName MethodInvocation StringLiteral broken image
+g d SimpleName MethodInvocation NumberLiteral empty
+g d SimpleName MethodInvocation NumberLiteral empty
+draw string SimpleName MethodInvocation StringLiteral broken image
+draw string SimpleName MethodInvocation NumberLiteral empty
+draw string SimpleName MethodInvocation NumberLiteral empty
+broken image StringLiteral MethodInvocation NumberLiteral empty
+broken image StringLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+g d SimpleName MethodInvocation SimpleName dispose
+graphics util SimpleName MethodInvocation SimpleName wrap
+graphics util SimpleName MethodInvocation SimpleName bi
+wrap SimpleName MethodInvocation SimpleName bi
+red rable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName graphics util
+red rable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName wrap
+red rable SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName bi
+broken link img SimpleName Assignment ClassInstanceCreation SimpleType SimpleName red rable
+broken link img SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName graphics util
+broken link img SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName wrap
+broken link img SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName bi
+public Modifier MethodDeclaration SimpleType SimpleName filter
+public Modifier MethodDeclaration SimpleName get broken link image
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName base
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName code
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName params
+filter SimpleName SimpleType MethodDeclaration SimpleName get broken link image
+filter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName base
+filter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName code
+filter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName params
+get broken link image SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+get broken link image SimpleName MethodDeclaration SingleVariableDeclaration SimpleName base
+get broken link image SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get broken link image SimpleName MethodDeclaration SingleVariableDeclaration SimpleName code
+get broken link image SimpleName MethodDeclaration SingleVariableDeclaration SimpleName params
+base SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName code
+base SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+code SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName filter
+public Modifier TypeDeclaration MethodDeclaration SimpleName get broken link image
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName code
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName filter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get broken link image
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName base
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName code
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName params

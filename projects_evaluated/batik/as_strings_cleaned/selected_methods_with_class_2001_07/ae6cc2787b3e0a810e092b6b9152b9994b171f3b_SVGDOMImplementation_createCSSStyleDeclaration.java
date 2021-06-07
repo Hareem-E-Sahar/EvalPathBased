@@ -1,0 +1,19 @@
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cssom style declaration
+cssom style declaration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName set value factory map
+result SimpleName MethodInvocation SimpleName value factory map
+set value factory map SimpleName MethodInvocation SimpleName value factory map
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+public Modifier MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier MethodDeclaration SimpleName create css style declaration
+css style declaration SimpleName SimpleType MethodDeclaration SimpleName create css style declaration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier TypeDeclaration MethodDeclaration SimpleName create css style declaration
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create css style declaration

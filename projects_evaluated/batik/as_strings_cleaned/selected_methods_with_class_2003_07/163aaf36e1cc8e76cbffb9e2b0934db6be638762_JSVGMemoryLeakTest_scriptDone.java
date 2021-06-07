@@ -1,0 +1,12 @@
+done SimpleName Assignment BooleanLiteral true
+handler SimpleName MethodInvocation SimpleName script done
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName script done
+void PrimitiveType MethodDeclaration SimpleName script done
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName script done
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName script done

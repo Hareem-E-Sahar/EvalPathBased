@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get compression
+public Modifier MethodDeclaration Block ReturnStatement SimpleName compression
+int PrimitiveType MethodDeclaration SimpleName get compression
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName compression
+get compression SimpleName MethodDeclaration Block ReturnStatement SimpleName compression
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get compression
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get compression

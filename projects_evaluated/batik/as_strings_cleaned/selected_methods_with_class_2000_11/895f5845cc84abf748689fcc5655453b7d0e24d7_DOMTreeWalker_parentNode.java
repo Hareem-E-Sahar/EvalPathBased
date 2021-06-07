@@ -1,0 +1,40 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName InfixExpression SimpleName root
+result SimpleName VariableDeclarationFragment SimpleName n
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+result SimpleName MethodInvocation SimpleName get parent node
+result SimpleName Assignment MethodInvocation SimpleName result
+result SimpleName Assignment MethodInvocation SimpleName get parent node
+result SimpleName MethodInvocation SimpleName get node type
+result SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get node type SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName result
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName get node type
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+what to show SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+what to show SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+filter SimpleName MethodInvocation SimpleName accept node
+filter SimpleName MethodInvocation SimpleName result
+accept node SimpleName MethodInvocation SimpleName result
+filter SimpleName MethodInvocation InfixExpression QualifiedName node filterfilter accept
+accept node SimpleName MethodInvocation InfixExpression QualifiedName node filterfilter accept
+result SimpleName MethodInvocation InfixExpression QualifiedName node filterfilter accept
+filter SimpleName InfixExpression InfixExpression InfixExpression QualifiedName node filterfilter accept
+protected Modifier MethodDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SimpleName parent node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleName parent node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+parent node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+parent node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName parent node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parent node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

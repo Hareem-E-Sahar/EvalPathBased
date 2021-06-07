@@ -1,0 +1,60 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+byte PrimitiveType ArrayType ArrayCreation SimpleName len
+ret SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+ret SimpleName VariableDeclarationFragment ArrayCreation SimpleName len
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+ret SimpleName ArrayAccess SimpleName i
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+get char char class SimpleName MethodInvocation MethodInvocation SimpleName s
+get char char class SimpleName MethodInvocation MethodInvocation SimpleName char at
+get char char class SimpleName MethodInvocation MethodInvocation SimpleName i
+ret SimpleName ArrayAccess Assignment MethodInvocation SimpleName get char char class
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName get char char class
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ret
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName string to line break classes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName string to line break classes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+byte PrimitiveType ArrayType MethodDeclaration SimpleName string to line break classes
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName s
+string to line break classes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+string to line break classes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+string to line break classes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string to line break classes SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName string to line break classes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName string to line break classes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

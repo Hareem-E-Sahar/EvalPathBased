@@ -1,0 +1,29 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName new item
+new item SimpleName InstanceofExpression SimpleType SimpleName svg number
+create svg exception SimpleName MethodInvocation QualifiedName svg exceptionsvg wrong type err
+create svg exception SimpleName MethodInvocation StringLiteral expected svg number
+svg exceptionsvg wrong type err QualifiedName MethodInvocation StringLiteral expected svg number
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName check item type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName new item
+protected Modifier MethodDeclaration SimpleType SimpleName svg exception
+void PrimitiveType MethodDeclaration SimpleName check item type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new item
+void PrimitiveType MethodDeclaration SimpleType SimpleName svg exception
+check item type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+check item type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new item
+check item type SimpleName MethodDeclaration SimpleType SimpleName svg exception
+new item SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName svg exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check item type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check item type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg exception

@@ -1,0 +1,13 @@
+locale SimpleName SimpleType SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName set locale
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName locale
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+set locale SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName locale
+set locale SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set locale
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set locale
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

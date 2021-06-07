@@ -1,0 +1,35 @@
+int PrimitiveType SingleVariableDeclaration SimpleName bits to move back
+bit pointer SimpleName InfixExpression SimpleName bits to move back
+i SimpleName VariableDeclarationFragment InfixExpression SimpleName bit pointer
+i SimpleName VariableDeclarationFragment InfixExpression SimpleName bits to move back
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName bit pointer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName bits to move back
+i SimpleName InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression SimpleName i
+bit pointer SimpleName Assignment InfixExpression NumberLiteral empty
+bit pointer SimpleName Assignment InfixExpression SimpleName i
+bit pointer SimpleName Assignment SimpleName i
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update pointer
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName bits to move back
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName update pointer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bits to move back
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+update pointer SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+update pointer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bits to move back
+update pointer SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update pointer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bits to move back
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update pointer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bits to move back

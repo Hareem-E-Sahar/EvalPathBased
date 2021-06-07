@@ -1,0 +1,19 @@
+list selection event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName value changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list selection event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName value changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list selection event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+value changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list selection event
+value changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName value changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName value changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

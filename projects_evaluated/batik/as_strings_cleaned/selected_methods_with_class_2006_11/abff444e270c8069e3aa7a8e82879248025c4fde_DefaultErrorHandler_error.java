@@ -1,0 +1,28 @@
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName error
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parse exception
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+public Modifier MethodDeclaration Block ThrowStatement SimpleName e
+void PrimitiveType MethodDeclaration SimpleName error
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration Block ThrowStatement SimpleName e
+error SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parse exception
+error SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+error SimpleName MethodDeclaration SimpleType SimpleName parse exception
+error SimpleName MethodDeclaration Block ThrowStatement SimpleName e
+e SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName error
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName error
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

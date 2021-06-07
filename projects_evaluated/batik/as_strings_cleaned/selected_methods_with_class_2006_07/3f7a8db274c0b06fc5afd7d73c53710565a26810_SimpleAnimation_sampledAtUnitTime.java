@@ -1,0 +1,191 @@
+float PrimitiveType SingleVariableDeclaration SimpleName unit time
+int PrimitiveType SingleVariableDeclaration SimpleName repeat iteration
+animatable value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+animatable value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName accumulation
+animatable value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next value
+value SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName accumulation
+value SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName next value
+accumulation SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName next value
+interpolation SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName interpolation
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+unit time SimpleName InfixExpression NumberLiteral empty
+key time index SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName key time index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+key timeslength QualifiedName InfixExpression NumberLiteral empty
+key time index SimpleName InfixExpression InfixExpression QualifiedName key timeslength
+key time index SimpleName InfixExpression InfixExpression NumberLiteral empty
+key time index SimpleName InfixExpression NumberLiteral empty
+key times SimpleName ArrayAccess InfixExpression SimpleName key time index
+key times SimpleName ArrayAccess InfixExpression NumberLiteral empty
+unit time SimpleName InfixExpression ArrayAccess SimpleName key times
+unit time SimpleName InfixExpression ArrayAccess InfixExpression SimpleName key time index
+unit time SimpleName InfixExpression ArrayAccess InfixExpression NumberLiteral empty
+key time index SimpleName InfixExpression InfixExpression InfixExpression SimpleName unit time
+values SimpleName ArrayAccess SimpleName key time index
+value SimpleName Assignment ArrayAccess SimpleName values
+value SimpleName Assignment ArrayAccess SimpleName key time index
+calc mode SimpleName InfixExpression SimpleName calc mode linear
+calc mode SimpleName InfixExpression SimpleName calc mode paced
+calc mode SimpleName InfixExpression InfixExpression InfixExpression SimpleName calc mode
+calc mode SimpleName InfixExpression InfixExpression InfixExpression SimpleName calc mode paced
+calc mode linear SimpleName InfixExpression InfixExpression InfixExpression SimpleName calc mode
+calc mode linear SimpleName InfixExpression InfixExpression InfixExpression SimpleName calc mode paced
+calc mode SimpleName InfixExpression SimpleName calc mode spline
+key time index SimpleName InfixExpression NumberLiteral empty
+values SimpleName ArrayAccess InfixExpression SimpleName key time index
+values SimpleName ArrayAccess InfixExpression NumberLiteral empty
+next value SimpleName Assignment ArrayAccess SimpleName values
+next value SimpleName Assignment ArrayAccess InfixExpression SimpleName key time index
+next value SimpleName Assignment ArrayAccess InfixExpression NumberLiteral empty
+key times SimpleName ArrayAccess SimpleName key time index
+unit time SimpleName InfixExpression ArrayAccess SimpleName key times
+unit time SimpleName InfixExpression ArrayAccess SimpleName key time index
+key time index SimpleName InfixExpression NumberLiteral empty
+key times SimpleName ArrayAccess InfixExpression SimpleName key time index
+key times SimpleName ArrayAccess InfixExpression NumberLiteral empty
+key times SimpleName ArrayAccess SimpleName key time index
+key times SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName key times
+key times SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName key time index
+calc mode SimpleName InfixExpression SimpleName calc mode spline
+unit time SimpleName InfixExpression NumberLiteral empty
+calc mode SimpleName InfixExpression InfixExpression InfixExpression SimpleName unit time
+calc mode SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+calc mode spline SimpleName InfixExpression InfixExpression InfixExpression SimpleName unit time
+calc mode spline SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+key spline cubics SimpleName ArrayAccess SimpleName key time index
+c SimpleName VariableDeclarationFragment ArrayAccess SimpleName key spline cubics
+c SimpleName VariableDeclarationFragment ArrayAccess SimpleName key time index
+cubic SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+tolerance SimpleName VariableDeclarationFragment NumberLiteral . f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tolerance
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral . f
+min SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName min
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+max SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+point ddouble QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+min SimpleName InfixExpression SimpleName max
+min SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+max SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+t SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+c SimpleName MethodInvocation SimpleName eval
+c SimpleName MethodInvocation SimpleName t
+eval SimpleName MethodInvocation SimpleName t
+p SimpleName Assignment MethodInvocation SimpleName c
+p SimpleName Assignment MethodInvocation SimpleName eval
+p SimpleName Assignment MethodInvocation SimpleName t
+p SimpleName MethodInvocation SimpleName get x
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName p
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get x
+x SimpleName InfixExpression SimpleName interpolation
+math SimpleName MethodInvocation SimpleName abs
+math SimpleName MethodInvocation InfixExpression SimpleName x
+math SimpleName MethodInvocation InfixExpression SimpleName interpolation
+abs SimpleName MethodInvocation InfixExpression SimpleName x
+abs SimpleName MethodInvocation InfixExpression SimpleName interpolation
+math SimpleName MethodInvocation InfixExpression SimpleName tolerance
+abs SimpleName MethodInvocation InfixExpression SimpleName tolerance
+x SimpleName InfixExpression MethodInvocation InfixExpression SimpleName tolerance
+interpolation SimpleName InfixExpression MethodInvocation InfixExpression SimpleName tolerance
+x SimpleName InfixExpression SimpleName interpolation
+min SimpleName Assignment SimpleName t
+max SimpleName Assignment SimpleName t
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+p SimpleName MethodInvocation SimpleName get y
+float PrimitiveType CastExpression MethodInvocation SimpleName p
+float PrimitiveType CastExpression MethodInvocation SimpleName get y
+interpolation SimpleName Assignment CastExpression PrimitiveType float
+interpolation SimpleName Assignment CastExpression MethodInvocation SimpleName p
+interpolation SimpleName Assignment CastExpression MethodInvocation SimpleName get y
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+valueslength QualifiedName InfixExpression NumberLiteral empty
+values SimpleName ArrayAccess InfixExpression QualifiedName valueslength
+values SimpleName ArrayAccess InfixExpression NumberLiteral empty
+value SimpleName Assignment ArrayAccess SimpleName values
+value SimpleName Assignment ArrayAccess InfixExpression QualifiedName valueslength
+value SimpleName Assignment ArrayAccess InfixExpression NumberLiteral empty
+valueslength QualifiedName InfixExpression NumberLiteral empty
+values SimpleName ArrayAccess InfixExpression QualifiedName valueslength
+values SimpleName ArrayAccess InfixExpression NumberLiteral empty
+accumulation SimpleName Assignment ArrayAccess SimpleName values
+accumulation SimpleName Assignment ArrayAccess InfixExpression QualifiedName valueslength
+accumulation SimpleName Assignment ArrayAccess InfixExpression NumberLiteral empty
+value SimpleName MethodInvocation SimpleName interpolate
+value SimpleName MethodInvocation FieldAccess SimpleName value
+value SimpleName MethodInvocation SimpleName next value
+value SimpleName MethodInvocation SimpleName interpolation
+value SimpleName MethodInvocation SimpleName accumulation
+interpolate SimpleName MethodInvocation FieldAccess SimpleName value
+interpolate SimpleName MethodInvocation SimpleName next value
+interpolate SimpleName MethodInvocation SimpleName interpolation
+interpolate SimpleName MethodInvocation SimpleName accumulation
+interpolate SimpleName MethodInvocation SimpleName repeat iteration
+value SimpleName FieldAccess MethodInvocation SimpleName next value
+value SimpleName FieldAccess MethodInvocation SimpleName interpolation
+value SimpleName FieldAccess MethodInvocation SimpleName accumulation
+value SimpleName FieldAccess MethodInvocation SimpleName repeat iteration
+next value SimpleName MethodInvocation SimpleName interpolation
+next value SimpleName MethodInvocation SimpleName accumulation
+next value SimpleName MethodInvocation SimpleName repeat iteration
+interpolation SimpleName MethodInvocation SimpleName accumulation
+interpolation SimpleName MethodInvocation SimpleName repeat iteration
+accumulation SimpleName MethodInvocation SimpleName repeat iteration
+value SimpleName FieldAccess Assignment MethodInvocation SimpleName value
+value SimpleName FieldAccess Assignment MethodInvocation SimpleName interpolate
+value SimpleName FieldAccess Assignment MethodInvocation SimpleName next value
+value SimpleName FieldAccess Assignment MethodInvocation SimpleName interpolation
+value SimpleName FieldAccess Assignment MethodInvocation SimpleName accumulation
+value SimpleName FieldAccess Assignment MethodInvocation SimpleName repeat iteration
+value SimpleName FieldAccess MethodInvocation SimpleName has changed
+float PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName cumulative
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName sampled at unit time
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName unit time
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName repeat iteration
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration Block IfStatement SimpleName cumulative
+void PrimitiveType MethodDeclaration SimpleName sampled at unit time
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName unit time
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName repeat iteration
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName cumulative
+sampled at unit time SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+sampled at unit time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName unit time
+sampled at unit time SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+sampled at unit time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName repeat iteration
+sampled at unit time SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+sampled at unit time SimpleName MethodDeclaration Block IfStatement SimpleName cumulative
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repeat iteration
+unit time SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+unit time SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repeat iteration
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName sampled at unit time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repeat iteration
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sampled at unit time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName unit time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName repeat iteration

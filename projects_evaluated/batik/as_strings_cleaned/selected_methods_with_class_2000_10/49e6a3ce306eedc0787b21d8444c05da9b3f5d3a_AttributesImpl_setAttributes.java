@@ -1,0 +1,91 @@
+attributes SimpleName SimpleType SingleVariableDeclaration SimpleName atts
+atts SimpleName MethodInvocation SimpleName get length
+length SimpleName Assignment MethodInvocation SimpleName atts
+length SimpleName Assignment MethodInvocation SimpleName get length
+length SimpleName InfixExpression NumberLiteral empty
+data SimpleName Assignment ArrayCreation InfixExpression SimpleName length
+data SimpleName Assignment ArrayCreation InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName length
+i SimpleName InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression SimpleName i
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+atts SimpleName MethodInvocation SimpleName get uri
+atts SimpleName MethodInvocation SimpleName i
+get uri SimpleName MethodInvocation SimpleName i
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName atts
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName get uri
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression InfixExpression SimpleName i
+data SimpleName ArrayAccess InfixExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+atts SimpleName MethodInvocation SimpleName get local name
+atts SimpleName MethodInvocation SimpleName i
+get local name SimpleName MethodInvocation SimpleName i
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName atts
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName get local name
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression InfixExpression SimpleName i
+data SimpleName ArrayAccess InfixExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+atts SimpleName MethodInvocation SimpleName get q name
+atts SimpleName MethodInvocation SimpleName i
+get q name SimpleName MethodInvocation SimpleName i
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName atts
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName get q name
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression InfixExpression SimpleName i
+data SimpleName ArrayAccess InfixExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+atts SimpleName MethodInvocation SimpleName get type
+atts SimpleName MethodInvocation SimpleName i
+get type SimpleName MethodInvocation SimpleName i
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName atts
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName get type
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression InfixExpression SimpleName i
+data SimpleName ArrayAccess InfixExpression InfixExpression NumberLiteral empty
+data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+atts SimpleName MethodInvocation SimpleName get value
+atts SimpleName MethodInvocation SimpleName i
+get value SimpleName MethodInvocation SimpleName i
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName atts
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName get value
+data SimpleName ArrayAccess Assignment MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName length
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+length SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName atts
+void PrimitiveType MethodDeclaration SimpleName set attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName atts
+set attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributes
+set attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName atts
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atts
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName atts

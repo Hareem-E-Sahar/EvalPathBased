@@ -1,0 +1,29 @@
+xml reader SimpleName MethodInvocation SimpleName set feature
+xml reader SimpleName MethodInvocation StringLiteral httpxmlorgsaxfeaturesnamespaceprefixes
+xml reader SimpleName MethodInvocation BooleanLiteral true
+set feature SimpleName MethodInvocation StringLiteral httpxmlorgsaxfeaturesnamespaceprefixes
+set feature SimpleName MethodInvocation BooleanLiteral true
+httpxmlorgsaxfeaturesnamespaceprefixes StringLiteral MethodInvocation BooleanLiteral true
+xml reader SimpleName MethodInvocation SimpleName set feature
+xml reader SimpleName MethodInvocation StringLiteral httpxmlorgsaxfeaturesnamespaces
+xml reader SimpleName MethodInvocation BooleanLiteral false
+set feature SimpleName MethodInvocation StringLiteral httpxmlorgsaxfeaturesnamespaces
+set feature SimpleName MethodInvocation BooleanLiteral false
+httpxmlorgsaxfeaturesnamespaces StringLiteral MethodInvocation BooleanLiteral false
+sax exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+xml reader SimpleName MethodInvocation SimpleName set content handler
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName setup xml reader
+private Modifier MethodDeclaration SimpleType SimpleName sax exception
+void PrimitiveType MethodDeclaration SimpleName setup xml reader
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax exception
+setup xml reader SimpleName MethodDeclaration SimpleType SimpleName sax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup xml reader
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup xml reader
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

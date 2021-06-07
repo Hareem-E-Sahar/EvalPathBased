@@ -1,0 +1,27 @@
+affine transform SimpleName MethodInvocation SimpleName get translate instance
+affine transform SimpleName MethodInvocation SimpleName tx
+affine transform SimpleName MethodInvocation SimpleName ty
+get translate instance SimpleName MethodInvocation SimpleName tx
+get translate instance SimpleName MethodInvocation SimpleName ty
+tx SimpleName MethodInvocation SimpleName ty
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName affine transform
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get translate instance
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName tx
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName ty
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+usr dev SimpleName Assignment SimpleName t
+usr dev SimpleName MethodInvocation SimpleName pre concatenate
+usr dev SimpleName MethodInvocation SimpleName t
+pre concatenate SimpleName MethodInvocation SimpleName t
+tx SimpleName Assignment NumberLiteral empty
+ty SimpleName Assignment NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName coerce translate
+void PrimitiveType MethodDeclaration SimpleName coerce translate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName coerce translate
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName coerce translate

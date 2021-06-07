@@ -1,0 +1,19 @@
+svg rect SimpleName SimpleType SingleVariableDeclaration SimpleName rect
+element SimpleName SimpleType SingleVariableDeclaration SimpleName end
+list SimpleName SimpleType MethodDeclaration SimpleName get enclosure list
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rect
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end
+get enclosure list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg rect
+get enclosure list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rect
+get enclosure list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get enclosure list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end
+rect SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get enclosure list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rect
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get enclosure list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rect
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end

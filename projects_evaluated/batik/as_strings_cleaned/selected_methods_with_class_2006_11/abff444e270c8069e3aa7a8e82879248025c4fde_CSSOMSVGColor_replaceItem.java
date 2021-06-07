@@ -1,0 +1,94 @@
+svg number SimpleName SimpleType SingleVariableDeclaration SimpleName new item
+int PrimitiveType SingleVariableDeclaration SimpleName index
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionno modification allowed err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptionno modification allowed err QualifiedName ClassInstanceCreation StringLiteral empty
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get number of items
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get number of items
+index SimpleName InfixExpression NumberLiteral empty
+index SimpleName InfixExpression SimpleName n
+index SimpleName InfixExpression InfixExpression InfixExpression SimpleName index
+index SimpleName InfixExpression InfixExpression InfixExpression SimpleName n
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName index
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName n
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionindex size err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptionindex size err QualifiedName ClassInstanceCreation StringLiteral empty
+array list SimpleName SimpleType ClassInstanceCreation SimpleName n
+icc colors SimpleName Assignment ClassInstanceCreation SimpleType SimpleName array list
+icc colors SimpleName Assignment ClassInstanceCreation SimpleName n
+icc colors SimpleName MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName icc colors
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment MethodInvocation SimpleName icc colors
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment MethodInvocation SimpleName size
+i SimpleName InfixExpression SimpleName n
+icc colors SimpleName MethodInvocation SimpleName add
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName n
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+n SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+new item SimpleName MethodInvocation SimpleName get value
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName new item
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName new item
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+color number SimpleName SimpleType ClassInstanceCreation SimpleName f
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName color number
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName f
+svg number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+icc colors SimpleName MethodInvocation SimpleName set
+icc colors SimpleName MethodInvocation SimpleName index
+icc colors SimpleName MethodInvocation SimpleName result
+set SimpleName MethodInvocation SimpleName index
+set SimpleName MethodInvocation SimpleName result
+index SimpleName MethodInvocation SimpleName result
+handler SimpleName MethodInvocation SimpleName color replaced
+handler SimpleName MethodInvocation SimpleName f
+handler SimpleName MethodInvocation SimpleName index
+color replaced SimpleName MethodInvocation SimpleName f
+color replaced SimpleName MethodInvocation SimpleName index
+f SimpleName MethodInvocation SimpleName index
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration SimpleType SimpleName svg number
+public Modifier MethodDeclaration SimpleName replace item
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg number
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+svg number SimpleName SimpleType MethodDeclaration SimpleName replace item
+svg number SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new item
+svg number SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+svg number SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName index
+svg number SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+replace item SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg number
+replace item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new item
+replace item SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+replace item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+replace item SimpleName MethodDeclaration SimpleType SimpleName dom exception
+new item SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+new item SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+new item SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+index SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg number
+public Modifier TypeDeclaration MethodDeclaration SimpleName replace item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg number
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replace item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

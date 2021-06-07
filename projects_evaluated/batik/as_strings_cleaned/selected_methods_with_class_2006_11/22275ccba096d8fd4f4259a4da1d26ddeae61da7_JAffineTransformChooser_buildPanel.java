@@ -1,0 +1,122 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName panel name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tf a label
+document SimpleName SimpleType SingleVariableDeclaration SimpleName tf a model
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tf b label
+document SimpleName SimpleType SingleVariableDeclaration SimpleName tf b model
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tf a suffix
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tf b suffix
+boolean PrimitiveType SingleVariableDeclaration SimpleName set border
+panel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j grid bag panel
+j grid bag panel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName panel
+add to panel at row SimpleName MethodInvocation SimpleName tf a label
+add to panel at row SimpleName MethodInvocation SimpleName tf a model
+add to panel at row SimpleName MethodInvocation SimpleName tf a suffix
+add to panel at row SimpleName MethodInvocation SimpleName panel
+add to panel at row SimpleName MethodInvocation NumberLiteral empty
+tf a label SimpleName MethodInvocation SimpleName tf a model
+tf a label SimpleName MethodInvocation SimpleName tf a suffix
+tf a label SimpleName MethodInvocation SimpleName panel
+tf a label SimpleName MethodInvocation NumberLiteral empty
+tf a model SimpleName MethodInvocation SimpleName tf a suffix
+tf a model SimpleName MethodInvocation SimpleName panel
+tf a model SimpleName MethodInvocation NumberLiteral empty
+tf a suffix SimpleName MethodInvocation SimpleName panel
+tf a suffix SimpleName MethodInvocation NumberLiteral empty
+panel SimpleName MethodInvocation NumberLiteral empty
+add to panel at row SimpleName MethodInvocation SimpleName tf b label
+add to panel at row SimpleName MethodInvocation SimpleName tf b model
+add to panel at row SimpleName MethodInvocation SimpleName tf b suffix
+add to panel at row SimpleName MethodInvocation SimpleName panel
+add to panel at row SimpleName MethodInvocation NumberLiteral empty
+tf b label SimpleName MethodInvocation SimpleName tf b model
+tf b label SimpleName MethodInvocation SimpleName tf b suffix
+tf b label SimpleName MethodInvocation SimpleName panel
+tf b label SimpleName MethodInvocation NumberLiteral empty
+tf b model SimpleName MethodInvocation SimpleName tf b suffix
+tf b model SimpleName MethodInvocation SimpleName panel
+tf b model SimpleName MethodInvocation NumberLiteral empty
+tf b suffix SimpleName MethodInvocation SimpleName panel
+tf b suffix SimpleName MethodInvocation NumberLiteral empty
+panel SimpleName MethodInvocation NumberLiteral empty
+set panel border SimpleName MethodInvocation SimpleName panel
+set panel border SimpleName MethodInvocation SimpleName panel name
+panel SimpleName MethodInvocation SimpleName panel name
+set border SimpleName IfStatement Block ReturnStatement SimpleName panel
+protected Modifier MethodDeclaration SimpleType SimpleName component
+protected Modifier MethodDeclaration SimpleName build panel
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName panel name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName tf a label
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName tf a model
+component SimpleName SimpleType MethodDeclaration SimpleName build panel
+component SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName panel name
+component SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tf a label
+component SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tf a model
+component SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tf b label
+build panel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+build panel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName panel name
+build panel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+build panel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tf a label
+build panel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+build panel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tf a model
+build panel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+build panel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tf b label
+build panel SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+build panel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tf b model
+panel name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a label
+panel name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a model
+panel name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b label
+panel name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b model
+panel name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a suffix
+tf a label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a model
+tf a label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b label
+tf a label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b model
+tf a label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a suffix
+tf a label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b suffix
+tf a model SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b label
+tf a model SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b model
+tf a model SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a suffix
+tf a model SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b suffix
+tf a model SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+tf a model SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set border
+tf b label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b model
+tf b label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a suffix
+tf b label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b suffix
+tf b label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+tf b label SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set border
+tf b model SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a suffix
+tf b model SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b suffix
+tf b model SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+tf b model SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set border
+tf a suffix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b suffix
+tf a suffix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+tf a suffix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set border
+tf b suffix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+tf b suffix SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set border
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName component
+public Modifier TypeDeclaration MethodDeclaration SimpleName build panel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName panel name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a model
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b label
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b model
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a suffix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b suffix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set border
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName component
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build panel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName panel name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a model
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b label
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b model
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf a suffix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tf b suffix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName set border

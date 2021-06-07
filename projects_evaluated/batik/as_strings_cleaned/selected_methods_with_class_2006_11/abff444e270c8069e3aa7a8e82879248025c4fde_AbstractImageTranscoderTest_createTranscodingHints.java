@@ -1,0 +1,10 @@
+protected Modifier MethodDeclaration SimpleType SimpleName map
+protected Modifier MethodDeclaration SimpleName create transcoding hints
+map SimpleName SimpleType MethodDeclaration SimpleName create transcoding hints
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SimpleName create transcoding hints
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create transcoding hints

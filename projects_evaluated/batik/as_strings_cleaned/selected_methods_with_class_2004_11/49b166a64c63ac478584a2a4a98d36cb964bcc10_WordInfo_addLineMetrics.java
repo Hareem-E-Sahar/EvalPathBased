@@ -1,0 +1,41 @@
+gvt font SimpleName SimpleType SingleVariableDeclaration SimpleName font
+gvt line metrics SimpleName SimpleType SingleVariableDeclaration SimpleName lm
+lm SimpleName MethodInvocation SimpleName get ascent
+ascent SimpleName InfixExpression MethodInvocation SimpleName lm
+ascent SimpleName InfixExpression MethodInvocation SimpleName get ascent
+lm SimpleName MethodInvocation SimpleName get ascent
+ascent SimpleName Assignment MethodInvocation SimpleName lm
+ascent SimpleName Assignment MethodInvocation SimpleName get ascent
+lm SimpleName MethodInvocation SimpleName get descent
+descent SimpleName InfixExpression MethodInvocation SimpleName lm
+descent SimpleName InfixExpression MethodInvocation SimpleName get descent
+lm SimpleName MethodInvocation SimpleName get descent
+descent SimpleName Assignment MethodInvocation SimpleName lm
+descent SimpleName Assignment MethodInvocation SimpleName get descent
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add line metrics
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt font
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName font
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt line metrics
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lm
+void PrimitiveType MethodDeclaration SimpleName add line metrics
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt font
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName font
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt line metrics
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lm
+add line metrics SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt font
+add line metrics SimpleName MethodDeclaration SingleVariableDeclaration SimpleName font
+add line metrics SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt line metrics
+add line metrics SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lm
+font SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lm
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add line metrics
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lm
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add line metrics
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lm

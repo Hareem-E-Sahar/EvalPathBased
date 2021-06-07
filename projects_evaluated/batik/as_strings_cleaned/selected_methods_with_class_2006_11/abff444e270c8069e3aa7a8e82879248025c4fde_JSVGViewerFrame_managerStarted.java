@@ -1,0 +1,42 @@
+update manager event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral messageupdate manager started
+get string SimpleName MethodInvocation StringLiteral messageupdate manager started
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName resources
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+msg SimpleName VariableDeclarationFragment MethodInvocation StringLiteral messageupdate manager started
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName msg
+println SimpleName MethodInvocation SimpleName msg
+manager stopped SimpleName Assignment BooleanLiteral false
+play action SimpleName MethodInvocation SimpleName update
+play action SimpleName MethodInvocation BooleanLiteral false
+update SimpleName MethodInvocation BooleanLiteral false
+pause action SimpleName MethodInvocation SimpleName update
+pause action SimpleName MethodInvocation BooleanLiteral true
+update SimpleName MethodInvocation BooleanLiteral true
+stop action SimpleName MethodInvocation SimpleName update
+stop action SimpleName MethodInvocation BooleanLiteral true
+update SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName manager started
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName update manager event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block IfStatement SimpleName debug
+void PrimitiveType MethodDeclaration SimpleName manager started
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName update manager event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName debug
+manager started SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName update manager event
+manager started SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+manager started SimpleName MethodDeclaration Block IfStatement SimpleName debug
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName manager started
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName manager started
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

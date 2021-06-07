@@ -1,0 +1,33 @@
+element SimpleName MethodInvocation SimpleName get attribute node ns
+element SimpleName MethodInvocation SimpleName namespace uri
+element SimpleName MethodInvocation SimpleName local name
+get attribute node ns SimpleName MethodInvocation SimpleName namespace uri
+get attribute node ns SimpleName MethodInvocation SimpleName local name
+namespace uri SimpleName MethodInvocation SimpleName local name
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute node ns
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName namespace uri
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName local name
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+base val SimpleName Assignment SimpleName default value
+attr SimpleName MethodInvocation SimpleName get value
+attr SimpleName MethodInvocation MethodInvocation SimpleName equals
+get value SimpleName MethodInvocation MethodInvocation SimpleName equals
+attr SimpleName MethodInvocation MethodInvocation StringLiteral true
+get value SimpleName MethodInvocation MethodInvocation StringLiteral true
+equals SimpleName MethodInvocation StringLiteral true
+base val SimpleName Assignment MethodInvocation MethodInvocation SimpleName attr
+base val SimpleName Assignment MethodInvocation MethodInvocation SimpleName get value
+base val SimpleName Assignment MethodInvocation SimpleName equals
+base val SimpleName Assignment MethodInvocation StringLiteral true
+valid SimpleName Assignment BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update
+void PrimitiveType MethodDeclaration SimpleName update
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update

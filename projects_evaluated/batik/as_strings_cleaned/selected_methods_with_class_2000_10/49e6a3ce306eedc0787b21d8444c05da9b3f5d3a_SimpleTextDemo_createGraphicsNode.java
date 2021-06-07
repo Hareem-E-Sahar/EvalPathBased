@@ -1,0 +1,410 @@
+concrete gvt factory SimpleName MethodInvocation SimpleName get gvt factory implementation
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName concrete gvt factory
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName get gvt factory implementation
+gvt factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+f SimpleName MethodInvocation SimpleName create canvas graphics node
+canvas SimpleName Assignment MethodInvocation SimpleName f
+canvas SimpleName Assignment MethodInvocation SimpleName create canvas graphics node
+canvas SimpleName MethodInvocation SimpleName set background paint
+canvas SimpleName MethodInvocation QualifiedName colorwhite
+set background paint SimpleName MethodInvocation QualifiedName colorwhite
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shape
+shape node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shape node
+stroke shape painter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stroke painter
+test selector SimpleName SimpleType ClassInstanceCreation SimpleName render context
+selector SimpleName Assignment ClassInstanceCreation SimpleType SimpleName test selector
+selector SimpleName Assignment ClassInstanceCreation SimpleName render context
+line dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+line dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+line dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+line dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+shape SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName line dfloat
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral f
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral f
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral f
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral f
+float PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+dash array SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+dash array SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName dash array
+dash array SimpleName ArrayAccess NumberLiteral empty
+dash array SimpleName ArrayAccess Assignment NumberLiteral f
+empty NumberLiteral ArrayAccess Assignment NumberLiteral f
+dash array SimpleName ArrayAccess NumberLiteral empty
+dash array SimpleName ArrayAccess Assignment NumberLiteral f
+empty NumberLiteral ArrayAccess Assignment NumberLiteral f
+f SimpleName MethodInvocation SimpleName create stroke shape painter
+stroke painter SimpleName Assignment MethodInvocation SimpleName f
+stroke painter SimpleName Assignment MethodInvocation SimpleName create stroke shape painter
+basic stroke SimpleName SimpleType ClassInstanceCreation NumberLiteral f
+basic stroke SimpleName SimpleType ClassInstanceCreation QualifiedName basic strokecap butt
+basic stroke SimpleName SimpleType ClassInstanceCreation QualifiedName basic strokejoin bevel
+basic stroke SimpleName SimpleType ClassInstanceCreation NumberLiteral f
+basic stroke SimpleName SimpleType ClassInstanceCreation SimpleName dash array
+f NumberLiteral ClassInstanceCreation QualifiedName basic strokecap butt
+f NumberLiteral ClassInstanceCreation QualifiedName basic strokejoin bevel
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation SimpleName dash array
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+basic strokecap butt QualifiedName ClassInstanceCreation QualifiedName basic strokejoin bevel
+basic strokecap butt QualifiedName ClassInstanceCreation NumberLiteral f
+basic strokecap butt QualifiedName ClassInstanceCreation SimpleName dash array
+basic strokecap butt QualifiedName ClassInstanceCreation NumberLiteral f
+basic strokejoin bevel QualifiedName ClassInstanceCreation NumberLiteral f
+basic strokejoin bevel QualifiedName ClassInstanceCreation SimpleName dash array
+basic strokejoin bevel QualifiedName ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation SimpleName dash array
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+dash array SimpleName ClassInstanceCreation NumberLiteral f
+stroke painter SimpleName MethodInvocation SimpleName set stroke
+stroke painter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName basic stroke
+stroke painter SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+stroke painter SimpleName MethodInvocation ClassInstanceCreation QualifiedName basic strokecap butt
+stroke painter SimpleName MethodInvocation ClassInstanceCreation QualifiedName basic strokejoin bevel
+stroke painter SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+stroke painter SimpleName MethodInvocation ClassInstanceCreation SimpleName dash array
+stroke painter SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+set stroke SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName basic stroke
+set stroke SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+set stroke SimpleName MethodInvocation ClassInstanceCreation QualifiedName basic strokecap butt
+set stroke SimpleName MethodInvocation ClassInstanceCreation QualifiedName basic strokejoin bevel
+set stroke SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+set stroke SimpleName MethodInvocation ClassInstanceCreation SimpleName dash array
+set stroke SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+stroke painter SimpleName MethodInvocation SimpleName set paint
+stroke painter SimpleName MethodInvocation QualifiedName colorlight gray
+set paint SimpleName MethodInvocation QualifiedName colorlight gray
+f SimpleName MethodInvocation SimpleName create shape node
+shape node SimpleName Assignment MethodInvocation SimpleName f
+shape node SimpleName Assignment MethodInvocation SimpleName create shape node
+shape node SimpleName MethodInvocation SimpleName set shape
+shape node SimpleName MethodInvocation SimpleName shape
+set shape SimpleName MethodInvocation SimpleName shape
+shape node SimpleName MethodInvocation SimpleName set shape painter
+shape node SimpleName MethodInvocation SimpleName stroke painter
+set shape painter SimpleName MethodInvocation SimpleName stroke painter
+shape node SimpleName MethodInvocation SimpleName set rendering hint
+shape node SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+shape node SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+rendering hintskey antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue antialias on
+canvas SimpleName MethodInvocation SimpleName get children
+canvas SimpleName MethodInvocation MethodInvocation SimpleName add
+get children SimpleName MethodInvocation MethodInvocation SimpleName add
+canvas SimpleName MethodInvocation MethodInvocation SimpleName shape node
+get children SimpleName MethodInvocation MethodInvocation SimpleName shape node
+add SimpleName MethodInvocation SimpleName shape node
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+shape SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName rectangle dfloat
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral f
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral f
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral f
+shape SimpleName Assignment ClassInstanceCreation NumberLiteral f
+f SimpleName MethodInvocation SimpleName create shape node
+shape node SimpleName Assignment MethodInvocation SimpleName f
+shape node SimpleName Assignment MethodInvocation SimpleName create shape node
+shape node SimpleName MethodInvocation SimpleName set shape
+shape node SimpleName MethodInvocation SimpleName shape
+set shape SimpleName MethodInvocation SimpleName shape
+f SimpleName MethodInvocation SimpleName create fill shape painter
+fill painter SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+fill painter SimpleName VariableDeclarationFragment MethodInvocation SimpleName create fill shape painter
+fill shape painter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fill painter
+fill painter SimpleName MethodInvocation SimpleName set paint
+fill painter SimpleName MethodInvocation QualifiedName colorblue
+set paint SimpleName MethodInvocation QualifiedName colorblue
+shape node SimpleName MethodInvocation SimpleName set shape painter
+shape node SimpleName MethodInvocation SimpleName fill painter
+set shape painter SimpleName MethodInvocation SimpleName fill painter
+shape node SimpleName MethodInvocation SimpleName set rendering hint
+shape node SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+shape node SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+rendering hintskey antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue antialias on
+shape node SimpleName MethodInvocation SimpleName add graphics node mouse listener
+shape node SimpleName MethodInvocation SimpleName selector
+add graphics node mouse listener SimpleName MethodInvocation SimpleName selector
+canvas SimpleName MethodInvocation SimpleName get children
+canvas SimpleName MethodInvocation MethodInvocation SimpleName add
+get children SimpleName MethodInvocation MethodInvocation SimpleName add
+canvas SimpleName MethodInvocation MethodInvocation SimpleName shape node
+get children SimpleName MethodInvocation MethodInvocation SimpleName shape node
+add SimpleName MethodInvocation SimpleName shape node
+f SimpleName MethodInvocation SimpleName create text node
+text node SimpleName VariableDeclarationFragment MethodInvocation SimpleName f
+text node SimpleName VariableDeclarationFragment MethodInvocation SimpleName create text node
+text node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text node
+attributed string SimpleName SimpleType ClassInstanceCreation StringLiteral fun with batik
+s SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName attributed string
+s SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral fun with batik
+attributed string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+float SimpleName SimpleType ClassInstanceCreation NumberLiteral f
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributesize
+s SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+s SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+add attribute SimpleName MethodInvocation QualifiedName text attributesize
+add attribute SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+add attribute SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+text attributesize QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+text attributesize QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral f
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributeforeground
+s SimpleName MethodInvocation QualifiedName colormagenta
+add attribute SimpleName MethodInvocation QualifiedName text attributeforeground
+add attribute SimpleName MethodInvocation QualifiedName colormagenta
+text attributeforeground QualifiedName MethodInvocation QualifiedName colormagenta
+s SimpleName MethodInvocation SimpleName get iterator
+aci SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+aci SimpleName VariableDeclarationFragment MethodInvocation SimpleName get iterator
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aci
+text node SimpleName MethodInvocation SimpleName set attributed character iterator
+text node SimpleName MethodInvocation SimpleName aci
+set attributed character iterator SimpleName MethodInvocation SimpleName aci
+text node SimpleName MethodInvocation SimpleName set anchor
+text node SimpleName MethodInvocation QualifiedName text nodeanchorend
+set anchor SimpleName MethodInvocation QualifiedName text nodeanchorend
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+text node SimpleName MethodInvocation SimpleName set location
+text node SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName point dfloat
+text node SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+text node SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+set location SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName point dfloat
+set location SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+set location SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+text node SimpleName MethodInvocation SimpleName add graphics node mouse listener
+text node SimpleName MethodInvocation SimpleName selector
+add graphics node mouse listener SimpleName MethodInvocation SimpleName selector
+canvas SimpleName MethodInvocation SimpleName get children
+canvas SimpleName MethodInvocation MethodInvocation SimpleName add
+get children SimpleName MethodInvocation MethodInvocation SimpleName add
+canvas SimpleName MethodInvocation MethodInvocation SimpleName text node
+get children SimpleName MethodInvocation MethodInvocation SimpleName text node
+add SimpleName MethodInvocation SimpleName text node
+f SimpleName MethodInvocation SimpleName create text node
+text node SimpleName Assignment MethodInvocation SimpleName f
+text node SimpleName Assignment MethodInvocation SimpleName create text node
+attributed string SimpleName SimpleType ClassInstanceCreation StringLiteral simple text
+s SimpleName Assignment ClassInstanceCreation SimpleType SimpleName attributed string
+s SimpleName Assignment ClassInstanceCreation StringLiteral simple text
+float SimpleName SimpleType ClassInstanceCreation NumberLiteral f
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributesize
+s SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+s SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+add attribute SimpleName MethodInvocation QualifiedName text attributesize
+add attribute SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+add attribute SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+text attributesize QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+text attributesize QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral f
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributeforeground
+s SimpleName MethodInvocation QualifiedName colorblue
+add attribute SimpleName MethodInvocation QualifiedName text attributeforeground
+add attribute SimpleName MethodInvocation QualifiedName colorblue
+text attributeforeground QualifiedName MethodInvocation QualifiedName colorblue
+s SimpleName MethodInvocation SimpleName get iterator
+aci SimpleName Assignment MethodInvocation SimpleName s
+aci SimpleName Assignment MethodInvocation SimpleName get iterator
+text node SimpleName MethodInvocation SimpleName set attributed character iterator
+text node SimpleName MethodInvocation SimpleName aci
+set attributed character iterator SimpleName MethodInvocation SimpleName aci
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+text node SimpleName MethodInvocation SimpleName set location
+text node SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName point dfloat
+text node SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+text node SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+set location SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName point dfloat
+set location SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+set location SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+text node SimpleName MethodInvocation SimpleName set anchor
+text node SimpleName MethodInvocation QualifiedName text nodeanchorstart
+set anchor SimpleName MethodInvocation QualifiedName text nodeanchorstart
+text node SimpleName MethodInvocation SimpleName add graphics node mouse listener
+text node SimpleName MethodInvocation SimpleName selector
+add graphics node mouse listener SimpleName MethodInvocation SimpleName selector
+canvas SimpleName MethodInvocation SimpleName get children
+canvas SimpleName MethodInvocation MethodInvocation SimpleName add
+get children SimpleName MethodInvocation MethodInvocation SimpleName add
+canvas SimpleName MethodInvocation MethodInvocation SimpleName text node
+get children SimpleName MethodInvocation MethodInvocation SimpleName text node
+add SimpleName MethodInvocation SimpleName text node
+f SimpleName MethodInvocation SimpleName create text node
+text node SimpleName Assignment MethodInvocation SimpleName f
+text node SimpleName Assignment MethodInvocation SimpleName create text node
+attributed string SimpleName SimpleType ClassInstanceCreation StringLiteral attributes are not always global to string
+s SimpleName Assignment ClassInstanceCreation SimpleType SimpleName attributed string
+s SimpleName Assignment ClassInstanceCreation StringLiteral attributes are not always global to string
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributefamily
+s SimpleName MethodInvocation StringLiteral serif
+add attribute SimpleName MethodInvocation QualifiedName text attributefamily
+add attribute SimpleName MethodInvocation StringLiteral serif
+text attributefamily QualifiedName MethodInvocation StringLiteral serif
+float SimpleName SimpleType ClassInstanceCreation NumberLiteral f
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributesize
+s SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+s SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+add attribute SimpleName MethodInvocation QualifiedName text attributesize
+add attribute SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+add attribute SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+text attributesize QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+text attributesize QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral f
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributeposture
+s SimpleName MethodInvocation QualifiedName text attributeposture oblique
+add attribute SimpleName MethodInvocation QualifiedName text attributeposture
+add attribute SimpleName MethodInvocation QualifiedName text attributeposture oblique
+text attributeposture QualifiedName MethodInvocation QualifiedName text attributeposture oblique
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributeforeground
+s SimpleName MethodInvocation QualifiedName colorgreen
+add attribute SimpleName MethodInvocation QualifiedName text attributeforeground
+add attribute SimpleName MethodInvocation QualifiedName colorgreen
+text attributeforeground QualifiedName MethodInvocation QualifiedName colorgreen
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributefamily
+s SimpleName MethodInvocation StringLiteral sans serif
+s SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName text attributefamily
+add attribute SimpleName MethodInvocation StringLiteral sans serif
+add attribute SimpleName MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation NumberLiteral empty
+text attributefamily QualifiedName MethodInvocation StringLiteral sans serif
+text attributefamily QualifiedName MethodInvocation NumberLiteral empty
+text attributefamily QualifiedName MethodInvocation NumberLiteral empty
+sans serif StringLiteral MethodInvocation NumberLiteral empty
+sans serif StringLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+float SimpleName SimpleType ClassInstanceCreation NumberLiteral f
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributesize
+s SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+s SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+s SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName text attributesize
+add attribute SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+add attribute SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+add attribute SimpleName MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation NumberLiteral empty
+text attributesize QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+text attributesize QualifiedName MethodInvocation ClassInstanceCreation NumberLiteral f
+text attributesize QualifiedName MethodInvocation NumberLiteral empty
+text attributesize QualifiedName MethodInvocation NumberLiteral empty
+float SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+f NumberLiteral ClassInstanceCreation MethodInvocation NumberLiteral empty
+float SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+f NumberLiteral ClassInstanceCreation MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributeweight
+s SimpleName MethodInvocation QualifiedName text attributeweight bold
+s SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName text attributeweight
+add attribute SimpleName MethodInvocation QualifiedName text attributeweight bold
+add attribute SimpleName MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation NumberLiteral empty
+text attributeweight QualifiedName MethodInvocation QualifiedName text attributeweight bold
+text attributeweight QualifiedName MethodInvocation NumberLiteral empty
+text attributeweight QualifiedName MethodInvocation NumberLiteral empty
+text attributeweight bold QualifiedName MethodInvocation NumberLiteral empty
+text attributeweight bold QualifiedName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributeforeground
+s SimpleName MethodInvocation QualifiedName colorred
+s SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName text attributeforeground
+add attribute SimpleName MethodInvocation QualifiedName colorred
+add attribute SimpleName MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation NumberLiteral empty
+text attributeforeground QualifiedName MethodInvocation QualifiedName colorred
+text attributeforeground QualifiedName MethodInvocation NumberLiteral empty
+text attributeforeground QualifiedName MethodInvocation NumberLiteral empty
+colorred QualifiedName MethodInvocation NumberLiteral empty
+colorred QualifiedName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName add attribute
+s SimpleName MethodInvocation QualifiedName text attributeunderline
+s SimpleName MethodInvocation QualifiedName text attributeunderline on
+s SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation QualifiedName text attributeunderline
+add attribute SimpleName MethodInvocation QualifiedName text attributeunderline on
+add attribute SimpleName MethodInvocation NumberLiteral empty
+add attribute SimpleName MethodInvocation NumberLiteral empty
+text attributeunderline QualifiedName MethodInvocation QualifiedName text attributeunderline on
+text attributeunderline QualifiedName MethodInvocation NumberLiteral empty
+text attributeunderline QualifiedName MethodInvocation NumberLiteral empty
+text attributeunderline on QualifiedName MethodInvocation NumberLiteral empty
+text attributeunderline on QualifiedName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName get iterator
+aci SimpleName Assignment MethodInvocation SimpleName s
+aci SimpleName Assignment MethodInvocation SimpleName get iterator
+text node SimpleName MethodInvocation SimpleName set attributed character iterator
+text node SimpleName MethodInvocation SimpleName aci
+set attributed character iterator SimpleName MethodInvocation SimpleName aci
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral f
+f NumberLiteral ClassInstanceCreation NumberLiteral f
+text node SimpleName MethodInvocation SimpleName set location
+text node SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName point dfloat
+text node SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+text node SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+set location SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName point dfloat
+set location SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+set location SimpleName MethodInvocation ClassInstanceCreation NumberLiteral f
+text node SimpleName MethodInvocation SimpleName set anchor
+text node SimpleName MethodInvocation QualifiedName text nodeanchormiddle
+set anchor SimpleName MethodInvocation QualifiedName text nodeanchormiddle
+text node SimpleName MethodInvocation SimpleName add graphics node mouse listener
+text node SimpleName MethodInvocation SimpleName selector
+add graphics node mouse listener SimpleName MethodInvocation SimpleName selector
+canvas SimpleName MethodInvocation SimpleName get children
+canvas SimpleName MethodInvocation MethodInvocation SimpleName add
+get children SimpleName MethodInvocation MethodInvocation SimpleName add
+canvas SimpleName MethodInvocation MethodInvocation SimpleName text node
+get children SimpleName MethodInvocation MethodInvocation SimpleName text node
+add SimpleName MethodInvocation SimpleName text node
+canvas SimpleName MethodInvocation SimpleName set graphics node event filter
+canvas SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName omnivorous filter
+set graphics node event filter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName omnivorous filter
+public Modifier MethodDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SimpleName create graphics node
+public Modifier MethodDeclaration Block ReturnStatement SimpleName canvas
+graphics node SimpleName SimpleType MethodDeclaration SimpleName create graphics node
+create graphics node SimpleName MethodDeclaration Block ReturnStatement SimpleName canvas
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create graphics node
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create graphics node

@@ -1,0 +1,180 @@
+panel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j panel
+j panel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName panel
+border factory SimpleName MethodInvocation SimpleName create etched border
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral paneltitle
+get string SimpleName MethodInvocation StringLiteral paneltitle
+border factory SimpleName MethodInvocation SimpleName create titled border
+border factory SimpleName MethodInvocation MethodInvocation SimpleName border factory
+border factory SimpleName MethodInvocation MethodInvocation SimpleName create etched border
+border factory SimpleName MethodInvocation MethodInvocation SimpleName resources
+border factory SimpleName MethodInvocation MethodInvocation SimpleName get string
+border factory SimpleName MethodInvocation MethodInvocation StringLiteral paneltitle
+create titled border SimpleName MethodInvocation MethodInvocation SimpleName border factory
+create titled border SimpleName MethodInvocation MethodInvocation SimpleName create etched border
+create titled border SimpleName MethodInvocation MethodInvocation SimpleName resources
+create titled border SimpleName MethodInvocation MethodInvocation SimpleName get string
+create titled border SimpleName MethodInvocation MethodInvocation StringLiteral paneltitle
+border factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resources
+border factory SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+border factory SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral paneltitle
+create etched border SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resources
+create etched border SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+create etched border SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral paneltitle
+panel SimpleName MethodInvocation SimpleName set border
+panel SimpleName MethodInvocation MethodInvocation SimpleName border factory
+panel SimpleName MethodInvocation MethodInvocation SimpleName create titled border
+panel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName border factory
+panel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create etched border
+panel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resources
+panel SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+panel SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral paneltitle
+set border SimpleName MethodInvocation MethodInvocation SimpleName border factory
+set border SimpleName MethodInvocation MethodInvocation SimpleName create titled border
+set border SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName border factory
+set border SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create etched border
+set border SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resources
+set border SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+set border SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral paneltitle
+gbc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName extended grid bag constraints
+extended grid bag constraints SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gbc
+insets SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+insets SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+insets SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+insets SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+gbcinsets QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName insets
+gbcinsets QualifiedName Assignment ClassInstanceCreation NumberLiteral empty
+gbcinsets QualifiedName Assignment ClassInstanceCreation NumberLiteral empty
+gbcinsets QualifiedName Assignment ClassInstanceCreation NumberLiteral empty
+gbcinsets QualifiedName Assignment ClassInstanceCreation NumberLiteral empty
+gbcanchor QualifiedName Assignment QualifiedName extended grid bag constraintseast
+gbcfill QualifiedName Assignment QualifiedName extended grid bag constraintsnone
+gbc SimpleName MethodInvocation SimpleName set weight
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+set weight SimpleName MethodInvocation NumberLiteral empty
+set weight SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation SimpleName set grid bounds
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral find labeltext
+get string SimpleName MethodInvocation StringLiteral find labeltext
+j label SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName resources
+j label SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get string
+j label SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral find labeltext
+panel SimpleName MethodInvocation SimpleName add
+panel SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName j label
+panel SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resources
+panel SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get string
+panel SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral find labeltext
+panel SimpleName MethodInvocation SimpleName gbc
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName j label
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resources
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get string
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral find labeltext
+add SimpleName MethodInvocation SimpleName gbc
+j label SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName gbc
+resources SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName gbc
+get string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName gbc
+find labeltext StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation SimpleName gbc
+gbcfill QualifiedName Assignment QualifiedName extended grid bag constraintshorizontal
+gbc SimpleName MethodInvocation SimpleName set weight
+gbc SimpleName MethodInvocation NumberLiteral .
+gbc SimpleName MethodInvocation NumberLiteral empty
+set weight SimpleName MethodInvocation NumberLiteral .
+set weight SimpleName MethodInvocation NumberLiteral empty
+. NumberLiteral MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation SimpleName set grid bounds
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+j text field SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+search SimpleName Assignment ClassInstanceCreation SimpleType SimpleName j text field
+search SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+panel SimpleName MethodInvocation SimpleName add
+panel SimpleName MethodInvocation Assignment SimpleName search
+panel SimpleName MethodInvocation Assignment ClassInstanceCreation NumberLiteral empty
+panel SimpleName MethodInvocation SimpleName gbc
+add SimpleName MethodInvocation Assignment SimpleName search
+add SimpleName MethodInvocation Assignment ClassInstanceCreation NumberLiteral empty
+add SimpleName MethodInvocation SimpleName gbc
+search SimpleName Assignment MethodInvocation SimpleName gbc
+empty NumberLiteral ClassInstanceCreation Assignment MethodInvocation SimpleName gbc
+gbcfill QualifiedName Assignment QualifiedName extended grid bag constraintsnone
+gbcanchor QualifiedName Assignment QualifiedName extended grid bag constraintswest
+gbc SimpleName MethodInvocation SimpleName set weight
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+set weight SimpleName MethodInvocation NumberLiteral empty
+set weight SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation SimpleName set grid bounds
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+gbc SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+set grid bounds SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+button factory SimpleName MethodInvocation SimpleName create j check box
+button factory SimpleName MethodInvocation StringLiteral case sensitive check box
+create j check box SimpleName MethodInvocation StringLiteral case sensitive check box
+case sensitive SimpleName Assignment MethodInvocation SimpleName button factory
+case sensitive SimpleName Assignment MethodInvocation SimpleName create j check box
+case sensitive SimpleName Assignment MethodInvocation StringLiteral case sensitive check box
+panel SimpleName MethodInvocation SimpleName add
+panel SimpleName MethodInvocation SimpleName case sensitive
+panel SimpleName MethodInvocation SimpleName gbc
+add SimpleName MethodInvocation SimpleName case sensitive
+add SimpleName MethodInvocation SimpleName gbc
+case sensitive SimpleName MethodInvocation SimpleName gbc
+protected Modifier MethodDeclaration SimpleType SimpleName j panel
+protected Modifier MethodDeclaration SimpleName create find panel
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName panel
+j panel SimpleName SimpleType MethodDeclaration SimpleName create find panel
+create find panel SimpleName MethodDeclaration Block ReturnStatement SimpleName panel
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName j panel
+public Modifier TypeDeclaration MethodDeclaration SimpleName create find panel
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName j panel
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create find panel

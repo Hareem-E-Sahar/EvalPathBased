@@ -1,0 +1,22 @@
+value SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName MethodInvocation SimpleName append
+value SimpleName MethodInvocation SimpleName x
+append SimpleName MethodInvocation SimpleName x
+value SimpleName MethodInvocation SimpleName append
+value SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+value SimpleName MethodInvocation SimpleName append
+value SimpleName MethodInvocation SimpleName y
+append SimpleName MethodInvocation SimpleName y
+value SimpleName MethodInvocation SimpleName to string
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get string value
+string SimpleName SimpleType MethodDeclaration SimpleName get string value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get string value
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get string value

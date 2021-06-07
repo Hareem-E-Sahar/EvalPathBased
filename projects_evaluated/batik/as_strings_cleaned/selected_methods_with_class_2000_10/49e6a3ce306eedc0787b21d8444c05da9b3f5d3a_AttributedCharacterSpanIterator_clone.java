@@ -1,0 +1,22 @@
+aci SimpleName MethodInvocation SimpleName clone
+attributed character iterator SimpleName SimpleType CastExpression MethodInvocation SimpleName aci
+attributed character iterator SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+attributed character span iterator SimpleName SimpleType ClassInstanceCreation SimpleName begin
+attributed character span iterator SimpleName SimpleType ClassInstanceCreation SimpleName end
+attributed character iterator SimpleName SimpleType CastExpression ClassInstanceCreation SimpleName begin
+aci SimpleName MethodInvocation CastExpression ClassInstanceCreation SimpleName begin
+clone SimpleName MethodInvocation CastExpression ClassInstanceCreation SimpleName begin
+attributed character iterator SimpleName SimpleType CastExpression ClassInstanceCreation SimpleName end
+aci SimpleName MethodInvocation CastExpression ClassInstanceCreation SimpleName end
+clone SimpleName MethodInvocation CastExpression ClassInstanceCreation SimpleName end
+begin SimpleName ClassInstanceCreation SimpleName end
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName clone
+object SimpleName SimpleType MethodDeclaration SimpleName clone
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone

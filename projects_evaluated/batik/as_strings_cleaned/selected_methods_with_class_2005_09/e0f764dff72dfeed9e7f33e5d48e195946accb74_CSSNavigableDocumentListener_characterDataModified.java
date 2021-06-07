@@ -1,0 +1,13 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName text
+void PrimitiveType MethodDeclaration SimpleName character data modified
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName text
+character data modified SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+character data modified SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName character data modified
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName character data modified
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text

@@ -1,0 +1,89 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ln
+string SimpleName SimpleType SingleVariableDeclaration SimpleName val
+short PrimitiveType SingleVariableDeclaration SimpleName dir
+get live attribute value SimpleName MethodInvocation SimpleName ns
+get live attribute value SimpleName MethodInvocation SimpleName ln
+ns SimpleName MethodInvocation SimpleName ln
+svg animated length SimpleName SimpleType CastExpression MethodInvocation SimpleName get live attribute value
+svg animated length SimpleName SimpleType CastExpression MethodInvocation SimpleName ns
+svg animated length SimpleName SimpleType CastExpression MethodInvocation SimpleName ln
+result SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg animated length
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get live attribute value
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ns
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ln
+svg animated length SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+svgom animated length SimpleName SimpleType ClassInstanceCreation SimpleName ns
+svgom animated length SimpleName SimpleType ClassInstanceCreation SimpleName ln
+svgom animated length SimpleName SimpleType ClassInstanceCreation SimpleName val
+svgom animated length SimpleName SimpleType ClassInstanceCreation SimpleName dir
+ns SimpleName ClassInstanceCreation SimpleName ln
+ns SimpleName ClassInstanceCreation SimpleName val
+ns SimpleName ClassInstanceCreation SimpleName dir
+ln SimpleName ClassInstanceCreation SimpleName val
+ln SimpleName ClassInstanceCreation SimpleName dir
+val SimpleName ClassInstanceCreation SimpleName dir
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svgom animated length
+result SimpleName Assignment ClassInstanceCreation SimpleName ns
+result SimpleName Assignment ClassInstanceCreation SimpleName ln
+result SimpleName Assignment ClassInstanceCreation SimpleName val
+result SimpleName Assignment ClassInstanceCreation SimpleName dir
+live attribute value SimpleName SimpleType CastExpression SimpleName result
+put live attribute value SimpleName MethodInvocation SimpleName ns
+put live attribute value SimpleName MethodInvocation SimpleName ln
+put live attribute value SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+put live attribute value SimpleName MethodInvocation CastExpression SimpleName result
+ns SimpleName MethodInvocation SimpleName ln
+ns SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+ns SimpleName MethodInvocation CastExpression SimpleName result
+ln SimpleName MethodInvocation CastExpression SimpleType SimpleName live attribute value
+ln SimpleName MethodInvocation CastExpression SimpleName result
+protected Modifier MethodDeclaration SimpleType SimpleName svg animated length
+protected Modifier MethodDeclaration SimpleName get animated length attribute
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ln
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+svg animated length SimpleName SimpleType MethodDeclaration SimpleName get animated length attribute
+svg animated length SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ns
+svg animated length SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ln
+svg animated length SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName val
+svg animated length SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+svg animated length SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dir
+get animated length attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get animated length attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+get animated length attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get animated length attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ln
+get animated length attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get animated length attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+get animated length attribute SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+get animated length attribute SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+get animated length attribute SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+ln SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+ln SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+ln SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+val SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated length
+public Modifier TypeDeclaration MethodDeclaration SimpleName get animated length attribute
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated length
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get animated length attribute
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir

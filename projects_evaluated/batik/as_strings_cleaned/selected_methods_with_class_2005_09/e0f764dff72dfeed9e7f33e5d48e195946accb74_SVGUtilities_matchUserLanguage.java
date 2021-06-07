@@ -1,0 +1,72 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType SingleVariableDeclaration SimpleName user languages
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName user languages
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+user languages SimpleName ClassInstanceCreation StringLiteral empty
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName user languages
+st SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+st SimpleName MethodInvocation SimpleName has more tokens
+st SimpleName MethodInvocation SimpleName next token
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName next token
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+s SimpleName MethodInvocation SimpleName starts with
+s SimpleName MethodInvocation SimpleName t
+starts with SimpleName MethodInvocation SimpleName t
+s SimpleName MethodInvocation SimpleName length
+t SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+s SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName t
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+t SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation MethodInvocation SimpleName t
+s SimpleName MethodInvocation MethodInvocation SimpleName length
+char at SimpleName MethodInvocation MethodInvocation SimpleName t
+char at SimpleName MethodInvocation MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression CharacterLiteral -
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral -
+t SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral -
+length SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral -
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName match user language
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName user languages
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName match user language
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName user languages
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName match user language
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName user languages
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+match user language SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+match user language SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+match user language SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+match user language SimpleName MethodDeclaration SingleVariableDeclaration SimpleName user languages
+match user language SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user languages
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName match user language
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user languages
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName match user language
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName user languages

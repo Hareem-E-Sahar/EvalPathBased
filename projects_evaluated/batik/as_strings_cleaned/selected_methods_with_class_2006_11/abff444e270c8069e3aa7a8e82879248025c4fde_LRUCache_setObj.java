@@ -1,0 +1,22 @@
+lru obj SimpleName SimpleType SingleVariableDeclaration SimpleName new obj
+obj SimpleName MethodInvocation SimpleName lru remove
+obj SimpleName Assignment SimpleName new obj
+obj SimpleName MethodInvocation SimpleName lru set
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set obj
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lru obj
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName new obj
+void PrimitiveType MethodDeclaration SimpleName set obj
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lru obj
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new obj
+set obj SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lru obj
+set obj SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set obj
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set obj
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new obj

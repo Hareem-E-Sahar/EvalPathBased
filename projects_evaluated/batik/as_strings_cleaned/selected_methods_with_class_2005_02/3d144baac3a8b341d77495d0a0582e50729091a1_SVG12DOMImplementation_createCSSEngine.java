@@ -1,0 +1,120 @@
+abstract stylable document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+css context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+extended parser SimpleName SimpleType SingleVariableDeclaration SimpleName ep
+value manager SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName vms
+shorthand manager SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName sms
+svgom document SimpleName SimpleType CastExpression SimpleName doc
+doc SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get url object
+durl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get url object
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName durl
+svg css engine SimpleName SimpleType ClassInstanceCreation SimpleName doc
+svg css engine SimpleName SimpleType ClassInstanceCreation SimpleName durl
+svg css engine SimpleName SimpleType ClassInstanceCreation SimpleName ep
+svg css engine SimpleName SimpleType ClassInstanceCreation SimpleName vms
+svg css engine SimpleName SimpleType ClassInstanceCreation SimpleName sms
+doc SimpleName ClassInstanceCreation SimpleName durl
+doc SimpleName ClassInstanceCreation SimpleName ep
+doc SimpleName ClassInstanceCreation SimpleName vms
+doc SimpleName ClassInstanceCreation SimpleName sms
+doc SimpleName ClassInstanceCreation SimpleName ctx
+durl SimpleName ClassInstanceCreation SimpleName ep
+durl SimpleName ClassInstanceCreation SimpleName vms
+durl SimpleName ClassInstanceCreation SimpleName sms
+durl SimpleName ClassInstanceCreation SimpleName ctx
+ep SimpleName ClassInstanceCreation SimpleName vms
+ep SimpleName ClassInstanceCreation SimpleName sms
+ep SimpleName ClassInstanceCreation SimpleName ctx
+vms SimpleName ClassInstanceCreation SimpleName sms
+vms SimpleName ClassInstanceCreation SimpleName ctx
+sms SimpleName ClassInstanceCreation SimpleName ctx
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName svg css engine
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName doc
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName durl
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ep
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName vms
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName sms
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ctx
+css engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class SimpleName MethodInvocation MethodInvocation StringLiteral resourcesuser agent style sheetcss
+get resource SimpleName MethodInvocation StringLiteral resourcesuser agent style sheetcss
+url SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+url SimpleName VariableDeclarationFragment MethodInvocation StringLiteral resourcesuser agent style sheetcss
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+url SimpleName MethodInvocation SimpleName to string
+input source SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName url
+input source SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName to string
+is SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName input source
+is SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName url
+is SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName to string
+input source SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName is
+result SimpleName MethodInvocation SimpleName parse style sheet
+result SimpleName MethodInvocation SimpleName is
+result SimpleName MethodInvocation SimpleName url
+result SimpleName MethodInvocation StringLiteral all
+parse style sheet SimpleName MethodInvocation SimpleName is
+parse style sheet SimpleName MethodInvocation SimpleName url
+parse style sheet SimpleName MethodInvocation StringLiteral all
+is SimpleName MethodInvocation SimpleName url
+is SimpleName MethodInvocation StringLiteral all
+url SimpleName MethodInvocation StringLiteral all
+result SimpleName MethodInvocation SimpleName set user agent style sheet
+result SimpleName MethodInvocation MethodInvocation SimpleName result
+result SimpleName MethodInvocation MethodInvocation SimpleName parse style sheet
+result SimpleName MethodInvocation MethodInvocation SimpleName is
+result SimpleName MethodInvocation MethodInvocation SimpleName url
+result SimpleName MethodInvocation MethodInvocation StringLiteral all
+set user agent style sheet SimpleName MethodInvocation MethodInvocation SimpleName result
+set user agent style sheet SimpleName MethodInvocation MethodInvocation SimpleName parse style sheet
+set user agent style sheet SimpleName MethodInvocation MethodInvocation SimpleName is
+set user agent style sheet SimpleName MethodInvocation MethodInvocation SimpleName url
+set user agent style sheet SimpleName MethodInvocation MethodInvocation StringLiteral all
+public Modifier MethodDeclaration SimpleType SimpleName css engine
+public Modifier MethodDeclaration SimpleName create css engine
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract stylable document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended parser
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ep
+css engine SimpleName SimpleType MethodDeclaration SimpleName create css engine
+css engine SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName doc
+css engine SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+css engine SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ep
+css engine SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName vms
+create css engine SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract stylable document
+create css engine SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+create css engine SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css context
+create css engine SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create css engine SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended parser
+create css engine SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ep
+create css engine SimpleName MethodDeclaration SingleVariableDeclaration SimpleName vms
+create css engine SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sms
+doc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+doc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ep
+doc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vms
+doc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sms
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ep
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vms
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sms
+ep SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vms
+ep SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sms
+vms SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sms
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css engine
+public Modifier TypeDeclaration MethodDeclaration SimpleName create css engine
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ep
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vms
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sms
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css engine
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create css engine
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ep
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName vms
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sms

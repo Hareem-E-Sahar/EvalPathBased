@@ -1,0 +1,15 @@
+idx SimpleName InfixExpression SimpleName size
+no such element exception SimpleName SimpleType ClassInstanceCreation StringLiteral no next element
+forward SimpleName Assignment BooleanLiteral true
+remove ok SimpleName Assignment BooleanLiteral true
+rects SimpleName ArrayAccess PostfixExpression SimpleName idx
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName next
+object SimpleName SimpleType MethodDeclaration SimpleName next
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next

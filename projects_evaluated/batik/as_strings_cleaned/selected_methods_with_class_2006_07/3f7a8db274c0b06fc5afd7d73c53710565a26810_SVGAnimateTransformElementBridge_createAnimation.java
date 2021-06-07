@@ -1,0 +1,165 @@
+animation target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse type
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse type
+animatable value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName from
+animatable value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName to
+animatable value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName by
+from SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName to
+from SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName by
+to SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName by
+element SimpleName MethodInvocation SimpleName has attribute ns
+element SimpleName MethodInvocation SimpleName svg from attribute
+has attribute ns SimpleName MethodInvocation SimpleName svg from attribute
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg from attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg from attribute
+parse value SimpleName MethodInvocation MethodInvocation SimpleName element
+parse value SimpleName MethodInvocation MethodInvocation SimpleName get attribute ns
+parse value SimpleName MethodInvocation MethodInvocation SimpleName svg from attribute
+parse value SimpleName MethodInvocation SimpleName type
+parse value SimpleName MethodInvocation SimpleName target
+element SimpleName MethodInvocation MethodInvocation SimpleName type
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName type
+svg from attribute SimpleName MethodInvocation MethodInvocation SimpleName type
+element SimpleName MethodInvocation MethodInvocation SimpleName target
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName target
+svg from attribute SimpleName MethodInvocation MethodInvocation SimpleName target
+type SimpleName MethodInvocation SimpleName target
+from SimpleName Assignment MethodInvocation SimpleName parse value
+from SimpleName Assignment MethodInvocation MethodInvocation SimpleName element
+from SimpleName Assignment MethodInvocation MethodInvocation SimpleName get attribute ns
+from SimpleName Assignment MethodInvocation MethodInvocation SimpleName svg from attribute
+from SimpleName Assignment MethodInvocation SimpleName type
+from SimpleName Assignment MethodInvocation SimpleName target
+element SimpleName MethodInvocation SimpleName has attribute ns
+element SimpleName MethodInvocation SimpleName svg to attribute
+has attribute ns SimpleName MethodInvocation SimpleName svg to attribute
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg to attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg to attribute
+parse value SimpleName MethodInvocation MethodInvocation SimpleName element
+parse value SimpleName MethodInvocation MethodInvocation SimpleName get attribute ns
+parse value SimpleName MethodInvocation MethodInvocation SimpleName svg to attribute
+parse value SimpleName MethodInvocation SimpleName type
+parse value SimpleName MethodInvocation SimpleName target
+element SimpleName MethodInvocation MethodInvocation SimpleName type
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName type
+svg to attribute SimpleName MethodInvocation MethodInvocation SimpleName type
+element SimpleName MethodInvocation MethodInvocation SimpleName target
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName target
+svg to attribute SimpleName MethodInvocation MethodInvocation SimpleName target
+type SimpleName MethodInvocation SimpleName target
+to SimpleName Assignment MethodInvocation SimpleName parse value
+to SimpleName Assignment MethodInvocation MethodInvocation SimpleName element
+to SimpleName Assignment MethodInvocation MethodInvocation SimpleName get attribute ns
+to SimpleName Assignment MethodInvocation MethodInvocation SimpleName svg to attribute
+to SimpleName Assignment MethodInvocation SimpleName type
+to SimpleName Assignment MethodInvocation SimpleName target
+element SimpleName MethodInvocation SimpleName has attribute ns
+element SimpleName MethodInvocation SimpleName svg by attribute
+has attribute ns SimpleName MethodInvocation SimpleName svg by attribute
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg by attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg by attribute
+parse value SimpleName MethodInvocation MethodInvocation SimpleName element
+parse value SimpleName MethodInvocation MethodInvocation SimpleName get attribute ns
+parse value SimpleName MethodInvocation MethodInvocation SimpleName svg by attribute
+parse value SimpleName MethodInvocation SimpleName type
+parse value SimpleName MethodInvocation SimpleName target
+element SimpleName MethodInvocation MethodInvocation SimpleName type
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName type
+svg by attribute SimpleName MethodInvocation MethodInvocation SimpleName type
+element SimpleName MethodInvocation MethodInvocation SimpleName target
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName target
+svg by attribute SimpleName MethodInvocation MethodInvocation SimpleName target
+type SimpleName MethodInvocation SimpleName target
+by SimpleName Assignment MethodInvocation SimpleName parse value
+by SimpleName Assignment MethodInvocation MethodInvocation SimpleName element
+by SimpleName Assignment MethodInvocation MethodInvocation SimpleName get attribute ns
+by SimpleName Assignment MethodInvocation MethodInvocation SimpleName svg by attribute
+by SimpleName Assignment MethodInvocation SimpleName type
+by SimpleName Assignment MethodInvocation SimpleName target
+parse values SimpleName MethodInvocation SimpleName type
+parse values SimpleName MethodInvocation SimpleName target
+type SimpleName MethodInvocation SimpleName target
+transform animation SimpleName SimpleType ClassInstanceCreation SimpleName timed element
+transform animation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse calc mode
+transform animation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse key times
+transform animation SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName parse key splines
+timed element SimpleName ClassInstanceCreation MethodInvocation SimpleName parse calc mode
+timed element SimpleName ClassInstanceCreation MethodInvocation SimpleName parse key times
+timed element SimpleName ClassInstanceCreation MethodInvocation SimpleName parse key splines
+timed element SimpleName ClassInstanceCreation MethodInvocation SimpleName parse additive
+parse calc mode SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse key times
+parse calc mode SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse key splines
+parse calc mode SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse additive
+parse calc mode SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse accumulate
+parse calc mode SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse values
+parse calc mode SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName type
+parse calc mode SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName target
+parse key times SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse key splines
+parse key times SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse additive
+parse key times SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse accumulate
+parse key times SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse values
+parse key times SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName type
+parse key times SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName target
+parse key times SimpleName MethodInvocation ClassInstanceCreation SimpleName from
+parse key splines SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse additive
+parse key splines SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse accumulate
+parse key splines SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse values
+parse key splines SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName type
+parse key splines SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName target
+parse key splines SimpleName MethodInvocation ClassInstanceCreation SimpleName from
+parse key splines SimpleName MethodInvocation ClassInstanceCreation SimpleName to
+parse additive SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse accumulate
+parse additive SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse values
+parse additive SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName type
+parse additive SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName target
+parse additive SimpleName MethodInvocation ClassInstanceCreation SimpleName from
+parse additive SimpleName MethodInvocation ClassInstanceCreation SimpleName to
+parse additive SimpleName MethodInvocation ClassInstanceCreation SimpleName by
+parse accumulate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName parse values
+parse accumulate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName type
+parse accumulate SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName target
+parse accumulate SimpleName MethodInvocation ClassInstanceCreation SimpleName from
+parse accumulate SimpleName MethodInvocation ClassInstanceCreation SimpleName to
+parse accumulate SimpleName MethodInvocation ClassInstanceCreation SimpleName by
+parse accumulate SimpleName MethodInvocation ClassInstanceCreation SimpleName type
+parse values SimpleName MethodInvocation ClassInstanceCreation SimpleName from
+type SimpleName MethodInvocation ClassInstanceCreation SimpleName from
+target SimpleName MethodInvocation ClassInstanceCreation SimpleName from
+parse values SimpleName MethodInvocation ClassInstanceCreation SimpleName to
+type SimpleName MethodInvocation ClassInstanceCreation SimpleName to
+target SimpleName MethodInvocation ClassInstanceCreation SimpleName to
+parse values SimpleName MethodInvocation ClassInstanceCreation SimpleName by
+type SimpleName MethodInvocation ClassInstanceCreation SimpleName by
+target SimpleName MethodInvocation ClassInstanceCreation SimpleName by
+parse values SimpleName MethodInvocation ClassInstanceCreation SimpleName type
+type SimpleName MethodInvocation ClassInstanceCreation SimpleName type
+target SimpleName MethodInvocation ClassInstanceCreation SimpleName type
+from SimpleName ClassInstanceCreation SimpleName to
+from SimpleName ClassInstanceCreation SimpleName by
+from SimpleName ClassInstanceCreation SimpleName type
+to SimpleName ClassInstanceCreation SimpleName by
+to SimpleName ClassInstanceCreation SimpleName type
+by SimpleName ClassInstanceCreation SimpleName type
+protected Modifier MethodDeclaration SimpleType SimpleName abstract animation
+protected Modifier MethodDeclaration SimpleName create animation
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType short
+abstract animation SimpleName SimpleType MethodDeclaration SimpleName create animation
+abstract animation SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+create animation SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+create animation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+create animation SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType short
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName abstract animation
+public Modifier TypeDeclaration MethodDeclaration SimpleName create animation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName abstract animation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create animation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

@@ -1,0 +1,47 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+string SimpleName SimpleType SingleVariableDeclaration SimpleName desc
+weak ref SimpleName SimpleType ClassInstanceCreation SimpleName o
+weak ref SimpleName SimpleType ClassInstanceCreation SimpleName desc
+o SimpleName ClassInstanceCreation SimpleName desc
+objs SimpleName MethodInvocation SimpleName put
+objs SimpleName MethodInvocation SimpleName desc
+objs SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName weak ref
+objs SimpleName MethodInvocation ClassInstanceCreation SimpleName o
+objs SimpleName MethodInvocation ClassInstanceCreation SimpleName desc
+put SimpleName MethodInvocation SimpleName desc
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName weak ref
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName o
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName desc
+desc SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName weak ref
+desc SimpleName MethodInvocation ClassInstanceCreation SimpleName o
+desc SimpleName MethodInvocation ClassInstanceCreation SimpleName desc
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName register object desc
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName desc
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName objs
+void PrimitiveType MethodDeclaration SimpleName register object desc
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName desc
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName objs
+register object desc SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+register object desc SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+register object desc SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+register object desc SimpleName MethodDeclaration SingleVariableDeclaration SimpleName desc
+register object desc SimpleName MethodDeclaration Block SynchronizedStatement SimpleName objs
+o SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register object desc
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register object desc
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName desc

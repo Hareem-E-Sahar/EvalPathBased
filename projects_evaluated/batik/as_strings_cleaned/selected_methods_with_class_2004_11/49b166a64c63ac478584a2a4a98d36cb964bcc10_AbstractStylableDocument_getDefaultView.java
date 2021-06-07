@@ -1,0 +1,19 @@
+extensible dom implementation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName impl
+extensible dom implementation SimpleName SimpleType CastExpression SimpleName implementation
+impl SimpleName Assignment CastExpression SimpleType SimpleName extensible dom implementation
+impl SimpleName Assignment CastExpression SimpleName implementation
+impl SimpleName MethodInvocation SimpleName create view css
+default view SimpleName Assignment MethodInvocation SimpleName impl
+default view SimpleName Assignment MethodInvocation SimpleName create view css
+public Modifier MethodDeclaration SimpleType SimpleName abstract view
+public Modifier MethodDeclaration SimpleName get default view
+public Modifier MethodDeclaration Block ReturnStatement SimpleName default view
+abstract view SimpleName SimpleType MethodDeclaration SimpleName get default view
+get default view SimpleName MethodDeclaration Block ReturnStatement SimpleName default view
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName abstract view
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default view
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName abstract view
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default view

@@ -1,0 +1,71 @@
+buffered image SimpleName SimpleType SingleVariableDeclaration SimpleName src
+color model SimpleName SimpleType SingleVariableDeclaration SimpleName dest cm
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dest
+color model SimpleName MethodInvocation SimpleName get rg bdefault
+dest cm SimpleName Assignment MethodInvocation SimpleName color model
+dest cm SimpleName Assignment MethodInvocation SimpleName get rg bdefault
+check compatible SimpleName MethodInvocation SimpleName dest cm
+writable raster SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wr
+src SimpleName MethodInvocation SimpleName get width
+src SimpleName MethodInvocation SimpleName get height
+dest cm SimpleName MethodInvocation SimpleName create compatible writable raster
+dest cm SimpleName MethodInvocation MethodInvocation SimpleName src
+dest cm SimpleName MethodInvocation MethodInvocation SimpleName get width
+dest cm SimpleName MethodInvocation MethodInvocation SimpleName src
+dest cm SimpleName MethodInvocation MethodInvocation SimpleName get height
+create compatible writable raster SimpleName MethodInvocation MethodInvocation SimpleName src
+create compatible writable raster SimpleName MethodInvocation MethodInvocation SimpleName get width
+create compatible writable raster SimpleName MethodInvocation MethodInvocation SimpleName src
+create compatible writable raster SimpleName MethodInvocation MethodInvocation SimpleName get height
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+src SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName src
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get height
+wr SimpleName Assignment MethodInvocation SimpleName dest cm
+wr SimpleName Assignment MethodInvocation SimpleName create compatible writable raster
+wr SimpleName Assignment MethodInvocation MethodInvocation SimpleName src
+wr SimpleName Assignment MethodInvocation MethodInvocation SimpleName get width
+wr SimpleName Assignment MethodInvocation MethodInvocation SimpleName src
+wr SimpleName Assignment MethodInvocation MethodInvocation SimpleName get height
+dest cm SimpleName MethodInvocation SimpleName is alpha premultiplied
+buffered image SimpleName SimpleType ClassInstanceCreation SimpleName dest cm
+buffered image SimpleName SimpleType ClassInstanceCreation SimpleName wr
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName dest cm
+buffered image SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+dest cm SimpleName ClassInstanceCreation SimpleName wr
+dest cm SimpleName ClassInstanceCreation MethodInvocation SimpleName dest cm
+dest cm SimpleName ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+wr SimpleName ClassInstanceCreation MethodInvocation SimpleName dest cm
+wr SimpleName ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+dest SimpleName Assignment ClassInstanceCreation SimpleType SimpleName buffered image
+dest SimpleName Assignment ClassInstanceCreation SimpleName dest cm
+dest SimpleName Assignment ClassInstanceCreation SimpleName wr
+dest SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName dest cm
+dest SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName is alpha premultiplied
+public Modifier MethodDeclaration SimpleType SimpleName buffered image
+public Modifier MethodDeclaration SimpleName create compatible dest image
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName color model
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dest cm
+public Modifier MethodDeclaration Block ReturnStatement SimpleName dest
+buffered image SimpleName SimpleType MethodDeclaration SimpleName create compatible dest image
+buffered image SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName src
+buffered image SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName dest cm
+create compatible dest image SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+create compatible dest image SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+create compatible dest image SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName color model
+create compatible dest image SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dest cm
+create compatible dest image SimpleName MethodDeclaration Block ReturnStatement SimpleName dest
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest cm
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName buffered image
+public Modifier TypeDeclaration MethodDeclaration SimpleName create compatible dest image
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest cm
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName buffered image
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create compatible dest image
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dest cm

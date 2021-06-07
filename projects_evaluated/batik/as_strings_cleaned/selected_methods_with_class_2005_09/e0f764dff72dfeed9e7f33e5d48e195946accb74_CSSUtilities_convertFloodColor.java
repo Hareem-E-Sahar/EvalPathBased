@@ -1,0 +1,124 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation QualifiedName svgcss engineflood color index
+e SimpleName MethodInvocation QualifiedName svgcss engineflood color index
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+v SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss engineflood color index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation QualifiedName svgcss engineflood opacity index
+e SimpleName MethodInvocation QualifiedName svgcss engineflood opacity index
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+o SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss engineflood opacity index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+paint server SimpleName MethodInvocation SimpleName convert opacity
+paint server SimpleName MethodInvocation SimpleName o
+convert opacity SimpleName MethodInvocation SimpleName o
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName paint server
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert opacity
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName o
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName paint server
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName convert opacity
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName o
+v SimpleName MethodInvocation SimpleName get css value type
+v SimpleName MethodInvocation InfixExpression QualifiedName css valuecss primitive value
+get css value type SimpleName MethodInvocation InfixExpression QualifiedName css valuecss primitive value
+paint server SimpleName MethodInvocation SimpleName convert color
+paint server SimpleName MethodInvocation SimpleName v
+paint server SimpleName MethodInvocation SimpleName f
+convert color SimpleName MethodInvocation SimpleName v
+convert color SimpleName MethodInvocation SimpleName f
+v SimpleName MethodInvocation SimpleName f
+v SimpleName MethodInvocation SimpleName item
+v SimpleName MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+v SimpleName MethodInvocation SimpleName item
+v SimpleName MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+icc color SimpleName SimpleType CastExpression MethodInvocation SimpleName v
+icc color SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+icc color SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+paint server SimpleName MethodInvocation SimpleName convert rgbicc color
+paint server SimpleName MethodInvocation SimpleName e
+paint server SimpleName MethodInvocation MethodInvocation SimpleName v
+paint server SimpleName MethodInvocation MethodInvocation SimpleName item
+paint server SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+paint server SimpleName MethodInvocation CastExpression SimpleType SimpleName icc color
+paint server SimpleName MethodInvocation CastExpression MethodInvocation SimpleName v
+paint server SimpleName MethodInvocation CastExpression MethodInvocation SimpleName item
+paint server SimpleName MethodInvocation CastExpression MethodInvocation NumberLiteral empty
+paint server SimpleName MethodInvocation SimpleName f
+convert rgbicc color SimpleName MethodInvocation SimpleName e
+convert rgbicc color SimpleName MethodInvocation MethodInvocation SimpleName v
+convert rgbicc color SimpleName MethodInvocation MethodInvocation SimpleName item
+convert rgbicc color SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+convert rgbicc color SimpleName MethodInvocation CastExpression SimpleType SimpleName icc color
+convert rgbicc color SimpleName MethodInvocation CastExpression MethodInvocation SimpleName v
+convert rgbicc color SimpleName MethodInvocation CastExpression MethodInvocation SimpleName item
+convert rgbicc color SimpleName MethodInvocation CastExpression MethodInvocation NumberLiteral empty
+convert rgbicc color SimpleName MethodInvocation SimpleName f
+convert rgbicc color SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation MethodInvocation SimpleName v
+e SimpleName MethodInvocation MethodInvocation SimpleName item
+e SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+e SimpleName MethodInvocation CastExpression SimpleType SimpleName icc color
+e SimpleName MethodInvocation CastExpression MethodInvocation SimpleName v
+e SimpleName MethodInvocation CastExpression MethodInvocation SimpleName item
+e SimpleName MethodInvocation CastExpression MethodInvocation NumberLiteral empty
+e SimpleName MethodInvocation SimpleName f
+e SimpleName MethodInvocation SimpleName ctx
+v SimpleName MethodInvocation MethodInvocation SimpleName f
+item SimpleName MethodInvocation MethodInvocation SimpleName f
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName f
+v SimpleName MethodInvocation MethodInvocation SimpleName ctx
+item SimpleName MethodInvocation MethodInvocation SimpleName ctx
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName ctx
+icc color SimpleName SimpleType CastExpression MethodInvocation SimpleName f
+v SimpleName MethodInvocation CastExpression MethodInvocation SimpleName f
+item SimpleName MethodInvocation CastExpression MethodInvocation SimpleName f
+empty NumberLiteral MethodInvocation CastExpression MethodInvocation SimpleName f
+icc color SimpleName SimpleType CastExpression MethodInvocation SimpleName ctx
+v SimpleName MethodInvocation CastExpression MethodInvocation SimpleName ctx
+item SimpleName MethodInvocation CastExpression MethodInvocation SimpleName ctx
+empty NumberLiteral MethodInvocation CastExpression MethodInvocation SimpleName ctx
+f SimpleName MethodInvocation SimpleName ctx
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName color
+public Modifier MethodDeclaration SimpleName convert flood color
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration SimpleType SimpleName color
+static Modifier MethodDeclaration SimpleName convert flood color
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+color SimpleName SimpleType MethodDeclaration SimpleName convert flood color
+color SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+color SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert flood color SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert flood color SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+convert flood color SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+convert flood color SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert flood color SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName color
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert flood color
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName color
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert flood color
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

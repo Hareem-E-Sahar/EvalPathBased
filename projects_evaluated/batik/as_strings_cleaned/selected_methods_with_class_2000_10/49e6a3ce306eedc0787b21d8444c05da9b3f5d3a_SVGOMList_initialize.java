@@ -1,0 +1,34 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName new item
+check item SimpleName MethodInvocation SimpleName new item
+list SimpleName MethodInvocation SimpleName clear
+list SimpleName MethodInvocation SimpleName add
+list SimpleName MethodInvocation SimpleName new item
+add SimpleName MethodInvocation SimpleName new item
+attribute modifier SimpleName MethodInvocation SimpleName set attribute value
+attribute modifier SimpleName MethodInvocation MethodInvocation SimpleName to string
+set attribute value SimpleName MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName initialize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier MethodDeclaration SimpleType SimpleName svg exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName new item
+object SimpleName SimpleType MethodDeclaration SimpleName initialize
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new item
+object SimpleName SimpleType MethodDeclaration SimpleType SimpleName svg exception
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new item
+initialize SimpleName MethodDeclaration SimpleType SimpleName svg exception
+initialize SimpleName MethodDeclaration Block ReturnStatement SimpleName new item
+new item SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName svg exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg exception

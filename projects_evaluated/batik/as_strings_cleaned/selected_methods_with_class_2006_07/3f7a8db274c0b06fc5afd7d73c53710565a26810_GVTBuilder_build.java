@@ -1,0 +1,97 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+ctx SimpleName MethodInvocation SimpleName get bridge
+ctx SimpleName MethodInvocation SimpleName e
+get bridge SimpleName MethodInvocation SimpleName e
+bridge SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+bridge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bridge
+bridge SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bridge
+bridge SimpleName InstanceofExpression SimpleType SimpleName generic bridge
+generic bridge SimpleName SimpleType CastExpression SimpleName bridge
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName handle element
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName ctx
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName e
+handle element SimpleName MethodInvocation SimpleName ctx
+handle element SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+handle generic bridges SimpleName MethodInvocation SimpleName ctx
+handle generic bridges SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+bridge SimpleName InstanceofExpression SimpleType SimpleName graphics node bridge
+handle generic bridges SimpleName MethodInvocation SimpleName ctx
+handle generic bridges SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+graphics node bridge SimpleName SimpleType CastExpression SimpleName bridge
+gn bridge SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName graphics node bridge
+gn bridge SimpleName VariableDeclarationFragment CastExpression SimpleName bridge
+graphics node bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn bridge
+gn bridge SimpleName MethodInvocation SimpleName get display
+gn bridge SimpleName MethodInvocation SimpleName e
+get display SimpleName MethodInvocation SimpleName e
+handle generic bridges SimpleName MethodInvocation SimpleName ctx
+handle generic bridges SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+gn bridge SimpleName MethodInvocation SimpleName create graphics node
+gn bridge SimpleName MethodInvocation SimpleName ctx
+gn bridge SimpleName MethodInvocation SimpleName e
+create graphics node SimpleName MethodInvocation SimpleName ctx
+create graphics node SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName gn bridge
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName create graphics node
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn
+gn bridge SimpleName MethodInvocation SimpleName is composite
+composite graphics node SimpleName SimpleType CastExpression SimpleName gn
+build composite SimpleName MethodInvocation SimpleName ctx
+build composite SimpleName MethodInvocation SimpleName e
+build composite SimpleName MethodInvocation CastExpression SimpleType SimpleName composite graphics node
+build composite SimpleName MethodInvocation CastExpression SimpleName gn
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation CastExpression SimpleType SimpleName composite graphics node
+ctx SimpleName MethodInvocation CastExpression SimpleName gn
+e SimpleName MethodInvocation CastExpression SimpleType SimpleName composite graphics node
+e SimpleName MethodInvocation CastExpression SimpleName gn
+handle generic bridges SimpleName MethodInvocation SimpleName ctx
+handle generic bridges SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+gn bridge SimpleName MethodInvocation SimpleName build graphics node
+gn bridge SimpleName MethodInvocation SimpleName ctx
+gn bridge SimpleName MethodInvocation SimpleName e
+gn bridge SimpleName MethodInvocation SimpleName gn
+build graphics node SimpleName MethodInvocation SimpleName ctx
+build graphics node SimpleName MethodInvocation SimpleName e
+build graphics node SimpleName MethodInvocation SimpleName gn
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName gn
+e SimpleName MethodInvocation SimpleName gn
+ctx SimpleName MethodInvocation SimpleName is dynamic
+public Modifier MethodDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SimpleName build
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block ReturnStatement SimpleName gn
+graphics node SimpleName SimpleType MethodDeclaration SimpleName build
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+build SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+build SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+build SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+build SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+build SimpleName MethodDeclaration Block ReturnStatement SimpleName gn
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName build
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

@@ -1,0 +1,20 @@
+root graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName new root
+root SimpleName FieldAccess Assignment SimpleName new root
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set root
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName root graphics node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName new root
+void PrimitiveType MethodDeclaration SimpleName set root
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName root graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new root
+set root SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName root graphics node
+set root SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new root
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set root
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new root
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set root
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new root

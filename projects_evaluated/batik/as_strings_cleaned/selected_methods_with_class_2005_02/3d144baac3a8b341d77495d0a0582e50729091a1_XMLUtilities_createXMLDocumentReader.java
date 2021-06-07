@@ -1,0 +1,175 @@
+input stream SimpleName SimpleType SingleVariableDeclaration SimpleName is
+pushback input stream SimpleName SimpleType ClassInstanceCreation SimpleName is
+pushback input stream SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+is SimpleName ClassInstanceCreation NumberLiteral empty
+pbis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName pushback input stream
+pbis SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName is
+pbis SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+pushback input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pbis
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buf SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buf SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+pbis SimpleName MethodInvocation SimpleName read
+pbis SimpleName MethodInvocation SimpleName buf
+read SimpleName MethodInvocation SimpleName buf
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName pbis
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName read
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName buf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pbis
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName buf
+len SimpleName InfixExpression NumberLiteral empty
+pbis SimpleName MethodInvocation SimpleName unread
+pbis SimpleName MethodInvocation SimpleName buf
+pbis SimpleName MethodInvocation NumberLiteral empty
+pbis SimpleName MethodInvocation SimpleName len
+unread SimpleName MethodInvocation SimpleName buf
+unread SimpleName MethodInvocation NumberLiteral empty
+unread SimpleName MethodInvocation SimpleName len
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation SimpleName len
+empty NumberLiteral MethodInvocation SimpleName len
+len SimpleName InfixExpression NumberLiteral empty
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x ff
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral x c
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x c
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral x
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x
+x c NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral x f
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x f
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName pbis
+input stream reader SimpleName SimpleType ClassInstanceCreation StringLiteral unicode big
+pbis SimpleName ClassInstanceCreation StringLiteral unicode big
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x ff
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral x f
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x f
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral x
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x
+x f NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName pbis
+input stream reader SimpleName SimpleType ClassInstanceCreation StringLiteral unicode little
+pbis SimpleName ClassInstanceCreation StringLiteral unicode little
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression CharacterLiteral x
+empty NumberLiteral ArrayAccess InfixExpression CharacterLiteral x
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression CharacterLiteral m
+empty NumberLiteral ArrayAccess InfixExpression CharacterLiteral m
+x CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral m
+create xml declaration reader SimpleName MethodInvocation SimpleName pbis
+create xml declaration reader SimpleName MethodInvocation StringLiteral utf
+pbis SimpleName MethodInvocation StringLiteral utf
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName create xml declaration reader
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName pbis
+r SimpleName VariableDeclarationFragment MethodInvocation StringLiteral utf
+reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+get xml declaration encoding SimpleName MethodInvocation SimpleName r
+get xml declaration encoding SimpleName MethodInvocation StringLiteral utf
+r SimpleName MethodInvocation StringLiteral utf
+enc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xml declaration encoding
+enc SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+enc SimpleName VariableDeclarationFragment MethodInvocation StringLiteral utf
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enc
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName pbis
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName enc
+pbis SimpleName ClassInstanceCreation SimpleName enc
+x ff NumberLiteral InfixExpression SwitchStatement SwitchCase NumberLiteral empty
+x ff NumberLiteral InfixExpression SwitchStatement SwitchCase CharacterLiteral ?
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ?
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral x f
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x f
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x ff
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x a
+x f NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x a
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x ff
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x
+create xml declaration reader SimpleName MethodInvocation SimpleName pbis
+create xml declaration reader SimpleName MethodInvocation StringLiteral cp
+pbis SimpleName MethodInvocation StringLiteral cp
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName create xml declaration reader
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName pbis
+r SimpleName VariableDeclarationFragment MethodInvocation StringLiteral cp
+reader SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+get xml declaration encoding SimpleName MethodInvocation SimpleName r
+get xml declaration encoding SimpleName MethodInvocation StringLiteral cp
+r SimpleName MethodInvocation StringLiteral cp
+enc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xml declaration encoding
+enc SimpleName VariableDeclarationFragment MethodInvocation SimpleName r
+enc SimpleName VariableDeclarationFragment MethodInvocation StringLiteral cp
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enc
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName pbis
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName enc
+pbis SimpleName ClassInstanceCreation SimpleName enc
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x ff
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x ff
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName pbis
+input stream reader SimpleName SimpleType ClassInstanceCreation StringLiteral unicode
+pbis SimpleName ClassInstanceCreation StringLiteral unicode
+buf SimpleName ArrayAccess NumberLiteral empty
+buf SimpleName ArrayAccess InfixExpression NumberLiteral x ff
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral x ff
+x ff NumberLiteral InfixExpression ParenthesizedExpression InfixExpression NumberLiteral x fe
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName pbis
+input stream reader SimpleName SimpleType ClassInstanceCreation StringLiteral unicode
+pbis SimpleName ClassInstanceCreation StringLiteral unicode
+x ff NumberLiteral InfixExpression SwitchStatement SwitchCase NumberLiteral empty
+x ff NumberLiteral InfixExpression SwitchStatement SwitchCase CharacterLiteral <
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral <
+< CharacterLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x c
+x c NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x fe
+x fe NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x ff
+input stream reader SimpleName SimpleType ClassInstanceCreation SimpleName pbis
+input stream reader SimpleName SimpleType ClassInstanceCreation StringLiteral utf
+pbis SimpleName ClassInstanceCreation StringLiteral utf
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName reader
+public Modifier MethodDeclaration SimpleName create xml document reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration SimpleType SimpleName reader
+static Modifier MethodDeclaration SimpleName create xml document reader
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName is
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+reader SimpleName SimpleType MethodDeclaration SimpleName create xml document reader
+reader SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName is
+reader SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+create xml document reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input stream
+create xml document reader SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is
+create xml document reader SimpleName MethodDeclaration SimpleType SimpleName io exception
+create xml document reader SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+is SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName reader
+public Modifier TypeDeclaration MethodDeclaration SimpleName create xml document reader
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName reader
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create xml document reader
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

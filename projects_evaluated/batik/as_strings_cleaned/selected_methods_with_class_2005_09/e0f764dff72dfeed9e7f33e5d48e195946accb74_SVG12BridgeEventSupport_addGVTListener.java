@@ -1,0 +1,112 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+ctx SimpleName MethodInvocation SimpleName get user agent
+ua SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+ua SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user agent
+user agent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ua
+ua SimpleName MethodInvocation SimpleName get event dispatcher
+dispatcher SimpleName VariableDeclarationFragment MethodInvocation SimpleName ua
+dispatcher SimpleName VariableDeclarationFragment MethodInvocation SimpleName get event dispatcher
+event dispatcher SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dispatcher
+listener SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+listener SimpleName SimpleType ClassInstanceCreation SimpleName ua
+ctx SimpleName ClassInstanceCreation SimpleName ua
+listener SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName listener
+listener SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ctx
+listener SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ua
+final Modifier VariableDeclarationStatement SimpleType SimpleName listener
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName ctx
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName ua
+listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName listener
+dispatcher SimpleName MethodInvocation SimpleName add graphics node mouse listener
+dispatcher SimpleName MethodInvocation SimpleName listener
+add graphics node mouse listener SimpleName MethodInvocation SimpleName listener
+dispatcher SimpleName MethodInvocation SimpleName add graphics node mouse wheel listener
+dispatcher SimpleName MethodInvocation SimpleName listener
+add graphics node mouse wheel listener SimpleName MethodInvocation SimpleName listener
+dispatcher SimpleName MethodInvocation SimpleName add graphics node key listener
+dispatcher SimpleName MethodInvocation SimpleName listener
+add graphics node key listener SimpleName MethodInvocation SimpleName listener
+gvt unload listener SimpleName SimpleType ClassInstanceCreation SimpleName dispatcher
+gvt unload listener SimpleName SimpleType ClassInstanceCreation SimpleName listener
+dispatcher SimpleName ClassInstanceCreation SimpleName listener
+l SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName gvt unload listener
+l SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName dispatcher
+l SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName listener
+event listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+node event target SimpleName SimpleType CastExpression SimpleName doc
+target SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node event target
+target SimpleName VariableDeclarationFragment CastExpression SimpleName doc
+node event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+target SimpleName MethodInvocation SimpleName add event listener ns
+target SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+target SimpleName MethodInvocation StringLiteral svg unload
+target SimpleName MethodInvocation SimpleName l
+target SimpleName MethodInvocation BooleanLiteral false
+add event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+add event listener ns SimpleName MethodInvocation StringLiteral svg unload
+add event listener ns SimpleName MethodInvocation SimpleName l
+add event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral svg unload
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName l
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+svg unload StringLiteral MethodInvocation SimpleName l
+svg unload StringLiteral MethodInvocation BooleanLiteral false
+l SimpleName MethodInvocation BooleanLiteral false
+store event listener ns SimpleName MethodInvocation SimpleName ctx
+store event listener ns SimpleName MethodInvocation SimpleName target
+store event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+store event listener ns SimpleName MethodInvocation StringLiteral svg unload
+store event listener ns SimpleName MethodInvocation SimpleName l
+ctx SimpleName MethodInvocation SimpleName target
+ctx SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+ctx SimpleName MethodInvocation StringLiteral svg unload
+ctx SimpleName MethodInvocation SimpleName l
+ctx SimpleName MethodInvocation BooleanLiteral false
+target SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+target SimpleName MethodInvocation StringLiteral svg unload
+target SimpleName MethodInvocation SimpleName l
+target SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral svg unload
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName l
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+svg unload StringLiteral MethodInvocation SimpleName l
+svg unload StringLiteral MethodInvocation BooleanLiteral false
+l SimpleName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add gvt listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName add gvt listener
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+void PrimitiveType MethodDeclaration SimpleName add gvt listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc
+add gvt listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+add gvt listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+add gvt listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName document
+add gvt listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add gvt listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add gvt listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc

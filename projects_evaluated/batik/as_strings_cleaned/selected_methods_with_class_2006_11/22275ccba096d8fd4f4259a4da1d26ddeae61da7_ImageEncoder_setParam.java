@@ -1,0 +1,13 @@
+image encode param SimpleName SimpleType SingleVariableDeclaration SimpleName param
+void PrimitiveType MethodDeclaration SimpleName set param
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName image encode param
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName param
+set param SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName image encode param
+set param SimpleName MethodDeclaration SingleVariableDeclaration SimpleName param
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set param
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set param
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName param

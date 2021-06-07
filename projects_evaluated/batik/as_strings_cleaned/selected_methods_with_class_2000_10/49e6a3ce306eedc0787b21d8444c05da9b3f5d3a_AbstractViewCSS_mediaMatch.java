@@ -1,0 +1,68 @@
+media list SimpleName SimpleType SingleVariableDeclaration SimpleName ml
+media SimpleName MethodInvocation SimpleName get length
+media SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+media SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+ml SimpleName MethodInvocation SimpleName get length
+ml SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+ml SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName ml
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+media SimpleName MethodInvocation SimpleName get length
+j SimpleName InfixExpression MethodInvocation SimpleName media
+j SimpleName InfixExpression MethodInvocation SimpleName get length
+ml SimpleName MethodInvocation SimpleName item
+ml SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+media SimpleName MethodInvocation SimpleName item
+media SimpleName MethodInvocation SimpleName j
+item SimpleName MethodInvocation SimpleName j
+ml SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+item SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+i SimpleName MethodInvocation MethodInvocation SimpleName equals ignore case
+ml SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName media
+ml SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName item
+ml SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName j
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName media
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName item
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName j
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName media
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName item
+i SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName j
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName media
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName item
+equals ignore case SimpleName MethodInvocation MethodInvocation SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName media match
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName media list
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ml
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName media match
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName media list
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ml
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+media match SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName media list
+media match SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ml
+media match SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName media match
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ml
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName media match
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ml

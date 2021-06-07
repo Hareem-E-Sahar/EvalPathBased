@@ -1,0 +1,29 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+m SimpleName VariableDeclarationFragment SimpleName n
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+m SimpleName MethodInvocation SimpleName get previous sibling
+m SimpleName Assignment MethodInvocation SimpleName m
+m SimpleName Assignment MethodInvocation SimpleName get previous sibling
+m SimpleName MethodInvocation SimpleName get node type
+m SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+m SimpleName InfixExpression InfixExpression InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName m
+public Modifier MethodDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SimpleName get xbl previous element sibling
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+element SimpleName SimpleType MethodDeclaration SimpleName get xbl previous element sibling
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get xbl previous element sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get xbl previous element sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get xbl previous element sibling
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get xbl previous element sibling
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

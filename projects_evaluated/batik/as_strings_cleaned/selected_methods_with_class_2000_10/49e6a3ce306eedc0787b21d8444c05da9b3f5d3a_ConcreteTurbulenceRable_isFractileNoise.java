@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is fractile noise
+public Modifier MethodDeclaration Block ReturnStatement SimpleName fractile noise
+boolean PrimitiveType MethodDeclaration SimpleName is fractile noise
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName fractile noise
+is fractile noise SimpleName MethodDeclaration Block ReturnStatement SimpleName fractile noise
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is fractile noise
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is fractile noise

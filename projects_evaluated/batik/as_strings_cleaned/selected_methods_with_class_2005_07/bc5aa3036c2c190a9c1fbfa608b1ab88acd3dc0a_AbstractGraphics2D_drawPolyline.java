@@ -1,0 +1,87 @@
+int PrimitiveType ArrayType SingleVariableDeclaration SimpleName x points
+int PrimitiveType ArrayType SingleVariableDeclaration SimpleName y points
+int PrimitiveType SingleVariableDeclaration SimpleName n points
+n points SimpleName InfixExpression NumberLiteral empty
+path SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName general path
+general path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path
+x points SimpleName ArrayAccess NumberLiteral empty
+y points SimpleName ArrayAccess NumberLiteral empty
+path SimpleName MethodInvocation SimpleName move to
+path SimpleName MethodInvocation ArrayAccess SimpleName x points
+path SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+path SimpleName MethodInvocation ArrayAccess SimpleName y points
+path SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+move to SimpleName MethodInvocation ArrayAccess SimpleName x points
+move to SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+move to SimpleName MethodInvocation ArrayAccess SimpleName y points
+move to SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+x points SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName y points
+x points SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName y points
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName n points
+x points SimpleName ArrayAccess SimpleName i
+y points SimpleName ArrayAccess SimpleName i
+path SimpleName MethodInvocation SimpleName line to
+path SimpleName MethodInvocation ArrayAccess SimpleName x points
+path SimpleName MethodInvocation ArrayAccess SimpleName i
+path SimpleName MethodInvocation ArrayAccess SimpleName y points
+path SimpleName MethodInvocation ArrayAccess SimpleName i
+line to SimpleName MethodInvocation ArrayAccess SimpleName x points
+line to SimpleName MethodInvocation ArrayAccess SimpleName i
+line to SimpleName MethodInvocation ArrayAccess SimpleName y points
+line to SimpleName MethodInvocation ArrayAccess SimpleName i
+x points SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName y points
+x points SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName i
+i SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName y points
+i SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName n points
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+n points SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+draw SimpleName MethodInvocation SimpleName path
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName draw polyline
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName x points
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName y points
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n points
+void PrimitiveType MethodDeclaration SimpleName draw polyline
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName x points
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName y points
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n points
+draw polyline SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+draw polyline SimpleName MethodDeclaration SingleVariableDeclaration SimpleName x points
+draw polyline SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+draw polyline SimpleName MethodDeclaration SingleVariableDeclaration SimpleName y points
+draw polyline SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+draw polyline SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n points
+x points SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y points
+x points SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+x points SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n points
+y points SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+y points SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n points
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName draw polyline
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName x points
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y points
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n points
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName draw polyline
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName x points
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y points
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n points

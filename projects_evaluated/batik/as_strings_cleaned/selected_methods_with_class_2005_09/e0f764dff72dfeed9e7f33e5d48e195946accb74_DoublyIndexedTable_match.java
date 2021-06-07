@@ -1,0 +1,35 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+key SimpleName MethodInvocation SimpleName equals
+key SimpleName MethodInvocation SimpleName o
+equals SimpleName MethodInvocation SimpleName o
+key SimpleName MethodInvocation SimpleName equals
+key SimpleName MethodInvocation SimpleName o
+equals SimpleName MethodInvocation SimpleName o
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName match
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+boolean PrimitiveType MethodDeclaration SimpleName match
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+match SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+match SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+match SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+match SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+o SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName match
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName match
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

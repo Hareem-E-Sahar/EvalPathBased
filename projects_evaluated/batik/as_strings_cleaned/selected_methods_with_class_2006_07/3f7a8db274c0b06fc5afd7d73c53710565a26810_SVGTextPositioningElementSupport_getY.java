@@ -1,0 +1,78 @@
+abstract element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get live attribute value
+e SimpleName MethodInvocation QualifiedName svg constantssvg y attribute
+get live attribute value SimpleName MethodInvocation QualifiedName svg constantssvg y attribute
+svgom animated length list SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+svgom animated length list SimpleName SimpleType CastExpression MethodInvocation SimpleName get live attribute value
+svgom animated length list SimpleName SimpleType CastExpression MethodInvocation QualifiedName svg constantssvg y attribute
+result SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom animated length list
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get live attribute value
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName svg constantssvg y attribute
+svgom animated length list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+e SimpleName MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom document
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName e
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+svgom animated length list SimpleName SimpleType ClassInstanceCreation SimpleName e
+svgom animated length list SimpleName SimpleType ClassInstanceCreation QualifiedName svg constantssvg y attribute
+svgom animated length list SimpleName SimpleType ClassInstanceCreation SimpleName y default value
+svgom animated length list SimpleName SimpleType ClassInstanceCreation BooleanLiteral true
+e SimpleName ClassInstanceCreation QualifiedName svg constantssvg y attribute
+e SimpleName ClassInstanceCreation SimpleName y default value
+e SimpleName ClassInstanceCreation BooleanLiteral true
+e SimpleName ClassInstanceCreation QualifiedName abstract svg lengthvertical length
+svg constantssvg y attribute QualifiedName ClassInstanceCreation SimpleName y default value
+svg constantssvg y attribute QualifiedName ClassInstanceCreation BooleanLiteral true
+svg constantssvg y attribute QualifiedName ClassInstanceCreation QualifiedName abstract svg lengthvertical length
+y default value SimpleName ClassInstanceCreation BooleanLiteral true
+y default value SimpleName ClassInstanceCreation QualifiedName abstract svg lengthvertical length
+true BooleanLiteral ClassInstanceCreation QualifiedName abstract svg lengthvertical length
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svgom animated length list
+result SimpleName Assignment ClassInstanceCreation SimpleName e
+result SimpleName Assignment ClassInstanceCreation QualifiedName svg constantssvg y attribute
+result SimpleName Assignment ClassInstanceCreation SimpleName y default value
+result SimpleName Assignment ClassInstanceCreation BooleanLiteral true
+result SimpleName Assignment ClassInstanceCreation QualifiedName abstract svg lengthvertical length
+doc SimpleName MethodInvocation SimpleName get animated attribute listener
+result SimpleName MethodInvocation SimpleName add animated attribute listener
+result SimpleName MethodInvocation MethodInvocation SimpleName doc
+result SimpleName MethodInvocation MethodInvocation SimpleName get animated attribute listener
+add animated attribute listener SimpleName MethodInvocation MethodInvocation SimpleName doc
+add animated attribute listener SimpleName MethodInvocation MethodInvocation SimpleName get animated attribute listener
+e SimpleName MethodInvocation SimpleName put live attribute value
+e SimpleName MethodInvocation QualifiedName svg constantssvg y attribute
+e SimpleName MethodInvocation SimpleName result
+put live attribute value SimpleName MethodInvocation QualifiedName svg constantssvg y attribute
+put live attribute value SimpleName MethodInvocation SimpleName result
+svg constantssvg y attribute QualifiedName MethodInvocation SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName svg animated length list
+public Modifier MethodDeclaration SimpleName get y
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration SimpleType SimpleName svg animated length list
+static Modifier MethodDeclaration SimpleName get y
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+svg animated length list SimpleName SimpleType MethodDeclaration SimpleName get y
+svg animated length list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+get y SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract element
+get y SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+get y SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated length list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get y
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated length list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get y
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

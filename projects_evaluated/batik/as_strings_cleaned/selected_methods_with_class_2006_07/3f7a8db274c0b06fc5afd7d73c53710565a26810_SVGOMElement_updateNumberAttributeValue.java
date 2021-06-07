@@ -1,0 +1,44 @@
+svg animated number SimpleName SimpleType SingleVariableDeclaration SimpleName a
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName val
+svgom animated number SimpleName SimpleType CastExpression SimpleName a
+an SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom animated number
+an SimpleName VariableDeclarationFragment CastExpression SimpleName a
+svgom animated number SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName an
+an SimpleName MethodInvocation SimpleName reset animated value
+animatable number value SimpleName SimpleType CastExpression SimpleName val
+anim number SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable number value
+anim number SimpleName VariableDeclarationFragment CastExpression SimpleName val
+animatable number value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anim number
+anim number SimpleName MethodInvocation SimpleName get value
+an SimpleName MethodInvocation SimpleName set animated value
+an SimpleName MethodInvocation MethodInvocation SimpleName anim number
+an SimpleName MethodInvocation MethodInvocation SimpleName get value
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim number
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get value
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update number attribute value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated number
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName update number attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated number
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+update number attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated number
+update number attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+update number attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+update number attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+a SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update number attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update number attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

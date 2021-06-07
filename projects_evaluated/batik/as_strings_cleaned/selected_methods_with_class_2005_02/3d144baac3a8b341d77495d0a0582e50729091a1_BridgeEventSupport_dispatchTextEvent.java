@@ -1,0 +1,93 @@
+graphics node key event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+context SimpleName MethodInvocation SimpleName get focus manager
+fmgr SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+fmgr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get focus manager
+focus manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fmgr
+fmgr SimpleName MethodInvocation SimpleName get current event target
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName fmgr
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get current event target
+target element SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+target element SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName fmgr
+target element SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get current event target
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target element
+target element SimpleName MethodInvocation SimpleName get owner document
+document event SimpleName SimpleType CastExpression MethodInvocation SimpleName target element
+document event SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+d SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName document event
+d SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName target element
+d SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+document event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+d SimpleName MethodInvocation SimpleName create event
+d SimpleName MethodInvocation StringLiteral text event
+create event SimpleName MethodInvocation StringLiteral text event
+dom text event SimpleName SimpleType CastExpression MethodInvocation SimpleName d
+dom text event SimpleName SimpleType CastExpression MethodInvocation SimpleName create event
+dom text event SimpleName SimpleType CastExpression MethodInvocation StringLiteral text event
+text evt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName dom text event
+text evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName d
+text evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName create event
+text evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral text event
+dom text event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text evt
+evt SimpleName MethodInvocation SimpleName get key char
+string SimpleName MethodInvocation SimpleName value of
+string SimpleName MethodInvocation MethodInvocation SimpleName evt
+string SimpleName MethodInvocation MethodInvocation SimpleName get key char
+value of SimpleName MethodInvocation MethodInvocation SimpleName evt
+value of SimpleName MethodInvocation MethodInvocation SimpleName get key char
+text evt SimpleName MethodInvocation SimpleName init text event ns
+text evt SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+text evt SimpleName MethodInvocation StringLiteral text input
+text evt SimpleName MethodInvocation BooleanLiteral true
+text evt SimpleName MethodInvocation BooleanLiteral true
+init text event ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+init text event ns SimpleName MethodInvocation StringLiteral text input
+init text event ns SimpleName MethodInvocation BooleanLiteral true
+init text event ns SimpleName MethodInvocation BooleanLiteral true
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral text input
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral true
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral true
+xml constantsxml events namespace uri QualifiedName MethodInvocation MethodInvocation SimpleName string
+xml constantsxml events namespace uri QualifiedName MethodInvocation MethodInvocation SimpleName value of
+xml constantsxml events namespace uri QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+xml constantsxml events namespace uri QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+text input StringLiteral MethodInvocation BooleanLiteral true
+text input StringLiteral MethodInvocation BooleanLiteral true
+text input StringLiteral MethodInvocation MethodInvocation SimpleName string
+text input StringLiteral MethodInvocation MethodInvocation SimpleName value of
+text input StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+text input StringLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+true BooleanLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName string
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName value of
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName string
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName value of
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key char
+event target SimpleName SimpleType CastExpression SimpleName target element
+target element SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName dispatch event
+target element SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName text evt
+dispatch event SimpleName MethodInvocation SimpleName text evt
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+ua SimpleName MethodInvocation SimpleName display error
+ua SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName dispatch text event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName dispatch text event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+dispatch text event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+dispatch text event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch text event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch text event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

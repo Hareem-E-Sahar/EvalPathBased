@@ -1,0 +1,104 @@
+buffered image SimpleName SimpleType SingleVariableDeclaration SimpleName img
+out SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName byte array output stream
+byte array output stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName out
+transcoder output SimpleName SimpleType ClassInstanceCreation SimpleName out
+output SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName transcoder output
+output SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName out
+transcoder output SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName output
+t SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName png transcoder
+png transcoder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName MethodInvocation SimpleName write image
+t SimpleName MethodInvocation SimpleName img
+t SimpleName MethodInvocation SimpleName output
+write image SimpleName MethodInvocation SimpleName img
+write image SimpleName MethodInvocation SimpleName output
+img SimpleName MethodInvocation SimpleName output
+out SimpleName MethodInvocation SimpleName to byte array
+img data SimpleName VariableDeclarationFragment MethodInvocation SimpleName out
+img data SimpleName VariableDeclarationFragment MethodInvocation SimpleName to byte array
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName img data
+report SimpleName MethodInvocation SimpleName set error code
+report SimpleName MethodInvocation SimpleName error image differ
+set error code SimpleName MethodInvocation SimpleName error image differ
+report SimpleName MethodInvocation SimpleName add description entry
+report SimpleName MethodInvocation SimpleName error image differ
+report SimpleName MethodInvocation StringLiteral empty
+add description entry SimpleName MethodInvocation SimpleName error image differ
+add description entry SimpleName MethodInvocation StringLiteral empty
+error image differ SimpleName MethodInvocation StringLiteral empty
+report SimpleName MethodInvocation SimpleName set passed
+report SimpleName MethodInvocation BooleanLiteral false
+set passed SimpleName MethodInvocation BooleanLiteral false
+write candidate reference SimpleName MethodInvocation SimpleName img data
+state SimpleName Assignment BooleanLiteral false
+ref img datalength QualifiedName InfixExpression QualifiedName img datalength
+report SimpleName MethodInvocation SimpleName set error code
+report SimpleName MethodInvocation SimpleName error image differ
+set error code SimpleName MethodInvocation SimpleName error image differ
+report SimpleName MethodInvocation SimpleName add description entry
+report SimpleName MethodInvocation SimpleName error image differ
+report SimpleName MethodInvocation StringLiteral empty
+add description entry SimpleName MethodInvocation SimpleName error image differ
+add description entry SimpleName MethodInvocation StringLiteral empty
+error image differ SimpleName MethodInvocation StringLiteral empty
+report SimpleName MethodInvocation SimpleName set passed
+report SimpleName MethodInvocation BooleanLiteral false
+set passed SimpleName MethodInvocation BooleanLiteral false
+write candidate variation SimpleName MethodInvocation SimpleName img data
+write candidate variation SimpleName MethodInvocation SimpleName ref img data
+img data SimpleName MethodInvocation SimpleName ref img data
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName ref img datalength
+ref img data SimpleName ArrayAccess SimpleName i
+img data SimpleName ArrayAccess SimpleName i
+ref img data SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName img data
+ref img data SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName i
+i SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName img data
+i SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName i
+report SimpleName MethodInvocation SimpleName set error code
+report SimpleName MethodInvocation SimpleName error image differ
+set error code SimpleName MethodInvocation SimpleName error image differ
+report SimpleName MethodInvocation SimpleName add description entry
+report SimpleName MethodInvocation SimpleName error image differ
+report SimpleName MethodInvocation StringLiteral empty
+add description entry SimpleName MethodInvocation SimpleName error image differ
+add description entry SimpleName MethodInvocation StringLiteral empty
+error image differ SimpleName MethodInvocation StringLiteral empty
+report SimpleName MethodInvocation SimpleName set passed
+report SimpleName MethodInvocation BooleanLiteral false
+set passed SimpleName MethodInvocation BooleanLiteral false
+write candidate variation SimpleName MethodInvocation SimpleName img data
+write candidate variation SimpleName MethodInvocation SimpleName ref img data
+img data SimpleName MethodInvocation SimpleName ref img data
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName ref img datalength
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+ref img datalength QualifiedName InfixExpression ForStatement PrefixExpression SimpleName i
+state SimpleName Assignment BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName compare image
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName img
+protected Modifier MethodDeclaration SimpleType SimpleName transcoder exception
+void PrimitiveType MethodDeclaration SimpleName compare image
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName img
+void PrimitiveType MethodDeclaration SimpleType SimpleName transcoder exception
+compare image SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+compare image SimpleName MethodDeclaration SingleVariableDeclaration SimpleName img
+compare image SimpleName MethodDeclaration SimpleType SimpleName transcoder exception
+img SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName transcoder exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare image
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare image
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder exception

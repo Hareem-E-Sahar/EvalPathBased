@@ -1,0 +1,166 @@
+graphics d SimpleName SimpleType SingleVariableDeclaration SimpleName g d
+graphics node render context SimpleName SimpleType SingleVariableDeclaration SimpleName rc
+g d SimpleName MethodInvocation SimpleName get clip
+default clip SimpleName VariableDeclarationFragment MethodInvocation SimpleName g d
+default clip SimpleName VariableDeclarationFragment MethodInvocation SimpleName get clip
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default clip
+g d SimpleName MethodInvocation SimpleName get composite
+default composite SimpleName VariableDeclarationFragment MethodInvocation SimpleName g d
+default composite SimpleName VariableDeclarationFragment MethodInvocation SimpleName get composite
+composite SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default composite
+g d SimpleName MethodInvocation SimpleName clip
+g d SimpleName MethodInvocation SimpleName clip
+clip SimpleName MethodInvocation SimpleName clip
+g d SimpleName MethodInvocation SimpleName set composite
+g d SimpleName MethodInvocation SimpleName composite
+set composite SimpleName MethodInvocation SimpleName composite
+primitive paint SimpleName MethodInvocation SimpleName g d
+primitive paint SimpleName MethodInvocation SimpleName rc
+g d SimpleName MethodInvocation SimpleName rc
+g d SimpleName MethodInvocation SimpleName set clip
+g d SimpleName MethodInvocation SimpleName default clip
+set clip SimpleName MethodInvocation SimpleName default clip
+g d SimpleName MethodInvocation SimpleName set composite
+g d SimpleName MethodInvocation SimpleName default composite
+set composite SimpleName MethodInvocation SimpleName default composite
+g d SimpleName MethodInvocation SimpleName get clip
+default clip SimpleName VariableDeclarationFragment MethodInvocation SimpleName g d
+default clip SimpleName VariableDeclarationFragment MethodInvocation SimpleName get clip
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default clip
+g d SimpleName MethodInvocation SimpleName get composite
+default composite SimpleName VariableDeclarationFragment MethodInvocation SimpleName g d
+default composite SimpleName VariableDeclarationFragment MethodInvocation SimpleName get composite
+composite SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default composite
+rc SimpleName MethodInvocation SimpleName get graphics node rable factory
+rc SimpleName MethodInvocation MethodInvocation SimpleName create graphics node rable
+get graphics node rable factory SimpleName MethodInvocation MethodInvocation SimpleName create graphics node rable
+node image SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName rc
+node image SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get graphics node rable factory
+node image SimpleName VariableDeclarationFragment MethodInvocation SimpleName create graphics node rable
+renderable image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node image
+filtered image SimpleName VariableDeclarationFragment SimpleName node image
+renderable image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName filtered image
+renderable image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node image
+trace filter SimpleName MethodInvocation SimpleName filter
+trace filter SimpleName MethodInvocation StringLiteral =====>>
+filter SimpleName MethodInvocation StringLiteral =====>>
+filtered image SimpleName Assignment SimpleName filter
+g d SimpleName MethodInvocation SimpleName clip
+g d SimpleName MethodInvocation SimpleName clip
+clip SimpleName MethodInvocation SimpleName clip
+g d SimpleName MethodInvocation SimpleName set composite
+g d SimpleName MethodInvocation SimpleName composite
+set composite SimpleName MethodInvocation SimpleName composite
+g d SimpleName MethodInvocation SimpleName get transform
+g d SimpleName MethodInvocation SimpleName get clip
+g d SimpleName MethodInvocation SimpleName get rendering hints
+render context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName g d
+render context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get transform
+render context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName g d
+render context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get clip
+render context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName g d
+render context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get rendering hints
+g d SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName g d
+g d SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get clip
+get transform SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName g d
+get transform SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get clip
+g d SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName g d
+g d SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get rendering hints
+get transform SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName g d
+get transform SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get rendering hints
+g d SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName g d
+g d SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get rendering hints
+get clip SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName g d
+get clip SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get rendering hints
+context SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName render context
+context SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName g d
+context SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get transform
+context SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName g d
+context SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get clip
+context SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName g d
+context SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get rendering hints
+render context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName context
+filtered image SimpleName MethodInvocation SimpleName create rendering
+filtered image SimpleName MethodInvocation SimpleName context
+create rendering SimpleName MethodInvocation SimpleName context
+rendered node image SimpleName VariableDeclarationFragment MethodInvocation SimpleName filtered image
+rendered node image SimpleName VariableDeclarationFragment MethodInvocation SimpleName create rendering
+rendered node image SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+rendered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rendered node image
+g d SimpleName MethodInvocation SimpleName get transform
+default transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName g d
+default transform SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName default transform
+g d SimpleName MethodInvocation SimpleName set transform
+g d SimpleName MethodInvocation SimpleName identity
+set transform SimpleName MethodInvocation SimpleName identity
+rendered node image SimpleName MethodInvocation SimpleName get min x
+rendered node image SimpleName MethodInvocation SimpleName get min y
+rend x StringLiteral InfixExpression MethodInvocation SimpleName rendered node image
+rend x StringLiteral InfixExpression MethodInvocation SimpleName get min x
+rend x StringLiteral InfixExpression StringLiteral rend y
+rend x StringLiteral InfixExpression MethodInvocation SimpleName rendered node image
+rend x StringLiteral InfixExpression MethodInvocation SimpleName get min y
+rendered node image SimpleName MethodInvocation InfixExpression StringLiteral rend y
+get min x SimpleName MethodInvocation InfixExpression StringLiteral rend y
+rendered node image SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rendered node image
+rendered node image SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get min y
+get min x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rendered node image
+get min x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get min y
+rend y StringLiteral InfixExpression MethodInvocation SimpleName rendered node image
+rend y StringLiteral InfixExpression MethodInvocation SimpleName get min y
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral rend x
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName rendered node image
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get min x
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral rend y
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName rendered node image
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get min y
+println SimpleName MethodInvocation InfixExpression StringLiteral rend x
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rendered node image
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get min x
+println SimpleName MethodInvocation InfixExpression StringLiteral rend y
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName rendered node image
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get min y
+g d SimpleName MethodInvocation SimpleName draw rendered image
+g d SimpleName MethodInvocation SimpleName rendered node image
+g d SimpleName MethodInvocation SimpleName identity
+draw rendered image SimpleName MethodInvocation SimpleName rendered node image
+draw rendered image SimpleName MethodInvocation SimpleName identity
+rendered node image SimpleName MethodInvocation SimpleName identity
+g d SimpleName MethodInvocation SimpleName set transform
+g d SimpleName MethodInvocation SimpleName default transform
+set transform SimpleName MethodInvocation SimpleName default transform
+g d SimpleName MethodInvocation SimpleName set clip
+g d SimpleName MethodInvocation SimpleName default clip
+set clip SimpleName MethodInvocation SimpleName default clip
+g d SimpleName MethodInvocation SimpleName set composite
+g d SimpleName MethodInvocation SimpleName default composite
+set composite SimpleName MethodInvocation SimpleName default composite
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName g d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rc
+void PrimitiveType MethodDeclaration SimpleName paint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName g d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node render context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rc
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g d
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node render context
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rc
+g d SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName paint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName paint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc

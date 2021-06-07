@@ -1,0 +1,47 @@
+css style sheet SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+get class SimpleName MethodInvocation MethodInvocation SimpleName get resource
+get class SimpleName MethodInvocation MethodInvocation StringLiteral resourcesuser agent style sheetcss
+get resource SimpleName MethodInvocation StringLiteral resourcesuser agent style sheetcss
+url SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get class
+url SimpleName VariableDeclarationFragment MethodInvocation SimpleName get resource
+url SimpleName VariableDeclarationFragment MethodInvocation StringLiteral resourcesuser agent style sheetcss
+url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName url
+url SimpleName MethodInvocation SimpleName to string
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName url
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+create css style sheet SimpleName MethodInvocation StringLiteral user agent style sheet
+create css style sheet SimpleName MethodInvocation StringLiteral all
+user agent style sheet StringLiteral MethodInvocation StringLiteral all
+result SimpleName Assignment MethodInvocation SimpleName create css style sheet
+result SimpleName Assignment MethodInvocation StringLiteral user agent style sheet
+result SimpleName Assignment MethodInvocation StringLiteral all
+cssom style sheet SimpleName SimpleType CastExpression SimpleName result
+css document handler SimpleName MethodInvocation SimpleName parse style sheet
+css document handler SimpleName MethodInvocation CastExpression SimpleType SimpleName cssom style sheet
+css document handler SimpleName MethodInvocation CastExpression SimpleName result
+css document handler SimpleName MethodInvocation SimpleName uri
+parse style sheet SimpleName MethodInvocation CastExpression SimpleType SimpleName cssom style sheet
+parse style sheet SimpleName MethodInvocation CastExpression SimpleName result
+parse style sheet SimpleName MethodInvocation SimpleName uri
+cssom style sheet SimpleName SimpleType CastExpression MethodInvocation SimpleName uri
+result SimpleName CastExpression MethodInvocation SimpleName uri
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation MethodInvocation SimpleName e
+systemerr QualifiedName MethodInvocation MethodInvocation SimpleName get message
+println SimpleName MethodInvocation MethodInvocation SimpleName e
+println SimpleName MethodInvocation MethodInvocation SimpleName get message
+public Modifier MethodDeclaration SimpleType SimpleName css style sheet
+public Modifier MethodDeclaration SimpleName get user agent style sheet
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+css style sheet SimpleName SimpleType MethodDeclaration SimpleName get user agent style sheet
+get user agent style sheet SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css style sheet
+public Modifier TypeDeclaration MethodDeclaration SimpleName get user agent style sheet
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css style sheet
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get user agent style sheet

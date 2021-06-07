@@ -1,0 +1,38 @@
+char PrimitiveType SingleVariableDeclaration SimpleName c
+c SimpleName InfixExpression SimpleName arabic start
+c SimpleName InfixExpression SimpleName arabic end
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName arabic end
+arabic start SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+arabic start SimpleName InfixExpression InfixExpression InfixExpression SimpleName arabic end
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName arabic char
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName arabic char
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName arabic char
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType char
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+arabic char SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType char
+arabic char SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+arabic char SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName arabic char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName arabic char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

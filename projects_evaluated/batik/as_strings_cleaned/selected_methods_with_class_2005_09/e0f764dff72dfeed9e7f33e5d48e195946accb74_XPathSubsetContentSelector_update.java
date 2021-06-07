@@ -1,0 +1,158 @@
+nodes SimpleName MethodInvocation SimpleName clone
+array list SimpleName SimpleType CastExpression MethodInvocation SimpleName nodes
+array list SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+old nodes SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName array list
+old nodes SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName nodes
+old nodes SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName clone
+array list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old nodes
+nodes SimpleName MethodInvocation SimpleName clear
+nth SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nth
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+bound element SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName bound element
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName n
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+e SimpleName VariableDeclarationFragment CastExpression SimpleName n
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+selector type SimpleName InfixExpression SimpleName selector any
+matched SimpleName VariableDeclarationFragment InfixExpression SimpleName selector type
+matched SimpleName VariableDeclarationFragment InfixExpression SimpleName selector any
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName matched
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName selector type
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName selector any
+e SimpleName MethodInvocation SimpleName get attribute ns
+e SimpleName MethodInvocation StringLiteral id
+get attribute ns SimpleName MethodInvocation StringLiteral id
+e SimpleName MethodInvocation MethodInvocation SimpleName equals
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName equals
+id StringLiteral MethodInvocation MethodInvocation SimpleName equals
+e SimpleName MethodInvocation MethodInvocation SimpleName local name
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName local name
+id StringLiteral MethodInvocation MethodInvocation SimpleName local name
+equals SimpleName MethodInvocation SimpleName local name
+matched SimpleName Assignment MethodInvocation MethodInvocation SimpleName e
+matched SimpleName Assignment MethodInvocation MethodInvocation SimpleName get attribute ns
+matched SimpleName Assignment MethodInvocation MethodInvocation StringLiteral id
+matched SimpleName Assignment MethodInvocation SimpleName equals
+matched SimpleName Assignment MethodInvocation SimpleName local name
+e SimpleName MethodInvocation SimpleName get namespace uri
+matched SimpleName Assignment InfixExpression MethodInvocation SimpleName e
+matched SimpleName Assignment InfixExpression MethodInvocation SimpleName get namespace uri
+content element SimpleName MethodInvocation SimpleName lookup namespace uri
+content element SimpleName MethodInvocation SimpleName prefix
+lookup namespace uri SimpleName MethodInvocation SimpleName prefix
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName content element
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName lookup namespace uri
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName prefix
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns
+e SimpleName MethodInvocation SimpleName get namespace uri
+e SimpleName MethodInvocation MethodInvocation SimpleName equals
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName equals
+e SimpleName MethodInvocation MethodInvocation SimpleName ns
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName ns
+equals SimpleName MethodInvocation SimpleName ns
+matched SimpleName Assignment MethodInvocation MethodInvocation SimpleName e
+matched SimpleName Assignment MethodInvocation MethodInvocation SimpleName get namespace uri
+matched SimpleName Assignment MethodInvocation SimpleName equals
+matched SimpleName Assignment MethodInvocation SimpleName ns
+e SimpleName MethodInvocation SimpleName get local name
+local name SimpleName MethodInvocation SimpleName equals
+local name SimpleName MethodInvocation MethodInvocation SimpleName e
+local name SimpleName MethodInvocation MethodInvocation SimpleName get local name
+equals SimpleName MethodInvocation MethodInvocation SimpleName e
+equals SimpleName MethodInvocation MethodInvocation SimpleName get local name
+matched SimpleName InfixExpression MethodInvocation SimpleName local name
+matched SimpleName InfixExpression MethodInvocation SimpleName equals
+matched SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName e
+matched SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName get local name
+matched SimpleName Assignment InfixExpression SimpleName matched
+matched SimpleName Assignment InfixExpression MethodInvocation SimpleName local name
+matched SimpleName Assignment InfixExpression MethodInvocation SimpleName equals
+selector type SimpleName SwitchStatement SwitchCase SimpleName selector id
+selector type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName matched
+selector type SimpleName SwitchStatement SwitchCase SimpleName selector qname
+selector type SimpleName SwitchStatement IfStatement InfixExpression SimpleName prefix
+selector id SimpleName SwitchCase SwitchStatement SwitchCase SimpleName selector qname
+selector type SimpleName InfixExpression SimpleName selector any
+selector type SimpleName InfixExpression SimpleName selector qname
+selector type SimpleName InfixExpression InfixExpression InfixExpression SimpleName selector type
+selector type SimpleName InfixExpression InfixExpression InfixExpression SimpleName selector qname
+selector any SimpleName InfixExpression InfixExpression InfixExpression SimpleName selector type
+selector any SimpleName InfixExpression InfixExpression InfixExpression SimpleName selector qname
+index SimpleName InfixExpression NumberLiteral empty
+nth SimpleName PrefixExpression InfixExpression SimpleName index
+index SimpleName InfixExpression InfixExpression InfixExpression SimpleName index
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName index
+matched SimpleName Assignment InfixExpression SimpleName matched
+is selected SimpleName MethodInvocation SimpleName n
+matched SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName is selected
+matched SimpleName InfixExpression PrefixExpression MethodInvocation SimpleName n
+nodes SimpleName MethodInvocation SimpleName add
+nodes SimpleName MethodInvocation SimpleName e
+add SimpleName MethodInvocation SimpleName e
+boolean PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName selector type
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+nodes SimpleName MethodInvocation SimpleName size
+nodes size SimpleName VariableDeclarationFragment MethodInvocation SimpleName nodes
+nodes size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nodes size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName nodes
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+old nodes SimpleName MethodInvocation SimpleName size
+old nodes SimpleName MethodInvocation InfixExpression SimpleName nodes size
+size SimpleName MethodInvocation InfixExpression SimpleName nodes size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName nodes size
+old nodes SimpleName MethodInvocation SimpleName get
+old nodes SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+nodes SimpleName MethodInvocation SimpleName get
+nodes SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+old nodes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName nodes
+old nodes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+old nodes SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName i
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName nodes
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName i
+i SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName nodes
+i SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+i SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName nodes size
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+nodes size SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral false
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral false
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName update
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName update
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+update SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+update SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+update SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName update
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update

@@ -1,0 +1,51 @@
+selection event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+listeners SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName listeners
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+e SimpleName MethodInvocation SimpleName get id
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+selection listener SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+selection listener SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+selection done SimpleName MethodInvocation SimpleName e
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+selection listener SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+selection listener SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+selection changed SimpleName MethodInvocation SimpleName e
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+selection listener SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+selection listener SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+selection cleared SimpleName MethodInvocation SimpleName e
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+selection listener SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+selection listener SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+selection started SimpleName MethodInvocation SimpleName e
+e SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName selection eventselection done
+get id SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName selection eventselection done
+e SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName selection eventselection changed
+get id SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName selection eventselection changed
+selection eventselection done QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName selection eventselection changed
+selection eventselection changed QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName selection eventselection cleared
+selection eventselection cleared QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName selection eventselection started
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispatch selection event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selection event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName dispatch selection event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selection event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+dispatch selection event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selection event
+dispatch selection event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch selection event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch selection event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

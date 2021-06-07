@@ -1,0 +1,82 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+text path SimpleName SimpleType SingleVariableDeclaration SimpleName text path
+integer SimpleName SimpleType SingleVariableDeclaration SimpleName bidi level
+get attribute map SimpleName SuperMethodInvocation SimpleName ctx
+get attribute map SimpleName SuperMethodInvocation SimpleName element
+get attribute map SimpleName SuperMethodInvocation SimpleName text path
+get attribute map SimpleName SuperMethodInvocation SimpleName bidi level
+ctx SimpleName SuperMethodInvocation SimpleName element
+ctx SimpleName SuperMethodInvocation SimpleName text path
+ctx SimpleName SuperMethodInvocation SimpleName bidi level
+element SimpleName SuperMethodInvocation SimpleName text path
+element SimpleName SuperMethodInvocation SimpleName bidi level
+text path SimpleName SuperMethodInvocation SimpleName bidi level
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName get attribute map
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName ctx
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName element
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName text path
+result SimpleName VariableDeclarationFragment SuperMethodInvocation SimpleName bidi level
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+element SimpleName MethodInvocation SimpleName get attribute
+element SimpleName MethodInvocation SimpleName batik ext preformatted attribute
+get attribute SimpleName MethodInvocation SimpleName batik ext preformatted attribute
+s SimpleName Assignment MethodInvocation SimpleName element
+s SimpleName Assignment MethodInvocation SimpleName get attribute
+s SimpleName Assignment MethodInvocation SimpleName batik ext preformatted attribute
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName equals
+s SimpleName MethodInvocation StringLiteral true
+equals SimpleName MethodInvocation StringLiteral true
+result SimpleName MethodInvocation SimpleName put
+result SimpleName MethodInvocation SimpleName preformatted
+result SimpleName MethodInvocation QualifiedName booleantrue
+put SimpleName MethodInvocation SimpleName preformatted
+put SimpleName MethodInvocation QualifiedName booleantrue
+preformatted SimpleName MethodInvocation QualifiedName booleantrue
+protected Modifier MethodDeclaration SimpleType SimpleName map
+protected Modifier MethodDeclaration SimpleName get attribute map
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text path
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName text path
+map SimpleName SimpleType MethodDeclaration SimpleName get attribute map
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName text path
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName bidi level
+get attribute map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+get attribute map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+get attribute map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get attribute map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+get attribute map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text path
+get attribute map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text path
+get attribute map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName integer
+get attribute map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bidi level
+get attribute map SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text path
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bidi level
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text path
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bidi level
+text path SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bidi level
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SimpleName get attribute map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text path
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bidi level
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get attribute map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text path
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bidi level

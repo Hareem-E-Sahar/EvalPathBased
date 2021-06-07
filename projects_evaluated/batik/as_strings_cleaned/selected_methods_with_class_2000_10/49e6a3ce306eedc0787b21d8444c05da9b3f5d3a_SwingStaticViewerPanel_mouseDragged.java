@@ -1,0 +1,47 @@
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get modifiers
+e SimpleName MethodInvocation InfixExpression QualifiedName ealt mask
+get modifiers SimpleName MethodInvocation InfixExpression QualifiedName ealt mask
+ealt mask QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+e SimpleName MethodInvocation SimpleName get x
+dx SimpleName Assignment MethodInvocation SimpleName e
+dx SimpleName Assignment MethodInvocation SimpleName get x
+e SimpleName MethodInvocation SimpleName get y
+dy SimpleName Assignment MethodInvocation SimpleName e
+dy SimpleName Assignment MethodInvocation SimpleName get y
+dx SimpleName InfixExpression SimpleName sx
+dy SimpleName InfixExpression SimpleName sy
+viewer SimpleName MethodInvocation SimpleName translate
+viewer SimpleName MethodInvocation InfixExpression SimpleName dx
+viewer SimpleName MethodInvocation InfixExpression SimpleName sx
+viewer SimpleName MethodInvocation InfixExpression SimpleName dy
+viewer SimpleName MethodInvocation InfixExpression SimpleName sy
+translate SimpleName MethodInvocation InfixExpression SimpleName dx
+translate SimpleName MethodInvocation InfixExpression SimpleName sx
+translate SimpleName MethodInvocation InfixExpression SimpleName dy
+translate SimpleName MethodInvocation InfixExpression SimpleName sy
+dx SimpleName InfixExpression MethodInvocation InfixExpression SimpleName dy
+dx SimpleName InfixExpression MethodInvocation InfixExpression SimpleName sy
+sx SimpleName InfixExpression MethodInvocation InfixExpression SimpleName dy
+sx SimpleName InfixExpression MethodInvocation InfixExpression SimpleName sy
+viewer SimpleName MethodInvocation SimpleName repaint
+sx SimpleName Assignment SimpleName dx
+sy SimpleName Assignment SimpleName dy
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse dragged
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName mouse dragged
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse dragged SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse dragged SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mouse dragged
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mouse dragged
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

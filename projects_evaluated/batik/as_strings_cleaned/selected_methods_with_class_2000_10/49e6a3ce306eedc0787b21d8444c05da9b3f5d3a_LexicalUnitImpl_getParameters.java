@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType QualifiedName orgw ccsssaclexical unit
+public Modifier MethodDeclaration SimpleName get parameters
+public Modifier MethodDeclaration Block ReturnStatement SimpleName params
+orgw ccsssaclexical unit QualifiedName SimpleType MethodDeclaration SimpleName get parameters
+get parameters SimpleName MethodDeclaration Block ReturnStatement SimpleName params
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName orgw ccsssaclexical unit
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parameters
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName orgw ccsssaclexical unit
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parameters

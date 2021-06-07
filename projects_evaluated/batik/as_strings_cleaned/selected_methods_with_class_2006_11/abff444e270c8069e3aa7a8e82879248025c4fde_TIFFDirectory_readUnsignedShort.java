@@ -1,0 +1,53 @@
+seekable stream SimpleName SimpleType SingleVariableDeclaration SimpleName stream
+boolean PrimitiveType SingleVariableDeclaration SimpleName is big endian
+stream SimpleName MethodInvocation SimpleName read unsigned short
+stream SimpleName MethodInvocation SimpleName read unsigned short le
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName read unsigned short
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName seekable stream
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName stream
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName is big endian
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName read unsigned short
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName seekable stream
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName stream
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName is big endian
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleName read unsigned short
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName seekable stream
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName stream
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName is big endian
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration Block IfStatement SimpleName is big endian
+read unsigned short SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName seekable stream
+read unsigned short SimpleName MethodDeclaration SingleVariableDeclaration SimpleName stream
+read unsigned short SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+read unsigned short SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is big endian
+read unsigned short SimpleName MethodDeclaration SimpleType SimpleName io exception
+read unsigned short SimpleName MethodDeclaration Block IfStatement SimpleName is big endian
+stream SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+stream SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is big endian
+stream SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+is big endian SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName read unsigned short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is big endian
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read unsigned short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName stream
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is big endian
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

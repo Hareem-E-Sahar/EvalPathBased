@@ -1,0 +1,20 @@
+svgom rect SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+svgom rect SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+svgom rect SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+svgom rect SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+public Modifier MethodDeclaration SimpleType SimpleName svg rect
+public Modifier MethodDeclaration SimpleName create svg rect
+svg rect SimpleName SimpleType MethodDeclaration SimpleName create svg rect
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg rect
+public Modifier TypeDeclaration MethodDeclaration SimpleName create svg rect
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg rect
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create svg rect

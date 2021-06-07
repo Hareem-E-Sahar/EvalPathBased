@@ -1,0 +1,41 @@
+float PrimitiveType SingleVariableDeclaration SimpleName f
+value SimpleName Assignment SimpleName f
+icc colors SimpleName MethodInvocation SimpleName index of
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName icc colors
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName icc colors
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+idx SimpleName InfixExpression PrefixExpression NumberLiteral empty
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionno modification allowed err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptionno modification allowed err QualifiedName ClassInstanceCreation StringLiteral empty
+handler SimpleName MethodInvocation SimpleName color replaced
+handler SimpleName MethodInvocation SimpleName f
+handler SimpleName MethodInvocation SimpleName idx
+color replaced SimpleName MethodInvocation SimpleName f
+color replaced SimpleName MethodInvocation SimpleName idx
+f SimpleName MethodInvocation SimpleName idx
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName f
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName set value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName f
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+set value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName f
+set value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName f

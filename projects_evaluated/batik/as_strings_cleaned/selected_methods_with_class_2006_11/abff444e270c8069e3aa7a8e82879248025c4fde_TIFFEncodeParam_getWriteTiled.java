@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get write tiled
+public Modifier MethodDeclaration Block ReturnStatement SimpleName write tiled
+boolean PrimitiveType MethodDeclaration SimpleName get write tiled
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName write tiled
+get write tiled SimpleName MethodDeclaration Block ReturnStatement SimpleName write tiled
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get write tiled
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get write tiled

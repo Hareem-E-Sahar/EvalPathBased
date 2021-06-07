@@ -1,0 +1,112 @@
+graphics SimpleName SimpleType SingleVariableDeclaration SimpleName g
+paint component SimpleName SuperMethodInvocation SimpleName g
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName get size
+dimension SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+w SimpleName VariableDeclarationFragment QualifiedName sizewidth
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName sizewidth
+h SimpleName VariableDeclarationFragment QualifiedName sizeheight
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName sizeheight
+w SimpleName InfixExpression NumberLiteral empty
+h SimpleName InfixExpression NumberLiteral empty
+w SimpleName InfixExpression InfixExpression InfixExpression SimpleName h
+w SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName h
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+update buffer SimpleName MethodInvocation SimpleName w
+update buffer SimpleName MethodInvocation SimpleName h
+w SimpleName MethodInvocation SimpleName h
+clear buffer SimpleName MethodInvocation SimpleName w
+clear buffer SimpleName MethodInvocation SimpleName h
+w SimpleName MethodInvocation SimpleName h
+renderer factory SimpleName MethodInvocation SimpleName create renderer
+renderer factory SimpleName MethodInvocation SimpleName buffer
+create renderer SimpleName MethodInvocation SimpleName buffer
+renderer SimpleName Assignment MethodInvocation SimpleName renderer factory
+renderer SimpleName Assignment MethodInvocation SimpleName create renderer
+renderer SimpleName Assignment MethodInvocation SimpleName buffer
+renderer SimpleName MethodInvocation SimpleName set transform
+renderer SimpleName MethodInvocation SimpleName transform
+set transform SimpleName MethodInvocation SimpleName transform
+renderer SimpleName InfixExpression InfixExpression InfixExpression SimpleName gvt root
+renderer SimpleName MethodInvocation SimpleName set tree
+renderer SimpleName MethodInvocation SimpleName gvt root
+set tree SimpleName MethodInvocation SimpleName gvt root
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName w
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName h
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation SimpleName w
+empty NumberLiteral ClassInstanceCreation SimpleName h
+empty NumberLiteral ClassInstanceCreation SimpleName w
+empty NumberLiteral ClassInstanceCreation SimpleName h
+w SimpleName ClassInstanceCreation SimpleName h
+renderer SimpleName MethodInvocation SimpleName repaint
+renderer SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName rectangle dfloat
+renderer SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+renderer SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+renderer SimpleName MethodInvocation ClassInstanceCreation SimpleName w
+renderer SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+repaint SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName rectangle dfloat
+repaint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+repaint SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+repaint SimpleName MethodInvocation ClassInstanceCreation SimpleName w
+repaint SimpleName MethodInvocation ClassInstanceCreation SimpleName h
+repaint SimpleName Assignment BooleanLiteral false
+graphics d SimpleName SimpleType CastExpression SimpleName g
+g d SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName graphics d
+g d SimpleName VariableDeclarationFragment CastExpression SimpleName g
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g d
+g d SimpleName MethodInvocation SimpleName set rendering hint
+g d SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+g d SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+rendering hintskey antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue antialias on
+g d SimpleName MethodInvocation SimpleName draw image
+g d SimpleName MethodInvocation SimpleName buffer
+g d SimpleName MethodInvocation NumberLiteral empty
+g d SimpleName MethodInvocation NumberLiteral empty
+draw image SimpleName MethodInvocation SimpleName buffer
+draw image SimpleName MethodInvocation NumberLiteral empty
+draw image SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation NumberLiteral empty
+buffer SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName repaint
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName repaint
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName repaint
+repaint SimpleName IfStatement Block IfStatement SimpleName repaint
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName paint component
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName g
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block IfStatement SimpleName repaint
+protected Modifier MethodDeclaration Block IfStatement SimpleName repaint
+void PrimitiveType MethodDeclaration SimpleName paint component
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName g
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName repaint
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName repaint
+paint component SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics
+paint component SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g
+paint component SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+paint component SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+paint component SimpleName MethodDeclaration Block IfStatement SimpleName repaint
+paint component SimpleName MethodDeclaration Block IfStatement SimpleName repaint
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName paint component
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName paint component
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g

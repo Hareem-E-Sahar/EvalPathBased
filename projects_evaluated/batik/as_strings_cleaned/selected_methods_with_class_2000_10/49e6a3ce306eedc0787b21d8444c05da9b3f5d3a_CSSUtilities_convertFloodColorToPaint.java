@@ -1,0 +1,62 @@
+css style declaration SimpleName SimpleType SingleVariableDeclaration SimpleName decl
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName flood color property
+get property css value SimpleName MethodInvocation SimpleName flood color property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName flood color property
+v SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css primitive value
+v SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName decl
+v SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get property css value
+v SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName flood color property
+css primitive value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+decl SimpleName MethodInvocation SimpleName get property css value
+decl SimpleName MethodInvocation SimpleName flood opacity property
+get property css value SimpleName MethodInvocation SimpleName flood opacity property
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName decl
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName get property css value
+css primitive value SimpleName SimpleType CastExpression MethodInvocation SimpleName flood opacity property
+vv SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css primitive value
+vv SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName decl
+vv SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get property css value
+vv SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName flood opacity property
+css primitive value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vv
+convert opacity SimpleName MethodInvocation SimpleName vv
+opacity SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert opacity
+opacity SimpleName VariableDeclarationFragment MethodInvocation SimpleName vv
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName opacity
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName convert opacity
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName vv
+v SimpleName MethodInvocation SimpleName get rgb color value
+convert color SimpleName MethodInvocation MethodInvocation SimpleName v
+convert color SimpleName MethodInvocation MethodInvocation SimpleName get rgb color value
+convert color SimpleName MethodInvocation SimpleName opacity
+v SimpleName MethodInvocation MethodInvocation SimpleName opacity
+get rgb color value SimpleName MethodInvocation MethodInvocation SimpleName opacity
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName color
+public Modifier MethodDeclaration SimpleName convert flood color to paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css style declaration
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName decl
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+static Modifier MethodDeclaration SimpleType SimpleName color
+static Modifier MethodDeclaration SimpleName convert flood color to paint
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css style declaration
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName decl
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+color SimpleName SimpleType MethodDeclaration SimpleName convert flood color to paint
+color SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName decl
+convert flood color to paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css style declaration
+convert flood color to paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName decl
+convert flood color to paint SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName color
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert flood color to paint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName color
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert flood color to paint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName decl

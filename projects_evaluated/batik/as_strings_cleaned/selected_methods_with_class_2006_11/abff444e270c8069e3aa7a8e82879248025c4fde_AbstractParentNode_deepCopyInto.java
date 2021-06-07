@@ -1,0 +1,37 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+deep copy into SimpleName SuperMethodInvocation SimpleName n
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName get next sibling
+p SimpleName Assignment MethodInvocation SimpleName p
+p SimpleName Assignment MethodInvocation SimpleName get next sibling
+p SimpleName MethodInvocation SimpleName clone node
+p SimpleName MethodInvocation BooleanLiteral true
+clone node SimpleName MethodInvocation BooleanLiteral true
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName clone node
+t SimpleName VariableDeclarationFragment MethodInvocation BooleanLiteral true
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+n SimpleName MethodInvocation SimpleName append child
+n SimpleName MethodInvocation SimpleName t
+append child SimpleName MethodInvocation SimpleName t
+p SimpleName InfixExpression ForStatement Assignment SimpleName p
+protected Modifier MethodDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SimpleName deep copy into
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleName deep copy into
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+deep copy into SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+deep copy into SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+deep copy into SimpleName MethodDeclaration Block ReturnStatement SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName deep copy into
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName deep copy into
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

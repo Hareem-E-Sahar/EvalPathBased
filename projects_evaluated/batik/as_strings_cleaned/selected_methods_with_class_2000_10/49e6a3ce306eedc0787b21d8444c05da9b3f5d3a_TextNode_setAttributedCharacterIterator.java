@@ -1,0 +1,13 @@
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName new aci
+void PrimitiveType MethodDeclaration SimpleName set attributed character iterator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new aci
+set attributed character iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+set attributed character iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new aci
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attributed character iterator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new aci
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attributed character iterator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new aci

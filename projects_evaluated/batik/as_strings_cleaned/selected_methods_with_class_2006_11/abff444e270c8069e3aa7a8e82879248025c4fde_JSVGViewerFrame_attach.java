@@ -1,0 +1,17 @@
+svg framesvg canvas QualifiedName MethodInvocation SimpleName get rhino interpreter
+interpreter SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svg framesvg canvas
+interpreter SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rhino interpreter
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName interpreter
+get context factory SimpleName MethodInvocation SimpleName interpreter
+attach to SimpleName MethodInvocation MethodInvocation SimpleName get context factory
+attach to SimpleName MethodInvocation MethodInvocation SimpleName interpreter
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName attach
+void PrimitiveType MethodDeclaration SimpleName attach
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName attach
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName attach

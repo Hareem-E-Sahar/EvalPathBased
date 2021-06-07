@@ -1,0 +1,58 @@
+short PrimitiveType SingleVariableDeclaration SimpleName rendering intent
+set attribute ns SimpleName MethodInvocation SimpleName svg rendering intent attribute
+set attribute ns SimpleName MethodInvocation SimpleName svg auto value
+svg rendering intent attribute SimpleName MethodInvocation SimpleName svg auto value
+set attribute ns SimpleName MethodInvocation SimpleName svg rendering intent attribute
+set attribute ns SimpleName MethodInvocation SimpleName svg perceptual value
+svg rendering intent attribute SimpleName MethodInvocation SimpleName svg perceptual value
+set attribute ns SimpleName MethodInvocation SimpleName svg rendering intent attribute
+set attribute ns SimpleName MethodInvocation SimpleName svg relative colorimetric value
+svg rendering intent attribute SimpleName MethodInvocation SimpleName svg relative colorimetric value
+set attribute ns SimpleName MethodInvocation SimpleName svg rendering intent attribute
+set attribute ns SimpleName MethodInvocation SimpleName svg saturate value
+svg rendering intent attribute SimpleName MethodInvocation SimpleName svg saturate value
+set attribute ns SimpleName MethodInvocation SimpleName svg rendering intent attribute
+set attribute ns SimpleName MethodInvocation SimpleName svg absolute colorimetric value
+svg rendering intent attribute SimpleName MethodInvocation SimpleName svg absolute colorimetric value
+rendering intent SimpleName SwitchStatement SwitchCase SimpleName rendering intent auto
+rendering intent SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName set attribute ns
+rendering intent SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName svg rendering intent attribute
+rendering intent SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName svg auto value
+rendering intent SimpleName SwitchStatement SwitchCase SimpleName rendering intent perceptual
+rendering intent SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName set attribute ns
+rendering intent SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName svg rendering intent attribute
+rendering intent SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName svg perceptual value
+rendering intent auto SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rendering intent perceptual
+rendering intent perceptual SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rendering intent relative colorimetric
+rendering intent relative colorimetric SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rendering intent saturation
+rendering intent saturation SimpleName SwitchCase SwitchStatement SwitchCase SimpleName rendering intent absolute colorimetric
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set rendering intent
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rendering intent
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+public Modifier MethodDeclaration Block SwitchStatement SimpleName rendering intent
+void PrimitiveType MethodDeclaration SimpleName set rendering intent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rendering intent
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName rendering intent
+set rendering intent SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+set rendering intent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rendering intent
+set rendering intent SimpleName MethodDeclaration SimpleType SimpleName dom exception
+set rendering intent SimpleName MethodDeclaration Block SwitchStatement SimpleName rendering intent
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+rendering intent SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set rendering intent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rendering intent
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set rendering intent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rendering intent
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

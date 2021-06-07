@@ -1,0 +1,37 @@
+double PrimitiveType SingleVariableDeclaration SimpleName line height
+line height SimpleName FieldAccess Assignment SimpleName line height
+current y SimpleName InfixExpression SimpleName line height
+sl SimpleName MethodInvocation SimpleName split
+sl SimpleName MethodInvocation InfixExpression SimpleName current y
+sl SimpleName MethodInvocation InfixExpression SimpleName line height
+split SimpleName MethodInvocation InfixExpression SimpleName current y
+split SimpleName MethodInvocation InfixExpression SimpleName line height
+sr SimpleName Assignment MethodInvocation SimpleName sl
+sr SimpleName Assignment MethodInvocation SimpleName split
+sr SimpleName Assignment MethodInvocation InfixExpression SimpleName current y
+sr SimpleName Assignment MethodInvocation InfixExpression SimpleName line height
+sr SimpleName MethodInvocation SimpleName get above
+sr SimpleName MethodInvocation SimpleName get above
+sort row SimpleName MethodInvocation MethodInvocation SimpleName sr
+sort row SimpleName MethodInvocation MethodInvocation SimpleName get above
+current range SimpleName Assignment NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName new line height
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName line height
+void PrimitiveType MethodDeclaration SimpleName new line height
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName line height
+new line height SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+new line height SimpleName MethodDeclaration SingleVariableDeclaration SimpleName line height
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName new line height
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line height
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new line height
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line height

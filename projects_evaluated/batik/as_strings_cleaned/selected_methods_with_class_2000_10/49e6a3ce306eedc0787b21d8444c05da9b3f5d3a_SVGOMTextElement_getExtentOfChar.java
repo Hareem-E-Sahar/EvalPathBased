@@ -1,0 +1,29 @@
+int PrimitiveType SingleVariableDeclaration SimpleName charnum
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! svgom text elementget extent of char
+public Modifier MethodDeclaration SimpleType SimpleName svg rect
+public Modifier MethodDeclaration SimpleName get extent of char
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName charnum
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+svg rect SimpleName SimpleType MethodDeclaration SimpleName get extent of char
+svg rect SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+svg rect SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName charnum
+svg rect SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+get extent of char SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get extent of char SimpleName MethodDeclaration SingleVariableDeclaration SimpleName charnum
+get extent of char SimpleName MethodDeclaration SimpleType SimpleName dom exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+charnum SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg rect
+public Modifier TypeDeclaration MethodDeclaration SimpleName get extent of char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg rect
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get extent of char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

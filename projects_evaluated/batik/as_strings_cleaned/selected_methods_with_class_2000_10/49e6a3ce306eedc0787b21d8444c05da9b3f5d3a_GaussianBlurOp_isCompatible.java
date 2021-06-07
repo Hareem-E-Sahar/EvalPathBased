@@ -1,0 +1,63 @@
+color model SimpleName SimpleType SingleVariableDeclaration SimpleName color model
+color model SimpleName MethodInvocation SimpleName get color space
+cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName color model
+cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get color space
+color space SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cs
+color space SimpleName MethodInvocation SimpleName get instance
+color space SimpleName MethodInvocation QualifiedName color spacecs s rgb
+get instance SimpleName MethodInvocation QualifiedName color spacecs s rgb
+cs SimpleName InfixExpression MethodInvocation SimpleName color space
+cs SimpleName InfixExpression MethodInvocation SimpleName get instance
+cs SimpleName InfixExpression MethodInvocation QualifiedName color spacecs s rgb
+color space SimpleName MethodInvocation SimpleName get instance
+color space SimpleName MethodInvocation QualifiedName color spacecs linear rgb
+get instance SimpleName MethodInvocation QualifiedName color spacecs linear rgb
+cs SimpleName InfixExpression MethodInvocation SimpleName color space
+cs SimpleName InfixExpression MethodInvocation SimpleName get instance
+cs SimpleName InfixExpression MethodInvocation QualifiedName color spacecs linear rgb
+color model SimpleName InstanceofExpression SimpleType SimpleName direct color model
+color model SimpleName MethodInvocation SimpleName get transfer type
+color model SimpleName MethodInvocation InfixExpression QualifiedName data buffertype int
+get transfer type SimpleName MethodInvocation InfixExpression QualifiedName data buffertype int
+data buffertype int QualifiedName InfixExpression IfStatement ReturnStatement BooleanLiteral false
+direct color model SimpleName SimpleType CastExpression SimpleName color model
+dcm SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName direct color model
+dcm SimpleName VariableDeclarationFragment CastExpression SimpleName color model
+direct color model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dcm
+dcm SimpleName MethodInvocation SimpleName get red mask
+dcm SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+get red mask SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+x ff NumberLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+dcm SimpleName MethodInvocation SimpleName get green mask
+dcm SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+get green mask SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+x ff NumberLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+dcm SimpleName MethodInvocation SimpleName get blue mask
+dcm SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+get blue mask SimpleName MethodInvocation InfixExpression NumberLiteral x ff
+x ff NumberLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+dcm SimpleName MethodInvocation SimpleName get alpha mask
+dcm SimpleName MethodInvocation InfixExpression NumberLiteral xff
+get alpha mask SimpleName MethodInvocation InfixExpression NumberLiteral xff
+xff NumberLiteral InfixExpression IfStatement ReturnStatement BooleanLiteral false
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName is compatible
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName color model
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName color model
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is compatible
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName color model
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName color model
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is compatible SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName color model
+is compatible SimpleName MethodDeclaration SingleVariableDeclaration SimpleName color model
+is compatible SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is compatible
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName color model
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is compatible
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName color model

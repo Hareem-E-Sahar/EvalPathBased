@@ -1,0 +1,13 @@
+content selection changed event SimpleName SimpleType SingleVariableDeclaration SimpleName csce
+void PrimitiveType MethodDeclaration SimpleName content selection changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content selection changed event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName csce
+content selection changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content selection changed event
+content selection changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName csce
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName content selection changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName csce
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName content selection changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName csce

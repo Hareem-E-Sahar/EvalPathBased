@@ -1,0 +1,29 @@
+animated live attribute value SimpleName SimpleType SingleVariableDeclaration SimpleName alav
+alav SimpleName MethodInvocation SimpleName get namespace uri
+alav SimpleName MethodInvocation SimpleName get local name
+alav SimpleName MethodInvocation MethodInvocation SimpleName equals
+get local name SimpleName MethodInvocation MethodInvocation SimpleName equals
+alav SimpleName MethodInvocation MethodInvocation SimpleName svg transform attribute
+get local name SimpleName MethodInvocation MethodInvocation SimpleName svg transform attribute
+equals SimpleName MethodInvocation SimpleName svg transform attribute
+set transform SimpleName MethodInvocation SimpleName node
+set transform SimpleName MethodInvocation SimpleName e
+node SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle animated attribute changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animated live attribute value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName alav
+void PrimitiveType MethodDeclaration SimpleName handle animated attribute changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animated live attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName alav
+handle animated attribute changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animated live attribute value
+handle animated attribute changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName alav
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle animated attribute changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alav
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle animated attribute changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alav

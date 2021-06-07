@@ -1,0 +1,20 @@
+url SimpleName SimpleType SingleVariableDeclaration SimpleName url
+url SimpleName FieldAccess Assignment SimpleName url
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set url object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName url
+void PrimitiveType MethodDeclaration SimpleName set url object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName url
+set url object SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+set url object SimpleName MethodDeclaration SingleVariableDeclaration SimpleName url
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set url object
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set url object
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url

@@ -1,0 +1,450 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName qn
+abstract node SimpleName SimpleType CastExpression SimpleName n
+an SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+an SimpleName VariableDeclarationFragment CastExpression SimpleName n
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName an
+an SimpleName InfixExpression MethodInvocation SimpleName get document element
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot supported err
+create dom exception SimpleName MethodInvocation StringLiteral renamedocumentelement
+dom exceptionnot supported err QualifiedName MethodInvocation StringLiteral renamedocumentelement
+n SimpleName MethodInvocation SimpleName get node type
+nt SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+nt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get node type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nt
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName n
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get node type
+nt SimpleName InfixExpression QualifiedName nodeelement node
+nt SimpleName InfixExpression QualifiedName nodeattribute node
+nt SimpleName InfixExpression InfixExpression InfixExpression SimpleName nt
+nt SimpleName InfixExpression InfixExpression InfixExpression QualifiedName nodeattribute node
+nodeelement node QualifiedName InfixExpression InfixExpression InfixExpression SimpleName nt
+nodeelement node QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName nodeattribute node
+integer SimpleName SimpleType ClassInstanceCreation SimpleName nt
+n SimpleName MethodInvocation SimpleName get node name
+nt SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName n
+nt SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot supported err
+create dom exception SimpleName MethodInvocation StringLiteral renamenode
+dom exceptionnot supported err QualifiedName MethodInvocation StringLiteral renamenode
+xml version SimpleName MethodInvocation SimpleName equals
+xml version SimpleName MethodInvocation QualifiedName xml constantsxml version
+equals SimpleName MethodInvocation QualifiedName xml constantsxml version
+dom utilities SimpleName MethodInvocation SimpleName is valid name
+dom utilities SimpleName MethodInvocation SimpleName qn
+is valid name SimpleName MethodInvocation SimpleName qn
+dom utilities SimpleName MethodInvocation SimpleName is valid name
+dom utilities SimpleName MethodInvocation SimpleName qn
+is valid name SimpleName MethodInvocation SimpleName qn
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot supported err
+create dom exception SimpleName MethodInvocation StringLiteral wfinvalidname
+create dom exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName qn
+dom exceptionnot supported err QualifiedName MethodInvocation StringLiteral wfinvalidname
+dom exceptionnot supported err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName qn
+wfinvalidname StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName qn
+n SimpleName MethodInvocation SimpleName get owner document
+integer SimpleName SimpleType ClassInstanceCreation SimpleName nt
+n SimpleName MethodInvocation SimpleName get node name
+nt SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName n
+nt SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot supported err
+create dom exception SimpleName MethodInvocation StringLiteral nodefromwrongdocument
+dom exceptionnot supported err QualifiedName MethodInvocation StringLiteral nodefromwrongdocument
+qn SimpleName MethodInvocation SimpleName index of
+qn SimpleName MethodInvocation CharacterLiteral :
+index of SimpleName MethodInvocation CharacterLiteral :
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName qn
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+i SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral :
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName qn
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral :
+i SimpleName InfixExpression NumberLiteral empty
+qn SimpleName MethodInvocation SimpleName length
+qn SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName qn
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName length
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName i
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName i
+integer SimpleName SimpleType ClassInstanceCreation SimpleName nt
+n SimpleName MethodInvocation SimpleName get node name
+nt SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName n
+nt SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName get node name
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName qn
+nt SimpleName ClassInstanceCreation ArrayInitializer SimpleName qn
+n SimpleName MethodInvocation ArrayInitializer SimpleName qn
+get node name SimpleName MethodInvocation ArrayInitializer SimpleName qn
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnamespace err
+create dom exception SimpleName MethodInvocation StringLiteral qname
+create dom exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName qn
+dom exceptionnamespace err QualifiedName MethodInvocation StringLiteral qname
+dom exceptionnamespace err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName qn
+qname StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName qn
+dom utilities SimpleName MethodInvocation SimpleName get prefix
+dom utilities SimpleName MethodInvocation SimpleName qn
+get prefix SimpleName MethodInvocation SimpleName qn
+prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName dom utilities
+prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName get prefix
+prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName qn
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prefix
+prefix SimpleName InfixExpression InfixExpression InfixExpression SimpleName ns
+integer SimpleName SimpleType ClassInstanceCreation SimpleName nt
+n SimpleName MethodInvocation SimpleName get node name
+nt SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName n
+nt SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName get node name
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName prefix
+nt SimpleName ClassInstanceCreation ArrayInitializer SimpleName prefix
+n SimpleName MethodInvocation ArrayInitializer SimpleName prefix
+get node name SimpleName MethodInvocation ArrayInitializer SimpleName prefix
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnamespace err
+create dom exception SimpleName MethodInvocation StringLiteral prefix
+create dom exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName prefix
+dom exceptionnamespace err QualifiedName MethodInvocation StringLiteral prefix
+dom exceptionnamespace err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName prefix
+prefix StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName prefix
+xml constantsxml prefix QualifiedName MethodInvocation SimpleName equals
+xml constantsxml prefix QualifiedName MethodInvocation SimpleName prefix
+equals SimpleName MethodInvocation SimpleName prefix
+xml constantsxml namespace uri QualifiedName MethodInvocation SimpleName equals
+xml constantsxml namespace uri QualifiedName MethodInvocation SimpleName ns
+equals SimpleName MethodInvocation SimpleName ns
+xml constantsxmlns prefix QualifiedName MethodInvocation SimpleName equals
+xml constantsxmlns prefix QualifiedName MethodInvocation SimpleName prefix
+equals SimpleName MethodInvocation SimpleName prefix
+xml constantsxmlns namespace uri QualifiedName MethodInvocation SimpleName equals
+xml constantsxmlns namespace uri QualifiedName MethodInvocation SimpleName ns
+equals SimpleName MethodInvocation SimpleName ns
+integer SimpleName SimpleType ClassInstanceCreation SimpleName nt
+n SimpleName MethodInvocation SimpleName get node name
+nt SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName n
+nt SimpleName ClassInstanceCreation ArrayInitializer MethodInvocation SimpleName get node name
+integer SimpleName SimpleType ClassInstanceCreation ArrayInitializer SimpleName ns
+nt SimpleName ClassInstanceCreation ArrayInitializer SimpleName ns
+n SimpleName MethodInvocation ArrayInitializer SimpleName ns
+get node name SimpleName MethodInvocation ArrayInitializer SimpleName ns
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnamespace err
+create dom exception SimpleName MethodInvocation StringLiteral namespace
+create dom exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName ns
+dom exceptionnamespace err QualifiedName MethodInvocation StringLiteral namespace
+dom exceptionnamespace err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName ns
+namespace StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName ns
+n SimpleName MethodInvocation SimpleName get namespace uri
+prev namespace uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+prev namespace uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev namespace uri
+n SimpleName MethodInvocation SimpleName get node name
+prev node name SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+prev node name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get node name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev node name
+nt SimpleName InfixExpression QualifiedName nodeelement node
+n SimpleName MethodInvocation SimpleName get parent node
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent
+create element ns SimpleName MethodInvocation SimpleName ns
+create element ns SimpleName MethodInvocation SimpleName qn
+ns SimpleName MethodInvocation SimpleName qn
+abstract element SimpleName SimpleType CastExpression MethodInvocation SimpleName create element ns
+abstract element SimpleName SimpleType CastExpression MethodInvocation SimpleName ns
+abstract element SimpleName SimpleType CastExpression MethodInvocation SimpleName qn
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract element
+e SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName create element ns
+e SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ns
+e SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName qn
+abstract element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+an SimpleName MethodInvocation SimpleName get event support
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName an
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName get event support
+event support SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName es
+e SimpleName MethodInvocation SimpleName get event support
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+es SimpleName VariableDeclarationFragment MethodInvocation SimpleName get event support
+event support SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName es
+event support SimpleName SimpleType ClassInstanceCreation SimpleName e
+es SimpleName Assignment ClassInstanceCreation SimpleType SimpleName event support
+es SimpleName Assignment ClassInstanceCreation SimpleName e
+set events enabled SimpleName MethodInvocation BooleanLiteral true
+eevent support QualifiedName Assignment SimpleName es
+e SimpleName MethodInvocation SimpleName get event support
+es SimpleName MethodInvocation SimpleName move event listeners
+es SimpleName MethodInvocation MethodInvocation SimpleName e
+es SimpleName MethodInvocation MethodInvocation SimpleName get event support
+move event listeners SimpleName MethodInvocation MethodInvocation SimpleName e
+move event listeners SimpleName MethodInvocation MethodInvocation SimpleName get event support
+anuser data QualifiedName MethodInvocation SimpleName clone
+hash map SimpleName SimpleType CastExpression MethodInvocation QualifiedName anuser data
+hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+euser data QualifiedName Assignment ConditionalExpression InfixExpression QualifiedName euser data
+anuser data handlers QualifiedName MethodInvocation SimpleName clone
+hash map SimpleName SimpleType CastExpression MethodInvocation QualifiedName anuser data handlers
+hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+euser data handlers QualifiedName Assignment ConditionalExpression InfixExpression QualifiedName euser data handlers
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next
+n SimpleName MethodInvocation SimpleName get next sibling
+parent SimpleName MethodInvocation SimpleName remove child
+parent SimpleName MethodInvocation SimpleName n
+remove child SimpleName MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName get first child
+n SimpleName MethodInvocation SimpleName get first child
+e SimpleName MethodInvocation SimpleName append child
+e SimpleName MethodInvocation MethodInvocation SimpleName n
+e SimpleName MethodInvocation MethodInvocation SimpleName get first child
+append child SimpleName MethodInvocation MethodInvocation SimpleName n
+append child SimpleName MethodInvocation MethodInvocation SimpleName get first child
+n SimpleName MethodInvocation SimpleName get attributes
+nnm SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+nnm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nnm
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+nnm SimpleName MethodInvocation SimpleName get length
+j SimpleName InfixExpression MethodInvocation SimpleName nnm
+j SimpleName InfixExpression MethodInvocation SimpleName get length
+nnm SimpleName MethodInvocation SimpleName item
+nnm SimpleName MethodInvocation SimpleName j
+item SimpleName MethodInvocation SimpleName j
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName nnm
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName j
+a SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName attr
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName nnm
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName j
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+e SimpleName MethodInvocation SimpleName set attribute node ns
+e SimpleName MethodInvocation SimpleName a
+set attribute node ns SimpleName MethodInvocation SimpleName a
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+parent SimpleName MethodInvocation SimpleName append child
+parent SimpleName MethodInvocation SimpleName e
+append child SimpleName MethodInvocation SimpleName e
+parent SimpleName MethodInvocation SimpleName insert before
+parent SimpleName MethodInvocation SimpleName next
+parent SimpleName MethodInvocation SimpleName e
+insert before SimpleName MethodInvocation SimpleName next
+insert before SimpleName MethodInvocation SimpleName e
+next SimpleName MethodInvocation SimpleName e
+fire user data handlers SimpleName MethodInvocation QualifiedName user data handlernode renamed
+fire user data handlers SimpleName MethodInvocation SimpleName n
+fire user data handlers SimpleName MethodInvocation SimpleName e
+user data handlernode renamed QualifiedName MethodInvocation SimpleName n
+user data handlernode renamed QualifiedName MethodInvocation SimpleName e
+n SimpleName MethodInvocation SimpleName e
+create event SimpleName MethodInvocation StringLiteral mutation name event
+mutation name event SimpleName SimpleType CastExpression MethodInvocation SimpleName create event
+mutation name event SimpleName SimpleType CastExpression MethodInvocation StringLiteral mutation name event
+ev SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName mutation name event
+ev SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName create event
+ev SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral mutation name event
+mutation name event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ev
+ev SimpleName MethodInvocation SimpleName init mutation name event ns
+ev SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+ev SimpleName MethodInvocation StringLiteral dom element name changed
+ev SimpleName MethodInvocation BooleanLiteral true
+ev SimpleName MethodInvocation BooleanLiteral false
+init mutation name event ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+init mutation name event ns SimpleName MethodInvocation StringLiteral dom element name changed
+init mutation name event ns SimpleName MethodInvocation BooleanLiteral true
+init mutation name event ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral dom element name changed
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral true
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName prev namespace uri
+dom element name changed StringLiteral MethodInvocation BooleanLiteral true
+dom element name changed StringLiteral MethodInvocation BooleanLiteral false
+dom element name changed StringLiteral MethodInvocation SimpleName prev namespace uri
+dom element name changed StringLiteral MethodInvocation SimpleName prev node name
+true BooleanLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation SimpleName prev namespace uri
+true BooleanLiteral MethodInvocation SimpleName prev node name
+false BooleanLiteral MethodInvocation SimpleName prev namespace uri
+false BooleanLiteral MethodInvocation SimpleName prev node name
+prev namespace uri SimpleName MethodInvocation SimpleName prev node name
+dispatch event SimpleName MethodInvocation SimpleName ev
+n SimpleName InstanceofExpression SimpleType SimpleName abstract attr ns
+abstract attr ns SimpleName SimpleType CastExpression SimpleName n
+a SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract attr ns
+a SimpleName VariableDeclarationFragment CastExpression SimpleName n
+abstract attr ns SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+a SimpleName MethodInvocation SimpleName get owner element
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName a
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get owner element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName remove attribute node
+e SimpleName MethodInvocation SimpleName a
+remove attribute node SimpleName MethodInvocation SimpleName a
+anamespace uri QualifiedName Assignment SimpleName ns
+anode name QualifiedName Assignment SimpleName qn
+e SimpleName MethodInvocation SimpleName set attribute node ns
+e SimpleName MethodInvocation SimpleName a
+set attribute node ns SimpleName MethodInvocation SimpleName a
+fire user data handlers SimpleName MethodInvocation QualifiedName user data handlernode renamed
+fire user data handlers SimpleName MethodInvocation SimpleName a
+user data handlernode renamed QualifiedName MethodInvocation SimpleName a
+create event SimpleName MethodInvocation StringLiteral mutation name event
+mutation name event SimpleName SimpleType CastExpression MethodInvocation SimpleName create event
+mutation name event SimpleName SimpleType CastExpression MethodInvocation StringLiteral mutation name event
+ev SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName mutation name event
+ev SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName create event
+ev SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral mutation name event
+mutation name event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ev
+ev SimpleName MethodInvocation SimpleName init mutation name event ns
+ev SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+ev SimpleName MethodInvocation StringLiteral dom attr name changed
+ev SimpleName MethodInvocation BooleanLiteral true
+ev SimpleName MethodInvocation BooleanLiteral false
+init mutation name event ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+init mutation name event ns SimpleName MethodInvocation StringLiteral dom attr name changed
+init mutation name event ns SimpleName MethodInvocation BooleanLiteral true
+init mutation name event ns SimpleName MethodInvocation BooleanLiteral false
+init mutation name event ns SimpleName MethodInvocation SimpleName a
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral dom attr name changed
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral true
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName a
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName prev namespace uri
+dom attr name changed StringLiteral MethodInvocation BooleanLiteral true
+dom attr name changed StringLiteral MethodInvocation BooleanLiteral false
+dom attr name changed StringLiteral MethodInvocation SimpleName a
+dom attr name changed StringLiteral MethodInvocation SimpleName prev namespace uri
+dom attr name changed StringLiteral MethodInvocation SimpleName prev node name
+true BooleanLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation SimpleName a
+true BooleanLiteral MethodInvocation SimpleName prev namespace uri
+true BooleanLiteral MethodInvocation SimpleName prev node name
+false BooleanLiteral MethodInvocation SimpleName a
+false BooleanLiteral MethodInvocation SimpleName prev namespace uri
+false BooleanLiteral MethodInvocation SimpleName prev node name
+a SimpleName MethodInvocation SimpleName prev namespace uri
+a SimpleName MethodInvocation SimpleName prev node name
+prev namespace uri SimpleName MethodInvocation SimpleName prev node name
+dispatch event SimpleName MethodInvocation SimpleName ev
+abstract attr SimpleName SimpleType CastExpression SimpleName n
+a SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract attr
+a SimpleName VariableDeclarationFragment CastExpression SimpleName n
+abstract attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+a SimpleName MethodInvocation SimpleName get owner element
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName a
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get owner element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName remove attribute node
+e SimpleName MethodInvocation SimpleName a
+remove attribute node SimpleName MethodInvocation SimpleName a
+create attribute ns SimpleName MethodInvocation SimpleName ns
+create attribute ns SimpleName MethodInvocation SimpleName qn
+ns SimpleName MethodInvocation SimpleName qn
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName create attribute ns
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName ns
+abstract attr SimpleName SimpleType CastExpression MethodInvocation SimpleName qn
+a SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract attr
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName create attribute ns
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName ns
+a SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName qn
+abstract attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+a SimpleName MethodInvocation SimpleName get node value
+a SimpleName MethodInvocation SimpleName set node value
+a SimpleName MethodInvocation MethodInvocation SimpleName a
+a SimpleName MethodInvocation MethodInvocation SimpleName get node value
+set node value SimpleName MethodInvocation MethodInvocation SimpleName a
+set node value SimpleName MethodInvocation MethodInvocation SimpleName get node value
+auser data QualifiedName MethodInvocation SimpleName clone
+hash map SimpleName SimpleType CastExpression MethodInvocation QualifiedName auser data
+hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+a user data QualifiedName Assignment ConditionalExpression InfixExpression QualifiedName auser data
+auser data handlers QualifiedName MethodInvocation SimpleName clone
+hash map SimpleName SimpleType CastExpression MethodInvocation QualifiedName auser data handlers
+hash map SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+a user data handlers QualifiedName Assignment ConditionalExpression InfixExpression QualifiedName auser data handlers
+e SimpleName MethodInvocation SimpleName set attribute node ns
+e SimpleName MethodInvocation SimpleName a
+set attribute node ns SimpleName MethodInvocation SimpleName a
+fire user data handlers SimpleName MethodInvocation QualifiedName user data handlernode renamed
+fire user data handlers SimpleName MethodInvocation SimpleName a
+fire user data handlers SimpleName MethodInvocation SimpleName a
+user data handlernode renamed QualifiedName MethodInvocation SimpleName a
+user data handlernode renamed QualifiedName MethodInvocation SimpleName a
+a SimpleName MethodInvocation SimpleName a
+create event SimpleName MethodInvocation StringLiteral mutation name event
+mutation name event SimpleName SimpleType CastExpression MethodInvocation SimpleName create event
+mutation name event SimpleName SimpleType CastExpression MethodInvocation StringLiteral mutation name event
+ev SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName mutation name event
+ev SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName create event
+ev SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral mutation name event
+mutation name event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ev
+ev SimpleName MethodInvocation SimpleName init mutation name event ns
+ev SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+ev SimpleName MethodInvocation StringLiteral dom attr name changed
+ev SimpleName MethodInvocation BooleanLiteral true
+ev SimpleName MethodInvocation BooleanLiteral false
+init mutation name event ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+init mutation name event ns SimpleName MethodInvocation StringLiteral dom attr name changed
+init mutation name event ns SimpleName MethodInvocation BooleanLiteral true
+init mutation name event ns SimpleName MethodInvocation BooleanLiteral false
+init mutation name event ns SimpleName MethodInvocation SimpleName a
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral dom attr name changed
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral true
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName a
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName prev namespace uri
+dom attr name changed StringLiteral MethodInvocation BooleanLiteral true
+dom attr name changed StringLiteral MethodInvocation BooleanLiteral false
+dom attr name changed StringLiteral MethodInvocation SimpleName a
+dom attr name changed StringLiteral MethodInvocation SimpleName prev namespace uri
+dom attr name changed StringLiteral MethodInvocation SimpleName prev node name
+true BooleanLiteral MethodInvocation BooleanLiteral false
+true BooleanLiteral MethodInvocation SimpleName a
+true BooleanLiteral MethodInvocation SimpleName prev namespace uri
+true BooleanLiteral MethodInvocation SimpleName prev node name
+false BooleanLiteral MethodInvocation SimpleName a
+false BooleanLiteral MethodInvocation SimpleName prev namespace uri
+false BooleanLiteral MethodInvocation SimpleName prev node name
+a SimpleName MethodInvocation SimpleName prev namespace uri
+a SimpleName MethodInvocation SimpleName prev node name
+prev namespace uri SimpleName MethodInvocation SimpleName prev node name
+dispatch event SimpleName MethodInvocation SimpleName ev
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName strict error checking
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName rename node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName qn
+node SimpleName SimpleType MethodDeclaration SimpleName rename node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ns
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName qn
+rename node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+rename node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+rename node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+rename node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+rename node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+rename node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName qn
+rename node SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+rename node SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+rename node SimpleName MethodDeclaration Block IfStatement SimpleName strict error checking
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qn
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName rename node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qn
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rename node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qn

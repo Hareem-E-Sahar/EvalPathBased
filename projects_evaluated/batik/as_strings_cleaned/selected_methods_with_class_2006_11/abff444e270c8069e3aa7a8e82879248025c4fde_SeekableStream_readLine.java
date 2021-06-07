@@ -1,0 +1,60 @@
+input SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input
+c SimpleName VariableDeclarationFragment PrefixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment PrefixExpression NumberLiteral empty
+eol SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName eol
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+c SimpleName Assignment MethodInvocation SimpleName read
+eol SimpleName Assignment BooleanLiteral true
+eol SimpleName Assignment BooleanLiteral true
+cur SimpleName VariableDeclarationFragment MethodInvocation SimpleName get file pointer
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get file pointer
+read SimpleName MethodInvocation ParenthesizedExpression InfixExpression CharacterLiteral empty
+seek SimpleName MethodInvocation SimpleName cur
+char PrimitiveType CastExpression SimpleName c
+input SimpleName MethodInvocation SimpleName append
+input SimpleName MethodInvocation CastExpression PrimitiveType char
+input SimpleName MethodInvocation CastExpression SimpleName c
+append SimpleName MethodInvocation CastExpression PrimitiveType char
+append SimpleName MethodInvocation CastExpression SimpleName c
+c SimpleName Assignment SwitchStatement SwitchCase CharacterLiteral empty
+c SimpleName Assignment SwitchStatement SwitchCase CharacterLiteral r
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral r
+empty CharacterLiteral SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType long
+r CharacterLiteral SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType long
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+input SimpleName MethodInvocation SimpleName length
+input SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+input SimpleName MethodInvocation SimpleName to string
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName read line
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+final Modifier MethodDeclaration SimpleType SimpleName string
+final Modifier MethodDeclaration SimpleName read line
+final Modifier MethodDeclaration SimpleType SimpleName io exception
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+final Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+string SimpleName SimpleType MethodDeclaration SimpleName read line
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+read line SimpleName MethodDeclaration SimpleType SimpleName io exception
+read line SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read line SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName read line
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read line
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

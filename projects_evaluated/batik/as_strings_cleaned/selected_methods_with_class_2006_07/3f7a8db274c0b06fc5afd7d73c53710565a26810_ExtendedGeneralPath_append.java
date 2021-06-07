@@ -1,0 +1,246 @@
+extended path iterator SimpleName SimpleType SingleVariableDeclaration SimpleName epi
+boolean PrimitiveType SingleVariableDeclaration SimpleName connect
+epi SimpleName MethodInvocation SimpleName is done
+float PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+vals SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+vals SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName vals
+epi SimpleName MethodInvocation SimpleName current segment
+epi SimpleName MethodInvocation SimpleName vals
+current segment SimpleName MethodInvocation SimpleName vals
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName epi
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName current segment
+type SimpleName VariableDeclarationFragment MethodInvocation SimpleName vals
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName epi
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current segment
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName vals
+epi SimpleName MethodInvocation SimpleName next
+num vals SimpleName InfixExpression NumberLiteral empty
+connect SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName num vals
+connect SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+type SimpleName InfixExpression QualifiedName path iteratorseg moveto
+vals SimpleName ArrayAccess NumberLiteral empty
+x SimpleName VariableDeclarationFragment ArrayAccess SimpleName vals
+x SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName vals
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+y SimpleName VariableDeclarationFragment ArrayAccess SimpleName vals
+y SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName vals
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess NumberLiteral empty
+x SimpleName InfixExpression SimpleName cx
+y SimpleName InfixExpression SimpleName cy
+type SimpleName Assignment QualifiedName path iteratorseg lineto
+epi SimpleName MethodInvocation SimpleName is done
+epi SimpleName MethodInvocation SimpleName current segment
+epi SimpleName MethodInvocation SimpleName vals
+current segment SimpleName MethodInvocation SimpleName vals
+type SimpleName Assignment MethodInvocation SimpleName epi
+type SimpleName Assignment MethodInvocation SimpleName current segment
+type SimpleName Assignment MethodInvocation SimpleName vals
+epi SimpleName MethodInvocation SimpleName next
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+connect SimpleName Assignment BooleanLiteral false
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+move to SimpleName MethodInvocation CastExpression PrimitiveType float
+move to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+move to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+move to SimpleName MethodInvocation CastExpression PrimitiveType float
+move to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+move to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+line to SimpleName MethodInvocation CastExpression PrimitiveType float
+line to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+line to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+line to SimpleName MethodInvocation CastExpression PrimitiveType float
+line to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+line to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+quad to SimpleName MethodInvocation CastExpression PrimitiveType float
+quad to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+quad to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+quad to SimpleName MethodInvocation CastExpression PrimitiveType float
+quad to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+quad to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+quad to SimpleName MethodInvocation CastExpression PrimitiveType float
+quad to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+quad to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+quad to SimpleName MethodInvocation CastExpression PrimitiveType float
+quad to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+quad to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName vals
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+curve to SimpleName MethodInvocation CastExpression PrimitiveType float
+curve to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+curve to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+curve to SimpleName MethodInvocation CastExpression PrimitiveType float
+curve to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+curve to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+curve to SimpleName MethodInvocation CastExpression PrimitiveType float
+curve to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+curve to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+curve to SimpleName MethodInvocation CastExpression PrimitiveType float
+curve to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+curve to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+curve to SimpleName MethodInvocation CastExpression PrimitiveType float
+curve to SimpleName MethodInvocation CastExpression ArrayAccess SimpleName vals
+curve to SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+vals SimpleName ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess NumberLiteral empty
+arc to SimpleName MethodInvocation ArrayAccess SimpleName vals
+arc to SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+arc to SimpleName MethodInvocation ArrayAccess SimpleName vals
+arc to SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+arc to SimpleName MethodInvocation ArrayAccess SimpleName vals
+arc to SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+arc to SimpleName MethodInvocation ParenthesizedExpression InfixExpression NumberLiteral empty
+arc to SimpleName MethodInvocation ParenthesizedExpression InfixExpression NumberLiteral empty
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+vals SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName vals
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+type SimpleName SwitchStatement SwitchCase QualifiedName path iteratorseg close
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName close path
+type SimpleName SwitchStatement SwitchCase QualifiedName path iteratorseg moveto
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName move to
+path iteratorseg close QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg moveto
+path iteratorseg moveto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg lineto
+path iteratorseg lineto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg quadto
+path iteratorseg quadto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg cubicto
+path iteratorseg cubicto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName extended path iteratorseg arcto
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName append
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended path iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName epi
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName connect
+void PrimitiveType MethodDeclaration SimpleName append
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended path iterator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName epi
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName connect
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended path iterator
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleName epi
+append SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleName connect
+epi SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+epi SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connect
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName append
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName epi
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connect
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName epi
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName connect

@@ -1,0 +1,75 @@
+graphics node mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get client point
+client xy SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+client xy SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client point
+point SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client xy
+evt SimpleName MethodInvocation SimpleName get graphics node
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graphics node
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+evt SimpleName MethodInvocation SimpleName get x
+evt SimpleName MethodInvocation SimpleName get y
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get event target SimpleName MethodInvocation SimpleName node
+get event target SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName point dfloat
+get event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+get event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get event target SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+node SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName point dfloat
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get x
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+target element SimpleName VariableDeclarationFragment MethodInvocation SimpleName get event target
+target element SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target element
+get related element SimpleName MethodInvocation SimpleName evt
+related element SimpleName VariableDeclarationFragment MethodInvocation SimpleName get related element
+related element SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName related element
+dispatch mouse event SimpleName MethodInvocation StringLiteral mouseover
+dispatch mouse event SimpleName MethodInvocation SimpleName target element
+dispatch mouse event SimpleName MethodInvocation SimpleName related element
+dispatch mouse event SimpleName MethodInvocation SimpleName client xy
+dispatch mouse event SimpleName MethodInvocation SimpleName evt
+mouseover StringLiteral MethodInvocation SimpleName target element
+mouseover StringLiteral MethodInvocation SimpleName related element
+mouseover StringLiteral MethodInvocation SimpleName client xy
+mouseover StringLiteral MethodInvocation SimpleName evt
+mouseover StringLiteral MethodInvocation BooleanLiteral true
+target element SimpleName MethodInvocation SimpleName related element
+target element SimpleName MethodInvocation SimpleName client xy
+target element SimpleName MethodInvocation SimpleName evt
+target element SimpleName MethodInvocation BooleanLiteral true
+related element SimpleName MethodInvocation SimpleName client xy
+related element SimpleName MethodInvocation SimpleName evt
+related element SimpleName MethodInvocation BooleanLiteral true
+client xy SimpleName MethodInvocation SimpleName evt
+client xy SimpleName MethodInvocation BooleanLiteral true
+evt SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse entered
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName mouse entered
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+mouse entered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+mouse entered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mouse entered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mouse entered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

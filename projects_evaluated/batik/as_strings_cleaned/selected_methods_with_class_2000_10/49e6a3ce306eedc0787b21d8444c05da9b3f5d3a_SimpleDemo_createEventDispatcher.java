@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName event dispatcher
+public Modifier MethodDeclaration SimpleName create event dispatcher
+event dispatcher SimpleName SimpleType MethodDeclaration SimpleName create event dispatcher
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName event dispatcher
+public Modifier TypeDeclaration MethodDeclaration SimpleName create event dispatcher
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName event dispatcher
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create event dispatcher

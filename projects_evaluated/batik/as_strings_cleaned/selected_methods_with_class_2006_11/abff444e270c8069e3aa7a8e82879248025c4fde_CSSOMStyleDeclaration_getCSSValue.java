@@ -1,0 +1,43 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+css value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+values SimpleName MethodInvocation SimpleName get
+values SimpleName MethodInvocation SimpleName name
+get SimpleName MethodInvocation SimpleName name
+css value SimpleName SimpleType CastExpression MethodInvocation SimpleName values
+css value SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+css value SimpleName SimpleType CastExpression MethodInvocation SimpleName name
+result SimpleName Assignment CastExpression SimpleType SimpleName css value
+result SimpleName Assignment CastExpression MethodInvocation SimpleName values
+result SimpleName Assignment CastExpression MethodInvocation SimpleName get
+result SimpleName Assignment CastExpression MethodInvocation SimpleName name
+create css value SimpleName MethodInvocation SimpleName name
+result SimpleName Assignment MethodInvocation SimpleName create css value
+result SimpleName Assignment MethodInvocation SimpleName name
+hash map SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+values SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hash map
+values SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+values SimpleName MethodInvocation SimpleName put
+values SimpleName MethodInvocation SimpleName name
+values SimpleName MethodInvocation SimpleName result
+put SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation SimpleName result
+name SimpleName MethodInvocation SimpleName result
+protected Modifier MethodDeclaration SimpleType SimpleName css value
+protected Modifier MethodDeclaration SimpleName get css value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName result
+css value SimpleName SimpleType MethodDeclaration SimpleName get css value
+css value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName name
+get css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+get css value SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get css value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get css value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name

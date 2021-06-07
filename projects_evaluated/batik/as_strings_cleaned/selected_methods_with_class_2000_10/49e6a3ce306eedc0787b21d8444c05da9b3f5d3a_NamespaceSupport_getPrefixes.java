@@ -1,0 +1,7 @@
+prefix table SimpleName MethodInvocation SimpleName keys
+enumeration SimpleName SimpleType MethodDeclaration SimpleName get prefixes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName enumeration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get prefixes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName enumeration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get prefixes

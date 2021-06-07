@@ -1,0 +1,44 @@
+bindable element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+definition record SimpleName SimpleType SingleVariableDeclaration SimpleName def rec
+get record SimpleName MethodInvocation SimpleName elt
+rec SimpleName VariableDeclarationFragment MethodInvocation SimpleName get record
+rec SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+xbl record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rec
+def rec SimpleName InfixExpression ConditionalExpression QualifiedName def recdefinition
+recdefinition element QualifiedName Assignment ConditionalExpression InfixExpression SimpleName def rec
+recdefinition element QualifiedName Assignment ConditionalExpression QualifiedName def recdefinition
+def rec SimpleName InfixExpression InfixExpression InfixExpression QualifiedName def recdefinition
+clone template SimpleName MethodInvocation QualifiedName def rectemplate
+set xbl shadow tree SimpleName MethodInvocation SimpleName elt
+set xbl shadow tree SimpleName MethodInvocation MethodInvocation SimpleName clone template
+set xbl shadow tree SimpleName MethodInvocation MethodInvocation QualifiedName def rectemplate
+elt SimpleName MethodInvocation MethodInvocation SimpleName clone template
+elt SimpleName MethodInvocation MethodInvocation QualifiedName def rectemplate
+set xbl shadow tree SimpleName MethodInvocation SimpleName elt
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set active definition
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bindable element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName definition record
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName def rec
+void PrimitiveType MethodDeclaration SimpleName set active definition
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bindable element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elt
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName definition record
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName def rec
+set active definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bindable element
+set active definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+set active definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName definition record
+set active definition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName def rec
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def rec
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set active definition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def rec
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set active definition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def rec

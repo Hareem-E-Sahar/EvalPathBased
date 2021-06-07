@@ -1,0 +1,27 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+r SimpleName VariableDeclarationFragment SimpleName n
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+r SimpleName Assignment SimpleName n
+n SimpleName MethodInvocation SimpleName get parent node
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node
+protected Modifier MethodDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SimpleName get root
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName r
+node SimpleName SimpleType MethodDeclaration SimpleName get root
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get root SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get root SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+get root SimpleName MethodDeclaration Block ReturnStatement SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get root
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get root
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

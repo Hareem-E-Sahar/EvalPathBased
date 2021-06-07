@@ -1,0 +1,90 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pe
+cssom read only style declaration SimpleName SimpleType SingleVariableDeclaration SimpleName rd
+e SimpleName InstanceofExpression SimpleType SimpleName element css inline style
+has style SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName has style
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+pe SimpleName MethodInvocation SimpleName equals
+pe SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+pe SimpleName InfixExpression InfixExpression MethodInvocation SimpleName pe
+pe SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+pe SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral empty
+e SimpleName InstanceofExpression SimpleType SimpleName extended element css inline style
+extended element css inline style SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName has style
+has style SimpleName Assignment MethodInvocation SimpleName has style
+css style declaration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName inline decl
+element css inline style SimpleName SimpleType CastExpression SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get style
+inline decl SimpleName Assignment MethodInvocation SimpleName get style
+inline decl SimpleName MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName inline decl
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName inline decl
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+inline decl SimpleName MethodInvocation SimpleName item
+inline decl SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+set author property SimpleName MethodInvocation MethodInvocation SimpleName inline decl
+set author property SimpleName MethodInvocation MethodInvocation SimpleName item
+set author property SimpleName MethodInvocation MethodInvocation SimpleName i
+set author property SimpleName MethodInvocation SimpleName inline decl
+set author property SimpleName MethodInvocation SimpleName rd
+inline decl SimpleName MethodInvocation MethodInvocation SimpleName inline decl
+item SimpleName MethodInvocation MethodInvocation SimpleName inline decl
+i SimpleName MethodInvocation MethodInvocation SimpleName inline decl
+inline decl SimpleName MethodInvocation MethodInvocation SimpleName rd
+item SimpleName MethodInvocation MethodInvocation SimpleName rd
+i SimpleName MethodInvocation MethodInvocation SimpleName rd
+inline decl SimpleName MethodInvocation SimpleName rd
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+has style SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName has style
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add inline style properties
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName pe
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom read only style declaration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName rd
+void PrimitiveType MethodDeclaration SimpleName add inline style properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pe
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom read only style declaration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rd
+add inline style properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+add inline style properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+add inline style properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add inline style properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pe
+add inline style properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom read only style declaration
+add inline style properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rd
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rd
+pe SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add inline style properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rd
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add inline style properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rd

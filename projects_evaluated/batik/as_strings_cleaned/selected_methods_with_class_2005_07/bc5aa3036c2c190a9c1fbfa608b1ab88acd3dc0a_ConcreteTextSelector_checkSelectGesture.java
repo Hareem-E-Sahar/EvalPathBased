@@ -1,0 +1,184 @@
+graphics node event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+graphics node mouse event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mevt
+evt SimpleName InstanceofExpression SimpleType SimpleName graphics node mouse event
+graphics node mouse event SimpleName SimpleType CastExpression SimpleName evt
+mevt SimpleName Assignment CastExpression SimpleType SimpleName graphics node mouse event
+mevt SimpleName Assignment CastExpression SimpleName evt
+evt SimpleName MethodInvocation SimpleName get graphics node
+source SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+source SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graphics node
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName source
+is deselect gesture SimpleName MethodInvocation SimpleName evt
+selection node root SimpleName MethodInvocation SimpleName remove tree graphics node change listener
+mevt SimpleName MethodInvocation SimpleName get x
+mevt SimpleName MethodInvocation SimpleName get y
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName mevt
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName mevt
+point ddouble QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get y
+mevt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mevt
+mevt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName mevt
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point ddouble
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mevt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get x
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName mevt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get y
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+source SimpleName MethodInvocation SimpleName get global transform
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName source
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get global transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+t SimpleName MethodInvocation SimpleName create inverse
+t SimpleName Assignment MethodInvocation SimpleName t
+t SimpleName Assignment MethodInvocation SimpleName create inverse
+noninvertible transform exception SimpleName SimpleType SingleVariableDeclaration SimpleName ni
+t SimpleName MethodInvocation SimpleName transform
+t SimpleName MethodInvocation SimpleName p
+transform SimpleName MethodInvocation SimpleName p
+p SimpleName Assignment MethodInvocation SimpleName t
+p SimpleName Assignment MethodInvocation SimpleName transform
+p SimpleName Assignment MethodInvocation SimpleName p
+source SimpleName InstanceofExpression SimpleType SimpleName selectable
+is select start gesture SimpleName MethodInvocation SimpleName evt
+selection node SimpleName InfixExpression SimpleName source
+selection node root SimpleName MethodInvocation SimpleName remove tree graphics node change listener
+selection node SimpleName Assignment SimpleName source
+source SimpleName MethodInvocation SimpleName get root
+selection node root SimpleName Assignment MethodInvocation SimpleName source
+selection node root SimpleName Assignment MethodInvocation SimpleName get root
+selection node root SimpleName MethodInvocation SimpleName add tree graphics node change listener
+selectable SimpleName SimpleType CastExpression SimpleName source
+p SimpleName MethodInvocation SimpleName get x
+p SimpleName MethodInvocation SimpleName get y
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName select at
+select at SimpleName MethodInvocation MethodInvocation SimpleName p
+select at SimpleName MethodInvocation MethodInvocation SimpleName get x
+select at SimpleName MethodInvocation MethodInvocation SimpleName p
+select at SimpleName MethodInvocation MethodInvocation SimpleName get y
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+selection event SimpleName SimpleType ClassInstanceCreation QualifiedName selection eventselection started
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName selection event
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation QualifiedName selection eventselection started
+is select end gesture SimpleName MethodInvocation SimpleName evt
+selection node SimpleName InfixExpression SimpleName source
+selectable SimpleName SimpleType CastExpression SimpleName source
+p SimpleName MethodInvocation SimpleName get x
+p SimpleName MethodInvocation SimpleName get y
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName select to
+select to SimpleName MethodInvocation MethodInvocation SimpleName p
+select to SimpleName MethodInvocation MethodInvocation SimpleName get x
+select to SimpleName MethodInvocation MethodInvocation SimpleName p
+select to SimpleName MethodInvocation MethodInvocation SimpleName get y
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+old selection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selection
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old selection
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new shape
+selectable SimpleName SimpleType CastExpression SimpleName selection node
+selection node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get highlight shape
+new shape SimpleName Assignment MethodInvocation SimpleName get highlight shape
+selection event SimpleName SimpleType ClassInstanceCreation SimpleName old selection
+selection event SimpleName SimpleType ClassInstanceCreation QualifiedName selection eventselection done
+selection event SimpleName SimpleType ClassInstanceCreation SimpleName new shape
+old selection SimpleName ClassInstanceCreation QualifiedName selection eventselection done
+old selection SimpleName ClassInstanceCreation SimpleName new shape
+selection eventselection done QualifiedName ClassInstanceCreation SimpleName new shape
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName selection event
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleName old selection
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation QualifiedName selection eventselection done
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleName new shape
+is select continue gesture SimpleName MethodInvocation SimpleName evt
+selection node SimpleName InfixExpression SimpleName source
+selectable SimpleName SimpleType CastExpression SimpleName source
+p SimpleName MethodInvocation SimpleName get x
+p SimpleName MethodInvocation SimpleName get y
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName select to
+select to SimpleName MethodInvocation MethodInvocation SimpleName p
+select to SimpleName MethodInvocation MethodInvocation SimpleName get x
+select to SimpleName MethodInvocation MethodInvocation SimpleName p
+select to SimpleName MethodInvocation MethodInvocation SimpleName get y
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName select to
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName p
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get x
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName p
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get y
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName select to
+selectable SimpleName SimpleType CastExpression SimpleName selection node
+selection node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get highlight shape
+new shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName get highlight shape
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new shape
+selection event SimpleName SimpleType ClassInstanceCreation QualifiedName selection eventselection changed
+selection event SimpleName SimpleType ClassInstanceCreation SimpleName new shape
+selection eventselection changed QualifiedName ClassInstanceCreation SimpleName new shape
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName selection event
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation QualifiedName selection eventselection changed
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleName new shape
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName result
+source SimpleName InstanceofExpression SimpleType SimpleName selectable
+is select all gesture SimpleName MethodInvocation SimpleName evt
+selection node SimpleName InfixExpression SimpleName source
+selection node root SimpleName MethodInvocation SimpleName remove tree graphics node change listener
+selection node SimpleName Assignment SimpleName source
+source SimpleName MethodInvocation SimpleName get root
+selection node root SimpleName Assignment MethodInvocation SimpleName source
+selection node root SimpleName Assignment MethodInvocation SimpleName get root
+selection node root SimpleName MethodInvocation SimpleName add tree graphics node change listener
+selectable SimpleName SimpleType CastExpression SimpleName source
+p SimpleName MethodInvocation SimpleName get x
+p SimpleName MethodInvocation SimpleName get y
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName select all
+select all SimpleName MethodInvocation MethodInvocation SimpleName p
+select all SimpleName MethodInvocation MethodInvocation SimpleName get x
+select all SimpleName MethodInvocation MethodInvocation SimpleName p
+select all SimpleName MethodInvocation MethodInvocation SimpleName get y
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+p SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName p
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+old selection SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selection
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old selection
+selectable SimpleName SimpleType CastExpression SimpleName source
+source SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get highlight shape
+new shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName get highlight shape
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new shape
+selection event SimpleName SimpleType ClassInstanceCreation SimpleName old selection
+selection event SimpleName SimpleType ClassInstanceCreation QualifiedName selection eventselection done
+selection event SimpleName SimpleType ClassInstanceCreation SimpleName new shape
+old selection SimpleName ClassInstanceCreation QualifiedName selection eventselection done
+old selection SimpleName ClassInstanceCreation SimpleName new shape
+selection eventselection done QualifiedName ClassInstanceCreation SimpleName new shape
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName selection event
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleName old selection
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation QualifiedName selection eventselection done
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleName new shape
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName check select gesture
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName check select gesture
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+check select gesture SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node event
+check select gesture SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check select gesture
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check select gesture
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

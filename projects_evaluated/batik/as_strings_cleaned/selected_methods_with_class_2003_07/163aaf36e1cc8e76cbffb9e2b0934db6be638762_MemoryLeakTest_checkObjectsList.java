@@ -1,0 +1,26 @@
+list SimpleName SimpleType SingleVariableDeclaration SimpleName descs
+descs SimpleName MethodInvocation SimpleName size
+strs SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName descs
+strs SimpleName VariableDeclarationFragment ArrayCreation MethodInvocation SimpleName size
+descs SimpleName MethodInvocation SimpleName to array
+descs SimpleName MethodInvocation SimpleName strs
+to array SimpleName MethodInvocation SimpleName strs
+check objects SimpleName MethodInvocation SimpleName strs
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName check objects list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName descs
+boolean PrimitiveType MethodDeclaration SimpleName check objects list
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName descs
+check objects list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+check objects list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName descs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check objects list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName descs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check objects list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName descs

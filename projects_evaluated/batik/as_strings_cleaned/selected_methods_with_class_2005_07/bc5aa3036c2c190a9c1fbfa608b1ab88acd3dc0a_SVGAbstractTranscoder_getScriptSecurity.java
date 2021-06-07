@@ -1,0 +1,74 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName script type
+parsed url SimpleName SimpleType SingleVariableDeclaration SimpleName script purl
+parsed url SimpleName SimpleType SingleVariableDeclaration SimpleName doc purl
+scripts SimpleName MethodInvocation SimpleName contains
+scripts SimpleName MethodInvocation SimpleName script type
+contains SimpleName MethodInvocation SimpleName script type
+no load script security SimpleName SimpleType ClassInstanceCreation SimpleName script type
+constrain origin SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName constrain origin
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+svg abstract transcoder SimpleName ThisExpression FieldAccess SimpleName hints
+svg abstract transcoder SimpleName ThisExpression FieldAccess MethodInvocation SimpleName contains key
+hints SimpleName FieldAccess MethodInvocation SimpleName contains key
+svg abstract transcoder SimpleName ThisExpression FieldAccess MethodInvocation SimpleName key constrain script origin
+hints SimpleName FieldAccess MethodInvocation SimpleName key constrain script origin
+contains key SimpleName MethodInvocation SimpleName key constrain script origin
+svg abstract transcoder SimpleName ThisExpression FieldAccess SimpleName hints
+svg abstract transcoder SimpleName ThisExpression FieldAccess MethodInvocation SimpleName get
+hints SimpleName FieldAccess MethodInvocation SimpleName get
+svg abstract transcoder SimpleName ThisExpression FieldAccess MethodInvocation SimpleName key constrain script origin
+hints SimpleName FieldAccess MethodInvocation SimpleName key constrain script origin
+get SimpleName MethodInvocation SimpleName key constrain script origin
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+boolean SimpleName SimpleType CastExpression MethodInvocation SimpleName key constrain script origin
+constrain origin SimpleName Assignment MethodInvocation SimpleName boolean value
+default script security SimpleName SimpleType ClassInstanceCreation SimpleName script type
+default script security SimpleName SimpleType ClassInstanceCreation SimpleName script purl
+default script security SimpleName SimpleType ClassInstanceCreation SimpleName doc purl
+script type SimpleName ClassInstanceCreation SimpleName script purl
+script type SimpleName ClassInstanceCreation SimpleName doc purl
+script purl SimpleName ClassInstanceCreation SimpleName doc purl
+relaxed script security SimpleName SimpleType ClassInstanceCreation SimpleName script type
+relaxed script security SimpleName SimpleType ClassInstanceCreation SimpleName script purl
+relaxed script security SimpleName SimpleType ClassInstanceCreation SimpleName doc purl
+script type SimpleName ClassInstanceCreation SimpleName script purl
+script type SimpleName ClassInstanceCreation SimpleName doc purl
+script purl SimpleName ClassInstanceCreation SimpleName doc purl
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName constrain origin
+public Modifier MethodDeclaration SimpleType SimpleName script security
+public Modifier MethodDeclaration SimpleName get script security
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName script type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName script purl
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc purl
+script security SimpleName SimpleType MethodDeclaration SimpleName get script security
+script security SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName script type
+script security SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName script purl
+script security SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName doc purl
+get script security SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get script security SimpleName MethodDeclaration SingleVariableDeclaration SimpleName script type
+get script security SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+get script security SimpleName MethodDeclaration SingleVariableDeclaration SimpleName script purl
+get script security SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+get script security SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc purl
+get script security SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+get script security SimpleName MethodDeclaration Block IfStatement SimpleName constrain origin
+script type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName script purl
+script type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc purl
+script purl SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc purl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName script security
+public Modifier TypeDeclaration MethodDeclaration SimpleName get script security
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName script type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName script purl
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc purl
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName script security
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get script security
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName script type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName script purl
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc purl

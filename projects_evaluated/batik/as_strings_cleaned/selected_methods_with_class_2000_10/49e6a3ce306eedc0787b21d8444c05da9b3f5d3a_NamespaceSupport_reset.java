@@ -1,0 +1,23 @@
+context SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+contexts SimpleName Assignment ArrayCreation NumberLiteral empty
+context pos SimpleName Assignment NumberLiteral empty
+contexts SimpleName ArrayAccess SimpleName context pos
+current context SimpleName Assignment ClassInstanceCreation SimpleType SimpleName context
+contexts SimpleName ArrayAccess Assignment Assignment SimpleName current context
+context pos SimpleName ArrayAccess Assignment Assignment SimpleName current context
+current context SimpleName MethodInvocation SimpleName declare prefix
+current context SimpleName MethodInvocation StringLiteral xml
+current context SimpleName MethodInvocation SimpleName xmlns
+declare prefix SimpleName MethodInvocation StringLiteral xml
+declare prefix SimpleName MethodInvocation SimpleName xmlns
+xml StringLiteral MethodInvocation SimpleName xmlns
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName reset
+void PrimitiveType MethodDeclaration SimpleName reset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset

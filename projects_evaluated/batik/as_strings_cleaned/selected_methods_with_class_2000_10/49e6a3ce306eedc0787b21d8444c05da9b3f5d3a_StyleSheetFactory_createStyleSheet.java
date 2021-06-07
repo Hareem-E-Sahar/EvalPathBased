@@ -1,0 +1,19 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+string SimpleName SimpleType SingleVariableDeclaration SimpleName data
+style sheet SimpleName SimpleType MethodDeclaration SimpleName create style sheet
+style sheet SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+style sheet SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data
+create style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+create style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+create style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName style sheet
+public Modifier TypeDeclaration MethodDeclaration SimpleName create style sheet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName style sheet
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create style sheet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

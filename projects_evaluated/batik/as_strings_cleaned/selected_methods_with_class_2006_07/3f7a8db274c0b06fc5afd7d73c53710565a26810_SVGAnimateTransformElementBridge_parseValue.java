@@ -1,0 +1,361 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+short PrimitiveType SingleVariableDeclaration SimpleName type
+animation target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+val SimpleName VariableDeclarationFragment NumberLiteral empty
+val SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+val SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+val SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+val SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+val SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+val SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+val SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+c SimpleName VariableDeclarationFragment CharacterLiteral empty
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CharacterLiteral empty
+type SimpleName InfixExpression QualifiedName svg transformsvg transform translate
+type SimpleName InfixExpression QualifiedName svg transformsvg transform scale
+type SimpleName InfixExpression InfixExpression InfixExpression SimpleName type
+type SimpleName InfixExpression InfixExpression InfixExpression QualifiedName svg transformsvg transform scale
+svg transformsvg transform translate QualifiedName InfixExpression InfixExpression InfixExpression SimpleName type
+svg transformsvg transform translate QualifiedName InfixExpression InfixExpression InfixExpression QualifiedName svg transformsvg transform scale
+can comma SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName type
+can comma SimpleName VariableDeclarationFragment InfixExpression InfixExpression QualifiedName svg transformsvg transform translate
+can comma SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName type
+can comma SimpleName VariableDeclarationFragment InfixExpression InfixExpression QualifiedName svg transformsvg transform scale
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName can comma
+s SimpleName MethodInvocation SimpleName length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+i SimpleName InfixExpression SimpleName len
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+c SimpleName Assignment MethodInvocation SimpleName s
+c SimpleName Assignment MethodInvocation SimpleName char at
+c SimpleName Assignment MethodInvocation SimpleName i
+c SimpleName InfixExpression CharacterLiteral empty
+c SimpleName InfixExpression CharacterLiteral empty
+can comma SimpleName InfixExpression InfixExpression SimpleName c
+can comma SimpleName InfixExpression InfixExpression CharacterLiteral empty
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName can comma
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName can comma
+s SimpleName MethodInvocation SimpleName substring
+s SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName i
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName i
+empty NumberLiteral MethodInvocation SimpleName i
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation MethodInvocation SimpleName s
+float SimpleName MethodInvocation MethodInvocation SimpleName substring
+float SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+float SimpleName MethodInvocation MethodInvocation SimpleName i
+parse float SimpleName MethodInvocation MethodInvocation SimpleName s
+parse float SimpleName MethodInvocation MethodInvocation SimpleName substring
+parse float SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+parse float SimpleName MethodInvocation MethodInvocation SimpleName i
+val SimpleName Assignment MethodInvocation SimpleName float
+val SimpleName Assignment MethodInvocation SimpleName parse float
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName s
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName substring
+val SimpleName Assignment MethodInvocation MethodInvocation NumberLiteral empty
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName i
+i SimpleName InfixExpression SimpleName len
+count SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+c SimpleName InfixExpression CharacterLiteral empty
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+i SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+len SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+len SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName can comma
+len SimpleName InfixExpression InfixExpression InfixExpression SimpleName can comma
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName can comma
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName can comma
+i SimpleName InfixExpression SimpleName len
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+c SimpleName Assignment MethodInvocation SimpleName s
+c SimpleName Assignment MethodInvocation SimpleName char at
+c SimpleName Assignment MethodInvocation SimpleName i
+c SimpleName InfixExpression CharacterLiteral empty
+c SimpleName InfixExpression CharacterLiteral empty
+i SimpleName InfixExpression SimpleName len
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+s SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+i SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+i SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+len SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+j SimpleName VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName InfixExpression SimpleName len
+type SimpleName InfixExpression QualifiedName svg transformsvg transform skewx
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName type
+i SimpleName InfixExpression InfixExpression InfixExpression QualifiedName svg transformsvg transform skewx
+len SimpleName InfixExpression InfixExpression InfixExpression SimpleName type
+len SimpleName InfixExpression InfixExpression InfixExpression QualifiedName svg transformsvg transform skewx
+type SimpleName InfixExpression QualifiedName svg transformsvg transform skewy
+i SimpleName InfixExpression SimpleName len
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+c SimpleName Assignment MethodInvocation SimpleName s
+c SimpleName Assignment MethodInvocation SimpleName char at
+c SimpleName Assignment MethodInvocation SimpleName i
+c SimpleName InfixExpression CharacterLiteral empty
+c SimpleName InfixExpression CharacterLiteral empty
+can comma SimpleName InfixExpression InfixExpression SimpleName c
+can comma SimpleName InfixExpression InfixExpression CharacterLiteral empty
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName can comma
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName can comma
+s SimpleName MethodInvocation SimpleName substring
+s SimpleName MethodInvocation SimpleName j
+s SimpleName MethodInvocation SimpleName i
+substring SimpleName MethodInvocation SimpleName j
+substring SimpleName MethodInvocation SimpleName i
+j SimpleName MethodInvocation SimpleName i
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation MethodInvocation SimpleName s
+float SimpleName MethodInvocation MethodInvocation SimpleName substring
+float SimpleName MethodInvocation MethodInvocation SimpleName j
+float SimpleName MethodInvocation MethodInvocation SimpleName i
+parse float SimpleName MethodInvocation MethodInvocation SimpleName s
+parse float SimpleName MethodInvocation MethodInvocation SimpleName substring
+parse float SimpleName MethodInvocation MethodInvocation SimpleName j
+parse float SimpleName MethodInvocation MethodInvocation SimpleName i
+val SimpleName Assignment MethodInvocation SimpleName float
+val SimpleName Assignment MethodInvocation SimpleName parse float
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName s
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName substring
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName j
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName i
+i SimpleName InfixExpression SimpleName len
+i SimpleName InfixExpression SimpleName len
+c SimpleName InfixExpression CharacterLiteral empty
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+i SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+len SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+len SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName can comma
+len SimpleName InfixExpression InfixExpression InfixExpression SimpleName can comma
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName can comma
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName can comma
+i SimpleName InfixExpression SimpleName len
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+c SimpleName Assignment MethodInvocation SimpleName s
+c SimpleName Assignment MethodInvocation SimpleName char at
+c SimpleName Assignment MethodInvocation SimpleName i
+c SimpleName InfixExpression CharacterLiteral empty
+c SimpleName InfixExpression CharacterLiteral empty
+i SimpleName InfixExpression SimpleName len
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+s SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+i SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+i SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+len SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+j SimpleName Assignment SimpleName i
+i SimpleName InfixExpression SimpleName len
+type SimpleName InfixExpression QualifiedName svg transformsvg transform rotate
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName type
+i SimpleName InfixExpression InfixExpression InfixExpression QualifiedName svg transformsvg transform rotate
+len SimpleName InfixExpression InfixExpression InfixExpression SimpleName type
+len SimpleName InfixExpression InfixExpression InfixExpression QualifiedName svg transformsvg transform rotate
+i SimpleName InfixExpression SimpleName len
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+c SimpleName Assignment MethodInvocation SimpleName s
+c SimpleName Assignment MethodInvocation SimpleName char at
+c SimpleName Assignment MethodInvocation SimpleName i
+c SimpleName InfixExpression CharacterLiteral empty
+c SimpleName InfixExpression CharacterLiteral empty
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+c SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName c
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+s SimpleName MethodInvocation SimpleName substring
+s SimpleName MethodInvocation SimpleName j
+s SimpleName MethodInvocation SimpleName i
+substring SimpleName MethodInvocation SimpleName j
+substring SimpleName MethodInvocation SimpleName i
+j SimpleName MethodInvocation SimpleName i
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation MethodInvocation SimpleName s
+float SimpleName MethodInvocation MethodInvocation SimpleName substring
+float SimpleName MethodInvocation MethodInvocation SimpleName j
+float SimpleName MethodInvocation MethodInvocation SimpleName i
+parse float SimpleName MethodInvocation MethodInvocation SimpleName s
+parse float SimpleName MethodInvocation MethodInvocation SimpleName substring
+parse float SimpleName MethodInvocation MethodInvocation SimpleName j
+parse float SimpleName MethodInvocation MethodInvocation SimpleName i
+val SimpleName Assignment MethodInvocation SimpleName float
+val SimpleName Assignment MethodInvocation SimpleName parse float
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName s
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName substring
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName j
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName i
+i SimpleName InfixExpression SimpleName len
+i SimpleName InfixExpression SimpleName len
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+s SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+i SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+i SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+len SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+i SimpleName InfixExpression SimpleName len
+t SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName svgom transform
+svgom transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+count SimpleName InfixExpression NumberLiteral empty
+t SimpleName MethodInvocation SimpleName set translate
+t SimpleName MethodInvocation SimpleName val
+t SimpleName MethodInvocation SimpleName val
+set translate SimpleName MethodInvocation SimpleName val
+set translate SimpleName MethodInvocation SimpleName val
+val SimpleName MethodInvocation SimpleName val
+t SimpleName MethodInvocation SimpleName set translate
+t SimpleName MethodInvocation SimpleName val
+t SimpleName MethodInvocation SimpleName val
+set translate SimpleName MethodInvocation SimpleName val
+set translate SimpleName MethodInvocation SimpleName val
+val SimpleName MethodInvocation SimpleName val
+count SimpleName InfixExpression NumberLiteral empty
+t SimpleName MethodInvocation SimpleName set scale
+t SimpleName MethodInvocation SimpleName val
+t SimpleName MethodInvocation SimpleName val
+set scale SimpleName MethodInvocation SimpleName val
+set scale SimpleName MethodInvocation SimpleName val
+val SimpleName MethodInvocation SimpleName val
+t SimpleName MethodInvocation SimpleName set scale
+t SimpleName MethodInvocation SimpleName val
+t SimpleName MethodInvocation SimpleName val
+set scale SimpleName MethodInvocation SimpleName val
+set scale SimpleName MethodInvocation SimpleName val
+val SimpleName MethodInvocation SimpleName val
+count SimpleName InfixExpression NumberLiteral empty
+t SimpleName MethodInvocation SimpleName set rotate
+t SimpleName MethodInvocation SimpleName val
+t SimpleName MethodInvocation SimpleName val
+t SimpleName MethodInvocation SimpleName val
+set rotate SimpleName MethodInvocation SimpleName val
+set rotate SimpleName MethodInvocation SimpleName val
+set rotate SimpleName MethodInvocation SimpleName val
+val SimpleName MethodInvocation SimpleName val
+val SimpleName MethodInvocation SimpleName val
+val SimpleName MethodInvocation SimpleName val
+t SimpleName MethodInvocation SimpleName set rotate
+t SimpleName MethodInvocation SimpleName val
+t SimpleName MethodInvocation NumberLiteral f
+t SimpleName MethodInvocation NumberLiteral f
+set rotate SimpleName MethodInvocation SimpleName val
+set rotate SimpleName MethodInvocation NumberLiteral f
+set rotate SimpleName MethodInvocation NumberLiteral f
+val SimpleName MethodInvocation NumberLiteral f
+val SimpleName MethodInvocation NumberLiteral f
+f NumberLiteral MethodInvocation NumberLiteral f
+t SimpleName MethodInvocation SimpleName set skew x
+t SimpleName MethodInvocation SimpleName val
+set skew x SimpleName MethodInvocation SimpleName val
+t SimpleName MethodInvocation SimpleName set skew y
+t SimpleName MethodInvocation SimpleName val
+set skew y SimpleName MethodInvocation SimpleName val
+type SimpleName SwitchStatement SwitchCase QualifiedName svg transformsvg transform translate
+type SimpleName SwitchStatement IfStatement InfixExpression SimpleName count
+type SimpleName SwitchStatement IfStatement InfixExpression NumberLiteral empty
+type SimpleName SwitchStatement SwitchCase QualifiedName svg transformsvg transform scale
+type SimpleName SwitchStatement IfStatement InfixExpression SimpleName count
+type SimpleName SwitchStatement IfStatement InfixExpression NumberLiteral empty
+svg transformsvg transform translate QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svg transformsvg transform scale
+svg transformsvg transform scale QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svg transformsvg transform rotate
+svg transformsvg transform rotate QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svg transformsvg transform skewx
+svg transformsvg transform skewx QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName svg transformsvg transform skewy
+animatable transform list value SimpleName SimpleType ClassInstanceCreation SimpleName target
+animatable transform list value SimpleName SimpleType ClassInstanceCreation SimpleName t
+target SimpleName ClassInstanceCreation SimpleName t
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType char
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType char
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+char PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+char PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName type
+protected Modifier MethodDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SimpleName parse value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+animatable value SimpleName SimpleType MethodDeclaration SimpleName parse value
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+parse value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+parse value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+parse value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+parse value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+parse value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+parse value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+parse value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+parse value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+parse value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse value SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

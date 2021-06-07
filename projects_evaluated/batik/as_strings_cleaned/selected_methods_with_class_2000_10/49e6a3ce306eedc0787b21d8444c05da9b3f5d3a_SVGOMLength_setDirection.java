@@ -1,0 +1,22 @@
+short PrimitiveType SingleVariableDeclaration SimpleName dir
+direction SimpleName Assignment SimpleName dir
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set direction
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dir
+void PrimitiveType MethodDeclaration SimpleName set direction
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dir
+set direction SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+set direction SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dir
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set direction
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set direction
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dir

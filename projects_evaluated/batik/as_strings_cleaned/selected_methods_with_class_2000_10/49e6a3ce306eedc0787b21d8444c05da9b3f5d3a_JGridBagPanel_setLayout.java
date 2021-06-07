@@ -1,0 +1,21 @@
+layout manager SimpleName SimpleType SingleVariableDeclaration SimpleName layout
+layout SimpleName InstanceofExpression SimpleType SimpleName grid bag layout
+set layout SimpleName SuperMethodInvocation SimpleName layout
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set layout
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName layout manager
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName layout
+void PrimitiveType MethodDeclaration SimpleName set layout
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName layout manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName layout
+set layout SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName layout manager
+set layout SimpleName MethodDeclaration SingleVariableDeclaration SimpleName layout
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set layout
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName layout
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set layout
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName layout

@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pn
+animation target listener SimpleName SimpleType SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName add target listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pn
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+add target listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add target listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pn
+add target listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target listener
+add target listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+pn SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add target listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add target listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

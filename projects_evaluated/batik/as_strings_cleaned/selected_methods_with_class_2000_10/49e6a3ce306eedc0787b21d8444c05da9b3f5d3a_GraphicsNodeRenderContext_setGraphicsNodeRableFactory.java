@@ -1,0 +1,27 @@
+graphics node rable factory SimpleName SimpleType SingleVariableDeclaration SimpleName factory
+hints SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rendering hints
+rendering hints SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName hints
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation SimpleName key graphics node rable factory
+hints SimpleName MethodInvocation SimpleName factory
+put SimpleName MethodInvocation SimpleName key graphics node rable factory
+put SimpleName MethodInvocation SimpleName factory
+key graphics node rable factory SimpleName MethodInvocation SimpleName factory
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set graphics node rable factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node rable factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName factory
+void PrimitiveType MethodDeclaration SimpleName set graphics node rable factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node rable factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName factory
+set graphics node rable factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node rable factory
+set graphics node rable factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set graphics node rable factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set graphics node rable factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName factory

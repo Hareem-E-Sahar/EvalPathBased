@@ -1,0 +1,71 @@
+character information SimpleName SimpleType SingleVariableDeclaration SimpleName info
+infolayout QualifiedName MethodInvocation SimpleName get glyph vector
+it SimpleName VariableDeclarationFragment MethodInvocation QualifiedName infolayout
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph vector
+gvt glyph vector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName is glyph visible
+it SimpleName MethodInvocation QualifiedName infoglyph index end
+is glyph visible SimpleName MethodInvocation QualifiedName infoglyph index end
+it SimpleName MethodInvocation SimpleName get glyph position
+it SimpleName MethodInvocation QualifiedName infoglyph index end
+get glyph position SimpleName MethodInvocation QualifiedName infoglyph index end
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph position
+b SimpleName VariableDeclarationFragment MethodInvocation QualifiedName infoglyph index end
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph transform
+it SimpleName MethodInvocation SimpleName get glyph transform
+it SimpleName MethodInvocation QualifiedName infoglyph index end
+get glyph transform SimpleName MethodInvocation QualifiedName infoglyph index end
+glyph transform SimpleName Assignment MethodInvocation SimpleName it
+glyph transform SimpleName Assignment MethodInvocation SimpleName get glyph transform
+glyph transform SimpleName Assignment MethodInvocation QualifiedName infoglyph index end
+it SimpleName MethodInvocation SimpleName get glyph metrics
+it SimpleName MethodInvocation QualifiedName infoglyph index end
+get glyph metrics SimpleName MethodInvocation QualifiedName infoglyph index end
+metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName it
+metrics SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph metrics
+metrics SimpleName VariableDeclarationFragment MethodInvocation QualifiedName infoglyph index end
+gvt glyph metrics SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName metrics
+metrics SimpleName MethodInvocation SimpleName get horizontal advance
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName metrics
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get horizontal advance
+point dfloat QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+metrics SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get horizontal advance SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point dfloat
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName metrics
+result SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get horizontal advance
+result SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+point dfloat QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+glyph transform SimpleName MethodInvocation SimpleName transform
+glyph transform SimpleName MethodInvocation SimpleName result
+glyph transform SimpleName MethodInvocation SimpleName result
+transform SimpleName MethodInvocation SimpleName result
+transform SimpleName MethodInvocation SimpleName result
+result SimpleName MethodInvocation SimpleName result
+b SimpleName MethodInvocation SimpleName get x
+resultx QualifiedName Assignment MethodInvocation SimpleName b
+resultx QualifiedName Assignment MethodInvocation SimpleName get x
+b SimpleName MethodInvocation SimpleName get y
+resulty QualifiedName Assignment MethodInvocation SimpleName b
+resulty QualifiedName Assignment MethodInvocation SimpleName get y
+protected Modifier MethodDeclaration SimpleType SimpleName point d
+protected Modifier MethodDeclaration SimpleName get end point
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName character information
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName info
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName result
+point d SimpleName SimpleType MethodDeclaration SimpleName get end point
+point d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName info
+get end point SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName character information
+get end point SimpleName MethodDeclaration SingleVariableDeclaration SimpleName info
+get end point SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName point d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get end point
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName point d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get end point
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName info

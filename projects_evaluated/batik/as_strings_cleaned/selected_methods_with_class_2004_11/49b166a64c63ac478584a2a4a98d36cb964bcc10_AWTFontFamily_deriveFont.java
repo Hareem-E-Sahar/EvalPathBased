@@ -1,0 +1,62 @@
+float PrimitiveType SingleVariableDeclaration SimpleName size
+map SimpleName SimpleType SingleVariableDeclaration SimpleName attrs
+awtgvt font SimpleName SimpleType ClassInstanceCreation SimpleName font
+awtgvt font SimpleName SimpleType ClassInstanceCreation SimpleName size
+font SimpleName ClassInstanceCreation SimpleName size
+hash map SimpleName SimpleType ClassInstanceCreation SimpleName attrs
+font attributes SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hash map
+font attributes SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName attrs
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font attributes
+float SimpleName SimpleType ClassInstanceCreation SimpleName size
+font attributes SimpleName MethodInvocation SimpleName put
+font attributes SimpleName MethodInvocation QualifiedName text attributesize
+font attributes SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+font attributes SimpleName MethodInvocation ClassInstanceCreation SimpleName size
+put SimpleName MethodInvocation QualifiedName text attributesize
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName size
+text attributesize QualifiedName MethodInvocation ClassInstanceCreation SimpleType SimpleName float
+text attributesize QualifiedName MethodInvocation ClassInstanceCreation SimpleName size
+font face SimpleName MethodInvocation SimpleName get family name
+font attributes SimpleName MethodInvocation SimpleName put
+font attributes SimpleName MethodInvocation QualifiedName text attributefamily
+font attributes SimpleName MethodInvocation MethodInvocation SimpleName font face
+font attributes SimpleName MethodInvocation MethodInvocation SimpleName get family name
+put SimpleName MethodInvocation QualifiedName text attributefamily
+put SimpleName MethodInvocation MethodInvocation SimpleName font face
+put SimpleName MethodInvocation MethodInvocation SimpleName get family name
+text attributefamily QualifiedName MethodInvocation MethodInvocation SimpleName font face
+text attributefamily QualifiedName MethodInvocation MethodInvocation SimpleName get family name
+font attributes SimpleName MethodInvocation SimpleName remove
+font attributes SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributetext compound delimiter
+remove SimpleName MethodInvocation QualifiedName gvt attributed character iteratortext attributetext compound delimiter
+awtgvt font SimpleName SimpleType ClassInstanceCreation SimpleName font attributes
+public Modifier MethodDeclaration SimpleType SimpleName gvt font
+public Modifier MethodDeclaration SimpleName derive font
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attrs
+gvt font SimpleName SimpleType MethodDeclaration SimpleName derive font
+gvt font SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+gvt font SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName size
+gvt font SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName attrs
+derive font SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+derive font SimpleName MethodDeclaration SingleVariableDeclaration SimpleName size
+derive font SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+derive font SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attrs
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+size SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName gvt font
+public Modifier TypeDeclaration MethodDeclaration SimpleName derive font
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName gvt font
+test SimpleName TypeDeclaration MethodDeclaration SimpleName derive font
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attrs

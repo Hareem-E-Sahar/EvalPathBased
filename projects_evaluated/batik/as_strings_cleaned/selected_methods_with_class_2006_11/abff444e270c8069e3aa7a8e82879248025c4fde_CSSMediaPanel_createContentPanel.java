@@ -1,0 +1,94 @@
+panel SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j panel
+j panel SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName panel
+border factory SimpleName MethodInvocation SimpleName create empty border
+border factory SimpleName MethodInvocation NumberLiteral empty
+border factory SimpleName MethodInvocation NumberLiteral empty
+border factory SimpleName MethodInvocation NumberLiteral empty
+border factory SimpleName MethodInvocation NumberLiteral empty
+create empty border SimpleName MethodInvocation NumberLiteral empty
+create empty border SimpleName MethodInvocation NumberLiteral empty
+create empty border SimpleName MethodInvocation NumberLiteral empty
+create empty border SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+panel SimpleName MethodInvocation SimpleName set border
+panel SimpleName MethodInvocation MethodInvocation SimpleName border factory
+panel SimpleName MethodInvocation MethodInvocation SimpleName create empty border
+panel SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+panel SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+panel SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+panel SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set border SimpleName MethodInvocation MethodInvocation SimpleName border factory
+set border SimpleName MethodInvocation MethodInvocation SimpleName create empty border
+set border SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set border SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set border SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+set border SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral add medium dialoglabel
+get string SimpleName MethodInvocation StringLiteral add medium dialoglabel
+j label SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName resources
+j label SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get string
+j label SimpleName SimpleType ClassInstanceCreation MethodInvocation StringLiteral add medium dialoglabel
+panel SimpleName MethodInvocation SimpleName add
+panel SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName j label
+panel SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resources
+panel SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get string
+panel SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral add medium dialoglabel
+panel SimpleName MethodInvocation QualifiedName border layoutwest
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName j label
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resources
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get string
+add SimpleName MethodInvocation ClassInstanceCreation MethodInvocation StringLiteral add medium dialoglabel
+add SimpleName MethodInvocation QualifiedName border layoutwest
+j label SimpleName SimpleType ClassInstanceCreation MethodInvocation QualifiedName border layoutwest
+resources SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName border layoutwest
+get string SimpleName MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName border layoutwest
+add medium dialoglabel StringLiteral MethodInvocation ClassInstanceCreation MethodInvocation QualifiedName border layoutwest
+medium SimpleName Assignment ClassInstanceCreation SimpleType SimpleName j combo box
+medium SimpleName MethodInvocation SimpleName set editable
+medium SimpleName MethodInvocation BooleanLiteral true
+set editable SimpleName MethodInvocation BooleanLiteral true
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral medialist
+get string SimpleName MethodInvocation StringLiteral medialist
+media SimpleName VariableDeclarationFragment MethodInvocation SimpleName resources
+media SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+media SimpleName VariableDeclarationFragment MethodInvocation StringLiteral medialist
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName media
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName media
+string tokenizer SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+media SimpleName ClassInstanceCreation StringLiteral empty
+tokens SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+tokens SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName media
+tokens SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral empty
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tokens
+tokens SimpleName MethodInvocation SimpleName has more tokens
+tokens SimpleName MethodInvocation SimpleName next token
+medium SimpleName MethodInvocation SimpleName add item
+medium SimpleName MethodInvocation MethodInvocation SimpleName tokens
+medium SimpleName MethodInvocation MethodInvocation SimpleName next token
+add item SimpleName MethodInvocation MethodInvocation SimpleName tokens
+add item SimpleName MethodInvocation MethodInvocation SimpleName next token
+panel SimpleName MethodInvocation SimpleName add
+panel SimpleName MethodInvocation SimpleName medium
+panel SimpleName MethodInvocation QualifiedName border layoutcenter
+add SimpleName MethodInvocation SimpleName medium
+add SimpleName MethodInvocation QualifiedName border layoutcenter
+medium SimpleName MethodInvocation QualifiedName border layoutcenter
+protected Modifier MethodDeclaration SimpleType SimpleName component
+protected Modifier MethodDeclaration SimpleName create content panel
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName panel
+component SimpleName SimpleType MethodDeclaration SimpleName create content panel
+create content panel SimpleName MethodDeclaration Block ReturnStatement SimpleName panel
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName component
+public Modifier TypeDeclaration MethodDeclaration SimpleName create content panel
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName component
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create content panel

@@ -1,0 +1,139 @@
+expected SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName expected
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+max size SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName expected token sequenceslength
+expected token sequences SimpleName ArrayAccess SimpleName i
+expected token sequences SimpleName ArrayAccess FieldAccess SimpleName length
+i SimpleName ArrayAccess FieldAccess SimpleName length
+max size SimpleName InfixExpression FieldAccess ArrayAccess SimpleName expected token sequences
+max size SimpleName InfixExpression FieldAccess ArrayAccess SimpleName i
+max size SimpleName InfixExpression FieldAccess SimpleName length
+expected token sequences SimpleName ArrayAccess SimpleName i
+expected token sequences SimpleName ArrayAccess FieldAccess SimpleName length
+i SimpleName ArrayAccess FieldAccess SimpleName length
+max size SimpleName Assignment FieldAccess ArrayAccess SimpleName expected token sequences
+max size SimpleName Assignment FieldAccess ArrayAccess SimpleName i
+max size SimpleName Assignment FieldAccess SimpleName length
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+expected token sequences SimpleName ArrayAccess SimpleName i
+expected token sequences SimpleName ArrayAccess FieldAccess SimpleName length
+i SimpleName ArrayAccess FieldAccess SimpleName length
+j SimpleName InfixExpression FieldAccess ArrayAccess SimpleName expected token sequences
+j SimpleName InfixExpression FieldAccess ArrayAccess SimpleName i
+j SimpleName InfixExpression FieldAccess SimpleName length
+expected token sequences SimpleName ArrayAccess SimpleName i
+expected token sequences SimpleName ArrayAccess ArrayAccess SimpleName j
+i SimpleName ArrayAccess ArrayAccess SimpleName j
+token image SimpleName ArrayAccess ArrayAccess ArrayAccess SimpleName expected token sequences
+token image SimpleName ArrayAccess ArrayAccess ArrayAccess SimpleName i
+token image SimpleName ArrayAccess ArrayAccess SimpleName j
+token image SimpleName ArrayAccess InfixExpression StringLiteral empty
+j SimpleName ArrayAccess ArrayAccess InfixExpression StringLiteral empty
+expected SimpleName Assignment InfixExpression ArrayAccess SimpleName token image
+expected SimpleName Assignment InfixExpression StringLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+expected token sequences SimpleName ArrayAccess SimpleName i
+expected token sequences SimpleName ArrayAccess SimpleName i
+expected token sequences SimpleName ArrayAccess FieldAccess SimpleName length
+i SimpleName ArrayAccess FieldAccess SimpleName length
+expected token sequences SimpleName ArrayAccess FieldAccess InfixExpression NumberLiteral empty
+i SimpleName ArrayAccess FieldAccess InfixExpression NumberLiteral empty
+length SimpleName FieldAccess InfixExpression NumberLiteral empty
+expected token sequences SimpleName ArrayAccess ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName ArrayAccess ArrayAccess InfixExpression NumberLiteral empty
+expected token sequences SimpleName ArrayAccess ArrayAccess InfixExpression NumberLiteral empty
+i SimpleName ArrayAccess ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ArrayAccess InfixExpression NumberLiteral empty
+expected SimpleName Assignment StringLiteral ...
+eol SimpleName InfixExpression StringLiteral empty
+expected SimpleName Assignment InfixExpression SimpleName eol
+expected SimpleName Assignment InfixExpression StringLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName expected token sequenceslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+expected token sequenceslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+retval SimpleName VariableDeclarationFragment StringLiteral encountered \
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName retval
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral encountered \
+tok SimpleName VariableDeclarationFragment QualifiedName current tokennext
+token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tok
+token SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment QualifiedName current tokennext
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName max size
+i SimpleName InfixExpression NumberLiteral empty
+retval SimpleName Assignment StringLiteral empty
+tokkind QualifiedName InfixExpression NumberLiteral empty
+token image SimpleName ArrayAccess NumberLiteral empty
+retval SimpleName Assignment ArrayAccess SimpleName token image
+retval SimpleName Assignment ArrayAccess NumberLiteral empty
+add escapes SimpleName MethodInvocation QualifiedName tokimage
+retval SimpleName Assignment MethodInvocation SimpleName add escapes
+retval SimpleName Assignment MethodInvocation QualifiedName tokimage
+tok SimpleName Assignment QualifiedName toknext
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName max size
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+max size SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+\ at line StringLiteral InfixExpression QualifiedName current tokennextbegin line
+\ at line StringLiteral InfixExpression StringLiteral column
+\ at line StringLiteral InfixExpression QualifiedName current tokennextbegin column
+\ at line StringLiteral InfixExpression StringLiteral .
+\ at line StringLiteral InfixExpression SimpleName eol
+current tokennextbegin line QualifiedName InfixExpression StringLiteral column
+current tokennextbegin line QualifiedName InfixExpression QualifiedName current tokennextbegin column
+current tokennextbegin line QualifiedName InfixExpression StringLiteral .
+current tokennextbegin line QualifiedName InfixExpression SimpleName eol
+column StringLiteral InfixExpression QualifiedName current tokennextbegin column
+column StringLiteral InfixExpression StringLiteral .
+column StringLiteral InfixExpression SimpleName eol
+current tokennextbegin column QualifiedName InfixExpression StringLiteral .
+current tokennextbegin column QualifiedName InfixExpression SimpleName eol
+. StringLiteral InfixExpression SimpleName eol
+retval SimpleName Assignment InfixExpression StringLiteral \ at line
+retval SimpleName Assignment InfixExpression QualifiedName current tokennextbegin line
+retval SimpleName Assignment InfixExpression StringLiteral column
+retval SimpleName Assignment InfixExpression QualifiedName current tokennextbegin column
+retval SimpleName Assignment InfixExpression StringLiteral .
+retval SimpleName Assignment InfixExpression SimpleName eol
+expected token sequenceslength QualifiedName InfixExpression NumberLiteral empty
+was expecting StringLiteral InfixExpression SimpleName eol
+was expecting StringLiteral InfixExpression StringLiteral empty
+eol SimpleName InfixExpression StringLiteral empty
+retval SimpleName Assignment InfixExpression StringLiteral was expecting
+retval SimpleName Assignment InfixExpression SimpleName eol
+retval SimpleName Assignment InfixExpression StringLiteral empty
+was expecting one of StringLiteral InfixExpression SimpleName eol
+was expecting one of StringLiteral InfixExpression StringLiteral empty
+eol SimpleName InfixExpression StringLiteral empty
+retval SimpleName Assignment InfixExpression StringLiteral was expecting one of
+retval SimpleName Assignment InfixExpression SimpleName eol
+retval SimpleName Assignment InfixExpression StringLiteral empty
+retval SimpleName Assignment SimpleName expected
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get message
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName retval
+string SimpleName SimpleType MethodDeclaration SimpleName get message
+get message SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get message SimpleName MethodDeclaration Block ReturnStatement SimpleName retval
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get message
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get message

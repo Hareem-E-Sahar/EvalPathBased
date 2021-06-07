@@ -1,0 +1,109 @@
+marker SimpleName SimpleType SingleVariableDeclaration SimpleName marker
+point d SimpleName SimpleType SingleVariableDeclaration SimpleName marker position
+double PrimitiveType SingleVariableDeclaration SimpleName rotation
+marker SimpleName MethodInvocation SimpleName get ref
+ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName marker
+ref SimpleName VariableDeclarationFragment MethodInvocation SimpleName get ref
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref
+txf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName affine transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName txf
+marker position SimpleName MethodInvocation SimpleName get x
+ref SimpleName MethodInvocation SimpleName get x
+marker position SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ref
+marker position SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ref
+get x SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+marker position SimpleName MethodInvocation SimpleName get y
+ref SimpleName MethodInvocation SimpleName get y
+marker position SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ref
+marker position SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ref
+get y SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+txf SimpleName MethodInvocation SimpleName translate
+txf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName marker position
+txf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+txf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ref
+txf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+txf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName marker position
+txf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+txf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ref
+txf SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+translate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName marker position
+translate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+translate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ref
+translate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get x
+translate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName marker position
+translate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+translate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ref
+translate SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get y
+double SimpleName MethodInvocation SimpleName is na n
+double SimpleName MethodInvocation SimpleName rotation
+is na n SimpleName MethodInvocation SimpleName rotation
+rotation SimpleName InfixExpression QualifiedName mathpi
+rotation SimpleName InfixExpression InfixExpression NumberLiteral .
+mathpi QualifiedName InfixExpression InfixExpression NumberLiteral .
+ref SimpleName MethodInvocation SimpleName get x
+ref SimpleName MethodInvocation SimpleName get y
+txf SimpleName MethodInvocation SimpleName rotate
+txf SimpleName MethodInvocation InfixExpression InfixExpression SimpleName rotation
+txf SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName mathpi
+txf SimpleName MethodInvocation InfixExpression NumberLiteral .
+txf SimpleName MethodInvocation MethodInvocation SimpleName ref
+txf SimpleName MethodInvocation MethodInvocation SimpleName get x
+txf SimpleName MethodInvocation MethodInvocation SimpleName ref
+txf SimpleName MethodInvocation MethodInvocation SimpleName get y
+rotate SimpleName MethodInvocation InfixExpression InfixExpression SimpleName rotation
+rotate SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName mathpi
+rotate SimpleName MethodInvocation InfixExpression NumberLiteral .
+rotate SimpleName MethodInvocation MethodInvocation SimpleName ref
+rotate SimpleName MethodInvocation MethodInvocation SimpleName get x
+rotate SimpleName MethodInvocation MethodInvocation SimpleName ref
+rotate SimpleName MethodInvocation MethodInvocation SimpleName get y
+. NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ref
+. NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get x
+. NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName ref
+. NumberLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get y
+ref SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ref
+ref SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ref
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+private Modifier MethodDeclaration SimpleType SimpleName affine transform
+private Modifier MethodDeclaration SimpleName compute marker transform
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName marker
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName marker
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName marker position
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName rotation
+affine transform SimpleName SimpleType MethodDeclaration SimpleName compute marker transform
+affine transform SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName marker
+affine transform SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName marker position
+affine transform SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+affine transform SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rotation
+compute marker transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName marker
+compute marker transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName marker
+compute marker transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+compute marker transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName marker position
+compute marker transform SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+compute marker transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rotation
+compute marker transform SimpleName MethodDeclaration Block ReturnStatement SimpleName txf
+marker SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName marker position
+marker SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+marker SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rotation
+marker position SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+marker position SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rotation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName affine transform
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute marker transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName marker
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName marker position
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rotation
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName affine transform
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute marker transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName marker
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName marker position
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rotation

@@ -1,0 +1,139 @@
+cssom rule list SimpleName SimpleType SingleVariableDeclaration SimpleName l
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pe
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cssom rule list
+cssom rule list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName llen
+l SimpleName MethodInvocation SimpleName get length
+llen SimpleName Assignment MethodInvocation SimpleName l
+llen SimpleName Assignment MethodInvocation SimpleName get length
+llen SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+min SimpleName VariableDeclarationFragment QualifiedName integermax value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName min
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName integermax value
+imin SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName imin
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName llen
+l SimpleName MethodInvocation SimpleName item
+l SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+cssom style rule SimpleName SimpleType CastExpression MethodInvocation SimpleName l
+cssom style rule SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+cssom style rule SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+rule SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName cssom style rule
+rule SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName l
+rule SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+rule SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+cssom style rule SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rule
+rule SimpleName MethodInvocation SimpleName get selectors
+sl SimpleName VariableDeclarationFragment MethodInvocation SimpleName rule
+sl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selectors
+selector list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sl
+spec SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName spec
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName slen
+sl SimpleName MethodInvocation SimpleName get length
+slen SimpleName Assignment MethodInvocation SimpleName sl
+slen SimpleName Assignment MethodInvocation SimpleName get length
+slen SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+sl SimpleName MethodInvocation SimpleName item
+sl SimpleName MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+extended selector SimpleName SimpleType CastExpression MethodInvocation SimpleName sl
+extended selector SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+extended selector SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+spec SimpleName Assignment MethodInvocation SimpleName get specificity
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression SimpleName slen
+sl SimpleName MethodInvocation SimpleName item
+sl SimpleName MethodInvocation SimpleName j
+item SimpleName MethodInvocation SimpleName j
+extended selector SimpleName SimpleType CastExpression MethodInvocation SimpleName sl
+extended selector SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+extended selector SimpleName SimpleType CastExpression MethodInvocation SimpleName j
+s SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName extended selector
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName sl
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+s SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName j
+extended selector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName match
+s SimpleName MethodInvocation SimpleName e
+s SimpleName MethodInvocation SimpleName pe
+match SimpleName MethodInvocation SimpleName e
+match SimpleName MethodInvocation SimpleName pe
+e SimpleName MethodInvocation SimpleName pe
+s SimpleName MethodInvocation SimpleName get specificity
+spec SimpleName Assignment MethodInvocation SimpleName s
+spec SimpleName Assignment MethodInvocation SimpleName get specificity
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName slen
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+slen SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+spec SimpleName InfixExpression SimpleName min
+min SimpleName Assignment SimpleName spec
+imin SimpleName Assignment SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName llen
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+llen SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+l SimpleName MethodInvocation SimpleName item
+l SimpleName MethodInvocation SimpleName imin
+item SimpleName MethodInvocation SimpleName imin
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation MethodInvocation SimpleName l
+result SimpleName MethodInvocation MethodInvocation SimpleName item
+result SimpleName MethodInvocation MethodInvocation SimpleName imin
+append SimpleName MethodInvocation MethodInvocation SimpleName l
+append SimpleName MethodInvocation MethodInvocation SimpleName item
+append SimpleName MethodInvocation MethodInvocation SimpleName imin
+l SimpleName MethodInvocation SimpleName delete
+l SimpleName MethodInvocation SimpleName imin
+delete SimpleName MethodInvocation SimpleName imin
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+protected Modifier MethodDeclaration SimpleType SimpleName cssom rule list
+protected Modifier MethodDeclaration SimpleName sort rules
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom rule list
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName pe
+cssom rule list SimpleName SimpleType MethodDeclaration SimpleName sort rules
+cssom rule list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName l
+cssom rule list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+cssom rule list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pe
+sort rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom rule list
+sort rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+sort rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+sort rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+sort rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+sort rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pe
+sort rules SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+sort rules SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+l SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+l SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cssom rule list
+public Modifier TypeDeclaration MethodDeclaration SimpleName sort rules
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cssom rule list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName sort rules
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe

@@ -1,0 +1,27 @@
+graphics node key event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+is down SimpleName Assignment BooleanLiteral true
+dispatch keyboard event SimpleName MethodInvocation StringLiteral keydown
+dispatch keyboard event SimpleName MethodInvocation SimpleName evt
+keydown StringLiteral MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation SimpleName get key char
+evt SimpleName MethodInvocation InfixExpression QualifiedName key eventchar undefined
+get key char SimpleName MethodInvocation InfixExpression QualifiedName key eventchar undefined
+dispatch text event SimpleName MethodInvocation SimpleName evt
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName key pressed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName key pressed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+key pressed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+key pressed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName key pressed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName key pressed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

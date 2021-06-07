@@ -1,0 +1,23 @@
+affine transform SimpleName SimpleType SingleVariableDeclaration SimpleName at
+at SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+chooser pane SimpleName MethodInvocation SimpleName set affine transform
+chooser pane SimpleName MethodInvocation SimpleName at
+set affine transform SimpleName MethodInvocation SimpleName at
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName at
+void PrimitiveType MethodDeclaration SimpleName set transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName at
+set transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+set transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName at
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName at
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName at

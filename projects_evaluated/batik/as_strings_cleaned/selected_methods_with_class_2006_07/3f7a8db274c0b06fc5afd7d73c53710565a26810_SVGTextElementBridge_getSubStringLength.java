@@ -1,0 +1,299 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+int PrimitiveType SingleVariableDeclaration SimpleName charnum
+int PrimitiveType SingleVariableDeclaration SimpleName nchars
+nchars SimpleName InfixExpression NumberLiteral empty
+length SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName length
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aci
+text node SimpleName SimpleType CastExpression SimpleName node
+node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get attributed character iterator
+aci SimpleName Assignment MethodInvocation SimpleName get attributed character iterator
+text node SimpleName SimpleType CastExpression SimpleName node
+text node SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName text node
+text node SimpleName VariableDeclarationFragment CastExpression SimpleName node
+text node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text node
+get element start index SimpleName MethodInvocation SimpleName element
+first char SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element start index
+first char SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get element start index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName element
+first char SimpleName InfixExpression PrefixExpression NumberLiteral empty
+get text runs SimpleName MethodInvocation SimpleName text node
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text runs
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName text node
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+character information SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName current info
+get character information SimpleName MethodInvocation SimpleName list
+get character information SimpleName MethodInvocation SimpleName first char
+get character information SimpleName MethodInvocation SimpleName charnum
+get character information SimpleName MethodInvocation SimpleName aci
+list SimpleName MethodInvocation SimpleName first char
+list SimpleName MethodInvocation SimpleName charnum
+list SimpleName MethodInvocation SimpleName aci
+first char SimpleName MethodInvocation SimpleName charnum
+first char SimpleName MethodInvocation SimpleName aci
+charnum SimpleName MethodInvocation SimpleName aci
+current info SimpleName Assignment MethodInvocation SimpleName get character information
+current info SimpleName Assignment MethodInvocation SimpleName list
+current info SimpleName Assignment MethodInvocation SimpleName first char
+current info SimpleName Assignment MethodInvocation SimpleName charnum
+current info SimpleName Assignment MethodInvocation SimpleName aci
+character information SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last character in run info
+current infocharacter index QualifiedName InfixExpression NumberLiteral empty
+ch index SimpleName VariableDeclarationFragment InfixExpression QualifiedName current infocharacter index
+ch index SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ch index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression QualifiedName current infocharacter index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+current infolayout QualifiedName MethodInvocation SimpleName get glyph vector
+vector SimpleName VariableDeclarationFragment MethodInvocation QualifiedName current infolayout
+vector SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph vector
+gvt glyph vector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vector
+current infolayout QualifiedName MethodInvocation SimpleName get glyph advances
+advs SimpleName VariableDeclarationFragment MethodInvocation QualifiedName current infolayout
+advs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get glyph advances
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName advs
+boolean PrimitiveType ArrayType ArrayCreation QualifiedName advslength
+glyph track SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType boolean
+glyph track SimpleName VariableDeclarationFragment ArrayCreation QualifiedName advslength
+boolean PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName glyph track
+charnum SimpleName InfixExpression NumberLiteral empty
+k SimpleName VariableDeclarationFragment InfixExpression SimpleName charnum
+k SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName k
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression SimpleName charnum
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+charnum SimpleName InfixExpression SimpleName nchars
+k SimpleName InfixExpression InfixExpression SimpleName charnum
+k SimpleName InfixExpression InfixExpression SimpleName nchars
+current infolayout QualifiedName MethodInvocation SimpleName is on a text path
+gi SimpleName VariableDeclarationFragment QualifiedName current infoglyph index start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName gi
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment QualifiedName current infoglyph index start
+gi SimpleName InfixExpression QualifiedName current infoglyph index end
+vector SimpleName MethodInvocation SimpleName is glyph visible
+vector SimpleName MethodInvocation SimpleName gi
+is glyph visible SimpleName MethodInvocation SimpleName gi
+glyph track SimpleName ArrayAccess SimpleName gi
+gi SimpleName InfixExpression NumberLiteral empty
+advs SimpleName ArrayAccess InfixExpression SimpleName gi
+advs SimpleName ArrayAccess InfixExpression NumberLiteral empty
+advs SimpleName ArrayAccess SimpleName gi
+advs SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName advs
+advs SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName gi
+length SimpleName Assignment InfixExpression ArrayAccess SimpleName advs
+length SimpleName Assignment InfixExpression ArrayAccess SimpleName advs
+length SimpleName Assignment InfixExpression ArrayAccess SimpleName gi
+glyph track SimpleName ArrayAccess SimpleName gi
+glyph track SimpleName ArrayAccess Assignment BooleanLiteral true
+gi SimpleName ArrayAccess Assignment BooleanLiteral true
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName gi
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName current infoglyph index end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName gi
+gi SimpleName InfixExpression ForStatement PostfixExpression SimpleName gi
+current infoglyph index end QualifiedName InfixExpression ForStatement PostfixExpression SimpleName gi
+character information SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new info
+get character information SimpleName MethodInvocation SimpleName list
+get character information SimpleName MethodInvocation SimpleName first char
+get character information SimpleName MethodInvocation SimpleName k
+get character information SimpleName MethodInvocation SimpleName aci
+list SimpleName MethodInvocation SimpleName first char
+list SimpleName MethodInvocation SimpleName k
+list SimpleName MethodInvocation SimpleName aci
+first char SimpleName MethodInvocation SimpleName k
+first char SimpleName MethodInvocation SimpleName aci
+k SimpleName MethodInvocation SimpleName aci
+new info SimpleName Assignment MethodInvocation SimpleName get character information
+new info SimpleName Assignment MethodInvocation SimpleName list
+new info SimpleName Assignment MethodInvocation SimpleName first char
+new info SimpleName Assignment MethodInvocation SimpleName k
+new info SimpleName Assignment MethodInvocation SimpleName aci
+new infolayout QualifiedName InfixExpression QualifiedName current infolayout
+new infolayout QualifiedName MethodInvocation SimpleName get glyph vector
+vector SimpleName Assignment MethodInvocation QualifiedName new infolayout
+vector SimpleName Assignment MethodInvocation SimpleName get glyph vector
+new infolayout QualifiedName MethodInvocation SimpleName get glyph advances
+advs SimpleName Assignment MethodInvocation QualifiedName new infolayout
+advs SimpleName Assignment MethodInvocation SimpleName get glyph advances
+boolean PrimitiveType ArrayType ArrayCreation QualifiedName advslength
+glyph track SimpleName Assignment ArrayCreation ArrayType PrimitiveType boolean
+glyph track SimpleName Assignment ArrayCreation QualifiedName advslength
+current infocharacter index QualifiedName InfixExpression NumberLiteral empty
+ch index SimpleName Assignment InfixExpression QualifiedName current infocharacter index
+ch index SimpleName Assignment InfixExpression NumberLiteral empty
+current info SimpleName Assignment SimpleName new info
+current infolayout QualifiedName MethodInvocation SimpleName has character index
+current infolayout QualifiedName MethodInvocation SimpleName ch index
+has character index SimpleName MethodInvocation SimpleName ch index
+k SimpleName InfixExpression NumberLiteral empty
+get character information SimpleName MethodInvocation SimpleName list
+get character information SimpleName MethodInvocation SimpleName first char
+get character information SimpleName MethodInvocation InfixExpression SimpleName k
+get character information SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get character information SimpleName MethodInvocation SimpleName aci
+list SimpleName MethodInvocation SimpleName first char
+list SimpleName MethodInvocation InfixExpression SimpleName k
+list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+list SimpleName MethodInvocation SimpleName aci
+first char SimpleName MethodInvocation InfixExpression SimpleName k
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation SimpleName aci
+k SimpleName InfixExpression MethodInvocation SimpleName aci
+empty NumberLiteral InfixExpression MethodInvocation SimpleName aci
+last character in run info SimpleName Assignment MethodInvocation SimpleName get character information
+last character in run info SimpleName Assignment MethodInvocation SimpleName list
+last character in run info SimpleName Assignment MethodInvocation SimpleName first char
+last character in run info SimpleName Assignment MethodInvocation InfixExpression SimpleName k
+last character in run info SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+last character in run info SimpleName Assignment MethodInvocation SimpleName aci
+distance first last character in run SimpleName MethodInvocation SimpleName current info
+distance first last character in run SimpleName MethodInvocation SimpleName last character in run info
+current info SimpleName MethodInvocation SimpleName last character in run info
+length SimpleName Assignment MethodInvocation SimpleName distance first last character in run
+length SimpleName Assignment MethodInvocation SimpleName current info
+length SimpleName Assignment MethodInvocation SimpleName last character in run info
+get character information SimpleName MethodInvocation SimpleName list
+get character information SimpleName MethodInvocation SimpleName first char
+get character information SimpleName MethodInvocation SimpleName k
+get character information SimpleName MethodInvocation SimpleName aci
+list SimpleName MethodInvocation SimpleName first char
+list SimpleName MethodInvocation SimpleName k
+list SimpleName MethodInvocation SimpleName aci
+first char SimpleName MethodInvocation SimpleName k
+first char SimpleName MethodInvocation SimpleName aci
+k SimpleName MethodInvocation SimpleName aci
+current info SimpleName Assignment MethodInvocation SimpleName get character information
+current info SimpleName Assignment MethodInvocation SimpleName list
+current info SimpleName Assignment MethodInvocation SimpleName first char
+current info SimpleName Assignment MethodInvocation SimpleName k
+current info SimpleName Assignment MethodInvocation SimpleName aci
+current infocharacter index QualifiedName InfixExpression NumberLiteral empty
+ch index SimpleName Assignment InfixExpression QualifiedName current infocharacter index
+ch index SimpleName Assignment InfixExpression NumberLiteral empty
+current infolayout QualifiedName MethodInvocation SimpleName get glyph vector
+vector SimpleName Assignment MethodInvocation QualifiedName current infolayout
+vector SimpleName Assignment MethodInvocation SimpleName get glyph vector
+current infolayout QualifiedName MethodInvocation SimpleName get glyph advances
+advs SimpleName Assignment MethodInvocation QualifiedName current infolayout
+advs SimpleName Assignment MethodInvocation SimpleName get glyph advances
+boolean PrimitiveType ArrayType ArrayCreation QualifiedName advslength
+glyph track SimpleName Assignment ArrayCreation ArrayType PrimitiveType boolean
+glyph track SimpleName Assignment ArrayCreation QualifiedName advslength
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName k
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName k
+k SimpleName InfixExpression ForStatement PostfixExpression SimpleName k
+current infolayout QualifiedName MethodInvocation SimpleName is on a text path
+gi SimpleName VariableDeclarationFragment QualifiedName current infoglyph index start
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName gi
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment QualifiedName current infoglyph index start
+gi SimpleName InfixExpression QualifiedName current infoglyph index end
+vector SimpleName MethodInvocation SimpleName is glyph visible
+vector SimpleName MethodInvocation SimpleName gi
+is glyph visible SimpleName MethodInvocation SimpleName gi
+glyph track SimpleName ArrayAccess SimpleName gi
+gi SimpleName InfixExpression NumberLiteral empty
+advs SimpleName ArrayAccess InfixExpression SimpleName gi
+advs SimpleName ArrayAccess InfixExpression NumberLiteral empty
+advs SimpleName ArrayAccess SimpleName gi
+advs SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName advs
+advs SimpleName ArrayAccess InfixExpression ArrayAccess SimpleName gi
+length SimpleName Assignment InfixExpression ArrayAccess SimpleName advs
+length SimpleName Assignment InfixExpression ArrayAccess SimpleName advs
+length SimpleName Assignment InfixExpression ArrayAccess SimpleName gi
+glyph track SimpleName ArrayAccess SimpleName gi
+glyph track SimpleName ArrayAccess Assignment BooleanLiteral true
+gi SimpleName ArrayAccess Assignment BooleanLiteral true
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName gi
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName current infoglyph index end
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName gi
+gi SimpleName InfixExpression ForStatement PostfixExpression SimpleName gi
+current infoglyph index end QualifiedName InfixExpression ForStatement PostfixExpression SimpleName gi
+charnum SimpleName InfixExpression SimpleName nchars
+charnum SimpleName InfixExpression InfixExpression NumberLiteral empty
+nchars SimpleName InfixExpression InfixExpression NumberLiteral empty
+get character information SimpleName MethodInvocation SimpleName list
+get character information SimpleName MethodInvocation SimpleName first char
+get character information SimpleName MethodInvocation InfixExpression InfixExpression SimpleName charnum
+get character information SimpleName MethodInvocation InfixExpression InfixExpression SimpleName nchars
+get character information SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get character information SimpleName MethodInvocation SimpleName aci
+list SimpleName MethodInvocation SimpleName first char
+list SimpleName MethodInvocation InfixExpression InfixExpression SimpleName charnum
+list SimpleName MethodInvocation InfixExpression InfixExpression SimpleName nchars
+list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+list SimpleName MethodInvocation SimpleName aci
+first char SimpleName MethodInvocation InfixExpression InfixExpression SimpleName charnum
+first char SimpleName MethodInvocation InfixExpression InfixExpression SimpleName nchars
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation SimpleName aci
+charnum SimpleName InfixExpression InfixExpression MethodInvocation SimpleName aci
+nchars SimpleName InfixExpression InfixExpression MethodInvocation SimpleName aci
+empty NumberLiteral InfixExpression MethodInvocation SimpleName aci
+last character in run info SimpleName Assignment MethodInvocation SimpleName get character information
+last character in run info SimpleName Assignment MethodInvocation SimpleName list
+last character in run info SimpleName Assignment MethodInvocation SimpleName first char
+last character in run info SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+last character in run info SimpleName Assignment MethodInvocation SimpleName aci
+distance first last character in run SimpleName MethodInvocation SimpleName current info
+distance first last character in run SimpleName MethodInvocation SimpleName last character in run info
+current info SimpleName MethodInvocation SimpleName last character in run info
+length SimpleName Assignment MethodInvocation SimpleName distance first last character in run
+length SimpleName Assignment MethodInvocation SimpleName current info
+length SimpleName Assignment MethodInvocation SimpleName last character in run info
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SimpleName get sub string length
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName charnum
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName nchars
+float PrimitiveType MethodDeclaration SimpleName get sub string length
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName element
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName charnum
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName nchars
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+float PrimitiveType MethodDeclaration Block ReturnStatement SimpleName length
+get sub string length SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get sub string length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+get sub string length SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get sub string length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName charnum
+get sub string length SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get sub string length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName nchars
+get sub string length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+get sub string length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get sub string length SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get sub string length SimpleName MethodDeclaration Block ReturnStatement SimpleName length
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nchars
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nchars
+charnum SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+charnum SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nchars
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get sub string length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nchars
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get sub string length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nchars

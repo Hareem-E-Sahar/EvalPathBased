@@ -1,0 +1,72 @@
+jsvg canvas SimpleName SimpleType SingleVariableDeclaration SimpleName canvas
+canvas rendered SimpleName SuperMethodInvocation SimpleName canvas
+c SimpleName VariableDeclarationFragment SimpleName canvas
+final Modifier VariableDeclarationStatement SimpleType SimpleName jsvg canvas
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName canvas
+jsvg canvas SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+jsvg canvas SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName canvas
+c SimpleName MethodInvocation SimpleName set svg document
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+event queue SimpleName MethodInvocation SimpleName invoke and wait
+event queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+invoke and wait SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+throwable SimpleName SimpleType SingleVariableDeclaration SimpleName t
+trace SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string writer
+string writer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName trace
+print writer SimpleName SimpleType ClassInstanceCreation SimpleName trace
+t SimpleName MethodInvocation SimpleName print stack trace
+t SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName print writer
+t SimpleName MethodInvocation ClassInstanceCreation SimpleName trace
+print stack trace SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName print writer
+print stack trace SimpleName MethodInvocation ClassInstanceCreation SimpleName trace
+report SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default test report
+default test report SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName report
+report SimpleName MethodInvocation SimpleName set error code
+report SimpleName MethodInvocation SimpleName error on set
+set error code SimpleName MethodInvocation SimpleName error on set
+fmt SimpleName MethodInvocation SimpleName entry key error description
+trace SimpleName MethodInvocation SimpleName to string
+fmt SimpleName MethodInvocation SimpleName error on set
+test reportentry QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName fmt
+test reportentry QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName entry key error description
+test reportentry QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName fmt
+test reportentry QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName error on set
+fmt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName fmt
+fmt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error on set
+entry key error description SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName fmt
+entry key error description SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error on set
+report SimpleName MethodInvocation SimpleName set description
+report SimpleName MethodInvocation SimpleName set passed
+report SimpleName MethodInvocation BooleanLiteral false
+set passed SimpleName MethodInvocation BooleanLiteral false
+fail report SimpleName Assignment SimpleName report
+svg doc StringLiteral ArrayInitializer StringLiteral gvt
+svg doc StringLiteral ArrayInitializer StringLiteral update manager
+gvt StringLiteral ArrayInitializer StringLiteral update manager
+check objects SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral svg doc
+check objects SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral gvt
+check objects SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral update manager
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName canvas rendered
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jsvg canvas
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName canvas
+public Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+void PrimitiveType MethodDeclaration SimpleName canvas rendered
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jsvg canvas
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName canvas
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement Modifier final
+canvas rendered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jsvg canvas
+canvas rendered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName canvas
+canvas rendered SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName canvas rendered
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName canvas
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName canvas rendered
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName canvas

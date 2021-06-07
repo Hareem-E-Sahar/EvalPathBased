@@ -1,0 +1,49 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName InstanceofExpression SimpleType SimpleName bindable element
+bindable element SimpleName SimpleType CastExpression SimpleName e
+set active definition SimpleName MethodInvocation CastExpression SimpleType SimpleName bindable element
+set active definition SimpleName MethodInvocation CastExpression SimpleName e
+get xbl scoped child nodes SimpleName MethodInvocation SimpleName e
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xbl scoped child nodes
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nl
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+nl SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName nl
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+nl SimpleName MethodInvocation SimpleName item
+nl SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName nl
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName n
+unbind SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+unbind SimpleName MethodInvocation CastExpression SimpleName n
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName unbind
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName unbind
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+unbind SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+unbind SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unbind
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unbind
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

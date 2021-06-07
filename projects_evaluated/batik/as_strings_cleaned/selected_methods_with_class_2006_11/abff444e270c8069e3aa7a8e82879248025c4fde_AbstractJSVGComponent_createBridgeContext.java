@@ -1,0 +1,37 @@
+svgom document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+document loader SimpleName SimpleType ClassInstanceCreation SimpleName user agent
+loader SimpleName Assignment ClassInstanceCreation SimpleType SimpleName document loader
+loader SimpleName Assignment ClassInstanceCreation SimpleName user agent
+bridge context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+doc SimpleName MethodInvocation SimpleName is svg
+svg bridge context SimpleName SimpleType ClassInstanceCreation SimpleName user agent
+svg bridge context SimpleName SimpleType ClassInstanceCreation SimpleName loader
+user agent SimpleName ClassInstanceCreation SimpleName loader
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svg bridge context
+result SimpleName Assignment ClassInstanceCreation SimpleName user agent
+result SimpleName Assignment ClassInstanceCreation SimpleName loader
+bridge context SimpleName SimpleType ClassInstanceCreation SimpleName user agent
+bridge context SimpleName SimpleType ClassInstanceCreation SimpleName loader
+user agent SimpleName ClassInstanceCreation SimpleName loader
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName bridge context
+result SimpleName Assignment ClassInstanceCreation SimpleName user agent
+result SimpleName Assignment ClassInstanceCreation SimpleName loader
+protected Modifier MethodDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SimpleName create bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svgom document
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName result
+bridge context SimpleName SimpleType MethodDeclaration SimpleName create bridge context
+bridge context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName doc
+create bridge context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svgom document
+create bridge context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+create bridge context SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName bridge context
+public Modifier TypeDeclaration MethodDeclaration SimpleName create bridge context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName bridge context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create bridge context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc

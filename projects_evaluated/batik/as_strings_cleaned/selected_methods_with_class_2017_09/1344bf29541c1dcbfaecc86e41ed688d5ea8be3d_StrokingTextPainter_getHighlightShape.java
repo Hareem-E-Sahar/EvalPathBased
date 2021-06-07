@@ -1,0 +1,130 @@
+mark SimpleName SimpleType SingleVariableDeclaration SimpleName begin mark
+mark SimpleName SimpleType SingleVariableDeclaration SimpleName end mark
+begin mark SimpleName InfixExpression InfixExpression InfixExpression SimpleName end mark
+basic text painterbasic mark QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin
+basic text painterbasic mark QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName end
+basic text painterbasic mark QualifiedName SimpleType CastExpression SimpleName begin mark
+begin SimpleName Assignment CastExpression SimpleType QualifiedName basic text painterbasic mark
+begin SimpleName Assignment CastExpression SimpleName begin mark
+basic text painterbasic mark QualifiedName SimpleType CastExpression SimpleName end mark
+end SimpleName Assignment CastExpression SimpleType QualifiedName basic text painterbasic mark
+end SimpleName Assignment CastExpression SimpleName end mark
+class cast exception SimpleName SimpleType SingleVariableDeclaration SimpleName cce
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral this mark was not instantiated by this text painter class
+begin SimpleName MethodInvocation SimpleName get text node
+text node SimpleName VariableDeclarationFragment MethodInvocation SimpleName begin
+text node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text node
+text node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text node
+end SimpleName MethodInvocation SimpleName get text node
+text node SimpleName InfixExpression MethodInvocation SimpleName end
+text node SimpleName InfixExpression MethodInvocation SimpleName get text node
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral markers are from different text nodes
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aci
+text node SimpleName MethodInvocation SimpleName get attributed character iterator
+aci SimpleName Assignment MethodInvocation SimpleName text node
+aci SimpleName Assignment MethodInvocation SimpleName get attributed character iterator
+begin SimpleName MethodInvocation SimpleName get hit
+begin SimpleName MethodInvocation MethodInvocation SimpleName get char index
+get hit SimpleName MethodInvocation MethodInvocation SimpleName get char index
+begin index SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName begin
+begin index SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hit
+begin index SimpleName VariableDeclarationFragment MethodInvocation SimpleName get char index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get char index
+end SimpleName MethodInvocation SimpleName get hit
+end SimpleName MethodInvocation MethodInvocation SimpleName get char index
+get hit SimpleName MethodInvocation MethodInvocation SimpleName get char index
+end index SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName end
+end index SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get hit
+end index SimpleName VariableDeclarationFragment MethodInvocation SimpleName get char index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName end index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get char index
+begin index SimpleName InfixExpression SimpleName end index
+tmp mark SimpleName VariableDeclarationFragment SimpleName begin
+basic text painterbasic mark QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp mark
+basic text painterbasic mark QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin
+begin SimpleName Assignment SimpleName end
+end SimpleName Assignment SimpleName tmp mark
+tmp index SimpleName VariableDeclarationFragment SimpleName begin index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName begin index
+begin index SimpleName Assignment SimpleName end index
+end index SimpleName Assignment SimpleName tmp index
+get text runs SimpleName MethodInvocation SimpleName text node
+get text runs SimpleName MethodInvocation SimpleName aci
+text node SimpleName MethodInvocation SimpleName aci
+text runs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text runs
+text runs SimpleName VariableDeclarationFragment MethodInvocation SimpleName text node
+text runs SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text runs
+highlighted shape SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName general path
+general path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName highlighted shape
+object SimpleName SimpleType SingleVariableDeclaration SimpleName text run
+text run SimpleName SimpleType CastExpression SimpleName text run
+text run SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName text run
+text run SimpleName VariableDeclarationFragment CastExpression SimpleName text run
+text run SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName text run
+text run SimpleName MethodInvocation SimpleName get layout
+layout SimpleName VariableDeclarationFragment MethodInvocation SimpleName text run
+layout SimpleName VariableDeclarationFragment MethodInvocation SimpleName get layout
+text span layout SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName layout
+layout SimpleName MethodInvocation SimpleName get highlight shape
+layout SimpleName MethodInvocation SimpleName begin index
+layout SimpleName MethodInvocation SimpleName end index
+get highlight shape SimpleName MethodInvocation SimpleName begin index
+get highlight shape SimpleName MethodInvocation SimpleName end index
+begin index SimpleName MethodInvocation SimpleName end index
+layout highlighted shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName layout
+layout highlighted shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName get highlight shape
+layout highlighted shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName begin index
+layout highlighted shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName end index
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName layout highlighted shape
+layout highlighted shape SimpleName MethodInvocation SimpleName get bounds
+layout highlighted shape SimpleName MethodInvocation MethodInvocation SimpleName is empty
+get bounds SimpleName MethodInvocation MethodInvocation SimpleName is empty
+highlighted shape SimpleName MethodInvocation SimpleName append
+highlighted shape SimpleName MethodInvocation SimpleName layout highlighted shape
+highlighted shape SimpleName MethodInvocation BooleanLiteral false
+append SimpleName MethodInvocation SimpleName layout highlighted shape
+append SimpleName MethodInvocation BooleanLiteral false
+layout highlighted shape SimpleName MethodInvocation BooleanLiteral false
+object SimpleName SimpleType SingleVariableDeclaration EnhancedForStatement SimpleName text runs
+text run SimpleName SingleVariableDeclaration EnhancedForStatement SimpleName text runs
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName text runs
+int PrimitiveType VariableDeclarationStatement Block EnhancedForStatement SimpleName text runs
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName highlighted shape
+text runs SimpleName EnhancedForStatement Block ReturnStatement SimpleName highlighted shape
+public Modifier MethodDeclaration SimpleType SimpleName shape
+public Modifier MethodDeclaration SimpleName get highlight shape
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mark
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName begin mark
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mark
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName end mark
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block EnhancedForStatement SimpleName text runs
+public Modifier MethodDeclaration Block ReturnStatement SimpleName highlighted shape
+shape SimpleName SimpleType MethodDeclaration SimpleName get highlight shape
+shape SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName begin mark
+shape SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end mark
+get highlight shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mark
+get highlight shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName begin mark
+get highlight shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mark
+get highlight shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end mark
+get highlight shape SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get highlight shape SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get highlight shape SimpleName MethodDeclaration Block EnhancedForStatement SimpleName text runs
+get highlight shape SimpleName MethodDeclaration Block ReturnStatement SimpleName highlighted shape
+begin mark SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end mark
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName shape
+public Modifier TypeDeclaration MethodDeclaration SimpleName get highlight shape
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin mark
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end mark
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName shape
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get highlight shape
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin mark
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end mark

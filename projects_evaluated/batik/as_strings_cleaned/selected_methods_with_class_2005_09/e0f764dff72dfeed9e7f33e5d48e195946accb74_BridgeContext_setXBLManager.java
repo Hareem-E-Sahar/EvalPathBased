@@ -1,0 +1,30 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+xbl manager SimpleName SimpleType SingleVariableDeclaration SimpleName xm
+ctxxbl manager QualifiedName Assignment SimpleName xm
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set xbl manager
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xbl manager
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName xm
+void PrimitiveType MethodDeclaration SimpleName set xbl manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xbl manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName xm
+set xbl manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+set xbl manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+set xbl manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xbl manager
+set xbl manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleName xm
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xm
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set xbl manager
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xm
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set xbl manager
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xm

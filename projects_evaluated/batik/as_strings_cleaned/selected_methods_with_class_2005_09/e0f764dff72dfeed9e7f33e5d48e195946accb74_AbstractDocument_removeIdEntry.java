@@ -1,0 +1,71 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+elements by id SimpleName MethodInvocation SimpleName get
+elements by id SimpleName MethodInvocation SimpleName id
+get SimpleName MethodInvocation SimpleName id
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName elements by id
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+o SimpleName InstanceofExpression SimpleType SimpleName id soft ref
+elements by id SimpleName MethodInvocation SimpleName remove
+elements by id SimpleName MethodInvocation SimpleName id
+remove SimpleName MethodInvocation SimpleName id
+list SimpleName SimpleType CastExpression SimpleName o
+l SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list
+l SimpleName VariableDeclarationFragment CastExpression SimpleName o
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+l SimpleName MethodInvocation SimpleName iterator
+li SimpleName VariableDeclarationFragment MethodInvocation SimpleName l
+li SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName li
+li SimpleName MethodInvocation SimpleName has next
+li SimpleName MethodInvocation SimpleName next
+id soft ref SimpleName SimpleType CastExpression MethodInvocation SimpleName li
+id soft ref SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+ip SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName id soft ref
+ip SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName li
+ip SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+id soft ref SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ip
+ip SimpleName MethodInvocation SimpleName get
+o SimpleName Assignment MethodInvocation SimpleName ip
+o SimpleName Assignment MethodInvocation SimpleName get
+li SimpleName MethodInvocation SimpleName remove
+e SimpleName InfixExpression SimpleName o
+li SimpleName MethodInvocation SimpleName remove
+l SimpleName MethodInvocation SimpleName size
+l SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+elements by id SimpleName MethodInvocation SimpleName remove
+elements by id SimpleName MethodInvocation SimpleName id
+remove SimpleName MethodInvocation SimpleName id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove id entry
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName elements by id
+void PrimitiveType MethodDeclaration SimpleName remove id entry
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName elements by id
+remove id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+remove id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+remove id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove id entry SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+remove id entry SimpleName MethodDeclaration Block SynchronizedStatement SimpleName elements by id
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove id entry
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove id entry
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

@@ -1,0 +1,127 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName namespace uri
+element SimpleName SimpleType SingleVariableDeclaration SimpleName original element
+original element SimpleName MethodInvocation SimpleName get namespace uri
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName original element
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns
+original element SimpleName MethodInvocation SimpleName get prefix
+prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName original element
+prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName get prefix
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prefix
+ns SimpleName MethodInvocation SimpleName equals
+ns SimpleName MethodInvocation SimpleName namespace uri
+equals SimpleName MethodInvocation SimpleName namespace uri
+ns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName ns
+ns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+ns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName namespace uri
+abstract node SimpleName SimpleType CastExpression SimpleName original element
+original element SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName lookup namespace uri
+original element SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName prefix
+lookup namespace uri SimpleName MethodInvocation SimpleName prefix
+pns SimpleName VariableDeclarationFragment MethodInvocation SimpleName lookup namespace uri
+pns SimpleName VariableDeclarationFragment MethodInvocation SimpleName prefix
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pns
+pns SimpleName MethodInvocation SimpleName equals
+pns SimpleName MethodInvocation SimpleName namespace uri
+equals SimpleName MethodInvocation SimpleName namespace uri
+pns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName pns
+pns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+pns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName namespace uri
+original element SimpleName MethodInvocation SimpleName get attributes
+nnm SimpleName VariableDeclarationFragment MethodInvocation SimpleName original element
+nnm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nnm
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+nnm SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName nnm
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+nnm SimpleName MethodInvocation SimpleName item
+nnm SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName nnm
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get prefix
+xml constantsxmlns prefix QualifiedName MethodInvocation SimpleName equals
+xml constantsxmlns prefix QualifiedName MethodInvocation MethodInvocation SimpleName attr
+xml constantsxmlns prefix QualifiedName MethodInvocation MethodInvocation SimpleName get prefix
+equals SimpleName MethodInvocation MethodInvocation SimpleName attr
+equals SimpleName MethodInvocation MethodInvocation SimpleName get prefix
+attr SimpleName MethodInvocation SimpleName get node value
+attr SimpleName MethodInvocation MethodInvocation SimpleName equals
+get node value SimpleName MethodInvocation MethodInvocation SimpleName equals
+attr SimpleName MethodInvocation MethodInvocation SimpleName namespace uri
+get node value SimpleName MethodInvocation MethodInvocation SimpleName namespace uri
+equals SimpleName MethodInvocation SimpleName namespace uri
+xml constantsxmlns prefix QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+xml constantsxmlns prefix QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName namespace uri
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName namespace uri
+attr SimpleName MethodInvocation SimpleName get local name
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln
+abstract node SimpleName SimpleType CastExpression SimpleName original element
+oe SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+oe SimpleName VariableDeclarationFragment CastExpression SimpleName original element
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName oe
+oe SimpleName MethodInvocation SimpleName lookup namespace uri
+oe SimpleName MethodInvocation SimpleName ln
+lookup namespace uri SimpleName MethodInvocation SimpleName ln
+pns SimpleName VariableDeclarationFragment MethodInvocation SimpleName oe
+pns SimpleName VariableDeclarationFragment MethodInvocation SimpleName lookup namespace uri
+pns SimpleName VariableDeclarationFragment MethodInvocation SimpleName ln
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pns
+pns SimpleName MethodInvocation SimpleName equals
+pns SimpleName MethodInvocation SimpleName namespace uri
+equals SimpleName MethodInvocation SimpleName namespace uri
+pns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName pns
+pns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+pns SimpleName InfixExpression InfixExpression MethodInvocation SimpleName namespace uri
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get parent node
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression SimpleName element node
+get node type SimpleName MethodInvocation InfixExpression SimpleName element node
+abstract node SimpleName SimpleType CastExpression SimpleName n
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName lookup namespace prefix
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName namespace uri
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName original element
+lookup namespace prefix SimpleName MethodInvocation SimpleName namespace uri
+lookup namespace prefix SimpleName MethodInvocation SimpleName original element
+namespace uri SimpleName MethodInvocation SimpleName original element
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName lookup namespace prefix
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName original element
+string SimpleName SimpleType MethodDeclaration SimpleName lookup namespace prefix
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName original element
+lookup namespace prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+lookup namespace prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+lookup namespace prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+lookup namespace prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName original element
+namespace uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName lookup namespace prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original element
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lookup namespace prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName namespace uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName original element

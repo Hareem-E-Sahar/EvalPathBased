@@ -1,0 +1,19 @@
+filter region SimpleName SimpleType SingleVariableDeclaration SimpleName filter region
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set filter region
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter region
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName filter region
+void PrimitiveType MethodDeclaration SimpleName set filter region
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter region
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName filter region
+set filter region SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter region
+set filter region SimpleName MethodDeclaration SingleVariableDeclaration SimpleName filter region
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set filter region
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter region
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set filter region
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName filter region

@@ -1,0 +1,68 @@
+float PrimitiveType SingleVariableDeclaration SimpleName t
+float PrimitiveType SingleVariableDeclaration SimpleName t
+t SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation SimpleName t
+t SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is unresolved
+t SimpleName InfixExpression InfixExpression MethodInvocation SimpleName t
+indefinite SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is unresolved
+indefinite SimpleName InfixExpression InfixExpression MethodInvocation SimpleName t
+t SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation SimpleName t
+t SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation SimpleName t
+t SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is unresolved
+t SimpleName InfixExpression InfixExpression MethodInvocation SimpleName t
+indefinite SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is unresolved
+indefinite SimpleName InfixExpression InfixExpression MethodInvocation SimpleName t
+t SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation SimpleName t
+t SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation SimpleName t
+t SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is unresolved
+t SimpleName InfixExpression InfixExpression MethodInvocation SimpleName t
+indefinite SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is unresolved
+indefinite SimpleName InfixExpression InfixExpression MethodInvocation SimpleName t
+is unresolved SimpleName MethodInvocation SimpleName t
+t SimpleName InfixExpression SimpleName indefinite
+is unresolved SimpleName MethodInvocation InfixExpression InfixExpression SimpleName t
+is unresolved SimpleName MethodInvocation InfixExpression InfixExpression SimpleName indefinite
+t SimpleName MethodInvocation InfixExpression InfixExpression SimpleName t
+t SimpleName MethodInvocation InfixExpression InfixExpression SimpleName indefinite
+t SimpleName InfixExpression SimpleName t
+protected Modifier MethodDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SimpleName max time
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName t
+float PrimitiveType MethodDeclaration SimpleName max time
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+float PrimitiveType MethodDeclaration Block ReturnStatement SimpleName t
+max time SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+max time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+max time SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+max time SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+max time SimpleName MethodDeclaration Block ReturnStatement SimpleName t
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName max time
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName max time
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

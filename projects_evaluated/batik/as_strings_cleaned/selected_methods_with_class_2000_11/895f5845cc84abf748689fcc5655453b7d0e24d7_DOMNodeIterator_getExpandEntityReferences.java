@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get expand entity references
+public Modifier MethodDeclaration Block ReturnStatement SimpleName expand entity references
+boolean PrimitiveType MethodDeclaration SimpleName get expand entity references
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName expand entity references
+get expand entity references SimpleName MethodDeclaration Block ReturnStatement SimpleName expand entity references
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get expand entity references
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get expand entity references

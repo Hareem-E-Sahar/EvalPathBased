@@ -1,0 +1,19 @@
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vt
+vt SimpleName Assignment SimpleName viewing transform
+cgn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get canvas graphics node
+canvas graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cgn
+cgn SimpleName MethodInvocation SimpleName get viewing transform
+vt SimpleName Assignment MethodInvocation SimpleName cgn
+vt SimpleName Assignment MethodInvocation SimpleName get viewing transform
+public Modifier MethodDeclaration SimpleType SimpleName affine transform
+public Modifier MethodDeclaration SimpleName get viewing transform
+public Modifier MethodDeclaration Block ReturnStatement SimpleName vt
+affine transform SimpleName SimpleType MethodDeclaration SimpleName get viewing transform
+get viewing transform SimpleName MethodDeclaration Block ReturnStatement SimpleName vt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName affine transform
+public Modifier TypeDeclaration MethodDeclaration SimpleName get viewing transform
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName affine transform
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get viewing transform

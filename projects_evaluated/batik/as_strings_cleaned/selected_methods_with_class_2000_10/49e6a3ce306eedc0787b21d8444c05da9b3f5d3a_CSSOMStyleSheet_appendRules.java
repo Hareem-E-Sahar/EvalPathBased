@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName rules
+css document handler SimpleName MethodInvocation SimpleName parse rules
+css document handler SimpleName MethodInvocation SimpleName rules
+parse rules SimpleName MethodInvocation SimpleName rules
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName append rules
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rules
+void PrimitiveType MethodDeclaration SimpleName append rules
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rules
+append rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+append rules SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rules
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName append rules
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rules
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append rules
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rules

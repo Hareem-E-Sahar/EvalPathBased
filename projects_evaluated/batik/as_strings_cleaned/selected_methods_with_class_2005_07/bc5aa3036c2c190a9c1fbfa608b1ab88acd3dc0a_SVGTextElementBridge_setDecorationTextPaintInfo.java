@@ -1,0 +1,93 @@
+text paint info SimpleName SimpleType SingleVariableDeclaration SimpleName pi
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+css utilities SimpleName MethodInvocation SimpleName get computed style
+css utilities SimpleName MethodInvocation SimpleName element
+css utilities SimpleName MethodInvocation QualifiedName svgcss enginetext decoration index
+get computed style SimpleName MethodInvocation SimpleName element
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginetext decoration index
+element SimpleName MethodInvocation QualifiedName svgcss enginetext decoration index
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName css utilities
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+val SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+val SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss enginetext decoration index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+val SimpleName MethodInvocation SimpleName get css value type
+list value SimpleName SimpleType CastExpression SimpleName val
+lst SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName list value
+lst SimpleName VariableDeclarationFragment CastExpression SimpleName val
+list value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lst
+lst SimpleName MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName lst
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName lst
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+lst SimpleName MethodInvocation SimpleName item
+lst SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName lst
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get string value
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+piunderline paint QualifiedName Assignment QualifiedName pifill paint
+piunderline stroke paint QualifiedName Assignment QualifiedName pistroke paint
+piunderline stroke QualifiedName Assignment QualifiedName pistroke stroke
+pioverline paint QualifiedName Assignment QualifiedName pifill paint
+pioverline stroke paint QualifiedName Assignment QualifiedName pistroke paint
+pioverline stroke QualifiedName Assignment QualifiedName pistroke stroke
+pistrikethrough paint QualifiedName Assignment QualifiedName pifill paint
+pistrikethrough stroke paint QualifiedName Assignment QualifiedName pistroke paint
+pistrikethrough stroke QualifiedName Assignment QualifiedName pistroke stroke
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral u
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral u
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral u
+u CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral o
+o CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral l
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+val SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css valuecss value list
+get css value type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName css valuecss value list
+val SimpleName MethodInvocation SwitchStatement VariableDeclarationStatement PrimitiveType int
+get css value type SimpleName MethodInvocation SwitchStatement VariableDeclarationStatement PrimitiveType int
+css valuecss value list QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set decoration text paint info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text paint info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pi
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+void PrimitiveType MethodDeclaration SimpleName set decoration text paint info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text paint info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pi
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName element
+set decoration text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text paint info
+set decoration text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pi
+set decoration text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+set decoration text paint info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+pi SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set decoration text paint info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pi
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set decoration text paint info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pi
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

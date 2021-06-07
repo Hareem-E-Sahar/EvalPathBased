@@ -1,0 +1,120 @@
+attributed string SimpleName SimpleType SingleVariableDeclaration SimpleName as
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName get user agent
+svg utilities SimpleName MethodInvocation SimpleName match user agent
+svg utilities SimpleName MethodInvocation SimpleName element
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName ctx
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+match user agent SimpleName MethodInvocation SimpleName element
+match user agent SimpleName MethodInvocation MethodInvocation SimpleName ctx
+match user agent SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+element SimpleName MethodInvocation MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+css utilities SimpleName MethodInvocation SimpleName convert display
+css utilities SimpleName MethodInvocation SimpleName element
+convert display SimpleName MethodInvocation SimpleName element
+as SimpleName MethodInvocation SimpleName get iterator
+aci SimpleName VariableDeclarationFragment MethodInvocation SimpleName as
+aci SimpleName VariableDeclarationFragment MethodInvocation SimpleName get iterator
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aci
+get element start index SimpleName MethodInvocation SimpleName aci
+get element start index SimpleName MethodInvocation SimpleName element
+aci SimpleName MethodInvocation SimpleName element
+first char SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element start index
+first char SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+first char SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get element start index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName element
+first char SimpleName InfixExpression PrefixExpression NumberLiteral empty
+get element end index SimpleName MethodInvocation SimpleName aci
+get element end index SimpleName MethodInvocation SimpleName element
+aci SimpleName MethodInvocation SimpleName element
+last char SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element end index
+last char SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+last char SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName last char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get element end index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName element
+pi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName text paint info
+text paint info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pi
+pivisible QualifiedName Assignment BooleanLiteral true
+pifill paint QualifiedName Assignment QualifiedName colorblack
+last char SimpleName InfixExpression NumberLiteral empty
+as SimpleName MethodInvocation SimpleName add attribute
+as SimpleName MethodInvocation SimpleName paint info
+as SimpleName MethodInvocation SimpleName pi
+as SimpleName MethodInvocation SimpleName first char
+as SimpleName MethodInvocation InfixExpression SimpleName last char
+as SimpleName MethodInvocation InfixExpression NumberLiteral empty
+add attribute SimpleName MethodInvocation SimpleName paint info
+add attribute SimpleName MethodInvocation SimpleName pi
+add attribute SimpleName MethodInvocation SimpleName first char
+add attribute SimpleName MethodInvocation InfixExpression SimpleName last char
+add attribute SimpleName MethodInvocation InfixExpression NumberLiteral empty
+paint info SimpleName MethodInvocation SimpleName pi
+paint info SimpleName MethodInvocation SimpleName first char
+paint info SimpleName MethodInvocation InfixExpression SimpleName last char
+paint info SimpleName MethodInvocation InfixExpression NumberLiteral empty
+pi SimpleName MethodInvocation SimpleName first char
+pi SimpleName MethodInvocation InfixExpression SimpleName last char
+pi SimpleName MethodInvocation InfixExpression NumberLiteral empty
+first char SimpleName MethodInvocation InfixExpression SimpleName last char
+first char SimpleName MethodInvocation InfixExpression NumberLiteral empty
+elem tpi SimpleName MethodInvocation SimpleName put
+elem tpi SimpleName MethodInvocation SimpleName element
+elem tpi SimpleName MethodInvocation SimpleName pi
+put SimpleName MethodInvocation SimpleName element
+put SimpleName MethodInvocation SimpleName pi
+element SimpleName MethodInvocation SimpleName pi
+add child null paint attributes SimpleName MethodInvocation SimpleName as
+add child null paint attributes SimpleName MethodInvocation SimpleName element
+add child null paint attributes SimpleName MethodInvocation SimpleName ctx
+as SimpleName MethodInvocation SimpleName element
+as SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName ctx
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add null paint attributes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName as
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SimpleName add null paint attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName as
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+add null paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+add null paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName as
+add null paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+add null paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+add null paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+add null paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+add null paint attributes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+add null paint attributes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+as SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+as SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add null paint attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add null paint attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

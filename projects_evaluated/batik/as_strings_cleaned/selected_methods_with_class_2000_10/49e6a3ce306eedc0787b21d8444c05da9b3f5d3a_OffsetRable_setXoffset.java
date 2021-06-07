@@ -1,0 +1,21 @@
+double PrimitiveType SingleVariableDeclaration SimpleName dx
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set xoffset
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dx
+void PrimitiveType MethodDeclaration SimpleName set xoffset
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dx
+set xoffset SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+set xoffset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set xoffset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set xoffset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dx

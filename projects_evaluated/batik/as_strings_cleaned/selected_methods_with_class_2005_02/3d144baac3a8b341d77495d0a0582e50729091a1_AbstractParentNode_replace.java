@@ -1,0 +1,114 @@
+extended node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+extended node SimpleName SimpleType SingleVariableDeclaration SimpleName o
+o SimpleName InfixExpression SimpleName first child
+first child SimpleName MethodInvocation SimpleName get next sibling
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName first child
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName get next sibling
+t SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName extended node
+t SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName first child
+t SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get next sibling
+extended node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+n SimpleName MethodInvocation SimpleName set next sibling
+n SimpleName MethodInvocation SimpleName t
+set next sibling SimpleName MethodInvocation SimpleName t
+o SimpleName InfixExpression SimpleName last child
+last child SimpleName Assignment SimpleName n
+t SimpleName MethodInvocation SimpleName set previous sibling
+t SimpleName MethodInvocation SimpleName n
+set previous sibling SimpleName MethodInvocation SimpleName n
+first child SimpleName MethodInvocation SimpleName set next sibling
+first child SimpleName Assignment SimpleName n
+o SimpleName InfixExpression SimpleName last child
+last child SimpleName MethodInvocation SimpleName get previous sibling
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName last child
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName get previous sibling
+t SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName extended node
+t SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName last child
+t SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get previous sibling
+extended node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+n SimpleName MethodInvocation SimpleName set previous sibling
+n SimpleName MethodInvocation SimpleName t
+set previous sibling SimpleName MethodInvocation SimpleName t
+t SimpleName MethodInvocation SimpleName set next sibling
+t SimpleName MethodInvocation SimpleName n
+set next sibling SimpleName MethodInvocation SimpleName n
+last child SimpleName MethodInvocation SimpleName set previous sibling
+last child SimpleName Assignment SimpleName n
+o SimpleName MethodInvocation SimpleName get previous sibling
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName o
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName get previous sibling
+ps SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName extended node
+ps SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName o
+ps SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get previous sibling
+extended node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ps
+o SimpleName MethodInvocation SimpleName get next sibling
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName o
+extended node SimpleName SimpleType CastExpression MethodInvocation SimpleName get next sibling
+ns SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName extended node
+ns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName o
+ns SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get next sibling
+extended node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns
+ps SimpleName MethodInvocation SimpleName get next sibling
+ps SimpleName MethodInvocation InfixExpression SimpleName o
+get next sibling SimpleName MethodInvocation InfixExpression SimpleName o
+ns SimpleName MethodInvocation SimpleName get previous sibling
+ns SimpleName MethodInvocation InfixExpression SimpleName o
+get previous sibling SimpleName MethodInvocation InfixExpression SimpleName o
+ps SimpleName MethodInvocation SimpleName get parent node
+o SimpleName MethodInvocation SimpleName get parent node
+ps SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName o
+ps SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get parent node
+get parent node SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName o
+get parent node SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get parent node
+ns SimpleName MethodInvocation SimpleName get parent node
+o SimpleName MethodInvocation SimpleName get parent node
+ns SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName o
+ns SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get parent node
+get parent node SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName o
+get parent node SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get parent node
+ps SimpleName MethodInvocation SimpleName set next sibling
+ps SimpleName MethodInvocation SimpleName n
+set next sibling SimpleName MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName set previous sibling
+n SimpleName MethodInvocation SimpleName ps
+set previous sibling SimpleName MethodInvocation SimpleName ps
+n SimpleName MethodInvocation SimpleName set next sibling
+n SimpleName MethodInvocation SimpleName ns
+set next sibling SimpleName MethodInvocation SimpleName ns
+ns SimpleName MethodInvocation SimpleName set previous sibling
+ns SimpleName MethodInvocation SimpleName n
+set previous sibling SimpleName MethodInvocation SimpleName n
+o SimpleName MethodInvocation SimpleName set previous sibling
+o SimpleName MethodInvocation SimpleName set next sibling
+o SimpleName MethodInvocation SimpleName get node type
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName o
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+o SimpleName MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot found err
+create dom exception SimpleName MethodInvocation StringLiteral childmissing
+dom exceptionnot found err QualifiedName MethodInvocation StringLiteral childmissing
+public Modifier MethodDeclaration SimpleType SimpleName extended node
+public Modifier MethodDeclaration SimpleName replace
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+extended node SimpleName SimpleType MethodDeclaration SimpleName replace
+extended node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+extended node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName o
+replace SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended node
+replace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+replace SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName extended node
+replace SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName extended node
+public Modifier TypeDeclaration MethodDeclaration SimpleName replace
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName extended node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replace
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

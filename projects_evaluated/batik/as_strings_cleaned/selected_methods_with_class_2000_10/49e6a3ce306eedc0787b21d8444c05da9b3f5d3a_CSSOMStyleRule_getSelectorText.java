@@ -1,0 +1,42 @@
+selectors SimpleName MethodInvocation SimpleName item
+selectors SimpleName MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+selectors SimpleName MethodInvocation MethodInvocation SimpleName to string
+item SimpleName MethodInvocation MethodInvocation SimpleName to string
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName to string
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName selectors
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName item
+result SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation NumberLiteral empty
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+selectors SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName selectors
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+selectors SimpleName MethodInvocation SimpleName item
+selectors SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+empty StringLiteral InfixExpression MethodInvocation SimpleName selectors
+empty StringLiteral InfixExpression MethodInvocation SimpleName item
+empty StringLiteral InfixExpression MethodInvocation SimpleName i
+result SimpleName Assignment InfixExpression StringLiteral empty
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName selectors
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName item
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get selector text
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+string SimpleName SimpleType MethodDeclaration SimpleName get selector text
+get selector text SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get selector text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get selector text

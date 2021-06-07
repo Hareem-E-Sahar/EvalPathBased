@@ -1,0 +1,6 @@
+event support SimpleName SimpleType MethodDeclaration SimpleName get event support
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName event support
+public Modifier TypeDeclaration MethodDeclaration SimpleName get event support
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName event support
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get event support

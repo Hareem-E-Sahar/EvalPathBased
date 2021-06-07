@@ -1,0 +1,19 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ln
+animatable value SimpleName SimpleType MethodDeclaration SimpleName get underlying value
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ns
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ln
+get underlying value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get underlying value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+get underlying value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get underlying value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ln
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get underlying value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get underlying value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln

@@ -1,0 +1,99 @@
+int PrimitiveType SingleVariableDeclaration SimpleName offset
+string SimpleName SimpleType SingleVariableDeclaration SimpleName arg
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+offset SimpleName InfixExpression NumberLiteral empty
+offset SimpleName InfixExpression MethodInvocation SimpleName get length
+offset SimpleName InfixExpression InfixExpression InfixExpression SimpleName offset
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName offset
+integer SimpleName SimpleType ClassInstanceCreation SimpleName offset
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionindex size err
+create dom exception SimpleName MethodInvocation StringLiteral offset
+dom exceptionindex size err QualifiedName MethodInvocation StringLiteral offset
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get node value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName substring
+v SimpleName MethodInvocation NumberLiteral empty
+v SimpleName MethodInvocation SimpleName offset
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName offset
+empty NumberLiteral MethodInvocation SimpleName offset
+v SimpleName MethodInvocation SimpleName length
+v SimpleName MethodInvocation SimpleName substring
+v SimpleName MethodInvocation SimpleName offset
+v SimpleName MethodInvocation MethodInvocation SimpleName v
+v SimpleName MethodInvocation MethodInvocation SimpleName length
+substring SimpleName MethodInvocation SimpleName offset
+substring SimpleName MethodInvocation MethodInvocation SimpleName v
+substring SimpleName MethodInvocation MethodInvocation SimpleName length
+offset SimpleName MethodInvocation MethodInvocation SimpleName v
+offset SimpleName MethodInvocation MethodInvocation SimpleName length
+v SimpleName MethodInvocation InfixExpression SimpleName arg
+substring SimpleName MethodInvocation InfixExpression SimpleName arg
+empty NumberLiteral MethodInvocation InfixExpression SimpleName arg
+offset SimpleName MethodInvocation InfixExpression SimpleName arg
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName offset
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName offset
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName v
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName substring
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName offset
+offset SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+offset SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+offset SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName offset
+arg SimpleName InfixExpression MethodInvocation SimpleName v
+arg SimpleName InfixExpression MethodInvocation SimpleName substring
+arg SimpleName InfixExpression MethodInvocation SimpleName offset
+arg SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName v
+arg SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName length
+set node value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+set node value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+set node value SimpleName MethodInvocation InfixExpression MethodInvocation NumberLiteral empty
+set node value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName offset
+set node value SimpleName MethodInvocation InfixExpression SimpleName arg
+set node value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+set node value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName substring
+set node value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName offset
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName insert data
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName arg
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName insert data
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName offset
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName arg
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+insert data SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+insert data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName offset
+insert data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+insert data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName arg
+insert data SimpleName MethodDeclaration SimpleType SimpleName dom exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+offset SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+offset SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+arg SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName insert data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName insert data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName offset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

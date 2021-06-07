@@ -1,0 +1,20 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+public id SimpleName Assignment SimpleName id
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set public id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleName set public id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+set public id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set public id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set public id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set public id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

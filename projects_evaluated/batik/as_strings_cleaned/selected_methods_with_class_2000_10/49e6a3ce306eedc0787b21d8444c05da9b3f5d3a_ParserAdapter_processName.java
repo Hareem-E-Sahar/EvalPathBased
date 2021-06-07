@@ -1,0 +1,60 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName q name
+boolean PrimitiveType SingleVariableDeclaration SimpleName is attribute
+ns support SimpleName MethodInvocation SimpleName process name
+ns support SimpleName MethodInvocation SimpleName q name
+ns support SimpleName MethodInvocation SimpleName name parts
+ns support SimpleName MethodInvocation SimpleName is attribute
+process name SimpleName MethodInvocation SimpleName q name
+process name SimpleName MethodInvocation SimpleName name parts
+process name SimpleName MethodInvocation SimpleName is attribute
+q name SimpleName MethodInvocation SimpleName name parts
+q name SimpleName MethodInvocation SimpleName is attribute
+name parts SimpleName MethodInvocation SimpleName is attribute
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName ns support
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName process name
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName q name
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName name parts
+parts SimpleName VariableDeclarationFragment MethodInvocation SimpleName is attribute
+string SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+parts SimpleName Assignment ArrayCreation NumberLiteral empty
+parts SimpleName ArrayAccess NumberLiteral empty
+q name SimpleName MethodInvocation SimpleName intern
+parts SimpleName ArrayAccess Assignment MethodInvocation SimpleName q name
+parts SimpleName ArrayAccess Assignment MethodInvocation SimpleName intern
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName q name
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName intern
+undeclared prefix StringLiteral InfixExpression SimpleName q name
+report error SimpleName MethodInvocation InfixExpression StringLiteral undeclared prefix
+report error SimpleName MethodInvocation InfixExpression SimpleName q name
+private Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+private Modifier MethodDeclaration SimpleName process name
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName q name
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName is attribute
+private Modifier MethodDeclaration SimpleType SimpleName sax exception
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName process name
+process name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName q name
+process name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+process name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is attribute
+process name SimpleName MethodDeclaration SimpleType SimpleName sax exception
+process name SimpleName MethodDeclaration Block ReturnStatement SimpleName parts
+q name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+q name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is attribute
+q name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+is attribute SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleName process name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName q name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is attribute
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName q name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

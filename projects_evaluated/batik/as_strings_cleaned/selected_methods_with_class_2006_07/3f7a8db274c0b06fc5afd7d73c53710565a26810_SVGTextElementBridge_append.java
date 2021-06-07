@@ -1,0 +1,41 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+map SimpleName SimpleType SingleVariableDeclaration SimpleName m
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+strings SimpleName MethodInvocation SimpleName add
+strings SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+attributes SimpleName MethodInvocation SimpleName add
+attributes SimpleName MethodInvocation SimpleName m
+add SimpleName MethodInvocation SimpleName m
+s SimpleName MethodInvocation SimpleName length
+length SimpleName Assignment MethodInvocation SimpleName s
+length SimpleName Assignment MethodInvocation SimpleName length
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName append
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName m
+void PrimitiveType MethodDeclaration SimpleName append
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName m
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+append SimpleName MethodDeclaration SingleVariableDeclaration SimpleName m
+s SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName append
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName m

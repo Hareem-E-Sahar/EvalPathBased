@@ -1,0 +1,33 @@
+graphics node change event SimpleName SimpleType SingleVariableDeclaration SimpleName gnce
+selectable SimpleName SimpleType CastExpression SimpleName selection node
+selection node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get highlight shape
+new shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName get highlight shape
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new shape
+selection event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get selection
+selection event SimpleName SimpleType ClassInstanceCreation QualifiedName selection eventselection changed
+selection event SimpleName SimpleType ClassInstanceCreation SimpleName new shape
+get selection SimpleName MethodInvocation ClassInstanceCreation QualifiedName selection eventselection changed
+get selection SimpleName MethodInvocation ClassInstanceCreation SimpleName new shape
+selection eventselection changed QualifiedName ClassInstanceCreation SimpleName new shape
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName selection event
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get selection
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation QualifiedName selection eventselection changed
+dispatch selection event SimpleName MethodInvocation ClassInstanceCreation SimpleName new shape
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName change completed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node change event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName gnce
+void PrimitiveType MethodDeclaration SimpleName change completed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node change event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName gnce
+change completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node change event
+change completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gnce
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName change completed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gnce
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName change completed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gnce

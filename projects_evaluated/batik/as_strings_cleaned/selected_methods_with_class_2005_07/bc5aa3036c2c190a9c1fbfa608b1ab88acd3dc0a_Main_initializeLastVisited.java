@@ -1,0 +1,73 @@
+preference manager SimpleName MethodInvocation SimpleName get string
+preference manager SimpleName MethodInvocation SimpleName preference key visited uri list
+get string SimpleName MethodInvocation SimpleName preference key visited uri list
+last visited str SimpleName VariableDeclarationFragment MethodInvocation SimpleName preference manager
+last visited str SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+last visited str SimpleName VariableDeclarationFragment MethodInvocation SimpleName preference key visited uri list
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName last visited str
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName last visited str
+string tokenizer SimpleName SimpleType ClassInstanceCreation SimpleName uri separator
+last visited str SimpleName ClassInstanceCreation SimpleName uri separator
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string tokenizer
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName last visited str
+st SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName uri separator
+string tokenizer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName st
+st SimpleName MethodInvocation SimpleName count tokens
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName st
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName count tokens
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName st
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName count tokens
+preference manager SimpleName MethodInvocation SimpleName get integer
+preference manager SimpleName MethodInvocation SimpleName preference key visited uri list length
+get integer SimpleName MethodInvocation SimpleName preference key visited uri list length
+max visited ur is SimpleName VariableDeclarationFragment MethodInvocation SimpleName preference manager
+max visited ur is SimpleName VariableDeclarationFragment MethodInvocation SimpleName get integer
+max visited ur is SimpleName VariableDeclarationFragment MethodInvocation SimpleName preference key visited uri list length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max visited ur is
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName preference manager
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName preference key visited uri list length
+n SimpleName InfixExpression SimpleName max visited ur is
+n SimpleName Assignment SimpleName max visited ur is
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName n
+st SimpleName MethodInvocation SimpleName next token
+url decoder SimpleName MethodInvocation SimpleName decode
+url decoder SimpleName MethodInvocation MethodInvocation SimpleName st
+url decoder SimpleName MethodInvocation MethodInvocation SimpleName next token
+decode SimpleName MethodInvocation MethodInvocation SimpleName st
+decode SimpleName MethodInvocation MethodInvocation SimpleName next token
+last visited SimpleName MethodInvocation SimpleName add element
+last visited SimpleName MethodInvocation MethodInvocation SimpleName url decoder
+last visited SimpleName MethodInvocation MethodInvocation SimpleName decode
+last visited SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName st
+last visited SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next token
+add element SimpleName MethodInvocation MethodInvocation SimpleName url decoder
+add element SimpleName MethodInvocation MethodInvocation SimpleName decode
+add element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName st
+add element SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName next token
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName n
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+n SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName initialize last visited
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName initialize last visited
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+initialize last visited SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+initialize last visited SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize last visited
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize last visited

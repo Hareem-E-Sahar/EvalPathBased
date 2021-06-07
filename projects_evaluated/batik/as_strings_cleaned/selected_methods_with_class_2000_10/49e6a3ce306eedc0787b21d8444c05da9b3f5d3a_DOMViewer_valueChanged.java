@@ -1,0 +1,74 @@
+tree selection event SimpleName SimpleType SingleVariableDeclaration SimpleName ev
+default mutable tree node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mtn
+tree SimpleName MethodInvocation SimpleName get last selected path component
+default mutable tree node SimpleName SimpleType CastExpression MethodInvocation SimpleName tree
+default mutable tree node SimpleName SimpleType CastExpression MethodInvocation SimpleName get last selected path component
+mtn SimpleName Assignment CastExpression SimpleType SimpleName default mutable tree node
+mtn SimpleName Assignment CastExpression MethodInvocation SimpleName tree
+mtn SimpleName Assignment CastExpression MethodInvocation SimpleName get last selected path component
+right panel SimpleName MethodInvocation SimpleName get component count
+right panel SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get component count SimpleName MethodInvocation InfixExpression NumberLiteral empty
+right panel SimpleName MethodInvocation SimpleName remove
+right panel SimpleName MethodInvocation NumberLiteral empty
+remove SimpleName MethodInvocation NumberLiteral empty
+mtn SimpleName MethodInvocation SimpleName get user object
+node info SimpleName VariableDeclarationFragment MethodInvocation SimpleName mtn
+node info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get user object
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node info
+node info SimpleName InstanceofExpression SimpleType SimpleName node info
+node info SimpleName SimpleType CastExpression SimpleName node info
+node info SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get node
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get node
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+node SimpleName MethodInvocation SimpleName get node type
+node attributes model SimpleName SimpleType ClassInstanceCreation SimpleName node
+attributes table SimpleName MethodInvocation SimpleName set model
+attributes table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName node attributes model
+attributes table SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+set model SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName node attributes model
+set model SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+node css values model SimpleName SimpleType ClassInstanceCreation SimpleName node
+properties table SimpleName MethodInvocation SimpleName set model
+properties table SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName node css values model
+properties table SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+set model SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName node css values model
+set model SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+right panel SimpleName MethodInvocation SimpleName add
+right panel SimpleName MethodInvocation SimpleName element panel
+add SimpleName MethodInvocation SimpleName element panel
+node SimpleName MethodInvocation SimpleName get node value
+character data SimpleName MethodInvocation SimpleName set text
+character data SimpleName MethodInvocation MethodInvocation SimpleName node
+character data SimpleName MethodInvocation MethodInvocation SimpleName get node value
+set text SimpleName MethodInvocation MethodInvocation SimpleName node
+set text SimpleName MethodInvocation MethodInvocation SimpleName get node value
+right panel SimpleName MethodInvocation SimpleName add
+right panel SimpleName MethodInvocation SimpleName character data panel
+add SimpleName MethodInvocation SimpleName character data panel
+node SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodeelement node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodeelement node
+nodeelement node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodecomment node
+nodecomment node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodetext node
+nodecomment node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodecdata section node
+nodetext node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodecdata section node
+split pane SimpleName MethodInvocation SimpleName revalidate
+split pane SimpleName MethodInvocation SimpleName repaint
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName value changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tree selection event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ev
+void PrimitiveType MethodDeclaration SimpleName value changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tree selection event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ev
+value changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tree selection event
+value changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ev
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName value changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ev
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName value changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ev

@@ -1,0 +1,41 @@
+update tracker SimpleName MethodInvocation SimpleName has changed
+system SimpleName MethodInvocation SimpleName current time millis
+ctime SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+ctime SimpleName VariableDeclarationFragment MethodInvocation SimpleName current time millis
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctime
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName system
+long PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName current time millis
+ctime SimpleName InfixExpression SimpleName out of date time
+ctime SimpleName InfixExpression InfixExpression SimpleName min repaint time
+out of date time SimpleName InfixExpression InfixExpression SimpleName min repaint time
+update runnable queue SimpleName MethodInvocation SimpleName get iterator lock
+update runnable queue SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName update runnable queue
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+i SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName no repaint runnable
+next SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName no repaint runnable
+update tracker SimpleName MethodInvocation SimpleName get dirty areas
+dirty areas SimpleName VariableDeclarationFragment MethodInvocation SimpleName update tracker
+dirty areas SimpleName VariableDeclarationFragment MethodInvocation SimpleName get dirty areas
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName dirty areas
+update tracker SimpleName MethodInvocation SimpleName clear
+update rendering SimpleName MethodInvocation SimpleName dirty areas
+update rendering SimpleName MethodInvocation BooleanLiteral false
+dirty areas SimpleName MethodInvocation BooleanLiteral false
+out of date time SimpleName Assignment NumberLiteral empty
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName repaint
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+void PrimitiveType MethodDeclaration SimpleName repaint
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+repaint SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType long
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName repaint
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName repaint

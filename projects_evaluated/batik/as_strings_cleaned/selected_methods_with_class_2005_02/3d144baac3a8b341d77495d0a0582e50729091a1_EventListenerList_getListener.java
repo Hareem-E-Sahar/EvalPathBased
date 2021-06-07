@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName event listener
+public Modifier MethodDeclaration SimpleName get listener
+public Modifier MethodDeclaration Block ReturnStatement SimpleName listener
+event listener SimpleName SimpleType MethodDeclaration SimpleName get listener
+get listener SimpleName MethodDeclaration Block ReturnStatement SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName event listener
+public Modifier TypeDeclaration MethodDeclaration SimpleName get listener
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName event listener
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get listener

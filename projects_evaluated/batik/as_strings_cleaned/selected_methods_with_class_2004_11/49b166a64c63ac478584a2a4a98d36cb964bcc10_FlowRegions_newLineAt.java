@@ -1,0 +1,45 @@
+double PrimitiveType SingleVariableDeclaration SimpleName y
+double PrimitiveType SingleVariableDeclaration SimpleName line height
+sr SimpleName MethodInvocation SimpleName get below
+sl SimpleName Assignment MethodInvocation SimpleName sr
+sl SimpleName Assignment MethodInvocation SimpleName get below
+sl SimpleName InfixExpression IfStatement ReturnStatement BooleanLiteral false
+current y SimpleName Assignment SimpleName y
+new line height SimpleName MethodInvocation SimpleName line height
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName new line at
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName y
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName line height
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName new line at
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName y
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName line height
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+new line at SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+new line at SimpleName MethodDeclaration SingleVariableDeclaration SimpleName y
+new line at SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+new line at SimpleName MethodDeclaration SingleVariableDeclaration SimpleName line height
+new line at SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line height
+y SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+y SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line height
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName new line at
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line height
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new line at
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line height

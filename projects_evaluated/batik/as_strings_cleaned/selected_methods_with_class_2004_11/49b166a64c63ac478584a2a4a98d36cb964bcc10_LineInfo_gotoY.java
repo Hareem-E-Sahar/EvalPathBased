@@ -1,0 +1,40 @@
+double PrimitiveType SingleVariableDeclaration SimpleName y
+fr SimpleName MethodInvocation SimpleName goto y
+fr SimpleName MethodInvocation SimpleName y
+goto y SimpleName MethodInvocation SimpleName y
+fr SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+goto y SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+y SimpleName MethodInvocation IfStatement ReturnStatement BooleanLiteral true
+line height SimpleName InfixExpression NumberLiteral empty
+fr SimpleName MethodInvocation SimpleName get current y
+fr SimpleName MethodInvocation InfixExpression SimpleName h leading
+get current y SimpleName MethodInvocation InfixExpression SimpleName h leading
+fr SimpleName MethodInvocation InfixExpression SimpleName ascent
+get current y SimpleName MethodInvocation InfixExpression SimpleName ascent
+h leading SimpleName InfixExpression SimpleName ascent
+float PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName h leading
+float PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName ascent
+baseline SimpleName FieldAccess Assignment CastExpression PrimitiveType float
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName goto y
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName y
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName goto y
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName y
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+goto y SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+goto y SimpleName MethodDeclaration SingleVariableDeclaration SimpleName y
+goto y SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName goto y
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName goto y
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y

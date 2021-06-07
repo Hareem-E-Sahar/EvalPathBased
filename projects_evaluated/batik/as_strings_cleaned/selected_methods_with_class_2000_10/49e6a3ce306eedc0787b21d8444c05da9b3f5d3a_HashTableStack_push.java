@@ -1,0 +1,13 @@
+link SimpleName SimpleType ClassInstanceCreation SimpleName current
+current SimpleName Assignment ClassInstanceCreation SimpleType SimpleName link
+current SimpleName Assignment ClassInstanceCreation SimpleName current
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName push
+void PrimitiveType MethodDeclaration SimpleName push
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName push
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName push

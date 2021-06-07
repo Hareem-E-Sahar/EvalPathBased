@@ -1,0 +1,60 @@
+node value SimpleName MethodInvocation SimpleName length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName node value
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName node value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+node value SimpleName MethodInvocation SimpleName char at
+node value SimpleName MethodInvocation SimpleName i
+char at SimpleName MethodInvocation SimpleName i
+xml utilities SimpleName MethodInvocation SimpleName is xml space
+xml utilities SimpleName MethodInvocation MethodInvocation SimpleName node value
+xml utilities SimpleName MethodInvocation MethodInvocation SimpleName char at
+xml utilities SimpleName MethodInvocation MethodInvocation SimpleName i
+is xml space SimpleName MethodInvocation MethodInvocation SimpleName node value
+is xml space SimpleName MethodInvocation MethodInvocation SimpleName char at
+is xml space SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName get node type
+p SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName p
+xml support SimpleName MethodInvocation SimpleName get xml space
+xml support SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+xml support SimpleName MethodInvocation CastExpression SimpleName p
+get xml space SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+get xml space SimpleName MethodInvocation CastExpression SimpleName p
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName xml support
+sp SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xml space
+sp SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName p
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sp
+sp SimpleName MethodInvocation SimpleName equals
+sp SimpleName MethodInvocation QualifiedName xml constantsxml preserve value
+equals SimpleName MethodInvocation QualifiedName xml constantsxml preserve value
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is element content whitespace
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is element content whitespace
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is element content whitespace SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+is element content whitespace SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is element content whitespace
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is element content whitespace

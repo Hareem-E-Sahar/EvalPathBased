@@ -1,0 +1,63 @@
+int PrimitiveType SingleVariableDeclaration SimpleName int count
+int PrimitiveType ArrayType SingleVariableDeclaration SimpleName int array
+empty NumberLiteral InfixExpression SimpleName int count
+byte count SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+byte count SimpleName VariableDeclarationFragment InfixExpression SimpleName int count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName byte count
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName int count
+byte PrimitiveType ArrayType ArrayCreation SimpleName byte count
+byte array SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+byte array SimpleName VariableDeclarationFragment ArrayCreation SimpleName byte count
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName byte array
+stream SimpleName MethodInvocation SimpleName read fully
+stream SimpleName MethodInvocation SimpleName byte array
+stream SimpleName MethodInvocation NumberLiteral empty
+stream SimpleName MethodInvocation SimpleName byte count
+read fully SimpleName MethodInvocation SimpleName byte array
+read fully SimpleName MethodInvocation NumberLiteral empty
+read fully SimpleName MethodInvocation SimpleName byte count
+byte array SimpleName MethodInvocation NumberLiteral empty
+byte array SimpleName MethodInvocation SimpleName byte count
+empty NumberLiteral MethodInvocation SimpleName byte count
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ioe
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral tiff image
+interpret bytes as ints SimpleName MethodInvocation SimpleName byte array
+interpret bytes as ints SimpleName MethodInvocation SimpleName int array
+interpret bytes as ints SimpleName MethodInvocation SimpleName int count
+byte array SimpleName MethodInvocation SimpleName int array
+byte array SimpleName MethodInvocation SimpleName int count
+int array SimpleName MethodInvocation SimpleName int count
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName read ints
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName int count
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName int array
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName read ints
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName int count
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName int array
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+read ints SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+read ints SimpleName MethodDeclaration SingleVariableDeclaration SimpleName int count
+read ints SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType int
+read ints SimpleName MethodDeclaration SingleVariableDeclaration SimpleName int array
+read ints SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName int array
+int count SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName int array
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName read ints
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName int count
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName int array
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read ints
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName int count
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName int array

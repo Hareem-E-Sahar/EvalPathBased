@@ -1,0 +1,54 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName family name
+family name SimpleName MethodInvocation SimpleName to lower case
+family name SimpleName Assignment MethodInvocation SimpleName family name
+family name SimpleName Assignment MethodInvocation SimpleName to lower case
+resolved font families SimpleName MethodInvocation SimpleName get
+resolved font families SimpleName MethodInvocation SimpleName family name
+get SimpleName MethodInvocation SimpleName family name
+gvt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName resolved font families
+gvt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+gvt font family SimpleName SimpleType CastExpression MethodInvocation SimpleName family name
+resolved ff SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName gvt font family
+resolved ff SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName resolved font families
+resolved ff SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+resolved ff SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName family name
+gvt font family SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName resolved ff
+fonts SimpleName MethodInvocation SimpleName get
+fonts SimpleName MethodInvocation SimpleName family name
+get SimpleName MethodInvocation SimpleName family name
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName fonts
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName family name
+awt family name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+awt family name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName fonts
+awt family name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+awt family name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName family name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName awt family name
+awt font family SimpleName SimpleType ClassInstanceCreation SimpleName awt family name
+resolved ff SimpleName Assignment ClassInstanceCreation SimpleType SimpleName awt font family
+resolved ff SimpleName Assignment ClassInstanceCreation SimpleName awt family name
+resolved font families SimpleName MethodInvocation SimpleName put
+resolved font families SimpleName MethodInvocation SimpleName family name
+resolved font families SimpleName MethodInvocation SimpleName resolved ff
+put SimpleName MethodInvocation SimpleName family name
+put SimpleName MethodInvocation SimpleName resolved ff
+family name SimpleName MethodInvocation SimpleName resolved ff
+public Modifier MethodDeclaration SimpleType SimpleName gvt font family
+public Modifier MethodDeclaration SimpleName resolve
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName family name
+public Modifier MethodDeclaration Block ReturnStatement SimpleName resolved ff
+gvt font family SimpleName SimpleType MethodDeclaration SimpleName resolve
+gvt font family SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName family name
+resolve SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+resolve SimpleName MethodDeclaration SingleVariableDeclaration SimpleName family name
+resolve SimpleName MethodDeclaration Block ReturnStatement SimpleName resolved ff
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName gvt font family
+public Modifier TypeDeclaration MethodDeclaration SimpleName resolve
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName family name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName gvt font family
+test SimpleName TypeDeclaration MethodDeclaration SimpleName resolve
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName family name

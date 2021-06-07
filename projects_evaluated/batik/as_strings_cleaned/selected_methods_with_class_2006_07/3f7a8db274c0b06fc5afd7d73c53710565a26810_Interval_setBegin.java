@@ -1,0 +1,36 @@
+float PrimitiveType SingleVariableDeclaration SimpleName begin
+float SimpleName SimpleType ClassInstanceCreation SimpleName begin
+trace SimpleName MethodInvocation SimpleName enter
+trace SimpleName MethodInvocation StringLiteral set begin
+enter SimpleName MethodInvocation StringLiteral set begin
+begin SimpleName FieldAccess Assignment SimpleName begin
+begin dependents SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName begin dependents
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+instance time SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+instance time SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+it SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName instance time
+it SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+it SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+instance time SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName dependent update
+it SimpleName MethodInvocation SimpleName begin
+dependent update SimpleName MethodInvocation SimpleName begin
+trace SimpleName MethodInvocation SimpleName exit
+void PrimitiveType MethodDeclaration SimpleName set begin
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName begin
+set begin SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set begin SimpleName MethodDeclaration SingleVariableDeclaration SimpleName begin
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set begin
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set begin
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName begin

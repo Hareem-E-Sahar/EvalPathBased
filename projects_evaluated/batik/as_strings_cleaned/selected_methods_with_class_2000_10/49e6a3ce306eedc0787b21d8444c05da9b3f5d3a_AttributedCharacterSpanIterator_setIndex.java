@@ -1,0 +1,52 @@
+int PrimitiveType SingleVariableDeclaration SimpleName position
+math SimpleName MethodInvocation SimpleName min
+math SimpleName MethodInvocation SimpleName end
+math SimpleName MethodInvocation SimpleName position
+min SimpleName MethodInvocation SimpleName end
+min SimpleName MethodInvocation SimpleName position
+end SimpleName MethodInvocation SimpleName position
+ndx SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+ndx SimpleName VariableDeclarationFragment MethodInvocation SimpleName min
+ndx SimpleName VariableDeclarationFragment MethodInvocation SimpleName end
+ndx SimpleName VariableDeclarationFragment MethodInvocation SimpleName position
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ndx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName min
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName end
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName position
+math SimpleName MethodInvocation SimpleName max
+math SimpleName MethodInvocation SimpleName position
+math SimpleName MethodInvocation SimpleName begin
+max SimpleName MethodInvocation SimpleName position
+max SimpleName MethodInvocation SimpleName begin
+position SimpleName MethodInvocation SimpleName begin
+ndx SimpleName Assignment MethodInvocation SimpleName math
+ndx SimpleName Assignment MethodInvocation SimpleName max
+ndx SimpleName Assignment MethodInvocation SimpleName position
+ndx SimpleName Assignment MethodInvocation SimpleName begin
+aci SimpleName MethodInvocation SimpleName set index
+aci SimpleName MethodInvocation SimpleName ndx
+set index SimpleName MethodInvocation SimpleName ndx
+public Modifier MethodDeclaration PrimitiveType char
+public Modifier MethodDeclaration SimpleName set index
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName position
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+char PrimitiveType MethodDeclaration SimpleName set index
+char PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+char PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName position
+char PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+set index SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set index SimpleName MethodDeclaration SingleVariableDeclaration SimpleName position
+set index SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName set index
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName position
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set index
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName position

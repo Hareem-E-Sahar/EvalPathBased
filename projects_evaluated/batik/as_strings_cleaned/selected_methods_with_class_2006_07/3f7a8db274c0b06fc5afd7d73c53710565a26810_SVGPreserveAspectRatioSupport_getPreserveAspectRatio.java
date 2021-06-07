@@ -1,0 +1,61 @@
+abstract element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+svgom animated preserve aspect ratio SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+elt SimpleName MethodInvocation SimpleName get live attribute value
+elt SimpleName MethodInvocation QualifiedName svg constantssvg preserve aspect ratio attribute
+get live attribute value SimpleName MethodInvocation QualifiedName svg constantssvg preserve aspect ratio attribute
+svgom animated preserve aspect ratio SimpleName SimpleType CastExpression MethodInvocation SimpleName elt
+svgom animated preserve aspect ratio SimpleName SimpleType CastExpression MethodInvocation SimpleName get live attribute value
+svgom animated preserve aspect ratio SimpleName SimpleType CastExpression MethodInvocation QualifiedName svg constantssvg preserve aspect ratio attribute
+ret SimpleName Assignment CastExpression SimpleType SimpleName svgom animated preserve aspect ratio
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName elt
+ret SimpleName Assignment CastExpression MethodInvocation SimpleName get live attribute value
+ret SimpleName Assignment CastExpression MethodInvocation QualifiedName svg constantssvg preserve aspect ratio attribute
+elt SimpleName MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName elt
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom document
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName elt
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+svgom animated preserve aspect ratio SimpleName SimpleType ClassInstanceCreation SimpleName elt
+ret SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svgom animated preserve aspect ratio
+ret SimpleName Assignment ClassInstanceCreation SimpleName elt
+doc SimpleName MethodInvocation SimpleName get animated attribute listener
+ret SimpleName MethodInvocation SimpleName add animated attribute listener
+ret SimpleName MethodInvocation MethodInvocation SimpleName doc
+ret SimpleName MethodInvocation MethodInvocation SimpleName get animated attribute listener
+add animated attribute listener SimpleName MethodInvocation MethodInvocation SimpleName doc
+add animated attribute listener SimpleName MethodInvocation MethodInvocation SimpleName get animated attribute listener
+elt SimpleName MethodInvocation SimpleName put live attribute value
+elt SimpleName MethodInvocation QualifiedName svg constantssvg preserve aspect ratio attribute
+elt SimpleName MethodInvocation SimpleName ret
+put live attribute value SimpleName MethodInvocation QualifiedName svg constantssvg preserve aspect ratio attribute
+put live attribute value SimpleName MethodInvocation SimpleName ret
+svg constantssvg preserve aspect ratio attribute QualifiedName MethodInvocation SimpleName ret
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName svg animated preserve aspect ratio
+public Modifier MethodDeclaration SimpleName get preserve aspect ratio
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+static Modifier MethodDeclaration SimpleType SimpleName svg animated preserve aspect ratio
+static Modifier MethodDeclaration SimpleName get preserve aspect ratio
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+svg animated preserve aspect ratio SimpleName SimpleType MethodDeclaration SimpleName get preserve aspect ratio
+svg animated preserve aspect ratio SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+get preserve aspect ratio SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract element
+get preserve aspect ratio SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+get preserve aspect ratio SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated preserve aspect ratio
+public Modifier TypeDeclaration MethodDeclaration SimpleName get preserve aspect ratio
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg animated preserve aspect ratio
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get preserve aspect ratio
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt

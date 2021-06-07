@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+set attribute ns SimpleName MethodInvocation SimpleName svg type attribute
+set attribute ns SimpleName MethodInvocation SimpleName type
+svg type attribute SimpleName MethodInvocation SimpleName type
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+set type SimpleName MethodDeclaration SimpleType SimpleName dom exception
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

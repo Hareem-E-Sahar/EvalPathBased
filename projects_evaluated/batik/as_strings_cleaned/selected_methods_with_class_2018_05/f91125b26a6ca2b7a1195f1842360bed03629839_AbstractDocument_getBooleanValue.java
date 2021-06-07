@@ -1,0 +1,18 @@
+result type SimpleName InfixExpression SimpleName boolean type
+int PrimitiveType CastExpression SimpleName result type
+create x path exception SimpleName MethodInvocation QualifiedName x path exceptiontype err
+create x path exception SimpleName MethodInvocation StringLiteral xpathinvalidresulttype
+x path exceptiontype err QualifiedName MethodInvocation StringLiteral xpathinvalidresulttype
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName get boolean value
+public Modifier MethodDeclaration Block ReturnStatement SimpleName boolean value
+boolean PrimitiveType MethodDeclaration SimpleName get boolean value
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName boolean value
+get boolean value SimpleName MethodDeclaration Block ReturnStatement SimpleName boolean value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName get boolean value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get boolean value

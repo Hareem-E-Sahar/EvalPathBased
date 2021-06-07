@@ -1,0 +1,13 @@
+size SimpleName MethodInvocation SimpleName clone
+dimension d SimpleName SimpleType CastExpression MethodInvocation SimpleName size
+dimension d SimpleName SimpleType CastExpression MethodInvocation SimpleName clone
+public Modifier MethodDeclaration SimpleType SimpleName dimension d
+public Modifier MethodDeclaration SimpleName get size
+dimension d SimpleName SimpleType MethodDeclaration SimpleName get size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dimension d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dimension d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get size

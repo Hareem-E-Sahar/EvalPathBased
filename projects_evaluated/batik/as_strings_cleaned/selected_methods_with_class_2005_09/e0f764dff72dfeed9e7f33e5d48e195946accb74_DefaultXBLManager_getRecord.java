@@ -1,0 +1,36 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+xbl manager data SimpleName SimpleType CastExpression SimpleName n
+xmd SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName xbl manager data
+xmd SimpleName VariableDeclarationFragment CastExpression SimpleName n
+xbl manager data SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName xmd
+xmd SimpleName MethodInvocation SimpleName get manager data
+xbl record SimpleName SimpleType CastExpression MethodInvocation SimpleName xmd
+xbl record SimpleName SimpleType CastExpression MethodInvocation SimpleName get manager data
+rec SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName xbl record
+rec SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName xmd
+rec SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get manager data
+xbl record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rec
+rec SimpleName Assignment ClassInstanceCreation SimpleType SimpleName xbl record
+recnode QualifiedName Assignment SimpleName n
+xmd SimpleName MethodInvocation SimpleName set manager data
+xmd SimpleName MethodInvocation SimpleName rec
+set manager data SimpleName MethodInvocation SimpleName rec
+protected Modifier MethodDeclaration SimpleType SimpleName xbl record
+protected Modifier MethodDeclaration SimpleName get record
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName rec
+xbl record SimpleName SimpleType MethodDeclaration SimpleName get record
+xbl record SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get record SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get record SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+get record SimpleName MethodDeclaration Block ReturnStatement SimpleName rec
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xbl record
+public Modifier TypeDeclaration MethodDeclaration SimpleName get record
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xbl record
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get record
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

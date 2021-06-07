@@ -1,0 +1,27 @@
+list SimpleName MethodInvocation SimpleName remove
+elements by id SimpleName MethodInvocation SimpleName remove
+elements by id SimpleName MethodInvocation SimpleName id
+remove SimpleName MethodInvocation SimpleName id
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName elements by id
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName remove
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName id
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+elements by id SimpleName MethodInvocation SimpleName put
+elements by id SimpleName MethodInvocation SimpleName id
+elements by id SimpleName MethodInvocation SimpleName o
+put SimpleName MethodInvocation SimpleName id
+put SimpleName MethodInvocation SimpleName o
+id SimpleName MethodInvocation SimpleName o
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName cleared
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName elements by id
+void PrimitiveType MethodDeclaration SimpleName cleared
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName elements by id
+cleared SimpleName MethodDeclaration Block SynchronizedStatement SimpleName elements by id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName cleared
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName cleared

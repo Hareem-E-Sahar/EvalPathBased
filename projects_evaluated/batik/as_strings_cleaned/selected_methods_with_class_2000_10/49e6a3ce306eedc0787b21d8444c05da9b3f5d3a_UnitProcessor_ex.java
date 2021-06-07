@@ -1,0 +1,16 @@
+unit SimpleName FieldAccess Assignment QualifiedName svg lengthsvg lengthtype exs
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName ex
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleName ex
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+ex SimpleName MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName ex
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ex
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

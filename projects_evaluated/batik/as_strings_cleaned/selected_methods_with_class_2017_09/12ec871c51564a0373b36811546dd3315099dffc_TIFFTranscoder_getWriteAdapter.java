@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName class name
+write adapter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName adapter
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation SimpleName class name
+for name SimpleName MethodInvocation SimpleName class name
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName class
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName for name
+clazz SimpleName VariableDeclarationFragment MethodInvocation SimpleName class name
+class SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName clazz
+clazz SimpleName MethodInvocation SimpleName get declared constructor
+clazz SimpleName MethodInvocation MethodInvocation SimpleName new instance
+get declared constructor SimpleName MethodInvocation MethodInvocation SimpleName new instance
+write adapter SimpleName SimpleType CastExpression MethodInvocation SimpleName new instance
+adapter SimpleName Assignment CastExpression SimpleType SimpleName write adapter
+adapter SimpleName Assignment CastExpression MethodInvocation SimpleName new instance
+class not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+instantiation exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+illegal access exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+no such method exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+invocation target exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+private Modifier MethodDeclaration SimpleType SimpleName write adapter
+private Modifier MethodDeclaration SimpleName get write adapter
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName class name
+write adapter SimpleName SimpleType MethodDeclaration SimpleName get write adapter
+write adapter SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName class name
+get write adapter SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get write adapter SimpleName MethodDeclaration SingleVariableDeclaration SimpleName class name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName write adapter
+public Modifier TypeDeclaration MethodDeclaration SimpleName get write adapter
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName write adapter
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get write adapter
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName class name

@@ -1,0 +1,88 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName new child
+node SimpleName SimpleType SingleVariableDeclaration SimpleName old child
+old child SimpleName MethodInvocation SimpleName get node type
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName old child
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+old child SimpleName MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot found err
+create dom exception SimpleName MethodInvocation StringLiteral childmissing
+dom exceptionnot found err QualifiedName MethodInvocation StringLiteral childmissing
+check and remove SimpleName MethodInvocation SimpleName new child
+new child SimpleName MethodInvocation SimpleName get node type
+new child SimpleName MethodInvocation InfixExpression SimpleName document fragment node
+get node type SimpleName MethodInvocation InfixExpression SimpleName document fragment node
+new child SimpleName MethodInvocation SimpleName get last child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName new child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get last child
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+old child SimpleName MethodInvocation SimpleName get next sibling
+ps SimpleName VariableDeclarationFragment MethodInvocation SimpleName old child
+ps SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ps
+replace child SimpleName MethodInvocation SimpleName n
+replace child SimpleName MethodInvocation SimpleName old child
+n SimpleName MethodInvocation SimpleName old child
+n SimpleName MethodInvocation SimpleName get previous sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get previous sibling
+insert before SimpleName MethodInvocation SimpleName n
+insert before SimpleName MethodInvocation SimpleName ps
+n SimpleName MethodInvocation SimpleName ps
+n SimpleName MethodInvocation SimpleName get previous sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get previous sibling
+fire dom node removed event SimpleName MethodInvocation SimpleName old child
+extended node SimpleName SimpleType CastExpression SimpleName new child
+n SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName extended node
+n SimpleName VariableDeclarationFragment CastExpression SimpleName new child
+extended node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+extended node SimpleName SimpleType CastExpression SimpleName old child
+child nodes SimpleName MethodInvocation SimpleName replace
+child nodes SimpleName MethodInvocation SimpleName n
+child nodes SimpleName MethodInvocation CastExpression SimpleType SimpleName extended node
+child nodes SimpleName MethodInvocation CastExpression SimpleName old child
+replace SimpleName MethodInvocation SimpleName n
+replace SimpleName MethodInvocation CastExpression SimpleType SimpleName extended node
+replace SimpleName MethodInvocation CastExpression SimpleName old child
+n SimpleName MethodInvocation CastExpression SimpleType SimpleName extended node
+n SimpleName MethodInvocation CastExpression SimpleName old child
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName child nodes
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName replace
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+o SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName old child
+extended node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+n SimpleName MethodInvocation SimpleName set parent node
+o SimpleName MethodInvocation SimpleName set parent node
+fire dom node inserted event SimpleName MethodInvocation SimpleName n
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName replace child
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new child
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName old child
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+node SimpleName SimpleType MethodDeclaration SimpleName replace child
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new child
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName old child
+node SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+replace child SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+replace child SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new child
+replace child SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+replace child SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old child
+replace child SimpleName MethodDeclaration SimpleType SimpleName dom exception
+new child SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old child
+new child SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+old child SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName replace child
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new child
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old child
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replace child
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new child
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old child
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

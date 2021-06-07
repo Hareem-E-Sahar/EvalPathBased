@@ -1,0 +1,101 @@
+lexical unit SimpleName SimpleType SingleVariableDeclaration SimpleName lu
+css engine SimpleName SimpleType SingleVariableDeclaration SimpleName engine
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName lu
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get string value
+lu SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get string value SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+lu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName intern
+get string value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName intern
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName intern
+id SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to lower case
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName intern
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+id SimpleName InfixExpression QualifiedName css constantscss accumulate value
+id SimpleName InfixExpression QualifiedName css constantscss new value
+create invalid identifier dom exception SimpleName MethodInvocation SimpleName id
+list value SimpleName SimpleType ClassInstanceCreation CharacterLiteral empty
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName list value
+result SimpleName VariableDeclarationFragment ClassInstanceCreation CharacterLiteral empty
+list value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation QualifiedName svg value constantsnew value
+append SimpleName MethodInvocation QualifiedName svg value constantsnew value
+lu SimpleName MethodInvocation SimpleName get next lexical unit
+lu SimpleName Assignment MethodInvocation SimpleName lu
+lu SimpleName Assignment MethodInvocation SimpleName get next lexical unit
+create value SimpleName SuperMethodInvocation SimpleName lu
+create value SimpleName SuperMethodInvocation SimpleName engine
+lu SimpleName SuperMethodInvocation SimpleName engine
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation SuperMethodInvocation SimpleName create value
+result SimpleName MethodInvocation SuperMethodInvocation SimpleName lu
+result SimpleName MethodInvocation SuperMethodInvocation SimpleName engine
+append SimpleName MethodInvocation SuperMethodInvocation SimpleName create value
+append SimpleName MethodInvocation SuperMethodInvocation SimpleName lu
+append SimpleName MethodInvocation SuperMethodInvocation SimpleName engine
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+lu SimpleName MethodInvocation SimpleName get next lexical unit
+lu SimpleName Assignment MethodInvocation SimpleName lu
+lu SimpleName Assignment MethodInvocation SimpleName get next lexical unit
+create value SimpleName SuperMethodInvocation SimpleName lu
+create value SimpleName SuperMethodInvocation SimpleName engine
+lu SimpleName SuperMethodInvocation SimpleName engine
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation SuperMethodInvocation SimpleName create value
+result SimpleName MethodInvocation SuperMethodInvocation SimpleName lu
+result SimpleName MethodInvocation SuperMethodInvocation SimpleName engine
+append SimpleName MethodInvocation SuperMethodInvocation SimpleName create value
+append SimpleName MethodInvocation SuperMethodInvocation SimpleName lu
+append SimpleName MethodInvocation SuperMethodInvocation SimpleName engine
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac inherit
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac inherit
+lu SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName svg value constantsinherit value
+get lexical unit type SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName svg value constantsinherit value
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+lexical unitsac inherit QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName svg value constantsinherit value
+lexical unitsac inherit QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+svg value constantsinherit value QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName create value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lu
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName engine
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+value SimpleName SimpleType MethodDeclaration SimpleName create value
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName lu
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName engine
+value SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lu
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName engine
+create value SimpleName MethodDeclaration SimpleType SimpleName dom exception
+lu SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+lu SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+engine SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName create value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

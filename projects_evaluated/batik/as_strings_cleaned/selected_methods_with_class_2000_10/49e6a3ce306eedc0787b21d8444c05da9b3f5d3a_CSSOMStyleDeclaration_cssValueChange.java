@@ -1,0 +1,50 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prop
+css value SimpleName SimpleType SingleVariableDeclaration SimpleName old v
+css value SimpleName SimpleType SingleVariableDeclaration SimpleName new v
+declaration change support SimpleName MethodInvocation SimpleName fire css property change
+declaration change support SimpleName MethodInvocation SimpleName prop
+declaration change support SimpleName MethodInvocation SimpleName old v
+declaration change support SimpleName MethodInvocation SimpleName new v
+fire css property change SimpleName MethodInvocation SimpleName prop
+fire css property change SimpleName MethodInvocation SimpleName old v
+fire css property change SimpleName MethodInvocation SimpleName new v
+prop SimpleName MethodInvocation SimpleName old v
+prop SimpleName MethodInvocation SimpleName new v
+old v SimpleName MethodInvocation SimpleName new v
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName css value change
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prop
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName old v
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new v
+void PrimitiveType MethodDeclaration SimpleName css value change
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prop
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old v
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new v
+css value change SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+css value change SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prop
+css value change SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css value
+css value change SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old v
+css value change SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css value
+css value change SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new v
+prop SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old v
+prop SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new v
+old v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName css value change
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prop
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName css value change
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prop
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new v

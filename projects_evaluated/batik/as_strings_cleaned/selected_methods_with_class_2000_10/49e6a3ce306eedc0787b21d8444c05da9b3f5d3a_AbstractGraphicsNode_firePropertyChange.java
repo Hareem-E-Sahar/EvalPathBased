@@ -1,0 +1,63 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+object SimpleName SimpleType SingleVariableDeclaration SimpleName old value
+object SimpleName SimpleType SingleVariableDeclaration SimpleName new value
+pcs SimpleName MethodInvocation SimpleName fire property change
+pcs SimpleName MethodInvocation SimpleName property name
+pcs SimpleName MethodInvocation SimpleName old value
+pcs SimpleName MethodInvocation SimpleName new value
+fire property change SimpleName MethodInvocation SimpleName property name
+fire property change SimpleName MethodInvocation SimpleName old value
+fire property change SimpleName MethodInvocation SimpleName new value
+property name SimpleName MethodInvocation SimpleName old value
+property name SimpleName MethodInvocation SimpleName new value
+old value SimpleName MethodInvocation SimpleName new value
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get root
+root graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+concrete root graphics node SimpleName SimpleType CastExpression SimpleName root
+root SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName fire global property change
+root SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName property name
+root SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName old value
+root SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName new value
+fire global property change SimpleName MethodInvocation SimpleName property name
+fire global property change SimpleName MethodInvocation SimpleName old value
+fire global property change SimpleName MethodInvocation SimpleName new value
+property name SimpleName MethodInvocation SimpleName old value
+property name SimpleName MethodInvocation SimpleName new value
+old value SimpleName MethodInvocation SimpleName new value
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName fire property change
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName old value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName new value
+void PrimitiveType MethodDeclaration SimpleName fire property change
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName old value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new value
+fire property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+fire property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+fire property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+fire property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleName old value
+fire property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+fire property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new value
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old value
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new value
+old value SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fire property change
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new value
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fire property change
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName old value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new value

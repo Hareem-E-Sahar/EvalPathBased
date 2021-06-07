@@ -1,0 +1,11 @@
+xblom content element SimpleName SimpleType CastExpression SimpleName source
+public Modifier MethodDeclaration SimpleType SimpleName xblom content element
+public Modifier MethodDeclaration SimpleName get content element
+xblom content element SimpleName SimpleType MethodDeclaration SimpleName get content element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xblom content element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get content element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xblom content element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get content element

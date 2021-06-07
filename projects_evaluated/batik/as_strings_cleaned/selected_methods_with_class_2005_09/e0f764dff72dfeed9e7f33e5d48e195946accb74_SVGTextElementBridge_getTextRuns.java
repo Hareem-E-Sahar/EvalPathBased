@@ -1,0 +1,21 @@
+text node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+node SimpleName MethodInvocation SimpleName get text runs
+node SimpleName MethodInvocation SimpleName get primitive bounds
+node SimpleName MethodInvocation SimpleName get text runs
+protected Modifier MethodDeclaration SimpleType SimpleName list
+protected Modifier MethodDeclaration SimpleName get text runs
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+list SimpleName SimpleType MethodDeclaration SimpleName get text runs
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+get text runs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+get text runs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get text runs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get text runs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

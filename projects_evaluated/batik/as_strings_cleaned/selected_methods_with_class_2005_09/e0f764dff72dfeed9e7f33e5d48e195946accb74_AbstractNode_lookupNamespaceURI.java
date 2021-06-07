@@ -1,0 +1,122 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+abstract node SimpleName SimpleType CastExpression MethodInvocation SimpleName get document element
+de SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+de SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get document element
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName de
+de SimpleName MethodInvocation SimpleName lookup namespace uri
+de SimpleName MethodInvocation SimpleName prefix
+lookup namespace uri SimpleName MethodInvocation SimpleName prefix
+abstract node SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner element
+owner SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+owner SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner element
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName owner
+owner SimpleName MethodInvocation SimpleName lookup namespace uri
+owner SimpleName MethodInvocation SimpleName prefix
+lookup namespace uri SimpleName MethodInvocation SimpleName prefix
+nnm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nnm
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+nnm SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName nnm
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+nnm SimpleName MethodInvocation SimpleName item
+nnm SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName nnm
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get prefix
+attr prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+attr prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName get prefix
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr prefix
+attr SimpleName MethodInvocation SimpleName get local name
+local name SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+local name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local name
+attr SimpleName MethodInvocation SimpleName get node name
+local name SimpleName Assignment MethodInvocation SimpleName attr
+local name SimpleName Assignment MethodInvocation SimpleName get node name
+xml constantsxmlns prefix QualifiedName MethodInvocation SimpleName equals
+xml constantsxmlns prefix QualifiedName MethodInvocation SimpleName attr prefix
+equals SimpleName MethodInvocation SimpleName attr prefix
+compare strings SimpleName MethodInvocation SimpleName local name
+compare strings SimpleName MethodInvocation SimpleName prefix
+local name SimpleName MethodInvocation SimpleName prefix
+xml constantsxmlns prefix QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName compare strings
+xml constantsxmlns prefix QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName local name
+xml constantsxmlns prefix QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName prefix
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare strings
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prefix
+attr prefix SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName compare strings
+attr prefix SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName local name
+attr prefix SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName prefix
+xml constantsxmlns prefix QualifiedName MethodInvocation SimpleName equals
+xml constantsxmlns prefix QualifiedName MethodInvocation SimpleName local name
+equals SimpleName MethodInvocation SimpleName local name
+xml constantsxmlns prefix QualifiedName MethodInvocation InfixExpression InfixExpression SimpleName prefix
+equals SimpleName MethodInvocation InfixExpression InfixExpression SimpleName prefix
+local name SimpleName MethodInvocation InfixExpression InfixExpression SimpleName prefix
+attr SimpleName MethodInvocation SimpleName get node value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get node value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName MethodInvocation SimpleName length
+value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get parent node
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression SimpleName element node
+get node type SimpleName MethodInvocation InfixExpression SimpleName element node
+abstract node SimpleName SimpleType CastExpression SimpleName n
+an SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+an SimpleName VariableDeclarationFragment CastExpression SimpleName n
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName an
+an SimpleName MethodInvocation SimpleName lookup namespace uri
+an SimpleName MethodInvocation SimpleName prefix
+lookup namespace uri SimpleName MethodInvocation SimpleName prefix
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName document node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName entity node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName notation node
+document node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName entity node
+document node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName notation node
+document node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document type node
+entity node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName notation node
+entity node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document type node
+entity node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document fragment node
+entity node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName attribute node
+notation node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document type node
+notation node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document fragment node
+notation node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName attribute node
+document type node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName document fragment node
+document type node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName attribute node
+document fragment node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName attribute node
+attribute node SimpleName SwitchCase SwitchStatement SwitchCase SimpleName element node
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName lookup namespace uri
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+string SimpleName SimpleType MethodDeclaration SimpleName lookup namespace uri
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName prefix
+lookup namespace uri SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+lookup namespace uri SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName lookup namespace uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lookup namespace uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix

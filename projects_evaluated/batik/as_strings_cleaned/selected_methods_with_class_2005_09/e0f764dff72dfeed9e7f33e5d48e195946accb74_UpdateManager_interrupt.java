@@ -1,0 +1,27 @@
+update runnable queue SimpleName MethodInvocation SimpleName get thread
+running SimpleName Assignment BooleanLiteral false
+scripting environment SimpleName MethodInvocation SimpleName interrupt
+update runnable queue SimpleName MethodInvocation SimpleName get thread
+update runnable queue SimpleName MethodInvocation MethodInvocation SimpleName halt
+get thread SimpleName MethodInvocation MethodInvocation SimpleName halt
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+update runnable queue SimpleName MethodInvocation SimpleName preempt later
+update runnable queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+preempt later SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName interrupt
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName interrupt
+void PrimitiveType MethodDeclaration SimpleName interrupt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName interrupt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName interrupt

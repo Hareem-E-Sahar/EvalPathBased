@@ -1,0 +1,29 @@
+system SimpleName MethodInvocation SimpleName get property
+system SimpleName MethodInvocation StringLiteral javaiotmpdir
+get property SimpleName MethodInvocation StringLiteral javaiotmpdir
+tmp dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName system
+tmp dir SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+tmp dir SimpleName VariableDeclarationFragment MethodInvocation StringLiteral javaiotmpdir
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp dir
+file SimpleName SimpleType ClassInstanceCreation SimpleName tmp dir
+temp directory SimpleName Assignment ClassInstanceCreation SimpleType SimpleName file
+temp directory SimpleName Assignment ClassInstanceCreation SimpleName tmp dir
+temp directory SimpleName MethodInvocation SimpleName exists
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName file
+public Modifier MethodDeclaration SimpleName get temp directory
+public Modifier MethodDeclaration Block ReturnStatement SimpleName temp directory
+static Modifier MethodDeclaration SimpleType SimpleName file
+static Modifier MethodDeclaration SimpleName get temp directory
+static Modifier MethodDeclaration Block ReturnStatement SimpleName temp directory
+file SimpleName SimpleType MethodDeclaration SimpleName get temp directory
+get temp directory SimpleName MethodDeclaration Block ReturnStatement SimpleName temp directory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName file
+public Modifier TypeDeclaration MethodDeclaration SimpleName get temp directory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName file
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get temp directory

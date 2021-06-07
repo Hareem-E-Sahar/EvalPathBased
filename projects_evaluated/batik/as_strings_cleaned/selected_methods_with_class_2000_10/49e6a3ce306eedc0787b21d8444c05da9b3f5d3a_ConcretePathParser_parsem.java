@@ -1,0 +1,30 @@
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse float
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse float
+path handler SimpleName MethodInvocation SimpleName moveto rel
+path handler SimpleName MethodInvocation SimpleName x
+path handler SimpleName MethodInvocation SimpleName y
+moveto rel SimpleName MethodInvocation SimpleName x
+moveto rel SimpleName MethodInvocation SimpleName y
+x SimpleName MethodInvocation SimpleName y
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+report error SimpleName MethodInvocation StringLiteral floatformat
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parsem
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleName parsem
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+parsem SimpleName MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parsem
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parsem
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

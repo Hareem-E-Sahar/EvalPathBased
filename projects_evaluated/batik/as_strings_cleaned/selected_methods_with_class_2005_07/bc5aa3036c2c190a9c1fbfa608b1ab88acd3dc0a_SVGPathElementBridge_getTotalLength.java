@@ -1,0 +1,13 @@
+pl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get path length obj
+path length SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pl
+pl SimpleName MethodInvocation SimpleName length of path
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get total length
+float PrimitiveType MethodDeclaration SimpleName get total length
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get total length
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get total length

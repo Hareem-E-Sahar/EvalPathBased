@@ -1,0 +1,54 @@
+prefix SimpleName MethodInvocation SimpleName equals
+prefix SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+prefix SimpleName InfixExpression InfixExpression MethodInvocation SimpleName prefix
+prefix SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+prefix SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral empty
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln
+prefix SimpleName MethodInvocation SimpleName length
+ln SimpleName MethodInvocation SimpleName length
+prefix SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+prefix SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+length SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+prefix SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ln SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+string buffer SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation InfixExpression NumberLiteral empty
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName prefix
+append SimpleName MethodInvocation SimpleName prefix
+sb SimpleName MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+prefix SimpleName MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+append SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+prefix SimpleName MethodInvocation MethodInvocation CharacterLiteral :
+append SimpleName MethodInvocation CharacterLiteral :
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+prefix SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName append
+append SimpleName MethodInvocation MethodInvocation SimpleName append
+: CharacterLiteral MethodInvocation MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ln
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ln
+prefix SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName ln
+append SimpleName MethodInvocation MethodInvocation SimpleName ln
+: CharacterLiteral MethodInvocation MethodInvocation SimpleName ln
+append SimpleName MethodInvocation SimpleName ln
+sb SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get node name
+string SimpleName SimpleType MethodDeclaration SimpleName get node name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get node name
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get node name

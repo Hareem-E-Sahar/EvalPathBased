@@ -1,0 +1,13 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pn
+int PrimitiveType MethodDeclaration SimpleName get property type
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pn
+get property type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get property type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get property type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get property type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn

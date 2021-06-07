@@ -1,0 +1,29 @@
+abstract document SimpleName SimpleType CastExpression SimpleName document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleName document
+abstract document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get xbl manager
+default xbl manager SimpleName SimpleType CastExpression MethodInvocation SimpleName doc
+default xbl manager SimpleName SimpleType CastExpression MethodInvocation SimpleName get xbl manager
+xm SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName default xbl manager
+xm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName doc
+xm SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get xbl manager
+default xbl manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName xm
+binding listener SimpleName Assignment ClassInstanceCreation SimpleType SimpleName xbl binding listener
+xm SimpleName MethodInvocation SimpleName add binding listener
+xm SimpleName MethodInvocation SimpleName binding listener
+add binding listener SimpleName MethodInvocation SimpleName binding listener
+content listener SimpleName Assignment ClassInstanceCreation SimpleType SimpleName xbl content listener
+xm SimpleName MethodInvocation SimpleName add content selection changed listener
+xm SimpleName MethodInvocation SimpleName content listener
+add content selection changed listener SimpleName MethodInvocation SimpleName content listener
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add binding listener
+void PrimitiveType MethodDeclaration SimpleName add binding listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add binding listener
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add binding listener

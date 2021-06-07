@@ -1,0 +1,21 @@
+count SimpleName InfixExpression NumberLiteral empty
+live attribute exception SimpleName SimpleType ClassInstanceCreation SimpleName element
+live attribute exception SimpleName SimpleType ClassInstanceCreation SimpleName local name
+live attribute exception SimpleName SimpleType ClassInstanceCreation QualifiedName live attribute exceptionerr attribute malformed
+live attribute exception SimpleName SimpleType ClassInstanceCreation SimpleName s
+element SimpleName ClassInstanceCreation SimpleName local name
+element SimpleName ClassInstanceCreation QualifiedName live attribute exceptionerr attribute malformed
+element SimpleName ClassInstanceCreation SimpleName s
+local name SimpleName ClassInstanceCreation QualifiedName live attribute exceptionerr attribute malformed
+local name SimpleName ClassInstanceCreation SimpleName s
+live attribute exceptionerr attribute malformed QualifiedName ClassInstanceCreation SimpleName s
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName end number list
+void PrimitiveType MethodDeclaration SimpleName end number list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName end number list
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName end number list

@@ -1,0 +1,19 @@
+calendar SimpleName SimpleType SingleVariableDeclaration SimpleName time
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName wallclock
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName calendar
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName time
+void PrimitiveType MethodDeclaration SimpleName wallclock
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName calendar
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName time
+wallclock SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName calendar
+wallclock SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName wallclock
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName wallclock
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time

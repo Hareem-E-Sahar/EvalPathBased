@@ -1,0 +1,103 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+rendering hints SimpleName SimpleType SingleVariableDeclaration SimpleName hints
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginecolor rendering index
+e SimpleName MethodInvocation QualifiedName svgcss enginecolor rendering index
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+v SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss enginecolor rendering index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get string value
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+len SimpleName InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+len SimpleName InfixExpression NumberLiteral empty
+len SimpleName InfixExpression IfStatement ReturnStatement SimpleName hints
+empty NumberLiteral InfixExpression IfStatement ReturnStatement SimpleName hints
+hints SimpleName Assignment ClassInstanceCreation SimpleType SimpleName rendering hints
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey color rendering
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue color render speed
+put SimpleName MethodInvocation QualifiedName rendering hintskey color rendering
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue color render speed
+rendering hintskey color rendering QualifiedName MethodInvocation QualifiedName rendering hintsvalue color render speed
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey alpha interpolation
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue alpha interpolation speed
+put SimpleName MethodInvocation QualifiedName rendering hintskey alpha interpolation
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue alpha interpolation speed
+rendering hintskey alpha interpolation QualifiedName MethodInvocation QualifiedName rendering hintsvalue alpha interpolation speed
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey color rendering
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue color render quality
+put SimpleName MethodInvocation QualifiedName rendering hintskey color rendering
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue color render quality
+rendering hintskey color rendering QualifiedName MethodInvocation QualifiedName rendering hintsvalue color render quality
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey alpha interpolation
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue alpha interpolation quality
+put SimpleName MethodInvocation QualifiedName rendering hintskey alpha interpolation
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue alpha interpolation quality
+rendering hintskey alpha interpolation QualifiedName MethodInvocation QualifiedName rendering hintsvalue alpha interpolation quality
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral s
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral s
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral s
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral q
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral q
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral q
+s CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral q
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName hints
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName rendering hints
+public Modifier MethodDeclaration SimpleName convert color rendering
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rendering hints
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hints
+static Modifier MethodDeclaration SimpleType SimpleName rendering hints
+static Modifier MethodDeclaration SimpleName convert color rendering
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rendering hints
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName hints
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName hints
+rendering hints SimpleName SimpleType MethodDeclaration SimpleName convert color rendering
+rendering hints SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+rendering hints SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hints
+convert color rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert color rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+convert color rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rendering hints
+convert color rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hints
+convert color rendering SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+convert color rendering SimpleName MethodDeclaration Block ReturnStatement SimpleName hints
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hints
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rendering hints
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert color rendering
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hints
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rendering hints
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert color rendering
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hints

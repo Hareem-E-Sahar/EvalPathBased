@@ -1,0 +1,64 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pn
+abstract stylable document SimpleName SimpleType CastExpression SimpleName owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract stylable document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleName owner document
+abstract stylable document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get css engine
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css engine
+css engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eng
+eng SimpleName MethodInvocation SimpleName get property index
+eng SimpleName MethodInvocation SimpleName pn
+get property index SimpleName MethodInvocation SimpleName pn
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName eng
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property index
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName pn
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName eng
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pn
+idx SimpleName InfixExpression PrefixExpression NumberLiteral empty
+eng SimpleName MethodInvocation SimpleName get value managers
+vms SimpleName VariableDeclarationFragment MethodInvocation SimpleName eng
+vms SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value managers
+vms SimpleName ArrayAccess SimpleName idx
+vms SimpleName ArrayAccess MethodInvocation SimpleName is additive property
+idx SimpleName ArrayAccess MethodInvocation SimpleName is additive property
+eng SimpleName MethodInvocation SimpleName get shorthand index
+eng SimpleName MethodInvocation SimpleName pn
+get shorthand index SimpleName MethodInvocation SimpleName pn
+idx SimpleName Assignment MethodInvocation SimpleName eng
+idx SimpleName Assignment MethodInvocation SimpleName get shorthand index
+idx SimpleName Assignment MethodInvocation SimpleName pn
+idx SimpleName InfixExpression PrefixExpression NumberLiteral empty
+eng SimpleName MethodInvocation SimpleName get shorthand managers
+sms SimpleName VariableDeclarationFragment MethodInvocation SimpleName eng
+sms SimpleName VariableDeclarationFragment MethodInvocation SimpleName get shorthand managers
+sms SimpleName ArrayAccess SimpleName idx
+sms SimpleName ArrayAccess MethodInvocation SimpleName is additive property
+idx SimpleName ArrayAccess MethodInvocation SimpleName is additive property
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is property additive
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pn
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is property additive
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pn
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is property additive SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+is property additive SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pn
+is property additive SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+is property additive SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is property additive
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is property additive
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn

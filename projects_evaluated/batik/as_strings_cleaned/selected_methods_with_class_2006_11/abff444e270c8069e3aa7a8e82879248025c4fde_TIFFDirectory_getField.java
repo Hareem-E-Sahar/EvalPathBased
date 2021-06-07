@@ -1,0 +1,36 @@
+int PrimitiveType SingleVariableDeclaration SimpleName tag
+integer SimpleName SimpleType ClassInstanceCreation SimpleName tag
+field index SimpleName MethodInvocation SimpleName get
+field index SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+field index SimpleName MethodInvocation ClassInstanceCreation SimpleName tag
+get SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName integer
+get SimpleName MethodInvocation ClassInstanceCreation SimpleName tag
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName field index
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+i SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName integer
+i SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName field index
+i SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName int value
+fields SimpleName ArrayAccess MethodInvocation SimpleName i
+fields SimpleName ArrayAccess MethodInvocation SimpleName int value
+public Modifier MethodDeclaration SimpleType SimpleName tiff field
+public Modifier MethodDeclaration SimpleName get field
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tag
+tiff field SimpleName SimpleType MethodDeclaration SimpleName get field
+tiff field SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+tiff field SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tag
+get field SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get field SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tag
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tiff field
+public Modifier TypeDeclaration MethodDeclaration SimpleName get field
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tag
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tiff field
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get field
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tag

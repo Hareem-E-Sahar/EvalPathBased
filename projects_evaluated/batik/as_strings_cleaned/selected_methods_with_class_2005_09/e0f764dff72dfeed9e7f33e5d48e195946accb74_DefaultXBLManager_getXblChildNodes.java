@@ -1,0 +1,35 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+get xbl definitions SimpleName MethodInvocation SimpleName n
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xbl definitions
+nl SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+node list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName nl
+nl SimpleName MethodInvocation SimpleName get length
+nl SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+n SimpleName MethodInvocation SimpleName get child nodes
+get record SimpleName MethodInvocation SimpleName n
+rec SimpleName VariableDeclarationFragment MethodInvocation SimpleName get record
+rec SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+xbl record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rec
+xbl child nodes SimpleName SimpleType ClassInstanceCreation SimpleName rec
+recchild nodes QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName xbl child nodes
+recchild nodes QualifiedName Assignment ClassInstanceCreation SimpleName rec
+public Modifier MethodDeclaration SimpleType SimpleName node list
+public Modifier MethodDeclaration SimpleName get xbl child nodes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName recchild nodes
+node list SimpleName SimpleType MethodDeclaration SimpleName get xbl child nodes
+node list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get xbl child nodes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get xbl child nodes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+get xbl child nodes SimpleName MethodDeclaration Block ReturnStatement QualifiedName recchild nodes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get xbl child nodes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get xbl child nodes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

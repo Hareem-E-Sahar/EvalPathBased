@@ -1,0 +1,20 @@
+bridge SimpleName SimpleType SingleVariableDeclaration SimpleName bridge
+default bridge SimpleName Assignment SimpleName bridge
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set default bridge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName bridge
+void PrimitiveType MethodDeclaration SimpleName set default bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bridge
+set default bridge SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge
+set default bridge SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bridge
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set default bridge
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bridge
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set default bridge
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bridge

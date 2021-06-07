@@ -1,0 +1,44 @@
+svg animated boolean SimpleName SimpleType SingleVariableDeclaration SimpleName a
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName val
+svgom animated boolean SimpleName SimpleType CastExpression SimpleName a
+ab SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom animated boolean
+ab SimpleName VariableDeclarationFragment CastExpression SimpleName a
+svgom animated boolean SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ab
+ab SimpleName MethodInvocation SimpleName reset animated value
+animatable boolean value SimpleName SimpleType CastExpression SimpleName val
+anim boolean SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable boolean value
+anim boolean SimpleName VariableDeclarationFragment CastExpression SimpleName val
+animatable boolean value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anim boolean
+anim boolean SimpleName MethodInvocation SimpleName get value
+ab SimpleName MethodInvocation SimpleName set animated value
+ab SimpleName MethodInvocation MethodInvocation SimpleName anim boolean
+ab SimpleName MethodInvocation MethodInvocation SimpleName get value
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim boolean
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get value
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update boolean attribute value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName update boolean attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+update boolean attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated boolean
+update boolean attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+update boolean attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+update boolean attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+a SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update boolean attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update boolean attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

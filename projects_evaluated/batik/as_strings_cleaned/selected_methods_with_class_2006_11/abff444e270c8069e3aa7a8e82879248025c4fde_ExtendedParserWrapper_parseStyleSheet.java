@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+parser SimpleName MethodInvocation SimpleName parse style sheet
+parser SimpleName MethodInvocation SimpleName uri
+parse style sheet SimpleName MethodInvocation SimpleName uri
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName parse style sheet
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName parse style sheet
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName uri
+void PrimitiveType MethodDeclaration SimpleType SimpleName css exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+parse style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse style sheet SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+parse style sheet SimpleName MethodDeclaration SimpleType SimpleName css exception
+parse style sheet SimpleName MethodDeclaration SimpleType SimpleName io exception
+uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+uri SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+css exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse style sheet
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse style sheet
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

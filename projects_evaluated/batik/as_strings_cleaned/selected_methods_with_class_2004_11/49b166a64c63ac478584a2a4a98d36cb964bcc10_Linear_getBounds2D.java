@@ -1,0 +1,50 @@
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+y SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+y SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+w SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+p x QualifiedName InfixExpression QualifiedName p x
+x SimpleName Assignment QualifiedName p x
+p x QualifiedName InfixExpression QualifiedName p x
+w SimpleName Assignment InfixExpression QualifiedName p x
+w SimpleName Assignment InfixExpression QualifiedName p x
+x SimpleName Assignment QualifiedName p x
+p x QualifiedName InfixExpression QualifiedName p x
+w SimpleName Assignment InfixExpression QualifiedName p x
+w SimpleName Assignment InfixExpression QualifiedName p x
+p y QualifiedName InfixExpression QualifiedName p y
+y SimpleName Assignment QualifiedName p y
+p y QualifiedName InfixExpression QualifiedName p y
+h SimpleName Assignment InfixExpression QualifiedName p y
+h SimpleName Assignment InfixExpression QualifiedName p y
+y SimpleName Assignment QualifiedName p y
+p y QualifiedName InfixExpression QualifiedName p y
+h SimpleName Assignment InfixExpression QualifiedName p y
+h SimpleName Assignment InfixExpression QualifiedName p y
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName x
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName y
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName w
+rectangle ddouble QualifiedName SimpleType ClassInstanceCreation SimpleName h
+x SimpleName ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName w
+x SimpleName ClassInstanceCreation SimpleName h
+y SimpleName ClassInstanceCreation SimpleName w
+y SimpleName ClassInstanceCreation SimpleName h
+w SimpleName ClassInstanceCreation SimpleName h
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName get bounds d
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get bounds d
+get bounds d SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bounds d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bounds d

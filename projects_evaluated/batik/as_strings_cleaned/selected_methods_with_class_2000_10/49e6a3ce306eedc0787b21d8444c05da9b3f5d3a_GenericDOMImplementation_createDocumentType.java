@@ -1,0 +1,40 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName qualified name
+string SimpleName SimpleType SingleVariableDeclaration SimpleName public id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName system id
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionnot supported err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral doctype not supported
+dom exceptionnot supported err QualifiedName ClassInstanceCreation StringLiteral doctype not supported
+public Modifier MethodDeclaration SimpleType SimpleName document type
+public Modifier MethodDeclaration SimpleName create document type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName public id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName system id
+document type SimpleName SimpleType MethodDeclaration SimpleName create document type
+document type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+document type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName public id
+document type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName system id
+create document type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create document type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+create document type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create document type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName public id
+create document type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create document type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName system id
+qualified name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName public id
+qualified name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+public id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName document type
+public Modifier TypeDeclaration MethodDeclaration SimpleName create document type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName public id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName document type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create document type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName qualified name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName public id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName system id

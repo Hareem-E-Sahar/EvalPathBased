@@ -1,0 +1,13 @@
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName get orientation
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName vertical orientation
+int PrimitiveType MethodDeclaration SimpleName get orientation
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName vertical orientation
+get orientation SimpleName MethodDeclaration Block ReturnStatement SimpleName vertical orientation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get orientation
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get orientation

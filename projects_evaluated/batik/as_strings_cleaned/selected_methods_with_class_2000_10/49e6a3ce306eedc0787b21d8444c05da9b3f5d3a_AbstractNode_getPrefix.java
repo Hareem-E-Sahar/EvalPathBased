@@ -1,0 +1,13 @@
+dom utilities SimpleName MethodInvocation SimpleName get prefix
+dom utilities SimpleName MethodInvocation MethodInvocation SimpleName get node name
+get prefix SimpleName MethodInvocation MethodInvocation SimpleName get node name
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get prefix
+string SimpleName SimpleType MethodDeclaration SimpleName get prefix
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get prefix
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get prefix

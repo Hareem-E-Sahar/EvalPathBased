@@ -1,0 +1,16 @@
+objs SimpleName MethodInvocation SimpleName remove
+objs SimpleName MethodInvocation SimpleName desc
+remove SimpleName MethodInvocation SimpleName desc
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName cleared
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName objs
+void PrimitiveType MethodDeclaration SimpleName cleared
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName objs
+cleared SimpleName MethodDeclaration Block SynchronizedStatement SimpleName objs
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName cleared
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName cleared

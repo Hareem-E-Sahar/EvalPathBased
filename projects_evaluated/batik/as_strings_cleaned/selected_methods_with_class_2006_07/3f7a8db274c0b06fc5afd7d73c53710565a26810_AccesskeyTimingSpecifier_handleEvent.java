@@ -1,0 +1,64 @@
+event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName matched
+e SimpleName MethodInvocation SimpleName get type
+e SimpleName MethodInvocation MethodInvocation SimpleName char at
+get type SimpleName MethodInvocation MethodInvocation SimpleName char at
+e SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+get type SimpleName MethodInvocation MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+e SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral p
+get type SimpleName MethodInvocation MethodInvocation InfixExpression CharacterLiteral p
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral p
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral p
+dom key event SimpleName SimpleType CastExpression SimpleName e
+evt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName dom key event
+evt SimpleName VariableDeclarationFragment CastExpression SimpleName e
+dom key event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName evt
+evt SimpleName MethodInvocation SimpleName get char code
+evt SimpleName MethodInvocation InfixExpression SimpleName accesskey
+get char code SimpleName MethodInvocation InfixExpression SimpleName accesskey
+matched SimpleName Assignment InfixExpression MethodInvocation SimpleName evt
+matched SimpleName Assignment InfixExpression MethodInvocation SimpleName get char code
+matched SimpleName Assignment InfixExpression SimpleName accesskey
+keyboard event SimpleName SimpleType CastExpression SimpleName e
+evt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName keyboard event
+evt SimpleName VariableDeclarationFragment CastExpression SimpleName e
+keyboard event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName evt
+evt SimpleName MethodInvocation SimpleName get key identifier
+evt SimpleName MethodInvocation MethodInvocation SimpleName equals
+get key identifier SimpleName MethodInvocation MethodInvocation SimpleName equals
+evt SimpleName MethodInvocation MethodInvocation SimpleName key name
+get key identifier SimpleName MethodInvocation MethodInvocation SimpleName key name
+equals SimpleName MethodInvocation SimpleName key name
+matched SimpleName Assignment MethodInvocation MethodInvocation SimpleName evt
+matched SimpleName Assignment MethodInvocation MethodInvocation SimpleName get key identifier
+matched SimpleName Assignment MethodInvocation SimpleName equals
+matched SimpleName Assignment MethodInvocation SimpleName key name
+owner SimpleName MethodInvocation SimpleName event occurred
+owner SimpleName MethodInvocation SimpleName e
+event occurred SimpleName MethodInvocation SimpleName e
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName matched
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+public Modifier MethodDeclaration Block IfStatement SimpleName matched
+void PrimitiveType MethodDeclaration SimpleName handle event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName matched
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+handle event SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+handle event SimpleName MethodDeclaration Block IfStatement SimpleName matched
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

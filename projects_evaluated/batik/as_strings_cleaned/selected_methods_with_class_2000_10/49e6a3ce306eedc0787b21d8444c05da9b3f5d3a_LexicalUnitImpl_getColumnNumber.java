@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get column number
+public Modifier MethodDeclaration Block ReturnStatement SimpleName column
+int PrimitiveType MethodDeclaration SimpleName get column number
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName column
+get column number SimpleName MethodDeclaration Block ReturnStatement SimpleName column
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get column number
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get column number

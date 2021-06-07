@@ -1,0 +1,22 @@
+parser class SimpleName MethodInvocation SimpleName new instance
+parser SimpleName SimpleType CastExpression MethodInvocation SimpleName parser class
+parser SimpleName SimpleType CastExpression MethodInvocation SimpleName new instance
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName e
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName parser
+public Modifier MethodDeclaration SimpleName create parser
+static Modifier MethodDeclaration SimpleType SimpleName parser
+static Modifier MethodDeclaration SimpleName create parser
+parser SimpleName SimpleType MethodDeclaration SimpleName create parser
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parser
+public Modifier TypeDeclaration MethodDeclaration SimpleName create parser
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parser
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create parser

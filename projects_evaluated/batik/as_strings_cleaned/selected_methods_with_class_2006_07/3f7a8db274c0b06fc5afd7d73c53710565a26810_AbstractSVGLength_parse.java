@@ -1,0 +1,34 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+length parser SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName length parser
+length parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName length parser
+ur SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName unit processorunit resolver
+unit processorunit resolver QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ur
+length parser SimpleName MethodInvocation SimpleName set length handler
+length parser SimpleName MethodInvocation SimpleName ur
+set length handler SimpleName MethodInvocation SimpleName ur
+length parser SimpleName MethodInvocation SimpleName parse
+length parser SimpleName MethodInvocation SimpleName s
+parse SimpleName MethodInvocation SimpleName s
+unit type SimpleName Assignment QualifiedName urunit
+value SimpleName Assignment QualifiedName urvalue
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+unit type SimpleName Assignment SimpleName svg lengthtype unknown
+value SimpleName Assignment NumberLiteral empty
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleName parse
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

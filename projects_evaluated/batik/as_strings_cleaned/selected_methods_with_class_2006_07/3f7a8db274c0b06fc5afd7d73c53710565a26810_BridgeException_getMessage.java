@@ -1,0 +1,62 @@
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+lname SimpleName VariableDeclarationFragment StringLiteral unknown element
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lname
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral unknown element
+svg document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+e SimpleName MethodInvocation SimpleName get owner document
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+svg document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName Assignment CastExpression SimpleType SimpleName svg document
+doc SimpleName Assignment CastExpression MethodInvocation SimpleName e
+doc SimpleName Assignment CastExpression MethodInvocation SimpleName get owner document
+e SimpleName MethodInvocation SimpleName get local name
+lname SimpleName Assignment MethodInvocation SimpleName e
+lname SimpleName Assignment MethodInvocation SimpleName get local name
+uri SimpleName Assignment StringLiteral unknown document
+doc SimpleName MethodInvocation SimpleName get url
+uri SimpleName Assignment MethodInvocation SimpleName doc
+uri SimpleName Assignment MethodInvocation SimpleName get url
+paramslength QualifiedName InfixExpression NumberLiteral empty
+fullparams SimpleName VariableDeclarationFragment ArrayCreation InfixExpression QualifiedName paramslength
+fullparams SimpleName VariableDeclarationFragment ArrayCreation InfixExpression NumberLiteral empty
+fullparams SimpleName ArrayAccess NumberLiteral empty
+fullparams SimpleName ArrayAccess Assignment SimpleName uri
+empty NumberLiteral ArrayAccess Assignment SimpleName uri
+fullparams SimpleName ArrayAccess NumberLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation SimpleName line
+fullparams SimpleName ArrayAccess Assignment ClassInstanceCreation SimpleName line
+empty NumberLiteral ArrayAccess Assignment ClassInstanceCreation SimpleName line
+fullparams SimpleName ArrayAccess NumberLiteral empty
+fullparams SimpleName ArrayAccess Assignment SimpleName lname
+empty NumberLiteral ArrayAccess Assignment SimpleName lname
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName paramslength
+i SimpleName InfixExpression NumberLiteral empty
+fullparams SimpleName ArrayAccess InfixExpression SimpleName i
+fullparams SimpleName ArrayAccess InfixExpression NumberLiteral empty
+params SimpleName ArrayAccess SimpleName i
+fullparams SimpleName ArrayAccess Assignment ArrayAccess SimpleName params
+fullparams SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName paramslength
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+paramslength QualifiedName InfixExpression ForStatement PrefixExpression SimpleName i
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation SimpleName code
+messages SimpleName MethodInvocation SimpleName fullparams
+format message SimpleName MethodInvocation SimpleName code
+format message SimpleName MethodInvocation SimpleName fullparams
+code SimpleName MethodInvocation SimpleName fullparams
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get message
+string SimpleName SimpleType MethodDeclaration SimpleName get message
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get message
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get message

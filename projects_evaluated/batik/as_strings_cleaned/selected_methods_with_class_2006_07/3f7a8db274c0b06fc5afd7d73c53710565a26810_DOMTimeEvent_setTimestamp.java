@@ -1,0 +1,22 @@
+long PrimitiveType SingleVariableDeclaration SimpleName time stamp
+time stamp SimpleName FieldAccess Assignment SimpleName time stamp
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set timestamp
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName time stamp
+void PrimitiveType MethodDeclaration SimpleName set timestamp
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType long
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName time stamp
+set timestamp SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType long
+set timestamp SimpleName MethodDeclaration SingleVariableDeclaration SimpleName time stamp
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set timestamp
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time stamp
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set timestamp
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType long
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName time stamp

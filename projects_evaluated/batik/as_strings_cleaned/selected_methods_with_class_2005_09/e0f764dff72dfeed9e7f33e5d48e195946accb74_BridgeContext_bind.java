@@ -1,0 +1,51 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+element node map SimpleName Assignment ClassInstanceCreation SimpleType SimpleName weak hash map
+node element map SimpleName Assignment ClassInstanceCreation SimpleType SimpleName weak hash map
+soft reference SimpleName SimpleType ClassInstanceCreation SimpleName node
+element node map SimpleName MethodInvocation SimpleName put
+element node map SimpleName MethodInvocation SimpleName element
+element node map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+element node map SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+put SimpleName MethodInvocation SimpleName element
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+element SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+element SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+soft reference SimpleName SimpleType ClassInstanceCreation SimpleName element
+node element map SimpleName MethodInvocation SimpleName put
+node element map SimpleName MethodInvocation SimpleName node
+node element map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+node element map SimpleName MethodInvocation ClassInstanceCreation SimpleName element
+put SimpleName MethodInvocation SimpleName node
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName element
+node SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+node SimpleName MethodInvocation ClassInstanceCreation SimpleName element
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName bind
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleName bind
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+bind SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+bind SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+bind SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+bind SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName bind
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName bind
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

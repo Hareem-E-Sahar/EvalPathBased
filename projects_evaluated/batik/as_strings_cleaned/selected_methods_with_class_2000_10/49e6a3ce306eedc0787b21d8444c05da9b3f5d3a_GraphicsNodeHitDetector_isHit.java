@@ -1,0 +1,29 @@
+graphics node SimpleName SimpleType SingleVariableDeclaration SimpleName target
+point d SimpleName SimpleType SingleVariableDeclaration SimpleName p
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is hit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+boolean PrimitiveType MethodDeclaration SimpleName is hit
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName p
+is hit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node
+is hit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+is hit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+is hit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+target SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is hit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is hit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p

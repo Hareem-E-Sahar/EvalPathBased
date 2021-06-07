@@ -1,0 +1,22 @@
+color SimpleName SimpleType SingleVariableDeclaration SimpleName c
+free colors SimpleName ArrayAccess NumberLiteral empty
+free colors SimpleName ArrayAccess Assignment SimpleName c
+empty NumberLiteral ArrayAccess Assignment SimpleName c
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set high free memory color
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName color
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SimpleName set high free memory color
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName color
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+set high free memory color SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName color
+set high free memory color SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set high free memory color
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set high free memory color
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

@@ -1,0 +1,25 @@
+condition SimpleName SimpleType SingleVariableDeclaration SimpleName condition
+css exception SimpleName SimpleType ClassInstanceCreation QualifiedName css exceptionsac not supported err
+public Modifier MethodDeclaration SimpleType SimpleName negative condition
+public Modifier MethodDeclaration SimpleName create negative condition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName condition
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName condition
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+negative condition SimpleName SimpleType MethodDeclaration SimpleName create negative condition
+negative condition SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName condition
+negative condition SimpleName SimpleType MethodDeclaration SimpleType SimpleName css exception
+create negative condition SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName condition
+create negative condition SimpleName MethodDeclaration SingleVariableDeclaration SimpleName condition
+create negative condition SimpleName MethodDeclaration SimpleType SimpleName css exception
+condition SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName negative condition
+public Modifier TypeDeclaration MethodDeclaration SimpleName create negative condition
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName condition
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName negative condition
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create negative condition
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName condition
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

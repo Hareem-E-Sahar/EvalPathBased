@@ -1,0 +1,42 @@
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg additive attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg additive attribute
+additive string SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+additive string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+additive string SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg additive attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName additive string
+additive string SimpleName MethodInvocation SimpleName length
+additive string SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+additive string SimpleName MethodInvocation SimpleName equals
+additive string SimpleName MethodInvocation QualifiedName smil constantssmil replace value
+equals SimpleName MethodInvocation QualifiedName smil constantssmil replace value
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName additive string
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName equals
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation QualifiedName smil constantssmil replace value
+additive string SimpleName MethodInvocation SimpleName equals
+additive string SimpleName MethodInvocation QualifiedName smil constantssmil sum value
+equals SimpleName MethodInvocation QualifiedName smil constantssmil sum value
+svg additive attribute SimpleName ArrayInitializer SimpleName additive string
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName element
+bridge exception SimpleName SimpleType ClassInstanceCreation QualifiedName error constantserr attribute value malformed
+ctx SimpleName ClassInstanceCreation SimpleName element
+ctx SimpleName ClassInstanceCreation QualifiedName error constantserr attribute value malformed
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg additive attribute
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName additive string
+element SimpleName ClassInstanceCreation QualifiedName error constantserr attribute value malformed
+element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg additive attribute
+element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName additive string
+error constantserr attribute value malformed QualifiedName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg additive attribute
+error constantserr attribute value malformed QualifiedName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName additive string
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName parse additive
+boolean PrimitiveType MethodDeclaration SimpleName parse additive
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse additive
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse additive

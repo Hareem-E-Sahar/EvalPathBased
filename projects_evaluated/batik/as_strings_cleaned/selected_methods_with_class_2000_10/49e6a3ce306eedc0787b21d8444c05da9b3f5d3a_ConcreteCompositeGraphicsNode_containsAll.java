@@ -1,0 +1,30 @@
+collection SimpleName SimpleType SingleVariableDeclaration SimpleName c
+c SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName c
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+contains SimpleName MethodInvocation MethodInvocation SimpleName i
+contains SimpleName MethodInvocation MethodInvocation SimpleName next
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName contains all
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName collection
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName contains all
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName collection
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+contains all SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName collection
+contains all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+contains all SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName contains all
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName contains all
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

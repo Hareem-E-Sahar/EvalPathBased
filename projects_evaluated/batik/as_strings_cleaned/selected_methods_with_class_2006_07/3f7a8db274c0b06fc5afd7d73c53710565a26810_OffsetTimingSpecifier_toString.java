@@ -1,0 +1,18 @@
+offset SimpleName InfixExpression NumberLiteral empty
+offset SimpleName InfixExpression ConditionalExpression StringLiteral +
+empty NumberLiteral InfixExpression ConditionalExpression StringLiteral +
+offset SimpleName InfixExpression ConditionalExpression StringLiteral empty
+empty NumberLiteral InfixExpression ConditionalExpression StringLiteral empty
++ StringLiteral ConditionalExpression StringLiteral empty
++ StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression SimpleName offset
+empty StringLiteral ConditionalExpression ParenthesizedExpression InfixExpression SimpleName offset
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName to string
+string SimpleName SimpleType MethodDeclaration SimpleName to string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName to string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName to string

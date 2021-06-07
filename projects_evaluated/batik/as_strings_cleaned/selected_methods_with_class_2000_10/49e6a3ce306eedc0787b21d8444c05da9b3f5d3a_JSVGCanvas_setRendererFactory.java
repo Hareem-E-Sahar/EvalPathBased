@@ -1,0 +1,20 @@
+renderer factory SimpleName SimpleType SingleVariableDeclaration SimpleName rf
+renderer factory SimpleName Assignment SimpleName rf
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set renderer factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName renderer factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rf
+void PrimitiveType MethodDeclaration SimpleName set renderer factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName renderer factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rf
+set renderer factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName renderer factory
+set renderer factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rf
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set renderer factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rf
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set renderer factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rf

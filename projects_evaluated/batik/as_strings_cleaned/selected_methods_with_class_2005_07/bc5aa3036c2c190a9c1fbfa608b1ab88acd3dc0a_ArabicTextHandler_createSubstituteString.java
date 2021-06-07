@@ -1,0 +1,269 @@
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName aci
+subst string SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName subst string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+aci SimpleName MethodInvocation SimpleName get begin index
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName get begin index
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment MethodInvocation SimpleName aci
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment MethodInvocation SimpleName get begin index
+aci SimpleName MethodInvocation SimpleName get end index
+i SimpleName InfixExpression MethodInvocation SimpleName aci
+i SimpleName InfixExpression MethodInvocation SimpleName get end index
+aci SimpleName MethodInvocation SimpleName set index
+aci SimpleName MethodInvocation SimpleName i
+set index SimpleName MethodInvocation SimpleName i
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName set index
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName set index
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName i
+arabic char SimpleName MethodInvocation SimpleName c
+aci SimpleName MethodInvocation SimpleName get attribute
+aci SimpleName MethodInvocation SimpleName arabic form
+get attribute SimpleName MethodInvocation SimpleName arabic form
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName aci
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName arabic form
+form SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName integer
+form SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName aci
+form SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+form SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName arabic form
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName form
+char starts ligature SimpleName MethodInvocation SimpleName c
+aci SimpleName MethodInvocation SimpleName get end index
+i SimpleName InfixExpression MethodInvocation SimpleName aci
+i SimpleName InfixExpression MethodInvocation SimpleName get end index
+char starts ligature SimpleName MethodInvocation InfixExpression InfixExpression SimpleName i
+c SimpleName MethodInvocation InfixExpression InfixExpression SimpleName i
+i SimpleName InfixExpression NumberLiteral empty
+aci SimpleName MethodInvocation SimpleName set index
+aci SimpleName MethodInvocation InfixExpression SimpleName i
+aci SimpleName MethodInvocation InfixExpression NumberLiteral empty
+set index SimpleName MethodInvocation InfixExpression SimpleName i
+set index SimpleName MethodInvocation InfixExpression NumberLiteral empty
+next char SimpleName VariableDeclarationFragment MethodInvocation SimpleName aci
+next char SimpleName VariableDeclarationFragment MethodInvocation SimpleName set index
+next char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName i
+next char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName next char
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName aci
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName set index
+aci SimpleName MethodInvocation SimpleName get attribute
+aci SimpleName MethodInvocation SimpleName arabic form
+get attribute SimpleName MethodInvocation SimpleName arabic form
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName aci
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName get attribute
+integer SimpleName SimpleType CastExpression MethodInvocation SimpleName arabic form
+next form SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName integer
+next form SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName aci
+next form SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get attribute
+next form SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName arabic form
+integer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next form
+form SimpleName InfixExpression InfixExpression InfixExpression SimpleName next form
+form SimpleName MethodInvocation SimpleName equals
+form SimpleName MethodInvocation SimpleName arabic terminal
+equals SimpleName MethodInvocation SimpleName arabic terminal
+next form SimpleName MethodInvocation SimpleName equals
+next form SimpleName MethodInvocation SimpleName arabic initial
+equals SimpleName MethodInvocation SimpleName arabic initial
+form SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName next form
+form SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+form SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arabic initial
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName next form
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arabic initial
+arabic terminal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName next form
+arabic terminal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arabic terminal SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arabic initial
+empty StringLiteral InfixExpression SimpleName c
+empty StringLiteral InfixExpression SimpleName next char
+c SimpleName InfixExpression SimpleName next char
+arabic isolated SimpleName MethodInvocation SimpleName int value
+arabic text handler SimpleName MethodInvocation SimpleName get substitute char
+arabic text handler SimpleName MethodInvocation InfixExpression StringLiteral empty
+arabic text handler SimpleName MethodInvocation InfixExpression SimpleName c
+arabic text handler SimpleName MethodInvocation InfixExpression SimpleName next char
+arabic text handler SimpleName MethodInvocation MethodInvocation SimpleName arabic isolated
+arabic text handler SimpleName MethodInvocation MethodInvocation SimpleName int value
+get substitute char SimpleName MethodInvocation InfixExpression StringLiteral empty
+get substitute char SimpleName MethodInvocation InfixExpression SimpleName c
+get substitute char SimpleName MethodInvocation InfixExpression SimpleName next char
+get substitute char SimpleName MethodInvocation MethodInvocation SimpleName arabic isolated
+get substitute char SimpleName MethodInvocation MethodInvocation SimpleName int value
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName arabic isolated
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName int value
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName arabic isolated
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName int value
+next char SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName arabic isolated
+next char SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName int value
+subst char SimpleName VariableDeclarationFragment MethodInvocation SimpleName arabic text handler
+subst char SimpleName VariableDeclarationFragment MethodInvocation SimpleName get substitute char
+subst char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral empty
+subst char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName c
+subst char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName next char
+subst char SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arabic isolated
+subst char SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName int value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName subst char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName arabic text handler
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get substitute char
+subst char SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName subst char
+subst string SimpleName Assignment CastExpression PrimitiveType char
+subst string SimpleName Assignment CastExpression SimpleName subst char
+form SimpleName MethodInvocation SimpleName equals
+form SimpleName MethodInvocation SimpleName arabic terminal
+equals SimpleName MethodInvocation SimpleName arabic terminal
+empty StringLiteral InfixExpression SimpleName c
+empty StringLiteral InfixExpression SimpleName next char
+c SimpleName InfixExpression SimpleName next char
+arabic terminal SimpleName MethodInvocation SimpleName int value
+arabic text handler SimpleName MethodInvocation SimpleName get substitute char
+arabic text handler SimpleName MethodInvocation InfixExpression StringLiteral empty
+arabic text handler SimpleName MethodInvocation InfixExpression SimpleName c
+arabic text handler SimpleName MethodInvocation InfixExpression SimpleName next char
+arabic text handler SimpleName MethodInvocation MethodInvocation SimpleName arabic terminal
+arabic text handler SimpleName MethodInvocation MethodInvocation SimpleName int value
+get substitute char SimpleName MethodInvocation InfixExpression StringLiteral empty
+get substitute char SimpleName MethodInvocation InfixExpression SimpleName c
+get substitute char SimpleName MethodInvocation InfixExpression SimpleName next char
+get substitute char SimpleName MethodInvocation MethodInvocation SimpleName arabic terminal
+get substitute char SimpleName MethodInvocation MethodInvocation SimpleName int value
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName arabic terminal
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName int value
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName arabic terminal
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName int value
+next char SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName arabic terminal
+next char SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName int value
+subst char SimpleName VariableDeclarationFragment MethodInvocation SimpleName arabic text handler
+subst char SimpleName VariableDeclarationFragment MethodInvocation SimpleName get substitute char
+subst char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral empty
+subst char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName c
+subst char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName next char
+subst char SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arabic terminal
+subst char SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName int value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName subst char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName arabic text handler
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get substitute char
+subst char SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName subst char
+subst string SimpleName Assignment CastExpression PrimitiveType char
+subst string SimpleName Assignment CastExpression SimpleName subst char
+form SimpleName MethodInvocation SimpleName equals
+form SimpleName MethodInvocation SimpleName arabic medial
+equals SimpleName MethodInvocation SimpleName arabic medial
+next form SimpleName MethodInvocation SimpleName equals
+next form SimpleName MethodInvocation SimpleName arabic medial
+equals SimpleName MethodInvocation SimpleName arabic medial
+form SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName next form
+form SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+form SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arabic medial
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName next form
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arabic medial
+arabic medial SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName next form
+arabic medial SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+arabic medial SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName arabic medial
+empty StringLiteral InfixExpression SimpleName c
+empty StringLiteral InfixExpression SimpleName next char
+c SimpleName InfixExpression SimpleName next char
+arabic medial SimpleName MethodInvocation SimpleName int value
+arabic text handler SimpleName MethodInvocation SimpleName get substitute char
+arabic text handler SimpleName MethodInvocation InfixExpression StringLiteral empty
+arabic text handler SimpleName MethodInvocation InfixExpression SimpleName c
+arabic text handler SimpleName MethodInvocation InfixExpression SimpleName next char
+arabic text handler SimpleName MethodInvocation MethodInvocation SimpleName arabic medial
+arabic text handler SimpleName MethodInvocation MethodInvocation SimpleName int value
+get substitute char SimpleName MethodInvocation InfixExpression StringLiteral empty
+get substitute char SimpleName MethodInvocation InfixExpression SimpleName c
+get substitute char SimpleName MethodInvocation InfixExpression SimpleName next char
+get substitute char SimpleName MethodInvocation MethodInvocation SimpleName arabic medial
+get substitute char SimpleName MethodInvocation MethodInvocation SimpleName int value
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName arabic medial
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName int value
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName arabic medial
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName int value
+next char SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName arabic medial
+next char SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName int value
+subst char SimpleName VariableDeclarationFragment MethodInvocation SimpleName arabic text handler
+subst char SimpleName VariableDeclarationFragment MethodInvocation SimpleName get substitute char
+subst char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral empty
+subst char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName c
+subst char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName next char
+subst char SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName arabic medial
+subst char SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName int value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName subst char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName arabic text handler
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get substitute char
+subst char SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName subst char
+subst string SimpleName Assignment CastExpression PrimitiveType char
+subst string SimpleName Assignment CastExpression SimpleName subst char
+form SimpleName MethodInvocation SimpleName int value
+form SimpleName MethodInvocation InfixExpression NumberLiteral empty
+int value SimpleName MethodInvocation InfixExpression NumberLiteral empty
+form SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty StringLiteral InfixExpression SimpleName c
+form SimpleName MethodInvocation SimpleName int value
+arabic text handler SimpleName MethodInvocation SimpleName get substitute char
+arabic text handler SimpleName MethodInvocation InfixExpression StringLiteral empty
+arabic text handler SimpleName MethodInvocation InfixExpression SimpleName c
+arabic text handler SimpleName MethodInvocation MethodInvocation SimpleName form
+arabic text handler SimpleName MethodInvocation MethodInvocation SimpleName int value
+get substitute char SimpleName MethodInvocation InfixExpression StringLiteral empty
+get substitute char SimpleName MethodInvocation InfixExpression SimpleName c
+get substitute char SimpleName MethodInvocation MethodInvocation SimpleName form
+get substitute char SimpleName MethodInvocation MethodInvocation SimpleName int value
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName form
+empty StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName int value
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName form
+c SimpleName InfixExpression MethodInvocation MethodInvocation SimpleName int value
+subst char SimpleName VariableDeclarationFragment MethodInvocation SimpleName arabic text handler
+subst char SimpleName VariableDeclarationFragment MethodInvocation SimpleName get substitute char
+subst char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression StringLiteral empty
+subst char SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName c
+subst char SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName form
+subst char SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName int value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName subst char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName arabic text handler
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get substitute char
+subst char SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName subst char
+subst string SimpleName Assignment CastExpression PrimitiveType char
+subst string SimpleName Assignment CastExpression SimpleName subst char
+subst string SimpleName Assignment SimpleName c
+subst string SimpleName Assignment SimpleName c
+subst string SimpleName Assignment SimpleName c
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName create substitute string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName aci
+public Modifier MethodDeclaration Block ReturnStatement SimpleName subst string
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName create substitute string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName aci
+static Modifier MethodDeclaration Block ReturnStatement SimpleName subst string
+string SimpleName SimpleType MethodDeclaration SimpleName create substitute string
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName aci
+create substitute string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+create substitute string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName aci
+create substitute string SimpleName MethodDeclaration Block ReturnStatement SimpleName subst string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName create substitute string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create substitute string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName aci

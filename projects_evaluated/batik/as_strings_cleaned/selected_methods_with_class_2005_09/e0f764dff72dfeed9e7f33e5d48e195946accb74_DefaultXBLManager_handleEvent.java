@@ -1,0 +1,70 @@
+event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get target
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+target SimpleName VariableDeclarationFragment MethodInvocation SimpleName get target
+event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target
+evt SimpleName MethodInvocation SimpleName get current target
+target SimpleName InfixExpression MethodInvocation SimpleName evt
+target SimpleName InfixExpression MethodInvocation SimpleName get current target
+mutation event SimpleName SimpleType CastExpression SimpleName evt
+mevt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName mutation event
+mevt SimpleName VariableDeclarationFragment CastExpression SimpleName evt
+mutation event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName mevt
+mevt SimpleName MethodInvocation SimpleName get attr name
+mevt SimpleName MethodInvocation MethodInvocation SimpleName equals
+get attr name SimpleName MethodInvocation MethodInvocation SimpleName equals
+mevt SimpleName MethodInvocation MethodInvocation SimpleName xbl ref attribute
+get attr name SimpleName MethodInvocation MethodInvocation SimpleName xbl ref attribute
+equals SimpleName MethodInvocation SimpleName xbl ref attribute
+element SimpleName SimpleType CastExpression SimpleName target
+def ref SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+def ref SimpleName VariableDeclarationFragment CastExpression SimpleName target
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName def ref
+remove definition ref SimpleName MethodInvocation SimpleName def ref
+mevt SimpleName MethodInvocation SimpleName get new value
+mevt SimpleName MethodInvocation MethodInvocation SimpleName length
+get new value SimpleName MethodInvocation MethodInvocation SimpleName length
+mevt SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get new value SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+xblom definition element SimpleName SimpleType CastExpression SimpleName def ref
+def SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName xblom definition element
+def SimpleName VariableDeclarationFragment CastExpression SimpleName def ref
+xblom definition element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName def
+def SimpleName MethodInvocation SimpleName get element namespace uri
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName def
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns
+def SimpleName MethodInvocation SimpleName get element local name
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName def
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln
+xblom definition element SimpleName SimpleType CastExpression SimpleName def ref
+add definition SimpleName MethodInvocation SimpleName ns
+add definition SimpleName MethodInvocation SimpleName ln
+add definition SimpleName MethodInvocation CastExpression SimpleType SimpleName xblom definition element
+add definition SimpleName MethodInvocation CastExpression SimpleName def ref
+ns SimpleName MethodInvocation SimpleName ln
+ns SimpleName MethodInvocation CastExpression SimpleType SimpleName xblom definition element
+ns SimpleName MethodInvocation CastExpression SimpleName def ref
+ln SimpleName MethodInvocation CastExpression SimpleType SimpleName xblom definition element
+ln SimpleName MethodInvocation CastExpression SimpleName def ref
+add definition ref SimpleName MethodInvocation SimpleName def ref
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName handle event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

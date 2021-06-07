@@ -1,0 +1,192 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+argslength QualifiedName InfixExpression NumberLiteral empty
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation SimpleName messages usage
+format message SimpleName MethodInvocation SimpleName messages usage
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName messages
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName format message
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName messages usage
+println SimpleName MethodInvocation MethodInvocation SimpleName messages
+println SimpleName MethodInvocation MethodInvocation SimpleName format message
+println SimpleName MethodInvocation MethodInvocation SimpleName messages usage
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+args SimpleName ArrayAccess NumberLiteral empty
+class name SimpleName VariableDeclarationFragment ArrayAccess SimpleName args
+class name SimpleName VariableDeclarationFragment ArrayAccess NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName class name
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation SimpleName messages loading class
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+format message SimpleName MethodInvocation SimpleName messages loading class
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+messages loading class SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName messages
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName format message
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName messages loading class
+println SimpleName MethodInvocation MethodInvocation SimpleName messages
+println SimpleName MethodInvocation MethodInvocation SimpleName format message
+println SimpleName MethodInvocation MethodInvocation SimpleName messages loading class
+class SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation SimpleName class name
+for name SimpleName MethodInvocation SimpleName class name
+cl SimpleName Assignment MethodInvocation SimpleName class
+cl SimpleName Assignment MethodInvocation SimpleName for name
+cl SimpleName Assignment MethodInvocation SimpleName class name
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation SimpleName messages loaded class
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+format message SimpleName MethodInvocation SimpleName messages loaded class
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+messages loaded class SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName messages
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName format message
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName messages loaded class
+println SimpleName MethodInvocation MethodInvocation SimpleName messages
+println SimpleName MethodInvocation MethodInvocation SimpleName format message
+println SimpleName MethodInvocation MethodInvocation SimpleName messages loaded class
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+class name SimpleName ArrayInitializer MethodInvocation MethodInvocation SimpleName e
+class name SimpleName ArrayInitializer MethodInvocation MethodInvocation SimpleName get class
+class name SimpleName ArrayInitializer MethodInvocation SimpleName get name
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation SimpleName error could not load class
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+format message SimpleName MethodInvocation SimpleName error could not load class
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+error could not load class SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName messages
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName format message
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName error could not load class
+println SimpleName MethodInvocation MethodInvocation SimpleName messages
+println SimpleName MethodInvocation MethodInvocation SimpleName format message
+println SimpleName MethodInvocation MethodInvocation SimpleName error could not load class
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+cl SimpleName MethodInvocation SimpleName get declared constructor
+cl SimpleName MethodInvocation MethodInvocation SimpleName new instance
+get declared constructor SimpleName MethodInvocation MethodInvocation SimpleName new instance
+o SimpleName Assignment MethodInvocation MethodInvocation SimpleName cl
+o SimpleName Assignment MethodInvocation MethodInvocation SimpleName get declared constructor
+o SimpleName Assignment MethodInvocation SimpleName new instance
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation SimpleName messages instanciated object
+format message SimpleName MethodInvocation SimpleName messages instanciated object
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName messages
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName format message
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName messages instanciated object
+println SimpleName MethodInvocation MethodInvocation SimpleName messages
+println SimpleName MethodInvocation MethodInvocation SimpleName format message
+println SimpleName MethodInvocation MethodInvocation SimpleName messages instanciated object
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+class name SimpleName ArrayInitializer MethodInvocation MethodInvocation SimpleName e
+class name SimpleName ArrayInitializer MethodInvocation MethodInvocation SimpleName get class
+class name SimpleName ArrayInitializer MethodInvocation SimpleName get name
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation SimpleName error could not instanciate object
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+format message SimpleName MethodInvocation SimpleName error could not instanciate object
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+error could not instanciate object SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName messages
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName format message
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName error could not instanciate object
+println SimpleName MethodInvocation MethodInvocation SimpleName messages
+println SimpleName MethodInvocation MethodInvocation SimpleName format message
+println SimpleName MethodInvocation MethodInvocation SimpleName error could not instanciate object
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+painter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+painter SimpleName SimpleType CastExpression SimpleName o
+p SimpleName Assignment CastExpression SimpleType SimpleName painter
+p SimpleName Assignment CastExpression SimpleName o
+class cast exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation SimpleName error class not painter
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+format message SimpleName MethodInvocation SimpleName error class not painter
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+error class not painter SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName class name
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName messages
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName format message
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName error class not painter
+println SimpleName MethodInvocation MethodInvocation SimpleName messages
+println SimpleName MethodInvocation MethodInvocation SimpleName format message
+println SimpleName MethodInvocation MethodInvocation SimpleName error class not painter
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j frame
+j frame SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+j painter compare SimpleName SimpleType ClassInstanceCreation SimpleName p
+c SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j painter compare
+c SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName p
+j painter compare SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName set background
+c SimpleName MethodInvocation QualifiedName colorwhite
+set background SimpleName MethodInvocation QualifiedName colorwhite
+dimension SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+dimension SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+c SimpleName MethodInvocation SimpleName set preferred size
+c SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName dimension
+c SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+c SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set preferred size SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName dimension
+set preferred size SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set preferred size SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+f SimpleName MethodInvocation SimpleName get content pane
+f SimpleName MethodInvocation MethodInvocation SimpleName add
+get content pane SimpleName MethodInvocation MethodInvocation SimpleName add
+f SimpleName MethodInvocation MethodInvocation SimpleName c
+get content pane SimpleName MethodInvocation MethodInvocation SimpleName c
+add SimpleName MethodInvocation SimpleName c
+f SimpleName MethodInvocation SimpleName get content pane
+f SimpleName MethodInvocation MethodInvocation SimpleName set background
+get content pane SimpleName MethodInvocation MethodInvocation SimpleName set background
+f SimpleName MethodInvocation MethodInvocation QualifiedName colorwhite
+get content pane SimpleName MethodInvocation MethodInvocation QualifiedName colorwhite
+set background SimpleName MethodInvocation QualifiedName colorwhite
+f SimpleName MethodInvocation SimpleName pack
+f SimpleName MethodInvocation SimpleName set visible
+f SimpleName MethodInvocation BooleanLiteral true
+set visible SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName main
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName main
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+void PrimitiveType MethodDeclaration SimpleName main
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName args
+main SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName main
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName main
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

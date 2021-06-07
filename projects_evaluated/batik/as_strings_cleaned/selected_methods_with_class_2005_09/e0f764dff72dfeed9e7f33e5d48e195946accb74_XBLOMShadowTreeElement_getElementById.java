@@ -1,0 +1,60 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName element id
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName n
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+e SimpleName VariableDeclarationFragment CastExpression SimpleName n
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get attribute ns
+e SimpleName MethodInvocation StringLiteral id
+get attribute ns SimpleName MethodInvocation StringLiteral id
+e SimpleName MethodInvocation MethodInvocation SimpleName equals
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName equals
+id StringLiteral MethodInvocation MethodInvocation SimpleName equals
+e SimpleName MethodInvocation MethodInvocation SimpleName element id
+get attribute ns SimpleName MethodInvocation MethodInvocation SimpleName element id
+id StringLiteral MethodInvocation MethodInvocation SimpleName element id
+equals SimpleName MethodInvocation SimpleName element id
+element SimpleName SimpleType CastExpression SimpleName n
+n SimpleName MethodInvocation SimpleName get first child
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName get next sibling
+m SimpleName Assignment MethodInvocation SimpleName m
+m SimpleName Assignment MethodInvocation SimpleName get next sibling
+get element by id SimpleName MethodInvocation SimpleName element id
+get element by id SimpleName MethodInvocation SimpleName m
+element id SimpleName MethodInvocation SimpleName m
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element by id
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName element id
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName m
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+m SimpleName InfixExpression ForStatement Assignment SimpleName m
+protected Modifier MethodDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SimpleName get element by id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element id
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+element SimpleName SimpleType MethodDeclaration SimpleName get element by id
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element id
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get element by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get element by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element id
+get element by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get element by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+element id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get element by id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get element by id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

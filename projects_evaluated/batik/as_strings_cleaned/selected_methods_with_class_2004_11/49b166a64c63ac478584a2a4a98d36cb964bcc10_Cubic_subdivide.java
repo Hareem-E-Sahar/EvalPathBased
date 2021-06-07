@@ -1,0 +1,94 @@
+double PrimitiveType SingleVariableDeclaration SimpleName t
+cubic SimpleName SimpleType SingleVariableDeclaration SimpleName c
+cubic SimpleName SimpleType SingleVariableDeclaration SimpleName c
+eval SimpleName MethodInvocation SimpleName t
+np SimpleName VariableDeclarationFragment MethodInvocation SimpleName eval
+np SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+point ddouble QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName np
+eval dt SimpleName MethodInvocation SimpleName t
+npd SimpleName VariableDeclarationFragment MethodInvocation SimpleName eval dt
+npd SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+point ddouble QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName npd
+c p x QualifiedName Assignment QualifiedName p x
+c p y QualifiedName Assignment QualifiedName p y
+p x QualifiedName InfixExpression QualifiedName p x
+p x QualifiedName InfixExpression ParenthesizedExpression InfixExpression SimpleName t
+p x QualifiedName InfixExpression ParenthesizedExpression InfixExpression SimpleName t
+c p x QualifiedName Assignment InfixExpression SimpleName t
+p y QualifiedName InfixExpression QualifiedName p y
+p y QualifiedName InfixExpression ParenthesizedExpression InfixExpression SimpleName t
+p y QualifiedName InfixExpression ParenthesizedExpression InfixExpression SimpleName t
+c p y QualifiedName Assignment InfixExpression SimpleName t
+npdx QualifiedName InfixExpression SimpleName t
+npdx QualifiedName InfixExpression InfixExpression NumberLiteral empty
+t SimpleName InfixExpression InfixExpression NumberLiteral empty
+npx QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+c p x QualifiedName Assignment InfixExpression QualifiedName npx
+npdy QualifiedName InfixExpression SimpleName t
+npdy QualifiedName InfixExpression InfixExpression NumberLiteral empty
+t SimpleName InfixExpression InfixExpression NumberLiteral empty
+npy QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+c p y QualifiedName Assignment InfixExpression QualifiedName npy
+c p x QualifiedName Assignment QualifiedName npx
+c p y QualifiedName Assignment QualifiedName npy
+c p x QualifiedName Assignment QualifiedName npx
+c p y QualifiedName Assignment QualifiedName npy
+empty NumberLiteral InfixExpression SimpleName t
+npdx QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+npdx QualifiedName InfixExpression ParenthesizedExpression InfixExpression SimpleName t
+npdx QualifiedName InfixExpression InfixExpression NumberLiteral empty
+npx QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+c p x QualifiedName Assignment InfixExpression QualifiedName npx
+empty NumberLiteral InfixExpression SimpleName t
+npdy QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+npdy QualifiedName InfixExpression ParenthesizedExpression InfixExpression SimpleName t
+npdy QualifiedName InfixExpression InfixExpression NumberLiteral empty
+npy QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+c p y QualifiedName Assignment InfixExpression QualifiedName npy
+p x QualifiedName InfixExpression QualifiedName p x
+empty NumberLiteral InfixExpression SimpleName t
+p y QualifiedName InfixExpression QualifiedName p y
+empty NumberLiteral InfixExpression SimpleName t
+c p x QualifiedName Assignment QualifiedName p x
+c p y QualifiedName Assignment QualifiedName p y
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName subdivide
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cubic
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cubic
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SimpleName subdivide
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cubic
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cubic
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+subdivide SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+subdivide SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+subdivide SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cubic
+subdivide SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+subdivide SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cubic
+subdivide SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+t SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+c SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName subdivide
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName subdivide
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

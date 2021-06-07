@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName renderer factory
+public Modifier MethodDeclaration SimpleName get renderer factory
+public Modifier MethodDeclaration Block ReturnStatement SimpleName renderer factory
+renderer factory SimpleName SimpleType MethodDeclaration SimpleName get renderer factory
+get renderer factory SimpleName MethodDeclaration Block ReturnStatement SimpleName renderer factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName renderer factory
+public Modifier TypeDeclaration MethodDeclaration SimpleName get renderer factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName renderer factory
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get renderer factory

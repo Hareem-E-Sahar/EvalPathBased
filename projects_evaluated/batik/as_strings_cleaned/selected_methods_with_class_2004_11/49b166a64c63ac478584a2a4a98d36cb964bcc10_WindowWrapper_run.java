@@ -1,0 +1,18 @@
+interpreter SimpleName MethodInvocation SimpleName call handler
+interpreter SimpleName MethodInvocation SimpleName function
+interpreter SimpleName MethodInvocation SimpleName arguments
+call handler SimpleName MethodInvocation SimpleName function
+call handler SimpleName MethodInvocation SimpleName arguments
+function SimpleName MethodInvocation SimpleName arguments
+java script exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+wrapped exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

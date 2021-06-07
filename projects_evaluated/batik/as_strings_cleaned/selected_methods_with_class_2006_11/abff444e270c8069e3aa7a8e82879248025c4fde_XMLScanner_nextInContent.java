@@ -1,0 +1,63 @@
+context SimpleName Assignment SimpleName pi context
+context SimpleName Assignment SimpleName cdata section context
+read identifier SimpleName MethodInvocation StringLiteral cdata
+read identifier SimpleName MethodInvocation QualifiedName lexical unitscdata start
+read identifier SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+cdata StringLiteral MethodInvocation QualifiedName lexical unitscdata start
+cdata StringLiteral MethodInvocation PrefixExpression NumberLiteral empty
+lexical unitscdata start QualifiedName MethodInvocation PrefixExpression NumberLiteral empty
+create xml exception SimpleName MethodInvocation StringLiteral invalidcharacter
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral -
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral [
+- CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral [
+context SimpleName Assignment SimpleName end tag context
+read name SimpleName MethodInvocation QualifiedName lexical unitsend tag
+context SimpleName Assignment SimpleName start tag context
+read name SimpleName MethodInvocation QualifiedName lexical unitsstart tag
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral ?
+next char SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral !
+? CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral !
+? CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral /
+! CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral /
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName next char
+current SimpleName SwitchStatement SwitchCase PrefixExpression NumberLiteral empty
+current SimpleName SwitchStatement SwitchCase CharacterLiteral &
+& CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral <
+& CharacterLiteral SwitchCase SwitchStatement BreakStatement SimpleName loop
+< CharacterLiteral SwitchCase SwitchStatement BreakStatement SimpleName loop
+current SimpleName SwitchStatement SwitchCase PrefixExpression NumberLiteral empty
+current SimpleName SwitchStatement ReturnStatement QualifiedName lexical unitseof
+current SimpleName SwitchStatement SwitchCase CharacterLiteral &
+current SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName read reference
+current SimpleName SwitchStatement SwitchCase CharacterLiteral <
+lexical unitseof QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral &
+lexical unitseof QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral <
+& CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral <
+& CharacterLiteral SwitchCase SwitchStatement LabeledStatement SimpleName loop
+< CharacterLiteral SwitchCase SwitchStatement LabeledStatement SimpleName loop
+< CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitscharacter data
+loop SimpleName LabeledStatement SwitchStatement ReturnStatement QualifiedName lexical unitscharacter data
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName next in content
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName current
+int PrimitiveType MethodDeclaration SimpleName next in content
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+int PrimitiveType MethodDeclaration Block SwitchStatement SimpleName current
+next in content SimpleName MethodDeclaration SimpleType SimpleName io exception
+next in content SimpleName MethodDeclaration SimpleType SimpleName xml exception
+next in content SimpleName MethodDeclaration Block SwitchStatement SimpleName current
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName next in content
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next in content
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception

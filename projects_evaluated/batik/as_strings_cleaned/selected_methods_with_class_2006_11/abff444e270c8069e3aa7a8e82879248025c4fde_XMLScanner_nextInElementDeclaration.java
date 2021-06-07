@@ -1,0 +1,136 @@
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName current
+xml utilities SimpleName MethodInvocation SimpleName is xml space
+xml utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+xml utilities SimpleName MethodInvocation CastExpression SimpleName current
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml space SimpleName MethodInvocation CastExpression SimpleName current
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName xml utilities
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is xml space
+context SimpleName Assignment SimpleName dtd declarations context
+read name SimpleName MethodInvocation QualifiedName lexical unitsparameter entity reference
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName read name
+t SimpleName VariableDeclarationFragment MethodInvocation QualifiedName lexical unitsparameter entity reference
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName read name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName lexical unitsparameter entity reference
+current SimpleName InfixExpression CharacterLiteral 
+create xml exception SimpleName MethodInvocation StringLiteral malformedparameterentity
+read identifier SimpleName MethodInvocation StringLiteral mpty
+read identifier SimpleName MethodInvocation QualifiedName lexical unitsempty identifier
+read identifier SimpleName MethodInvocation QualifiedName lexical unitsname
+mpty StringLiteral MethodInvocation QualifiedName lexical unitsempty identifier
+mpty StringLiteral MethodInvocation QualifiedName lexical unitsname
+lexical unitsempty identifier QualifiedName MethodInvocation QualifiedName lexical unitsname
+read identifier SimpleName MethodInvocation StringLiteral ny
+read identifier SimpleName MethodInvocation QualifiedName lexical unitsany identifier
+read identifier SimpleName MethodInvocation QualifiedName lexical unitsname
+ny StringLiteral MethodInvocation QualifiedName lexical unitsany identifier
+ny StringLiteral MethodInvocation QualifiedName lexical unitsname
+lexical unitsany identifier QualifiedName MethodInvocation QualifiedName lexical unitsname
+read identifier SimpleName MethodInvocation StringLiteral pcdata
+read identifier SimpleName MethodInvocation QualifiedName lexical unitspcdata identifier
+read identifier SimpleName MethodInvocation PrefixExpression NumberLiteral empty
+pcdata StringLiteral MethodInvocation QualifiedName lexical unitspcdata identifier
+pcdata StringLiteral MethodInvocation PrefixExpression NumberLiteral empty
+lexical unitspcdata identifier QualifiedName MethodInvocation PrefixExpression NumberLiteral empty
+read name SimpleName MethodInvocation QualifiedName lexical unitsname
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+current SimpleName SwitchStatement SwitchCase NumberLiteral x a
+current SimpleName SwitchStatement SwitchCase NumberLiteral x d
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x d
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x d
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x a NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral >
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x d NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral >
+x NumberLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitss
+x NumberLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral >
+lexical unitss QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral >
+lexical unitss QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName lexical unitsend char
+lexical unitss QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral %
+> CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsend char
+> CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral %
+lexical unitsend char QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral %
+lexical unitsend char QualifiedName ReturnStatement SwitchStatement VariableDeclarationStatement PrimitiveType int
+% CharacterLiteral SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType int
+% CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName t
+int PrimitiveType VariableDeclarationStatement SwitchStatement ReturnStatement SimpleName t
+int PrimitiveType VariableDeclarationStatement SwitchStatement SwitchCase CharacterLiteral e
+t SimpleName ReturnStatement SwitchStatement SwitchCase CharacterLiteral e
+t SimpleName ReturnStatement SwitchStatement SwitchCase CharacterLiteral a
+t SimpleName ReturnStatement SwitchStatement SwitchCase CharacterLiteral ?
+e CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral a
+e CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ?
+a CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral ?
+a CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsquestion
+a CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral +
+? CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsquestion
+? CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral +
+? CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsplus
+lexical unitsquestion QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral +
+lexical unitsquestion QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName lexical unitsplus
+lexical unitsquestion QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral *
++ CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsplus
++ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral *
++ CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsstar
+lexical unitsplus QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral *
+lexical unitsplus QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName lexical unitsstar
+lexical unitsplus QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral (
+* CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsstar
+* CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral (
+* CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsleft brace
+lexical unitsstar QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral (
+lexical unitsstar QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName lexical unitsleft brace
+lexical unitsstar QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral )
+( CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsleft brace
+( CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral )
+( CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsright brace
+lexical unitsleft brace QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral )
+lexical unitsleft brace QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName lexical unitsright brace
+lexical unitsleft brace QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral 
+) CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsright brace
+) CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral 
+) CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitspipe
+lexical unitsright brace QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral 
+lexical unitsright brace QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName lexical unitspipe
+lexical unitsright brace QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral empty
+ CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitspipe
+ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+ CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitscomma
+lexical unitspipe QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral empty
+lexical unitspipe QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName lexical unitscomma
+lexical unitspipe QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral #
+empty CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitscomma
+empty CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral #
+lexical unitscomma QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral #
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName next in element declaration
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName current
+int PrimitiveType MethodDeclaration SimpleName next in element declaration
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+int PrimitiveType MethodDeclaration Block SwitchStatement SimpleName current
+next in element declaration SimpleName MethodDeclaration SimpleType SimpleName io exception
+next in element declaration SimpleName MethodDeclaration SimpleType SimpleName xml exception
+next in element declaration SimpleName MethodDeclaration Block SwitchStatement SimpleName current
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName next in element declaration
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next in element declaration
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception

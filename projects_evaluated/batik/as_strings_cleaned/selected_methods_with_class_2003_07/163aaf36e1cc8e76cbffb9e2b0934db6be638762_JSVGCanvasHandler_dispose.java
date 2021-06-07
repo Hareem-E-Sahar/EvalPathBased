@@ -1,0 +1,25 @@
+frame SimpleName MethodInvocation SimpleName remove window listener
+frame SimpleName MethodInvocation SimpleName wl
+remove window listener SimpleName MethodInvocation SimpleName wl
+frame SimpleName MethodInvocation SimpleName set visible
+frame SimpleName MethodInvocation BooleanLiteral false
+set visible SimpleName MethodInvocation BooleanLiteral false
+canvas SimpleName MethodInvocation SimpleName remove gvt tree renderer listener
+canvas SimpleName MethodInvocation SimpleName irl
+remove gvt tree renderer listener SimpleName MethodInvocation SimpleName irl
+canvas SimpleName MethodInvocation SimpleName remove svg document loader listener
+canvas SimpleName MethodInvocation SimpleName ll
+remove svg document loader listener SimpleName MethodInvocation SimpleName ll
+canvas SimpleName MethodInvocation SimpleName remove update manager listener
+canvas SimpleName MethodInvocation SimpleName url
+remove update manager listener SimpleName MethodInvocation SimpleName url
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispose
+void PrimitiveType MethodDeclaration SimpleName dispose
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispose
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispose

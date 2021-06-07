@@ -1,0 +1,89 @@
+parser SimpleName SimpleType SingleVariableDeclaration SimpleName p
+int PrimitiveType SingleVariableDeclaration SimpleName line
+int PrimitiveType SingleVariableDeclaration SimpleName column
+locator implre init StringLiteral InfixExpression SimpleName p
+locator implre init StringLiteral InfixExpression StringLiteral empty
+locator implre init StringLiteral InfixExpression SimpleName line
+locator implre init StringLiteral InfixExpression StringLiteral empty
+locator implre init StringLiteral InfixExpression SimpleName column
+p SimpleName InfixExpression StringLiteral empty
+p SimpleName InfixExpression SimpleName line
+p SimpleName InfixExpression StringLiteral empty
+p SimpleName InfixExpression SimpleName column
+p SimpleName InfixExpression StringLiteral ) 
+empty StringLiteral InfixExpression SimpleName line
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression SimpleName column
+empty StringLiteral InfixExpression StringLiteral ) 
+line SimpleName InfixExpression StringLiteral empty
+line SimpleName InfixExpression SimpleName column
+line SimpleName InfixExpression StringLiteral ) 
+empty StringLiteral InfixExpression SimpleName column
+empty StringLiteral InfixExpression StringLiteral ) 
+column SimpleName InfixExpression StringLiteral ) 
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral locator implre init
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName p
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName line
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName column
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral ) 
+println SimpleName MethodInvocation InfixExpression StringLiteral locator implre init
+println SimpleName MethodInvocation InfixExpression SimpleName p
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression SimpleName line
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression SimpleName column
+println SimpleName MethodInvocation InfixExpression StringLiteral ) 
+psource QualifiedName MethodInvocation SimpleName get uri
+uri SimpleName Assignment MethodInvocation QualifiedName psource
+uri SimpleName Assignment MethodInvocation SimpleName get uri
+line SimpleName FieldAccess Assignment SimpleName line
+column SimpleName FieldAccess Assignment SimpleName column
+public Modifier MethodDeclaration SimpleType SimpleName locator impl
+public Modifier MethodDeclaration SimpleName re init
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parser
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName line
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName column
+locator impl SimpleName SimpleType MethodDeclaration SimpleName re init
+locator impl SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName p
+locator impl SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+locator impl SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName line
+locator impl SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+locator impl SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName column
+re init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parser
+re init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+re init SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+re init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName line
+re init SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+re init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName column
+re init SimpleName MethodDeclaration Block IfStatement SimpleName w c debug
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+p SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column
+line SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+line SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName locator impl
+public Modifier TypeDeclaration MethodDeclaration SimpleName re init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName locator impl
+test SimpleName TypeDeclaration MethodDeclaration SimpleName re init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName line
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName column

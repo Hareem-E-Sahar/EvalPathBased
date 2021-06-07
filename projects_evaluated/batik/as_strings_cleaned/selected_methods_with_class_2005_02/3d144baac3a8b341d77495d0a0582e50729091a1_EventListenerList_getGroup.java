@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get group
+public Modifier MethodDeclaration Block ReturnStatement SimpleName group
+object SimpleName SimpleType MethodDeclaration SimpleName get group
+get group SimpleName MethodDeclaration Block ReturnStatement SimpleName group
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get group
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get group

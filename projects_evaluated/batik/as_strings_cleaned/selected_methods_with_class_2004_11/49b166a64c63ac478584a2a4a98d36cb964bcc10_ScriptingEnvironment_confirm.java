@@ -1,0 +1,25 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName message
+user agent SimpleName MethodInvocation SimpleName show confirm
+user agent SimpleName MethodInvocation SimpleName message
+show confirm SimpleName MethodInvocation SimpleName message
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName confirm
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName message
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName confirm
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName message
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+confirm SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+confirm SimpleName MethodDeclaration SingleVariableDeclaration SimpleName message
+confirm SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName confirm
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName confirm
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName message

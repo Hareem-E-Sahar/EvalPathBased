@@ -1,0 +1,99 @@
+jpeg encode param SimpleName SimpleType SingleVariableDeclaration SimpleName src
+jpeg encode param SimpleName SimpleType SingleVariableDeclaration SimpleName dst
+int PrimitiveType SingleVariableDeclaration SimpleName nbands
+src SimpleName MethodInvocation SimpleName get density unit
+dst SimpleName MethodInvocation SimpleName set density unit
+dst SimpleName MethodInvocation MethodInvocation SimpleName src
+dst SimpleName MethodInvocation MethodInvocation SimpleName get density unit
+set density unit SimpleName MethodInvocation MethodInvocation SimpleName src
+set density unit SimpleName MethodInvocation MethodInvocation SimpleName get density unit
+src SimpleName MethodInvocation SimpleName get x density
+dst SimpleName MethodInvocation SimpleName set x density
+dst SimpleName MethodInvocation MethodInvocation SimpleName src
+dst SimpleName MethodInvocation MethodInvocation SimpleName get x density
+set x density SimpleName MethodInvocation MethodInvocation SimpleName src
+set x density SimpleName MethodInvocation MethodInvocation SimpleName get x density
+src SimpleName MethodInvocation SimpleName get y density
+dst SimpleName MethodInvocation SimpleName set y density
+dst SimpleName MethodInvocation MethodInvocation SimpleName src
+dst SimpleName MethodInvocation MethodInvocation SimpleName get y density
+set y density SimpleName MethodInvocation MethodInvocation SimpleName src
+set y density SimpleName MethodInvocation MethodInvocation SimpleName get y density
+src SimpleName MethodInvocation SimpleName get restart interval
+dst SimpleName MethodInvocation SimpleName set restart interval
+dst SimpleName MethodInvocation MethodInvocation SimpleName src
+dst SimpleName MethodInvocation MethodInvocation SimpleName get restart interval
+set restart interval SimpleName MethodInvocation MethodInvocation SimpleName src
+set restart interval SimpleName MethodInvocation MethodInvocation SimpleName get restart interval
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+src SimpleName MethodInvocation SimpleName get q table
+src SimpleName MethodInvocation SimpleName i
+get q table SimpleName MethodInvocation SimpleName i
+tbl SimpleName VariableDeclarationFragment MethodInvocation SimpleName src
+tbl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get q table
+tbl SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+jpegq table SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tbl
+dst SimpleName MethodInvocation SimpleName set q table
+dst SimpleName MethodInvocation SimpleName i
+dst SimpleName MethodInvocation SimpleName tbl
+set q table SimpleName MethodInvocation SimpleName i
+set q table SimpleName MethodInvocation SimpleName tbl
+i SimpleName MethodInvocation SimpleName tbl
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName modify encode param
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jpeg encode param
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jpeg encode param
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName dst
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName modify encode param
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jpeg encode param
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jpeg encode param
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName dst
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName nbands
+void PrimitiveType MethodDeclaration SimpleName modify encode param
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jpeg encode param
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName src
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jpeg encode param
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dst
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName nbands
+modify encode param SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jpeg encode param
+modify encode param SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+modify encode param SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jpeg encode param
+modify encode param SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dst
+modify encode param SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+modify encode param SimpleName MethodDeclaration SingleVariableDeclaration SimpleName nbands
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+src SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nbands
+dst SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+dst SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nbands
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName modify encode param
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nbands
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName modify encode param
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dst
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName nbands

@@ -1,0 +1,49 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName text
+values SimpleName MethodInvocation SimpleName get
+style declaration value SimpleName ThisExpression FieldAccess SimpleName handler
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionno modification allowed err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptionno modification allowed err QualifiedName ClassInstanceCreation StringLiteral empty
+get property priority SimpleName MethodInvocation SimpleName property
+prio SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property priority
+prio SimpleName VariableDeclarationFragment MethodInvocation SimpleName property
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prio
+cssom style declaration SimpleName ThisExpression FieldAccess SimpleName handler
+cssom style declaration SimpleName ThisExpression FieldAccess MethodInvocation SimpleName property changed
+handler SimpleName FieldAccess MethodInvocation SimpleName property changed
+cssom style declaration SimpleName ThisExpression FieldAccess MethodInvocation SimpleName property
+handler SimpleName FieldAccess MethodInvocation SimpleName property
+cssom style declaration SimpleName ThisExpression FieldAccess MethodInvocation SimpleName text
+handler SimpleName FieldAccess MethodInvocation SimpleName text
+cssom style declaration SimpleName ThisExpression FieldAccess MethodInvocation SimpleName prio
+handler SimpleName FieldAccess MethodInvocation SimpleName prio
+property changed SimpleName MethodInvocation SimpleName property
+property changed SimpleName MethodInvocation SimpleName text
+property changed SimpleName MethodInvocation SimpleName prio
+property SimpleName MethodInvocation SimpleName text
+property SimpleName MethodInvocation SimpleName prio
+text SimpleName MethodInvocation SimpleName prio
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName text changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName text changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName text
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+text changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+text changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text
+text changed SimpleName MethodDeclaration SimpleType SimpleName dom exception
+text SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName text changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName text changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

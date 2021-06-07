@@ -1,0 +1,39 @@
+int PrimitiveType SingleVariableDeclaration SimpleName of kind
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration Modifier final
+public Modifier MethodDeclaration SimpleType SimpleName token
+public Modifier MethodDeclaration SimpleName new token
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName of kind
+static Modifier MethodDeclaration Modifier final
+static Modifier MethodDeclaration SimpleType SimpleName token
+static Modifier MethodDeclaration SimpleName new token
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName of kind
+static Modifier MethodDeclaration Block SwitchStatement SimpleName of kind
+final Modifier MethodDeclaration SimpleType SimpleName token
+final Modifier MethodDeclaration SimpleName new token
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName of kind
+final Modifier MethodDeclaration Block SwitchStatement SimpleName of kind
+token SimpleName SimpleType MethodDeclaration SimpleName new token
+token SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+token SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName of kind
+new token SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+new token SimpleName MethodDeclaration SingleVariableDeclaration SimpleName of kind
+new token SimpleName MethodDeclaration Block SwitchStatement SimpleName of kind
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName token
+public Modifier TypeDeclaration MethodDeclaration SimpleName new token
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName of kind
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName token
+test SimpleName TypeDeclaration MethodDeclaration SimpleName new token
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName of kind

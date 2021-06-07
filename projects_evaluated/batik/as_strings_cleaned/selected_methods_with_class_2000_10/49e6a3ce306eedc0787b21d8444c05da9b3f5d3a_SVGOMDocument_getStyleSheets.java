@@ -1,0 +1,55 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+dom style sheet list SimpleName SimpleType SingleVariableDeclaration SimpleName l
+n SimpleName InstanceofExpression SimpleType SimpleName link style
+link style SimpleName SimpleType CastExpression SimpleName n
+n SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get sheet
+l SimpleName MethodInvocation SimpleName append
+l SimpleName MethodInvocation MethodInvocation SimpleName get sheet
+append SimpleName MethodInvocation MethodInvocation SimpleName get sheet
+n SimpleName MethodInvocation SimpleName get first child
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName get next sibling
+c SimpleName Assignment MethodInvocation SimpleName c
+c SimpleName Assignment MethodInvocation SimpleName get next sibling
+get style sheets SimpleName MethodInvocation SimpleName c
+get style sheets SimpleName MethodInvocation SimpleName l
+c SimpleName MethodInvocation SimpleName l
+c SimpleName InfixExpression ForStatement Assignment SimpleName c
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName get style sheets
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom style sheet list
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName get style sheets
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom style sheet list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+void PrimitiveType MethodDeclaration SimpleName get style sheets
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom style sheet list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName l
+get style sheets SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get style sheets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+get style sheets SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom style sheet list
+get style sheets SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName get style sheets
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get style sheets
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

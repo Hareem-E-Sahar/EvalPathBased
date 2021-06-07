@@ -1,0 +1,49 @@
+event target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+call SimpleName MethodInvocation StringLiteral retarget
+call SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName target
+retarget StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName target
+ret SimpleName VariableDeclarationFragment MethodInvocation SimpleName call
+ret SimpleName VariableDeclarationFragment MethodInvocation StringLiteral retarget
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName InstanceofExpression SimpleType SimpleName scriptable object
+native object SimpleName SimpleType CastExpression SimpleName ret
+object custom event SimpleName SimpleType ClassInstanceCreation CastExpression SimpleName ret
+object custom event SimpleName SimpleType ClassInstanceCreation SimpleName interpreter
+object custom event SimpleName SimpleType ClassInstanceCreation SimpleName event map
+native object SimpleName SimpleType CastExpression ClassInstanceCreation SimpleName interpreter
+ret SimpleName CastExpression ClassInstanceCreation SimpleName interpreter
+native object SimpleName SimpleType CastExpression ClassInstanceCreation SimpleName event map
+ret SimpleName CastExpression ClassInstanceCreation SimpleName event map
+interpreter SimpleName ClassInstanceCreation SimpleName event map
+evt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName object custom event
+evt SimpleName VariableDeclarationFragment ClassInstanceCreation CastExpression SimpleName ret
+evt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName interpreter
+evt SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName event map
+custom event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName evt
+soft reference SimpleName SimpleType ClassInstanceCreation SimpleName evt
+event map SimpleName MethodInvocation SimpleName put
+event map SimpleName MethodInvocation SimpleName ret
+event map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+event map SimpleName MethodInvocation ClassInstanceCreation SimpleName evt
+put SimpleName MethodInvocation SimpleName ret
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName evt
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+ret SimpleName MethodInvocation ClassInstanceCreation SimpleName evt
+public Modifier MethodDeclaration SimpleType SimpleName custom event
+public Modifier MethodDeclaration SimpleName retarget
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+custom event SimpleName SimpleType MethodDeclaration SimpleName retarget
+custom event SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+retarget SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+retarget SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName custom event
+public Modifier TypeDeclaration MethodDeclaration SimpleName retarget
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName custom event
+test SimpleName TypeDeclaration MethodDeclaration SimpleName retarget
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

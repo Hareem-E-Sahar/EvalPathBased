@@ -1,0 +1,67 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+int PrimitiveType SingleVariableDeclaration SimpleName charnum
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aci
+text node SimpleName SimpleType CastExpression SimpleName node
+node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get attributed character iterator
+aci SimpleName Assignment MethodInvocation SimpleName get attributed character iterator
+get element start index SimpleName MethodInvocation SimpleName element
+first char SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element start index
+first char SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName first char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get element start index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName element
+first char SimpleName InfixExpression PrefixExpression NumberLiteral empty
+text node SimpleName SimpleType CastExpression SimpleName node
+get text runs SimpleName MethodInvocation CastExpression SimpleType SimpleName text node
+get text runs SimpleName MethodInvocation CastExpression SimpleName node
+list SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text runs
+list SimpleName VariableDeclarationFragment MethodInvocation CastExpression SimpleName node
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName list
+character information SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName info
+get character information SimpleName MethodInvocation SimpleName list
+get character information SimpleName MethodInvocation SimpleName first char
+get character information SimpleName MethodInvocation SimpleName charnum
+get character information SimpleName MethodInvocation SimpleName aci
+list SimpleName MethodInvocation SimpleName first char
+list SimpleName MethodInvocation SimpleName charnum
+list SimpleName MethodInvocation SimpleName aci
+first char SimpleName MethodInvocation SimpleName charnum
+first char SimpleName MethodInvocation SimpleName aci
+charnum SimpleName MethodInvocation SimpleName aci
+info SimpleName Assignment MethodInvocation SimpleName get character information
+info SimpleName Assignment MethodInvocation SimpleName list
+info SimpleName Assignment MethodInvocation SimpleName first char
+info SimpleName Assignment MethodInvocation SimpleName charnum
+info SimpleName Assignment MethodInvocation SimpleName aci
+get start point SimpleName MethodInvocation SimpleName info
+protected Modifier MethodDeclaration SimpleType SimpleName point d
+protected Modifier MethodDeclaration SimpleName get start position of char
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName charnum
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+point d SimpleName SimpleType MethodDeclaration SimpleName get start position of char
+point d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element
+point d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+point d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName charnum
+get start position of char SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get start position of char SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+get start position of char SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get start position of char SimpleName MethodDeclaration SingleVariableDeclaration SimpleName charnum
+get start position of char SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName point d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get start position of char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName point d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get start position of char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum

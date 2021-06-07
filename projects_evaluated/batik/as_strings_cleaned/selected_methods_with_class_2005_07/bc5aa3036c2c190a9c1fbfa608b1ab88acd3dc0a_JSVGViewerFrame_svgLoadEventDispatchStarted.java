@@ -1,0 +1,41 @@
+svg load event dispatcher event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral messageonload
+get string SimpleName MethodInvocation StringLiteral messageonload
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName resources
+msg SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string
+msg SimpleName VariableDeclarationFragment MethodInvocation StringLiteral messageonload
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName msg
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation SimpleName msg
+println SimpleName MethodInvocation SimpleName msg
+system SimpleName MethodInvocation SimpleName current time millis
+time SimpleName Assignment MethodInvocation SimpleName system
+time SimpleName Assignment MethodInvocation SimpleName current time millis
+stop action SimpleName MethodInvocation SimpleName update
+stop action SimpleName MethodInvocation BooleanLiteral true
+update SimpleName MethodInvocation BooleanLiteral true
+status bar SimpleName MethodInvocation SimpleName set main message
+status bar SimpleName MethodInvocation SimpleName msg
+set main message SimpleName MethodInvocation SimpleName msg
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName svg load event dispatch started
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg load event dispatcher event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block IfStatement SimpleName debug
+void PrimitiveType MethodDeclaration SimpleName svg load event dispatch started
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg load event dispatcher event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName debug
+svg load event dispatch started SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg load event dispatcher event
+svg load event dispatch started SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+svg load event dispatch started SimpleName MethodDeclaration Block IfStatement SimpleName debug
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName svg load event dispatch started
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName svg load event dispatch started
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

@@ -1,0 +1,103 @@
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css hexadecimal character
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css hexadecimal character SimpleName MethodInvocation CastExpression PrimitiveType char
+is css hexadecimal character SimpleName MethodInvocation CastExpression SimpleName current
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css hexadecimal character
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css hexadecimal character SimpleName MethodInvocation CastExpression PrimitiveType char
+is css hexadecimal character SimpleName MethodInvocation CastExpression SimpleName current
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css space
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css space SimpleName MethodInvocation CastExpression PrimitiveType char
+is css space SimpleName MethodInvocation CastExpression SimpleName current
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css hexadecimal character
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css hexadecimal character SimpleName MethodInvocation CastExpression PrimitiveType char
+is css hexadecimal character SimpleName MethodInvocation CastExpression SimpleName current
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css space
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css space SimpleName MethodInvocation CastExpression PrimitiveType char
+is css space SimpleName MethodInvocation CastExpression SimpleName current
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css hexadecimal character
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css hexadecimal character SimpleName MethodInvocation CastExpression PrimitiveType char
+is css hexadecimal character SimpleName MethodInvocation CastExpression SimpleName current
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css space
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css space SimpleName MethodInvocation CastExpression PrimitiveType char
+is css space SimpleName MethodInvocation CastExpression SimpleName current
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css hexadecimal character
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css hexadecimal character SimpleName MethodInvocation CastExpression PrimitiveType char
+is css hexadecimal character SimpleName MethodInvocation CastExpression SimpleName current
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css space
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css space SimpleName MethodInvocation CastExpression PrimitiveType char
+is css space SimpleName MethodInvocation CastExpression SimpleName current
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css hexadecimal character
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css hexadecimal character SimpleName MethodInvocation CastExpression PrimitiveType char
+is css hexadecimal character SimpleName MethodInvocation CastExpression SimpleName current
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css space
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css space SimpleName MethodInvocation CastExpression PrimitiveType char
+is css space SimpleName MethodInvocation CastExpression SimpleName current
+current SimpleName InfixExpression CharacterLiteral empty
+current SimpleName InfixExpression CharacterLiteral ~
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral ~
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral ~
+current SimpleName InfixExpression NumberLiteral empty
+reader SimpleName MethodInvocation SimpleName get line
+reader SimpleName MethodInvocation SimpleName get column
+parse exception SimpleName SimpleType ClassInstanceCreation StringLiteral character
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get line
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get line
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get column
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName escape
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName escape
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+escape SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName escape
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName escape
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,24 @@
+abstract svg transform SimpleName SimpleType SingleVariableDeclaration SimpleName t
+type SimpleName FieldAccess Assignment QualifiedName ttype
+affine transform SimpleName FieldAccess Assignment QualifiedName taffine transform
+angle SimpleName FieldAccess Assignment QualifiedName tangle
+x SimpleName FieldAccess Assignment QualifiedName tx
+y SimpleName FieldAccess Assignment QualifiedName ty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName assign
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract svg transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+void PrimitiveType MethodDeclaration SimpleName assign
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract svg transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+assign SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract svg transform
+assign SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName assign
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName assign
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

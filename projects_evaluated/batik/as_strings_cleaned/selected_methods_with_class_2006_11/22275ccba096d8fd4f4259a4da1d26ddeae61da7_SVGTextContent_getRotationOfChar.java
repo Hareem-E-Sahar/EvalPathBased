@@ -1,0 +1,15 @@
+int PrimitiveType SingleVariableDeclaration SimpleName charnum
+float PrimitiveType MethodDeclaration SimpleName get rotation of char
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName charnum
+get rotation of char SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get rotation of char SimpleName MethodDeclaration SingleVariableDeclaration SimpleName charnum
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get rotation of char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get rotation of char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum

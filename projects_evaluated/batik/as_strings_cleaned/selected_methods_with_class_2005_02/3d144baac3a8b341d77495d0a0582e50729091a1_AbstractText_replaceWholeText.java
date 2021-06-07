@@ -1,0 +1,88 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get previous logically adjacent text node
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+get previous logically adjacent text node SimpleName MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get previous logically adjacent text node
+n SimpleName Assignment MethodInvocation SimpleName n
+abstract node SimpleName SimpleType CastExpression SimpleName n
+an SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+an SimpleName VariableDeclarationFragment CastExpression SimpleName n
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName an
+an SimpleName MethodInvocation SimpleName is readonly
+n SimpleName MethodInvocation SimpleName get node type
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName n
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next logically adjacent text node
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+get next logically adjacent text node SimpleName MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next logically adjacent text node
+n SimpleName Assignment MethodInvocation SimpleName n
+abstract node SimpleName SimpleType CastExpression SimpleName n
+an SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+an SimpleName VariableDeclarationFragment CastExpression SimpleName n
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName an
+an SimpleName MethodInvocation SimpleName is readonly
+n SimpleName MethodInvocation SimpleName get node type
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName n
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get previous logically adjacent text node
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+get previous logically adjacent text node SimpleName MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get previous logically adjacent text node
+n SimpleName Assignment MethodInvocation SimpleName n
+parent SimpleName MethodInvocation SimpleName remove child
+parent SimpleName MethodInvocation SimpleName n
+remove child SimpleName MethodInvocation SimpleName n
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next logically adjacent text node
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+get next logically adjacent text node SimpleName MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next logically adjacent text node
+n SimpleName Assignment MethodInvocation SimpleName n
+parent SimpleName MethodInvocation SimpleName remove child
+parent SimpleName MethodInvocation SimpleName n
+remove child SimpleName MethodInvocation SimpleName n
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+create text node SimpleName MethodInvocation SimpleName s
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName create text node
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+text SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+parent SimpleName MethodInvocation SimpleName replace child
+parent SimpleName MethodInvocation SimpleName t
+replace child SimpleName MethodInvocation SimpleName t
+set node value SimpleName MethodInvocation SimpleName s
+public Modifier MethodDeclaration SimpleType SimpleName text
+public Modifier MethodDeclaration SimpleName replace whole text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+text SimpleName SimpleType MethodDeclaration SimpleName replace whole text
+text SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+text SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+replace whole text SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+replace whole text SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+replace whole text SimpleName MethodDeclaration SimpleType SimpleName dom exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleName replace whole text
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleName replace whole text
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

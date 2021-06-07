@@ -1,0 +1,89 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+css value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+string SimpleName SimpleType SingleVariableDeclaration SimpleName imp
+cssom value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old v
+value entry SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ve
+cssom value SimpleName SimpleType CastExpression SimpleName v
+value entry SimpleName SimpleType ClassInstanceCreation CastExpression SimpleName v
+value entry SimpleName SimpleType ClassInstanceCreation SimpleName imp
+cssom value SimpleName SimpleType CastExpression ClassInstanceCreation SimpleName imp
+v SimpleName CastExpression ClassInstanceCreation SimpleName imp
+properties SimpleName MethodInvocation SimpleName put
+properties SimpleName MethodInvocation SimpleName property name
+properties SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value entry
+properties SimpleName MethodInvocation ClassInstanceCreation CastExpression SimpleName v
+properties SimpleName MethodInvocation ClassInstanceCreation SimpleName imp
+put SimpleName MethodInvocation SimpleName property name
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value entry
+put SimpleName MethodInvocation ClassInstanceCreation CastExpression SimpleName v
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName imp
+property name SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName value entry
+property name SimpleName MethodInvocation ClassInstanceCreation CastExpression SimpleName v
+property name SimpleName MethodInvocation ClassInstanceCreation SimpleName imp
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName properties
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName put
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName property name
+ve SimpleName Assignment CastExpression SimpleType SimpleName value entry
+ve SimpleName Assignment CastExpression MethodInvocation SimpleName properties
+ve SimpleName Assignment CastExpression MethodInvocation SimpleName put
+ve SimpleName Assignment CastExpression MethodInvocation SimpleName property name
+ve SimpleName InfixExpression ParenthesizedExpression ConditionalExpression QualifiedName vevalue
+old v SimpleName Assignment ConditionalExpression QualifiedName vevalue
+old v SimpleName InfixExpression InfixExpression InfixExpression SimpleName old properties
+old properties SimpleName MethodInvocation SimpleName remove
+old properties SimpleName MethodInvocation SimpleName property name
+remove SimpleName MethodInvocation SimpleName property name
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName old properties
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName remove
+value entry SimpleName SimpleType CastExpression MethodInvocation SimpleName property name
+ve SimpleName Assignment CastExpression SimpleType SimpleName value entry
+ve SimpleName Assignment CastExpression MethodInvocation SimpleName old properties
+ve SimpleName Assignment CastExpression MethodInvocation SimpleName remove
+ve SimpleName Assignment CastExpression MethodInvocation SimpleName property name
+old v SimpleName Assignment QualifiedName vevalue
+old v SimpleName MethodInvocation SimpleName set css value change listener
+cssom value SimpleName SimpleType CastExpression SimpleName v
+v SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set css value change listener
+css value change SimpleName MethodInvocation SimpleName property name
+css value change SimpleName MethodInvocation SimpleName old v
+css value change SimpleName MethodInvocation SimpleName v
+property name SimpleName MethodInvocation SimpleName old v
+property name SimpleName MethodInvocation SimpleName v
+old v SimpleName MethodInvocation SimpleName v
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set property css value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName imp
+void PrimitiveType MethodDeclaration SimpleName set property css value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName imp
+set property css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set property css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+set property css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css value
+set property css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+set property css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set property css value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName imp
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set property css value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set property css value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp

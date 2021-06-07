@@ -1,0 +1,37 @@
+char PrimitiveType ArrayType SingleVariableDeclaration SimpleName ca
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName calength
+ca SimpleName ArrayAccess SimpleName i
+print character SimpleName MethodInvocation ArrayAccess SimpleName ca
+print character SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName calength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+calength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print characters
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ca
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName print characters
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ca
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+print characters SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+print characters SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ca
+print characters SimpleName MethodDeclaration SimpleType SimpleName io exception
+ca SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print characters
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ca
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print characters
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ca
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

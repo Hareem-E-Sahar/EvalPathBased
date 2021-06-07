@@ -1,0 +1,30 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+type SimpleName MethodInvocation SimpleName equals
+type SimpleName MethodInvocation QualifiedName destination typepng str
+equals SimpleName MethodInvocation QualifiedName destination typepng str
+type SimpleName MethodInvocation SimpleName equals
+type SimpleName MethodInvocation QualifiedName destination typejpeg str
+equals SimpleName MethodInvocation QualifiedName destination typejpeg str
+type SimpleName MethodInvocation SimpleName equals
+type SimpleName MethodInvocation QualifiedName destination typetiff str
+equals SimpleName MethodInvocation QualifiedName destination typetiff str
+type SimpleName MethodInvocation SimpleName equals
+type SimpleName MethodInvocation QualifiedName destination typepdf str
+equals SimpleName MethodInvocation QualifiedName destination typepdf str
+protected Modifier MethodDeclaration SimpleType SimpleName destination type
+protected Modifier MethodDeclaration SimpleName get result type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+destination type SimpleName SimpleType MethodDeclaration SimpleName get result type
+destination type SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+get result type SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get result type SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName destination type
+public Modifier TypeDeclaration MethodDeclaration SimpleName get result type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName destination type
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get result type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type

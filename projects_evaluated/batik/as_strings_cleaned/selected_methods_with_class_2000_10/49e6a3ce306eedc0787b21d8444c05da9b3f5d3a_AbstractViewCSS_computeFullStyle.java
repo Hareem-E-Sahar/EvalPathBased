@@ -1,0 +1,73 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pseudo elt
+cssom read only style declaration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName cssom read only style declaration
+add user agent properties SimpleName MethodInvocation SimpleName elt
+add user agent properties SimpleName MethodInvocation SimpleName pseudo elt
+add user agent properties SimpleName MethodInvocation SimpleName result
+elt SimpleName MethodInvocation SimpleName pseudo elt
+elt SimpleName MethodInvocation SimpleName result
+pseudo elt SimpleName MethodInvocation SimpleName result
+add user properties SimpleName MethodInvocation SimpleName elt
+add user properties SimpleName MethodInvocation SimpleName pseudo elt
+add user properties SimpleName MethodInvocation SimpleName result
+elt SimpleName MethodInvocation SimpleName pseudo elt
+elt SimpleName MethodInvocation SimpleName result
+pseudo elt SimpleName MethodInvocation SimpleName result
+add non css presentational hints SimpleName MethodInvocation SimpleName elt
+add non css presentational hints SimpleName MethodInvocation SimpleName pseudo elt
+add non css presentational hints SimpleName MethodInvocation SimpleName result
+elt SimpleName MethodInvocation SimpleName pseudo elt
+elt SimpleName MethodInvocation SimpleName result
+pseudo elt SimpleName MethodInvocation SimpleName result
+add author style sheet properties SimpleName MethodInvocation SimpleName elt
+add author style sheet properties SimpleName MethodInvocation SimpleName pseudo elt
+add author style sheet properties SimpleName MethodInvocation SimpleName result
+elt SimpleName MethodInvocation SimpleName pseudo elt
+elt SimpleName MethodInvocation SimpleName result
+pseudo elt SimpleName MethodInvocation SimpleName result
+add inline style properties SimpleName MethodInvocation SimpleName elt
+add inline style properties SimpleName MethodInvocation SimpleName pseudo elt
+add inline style properties SimpleName MethodInvocation SimpleName result
+elt SimpleName MethodInvocation SimpleName pseudo elt
+elt SimpleName MethodInvocation SimpleName result
+pseudo elt SimpleName MethodInvocation SimpleName result
+add override style properties SimpleName MethodInvocation SimpleName elt
+add override style properties SimpleName MethodInvocation SimpleName pseudo elt
+add override style properties SimpleName MethodInvocation SimpleName result
+elt SimpleName MethodInvocation SimpleName pseudo elt
+elt SimpleName MethodInvocation SimpleName result
+pseudo elt SimpleName MethodInvocation SimpleName result
+compute relative values SimpleName MethodInvocation SimpleName elt
+compute relative values SimpleName MethodInvocation SimpleName pseudo elt
+compute relative values SimpleName MethodInvocation SimpleName result
+elt SimpleName MethodInvocation SimpleName pseudo elt
+elt SimpleName MethodInvocation SimpleName result
+pseudo elt SimpleName MethodInvocation SimpleName result
+protected Modifier MethodDeclaration SimpleType SimpleName css style declaration
+protected Modifier MethodDeclaration SimpleName compute full style
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName result
+css style declaration SimpleName SimpleType MethodDeclaration SimpleName compute full style
+css style declaration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+css style declaration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+compute full style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+compute full style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+compute full style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+compute full style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+compute full style SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute full style
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute full style
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt

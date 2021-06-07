@@ -1,0 +1,7 @@
+declarations SimpleName MethodInvocation SimpleName elements
+enumeration SimpleName SimpleType MethodDeclaration SimpleName get declared prefixes
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName enumeration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get declared prefixes
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName enumeration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get declared prefixes

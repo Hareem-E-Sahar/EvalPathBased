@@ -1,0 +1,72 @@
+graphics node mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get client point
+client xy SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+client xy SimpleName VariableDeclarationFragment MethodInvocation SimpleName get client point
+point SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName client xy
+evt SimpleName MethodInvocation SimpleName get related node
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get related node
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+get event target SimpleName MethodInvocation SimpleName node
+get event target SimpleName MethodInvocation SimpleName client xy
+node SimpleName MethodInvocation SimpleName client xy
+target element SimpleName VariableDeclarationFragment MethodInvocation SimpleName get event target
+target element SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+target element SimpleName VariableDeclarationFragment MethodInvocation SimpleName client xy
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target element
+n SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+default xbl manager SimpleName MethodInvocation SimpleName compute bubble limit
+default xbl manager SimpleName MethodInvocation SimpleName last target element
+default xbl manager SimpleName MethodInvocation SimpleName target element
+compute bubble limit SimpleName MethodInvocation SimpleName last target element
+compute bubble limit SimpleName MethodInvocation SimpleName target element
+last target element SimpleName MethodInvocation SimpleName target element
+n SimpleName Assignment MethodInvocation SimpleName default xbl manager
+n SimpleName Assignment MethodInvocation SimpleName compute bubble limit
+n SimpleName Assignment MethodInvocation SimpleName last target element
+n SimpleName Assignment MethodInvocation SimpleName target element
+dispatch mouse event SimpleName MethodInvocation StringLiteral mouseout
+dispatch mouse event SimpleName MethodInvocation SimpleName last target element
+dispatch mouse event SimpleName MethodInvocation SimpleName target element
+dispatch mouse event SimpleName MethodInvocation SimpleName client xy
+dispatch mouse event SimpleName MethodInvocation SimpleName evt
+mouseout StringLiteral MethodInvocation SimpleName last target element
+mouseout StringLiteral MethodInvocation SimpleName target element
+mouseout StringLiteral MethodInvocation SimpleName client xy
+mouseout StringLiteral MethodInvocation SimpleName evt
+mouseout StringLiteral MethodInvocation BooleanLiteral true
+last target element SimpleName MethodInvocation SimpleName target element
+last target element SimpleName MethodInvocation SimpleName client xy
+last target element SimpleName MethodInvocation SimpleName evt
+last target element SimpleName MethodInvocation BooleanLiteral true
+last target element SimpleName MethodInvocation SimpleName n
+target element SimpleName MethodInvocation SimpleName client xy
+target element SimpleName MethodInvocation SimpleName evt
+target element SimpleName MethodInvocation BooleanLiteral true
+target element SimpleName MethodInvocation SimpleName n
+client xy SimpleName MethodInvocation SimpleName evt
+client xy SimpleName MethodInvocation BooleanLiteral true
+client xy SimpleName MethodInvocation SimpleName n
+evt SimpleName MethodInvocation BooleanLiteral true
+evt SimpleName MethodInvocation SimpleName n
+true BooleanLiteral MethodInvocation SimpleName n
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse exited
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName mouse exited
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+mouse exited SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+mouse exited SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName mouse exited
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName mouse exited
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

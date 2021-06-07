@@ -1,0 +1,199 @@
+url SimpleName SimpleType SingleVariableDeclaration SimpleName url
+url SimpleName MethodInvocation SimpleName to string
+filename SimpleName Assignment MethodInvocation SimpleName url
+filename SimpleName Assignment MethodInvocation SimpleName to string
+url SimpleName MethodInvocation SimpleName open stream
+istream SimpleName VariableDeclarationFragment MethodInvocation SimpleName url
+istream SimpleName VariableDeclarationFragment MethodInvocation SimpleName open stream
+input stream SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName istream
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName img data
+byte PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+buf SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+buf SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName length
+istream SimpleName MethodInvocation SimpleName read
+istream SimpleName MethodInvocation SimpleName buf
+istream SimpleName MethodInvocation NumberLiteral empty
+istream SimpleName MethodInvocation QualifiedName buflength
+read SimpleName MethodInvocation SimpleName buf
+read SimpleName MethodInvocation NumberLiteral empty
+read SimpleName MethodInvocation QualifiedName buflength
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation QualifiedName buflength
+empty NumberLiteral MethodInvocation QualifiedName buflength
+length SimpleName Assignment MethodInvocation SimpleName istream
+length SimpleName Assignment MethodInvocation SimpleName read
+length SimpleName Assignment MethodInvocation SimpleName buf
+length SimpleName Assignment MethodInvocation NumberLiteral empty
+length SimpleName Assignment MethodInvocation QualifiedName buflength
+length SimpleName Assignment ParenthesizedExpression InfixExpression QualifiedName buflength
+img datalength QualifiedName InfixExpression SimpleName length
+byte PrimitiveType ArrayType ArrayCreation InfixExpression QualifiedName img datalength
+byte PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName length
+img data tmp SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+img data tmp SimpleName VariableDeclarationFragment ArrayCreation InfixExpression QualifiedName img datalength
+img data tmp SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName length
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName img data tmp
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName img data
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName img data tmp
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName img data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName img data tmp
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName img datalength
+img data SimpleName MethodInvocation NumberLiteral empty
+img data SimpleName MethodInvocation SimpleName img data tmp
+img data SimpleName MethodInvocation NumberLiteral empty
+img data SimpleName MethodInvocation QualifiedName img datalength
+empty NumberLiteral MethodInvocation SimpleName img data tmp
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName img datalength
+img data tmp SimpleName MethodInvocation NumberLiteral empty
+img data tmp SimpleName MethodInvocation QualifiedName img datalength
+empty NumberLiteral MethodInvocation QualifiedName img datalength
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName buf
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName img data tmp
+system SimpleName MethodInvocation QualifiedName img datalength
+arraycopy SimpleName MethodInvocation SimpleName buf
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName img data tmp
+arraycopy SimpleName MethodInvocation QualifiedName img datalength
+arraycopy SimpleName MethodInvocation SimpleName length
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation SimpleName img data tmp
+buf SimpleName MethodInvocation QualifiedName img datalength
+buf SimpleName MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation SimpleName img data tmp
+empty NumberLiteral MethodInvocation QualifiedName img datalength
+empty NumberLiteral MethodInvocation SimpleName length
+img data tmp SimpleName MethodInvocation QualifiedName img datalength
+img data tmp SimpleName MethodInvocation SimpleName length
+img datalength QualifiedName MethodInvocation SimpleName length
+img data SimpleName Assignment SimpleName img data tmp
+byte PrimitiveType ArrayType ArrayCreation SimpleName length
+img data SimpleName Assignment ArrayCreation ArrayType PrimitiveType byte
+img data SimpleName Assignment ArrayCreation SimpleName length
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName buf
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName img data
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName buf
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName img data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName length
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation SimpleName img data
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation SimpleName img data
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName length
+img data SimpleName MethodInvocation NumberLiteral empty
+img data SimpleName MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation SimpleName length
+img datalength QualifiedName InfixExpression SimpleName length
+byte PrimitiveType ArrayType ArrayCreation InfixExpression QualifiedName img datalength
+byte PrimitiveType ArrayType ArrayCreation InfixExpression SimpleName length
+img data tmp SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType byte
+img data tmp SimpleName VariableDeclarationFragment ArrayCreation InfixExpression QualifiedName img datalength
+img data tmp SimpleName VariableDeclarationFragment ArrayCreation InfixExpression SimpleName length
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName img data tmp
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName img data
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName img data tmp
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName img data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName img data tmp
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation QualifiedName img datalength
+img data SimpleName MethodInvocation NumberLiteral empty
+img data SimpleName MethodInvocation SimpleName img data tmp
+img data SimpleName MethodInvocation NumberLiteral empty
+img data SimpleName MethodInvocation QualifiedName img datalength
+empty NumberLiteral MethodInvocation SimpleName img data tmp
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation QualifiedName img datalength
+img data tmp SimpleName MethodInvocation NumberLiteral empty
+img data tmp SimpleName MethodInvocation QualifiedName img datalength
+empty NumberLiteral MethodInvocation QualifiedName img datalength
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName buf
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName img data tmp
+system SimpleName MethodInvocation QualifiedName img datalength
+arraycopy SimpleName MethodInvocation SimpleName buf
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName img data tmp
+arraycopy SimpleName MethodInvocation QualifiedName img datalength
+arraycopy SimpleName MethodInvocation SimpleName length
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation SimpleName img data tmp
+buf SimpleName MethodInvocation QualifiedName img datalength
+buf SimpleName MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation SimpleName img data tmp
+empty NumberLiteral MethodInvocation QualifiedName img datalength
+empty NumberLiteral MethodInvocation SimpleName length
+img data tmp SimpleName MethodInvocation QualifiedName img datalength
+img data tmp SimpleName MethodInvocation SimpleName length
+img datalength QualifiedName MethodInvocation SimpleName length
+img data SimpleName Assignment SimpleName img data tmp
+byte PrimitiveType ArrayType ArrayCreation SimpleName length
+img data SimpleName Assignment ArrayCreation ArrayType PrimitiveType byte
+img data SimpleName Assignment ArrayCreation SimpleName length
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName buf
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName img data
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName buf
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName img data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName length
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation SimpleName img data
+buf SimpleName MethodInvocation NumberLiteral empty
+buf SimpleName MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation SimpleName img data
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName length
+img data SimpleName MethodInvocation NumberLiteral empty
+img data SimpleName MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation SimpleName length
+istream SimpleName MethodInvocation SimpleName close
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName img data
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName create buffered image data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName url
+static Modifier MethodDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SimpleName create buffered image data
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName url
+byte PrimitiveType ArrayType MethodDeclaration SimpleName create buffered image data
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName url
+create buffered image data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName url
+create buffered image data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName url
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName create buffered image data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create buffered image data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName url

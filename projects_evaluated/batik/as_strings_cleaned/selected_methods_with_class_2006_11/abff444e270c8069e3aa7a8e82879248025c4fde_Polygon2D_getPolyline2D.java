@@ -1,0 +1,63 @@
+pol SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName polyline d
+polyline d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pol
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName npoints
+xpoints SimpleName ArrayAccess SimpleName i
+float PrimitiveType CastExpression ArrayAccess SimpleName xpoints
+float PrimitiveType CastExpression ArrayAccess SimpleName i
+ypoints SimpleName ArrayAccess SimpleName i
+float PrimitiveType CastExpression ArrayAccess SimpleName ypoints
+float PrimitiveType CastExpression ArrayAccess SimpleName i
+pol SimpleName MethodInvocation SimpleName add point
+pol SimpleName MethodInvocation CastExpression PrimitiveType float
+pol SimpleName MethodInvocation CastExpression ArrayAccess SimpleName xpoints
+pol SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+pol SimpleName MethodInvocation CastExpression PrimitiveType float
+pol SimpleName MethodInvocation CastExpression ArrayAccess SimpleName ypoints
+pol SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+add point SimpleName MethodInvocation CastExpression PrimitiveType float
+add point SimpleName MethodInvocation CastExpression ArrayAccess SimpleName xpoints
+add point SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+add point SimpleName MethodInvocation CastExpression PrimitiveType float
+add point SimpleName MethodInvocation CastExpression ArrayAccess SimpleName ypoints
+add point SimpleName MethodInvocation CastExpression ArrayAccess SimpleName i
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName npoints
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+npoints SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+xpoints SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName xpoints
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+ypoints SimpleName ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression ArrayAccess SimpleName ypoints
+float PrimitiveType CastExpression ArrayAccess NumberLiteral empty
+pol SimpleName MethodInvocation SimpleName add point
+pol SimpleName MethodInvocation CastExpression PrimitiveType float
+pol SimpleName MethodInvocation CastExpression ArrayAccess SimpleName xpoints
+pol SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+pol SimpleName MethodInvocation CastExpression PrimitiveType float
+pol SimpleName MethodInvocation CastExpression ArrayAccess SimpleName ypoints
+pol SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+add point SimpleName MethodInvocation CastExpression PrimitiveType float
+add point SimpleName MethodInvocation CastExpression ArrayAccess SimpleName xpoints
+add point SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+add point SimpleName MethodInvocation CastExpression PrimitiveType float
+add point SimpleName MethodInvocation CastExpression ArrayAccess SimpleName ypoints
+add point SimpleName MethodInvocation CastExpression ArrayAccess NumberLiteral empty
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+public Modifier MethodDeclaration SimpleType SimpleName polyline d
+public Modifier MethodDeclaration SimpleName get polyline d
+public Modifier MethodDeclaration Block ReturnStatement SimpleName pol
+polyline d SimpleName SimpleType MethodDeclaration SimpleName get polyline d
+get polyline d SimpleName MethodDeclaration Block ReturnStatement SimpleName pol
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName polyline d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get polyline d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName polyline d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get polyline d

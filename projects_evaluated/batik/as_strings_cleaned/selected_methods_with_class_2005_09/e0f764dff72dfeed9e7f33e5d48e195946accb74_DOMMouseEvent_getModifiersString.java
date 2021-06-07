@@ -1,0 +1,42 @@
+modifier keys SimpleName MethodInvocation SimpleName is empty
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+modifier keys SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName modifier keys
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName next
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+sb SimpleName MethodInvocation CastExpression MethodInvocation SimpleName i
+sb SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+append SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+append SimpleName MethodInvocation CastExpression MethodInvocation SimpleName i
+append SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+i SimpleName MethodInvocation SimpleName has next
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+i SimpleName MethodInvocation SimpleName next
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+sb SimpleName MethodInvocation CastExpression MethodInvocation SimpleName i
+sb SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+append SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+append SimpleName MethodInvocation CastExpression MethodInvocation SimpleName i
+append SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next
+sb SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get modifiers string
+string SimpleName SimpleType MethodDeclaration SimpleName get modifiers string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get modifiers string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get modifiers string

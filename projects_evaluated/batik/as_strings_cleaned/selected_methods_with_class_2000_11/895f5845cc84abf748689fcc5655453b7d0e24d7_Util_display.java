@@ -1,0 +1,359 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+int PrimitiveType SingleVariableDeclaration SimpleName level
+tab SimpleName VariableDeclarationFragment StringLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tab
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment StringLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName level
+tab SimpleName Assignment StringLiteral 
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName level
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+level SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+n SimpleName MethodInvocation SimpleName get node type
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get node type
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName n
+short PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation SimpleName get node name
+n SimpleName MethodInvocation SimpleName get namespace uri
+tab SimpleName InfixExpression StringLiteral <
+tab SimpleName InfixExpression MethodInvocation SimpleName n
+tab SimpleName InfixExpression MethodInvocation SimpleName get node name
+tab SimpleName InfixExpression StringLiteral uri
+tab SimpleName InfixExpression MethodInvocation SimpleName n
+tab SimpleName InfixExpression MethodInvocation SimpleName get namespace uri
+tab SimpleName InfixExpression StringLiteral )
+< StringLiteral InfixExpression MethodInvocation SimpleName n
+< StringLiteral InfixExpression MethodInvocation SimpleName get node name
+< StringLiteral InfixExpression StringLiteral uri
+< StringLiteral InfixExpression MethodInvocation SimpleName n
+< StringLiteral InfixExpression MethodInvocation SimpleName get namespace uri
+< StringLiteral InfixExpression StringLiteral )
+n SimpleName MethodInvocation InfixExpression StringLiteral uri
+get node name SimpleName MethodInvocation InfixExpression StringLiteral uri
+n SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+n SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace uri
+get node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+get node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace uri
+n SimpleName MethodInvocation InfixExpression StringLiteral )
+get node name SimpleName MethodInvocation InfixExpression StringLiteral )
+uri StringLiteral InfixExpression MethodInvocation SimpleName n
+uri StringLiteral InfixExpression MethodInvocation SimpleName get namespace uri
+uri StringLiteral InfixExpression StringLiteral )
+n SimpleName MethodInvocation InfixExpression StringLiteral )
+get namespace uri SimpleName MethodInvocation InfixExpression StringLiteral )
+systemout QualifiedName MethodInvocation SimpleName print
+systemout QualifiedName MethodInvocation InfixExpression SimpleName tab
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral <
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName n
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get node name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral uri
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName n
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace uri
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral )
+print SimpleName MethodInvocation InfixExpression SimpleName tab
+print SimpleName MethodInvocation InfixExpression StringLiteral <
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get node name
+print SimpleName MethodInvocation InfixExpression StringLiteral uri
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace uri
+print SimpleName MethodInvocation InfixExpression StringLiteral )
+n SimpleName MethodInvocation SimpleName get attributes
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+map SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName map
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+map SimpleName MethodInvocation SimpleName item
+map SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName map
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+attr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName attr
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName map
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+attr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get name
+attr SimpleName MethodInvocation SimpleName get namespace uri
+attr SimpleName MethodInvocation SimpleName get value
+empty StringLiteral InfixExpression MethodInvocation SimpleName attr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get name
+empty StringLiteral InfixExpression StringLiteral uri
+empty StringLiteral InfixExpression MethodInvocation SimpleName attr
+empty StringLiteral InfixExpression MethodInvocation SimpleName get namespace uri
+empty StringLiteral InfixExpression StringLiteral )
+empty StringLiteral InfixExpression StringLiteral =\
+attr SimpleName MethodInvocation InfixExpression StringLiteral uri
+get name SimpleName MethodInvocation InfixExpression StringLiteral uri
+attr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+attr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace uri
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace uri
+attr SimpleName MethodInvocation InfixExpression StringLiteral )
+get name SimpleName MethodInvocation InfixExpression StringLiteral )
+attr SimpleName MethodInvocation InfixExpression StringLiteral =\
+get name SimpleName MethodInvocation InfixExpression StringLiteral =\
+attr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+attr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+get name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+uri StringLiteral InfixExpression MethodInvocation SimpleName attr
+uri StringLiteral InfixExpression MethodInvocation SimpleName get namespace uri
+uri StringLiteral InfixExpression StringLiteral )
+uri StringLiteral InfixExpression StringLiteral =\
+uri StringLiteral InfixExpression MethodInvocation SimpleName attr
+uri StringLiteral InfixExpression MethodInvocation SimpleName get value
+uri StringLiteral InfixExpression StringLiteral \
+attr SimpleName MethodInvocation InfixExpression StringLiteral )
+get namespace uri SimpleName MethodInvocation InfixExpression StringLiteral )
+attr SimpleName MethodInvocation InfixExpression StringLiteral =\
+get namespace uri SimpleName MethodInvocation InfixExpression StringLiteral =\
+attr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+attr SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+get namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+get namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+attr SimpleName MethodInvocation InfixExpression StringLiteral \
+get namespace uri SimpleName MethodInvocation InfixExpression StringLiteral \
+) StringLiteral InfixExpression StringLiteral =\
+) StringLiteral InfixExpression MethodInvocation SimpleName attr
+) StringLiteral InfixExpression MethodInvocation SimpleName get value
+) StringLiteral InfixExpression StringLiteral \
+=\ StringLiteral InfixExpression MethodInvocation SimpleName attr
+=\ StringLiteral InfixExpression MethodInvocation SimpleName get value
+=\ StringLiteral InfixExpression StringLiteral \
+attr SimpleName MethodInvocation InfixExpression StringLiteral \
+get value SimpleName MethodInvocation InfixExpression StringLiteral \
+systemout QualifiedName MethodInvocation SimpleName print
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral uri
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace uri
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral )
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral =\
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral \
+print SimpleName MethodInvocation InfixExpression StringLiteral empty
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+print SimpleName MethodInvocation InfixExpression StringLiteral uri
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get namespace uri
+print SimpleName MethodInvocation InfixExpression StringLiteral )
+print SimpleName MethodInvocation InfixExpression StringLiteral =\
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName attr
+print SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get value
+print SimpleName MethodInvocation InfixExpression StringLiteral \
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+n SimpleName MethodInvocation SimpleName get first child
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral />
+println SimpleName MethodInvocation StringLiteral />
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral >
+println SimpleName MethodInvocation StringLiteral >
+level SimpleName InfixExpression NumberLiteral empty
+display SimpleName MethodInvocation SimpleName o
+display SimpleName MethodInvocation InfixExpression SimpleName level
+display SimpleName MethodInvocation InfixExpression NumberLiteral empty
+o SimpleName MethodInvocation InfixExpression SimpleName level
+o SimpleName MethodInvocation InfixExpression NumberLiteral empty
+o SimpleName MethodInvocation SimpleName get next sibling
+o SimpleName Assignment MethodInvocation SimpleName o
+o SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName get node name
+tab SimpleName InfixExpression StringLiteral </
+tab SimpleName InfixExpression MethodInvocation SimpleName n
+tab SimpleName InfixExpression MethodInvocation SimpleName get node name
+tab SimpleName InfixExpression StringLiteral >
+</ StringLiteral InfixExpression MethodInvocation SimpleName n
+</ StringLiteral InfixExpression MethodInvocation SimpleName get node name
+</ StringLiteral InfixExpression StringLiteral >
+n SimpleName MethodInvocation InfixExpression StringLiteral >
+get node name SimpleName MethodInvocation InfixExpression StringLiteral >
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression SimpleName tab
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral </
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName n
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get node name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral >
+println SimpleName MethodInvocation InfixExpression SimpleName tab
+println SimpleName MethodInvocation InfixExpression StringLiteral </
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get node name
+println SimpleName MethodInvocation InfixExpression StringLiteral >
+n SimpleName MethodInvocation SimpleName get node value
+tab SimpleName InfixExpression MethodInvocation SimpleName n
+tab SimpleName InfixExpression MethodInvocation SimpleName get node value
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression SimpleName tab
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName n
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+println SimpleName MethodInvocation InfixExpression SimpleName tab
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+n SimpleName MethodInvocation SimpleName get node name
+n SimpleName MethodInvocation SimpleName get node value
+tab SimpleName InfixExpression StringLiteral <?
+tab SimpleName InfixExpression MethodInvocation SimpleName n
+tab SimpleName InfixExpression MethodInvocation SimpleName get node name
+tab SimpleName InfixExpression StringLiteral empty
+tab SimpleName InfixExpression MethodInvocation SimpleName n
+tab SimpleName InfixExpression MethodInvocation SimpleName get node value
+tab SimpleName InfixExpression StringLiteral ?>
+<? StringLiteral InfixExpression MethodInvocation SimpleName n
+<? StringLiteral InfixExpression MethodInvocation SimpleName get node name
+<? StringLiteral InfixExpression StringLiteral empty
+<? StringLiteral InfixExpression MethodInvocation SimpleName n
+<? StringLiteral InfixExpression MethodInvocation SimpleName get node value
+<? StringLiteral InfixExpression StringLiteral ?>
+n SimpleName MethodInvocation InfixExpression StringLiteral empty
+get node name SimpleName MethodInvocation InfixExpression StringLiteral empty
+n SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+n SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+get node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+get node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+n SimpleName MethodInvocation InfixExpression StringLiteral ?>
+get node name SimpleName MethodInvocation InfixExpression StringLiteral ?>
+empty StringLiteral InfixExpression MethodInvocation SimpleName n
+empty StringLiteral InfixExpression MethodInvocation SimpleName get node value
+empty StringLiteral InfixExpression StringLiteral ?>
+n SimpleName MethodInvocation InfixExpression StringLiteral ?>
+get node value SimpleName MethodInvocation InfixExpression StringLiteral ?>
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression SimpleName tab
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral <?
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName n
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get node name
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral empty
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName n
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ?>
+println SimpleName MethodInvocation InfixExpression SimpleName tab
+println SimpleName MethodInvocation InfixExpression StringLiteral <?
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get node name
+println SimpleName MethodInvocation InfixExpression StringLiteral empty
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+println SimpleName MethodInvocation InfixExpression StringLiteral ?>
+n SimpleName MethodInvocation SimpleName get node value
+tab SimpleName InfixExpression StringLiteral cdata
+tab SimpleName InfixExpression MethodInvocation SimpleName n
+tab SimpleName InfixExpression MethodInvocation SimpleName get node value
+tab SimpleName InfixExpression StringLiteral ]]>
+cdata StringLiteral InfixExpression MethodInvocation SimpleName n
+cdata StringLiteral InfixExpression MethodInvocation SimpleName get node value
+cdata StringLiteral InfixExpression StringLiteral ]]>
+n SimpleName MethodInvocation InfixExpression StringLiteral ]]>
+get node value SimpleName MethodInvocation InfixExpression StringLiteral ]]>
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression SimpleName tab
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral cdata
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName n
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ]]>
+println SimpleName MethodInvocation InfixExpression SimpleName tab
+println SimpleName MethodInvocation InfixExpression StringLiteral cdata
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+println SimpleName MethodInvocation InfixExpression StringLiteral ]]>
+n SimpleName MethodInvocation SimpleName get node value
+tab SimpleName InfixExpression StringLiteral <!--
+tab SimpleName InfixExpression MethodInvocation SimpleName n
+tab SimpleName InfixExpression MethodInvocation SimpleName get node value
+tab SimpleName InfixExpression StringLiteral -->
+<!-- StringLiteral InfixExpression MethodInvocation SimpleName n
+<!-- StringLiteral InfixExpression MethodInvocation SimpleName get node value
+<!-- StringLiteral InfixExpression StringLiteral -->
+n SimpleName MethodInvocation InfixExpression StringLiteral -->
+get node value SimpleName MethodInvocation InfixExpression StringLiteral -->
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression SimpleName tab
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral <!--
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName n
+systemout QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral -->
+println SimpleName MethodInvocation InfixExpression SimpleName tab
+println SimpleName MethodInvocation InfixExpression StringLiteral <!--
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName n
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+println SimpleName MethodInvocation InfixExpression StringLiteral -->
+t SimpleName SwitchStatement SwitchCase QualifiedName nodeelement node
+t SimpleName SwitchStatement ExpressionStatement MethodInvocation QualifiedName systemout
+t SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName print
+t SimpleName SwitchStatement VariableDeclarationStatement SimpleType SimpleName named node map
+t SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+t SimpleName SwitchStatement ForStatement VariableDeclarationExpression PrimitiveType int
+t SimpleName SwitchStatement ForStatement InfixExpression SimpleName i
+t SimpleName SwitchStatement ForStatement PostfixExpression SimpleName i
+t SimpleName SwitchStatement VariableDeclarationStatement SimpleType SimpleName node
+t SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+nodetext node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodeprocessing instruction node
+nodeprocessing instruction node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodecdata section node
+nodecdata section node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodecomment node
+short PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName t
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName display
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName level
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName display
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName level
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType short
+static Modifier MethodDeclaration Block SwitchStatement SimpleName t
+void PrimitiveType MethodDeclaration SimpleName display
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName level
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType short
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName t
+display SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+display SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+display SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+display SimpleName MethodDeclaration SingleVariableDeclaration SimpleName level
+display SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType short
+display SimpleName MethodDeclaration Block SwitchStatement SimpleName t
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName display
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName display
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName level

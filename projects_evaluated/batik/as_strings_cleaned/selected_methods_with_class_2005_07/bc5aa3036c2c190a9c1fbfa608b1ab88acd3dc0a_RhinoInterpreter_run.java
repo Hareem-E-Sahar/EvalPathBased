@@ -1,0 +1,38 @@
+string reader SimpleName SimpleType ClassInstanceCreation SimpleName scriptstr
+ctx SimpleName MethodInvocation SimpleName compile reader
+ctx SimpleName MethodInvocation SimpleName global object
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string reader
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleName scriptstr
+ctx SimpleName MethodInvocation SimpleName source name svg
+ctx SimpleName MethodInvocation NumberLiteral empty
+compile reader SimpleName MethodInvocation SimpleName global object
+compile reader SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string reader
+compile reader SimpleName MethodInvocation ClassInstanceCreation SimpleName scriptstr
+compile reader SimpleName MethodInvocation SimpleName source name svg
+compile reader SimpleName MethodInvocation NumberLiteral empty
+compile reader SimpleName MethodInvocation SimpleName rhino class loader
+global object SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string reader
+global object SimpleName MethodInvocation ClassInstanceCreation SimpleName scriptstr
+global object SimpleName MethodInvocation SimpleName source name svg
+global object SimpleName MethodInvocation NumberLiteral empty
+global object SimpleName MethodInvocation SimpleName rhino class loader
+string reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName source name svg
+scriptstr SimpleName ClassInstanceCreation MethodInvocation SimpleName source name svg
+string reader SimpleName SimpleType ClassInstanceCreation MethodInvocation NumberLiteral empty
+scriptstr SimpleName ClassInstanceCreation MethodInvocation NumberLiteral empty
+string reader SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName rhino class loader
+scriptstr SimpleName ClassInstanceCreation MethodInvocation SimpleName rhino class loader
+source name svg SimpleName MethodInvocation NumberLiteral empty
+source name svg SimpleName MethodInvocation SimpleName rhino class loader
+empty NumberLiteral MethodInvocation SimpleName rhino class loader
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName io
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName run
+object SimpleName SimpleType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

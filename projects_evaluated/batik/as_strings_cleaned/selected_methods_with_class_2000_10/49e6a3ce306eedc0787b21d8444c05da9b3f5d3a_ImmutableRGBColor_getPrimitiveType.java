@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType short
+public Modifier MethodDeclaration SimpleName get primitive type
+public Modifier MethodDeclaration Block ReturnStatement QualifiedName css primitive valuecss rgbcolor
+short PrimitiveType MethodDeclaration SimpleName get primitive type
+short PrimitiveType MethodDeclaration Block ReturnStatement QualifiedName css primitive valuecss rgbcolor
+get primitive type SimpleName MethodDeclaration Block ReturnStatement QualifiedName css primitive valuecss rgbcolor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName get primitive type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get primitive type

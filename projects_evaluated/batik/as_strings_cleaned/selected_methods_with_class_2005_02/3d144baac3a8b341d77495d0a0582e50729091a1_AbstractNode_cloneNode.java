@@ -1,0 +1,37 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName deep
+deep copy into SimpleName MethodInvocation MethodInvocation SimpleName new node
+copy into SimpleName MethodInvocation MethodInvocation SimpleName new node
+deep SimpleName ConditionalExpression MethodInvocation SimpleName deep copy into
+deep SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName new node
+deep SimpleName ConditionalExpression MethodInvocation SimpleName copy into
+deep SimpleName ConditionalExpression MethodInvocation MethodInvocation SimpleName new node
+deep copy into SimpleName MethodInvocation ConditionalExpression MethodInvocation SimpleName copy into
+n SimpleName VariableDeclarationFragment ConditionalExpression SimpleName deep
+n SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName deep copy into
+n SimpleName VariableDeclarationFragment ConditionalExpression MethodInvocation SimpleName copy into
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+fire user data handlers SimpleName MethodInvocation QualifiedName user data handlernode cloned
+fire user data handlers SimpleName MethodInvocation SimpleName n
+user data handlernode cloned QualifiedName MethodInvocation SimpleName n
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName clone node
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName deep
+public Modifier MethodDeclaration Block ReturnStatement SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleName clone node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName deep
+clone node SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+clone node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName deep
+clone node SimpleName MethodDeclaration Block ReturnStatement SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deep
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deep

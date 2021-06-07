@@ -1,0 +1,46 @@
+url StringLiteral InfixExpression SimpleName value
+url StringLiteral InfixExpression StringLiteral )
+value SimpleName InfixExpression StringLiteral )
+value SimpleName MethodInvocation SimpleName index of
+value SimpleName MethodInvocation CharacterLiteral empty
+index of SimpleName MethodInvocation CharacterLiteral empty
+value SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+index of SimpleName MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+empty CharacterLiteral MethodInvocation InfixExpression PrefixExpression NumberLiteral empty
+\ CharacterLiteral ConditionalExpression CharacterLiteral empty
+q SimpleName VariableDeclarationFragment ConditionalExpression CharacterLiteral \
+q SimpleName VariableDeclarationFragment ConditionalExpression CharacterLiteral empty
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName q
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression CharacterLiteral \
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ConditionalExpression CharacterLiteral empty
+q SimpleName InfixExpression SimpleName value
+q SimpleName InfixExpression SimpleName q
+value SimpleName InfixExpression SimpleName q
+unit type SimpleName SwitchStatement SwitchCase QualifiedName css primitive valuecss uri
+unit type SimpleName SwitchStatement ReturnStatement InfixExpression StringLiteral url
+unit type SimpleName SwitchStatement ReturnStatement InfixExpression SimpleName value
+unit type SimpleName SwitchStatement ReturnStatement InfixExpression StringLiteral )
+unit type SimpleName SwitchStatement SwitchCase QualifiedName css primitive valuecss string
+unit type SimpleName SwitchStatement VariableDeclarationStatement PrimitiveType char
+unit type SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment SimpleName q
+unit type SimpleName SwitchStatement ReturnStatement InfixExpression SimpleName q
+unit type SimpleName SwitchStatement ReturnStatement InfixExpression SimpleName value
+unit type SimpleName SwitchStatement ReturnStatement InfixExpression SimpleName q
+css primitive valuecss uri QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName css primitive valuecss string
+css primitive valuecss uri QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType char
+css primitive valuecss string QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType char
+unit type SimpleName SwitchStatement Block ReturnStatement SimpleName value
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get css text
+public Modifier MethodDeclaration Block SwitchStatement SimpleName unit type
+public Modifier MethodDeclaration Block ReturnStatement SimpleName value
+string SimpleName SimpleType MethodDeclaration SimpleName get css text
+get css text SimpleName MethodDeclaration Block SwitchStatement SimpleName unit type
+get css text SimpleName MethodDeclaration Block ReturnStatement SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get css text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get css text

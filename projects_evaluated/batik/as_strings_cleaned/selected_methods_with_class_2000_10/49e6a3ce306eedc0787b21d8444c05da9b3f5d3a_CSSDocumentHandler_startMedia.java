@@ -1,0 +1,79 @@
+sac media list SimpleName SimpleType SingleVariableDeclaration SimpleName media
+l SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dom media list
+dom media list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+media SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName media
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+media SimpleName MethodInvocation SimpleName item
+media SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+l SimpleName MethodInvocation SimpleName append medium
+l SimpleName MethodInvocation MethodInvocation SimpleName media
+l SimpleName MethodInvocation MethodInvocation SimpleName item
+l SimpleName MethodInvocation MethodInvocation SimpleName i
+append medium SimpleName MethodInvocation MethodInvocation SimpleName media
+append medium SimpleName MethodInvocation MethodInvocation SimpleName item
+append medium SimpleName MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+css rule list owner SimpleName SimpleType CastExpression SimpleName current rule
+rlo SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css rule list owner
+rlo SimpleName VariableDeclarationFragment CastExpression SimpleName current rule
+css rule list owner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rlo
+cssom media rule SimpleName SimpleType ClassInstanceCreation SimpleName style sheet
+cssom media rule SimpleName SimpleType ClassInstanceCreation SimpleName current rule
+cssom media rule SimpleName SimpleType ClassInstanceCreation SimpleName l
+cssom media rule SimpleName SimpleType ClassInstanceCreation SimpleName parser
+cssom media rule SimpleName SimpleType ClassInstanceCreation SimpleName factories
+style sheet SimpleName ClassInstanceCreation SimpleName current rule
+style sheet SimpleName ClassInstanceCreation SimpleName l
+style sheet SimpleName ClassInstanceCreation SimpleName parser
+style sheet SimpleName ClassInstanceCreation SimpleName factories
+current rule SimpleName ClassInstanceCreation SimpleName l
+current rule SimpleName ClassInstanceCreation SimpleName parser
+current rule SimpleName ClassInstanceCreation SimpleName factories
+l SimpleName ClassInstanceCreation SimpleName parser
+l SimpleName ClassInstanceCreation SimpleName factories
+parser SimpleName ClassInstanceCreation SimpleName factories
+current rule SimpleName Assignment ClassInstanceCreation SimpleType SimpleName cssom media rule
+current rule SimpleName Assignment ClassInstanceCreation SimpleName style sheet
+current rule SimpleName Assignment ClassInstanceCreation SimpleName current rule
+current rule SimpleName Assignment ClassInstanceCreation SimpleName l
+current rule SimpleName Assignment ClassInstanceCreation SimpleName parser
+current rule SimpleName Assignment ClassInstanceCreation SimpleName factories
+append SimpleName InfixExpression InfixExpression SimpleName rlo
+style sheet SimpleName MethodInvocation SimpleName append rule
+style sheet SimpleName MethodInvocation SimpleName current rule
+append rule SimpleName MethodInvocation SimpleName current rule
+append SimpleName InfixExpression InfixExpression SimpleName rlo
+rlo SimpleName MethodInvocation SimpleName append rule
+rlo SimpleName MethodInvocation SimpleName current rule
+append rule SimpleName MethodInvocation SimpleName current rule
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start media
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sac media list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName media
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+void PrimitiveType MethodDeclaration SimpleName start media
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sac media list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName media
+void PrimitiveType MethodDeclaration SimpleType SimpleName css exception
+start media SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sac media list
+start media SimpleName MethodDeclaration SingleVariableDeclaration SimpleName media
+start media SimpleName MethodDeclaration SimpleType SimpleName css exception
+media SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start media
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName media
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start media
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName media
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

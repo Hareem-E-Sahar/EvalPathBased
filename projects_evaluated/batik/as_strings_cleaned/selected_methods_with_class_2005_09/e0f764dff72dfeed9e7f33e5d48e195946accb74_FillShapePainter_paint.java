@@ -1,0 +1,25 @@
+graphics d SimpleName SimpleType SingleVariableDeclaration SimpleName g d
+g d SimpleName MethodInvocation SimpleName set paint
+g d SimpleName MethodInvocation SimpleName paint
+set paint SimpleName MethodInvocation SimpleName paint
+g d SimpleName MethodInvocation SimpleName fill
+g d SimpleName MethodInvocation SimpleName shape
+fill SimpleName MethodInvocation SimpleName shape
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName g d
+void PrimitiveType MethodDeclaration SimpleName paint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName g d
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g d
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName paint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName paint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d

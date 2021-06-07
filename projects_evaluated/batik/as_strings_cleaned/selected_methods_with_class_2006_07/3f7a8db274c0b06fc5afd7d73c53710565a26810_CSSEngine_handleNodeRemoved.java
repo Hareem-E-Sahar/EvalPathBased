@@ -1,0 +1,26 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+has style sheet node SimpleName MethodInvocation SimpleName n
+style sheet removed SimpleName Assignment BooleanLiteral true
+n SimpleName InstanceofExpression SimpleType SimpleName css stylable element
+get css next sibling SimpleName MethodInvocation SimpleName n
+removed stylable element sibling SimpleName Assignment MethodInvocation SimpleName get css next sibling
+removed stylable element sibling SimpleName Assignment MethodInvocation SimpleName n
+dispose style maps SimpleName MethodInvocation SimpleName n
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle node removed
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName handle node removed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+handle node removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+handle node removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle node removed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle node removed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

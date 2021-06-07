@@ -1,0 +1,48 @@
+svg transform SimpleName SimpleType SingleVariableDeclaration SimpleName transform
+item list SimpleName MethodInvocation SimpleName size
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName item list
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName item list
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+size SimpleName InfixExpression NumberLiteral empty
+remove item impl SimpleName MethodInvocation PrefixExpression SimpleName size
+size SimpleName InfixExpression NumberLiteral empty
+svg transform item SimpleName SimpleType ClassInstanceCreation SimpleName transform
+append item impl SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg transform item
+append item impl SimpleName MethodInvocation ClassInstanceCreation SimpleName transform
+item list SimpleName MethodInvocation SimpleName get
+item list SimpleName MethodInvocation NumberLiteral empty
+get SimpleName MethodInvocation NumberLiteral empty
+svg transform item SimpleName SimpleType CastExpression MethodInvocation SimpleName item list
+svg transform item SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+svg transform item SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+t SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg transform item
+t SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item list
+t SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+t SimpleName VariableDeclarationFragment CastExpression MethodInvocation NumberLiteral empty
+svg transform item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName MethodInvocation SimpleName assign
+t SimpleName MethodInvocation SimpleName transform
+assign SimpleName MethodInvocation SimpleName transform
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set animated value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg transform
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName transform
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName set animated value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName transform
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+set animated value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg transform
+set animated value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName transform
+set animated value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set animated value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transform
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set animated value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName transform

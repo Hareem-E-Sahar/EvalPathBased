@@ -1,0 +1,40 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+object SimpleName SimpleType SingleVariableDeclaration SimpleName data
+element data map SimpleName Assignment ClassInstanceCreation SimpleType SimpleName weak hash map
+soft reference SimpleName SimpleType ClassInstanceCreation SimpleName data
+element data map SimpleName MethodInvocation SimpleName put
+element data map SimpleName MethodInvocation SimpleName n
+element data map SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+element data map SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+put SimpleName MethodInvocation SimpleName n
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+put SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+n SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName soft reference
+n SimpleName MethodInvocation ClassInstanceCreation SimpleName data
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set element data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+void PrimitiveType MethodDeclaration SimpleName set element data
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+set element data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+set element data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+set element data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+set element data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+n SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set element data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set element data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

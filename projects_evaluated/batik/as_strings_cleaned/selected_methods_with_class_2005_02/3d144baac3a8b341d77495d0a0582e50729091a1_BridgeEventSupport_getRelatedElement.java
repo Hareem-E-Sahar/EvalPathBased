@@ -1,0 +1,31 @@
+graphics node mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get related node
+related node SimpleName VariableDeclarationFragment MethodInvocation SimpleName evt
+related node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get related node
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName related node
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName related element
+context SimpleName MethodInvocation SimpleName get element
+context SimpleName MethodInvocation SimpleName related node
+get element SimpleName MethodInvocation SimpleName related node
+related element SimpleName Assignment MethodInvocation SimpleName context
+related element SimpleName Assignment MethodInvocation SimpleName get element
+related element SimpleName Assignment MethodInvocation SimpleName related node
+protected Modifier MethodDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SimpleName get related element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName related element
+element SimpleName SimpleType MethodDeclaration SimpleName get related element
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName evt
+get related element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node mouse event
+get related element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+get related element SimpleName MethodDeclaration Block ReturnStatement SimpleName related element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get related element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get related element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

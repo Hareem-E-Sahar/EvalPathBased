@@ -1,0 +1,40 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+copy into SimpleName SuperMethodInvocation SimpleName n
+abstract document SimpleName SimpleType CastExpression SimpleName n
+ad SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract document
+ad SimpleName VariableDeclarationFragment CastExpression SimpleName n
+abstract document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ad
+adimplementation QualifiedName Assignment SimpleName implementation
+get class SimpleName MethodInvocation MethodInvocation SimpleName get class loader
+localizable support SimpleName SimpleType ClassInstanceCreation SimpleName resources
+localizable support SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get class loader
+resources SimpleName ClassInstanceCreation MethodInvocation MethodInvocation SimpleName get class
+resources SimpleName ClassInstanceCreation MethodInvocation SimpleName get class loader
+adlocalizable support QualifiedName Assignment ClassInstanceCreation SimpleType SimpleName localizable support
+adlocalizable support QualifiedName Assignment ClassInstanceCreation SimpleName resources
+adlocalizable support QualifiedName Assignment ClassInstanceCreation MethodInvocation SimpleName get class loader
+adinput encoding QualifiedName Assignment SimpleName input encoding
+adxml encoding QualifiedName Assignment SimpleName xml encoding
+adxml version QualifiedName Assignment SimpleName xml version
+adxml standalone QualifiedName Assignment SimpleName xml standalone
+addocument uri QualifiedName Assignment SimpleName document uri
+adstrict error checking QualifiedName Assignment SimpleName strict error checking
+protected Modifier MethodDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SimpleName copy into
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleName copy into
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+copy into SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+copy into SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+copy into SimpleName MethodDeclaration Block ReturnStatement SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName copy into
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName copy into
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

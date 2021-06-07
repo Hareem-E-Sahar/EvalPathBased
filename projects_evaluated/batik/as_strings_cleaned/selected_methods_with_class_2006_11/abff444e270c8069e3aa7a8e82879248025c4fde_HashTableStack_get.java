@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression IfStatement ReturnStatement QualifiedName currentdefault str
+l SimpleName VariableDeclarationFragment SimpleName current
+link SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName l
+link SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName current
+l SimpleName Assignment QualifiedName lnext
+ltable QualifiedName MethodInvocation SimpleName get
+ltable QualifiedName MethodInvocation SimpleName s
+get SimpleName MethodInvocation SimpleName s
+string SimpleName SimpleType CastExpression MethodInvocation QualifiedName ltable
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName s
+uri SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+uri SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName ltable
+uri SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+uri SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName s
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+l SimpleName InfixExpression ForStatement Assignment SimpleName l
+l SimpleName InfixExpression ForStatement Assignment QualifiedName lnext
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+string SimpleName SimpleType MethodDeclaration SimpleName get
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

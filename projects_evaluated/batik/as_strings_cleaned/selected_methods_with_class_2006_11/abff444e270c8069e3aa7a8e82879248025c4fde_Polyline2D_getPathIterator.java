@@ -1,0 +1,34 @@
+affine transform SimpleName SimpleType SingleVariableDeclaration SimpleName at
+double PrimitiveType SingleVariableDeclaration SimpleName flatness
+path SimpleName MethodInvocation SimpleName get path iterator
+path SimpleName MethodInvocation SimpleName at
+get path iterator SimpleName MethodInvocation SimpleName at
+public Modifier MethodDeclaration SimpleType SimpleName path iterator
+public Modifier MethodDeclaration SimpleName get path iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName at
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName flatness
+path iterator SimpleName SimpleType MethodDeclaration SimpleName get path iterator
+path iterator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName at
+path iterator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+path iterator SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName flatness
+get path iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+get path iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName at
+get path iterator SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+get path iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName flatness
+at SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+at SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flatness
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName path iterator
+public Modifier TypeDeclaration MethodDeclaration SimpleName get path iterator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName at
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flatness
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName path iterator
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get path iterator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName at
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName flatness

@@ -1,0 +1,30 @@
+reference node SimpleName InfixExpression SimpleName root
+reference node SimpleName MethodInvocation SimpleName get previous sibling
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName reference node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get previous sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+reference node SimpleName MethodInvocation SimpleName get parent node
+reference node SimpleName Assignment MethodInvocation SimpleName reference node
+reference node SimpleName Assignment MethodInvocation SimpleName get parent node
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeentity reference node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeentity reference node
+n SimpleName MethodInvocation InfixExpression InfixExpression SimpleName expand entity references
+get node type SimpleName MethodInvocation InfixExpression InfixExpression SimpleName expand entity references
+nodeentity reference node QualifiedName InfixExpression InfixExpression SimpleName expand entity references
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+n SimpleName MethodInvocation SimpleName get last child
+t SimpleName Assignment MethodInvocation SimpleName n
+t SimpleName Assignment MethodInvocation SimpleName get last child
+n SimpleName Assignment SimpleName t
+reference node SimpleName Assignment SimpleName n
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName unfiltered previous node
+void PrimitiveType MethodDeclaration SimpleName unfiltered previous node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unfiltered previous node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unfiltered previous node

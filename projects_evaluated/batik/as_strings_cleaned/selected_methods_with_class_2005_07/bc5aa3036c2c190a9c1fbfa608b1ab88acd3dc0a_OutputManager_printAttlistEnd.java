@@ -1,0 +1,31 @@
+char PrimitiveType ArrayType SingleVariableDeclaration SimpleName space
+print spaces SimpleName MethodInvocation SimpleName space
+print spaces SimpleName MethodInvocation BooleanLiteral false
+space SimpleName MethodInvocation BooleanLiteral false
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral >
+write SimpleName MethodInvocation CharacterLiteral >
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName print attlist end
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName space
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName print attlist end
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName space
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+print attlist end SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+print attlist end SimpleName MethodDeclaration SingleVariableDeclaration SimpleName space
+print attlist end SimpleName MethodDeclaration SimpleType SimpleName io exception
+space SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print attlist end
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName space
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print attlist end
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName space
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

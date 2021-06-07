@@ -1,0 +1,127 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName q name
+boolean PrimitiveType SingleVariableDeclaration SimpleName is attribute
+hashtable SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName table
+table SimpleName Assignment SimpleName element name table
+table SimpleName Assignment SimpleName attribute name table
+table SimpleName MethodInvocation SimpleName get
+table SimpleName MethodInvocation SimpleName q name
+get SimpleName MethodInvocation SimpleName q name
+name SimpleName Assignment CastExpression MethodInvocation SimpleName table
+name SimpleName Assignment CastExpression MethodInvocation SimpleName get
+name SimpleName Assignment CastExpression MethodInvocation SimpleName q name
+string SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+name SimpleName Assignment ArrayCreation NumberLiteral empty
+q name SimpleName MethodInvocation SimpleName index of
+q name SimpleName MethodInvocation CharacterLiteral :
+index of SimpleName MethodInvocation CharacterLiteral :
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName q name
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+index SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral :
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName q name
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral :
+index SimpleName InfixExpression PrefixExpression NumberLiteral empty
+is attribute SimpleName InfixExpression InfixExpression SimpleName default ns
+name SimpleName ArrayAccess NumberLiteral empty
+name SimpleName ArrayAccess Assignment StringLiteral empty
+empty NumberLiteral ArrayAccess Assignment StringLiteral empty
+name SimpleName ArrayAccess NumberLiteral empty
+name SimpleName ArrayAccess Assignment SimpleName default ns
+empty NumberLiteral ArrayAccess Assignment SimpleName default ns
+name SimpleName ArrayAccess NumberLiteral empty
+q name SimpleName MethodInvocation SimpleName intern
+name SimpleName ArrayAccess Assignment MethodInvocation SimpleName q name
+name SimpleName ArrayAccess Assignment MethodInvocation SimpleName intern
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName q name
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName intern
+name SimpleName ArrayAccess NumberLiteral empty
+name SimpleName ArrayAccess NumberLiteral empty
+name SimpleName ArrayAccess Assignment ArrayAccess SimpleName name
+name SimpleName ArrayAccess Assignment ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName name
+empty NumberLiteral ArrayAccess Assignment ArrayAccess NumberLiteral empty
+q name SimpleName MethodInvocation SimpleName substring
+q name SimpleName MethodInvocation NumberLiteral empty
+q name SimpleName MethodInvocation SimpleName index
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName index
+empty NumberLiteral MethodInvocation SimpleName index
+prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName q name
+prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+prefix SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+prefix SimpleName VariableDeclarationFragment MethodInvocation SimpleName index
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prefix
+index SimpleName InfixExpression NumberLiteral empty
+q name SimpleName MethodInvocation SimpleName substring
+q name SimpleName MethodInvocation InfixExpression SimpleName index
+q name SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression SimpleName index
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+local SimpleName VariableDeclarationFragment MethodInvocation SimpleName q name
+local SimpleName VariableDeclarationFragment MethodInvocation SimpleName substring
+local SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName index
+local SimpleName VariableDeclarationFragment MethodInvocation InfixExpression NumberLiteral empty
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName local
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+empty StringLiteral MethodInvocation SimpleName equals
+empty StringLiteral MethodInvocation SimpleName prefix
+equals SimpleName MethodInvocation SimpleName prefix
+uri SimpleName Assignment SimpleName default ns
+prefix table SimpleName MethodInvocation SimpleName get
+prefix table SimpleName MethodInvocation SimpleName prefix
+get SimpleName MethodInvocation SimpleName prefix
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName prefix table
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName prefix
+uri SimpleName Assignment CastExpression SimpleType SimpleName string
+uri SimpleName Assignment CastExpression MethodInvocation SimpleName prefix table
+uri SimpleName Assignment CastExpression MethodInvocation SimpleName get
+uri SimpleName Assignment CastExpression MethodInvocation SimpleName prefix
+name SimpleName ArrayAccess NumberLiteral empty
+name SimpleName ArrayAccess Assignment SimpleName uri
+empty NumberLiteral ArrayAccess Assignment SimpleName uri
+name SimpleName ArrayAccess NumberLiteral empty
+local SimpleName MethodInvocation SimpleName intern
+name SimpleName ArrayAccess Assignment MethodInvocation SimpleName local
+name SimpleName ArrayAccess Assignment MethodInvocation SimpleName intern
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName local
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName intern
+name SimpleName ArrayAccess NumberLiteral empty
+q name SimpleName MethodInvocation SimpleName intern
+name SimpleName ArrayAccess Assignment MethodInvocation SimpleName q name
+name SimpleName ArrayAccess Assignment MethodInvocation SimpleName intern
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName q name
+empty NumberLiteral ArrayAccess Assignment MethodInvocation SimpleName intern
+name SimpleName ArrayAccess NumberLiteral empty
+table SimpleName MethodInvocation SimpleName put
+table SimpleName MethodInvocation ArrayAccess SimpleName name
+table SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+table SimpleName MethodInvocation SimpleName name
+put SimpleName MethodInvocation ArrayAccess SimpleName name
+put SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+put SimpleName MethodInvocation SimpleName name
+name SimpleName ArrayAccess MethodInvocation SimpleName name
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName name
+tables dirty SimpleName Assignment BooleanLiteral true
+is attribute SimpleName IfStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName name
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName process name
+process name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+process name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName q name
+process name SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+process name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName is attribute
+process name SimpleName MethodDeclaration Block IfStatement SimpleName is attribute
+process name SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+process name SimpleName MethodDeclaration Block ReturnStatement SimpleName name
+q name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+q name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is attribute
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration SimpleName process name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName q name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is attribute
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName q name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName is attribute

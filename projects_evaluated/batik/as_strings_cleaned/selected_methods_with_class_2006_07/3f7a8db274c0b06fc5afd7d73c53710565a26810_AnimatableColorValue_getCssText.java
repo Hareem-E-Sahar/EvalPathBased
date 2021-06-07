@@ -1,0 +1,93 @@
+red SimpleName InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation SimpleName round
+math SimpleName MethodInvocation InfixExpression SimpleName red
+math SimpleName MethodInvocation InfixExpression NumberLiteral empty
+round SimpleName MethodInvocation InfixExpression SimpleName red
+round SimpleName MethodInvocation InfixExpression NumberLiteral empty
+green SimpleName InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation SimpleName round
+math SimpleName MethodInvocation InfixExpression SimpleName green
+math SimpleName MethodInvocation InfixExpression NumberLiteral empty
+round SimpleName MethodInvocation InfixExpression SimpleName green
+round SimpleName MethodInvocation InfixExpression NumberLiteral empty
+blue SimpleName InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation SimpleName round
+math SimpleName MethodInvocation InfixExpression SimpleName blue
+math SimpleName MethodInvocation InfixExpression NumberLiteral empty
+round SimpleName MethodInvocation InfixExpression SimpleName blue
+round SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation SimpleName math
+rgb StringLiteral InfixExpression MethodInvocation SimpleName round
+rgb StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName red
+rgb StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+rgb StringLiteral InfixExpression StringLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation SimpleName math
+rgb StringLiteral InfixExpression MethodInvocation SimpleName round
+rgb StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName green
+rgb StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+rgb StringLiteral InfixExpression StringLiteral empty
+rgb StringLiteral InfixExpression MethodInvocation SimpleName math
+rgb StringLiteral InfixExpression MethodInvocation SimpleName round
+rgb StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName blue
+rgb StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation InfixExpression StringLiteral empty
+round SimpleName MethodInvocation InfixExpression StringLiteral empty
+red SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression StringLiteral empty
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName round
+round SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+round SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName round
+math SimpleName MethodInvocation InfixExpression StringLiteral empty
+round SimpleName MethodInvocation InfixExpression StringLiteral empty
+red SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression StringLiteral empty
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName round
+round SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+round SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName round
+math SimpleName MethodInvocation InfixExpression StringLiteral )
+round SimpleName MethodInvocation InfixExpression StringLiteral )
+red SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral )
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation SimpleName math
+empty StringLiteral InfixExpression MethodInvocation SimpleName round
+empty StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName green
+empty StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty StringLiteral InfixExpression StringLiteral empty
+empty StringLiteral InfixExpression MethodInvocation SimpleName math
+empty StringLiteral InfixExpression MethodInvocation SimpleName round
+empty StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName blue
+empty StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty StringLiteral InfixExpression StringLiteral )
+math SimpleName MethodInvocation InfixExpression StringLiteral empty
+round SimpleName MethodInvocation InfixExpression StringLiteral empty
+green SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral empty
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression StringLiteral empty
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+math SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName round
+round SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName math
+round SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName round
+math SimpleName MethodInvocation InfixExpression StringLiteral )
+round SimpleName MethodInvocation InfixExpression StringLiteral )
+green SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral )
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression StringLiteral )
+empty StringLiteral InfixExpression MethodInvocation SimpleName math
+empty StringLiteral InfixExpression MethodInvocation SimpleName round
+empty StringLiteral InfixExpression MethodInvocation InfixExpression SimpleName blue
+empty StringLiteral InfixExpression MethodInvocation InfixExpression NumberLiteral empty
+empty StringLiteral InfixExpression StringLiteral )
+math SimpleName MethodInvocation InfixExpression StringLiteral )
+round SimpleName MethodInvocation InfixExpression StringLiteral )
+blue SimpleName InfixExpression MethodInvocation InfixExpression StringLiteral )
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression StringLiteral )
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get css text
+string SimpleName SimpleType MethodDeclaration SimpleName get css text
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get css text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get css text

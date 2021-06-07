@@ -1,0 +1,52 @@
+final Modifier SingleVariableDeclaration SimpleType SimpleName update manager event
+final Modifier SingleVariableDeclaration SimpleName e
+update manager event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+update manager listeners SimpleName MethodInvocation SimpleName to array
+dll SimpleName VariableDeclarationFragment MethodInvocation SimpleName update manager listeners
+dll SimpleName VariableDeclarationFragment MethodInvocation SimpleName to array
+dlllength QualifiedName InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName dlllength
+dll SimpleName ArrayAccess SimpleName i
+update manager listener SimpleName SimpleType CastExpression ArrayAccess SimpleName dll
+update manager listener SimpleName SimpleType CastExpression ArrayAccess SimpleName i
+manager stopped SimpleName MethodInvocation SimpleName e
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName dlllength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+dlllength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+event queue SimpleName MethodInvocation SimpleName invoke later
+event queue SimpleName MethodInvocation SimpleName after stop runnable
+invoke later SimpleName MethodInvocation SimpleName after stop runnable
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+event queue SimpleName MethodInvocation SimpleName invoke later
+event queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+invoke later SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName manager stopped
+public Modifier MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName update manager event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName manager stopped
+void PrimitiveType MethodDeclaration SingleVariableDeclaration Modifier final
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName update manager event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+manager stopped SimpleName MethodDeclaration SingleVariableDeclaration Modifier final
+manager stopped SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName update manager event
+manager stopped SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName manager stopped
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName manager stopped
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

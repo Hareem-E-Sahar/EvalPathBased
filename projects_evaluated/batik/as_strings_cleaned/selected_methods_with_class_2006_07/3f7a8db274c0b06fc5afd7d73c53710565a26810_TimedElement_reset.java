@@ -1,0 +1,61 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName clear current begin
+begin instance times SimpleName MethodInvocation SimpleName iterator
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName begin instance times
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+instance time SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+instance time SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+it SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName instance time
+it SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+it SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+instance time SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName get clear on reset
+clear current begin SimpleName InfixExpression InfixExpression SimpleName current interval
+current interval SimpleName MethodInvocation SimpleName get begin instance time
+current interval SimpleName MethodInvocation InfixExpression SimpleName it
+get begin instance time SimpleName MethodInvocation InfixExpression SimpleName it
+clear current begin SimpleName InfixExpression InfixExpression InfixExpression SimpleName it
+i SimpleName MethodInvocation SimpleName remove
+end instance times SimpleName MethodInvocation SimpleName iterator
+i SimpleName Assignment MethodInvocation SimpleName end instance times
+i SimpleName Assignment MethodInvocation SimpleName iterator
+i SimpleName MethodInvocation SimpleName has next
+i SimpleName MethodInvocation SimpleName next
+instance time SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+instance time SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+it SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName instance time
+it SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+it SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+instance time SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName get clear on reset
+i SimpleName MethodInvocation SimpleName remove
+current repeat iteration SimpleName Assignment NumberLiteral empty
+last repeat time SimpleName Assignment SimpleName unresolved
+is active SimpleName Assignment BooleanLiteral false
+is frozen SimpleName Assignment BooleanLiteral false
+last sample time SimpleName Assignment SimpleName unresolved
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName reset
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName clear current begin
+protected Modifier MethodDeclaration Block IfStatement SimpleName is frozen
+void PrimitiveType MethodDeclaration SimpleName reset
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName clear current begin
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName is frozen
+reset SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+reset SimpleName MethodDeclaration SingleVariableDeclaration SimpleName clear current begin
+reset SimpleName MethodDeclaration Block IfStatement SimpleName is frozen
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clear current begin
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName clear current begin

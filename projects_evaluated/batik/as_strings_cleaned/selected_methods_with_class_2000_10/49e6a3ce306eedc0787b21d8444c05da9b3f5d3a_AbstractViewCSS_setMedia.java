@@ -1,0 +1,22 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName media text
+dom media list SimpleName SimpleType ClassInstanceCreation SimpleName media text
+media SimpleName Assignment ClassInstanceCreation SimpleType SimpleName dom media list
+media SimpleName Assignment ClassInstanceCreation SimpleName media text
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set media
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName media text
+void PrimitiveType MethodDeclaration SimpleName set media
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName media text
+set media SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set media SimpleName MethodDeclaration SingleVariableDeclaration SimpleName media text
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set media
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName media text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set media
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName media text

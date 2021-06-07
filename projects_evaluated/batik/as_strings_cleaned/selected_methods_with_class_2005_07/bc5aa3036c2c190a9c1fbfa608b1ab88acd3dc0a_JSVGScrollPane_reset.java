@@ -1,0 +1,16 @@
+horizontal panel SimpleName MethodInvocation SimpleName set visible
+horizontal panel SimpleName MethodInvocation BooleanLiteral false
+set visible SimpleName MethodInvocation BooleanLiteral false
+vertical SimpleName MethodInvocation SimpleName set visible
+vertical SimpleName MethodInvocation BooleanLiteral false
+set visible SimpleName MethodInvocation BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName reset
+void PrimitiveType MethodDeclaration SimpleName reset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset

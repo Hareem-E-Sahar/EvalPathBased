@@ -1,0 +1,89 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+shape node SimpleName SimpleType SingleVariableDeclaration SimpleName shape node
+e SimpleName MethodInvocation SimpleName get attribute ns
+e SimpleName MethodInvocation SimpleName svg d attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg d attribute
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg d attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+app SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName awt path producer
+awt path producer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName app
+css utilities SimpleName MethodInvocation SimpleName convert fill rule
+css utilities SimpleName MethodInvocation SimpleName e
+convert fill rule SimpleName MethodInvocation SimpleName e
+app SimpleName MethodInvocation SimpleName set winding rule
+app SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+app SimpleName MethodInvocation MethodInvocation SimpleName convert fill rule
+app SimpleName MethodInvocation MethodInvocation SimpleName e
+set winding rule SimpleName MethodInvocation MethodInvocation SimpleName css utilities
+set winding rule SimpleName MethodInvocation MethodInvocation SimpleName convert fill rule
+set winding rule SimpleName MethodInvocation MethodInvocation SimpleName e
+path parser SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName path parser
+path parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path parser
+path parser SimpleName MethodInvocation SimpleName set path handler
+path parser SimpleName MethodInvocation SimpleName app
+set path handler SimpleName MethodInvocation SimpleName app
+path parser SimpleName MethodInvocation SimpleName parse
+path parser SimpleName MethodInvocation SimpleName s
+parse SimpleName MethodInvocation SimpleName s
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err attribute value malformed
+e SimpleName ClassInstanceCreation SimpleName err attribute value malformed
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg d attribute
+err attribute value malformed SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg d attribute
+bex SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName bridge exception
+bex SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName e
+bex SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName err attribute value malformed
+bridge exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bex
+bex SimpleName MethodInvocation SimpleName set graphics node
+bex SimpleName MethodInvocation SimpleName shape node
+set graphics node SimpleName MethodInvocation SimpleName shape node
+app SimpleName MethodInvocation SimpleName get shape
+shape node SimpleName MethodInvocation SimpleName set shape
+shape node SimpleName MethodInvocation MethodInvocation SimpleName app
+shape node SimpleName MethodInvocation MethodInvocation SimpleName get shape
+set shape SimpleName MethodInvocation MethodInvocation SimpleName app
+set shape SimpleName MethodInvocation MethodInvocation SimpleName get shape
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName build shape
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName shape node
+void PrimitiveType MethodDeclaration SimpleName build shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shape node
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape node
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shape node
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape node
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName build shape
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build shape
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape node

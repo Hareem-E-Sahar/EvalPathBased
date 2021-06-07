@@ -1,0 +1,31 @@
+is unresolved SimpleName MethodInvocation SimpleName simple dur
+is unresolved SimpleName MethodInvocation SimpleName repeat count
+is unresolved SimpleName MethodInvocation SimpleName repeat dur
+end timeslength QualifiedName InfixExpression NumberLiteral empty
+is unresolved SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is unresolved
+is unresolved SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName repeat dur
+repeat count SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is unresolved
+repeat count SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName repeat dur
+is unresolved SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName end timeslength
+is unresolved SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+repeat count SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName end timeslength
+repeat count SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+is unresolved SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName end timeslength
+is unresolved SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+repeat dur SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName end timeslength
+repeat dur SimpleName MethodInvocation InfixExpression InfixExpression NumberLiteral empty
+dur media SimpleName IfStatement IfStatement MethodInvocation SimpleName is unresolved
+dur media SimpleName IfStatement IfStatement MethodInvocation SimpleName simple dur
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get simple dur
+public Modifier MethodDeclaration Block IfStatement SimpleName dur media
+float PrimitiveType MethodDeclaration SimpleName get simple dur
+float PrimitiveType MethodDeclaration Block IfStatement SimpleName dur media
+get simple dur SimpleName MethodDeclaration Block IfStatement SimpleName dur media
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get simple dur
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get simple dur

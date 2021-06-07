@@ -1,0 +1,500 @@
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+graphics node mouse event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gvtevt
+evt SimpleName MethodInvocation SimpleName get x
+evt SimpleName MethodInvocation SimpleName get y
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+point dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point dfloat
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName evt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get x
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName evt
+p SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get y
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+gnp SimpleName VariableDeclarationFragment SimpleName p
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gnp
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+base transform SimpleName MethodInvocation SimpleName transform
+base transform SimpleName MethodInvocation SimpleName p
+transform SimpleName MethodInvocation SimpleName p
+gnp SimpleName Assignment MethodInvocation SimpleName base transform
+gnp SimpleName Assignment MethodInvocation SimpleName transform
+gnp SimpleName Assignment MethodInvocation SimpleName p
+root SimpleName MethodInvocation SimpleName node hit at
+root SimpleName MethodInvocation SimpleName gnp
+node hit at SimpleName MethodInvocation SimpleName gnp
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName root
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName node hit at
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName gnp
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+point SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName screen pos
+evt SimpleName MethodInvocation SimpleName get component
+evt SimpleName MethodInvocation MethodInvocation SimpleName is showing
+get component SimpleName MethodInvocation MethodInvocation SimpleName is showing
+point SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+point SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+screen pos SimpleName Assignment ClassInstanceCreation SimpleType SimpleName point
+screen pos SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+screen pos SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+evt SimpleName MethodInvocation SimpleName get component
+evt SimpleName MethodInvocation MethodInvocation SimpleName get location on screen
+get component SimpleName MethodInvocation MethodInvocation SimpleName get location on screen
+screen pos SimpleName Assignment MethodInvocation MethodInvocation SimpleName evt
+screen pos SimpleName Assignment MethodInvocation MethodInvocation SimpleName get component
+screen pos SimpleName Assignment MethodInvocation SimpleName get location on screen
+evt SimpleName MethodInvocation SimpleName get x
+screen posx QualifiedName Assignment MethodInvocation SimpleName evt
+screen posx QualifiedName Assignment MethodInvocation SimpleName get x
+evt SimpleName MethodInvocation SimpleName get y
+screen posy QualifiedName Assignment MethodInvocation SimpleName evt
+screen posy QualifiedName Assignment MethodInvocation SimpleName get y
+last hit SimpleName InfixExpression SimpleName node
+evt SimpleName MethodInvocation SimpleName get when
+evt SimpleName MethodInvocation SimpleName get modifiers
+gnp SimpleName MethodInvocation SimpleName get x
+float PrimitiveType CastExpression MethodInvocation SimpleName gnp
+float PrimitiveType CastExpression MethodInvocation SimpleName get x
+gnp SimpleName MethodInvocation SimpleName get y
+float PrimitiveType CastExpression MethodInvocation SimpleName gnp
+float PrimitiveType CastExpression MethodInvocation SimpleName get y
+p SimpleName MethodInvocation SimpleName get x
+math SimpleName MethodInvocation SimpleName floor
+math SimpleName MethodInvocation MethodInvocation SimpleName p
+math SimpleName MethodInvocation MethodInvocation SimpleName get x
+floor SimpleName MethodInvocation MethodInvocation SimpleName p
+floor SimpleName MethodInvocation MethodInvocation SimpleName get x
+int PrimitiveType CastExpression MethodInvocation SimpleName math
+int PrimitiveType CastExpression MethodInvocation SimpleName floor
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName p
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get x
+p SimpleName MethodInvocation SimpleName get y
+math SimpleName MethodInvocation SimpleName floor
+math SimpleName MethodInvocation MethodInvocation SimpleName p
+math SimpleName MethodInvocation MethodInvocation SimpleName get y
+floor SimpleName MethodInvocation MethodInvocation SimpleName p
+floor SimpleName MethodInvocation MethodInvocation SimpleName get y
+int PrimitiveType CastExpression MethodInvocation SimpleName math
+int PrimitiveType CastExpression MethodInvocation SimpleName floor
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName p
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation SimpleName get click count
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation SimpleName last hit
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation QualifiedName mouse eventmouse exited
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get when
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get modifiers
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get current lock state
+last hit SimpleName ClassInstanceCreation QualifiedName mouse eventmouse exited
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName get when
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName get modifiers
+last hit SimpleName ClassInstanceCreation MethodInvocation SimpleName get current lock state
+last hit SimpleName ClassInstanceCreation CastExpression PrimitiveType float
+last hit SimpleName ClassInstanceCreation CastExpression MethodInvocation SimpleName gnp
+last hit SimpleName ClassInstanceCreation CastExpression MethodInvocation SimpleName get x
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName get when
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName get modifiers
+mouse eventmouse exited QualifiedName ClassInstanceCreation MethodInvocation SimpleName get current lock state
+mouse eventmouse exited QualifiedName ClassInstanceCreation CastExpression PrimitiveType float
+mouse eventmouse exited QualifiedName ClassInstanceCreation CastExpression MethodInvocation SimpleName gnp
+mouse eventmouse exited QualifiedName ClassInstanceCreation CastExpression MethodInvocation SimpleName get x
+mouse eventmouse exited QualifiedName ClassInstanceCreation CastExpression PrimitiveType float
+mouse eventmouse exited QualifiedName ClassInstanceCreation CastExpression MethodInvocation SimpleName gnp
+mouse eventmouse exited QualifiedName ClassInstanceCreation CastExpression MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get when SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get when SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get when SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get modifiers SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get modifiers SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get modifiers SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get modifiers SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get current lock state SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get current lock state SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get current lock state SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get current lock state SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get current lock state SimpleName MethodInvocation ClassInstanceCreation QualifiedName screen posx
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType float
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+float PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posx
+gnp SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+get x SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+float PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posy
+gnp SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+get x SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+float PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posx
+gnp SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+get y SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+float PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posy
+gnp SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+get y SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+float PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName evt
+float PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName get click count
+int PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posx
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posy
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName evt
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName get click count
+int PrimitiveType CastExpression ClassInstanceCreation SimpleName node
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation SimpleName node
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation SimpleName node
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posx
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posy
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName evt
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName get click count
+int PrimitiveType CastExpression ClassInstanceCreation SimpleName node
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation SimpleName node
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation SimpleName node
+screen posx QualifiedName ClassInstanceCreation QualifiedName screen posy
+screen posx QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+screen posx QualifiedName ClassInstanceCreation MethodInvocation SimpleName get click count
+screen posx QualifiedName ClassInstanceCreation SimpleName node
+screen posy QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+screen posy QualifiedName ClassInstanceCreation MethodInvocation SimpleName get click count
+screen posy QualifiedName ClassInstanceCreation SimpleName node
+evt SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+get click count SimpleName MethodInvocation ClassInstanceCreation SimpleName node
+gvtevt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName graphics node mouse event
+gvtevt SimpleName Assignment ClassInstanceCreation SimpleName last hit
+gvtevt SimpleName Assignment ClassInstanceCreation QualifiedName mouse eventmouse exited
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName evt
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get when
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName evt
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get modifiers
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get current lock state
+gvtevt SimpleName Assignment ClassInstanceCreation CastExpression PrimitiveType float
+gvtevt SimpleName Assignment ClassInstanceCreation CastExpression PrimitiveType float
+gvtevt SimpleName Assignment ClassInstanceCreation CastExpression PrimitiveType int
+gvtevt SimpleName Assignment ClassInstanceCreation CastExpression PrimitiveType int
+gvtevt SimpleName Assignment ClassInstanceCreation QualifiedName screen posx
+gvtevt SimpleName Assignment ClassInstanceCreation QualifiedName screen posy
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName evt
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get click count
+gvtevt SimpleName Assignment ClassInstanceCreation SimpleName node
+process mouse event SimpleName MethodInvocation SimpleName gvtevt
+evt SimpleName MethodInvocation SimpleName get when
+evt SimpleName MethodInvocation SimpleName get modifiers
+gnp SimpleName MethodInvocation SimpleName get x
+float PrimitiveType CastExpression MethodInvocation SimpleName gnp
+float PrimitiveType CastExpression MethodInvocation SimpleName get x
+gnp SimpleName MethodInvocation SimpleName get y
+float PrimitiveType CastExpression MethodInvocation SimpleName gnp
+float PrimitiveType CastExpression MethodInvocation SimpleName get y
+p SimpleName MethodInvocation SimpleName get x
+math SimpleName MethodInvocation SimpleName floor
+math SimpleName MethodInvocation MethodInvocation SimpleName p
+math SimpleName MethodInvocation MethodInvocation SimpleName get x
+floor SimpleName MethodInvocation MethodInvocation SimpleName p
+floor SimpleName MethodInvocation MethodInvocation SimpleName get x
+int PrimitiveType CastExpression MethodInvocation SimpleName math
+int PrimitiveType CastExpression MethodInvocation SimpleName floor
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName p
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get x
+p SimpleName MethodInvocation SimpleName get y
+math SimpleName MethodInvocation SimpleName floor
+math SimpleName MethodInvocation MethodInvocation SimpleName p
+math SimpleName MethodInvocation MethodInvocation SimpleName get y
+floor SimpleName MethodInvocation MethodInvocation SimpleName p
+floor SimpleName MethodInvocation MethodInvocation SimpleName get y
+int PrimitiveType CastExpression MethodInvocation SimpleName math
+int PrimitiveType CastExpression MethodInvocation SimpleName floor
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName p
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation SimpleName get click count
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation SimpleName node
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation QualifiedName mouse eventmouse entered
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get when
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get modifiers
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get current lock state
+node SimpleName ClassInstanceCreation QualifiedName mouse eventmouse entered
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName get when
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName get modifiers
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName get current lock state
+node SimpleName ClassInstanceCreation CastExpression PrimitiveType float
+node SimpleName ClassInstanceCreation CastExpression MethodInvocation SimpleName gnp
+node SimpleName ClassInstanceCreation CastExpression MethodInvocation SimpleName get x
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName get when
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName get modifiers
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName get current lock state
+mouse eventmouse entered QualifiedName ClassInstanceCreation CastExpression PrimitiveType float
+mouse eventmouse entered QualifiedName ClassInstanceCreation CastExpression MethodInvocation SimpleName gnp
+mouse eventmouse entered QualifiedName ClassInstanceCreation CastExpression MethodInvocation SimpleName get x
+mouse eventmouse entered QualifiedName ClassInstanceCreation CastExpression PrimitiveType float
+mouse eventmouse entered QualifiedName ClassInstanceCreation CastExpression MethodInvocation SimpleName gnp
+mouse eventmouse entered QualifiedName ClassInstanceCreation CastExpression MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get when SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get when SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get when SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get modifiers SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get modifiers SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get modifiers SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get modifiers SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get current lock state SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get current lock state SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get current lock state SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get current lock state SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get current lock state SimpleName MethodInvocation ClassInstanceCreation QualifiedName screen posx
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType float
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+float PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posx
+gnp SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+get x SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+float PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posy
+gnp SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+get x SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+float PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posx
+gnp SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+get y SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+float PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posy
+gnp SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+get y SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+float PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName evt
+float PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName get click count
+int PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posx
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posy
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName evt
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName get click count
+int PrimitiveType CastExpression ClassInstanceCreation SimpleName last hit
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation SimpleName last hit
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation SimpleName last hit
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posx
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posy
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName evt
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName get click count
+int PrimitiveType CastExpression ClassInstanceCreation SimpleName last hit
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation SimpleName last hit
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation SimpleName last hit
+screen posx QualifiedName ClassInstanceCreation QualifiedName screen posy
+screen posx QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+screen posx QualifiedName ClassInstanceCreation MethodInvocation SimpleName get click count
+screen posx QualifiedName ClassInstanceCreation SimpleName last hit
+screen posy QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+screen posy QualifiedName ClassInstanceCreation MethodInvocation SimpleName get click count
+screen posy QualifiedName ClassInstanceCreation SimpleName last hit
+evt SimpleName MethodInvocation ClassInstanceCreation SimpleName last hit
+get click count SimpleName MethodInvocation ClassInstanceCreation SimpleName last hit
+gvtevt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName graphics node mouse event
+gvtevt SimpleName Assignment ClassInstanceCreation SimpleName node
+gvtevt SimpleName Assignment ClassInstanceCreation QualifiedName mouse eventmouse entered
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName evt
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get when
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName evt
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get modifiers
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get current lock state
+gvtevt SimpleName Assignment ClassInstanceCreation CastExpression PrimitiveType float
+gvtevt SimpleName Assignment ClassInstanceCreation CastExpression PrimitiveType float
+gvtevt SimpleName Assignment ClassInstanceCreation CastExpression PrimitiveType int
+gvtevt SimpleName Assignment ClassInstanceCreation CastExpression PrimitiveType int
+gvtevt SimpleName Assignment ClassInstanceCreation QualifiedName screen posx
+gvtevt SimpleName Assignment ClassInstanceCreation QualifiedName screen posy
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName evt
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get click count
+gvtevt SimpleName Assignment ClassInstanceCreation SimpleName last hit
+process mouse event SimpleName MethodInvocation SimpleName gvtevt
+evt SimpleName MethodInvocation SimpleName get id
+evt SimpleName MethodInvocation SimpleName get when
+evt SimpleName MethodInvocation SimpleName get modifiers
+gnp SimpleName MethodInvocation SimpleName get x
+float PrimitiveType CastExpression MethodInvocation SimpleName gnp
+float PrimitiveType CastExpression MethodInvocation SimpleName get x
+gnp SimpleName MethodInvocation SimpleName get y
+float PrimitiveType CastExpression MethodInvocation SimpleName gnp
+float PrimitiveType CastExpression MethodInvocation SimpleName get y
+p SimpleName MethodInvocation SimpleName get x
+math SimpleName MethodInvocation SimpleName floor
+math SimpleName MethodInvocation MethodInvocation SimpleName p
+math SimpleName MethodInvocation MethodInvocation SimpleName get x
+floor SimpleName MethodInvocation MethodInvocation SimpleName p
+floor SimpleName MethodInvocation MethodInvocation SimpleName get x
+int PrimitiveType CastExpression MethodInvocation SimpleName math
+int PrimitiveType CastExpression MethodInvocation SimpleName floor
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName p
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get x
+p SimpleName MethodInvocation SimpleName get y
+math SimpleName MethodInvocation SimpleName floor
+math SimpleName MethodInvocation MethodInvocation SimpleName p
+math SimpleName MethodInvocation MethodInvocation SimpleName get y
+floor SimpleName MethodInvocation MethodInvocation SimpleName p
+floor SimpleName MethodInvocation MethodInvocation SimpleName get y
+int PrimitiveType CastExpression MethodInvocation SimpleName math
+int PrimitiveType CastExpression MethodInvocation SimpleName floor
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName p
+int PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get y
+evt SimpleName MethodInvocation SimpleName get click count
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation SimpleName node
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get id
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get when
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName evt
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get modifiers
+graphics node mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get current lock state
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName get id
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName get when
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName evt
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName get modifiers
+node SimpleName ClassInstanceCreation MethodInvocation SimpleName get current lock state
+node SimpleName ClassInstanceCreation CastExpression PrimitiveType float
+node SimpleName ClassInstanceCreation CastExpression MethodInvocation SimpleName gnp
+node SimpleName ClassInstanceCreation CastExpression MethodInvocation SimpleName get x
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get when
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get when
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+get id SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get id SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get id SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName evt
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+get when SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get when SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get when SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get when SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+evt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+get modifiers SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get current lock state
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get modifiers SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get modifiers SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get modifiers SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+evt SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get modifiers SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get current lock state SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get current lock state SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType float
+get current lock state SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get current lock state SimpleName MethodInvocation ClassInstanceCreation CastExpression PrimitiveType int
+get current lock state SimpleName MethodInvocation ClassInstanceCreation QualifiedName screen posx
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType float
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+float PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posx
+gnp SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+get x SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+float PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posy
+gnp SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+get x SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+float PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+float PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posx
+gnp SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+get y SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+float PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posy
+gnp SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+get y SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+float PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName evt
+float PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName get click count
+int PrimitiveType CastExpression ClassInstanceCreation CastExpression PrimitiveType int
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posx
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posy
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName evt
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName get click count
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posx
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posx
+int PrimitiveType CastExpression ClassInstanceCreation QualifiedName screen posy
+math SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+floor SimpleName MethodInvocation CastExpression ClassInstanceCreation QualifiedName screen posy
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName evt
+int PrimitiveType CastExpression ClassInstanceCreation MethodInvocation SimpleName get click count
+screen posx QualifiedName ClassInstanceCreation QualifiedName screen posy
+screen posx QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+screen posx QualifiedName ClassInstanceCreation MethodInvocation SimpleName get click count
+screen posy QualifiedName ClassInstanceCreation MethodInvocation SimpleName evt
+screen posy QualifiedName ClassInstanceCreation MethodInvocation SimpleName get click count
+gvtevt SimpleName Assignment ClassInstanceCreation SimpleType SimpleName graphics node mouse event
+gvtevt SimpleName Assignment ClassInstanceCreation SimpleName node
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName evt
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get id
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName evt
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get when
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName evt
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get modifiers
+gvtevt SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get current lock state

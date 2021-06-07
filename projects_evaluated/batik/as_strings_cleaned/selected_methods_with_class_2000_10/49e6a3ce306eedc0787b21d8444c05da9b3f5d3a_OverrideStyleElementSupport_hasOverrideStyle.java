@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pseudo elt
+pseudo elt SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+pseudo elt SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName pseudo elt
+empty StringLiteral ConditionalExpression SimpleName pseudo elt
+pseudo elt SimpleName Assignment ConditionalExpression StringLiteral empty
+pseudo elt SimpleName Assignment ConditionalExpression SimpleName pseudo elt
+override styles SimpleName MethodInvocation SimpleName get
+override styles SimpleName MethodInvocation SimpleName pseudo elt
+get SimpleName MethodInvocation SimpleName pseudo elt
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName has override style
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+boolean PrimitiveType MethodDeclaration SimpleName has override style
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+has override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+has override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName has override style
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName has override style
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt

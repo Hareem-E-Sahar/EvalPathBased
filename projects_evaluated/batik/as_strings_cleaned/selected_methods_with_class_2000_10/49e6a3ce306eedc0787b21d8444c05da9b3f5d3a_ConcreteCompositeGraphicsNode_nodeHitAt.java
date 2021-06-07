@@ -1,0 +1,56 @@
+point d SimpleName SimpleType SingleVariableDeclaration SimpleName p
+get bounds SimpleName MethodInvocation MethodInvocation SimpleName contains
+get bounds SimpleName MethodInvocation MethodInvocation SimpleName p
+contains SimpleName MethodInvocation SimpleName p
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+children SimpleName ArrayAccess SimpleName i
+children SimpleName ArrayAccess MethodInvocation SimpleName get transform
+i SimpleName ArrayAccess MethodInvocation SimpleName get transform
+t SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName children
+t SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName i
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+t SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+t SimpleName MethodInvocation SimpleName transform
+t SimpleName MethodInvocation SimpleName p
+transform SimpleName MethodInvocation SimpleName p
+pt SimpleName VariableDeclarationFragment MethodInvocation SimpleName t
+pt SimpleName VariableDeclarationFragment MethodInvocation SimpleName transform
+pt SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pt
+children SimpleName ArrayAccess SimpleName i
+children SimpleName ArrayAccess MethodInvocation SimpleName node hit at
+i SimpleName ArrayAccess MethodInvocation SimpleName node hit at
+children SimpleName ArrayAccess MethodInvocation SimpleName pt
+i SimpleName ArrayAccess MethodInvocation SimpleName pt
+node hit at SimpleName MethodInvocation SimpleName pt
+node SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName children
+node SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName i
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName node hit at
+node SimpleName VariableDeclarationFragment MethodInvocation SimpleName pt
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName count
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+count SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+public Modifier MethodDeclaration SimpleType SimpleName graphics node
+public Modifier MethodDeclaration SimpleName node hit at
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName p
+graphics node SimpleName SimpleType MethodDeclaration SimpleName node hit at
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName p
+node hit at SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName point d
+node hit at SimpleName MethodDeclaration SingleVariableDeclaration SimpleName p
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName node hit at
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName node hit at
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName p

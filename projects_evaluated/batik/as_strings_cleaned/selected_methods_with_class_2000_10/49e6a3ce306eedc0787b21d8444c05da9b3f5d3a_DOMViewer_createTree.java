@@ -1,0 +1,47 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+default mutable tree node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+node info SimpleName SimpleType ClassInstanceCreation SimpleName node
+default mutable tree node SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation SimpleName node
+result SimpleName Assignment ClassInstanceCreation SimpleType SimpleName default mutable tree node
+result SimpleName Assignment ClassInstanceCreation ClassInstanceCreation SimpleName node
+node SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+create tree SimpleName MethodInvocation SimpleName n
+result SimpleName MethodInvocation SimpleName add
+result SimpleName MethodInvocation MethodInvocation SimpleName create tree
+result SimpleName MethodInvocation MethodInvocation SimpleName n
+add SimpleName MethodInvocation MethodInvocation SimpleName create tree
+add SimpleName MethodInvocation MethodInvocation SimpleName n
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName mutable tree node
+protected Modifier MethodDeclaration SimpleName create tree
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration SimpleType SimpleName mutable tree node
+static Modifier MethodDeclaration SimpleName create tree
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+mutable tree node SimpleName SimpleType MethodDeclaration SimpleName create tree
+mutable tree node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName node
+create tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+create tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+create tree SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mutable tree node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create tree
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mutable tree node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create tree
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

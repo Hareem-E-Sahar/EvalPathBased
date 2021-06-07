@@ -1,0 +1,37 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+get node type SimpleName MethodInvocation InfixExpression SimpleName document type node
+remove child SimpleName MethodInvocation MethodInvocation SimpleName get first child
+get owner document SimpleName MethodInvocation MethodInvocation SimpleName create text node
+get owner document SimpleName MethodInvocation MethodInvocation SimpleName s
+create text node SimpleName MethodInvocation SimpleName s
+append child SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get owner document
+append child SimpleName MethodInvocation MethodInvocation SimpleName create text node
+append child SimpleName MethodInvocation MethodInvocation SimpleName s
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set text content
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set text content
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set text content SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set text content SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+set text content SimpleName MethodDeclaration SimpleType SimpleName dom exception
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set text content
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set text content
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

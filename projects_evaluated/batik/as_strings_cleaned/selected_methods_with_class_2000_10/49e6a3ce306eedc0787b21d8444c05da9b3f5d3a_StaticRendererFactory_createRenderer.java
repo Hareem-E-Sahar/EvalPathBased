@@ -1,0 +1,19 @@
+buffered image SimpleName SimpleType SingleVariableDeclaration SimpleName im
+static renderer SimpleName SimpleType ClassInstanceCreation SimpleName im
+public Modifier MethodDeclaration SimpleType SimpleName renderer
+public Modifier MethodDeclaration SimpleName create renderer
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName im
+renderer SimpleName SimpleType MethodDeclaration SimpleName create renderer
+renderer SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName im
+create renderer SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName buffered image
+create renderer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName im
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName renderer
+public Modifier TypeDeclaration MethodDeclaration SimpleName create renderer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName im
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName renderer
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create renderer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName im

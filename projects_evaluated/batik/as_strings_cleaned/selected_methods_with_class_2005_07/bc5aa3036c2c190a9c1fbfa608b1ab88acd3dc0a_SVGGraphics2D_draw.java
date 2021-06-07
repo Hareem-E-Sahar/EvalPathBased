@@ -1,0 +1,45 @@
+shape SimpleName SimpleType SingleVariableDeclaration SimpleName s
+gc SimpleName MethodInvocation SimpleName get stroke
+stroke SimpleName VariableDeclarationFragment MethodInvocation SimpleName gc
+stroke SimpleName VariableDeclarationFragment MethodInvocation SimpleName get stroke
+stroke SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stroke
+stroke SimpleName InstanceofExpression SimpleType SimpleName basic stroke
+shape converter SimpleName MethodInvocation SimpleName to svg
+shape converter SimpleName MethodInvocation SimpleName s
+to svg SimpleName MethodInvocation SimpleName s
+svg shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName shape converter
+svg shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName to svg
+svg shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg shape
+dom group manager SimpleName MethodInvocation SimpleName add element
+dom group manager SimpleName MethodInvocation SimpleName svg shape
+dom group manager SimpleName MethodInvocation QualifiedName dom group managerdraw
+add element SimpleName MethodInvocation SimpleName svg shape
+add element SimpleName MethodInvocation QualifiedName dom group managerdraw
+svg shape SimpleName MethodInvocation QualifiedName dom group managerdraw
+stroke SimpleName MethodInvocation SimpleName create stroked shape
+stroke SimpleName MethodInvocation SimpleName s
+create stroked shape SimpleName MethodInvocation SimpleName s
+stroked shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName stroke
+stroked shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName create stroked shape
+stroked shape SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName stroked shape
+fill SimpleName MethodInvocation SimpleName stroked shape
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName draw
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleName draw
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+draw SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+draw SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName draw
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName draw
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

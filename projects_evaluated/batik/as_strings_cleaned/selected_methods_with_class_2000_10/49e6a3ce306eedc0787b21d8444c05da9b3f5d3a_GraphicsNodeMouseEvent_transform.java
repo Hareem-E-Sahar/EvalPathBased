@@ -1,0 +1,41 @@
+affine transform SimpleName SimpleType SingleVariableDeclaration SimpleName t
+point dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName x
+point dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName y
+p d SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName point dfloat
+p d SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName x
+p d SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName y
+point dfloat QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p d
+t SimpleName MethodInvocation SimpleName transform
+t SimpleName MethodInvocation SimpleName p d
+t SimpleName MethodInvocation SimpleName p d
+transform SimpleName MethodInvocation SimpleName p d
+transform SimpleName MethodInvocation SimpleName p d
+p d SimpleName MethodInvocation SimpleName p d
+x SimpleName Assignment QualifiedName p dx
+y SimpleName Assignment QualifiedName p dy
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName transform
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+synchronized Modifier MethodDeclaration SingleVariableDeclaration SimpleName t
+void PrimitiveType MethodDeclaration SimpleName transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName t
+transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+transform SimpleName MethodDeclaration SingleVariableDeclaration SimpleName t
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName transform
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName transform
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName t

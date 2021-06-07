@@ -1,0 +1,20 @@
+gvt factory SimpleName SimpleType SingleVariableDeclaration SimpleName gvt factory
+gvt factory SimpleName FieldAccess Assignment SimpleName gvt factory
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set gvt factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt factory
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName gvt factory
+void PrimitiveType MethodDeclaration SimpleName set gvt factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt factory
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName gvt factory
+set gvt factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName gvt factory
+set gvt factory SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gvt factory
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set gvt factory
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gvt factory
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set gvt factory
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gvt factory

@@ -1,0 +1,38 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName v
+v SimpleName MethodInvocation SimpleName equals
+v SimpleName MethodInvocation QualifiedName xml constantsxml version
+equals SimpleName MethodInvocation QualifiedName xml constantsxml version
+v SimpleName MethodInvocation SimpleName equals
+v SimpleName MethodInvocation QualifiedName xml constantsxml version
+equals SimpleName MethodInvocation QualifiedName xml constantsxml version
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot supported err
+create dom exception SimpleName MethodInvocation StringLiteral xmlversion
+create dom exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName v
+dom exceptionnot supported err QualifiedName MethodInvocation StringLiteral xmlversion
+dom exceptionnot supported err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName v
+xmlversion StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName v
+xml version SimpleName Assignment SimpleName v
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set xml version
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set xml version
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set xml version SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set xml version SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+set xml version SimpleName MethodDeclaration SimpleType SimpleName dom exception
+v SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set xml version
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set xml version
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

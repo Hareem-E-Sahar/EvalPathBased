@@ -1,0 +1,51 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName css text
+factory SimpleName MethodInvocation SimpleName create value
+factory SimpleName MethodInvocation SimpleName css text
+create value SimpleName MethodInvocation SimpleName css text
+value SimpleName Assignment MethodInvocation SimpleName factory
+value SimpleName Assignment MethodInvocation SimpleName create value
+value SimpleName Assignment MethodInvocation SimpleName css text
+cssom read only value SimpleName SimpleType ClassInstanceCreation SimpleName value
+old SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cssom read only value
+old SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName value
+css value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old
+factory SimpleName MethodInvocation SimpleName create value
+factory SimpleName MethodInvocation SimpleName css text
+create value SimpleName MethodInvocation SimpleName css text
+value SimpleName Assignment MethodInvocation SimpleName factory
+value SimpleName Assignment MethodInvocation SimpleName create value
+value SimpleName Assignment MethodInvocation SimpleName css text
+factory SimpleName MethodInvocation SimpleName get property name
+listener SimpleName MethodInvocation SimpleName css value change
+listener SimpleName MethodInvocation MethodInvocation SimpleName factory
+listener SimpleName MethodInvocation MethodInvocation SimpleName get property name
+listener SimpleName MethodInvocation SimpleName old
+css value change SimpleName MethodInvocation MethodInvocation SimpleName factory
+css value change SimpleName MethodInvocation MethodInvocation SimpleName get property name
+css value change SimpleName MethodInvocation SimpleName old
+factory SimpleName MethodInvocation MethodInvocation SimpleName old
+get property name SimpleName MethodInvocation MethodInvocation SimpleName old
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set css text
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName css text
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set css text
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName css text
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set css text SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set css text SimpleName MethodDeclaration SingleVariableDeclaration SimpleName css text
+set css text SimpleName MethodDeclaration SimpleType SimpleName dom exception
+css text SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set css text
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName css text
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set css text
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName css text
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

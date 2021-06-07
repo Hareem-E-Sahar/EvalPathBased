@@ -1,0 +1,77 @@
+map SimpleName SimpleType SingleVariableDeclaration SimpleName map
+map SimpleName SimpleType SingleVariableDeclaration SimpleName reference map
+map delta SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName hash map
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map delta
+map SimpleName MethodInvocation SimpleName key set
+map SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName map
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key set
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+key SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+key SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+key SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key
+map SimpleName MethodInvocation SimpleName get
+map SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName map
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName key
+value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName map
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+reference map SimpleName MethodInvocation SimpleName get
+reference map SimpleName MethodInvocation SimpleName key
+get SimpleName MethodInvocation SimpleName key
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName reference map
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName key
+ref value SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+ref value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName reference map
+ref value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+ref value SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName key
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ref value
+value SimpleName MethodInvocation SimpleName equals
+value SimpleName MethodInvocation SimpleName ref value
+equals SimpleName MethodInvocation SimpleName ref value
+map delta SimpleName MethodInvocation SimpleName put
+map delta SimpleName MethodInvocation SimpleName key
+map delta SimpleName MethodInvocation SimpleName value
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName value
+key SimpleName MethodInvocation SimpleName value
+protected Modifier MethodDeclaration SimpleType SimpleName map
+protected Modifier MethodDeclaration SimpleName process delta map
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName map
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName reference map
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName map delta
+map SimpleName SimpleType MethodDeclaration SimpleName process delta map
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName map
+map SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName reference map
+process delta map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+process delta map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName map
+process delta map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName map
+process delta map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName reference map
+process delta map SimpleName MethodDeclaration Block ReturnStatement SimpleName map delta
+map SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reference map
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SimpleName process delta map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reference map
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SimpleName process delta map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName reference map

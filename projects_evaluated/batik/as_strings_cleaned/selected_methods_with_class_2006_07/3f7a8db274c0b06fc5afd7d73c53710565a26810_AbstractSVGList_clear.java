@@ -1,0 +1,33 @@
+list SimpleName SimpleType SingleVariableDeclaration SimpleName list
+list SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName list
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+item SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg item
+item SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName it
+item SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+svg item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName item
+item SimpleName MethodInvocation SimpleName set parent
+list SimpleName MethodInvocation SimpleName clear
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName clear
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName list
+void PrimitiveType MethodDeclaration SimpleName clear
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName list
+clear SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+clear SimpleName MethodDeclaration SingleVariableDeclaration SimpleName list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list

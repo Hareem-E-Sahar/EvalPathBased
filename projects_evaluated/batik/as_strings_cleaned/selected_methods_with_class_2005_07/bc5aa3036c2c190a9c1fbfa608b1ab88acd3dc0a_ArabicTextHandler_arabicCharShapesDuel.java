@@ -1,0 +1,93 @@
+char PrimitiveType SingleVariableDeclaration SimpleName c
+char val SimpleName VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName char val
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+char val SimpleName InfixExpression NumberLiteral x
+char val SimpleName InfixExpression NumberLiteral x
+char val SimpleName InfixExpression NumberLiteral x a
+char val SimpleName InfixExpression NumberLiteral x e
+char val SimpleName InfixExpression InfixExpression InfixExpression SimpleName char val
+char val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral x e
+x a NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName char val
+x a NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x e
+char val SimpleName InfixExpression NumberLiteral x
+char val SimpleName InfixExpression NumberLiteral x a
+char val SimpleName InfixExpression InfixExpression InfixExpression SimpleName char val
+char val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral x a
+x NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName char val
+x NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x a
+char val SimpleName InfixExpression NumberLiteral x
+char val SimpleName InfixExpression NumberLiteral x
+char val SimpleName InfixExpression InfixExpression InfixExpression SimpleName char val
+char val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName char val
+x NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x
+char val SimpleName InfixExpression NumberLiteral x
+char val SimpleName InfixExpression NumberLiteral x a
+char val SimpleName InfixExpression InfixExpression InfixExpression SimpleName char val
+char val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral x a
+x NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName char val
+x NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x a
+char val SimpleName InfixExpression NumberLiteral x
+char val SimpleName InfixExpression NumberLiteral x
+char val SimpleName InfixExpression InfixExpression InfixExpression SimpleName char val
+char val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral x
+x NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName char val
+x NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x
+char val SimpleName InfixExpression NumberLiteral x a
+char val SimpleName InfixExpression NumberLiteral x bf
+char val SimpleName InfixExpression InfixExpression InfixExpression SimpleName char val
+char val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral x bf
+x a NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName char val
+x a NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x bf
+char val SimpleName InfixExpression NumberLiteral x c
+char val SimpleName InfixExpression NumberLiteral x cc
+char val SimpleName InfixExpression NumberLiteral x ce
+char val SimpleName InfixExpression NumberLiteral x d
+char val SimpleName InfixExpression NumberLiteral x d
+char val SimpleName InfixExpression InfixExpression InfixExpression SimpleName char val
+char val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral x d
+x d NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName char val
+x d NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x d
+char val SimpleName InfixExpression NumberLiteral x fa
+char val SimpleName InfixExpression NumberLiteral x fc
+char val SimpleName InfixExpression InfixExpression InfixExpression SimpleName char val
+char val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral x fc
+x fa NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName char val
+x fa NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x fc
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral false
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType boolean
+private Modifier MethodDeclaration SimpleName arabic char shapes duel
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName arabic char shapes duel
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName arabic char shapes duel
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType char
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+arabic char shapes duel SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType char
+arabic char shapes duel SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+arabic char shapes duel SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+arabic char shapes duel SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName arabic char shapes duel
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName arabic char shapes duel
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

@@ -1,0 +1,34 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+node SimpleName InstanceofExpression SimpleType SimpleName css stylable element
+css stylable element SimpleName SimpleType CastExpression SimpleName node
+node SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set computed style map
+get css first child SimpleName MethodInvocation SimpleName node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName node
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+get css next sibling SimpleName MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get css next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+dispose style maps SimpleName MethodInvocation SimpleName n
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName dispose style maps
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleName dispose style maps
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+dispose style maps SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+dispose style maps SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispose style maps
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispose style maps
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

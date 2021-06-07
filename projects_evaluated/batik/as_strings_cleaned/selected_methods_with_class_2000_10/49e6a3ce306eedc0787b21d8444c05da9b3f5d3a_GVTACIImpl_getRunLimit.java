@@ -1,0 +1,39 @@
+set SimpleName SimpleType SingleVariableDeclaration SimpleName attributes
+ndx SimpleName VariableDeclarationFragment SimpleName current index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ndx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName current index
+map list SimpleName MethodInvocation SimpleName get
+map list SimpleName MethodInvocation SimpleName ndx
+get SimpleName MethodInvocation SimpleName ndx
+attributes SimpleName MethodInvocation SimpleName equals
+attributes SimpleName MethodInvocation MethodInvocation SimpleName map list
+attributes SimpleName MethodInvocation MethodInvocation SimpleName get
+attributes SimpleName MethodInvocation MethodInvocation SimpleName ndx
+equals SimpleName MethodInvocation MethodInvocation SimpleName map list
+equals SimpleName MethodInvocation MethodInvocation SimpleName get
+equals SimpleName MethodInvocation MethodInvocation SimpleName ndx
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ndx
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get run limit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName attributes
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ndx
+int PrimitiveType MethodDeclaration SimpleName get run limit
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName attributes
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName ndx
+get run limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName set
+get run limit SimpleName MethodDeclaration SingleVariableDeclaration SimpleName attributes
+get run limit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get run limit SimpleName MethodDeclaration Block ReturnStatement SimpleName ndx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get run limit
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get run limit
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName attributes

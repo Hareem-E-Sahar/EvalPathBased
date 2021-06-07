@@ -1,0 +1,54 @@
+short PrimitiveType SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName key
+object SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName args
+format message SimpleName MethodInvocation SimpleName key
+format message SimpleName MethodInvocation SimpleName args
+key SimpleName MethodInvocation SimpleName args
+x path exception SimpleName SimpleType ClassInstanceCreation SimpleName type
+x path exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName format message
+x path exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName key
+x path exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName args
+type SimpleName ClassInstanceCreation MethodInvocation SimpleName format message
+type SimpleName ClassInstanceCreation MethodInvocation SimpleName key
+type SimpleName ClassInstanceCreation MethodInvocation SimpleName args
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+x path exception SimpleName SimpleType ClassInstanceCreation SimpleName type
+x path exception SimpleName SimpleType ClassInstanceCreation SimpleName key
+type SimpleName ClassInstanceCreation SimpleName key
+public Modifier MethodDeclaration SimpleType SimpleName x path exception
+public Modifier MethodDeclaration SimpleName create x path exception
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName args
+x path exception SimpleName SimpleType MethodDeclaration SimpleName create x path exception
+x path exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+x path exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName type
+x path exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName key
+x path exception SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName args
+create x path exception SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+create x path exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+create x path exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create x path exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+create x path exception SimpleName MethodDeclaration SingleVariableDeclaration SimpleName args
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+short PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName x path exception
+public Modifier TypeDeclaration MethodDeclaration SimpleName create x path exception
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName x path exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create x path exception
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName args

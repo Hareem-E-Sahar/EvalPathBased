@@ -1,0 +1,71 @@
+affine transform SimpleName SimpleType SingleVariableDeclaration SimpleName txf
+t SimpleName VariableDeclarationFragment SimpleName txf
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName txf
+affine transform SimpleName SimpleType ClassInstanceCreation SimpleName txf
+t SimpleName Assignment ClassInstanceCreation SimpleType SimpleName affine transform
+t SimpleName Assignment ClassInstanceCreation SimpleName txf
+t SimpleName MethodInvocation SimpleName concatenate
+t SimpleName MethodInvocation SimpleName transform
+concatenate SimpleName MethodInvocation SimpleName transform
+t SimpleName MethodInvocation SimpleName get shear x
+t SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get shear x SimpleName MethodInvocation InfixExpression NumberLiteral empty
+t SimpleName MethodInvocation SimpleName get shear y
+t SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get shear y SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get transformed b box SimpleName MethodInvocation MethodInvocation SimpleName get primitive bounds
+get transformed b box SimpleName MethodInvocation SimpleName t
+get primitive bounds SimpleName MethodInvocation MethodInvocation SimpleName t
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tpb
+i SimpleName InfixExpression SimpleName count
+tpb SimpleName InfixExpression InfixExpression InfixExpression SimpleName i
+tpb SimpleName InfixExpression InfixExpression InfixExpression SimpleName count
+children SimpleName ArrayAccess PostfixExpression SimpleName i
+children SimpleName ArrayAccess MethodInvocation SimpleName get transformed bounds
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName get transformed bounds
+children SimpleName ArrayAccess MethodInvocation SimpleName t
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName t
+get transformed bounds SimpleName MethodInvocation SimpleName t
+tpb SimpleName Assignment MethodInvocation ArrayAccess SimpleName children
+tpb SimpleName Assignment MethodInvocation SimpleName get transformed bounds
+tpb SimpleName Assignment MethodInvocation SimpleName t
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctb
+i SimpleName InfixExpression SimpleName count
+children SimpleName ArrayAccess PostfixExpression SimpleName i
+children SimpleName ArrayAccess MethodInvocation SimpleName get transformed bounds
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName get transformed bounds
+children SimpleName ArrayAccess MethodInvocation SimpleName t
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName t
+get transformed bounds SimpleName MethodInvocation SimpleName t
+ctb SimpleName Assignment MethodInvocation ArrayAccess SimpleName children
+ctb SimpleName Assignment MethodInvocation SimpleName get transformed bounds
+ctb SimpleName Assignment MethodInvocation SimpleName t
+tpb SimpleName MethodInvocation SimpleName add
+tpb SimpleName MethodInvocation SimpleName ctb
+add SimpleName MethodInvocation SimpleName ctb
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName tpb
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName get transformed primitive bounds
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName txf
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName tpb
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get transformed primitive bounds
+rectangle d SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName txf
+get transformed primitive bounds SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName affine transform
+get transformed primitive bounds SimpleName MethodDeclaration SingleVariableDeclaration SimpleName txf
+get transformed primitive bounds SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get transformed primitive bounds SimpleName MethodDeclaration Block ReturnStatement SimpleName tpb
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get transformed primitive bounds
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txf
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get transformed primitive bounds
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName txf

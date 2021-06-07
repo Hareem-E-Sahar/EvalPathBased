@@ -1,0 +1,34 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName put bridge
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batik regular polygon element bridge
+put bridge SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batik regular polygon element bridge
+ctx SimpleName MethodInvocation SimpleName put bridge
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batik star element bridge
+put bridge SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batik star element bridge
+ctx SimpleName MethodInvocation SimpleName put bridge
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batik histogram normalization element bridge
+put bridge SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batik histogram normalization element bridge
+ctx SimpleName MethodInvocation SimpleName put bridge
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batik flow text element bridge
+put bridge SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName batik flow text element bridge
+ctx SimpleName MethodInvocation SimpleName put bridge
+ctx SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName color switch bridge
+put bridge SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName color switch bridge
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName register tags
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SimpleName register tags
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+register tags SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+register tags SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName register tags
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName register tags
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

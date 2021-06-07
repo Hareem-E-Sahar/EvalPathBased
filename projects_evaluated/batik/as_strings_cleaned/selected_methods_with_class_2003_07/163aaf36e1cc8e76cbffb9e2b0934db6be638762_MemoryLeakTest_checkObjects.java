@@ -1,0 +1,163 @@
+string SimpleName SimpleType ArrayType SingleVariableDeclaration SimpleName descs
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num gc
+system SimpleName MethodInvocation SimpleName gc
+passed SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName passed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression QualifiedName descslength
+descs SimpleName ArrayAccess SimpleName j
+desc SimpleName VariableDeclarationFragment ArrayAccess SimpleName descs
+desc SimpleName VariableDeclarationFragment ArrayAccess SimpleName j
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName desc
+objs SimpleName MethodInvocation SimpleName get
+objs SimpleName MethodInvocation SimpleName desc
+get SimpleName MethodInvocation SimpleName desc
+weak ref SimpleName SimpleType CastExpression MethodInvocation SimpleName objs
+weak ref SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+weak ref SimpleName SimpleType CastExpression MethodInvocation SimpleName desc
+wr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName weak ref
+wr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName objs
+wr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+wr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName desc
+weak ref SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wr
+wr SimpleName MethodInvocation SimpleName get
+passed SimpleName Assignment BooleanLiteral false
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName descslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+descslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName j
+passed SimpleName IfStatement ReturnStatement BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName passed
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num gc
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num gc SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+passed SimpleName VariableDeclarationFragment BooleanLiteral true
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName passed
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral true
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression QualifiedName descslength
+descs SimpleName ArrayAccess SimpleName j
+desc SimpleName VariableDeclarationFragment ArrayAccess SimpleName descs
+desc SimpleName VariableDeclarationFragment ArrayAccess SimpleName j
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName desc
+objs SimpleName MethodInvocation SimpleName get
+objs SimpleName MethodInvocation SimpleName desc
+get SimpleName MethodInvocation SimpleName desc
+weak ref SimpleName SimpleType CastExpression MethodInvocation SimpleName objs
+weak ref SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+weak ref SimpleName SimpleType CastExpression MethodInvocation SimpleName desc
+wr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName weak ref
+wr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName objs
+wr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+wr SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName desc
+weak ref SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wr
+wr SimpleName MethodInvocation SimpleName get
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+passed SimpleName Assignment BooleanLiteral false
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+wr SimpleName MethodInvocation SimpleName get desc
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation SimpleName wr
+sb SimpleName MethodInvocation MethodInvocation SimpleName get desc
+append SimpleName MethodInvocation MethodInvocation SimpleName wr
+append SimpleName MethodInvocation MethodInvocation SimpleName get desc
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName descslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+descslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName j
+objs SimpleName SynchronizedStatement Block VariableDeclarationStatement PrimitiveType boolean
+sb SimpleName MethodInvocation SimpleName to string
+obj str SimpleName VariableDeclarationFragment MethodInvocation SimpleName sb
+obj str SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj str
+fmt SimpleName MethodInvocation SimpleName error description
+fmt SimpleName MethodInvocation SimpleName error objs not cleared
+fmt SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName obj str
+error objs not cleared SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName obj str
+test reportentry QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName fmt
+test reportentry QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName error description
+test reportentry QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName fmt
+test reportentry QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName error objs not cleared
+fmt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName fmt
+fmt SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error objs not cleared
+error description SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName fmt
+error description SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName error objs not cleared
+entry SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName test reportentry
+entry SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName fmt
+entry SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName error description
+entry SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName fmt
+entry SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName error objs not cleared
+test reportentry QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+entries SimpleName MethodInvocation SimpleName add
+entries SimpleName MethodInvocation SimpleName entry
+add SimpleName MethodInvocation SimpleName entry
+obj str SimpleName MethodInvocation SimpleName length
+obj str SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+obj str SimpleName MethodInvocation SimpleName substring
+obj str SimpleName MethodInvocation NumberLiteral empty
+obj str SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+obj str SimpleName MethodInvocation InfixExpression StringLiteral ...
+substring SimpleName MethodInvocation InfixExpression StringLiteral ...
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral ...
+empty NumberLiteral MethodInvocation InfixExpression StringLiteral ...
+obj str SimpleName Assignment InfixExpression MethodInvocation SimpleName obj str
+obj str SimpleName Assignment InfixExpression MethodInvocation SimpleName substring
+obj str SimpleName Assignment InfixExpression MethodInvocation NumberLiteral empty
+obj str SimpleName Assignment InfixExpression MethodInvocation NumberLiteral empty
+obj str SimpleName Assignment InfixExpression StringLiteral ...
+>>>>> objects not cleared StringLiteral InfixExpression SimpleName obj str
+>>>>> objects not cleared StringLiteral InfixExpression StringLiteral empty
+obj str SimpleName InfixExpression StringLiteral empty
+systemerr QualifiedName MethodInvocation SimpleName print
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral >>>>> objects not cleared
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName obj str
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral empty
+print SimpleName MethodInvocation InfixExpression StringLiteral >>>>> objects not cleared
+print SimpleName MethodInvocation InfixExpression SimpleName obj str
+print SimpleName MethodInvocation InfixExpression StringLiteral empty
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName check objects
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName descs
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName objs
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName check objects
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName descs
+boolean PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName objs
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+check objects SimpleName MethodDeclaration SingleVariableDeclaration SimpleName descs
+check objects SimpleName MethodDeclaration Block SynchronizedStatement SimpleName objs
+check objects SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName check objects
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName descs
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check objects
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName descs

@@ -1,0 +1,19 @@
+h raster SimpleName InfixExpression IfStatement ReturnStatement SimpleName h raster
+w raster SimpleName MethodInvocation SimpleName get
+raster SimpleName SimpleType CastExpression MethodInvocation SimpleName w raster
+raster SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+h raster SimpleName Assignment CastExpression SimpleType SimpleName raster
+h raster SimpleName Assignment CastExpression MethodInvocation SimpleName w raster
+h raster SimpleName Assignment CastExpression MethodInvocation SimpleName get
+public Modifier MethodDeclaration SimpleType SimpleName raster
+public Modifier MethodDeclaration SimpleName retrieve raster
+public Modifier MethodDeclaration Block ReturnStatement SimpleName h raster
+raster SimpleName SimpleType MethodDeclaration SimpleName retrieve raster
+retrieve raster SimpleName MethodDeclaration Block ReturnStatement SimpleName h raster
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName raster
+public Modifier TypeDeclaration MethodDeclaration SimpleName retrieve raster
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName raster
+test SimpleName TypeDeclaration MethodDeclaration SimpleName retrieve raster

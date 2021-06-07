@@ -1,0 +1,24 @@
+svg document loader event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+failed SimpleName Assignment BooleanLiteral false
+load monitor SimpleName MethodInvocation SimpleName notify all
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName document loading completed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document loader event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName load monitor
+void PrimitiveType MethodDeclaration SimpleName document loading completed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document loader event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName load monitor
+document loading completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document loader event
+document loading completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+document loading completed SimpleName MethodDeclaration Block SynchronizedStatement SimpleName load monitor
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName document loading completed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName document loading completed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

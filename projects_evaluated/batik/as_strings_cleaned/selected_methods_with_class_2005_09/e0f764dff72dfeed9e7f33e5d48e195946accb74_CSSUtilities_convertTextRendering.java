@@ -1,0 +1,143 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+rendering hints SimpleName SimpleType SingleVariableDeclaration SimpleName hints
+get computed style SimpleName MethodInvocation SimpleName e
+get computed style SimpleName MethodInvocation QualifiedName svgcss enginetext rendering index
+e SimpleName MethodInvocation QualifiedName svgcss enginetext rendering index
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get computed style
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+v SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svgcss enginetext rendering index
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get string value
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName length
+len SimpleName InfixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+len SimpleName InfixExpression NumberLiteral empty
+len SimpleName InfixExpression IfStatement ReturnStatement SimpleName hints
+empty NumberLiteral InfixExpression IfStatement ReturnStatement SimpleName hints
+hints SimpleName Assignment ClassInstanceCreation SimpleType SimpleName rendering hints
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey rendering
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue render speed
+put SimpleName MethodInvocation QualifiedName rendering hintskey rendering
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue render speed
+rendering hintskey rendering QualifiedName MethodInvocation QualifiedName rendering hintsvalue render speed
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey text antialiasing
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue text antialias off
+put SimpleName MethodInvocation QualifiedName rendering hintskey text antialiasing
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue text antialias off
+rendering hintskey text antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue text antialias off
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias off
+put SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias off
+rendering hintskey antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue antialias off
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey rendering
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue render quality
+put SimpleName MethodInvocation QualifiedName rendering hintskey rendering
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue render quality
+rendering hintskey rendering QualifiedName MethodInvocation QualifiedName rendering hintsvalue render quality
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey text antialiasing
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue text antialias off
+put SimpleName MethodInvocation QualifiedName rendering hintskey text antialiasing
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue text antialias off
+rendering hintskey text antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue text antialias off
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+put SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+rendering hintskey antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue antialias on
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey rendering
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue render quality
+put SimpleName MethodInvocation QualifiedName rendering hintskey rendering
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue render quality
+rendering hintskey rendering QualifiedName MethodInvocation QualifiedName rendering hintsvalue render quality
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey text antialiasing
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue text antialias on
+put SimpleName MethodInvocation QualifiedName rendering hintskey text antialiasing
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue text antialias on
+rendering hintskey text antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue text antialias on
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+put SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+rendering hintskey antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue antialias on
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey fractionalmetrics
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue fractionalmetrics on
+put SimpleName MethodInvocation QualifiedName rendering hintskey fractionalmetrics
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue fractionalmetrics on
+rendering hintskey fractionalmetrics QualifiedName MethodInvocation QualifiedName rendering hintsvalue fractionalmetrics on
+hints SimpleName MethodInvocation SimpleName put
+hints SimpleName MethodInvocation QualifiedName rendering hintskey stroke control
+hints SimpleName MethodInvocation QualifiedName rendering hintsvalue stroke pure
+put SimpleName MethodInvocation QualifiedName rendering hintskey stroke control
+put SimpleName MethodInvocation QualifiedName rendering hintsvalue stroke pure
+rendering hintskey stroke control QualifiedName MethodInvocation QualifiedName rendering hintsvalue stroke pure
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral s
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral s
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral s
+s CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral l
+l CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral c
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName hints
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName rendering hints
+public Modifier MethodDeclaration SimpleName convert text rendering
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rendering hints
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hints
+static Modifier MethodDeclaration SimpleType SimpleName rendering hints
+static Modifier MethodDeclaration SimpleName convert text rendering
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rendering hints
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName hints
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName hints
+rendering hints SimpleName SimpleType MethodDeclaration SimpleName convert text rendering
+rendering hints SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+rendering hints SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName hints
+convert text rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert text rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+convert text rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName rendering hints
+convert text rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hints
+convert text rendering SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+convert text rendering SimpleName MethodDeclaration Block ReturnStatement SimpleName hints
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hints
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rendering hints
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert text rendering
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hints
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rendering hints
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert text rendering
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hints

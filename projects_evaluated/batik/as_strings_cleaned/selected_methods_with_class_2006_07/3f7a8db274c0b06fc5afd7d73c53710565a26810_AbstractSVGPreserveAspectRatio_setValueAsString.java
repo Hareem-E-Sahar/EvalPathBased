@@ -1,0 +1,48 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+preserve aspect ratio parser handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ph
+ph SimpleName Assignment ClassInstanceCreation SimpleType SimpleName preserve aspect ratio parser handler
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName preserve aspect ratio parser
+preserve aspect ratio parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName set preserve aspect ratio handler
+p SimpleName MethodInvocation SimpleName ph
+set preserve aspect ratio handler SimpleName MethodInvocation SimpleName ph
+p SimpleName MethodInvocation SimpleName parse
+p SimpleName MethodInvocation SimpleName value
+parse SimpleName MethodInvocation SimpleName value
+ph SimpleName MethodInvocation SimpleName get align
+align SimpleName Assignment MethodInvocation SimpleName ph
+align SimpleName Assignment MethodInvocation SimpleName get align
+ph SimpleName MethodInvocation SimpleName get meet or slice
+meet or slice SimpleName Assignment MethodInvocation SimpleName ph
+meet or slice SimpleName Assignment MethodInvocation SimpleName get meet or slice
+parse exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptioninvalid modification err
+create dom exception SimpleName MethodInvocation StringLiteral preserveaspectratio
+create dom exception SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName value
+dom exceptioninvalid modification err QualifiedName MethodInvocation StringLiteral preserveaspectratio
+dom exceptioninvalid modification err QualifiedName MethodInvocation ArrayCreation ArrayInitializer SimpleName value
+preserveaspectratio StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName value
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set value as string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+protected Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set value as string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set value as string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set value as string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+set value as string SimpleName MethodDeclaration SimpleType SimpleName dom exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set value as string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set value as string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

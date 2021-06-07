@@ -1,0 +1,44 @@
+svg animated number list SimpleName SimpleType SingleVariableDeclaration SimpleName a
+animatable value SimpleName SimpleType SingleVariableDeclaration SimpleName val
+svgom animated number list SimpleName SimpleType CastExpression SimpleName a
+anl SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom animated number list
+anl SimpleName VariableDeclarationFragment CastExpression SimpleName a
+svgom animated number list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anl
+anl SimpleName MethodInvocation SimpleName reset animated value
+animatable number list value SimpleName SimpleType CastExpression SimpleName val
+anim number list SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animatable number list value
+anim number list SimpleName VariableDeclarationFragment CastExpression SimpleName val
+animatable number list value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anim number list
+anim number list SimpleName MethodInvocation SimpleName get numbers
+anl SimpleName MethodInvocation SimpleName set animated value
+anl SimpleName MethodInvocation MethodInvocation SimpleName anim number list
+anl SimpleName MethodInvocation MethodInvocation SimpleName get numbers
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName anim number list
+set animated value SimpleName MethodInvocation MethodInvocation SimpleName get numbers
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName update number list attribute value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated number list
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName update number list attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated number list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName a
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+update number list attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated number list
+update number list attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+update number list attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animatable value
+update number list attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+a SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName update number list attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName update number list attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

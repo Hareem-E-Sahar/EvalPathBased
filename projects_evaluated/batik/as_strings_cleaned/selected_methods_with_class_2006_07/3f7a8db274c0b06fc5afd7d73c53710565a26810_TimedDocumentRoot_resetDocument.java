@@ -1,0 +1,24 @@
+calendar SimpleName SimpleType SingleVariableDeclaration SimpleName document begin time
+calendar SimpleName MethodInvocation SimpleName get instance
+document begin time SimpleName FieldAccess Assignment MethodInvocation SimpleName calendar
+document begin time SimpleName FieldAccess Assignment MethodInvocation SimpleName get instance
+document begin time SimpleName FieldAccess Assignment SimpleName document begin time
+reset SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName reset document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName calendar
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName document begin time
+void PrimitiveType MethodDeclaration SimpleName reset document
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName calendar
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName document begin time
+reset document SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName calendar
+reset document SimpleName MethodDeclaration SingleVariableDeclaration SimpleName document begin time
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset document
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName document begin time
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset document
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName document begin time

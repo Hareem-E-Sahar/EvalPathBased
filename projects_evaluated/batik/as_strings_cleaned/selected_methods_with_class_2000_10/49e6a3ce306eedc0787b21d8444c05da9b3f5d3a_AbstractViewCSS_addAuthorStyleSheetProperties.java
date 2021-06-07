@@ -1,0 +1,135 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pe
+cssom read only style declaration SimpleName SimpleType SingleVariableDeclaration SimpleName rd
+author rules SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName cssom rule list
+cssom rule list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName author rules
+document style SimpleName SimpleType CastExpression SimpleName document
+document SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get style sheets
+l SimpleName VariableDeclarationFragment MethodInvocation SimpleName get style sheets
+style sheet list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+l SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName l
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+l SimpleName MethodInvocation SimpleName item
+l SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+css style sheet SimpleName SimpleType CastExpression MethodInvocation SimpleName l
+css style sheet SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+css style sheet SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+add matching rules SimpleName MethodInvocation MethodInvocation SimpleName get css rules
+add matching rules SimpleName MethodInvocation SimpleName e
+add matching rules SimpleName MethodInvocation SimpleName pe
+add matching rules SimpleName MethodInvocation SimpleName author rules
+get css rules SimpleName MethodInvocation MethodInvocation SimpleName e
+get css rules SimpleName MethodInvocation MethodInvocation SimpleName pe
+get css rules SimpleName MethodInvocation MethodInvocation SimpleName author rules
+e SimpleName MethodInvocation SimpleName pe
+e SimpleName MethodInvocation SimpleName author rules
+pe SimpleName MethodInvocation SimpleName author rules
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sort rules SimpleName MethodInvocation SimpleName author rules
+sort rules SimpleName MethodInvocation SimpleName e
+sort rules SimpleName MethodInvocation SimpleName pe
+author rules SimpleName MethodInvocation SimpleName e
+author rules SimpleName MethodInvocation SimpleName pe
+e SimpleName MethodInvocation SimpleName pe
+author rules SimpleName Assignment MethodInvocation SimpleName sort rules
+author rules SimpleName Assignment MethodInvocation SimpleName author rules
+author rules SimpleName Assignment MethodInvocation SimpleName e
+author rules SimpleName Assignment MethodInvocation SimpleName pe
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+author rules SimpleName MethodInvocation SimpleName get length
+i SimpleName InfixExpression MethodInvocation SimpleName author rules
+i SimpleName InfixExpression MethodInvocation SimpleName get length
+author rules SimpleName MethodInvocation SimpleName item
+author rules SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+css style rule SimpleName SimpleType CastExpression MethodInvocation SimpleName author rules
+css style rule SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+css style rule SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+rule SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css style rule
+rule SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName author rules
+rule SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item
+rule SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+css style rule SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rule
+rule SimpleName MethodInvocation SimpleName get style
+decl SimpleName VariableDeclarationFragment MethodInvocation SimpleName rule
+decl SimpleName VariableDeclarationFragment MethodInvocation SimpleName get style
+css style declaration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName decl
+decl SimpleName MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName decl
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName decl
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression SimpleName len
+decl SimpleName MethodInvocation SimpleName item
+decl SimpleName MethodInvocation SimpleName j
+item SimpleName MethodInvocation SimpleName j
+set author property SimpleName MethodInvocation MethodInvocation SimpleName decl
+set author property SimpleName MethodInvocation MethodInvocation SimpleName item
+set author property SimpleName MethodInvocation MethodInvocation SimpleName j
+set author property SimpleName MethodInvocation SimpleName decl
+set author property SimpleName MethodInvocation SimpleName rd
+decl SimpleName MethodInvocation MethodInvocation SimpleName decl
+item SimpleName MethodInvocation MethodInvocation SimpleName decl
+j SimpleName MethodInvocation MethodInvocation SimpleName decl
+decl SimpleName MethodInvocation MethodInvocation SimpleName rd
+item SimpleName MethodInvocation MethodInvocation SimpleName rd
+j SimpleName MethodInvocation MethodInvocation SimpleName rd
+decl SimpleName MethodInvocation SimpleName rd
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add author style sheet properties
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName pe
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom read only style declaration
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName rd
+void PrimitiveType MethodDeclaration SimpleName add author style sheet properties
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pe
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom read only style declaration
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rd
+add author style sheet properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+add author style sheet properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+add author style sheet properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add author style sheet properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pe
+add author style sheet properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cssom read only style declaration
+add author style sheet properties SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rd
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rd
+pe SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rd
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add author style sheet properties
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rd
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add author style sheet properties
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pe
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rd

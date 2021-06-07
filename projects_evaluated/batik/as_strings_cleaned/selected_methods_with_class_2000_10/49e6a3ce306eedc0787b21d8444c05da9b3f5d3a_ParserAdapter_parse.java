@@ -1,0 +1,41 @@
+input source SimpleName SimpleType SingleVariableDeclaration SimpleName input
+sax exception SimpleName SimpleType ClassInstanceCreation StringLiteral parser is already in use
+parsing SimpleName Assignment BooleanLiteral true
+parser SimpleName MethodInvocation SimpleName parse
+parser SimpleName MethodInvocation SimpleName input
+parse SimpleName MethodInvocation SimpleName input
+parsing SimpleName Assignment BooleanLiteral false
+parsing SimpleName Assignment BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName parse
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input source
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration SimpleType SimpleName sax exception
+void PrimitiveType MethodDeclaration SimpleName parse
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input source
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName input
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName parsing
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName input source
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName input
+parse SimpleName MethodDeclaration SimpleType SimpleName io exception
+parse SimpleName MethodDeclaration SimpleType SimpleName sax exception
+parse SimpleName MethodDeclaration Block IfStatement SimpleName parsing
+input SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+input SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName sax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName input
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

@@ -1,0 +1,57 @@
+int PrimitiveType SingleVariableDeclaration SimpleName row
+int PrimitiveType SingleVariableDeclaration SimpleName col
+css style declaration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sd
+element SimpleName SimpleType CastExpression SimpleName node
+view css SimpleName MethodInvocation SimpleName get computed style
+view css SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+view css SimpleName MethodInvocation CastExpression SimpleName node
+get computed style SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+get computed style SimpleName MethodInvocation CastExpression SimpleName node
+sd SimpleName Assignment MethodInvocation SimpleName view css
+sd SimpleName Assignment MethodInvocation SimpleName get computed style
+sd SimpleName Assignment MethodInvocation CastExpression SimpleName node
+sd SimpleName MethodInvocation SimpleName item
+sd SimpleName MethodInvocation SimpleName row
+item SimpleName MethodInvocation SimpleName row
+prop SimpleName VariableDeclarationFragment MethodInvocation SimpleName sd
+prop SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+prop SimpleName VariableDeclarationFragment MethodInvocation SimpleName row
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prop
+col SimpleName InfixExpression NumberLiteral empty
+sd SimpleName MethodInvocation SimpleName get property value
+sd SimpleName MethodInvocation SimpleName prop
+get property value SimpleName MethodInvocation SimpleName prop
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get value at
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName row
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName col
+object SimpleName SimpleType MethodDeclaration SimpleName get value at
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName row
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+object SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName col
+get value at SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get value at SimpleName MethodDeclaration SingleVariableDeclaration SimpleName row
+get value at SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get value at SimpleName MethodDeclaration SingleVariableDeclaration SimpleName col
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col
+row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get value at
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get value at
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName col

@@ -1,0 +1,84 @@
+double PrimitiveType SingleVariableDeclaration SimpleName x
+double PrimitiveType SingleVariableDeclaration SimpleName y
+graphics node render context SimpleName SimpleType SingleVariableDeclaration SimpleName rc
+rc SimpleName MethodInvocation SimpleName get text painter
+rc SimpleName MethodInvocation MethodInvocation SimpleName select all
+get text painter SimpleName MethodInvocation MethodInvocation SimpleName select all
+rc SimpleName MethodInvocation MethodInvocation SimpleName x
+get text painter SimpleName MethodInvocation MethodInvocation SimpleName x
+rc SimpleName MethodInvocation MethodInvocation SimpleName y
+get text painter SimpleName MethodInvocation MethodInvocation SimpleName y
+rc SimpleName MethodInvocation MethodInvocation SimpleName aci
+get text painter SimpleName MethodInvocation MethodInvocation SimpleName aci
+rc SimpleName MethodInvocation MethodInvocation SimpleName anchor
+get text painter SimpleName MethodInvocation MethodInvocation SimpleName anchor
+select all SimpleName MethodInvocation SimpleName x
+select all SimpleName MethodInvocation SimpleName y
+select all SimpleName MethodInvocation SimpleName aci
+select all SimpleName MethodInvocation SimpleName anchor
+select all SimpleName MethodInvocation SimpleName rc
+x SimpleName MethodInvocation SimpleName y
+x SimpleName MethodInvocation SimpleName aci
+x SimpleName MethodInvocation SimpleName anchor
+x SimpleName MethodInvocation SimpleName rc
+y SimpleName MethodInvocation SimpleName aci
+y SimpleName MethodInvocation SimpleName anchor
+y SimpleName MethodInvocation SimpleName rc
+aci SimpleName MethodInvocation SimpleName anchor
+aci SimpleName MethodInvocation SimpleName rc
+anchor SimpleName MethodInvocation SimpleName rc
+end mark SimpleName Assignment MethodInvocation MethodInvocation SimpleName rc
+end mark SimpleName Assignment MethodInvocation MethodInvocation SimpleName get text painter
+end mark SimpleName Assignment MethodInvocation SimpleName select all
+end mark SimpleName Assignment MethodInvocation SimpleName x
+end mark SimpleName Assignment MethodInvocation SimpleName y
+end mark SimpleName Assignment MethodInvocation SimpleName aci
+end mark SimpleName Assignment MethodInvocation SimpleName anchor
+end mark SimpleName Assignment MethodInvocation SimpleName rc
+begin mark SimpleName Assignment SimpleName end mark
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName select all
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName x
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName y
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rc
+void PrimitiveType MethodDeclaration SimpleName select all
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName x
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName y
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node render context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rc
+select all SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+select all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName x
+select all SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+select all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName y
+select all SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node render context
+select all SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rc
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+double PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+y SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName select all
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName x
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName select all
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName x
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName y
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc

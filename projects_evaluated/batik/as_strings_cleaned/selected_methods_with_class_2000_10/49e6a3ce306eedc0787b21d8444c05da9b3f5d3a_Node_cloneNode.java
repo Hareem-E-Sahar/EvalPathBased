@@ -1,0 +1,21 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName deep
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName clone node
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName deep
+node SimpleName SimpleType MethodDeclaration SimpleName clone node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName deep
+clone node SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+clone node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName deep
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deep
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deep

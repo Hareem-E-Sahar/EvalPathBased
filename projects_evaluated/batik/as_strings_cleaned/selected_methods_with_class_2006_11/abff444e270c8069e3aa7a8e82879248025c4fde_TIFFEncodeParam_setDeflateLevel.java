@@ -1,0 +1,30 @@
+int PrimitiveType SingleVariableDeclaration SimpleName deflate level
+deflate level SimpleName InfixExpression NumberLiteral empty
+deflate level SimpleName InfixExpression NumberLiteral empty
+deflate level SimpleName InfixExpression InfixExpression InfixExpression SimpleName deflate level
+deflate level SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName deflate level
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+deflate level SimpleName InfixExpression QualifiedName deflaterdefault compression
+error SimpleName SimpleType ClassInstanceCreation StringLiteral tiff encode param
+deflate level SimpleName FieldAccess Assignment SimpleName deflate level
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set deflate level
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName deflate level
+void PrimitiveType MethodDeclaration SimpleName set deflate level
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName deflate level
+set deflate level SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set deflate level SimpleName MethodDeclaration SingleVariableDeclaration SimpleName deflate level
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set deflate level
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deflate level
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set deflate level
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName deflate level

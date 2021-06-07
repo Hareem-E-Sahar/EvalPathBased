@@ -1,0 +1,48 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName InstanceofExpression SimpleType SimpleName immutable value list
+immutable value list SimpleName SimpleType CastExpression SimpleName obj
+v SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName immutable value list
+v SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+immutable value list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+length SimpleName InfixExpression QualifiedName vlength
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName length
+table SimpleName ArrayAccess SimpleName i
+v SimpleName VariableDeclarationFragment ArrayAccess SimpleName table
+v SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+css value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+vtable QualifiedName ArrayAccess SimpleName i
+v SimpleName VariableDeclarationFragment ArrayAccess QualifiedName vtable
+v SimpleName VariableDeclarationFragment ArrayAccess SimpleName i
+css value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName equals
+v SimpleName MethodInvocation SimpleName v
+equals SimpleName MethodInvocation SimpleName v
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName length
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+length SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+equals SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

@@ -1,0 +1,36 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName key
+object SimpleName SimpleType SingleVariableDeclaration SimpleName mememto
+mememtos SimpleName Assignment ClassInstanceCreation SimpleType SimpleName hash map
+mememtos SimpleName MethodInvocation SimpleName put
+mememtos SimpleName MethodInvocation SimpleName key
+mememtos SimpleName MethodInvocation SimpleName mememto
+put SimpleName MethodInvocation SimpleName key
+put SimpleName MethodInvocation SimpleName mememto
+key SimpleName MethodInvocation SimpleName mememto
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName put memento
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName mememto
+void PrimitiveType MethodDeclaration SimpleName put memento
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName key
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName mememto
+put memento SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+put memento SimpleName MethodDeclaration SingleVariableDeclaration SimpleName key
+put memento SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+put memento SimpleName MethodDeclaration SingleVariableDeclaration SimpleName mememto
+key SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mememto
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName put memento
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mememto
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName put memento
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName key
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName mememto

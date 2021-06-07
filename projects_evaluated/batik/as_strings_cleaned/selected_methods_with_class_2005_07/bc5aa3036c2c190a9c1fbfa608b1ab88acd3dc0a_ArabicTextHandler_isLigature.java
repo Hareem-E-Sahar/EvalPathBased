@@ -1,0 +1,59 @@
+char PrimitiveType SingleVariableDeclaration SimpleName c
+char val SimpleName VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName char val
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+char val SimpleName InfixExpression NumberLiteral x fe
+char val SimpleName InfixExpression NumberLiteral x fe
+char val SimpleName InfixExpression InfixExpression InfixExpression SimpleName char val
+char val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral x fe
+x fe NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName char val
+x fe NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x fe
+char val SimpleName InfixExpression NumberLiteral x fe
+char val SimpleName InfixExpression NumberLiteral x fe
+char val SimpleName InfixExpression NumberLiteral x fe f
+char val SimpleName InfixExpression InfixExpression InfixExpression SimpleName char val
+char val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral x fe f
+x fe NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName char val
+x fe NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x fe f
+char val SimpleName InfixExpression NumberLiteral x fef
+char val SimpleName InfixExpression NumberLiteral x fefc
+char val SimpleName InfixExpression InfixExpression InfixExpression SimpleName char val
+char val SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral x fefc
+x fef NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName char val
+x fef NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral x fefc
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement BooleanLiteral false
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is ligature
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+static Modifier MethodDeclaration PrimitiveType boolean
+static Modifier MethodDeclaration SimpleName is ligature
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType char
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName c
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is ligature
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType char
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName c
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is ligature SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType char
+is ligature SimpleName MethodDeclaration SingleVariableDeclaration SimpleName c
+is ligature SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+is ligature SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is ligature
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is ligature
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName c

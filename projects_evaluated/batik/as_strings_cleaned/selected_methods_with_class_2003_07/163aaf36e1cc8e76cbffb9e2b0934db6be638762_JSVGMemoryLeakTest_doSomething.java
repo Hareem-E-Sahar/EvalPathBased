@@ -1,0 +1,64 @@
+handler SimpleName Assignment ClassInstanceCreation SimpleType SimpleName jsvg canvas handler
+register object desc SimpleName MethodInvocation SimpleName handler
+register object desc SimpleName MethodInvocation StringLiteral handler
+handler SimpleName MethodInvocation StringLiteral handler
+done SimpleName Assignment BooleanLiteral false
+handler SimpleName MethodInvocation SimpleName run canvas
+handler SimpleName MethodInvocation MethodInvocation SimpleName get id
+run canvas SimpleName MethodInvocation MethodInvocation SimpleName get id
+the canvas SimpleName MethodInvocation SimpleName stop processing
+the frame SimpleName MethodInvocation SimpleName remove
+the frame SimpleName MethodInvocation SimpleName the canvas
+remove SimpleName MethodInvocation SimpleName the canvas
+the frame SimpleName MethodInvocation SimpleName remove notify
+the canvas SimpleName MethodInvocation SimpleName remove notify
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+swing utilities SimpleName MethodInvocation SimpleName invoke and wait
+swing utilities SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+invoke and wait SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+javaxswingj frame QualifiedName SimpleType ClassInstanceCreation StringLiteral focus frame
+jframe SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName javaxswingj frame
+jframe SimpleName VariableDeclarationFragment ClassInstanceCreation StringLiteral focus frame
+javaxswingj frame QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName jframe
+javaawtdimension QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+javaawtdimension QualifiedName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+jframe SimpleName MethodInvocation SimpleName set size
+jframe SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javaawtdimension
+jframe SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+jframe SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set size SimpleName MethodInvocation ClassInstanceCreation SimpleType QualifiedName javaawtdimension
+set size SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+set size SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+jframe SimpleName MethodInvocation SimpleName set visible
+jframe SimpleName MethodInvocation BooleanLiteral true
+set visible SimpleName MethodInvocation BooleanLiteral true
+jframe SimpleName MethodInvocation SimpleName set visible
+jframe SimpleName MethodInvocation BooleanLiteral false
+set visible SimpleName MethodInvocation BooleanLiteral false
+jframe SimpleName MethodInvocation SimpleName remove notify
+fail report SimpleName InfixExpression IfStatement ReturnStatement SimpleName fail report
+report SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName default test report
+default test report SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName report
+report SimpleName MethodInvocation SimpleName set passed
+report SimpleName MethodInvocation BooleanLiteral true
+set passed SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName test report
+public Modifier MethodDeclaration SimpleName do something
+public Modifier MethodDeclaration SimpleType SimpleName exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName report
+test report SimpleName SimpleType MethodDeclaration SimpleName do something
+test report SimpleName SimpleType MethodDeclaration SimpleType SimpleName exception
+do something SimpleName MethodDeclaration SimpleType SimpleName exception
+do something SimpleName MethodDeclaration Block ReturnStatement SimpleName report
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName test report
+public Modifier TypeDeclaration MethodDeclaration SimpleName do something
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName test report
+test SimpleName TypeDeclaration MethodDeclaration SimpleName do something
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName exception

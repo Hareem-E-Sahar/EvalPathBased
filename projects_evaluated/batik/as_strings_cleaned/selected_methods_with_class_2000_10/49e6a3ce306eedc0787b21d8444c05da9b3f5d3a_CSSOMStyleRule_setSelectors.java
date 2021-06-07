@@ -1,0 +1,20 @@
+selector list SimpleName SimpleType SingleVariableDeclaration SimpleName s
+selectors SimpleName Assignment SimpleName s
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set selectors
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+void PrimitiveType MethodDeclaration SimpleName set selectors
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+set selectors SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector list
+set selectors SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set selectors
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set selectors
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

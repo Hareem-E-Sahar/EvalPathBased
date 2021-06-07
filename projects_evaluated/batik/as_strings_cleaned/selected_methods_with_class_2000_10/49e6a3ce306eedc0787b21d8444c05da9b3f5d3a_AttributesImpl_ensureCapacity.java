@@ -1,0 +1,68 @@
+int PrimitiveType SingleVariableDeclaration SimpleName n
+n SimpleName InfixExpression NumberLiteral empty
+n SimpleName InfixExpression InfixExpression InfixExpression SimpleName data
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName data
+string SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+data SimpleName Assignment ArrayCreation NumberLiteral empty
+max SimpleName VariableDeclarationFragment QualifiedName datalength
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment QualifiedName datalength
+n SimpleName InfixExpression NumberLiteral empty
+max SimpleName InfixExpression InfixExpression SimpleName n
+max SimpleName InfixExpression InfixExpression NumberLiteral empty
+n SimpleName InfixExpression NumberLiteral empty
+max SimpleName InfixExpression InfixExpression SimpleName n
+max SimpleName InfixExpression InfixExpression NumberLiteral empty
+max SimpleName Assignment NumberLiteral empty
+string SimpleName SimpleType ArrayType ArrayCreation SimpleName max
+new data SimpleName VariableDeclarationFragment ArrayCreation SimpleName max
+length SimpleName InfixExpression NumberLiteral empty
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName data
+system SimpleName MethodInvocation NumberLiteral empty
+system SimpleName MethodInvocation SimpleName new data
+system SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName new data
+arraycopy SimpleName MethodInvocation NumberLiteral empty
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName length
+arraycopy SimpleName MethodInvocation InfixExpression NumberLiteral empty
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation SimpleName new data
+data SimpleName MethodInvocation NumberLiteral empty
+data SimpleName MethodInvocation InfixExpression SimpleName length
+data SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName new data
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+new data SimpleName MethodInvocation NumberLiteral empty
+new data SimpleName MethodInvocation InfixExpression SimpleName length
+new data SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+data SimpleName Assignment SimpleName new data
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName ensure capacity
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName ensure capacity
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+ensure capacity SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+ensure capacity SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+ensure capacity SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName ensure capacity
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName ensure capacity
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

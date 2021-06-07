@@ -1,0 +1,24 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName ref
+abstract node SimpleName SimpleType CastExpression SimpleName ref
+aref SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+aref SimpleName VariableDeclarationFragment CastExpression SimpleName ref
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aref
+aref SimpleName MethodInvocation SimpleName get xbl bound element
+aref SimpleName MethodInvocation SimpleName get base uri
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get referer base uri
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ref
+string SimpleName SimpleType MethodDeclaration SimpleName get referer base uri
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ref
+get referer base uri SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get referer base uri SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ref
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get referer base uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get referer base uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ref

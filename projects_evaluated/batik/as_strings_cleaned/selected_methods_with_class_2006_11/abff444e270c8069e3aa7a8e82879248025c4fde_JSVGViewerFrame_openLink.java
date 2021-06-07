@@ -1,0 +1,39 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName uri
+boolean PrimitiveType SingleVariableDeclaration SimpleName newc
+application SimpleName MethodInvocation SimpleName open link
+application SimpleName MethodInvocation SimpleName uri
+open link SimpleName MethodInvocation SimpleName uri
+show svg document SimpleName MethodInvocation SimpleName uri
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName open link
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName newc
+public Modifier MethodDeclaration Block IfStatement SimpleName newc
+void PrimitiveType MethodDeclaration SimpleName open link
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName uri
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName newc
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName newc
+open link SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+open link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uri
+open link SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+open link SimpleName MethodDeclaration SingleVariableDeclaration SimpleName newc
+open link SimpleName MethodDeclaration Block IfStatement SimpleName newc
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+uri SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName newc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName open link
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName newc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName open link
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uri
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName newc

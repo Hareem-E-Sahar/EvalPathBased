@@ -1,0 +1,32 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName new item
+svg point SimpleName SimpleType CastExpression SimpleName new item
+point SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg point
+point SimpleName VariableDeclarationFragment CastExpression SimpleName new item
+svg point SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName point
+point SimpleName MethodInvocation SimpleName get x
+point SimpleName MethodInvocation SimpleName get y
+svg point item SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName point
+svg point item SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+svg point item SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName point
+svg point item SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get y
+point SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName point
+point SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName point
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+protected Modifier MethodDeclaration SimpleType SimpleName svg item
+protected Modifier MethodDeclaration SimpleName create svg item
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName new item
+svg item SimpleName SimpleType MethodDeclaration SimpleName create svg item
+svg item SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new item
+create svg item SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+create svg item SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg item
+public Modifier TypeDeclaration MethodDeclaration SimpleName create svg item
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg item
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create svg item
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item

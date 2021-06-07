@@ -1,0 +1,52 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName index of
+s SimpleName MethodInvocation CharacterLiteral :
+index of SimpleName MethodInvocation CharacterLiteral :
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+i SimpleName VariableDeclarationFragment MethodInvocation SimpleName index of
+i SimpleName VariableDeclarationFragment MethodInvocation CharacterLiteral :
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName s
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName index of
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation CharacterLiteral :
+i SimpleName InfixExpression PrefixExpression NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName s
+i SimpleName InfixExpression InfixExpression MethodInvocation SimpleName length
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName i
+s SimpleName MethodInvocation SimpleName substring
+s SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SimpleName i
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation SimpleName i
+empty NumberLiteral MethodInvocation SimpleName i
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get prefix
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get prefix
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+string SimpleName SimpleType MethodDeclaration SimpleName get prefix
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName s
+get prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get prefix SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+get prefix SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get prefix
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get prefix
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

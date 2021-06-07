@@ -1,0 +1,500 @@
+type SimpleName Assignment QualifiedName lexical unitseof
+type SimpleName Assignment QualifiedName lexical unitsleft curly brace
+type SimpleName Assignment QualifiedName lexical unitsright curly brace
+type SimpleName Assignment QualifiedName lexical unitsequal
+type SimpleName Assignment QualifiedName lexical unitsplus
+type SimpleName Assignment QualifiedName lexical unitscomma
+type SimpleName Assignment QualifiedName lexical unitssemi colon
+type SimpleName Assignment QualifiedName lexical unitsprecede
+type SimpleName Assignment QualifiedName lexical unitsleft bracket
+type SimpleName Assignment QualifiedName lexical unitsright bracket
+type SimpleName Assignment QualifiedName lexical unitsany
+type SimpleName Assignment QualifiedName lexical unitsleft brace
+type SimpleName Assignment QualifiedName lexical unitsright brace
+type SimpleName Assignment QualifiedName lexical unitscolon
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css space
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css space SimpleName MethodInvocation CastExpression PrimitiveType char
+is css space SimpleName MethodInvocation CastExpression SimpleName current
+type SimpleName Assignment QualifiedName lexical unitsspace
+current SimpleName InfixExpression CharacterLiteral *
+type SimpleName Assignment QualifiedName lexical unitsdivide
+position SimpleName InfixExpression NumberLiteral empty
+start SimpleName Assignment InfixExpression SimpleName position
+start SimpleName Assignment InfixExpression NumberLiteral empty
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral *
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral *
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral *
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral *
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral /
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral /
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+reader SimpleName MethodInvocation SimpleName get line
+reader SimpleName MethodInvocation SimpleName get column
+parse exception SimpleName SimpleType ClassInstanceCreation StringLiteral eof
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get line
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column
+eof StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+eof StringLiteral ClassInstanceCreation MethodInvocation SimpleName get line
+eof StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+eof StringLiteral ClassInstanceCreation MethodInvocation SimpleName get column
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+type SimpleName Assignment QualifiedName lexical unitscomment
+type SimpleName Assignment MethodInvocation SimpleName string
+type SimpleName Assignment MethodInvocation SimpleName string
+current SimpleName InfixExpression CharacterLiteral !
+reader SimpleName MethodInvocation SimpleName get line
+reader SimpleName MethodInvocation SimpleName get column
+parse exception SimpleName SimpleType ClassInstanceCreation StringLiteral character
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get line
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get line
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get column
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+current SimpleName InfixExpression CharacterLiteral -
+current SimpleName InfixExpression CharacterLiteral -
+type SimpleName Assignment QualifiedName lexical unitscdo
+reader SimpleName MethodInvocation SimpleName get line
+reader SimpleName MethodInvocation SimpleName get column
+parse exception SimpleName SimpleType ClassInstanceCreation StringLiteral character
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get line
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get line
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get column
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+current SimpleName InfixExpression CharacterLiteral -
+type SimpleName Assignment QualifiedName lexical unitsminus
+current SimpleName InfixExpression CharacterLiteral >
+type SimpleName Assignment QualifiedName lexical unitscdc
+reader SimpleName MethodInvocation SimpleName get line
+reader SimpleName MethodInvocation SimpleName get column
+parse exception SimpleName SimpleType ClassInstanceCreation StringLiteral character
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get line
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get line
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get column
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+current SimpleName InfixExpression CharacterLiteral =
+type SimpleName Assignment QualifiedName lexical unitsdashmatch
+reader SimpleName MethodInvocation SimpleName get line
+reader SimpleName MethodInvocation SimpleName get column
+parse exception SimpleName SimpleType ClassInstanceCreation StringLiteral character
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get line
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get line
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get column
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+current SimpleName InfixExpression CharacterLiteral =
+type SimpleName Assignment QualifiedName lexical unitsincludes
+reader SimpleName MethodInvocation SimpleName get line
+reader SimpleName MethodInvocation SimpleName get column
+parse exception SimpleName SimpleType ClassInstanceCreation StringLiteral character
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get line
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get line
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get column
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css name character
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is css name character SimpleName MethodInvocation CastExpression SimpleName current
+position SimpleName InfixExpression NumberLiteral empty
+start SimpleName Assignment InfixExpression SimpleName position
+start SimpleName Assignment InfixExpression NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral \\
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+char PrimitiveType CastExpression SimpleName current
+scanner utilities SimpleName MethodInvocation SimpleName is css name character
+scanner utilities SimpleName MethodInvocation CastExpression PrimitiveType char
+scanner utilities SimpleName MethodInvocation CastExpression SimpleName current
+is css name character SimpleName MethodInvocation CastExpression PrimitiveType char
+is css name character SimpleName MethodInvocation CastExpression SimpleName current
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName scanner utilities
+current SimpleName InfixExpression InfixExpression MethodInvocation SimpleName is css name character
+type SimpleName Assignment QualifiedName lexical unitshash
+reader SimpleName MethodInvocation SimpleName get line
+reader SimpleName MethodInvocation SimpleName get column
+parse exception SimpleName SimpleType ClassInstanceCreation StringLiteral character
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get line
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName reader
+parse exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get column
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get line
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName reader
+character StringLiteral ClassInstanceCreation MethodInvocation SimpleName get column
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+reader SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName reader
+get line SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get column
+position SimpleName InfixExpression NumberLiteral empty
+start SimpleName Assignment InfixExpression SimpleName position
+start SimpleName Assignment InfixExpression NumberLiteral empty
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral h
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral h
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral a
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral a
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral r
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral r
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral s
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral s
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral e
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral e
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral t
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral t
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+h CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+h CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral r
+h CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+h CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral r
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral s
+h CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+h CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral s
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+h CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+h CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+h CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+h CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral r
+a CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+a CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral r
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral s
+a CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+a CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral s
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+a CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+a CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+a CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+a CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral s
+r CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+r CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral s
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+r CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+r CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+r CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+r CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+s CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+s CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+s CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+s CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+e CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+e CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+type SimpleName Assignment QualifiedName lexical unitscharset symbol
+position SimpleName InfixExpression NumberLiteral empty
+start SimpleName Assignment InfixExpression SimpleName position
+start SimpleName Assignment InfixExpression NumberLiteral empty
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral o
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral o
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral n
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral n
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral t
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral t
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral -
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral -
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral f
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral f
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral a
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral a
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral c
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral c
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral e
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral e
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral n
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral n
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral -
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral -
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral f
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral f
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+n CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+n CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral -
+n CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+n CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral -
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral f
+n CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+n CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral f
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+n CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+n CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral c
+n CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+n CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral c
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral -
+t CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+t CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral -
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral f
+t CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+t CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral f
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+t CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+t CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral c
+t CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+t CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral c
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+t CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+t CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral f
+- CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+- CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral f
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+- CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+- CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral c
+- CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+- CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral c
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+- CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+- CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+f CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+f CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral c
+f CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+f CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral c
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+f CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+f CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral c
+a CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+a CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral c
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+a CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+a CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+c CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+c CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral e
+type SimpleName Assignment QualifiedName lexical unitsfont face symbol
+position SimpleName InfixExpression NumberLiteral empty
+start SimpleName Assignment InfixExpression SimpleName position
+start SimpleName Assignment InfixExpression NumberLiteral empty
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral m
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral m
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral p
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral p
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral o
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral o
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral r
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral r
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral t
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral t
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral p
+m CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+m CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral p
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral o
+m CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+m CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral o
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral r
+m CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+m CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral r
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+m CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+m CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral o
+p CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+p CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral o
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral r
+p CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+p CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral r
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+p CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+p CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral r
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral r
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+o CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+r CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+r CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral t
+type SimpleName Assignment QualifiedName lexical unitsimport symbol
+position SimpleName InfixExpression NumberLiteral empty
+start SimpleName Assignment InfixExpression SimpleName position
+start SimpleName Assignment InfixExpression NumberLiteral empty
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral e
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral e
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral d
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral d
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral i
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral i
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral a
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral a
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral d
+e CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+e CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral d
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral i
+e CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+e CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral i
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+e CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+e CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral i
+d CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+d CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral i
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+d CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+d CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+is equal ignore case SimpleName MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+i CharacterLiteral MethodInvocation InfixExpression MethodInvocation SimpleName is equal ignore case
+i CharacterLiteral MethodInvocation InfixExpression MethodInvocation CharacterLiteral a
+type SimpleName Assignment QualifiedName lexical unitsmedia symbol
+position SimpleName InfixExpression NumberLiteral empty
+start SimpleName Assignment InfixExpression SimpleName position
+start SimpleName Assignment InfixExpression NumberLiteral empty
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral a
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral a
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral g
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral g
+is equal ignore case SimpleName MethodInvocation MethodInvocation SimpleName next char
+is equal ignore case SimpleName MethodInvocation CharacterLiteral e
+next char SimpleName MethodInvocation MethodInvocation CharacterLiteral e

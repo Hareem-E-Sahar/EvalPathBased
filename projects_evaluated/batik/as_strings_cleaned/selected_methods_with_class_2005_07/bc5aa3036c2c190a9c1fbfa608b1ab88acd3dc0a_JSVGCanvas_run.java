@@ -1,0 +1,243 @@
+set tool tip text SimpleName MethodInvocation SimpleName the tool tip
+mouse event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+system SimpleName MethodInvocation SimpleName current time millis
+location listener SimpleName MethodInvocation SimpleName get last x
+location listener SimpleName MethodInvocation SimpleName get last y
+mouse event SimpleName SimpleType ClassInstanceCreation ThisExpression SimpleName jsvg canvas
+mouse event SimpleName SimpleType ClassInstanceCreation QualifiedName mouse eventmouse entered
+mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current time millis
+mouse event SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName location listener
+mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get last x
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation QualifiedName mouse eventmouse entered
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName system
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName current time millis
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation NumberLiteral empty
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName location listener
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName get last x
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName location listener
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName get last y
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName system
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName current time millis
+mouse eventmouse entered QualifiedName ClassInstanceCreation NumberLiteral empty
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName location listener
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName get last x
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName location listener
+mouse eventmouse entered QualifiedName ClassInstanceCreation MethodInvocation SimpleName get last y
+mouse eventmouse entered QualifiedName ClassInstanceCreation NumberLiteral empty
+system SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+current time millis SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last x
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last x
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last y
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last y
+system SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+current time millis SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+system SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+current time millis SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName location listener
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get last x
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName location listener
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get last y
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+location listener SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+location listener SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last y
+get last x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+get last x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last y
+location listener SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get last x SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+location listener SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get last x SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+location listener SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get last y SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+location listener SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get last y SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+e SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mouse event
+e SimpleName Assignment ClassInstanceCreation ThisExpression SimpleName jsvg canvas
+e SimpleName Assignment ClassInstanceCreation QualifiedName mouse eventmouse entered
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName system
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName current time millis
+e SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName location listener
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get last x
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName location listener
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get last y
+e SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+e SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+tool tip manager SimpleName MethodInvocation SimpleName shared instance
+tool tip manager SimpleName MethodInvocation MethodInvocation SimpleName mouse entered
+shared instance SimpleName MethodInvocation MethodInvocation SimpleName mouse entered
+tool tip manager SimpleName MethodInvocation MethodInvocation SimpleName e
+shared instance SimpleName MethodInvocation MethodInvocation SimpleName e
+mouse entered SimpleName MethodInvocation SimpleName e
+system SimpleName MethodInvocation SimpleName current time millis
+location listener SimpleName MethodInvocation SimpleName get last x
+location listener SimpleName MethodInvocation SimpleName get last y
+mouse event SimpleName SimpleType ClassInstanceCreation ThisExpression SimpleName jsvg canvas
+mouse event SimpleName SimpleType ClassInstanceCreation QualifiedName mouse eventmouse moved
+mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current time millis
+mouse event SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName location listener
+mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get last x
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation QualifiedName mouse eventmouse moved
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName system
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName current time millis
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation NumberLiteral empty
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName location listener
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName get last x
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName location listener
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName get last y
+mouse eventmouse moved QualifiedName ClassInstanceCreation MethodInvocation SimpleName system
+mouse eventmouse moved QualifiedName ClassInstanceCreation MethodInvocation SimpleName current time millis
+mouse eventmouse moved QualifiedName ClassInstanceCreation NumberLiteral empty
+mouse eventmouse moved QualifiedName ClassInstanceCreation MethodInvocation SimpleName location listener
+mouse eventmouse moved QualifiedName ClassInstanceCreation MethodInvocation SimpleName get last x
+mouse eventmouse moved QualifiedName ClassInstanceCreation MethodInvocation SimpleName location listener
+mouse eventmouse moved QualifiedName ClassInstanceCreation MethodInvocation SimpleName get last y
+mouse eventmouse moved QualifiedName ClassInstanceCreation NumberLiteral empty
+system SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+current time millis SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last x
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last x
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last y
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last y
+system SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+current time millis SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+system SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+current time millis SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName location listener
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get last x
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName location listener
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get last y
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+location listener SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+location listener SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last y
+get last x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+get last x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last y
+location listener SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get last x SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+location listener SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get last x SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+location listener SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get last y SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+location listener SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get last y SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+e SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mouse event
+e SimpleName Assignment ClassInstanceCreation ThisExpression SimpleName jsvg canvas
+e SimpleName Assignment ClassInstanceCreation QualifiedName mouse eventmouse moved
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName system
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName current time millis
+e SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName location listener
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get last x
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName location listener
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get last y
+e SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+e SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+tool tip manager SimpleName MethodInvocation SimpleName shared instance
+tool tip manager SimpleName MethodInvocation MethodInvocation SimpleName mouse moved
+shared instance SimpleName MethodInvocation MethodInvocation SimpleName mouse moved
+tool tip manager SimpleName MethodInvocation MethodInvocation SimpleName e
+shared instance SimpleName MethodInvocation MethodInvocation SimpleName e
+mouse moved SimpleName MethodInvocation SimpleName e
+system SimpleName MethodInvocation SimpleName current time millis
+location listener SimpleName MethodInvocation SimpleName get last x
+location listener SimpleName MethodInvocation SimpleName get last y
+mouse event SimpleName SimpleType ClassInstanceCreation ThisExpression SimpleName jsvg canvas
+mouse event SimpleName SimpleType ClassInstanceCreation QualifiedName mouse eventmouse moved
+mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName system
+mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName current time millis
+mouse event SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName location listener
+mouse event SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get last x
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation QualifiedName mouse eventmouse moved
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName system
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName current time millis
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation NumberLiteral empty
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName location listener
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName get last x
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName location listener
+jsvg canvas SimpleName ThisExpression ClassInstanceCreation MethodInvocation SimpleName get last y
+mouse eventmouse moved QualifiedName ClassInstanceCreation MethodInvocation SimpleName system
+mouse eventmouse moved QualifiedName ClassInstanceCreation MethodInvocation SimpleName current time millis
+mouse eventmouse moved QualifiedName ClassInstanceCreation NumberLiteral empty
+mouse eventmouse moved QualifiedName ClassInstanceCreation MethodInvocation SimpleName location listener
+mouse eventmouse moved QualifiedName ClassInstanceCreation MethodInvocation SimpleName get last x
+mouse eventmouse moved QualifiedName ClassInstanceCreation MethodInvocation SimpleName location listener
+mouse eventmouse moved QualifiedName ClassInstanceCreation MethodInvocation SimpleName get last y
+mouse eventmouse moved QualifiedName ClassInstanceCreation NumberLiteral empty
+system SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+current time millis SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last x
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last x
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+system SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last y
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+current time millis SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last y
+system SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+current time millis SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+system SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+current time millis SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName location listener
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get last x
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName location listener
+empty NumberLiteral ClassInstanceCreation MethodInvocation SimpleName get last y
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+location listener SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+location listener SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last y
+get last x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName location listener
+get last x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get last y
+location listener SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get last x SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+location listener SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get last x SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+location listener SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+get last y SimpleName MethodInvocation ClassInstanceCreation NumberLiteral empty
+location listener SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+get last y SimpleName MethodInvocation ClassInstanceCreation BooleanLiteral false
+empty NumberLiteral ClassInstanceCreation BooleanLiteral false
+e SimpleName Assignment ClassInstanceCreation SimpleType SimpleName mouse event
+e SimpleName Assignment ClassInstanceCreation ThisExpression SimpleName jsvg canvas
+e SimpleName Assignment ClassInstanceCreation QualifiedName mouse eventmouse moved
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName system
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName current time millis
+e SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName location listener
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get last x
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName location listener
+e SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get last y
+e SimpleName Assignment ClassInstanceCreation NumberLiteral empty
+e SimpleName Assignment ClassInstanceCreation BooleanLiteral false
+tool tip manager SimpleName MethodInvocation SimpleName shared instance
+tool tip manager SimpleName MethodInvocation MethodInvocation SimpleName mouse moved
+shared instance SimpleName MethodInvocation MethodInvocation SimpleName mouse moved
+tool tip manager SimpleName MethodInvocation MethodInvocation SimpleName e
+shared instance SimpleName MethodInvocation MethodInvocation SimpleName e
+mouse moved SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName run
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName run

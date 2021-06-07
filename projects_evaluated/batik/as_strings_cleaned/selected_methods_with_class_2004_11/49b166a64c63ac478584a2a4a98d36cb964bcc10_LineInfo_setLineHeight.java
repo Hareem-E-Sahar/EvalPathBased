@@ -1,0 +1,32 @@
+double PrimitiveType SingleVariableDeclaration SimpleName lh
+fr SimpleName MethodInvocation SimpleName new line height
+fr SimpleName MethodInvocation SimpleName lh
+new line height SimpleName MethodInvocation SimpleName lh
+line height SimpleName Assignment SimpleName lh
+line height SimpleName InfixExpression NumberLiteral empty
+fr SimpleName MethodInvocation SimpleName new line height
+fr SimpleName MethodInvocation SimpleName line height
+new line height SimpleName MethodInvocation SimpleName line height
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName set line height
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lh
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName set line height
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType double
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lh
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+set line height SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType double
+set line height SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lh
+set line height SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName set line height
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lh
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set line height
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lh

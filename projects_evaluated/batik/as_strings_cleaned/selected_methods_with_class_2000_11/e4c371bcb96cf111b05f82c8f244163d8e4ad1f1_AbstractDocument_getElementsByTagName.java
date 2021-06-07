@@ -1,0 +1,23 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tagname
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get document element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get elements by tag name
+e SimpleName MethodInvocation SimpleName tagname
+get elements by tag name SimpleName MethodInvocation SimpleName tagname
+public Modifier MethodDeclaration SimpleType SimpleName node list
+public Modifier MethodDeclaration SimpleName get elements by tag name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tagname
+node list SimpleName SimpleType MethodDeclaration SimpleName get elements by tag name
+node list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tagname
+get elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get elements by tag name SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tagname
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get elements by tag name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tagname
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get elements by tag name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tagname

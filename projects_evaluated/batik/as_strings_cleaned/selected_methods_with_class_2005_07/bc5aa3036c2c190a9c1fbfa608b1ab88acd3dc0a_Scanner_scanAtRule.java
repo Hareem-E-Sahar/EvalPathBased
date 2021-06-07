@@ -1,0 +1,42 @@
+brackets SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName brackets
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+brackets SimpleName PrefixExpression InfixExpression NumberLiteral empty
+current SimpleName SwitchStatement SwitchCase CharacterLiteral }
+current SimpleName SwitchStatement IfStatement InfixExpression NumberLiteral empty
+current SimpleName SwitchStatement SwitchCase PrefixExpression NumberLiteral empty
+current SimpleName SwitchStatement BreakStatement SimpleName loop
+current SimpleName SwitchStatement SwitchCase CharacterLiteral {
+} CharacterLiteral SwitchCase SwitchStatement BreakStatement SimpleName loop
+} CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral {
+loop SimpleName BreakStatement SwitchStatement SwitchCase CharacterLiteral {
+current SimpleName SwitchStatement SwitchCase CharacterLiteral {
+current SimpleName SwitchStatement VariableDeclarationStatement PrimitiveType int
+current SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment SimpleName brackets
+current SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+current SimpleName SwitchStatement SwitchCase PrefixExpression NumberLiteral empty
+current SimpleName SwitchStatement SwitchCase CharacterLiteral 
+{ CharacterLiteral SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType int
+{ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral 
+{ CharacterLiteral SwitchCase SwitchStatement BreakStatement SimpleName loop
+int PrimitiveType VariableDeclarationStatement SwitchStatement SwitchCase CharacterLiteral 
+int PrimitiveType VariableDeclarationStatement SwitchStatement BreakStatement SimpleName loop
+ CharacterLiteral SwitchCase SwitchStatement BreakStatement SimpleName loop
+end SimpleName Assignment SimpleName position
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+parse exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName scan at rule
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleName scan at rule
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+scan at rule SimpleName MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName scan at rule
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName scan at rule
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

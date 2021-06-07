@@ -1,0 +1,48 @@
+graphics d SimpleName SimpleType SingleVariableDeclaration SimpleName g d
+get destination SimpleName MethodInvocation SimpleName g d
+bi SimpleName VariableDeclarationFragment MethodInvocation SimpleName get destination
+bi SimpleName VariableDeclarationFragment MethodInvocation SimpleName g d
+buffered image SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bi
+bi SimpleName MethodInvocation SimpleName get color model
+g d SimpleName MethodInvocation SimpleName get device configuration
+gc SimpleName VariableDeclarationFragment MethodInvocation SimpleName g d
+gc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get device configuration
+graphics configuration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gc
+gc SimpleName MethodInvocation SimpleName get device
+gc SimpleName MethodInvocation MethodInvocation SimpleName get type
+get device SimpleName MethodInvocation MethodInvocation SimpleName get type
+gc SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName graphics devicetype image buffer
+get device SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName graphics devicetype image buffer
+get type SimpleName MethodInvocation InfixExpression QualifiedName graphics devicetype image buffer
+g d SimpleName MethodInvocation SimpleName get rendering hint
+g d SimpleName MethodInvocation QualifiedName rendering hints key extkey transcoding
+get rendering hint SimpleName MethodInvocation QualifiedName rendering hints key extkey transcoding
+g d SimpleName MethodInvocation InfixExpression QualifiedName rendering hints key extvalue transcoding printing
+get rendering hint SimpleName MethodInvocation InfixExpression QualifiedName rendering hints key extvalue transcoding printing
+rendering hints key extkey transcoding QualifiedName MethodInvocation InfixExpression QualifiedName rendering hints key extvalue transcoding printing
+rendering hints key extvalue transcoding printing QualifiedName InfixExpression IfStatement ReturnStatement SimpleName s rgb unpre
+gc SimpleName MethodInvocation SimpleName get color model
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName color model
+public Modifier MethodDeclaration SimpleName get destination color model
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName g d
+static Modifier MethodDeclaration SimpleType SimpleName color model
+static Modifier MethodDeclaration SimpleName get destination color model
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName g d
+color model SimpleName SimpleType MethodDeclaration SimpleName get destination color model
+color model SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName g d
+get destination color model SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+get destination color model SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g d
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName color model
+public Modifier TypeDeclaration MethodDeclaration SimpleName get destination color model
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName color model
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get destination color model
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d

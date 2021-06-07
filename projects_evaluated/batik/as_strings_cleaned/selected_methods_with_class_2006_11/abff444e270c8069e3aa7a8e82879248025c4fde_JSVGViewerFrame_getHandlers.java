@@ -1,0 +1,35 @@
+handlers SimpleName Assignment ClassInstanceCreation SimpleType SimpleName vector
+register handler SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg input handler
+service SimpleName MethodInvocation SimpleName providers
+service SimpleName MethodInvocation TypeLiteral SimpleType SimpleName squiggle input handler
+providers SimpleName MethodInvocation TypeLiteral SimpleType SimpleName squiggle input handler
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName service
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName providers
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+squiggle input handler SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+squiggle input handler SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+handler SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName squiggle input handler
+handler SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+handler SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+squiggle input handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handler
+register handler SimpleName MethodInvocation SimpleName handler
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName vector
+protected Modifier MethodDeclaration SimpleName get handlers
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName handlers
+static Modifier MethodDeclaration SimpleType SimpleName vector
+static Modifier MethodDeclaration SimpleName get handlers
+static Modifier MethodDeclaration Block ReturnStatement SimpleName handlers
+vector SimpleName SimpleType MethodDeclaration SimpleName get handlers
+get handlers SimpleName MethodDeclaration Block ReturnStatement SimpleName handlers
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName vector
+public Modifier TypeDeclaration MethodDeclaration SimpleName get handlers
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName vector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get handlers

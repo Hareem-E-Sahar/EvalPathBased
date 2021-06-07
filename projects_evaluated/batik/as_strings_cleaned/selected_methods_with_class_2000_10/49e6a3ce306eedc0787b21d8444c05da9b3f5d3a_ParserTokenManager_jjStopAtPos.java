@@ -1,0 +1,48 @@
+int PrimitiveType SingleVariableDeclaration SimpleName pos
+int PrimitiveType SingleVariableDeclaration SimpleName kind
+jjmatched kind SimpleName Assignment SimpleName kind
+jjmatched pos SimpleName Assignment SimpleName pos
+pos SimpleName InfixExpression NumberLiteral empty
+private Modifier MethodDeclaration Modifier final
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName jj stop at pos
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName pos
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName kind
+final Modifier MethodDeclaration PrimitiveType int
+final Modifier MethodDeclaration SimpleName jj stop at pos
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName pos
+final Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName kind
+int PrimitiveType MethodDeclaration SimpleName jj stop at pos
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pos
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName kind
+jj stop at pos SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+jj stop at pos SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pos
+jj stop at pos SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+jj stop at pos SimpleName MethodDeclaration SingleVariableDeclaration SimpleName kind
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kind
+pos SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+pos SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kind
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName jj stop at pos
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pos
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kind
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName jj stop at pos
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pos
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName kind

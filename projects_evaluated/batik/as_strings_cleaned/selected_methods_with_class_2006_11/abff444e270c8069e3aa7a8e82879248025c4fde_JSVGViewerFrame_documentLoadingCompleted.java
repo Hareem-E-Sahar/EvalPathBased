@@ -1,0 +1,59 @@
+svg document loader event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral messagedocument load time
+get string SimpleName MethodInvocation StringLiteral messagedocument load time
+systemout QualifiedName MethodInvocation SimpleName print
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName resources
+systemout QualifiedName MethodInvocation MethodInvocation SimpleName get string
+systemout QualifiedName MethodInvocation MethodInvocation StringLiteral messagedocument load time
+print SimpleName MethodInvocation MethodInvocation SimpleName resources
+print SimpleName MethodInvocation MethodInvocation SimpleName get string
+print SimpleName MethodInvocation MethodInvocation StringLiteral messagedocument load time
+system SimpleName MethodInvocation SimpleName current time millis
+system SimpleName MethodInvocation InfixExpression SimpleName time
+current time millis SimpleName MethodInvocation InfixExpression SimpleName time
+time SimpleName InfixExpression ParenthesizedExpression InfixExpression StringLiteral ms
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation InfixExpression StringLiteral ms
+println SimpleName MethodInvocation InfixExpression StringLiteral ms
+e SimpleName MethodInvocation SimpleName get svg document
+e SimpleName MethodInvocation SimpleName get svg document
+e SimpleName MethodInvocation MethodInvocation SimpleName get url
+get svg document SimpleName MethodInvocation MethodInvocation SimpleName get url
+e SimpleName MethodInvocation SimpleName get svg document
+e SimpleName MethodInvocation MethodInvocation SimpleName get title
+get svg document SimpleName MethodInvocation MethodInvocation SimpleName get title
+set svg document SimpleName MethodInvocation MethodInvocation SimpleName e
+set svg document SimpleName MethodInvocation MethodInvocation SimpleName get svg document
+set svg document SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+set svg document SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get svg document
+set svg document SimpleName MethodInvocation MethodInvocation SimpleName get url
+set svg document SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName e
+set svg document SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get svg document
+set svg document SimpleName MethodInvocation MethodInvocation SimpleName get title
+e SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get url
+get svg document SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get url
+e SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get title
+get svg document SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get title
+get url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get title
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName document loading completed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document loader event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block IfStatement SimpleName debug
+void PrimitiveType MethodDeclaration SimpleName document loading completed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document loader event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName debug
+document loading completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg document loader event
+document loading completed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+document loading completed SimpleName MethodDeclaration Block IfStatement SimpleName debug
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName document loading completed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName document loading completed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

@@ -1,0 +1,29 @@
+boolean PrimitiveType SingleVariableDeclaration SimpleName use current view
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! not implemented
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set use current view
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName use current view
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set use current view
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName use current view
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set use current view SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set use current view SimpleName MethodDeclaration SingleVariableDeclaration SimpleName use current view
+set use current view SimpleName MethodDeclaration SimpleType SimpleName dom exception
+boolean PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+use current view SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set use current view
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use current view
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set use current view
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName use current view
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

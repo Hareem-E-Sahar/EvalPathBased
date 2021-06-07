@@ -1,0 +1,93 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get namespace uri
+svg namespace uri SimpleName MethodInvocation SimpleName equals
+svg namespace uri SimpleName MethodInvocation MethodInvocation SimpleName e
+svg namespace uri SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+equals SimpleName MethodInvocation MethodInvocation SimpleName e
+equals SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+e SimpleName MethodInvocation SimpleName get local name
+e SimpleName MethodInvocation MethodInvocation SimpleName equals
+get local name SimpleName MethodInvocation MethodInvocation SimpleName equals
+e SimpleName MethodInvocation MethodInvocation SimpleName svg tspan tag
+get local name SimpleName MethodInvocation MethodInvocation SimpleName svg tspan tag
+equals SimpleName MethodInvocation SimpleName svg tspan tag
+svgom element SimpleName SimpleType CastExpression SimpleName e
+tspan bridge SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+tspan bridge SimpleName SimpleType ClassInstanceCreation SimpleName e
+ctx SimpleName ClassInstanceCreation SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set svg context
+set svg context SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tspan bridge
+set svg context SimpleName MethodInvocation ClassInstanceCreation SimpleName ctx
+set svg context SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation SimpleName get local name
+e SimpleName MethodInvocation MethodInvocation SimpleName equals
+get local name SimpleName MethodInvocation MethodInvocation SimpleName equals
+e SimpleName MethodInvocation MethodInvocation SimpleName svg text path tag
+get local name SimpleName MethodInvocation MethodInvocation SimpleName svg text path tag
+equals SimpleName MethodInvocation SimpleName svg text path tag
+svgom element SimpleName SimpleType CastExpression SimpleName e
+text path bridge SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+text path bridge SimpleName SimpleType ClassInstanceCreation SimpleName e
+ctx SimpleName ClassInstanceCreation SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set svg context
+set svg context SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text path bridge
+set svg context SimpleName MethodInvocation ClassInstanceCreation SimpleName ctx
+set svg context SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+e SimpleName MethodInvocation SimpleName get local name
+e SimpleName MethodInvocation MethodInvocation SimpleName equals
+get local name SimpleName MethodInvocation MethodInvocation SimpleName equals
+e SimpleName MethodInvocation MethodInvocation SimpleName svg tref tag
+get local name SimpleName MethodInvocation MethodInvocation SimpleName svg tref tag
+equals SimpleName MethodInvocation SimpleName svg tref tag
+svgom element SimpleName SimpleType CastExpression SimpleName e
+t ref bridge SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+t ref bridge SimpleName SimpleType ClassInstanceCreation SimpleName e
+ctx SimpleName ClassInstanceCreation SimpleName e
+e SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set svg context
+set svg context SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName t ref bridge
+set svg context SimpleName MethodInvocation ClassInstanceCreation SimpleName ctx
+set svg context SimpleName MethodInvocation ClassInstanceCreation SimpleName e
+get first child SimpleName MethodInvocation SimpleName e
+child SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+child SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName child
+child SimpleName MethodInvocation SimpleName get node type
+child SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName SimpleType CastExpression SimpleName child
+add context to child SimpleName MethodInvocation SimpleName ctx
+add context to child SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+add context to child SimpleName MethodInvocation CastExpression SimpleName child
+ctx SimpleName MethodInvocation CastExpression SimpleType SimpleName element
+ctx SimpleName MethodInvocation CastExpression SimpleName child
+get next sibling SimpleName MethodInvocation SimpleName child
+child SimpleName Assignment MethodInvocation SimpleName get next sibling
+child SimpleName Assignment MethodInvocation SimpleName child
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add context to child
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName add context to child
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+add context to child SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+add context to child SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+add context to child SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+add context to child SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add context to child
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add context to child
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

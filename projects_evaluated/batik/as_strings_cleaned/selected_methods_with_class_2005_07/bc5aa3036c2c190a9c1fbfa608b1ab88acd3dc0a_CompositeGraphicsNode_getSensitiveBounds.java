@@ -1,0 +1,45 @@
+sensitive bounds SimpleName InfixExpression IfStatement ReturnStatement SimpleName sensitive bounds
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+sensitive bounds SimpleName InfixExpression InfixExpression InfixExpression SimpleName i
+sensitive bounds SimpleName InfixExpression InfixExpression InfixExpression SimpleName count
+children SimpleName ArrayAccess PostfixExpression SimpleName i
+children SimpleName ArrayAccess MethodInvocation SimpleName get transformed sensitive bounds
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName get transformed sensitive bounds
+children SimpleName ArrayAccess MethodInvocation SimpleName identity
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName identity
+get transformed sensitive bounds SimpleName MethodInvocation SimpleName identity
+sensitive bounds SimpleName Assignment MethodInvocation ArrayAccess SimpleName children
+sensitive bounds SimpleName Assignment MethodInvocation SimpleName get transformed sensitive bounds
+sensitive bounds SimpleName Assignment MethodInvocation SimpleName identity
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cgb
+i SimpleName InfixExpression SimpleName count
+children SimpleName ArrayAccess PostfixExpression SimpleName i
+children SimpleName ArrayAccess MethodInvocation SimpleName get transformed sensitive bounds
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName get transformed sensitive bounds
+children SimpleName ArrayAccess MethodInvocation SimpleName identity
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName identity
+get transformed sensitive bounds SimpleName MethodInvocation SimpleName identity
+cgb SimpleName Assignment MethodInvocation ArrayAccess SimpleName children
+cgb SimpleName Assignment MethodInvocation SimpleName get transformed sensitive bounds
+cgb SimpleName Assignment MethodInvocation SimpleName identity
+sensitive bounds SimpleName MethodInvocation SimpleName add
+sensitive bounds SimpleName MethodInvocation SimpleName cgb
+add SimpleName MethodInvocation SimpleName cgb
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName sensitive bounds
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName get sensitive bounds
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName sensitive bounds
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get sensitive bounds
+get sensitive bounds SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get sensitive bounds SimpleName MethodDeclaration Block ReturnStatement SimpleName sensitive bounds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get sensitive bounds
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get sensitive bounds

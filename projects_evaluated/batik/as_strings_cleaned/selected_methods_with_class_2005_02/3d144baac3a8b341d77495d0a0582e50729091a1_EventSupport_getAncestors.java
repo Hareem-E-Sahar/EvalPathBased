@@ -1,0 +1,68 @@
+node event target SimpleName SimpleType SingleVariableDeclaration SimpleName node
+node SimpleName MethodInvocation SimpleName get parent node event target
+node SimpleName Assignment MethodInvocation SimpleName node
+node SimpleName Assignment MethodInvocation SimpleName get parent node event target
+nancestors SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nancestors
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+n SimpleName VariableDeclarationFragment SimpleName node
+node event target SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+node event target SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName node
+n SimpleName MethodInvocation SimpleName get parent node event target
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node event target
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+n SimpleName InfixExpression ForStatement PostfixExpression SimpleName nancestors
+n SimpleName Assignment ForStatement PostfixExpression SimpleName nancestors
+node event target SimpleName SimpleType ArrayType ArrayCreation SimpleName nancestors
+ancestors SimpleName VariableDeclarationFragment ArrayCreation SimpleName nancestors
+nancestors SimpleName InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression SimpleName nancestors
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression SimpleName nancestors
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+node SimpleName MethodInvocation SimpleName get parent node event target
+node SimpleName Assignment MethodInvocation SimpleName node
+node SimpleName Assignment MethodInvocation SimpleName get parent node event target
+ancestors SimpleName ArrayAccess SimpleName i
+ancestors SimpleName ArrayAccess Assignment SimpleName node
+i SimpleName ArrayAccess Assignment SimpleName node
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PrefixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName node
+i SimpleName InfixExpression ForStatement PrefixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PrefixExpression SimpleName i
+i SimpleName InfixExpression ForStatement Assignment SimpleName node
+empty NumberLiteral InfixExpression ForStatement Assignment SimpleName node
+i SimpleName PrefixExpression ForStatement Assignment SimpleName node
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName ancestors
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration ArrayType SimpleType SimpleName node event target
+private Modifier MethodDeclaration SimpleName get ancestors
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node event target
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block ReturnStatement SimpleName ancestors
+static Modifier MethodDeclaration ArrayType SimpleType SimpleName node event target
+static Modifier MethodDeclaration SimpleName get ancestors
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node event target
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName ancestors
+node event target SimpleName SimpleType ArrayType MethodDeclaration SimpleName get ancestors
+get ancestors SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node event target
+get ancestors SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+get ancestors SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get ancestors SimpleName MethodDeclaration Block ReturnStatement SimpleName ancestors
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ancestors
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ancestors
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node

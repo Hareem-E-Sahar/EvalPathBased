@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName title
+set attribute SimpleName MethodInvocation SimpleName title
+set attribute SimpleName MethodInvocation SimpleName title
+title SimpleName MethodInvocation SimpleName title
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set title
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName title
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set title
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName title
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set title SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set title SimpleName MethodDeclaration SingleVariableDeclaration SimpleName title
+set title SimpleName MethodDeclaration SimpleType SimpleName dom exception
+title SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set title
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName title
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set title
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName title
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

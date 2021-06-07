@@ -1,0 +1,25 @@
+content selection changed event SimpleName SimpleType SingleVariableDeclaration SimpleName csce
+compute laidout text SimpleName MethodInvocation SimpleName ctx
+compute laidout text SimpleName MethodInvocation SimpleName e
+compute laidout text SimpleName MethodInvocation SimpleName node
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName node
+e SimpleName MethodInvocation SimpleName node
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle content selection changed event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content selection changed event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName csce
+void PrimitiveType MethodDeclaration SimpleName handle content selection changed event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content selection changed event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName csce
+handle content selection changed event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName content selection changed event
+handle content selection changed event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName csce
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle content selection changed event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName csce
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle content selection changed event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName csce

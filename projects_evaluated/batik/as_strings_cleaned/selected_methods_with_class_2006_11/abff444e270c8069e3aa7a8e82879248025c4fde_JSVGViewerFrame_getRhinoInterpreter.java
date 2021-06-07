@@ -1,0 +1,13 @@
+bridge context SimpleName MethodInvocation SimpleName get interpreter
+bridge context SimpleName MethodInvocation StringLiteral textecmascript
+get interpreter SimpleName MethodInvocation StringLiteral textecmascript
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get rhino interpreter
+object SimpleName SimpleType MethodDeclaration SimpleName get rhino interpreter
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get rhino interpreter
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get rhino interpreter

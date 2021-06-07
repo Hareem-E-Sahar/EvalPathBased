@@ -1,0 +1,290 @@
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation StringLiteral entity
+write SimpleName MethodInvocation StringLiteral entity
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+fatal error SimpleName MethodInvocation StringLiteral space
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+pe SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName pe
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+fatal error SimpleName MethodInvocation StringLiteral xml
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+pe SimpleName Assignment BooleanLiteral true
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral %
+write SimpleName MethodInvocation CharacterLiteral %
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+fatal error SimpleName MethodInvocation StringLiteral space
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitsname
+fatal error SimpleName MethodInvocation StringLiteral name
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName SwitchStatement ThrowStatement MethodInvocation SimpleName fatal error
+type SimpleName SwitchStatement ThrowStatement MethodInvocation StringLiteral xml
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsname
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName writer
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName write
+type SimpleName SwitchStatement ExpressionStatement Assignment SimpleName type
+lexical unitsname QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitspercent
+type SimpleName InfixExpression QualifiedName lexical unitss
+fatal error SimpleName MethodInvocation StringLiteral space
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+scanner SimpleName MethodInvocation SimpleName get string delimiter
+sd SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner
+sd SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string delimiter
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sd
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName scanner
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get string delimiter
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation SimpleName sd
+write SimpleName MethodInvocation SimpleName sd
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral &
+write SimpleName MethodInvocation CharacterLiteral &
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral 
+write SimpleName MethodInvocation CharacterLiteral 
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral &
+write SimpleName MethodInvocation CharacterLiteral &
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral 
+write SimpleName MethodInvocation CharacterLiteral 
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsstring
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsattribute fragment
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsfirst attribute fragment
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitslast attribute fragment
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName writer
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName write
+lexical unitsstring QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsattribute fragment
+lexical unitsstring QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsfirst attribute fragment
+lexical unitsstring QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitslast attribute fragment
+lexical unitsattribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsfirst attribute fragment
+lexical unitsattribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitslast attribute fragment
+lexical unitsattribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsentity reference
+lexical unitsfirst attribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitslast attribute fragment
+lexical unitsfirst attribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsentity reference
+lexical unitslast attribute fragment QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsentity reference
+lexical unitsentity reference QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsparameter entity reference
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation SimpleName sd
+write SimpleName MethodInvocation SimpleName sd
+type SimpleName InfixExpression QualifiedName lexical unitss
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitsend char
+fatal error SimpleName MethodInvocation StringLiteral end
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation StringLiteral >
+write SimpleName MethodInvocation StringLiteral >
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation StringLiteral public
+write SimpleName MethodInvocation StringLiteral public
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+fatal error SimpleName MethodInvocation StringLiteral space
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitsstring
+fatal error SimpleName MethodInvocation StringLiteral string
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation StringLiteral \
+write SimpleName MethodInvocation StringLiteral \
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation StringLiteral \ \
+write SimpleName MethodInvocation StringLiteral \ \
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+fatal error SimpleName MethodInvocation StringLiteral space
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitsstring
+fatal error SimpleName MethodInvocation StringLiteral string
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral empty
+write SimpleName MethodInvocation CharacterLiteral empty
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation StringLiteral system
+write SimpleName MethodInvocation StringLiteral system
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+fatal error SimpleName MethodInvocation StringLiteral space
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitsstring
+fatal error SimpleName MethodInvocation StringLiteral string
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation StringLiteral \
+write SimpleName MethodInvocation StringLiteral \
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral empty
+write SimpleName MethodInvocation CharacterLiteral empty
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsstring
+type SimpleName SwitchStatement SwitchCase QualifiedName lexical unitsfirst attribute fragment
+type SimpleName SwitchStatement VariableDeclarationStatement PrimitiveType char
+type SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment SimpleName sd
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName writer
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName write
+type SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName sd
+type SimpleName SwitchStatement LabeledStatement SimpleName loop
+lexical unitsstring QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsfirst attribute fragment
+lexical unitsstring QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType char
+lexical unitsstring QualifiedName SwitchCase SwitchStatement LabeledStatement SimpleName loop
+lexical unitsfirst attribute fragment QualifiedName SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType char
+lexical unitsfirst attribute fragment QualifiedName SwitchCase SwitchStatement LabeledStatement SimpleName loop
+char PrimitiveType VariableDeclarationStatement SwitchStatement LabeledStatement SimpleName loop
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitsndata identifier
+pe SimpleName PrefixExpression InfixExpression InfixExpression SimpleName type
+pe SimpleName PrefixExpression InfixExpression InfixExpression QualifiedName lexical unitsndata identifier
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation StringLiteral ndata
+write SimpleName MethodInvocation StringLiteral ndata
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+fatal error SimpleName MethodInvocation StringLiteral space
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitsname
+fatal error SimpleName MethodInvocation StringLiteral name
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitss
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation MethodInvocation SimpleName get current value
+write SimpleName MethodInvocation MethodInvocation SimpleName get current value
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+type SimpleName InfixExpression QualifiedName lexical unitsend char
+fatal error SimpleName MethodInvocation StringLiteral end
+writer SimpleName MethodInvocation SimpleName write
+writer SimpleName MethodInvocation CharacterLiteral >
+write SimpleName MethodInvocation CharacterLiteral >
+scanner SimpleName MethodInvocation SimpleName next
+type SimpleName Assignment MethodInvocation SimpleName scanner
+type SimpleName Assignment MethodInvocation SimpleName next
+boolean PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName type
+boolean PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName type
+type SimpleName SwitchStatement Block SwitchStatement SimpleName type
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName print entity declaration
+protected Modifier MethodDeclaration SimpleType SimpleName transcoder exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName print entity declaration
+void PrimitiveType MethodDeclaration SimpleType SimpleName transcoder exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName type
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName type
+print entity declaration SimpleName MethodDeclaration SimpleType SimpleName transcoder exception
+print entity declaration SimpleName MethodDeclaration SimpleType SimpleName xml exception
+print entity declaration SimpleName MethodDeclaration SimpleType SimpleName io exception
+print entity declaration SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+print entity declaration SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+print entity declaration SimpleName MethodDeclaration Block SwitchStatement SimpleName type
+transcoder exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+transcoder exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+xml exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName print entity declaration
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName print entity declaration
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName transcoder exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

@@ -1,0 +1,56 @@
+shape SimpleName SimpleType SingleVariableDeclaration SimpleName area
+node render context SimpleName MethodInvocation SimpleName set area of interest
+node render context SimpleName MethodInvocation SimpleName area
+set area of interest SimpleName MethodInvocation SimpleName area
+off screen SimpleName MethodInvocation SimpleName create graphics
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName off screen
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName create graphics
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+node render context SimpleName MethodInvocation SimpleName get transform
+g SimpleName MethodInvocation SimpleName transform
+g SimpleName MethodInvocation MethodInvocation SimpleName node render context
+g SimpleName MethodInvocation MethodInvocation SimpleName get transform
+transform SimpleName MethodInvocation MethodInvocation SimpleName node render context
+transform SimpleName MethodInvocation MethodInvocation SimpleName get transform
+node render context SimpleName MethodInvocation SimpleName get area of interest
+g SimpleName MethodInvocation SimpleName clip
+g SimpleName MethodInvocation MethodInvocation SimpleName node render context
+g SimpleName MethodInvocation MethodInvocation SimpleName get area of interest
+clip SimpleName MethodInvocation MethodInvocation SimpleName node render context
+clip SimpleName MethodInvocation MethodInvocation SimpleName get area of interest
+g SimpleName MethodInvocation SimpleName set rendering hint
+g SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+g SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintskey antialiasing
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintsvalue antialias on
+rendering hintskey antialiasing QualifiedName MethodInvocation QualifiedName rendering hintsvalue antialias on
+g SimpleName MethodInvocation SimpleName set rendering hint
+g SimpleName MethodInvocation QualifiedName rendering hintskey interpolation
+g SimpleName MethodInvocation QualifiedName rendering hintsvalue interpolation bicubic
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintskey interpolation
+set rendering hint SimpleName MethodInvocation QualifiedName rendering hintsvalue interpolation bicubic
+rendering hintskey interpolation QualifiedName MethodInvocation QualifiedName rendering hintsvalue interpolation bicubic
+tree root SimpleName MethodInvocation SimpleName paint
+tree root SimpleName MethodInvocation SimpleName g
+tree root SimpleName MethodInvocation SimpleName node render context
+paint SimpleName MethodInvocation SimpleName g
+paint SimpleName MethodInvocation SimpleName node render context
+g SimpleName MethodInvocation SimpleName node render context
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName repaint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName area
+void PrimitiveType MethodDeclaration SimpleName repaint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName area
+repaint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape
+repaint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName area
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName repaint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName area
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName repaint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName area

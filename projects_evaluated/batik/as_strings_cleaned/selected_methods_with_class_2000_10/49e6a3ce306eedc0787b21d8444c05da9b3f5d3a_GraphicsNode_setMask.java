@@ -1,0 +1,13 @@
+mask SimpleName SimpleType SingleVariableDeclaration SimpleName new mask
+void PrimitiveType MethodDeclaration SimpleName set mask
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mask
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new mask
+set mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mask
+set mask SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new mask
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set mask
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new mask
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set mask
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new mask

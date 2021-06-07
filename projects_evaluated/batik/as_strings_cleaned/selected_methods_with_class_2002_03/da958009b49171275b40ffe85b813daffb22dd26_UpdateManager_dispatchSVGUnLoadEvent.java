@@ -1,0 +1,41 @@
+illegal state exception SimpleName SimpleType ClassInstanceCreation StringLiteral update manager not started
+document event SimpleName SimpleType CastExpression SimpleName document
+document SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName create event
+document SimpleName CastExpression ParenthesizedExpression MethodInvocation StringLiteral svg events
+create event SimpleName MethodInvocation StringLiteral svg events
+evt SimpleName VariableDeclarationFragment MethodInvocation SimpleName create event
+evt SimpleName VariableDeclarationFragment MethodInvocation StringLiteral svg events
+event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName evt
+evt SimpleName MethodInvocation SimpleName init event
+evt SimpleName MethodInvocation StringLiteral svg unload
+evt SimpleName MethodInvocation BooleanLiteral false
+evt SimpleName MethodInvocation BooleanLiteral false
+init event SimpleName MethodInvocation StringLiteral svg unload
+init event SimpleName MethodInvocation BooleanLiteral false
+init event SimpleName MethodInvocation BooleanLiteral false
+svg unload StringLiteral MethodInvocation BooleanLiteral false
+svg unload StringLiteral MethodInvocation BooleanLiteral false
+false BooleanLiteral MethodInvocation BooleanLiteral false
+document SimpleName MethodInvocation SimpleName get document element
+dispatch event SimpleName MethodInvocation SimpleName evt
+running SimpleName Assignment BooleanLiteral false
+scripting environment SimpleName MethodInvocation SimpleName interrupt
+update runnable queue SimpleName MethodInvocation SimpleName get thread
+update runnable queue SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+get thread SimpleName MethodInvocation MethodInvocation SimpleName interrupt
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+update runnable queue SimpleName MethodInvocation SimpleName preempt later
+update runnable queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+preempt later SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName runnable
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispatch svg un load event
+void PrimitiveType MethodDeclaration SimpleName dispatch svg un load event
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch svg un load event
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch svg un load event

@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName source
+scanner SimpleName SimpleType ClassInstanceCreation SimpleName source
+scanner SimpleName Assignment ClassInstanceCreation SimpleType SimpleName scanner
+scanner SimpleName Assignment ClassInstanceCreation SimpleName source
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName parse priority
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+boolean PrimitiveType MethodDeclaration SimpleName parse priority
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName source
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName css exception
+boolean PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+parse priority SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse priority SimpleName MethodDeclaration SingleVariableDeclaration SimpleName source
+parse priority SimpleName MethodDeclaration SimpleType SimpleName css exception
+parse priority SimpleName MethodDeclaration SimpleType SimpleName io exception
+source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+source SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+css exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse priority
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse priority
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName source
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

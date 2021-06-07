@@ -1,0 +1,24 @@
+get color type SimpleName MethodInvocation InfixExpression SimpleName svg colortype rgbcolor icccolor
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionsyntax err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptionsyntax err QualifiedName ClassInstanceCreation StringLiteral empty
+value provider SimpleName MethodInvocation SimpleName get value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName value provider
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+value SimpleName MethodInvocation SimpleName item
+value SimpleName MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+icc color SimpleName SimpleType CastExpression MethodInvocation SimpleName value
+icc color SimpleName SimpleType CastExpression MethodInvocation SimpleName item
+icc color SimpleName SimpleType CastExpression MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName get number of items
+int PrimitiveType MethodDeclaration SimpleName get number of items
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get number of items
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get number of items

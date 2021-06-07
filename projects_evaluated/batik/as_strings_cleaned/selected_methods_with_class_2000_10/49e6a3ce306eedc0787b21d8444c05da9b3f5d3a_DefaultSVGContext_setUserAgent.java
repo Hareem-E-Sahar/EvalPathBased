@@ -1,0 +1,20 @@
+user agent SimpleName SimpleType SingleVariableDeclaration SimpleName ua
+user agent SimpleName Assignment SimpleName ua
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set user agent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user agent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ua
+void PrimitiveType MethodDeclaration SimpleName set user agent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user agent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ua
+set user agent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName user agent
+set user agent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ua
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set user agent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ua
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set user agent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ua

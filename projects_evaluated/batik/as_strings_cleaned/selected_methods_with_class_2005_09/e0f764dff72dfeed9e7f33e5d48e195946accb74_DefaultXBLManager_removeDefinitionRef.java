@@ -1,0 +1,69 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName def ref
+imports SimpleName MethodInvocation SimpleName get
+imports SimpleName MethodInvocation SimpleName def ref
+get SimpleName MethodInvocation SimpleName def ref
+import record SimpleName SimpleType CastExpression MethodInvocation SimpleName imports
+import record SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+import record SimpleName SimpleType CastExpression MethodInvocation SimpleName def ref
+ir SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName import record
+ir SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName imports
+ir SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+ir SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName def ref
+import record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ir
+node event target SimpleName SimpleType CastExpression SimpleName def ref
+et SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName node event target
+et SimpleName VariableDeclarationFragment CastExpression SimpleName def ref
+node event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName et
+et SimpleName MethodInvocation SimpleName remove event listener ns
+et SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+et SimpleName MethodInvocation StringLiteral dom attr modified
+et SimpleName MethodInvocation SimpleName ref attr listener
+et SimpleName MethodInvocation BooleanLiteral false
+remove event listener ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+remove event listener ns SimpleName MethodInvocation StringLiteral dom attr modified
+remove event listener ns SimpleName MethodInvocation SimpleName ref attr listener
+remove event listener ns SimpleName MethodInvocation BooleanLiteral false
+xml constantsxml events namespace uri QualifiedName MethodInvocation StringLiteral dom attr modified
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName ref attr listener
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral false
+dom attr modified StringLiteral MethodInvocation SimpleName ref attr listener
+dom attr modified StringLiteral MethodInvocation BooleanLiteral false
+ref attr listener SimpleName MethodInvocation BooleanLiteral false
+definitions SimpleName MethodInvocation SimpleName get
+definitions SimpleName MethodInvocation QualifiedName irnode
+definitions SimpleName MethodInvocation SimpleName def ref
+get SimpleName MethodInvocation QualifiedName irnode
+get SimpleName MethodInvocation SimpleName def ref
+irnode QualifiedName MethodInvocation SimpleName def ref
+definition record SimpleName SimpleType CastExpression MethodInvocation SimpleName definitions
+definition record SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+definition record SimpleName SimpleType CastExpression MethodInvocation QualifiedName irnode
+definition record SimpleName SimpleType CastExpression MethodInvocation SimpleName def ref
+def rec SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName definition record
+def rec SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName definitions
+def rec SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+def rec SimpleName VariableDeclarationFragment CastExpression MethodInvocation QualifiedName irnode
+def rec SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName def ref
+definition record SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName def rec
+remove definition SimpleName MethodInvocation SimpleName def rec
+imports SimpleName MethodInvocation SimpleName remove
+imports SimpleName MethodInvocation SimpleName def ref
+remove SimpleName MethodInvocation SimpleName def ref
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName remove definition ref
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName def ref
+void PrimitiveType MethodDeclaration SimpleName remove definition ref
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName def ref
+remove definition ref SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+remove definition ref SimpleName MethodDeclaration SingleVariableDeclaration SimpleName def ref
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove definition ref
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def ref
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove definition ref
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName def ref

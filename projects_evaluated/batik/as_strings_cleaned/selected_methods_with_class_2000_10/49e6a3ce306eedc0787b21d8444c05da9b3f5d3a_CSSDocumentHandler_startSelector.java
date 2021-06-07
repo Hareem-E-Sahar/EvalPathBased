@@ -1,0 +1,56 @@
+selector list SimpleName SimpleType SingleVariableDeclaration SimpleName selectors
+css rule list owner SimpleName SimpleType CastExpression SimpleName current rule
+rlo SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css rule list owner
+rlo SimpleName VariableDeclarationFragment CastExpression SimpleName current rule
+css rule list owner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rlo
+cssom style rule SimpleName SimpleType ClassInstanceCreation SimpleName style sheet
+cssom style rule SimpleName SimpleType ClassInstanceCreation SimpleName current rule
+cssom style rule SimpleName SimpleType ClassInstanceCreation SimpleName parser
+cssom style rule SimpleName SimpleType ClassInstanceCreation SimpleName factories
+style sheet SimpleName ClassInstanceCreation SimpleName current rule
+style sheet SimpleName ClassInstanceCreation SimpleName parser
+style sheet SimpleName ClassInstanceCreation SimpleName factories
+current rule SimpleName ClassInstanceCreation SimpleName parser
+current rule SimpleName ClassInstanceCreation SimpleName factories
+parser SimpleName ClassInstanceCreation SimpleName factories
+current rule SimpleName Assignment ClassInstanceCreation SimpleType SimpleName cssom style rule
+current rule SimpleName Assignment ClassInstanceCreation SimpleName style sheet
+current rule SimpleName Assignment ClassInstanceCreation SimpleName current rule
+current rule SimpleName Assignment ClassInstanceCreation SimpleName parser
+current rule SimpleName Assignment ClassInstanceCreation SimpleName factories
+append SimpleName InfixExpression InfixExpression SimpleName rlo
+style sheet SimpleName MethodInvocation SimpleName append rule
+style sheet SimpleName MethodInvocation SimpleName current rule
+append rule SimpleName MethodInvocation SimpleName current rule
+append SimpleName InfixExpression InfixExpression SimpleName rlo
+rlo SimpleName MethodInvocation SimpleName append rule
+rlo SimpleName MethodInvocation SimpleName current rule
+append rule SimpleName MethodInvocation SimpleName current rule
+cssom style rule SimpleName SimpleType CastExpression SimpleName current rule
+current rule SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set selectors
+current rule SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName selectors
+set selectors SimpleName MethodInvocation SimpleName selectors
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName start selector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName selectors
+public Modifier MethodDeclaration SimpleType SimpleName css exception
+void PrimitiveType MethodDeclaration SimpleName start selector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName selectors
+void PrimitiveType MethodDeclaration SimpleType SimpleName css exception
+start selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName selector list
+start selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName selectors
+start selector SimpleName MethodDeclaration SimpleType SimpleName css exception
+selectors SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName css exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName start selector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selectors
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName start selector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selectors
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css exception

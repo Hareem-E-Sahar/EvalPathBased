@@ -1,0 +1,88 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+v SimpleName MethodInvocation SimpleName get primitive type
+v SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss ident
+get primitive type SimpleName MethodInvocation InfixExpression QualifiedName css primitive valuecss ident
+v SimpleName MethodInvocation SimpleName get string value
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+ctx SimpleName MethodInvocation SimpleName get referenced element
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName uri
+get referenced element SimpleName MethodInvocation SimpleName e
+get referenced element SimpleName MethodInvocation SimpleName uri
+e SimpleName MethodInvocation SimpleName uri
+marker element SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+marker element SimpleName VariableDeclarationFragment MethodInvocation SimpleName get referenced element
+marker element SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+marker element SimpleName VariableDeclarationFragment MethodInvocation SimpleName uri
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName marker element
+ctx SimpleName MethodInvocation SimpleName get bridge
+ctx SimpleName MethodInvocation SimpleName marker element
+get bridge SimpleName MethodInvocation SimpleName marker element
+bridge SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+bridge SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bridge
+bridge SimpleName VariableDeclarationFragment MethodInvocation SimpleName marker element
+bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bridge
+bridge SimpleName InstanceofExpression SimpleType SimpleName marker bridge
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err css uri bad target
+e SimpleName ClassInstanceCreation SimpleName err css uri bad target
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+err css uri bad target SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName uri
+marker bridge SimpleName SimpleType CastExpression SimpleName bridge
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName create marker
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName ctx
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName marker element
+bridge SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName e
+create marker SimpleName MethodInvocation SimpleName ctx
+create marker SimpleName MethodInvocation SimpleName marker element
+create marker SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName marker element
+ctx SimpleName MethodInvocation SimpleName e
+marker element SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName marker
+public Modifier MethodDeclaration SimpleName convert marker
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration SimpleType SimpleName marker
+static Modifier MethodDeclaration SimpleName convert marker
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+marker SimpleName SimpleType MethodDeclaration SimpleName convert marker
+marker SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+marker SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName v
+marker SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+convert marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+convert marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+convert marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+convert marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+convert marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+v SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName marker
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert marker
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName marker
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert marker
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

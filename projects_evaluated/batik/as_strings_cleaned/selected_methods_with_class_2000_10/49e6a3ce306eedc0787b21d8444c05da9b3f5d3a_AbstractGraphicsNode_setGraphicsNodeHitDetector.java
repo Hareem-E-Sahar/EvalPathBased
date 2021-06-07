@@ -1,0 +1,28 @@
+graphics node hit detector SimpleName SimpleType SingleVariableDeclaration SimpleName hit detector
+old detector SimpleName VariableDeclarationFragment FieldAccess SimpleName hit detector
+graphics node hit detector SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old detector
+hit detector SimpleName FieldAccess Assignment SimpleName hit detector
+fire property change SimpleName MethodInvocation StringLiteral graphics node hit detector
+fire property change SimpleName MethodInvocation SimpleName old detector
+fire property change SimpleName MethodInvocation SimpleName hit detector
+graphics node hit detector StringLiteral MethodInvocation SimpleName old detector
+graphics node hit detector StringLiteral MethodInvocation SimpleName hit detector
+old detector SimpleName MethodInvocation SimpleName hit detector
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set graphics node hit detector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node hit detector
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName hit detector
+void PrimitiveType MethodDeclaration SimpleName set graphics node hit detector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node hit detector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName hit detector
+set graphics node hit detector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node hit detector
+set graphics node hit detector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName hit detector
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set graphics node hit detector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hit detector
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set graphics node hit detector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName hit detector

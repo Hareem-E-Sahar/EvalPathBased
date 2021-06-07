@@ -1,0 +1,29 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName svg file
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName svg file
+string SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+ret SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+ret SimpleName ArrayAccess NumberLiteral empty
+ret SimpleName ArrayAccess Assignment StringLiteral testresourcesorgapachebatiktestsvg
+empty NumberLiteral ArrayAccess Assignment StringLiteral testresourcesorgapachebatiktestsvg
+ret SimpleName ArrayAccess NumberLiteral empty
+ret SimpleName ArrayAccess Assignment StringLiteral set svg document test
+empty NumberLiteral ArrayAccess Assignment StringLiteral set svg document test
+ret SimpleName ArrayAccess NumberLiteral empty
+ret SimpleName ArrayAccess Assignment StringLiteral svg
+empty NumberLiteral ArrayAccess Assignment StringLiteral svg
+protected Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName break svg file
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName svg file
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName break svg file
+break svg file SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+break svg file SimpleName MethodDeclaration SingleVariableDeclaration SimpleName svg file
+break svg file SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName break svg file
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg file
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName break svg file
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg file

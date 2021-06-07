@@ -1,0 +1,22 @@
+svg graphic context SimpleName SimpleType SingleVariableDeclaration SimpleName delta gc
+delta gc SimpleName MethodInvocation SimpleName get group context
+delta gc SimpleName MethodInvocation MethodInvocation SimpleName size
+get group context SimpleName MethodInvocation MethodInvocation SimpleName size
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName count overrides
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg graphic context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName delta gc
+int PrimitiveType MethodDeclaration SimpleName count overrides
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg graphic context
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName delta gc
+count overrides SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg graphic context
+count overrides SimpleName MethodDeclaration SingleVariableDeclaration SimpleName delta gc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName count overrides
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delta gc
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName count overrides
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName delta gc

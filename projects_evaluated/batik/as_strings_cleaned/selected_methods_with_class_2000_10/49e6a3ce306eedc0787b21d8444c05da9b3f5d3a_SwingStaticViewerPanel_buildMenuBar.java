@@ -1,0 +1,451 @@
+menu bar SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu bar
+j menu bar SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName menu bar
+j menu SimpleName SimpleType ClassInstanceCreation QualifiedName messagesmenu title file
+file menu SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu
+file menu SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName messagesmenu title file
+j menu SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file menu
+menu bar SimpleName MethodInvocation SimpleName add
+menu bar SimpleName MethodInvocation SimpleName file menu
+add SimpleName MethodInvocation SimpleName file menu
+file menu SimpleName MethodInvocation SimpleName set mnemonic
+file menu SimpleName MethodInvocation QualifiedName key eventvk f
+set mnemonic SimpleName MethodInvocation QualifiedName key eventvk f
+action event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+controller SimpleName MethodInvocation SimpleName on file open
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName action performed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName action performed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+abstract action SimpleName SimpleType ClassInstanceCreation QualifiedName messagesmenu item file open
+messagesmenu item file open QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+messagesmenu item file open QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+messagesmenu item file open QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName action performed
+j menu item SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item file open
+file open menu item SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu item
+file open menu item SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item file open
+j menu item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file open menu item
+key stroke SimpleName MethodInvocation SimpleName get key stroke
+key stroke SimpleName MethodInvocation QualifiedName key eventvk o
+key stroke SimpleName MethodInvocation QualifiedName action eventctrl mask
+get key stroke SimpleName MethodInvocation QualifiedName key eventvk o
+get key stroke SimpleName MethodInvocation QualifiedName action eventctrl mask
+key eventvk o QualifiedName MethodInvocation QualifiedName action eventctrl mask
+file open menu item SimpleName MethodInvocation SimpleName set accelerator
+file open menu item SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+file open menu item SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+file open menu item SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk o
+file open menu item SimpleName MethodInvocation MethodInvocation QualifiedName action eventctrl mask
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk o
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName action eventctrl mask
+file open menu item SimpleName MethodInvocation SimpleName set mnemonic
+file open menu item SimpleName MethodInvocation QualifiedName key eventvk o
+set mnemonic SimpleName MethodInvocation QualifiedName key eventvk o
+action event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+controller SimpleName MethodInvocation SimpleName on file exit
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName action performed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName action performed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+abstract action SimpleName SimpleType ClassInstanceCreation QualifiedName messagesmenu item file exit
+messagesmenu item file exit QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+messagesmenu item file exit QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+messagesmenu item file exit QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName action performed
+j menu item SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item file exit
+file exit menu item SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu item
+file exit menu item SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item file exit
+j menu item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName file exit menu item
+file exit menu item SimpleName MethodInvocation SimpleName set mnemonic
+file exit menu item SimpleName MethodInvocation QualifiedName key eventvk x
+set mnemonic SimpleName MethodInvocation QualifiedName key eventvk x
+key stroke SimpleName MethodInvocation SimpleName get key stroke
+key stroke SimpleName MethodInvocation QualifiedName key eventvk x
+key stroke SimpleName MethodInvocation QualifiedName action eventctrl mask
+get key stroke SimpleName MethodInvocation QualifiedName key eventvk x
+get key stroke SimpleName MethodInvocation QualifiedName action eventctrl mask
+key eventvk x QualifiedName MethodInvocation QualifiedName action eventctrl mask
+file exit menu item SimpleName MethodInvocation SimpleName set accelerator
+file exit menu item SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+file exit menu item SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+file exit menu item SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk x
+file exit menu item SimpleName MethodInvocation MethodInvocation QualifiedName action eventctrl mask
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk x
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName action eventctrl mask
+file menu SimpleName MethodInvocation SimpleName add
+file menu SimpleName MethodInvocation SimpleName file open menu item
+add SimpleName MethodInvocation SimpleName file open menu item
+file menu SimpleName MethodInvocation SimpleName add
+file menu SimpleName MethodInvocation SimpleName file exit menu item
+add SimpleName MethodInvocation SimpleName file exit menu item
+j menu SimpleName SimpleType ClassInstanceCreation QualifiedName messagesmenu title document
+document menu SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu
+document menu SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName messagesmenu title document
+j menu SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName document menu
+menu bar SimpleName MethodInvocation SimpleName add
+menu bar SimpleName MethodInvocation SimpleName document menu
+add SimpleName MethodInvocation SimpleName document menu
+document menu SimpleName MethodInvocation SimpleName set mnemonic
+document menu SimpleName MethodInvocation QualifiedName key eventvk d
+set mnemonic SimpleName MethodInvocation QualifiedName key eventvk d
+action event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+controller SimpleName MethodInvocation SimpleName on zoom in
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName action performed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName action performed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+abstract action SimpleName SimpleType ClassInstanceCreation QualifiedName messagesmenu item document zoom in
+messagesmenu item document zoom in QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+messagesmenu item document zoom in QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+messagesmenu item document zoom in QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName action performed
+j menu item SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document zoom in
+zoom in menu item SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu item
+zoom in menu item SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document zoom in
+j menu item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoom in menu item
+action eventshift mask QualifiedName InfixExpression QualifiedName action eventctrl mask
+key stroke SimpleName MethodInvocation SimpleName get key stroke
+key stroke SimpleName MethodInvocation QualifiedName key eventvk z
+key stroke SimpleName MethodInvocation InfixExpression QualifiedName action eventshift mask
+key stroke SimpleName MethodInvocation InfixExpression QualifiedName action eventctrl mask
+get key stroke SimpleName MethodInvocation QualifiedName key eventvk z
+get key stroke SimpleName MethodInvocation InfixExpression QualifiedName action eventshift mask
+get key stroke SimpleName MethodInvocation InfixExpression QualifiedName action eventctrl mask
+key eventvk z QualifiedName MethodInvocation InfixExpression QualifiedName action eventshift mask
+key eventvk z QualifiedName MethodInvocation InfixExpression QualifiedName action eventctrl mask
+zoom in menu item SimpleName MethodInvocation SimpleName set accelerator
+zoom in menu item SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+zoom in menu item SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+zoom in menu item SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk z
+zoom in menu item SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName action eventshift mask
+zoom in menu item SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName action eventctrl mask
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk z
+set accelerator SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName action eventshift mask
+set accelerator SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName action eventctrl mask
+zoom in menu item SimpleName MethodInvocation SimpleName set mnemonic
+zoom in menu item SimpleName MethodInvocation QualifiedName key eventvk i
+set mnemonic SimpleName MethodInvocation QualifiedName key eventvk i
+action event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+controller SimpleName MethodInvocation SimpleName on zoom out
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName action performed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName action performed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+abstract action SimpleName SimpleType ClassInstanceCreation QualifiedName messagesmenu item document zoom out
+messagesmenu item document zoom out QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+messagesmenu item document zoom out QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+messagesmenu item document zoom out QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName action performed
+j menu item SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document zoom out
+zoom out menu item SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu item
+zoom out menu item SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document zoom out
+j menu item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName zoom out menu item
+action eventalt mask QualifiedName InfixExpression QualifiedName action eventctrl mask
+key stroke SimpleName MethodInvocation SimpleName get key stroke
+key stroke SimpleName MethodInvocation QualifiedName key eventvk z
+key stroke SimpleName MethodInvocation InfixExpression QualifiedName action eventalt mask
+key stroke SimpleName MethodInvocation InfixExpression QualifiedName action eventctrl mask
+get key stroke SimpleName MethodInvocation QualifiedName key eventvk z
+get key stroke SimpleName MethodInvocation InfixExpression QualifiedName action eventalt mask
+get key stroke SimpleName MethodInvocation InfixExpression QualifiedName action eventctrl mask
+key eventvk z QualifiedName MethodInvocation InfixExpression QualifiedName action eventalt mask
+key eventvk z QualifiedName MethodInvocation InfixExpression QualifiedName action eventctrl mask
+zoom out menu item SimpleName MethodInvocation SimpleName set accelerator
+zoom out menu item SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+zoom out menu item SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+zoom out menu item SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk z
+zoom out menu item SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName action eventalt mask
+zoom out menu item SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName action eventctrl mask
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk z
+set accelerator SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName action eventalt mask
+set accelerator SimpleName MethodInvocation MethodInvocation InfixExpression QualifiedName action eventctrl mask
+zoom out menu item SimpleName MethodInvocation SimpleName set mnemonic
+zoom out menu item SimpleName MethodInvocation QualifiedName key eventvk o
+set mnemonic SimpleName MethodInvocation QualifiedName key eventvk o
+action event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+controller SimpleName MethodInvocation SimpleName on pan
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName action performed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName action performed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+abstract action SimpleName SimpleType ClassInstanceCreation QualifiedName messagesmenu item document pan
+messagesmenu item document pan QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+messagesmenu item document pan QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+messagesmenu item document pan QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName action performed
+j menu item SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document pan
+pan menu item SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu item
+pan menu item SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document pan
+j menu item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName pan menu item
+key stroke SimpleName MethodInvocation SimpleName get key stroke
+key stroke SimpleName MethodInvocation QualifiedName key eventvk p
+key stroke SimpleName MethodInvocation QualifiedName action eventctrl mask
+get key stroke SimpleName MethodInvocation QualifiedName key eventvk p
+get key stroke SimpleName MethodInvocation QualifiedName action eventctrl mask
+key eventvk p QualifiedName MethodInvocation QualifiedName action eventctrl mask
+pan menu item SimpleName MethodInvocation SimpleName set accelerator
+pan menu item SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+pan menu item SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+pan menu item SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk p
+pan menu item SimpleName MethodInvocation MethodInvocation QualifiedName action eventctrl mask
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk p
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName action eventctrl mask
+pan menu item SimpleName MethodInvocation SimpleName set mnemonic
+pan menu item SimpleName MethodInvocation QualifiedName key eventvk a
+set mnemonic SimpleName MethodInvocation QualifiedName key eventvk a
+action event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+controller SimpleName MethodInvocation SimpleName on previous
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName action performed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName action performed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+abstract action SimpleName SimpleType ClassInstanceCreation QualifiedName messagesmenu item document previous
+messagesmenu item document previous QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+messagesmenu item document previous QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+messagesmenu item document previous QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName action performed
+j menu item SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document previous
+previous menu item SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu item
+previous menu item SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document previous
+final Modifier VariableDeclarationStatement SimpleType SimpleName j menu item
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName previous menu item
+j menu item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName previous menu item
+key stroke SimpleName MethodInvocation SimpleName get key stroke
+key stroke SimpleName MethodInvocation QualifiedName key eventvk left
+key stroke SimpleName MethodInvocation QualifiedName action eventalt mask
+get key stroke SimpleName MethodInvocation QualifiedName key eventvk left
+get key stroke SimpleName MethodInvocation QualifiedName action eventalt mask
+key eventvk left QualifiedName MethodInvocation QualifiedName action eventalt mask
+previous menu item SimpleName MethodInvocation SimpleName set accelerator
+previous menu item SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+previous menu item SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+previous menu item SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk left
+previous menu item SimpleName MethodInvocation MethodInvocation QualifiedName action eventalt mask
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk left
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName action eventalt mask
+previous menu item SimpleName MethodInvocation SimpleName set mnemonic
+previous menu item SimpleName MethodInvocation QualifiedName key eventvk p
+set mnemonic SimpleName MethodInvocation QualifiedName key eventvk p
+action event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+controller SimpleName MethodInvocation SimpleName on next
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName action performed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName action performed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+abstract action SimpleName SimpleType ClassInstanceCreation QualifiedName messagesmenu item document next
+messagesmenu item document next QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+messagesmenu item document next QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+messagesmenu item document next QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName action performed
+j menu item SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document next
+next menu item SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu item
+next menu item SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document next
+final Modifier VariableDeclarationStatement SimpleType SimpleName j menu item
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName next menu item
+j menu item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next menu item
+key stroke SimpleName MethodInvocation SimpleName get key stroke
+key stroke SimpleName MethodInvocation QualifiedName key eventvk right
+key stroke SimpleName MethodInvocation QualifiedName action eventalt mask
+get key stroke SimpleName MethodInvocation QualifiedName key eventvk right
+get key stroke SimpleName MethodInvocation QualifiedName action eventalt mask
+key eventvk right QualifiedName MethodInvocation QualifiedName action eventalt mask
+next menu item SimpleName MethodInvocation SimpleName set accelerator
+next menu item SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+next menu item SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+next menu item SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk right
+next menu item SimpleName MethodInvocation MethodInvocation QualifiedName action eventalt mask
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk right
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName action eventalt mask
+next menu item SimpleName MethodInvocation SimpleName set mnemonic
+next menu item SimpleName MethodInvocation QualifiedName key eventvk n
+set mnemonic SimpleName MethodInvocation QualifiedName key eventvk n
+action event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+controller SimpleName MethodInvocation SimpleName on search
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName action performed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName action performed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+abstract action SimpleName SimpleType ClassInstanceCreation QualifiedName messagesmenu item document search
+messagesmenu item document search QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+messagesmenu item document search QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+messagesmenu item document search QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName action performed
+j menu item SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document search
+search menu item SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu item
+search menu item SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document search
+j menu item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName search menu item
+key stroke SimpleName MethodInvocation SimpleName get key stroke
+key stroke SimpleName MethodInvocation QualifiedName key eventvk s
+key stroke SimpleName MethodInvocation QualifiedName action eventctrl mask
+get key stroke SimpleName MethodInvocation QualifiedName key eventvk s
+get key stroke SimpleName MethodInvocation QualifiedName action eventctrl mask
+key eventvk s QualifiedName MethodInvocation QualifiedName action eventctrl mask
+search menu item SimpleName MethodInvocation SimpleName set accelerator
+search menu item SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+search menu item SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+search menu item SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk s
+search menu item SimpleName MethodInvocation MethodInvocation QualifiedName action eventctrl mask
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk s
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName action eventctrl mask
+search menu item SimpleName MethodInvocation SimpleName set mnemonic
+search menu item SimpleName MethodInvocation QualifiedName key eventvk s
+set mnemonic SimpleName MethodInvocation QualifiedName key eventvk s
+action event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+controller SimpleName MethodInvocation SimpleName on reload
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName action performed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName action performed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action event
+action performed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+abstract action SimpleName SimpleType ClassInstanceCreation QualifiedName messagesmenu item document reload
+messagesmenu item document reload QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration Modifier public
+messagesmenu item document reload QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration PrimitiveType void
+messagesmenu item document reload QualifiedName ClassInstanceCreation AnonymousClassDeclaration MethodDeclaration SimpleName action performed
+j menu item SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document reload
+reload menu item SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName j menu item
+reload menu item SimpleName VariableDeclarationFragment ClassInstanceCreation ClassInstanceCreation QualifiedName messagesmenu item document reload
+j menu item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName reload menu item
+key stroke SimpleName MethodInvocation SimpleName get key stroke
+key stroke SimpleName MethodInvocation QualifiedName key eventvk r
+key stroke SimpleName MethodInvocation QualifiedName action eventctrl mask
+get key stroke SimpleName MethodInvocation QualifiedName key eventvk r
+get key stroke SimpleName MethodInvocation QualifiedName action eventctrl mask
+key eventvk r QualifiedName MethodInvocation QualifiedName action eventctrl mask
+reload menu item SimpleName MethodInvocation SimpleName set accelerator
+reload menu item SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+reload menu item SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+reload menu item SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk r
+reload menu item SimpleName MethodInvocation MethodInvocation QualifiedName action eventctrl mask
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk r
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName action eventctrl mask
+reload menu item SimpleName MethodInvocation SimpleName set mnemonic
+reload menu item SimpleName MethodInvocation QualifiedName key eventvk r
+set mnemonic SimpleName MethodInvocation QualifiedName key eventvk r
+document menu SimpleName MethodInvocation SimpleName add
+document menu SimpleName MethodInvocation SimpleName zoom in menu item
+add SimpleName MethodInvocation SimpleName zoom in menu item
+document menu SimpleName MethodInvocation SimpleName add
+document menu SimpleName MethodInvocation SimpleName zoom out menu item
+add SimpleName MethodInvocation SimpleName zoom out menu item
+document menu SimpleName MethodInvocation SimpleName add
+document menu SimpleName MethodInvocation SimpleName pan menu item
+add SimpleName MethodInvocation SimpleName pan menu item
+document menu SimpleName MethodInvocation SimpleName add
+document menu SimpleName MethodInvocation SimpleName previous menu item
+add SimpleName MethodInvocation SimpleName previous menu item
+document menu SimpleName MethodInvocation SimpleName add
+document menu SimpleName MethodInvocation SimpleName next menu item
+add SimpleName MethodInvocation SimpleName next menu item
+document menu SimpleName MethodInvocation SimpleName add
+document menu SimpleName MethodInvocation SimpleName search menu item
+add SimpleName MethodInvocation SimpleName search menu item
+document menu SimpleName MethodInvocation SimpleName add
+document menu SimpleName MethodInvocation SimpleName reload menu item
+add SimpleName MethodInvocation SimpleName reload menu item
+property change event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+model SimpleName MethodInvocation SimpleName get next entity uri
+next entity uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName model
+next entity uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next entity uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next entity uri
+next menu item SimpleName MethodInvocation SimpleName set enabled
+next menu item SimpleName MethodInvocation BooleanLiteral false
+set enabled SimpleName MethodInvocation BooleanLiteral false
+next menu item SimpleName MethodInvocation SimpleName set enabled
+next menu item SimpleName MethodInvocation BooleanLiteral true
+set enabled SimpleName MethodInvocation BooleanLiteral true
+model SimpleName MethodInvocation SimpleName get previous entity uri
+prev entity uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName model
+prev entity uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get previous entity uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName prev entity uri
+previous menu item SimpleName MethodInvocation SimpleName set enabled
+previous menu item SimpleName MethodInvocation BooleanLiteral false
+set enabled SimpleName MethodInvocation BooleanLiteral false
+previous menu item SimpleName MethodInvocation SimpleName set enabled
+previous menu item SimpleName MethodInvocation BooleanLiteral true
+set enabled SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName property change
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName property change
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change event
+property change SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+model SimpleName MethodInvocation SimpleName add property change listener
+model SimpleName MethodInvocation StringLiteral entity uri
+model SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName property change listener
+add property change listener SimpleName MethodInvocation StringLiteral entity uri
+add property change listener SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName property change listener
+entity uri StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName property change listener
+final Modifier VariableDeclarationStatement Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration SimpleType SimpleName j menu bar
+private Modifier MethodDeclaration SimpleName build menu bar
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block VariableDeclarationStatement Modifier final
+private Modifier MethodDeclaration Block ReturnStatement SimpleName menu bar
+j menu bar SimpleName SimpleType MethodDeclaration SimpleName build menu bar
+build menu bar SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+build menu bar SimpleName MethodDeclaration Block VariableDeclarationStatement Modifier final
+build menu bar SimpleName MethodDeclaration Block ReturnStatement SimpleName menu bar
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName j menu bar
+public Modifier TypeDeclaration MethodDeclaration SimpleName build menu bar
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName j menu bar
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build menu bar

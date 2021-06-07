@@ -1,0 +1,27 @@
+element SimpleName MethodInvocation SimpleName get attribute node ns
+element SimpleName MethodInvocation SimpleName namespace uri
+element SimpleName MethodInvocation SimpleName local name
+get attribute node ns SimpleName MethodInvocation SimpleName namespace uri
+get attribute node ns SimpleName MethodInvocation SimpleName local name
+namespace uri SimpleName MethodInvocation SimpleName local name
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute node ns
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName namespace uri
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName local name
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+unit type SimpleName Assignment QualifiedName svg anglesvg angletype unspecified
+value SimpleName Assignment NumberLiteral empty
+attr SimpleName MethodInvocation SimpleName get value
+parse SimpleName MethodInvocation MethodInvocation SimpleName attr
+parse SimpleName MethodInvocation MethodInvocation SimpleName get value
+valid SimpleName Assignment BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName revalidate
+void PrimitiveType MethodDeclaration SimpleName revalidate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName revalidate
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName revalidate

@@ -1,0 +1,64 @@
+float PrimitiveType ArrayType SingleVariableDeclaration SimpleName values
+item list SimpleName MethodInvocation SimpleName size
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName item list
+size SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName item list
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName size
+i SimpleName InfixExpression QualifiedName valueslength
+i SimpleName InfixExpression InfixExpression InfixExpression SimpleName i
+i SimpleName InfixExpression InfixExpression InfixExpression QualifiedName valueslength
+size SimpleName InfixExpression InfixExpression InfixExpression SimpleName i
+size SimpleName InfixExpression InfixExpression InfixExpression QualifiedName valueslength
+item list SimpleName MethodInvocation SimpleName get
+item list SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+svg number item SimpleName SimpleType CastExpression MethodInvocation SimpleName item list
+svg number item SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+svg number item SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+n SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg number item
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName item list
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+n SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+svg number item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+values SimpleName ArrayAccess SimpleName i
+nvalue QualifiedName Assignment ArrayAccess SimpleName values
+nvalue QualifiedName Assignment ArrayAccess SimpleName i
+i SimpleName InfixExpression QualifiedName valueslength
+values SimpleName ArrayAccess SimpleName i
+svg number item SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName values
+svg number item SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName i
+append item impl SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName svg number item
+append item impl SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName values
+append item impl SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName i
+size SimpleName InfixExpression QualifiedName valueslength
+remove item impl SimpleName MethodInvocation PrefixExpression SimpleName size
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set animated value
+protected Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType float
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName values
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName set animated value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName values
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+set animated value SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType float
+set animated value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName values
+set animated value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+set animated value SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set animated value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set animated value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName values

@@ -1,0 +1,500 @@
+css stylable element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pseudo
+props SimpleName VariableDeclarationFragment MethodInvocation SimpleName get number of properties
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName props
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get number of properties
+style map SimpleName SimpleType ClassInstanceCreation SimpleName props
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName style map
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName props
+final Modifier VariableDeclarationStatement SimpleType SimpleName style map
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+final Modifier VariableDeclarationStatement VariableDeclarationFragment ClassInstanceCreation SimpleName props
+style map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+rules SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rules
+add matching rules SimpleName MethodInvocation SimpleName rules
+add matching rules SimpleName MethodInvocation SimpleName user agent style sheet
+add matching rules SimpleName MethodInvocation SimpleName elt
+add matching rules SimpleName MethodInvocation SimpleName pseudo
+rules SimpleName MethodInvocation SimpleName user agent style sheet
+rules SimpleName MethodInvocation SimpleName elt
+rules SimpleName MethodInvocation SimpleName pseudo
+user agent style sheet SimpleName MethodInvocation SimpleName elt
+user agent style sheet SimpleName MethodInvocation SimpleName pseudo
+elt SimpleName MethodInvocation SimpleName pseudo
+add rules SimpleName MethodInvocation SimpleName elt
+add rules SimpleName MethodInvocation SimpleName pseudo
+add rules SimpleName MethodInvocation SimpleName result
+add rules SimpleName MethodInvocation SimpleName rules
+add rules SimpleName MethodInvocation QualifiedName style mapuser agent origin
+elt SimpleName MethodInvocation SimpleName pseudo
+elt SimpleName MethodInvocation SimpleName result
+elt SimpleName MethodInvocation SimpleName rules
+elt SimpleName MethodInvocation QualifiedName style mapuser agent origin
+pseudo SimpleName MethodInvocation SimpleName result
+pseudo SimpleName MethodInvocation SimpleName rules
+pseudo SimpleName MethodInvocation QualifiedName style mapuser agent origin
+result SimpleName MethodInvocation SimpleName rules
+result SimpleName MethodInvocation QualifiedName style mapuser agent origin
+rules SimpleName MethodInvocation QualifiedName style mapuser agent origin
+rules SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rules
+add matching rules SimpleName MethodInvocation SimpleName rules
+add matching rules SimpleName MethodInvocation SimpleName user style sheet
+add matching rules SimpleName MethodInvocation SimpleName elt
+add matching rules SimpleName MethodInvocation SimpleName pseudo
+rules SimpleName MethodInvocation SimpleName user style sheet
+rules SimpleName MethodInvocation SimpleName elt
+rules SimpleName MethodInvocation SimpleName pseudo
+user style sheet SimpleName MethodInvocation SimpleName elt
+user style sheet SimpleName MethodInvocation SimpleName pseudo
+elt SimpleName MethodInvocation SimpleName pseudo
+add rules SimpleName MethodInvocation SimpleName elt
+add rules SimpleName MethodInvocation SimpleName pseudo
+add rules SimpleName MethodInvocation SimpleName result
+add rules SimpleName MethodInvocation SimpleName rules
+add rules SimpleName MethodInvocation QualifiedName style mapuser origin
+elt SimpleName MethodInvocation SimpleName pseudo
+elt SimpleName MethodInvocation SimpleName result
+elt SimpleName MethodInvocation SimpleName rules
+elt SimpleName MethodInvocation QualifiedName style mapuser origin
+pseudo SimpleName MethodInvocation SimpleName result
+pseudo SimpleName MethodInvocation SimpleName rules
+pseudo SimpleName MethodInvocation QualifiedName style mapuser origin
+result SimpleName MethodInvocation SimpleName rules
+result SimpleName MethodInvocation QualifiedName style mapuser origin
+rules SimpleName MethodInvocation QualifiedName style mapuser origin
+element SimpleName Assignment SimpleName elt
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pname
+lexical unit SimpleName SimpleType SingleVariableDeclaration SimpleName lu
+boolean PrimitiveType SingleVariableDeclaration SimpleName important
+get property index SimpleName MethodInvocation SimpleName pname
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property index
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName pname
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get property index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName pname
+idx SimpleName InfixExpression PrefixExpression NumberLiteral empty
+value managers SimpleName ArrayAccess SimpleName idx
+vm SimpleName VariableDeclarationFragment ArrayAccess SimpleName value managers
+vm SimpleName VariableDeclarationFragment ArrayAccess SimpleName idx
+value manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName vm
+vm SimpleName MethodInvocation SimpleName create value
+vm SimpleName MethodInvocation SimpleName lu
+vm SimpleName MethodInvocation ThisExpression SimpleName css engine
+create value SimpleName MethodInvocation SimpleName lu
+create value SimpleName MethodInvocation ThisExpression SimpleName css engine
+lu SimpleName MethodInvocation ThisExpression SimpleName css engine
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName vm
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName create value
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName lu
+v SimpleName VariableDeclarationFragment MethodInvocation ThisExpression SimpleName css engine
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+put author property SimpleName MethodInvocation SimpleName result
+put author property SimpleName MethodInvocation SimpleName idx
+put author property SimpleName MethodInvocation SimpleName v
+put author property SimpleName MethodInvocation SimpleName important
+put author property SimpleName MethodInvocation QualifiedName style mapnon css origin
+result SimpleName MethodInvocation SimpleName idx
+result SimpleName MethodInvocation SimpleName v
+result SimpleName MethodInvocation SimpleName important
+result SimpleName MethodInvocation QualifiedName style mapnon css origin
+idx SimpleName MethodInvocation SimpleName v
+idx SimpleName MethodInvocation SimpleName important
+idx SimpleName MethodInvocation QualifiedName style mapnon css origin
+v SimpleName MethodInvocation SimpleName important
+v SimpleName MethodInvocation QualifiedName style mapnon css origin
+important SimpleName MethodInvocation QualifiedName style mapnon css origin
+get shorthand index SimpleName MethodInvocation SimpleName pname
+idx SimpleName Assignment MethodInvocation SimpleName get shorthand index
+idx SimpleName Assignment MethodInvocation SimpleName pname
+idx SimpleName InfixExpression PrefixExpression NumberLiteral empty
+shorthand managers SimpleName ArrayAccess SimpleName idx
+shorthand managers SimpleName ArrayAccess MethodInvocation SimpleName set values
+idx SimpleName ArrayAccess MethodInvocation SimpleName set values
+shorthand managers SimpleName ArrayAccess MethodInvocation ThisExpression SimpleName css engine
+idx SimpleName ArrayAccess MethodInvocation ThisExpression SimpleName css engine
+shorthand managers SimpleName ArrayAccess MethodInvocation SimpleName lu
+idx SimpleName ArrayAccess MethodInvocation SimpleName lu
+shorthand managers SimpleName ArrayAccess MethodInvocation SimpleName important
+idx SimpleName ArrayAccess MethodInvocation SimpleName important
+set values SimpleName MethodInvocation ThisExpression SimpleName css engine
+set values SimpleName MethodInvocation SimpleName lu
+set values SimpleName MethodInvocation SimpleName important
+css engine SimpleName ThisExpression MethodInvocation SimpleName lu
+css engine SimpleName ThisExpression MethodInvocation SimpleName important
+lu SimpleName MethodInvocation SimpleName important
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pname
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lu
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName important
+void PrimitiveType MethodDeclaration SimpleName property
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pname
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lu
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName important
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pname
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lu
+property SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName important
+property SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+pname SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+pname SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+pname SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName important
+lu SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+lu SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName important
+ph SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName shorthand managerproperty handler
+shorthand managerproperty handler QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ph
+elt SimpleName MethodInvocation SimpleName get attributes
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+attrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attrs
+attrs SimpleName MethodInvocation SimpleName get length
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName attrs
+len SimpleName VariableDeclarationFragment MethodInvocation SimpleName get length
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName len
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName attrs
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName len
+attrs SimpleName MethodInvocation SimpleName item
+attrs SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName attrs
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName item
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName get node name
+an SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+an SimpleName VariableDeclarationFragment MethodInvocation SimpleName get node name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName an
+non css presentational hints SimpleName MethodInvocation SimpleName contains
+non css presentational hints SimpleName MethodInvocation SimpleName an
+contains SimpleName MethodInvocation SimpleName an
+attr SimpleName MethodInvocation SimpleName get node value
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr
+attr value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get node value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr value
+lexical unit SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName lu
+attr SimpleName MethodInvocation SimpleName get node value
+parser SimpleName MethodInvocation SimpleName parse property value
+parser SimpleName MethodInvocation MethodInvocation SimpleName attr
+parser SimpleName MethodInvocation MethodInvocation SimpleName get node value
+parse property value SimpleName MethodInvocation MethodInvocation SimpleName attr
+parse property value SimpleName MethodInvocation MethodInvocation SimpleName get node value
+lu SimpleName Assignment MethodInvocation SimpleName parser
+lu SimpleName Assignment MethodInvocation SimpleName parse property value
+lu SimpleName Assignment MethodInvocation MethodInvocation SimpleName attr
+lu SimpleName Assignment MethodInvocation MethodInvocation SimpleName get node value
+ph SimpleName MethodInvocation SimpleName property
+ph SimpleName MethodInvocation SimpleName an
+ph SimpleName MethodInvocation SimpleName lu
+ph SimpleName MethodInvocation BooleanLiteral false
+property SimpleName MethodInvocation SimpleName an
+property SimpleName MethodInvocation SimpleName lu
+property SimpleName MethodInvocation BooleanLiteral false
+an SimpleName MethodInvocation SimpleName lu
+an SimpleName MethodInvocation BooleanLiteral false
+lu SimpleName MethodInvocation BooleanLiteral false
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+***** css engine exception propertysyntaxerror StringLiteral InfixExpression SimpleName e
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral ***** css engine exception propertysyntaxerror
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName e
+println SimpleName MethodInvocation InfixExpression StringLiteral ***** css engine exception propertysyntaxerror
+println SimpleName MethodInvocation InfixExpression SimpleName e
+attr value StringLiteral InfixExpression SimpleName attr value
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral attr value
+systemerr QualifiedName MethodInvocation InfixExpression SimpleName attr value
+println SimpleName MethodInvocation InfixExpression StringLiteral attr value
+println SimpleName MethodInvocation InfixExpression SimpleName attr value
+e SimpleName MethodInvocation SimpleName get class
+e SimpleName MethodInvocation MethodInvocation SimpleName get name
+get class SimpleName MethodInvocation MethodInvocation SimpleName get name
+exception StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName e
+exception StringLiteral InfixExpression MethodInvocation MethodInvocation SimpleName get class
+exception StringLiteral InfixExpression MethodInvocation SimpleName get name
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation InfixExpression StringLiteral exception
+systemerr QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+println SimpleName MethodInvocation InfixExpression StringLiteral exception
+println SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get name
+e SimpleName MethodInvocation SimpleName print stack trace
+e SimpleName MethodInvocation QualifiedName systemerr
+print stack trace SimpleName MethodInvocation QualifiedName systemerr
+systemerr QualifiedName MethodInvocation SimpleName println
+systemerr QualifiedName MethodInvocation StringLiteral ***** css engine exception
+println SimpleName MethodInvocation StringLiteral ***** css engine exception
+e SimpleName MethodInvocation SimpleName get message
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName Assignment StringLiteral empty
+document uri SimpleName MethodInvocation SimpleName to string
+document uri SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral unknown
+unknown StringLiteral ConditionalExpression MethodInvocation SimpleName document uri
+unknown StringLiteral ConditionalExpression MethodInvocation SimpleName to string
+u SimpleName VariableDeclarationFragment ParenthesizedExpression ConditionalExpression StringLiteral unknown
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName u
+attr SimpleName MethodInvocation SimpleName get node value
+u SimpleName ArrayInitializer SimpleName an
+u SimpleName ArrayInitializer MethodInvocation SimpleName attr
+u SimpleName ArrayInitializer MethodInvocation SimpleName get node value
+u SimpleName ArrayInitializer SimpleName m
+an SimpleName ArrayInitializer MethodInvocation SimpleName attr
+an SimpleName ArrayInitializer MethodInvocation SimpleName get node value
+an SimpleName ArrayInitializer SimpleName m
+attr SimpleName MethodInvocation ArrayInitializer SimpleName m
+get node value SimpleName MethodInvocation ArrayInitializer SimpleName m
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation StringLiteral propertysyntaxerrorat
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName u
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName an
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName m
+format message SimpleName MethodInvocation StringLiteral propertysyntaxerrorat
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName u
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName an
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName m
+propertysyntaxerrorat StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName u
+propertysyntaxerrorat StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName an
+propertysyntaxerrorat StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName m
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName messages
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName format message
+s SimpleName VariableDeclarationFragment MethodInvocation StringLiteral propertysyntaxerrorat
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionsyntax err
+dom exception SimpleName SimpleType ClassInstanceCreation SimpleName s
+dom exceptionsyntax err QualifiedName ClassInstanceCreation SimpleName s
+de SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dom exception
+de SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName dom exceptionsyntax err
+de SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName s
+dom exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName de
+user agent SimpleName InfixExpression IfStatement ThrowStatement SimpleName de
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName de
+display error SimpleName MethodInvocation SimpleName de
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName len
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+len SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+css context SimpleName MethodInvocation SimpleName get css engine for element
+css context SimpleName MethodInvocation SimpleName elt
+get css engine for element SimpleName MethodInvocation SimpleName elt
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName css context
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css engine for element
+eng SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+css engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName eng
+eng SimpleName MethodInvocation SimpleName get style sheet nodes
+snodes SimpleName VariableDeclarationFragment MethodInvocation SimpleName eng
+snodes SimpleName VariableDeclarationFragment MethodInvocation SimpleName get style sheet nodes
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName snodes
+snodes SimpleName MethodInvocation SimpleName size
+slen SimpleName VariableDeclarationFragment MethodInvocation SimpleName snodes
+slen SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName slen
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName snodes
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+slen SimpleName InfixExpression NumberLiteral empty
+rules SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rules
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName slen
+snodes SimpleName MethodInvocation SimpleName get
+snodes SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+css style sheet node SimpleName SimpleType CastExpression MethodInvocation SimpleName snodes
+css style sheet node SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+css style sheet node SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+ssn SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName css style sheet node
+ssn SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName snodes
+ssn SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+ssn SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+css style sheet node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ssn
+ssn SimpleName MethodInvocation SimpleName get css style sheet
+ss SimpleName VariableDeclarationFragment MethodInvocation SimpleName ssn
+ss SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css style sheet
+style sheet SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ss
+ss SimpleName MethodInvocation SimpleName is alternate
+ss SimpleName MethodInvocation SimpleName get title
+ss SimpleName MethodInvocation SimpleName get title
+ss SimpleName MethodInvocation MethodInvocation SimpleName equals
+get title SimpleName MethodInvocation MethodInvocation SimpleName equals
+ss SimpleName MethodInvocation MethodInvocation SimpleName alternate style sheet
+get title SimpleName MethodInvocation MethodInvocation SimpleName alternate style sheet
+equals SimpleName MethodInvocation SimpleName alternate style sheet
+ss SimpleName MethodInvocation SimpleName get media
+media match SimpleName MethodInvocation MethodInvocation SimpleName ss
+media match SimpleName MethodInvocation MethodInvocation SimpleName get media
+add matching rules SimpleName MethodInvocation SimpleName rules
+add matching rules SimpleName MethodInvocation SimpleName ss
+add matching rules SimpleName MethodInvocation SimpleName elt
+add matching rules SimpleName MethodInvocation SimpleName pseudo
+rules SimpleName MethodInvocation SimpleName ss
+rules SimpleName MethodInvocation SimpleName elt
+rules SimpleName MethodInvocation SimpleName pseudo
+ss SimpleName MethodInvocation SimpleName elt
+ss SimpleName MethodInvocation SimpleName pseudo
+elt SimpleName MethodInvocation SimpleName pseudo
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName slen
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+slen SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+add rules SimpleName MethodInvocation SimpleName elt
+add rules SimpleName MethodInvocation SimpleName pseudo
+add rules SimpleName MethodInvocation SimpleName result
+add rules SimpleName MethodInvocation SimpleName rules
+add rules SimpleName MethodInvocation QualifiedName style mapauthor origin
+elt SimpleName MethodInvocation SimpleName pseudo
+elt SimpleName MethodInvocation SimpleName result
+elt SimpleName MethodInvocation SimpleName rules
+elt SimpleName MethodInvocation QualifiedName style mapauthor origin
+pseudo SimpleName MethodInvocation SimpleName result
+pseudo SimpleName MethodInvocation SimpleName rules
+pseudo SimpleName MethodInvocation QualifiedName style mapauthor origin
+result SimpleName MethodInvocation SimpleName rules
+result SimpleName MethodInvocation QualifiedName style mapauthor origin
+rules SimpleName MethodInvocation QualifiedName style mapauthor origin
+elt SimpleName MethodInvocation SimpleName get attribute ns
+elt SimpleName MethodInvocation SimpleName style namespace uri
+elt SimpleName MethodInvocation SimpleName style local name
+get attribute ns SimpleName MethodInvocation SimpleName style namespace uri
+get attribute ns SimpleName MethodInvocation SimpleName style local name
+style namespace uri SimpleName MethodInvocation SimpleName style local name
+style SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+style SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+style SimpleName VariableDeclarationFragment MethodInvocation SimpleName style namespace uri
+style SimpleName VariableDeclarationFragment MethodInvocation SimpleName style local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName style
+style SimpleName MethodInvocation SimpleName length
+style SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+parser SimpleName MethodInvocation SimpleName set selector factory
+parser SimpleName MethodInvocation QualifiedName css selector factoryinstance
+set selector factory SimpleName MethodInvocation QualifiedName css selector factoryinstance
+parser SimpleName MethodInvocation SimpleName set condition factory
+parser SimpleName MethodInvocation SimpleName css condition factory
+set condition factory SimpleName MethodInvocation SimpleName css condition factory
+style declaration document handlerstyle map QualifiedName Assignment SimpleName result
+parser SimpleName MethodInvocation SimpleName set document handler
+parser SimpleName MethodInvocation SimpleName style declaration document handler
+set document handler SimpleName MethodInvocation SimpleName style declaration document handler
+parser SimpleName MethodInvocation SimpleName parse style declaration
+parser SimpleName MethodInvocation SimpleName style
+parse style declaration SimpleName MethodInvocation SimpleName style
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+m SimpleName VariableDeclarationFragment MethodInvocation SimpleName get message
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName Assignment StringLiteral empty
+document uri SimpleName MethodInvocation SimpleName to string
+document uri SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral unknown
+unknown StringLiteral ConditionalExpression MethodInvocation SimpleName document uri
+unknown StringLiteral ConditionalExpression MethodInvocation SimpleName to string
+u SimpleName VariableDeclarationFragment ParenthesizedExpression ConditionalExpression StringLiteral unknown
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName u
+u SimpleName ArrayInitializer SimpleName style local name
+u SimpleName ArrayInitializer SimpleName style
+u SimpleName ArrayInitializer SimpleName m
+style local name SimpleName ArrayInitializer SimpleName style
+style local name SimpleName ArrayInitializer SimpleName m
+style SimpleName ArrayInitializer SimpleName m
+messages SimpleName MethodInvocation SimpleName format message
+messages SimpleName MethodInvocation StringLiteral stylesyntaxerrorat
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName u
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName style local name
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName style
+messages SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName m
+format message SimpleName MethodInvocation StringLiteral stylesyntaxerrorat
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName u
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName style local name
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName style
+format message SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName m
+stylesyntaxerrorat StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName u
+stylesyntaxerrorat StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName style local name
+stylesyntaxerrorat StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName style
+stylesyntaxerrorat StringLiteral MethodInvocation ArrayCreation ArrayInitializer SimpleName m
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName messages
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName format message
+s SimpleName VariableDeclarationFragment MethodInvocation StringLiteral stylesyntaxerrorat
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionsyntax err
+dom exception SimpleName SimpleType ClassInstanceCreation SimpleName s
+dom exceptionsyntax err QualifiedName ClassInstanceCreation SimpleName s
+de SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName dom exception
+de SimpleName VariableDeclarationFragment ClassInstanceCreation QualifiedName dom exceptionsyntax err
+de SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName s
+dom exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName de
+user agent SimpleName InfixExpression IfStatement ThrowStatement SimpleName de
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName de
+display error SimpleName MethodInvocation SimpleName de
+elt SimpleName MethodInvocation SimpleName get override style declaration provider
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+p SimpleName VariableDeclarationFragment MethodInvocation SimpleName get override style declaration provider
+style declaration provider SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+p SimpleName MethodInvocation SimpleName get style declaration
+over SimpleName VariableDeclarationFragment MethodInvocation SimpleName p
+over SimpleName VariableDeclarationFragment MethodInvocation SimpleName get style declaration
+style declaration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName over
+over SimpleName MethodInvocation SimpleName size
+ol SimpleName VariableDeclarationFragment MethodInvocation SimpleName over
+ol SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ol
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName over
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName ol
+over SimpleName MethodInvocation SimpleName get index
+over SimpleName MethodInvocation SimpleName i
+get index SimpleName MethodInvocation SimpleName i
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName over
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get index
+idx SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName idx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName over
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName i
+over SimpleName MethodInvocation SimpleName get value
+over SimpleName MethodInvocation SimpleName i
+get value SimpleName MethodInvocation SimpleName i
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName over
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+over SimpleName MethodInvocation SimpleName get priority
+over SimpleName MethodInvocation SimpleName i
+get priority SimpleName MethodInvocation SimpleName i
+important SimpleName VariableDeclarationFragment MethodInvocation SimpleName over
+important SimpleName VariableDeclarationFragment MethodInvocation SimpleName get priority
+important SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName important
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName over
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get priority
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName i
+result SimpleName MethodInvocation SimpleName is important
+result SimpleName MethodInvocation SimpleName idx
+is important SimpleName MethodInvocation SimpleName idx
+result SimpleName MethodInvocation PrefixExpression InfixExpression SimpleName important
+is important SimpleName MethodInvocation PrefixExpression InfixExpression SimpleName important
+idx SimpleName MethodInvocation PrefixExpression InfixExpression SimpleName important
+result SimpleName MethodInvocation SimpleName put value
+result SimpleName MethodInvocation SimpleName idx

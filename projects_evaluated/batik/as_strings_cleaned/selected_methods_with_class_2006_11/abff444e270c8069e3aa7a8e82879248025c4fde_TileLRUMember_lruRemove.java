@@ -1,0 +1,19 @@
+systemout QualifiedName MethodInvocation SimpleName println
+systemout QualifiedName MethodInvocation StringLiteral removing
+println SimpleName MethodInvocation StringLiteral removing
+debug SimpleName IfStatement ExpressionStatement MethodInvocation QualifiedName systemout
+debug SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName println
+debug SimpleName IfStatement ExpressionStatement MethodInvocation StringLiteral removing
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName lru remove
+public Modifier MethodDeclaration Block IfStatement SimpleName debug
+void PrimitiveType MethodDeclaration SimpleName lru remove
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName debug
+lru remove SimpleName MethodDeclaration Block IfStatement SimpleName debug
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName lru remove
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName lru remove

@@ -1,0 +1,382 @@
+double PrimitiveType ArrayType SingleVariableDeclaration SimpleName curr
+int PrimitiveType SingleVariableDeclaration SimpleName curr seg type
+double PrimitiveType ArrayType SingleVariableDeclaration SimpleName next
+int PrimitiveType SingleVariableDeclaration SimpleName next seg type
+get segment terminating point SimpleName MethodInvocation SimpleName curr
+get segment terminating point SimpleName MethodInvocation SimpleName curr seg type
+curr SimpleName MethodInvocation SimpleName curr seg type
+curr end point SimpleName VariableDeclarationFragment MethodInvocation SimpleName get segment terminating point
+curr end point SimpleName VariableDeclarationFragment MethodInvocation SimpleName curr
+curr end point SimpleName VariableDeclarationFragment MethodInvocation SimpleName curr seg type
+point d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName curr end point
+dx SimpleName VariableDeclarationFragment NumberLiteral empty
+dy SimpleName VariableDeclarationFragment NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dx
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dy
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+dx SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName dy
+dx SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName dy
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+next SimpleName ArrayAccess NumberLiteral empty
+curr end point SimpleName MethodInvocation SimpleName get x
+next SimpleName ArrayAccess InfixExpression MethodInvocation SimpleName curr end point
+next SimpleName ArrayAccess InfixExpression MethodInvocation SimpleName get x
+empty NumberLiteral ArrayAccess InfixExpression MethodInvocation SimpleName curr end point
+empty NumberLiteral ArrayAccess InfixExpression MethodInvocation SimpleName get x
+dx SimpleName Assignment InfixExpression ArrayAccess SimpleName next
+dx SimpleName Assignment InfixExpression ArrayAccess NumberLiteral empty
+dx SimpleName Assignment InfixExpression MethodInvocation SimpleName curr end point
+dx SimpleName Assignment InfixExpression MethodInvocation SimpleName get x
+next SimpleName ArrayAccess NumberLiteral empty
+curr end point SimpleName MethodInvocation SimpleName get y
+next SimpleName ArrayAccess InfixExpression MethodInvocation SimpleName curr end point
+next SimpleName ArrayAccess InfixExpression MethodInvocation SimpleName get y
+empty NumberLiteral ArrayAccess InfixExpression MethodInvocation SimpleName curr end point
+empty NumberLiteral ArrayAccess InfixExpression MethodInvocation SimpleName get y
+dy SimpleName Assignment InfixExpression ArrayAccess SimpleName next
+dy SimpleName Assignment InfixExpression ArrayAccess NumberLiteral empty
+dy SimpleName Assignment InfixExpression MethodInvocation SimpleName curr end point
+dy SimpleName Assignment InfixExpression MethodInvocation SimpleName get y
+next SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess InfixExpression NumberLiteral .
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral .
+large SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression NumberLiteral .
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName large
+next SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess InfixExpression NumberLiteral .
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral .
+go left SimpleName VariableDeclarationFragment ParenthesizedExpression InfixExpression NumberLiteral .
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName go left
+curr end point SimpleName MethodInvocation SimpleName get x
+curr end point SimpleName MethodInvocation SimpleName get y
+next SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess NumberLiteral empty
+extended general path SimpleName MethodInvocation SimpleName compute arc
+extended general path SimpleName MethodInvocation MethodInvocation SimpleName curr end point
+extended general path SimpleName MethodInvocation MethodInvocation SimpleName get x
+extended general path SimpleName MethodInvocation MethodInvocation SimpleName curr end point
+extended general path SimpleName MethodInvocation MethodInvocation SimpleName get y
+extended general path SimpleName MethodInvocation ArrayAccess SimpleName next
+extended general path SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+extended general path SimpleName MethodInvocation ArrayAccess SimpleName next
+extended general path SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+compute arc SimpleName MethodInvocation MethodInvocation SimpleName curr end point
+compute arc SimpleName MethodInvocation MethodInvocation SimpleName get x
+compute arc SimpleName MethodInvocation MethodInvocation SimpleName curr end point
+compute arc SimpleName MethodInvocation MethodInvocation SimpleName get y
+compute arc SimpleName MethodInvocation ArrayAccess SimpleName next
+compute arc SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+compute arc SimpleName MethodInvocation ArrayAccess SimpleName next
+compute arc SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+compute arc SimpleName MethodInvocation ArrayAccess SimpleName next
+compute arc SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+curr end point SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName curr end point
+curr end point SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName curr end point
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get y
+curr end point SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName next
+curr end point SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+get x SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName next
+get x SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+curr end point SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName next
+curr end point SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+get x SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName next
+get x SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+curr end point SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName next
+curr end point SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+get x SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName next
+get x SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+curr end point SimpleName MethodInvocation MethodInvocation SimpleName large
+get x SimpleName MethodInvocation MethodInvocation SimpleName large
+curr end point SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName next
+curr end point SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+get y SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName next
+get y SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+curr end point SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName next
+curr end point SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+get y SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName next
+get y SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+curr end point SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName next
+curr end point SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+get y SimpleName MethodInvocation MethodInvocation ArrayAccess SimpleName next
+get y SimpleName MethodInvocation MethodInvocation ArrayAccess NumberLiteral empty
+curr end point SimpleName MethodInvocation MethodInvocation SimpleName large
+get y SimpleName MethodInvocation MethodInvocation SimpleName large
+curr end point SimpleName MethodInvocation MethodInvocation SimpleName go left
+get y SimpleName MethodInvocation MethodInvocation SimpleName go left
+next SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName next
+next SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName next
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName next
+next SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName next
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess MethodInvocation SimpleName large
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName large
+next SimpleName ArrayAccess MethodInvocation SimpleName go left
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName go left
+next SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName next
+next SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName next
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName next
+next SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName next
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess MethodInvocation SimpleName large
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName large
+next SimpleName ArrayAccess MethodInvocation SimpleName go left
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName go left
+next SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName next
+next SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName next
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName next
+next SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName next
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess MethodInvocation SimpleName large
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName large
+next SimpleName ArrayAccess MethodInvocation SimpleName go left
+empty NumberLiteral ArrayAccess MethodInvocation SimpleName go left
+next SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName next
+next SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName next
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName next
+next SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName next
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+large SimpleName MethodInvocation SimpleName go left
+large SimpleName MethodInvocation ArrayAccess SimpleName next
+large SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+large SimpleName MethodInvocation ArrayAccess SimpleName next
+large SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+go left SimpleName MethodInvocation ArrayAccess SimpleName next
+go left SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+go left SimpleName MethodInvocation ArrayAccess SimpleName next
+go left SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName next
+next SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess SimpleName next
+empty NumberLiteral ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+arc SimpleName VariableDeclarationFragment MethodInvocation SimpleName extended general path
+arc SimpleName VariableDeclarationFragment MethodInvocation SimpleName compute arc
+arc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName curr end point
+arc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get x
+arc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName curr end point
+arc SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get y
+arc SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName next
+arc SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+arc SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName next
+arc SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+arc SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName next
+arc SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+arc SimpleName VariableDeclarationFragment MethodInvocation SimpleName large
+arc SimpleName VariableDeclarationFragment MethodInvocation SimpleName go left
+arc SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName next
+arc SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+arc SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess SimpleName next
+arc SimpleName VariableDeclarationFragment MethodInvocation ArrayAccess NumberLiteral empty
+arc d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName arc
+arc SimpleName MethodInvocation SimpleName get angle start
+theta SimpleName VariableDeclarationFragment MethodInvocation SimpleName arc
+theta SimpleName VariableDeclarationFragment MethodInvocation SimpleName get angle start
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName theta
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName arc
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get angle start
+math SimpleName MethodInvocation SimpleName to radians
+math SimpleName MethodInvocation SimpleName theta
+to radians SimpleName MethodInvocation SimpleName theta
+theta SimpleName Assignment MethodInvocation SimpleName math
+theta SimpleName Assignment MethodInvocation SimpleName to radians
+theta SimpleName Assignment MethodInvocation SimpleName theta
+arc SimpleName MethodInvocation SimpleName get width
+arc SimpleName MethodInvocation PrefixExpression InfixExpression NumberLiteral .
+get width SimpleName MethodInvocation PrefixExpression InfixExpression NumberLiteral .
+math SimpleName MethodInvocation SimpleName sin
+math SimpleName MethodInvocation SimpleName theta
+sin SimpleName MethodInvocation SimpleName theta
+. NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName math
+. NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName sin
+. NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName theta
+dx SimpleName Assignment InfixExpression InfixExpression NumberLiteral .
+dx SimpleName Assignment InfixExpression MethodInvocation SimpleName math
+dx SimpleName Assignment InfixExpression MethodInvocation SimpleName sin
+dx SimpleName Assignment InfixExpression MethodInvocation SimpleName theta
+arc SimpleName MethodInvocation SimpleName get height
+arc SimpleName MethodInvocation InfixExpression NumberLiteral .
+get height SimpleName MethodInvocation InfixExpression NumberLiteral .
+math SimpleName MethodInvocation SimpleName cos
+math SimpleName MethodInvocation SimpleName theta
+cos SimpleName MethodInvocation SimpleName theta
+. NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName math
+. NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName cos
+. NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName theta
+dy SimpleName Assignment InfixExpression InfixExpression NumberLiteral .
+dy SimpleName Assignment InfixExpression MethodInvocation SimpleName math
+dy SimpleName Assignment InfixExpression MethodInvocation SimpleName cos
+dy SimpleName Assignment InfixExpression MethodInvocation SimpleName theta
+next SimpleName ArrayAccess NumberLiteral empty
+next SimpleName ArrayAccess InfixExpression NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression NumberLiteral empty
+next SimpleName ArrayAccess NumberLiteral empty
+math SimpleName MethodInvocation SimpleName to radians
+math SimpleName MethodInvocation PrefixExpression ArrayAccess SimpleName next
+math SimpleName MethodInvocation PrefixExpression ArrayAccess NumberLiteral empty
+to radians SimpleName MethodInvocation PrefixExpression ArrayAccess SimpleName next
+to radians SimpleName MethodInvocation PrefixExpression ArrayAccess NumberLiteral empty
+ang SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+ang SimpleName VariableDeclarationFragment MethodInvocation SimpleName to radians
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ang
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName to radians
+math SimpleName MethodInvocation SimpleName sin
+math SimpleName MethodInvocation SimpleName ang
+sin SimpleName MethodInvocation SimpleName ang
+sin a SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+sin a SimpleName VariableDeclarationFragment MethodInvocation SimpleName sin
+sin a SimpleName VariableDeclarationFragment MethodInvocation SimpleName ang
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sin a
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName sin
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ang
+math SimpleName MethodInvocation SimpleName cos
+math SimpleName MethodInvocation SimpleName ang
+cos SimpleName MethodInvocation SimpleName ang
+cos a SimpleName VariableDeclarationFragment MethodInvocation SimpleName math
+cos a SimpleName VariableDeclarationFragment MethodInvocation SimpleName cos
+cos a SimpleName VariableDeclarationFragment MethodInvocation SimpleName ang
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cos a
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName math
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName cos
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ang
+dx SimpleName InfixExpression SimpleName cos a
+dy SimpleName InfixExpression SimpleName sin a
+dx SimpleName InfixExpression InfixExpression InfixExpression SimpleName dy
+dx SimpleName InfixExpression InfixExpression InfixExpression SimpleName sin a
+cos a SimpleName InfixExpression InfixExpression InfixExpression SimpleName dy
+cos a SimpleName InfixExpression InfixExpression InfixExpression SimpleName sin a
+tdx SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName dx
+tdx SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName cos a
+tdx SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName dy
+tdx SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName sin a
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tdx
+dx SimpleName InfixExpression SimpleName sin a
+dy SimpleName InfixExpression SimpleName cos a
+dx SimpleName InfixExpression InfixExpression InfixExpression SimpleName dy
+dx SimpleName InfixExpression InfixExpression InfixExpression SimpleName cos a
+sin a SimpleName InfixExpression InfixExpression InfixExpression SimpleName dy
+sin a SimpleName InfixExpression InfixExpression InfixExpression SimpleName cos a
+tdy SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName dx
+tdy SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName sin a
+tdy SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName dy
+tdy SimpleName VariableDeclarationFragment InfixExpression InfixExpression SimpleName cos a
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tdy
+dx SimpleName Assignment SimpleName tdx
+dy SimpleName Assignment SimpleName tdy
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+dx SimpleName Assignment PrefixExpression SimpleName dx
+dy SimpleName Assignment PrefixExpression SimpleName dy
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType boolean
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+boolean PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+double PrimitiveType VariableDeclarationStatement Block IfStatement SimpleName go left
+next seg type SimpleName SwitchStatement SwitchCase QualifiedName path iteratorseg close
+next seg type SimpleName SwitchStatement SwitchCase QualifiedName path iteratorseg cubicto
+next seg type SimpleName SwitchStatement SwitchCase QualifiedName path iteratorseg lineto
+next seg type SimpleName SwitchStatement SwitchCase QualifiedName path iteratorseg quadto
+path iteratorseg close QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg cubicto
+path iteratorseg close QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg lineto
+path iteratorseg close QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg quadto
+path iteratorseg cubicto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg lineto
+path iteratorseg cubicto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg quadto
+path iteratorseg lineto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg quadto
+path iteratorseg lineto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName extended path iteratorseg arcto
+path iteratorseg quadto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName extended path iteratorseg arcto
+extended path iteratorseg arcto QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName path iteratorseg moveto
+dx SimpleName InfixExpression NumberLiteral empty
+dy SimpleName InfixExpression NumberLiteral empty
+dx SimpleName InfixExpression InfixExpression InfixExpression SimpleName dy
+dx SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName dy
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+dx SimpleName ArrayInitializer SimpleName dy
+double PrimitiveType ArrayType ArrayCreation ArrayInitializer SimpleName dx
+double PrimitiveType ArrayType ArrayCreation ArrayInitializer SimpleName dy
+normalize SimpleName MethodInvocation ArrayCreation ArrayType PrimitiveType double
+normalize SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName dx
+normalize SimpleName MethodInvocation ArrayCreation ArrayInitializer SimpleName dy
+double PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName next seg type
+private Modifier MethodDeclaration ArrayType PrimitiveType double
+private Modifier MethodDeclaration SimpleName compute out slope
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName curr
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName next
+double PrimitiveType ArrayType MethodDeclaration SimpleName compute out slope
+double PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName curr
+double PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+double PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+double PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName next
+double PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+double PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+compute out slope SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+compute out slope SimpleName MethodDeclaration SingleVariableDeclaration SimpleName curr
+compute out slope SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+compute out slope SimpleName MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+compute out slope SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType double
+compute out slope SimpleName MethodDeclaration SingleVariableDeclaration SimpleName next
+compute out slope SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+compute out slope SimpleName MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+compute out slope SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+compute out slope SimpleName MethodDeclaration Block SwitchStatement SimpleName next seg type
+curr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+curr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+curr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+curr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+curr SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+curr seg type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+curr seg type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+curr seg type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+next SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+next SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType double
+public Modifier TypeDeclaration MethodDeclaration SimpleName compute out slope
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType double
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compute out slope
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName curr seg type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName next seg type

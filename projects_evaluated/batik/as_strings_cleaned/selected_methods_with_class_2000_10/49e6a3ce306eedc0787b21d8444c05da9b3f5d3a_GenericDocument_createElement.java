@@ -1,0 +1,27 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName tag name
+tag name SimpleName MethodInvocation SimpleName intern
+generic element SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName tag name
+generic element SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName intern
+public Modifier MethodDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SimpleName create element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName tag name
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+element SimpleName SimpleType MethodDeclaration SimpleName create element
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName tag name
+element SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+create element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName tag name
+create element SimpleName MethodDeclaration SimpleType SimpleName dom exception
+tag name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName create element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tag name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName tag name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

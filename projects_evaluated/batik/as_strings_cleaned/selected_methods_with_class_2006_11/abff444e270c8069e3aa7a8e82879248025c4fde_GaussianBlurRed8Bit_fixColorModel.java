@@ -1,0 +1,173 @@
+cachable red SimpleName SimpleType SingleVariableDeclaration SimpleName src
+src SimpleName MethodInvocation SimpleName get color model
+cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName src
+cm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get color model
+color model SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cm
+src SimpleName MethodInvocation SimpleName get sample model
+src SimpleName MethodInvocation MethodInvocation SimpleName get num bands
+get sample model SimpleName MethodInvocation MethodInvocation SimpleName get num bands
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName src
+b SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get sample model
+b SimpleName VariableDeclarationFragment MethodInvocation SimpleName get num bands
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName b
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get num bands
+int PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+masks SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType int
+masks SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+int PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName masks
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess Assignment NumberLiteral x ff
+empty NumberLiteral ArrayAccess Assignment NumberLiteral x ff
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess Assignment NumberLiteral x ff
+empty NumberLiteral ArrayAccess Assignment NumberLiteral x ff
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess Assignment NumberLiteral x ff
+empty NumberLiteral ArrayAccess Assignment NumberLiteral x ff
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess Assignment NumberLiteral x ff
+empty NumberLiteral ArrayAccess Assignment NumberLiteral x ff
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess Assignment NumberLiteral x ff
+empty NumberLiteral ArrayAccess Assignment NumberLiteral x ff
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess Assignment NumberLiteral x ff
+empty NumberLiteral ArrayAccess Assignment NumberLiteral x ff
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess Assignment NumberLiteral x ff
+empty NumberLiteral ArrayAccess Assignment NumberLiteral x ff
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess Assignment NumberLiteral x ff
+empty NumberLiteral ArrayAccess Assignment NumberLiteral x ff
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess Assignment NumberLiteral x ff
+empty NumberLiteral ArrayAccess Assignment NumberLiteral x ff
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess Assignment NumberLiteral x ff
+empty NumberLiteral ArrayAccess Assignment NumberLiteral x ff
+illegal argument exception SimpleName SimpleType ClassInstanceCreation StringLiteral gaussian blur red bit only supports one to four band images
+b SimpleName SwitchStatement SwitchCase NumberLiteral empty
+b SimpleName SwitchStatement ExpressionStatement Assignment NumberLiteral x ff
+b SimpleName SwitchStatement SwitchCase NumberLiteral empty
+b SimpleName SwitchStatement ExpressionStatement Assignment NumberLiteral x ff
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+empty NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral empty
+cm SimpleName MethodInvocation SimpleName get color space
+cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName cm
+cs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get color space
+color space SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cs
+empty NumberLiteral InfixExpression SimpleName b
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess NumberLiteral empty
+direct color model SimpleName SimpleType ClassInstanceCreation SimpleName cs
+direct color model SimpleName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+direct color model SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName b
+direct color model SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName masks
+direct color model SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+direct color model SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName masks
+direct color model SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+direct color model SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName masks
+direct color model SimpleName SimpleType ClassInstanceCreation ArrayAccess NumberLiteral empty
+cs SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+cs SimpleName ClassInstanceCreation InfixExpression SimpleName b
+cs SimpleName ClassInstanceCreation ArrayAccess SimpleName masks
+cs SimpleName ClassInstanceCreation ArrayAccess NumberLiteral empty
+cs SimpleName ClassInstanceCreation ArrayAccess SimpleName masks
+cs SimpleName ClassInstanceCreation ArrayAccess NumberLiteral empty
+cs SimpleName ClassInstanceCreation ArrayAccess SimpleName masks
+cs SimpleName ClassInstanceCreation ArrayAccess NumberLiteral empty
+cs SimpleName ClassInstanceCreation ArrayAccess SimpleName masks
+cs SimpleName ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral InfixExpression ClassInstanceCreation ArrayAccess SimpleName masks
+empty NumberLiteral InfixExpression ClassInstanceCreation ArrayAccess NumberLiteral empty
+b SimpleName InfixExpression ClassInstanceCreation ArrayAccess SimpleName masks
+b SimpleName InfixExpression ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral InfixExpression ClassInstanceCreation ArrayAccess SimpleName masks
+empty NumberLiteral InfixExpression ClassInstanceCreation ArrayAccess NumberLiteral empty
+b SimpleName InfixExpression ClassInstanceCreation ArrayAccess SimpleName masks
+b SimpleName InfixExpression ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral InfixExpression ClassInstanceCreation ArrayAccess SimpleName masks
+empty NumberLiteral InfixExpression ClassInstanceCreation ArrayAccess NumberLiteral empty
+b SimpleName InfixExpression ClassInstanceCreation ArrayAccess SimpleName masks
+b SimpleName InfixExpression ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral InfixExpression ClassInstanceCreation ArrayAccess SimpleName masks
+empty NumberLiteral InfixExpression ClassInstanceCreation ArrayAccess NumberLiteral empty
+b SimpleName InfixExpression ClassInstanceCreation ArrayAccess SimpleName masks
+b SimpleName InfixExpression ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral InfixExpression ClassInstanceCreation BooleanLiteral true
+b SimpleName InfixExpression ClassInstanceCreation BooleanLiteral true
+masks SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName masks
+masks SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName masks
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName masks
+masks SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName masks
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName masks
+masks SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName masks
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess ClassInstanceCreation BooleanLiteral true
+empty NumberLiteral ArrayAccess ClassInstanceCreation BooleanLiteral true
+masks SimpleName ArrayAccess ClassInstanceCreation QualifiedName data buffertype int
+empty NumberLiteral ArrayAccess ClassInstanceCreation QualifiedName data buffertype int
+masks SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName masks
+masks SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName masks
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName masks
+masks SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName masks
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess ClassInstanceCreation BooleanLiteral true
+empty NumberLiteral ArrayAccess ClassInstanceCreation BooleanLiteral true
+masks SimpleName ArrayAccess ClassInstanceCreation QualifiedName data buffertype int
+empty NumberLiteral ArrayAccess ClassInstanceCreation QualifiedName data buffertype int
+masks SimpleName ArrayAccess ClassInstanceCreation ArrayAccess SimpleName masks
+masks SimpleName ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess SimpleName masks
+empty NumberLiteral ArrayAccess ClassInstanceCreation ArrayAccess NumberLiteral empty
+masks SimpleName ArrayAccess ClassInstanceCreation BooleanLiteral true
+empty NumberLiteral ArrayAccess ClassInstanceCreation BooleanLiteral true
+masks SimpleName ArrayAccess ClassInstanceCreation QualifiedName data buffertype int
+empty NumberLiteral ArrayAccess ClassInstanceCreation QualifiedName data buffertype int
+masks SimpleName ArrayAccess ClassInstanceCreation BooleanLiteral true
+empty NumberLiteral ArrayAccess ClassInstanceCreation BooleanLiteral true
+masks SimpleName ArrayAccess ClassInstanceCreation QualifiedName data buffertype int
+empty NumberLiteral ArrayAccess ClassInstanceCreation QualifiedName data buffertype int
+true BooleanLiteral ClassInstanceCreation QualifiedName data buffertype int
+int PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName b
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName color model
+protected Modifier MethodDeclaration SimpleName fix color model
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cachable red
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName b
+static Modifier MethodDeclaration SimpleType SimpleName color model
+static Modifier MethodDeclaration SimpleName fix color model
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cachable red
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block SwitchStatement SimpleName b
+color model SimpleName SimpleType MethodDeclaration SimpleName fix color model
+color model SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName src
+fix color model SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName cachable red
+fix color model SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+fix color model SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+fix color model SimpleName MethodDeclaration Block SwitchStatement SimpleName b
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName color model
+public Modifier TypeDeclaration MethodDeclaration SimpleName fix color model
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName color model
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fix color model
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src

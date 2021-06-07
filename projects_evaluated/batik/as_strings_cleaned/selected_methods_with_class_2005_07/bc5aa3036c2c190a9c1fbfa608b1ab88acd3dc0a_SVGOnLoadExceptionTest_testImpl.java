@@ -1,0 +1,102 @@
+xml resource descriptor SimpleName MethodInvocation SimpleName get xml parser class name
+parser class name SimpleName VariableDeclarationFragment MethodInvocation SimpleName xml resource descriptor
+parser class name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get xml parser class name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parser class name
+saxsvg document factory SimpleName SimpleType ClassInstanceCreation SimpleName parser class name
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName saxsvg document factory
+f SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName parser class name
+saxsvg document factory SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+validate SimpleName MethodInvocation SimpleName boolean value
+f SimpleName MethodInvocation SimpleName set validating
+f SimpleName MethodInvocation MethodInvocation SimpleName validate
+f SimpleName MethodInvocation MethodInvocation SimpleName boolean value
+set validating SimpleName MethodInvocation MethodInvocation SimpleName validate
+set validating SimpleName MethodInvocation MethodInvocation SimpleName boolean value
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+f SimpleName MethodInvocation SimpleName create document
+f SimpleName MethodInvocation SimpleName svg url
+create document SimpleName MethodInvocation SimpleName svg url
+doc SimpleName Assignment MethodInvocation SimpleName f
+doc SimpleName Assignment MethodInvocation SimpleName create document
+doc SimpleName Assignment MethodInvocation SimpleName svg url
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName print stack trace
+handle exception SimpleName MethodInvocation SimpleName e
+user agent SimpleName VariableDeclarationFragment MethodInvocation SimpleName build user agent
+test user agent SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName user agent
+builder SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName gvt builder
+gvt builder SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName builder
+bridge context SimpleName SimpleType ClassInstanceCreation SimpleName user agent
+ctx SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName bridge context
+ctx SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName user agent
+bridge context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName set dynamic
+ctx SimpleName MethodInvocation BooleanLiteral true
+set dynamic SimpleName MethodInvocation BooleanLiteral true
+exception SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+builder SimpleName MethodInvocation SimpleName build
+builder SimpleName MethodInvocation SimpleName ctx
+builder SimpleName MethodInvocation SimpleName doc
+build SimpleName MethodInvocation SimpleName ctx
+build SimpleName MethodInvocation SimpleName doc
+ctx SimpleName MethodInvocation SimpleName doc
+base scripting environment SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+script environment SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName base scripting environment
+script environment SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName ctx
+base scripting environment SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName script environment
+script environment SimpleName MethodInvocation SimpleName load scripts
+script environment SimpleName MethodInvocation SimpleName dispatch svg load event
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+e SimpleName Assignment SimpleName ex
+e SimpleName InfixExpression InfixExpression InfixExpression QualifiedName user agente
+e SimpleName Assignment QualifiedName user agente
+handle exception SimpleName MethodInvocation SimpleName e
+test report SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName report
+doc SimpleName MethodInvocation SimpleName get element by id
+doc SimpleName MethodInvocation StringLiteral test result
+get element by id SimpleName MethodInvocation StringLiteral test result
+elem SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc
+elem SimpleName VariableDeclarationFragment MethodInvocation SimpleName get element by id
+elem SimpleName VariableDeclarationFragment MethodInvocation StringLiteral test result
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elem
+elem SimpleName MethodInvocation SimpleName get attribute ns
+elem SimpleName MethodInvocation StringLiteral result
+get attribute ns SimpleName MethodInvocation StringLiteral result
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName elem
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+s SimpleName VariableDeclarationFragment MethodInvocation StringLiteral result
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+ran SimpleName MethodInvocation SimpleName equals
+ran SimpleName MethodInvocation SimpleName s
+equals SimpleName MethodInvocation SimpleName s
+report SimpleName Assignment MethodInvocation SimpleName report success
+report error SimpleName MethodInvocation SimpleName error script did not run
+report SimpleName Assignment MethodInvocation SimpleName report error
+report SimpleName Assignment MethodInvocation SimpleName error script did not run
+report SimpleName MethodInvocation SimpleName add description entry
+report SimpleName MethodInvocation SimpleName entry key unexpected result
+report SimpleName MethodInvocation SimpleName s
+add description entry SimpleName MethodInvocation SimpleName entry key unexpected result
+add description entry SimpleName MethodInvocation SimpleName s
+entry key unexpected result SimpleName MethodInvocation SimpleName s
+report error SimpleName MethodInvocation SimpleName error exception did not occur
+report SimpleName Assignment MethodInvocation SimpleName report error
+report SimpleName Assignment MethodInvocation SimpleName error exception did not occur
+report SimpleName MethodInvocation SimpleName add description entry
+report SimpleName MethodInvocation SimpleName entry key expected exception
+report SimpleName MethodInvocation SimpleName expected exception class
+add description entry SimpleName MethodInvocation SimpleName entry key expected exception
+add description entry SimpleName MethodInvocation SimpleName expected exception class
+entry key expected exception SimpleName MethodInvocation SimpleName expected exception class
+protected Modifier MethodDeclaration SimpleType SimpleName test report
+protected Modifier MethodDeclaration SimpleName test impl
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName report
+test report SimpleName SimpleType MethodDeclaration SimpleName test impl
+test impl SimpleName MethodDeclaration Block ReturnStatement SimpleName report
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName test report
+public Modifier TypeDeclaration MethodDeclaration SimpleName test impl
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName test report
+test SimpleName TypeDeclaration MethodDeclaration SimpleName test impl

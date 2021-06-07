@@ -1,0 +1,22 @@
+xml reader SimpleName SimpleType SingleVariableDeclaration SimpleName xml reader
+null pointer exception SimpleName SimpleType ClassInstanceCreation StringLiteral xml reader must not be null
+xml reader SimpleName FieldAccess Assignment SimpleName xml reader
+q atts SimpleName Assignment ClassInstanceCreation SimpleType SimpleName attributes adapter
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName setup
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xml reader
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName xml reader
+void PrimitiveType MethodDeclaration SimpleName setup
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xml reader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName xml reader
+setup SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName xml reader
+setup SimpleName MethodDeclaration SingleVariableDeclaration SimpleName xml reader
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName setup
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xml reader
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName setup
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName xml reader

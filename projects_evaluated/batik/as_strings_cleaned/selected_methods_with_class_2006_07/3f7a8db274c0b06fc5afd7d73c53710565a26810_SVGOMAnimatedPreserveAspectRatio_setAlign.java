@@ -1,0 +1,27 @@
+short PrimitiveType SingleVariableDeclaration SimpleName align
+element SimpleName MethodInvocation SimpleName create dom exception
+element SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+element SimpleName MethodInvocation StringLiteral readonlypreserveaspectratio
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlypreserveaspectratio
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlypreserveaspectratio
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set align
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName align
+void PrimitiveType MethodDeclaration SimpleName set align
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName align
+set align SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+set align SimpleName MethodDeclaration SingleVariableDeclaration SimpleName align
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set align
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName align
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set align
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName align

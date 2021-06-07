@@ -1,0 +1,13 @@
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName is readonly
+public Modifier MethodDeclaration Block ReturnStatement SimpleName readonly
+boolean PrimitiveType MethodDeclaration SimpleName is readonly
+boolean PrimitiveType MethodDeclaration Block ReturnStatement SimpleName readonly
+is readonly SimpleName MethodDeclaration Block ReturnStatement SimpleName readonly
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is readonly
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is readonly

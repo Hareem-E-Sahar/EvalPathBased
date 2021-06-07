@@ -1,0 +1,13 @@
+graphics node change event SimpleName SimpleType SingleVariableDeclaration SimpleName gnce
+void PrimitiveType MethodDeclaration SimpleName change started
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node change event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName gnce
+change started SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node change event
+change started SimpleName MethodDeclaration SingleVariableDeclaration SimpleName gnce
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName change started
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gnce
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName change started
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName gnce

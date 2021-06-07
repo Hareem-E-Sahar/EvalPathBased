@@ -1,0 +1,36 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName data
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+val SimpleName VariableDeclarationFragment FieldAccess SimpleName data
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+data SimpleName FieldAccess Assignment SimpleName data
+fire dom character data modified event SimpleName MethodInvocation SimpleName val
+fire dom character data modified event SimpleName MethodInvocation FieldAccess SimpleName data
+val SimpleName MethodInvocation FieldAccess SimpleName data
+abstract parent node SimpleName SimpleType CastExpression MethodInvocation SimpleName get parent node
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set data
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+set data SimpleName MethodDeclaration SimpleType SimpleName dom exception
+data SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

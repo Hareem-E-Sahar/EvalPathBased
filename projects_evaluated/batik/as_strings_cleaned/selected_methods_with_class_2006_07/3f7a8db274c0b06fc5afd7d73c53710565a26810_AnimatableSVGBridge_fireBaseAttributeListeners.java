@@ -1,0 +1,57 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pn
+target listeners SimpleName MethodInvocation SimpleName get
+target listeners SimpleName MethodInvocation SimpleName pn
+get SimpleName MethodInvocation SimpleName pn
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName target listeners
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+linked list SimpleName SimpleType CastExpression MethodInvocation SimpleName pn
+ll SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName linked list
+ll SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName target listeners
+ll SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+ll SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName pn
+linked list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ll
+ll SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName ll
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+animation target listener SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+animation target listener SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+l SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName animation target listener
+l SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName it
+l SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+animation target listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName l
+animation target SimpleName SimpleType CastExpression SimpleName e
+l SimpleName MethodInvocation SimpleName base value changed
+l SimpleName MethodInvocation CastExpression SimpleType SimpleName animation target
+l SimpleName MethodInvocation CastExpression SimpleName e
+l SimpleName MethodInvocation SimpleName pn
+l SimpleName MethodInvocation BooleanLiteral true
+base value changed SimpleName MethodInvocation CastExpression SimpleType SimpleName animation target
+base value changed SimpleName MethodInvocation CastExpression SimpleName e
+base value changed SimpleName MethodInvocation SimpleName pn
+base value changed SimpleName MethodInvocation BooleanLiteral true
+animation target SimpleName SimpleType CastExpression MethodInvocation SimpleName pn
+e SimpleName CastExpression MethodInvocation SimpleName pn
+animation target SimpleName SimpleType CastExpression MethodInvocation BooleanLiteral true
+e SimpleName CastExpression MethodInvocation BooleanLiteral true
+pn SimpleName MethodInvocation BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName fire base attribute listeners
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName pn
+void PrimitiveType MethodDeclaration SimpleName fire base attribute listeners
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pn
+fire base attribute listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+fire base attribute listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName fire base attribute listeners
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName fire base attribute listeners
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pn

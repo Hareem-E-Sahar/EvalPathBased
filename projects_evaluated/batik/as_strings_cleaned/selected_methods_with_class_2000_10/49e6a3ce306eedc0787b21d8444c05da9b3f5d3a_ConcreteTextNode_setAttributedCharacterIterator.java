@@ -1,0 +1,28 @@
+attributed character iterator SimpleName SimpleType SingleVariableDeclaration SimpleName new aci
+old aci SimpleName VariableDeclarationFragment FieldAccess SimpleName aci
+attributed character iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName old aci
+aci SimpleName FieldAccess Assignment SimpleName new aci
+fire property change SimpleName MethodInvocation StringLiteral attributed character iterator
+fire property change SimpleName MethodInvocation SimpleName old aci
+fire property change SimpleName MethodInvocation SimpleName new aci
+attributed character iterator StringLiteral MethodInvocation SimpleName old aci
+attributed character iterator StringLiteral MethodInvocation SimpleName new aci
+old aci SimpleName MethodInvocation SimpleName new aci
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set attributed character iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new aci
+void PrimitiveType MethodDeclaration SimpleName set attributed character iterator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new aci
+set attributed character iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed character iterator
+set attributed character iterator SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new aci
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attributed character iterator
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new aci
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attributed character iterator
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new aci

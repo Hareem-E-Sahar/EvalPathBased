@@ -1,0 +1,34 @@
+svgom path element SimpleName SimpleType SingleVariableDeclaration SimpleName path
+path SimpleName MethodInvocation SimpleName get svg context
+svg path context SimpleName SimpleType CastExpression MethodInvocation SimpleName path
+svg path context SimpleName SimpleType CastExpression MethodInvocation SimpleName get svg context
+path ctx SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg path context
+path ctx SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName path
+path ctx SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get svg context
+svg path context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName path ctx
+path ctx SimpleName MethodInvocation SimpleName get total length
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get total length
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svgom path element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+static Modifier MethodDeclaration PrimitiveType float
+static Modifier MethodDeclaration SimpleName get total length
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svgom path element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName path
+float PrimitiveType MethodDeclaration SimpleName get total length
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svgom path element
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName path
+get total length SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svgom path element
+get total length SimpleName MethodDeclaration SingleVariableDeclaration SimpleName path
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get total length
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get total length
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName path

@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+svgom use element SimpleName SimpleType ClassInstanceCreation SimpleName prefix
+svgom use element SimpleName SimpleType ClassInstanceCreation ThisExpression SimpleName svgom document
+prefix SimpleName ClassInstanceCreation ThisExpression SimpleName svgom document
+public Modifier MethodDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SimpleName create
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+element SimpleName SimpleType MethodDeclaration SimpleName create
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName prefix
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName create
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix

@@ -1,0 +1,76 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName MethodInvocation SimpleName get first child
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+result SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+nodes SimpleName MethodInvocation SimpleName c
+result SimpleName Assignment MethodInvocation SimpleName nodes
+result SimpleName Assignment MethodInvocation SimpleName c
+c SimpleName MethodInvocation SimpleName get next sibling
+c SimpleName Assignment MethodInvocation SimpleName c
+c SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName get attributes
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attributes
+named node map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName map
+map SimpleName MethodInvocation SimpleName get length
+map SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName map
+i SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get length
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment InfixExpression NumberLiteral empty
+i SimpleName InfixExpression NumberLiteral empty
+map SimpleName MethodInvocation SimpleName item
+map SimpleName MethodInvocation SimpleName i
+item SimpleName MethodInvocation SimpleName i
+nodes SimpleName MethodInvocation MethodInvocation SimpleName map
+nodes SimpleName MethodInvocation MethodInvocation SimpleName item
+nodes SimpleName MethodInvocation MethodInvocation SimpleName i
+result SimpleName Assignment MethodInvocation SimpleName nodes
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName map
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName item
+result SimpleName Assignment MethodInvocation MethodInvocation SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName result
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName nodes
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName result
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName nodes
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName result
+int PrimitiveType MethodDeclaration SimpleName nodes
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName result
+nodes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+nodes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+nodes SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+nodes SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName nodes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName nodes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

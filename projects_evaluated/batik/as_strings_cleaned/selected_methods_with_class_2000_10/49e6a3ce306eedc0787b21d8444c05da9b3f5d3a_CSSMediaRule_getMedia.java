@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName media list
+public Modifier MethodDeclaration SimpleName get media
+media list SimpleName SimpleType MethodDeclaration SimpleName get media
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName media list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get media
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName media list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get media

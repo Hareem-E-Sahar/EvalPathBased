@@ -1,0 +1,16 @@
+int PrimitiveType SingleVariableDeclaration SimpleName i
+i SimpleName FieldAccess Assignment SimpleName i
+void PrimitiveType MethodDeclaration SimpleName set integer value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName i
+set integer value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set integer value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName i
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set integer value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set integer value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName i

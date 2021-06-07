@@ -1,0 +1,26 @@
+debugger methods SimpleName ArrayAccess SimpleName get debug frame method
+debugger methods SimpleName ArrayAccess MethodInvocation SimpleName invoke
+get debug frame method SimpleName ArrayAccess MethodInvocation SimpleName invoke
+debugger methods SimpleName ArrayAccess MethodInvocation SimpleName debugger instance
+get debug frame method SimpleName ArrayAccess MethodInvocation SimpleName debugger instance
+invoke SimpleName MethodInvocation SimpleName debugger instance
+j frame SimpleName SimpleType CastExpression MethodInvocation SimpleName invoke
+j frame SimpleName SimpleType CastExpression MethodInvocation SimpleName debugger instance
+invocation target exception SimpleName SimpleType SingleVariableDeclaration SimpleName ite
+ite SimpleName MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName ite
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+illegal access exception SimpleName SimpleType SingleVariableDeclaration SimpleName iae
+iae SimpleName MethodInvocation SimpleName get message
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName iae
+runtime exception SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get message
+protected Modifier MethodDeclaration SimpleType SimpleName j frame
+protected Modifier MethodDeclaration SimpleName get debug frame
+j frame SimpleName SimpleType MethodDeclaration SimpleName get debug frame
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName j frame
+public Modifier TypeDeclaration MethodDeclaration SimpleName get debug frame
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName j frame
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get debug frame

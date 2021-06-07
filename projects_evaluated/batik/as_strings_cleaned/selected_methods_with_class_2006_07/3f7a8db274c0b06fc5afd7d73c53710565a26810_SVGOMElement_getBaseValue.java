@@ -1,0 +1,58 @@
+svg animated rect SimpleName SimpleType SingleVariableDeclaration SimpleName a
+a SimpleName MethodInvocation SimpleName get base val
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName a
+r SimpleName VariableDeclarationFragment MethodInvocation SimpleName get base val
+svg rect SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+r SimpleName MethodInvocation SimpleName get x
+r SimpleName MethodInvocation SimpleName get y
+r SimpleName MethodInvocation SimpleName get width
+r SimpleName MethodInvocation SimpleName get height
+animatable rect value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName r
+animatable rect value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+animatable rect value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName r
+animatable rect value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get y
+animatable rect value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName r
+animatable rect value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get width
+animatable rect value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName r
+animatable rect value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get height
+r SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r
+r SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+r SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r
+r SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get width
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get width
+r SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r
+r SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+r SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r
+r SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get width
+get y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r
+get y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get width
+r SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r
+r SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r
+get y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+r SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r
+r SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName r
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+protected Modifier MethodDeclaration SimpleType SimpleName animatable value
+protected Modifier MethodDeclaration SimpleName get base value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated rect
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName a
+animatable value SimpleName SimpleType MethodDeclaration SimpleName get base value
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName a
+get base value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg animated rect
+get base value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName a
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get base value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get base value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName a

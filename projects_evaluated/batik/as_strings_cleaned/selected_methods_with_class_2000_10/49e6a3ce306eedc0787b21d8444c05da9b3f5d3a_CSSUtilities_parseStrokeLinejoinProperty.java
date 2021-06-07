@@ -1,0 +1,59 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral m
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral m
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral m
+s SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName linejoin miter
+char at SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName linejoin miter
+empty NumberLiteral MethodInvocation SwitchStatement ReturnStatement SimpleName linejoin miter
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+s SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName linejoin round
+char at SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName linejoin round
+empty NumberLiteral MethodInvocation SwitchStatement ReturnStatement SimpleName linejoin round
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+m CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName linejoin miter
+m CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral r
+m CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName linejoin round
+m CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral b
+m CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName linejoin bevel
+linejoin miter SimpleName ReturnStatement SwitchStatement SwitchCase CharacterLiteral r
+linejoin miter SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName linejoin round
+linejoin miter SimpleName ReturnStatement SwitchStatement SwitchCase CharacterLiteral b
+linejoin miter SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName linejoin bevel
+r CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName linejoin round
+r CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral b
+r CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName linejoin bevel
+linejoin round SimpleName ReturnStatement SwitchStatement SwitchCase CharacterLiteral b
+linejoin round SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName linejoin bevel
+b CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName linejoin bevel
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName parse stroke linejoin property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName parse stroke linejoin property
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+int PrimitiveType MethodDeclaration SimpleName parse stroke linejoin property
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+parse stroke linejoin property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse stroke linejoin property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse stroke linejoin property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse stroke linejoin property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s

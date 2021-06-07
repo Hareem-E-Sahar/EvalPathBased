@@ -1,0 +1,138 @@
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral r
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral r
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+r CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral a
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral a
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+a CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral n
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral n
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+n CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral s
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral s
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+s CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral l
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral l
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+l CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral a
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral a
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+a CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral t
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral t
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+t CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral e
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral e
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+e CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral (
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral (
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+( CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+tx SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName tx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse float
+fragment identifier handler SimpleName MethodInvocation SimpleName translate
+fragment identifier handler SimpleName MethodInvocation SimpleName tx
+translate SimpleName MethodInvocation SimpleName tx
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName SwitchStatement SwitchCase CharacterLiteral )
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName fragment identifier handler
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName translate
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName tx
+current SimpleName SwitchStatement SwitchCase CharacterLiteral empty
+current SimpleName SwitchStatement ExpressionStatement Assignment SimpleName current
+) CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+ty SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse float
+current SimpleName InfixExpression CharacterLiteral )
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral )
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+) CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+fragment identifier handler SimpleName MethodInvocation SimpleName translate
+fragment identifier handler SimpleName MethodInvocation SimpleName tx
+fragment identifier handler SimpleName MethodInvocation SimpleName ty
+translate SimpleName MethodInvocation SimpleName tx
+translate SimpleName MethodInvocation SimpleName ty
+tx SimpleName MethodInvocation SimpleName ty
+float PrimitiveType VariableDeclarationStatement Block SwitchStatement SimpleName current
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+current SimpleName SwitchStatement Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse translate
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName current
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration SimpleName parse translate
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration Block SwitchStatement SimpleName current
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+parse translate SimpleName MethodDeclaration SimpleType SimpleName parse exception
+parse translate SimpleName MethodDeclaration SimpleType SimpleName io exception
+parse translate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+parse translate SimpleName MethodDeclaration Block SwitchStatement SimpleName current
+parse translate SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+parse exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse translate
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse translate
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

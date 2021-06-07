@@ -1,0 +1,11 @@
+progressive paint thread SimpleName MethodInvocation SimpleName halt
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName halt progressive paint thread
+void PrimitiveType MethodDeclaration SimpleName halt progressive paint thread
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName halt progressive paint thread
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName halt progressive paint thread

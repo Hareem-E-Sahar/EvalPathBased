@@ -1,0 +1,24 @@
+int PrimitiveType SingleVariableDeclaration SimpleName rule
+path SimpleName MethodInvocation SimpleName set winding rule
+path SimpleName MethodInvocation SimpleName rule
+set winding rule SimpleName MethodInvocation SimpleName rule
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set winding rule
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rule
+void PrimitiveType MethodDeclaration SimpleName set winding rule
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName rule
+set winding rule SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set winding rule SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rule
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set winding rule
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rule
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set winding rule
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rule

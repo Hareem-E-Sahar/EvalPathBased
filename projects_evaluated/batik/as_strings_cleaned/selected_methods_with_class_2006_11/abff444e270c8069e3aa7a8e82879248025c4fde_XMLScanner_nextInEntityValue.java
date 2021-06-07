@@ -1,0 +1,62 @@
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName next char
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next char
+read name SimpleName MethodInvocation QualifiedName lexical unitsparameter entity reference
+current SimpleName InfixExpression CharacterLiteral 
+create xml exception SimpleName MethodInvocation StringLiteral invalidparameterentity
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+current SimpleName InfixExpression SimpleName attr delimiter
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName attr delimiter
+current SimpleName InfixExpression CharacterLiteral &
+current SimpleName InfixExpression CharacterLiteral %
+create xml exception SimpleName MethodInvocation StringLiteral unexpectedeof
+context SimpleName Assignment SimpleName entity context
+current SimpleName SwitchStatement SwitchCase PrefixExpression NumberLiteral empty
+current SimpleName SwitchStatement ThrowStatement MethodInvocation SimpleName create xml exception
+current SimpleName SwitchStatement ThrowStatement MethodInvocation StringLiteral unexpectedeof
+current SimpleName SwitchStatement SwitchCase CharacterLiteral \
+current SimpleName SwitchStatement SwitchCase CharacterLiteral empty
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName next char
+\ CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral empty
+\ CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsstring
+empty CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName lexical unitsstring
+current SimpleName SwitchStatement SwitchCase CharacterLiteral &
+current SimpleName SwitchStatement ReturnStatement MethodInvocation SimpleName read reference
+current SimpleName SwitchStatement SwitchCase CharacterLiteral %
+current SimpleName SwitchStatement VariableDeclarationStatement PrimitiveType int
+current SimpleName SwitchStatement VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName read name
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation QualifiedName lexical unitsparameter entity reference
+& CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral %
+& CharacterLiteral SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType int
+% CharacterLiteral SwitchCase SwitchStatement VariableDeclarationStatement PrimitiveType int
+% CharacterLiteral SwitchCase SwitchStatement ReturnStatement SimpleName t
+int PrimitiveType VariableDeclarationStatement SwitchStatement ReturnStatement SimpleName t
+t SimpleName ReturnStatement SwitchStatement SwitchStatement SimpleName current
+t SimpleName ReturnStatement SwitchStatement ReturnStatement QualifiedName lexical unitsfirst attribute fragment
+current SimpleName SwitchStatement SwitchStatement ReturnStatement QualifiedName lexical unitsfirst attribute fragment
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName next in entity value
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration SimpleType SimpleName xml exception
+protected Modifier MethodDeclaration Block SwitchStatement SimpleName current
+int PrimitiveType MethodDeclaration SimpleName next in entity value
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName xml exception
+int PrimitiveType MethodDeclaration Block SwitchStatement SimpleName current
+next in entity value SimpleName MethodDeclaration SimpleType SimpleName io exception
+next in entity value SimpleName MethodDeclaration SimpleType SimpleName xml exception
+next in entity value SimpleName MethodDeclaration Block SwitchStatement SimpleName current
+io exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName xml exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName next in entity value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName next in entity value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName xml exception

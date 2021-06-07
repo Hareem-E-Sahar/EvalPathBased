@@ -1,0 +1,55 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+n SimpleName VariableDeclarationFragment SimpleName e
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName e
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+n SimpleName InfixExpression InfixExpression InfixExpression QualifiedName nodeelement node
+n SimpleName MethodInvocation SimpleName get parent node
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node
+element SimpleName SimpleType CastExpression SimpleName n
+tmp SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+tmp SimpleName VariableDeclarationFragment CastExpression SimpleName n
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tmp
+tmp SimpleName MethodInvocation SimpleName get namespace uri
+tmp SimpleName MethodInvocation MethodInvocation SimpleName equals
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName equals
+tmp SimpleName MethodInvocation MethodInvocation SimpleName svg namespace uri
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName svg namespace uri
+equals SimpleName MethodInvocation SimpleName svg namespace uri
+tmp SimpleName MethodInvocation SimpleName get local name
+tmp SimpleName MethodInvocation MethodInvocation SimpleName equals
+get local name SimpleName MethodInvocation MethodInvocation SimpleName equals
+tmp SimpleName MethodInvocation MethodInvocation SimpleName svg svg tag
+get local name SimpleName MethodInvocation MethodInvocation SimpleName svg svg tag
+equals SimpleName MethodInvocation SimpleName svg svg tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg svg tag
+svg namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg svg tag
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration SimpleType SimpleName element
+private Modifier MethodDeclaration SimpleName get closest ancestor svg element
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SimpleName get closest ancestor svg element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+element SimpleName SimpleType MethodDeclaration SimpleName get closest ancestor svg element
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+get closest ancestor svg element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get closest ancestor svg element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get closest ancestor svg element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get closest ancestor svg element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

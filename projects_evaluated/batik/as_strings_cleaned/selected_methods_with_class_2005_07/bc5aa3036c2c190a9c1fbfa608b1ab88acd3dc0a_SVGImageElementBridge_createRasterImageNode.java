@@ -1,0 +1,120 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+filter SimpleName SimpleType SingleVariableDeclaration SimpleName img
+get image bounds SimpleName MethodInvocation SimpleName ctx
+get image bounds SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get image bounds
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName bounds
+bounds SimpleName MethodInvocation SimpleName get width
+bounds SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get width SimpleName MethodInvocation InfixExpression NumberLiteral empty
+bounds SimpleName MethodInvocation SimpleName get height
+bounds SimpleName MethodInvocation InfixExpression NumberLiteral empty
+get height SimpleName MethodInvocation InfixExpression NumberLiteral empty
+sn SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName shape node
+shape node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sn
+sn SimpleName MethodInvocation SimpleName set shape
+sn SimpleName MethodInvocation SimpleName bounds
+set shape SimpleName MethodInvocation SimpleName bounds
+img SimpleName MethodInvocation SimpleName get property
+img SimpleName MethodInvocation QualifiedName svg broken link providersvg broken link document property
+get property SimpleName MethodInvocation QualifiedName svg broken link providersvg broken link document property
+obj SimpleName VariableDeclarationFragment MethodInvocation SimpleName img
+obj SimpleName VariableDeclarationFragment MethodInvocation SimpleName get property
+obj SimpleName VariableDeclarationFragment MethodInvocation QualifiedName svg broken link providersvg broken link document property
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName obj
+obj SimpleName InstanceofExpression SimpleType SimpleName svg document
+svgom document SimpleName SimpleType CastExpression SimpleName obj
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+create svg image node SimpleName MethodInvocation SimpleName ctx
+create svg image node SimpleName MethodInvocation SimpleName e
+create svg image node SimpleName MethodInvocation SimpleName doc
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName doc
+e SimpleName MethodInvocation SimpleName doc
+node SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName raster image node
+raster image node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node
+node SimpleName MethodInvocation SimpleName set image
+node SimpleName MethodInvocation SimpleName img
+set image SimpleName MethodInvocation SimpleName img
+img SimpleName MethodInvocation SimpleName get bounds d
+img bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName img
+img bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bounds d
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName img bounds
+float PrimitiveType ArrayType ArrayCreation NumberLiteral empty
+vb SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+vb SimpleName VariableDeclarationFragment ArrayCreation NumberLiteral empty
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName vb
+vb SimpleName ArrayAccess NumberLiteral empty
+vb SimpleName ArrayAccess Assignment NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment NumberLiteral empty
+vb SimpleName ArrayAccess NumberLiteral empty
+vb SimpleName ArrayAccess Assignment NumberLiteral empty
+empty NumberLiteral ArrayAccess Assignment NumberLiteral empty
+vb SimpleName ArrayAccess NumberLiteral empty
+img bounds SimpleName MethodInvocation SimpleName get width
+float PrimitiveType CastExpression MethodInvocation SimpleName img bounds
+float PrimitiveType CastExpression MethodInvocation SimpleName get width
+vb SimpleName ArrayAccess Assignment CastExpression PrimitiveType float
+empty NumberLiteral ArrayAccess Assignment CastExpression PrimitiveType float
+vb SimpleName ArrayAccess NumberLiteral empty
+img bounds SimpleName MethodInvocation SimpleName get height
+float PrimitiveType CastExpression MethodInvocation SimpleName img bounds
+float PrimitiveType CastExpression MethodInvocation SimpleName get height
+vb SimpleName ArrayAccess Assignment CastExpression PrimitiveType float
+empty NumberLiteral ArrayAccess Assignment CastExpression PrimitiveType float
+initialize viewport SimpleName MethodInvocation SimpleName ctx
+initialize viewport SimpleName MethodInvocation SimpleName e
+initialize viewport SimpleName MethodInvocation SimpleName node
+initialize viewport SimpleName MethodInvocation SimpleName vb
+initialize viewport SimpleName MethodInvocation SimpleName bounds
+ctx SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName node
+ctx SimpleName MethodInvocation SimpleName vb
+ctx SimpleName MethodInvocation SimpleName bounds
+e SimpleName MethodInvocation SimpleName node
+e SimpleName MethodInvocation SimpleName vb
+e SimpleName MethodInvocation SimpleName bounds
+node SimpleName MethodInvocation SimpleName vb
+node SimpleName MethodInvocation SimpleName bounds
+vb SimpleName MethodInvocation SimpleName bounds
+protected Modifier MethodDeclaration SimpleType SimpleName graphics node
+protected Modifier MethodDeclaration SimpleName create raster image node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName img
+graphics node SimpleName SimpleType MethodDeclaration SimpleName create raster image node
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName img
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName filter
+create raster image node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName img
+create raster image node SimpleName MethodDeclaration Block ReturnStatement SimpleName node
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName create raster image node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create raster image node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName img

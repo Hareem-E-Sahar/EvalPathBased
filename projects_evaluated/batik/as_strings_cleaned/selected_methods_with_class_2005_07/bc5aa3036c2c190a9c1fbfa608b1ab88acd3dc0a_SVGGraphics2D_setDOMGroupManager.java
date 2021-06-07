@@ -1,0 +1,27 @@
+dom group manager SimpleName SimpleType SingleVariableDeclaration SimpleName group mgr
+dom group manager SimpleName FieldAccess Assignment SimpleName group mgr
+protected Modifier MethodDeclaration Modifier final
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set dom group manager
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom group manager
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName group mgr
+final Modifier MethodDeclaration PrimitiveType void
+final Modifier MethodDeclaration SimpleName set dom group manager
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom group manager
+final Modifier MethodDeclaration SingleVariableDeclaration SimpleName group mgr
+void PrimitiveType MethodDeclaration SimpleName set dom group manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom group manager
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName group mgr
+set dom group manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName dom group manager
+set dom group manager SimpleName MethodDeclaration SingleVariableDeclaration SimpleName group mgr
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier final
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set dom group manager
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group mgr
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier final
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set dom group manager
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName group mgr

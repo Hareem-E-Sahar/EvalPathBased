@@ -1,0 +1,52 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ns
+string SimpleName SimpleType SingleVariableDeclaration SimpleName ln
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg type attribute
+equals SimpleName MethodInvocation SimpleName svg type attribute
+get base value SimpleName MethodInvocation MethodInvocation SimpleName get type
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg num octaves attribute
+equals SimpleName MethodInvocation SimpleName svg num octaves attribute
+get base value SimpleName MethodInvocation MethodInvocation SimpleName get num octaves
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg seed attribute
+equals SimpleName MethodInvocation SimpleName svg seed attribute
+get base value SimpleName MethodInvocation MethodInvocation SimpleName get seed
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg stitch tiles attribute
+equals SimpleName MethodInvocation SimpleName svg stitch tiles attribute
+get base value SimpleName MethodInvocation MethodInvocation SimpleName get stitch tiles
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg base frequency attribute
+equals SimpleName MethodInvocation SimpleName svg base frequency attribute
+get base value SimpleName MethodInvocation MethodInvocation SimpleName get base frequency x
+get base value SimpleName MethodInvocation MethodInvocation SimpleName get base frequency y
+get base frequency x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get base frequency y
+get underlying value SimpleName SuperMethodInvocation SimpleName ns
+get underlying value SimpleName SuperMethodInvocation SimpleName ln
+ns SimpleName SuperMethodInvocation SimpleName ln
+public Modifier MethodDeclaration SimpleType SimpleName animatable value
+public Modifier MethodDeclaration SimpleName get underlying value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ln
+animatable value SimpleName SimpleType MethodDeclaration SimpleName get underlying value
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ns
+animatable value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName ln
+get underlying value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get underlying value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ns
+get underlying value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get underlying value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ln
+ns SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+public Modifier TypeDeclaration MethodDeclaration SimpleName get underlying value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animatable value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get underlying value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ns
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ln

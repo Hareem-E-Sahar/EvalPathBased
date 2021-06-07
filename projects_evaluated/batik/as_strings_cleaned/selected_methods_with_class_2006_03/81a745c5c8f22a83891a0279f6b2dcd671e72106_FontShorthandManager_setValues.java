@@ -1,0 +1,381 @@
+css engine SimpleName SimpleType SingleVariableDeclaration SimpleName eng
+shorthand managerproperty handler QualifiedName SimpleType SingleVariableDeclaration SimpleName ph
+lexical unit SimpleName SimpleType SingleVariableDeclaration SimpleName lu
+boolean PrimitiveType SingleVariableDeclaration SimpleName imp
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get string value
+lu SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get string value SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName lu
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get string value
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName to lower case
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+values SimpleName MethodInvocation SimpleName contains
+values SimpleName MethodInvocation SimpleName s
+contains SimpleName MethodInvocation SimpleName s
+handle system font SimpleName MethodInvocation SimpleName eng
+handle system font SimpleName MethodInvocation SimpleName ph
+handle system font SimpleName MethodInvocation SimpleName s
+handle system font SimpleName MethodInvocation SimpleName imp
+eng SimpleName MethodInvocation SimpleName ph
+eng SimpleName MethodInvocation SimpleName s
+eng SimpleName MethodInvocation SimpleName imp
+ph SimpleName MethodInvocation SimpleName s
+ph SimpleName MethodInvocation SimpleName imp
+s SimpleName MethodInvocation SimpleName imp
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac inherit
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac inherit
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+lexical unitsac inherit QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+lexical unit SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font style
+lexical unit SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font variant
+lexical unit SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font weight
+lexical unit SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font size
+lexical unit SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName line height
+lexical unit SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName font family
+eng SimpleName MethodInvocation SimpleName get value managers
+v mgrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName eng
+v mgrs SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value managers
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName fst
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName fv
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName fw
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName fsz
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName lh
+fst SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName fv
+fst SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName fw
+fst SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName fsz
+fst SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName lh
+fv SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName fw
+fv SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName fsz
+fv SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName lh
+fw SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName fsz
+fw SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName lh
+fsz SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName lh
+eng SimpleName MethodInvocation SimpleName get property index
+eng SimpleName MethodInvocation QualifiedName css constantscss font style property
+get property index SimpleName MethodInvocation QualifiedName css constantscss font style property
+fst SimpleName Assignment MethodInvocation SimpleName eng
+fst SimpleName Assignment MethodInvocation SimpleName get property index
+fst SimpleName Assignment MethodInvocation QualifiedName css constantscss font style property
+eng SimpleName MethodInvocation SimpleName get property index
+eng SimpleName MethodInvocation QualifiedName css constantscss font variant property
+get property index SimpleName MethodInvocation QualifiedName css constantscss font variant property
+fv SimpleName Assignment MethodInvocation SimpleName eng
+fv SimpleName Assignment MethodInvocation SimpleName get property index
+fv SimpleName Assignment MethodInvocation QualifiedName css constantscss font variant property
+eng SimpleName MethodInvocation SimpleName get property index
+eng SimpleName MethodInvocation QualifiedName css constantscss font weight property
+get property index SimpleName MethodInvocation QualifiedName css constantscss font weight property
+fw SimpleName Assignment MethodInvocation SimpleName eng
+fw SimpleName Assignment MethodInvocation SimpleName get property index
+fw SimpleName Assignment MethodInvocation QualifiedName css constantscss font weight property
+eng SimpleName MethodInvocation SimpleName get property index
+eng SimpleName MethodInvocation QualifiedName css constantscss font size property
+get property index SimpleName MethodInvocation QualifiedName css constantscss font size property
+fsz SimpleName Assignment MethodInvocation SimpleName eng
+fsz SimpleName Assignment MethodInvocation SimpleName get property index
+fsz SimpleName Assignment MethodInvocation QualifiedName css constantscss font size property
+eng SimpleName MethodInvocation SimpleName get property index
+eng SimpleName MethodInvocation QualifiedName css constantscss line height property
+get property index SimpleName MethodInvocation QualifiedName css constantscss line height property
+lh SimpleName Assignment MethodInvocation SimpleName eng
+lh SimpleName Assignment MethodInvocation SimpleName get property index
+lh SimpleName Assignment MethodInvocation QualifiedName css constantscss line height property
+v mgrs SimpleName ArrayAccess SimpleName fst
+identifier manager SimpleName SimpleType CastExpression ArrayAccess SimpleName v mgrs
+identifier manager SimpleName SimpleType CastExpression ArrayAccess SimpleName fst
+fst vm SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName identifier manager
+fst vm SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName v mgrs
+fst vm SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName fst
+identifier manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fst vm
+v mgrs SimpleName ArrayAccess SimpleName fv
+identifier manager SimpleName SimpleType CastExpression ArrayAccess SimpleName v mgrs
+identifier manager SimpleName SimpleType CastExpression ArrayAccess SimpleName fv
+fv vm SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName identifier manager
+fv vm SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName v mgrs
+fv vm SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName fv
+identifier manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fv vm
+v mgrs SimpleName ArrayAccess SimpleName fw
+identifier manager SimpleName SimpleType CastExpression ArrayAccess SimpleName v mgrs
+identifier manager SimpleName SimpleType CastExpression ArrayAccess SimpleName fw
+fw vm SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName identifier manager
+fw vm SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName v mgrs
+fw vm SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName fw
+identifier manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fw vm
+v mgrs SimpleName ArrayAccess SimpleName fsz
+font size manager SimpleName SimpleType CastExpression ArrayAccess SimpleName v mgrs
+font size manager SimpleName SimpleType CastExpression ArrayAccess SimpleName fsz
+fsz vm SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName font size manager
+fsz vm SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName v mgrs
+fsz vm SimpleName VariableDeclarationFragment CastExpression ArrayAccess SimpleName fsz
+font size manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fsz vm
+fst vm SimpleName MethodInvocation SimpleName get identifiers
+fst sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName fst vm
+fst sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get identifiers
+string map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fst sm
+fv vm SimpleName MethodInvocation SimpleName get identifiers
+fv sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName fv vm
+fv sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get identifiers
+string map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fv sm
+fw vm SimpleName MethodInvocation SimpleName get identifiers
+fw sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName fw vm
+fw sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get identifiers
+string map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fw sm
+fsz vm SimpleName MethodInvocation SimpleName get identifiers
+fsz sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName fsz vm
+fsz sm SimpleName VariableDeclarationFragment MethodInvocation SimpleName get identifiers
+string map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fsz sm
+svw done SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName svw done
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment BooleanLiteral false
+lexical unit SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName int lu
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get string value
+lu SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get string value SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+lu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName intern
+get string value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName intern
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName intern
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to lower case
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName intern
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+fst sm SimpleName MethodInvocation SimpleName get
+fst sm SimpleName MethodInvocation SimpleName s
+get SimpleName MethodInvocation SimpleName s
+font style SimpleName Assignment SimpleName lu
+font weight SimpleName Assignment SimpleName int lu
+int lu SimpleName MethodInvocation SimpleName get lexical unit type
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName int lu
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName get lexical unit type
+fv sm SimpleName MethodInvocation SimpleName get
+fv sm SimpleName MethodInvocation SimpleName s
+get SimpleName MethodInvocation SimpleName s
+font variant SimpleName Assignment SimpleName lu
+font weight SimpleName Assignment SimpleName int lu
+int lu SimpleName MethodInvocation SimpleName get lexical unit type
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName int lu
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName get lexical unit type
+fw sm SimpleName MethodInvocation SimpleName get
+fw sm SimpleName MethodInvocation SimpleName s
+get SimpleName MethodInvocation SimpleName s
+font weight SimpleName Assignment SimpleName lu
+svw done SimpleName Assignment BooleanLiteral true
+int lu SimpleName Assignment SimpleName lu
+svw done SimpleName Assignment BooleanLiteral true
+svw done SimpleName Assignment BooleanLiteral true
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac integer
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac integer
+lexical unitsac ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac integer
+lu SimpleName MethodInvocation SimpleName get next lexical unit
+lu SimpleName Assignment MethodInvocation SimpleName lu
+lu SimpleName Assignment MethodInvocation SimpleName get next lexical unit
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get string value
+lu SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get string value SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+lu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName intern
+get string value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName intern
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName intern
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to lower case
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName intern
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+fsz sm SimpleName MethodInvocation SimpleName get
+fsz sm SimpleName MethodInvocation SimpleName s
+get SimpleName MethodInvocation SimpleName s
+font size SimpleName Assignment SimpleName lu
+lu SimpleName MethodInvocation SimpleName get next lexical unit
+lu SimpleName Assignment MethodInvocation SimpleName lu
+lu SimpleName Assignment MethodInvocation SimpleName get next lexical unit
+font size SimpleName Assignment SimpleName lu
+lu SimpleName MethodInvocation SimpleName get next lexical unit
+lu SimpleName Assignment MethodInvocation SimpleName lu
+lu SimpleName Assignment MethodInvocation SimpleName get next lexical unit
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac em
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac em
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ex
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac ex
+lexical unitsac ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac em
+lexical unitsac ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac ex
+lexical unitsac ident QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac pixel
+lexical unitsac em QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac ex
+lexical unitsac em QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac pixel
+lexical unitsac em QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac centimeter
+lexical unitsac em QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac millimeter
+lexical unitsac em QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac inch
+lexical unitsac ex QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac pixel
+lexical unitsac ex QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac centimeter
+lexical unitsac ex QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac millimeter
+lexical unitsac ex QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac inch
+lexical unitsac ex QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac point
+lexical unitsac pixel QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac centimeter
+lexical unitsac pixel QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac millimeter
+lexical unitsac pixel QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac inch
+lexical unitsac pixel QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac point
+lexical unitsac pixel QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac pica
+lexical unitsac centimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac millimeter
+lexical unitsac centimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac inch
+lexical unitsac centimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac point
+lexical unitsac centimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac pica
+lexical unitsac centimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac integer
+lexical unitsac millimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac inch
+lexical unitsac millimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac point
+lexical unitsac millimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac pica
+lexical unitsac millimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac integer
+lexical unitsac millimeter QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac real
+lexical unitsac inch QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac point
+lexical unitsac inch QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac pica
+lexical unitsac inch QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac integer
+lexical unitsac inch QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac real
+lexical unitsac inch QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac percentage
+lexical unitsac point QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac pica
+lexical unitsac point QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac integer
+lexical unitsac point QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac real
+lexical unitsac point QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac percentage
+lexical unitsac pica QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac integer
+lexical unitsac pica QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac real
+lexical unitsac pica QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac percentage
+lexical unitsac integer QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac real
+lexical unitsac integer QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac percentage
+lexical unitsac real QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac percentage
+font size SimpleName Assignment SimpleName int lu
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName lu
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName get lexical unit type
+font weight SimpleName Assignment SimpleName int lu
+int lu SimpleName MethodInvocation SimpleName get lexical unit type
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName int lu
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get next lexical unit
+lu SimpleName Assignment MethodInvocation SimpleName lu
+lu SimpleName Assignment MethodInvocation SimpleName get next lexical unit
+line height SimpleName Assignment SimpleName lu
+lu SimpleName MethodInvocation SimpleName get next lexical unit
+lu SimpleName Assignment MethodInvocation SimpleName lu
+lu SimpleName Assignment MethodInvocation SimpleName get next lexical unit
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac operator slash
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac operator slash
+font family SimpleName Assignment SimpleName lu
+font style SimpleName Assignment SimpleName normal lu
+font variant SimpleName Assignment SimpleName normal lu
+font weight SimpleName Assignment SimpleName normal lu
+line height SimpleName Assignment SimpleName normal lu
+ph SimpleName MethodInvocation SimpleName property
+ph SimpleName MethodInvocation QualifiedName css constantscss font family property
+ph SimpleName MethodInvocation SimpleName font family
+ph SimpleName MethodInvocation SimpleName imp
+property SimpleName MethodInvocation QualifiedName css constantscss font family property
+property SimpleName MethodInvocation SimpleName font family
+property SimpleName MethodInvocation SimpleName imp
+css constantscss font family property QualifiedName MethodInvocation SimpleName font family
+css constantscss font family property QualifiedName MethodInvocation SimpleName imp
+font family SimpleName MethodInvocation SimpleName imp
+ph SimpleName MethodInvocation SimpleName property
+ph SimpleName MethodInvocation QualifiedName css constantscss font style property
+ph SimpleName MethodInvocation SimpleName font style
+ph SimpleName MethodInvocation SimpleName imp
+property SimpleName MethodInvocation QualifiedName css constantscss font style property
+property SimpleName MethodInvocation SimpleName font style
+property SimpleName MethodInvocation SimpleName imp
+css constantscss font style property QualifiedName MethodInvocation SimpleName font style
+css constantscss font style property QualifiedName MethodInvocation SimpleName imp
+font style SimpleName MethodInvocation SimpleName imp
+ph SimpleName MethodInvocation SimpleName property
+ph SimpleName MethodInvocation QualifiedName css constantscss font variant property
+ph SimpleName MethodInvocation SimpleName font variant
+ph SimpleName MethodInvocation SimpleName imp
+property SimpleName MethodInvocation QualifiedName css constantscss font variant property
+property SimpleName MethodInvocation SimpleName font variant
+property SimpleName MethodInvocation SimpleName imp
+css constantscss font variant property QualifiedName MethodInvocation SimpleName font variant
+css constantscss font variant property QualifiedName MethodInvocation SimpleName imp
+font variant SimpleName MethodInvocation SimpleName imp
+ph SimpleName MethodInvocation SimpleName property
+ph SimpleName MethodInvocation QualifiedName css constantscss font weight property
+ph SimpleName MethodInvocation SimpleName font weight
+ph SimpleName MethodInvocation SimpleName imp
+property SimpleName MethodInvocation QualifiedName css constantscss font weight property
+property SimpleName MethodInvocation SimpleName font weight
+property SimpleName MethodInvocation SimpleName imp
+css constantscss font weight property QualifiedName MethodInvocation SimpleName font weight
+css constantscss font weight property QualifiedName MethodInvocation SimpleName imp
+font weight SimpleName MethodInvocation SimpleName imp
+ph SimpleName MethodInvocation SimpleName property
+ph SimpleName MethodInvocation QualifiedName css constantscss font size property
+ph SimpleName MethodInvocation SimpleName font size
+ph SimpleName MethodInvocation SimpleName imp
+property SimpleName MethodInvocation QualifiedName css constantscss font size property
+property SimpleName MethodInvocation SimpleName font size
+property SimpleName MethodInvocation SimpleName imp
+css constantscss font size property QualifiedName MethodInvocation SimpleName font size
+css constantscss font size property QualifiedName MethodInvocation SimpleName imp
+font size SimpleName MethodInvocation SimpleName imp
+lh SimpleName InfixExpression PrefixExpression NumberLiteral empty
+ph SimpleName MethodInvocation SimpleName property
+ph SimpleName MethodInvocation QualifiedName css constantscss line height property
+ph SimpleName MethodInvocation SimpleName line height
+ph SimpleName MethodInvocation SimpleName imp
+property SimpleName MethodInvocation QualifiedName css constantscss line height property
+property SimpleName MethodInvocation SimpleName line height
+property SimpleName MethodInvocation SimpleName imp
+css constantscss line height property QualifiedName MethodInvocation SimpleName line height
+css constantscss line height property QualifiedName MethodInvocation SimpleName imp
+line height SimpleName MethodInvocation SimpleName imp
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set values
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName eng
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName shorthand managerproperty handler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName ph
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lu
+void PrimitiveType MethodDeclaration SimpleName set values
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName eng
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName shorthand managerproperty handler
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ph
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName lu
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName imp
+set values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+set values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName eng
+set values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType QualifiedName shorthand managerproperty handler
+set values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ph
+set values SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+set values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lu
+set values SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+set values SimpleName MethodDeclaration SingleVariableDeclaration SimpleName imp
+set values SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+set values SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType boolean
+eng SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ph
+eng SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+eng SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+eng SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp
+ph SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+ph SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+ph SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp
+lu SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+lu SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set values
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName eng
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ph
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set values
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName eng
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ph
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName imp

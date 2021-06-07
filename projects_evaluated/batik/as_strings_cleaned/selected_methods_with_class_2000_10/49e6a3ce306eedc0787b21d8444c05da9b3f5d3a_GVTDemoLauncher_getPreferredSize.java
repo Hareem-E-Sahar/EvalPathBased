@@ -1,0 +1,13 @@
+dimension SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+dimension SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+public Modifier MethodDeclaration SimpleType SimpleName dimension
+public Modifier MethodDeclaration SimpleName get preferred size
+dimension SimpleName SimpleType MethodDeclaration SimpleName get preferred size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dimension
+public Modifier TypeDeclaration MethodDeclaration SimpleName get preferred size
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dimension
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get preferred size

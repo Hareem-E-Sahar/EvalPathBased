@@ -1,0 +1,83 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName v
+d SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+v SimpleName MethodInvocation SimpleName ends with
+v SimpleName MethodInvocation StringLiteral %
+ends with SimpleName MethodInvocation StringLiteral %
+v SimpleName MethodInvocation SimpleName length
+v SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+v SimpleName MethodInvocation SimpleName substring
+v SimpleName MethodInvocation NumberLiteral empty
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+v SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+v SimpleName MethodInvocation InfixExpression NumberLiteral empty
+substring SimpleName MethodInvocation NumberLiteral empty
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName v
+substring SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+substring SimpleName MethodInvocation InfixExpression NumberLiteral empty
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName v
+empty NumberLiteral MethodInvocation InfixExpression MethodInvocation SimpleName length
+empty NumberLiteral MethodInvocation InfixExpression NumberLiteral empty
+v SimpleName Assignment MethodInvocation SimpleName v
+v SimpleName Assignment MethodInvocation SimpleName substring
+v SimpleName Assignment MethodInvocation NumberLiteral empty
+v SimpleName Assignment MethodInvocation InfixExpression NumberLiteral empty
+d SimpleName Assignment NumberLiteral empty
+float SimpleName MethodInvocation SimpleName parse float
+float SimpleName MethodInvocation SimpleName v
+parse float SimpleName MethodInvocation SimpleName v
+float SimpleName MethodInvocation InfixExpression SimpleName d
+parse float SimpleName MethodInvocation InfixExpression SimpleName d
+v SimpleName MethodInvocation InfixExpression SimpleName d
+r SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName float
+r SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName parse float
+r SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName v
+r SimpleName VariableDeclarationFragment InfixExpression SimpleName d
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName d
+r SimpleName InfixExpression NumberLiteral empty
+r SimpleName Assignment NumberLiteral empty
+r SimpleName InfixExpression NumberLiteral empty
+r SimpleName Assignment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName r
+float PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName r
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName convert ratio
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+public Modifier MethodDeclaration Block ReturnStatement SimpleName r
+static Modifier MethodDeclaration PrimitiveType float
+static Modifier MethodDeclaration SimpleName convert ratio
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+static Modifier MethodDeclaration Block ReturnStatement SimpleName r
+float PrimitiveType MethodDeclaration SimpleName convert ratio
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType MethodDeclaration Block ReturnStatement SimpleName r
+convert ratio SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+convert ratio SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+convert ratio SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+convert ratio SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+convert ratio SimpleName MethodDeclaration Block ReturnStatement SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert ratio
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert ratio
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

@@ -1,0 +1,21 @@
+abstract Modifier MethodDeclaration Modifier public
+abstract Modifier MethodDeclaration PrimitiveType char
+abstract Modifier MethodDeclaration SimpleName begin token
+abstract Modifier MethodDeclaration SimpleType QualifiedName javaioio exception
+public Modifier MethodDeclaration PrimitiveType char
+public Modifier MethodDeclaration SimpleName begin token
+public Modifier MethodDeclaration SimpleType QualifiedName javaioio exception
+char PrimitiveType MethodDeclaration SimpleName begin token
+char PrimitiveType MethodDeclaration SimpleType QualifiedName javaioio exception
+begin token SimpleName MethodDeclaration SimpleType QualifiedName javaioio exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType char
+public Modifier TypeDeclaration MethodDeclaration SimpleName begin token
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName javaioio exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType char
+test SimpleName TypeDeclaration MethodDeclaration SimpleName begin token
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName javaioio exception

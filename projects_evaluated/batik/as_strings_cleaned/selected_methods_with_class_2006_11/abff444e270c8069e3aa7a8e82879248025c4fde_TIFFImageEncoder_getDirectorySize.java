@@ -1,0 +1,71 @@
+sorted set SimpleName SimpleType SingleVariableDeclaration SimpleName fields
+fields SimpleName MethodInvocation SimpleName size
+num entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName fields
+num entries SimpleName VariableDeclarationFragment MethodInvocation SimpleName size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName num entries
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName fields
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName size
+num entries SimpleName InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression SimpleName num entries
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+num entries SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+dir size SimpleName VariableDeclarationFragment InfixExpression InfixExpression NumberLiteral empty
+dir size SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName dir size
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+fields SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName fields
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+tiff field SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+tiff field SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+field SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName tiff field
+field SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+field SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+tiff field SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName field
+field SimpleName MethodInvocation SimpleName get count
+field SimpleName MethodInvocation SimpleName get type
+size of type SimpleName ArrayAccess MethodInvocation SimpleName field
+size of type SimpleName ArrayAccess MethodInvocation SimpleName get type
+field SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName size of type
+get count SimpleName MethodInvocation InfixExpression ArrayAccess SimpleName size of type
+value size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName field
+value size SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get count
+value size SimpleName VariableDeclarationFragment InfixExpression ArrayAccess SimpleName size of type
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName value size
+value size SimpleName InfixExpression NumberLiteral empty
+dir size SimpleName Assignment SimpleName value size
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName dir size
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName dir size
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName get directory size
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sorted set
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName fields
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration Block ReturnStatement SimpleName dir size
+int PrimitiveType MethodDeclaration SimpleName get directory size
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sorted set
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName fields
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName dir size
+get directory size SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName sorted set
+get directory size SimpleName MethodDeclaration SingleVariableDeclaration SimpleName fields
+get directory size SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get directory size SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get directory size SimpleName MethodDeclaration Block ReturnStatement SimpleName dir size
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName get directory size
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fields
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get directory size
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName fields

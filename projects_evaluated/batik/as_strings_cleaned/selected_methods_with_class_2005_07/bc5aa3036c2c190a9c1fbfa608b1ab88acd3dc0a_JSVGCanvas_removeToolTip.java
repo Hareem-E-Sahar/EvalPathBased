@@ -1,0 +1,26 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+tool tip map SimpleName MethodInvocation SimpleName remove
+tool tip map SimpleName MethodInvocation SimpleName elt
+remove SimpleName MethodInvocation SimpleName elt
+last target SimpleName InfixExpression SimpleName elt
+event queue SimpleName MethodInvocation SimpleName invoke later
+event queue SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tool tip runnable
+invoke later SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName tool tip runnable
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName remove tool tip
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+void PrimitiveType MethodDeclaration SimpleName remove tool tip
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName elt
+remove tool tip SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+remove tool tip SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove tool tip
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove tool tip
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt

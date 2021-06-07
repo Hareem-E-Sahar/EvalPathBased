@@ -1,0 +1,12 @@
+protected Modifier MethodDeclaration SimpleType SimpleName animated attribute listener
+protected Modifier MethodDeclaration SimpleName get animated attribute listener
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName main animated attribute listener
+animated attribute listener SimpleName SimpleType MethodDeclaration SimpleName get animated attribute listener
+get animated attribute listener SimpleName MethodDeclaration Block ReturnStatement SimpleName main animated attribute listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName animated attribute listener
+public Modifier TypeDeclaration MethodDeclaration SimpleName get animated attribute listener
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName animated attribute listener
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get animated attribute listener

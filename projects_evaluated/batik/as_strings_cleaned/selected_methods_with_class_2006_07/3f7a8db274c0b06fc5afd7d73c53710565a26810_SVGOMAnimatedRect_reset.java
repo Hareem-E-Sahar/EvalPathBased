@@ -1,0 +1,87 @@
+changing SimpleName Assignment BooleanLiteral true
+float SimpleName MethodInvocation SimpleName to string
+float SimpleName MethodInvocation SimpleName x
+to string SimpleName MethodInvocation SimpleName x
+float SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+to string SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+x SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+float SimpleName MethodInvocation InfixExpression SimpleName y
+to string SimpleName MethodInvocation InfixExpression SimpleName y
+x SimpleName MethodInvocation InfixExpression SimpleName y
+float SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+to string SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+x SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+float SimpleName MethodInvocation InfixExpression SimpleName w
+to string SimpleName MethodInvocation InfixExpression SimpleName w
+x SimpleName MethodInvocation InfixExpression SimpleName w
+float SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+to string SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+x SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+empty CharacterLiteral InfixExpression SimpleName y
+empty CharacterLiteral InfixExpression CharacterLiteral empty
+empty CharacterLiteral InfixExpression SimpleName w
+empty CharacterLiteral InfixExpression CharacterLiteral empty
+empty CharacterLiteral InfixExpression SimpleName h
+y SimpleName InfixExpression CharacterLiteral empty
+y SimpleName InfixExpression SimpleName w
+y SimpleName InfixExpression CharacterLiteral empty
+y SimpleName InfixExpression SimpleName h
+empty CharacterLiteral InfixExpression SimpleName w
+empty CharacterLiteral InfixExpression CharacterLiteral empty
+empty CharacterLiteral InfixExpression SimpleName h
+w SimpleName InfixExpression CharacterLiteral empty
+w SimpleName InfixExpression SimpleName h
+empty CharacterLiteral InfixExpression SimpleName h
+element SimpleName MethodInvocation SimpleName set attribute ns
+element SimpleName MethodInvocation SimpleName namespace uri
+element SimpleName MethodInvocation SimpleName local name
+element SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName float
+element SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+element SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x
+element SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+element SimpleName MethodInvocation InfixExpression SimpleName y
+element SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+element SimpleName MethodInvocation InfixExpression SimpleName w
+element SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+element SimpleName MethodInvocation InfixExpression SimpleName h
+set attribute ns SimpleName MethodInvocation SimpleName namespace uri
+set attribute ns SimpleName MethodInvocation SimpleName local name
+set attribute ns SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName float
+set attribute ns SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+set attribute ns SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x
+set attribute ns SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+set attribute ns SimpleName MethodInvocation InfixExpression SimpleName y
+set attribute ns SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+set attribute ns SimpleName MethodInvocation InfixExpression SimpleName w
+set attribute ns SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+set attribute ns SimpleName MethodInvocation InfixExpression SimpleName h
+namespace uri SimpleName MethodInvocation SimpleName local name
+namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName float
+namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x
+namespace uri SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+namespace uri SimpleName MethodInvocation InfixExpression SimpleName y
+namespace uri SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+namespace uri SimpleName MethodInvocation InfixExpression SimpleName w
+namespace uri SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+namespace uri SimpleName MethodInvocation InfixExpression SimpleName h
+local name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName float
+local name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName to string
+local name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName x
+local name SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+local name SimpleName MethodInvocation InfixExpression SimpleName y
+local name SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+local name SimpleName MethodInvocation InfixExpression SimpleName w
+local name SimpleName MethodInvocation InfixExpression CharacterLiteral empty
+local name SimpleName MethodInvocation InfixExpression SimpleName h
+changing SimpleName Assignment BooleanLiteral false
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName reset
+void PrimitiveType MethodDeclaration SimpleName reset
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName reset
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName reset

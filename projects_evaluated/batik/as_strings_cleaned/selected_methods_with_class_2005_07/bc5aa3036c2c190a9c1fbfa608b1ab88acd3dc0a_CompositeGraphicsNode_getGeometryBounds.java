@@ -1,0 +1,41 @@
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName count
+geometry bounds SimpleName InfixExpression InfixExpression InfixExpression SimpleName i
+geometry bounds SimpleName InfixExpression InfixExpression InfixExpression SimpleName count
+children SimpleName ArrayAccess PostfixExpression SimpleName i
+children SimpleName ArrayAccess MethodInvocation SimpleName get transformed geometry bounds
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName get transformed geometry bounds
+children SimpleName ArrayAccess MethodInvocation SimpleName identity
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName identity
+get transformed geometry bounds SimpleName MethodInvocation SimpleName identity
+geometry bounds SimpleName Assignment MethodInvocation ArrayAccess SimpleName children
+geometry bounds SimpleName Assignment MethodInvocation SimpleName get transformed geometry bounds
+geometry bounds SimpleName Assignment MethodInvocation SimpleName identity
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cgb
+i SimpleName InfixExpression SimpleName count
+children SimpleName ArrayAccess PostfixExpression SimpleName i
+children SimpleName ArrayAccess MethodInvocation SimpleName get transformed geometry bounds
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName get transformed geometry bounds
+children SimpleName ArrayAccess MethodInvocation SimpleName identity
+i SimpleName PostfixExpression ArrayAccess MethodInvocation SimpleName identity
+get transformed geometry bounds SimpleName MethodInvocation SimpleName identity
+cgb SimpleName Assignment MethodInvocation ArrayAccess SimpleName children
+cgb SimpleName Assignment MethodInvocation SimpleName get transformed geometry bounds
+cgb SimpleName Assignment MethodInvocation SimpleName identity
+geometry bounds SimpleName MethodInvocation SimpleName add
+geometry bounds SimpleName MethodInvocation SimpleName cgb
+add SimpleName MethodInvocation SimpleName cgb
+public Modifier MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier MethodDeclaration SimpleName get geometry bounds
+public Modifier MethodDeclaration Block ReturnStatement SimpleName geometry bounds
+rectangle d SimpleName SimpleType MethodDeclaration SimpleName get geometry bounds
+get geometry bounds SimpleName MethodDeclaration Block ReturnStatement SimpleName geometry bounds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+public Modifier TypeDeclaration MethodDeclaration SimpleName get geometry bounds
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle d
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get geometry bounds

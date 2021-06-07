@@ -1,0 +1,22 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+content manager SimpleName MethodInvocation SimpleName get content element
+content manager SimpleName MethodInvocation SimpleName n
+get content element SimpleName MethodInvocation SimpleName n
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is selected
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+boolean PrimitiveType MethodDeclaration SimpleName is selected
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+is selected SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+is selected SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is selected
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is selected
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

@@ -1,0 +1,133 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName text
+string buffer SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+sb SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sb
+value SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral rgb
+append SimpleName MethodInvocation StringLiteral rgb
+value SimpleName MethodInvocation SimpleName get red
+value SimpleName MethodInvocation MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation SimpleName get css text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get red
+sb SimpleName MethodInvocation MethodInvocation SimpleName get css text
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get red
+append SimpleName MethodInvocation MethodInvocation SimpleName get css text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName text
+append SimpleName MethodInvocation SimpleName text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+value SimpleName MethodInvocation SimpleName get blue
+value SimpleName MethodInvocation MethodInvocation SimpleName get css text
+get blue SimpleName MethodInvocation MethodInvocation SimpleName get css text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get blue
+sb SimpleName MethodInvocation MethodInvocation SimpleName get css text
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get blue
+append SimpleName MethodInvocation MethodInvocation SimpleName get css text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral )
+append SimpleName MethodInvocation CharacterLiteral )
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation StringLiteral rgb
+append SimpleName MethodInvocation StringLiteral rgb
+value SimpleName MethodInvocation SimpleName item
+value SimpleName MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation MethodInvocation SimpleName get red
+item SimpleName MethodInvocation MethodInvocation SimpleName get red
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get red
+value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+get red SimpleName MethodInvocation MethodInvocation SimpleName get css text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get red
+sb SimpleName MethodInvocation MethodInvocation SimpleName get css text
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get red
+append SimpleName MethodInvocation MethodInvocation SimpleName get css text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation SimpleName text
+append SimpleName MethodInvocation SimpleName text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral empty
+append SimpleName MethodInvocation CharacterLiteral empty
+value SimpleName MethodInvocation SimpleName item
+value SimpleName MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation MethodInvocation SimpleName get blue
+item SimpleName MethodInvocation MethodInvocation SimpleName get blue
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get blue
+value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get css text
+get blue SimpleName MethodInvocation MethodInvocation SimpleName get css text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get blue
+sb SimpleName MethodInvocation MethodInvocation SimpleName get css text
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get blue
+append SimpleName MethodInvocation MethodInvocation SimpleName get css text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation CharacterLiteral )
+append SimpleName MethodInvocation CharacterLiteral )
+value SimpleName MethodInvocation SimpleName item
+value SimpleName MethodInvocation NumberLiteral empty
+item SimpleName MethodInvocation NumberLiteral empty
+value SimpleName MethodInvocation MethodInvocation SimpleName get css text
+item SimpleName MethodInvocation MethodInvocation SimpleName get css text
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName get css text
+sb SimpleName MethodInvocation SimpleName append
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName item
+sb SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+sb SimpleName MethodInvocation MethodInvocation SimpleName get css text
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName value
+append SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName item
+append SimpleName MethodInvocation MethodInvocation MethodInvocation NumberLiteral empty
+append SimpleName MethodInvocation MethodInvocation SimpleName get css text
+dom exception SimpleName SimpleType ClassInstanceCreation QualifiedName dom exceptionno modification allowed err
+dom exception SimpleName SimpleType ClassInstanceCreation StringLiteral empty
+dom exceptionno modification allowed err QualifiedName ClassInstanceCreation StringLiteral empty
+get color type SimpleName MethodInvocation SwitchStatement SwitchCase SimpleName svg colortype rgbcolor
+sb SimpleName MethodInvocation SimpleName to string
+text changed SimpleName MethodInvocation MethodInvocation SimpleName sb
+text changed SimpleName MethodInvocation MethodInvocation SimpleName to string
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName green text changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName green text changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName text
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+green text changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+green text changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text
+green text changed SimpleName MethodDeclaration SimpleType SimpleName dom exception
+text SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName green text changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName green text changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

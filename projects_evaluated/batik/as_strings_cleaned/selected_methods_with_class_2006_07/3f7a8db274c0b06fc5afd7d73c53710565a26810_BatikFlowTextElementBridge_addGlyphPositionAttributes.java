@@ -1,0 +1,100 @@
+attributed string SimpleName SimpleType SingleVariableDeclaration SimpleName as
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName MethodInvocation SimpleName get node type
+element SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+element SimpleName MethodInvocation SimpleName get namespace uri
+e ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+e ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e ns
+e ns SimpleName MethodInvocation SimpleName equals
+e ns SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+equals SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+e ns SimpleName MethodInvocation SimpleName equals
+e ns SimpleName MethodInvocation SimpleName svg namespace uri
+equals SimpleName MethodInvocation SimpleName svg namespace uri
+element SimpleName MethodInvocation SimpleName get local name
+element SimpleName MethodInvocation InfixExpression SimpleName batik ext flow text tag
+get local name SimpleName MethodInvocation InfixExpression SimpleName batik ext flow text tag
+add glyph position attributes SimpleName SuperMethodInvocation SimpleName as
+add glyph position attributes SimpleName SuperMethodInvocation SimpleName element
+add glyph position attributes SimpleName SuperMethodInvocation SimpleName ctx
+as SimpleName SuperMethodInvocation SimpleName element
+as SimpleName SuperMethodInvocation SimpleName ctx
+element SimpleName SuperMethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+n SimpleName MethodInvocation SimpleName get namespace uri
+n ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+n ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n ns
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName equals
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName n ns
+equals SimpleName MethodInvocation SimpleName n ns
+svg namespace uri SimpleName MethodInvocation SimpleName equals
+svg namespace uri SimpleName MethodInvocation SimpleName n ns
+equals SimpleName MethodInvocation SimpleName n ns
+element SimpleName SimpleType CastExpression SimpleName n
+e SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+e SimpleName VariableDeclarationFragment CastExpression SimpleName n
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName get local name
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName batik ext flow div tag
+equals SimpleName MethodInvocation SimpleName batik ext flow div tag
+add glyph position attributes SimpleName SuperMethodInvocation SimpleName as
+add glyph position attributes SimpleName SuperMethodInvocation SimpleName e
+add glyph position attributes SimpleName SuperMethodInvocation SimpleName ctx
+as SimpleName SuperMethodInvocation SimpleName e
+as SimpleName SuperMethodInvocation SimpleName ctx
+e SimpleName SuperMethodInvocation SimpleName ctx
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add glyph position attributes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName as
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SimpleName add glyph position attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName as
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+add glyph position attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+add glyph position attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName as
+add glyph position attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+add glyph position attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+add glyph position attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+add glyph position attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+as SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+as SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add glyph position attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add glyph position attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

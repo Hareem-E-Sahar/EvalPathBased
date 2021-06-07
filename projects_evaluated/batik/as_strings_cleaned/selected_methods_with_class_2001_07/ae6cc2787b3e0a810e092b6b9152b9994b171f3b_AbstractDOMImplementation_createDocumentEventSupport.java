@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName document event support
+public Modifier MethodDeclaration SimpleName create document event support
+document event support SimpleName SimpleType MethodDeclaration SimpleName create document event support
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName document event support
+public Modifier TypeDeclaration MethodDeclaration SimpleName create document event support
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName document event support
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create document event support

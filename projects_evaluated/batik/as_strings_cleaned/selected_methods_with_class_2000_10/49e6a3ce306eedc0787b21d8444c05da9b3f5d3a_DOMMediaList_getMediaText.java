@@ -1,0 +1,35 @@
+list SimpleName MethodInvocation SimpleName size
+list SimpleName MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+list SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName list
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName next
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+result SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName it
+result SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+it SimpleName MethodInvocation InfixExpression StringLiteral empty
+next SimpleName MethodInvocation InfixExpression StringLiteral empty
+it SimpleName MethodInvocation InfixExpression SimpleName result
+next SimpleName MethodInvocation InfixExpression SimpleName result
+empty StringLiteral InfixExpression SimpleName result
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName it
+result SimpleName Assignment InfixExpression MethodInvocation SimpleName next
+result SimpleName Assignment InfixExpression StringLiteral empty
+result SimpleName Assignment InfixExpression SimpleName result
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get media text
+string SimpleName SimpleType MethodDeclaration SimpleName get media text
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get media text
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get media text

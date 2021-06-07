@@ -1,0 +1,27 @@
+get svg context SimpleName MethodInvocation MethodInvocation SimpleName get screen transform
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get svg context
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName get screen transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scrn trans
+scrn trans SimpleName MethodInvocation SimpleName get determinant
+math SimpleName MethodInvocation SimpleName sqrt
+math SimpleName MethodInvocation MethodInvocation SimpleName scrn trans
+math SimpleName MethodInvocation MethodInvocation SimpleName get determinant
+sqrt SimpleName MethodInvocation MethodInvocation SimpleName scrn trans
+sqrt SimpleName MethodInvocation MethodInvocation SimpleName get determinant
+float PrimitiveType CastExpression MethodInvocation SimpleName math
+float PrimitiveType CastExpression MethodInvocation SimpleName sqrt
+float PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName scrn trans
+float PrimitiveType CastExpression MethodInvocation MethodInvocation SimpleName get determinant
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get current scale
+public Modifier MethodDeclaration Block ReturnStatement NumberLiteral empty
+float PrimitiveType MethodDeclaration SimpleName get current scale
+float PrimitiveType MethodDeclaration Block ReturnStatement NumberLiteral empty
+get current scale SimpleName MethodDeclaration Block ReturnStatement NumberLiteral empty
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get current scale
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get current scale

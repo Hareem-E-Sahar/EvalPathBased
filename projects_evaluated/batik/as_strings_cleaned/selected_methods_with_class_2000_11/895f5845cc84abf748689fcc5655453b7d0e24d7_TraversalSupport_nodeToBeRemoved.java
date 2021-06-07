@@ -1,0 +1,28 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName removed node
+iterators SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterators
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+dom node iterator SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+dom node iterator SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+node to be removed SimpleName MethodInvocation SimpleName removed node
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName node to be removed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName removed node
+void PrimitiveType MethodDeclaration SimpleName node to be removed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName removed node
+node to be removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+node to be removed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName removed node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName node to be removed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName removed node
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName node to be removed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName removed node

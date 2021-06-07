@@ -1,0 +1,226 @@
+int PrimitiveType SingleVariableDeclaration SimpleName seed
+s SimpleName VariableDeclarationFragment NumberLiteral empty
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+k SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName j
+i SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName j
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+i SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+j SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+j SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName k
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+setup seed SimpleName MethodInvocation SimpleName seed
+seed SimpleName Assignment MethodInvocation SimpleName setup seed
+seed SimpleName Assignment MethodInvocation SimpleName seed
+i SimpleName Assignment NumberLiteral empty
+i SimpleName InfixExpression SimpleName b size
+lattice selector SimpleName ArrayAccess SimpleName i
+lattice selector SimpleName ArrayAccess Assignment SimpleName i
+i SimpleName ArrayAccess Assignment SimpleName i
+i SimpleName Assignment ForStatement InfixExpression SimpleName i
+i SimpleName Assignment ForStatement InfixExpression SimpleName b size
+empty NumberLiteral Assignment ForStatement InfixExpression SimpleName i
+empty NumberLiteral Assignment ForStatement InfixExpression SimpleName b size
+i SimpleName Assignment ForStatement PostfixExpression SimpleName i
+empty NumberLiteral Assignment ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+b size SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+k SimpleName Assignment NumberLiteral empty
+k SimpleName InfixExpression NumberLiteral empty
+i SimpleName Assignment NumberLiteral empty
+i SimpleName InfixExpression SimpleName b size
+j SimpleName Assignment NumberLiteral empty
+j SimpleName InfixExpression NumberLiteral empty
+gradient SimpleName ArrayAccess SimpleName k
+gradient SimpleName ArrayAccess ArrayAccess SimpleName i
+k SimpleName ArrayAccess ArrayAccess SimpleName i
+gradient SimpleName ArrayAccess ArrayAccess ArrayAccess SimpleName j
+k SimpleName ArrayAccess ArrayAccess ArrayAccess SimpleName j
+i SimpleName ArrayAccess ArrayAccess SimpleName j
+random SimpleName MethodInvocation SimpleName seed
+seed SimpleName Assignment MethodInvocation SimpleName random
+seed SimpleName Assignment MethodInvocation SimpleName seed
+b size SimpleName InfixExpression SimpleName b size
+double PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName b size
+double PrimitiveType CastExpression InfixExpression SimpleName b size
+j SimpleName ArrayAccess Assignment InfixExpression SimpleName b size
+j SimpleName Assignment ForStatement InfixExpression SimpleName j
+j SimpleName Assignment ForStatement InfixExpression NumberLiteral empty
+empty NumberLiteral Assignment ForStatement InfixExpression SimpleName j
+empty NumberLiteral Assignment ForStatement InfixExpression NumberLiteral empty
+j SimpleName Assignment ForStatement PostfixExpression SimpleName j
+empty NumberLiteral Assignment ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName j
+gradient SimpleName ArrayAccess SimpleName k
+gradient SimpleName ArrayAccess ArrayAccess SimpleName i
+k SimpleName ArrayAccess ArrayAccess SimpleName i
+gradient SimpleName ArrayAccess ArrayAccess ArrayAccess NumberLiteral empty
+k SimpleName ArrayAccess ArrayAccess ArrayAccess NumberLiteral empty
+i SimpleName ArrayAccess ArrayAccess NumberLiteral empty
+gradient SimpleName ArrayAccess SimpleName k
+gradient SimpleName ArrayAccess ArrayAccess SimpleName i
+k SimpleName ArrayAccess ArrayAccess SimpleName i
+gradient SimpleName ArrayAccess ArrayAccess ArrayAccess NumberLiteral empty
+k SimpleName ArrayAccess ArrayAccess ArrayAccess NumberLiteral empty
+i SimpleName ArrayAccess ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+gradient SimpleName ArrayAccess SimpleName k
+gradient SimpleName ArrayAccess ArrayAccess SimpleName i
+k SimpleName ArrayAccess ArrayAccess SimpleName i
+gradient SimpleName ArrayAccess ArrayAccess ArrayAccess NumberLiteral empty
+k SimpleName ArrayAccess ArrayAccess ArrayAccess NumberLiteral empty
+i SimpleName ArrayAccess ArrayAccess NumberLiteral empty
+gradient SimpleName ArrayAccess SimpleName k
+gradient SimpleName ArrayAccess ArrayAccess SimpleName i
+k SimpleName ArrayAccess ArrayAccess SimpleName i
+gradient SimpleName ArrayAccess ArrayAccess ArrayAccess NumberLiteral empty
+k SimpleName ArrayAccess ArrayAccess ArrayAccess NumberLiteral empty
+i SimpleName ArrayAccess ArrayAccess NumberLiteral empty
+empty NumberLiteral ArrayAccess InfixExpression ArrayAccess NumberLiteral empty
+math SimpleName MethodInvocation SimpleName sqrt
+s SimpleName Assignment MethodInvocation SimpleName math
+s SimpleName Assignment MethodInvocation SimpleName sqrt
+gradient SimpleName ArrayAccess SimpleName k
+gradient SimpleName ArrayAccess ArrayAccess SimpleName i
+k SimpleName ArrayAccess ArrayAccess SimpleName i
+gradient SimpleName ArrayAccess ArrayAccess ArrayAccess NumberLiteral empty
+k SimpleName ArrayAccess ArrayAccess ArrayAccess NumberLiteral empty
+i SimpleName ArrayAccess ArrayAccess NumberLiteral empty
+i SimpleName ArrayAccess ArrayAccess Assignment SimpleName s
+empty NumberLiteral ArrayAccess Assignment SimpleName s
+gradient SimpleName ArrayAccess SimpleName k
+gradient SimpleName ArrayAccess ArrayAccess SimpleName i
+k SimpleName ArrayAccess ArrayAccess SimpleName i
+gradient SimpleName ArrayAccess ArrayAccess ArrayAccess NumberLiteral empty
+k SimpleName ArrayAccess ArrayAccess ArrayAccess NumberLiteral empty
+i SimpleName ArrayAccess ArrayAccess NumberLiteral empty
+i SimpleName ArrayAccess ArrayAccess Assignment SimpleName s
+empty NumberLiteral ArrayAccess Assignment SimpleName s
+i SimpleName Assignment ForStatement InfixExpression SimpleName i
+i SimpleName Assignment ForStatement InfixExpression SimpleName b size
+empty NumberLiteral Assignment ForStatement InfixExpression SimpleName i
+empty NumberLiteral Assignment ForStatement InfixExpression SimpleName b size
+i SimpleName Assignment ForStatement PostfixExpression SimpleName i
+empty NumberLiteral Assignment ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+b size SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+k SimpleName Assignment ForStatement InfixExpression SimpleName k
+k SimpleName Assignment ForStatement InfixExpression NumberLiteral empty
+empty NumberLiteral Assignment ForStatement InfixExpression SimpleName k
+empty NumberLiteral Assignment ForStatement InfixExpression NumberLiteral empty
+k SimpleName Assignment ForStatement PostfixExpression SimpleName k
+empty NumberLiteral Assignment ForStatement PostfixExpression SimpleName k
+k SimpleName InfixExpression ForStatement PostfixExpression SimpleName k
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName k
+i SimpleName PrefixExpression InfixExpression NumberLiteral empty
+lattice selector SimpleName ArrayAccess SimpleName i
+k SimpleName Assignment ArrayAccess SimpleName lattice selector
+k SimpleName Assignment ArrayAccess SimpleName i
+random SimpleName MethodInvocation SimpleName seed
+seed SimpleName Assignment MethodInvocation SimpleName random
+seed SimpleName Assignment MethodInvocation SimpleName seed
+seed SimpleName Assignment ParenthesizedExpression InfixExpression SimpleName b size
+j SimpleName Assignment InfixExpression SimpleName b size
+lattice selector SimpleName ArrayAccess SimpleName i
+lattice selector SimpleName ArrayAccess SimpleName j
+lattice selector SimpleName ArrayAccess Assignment ArrayAccess SimpleName lattice selector
+lattice selector SimpleName ArrayAccess Assignment ArrayAccess SimpleName j
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName lattice selector
+i SimpleName ArrayAccess Assignment ArrayAccess SimpleName j
+lattice selector SimpleName ArrayAccess SimpleName j
+lattice selector SimpleName ArrayAccess Assignment SimpleName k
+j SimpleName ArrayAccess Assignment SimpleName k
+i SimpleName Assignment NumberLiteral empty
+b size SimpleName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression SimpleName b size
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+b size SimpleName InfixExpression SimpleName i
+lattice selector SimpleName ArrayAccess InfixExpression SimpleName b size
+lattice selector SimpleName ArrayAccess InfixExpression SimpleName i
+lattice selector SimpleName ArrayAccess SimpleName i
+lattice selector SimpleName ArrayAccess Assignment ArrayAccess SimpleName lattice selector
+lattice selector SimpleName ArrayAccess Assignment ArrayAccess SimpleName i
+k SimpleName Assignment NumberLiteral empty
+k SimpleName InfixExpression NumberLiteral empty
+j SimpleName Assignment NumberLiteral empty
+j SimpleName InfixExpression NumberLiteral empty
+gradient SimpleName ArrayAccess SimpleName k
+b size SimpleName InfixExpression SimpleName i
+gradient SimpleName ArrayAccess ArrayAccess InfixExpression SimpleName b size
+gradient SimpleName ArrayAccess ArrayAccess InfixExpression SimpleName i
+k SimpleName ArrayAccess ArrayAccess InfixExpression SimpleName b size
+k SimpleName ArrayAccess ArrayAccess InfixExpression SimpleName i
+gradient SimpleName ArrayAccess ArrayAccess ArrayAccess SimpleName j
+k SimpleName ArrayAccess ArrayAccess ArrayAccess SimpleName j
+b size SimpleName InfixExpression ArrayAccess ArrayAccess SimpleName j
+i SimpleName InfixExpression ArrayAccess ArrayAccess SimpleName j
+gradient SimpleName ArrayAccess SimpleName k
+gradient SimpleName ArrayAccess ArrayAccess SimpleName i
+k SimpleName ArrayAccess ArrayAccess SimpleName i
+gradient SimpleName ArrayAccess ArrayAccess ArrayAccess SimpleName j
+k SimpleName ArrayAccess ArrayAccess ArrayAccess SimpleName j
+i SimpleName ArrayAccess ArrayAccess SimpleName j
+j SimpleName ArrayAccess Assignment ArrayAccess SimpleName j
+j SimpleName Assignment ForStatement InfixExpression SimpleName j
+j SimpleName Assignment ForStatement InfixExpression NumberLiteral empty
+empty NumberLiteral Assignment ForStatement InfixExpression SimpleName j
+empty NumberLiteral Assignment ForStatement InfixExpression NumberLiteral empty
+j SimpleName Assignment ForStatement PostfixExpression SimpleName j
+empty NumberLiteral Assignment ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName j
+k SimpleName Assignment ForStatement InfixExpression SimpleName k
+k SimpleName Assignment ForStatement InfixExpression NumberLiteral empty
+empty NumberLiteral Assignment ForStatement InfixExpression SimpleName k
+empty NumberLiteral Assignment ForStatement InfixExpression NumberLiteral empty
+k SimpleName Assignment ForStatement PostfixExpression SimpleName k
+empty NumberLiteral Assignment ForStatement PostfixExpression SimpleName k
+k SimpleName InfixExpression ForStatement PostfixExpression SimpleName k
+empty NumberLiteral InfixExpression ForStatement PostfixExpression SimpleName k
+i SimpleName Assignment ForStatement InfixExpression SimpleName i
+empty NumberLiteral Assignment ForStatement InfixExpression SimpleName i
+i SimpleName Assignment ForStatement PostfixExpression SimpleName i
+empty NumberLiteral Assignment ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+double PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName init
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName seed
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+private Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName init
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName seed
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+init SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName seed
+init SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+init SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seed
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName seed

@@ -1,0 +1,75 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName text
+walker SimpleName InfixExpression InfixExpression InfixExpression SimpleName gvt root
+gvt tree walker SimpleName SimpleType ClassInstanceCreation SimpleName gvt root
+walker SimpleName Assignment ClassInstanceCreation SimpleType SimpleName gvt tree walker
+walker SimpleName Assignment ClassInstanceCreation SimpleName gvt root
+walker SimpleName MethodInvocation SimpleName get current graphics node
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName walker
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current graphics node
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn
+text SimpleName MethodInvocation SimpleName length
+current index SimpleName InfixExpression MethodInvocation SimpleName text
+current index SimpleName InfixExpression MethodInvocation SimpleName length
+match SimpleName MethodInvocation SimpleName gn
+match SimpleName MethodInvocation SimpleName text
+match SimpleName MethodInvocation InfixExpression SimpleName current index
+match SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName text
+match SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+gn SimpleName MethodInvocation SimpleName text
+gn SimpleName MethodInvocation InfixExpression SimpleName current index
+gn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName text
+gn SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+text SimpleName MethodInvocation InfixExpression SimpleName current index
+text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName text
+text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName length
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName match
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName gn
+index SimpleName VariableDeclarationFragment MethodInvocation SimpleName text
+index SimpleName VariableDeclarationFragment MethodInvocation InfixExpression SimpleName current index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName index
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName match
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName gn
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName text
+index SimpleName InfixExpression NumberLiteral empty
+current index SimpleName Assignment SimpleName index
+current index SimpleName Assignment NumberLiteral empty
+walker SimpleName MethodInvocation SimpleName next graphics node
+gn SimpleName Assignment MethodInvocation SimpleName walker
+gn SimpleName Assignment MethodInvocation SimpleName next graphics node
+match SimpleName MethodInvocation SimpleName gn
+match SimpleName MethodInvocation SimpleName text
+match SimpleName MethodInvocation SimpleName current index
+gn SimpleName MethodInvocation SimpleName text
+gn SimpleName MethodInvocation SimpleName current index
+text SimpleName MethodInvocation SimpleName current index
+current index SimpleName Assignment MethodInvocation SimpleName match
+current index SimpleName Assignment MethodInvocation SimpleName gn
+current index SimpleName Assignment MethodInvocation SimpleName text
+current index SimpleName Assignment MethodInvocation SimpleName current index
+current index SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+current index SimpleName Assignment NumberLiteral empty
+walker SimpleName MethodInvocation SimpleName next graphics node
+gn SimpleName Assignment MethodInvocation SimpleName walker
+gn SimpleName Assignment MethodInvocation SimpleName next graphics node
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName gn
+protected Modifier MethodDeclaration SimpleType SimpleName graphics node
+protected Modifier MethodDeclaration SimpleName get next
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName text
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName gn
+graphics node SimpleName SimpleType MethodDeclaration SimpleName get next
+graphics node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName text
+get next SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get next SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text
+get next SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get next SimpleName MethodDeclaration Block ReturnStatement SimpleName gn
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+public Modifier TypeDeclaration MethodDeclaration SimpleName get next
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName graphics node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get next
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text

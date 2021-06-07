@@ -1,0 +1,25 @@
+svgom document SimpleName SimpleType SingleVariableDeclaration SimpleName doc
+doc SimpleName MethodInvocation SimpleName is svg
+svg bridge context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user agent
+svg bridge context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get document loader
+get user agent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get document loader
+bridge context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get user agent
+bridge context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get document loader
+get user agent SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get document loader
+public Modifier MethodDeclaration SimpleType SimpleName bridge context
+public Modifier MethodDeclaration SimpleName create bridge context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svgom document
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc
+bridge context SimpleName SimpleType MethodDeclaration SimpleName create bridge context
+bridge context SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName doc
+create bridge context SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svgom document
+create bridge context SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName bridge context
+public Modifier TypeDeclaration MethodDeclaration SimpleName create bridge context
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName bridge context
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create bridge context
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc

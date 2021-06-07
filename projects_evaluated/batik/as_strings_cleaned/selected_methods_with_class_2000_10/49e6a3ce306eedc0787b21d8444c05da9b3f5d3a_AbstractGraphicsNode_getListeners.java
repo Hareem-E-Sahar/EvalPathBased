@@ -1,0 +1,87 @@
+class SimpleName SimpleType SingleVariableDeclaration SimpleName listener type
+listeners SimpleName MethodInvocation SimpleName get listener count
+listeners SimpleName MethodInvocation SimpleName listener type
+get listener count SimpleName MethodInvocation SimpleName listener type
+array SimpleName MethodInvocation SimpleName new instance
+array SimpleName MethodInvocation SimpleName listener type
+array SimpleName MethodInvocation MethodInvocation SimpleName listeners
+array SimpleName MethodInvocation MethodInvocation SimpleName get listener count
+array SimpleName MethodInvocation MethodInvocation SimpleName listener type
+new instance SimpleName MethodInvocation SimpleName listener type
+new instance SimpleName MethodInvocation MethodInvocation SimpleName listeners
+new instance SimpleName MethodInvocation MethodInvocation SimpleName get listener count
+new instance SimpleName MethodInvocation MethodInvocation SimpleName listener type
+listener type SimpleName MethodInvocation MethodInvocation SimpleName listeners
+listener type SimpleName MethodInvocation MethodInvocation SimpleName get listener count
+listener type SimpleName MethodInvocation MethodInvocation SimpleName listener type
+array SimpleName VariableDeclarationFragment MethodInvocation SimpleName array
+array SimpleName VariableDeclarationFragment MethodInvocation SimpleName new instance
+array SimpleName VariableDeclarationFragment MethodInvocation SimpleName listener type
+array SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName listeners
+array SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get listener count
+array SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName listener type
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName array
+listeners SimpleName MethodInvocation SimpleName get listener list
+pair elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName listeners
+pair elements SimpleName VariableDeclarationFragment MethodInvocation SimpleName get listener list
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+i SimpleName VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+empty NumberLiteral VariableDeclarationFragment VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+pair elementslength QualifiedName InfixExpression NumberLiteral empty
+i SimpleName InfixExpression InfixExpression QualifiedName pair elementslength
+i SimpleName InfixExpression InfixExpression NumberLiteral empty
+i SimpleName Assignment NumberLiteral empty
+pair elements SimpleName ArrayAccess SimpleName i
+pair elements SimpleName ArrayAccess MethodInvocation SimpleName equals
+i SimpleName ArrayAccess MethodInvocation SimpleName equals
+pair elements SimpleName ArrayAccess MethodInvocation SimpleName listener type
+i SimpleName ArrayAccess MethodInvocation SimpleName listener type
+equals SimpleName MethodInvocation SimpleName listener type
+i SimpleName InfixExpression NumberLiteral empty
+pair elements SimpleName ArrayAccess InfixExpression SimpleName i
+pair elements SimpleName ArrayAccess InfixExpression NumberLiteral empty
+array SimpleName MethodInvocation SimpleName set
+array SimpleName MethodInvocation SimpleName array
+array SimpleName MethodInvocation SimpleName j
+array SimpleName MethodInvocation ArrayAccess SimpleName pair elements
+array SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName i
+array SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+set SimpleName MethodInvocation SimpleName array
+set SimpleName MethodInvocation SimpleName j
+set SimpleName MethodInvocation ArrayAccess SimpleName pair elements
+set SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName i
+set SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+array SimpleName MethodInvocation SimpleName j
+array SimpleName MethodInvocation ArrayAccess SimpleName pair elements
+array SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName i
+array SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+j SimpleName MethodInvocation ArrayAccess SimpleName pair elements
+j SimpleName MethodInvocation ArrayAccess InfixExpression SimpleName i
+j SimpleName MethodInvocation ArrayAccess InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement Assignment NumberLiteral empty
+i SimpleName InfixExpression ForStatement Assignment SimpleName i
+i SimpleName InfixExpression ForStatement Assignment NumberLiteral empty
+event listener SimpleName SimpleType ArrayType CastExpression SimpleName array
+public Modifier MethodDeclaration ArrayType SimpleType SimpleName event listener
+public Modifier MethodDeclaration SimpleName get listeners
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener type
+event listener SimpleName SimpleType ArrayType MethodDeclaration SimpleName get listeners
+get listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName class
+get listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener type
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleName get listeners
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener type
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get listeners
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener type

@@ -1,0 +1,30 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName obj
+obj SimpleName InstanceofExpression SimpleType SimpleName immutable float
+immutable float SimpleName SimpleType CastExpression SimpleName obj
+v SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName immutable float
+v SimpleName VariableDeclarationFragment CastExpression SimpleName obj
+immutable float SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+v SimpleName MethodInvocation SimpleName get float value
+v SimpleName MethodInvocation SimpleName unit type
+get float value SimpleName MethodInvocation SimpleName unit type
+float value SimpleName InfixExpression MethodInvocation SimpleName v
+float value SimpleName InfixExpression MethodInvocation SimpleName get float value
+float value SimpleName InfixExpression MethodInvocation SimpleName unit type
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName equals
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName obj
+boolean PrimitiveType MethodDeclaration SimpleName equals
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName obj
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+equals SimpleName MethodDeclaration SingleVariableDeclaration SimpleName obj
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName equals
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName equals
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName obj

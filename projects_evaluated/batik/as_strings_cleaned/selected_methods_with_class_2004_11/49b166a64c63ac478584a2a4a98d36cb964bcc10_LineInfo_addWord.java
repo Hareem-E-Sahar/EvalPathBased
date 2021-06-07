@@ -1,0 +1,70 @@
+word info SimpleName SimpleType SingleVariableDeclaration SimpleName wi
+wi SimpleName MethodInvocation SimpleName get line height
+nlh SimpleName VariableDeclarationFragment MethodInvocation SimpleName wi
+nlh SimpleName VariableDeclarationFragment MethodInvocation SimpleName get line height
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName nlh
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName wi
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get line height
+nlh SimpleName InfixExpression SimpleName line height
+insert word SimpleName MethodInvocation SimpleName wi
+fr SimpleName MethodInvocation SimpleName new line height
+fr SimpleName MethodInvocation SimpleName nlh
+new line height SimpleName MethodInvocation SimpleName nlh
+line height SimpleName InfixExpression NumberLiteral empty
+fr SimpleName MethodInvocation SimpleName new line height
+fr SimpleName MethodInvocation SimpleName line height
+new line height SimpleName MethodInvocation SimpleName line height
+insert word SimpleName MethodInvocation SimpleName wi
+line height SimpleName InfixExpression NumberLiteral empty
+set line height SimpleName MethodInvocation SimpleName line height
+line height SimpleName Assignment SimpleName nlh
+wi SimpleName MethodInvocation SimpleName get ascent
+wi SimpleName MethodInvocation InfixExpression SimpleName ascent
+get ascent SimpleName MethodInvocation InfixExpression SimpleName ascent
+wi SimpleName MethodInvocation SimpleName get ascent
+ascent SimpleName Assignment MethodInvocation SimpleName wi
+ascent SimpleName Assignment MethodInvocation SimpleName get ascent
+wi SimpleName MethodInvocation SimpleName get descent
+wi SimpleName MethodInvocation InfixExpression SimpleName descent
+get descent SimpleName MethodInvocation InfixExpression SimpleName descent
+wi SimpleName MethodInvocation SimpleName get descent
+descent SimpleName Assignment MethodInvocation SimpleName wi
+descent SimpleName Assignment MethodInvocation SimpleName get descent
+ascent SimpleName InfixExpression SimpleName descent
+nlh SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName ascent
+nlh SimpleName InfixExpression ParenthesizedExpression InfixExpression SimpleName descent
+nlh SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+h leading SimpleName Assignment InfixExpression NumberLiteral empty
+fr SimpleName MethodInvocation SimpleName get current y
+fr SimpleName MethodInvocation InfixExpression SimpleName h leading
+get current y SimpleName MethodInvocation InfixExpression SimpleName h leading
+fr SimpleName MethodInvocation InfixExpression SimpleName ascent
+get current y SimpleName MethodInvocation InfixExpression SimpleName ascent
+h leading SimpleName InfixExpression SimpleName ascent
+float PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName h leading
+float PrimitiveType CastExpression ParenthesizedExpression InfixExpression SimpleName ascent
+baseline SimpleName Assignment CastExpression PrimitiveType float
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName add word
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName word info
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName wi
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName add word
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName word info
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName wi
+boolean PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+add word SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName word info
+add word SimpleName MethodDeclaration SingleVariableDeclaration SimpleName wi
+add word SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+add word SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName add word
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wi
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add word
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName wi

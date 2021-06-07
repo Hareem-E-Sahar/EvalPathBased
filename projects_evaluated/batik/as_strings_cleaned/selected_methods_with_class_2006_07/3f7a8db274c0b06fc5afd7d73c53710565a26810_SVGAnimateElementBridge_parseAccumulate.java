@@ -1,0 +1,42 @@
+element SimpleName MethodInvocation SimpleName get attribute ns
+element SimpleName MethodInvocation SimpleName svg accumulate attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg accumulate attribute
+accumulate string SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+accumulate string SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute ns
+accumulate string SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg accumulate attribute
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName accumulate string
+accumulate string SimpleName MethodInvocation SimpleName length
+accumulate string SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+accumulate string SimpleName MethodInvocation SimpleName equals
+accumulate string SimpleName MethodInvocation QualifiedName smil constantssmil none value
+equals SimpleName MethodInvocation QualifiedName smil constantssmil none value
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName accumulate string
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation SimpleName equals
+empty NumberLiteral InfixExpression InfixExpression MethodInvocation QualifiedName smil constantssmil none value
+accumulate string SimpleName MethodInvocation SimpleName equals
+accumulate string SimpleName MethodInvocation QualifiedName smil constantssmil sum value
+equals SimpleName MethodInvocation QualifiedName smil constantssmil sum value
+svg accumulate attribute SimpleName ArrayInitializer SimpleName accumulate string
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName element
+bridge exception SimpleName SimpleType ClassInstanceCreation QualifiedName error constantserr attribute value malformed
+ctx SimpleName ClassInstanceCreation SimpleName element
+ctx SimpleName ClassInstanceCreation QualifiedName error constantserr attribute value malformed
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg accumulate attribute
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName accumulate string
+element SimpleName ClassInstanceCreation QualifiedName error constantserr attribute value malformed
+element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg accumulate attribute
+element SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName accumulate string
+error constantserr attribute value malformed QualifiedName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg accumulate attribute
+error constantserr attribute value malformed QualifiedName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName accumulate string
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName parse accumulate
+boolean PrimitiveType MethodDeclaration SimpleName parse accumulate
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse accumulate
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse accumulate

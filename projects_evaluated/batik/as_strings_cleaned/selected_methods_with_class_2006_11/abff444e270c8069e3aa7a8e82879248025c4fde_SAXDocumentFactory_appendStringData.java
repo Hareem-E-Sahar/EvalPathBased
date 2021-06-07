@@ -1,0 +1,52 @@
+string buffer SimpleName MethodInvocation SimpleName to string
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName string buffer
+str SimpleName VariableDeclarationFragment MethodInvocation SimpleName to string
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName str
+string buffer SimpleName MethodInvocation SimpleName set length
+string buffer SimpleName MethodInvocation NumberLiteral empty
+set length SimpleName MethodInvocation NumberLiteral empty
+string content SimpleName Assignment BooleanLiteral false
+c data info SimpleName SimpleType ClassInstanceCreation SimpleName str
+pre info SimpleName MethodInvocation SimpleName add
+pre info SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName c data info
+pre info SimpleName MethodInvocation ClassInstanceCreation SimpleName str
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName c data info
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName str
+text info SimpleName SimpleType ClassInstanceCreation SimpleName str
+pre info SimpleName MethodInvocation SimpleName add
+pre info SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text info
+pre info SimpleName MethodInvocation ClassInstanceCreation SimpleName str
+add SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName text info
+add SimpleName MethodInvocation ClassInstanceCreation SimpleName str
+in cdata SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName pre info
+in cdata SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName add
+in cdata SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName pre info
+in cdata SimpleName IfStatement ExpressionStatement MethodInvocation SimpleName add
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+document SimpleName MethodInvocation SimpleName create cdata section
+document SimpleName MethodInvocation SimpleName str
+create cdata section SimpleName MethodInvocation SimpleName str
+n SimpleName Assignment MethodInvocation SimpleName document
+n SimpleName Assignment MethodInvocation SimpleName create cdata section
+n SimpleName Assignment MethodInvocation SimpleName str
+document SimpleName MethodInvocation SimpleName create text node
+document SimpleName MethodInvocation SimpleName str
+create text node SimpleName MethodInvocation SimpleName str
+n SimpleName Assignment MethodInvocation SimpleName document
+n SimpleName Assignment MethodInvocation SimpleName create text node
+n SimpleName Assignment MethodInvocation SimpleName str
+in cdata SimpleName IfStatement ExpressionStatement Assignment SimpleName n
+in cdata SimpleName IfStatement ExpressionStatement Assignment SimpleName n
+current node SimpleName MethodInvocation SimpleName append child
+current node SimpleName MethodInvocation SimpleName n
+append child SimpleName MethodInvocation SimpleName n
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName append string data
+void PrimitiveType MethodDeclaration SimpleName append string data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName append string data
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append string data

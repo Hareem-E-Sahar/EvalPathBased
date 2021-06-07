@@ -1,0 +1,18 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName data
+public Modifier MethodDeclaration SimpleType SimpleName comment
+public Modifier MethodDeclaration SimpleName create comment
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+comment SimpleName SimpleType MethodDeclaration SimpleName create comment
+comment SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName data
+create comment SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+create comment SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName comment
+public Modifier TypeDeclaration MethodDeclaration SimpleName create comment
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName comment
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create comment
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data

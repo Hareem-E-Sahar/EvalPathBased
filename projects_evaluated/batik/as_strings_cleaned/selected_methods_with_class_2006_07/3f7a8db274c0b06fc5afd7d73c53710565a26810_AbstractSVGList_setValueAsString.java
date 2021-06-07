@@ -1,0 +1,66 @@
+list SimpleName SimpleType SingleVariableDeclaration SimpleName value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName final value
+value SimpleName MethodInvocation SimpleName iterator
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName value
+it SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName it
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+item SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg item
+item SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName it
+item SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+svg item SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName item
+item SimpleName MethodInvocation SimpleName get value as string
+string buffer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName item
+string buffer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get value as string
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName item
+buf SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get value as string
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buf
+it SimpleName MethodInvocation SimpleName has next
+it SimpleName MethodInvocation SimpleName next
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName it
+svg item SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+item SimpleName Assignment CastExpression SimpleType SimpleName svg item
+item SimpleName Assignment CastExpression MethodInvocation SimpleName it
+item SimpleName Assignment CastExpression MethodInvocation SimpleName next
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation MethodInvocation SimpleName get item separator
+append SimpleName MethodInvocation MethodInvocation SimpleName get item separator
+item SimpleName MethodInvocation SimpleName get value as string
+buf SimpleName MethodInvocation SimpleName append
+buf SimpleName MethodInvocation MethodInvocation SimpleName item
+buf SimpleName MethodInvocation MethodInvocation SimpleName get value as string
+append SimpleName MethodInvocation MethodInvocation SimpleName item
+append SimpleName MethodInvocation MethodInvocation SimpleName get value as string
+buf SimpleName MethodInvocation SimpleName to string
+final value SimpleName Assignment MethodInvocation SimpleName buf
+final value SimpleName Assignment MethodInvocation SimpleName to string
+set attribute value SimpleName MethodInvocation SimpleName final value
+valid SimpleName Assignment BooleanLiteral true
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName set value as string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+protected Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName set value as string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+set value as string SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName list
+set value as string SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+set value as string SimpleName MethodDeclaration SimpleType SimpleName dom exception
+value SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set value as string
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set value as string
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

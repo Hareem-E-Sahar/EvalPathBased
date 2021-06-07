@@ -1,0 +1,52 @@
+value SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral empty
+current SimpleName InfixExpression CharacterLiteral empty
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+value SimpleName InfixExpression NumberLiteral empty
+current SimpleName InfixExpression CharacterLiteral empty
+value SimpleName Assignment InfixExpression InfixExpression SimpleName value
+value SimpleName Assignment InfixExpression InfixExpression NumberLiteral empty
+reader SimpleName MethodInvocation SimpleName read
+current SimpleName Assignment MethodInvocation SimpleName reader
+current SimpleName Assignment MethodInvocation SimpleName read
+current SimpleName InfixExpression CharacterLiteral empty
+current SimpleName InfixExpression CharacterLiteral empty
+current SimpleName InfixExpression InfixExpression InfixExpression SimpleName current
+current SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName current
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral empty
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName value
+protected Modifier MethodDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SimpleName parse digits
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+protected Modifier MethodDeclaration SimpleType SimpleName io exception
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName value
+int PrimitiveType MethodDeclaration SimpleName parse digits
+int PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+int PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+int PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType MethodDeclaration Block ReturnStatement SimpleName value
+parse digits SimpleName MethodDeclaration SimpleType SimpleName parse exception
+parse digits SimpleName MethodDeclaration SimpleType SimpleName io exception
+parse digits SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse digits SimpleName MethodDeclaration Block ReturnStatement SimpleName value
+parse exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse digits
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse digits
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

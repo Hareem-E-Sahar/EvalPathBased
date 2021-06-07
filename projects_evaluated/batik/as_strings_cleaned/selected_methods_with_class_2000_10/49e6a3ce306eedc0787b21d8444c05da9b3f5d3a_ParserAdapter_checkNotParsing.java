@@ -1,0 +1,53 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName type
+string SimpleName SimpleType SingleVariableDeclaration SimpleName name
+cannot change StringLiteral InfixExpression SimpleName type
+cannot change StringLiteral InfixExpression CharacterLiteral empty
+cannot change StringLiteral InfixExpression SimpleName name
+cannot change StringLiteral InfixExpression StringLiteral while parsing
+type SimpleName InfixExpression CharacterLiteral empty
+type SimpleName InfixExpression SimpleName name
+type SimpleName InfixExpression StringLiteral while parsing
+empty CharacterLiteral InfixExpression SimpleName name
+empty CharacterLiteral InfixExpression StringLiteral while parsing
+name SimpleName InfixExpression StringLiteral while parsing
+sax not supported exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral cannot change
+sax not supported exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName type
+sax not supported exception SimpleName SimpleType ClassInstanceCreation InfixExpression CharacterLiteral empty
+sax not supported exception SimpleName SimpleType ClassInstanceCreation InfixExpression SimpleName name
+sax not supported exception SimpleName SimpleType ClassInstanceCreation InfixExpression StringLiteral while parsing
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName check not parsing
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName type
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName name
+private Modifier MethodDeclaration SimpleType SimpleName sax not supported exception
+void PrimitiveType MethodDeclaration SimpleName check not parsing
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName name
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax not supported exception
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName parsing
+check not parsing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check not parsing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName type
+check not parsing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+check not parsing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName name
+check not parsing SimpleName MethodDeclaration SimpleType SimpleName sax not supported exception
+check not parsing SimpleName MethodDeclaration Block IfStatement SimpleName parsing
+type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+type SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception
+name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check not parsing
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check not parsing
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax not supported exception

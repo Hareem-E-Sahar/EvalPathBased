@@ -1,0 +1,18 @@
+systemout QualifiedName MethodInvocation SimpleName print
+systemout QualifiedName MethodInvocation StringLiteral rad
+print SimpleName MethodInvocation StringLiteral rad
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName rad
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleName rad
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+rad SimpleName MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName rad
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName rad
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

@@ -1,0 +1,37 @@
+char PrimitiveType ArrayType SingleVariableDeclaration SimpleName text
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression QualifiedName textlength
+text SimpleName ArrayAccess SimpleName i
+xml utilities SimpleName MethodInvocation SimpleName is xml space
+xml utilities SimpleName MethodInvocation ArrayAccess SimpleName text
+xml utilities SimpleName MethodInvocation ArrayAccess SimpleName i
+is xml space SimpleName MethodInvocation ArrayAccess SimpleName text
+is xml space SimpleName MethodInvocation ArrayAccess SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName textlength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+textlength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName i
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is white space
+protected Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName text
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName is white space
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName text
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+is white space SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType char
+is white space SimpleName MethodDeclaration SingleVariableDeclaration SimpleName text
+is white space SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is white space
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is white space
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName text

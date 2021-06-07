@@ -1,0 +1,28 @@
+graphics d SimpleName SimpleType SingleVariableDeclaration SimpleName g d
+marker group SimpleName MethodInvocation SimpleName get children
+marker group SimpleName MethodInvocation MethodInvocation SimpleName size
+get children SimpleName MethodInvocation MethodInvocation SimpleName size
+marker group SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+get children SimpleName MethodInvocation MethodInvocation InfixExpression NumberLiteral empty
+size SimpleName MethodInvocation InfixExpression NumberLiteral empty
+marker group SimpleName MethodInvocation SimpleName paint
+marker group SimpleName MethodInvocation SimpleName g d
+paint SimpleName MethodInvocation SimpleName g d
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName paint
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName g d
+void PrimitiveType MethodDeclaration SimpleName paint
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName g d
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+paint SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g d
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName paint
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName paint
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d

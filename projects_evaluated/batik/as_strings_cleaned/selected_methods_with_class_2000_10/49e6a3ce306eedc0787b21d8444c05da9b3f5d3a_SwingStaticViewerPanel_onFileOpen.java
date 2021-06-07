@@ -1,0 +1,50 @@
+file chooser SimpleName Assignment ClassInstanceCreation SimpleType SimpleName j file chooser
+file chooser SimpleName MethodInvocation SimpleName set dialog type
+file chooser SimpleName MethodInvocation QualifiedName j file chooseropen dialog
+set dialog type SimpleName MethodInvocation QualifiedName j file chooseropen dialog
+file chooser SimpleName MethodInvocation SimpleName set file selection mode
+file chooser SimpleName MethodInvocation QualifiedName file chooserfiles only
+set file selection mode SimpleName MethodInvocation QualifiedName file chooserfiles only
+svg file filter SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svg file filter
+file chooser SimpleName MethodInvocation SimpleName add choosable file filter
+file chooser SimpleName MethodInvocation SimpleName svg file filter
+add choosable file filter SimpleName MethodInvocation SimpleName svg file filter
+file chooser SimpleName MethodInvocation SimpleName set file filter
+file chooser SimpleName MethodInvocation SimpleName svg file filter
+set file filter SimpleName MethodInvocation SimpleName svg file filter
+file chooser SimpleName MethodInvocation SimpleName show dialog
+file chooser SimpleName MethodInvocation QualifiedName messagesdialog file open title
+show dialog SimpleName MethodInvocation QualifiedName messagesdialog file open title
+choice SimpleName VariableDeclarationFragment MethodInvocation SimpleName file chooser
+choice SimpleName VariableDeclarationFragment MethodInvocation SimpleName show dialog
+choice SimpleName VariableDeclarationFragment MethodInvocation QualifiedName messagesdialog file open title
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName choice
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName file chooser
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName show dialog
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName messagesdialog file open title
+choice SimpleName InfixExpression QualifiedName j file chooserapprove option
+file chooser SimpleName MethodInvocation SimpleName get selected file
+selected file SimpleName VariableDeclarationFragment MethodInvocation SimpleName file chooser
+selected file SimpleName VariableDeclarationFragment MethodInvocation SimpleName get selected file
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName selected file
+selected file SimpleName MethodInvocation SimpleName to url
+selected file SimpleName MethodInvocation MethodInvocation SimpleName to string
+to url SimpleName MethodInvocation MethodInvocation SimpleName to string
+on open url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName selected file
+on open url SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName to url
+on open url SimpleName MethodInvocation MethodInvocation SimpleName to string
+malformed url exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+error SimpleName SimpleType ClassInstanceCreation QualifiedName messageserror internal error
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on file open
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName on file open
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+on file open SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on file open
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on file open

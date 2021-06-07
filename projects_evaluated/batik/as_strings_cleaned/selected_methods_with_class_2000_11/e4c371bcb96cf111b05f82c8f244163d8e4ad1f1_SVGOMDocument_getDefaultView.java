@@ -1,0 +1,25 @@
+context SimpleName Assignment ClassInstanceCreation SimpleType SimpleName default svg context
+svg view css SimpleName SimpleType ClassInstanceCreation SimpleName context
+default view SimpleName Assignment ClassInstanceCreation SimpleType SimpleName svg view css
+default view SimpleName Assignment ClassInstanceCreation SimpleName context
+svgdom implementation SimpleName SimpleType CastExpression MethodInvocation SimpleName get implementation
+impl SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgdom implementation
+impl SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get implementation
+svgdom implementation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName impl
+svg view css SimpleName SimpleType CastExpression SimpleName default view
+impl SimpleName MethodInvocation SimpleName get user agent style sheet
+default view SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName set user agent style sheet
+set user agent style sheet SimpleName MethodInvocation MethodInvocation SimpleName impl
+set user agent style sheet SimpleName MethodInvocation MethodInvocation SimpleName get user agent style sheet
+public Modifier MethodDeclaration SimpleType SimpleName abstract view
+public Modifier MethodDeclaration SimpleName get default view
+public Modifier MethodDeclaration Block ReturnStatement SimpleName default view
+abstract view SimpleName SimpleType MethodDeclaration SimpleName get default view
+get default view SimpleName MethodDeclaration Block ReturnStatement SimpleName default view
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName abstract view
+public Modifier TypeDeclaration MethodDeclaration SimpleName get default view
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName abstract view
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get default view

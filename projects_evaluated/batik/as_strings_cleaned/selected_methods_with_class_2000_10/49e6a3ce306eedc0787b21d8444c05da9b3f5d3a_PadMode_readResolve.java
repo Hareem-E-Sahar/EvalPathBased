@@ -1,0 +1,28 @@
+error SimpleName SimpleType ClassInstanceCreation StringLiteral unknown pad mode type
+mode SimpleName SwitchStatement SwitchCase SimpleName mode zero pad
+mode SimpleName SwitchStatement ReturnStatement SimpleName zero pad
+mode SimpleName SwitchStatement SwitchCase SimpleName mode replicate
+mode SimpleName SwitchStatement ReturnStatement SimpleName replicate
+mode zero pad SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName zero pad
+mode zero pad SimpleName SwitchCase SwitchStatement SwitchCase SimpleName mode replicate
+mode zero pad SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName replicate
+zero pad SimpleName ReturnStatement SwitchStatement SwitchCase SimpleName mode replicate
+zero pad SimpleName ReturnStatement SwitchStatement ReturnStatement SimpleName replicate
+mode replicate SimpleName SwitchCase SwitchStatement ReturnStatement SimpleName replicate
+private Modifier MethodDeclaration SimpleType SimpleName object
+private Modifier MethodDeclaration SimpleName read resolve
+private Modifier MethodDeclaration SimpleType QualifiedName javaioobject stream exception
+private Modifier MethodDeclaration Block SwitchStatement SimpleName mode
+object SimpleName SimpleType MethodDeclaration SimpleName read resolve
+object SimpleName SimpleType MethodDeclaration SimpleType QualifiedName javaioobject stream exception
+read resolve SimpleName MethodDeclaration SimpleType QualifiedName javaioobject stream exception
+read resolve SimpleName MethodDeclaration Block SwitchStatement SimpleName mode
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName read resolve
+public Modifier TypeDeclaration MethodDeclaration SimpleType QualifiedName javaioobject stream exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName read resolve
+test SimpleName TypeDeclaration MethodDeclaration SimpleType QualifiedName javaioobject stream exception

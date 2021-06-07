@@ -1,0 +1,25 @@
+timed element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration Modifier abstract
+protected Modifier MethodDeclaration SimpleType SimpleName event target
+protected Modifier MethodDeclaration SimpleName get parent event target
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+abstract Modifier MethodDeclaration SimpleType SimpleName event target
+abstract Modifier MethodDeclaration SimpleName get parent event target
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed element
+abstract Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+event target SimpleName SimpleType MethodDeclaration SimpleName get parent event target
+event target SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+get parent event target SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName timed element
+get parent event target SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier abstract
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName event target
+public Modifier TypeDeclaration MethodDeclaration SimpleName get parent event target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier abstract
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName event target
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get parent event target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e

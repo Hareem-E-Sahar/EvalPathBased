@@ -1,0 +1,29 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName value
+element SimpleName MethodInvocation SimpleName set attribute ns
+element SimpleName MethodInvocation SimpleName attribute ns uri
+element SimpleName MethodInvocation SimpleName attribute name
+element SimpleName MethodInvocation SimpleName value
+set attribute ns SimpleName MethodInvocation SimpleName attribute ns uri
+set attribute ns SimpleName MethodInvocation SimpleName attribute name
+set attribute ns SimpleName MethodInvocation SimpleName value
+attribute ns uri SimpleName MethodInvocation SimpleName attribute name
+attribute ns uri SimpleName MethodInvocation SimpleName value
+attribute name SimpleName MethodInvocation SimpleName value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set attribute value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName value
+void PrimitiveType MethodDeclaration SimpleName set attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName value
+set attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set attribute value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attribute value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attribute value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName value

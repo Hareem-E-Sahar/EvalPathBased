@@ -1,0 +1,30 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+cssdom exception factory SimpleName MethodInvocation SimpleName create dom exception
+cssdom exception factory SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+cssdom exception factory SimpleName MethodInvocation StringLiteral readonlydeclaration
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlydeclaration
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlydeclaration
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName remove property
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+string SimpleName SimpleType MethodDeclaration SimpleName remove property
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName property name
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+remove property SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+remove property SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+remove property SimpleName MethodDeclaration SimpleType SimpleName dom exception
+property name SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName remove property
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName remove property
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

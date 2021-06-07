@@ -1,0 +1,17 @@
+model SimpleName MethodInvocation SimpleName get previous entity uri
+previous entity uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName model
+previous entity uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get previous entity uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName previous entity uri
+model SimpleName MethodInvocation SimpleName set entity uri
+model SimpleName MethodInvocation SimpleName previous entity uri
+set entity uri SimpleName MethodInvocation SimpleName previous entity uri
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on previous
+void PrimitiveType MethodDeclaration SimpleName on previous
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on previous
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on previous

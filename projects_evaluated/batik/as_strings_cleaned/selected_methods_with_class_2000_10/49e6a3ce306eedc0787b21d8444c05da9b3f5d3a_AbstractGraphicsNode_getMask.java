@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName mask
+public Modifier MethodDeclaration SimpleName get mask
+public Modifier MethodDeclaration Block ReturnStatement SimpleName mask
+mask SimpleName SimpleType MethodDeclaration SimpleName get mask
+get mask SimpleName MethodDeclaration Block ReturnStatement SimpleName mask
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName mask
+public Modifier TypeDeclaration MethodDeclaration SimpleName get mask
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName mask
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get mask

@@ -1,0 +1,21 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName syncbase id
+string SimpleName SimpleType SingleVariableDeclaration SimpleName marker name
+void PrimitiveType MethodDeclaration SimpleName media marker
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName syncbase id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName marker name
+media marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+media marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleName syncbase id
+media marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+media marker SimpleName MethodDeclaration SingleVariableDeclaration SimpleName marker name
+syncbase id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName marker name
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName media marker
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName syncbase id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName marker name
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName media marker
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName syncbase id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName marker name

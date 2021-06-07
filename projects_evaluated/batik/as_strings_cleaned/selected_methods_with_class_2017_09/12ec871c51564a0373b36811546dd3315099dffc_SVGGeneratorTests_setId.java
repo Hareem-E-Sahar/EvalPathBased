@@ -1,0 +1,98 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+set id SimpleName SuperMethodInvocation SimpleName id
+get package name SimpleName MethodInvocation InfixExpression StringLiteral .
+get package name SimpleName MethodInvocation InfixExpression SimpleName id
+. StringLiteral InfixExpression SimpleName id
+cl name SimpleName VariableDeclarationFragment InfixExpression MethodInvocation SimpleName get package name
+cl name SimpleName VariableDeclarationFragment InfixExpression StringLiteral .
+cl name SimpleName VariableDeclarationFragment InfixExpression SimpleName id
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl name
+class SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cl
+class SimpleName MethodInvocation SimpleName for name
+class SimpleName MethodInvocation SimpleName cl name
+for name SimpleName MethodInvocation SimpleName cl name
+cl SimpleName Assignment MethodInvocation SimpleName class
+cl SimpleName Assignment MethodInvocation SimpleName for name
+cl SimpleName Assignment MethodInvocation SimpleName cl name
+class not found exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName cl name
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+cl SimpleName MethodInvocation SimpleName get declared constructor
+cl SimpleName MethodInvocation MethodInvocation SimpleName new instance
+get declared constructor SimpleName MethodInvocation MethodInvocation SimpleName new instance
+o SimpleName Assignment MethodInvocation MethodInvocation SimpleName cl
+o SimpleName Assignment MethodInvocation MethodInvocation SimpleName get declared constructor
+o SimpleName Assignment MethodInvocation SimpleName new instance
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName cl name
+o SimpleName InstanceofExpression SimpleType SimpleName painter
+illegal argument exception SimpleName SimpleType ClassInstanceCreation SimpleName cl name
+painter SimpleName SimpleType CastExpression SimpleName o
+painter SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName painter
+painter SimpleName VariableDeclarationFragment CastExpression SimpleName o
+painter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName painter
+make svg accuracy test SimpleName MethodInvocation SimpleName painter
+make svg accuracy test SimpleName MethodInvocation SimpleName id
+painter SimpleName MethodInvocation SimpleName id
+add test SimpleName MethodInvocation MethodInvocation SimpleName make svg accuracy test
+add test SimpleName MethodInvocation MethodInvocation SimpleName painter
+add test SimpleName MethodInvocation MethodInvocation SimpleName id
+make generator context SimpleName MethodInvocation SimpleName painter
+make generator context SimpleName MethodInvocation SimpleName id
+painter SimpleName MethodInvocation SimpleName id
+add test SimpleName MethodInvocation MethodInvocation SimpleName make generator context
+add test SimpleName MethodInvocation MethodInvocation SimpleName painter
+add test SimpleName MethodInvocation MethodInvocation SimpleName id
+make svg rendering accuracy test SimpleName MethodInvocation SimpleName painter
+make svg rendering accuracy test SimpleName MethodInvocation SimpleName id
+make svg rendering accuracy test SimpleName MethodInvocation SimpleName plain generation prefix
+painter SimpleName MethodInvocation SimpleName id
+painter SimpleName MethodInvocation SimpleName plain generation prefix
+id SimpleName MethodInvocation SimpleName plain generation prefix
+add test SimpleName MethodInvocation MethodInvocation SimpleName make svg rendering accuracy test
+add test SimpleName MethodInvocation MethodInvocation SimpleName painter
+add test SimpleName MethodInvocation MethodInvocation SimpleName id
+add test SimpleName MethodInvocation MethodInvocation SimpleName plain generation prefix
+make svg rendering accuracy test SimpleName MethodInvocation SimpleName painter
+make svg rendering accuracy test SimpleName MethodInvocation SimpleName id
+make svg rendering accuracy test SimpleName MethodInvocation SimpleName custom context generation prefix
+painter SimpleName MethodInvocation SimpleName id
+painter SimpleName MethodInvocation SimpleName custom context generation prefix
+id SimpleName MethodInvocation SimpleName custom context generation prefix
+add test SimpleName MethodInvocation MethodInvocation SimpleName make svg rendering accuracy test
+add test SimpleName MethodInvocation MethodInvocation SimpleName painter
+add test SimpleName MethodInvocation MethodInvocation SimpleName id
+add test SimpleName MethodInvocation MethodInvocation SimpleName custom context generation prefix
+make image compare test SimpleName MethodInvocation SimpleName painter
+make image compare test SimpleName MethodInvocation SimpleName id
+make image compare test SimpleName MethodInvocation SimpleName plain generation prefix
+make image compare test SimpleName MethodInvocation SimpleName custom context generation prefix
+painter SimpleName MethodInvocation SimpleName id
+painter SimpleName MethodInvocation SimpleName plain generation prefix
+painter SimpleName MethodInvocation SimpleName custom context generation prefix
+id SimpleName MethodInvocation SimpleName plain generation prefix
+id SimpleName MethodInvocation SimpleName custom context generation prefix
+plain generation prefix SimpleName MethodInvocation SimpleName custom context generation prefix
+add test SimpleName MethodInvocation MethodInvocation SimpleName make image compare test
+add test SimpleName MethodInvocation MethodInvocation SimpleName painter
+add test SimpleName MethodInvocation MethodInvocation SimpleName id
+add test SimpleName MethodInvocation MethodInvocation SimpleName plain generation prefix
+add test SimpleName MethodInvocation MethodInvocation SimpleName custom context generation prefix
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+void PrimitiveType MethodDeclaration SimpleName set id
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName id
+set id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+set id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id

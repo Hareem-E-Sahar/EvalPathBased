@@ -1,0 +1,104 @@
+attributed string SimpleName SimpleType SingleVariableDeclaration SimpleName as
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+text node SimpleName SimpleType SingleVariableDeclaration SimpleName node
+text paint info SimpleName SimpleType SingleVariableDeclaration SimpleName pi
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName get user agent
+svg utilities SimpleName MethodInvocation SimpleName match user agent
+svg utilities SimpleName MethodInvocation SimpleName element
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName ctx
+svg utilities SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+match user agent SimpleName MethodInvocation SimpleName element
+match user agent SimpleName MethodInvocation MethodInvocation SimpleName ctx
+match user agent SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+element SimpleName MethodInvocation MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation MethodInvocation SimpleName get user agent
+css utilities SimpleName MethodInvocation SimpleName convert display
+css utilities SimpleName MethodInvocation SimpleName element
+convert display SimpleName MethodInvocation SimpleName element
+elem tpi SimpleName MethodInvocation SimpleName get
+elem tpi SimpleName MethodInvocation SimpleName element
+get SimpleName MethodInvocation SimpleName element
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName elem tpi
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+o SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName o
+text paint info SimpleName SimpleType CastExpression SimpleName o
+node SimpleName MethodInvocation SimpleName swap text paint info
+node SimpleName MethodInvocation SimpleName pi
+node SimpleName MethodInvocation CastExpression SimpleType SimpleName text paint info
+node SimpleName MethodInvocation CastExpression SimpleName o
+swap text paint info SimpleName MethodInvocation SimpleName pi
+swap text paint info SimpleName MethodInvocation CastExpression SimpleType SimpleName text paint info
+swap text paint info SimpleName MethodInvocation CastExpression SimpleName o
+pi SimpleName MethodInvocation CastExpression SimpleType SimpleName text paint info
+pi SimpleName MethodInvocation CastExpression SimpleName o
+add child paint attributes SimpleName MethodInvocation SimpleName as
+add child paint attributes SimpleName MethodInvocation SimpleName element
+add child paint attributes SimpleName MethodInvocation SimpleName node
+add child paint attributes SimpleName MethodInvocation SimpleName pi
+add child paint attributes SimpleName MethodInvocation SimpleName ctx
+as SimpleName MethodInvocation SimpleName element
+as SimpleName MethodInvocation SimpleName node
+as SimpleName MethodInvocation SimpleName pi
+as SimpleName MethodInvocation SimpleName ctx
+element SimpleName MethodInvocation SimpleName node
+element SimpleName MethodInvocation SimpleName pi
+element SimpleName MethodInvocation SimpleName ctx
+node SimpleName MethodInvocation SimpleName pi
+node SimpleName MethodInvocation SimpleName ctx
+pi SimpleName MethodInvocation SimpleName ctx
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName add paint attributes
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName as
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SimpleName add paint attributes
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName as
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text paint info
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName pi
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attributed string
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName as
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text node
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName node
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName text paint info
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pi
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+add paint attributes SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+as SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+as SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+as SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pi
+as SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pi
+element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pi
+node SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+pi SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add paint attributes
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pi
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add paint attributes
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName as
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pi
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx

@@ -1,0 +1,38 @@
+animation target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+targets SimpleName MethodInvocation SimpleName get
+targets SimpleName MethodInvocation SimpleName target
+get SimpleName MethodInvocation SimpleName target
+target info SimpleName SimpleType CastExpression MethodInvocation SimpleName targets
+target info SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+target info SimpleName SimpleType CastExpression MethodInvocation SimpleName target
+info SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName target info
+info SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName targets
+info SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+info SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName target
+target info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName info
+info SimpleName Assignment ClassInstanceCreation SimpleType SimpleName target info
+targets SimpleName MethodInvocation SimpleName put
+targets SimpleName MethodInvocation SimpleName target
+targets SimpleName MethodInvocation SimpleName info
+put SimpleName MethodInvocation SimpleName target
+put SimpleName MethodInvocation SimpleName info
+target SimpleName MethodInvocation SimpleName info
+protected Modifier MethodDeclaration SimpleType SimpleName target info
+protected Modifier MethodDeclaration SimpleName get target info
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName target
+protected Modifier MethodDeclaration Block ReturnStatement SimpleName info
+target info SimpleName SimpleType MethodDeclaration SimpleName get target info
+target info SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName target
+get target info SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animation target
+get target info SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+get target info SimpleName MethodDeclaration Block ReturnStatement SimpleName info
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName target info
+public Modifier TypeDeclaration MethodDeclaration SimpleName get target info
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName target info
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get target info
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

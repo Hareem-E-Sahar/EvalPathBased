@@ -1,0 +1,47 @@
+float PrimitiveType SingleVariableDeclaration SimpleName sx
+float PrimitiveType SingleVariableDeclaration SimpleName sy
+type SimpleName Assignment SimpleName svg transform scale
+affine transform SimpleName MethodInvocation SimpleName get scale instance
+affine transform SimpleName MethodInvocation SimpleName sx
+affine transform SimpleName MethodInvocation SimpleName sy
+get scale instance SimpleName MethodInvocation SimpleName sx
+get scale instance SimpleName MethodInvocation SimpleName sy
+sx SimpleName MethodInvocation SimpleName sy
+affine transform SimpleName Assignment MethodInvocation SimpleName affine transform
+affine transform SimpleName Assignment MethodInvocation SimpleName get scale instance
+affine transform SimpleName Assignment MethodInvocation SimpleName sx
+affine transform SimpleName Assignment MethodInvocation SimpleName sy
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set scale
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sx
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName sy
+void PrimitiveType MethodDeclaration SimpleName set scale
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName sy
+set scale SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set scale SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sx
+set scale SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set scale SimpleName MethodDeclaration SingleVariableDeclaration SimpleName sy
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sy
+sx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+sx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sy
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set scale
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sy
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set scale
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName sy

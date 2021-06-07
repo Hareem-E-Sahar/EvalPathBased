@@ -1,0 +1,54 @@
+function SimpleName SimpleType SingleVariableDeclaration SimpleName handler
+arguments builder SimpleName SimpleType SingleVariableDeclaration SimpleName ab
+ctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName enter context
+context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctx
+ab SimpleName MethodInvocation SimpleName build arguments
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName ab
+args SimpleName VariableDeclarationFragment MethodInvocation SimpleName build arguments
+handler SimpleName MethodInvocation SimpleName get parent scope
+handler SimpleName MethodInvocation SimpleName call
+handler SimpleName MethodInvocation SimpleName ctx
+handler SimpleName MethodInvocation MethodInvocation SimpleName handler
+handler SimpleName MethodInvocation MethodInvocation SimpleName get parent scope
+handler SimpleName MethodInvocation SimpleName global object
+handler SimpleName MethodInvocation SimpleName args
+call SimpleName MethodInvocation SimpleName ctx
+call SimpleName MethodInvocation MethodInvocation SimpleName handler
+call SimpleName MethodInvocation MethodInvocation SimpleName get parent scope
+call SimpleName MethodInvocation SimpleName global object
+call SimpleName MethodInvocation SimpleName args
+ctx SimpleName MethodInvocation MethodInvocation SimpleName handler
+ctx SimpleName MethodInvocation MethodInvocation SimpleName get parent scope
+ctx SimpleName MethodInvocation SimpleName global object
+ctx SimpleName MethodInvocation SimpleName args
+handler SimpleName MethodInvocation MethodInvocation SimpleName global object
+get parent scope SimpleName MethodInvocation MethodInvocation SimpleName global object
+handler SimpleName MethodInvocation MethodInvocation SimpleName args
+get parent scope SimpleName MethodInvocation MethodInvocation SimpleName args
+global object SimpleName MethodInvocation SimpleName args
+context SimpleName MethodInvocation SimpleName exit
+void PrimitiveType MethodDeclaration SimpleName call handler
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName function
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName handler
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName arguments builder
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ab
+void PrimitiveType MethodDeclaration SimpleType SimpleName java script exception
+call handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName function
+call handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName handler
+call handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName arguments builder
+call handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ab
+call handler SimpleName MethodDeclaration SimpleType SimpleName java script exception
+handler SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ab
+handler SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName java script exception
+ab SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName java script exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName call handler
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ab
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName java script exception
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName call handler
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName handler
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ab
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName java script exception

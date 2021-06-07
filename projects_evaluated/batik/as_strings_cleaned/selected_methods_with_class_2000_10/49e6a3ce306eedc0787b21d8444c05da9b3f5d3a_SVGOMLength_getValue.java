@@ -1,0 +1,52 @@
+attribute modifier SimpleName MethodInvocation SimpleName get svg element
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName attribute modifier
+elt SimpleName VariableDeclarationFragment MethodInvocation SimpleName get svg element
+svg element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+elt SimpleName MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName elt
+svgom document SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom document
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName elt
+doc SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+unit processorcontext QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctx
+doc SimpleName MethodInvocation SimpleName get svg context
+default unit processor context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName doc
+default unit processor context SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get svg context
+default unit processor context SimpleName SimpleType ClassInstanceCreation SimpleName elt
+doc SimpleName MethodInvocation ClassInstanceCreation SimpleName elt
+get svg context SimpleName MethodInvocation ClassInstanceCreation SimpleName elt
+ctx SimpleName Assignment ClassInstanceCreation SimpleType SimpleName default unit processor context
+ctx SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName doc
+ctx SimpleName Assignment ClassInstanceCreation MethodInvocation SimpleName get svg context
+ctx SimpleName Assignment ClassInstanceCreation SimpleName elt
+unit processor SimpleName MethodInvocation SimpleName svg to user space
+unit processor SimpleName MethodInvocation SimpleName unit type
+unit processor SimpleName MethodInvocation SimpleName value in specified units
+unit processor SimpleName MethodInvocation SimpleName elt
+unit processor SimpleName MethodInvocation SimpleName direction
+svg to user space SimpleName MethodInvocation SimpleName unit type
+svg to user space SimpleName MethodInvocation SimpleName value in specified units
+svg to user space SimpleName MethodInvocation SimpleName elt
+svg to user space SimpleName MethodInvocation SimpleName direction
+svg to user space SimpleName MethodInvocation SimpleName ctx
+unit type SimpleName MethodInvocation SimpleName value in specified units
+unit type SimpleName MethodInvocation SimpleName elt
+unit type SimpleName MethodInvocation SimpleName direction
+unit type SimpleName MethodInvocation SimpleName ctx
+value in specified units SimpleName MethodInvocation SimpleName elt
+value in specified units SimpleName MethodInvocation SimpleName direction
+value in specified units SimpleName MethodInvocation SimpleName ctx
+elt SimpleName MethodInvocation SimpleName direction
+elt SimpleName MethodInvocation SimpleName ctx
+direction SimpleName MethodInvocation SimpleName ctx
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get value
+float PrimitiveType MethodDeclaration SimpleName get value
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get value
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get value

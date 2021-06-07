@@ -1,0 +1,44 @@
+parsed url SimpleName SimpleType SingleVariableDeclaration SimpleName resource url
+parsed url SimpleName SimpleType SingleVariableDeclaration SimpleName doc url
+get external resource security SimpleName MethodInvocation SimpleName resource url
+get external resource security SimpleName MethodInvocation SimpleName doc url
+resource url SimpleName MethodInvocation SimpleName doc url
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get external resource security
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName resource url
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName doc url
+external resource security SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName check load external resource
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName check load external resource
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName resource url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName doc url
+public Modifier MethodDeclaration SimpleType SimpleName security exception
+void PrimitiveType MethodDeclaration SimpleName check load external resource
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName resource url
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName doc url
+void PrimitiveType MethodDeclaration SimpleType SimpleName security exception
+check load external resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+check load external resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName resource url
+check load external resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+check load external resource SimpleName MethodDeclaration SingleVariableDeclaration SimpleName doc url
+check load external resource SimpleName MethodDeclaration SimpleType SimpleName security exception
+resource url SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc url
+resource url SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName security exception
+doc url SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName security exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check load external resource
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource url
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc url
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName security exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check load external resource
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName resource url
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName doc url
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName security exception

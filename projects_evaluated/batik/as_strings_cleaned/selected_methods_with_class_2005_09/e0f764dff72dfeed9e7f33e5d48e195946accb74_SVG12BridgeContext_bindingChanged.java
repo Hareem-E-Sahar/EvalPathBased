@@ -1,0 +1,48 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName bindable element
+element SimpleName SimpleType SingleVariableDeclaration SimpleName shadow tree
+get bridge update handler SimpleName MethodInvocation SimpleName bindable element
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName get bridge update handler
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName bindable element
+bridge update handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+h SimpleName InstanceofExpression SimpleType SimpleName svg bridge update handler
+svg bridge update handler SimpleName SimpleType CastExpression SimpleName h
+h SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg bridge update handler
+h SimpleName VariableDeclarationFragment CastExpression SimpleName h
+svg bridge update handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+h SimpleName MethodInvocation SimpleName handle binding event
+h SimpleName MethodInvocation SimpleName bindable element
+h SimpleName MethodInvocation SimpleName shadow tree
+handle binding event SimpleName MethodInvocation SimpleName bindable element
+handle binding event SimpleName MethodInvocation SimpleName shadow tree
+bindable element SimpleName MethodInvocation SimpleName shadow tree
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+user agent SimpleName MethodInvocation SimpleName display error
+user agent SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName binding changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName bindable element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName shadow tree
+void PrimitiveType MethodDeclaration SimpleName binding changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bindable element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shadow tree
+binding changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+binding changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bindable element
+binding changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+binding changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shadow tree
+bindable element SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shadow tree
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName binding changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bindable element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shadow tree
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName binding changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bindable element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shadow tree

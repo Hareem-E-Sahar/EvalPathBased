@@ -1,0 +1,177 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName selector
+selector type SimpleName Assignment SimpleName selector invalid
+scanner SimpleName SimpleType ClassInstanceCreation SimpleName selector
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName scanner
+scanner SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleName selector
+scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scanner
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner
+token SimpleName VariableDeclarationFragment MethodInvocation SimpleName next
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName token
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName scanner
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannername
+scanner SimpleName MethodInvocation SimpleName get string value
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannereof
+selector type SimpleName Assignment SimpleName selector qname
+local name SimpleName Assignment SimpleName name
+index SimpleName Assignment NumberLiteral empty
+token SimpleName InfixExpression QualifiedName scannercolon
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannername
+scanner SimpleName MethodInvocation SimpleName get string value
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner
+name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannereof
+selector type SimpleName Assignment SimpleName selector qname
+prefix SimpleName Assignment SimpleName name
+local name SimpleName Assignment SimpleName name
+index SimpleName Assignment NumberLiteral empty
+token SimpleName InfixExpression QualifiedName scannerleft square bracket
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannernumber
+scanner SimpleName MethodInvocation SimpleName get string value
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName scanner
+integer SimpleName MethodInvocation MethodInvocation SimpleName get string value
+parse int SimpleName MethodInvocation MethodInvocation SimpleName scanner
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get string value
+number SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+number SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+number SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName scanner
+number SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get string value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName number
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannerright square bracket
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannereof
+selector type SimpleName Assignment SimpleName selector qname
+prefix SimpleName Assignment SimpleName name
+local name SimpleName Assignment SimpleName name
+index SimpleName Assignment SimpleName number
+token SimpleName InfixExpression QualifiedName scannerleft square bracket
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannernumber
+scanner SimpleName MethodInvocation SimpleName get string value
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName scanner
+integer SimpleName MethodInvocation MethodInvocation SimpleName get string value
+parse int SimpleName MethodInvocation MethodInvocation SimpleName scanner
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get string value
+number SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+number SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+number SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName scanner
+number SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get string value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName number
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannerright square bracket
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannereof
+selector type SimpleName Assignment SimpleName selector qname
+local name SimpleName Assignment SimpleName name
+index SimpleName Assignment SimpleName number
+token SimpleName InfixExpression QualifiedName scannerleft parenthesis
+name SimpleName MethodInvocation SimpleName equals
+name SimpleName MethodInvocation StringLiteral id
+equals SimpleName MethodInvocation StringLiteral id
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannerstring
+scanner SimpleName MethodInvocation SimpleName get string value
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName scanner
+id SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName id
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannerright parenthesis
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannereof
+selector type SimpleName Assignment SimpleName selector id
+local name SimpleName Assignment SimpleName id
+token SimpleName InfixExpression QualifiedName scannerasterisk
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannereof
+selector type SimpleName Assignment SimpleName selector any
+token SimpleName InfixExpression QualifiedName scannerleft square bracket
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannernumber
+scanner SimpleName MethodInvocation SimpleName get string value
+integer SimpleName MethodInvocation SimpleName parse int
+integer SimpleName MethodInvocation MethodInvocation SimpleName scanner
+integer SimpleName MethodInvocation MethodInvocation SimpleName get string value
+parse int SimpleName MethodInvocation MethodInvocation SimpleName scanner
+parse int SimpleName MethodInvocation MethodInvocation SimpleName get string value
+number SimpleName VariableDeclarationFragment MethodInvocation SimpleName integer
+number SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse int
+number SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName scanner
+number SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get string value
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName number
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName integer
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse int
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannerright square bracket
+scanner SimpleName MethodInvocation SimpleName next
+token SimpleName Assignment MethodInvocation SimpleName scanner
+token SimpleName Assignment MethodInvocation SimpleName next
+token SimpleName InfixExpression QualifiedName scannereof
+selector type SimpleName Assignment SimpleName selector any
+index SimpleName Assignment SimpleName number
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName parse selector
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName selector
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName parse selector
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName selector
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+parse selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse selector SimpleName MethodDeclaration SingleVariableDeclaration SimpleName selector
+parse selector SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse selector
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse selector
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName selector

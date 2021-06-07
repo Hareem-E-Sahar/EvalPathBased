@@ -1,0 +1,29 @@
+int PrimitiveType SingleVariableDeclaration SimpleName charnum
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! svgom text elementget rotation of char
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get rotation of char
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName charnum
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+float PrimitiveType MethodDeclaration SimpleName get rotation of char
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName charnum
+float PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+get rotation of char SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get rotation of char SimpleName MethodDeclaration SingleVariableDeclaration SimpleName charnum
+get rotation of char SimpleName MethodDeclaration SimpleType SimpleName dom exception
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+charnum SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get rotation of char
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get rotation of char
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName charnum
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

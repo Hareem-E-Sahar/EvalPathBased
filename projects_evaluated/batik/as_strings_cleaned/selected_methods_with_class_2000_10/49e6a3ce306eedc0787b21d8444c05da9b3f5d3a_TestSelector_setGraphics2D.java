@@ -1,0 +1,20 @@
+graphics d SimpleName SimpleType SingleVariableDeclaration SimpleName g d
+g d SimpleName FieldAccess Assignment SimpleName g d
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set graphics d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName g d
+void PrimitiveType MethodDeclaration SimpleName set graphics d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName g d
+set graphics d SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics d
+set graphics d SimpleName MethodDeclaration SingleVariableDeclaration SimpleName g d
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set graphics d
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set graphics d
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName g d

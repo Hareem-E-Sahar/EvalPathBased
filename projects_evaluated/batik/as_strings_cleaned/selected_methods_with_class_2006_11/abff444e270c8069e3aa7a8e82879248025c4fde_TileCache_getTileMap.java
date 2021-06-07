@@ -1,0 +1,28 @@
+tile generator SimpleName SimpleType SingleVariableDeclaration SimpleName src
+tile map SimpleName SimpleType ClassInstanceCreation SimpleName src
+tile map SimpleName SimpleType ClassInstanceCreation SimpleName cache
+src SimpleName ClassInstanceCreation SimpleName cache
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName tile store
+public Modifier MethodDeclaration SimpleName get tile map
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tile generator
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+static Modifier MethodDeclaration SimpleType SimpleName tile store
+static Modifier MethodDeclaration SimpleName get tile map
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tile generator
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName src
+tile store SimpleName SimpleType MethodDeclaration SimpleName get tile map
+tile store SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName src
+get tile map SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName tile generator
+get tile map SimpleName MethodDeclaration SingleVariableDeclaration SimpleName src
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName tile store
+public Modifier TypeDeclaration MethodDeclaration SimpleName get tile map
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName tile store
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get tile map
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName src

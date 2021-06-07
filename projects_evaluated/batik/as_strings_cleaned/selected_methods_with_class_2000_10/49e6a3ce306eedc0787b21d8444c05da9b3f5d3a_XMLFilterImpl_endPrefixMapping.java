@@ -1,0 +1,28 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName prefix
+content handler SimpleName MethodInvocation SimpleName end prefix mapping
+content handler SimpleName MethodInvocation SimpleName prefix
+end prefix mapping SimpleName MethodInvocation SimpleName prefix
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName end prefix mapping
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier MethodDeclaration SimpleType SimpleName sax exception
+void PrimitiveType MethodDeclaration SimpleName end prefix mapping
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName prefix
+void PrimitiveType MethodDeclaration SimpleType SimpleName sax exception
+end prefix mapping SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+end prefix mapping SimpleName MethodDeclaration SingleVariableDeclaration SimpleName prefix
+end prefix mapping SimpleName MethodDeclaration SimpleType SimpleName sax exception
+prefix SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName sax exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName end prefix mapping
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName end prefix mapping
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName prefix
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName sax exception

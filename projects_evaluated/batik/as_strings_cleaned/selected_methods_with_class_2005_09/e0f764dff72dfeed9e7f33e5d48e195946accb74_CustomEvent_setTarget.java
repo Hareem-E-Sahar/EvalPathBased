@@ -1,0 +1,13 @@
+event target SimpleName SimpleType SingleVariableDeclaration SimpleName target
+void PrimitiveType MethodDeclaration SimpleName set target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName target
+set target SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event target
+set target SimpleName MethodDeclaration SingleVariableDeclaration SimpleName target
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set target
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set target
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName target

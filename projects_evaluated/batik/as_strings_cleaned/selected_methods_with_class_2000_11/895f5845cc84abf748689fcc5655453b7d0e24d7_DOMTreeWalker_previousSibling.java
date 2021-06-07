@@ -1,0 +1,48 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName InfixExpression SimpleName root
+n SimpleName MethodInvocation SimpleName get previous sibling
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+result SimpleName VariableDeclarationFragment MethodInvocation SimpleName get previous sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+n SimpleName MethodInvocation SimpleName get parent node
+result SimpleName Assignment MethodInvocation SimpleName n
+result SimpleName Assignment MethodInvocation SimpleName get parent node
+result SimpleName InfixExpression SimpleName root
+result SimpleName InfixExpression InfixExpression InfixExpression SimpleName result
+result SimpleName InfixExpression InfixExpression InfixExpression SimpleName root
+accept node SimpleName MethodInvocation SimpleName result
+accept node SimpleName MethodInvocation InfixExpression QualifiedName node filterfilter skip
+result SimpleName MethodInvocation InfixExpression QualifiedName node filterfilter skip
+previous sibling SimpleName MethodInvocation SimpleName result
+accept node SimpleName MethodInvocation SimpleName result
+last child SimpleName MethodInvocation SimpleName result
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName last child
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName result
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+previous sibling SimpleName MethodInvocation SimpleName result
+accept node SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName node filterfilter accept
+result SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName node filterfilter accept
+accept node SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName result
+result SimpleName MethodInvocation SwitchStatement ReturnStatement SimpleName result
+accept node SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName node filterfilter skip
+result SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName node filterfilter skip
+node filterfilter accept QualifiedName SwitchCase SwitchStatement ReturnStatement SimpleName result
+node filterfilter accept QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName node filterfilter skip
+result SimpleName ReturnStatement SwitchStatement SwitchCase QualifiedName node filterfilter skip
+protected Modifier MethodDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SimpleName previous sibling
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleName previous sibling
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+previous sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+previous sibling SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName previous sibling
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName previous sibling
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

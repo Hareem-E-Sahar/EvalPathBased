@@ -1,0 +1,131 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName event type
+graphics node key event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+context SimpleName MethodInvocation SimpleName get focus manager
+fmgr SimpleName VariableDeclarationFragment MethodInvocation SimpleName context
+fmgr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get focus manager
+focus manager SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fmgr
+fmgr SimpleName MethodInvocation SimpleName get current event target
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName fmgr
+element SimpleName SimpleType CastExpression MethodInvocation SimpleName get current event target
+target element SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+target element SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName fmgr
+target element SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get current event target
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName target element
+target element SimpleName MethodInvocation SimpleName get owner document
+document event SimpleName SimpleType CastExpression MethodInvocation SimpleName target element
+document event SimpleName SimpleType CastExpression MethodInvocation SimpleName get owner document
+d SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName document event
+d SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName target element
+d SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get owner document
+document event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName d
+d SimpleName MethodInvocation SimpleName create event
+d SimpleName MethodInvocation StringLiteral keyboard event
+create event SimpleName MethodInvocation StringLiteral keyboard event
+dom keyboard event SimpleName SimpleType CastExpression MethodInvocation SimpleName d
+dom keyboard event SimpleName SimpleType CastExpression MethodInvocation SimpleName create event
+dom keyboard event SimpleName SimpleType CastExpression MethodInvocation StringLiteral keyboard event
+key evt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName dom keyboard event
+key evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName d
+key evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName create event
+key evt SimpleName VariableDeclarationFragment CastExpression MethodInvocation StringLiteral keyboard event
+dom keyboard event SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName key evt
+evt SimpleName MethodInvocation SimpleName get key code
+map key code to identifier SimpleName MethodInvocation MethodInvocation SimpleName evt
+map key code to identifier SimpleName MethodInvocation MethodInvocation SimpleName get key code
+evt SimpleName MethodInvocation SimpleName get key location
+map key location SimpleName MethodInvocation MethodInvocation SimpleName evt
+map key location SimpleName MethodInvocation MethodInvocation SimpleName get key location
+evt SimpleName MethodInvocation SimpleName get lock state
+evt SimpleName MethodInvocation SimpleName get modifiers
+get modifiers list SimpleName MethodInvocation MethodInvocation SimpleName evt
+get modifiers list SimpleName MethodInvocation MethodInvocation SimpleName get lock state
+get modifiers list SimpleName MethodInvocation MethodInvocation SimpleName evt
+get modifiers list SimpleName MethodInvocation MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+evt SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get modifiers
+get lock state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+get lock state SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get modifiers
+key evt SimpleName MethodInvocation SimpleName init keyboard event ns
+key evt SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+key evt SimpleName MethodInvocation SimpleName event type
+key evt SimpleName MethodInvocation BooleanLiteral true
+key evt SimpleName MethodInvocation BooleanLiteral true
+init keyboard event ns SimpleName MethodInvocation QualifiedName xml constantsxml events namespace uri
+init keyboard event ns SimpleName MethodInvocation SimpleName event type
+init keyboard event ns SimpleName MethodInvocation BooleanLiteral true
+init keyboard event ns SimpleName MethodInvocation BooleanLiteral true
+xml constantsxml events namespace uri QualifiedName MethodInvocation SimpleName event type
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral true
+xml constantsxml events namespace uri QualifiedName MethodInvocation BooleanLiteral true
+xml constantsxml events namespace uri QualifiedName MethodInvocation MethodInvocation SimpleName map key code to identifier
+xml constantsxml events namespace uri QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+xml constantsxml events namespace uri QualifiedName MethodInvocation MethodInvocation MethodInvocation SimpleName get key code
+event type SimpleName MethodInvocation BooleanLiteral true
+event type SimpleName MethodInvocation BooleanLiteral true
+event type SimpleName MethodInvocation MethodInvocation SimpleName map key code to identifier
+event type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+event type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key code
+event type SimpleName MethodInvocation MethodInvocation SimpleName map key location
+event type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+event type SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key location
+true BooleanLiteral MethodInvocation BooleanLiteral true
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName map key code to identifier
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key code
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName map key location
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key location
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName get modifiers list
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get lock state
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get modifiers
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName map key code to identifier
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key code
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName map key location
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key location
+true BooleanLiteral MethodInvocation MethodInvocation SimpleName get modifiers list
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get lock state
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName evt
+true BooleanLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get modifiers
+map key code to identifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName map key location
+map key code to identifier SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get modifiers list
+map key location SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get modifiers list
+event target SimpleName SimpleType CastExpression SimpleName target element
+target element SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName dispatch event
+target element SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName key evt
+dispatch event SimpleName MethodInvocation SimpleName key evt
+runtime exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+ua SimpleName MethodInvocation SimpleName display error
+ua SimpleName MethodInvocation SimpleName e
+display error SimpleName MethodInvocation SimpleName e
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName dispatch keyboard event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName event type
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName dispatch keyboard event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName event type
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+dispatch keyboard event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+dispatch keyboard event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName event type
+dispatch keyboard event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName graphics node key event
+dispatch keyboard event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+event type SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch keyboard event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event type
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch keyboard event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName event type
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

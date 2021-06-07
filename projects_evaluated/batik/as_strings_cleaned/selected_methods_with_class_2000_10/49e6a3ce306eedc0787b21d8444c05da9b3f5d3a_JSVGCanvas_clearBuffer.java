@@ -1,0 +1,76 @@
+int PrimitiveType SingleVariableDeclaration SimpleName w
+int PrimitiveType SingleVariableDeclaration SimpleName h
+buffer SimpleName MethodInvocation SimpleName create graphics
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName buffer
+g SimpleName VariableDeclarationFragment MethodInvocation SimpleName create graphics
+graphics d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName g
+g SimpleName MethodInvocation SimpleName set composite
+g SimpleName MethodInvocation QualifiedName alpha compositesrc over
+set composite SimpleName MethodInvocation QualifiedName alpha compositesrc over
+g SimpleName MethodInvocation SimpleName set clip
+g SimpleName MethodInvocation NumberLiteral empty
+g SimpleName MethodInvocation NumberLiteral empty
+g SimpleName MethodInvocation SimpleName w
+g SimpleName MethodInvocation SimpleName h
+set clip SimpleName MethodInvocation NumberLiteral empty
+set clip SimpleName MethodInvocation NumberLiteral empty
+set clip SimpleName MethodInvocation SimpleName w
+set clip SimpleName MethodInvocation SimpleName h
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName w
+empty NumberLiteral MethodInvocation SimpleName h
+empty NumberLiteral MethodInvocation SimpleName w
+empty NumberLiteral MethodInvocation SimpleName h
+w SimpleName MethodInvocation SimpleName h
+g SimpleName MethodInvocation SimpleName set paint
+g SimpleName MethodInvocation QualifiedName colorwhite
+set paint SimpleName MethodInvocation QualifiedName colorwhite
+g SimpleName MethodInvocation SimpleName fill rect
+g SimpleName MethodInvocation NumberLiteral empty
+g SimpleName MethodInvocation NumberLiteral empty
+g SimpleName MethodInvocation SimpleName w
+g SimpleName MethodInvocation SimpleName h
+fill rect SimpleName MethodInvocation NumberLiteral empty
+fill rect SimpleName MethodInvocation NumberLiteral empty
+fill rect SimpleName MethodInvocation SimpleName w
+fill rect SimpleName MethodInvocation SimpleName h
+empty NumberLiteral MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation SimpleName w
+empty NumberLiteral MethodInvocation SimpleName h
+empty NumberLiteral MethodInvocation SimpleName w
+empty NumberLiteral MethodInvocation SimpleName h
+w SimpleName MethodInvocation SimpleName h
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName clear buffer
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName w
+protected Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName h
+void PrimitiveType MethodDeclaration SimpleName clear buffer
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName w
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName h
+clear buffer SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+clear buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName w
+clear buffer SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+clear buffer SimpleName MethodDeclaration SingleVariableDeclaration SimpleName h
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+w SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+w SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear buffer
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear buffer
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName w
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h

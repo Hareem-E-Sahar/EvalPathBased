@@ -1,0 +1,28 @@
+output SimpleName MethodInvocation SimpleName write
+output SimpleName MethodInvocation CharacterLiteral m
+write SimpleName MethodInvocation CharacterLiteral m
+output SimpleName MethodInvocation SimpleName write
+output SimpleName MethodInvocation CharacterLiteral m
+write SimpleName MethodInvocation CharacterLiteral m
+output SimpleName MethodInvocation SimpleName write
+output SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+output SimpleName MethodInvocation SimpleName write
+output SimpleName MethodInvocation NumberLiteral empty
+write SimpleName MethodInvocation NumberLiteral empty
+write long SimpleName MethodInvocation NumberLiteral empty
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName write file header
+private Modifier MethodDeclaration SimpleType SimpleName io exception
+void PrimitiveType MethodDeclaration SimpleName write file header
+void PrimitiveType MethodDeclaration SimpleType SimpleName io exception
+write file header SimpleName MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName write file header
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName write file header
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

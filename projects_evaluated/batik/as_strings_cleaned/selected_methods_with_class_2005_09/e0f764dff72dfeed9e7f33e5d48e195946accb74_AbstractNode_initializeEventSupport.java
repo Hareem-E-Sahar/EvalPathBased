@@ -1,0 +1,27 @@
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get current document
+abstract document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+doc SimpleName MethodInvocation SimpleName get implementation
+abstract dom implementation SimpleName SimpleType CastExpression MethodInvocation SimpleName doc
+abstract dom implementation SimpleName SimpleType CastExpression MethodInvocation SimpleName get implementation
+di SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract dom implementation
+di SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName doc
+di SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get implementation
+abstract dom implementation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName di
+di SimpleName MethodInvocation SimpleName create event support
+event support SimpleName Assignment MethodInvocation SimpleName di
+event support SimpleName Assignment MethodInvocation SimpleName create event support
+doc SimpleName MethodInvocation SimpleName set events enabled
+doc SimpleName MethodInvocation BooleanLiteral true
+set events enabled SimpleName MethodInvocation BooleanLiteral true
+public Modifier MethodDeclaration SimpleType SimpleName event support
+public Modifier MethodDeclaration SimpleName initialize event support
+public Modifier MethodDeclaration Block ReturnStatement SimpleName event support
+event support SimpleName SimpleType MethodDeclaration SimpleName initialize event support
+initialize event support SimpleName MethodDeclaration Block ReturnStatement SimpleName event support
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName event support
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize event support
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName event support
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize event support

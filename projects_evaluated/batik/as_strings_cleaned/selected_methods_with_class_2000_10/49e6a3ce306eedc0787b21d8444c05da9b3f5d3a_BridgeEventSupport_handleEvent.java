@@ -1,0 +1,39 @@
+event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+interpreter SimpleName MethodInvocation SimpleName bind object
+interpreter SimpleName MethodInvocation SimpleName event name
+interpreter SimpleName MethodInvocation SimpleName evt
+bind object SimpleName MethodInvocation SimpleName event name
+bind object SimpleName MethodInvocation SimpleName evt
+event name SimpleName MethodInvocation SimpleName evt
+string reader SimpleName SimpleType ClassInstanceCreation SimpleName script
+interpreter SimpleName MethodInvocation SimpleName evaluate
+interpreter SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string reader
+interpreter SimpleName MethodInvocation ClassInstanceCreation SimpleName script
+evaluate SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName string reader
+evaluate SimpleName MethodInvocation ClassInstanceCreation SimpleName script
+io exception SimpleName SimpleType SingleVariableDeclaration SimpleName io
+interpreter exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get message
+ua SimpleName MethodInvocation SimpleName display error
+ua SimpleName MethodInvocation MethodInvocation SimpleName e
+ua SimpleName MethodInvocation MethodInvocation SimpleName get message
+display error SimpleName MethodInvocation MethodInvocation SimpleName e
+display error SimpleName MethodInvocation MethodInvocation SimpleName get message
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName handle event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event
+handle event SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle event
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle event
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName evt

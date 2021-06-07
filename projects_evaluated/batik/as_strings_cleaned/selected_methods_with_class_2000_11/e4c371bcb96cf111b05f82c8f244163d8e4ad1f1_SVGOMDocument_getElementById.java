@@ -1,0 +1,29 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName element id
+element id SimpleName MethodInvocation SimpleName equals
+element id SimpleName MethodInvocation StringLiteral empty
+equals SimpleName MethodInvocation StringLiteral empty
+element id SimpleName InfixExpression InfixExpression MethodInvocation SimpleName element id
+element id SimpleName InfixExpression InfixExpression MethodInvocation SimpleName equals
+element id SimpleName InfixExpression InfixExpression MethodInvocation StringLiteral empty
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName get document element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+get by id SimpleName MethodInvocation SimpleName element id
+get by id SimpleName MethodInvocation SimpleName e
+element id SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SimpleName get element by id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName element id
+element SimpleName SimpleType MethodDeclaration SimpleName get element by id
+element SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName element id
+get element by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get element by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element id
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get element by id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element id
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get element by id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element id

@@ -1,0 +1,83 @@
+object SimpleName SimpleType SingleVariableDeclaration SimpleName o
+rectangle SimpleName SimpleType CastExpression SimpleName o
+r SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName rectangle
+r SimpleName VariableDeclarationFragment CastExpression SimpleName o
+rectangle SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+idx SimpleName InfixExpression SimpleName size
+rects SimpleName ArrayAccess SimpleName idx
+rects SimpleName ArrayAccess FieldAccess SimpleName x
+idx SimpleName ArrayAccess FieldAccess SimpleName x
+rects SimpleName ArrayAccess FieldAccess InfixExpression QualifiedName rx
+idx SimpleName ArrayAccess FieldAccess InfixExpression QualifiedName rx
+x SimpleName FieldAccess InfixExpression QualifiedName rx
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral rect list manager entries must be sorted
+idx SimpleName InfixExpression NumberLiteral empty
+idx SimpleName InfixExpression NumberLiteral empty
+rects SimpleName ArrayAccess InfixExpression SimpleName idx
+rects SimpleName ArrayAccess InfixExpression NumberLiteral empty
+rects SimpleName ArrayAccess FieldAccess SimpleName x
+idx SimpleName InfixExpression ArrayAccess FieldAccess SimpleName x
+empty NumberLiteral InfixExpression ArrayAccess FieldAccess SimpleName x
+rects SimpleName ArrayAccess FieldAccess InfixExpression QualifiedName rx
+x SimpleName FieldAccess InfixExpression QualifiedName rx
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral rect list manager entries must be sorted
+size SimpleName InfixExpression NumberLiteral empty
+ensure capacity SimpleName MethodInvocation InfixExpression SimpleName size
+ensure capacity SimpleName MethodInvocation InfixExpression NumberLiteral empty
+idx SimpleName InfixExpression SimpleName size
+idx SimpleName InfixExpression NumberLiteral empty
+size SimpleName InfixExpression SimpleName idx
+system SimpleName MethodInvocation SimpleName arraycopy
+system SimpleName MethodInvocation SimpleName rects
+system SimpleName MethodInvocation SimpleName idx
+system SimpleName MethodInvocation SimpleName rects
+system SimpleName MethodInvocation InfixExpression SimpleName idx
+system SimpleName MethodInvocation InfixExpression NumberLiteral empty
+arraycopy SimpleName MethodInvocation SimpleName rects
+arraycopy SimpleName MethodInvocation SimpleName idx
+arraycopy SimpleName MethodInvocation SimpleName rects
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName idx
+arraycopy SimpleName MethodInvocation InfixExpression NumberLiteral empty
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName size
+arraycopy SimpleName MethodInvocation InfixExpression SimpleName idx
+rects SimpleName MethodInvocation SimpleName idx
+rects SimpleName MethodInvocation SimpleName rects
+rects SimpleName MethodInvocation InfixExpression SimpleName idx
+rects SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rects SimpleName MethodInvocation InfixExpression SimpleName size
+rects SimpleName MethodInvocation InfixExpression SimpleName idx
+idx SimpleName MethodInvocation SimpleName rects
+idx SimpleName MethodInvocation InfixExpression SimpleName idx
+idx SimpleName MethodInvocation InfixExpression NumberLiteral empty
+idx SimpleName MethodInvocation InfixExpression SimpleName size
+idx SimpleName MethodInvocation InfixExpression SimpleName idx
+rects SimpleName MethodInvocation InfixExpression SimpleName idx
+rects SimpleName MethodInvocation InfixExpression NumberLiteral empty
+rects SimpleName MethodInvocation InfixExpression SimpleName size
+rects SimpleName MethodInvocation InfixExpression SimpleName idx
+idx SimpleName InfixExpression MethodInvocation InfixExpression SimpleName size
+idx SimpleName InfixExpression MethodInvocation InfixExpression SimpleName idx
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName size
+empty NumberLiteral InfixExpression MethodInvocation InfixExpression SimpleName idx
+rects SimpleName ArrayAccess SimpleName idx
+rects SimpleName ArrayAccess Assignment SimpleName r
+idx SimpleName ArrayAccess Assignment SimpleName r
+remove ok SimpleName Assignment BooleanLiteral false
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName o
+void PrimitiveType MethodDeclaration SimpleName add
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName o
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName object
+add SimpleName MethodDeclaration SingleVariableDeclaration SimpleName o
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName o

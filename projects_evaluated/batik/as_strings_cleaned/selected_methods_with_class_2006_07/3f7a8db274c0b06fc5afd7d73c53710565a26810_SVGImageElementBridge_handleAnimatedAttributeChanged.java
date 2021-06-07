@@ -1,0 +1,115 @@
+animated live attribute value SimpleName SimpleType SingleVariableDeclaration SimpleName alav
+alav SimpleName MethodInvocation SimpleName get namespace uri
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName alav
+ns SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns
+alav SimpleName MethodInvocation SimpleName get local name
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName alav
+ln SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ln
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg x attribute
+equals SimpleName MethodInvocation SimpleName svg x attribute
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg y attribute
+equals SimpleName MethodInvocation SimpleName svg y attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg y attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg y attribute
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg x attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg y attribute
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg width attribute
+equals SimpleName MethodInvocation SimpleName svg width attribute
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg height attribute
+equals SimpleName MethodInvocation SimpleName svg height attribute
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg height attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg height attribute
+svg width attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+svg width attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg width attribute SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg height attribute
+svg image element SimpleName SimpleType CastExpression SimpleName e
+ie SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg image element
+ie SimpleName VariableDeclarationFragment CastExpression SimpleName e
+svg image element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ie
+image node SimpleName SimpleType CastExpression SimpleName node
+image node SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName image node
+image node SimpleName VariableDeclarationFragment CastExpression SimpleName node
+image node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName image node
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName val
+ln SimpleName MethodInvocation SimpleName char at
+ln SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+ln SimpleName MethodInvocation InfixExpression CharacterLiteral w
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral w
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral w
+ie SimpleName MethodInvocation SimpleName get width
+ie SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get width SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+ie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName get anim val
+val SimpleName Assignment MethodInvocation SimpleName get value
+ie SimpleName MethodInvocation SimpleName get height
+ie SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get height SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+ie SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get height SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+val SimpleName Assignment MethodInvocation MethodInvocation SimpleName get anim val
+val SimpleName Assignment MethodInvocation SimpleName get value
+val SimpleName InfixExpression NumberLiteral empty
+image node SimpleName MethodInvocation SimpleName get image
+image node SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName shape node
+get image SimpleName MethodInvocation InstanceofExpression SimpleType SimpleName shape node
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName svg preserve aspect ratio attribute
+equals SimpleName MethodInvocation SimpleName svg preserve aspect ratio attribute
+ns SimpleName MethodInvocation SimpleName equals
+ns SimpleName MethodInvocation SimpleName xlink namespace uri
+equals SimpleName MethodInvocation SimpleName xlink namespace uri
+ln SimpleName MethodInvocation SimpleName equals
+ln SimpleName MethodInvocation SimpleName xlink href attribute
+equals SimpleName MethodInvocation SimpleName xlink href attribute
+ns SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+ns SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ns SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName xlink href attribute
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName xlink href attribute
+xlink namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName ln
+xlink namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+xlink namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName xlink href attribute
+live attribute exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+ctx SimpleName ClassInstanceCreation SimpleName ex
+handle animated attribute changed SimpleName SuperMethodInvocation SimpleName alav
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName handle animated attribute changed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animated live attribute value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName alav
+void PrimitiveType MethodDeclaration SimpleName handle animated attribute changed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animated live attribute value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName alav
+handle animated attribute changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName animated live attribute value
+handle animated attribute changed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName alav
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle animated attribute changed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alav
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle animated attribute changed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName alav

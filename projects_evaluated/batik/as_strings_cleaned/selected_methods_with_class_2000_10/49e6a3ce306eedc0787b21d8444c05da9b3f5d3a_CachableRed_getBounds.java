@@ -1,0 +1,10 @@
+public Modifier MethodDeclaration SimpleType SimpleName rectangle
+public Modifier MethodDeclaration SimpleName get bounds
+rectangle SimpleName SimpleType MethodDeclaration SimpleName get bounds
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle
+public Modifier TypeDeclaration MethodDeclaration SimpleName get bounds
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rectangle
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get bounds

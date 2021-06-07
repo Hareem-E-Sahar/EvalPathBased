@@ -1,0 +1,32 @@
+scripting environment SimpleName MethodInvocation SimpleName load scripts
+scripting environment SimpleName MethodInvocation SimpleName dispatch svg load event
+bridge context SimpleName MethodInvocation SimpleName is svg
+bridge context SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName bridge contextxbl manager
+is svg SimpleName MethodInvocation InfixExpression InfixExpression QualifiedName bridge contextxbl manager
+svg bridge context SimpleName SimpleType CastExpression SimpleName bridge context
+ctx SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svg bridge context
+ctx SimpleName VariableDeclarationFragment CastExpression SimpleName bridge context
+svg bridge context SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ctx
+ctx SimpleName MethodInvocation SimpleName add binding listener
+bridge contextxbl manager QualifiedName MethodInvocation SimpleName start processing
+public Modifier MethodDeclaration Modifier synchronized
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispatch svg load event
+public Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+synchronized Modifier MethodDeclaration PrimitiveType void
+synchronized Modifier MethodDeclaration SimpleName dispatch svg load event
+synchronized Modifier MethodDeclaration SimpleType SimpleName interrupted exception
+void PrimitiveType MethodDeclaration SimpleName dispatch svg load event
+void PrimitiveType MethodDeclaration SimpleType SimpleName interrupted exception
+dispatch svg load event SimpleName MethodDeclaration SimpleType SimpleName interrupted exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier synchronized
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispatch svg load event
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier synchronized
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispatch svg load event
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName interrupted exception

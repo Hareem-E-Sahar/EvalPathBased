@@ -1,0 +1,37 @@
+float PrimitiveType SingleVariableDeclaration SimpleName dev x
+float PrimitiveType SingleVariableDeclaration SimpleName dev y
+runtime exception SimpleName SimpleType ClassInstanceCreation StringLiteral !!! svgfe gaussian blur elementset std deviation
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set std deviation
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dev x
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName dev y
+void PrimitiveType MethodDeclaration SimpleName set std deviation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dev x
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName dev y
+set std deviation SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set std deviation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dev x
+set std deviation SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+set std deviation SimpleName MethodDeclaration SingleVariableDeclaration SimpleName dev y
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dev y
+dev x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+dev x SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dev y
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set std deviation
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dev x
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dev y
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set std deviation
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dev x
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName dev y

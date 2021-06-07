@@ -1,0 +1,63 @@
+value SimpleName SimpleType SingleVariableDeclaration SimpleName v
+v SimpleName MethodInvocation SimpleName get string value
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName v
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get string value
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName char at
+s SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral m
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral m
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral m
+s SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName basic strokejoin miter
+char at SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName basic strokejoin miter
+empty NumberLiteral MethodInvocation SwitchStatement ReturnStatement QualifiedName basic strokejoin miter
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral r
+s SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName basic strokejoin round
+char at SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName basic strokejoin round
+empty NumberLiteral MethodInvocation SwitchStatement ReturnStatement QualifiedName basic strokejoin round
+s SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+char at SimpleName MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+empty NumberLiteral MethodInvocation SwitchStatement SwitchCase CharacterLiteral b
+m CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName basic strokejoin miter
+m CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral r
+m CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName basic strokejoin round
+m CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral b
+m CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName basic strokejoin bevel
+basic strokejoin miter QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral r
+basic strokejoin miter QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName basic strokejoin round
+basic strokejoin miter QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral b
+basic strokejoin miter QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName basic strokejoin bevel
+r CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName basic strokejoin round
+r CharacterLiteral SwitchCase SwitchStatement SwitchCase CharacterLiteral b
+r CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName basic strokejoin bevel
+basic strokejoin round QualifiedName ReturnStatement SwitchStatement SwitchCase CharacterLiteral b
+basic strokejoin round QualifiedName ReturnStatement SwitchStatement ReturnStatement QualifiedName basic strokejoin bevel
+b CharacterLiteral SwitchCase SwitchStatement ReturnStatement QualifiedName basic strokejoin bevel
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType int
+public Modifier MethodDeclaration SimpleName convert stroke linejoin
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName convert stroke linejoin
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName v
+int PrimitiveType MethodDeclaration SimpleName convert stroke linejoin
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName v
+convert stroke linejoin SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName value
+convert stroke linejoin SimpleName MethodDeclaration SingleVariableDeclaration SimpleName v
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert stroke linejoin
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert stroke linejoin
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName v

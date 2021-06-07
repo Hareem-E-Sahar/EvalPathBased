@@ -1,0 +1,17 @@
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName svgom transform
+svgom transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ret SimpleName MethodInvocation SimpleName set type
+ret SimpleName MethodInvocation QualifiedName svg transformsvg transform matrix
+set type SimpleName MethodInvocation QualifiedName svg transformsvg transform matrix
+public Modifier MethodDeclaration SimpleType SimpleName svg transform
+public Modifier MethodDeclaration SimpleName create svg transform
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+svg transform SimpleName SimpleType MethodDeclaration SimpleName create svg transform
+create svg transform SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg transform
+public Modifier TypeDeclaration MethodDeclaration SimpleName create svg transform
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg transform
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create svg transform

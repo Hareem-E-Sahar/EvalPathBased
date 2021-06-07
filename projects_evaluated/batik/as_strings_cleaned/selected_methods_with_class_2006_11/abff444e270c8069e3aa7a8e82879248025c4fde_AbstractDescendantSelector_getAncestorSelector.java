@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName selector
+public Modifier MethodDeclaration SimpleName get ancestor selector
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ancestor selector
+selector SimpleName SimpleType MethodDeclaration SimpleName get ancestor selector
+get ancestor selector SimpleName MethodDeclaration Block ReturnStatement SimpleName ancestor selector
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName selector
+public Modifier TypeDeclaration MethodDeclaration SimpleName get ancestor selector
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName selector
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get ancestor selector

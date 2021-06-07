@@ -1,0 +1,202 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+shape node SimpleName SimpleType SingleVariableDeclaration SimpleName shape node
+svgom rect element SimpleName SimpleType CastExpression SimpleName e
+re SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom rect element
+re SimpleName VariableDeclarationFragment CastExpression SimpleName e
+svgom rect element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName re
+re SimpleName MethodInvocation SimpleName get x
+re SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get x SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+re SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get x SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+x SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get anim val
+x SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+re SimpleName MethodInvocation SimpleName get y
+re SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get y SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+re SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get y SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+y SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get anim val
+y SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+re SimpleName MethodInvocation SimpleName get width
+re SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get width SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+re SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get width SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+w SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get anim val
+w SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName w
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+re SimpleName MethodInvocation SimpleName get height
+re SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get height SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+re SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get height SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+h SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get anim val
+h SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+re SimpleName MethodInvocation SimpleName get rx
+re SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get rx SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+re SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get rx SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+rx SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get anim val
+rx SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName rx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+w SimpleName InfixExpression NumberLiteral empty
+rx SimpleName InfixExpression InfixExpression SimpleName w
+rx SimpleName InfixExpression InfixExpression NumberLiteral empty
+w SimpleName InfixExpression NumberLiteral empty
+rx SimpleName Assignment InfixExpression SimpleName w
+rx SimpleName Assignment InfixExpression NumberLiteral empty
+re SimpleName MethodInvocation SimpleName get ry
+re SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+get ry SimpleName MethodInvocation MethodInvocation SimpleName get anim val
+re SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get ry SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get value
+get anim val SimpleName MethodInvocation MethodInvocation SimpleName get value
+ry SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get anim val
+ry SimpleName VariableDeclarationFragment MethodInvocation SimpleName get value
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ry
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get value
+h SimpleName InfixExpression NumberLiteral empty
+ry SimpleName InfixExpression InfixExpression SimpleName h
+ry SimpleName InfixExpression InfixExpression NumberLiteral empty
+h SimpleName InfixExpression NumberLiteral empty
+ry SimpleName Assignment InfixExpression SimpleName h
+ry SimpleName Assignment InfixExpression NumberLiteral empty
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName shape
+rx SimpleName InfixExpression NumberLiteral empty
+ry SimpleName InfixExpression NumberLiteral empty
+rx SimpleName InfixExpression InfixExpression InfixExpression SimpleName ry
+rx SimpleName InfixExpression InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression InfixExpression SimpleName ry
+empty NumberLiteral InfixExpression InfixExpression InfixExpression NumberLiteral empty
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName x
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName y
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName w
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName h
+x SimpleName ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName w
+x SimpleName ClassInstanceCreation SimpleName h
+y SimpleName ClassInstanceCreation SimpleName w
+y SimpleName ClassInstanceCreation SimpleName h
+w SimpleName ClassInstanceCreation SimpleName h
+shape SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName rectangle dfloat
+shape SimpleName Assignment ClassInstanceCreation SimpleName x
+shape SimpleName Assignment ClassInstanceCreation SimpleName y
+shape SimpleName Assignment ClassInstanceCreation SimpleName w
+shape SimpleName Assignment ClassInstanceCreation SimpleName h
+rx SimpleName InfixExpression NumberLiteral empty
+ry SimpleName InfixExpression NumberLiteral empty
+round rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName x
+round rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName y
+round rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName w
+round rectangle dfloat QualifiedName SimpleType ClassInstanceCreation SimpleName h
+round rectangle dfloat QualifiedName SimpleType ClassInstanceCreation InfixExpression SimpleName rx
+round rectangle dfloat QualifiedName SimpleType ClassInstanceCreation InfixExpression NumberLiteral empty
+x SimpleName ClassInstanceCreation SimpleName y
+x SimpleName ClassInstanceCreation SimpleName w
+x SimpleName ClassInstanceCreation SimpleName h
+x SimpleName ClassInstanceCreation InfixExpression SimpleName rx
+x SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+x SimpleName ClassInstanceCreation InfixExpression SimpleName ry
+x SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+y SimpleName ClassInstanceCreation SimpleName w
+y SimpleName ClassInstanceCreation SimpleName h
+y SimpleName ClassInstanceCreation InfixExpression SimpleName rx
+y SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+y SimpleName ClassInstanceCreation InfixExpression SimpleName ry
+y SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+w SimpleName ClassInstanceCreation SimpleName h
+w SimpleName ClassInstanceCreation InfixExpression SimpleName rx
+w SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+w SimpleName ClassInstanceCreation InfixExpression SimpleName ry
+w SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+h SimpleName ClassInstanceCreation InfixExpression SimpleName rx
+h SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+h SimpleName ClassInstanceCreation InfixExpression SimpleName ry
+h SimpleName ClassInstanceCreation InfixExpression NumberLiteral empty
+rx SimpleName InfixExpression ClassInstanceCreation InfixExpression SimpleName ry
+rx SimpleName InfixExpression ClassInstanceCreation InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression ClassInstanceCreation InfixExpression SimpleName ry
+empty NumberLiteral InfixExpression ClassInstanceCreation InfixExpression NumberLiteral empty
+shape SimpleName Assignment ClassInstanceCreation SimpleType QualifiedName round rectangle dfloat
+shape SimpleName Assignment ClassInstanceCreation SimpleName x
+shape SimpleName Assignment ClassInstanceCreation SimpleName y
+shape SimpleName Assignment ClassInstanceCreation SimpleName w
+shape SimpleName Assignment ClassInstanceCreation SimpleName h
+shape SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName rx
+shape SimpleName Assignment ClassInstanceCreation InfixExpression NumberLiteral empty
+shape SimpleName Assignment ClassInstanceCreation InfixExpression SimpleName ry
+shape SimpleName Assignment ClassInstanceCreation InfixExpression NumberLiteral empty
+shape node SimpleName MethodInvocation SimpleName set shape
+shape node SimpleName MethodInvocation SimpleName shape
+set shape SimpleName MethodInvocation SimpleName shape
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+live attribute exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ex
+ctx SimpleName ClassInstanceCreation SimpleName ex
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName build shape
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName shape node
+void PrimitiveType MethodDeclaration SimpleName build shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shape node
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape node
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shape node
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape node
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName build shape
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build shape
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape node

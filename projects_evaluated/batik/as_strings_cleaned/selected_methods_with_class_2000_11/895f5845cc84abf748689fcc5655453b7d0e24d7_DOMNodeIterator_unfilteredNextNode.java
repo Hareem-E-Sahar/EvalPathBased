@@ -1,0 +1,36 @@
+reference node SimpleName MethodInvocation SimpleName get node type
+reference node SimpleName MethodInvocation InfixExpression QualifiedName nodeentity reference node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeentity reference node
+reference node SimpleName MethodInvocation InfixExpression InfixExpression SimpleName expand entity references
+get node type SimpleName MethodInvocation InfixExpression InfixExpression SimpleName expand entity references
+nodeentity reference node QualifiedName InfixExpression InfixExpression SimpleName expand entity references
+reference node SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName reference node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+reference node SimpleName Assignment SimpleName n
+reference node SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName reference node
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+reference node SimpleName Assignment SimpleName n
+n SimpleName Assignment SimpleName reference node
+n SimpleName MethodInvocation SimpleName get parent node
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node
+n SimpleName InfixExpression SimpleName root
+n SimpleName MethodInvocation SimpleName get next sibling
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get next sibling
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+reference node SimpleName Assignment SimpleName t
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName unfiltered next node
+void PrimitiveType MethodDeclaration SimpleName unfiltered next node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName unfiltered next node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName unfiltered next node

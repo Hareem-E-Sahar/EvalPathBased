@@ -1,0 +1,31 @@
+buffer SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName buffer
+list model SimpleName MethodInvocation SimpleName elements
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName list model
+e SimpleName VariableDeclarationFragment MethodInvocation SimpleName elements
+enumeration SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+e SimpleName MethodInvocation SimpleName has more elements
+e SimpleName MethodInvocation SimpleName next element
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName e
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next element
+buffer SimpleName MethodInvocation SimpleName append
+buffer SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+buffer SimpleName MethodInvocation CastExpression MethodInvocation SimpleName e
+buffer SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next element
+append SimpleName MethodInvocation CastExpression SimpleType SimpleName string
+append SimpleName MethodInvocation CastExpression MethodInvocation SimpleName e
+append SimpleName MethodInvocation CastExpression MethodInvocation SimpleName next element
+buffer SimpleName MethodInvocation SimpleName append
+buffer SimpleName MethodInvocation StringLiteral empty
+append SimpleName MethodInvocation StringLiteral empty
+buffer SimpleName MethodInvocation SimpleName to string
+public Modifier MethodDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SimpleName get media as string
+string SimpleName SimpleType MethodDeclaration SimpleName get media as string
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get media as string
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get media as string

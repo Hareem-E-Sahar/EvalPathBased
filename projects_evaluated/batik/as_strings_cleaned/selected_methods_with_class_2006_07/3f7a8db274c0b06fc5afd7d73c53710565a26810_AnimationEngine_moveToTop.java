@@ -1,0 +1,46 @@
+abstract animation SimpleName SimpleType SingleVariableDeclaration SimpleName anim
+get animation info SimpleName MethodInvocation SimpleName anim
+anim info SimpleName VariableDeclarationFragment MethodInvocation SimpleName get animation info
+anim info SimpleName VariableDeclarationFragment MethodInvocation SimpleName anim
+animation info SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName anim info
+get sandwich SimpleName MethodInvocation QualifiedName anim infotarget
+get sandwich SimpleName MethodInvocation QualifiedName anim infotype
+get sandwich SimpleName MethodInvocation QualifiedName anim infoattribute namespace uri
+get sandwich SimpleName MethodInvocation QualifiedName anim infoattribute local name
+anim infotarget QualifiedName MethodInvocation QualifiedName anim infotype
+anim infotarget QualifiedName MethodInvocation QualifiedName anim infoattribute namespace uri
+anim infotarget QualifiedName MethodInvocation QualifiedName anim infoattribute local name
+anim infotype QualifiedName MethodInvocation QualifiedName anim infoattribute namespace uri
+anim infotype QualifiedName MethodInvocation QualifiedName anim infoattribute local name
+anim infoattribute namespace uri QualifiedName MethodInvocation QualifiedName anim infoattribute local name
+sandwich SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sandwich
+sandwich SimpleName VariableDeclarationFragment MethodInvocation QualifiedName anim infotarget
+sandwich SimpleName VariableDeclarationFragment MethodInvocation QualifiedName anim infotype
+sandwich SimpleName VariableDeclarationFragment MethodInvocation QualifiedName anim infoattribute namespace uri
+sandwich SimpleName VariableDeclarationFragment MethodInvocation QualifiedName anim infoattribute local name
+sandwich SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sandwich
+sandwichshould update QualifiedName Assignment BooleanLiteral true
+sandwichlowest animation QualifiedName Assignment QualifiedName animhigher animation
+animlower animationhigher animation QualifiedName Assignment QualifiedName animhigher animation
+animhigher animationlower animation QualifiedName Assignment QualifiedName animlower animation
+sandwichanimationhigher animation QualifiedName Assignment SimpleName anim
+animlower animation QualifiedName Assignment QualifiedName sandwichanimation
+sandwichanimation QualifiedName Assignment SimpleName anim
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName move to top
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract animation
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName anim
+void PrimitiveType MethodDeclaration SimpleName move to top
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract animation
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName anim
+move to top SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract animation
+move to top SimpleName MethodDeclaration SingleVariableDeclaration SimpleName anim
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName move to top
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anim
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName move to top
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName anim

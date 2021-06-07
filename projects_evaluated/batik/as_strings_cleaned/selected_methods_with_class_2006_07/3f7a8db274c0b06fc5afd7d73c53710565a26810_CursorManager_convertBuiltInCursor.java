@@ -1,0 +1,99 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType SingleVariableDeclaration SimpleName cursor str
+cursor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cursor
+cursor str SimpleName MethodInvocation SimpleName char at
+cursor str SimpleName MethodInvocation NumberLiteral empty
+char at SimpleName MethodInvocation NumberLiteral empty
+cursor str SimpleName MethodInvocation InfixExpression CharacterLiteral a
+char at SimpleName MethodInvocation InfixExpression CharacterLiteral a
+empty NumberLiteral MethodInvocation InfixExpression CharacterLiteral a
+e SimpleName MethodInvocation SimpleName get namespace uri
+name space uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+name space uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName name space uri
+svg constantssvg namespace uri QualifiedName MethodInvocation SimpleName equals
+svg constantssvg namespace uri QualifiedName MethodInvocation SimpleName name space uri
+equals SimpleName MethodInvocation SimpleName name space uri
+e SimpleName MethodInvocation SimpleName get local name
+tag SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+tag SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tag
+svg constantssvg a tag QualifiedName MethodInvocation SimpleName equals
+svg constantssvg a tag QualifiedName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+cursor SimpleName Assignment QualifiedName cursor manageranchor cursor
+svg constantssvg text tag QualifiedName MethodInvocation SimpleName equals
+svg constantssvg text tag QualifiedName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+svg constantssvg tspan tag QualifiedName MethodInvocation SimpleName equals
+svg constantssvg tspan tag QualifiedName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+svg constantssvg tref tag QualifiedName MethodInvocation SimpleName equals
+svg constantssvg tref tag QualifiedName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+svg constantssvg text tag QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg tspan tag
+svg constantssvg text tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg text tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg tspan tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+tag SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg tspan tag
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+svg constantssvg text tag QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg tref tag
+svg constantssvg text tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg text tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg tref tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+tag SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg tref tag
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+svg constantssvg tspan tag QualifiedName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg tref tag
+svg constantssvg tspan tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg constantssvg tspan tag QualifiedName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg tref tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+tag SimpleName MethodInvocation InfixExpression MethodInvocation QualifiedName svg constantssvg tref tag
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+cursor SimpleName Assignment QualifiedName cursor managertext cursor
+svg constantssvg image tag QualifiedName MethodInvocation SimpleName equals
+svg constantssvg image tag QualifiedName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+cursor SimpleName Assignment QualifiedName cursor managerdefault cursor
+cursor SimpleName Assignment QualifiedName cursor managerdefault cursor
+cursor manager SimpleName MethodInvocation SimpleName get predefined cursor
+cursor manager SimpleName MethodInvocation SimpleName cursor str
+get predefined cursor SimpleName MethodInvocation SimpleName cursor str
+cursor SimpleName Assignment MethodInvocation SimpleName cursor manager
+cursor SimpleName Assignment MethodInvocation SimpleName get predefined cursor
+cursor SimpleName Assignment MethodInvocation SimpleName cursor str
+public Modifier MethodDeclaration SimpleType SimpleName cursor
+public Modifier MethodDeclaration SimpleName convert built in cursor
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName cursor str
+public Modifier MethodDeclaration Block ReturnStatement SimpleName cursor
+cursor SimpleName SimpleType MethodDeclaration SimpleName convert built in cursor
+cursor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+cursor SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName cursor str
+convert built in cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+convert built in cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+convert built in cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+convert built in cursor SimpleName MethodDeclaration SingleVariableDeclaration SimpleName cursor str
+convert built in cursor SimpleName MethodDeclaration Block ReturnStatement SimpleName cursor
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cursor str
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName cursor
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert built in cursor
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cursor str
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName cursor
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert built in cursor
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName cursor str

@@ -1,0 +1,24 @@
+short PrimitiveType SingleVariableDeclaration SimpleName val
+svg zoom and pan support SimpleName MethodInvocation SimpleName set zoom and pan
+svg zoom and pan support SimpleName MethodInvocation SimpleName val
+set zoom and pan SimpleName MethodInvocation SimpleName val
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set zoom and pan
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleName set zoom and pan
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType short
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+set zoom and pan SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType short
+set zoom and pan SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set zoom and pan
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set zoom and pan
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val

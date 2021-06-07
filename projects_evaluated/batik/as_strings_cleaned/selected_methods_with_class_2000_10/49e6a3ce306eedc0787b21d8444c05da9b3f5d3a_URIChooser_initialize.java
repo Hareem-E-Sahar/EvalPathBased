@@ -1,0 +1,66 @@
+action SimpleName SimpleType SingleVariableDeclaration SimpleName ok action
+ok action SimpleName FieldAccess Assignment SimpleName ok action
+set modal SimpleName MethodInvocation BooleanLiteral true
+listeners SimpleName MethodInvocation SimpleName put
+listeners SimpleName MethodInvocation StringLiteral browse button action
+listeners SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName browse button action
+put SimpleName MethodInvocation StringLiteral browse button action
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName browse button action
+browse button action StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName browse button action
+listeners SimpleName MethodInvocation SimpleName put
+listeners SimpleName MethodInvocation StringLiteral ok button action
+listeners SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ok button action
+put SimpleName MethodInvocation StringLiteral ok button action
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName ok button action
+ok button action StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName ok button action
+listeners SimpleName MethodInvocation SimpleName put
+listeners SimpleName MethodInvocation StringLiteral cancel button action
+listeners SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName cancel button action
+put SimpleName MethodInvocation StringLiteral cancel button action
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName cancel button action
+cancel button action StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName cancel button action
+listeners SimpleName MethodInvocation SimpleName put
+listeners SimpleName MethodInvocation StringLiteral clear button action
+listeners SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName clear button action
+put SimpleName MethodInvocation StringLiteral clear button action
+put SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName clear button action
+clear button action StringLiteral MethodInvocation ClassInstanceCreation SimpleType SimpleName clear button action
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral dialogtitle
+get string SimpleName MethodInvocation StringLiteral dialogtitle
+set title SimpleName MethodInvocation MethodInvocation SimpleName resources
+set title SimpleName MethodInvocation MethodInvocation SimpleName get string
+set title SimpleName MethodInvocation MethodInvocation StringLiteral dialogtitle
+button factory SimpleName SimpleType ClassInstanceCreation SimpleName bundle
+button factory SimpleName Assignment ClassInstanceCreation SimpleType SimpleName button factory
+button factory SimpleName Assignment ClassInstanceCreation SimpleName bundle
+get content pane SimpleName MethodInvocation MethodInvocation SimpleName add
+get content pane SimpleName MethodInvocation MethodInvocation StringLiteral north
+get content pane SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create uri selection panel
+add SimpleName MethodInvocation StringLiteral north
+add SimpleName MethodInvocation MethodInvocation SimpleName create uri selection panel
+north StringLiteral MethodInvocation MethodInvocation SimpleName create uri selection panel
+get content pane SimpleName MethodInvocation MethodInvocation SimpleName add
+get content pane SimpleName MethodInvocation MethodInvocation StringLiteral south
+get content pane SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName create buttons panel
+add SimpleName MethodInvocation StringLiteral south
+add SimpleName MethodInvocation MethodInvocation SimpleName create buttons panel
+south StringLiteral MethodInvocation MethodInvocation SimpleName create buttons panel
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName initialize
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ok action
+void PrimitiveType MethodDeclaration SimpleName initialize
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ok action
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName action
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ok action
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ok action
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ok action

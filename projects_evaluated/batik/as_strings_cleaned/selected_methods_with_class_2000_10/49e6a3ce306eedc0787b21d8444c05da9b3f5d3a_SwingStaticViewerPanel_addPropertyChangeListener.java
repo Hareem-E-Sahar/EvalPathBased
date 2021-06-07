@@ -1,0 +1,35 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName property name
+property change listener SimpleName SimpleType SingleVariableDeclaration SimpleName listener
+change support SimpleName MethodInvocation SimpleName add property change listener
+change support SimpleName MethodInvocation SimpleName property name
+change support SimpleName MethodInvocation SimpleName listener
+add property change listener SimpleName MethodInvocation SimpleName property name
+add property change listener SimpleName MethodInvocation SimpleName listener
+property name SimpleName MethodInvocation SimpleName listener
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName add property change listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change listener
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName listener
+void PrimitiveType MethodDeclaration SimpleName add property change listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName property name
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change listener
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName listener
+add property change listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+add property change listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName property name
+add property change listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName property change listener
+add property change listener SimpleName MethodDeclaration SingleVariableDeclaration SimpleName listener
+property name SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName add property change listener
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName add property change listener
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName property name
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName listener

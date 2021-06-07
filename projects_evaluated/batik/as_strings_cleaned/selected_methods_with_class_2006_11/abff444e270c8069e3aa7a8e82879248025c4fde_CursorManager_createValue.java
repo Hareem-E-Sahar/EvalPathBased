@@ -1,0 +1,127 @@
+lexical unit SimpleName SimpleType SingleVariableDeclaration SimpleName lu
+css engine SimpleName SimpleType SingleVariableDeclaration SimpleName engine
+result SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName list value
+list value SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName result
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get string value
+engine SimpleName MethodInvocation SimpleName get css base uri
+lu SimpleName MethodInvocation SimpleName get string value
+resolve uri SimpleName MethodInvocation MethodInvocation SimpleName engine
+resolve uri SimpleName MethodInvocation MethodInvocation SimpleName get css base uri
+resolve uri SimpleName MethodInvocation MethodInvocation SimpleName lu
+resolve uri SimpleName MethodInvocation MethodInvocation SimpleName get string value
+engine SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lu
+engine SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string value
+get css base uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName lu
+get css base uri SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string value
+uri value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName lu
+uri value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get string value
+uri value SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName resolve uri
+lu SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resolve uri
+get string value SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resolve uri
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName uri value
+result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName lu
+result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get string value
+result SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resolve uri
+append SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName uri value
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName lu
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get string value
+append SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName resolve uri
+lu SimpleName MethodInvocation SimpleName get next lexical unit
+lu SimpleName Assignment MethodInvocation SimpleName lu
+lu SimpleName Assignment MethodInvocation SimpleName get next lexical unit
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation InfixExpression QualifiedName lexical unitsac operator comma
+get lexical unit type SimpleName MethodInvocation InfixExpression QualifiedName lexical unitsac operator comma
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName lu
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get next lexical unit
+lu SimpleName Assignment MethodInvocation SimpleName lu
+lu SimpleName Assignment MethodInvocation SimpleName get next lexical unit
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation InfixExpression QualifiedName lexical unitsac uri
+get lexical unit type SimpleName MethodInvocation InfixExpression QualifiedName lexical unitsac uri
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation InfixExpression QualifiedName lexical unitsac ident
+get lexical unit type SimpleName MethodInvocation InfixExpression QualifiedName lexical unitsac ident
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName lu
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName get lexical unit type
+lu SimpleName MethodInvocation SimpleName get string value
+lu SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+get string value SimpleName MethodInvocation MethodInvocation SimpleName to lower case
+lu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName intern
+get string value SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName intern
+to lower case SimpleName MethodInvocation MethodInvocation SimpleName intern
+s SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName to lower case
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName intern
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+values SimpleName MethodInvocation SimpleName get
+values SimpleName MethodInvocation SimpleName s
+get SimpleName MethodInvocation SimpleName s
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName values
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+v SimpleName VariableDeclarationFragment MethodInvocation SimpleName s
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+lu SimpleName MethodInvocation SimpleName get string value
+create invalid identifier dom exception SimpleName MethodInvocation MethodInvocation SimpleName lu
+create invalid identifier dom exception SimpleName MethodInvocation MethodInvocation SimpleName get string value
+value SimpleName SimpleType CastExpression SimpleName v
+result SimpleName MethodInvocation SimpleName append
+result SimpleName MethodInvocation CastExpression SimpleType SimpleName value
+result SimpleName MethodInvocation CastExpression SimpleName v
+append SimpleName MethodInvocation CastExpression SimpleType SimpleName value
+append SimpleName MethodInvocation CastExpression SimpleName v
+lu SimpleName MethodInvocation SimpleName get next lexical unit
+lu SimpleName Assignment MethodInvocation SimpleName lu
+lu SimpleName Assignment MethodInvocation SimpleName get next lexical unit
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac inherit
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac inherit
+lu SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName value constantsinherit value
+get lexical unit type SimpleName MethodInvocation SwitchStatement ReturnStatement QualifiedName value constantsinherit value
+lu SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac uri
+get lexical unit type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName lexical unitsac uri
+lexical unitsac inherit QualifiedName SwitchCase SwitchStatement ReturnStatement QualifiedName value constantsinherit value
+lexical unitsac inherit QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac uri
+lexical unitsac inherit QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+value constantsinherit value QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName lexical unitsac uri
+value constantsinherit value QualifiedName ReturnStatement SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+lexical unitsac uri QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName lexical unitsac ident
+lu SimpleName MethodInvocation SimpleName get lexical unit type
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName lu
+create invalid lexical unit dom exception SimpleName MethodInvocation MethodInvocation SimpleName get lexical unit type
+public Modifier MethodDeclaration SimpleType SimpleName value
+public Modifier MethodDeclaration SimpleName create value
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName lu
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName engine
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+value SimpleName SimpleType MethodDeclaration SimpleName create value
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName lu
+value SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName engine
+value SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName lexical unit
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName lu
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName css engine
+create value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName engine
+create value SimpleName MethodDeclaration SimpleType SimpleName dom exception
+create value SimpleName MethodDeclaration Block ReturnStatement SimpleName result
+lu SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+lu SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+engine SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName value
+public Modifier TypeDeclaration MethodDeclaration SimpleName create value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName value
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName lu
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName engine
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

@@ -1,0 +1,41 @@
+jsvg canvas SimpleName SimpleType SingleVariableDeclaration SimpleName canvas
+the canvas SimpleName Assignment SimpleName canvas
+handler SimpleName MethodInvocation SimpleName get frame
+the frame SimpleName Assignment MethodInvocation SimpleName handler
+the frame SimpleName Assignment MethodInvocation SimpleName get frame
+canvas SimpleName MethodInvocation SimpleName set document state
+canvas SimpleName MethodInvocation QualifiedName jsvg canvasalways dynamic
+set document state SimpleName MethodInvocation QualifiedName jsvg canvasalways dynamic
+canvas SimpleName MethodInvocation SimpleName set uri
+canvas SimpleName MethodInvocation SimpleName test non null uri
+set uri SimpleName MethodInvocation SimpleName test non null uri
+register object desc SimpleName MethodInvocation SimpleName canvas
+register object desc SimpleName MethodInvocation StringLiteral jsvg canvas
+canvas SimpleName MethodInvocation StringLiteral jsvg canvas
+handler SimpleName MethodInvocation SimpleName get frame
+register object desc SimpleName MethodInvocation MethodInvocation SimpleName handler
+register object desc SimpleName MethodInvocation MethodInvocation SimpleName get frame
+register object desc SimpleName MethodInvocation StringLiteral j frame
+handler SimpleName MethodInvocation MethodInvocation StringLiteral j frame
+get frame SimpleName MethodInvocation MethodInvocation StringLiteral j frame
+public Modifier MethodDeclaration PrimitiveType boolean
+public Modifier MethodDeclaration SimpleName canvas init
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jsvg canvas
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName canvas
+public Modifier MethodDeclaration Block ReturnStatement BooleanLiteral true
+boolean PrimitiveType MethodDeclaration SimpleName canvas init
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jsvg canvas
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName canvas
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral true
+canvas init SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName jsvg canvas
+canvas init SimpleName MethodDeclaration SingleVariableDeclaration SimpleName canvas
+canvas init SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral true
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName canvas init
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName canvas
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName canvas init
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName canvas

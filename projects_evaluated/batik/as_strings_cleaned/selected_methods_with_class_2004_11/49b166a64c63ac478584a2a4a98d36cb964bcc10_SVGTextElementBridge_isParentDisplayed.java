@@ -1,0 +1,192 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName child node
+child node SimpleName MethodInvocation SimpleName get parent node
+parent node SimpleName VariableDeclarationFragment MethodInvocation SimpleName child node
+parent node SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent node
+parent node SimpleName MethodInvocation SimpleName get node type
+parent node SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+parent node SimpleName MethodInvocation SimpleName get namespace uri
+svg namespace uri SimpleName MethodInvocation SimpleName equals
+svg namespace uri SimpleName MethodInvocation MethodInvocation SimpleName parent node
+svg namespace uri SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+equals SimpleName MethodInvocation MethodInvocation SimpleName parent node
+equals SimpleName MethodInvocation MethodInvocation SimpleName get namespace uri
+parent node SimpleName MethodInvocation SimpleName get local name
+node name SimpleName VariableDeclarationFragment MethodInvocation SimpleName parent node
+node name SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName node name
+node name SimpleName MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation SimpleName svg text tag
+equals SimpleName MethodInvocation SimpleName svg text tag
+node name SimpleName MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation SimpleName svg tspan tag
+equals SimpleName MethodInvocation SimpleName svg tspan tag
+node name SimpleName MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation SimpleName svg alt glyph tag
+equals SimpleName MethodInvocation SimpleName svg alt glyph tag
+node name SimpleName MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation SimpleName svg a tag
+equals SimpleName MethodInvocation SimpleName svg a tag
+node name SimpleName MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation SimpleName svg text path tag
+equals SimpleName MethodInvocation SimpleName svg text path tag
+node name SimpleName MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation SimpleName svg tref tag
+equals SimpleName MethodInvocation SimpleName svg tref tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tspan tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tspan tag
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tspan tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg alt glyph tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg alt glyph tag
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg alt glyph tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg text path tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg text path tag
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg text path tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg text tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg alt glyph tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg alt glyph tag
+svg tspan tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg tspan tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg tspan tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg alt glyph tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+svg tspan tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg tspan tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg tspan tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg text path tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg text path tag
+svg tspan tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg tspan tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg tspan tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg text path tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+svg tspan tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg tspan tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg tspan tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+svg alt glyph tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg alt glyph tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg alt glyph tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg text path tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg text path tag
+svg alt glyph tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg alt glyph tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg alt glyph tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg text path tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+svg alt glyph tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg alt glyph tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg alt glyph tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg text path tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg text path tag
+svg a tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg a tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg a tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg text path tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+svg a tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg a tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg a tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+node name SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+svg text path tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName node name
+svg text path tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg text path tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg tref tag
+protected Modifier MethodDeclaration PrimitiveType boolean
+protected Modifier MethodDeclaration SimpleName is parent displayed
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName child node
+protected Modifier MethodDeclaration Block ReturnStatement BooleanLiteral false
+boolean PrimitiveType MethodDeclaration SimpleName is parent displayed
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+boolean PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName child node
+boolean PrimitiveType MethodDeclaration Block ReturnStatement BooleanLiteral false
+is parent displayed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+is parent displayed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName child node
+is parent displayed SimpleName MethodDeclaration Block ReturnStatement BooleanLiteral false
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType boolean
+public Modifier TypeDeclaration MethodDeclaration SimpleName is parent displayed
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType boolean
+test SimpleName TypeDeclaration MethodDeclaration SimpleName is parent displayed
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName child node

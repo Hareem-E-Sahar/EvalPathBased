@@ -1,0 +1,18 @@
+svgom element SimpleName SimpleType CastExpression SimpleName e
+elt SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom element
+elt SimpleName VariableDeclarationFragment CastExpression SimpleName e
+svgom element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elt
+elt SimpleName MethodInvocation SimpleName set svg context
+ctx SimpleName MethodInvocation SimpleName unbind
+ctx SimpleName MethodInvocation SimpleName e
+unbind SimpleName MethodInvocation SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispose
+void PrimitiveType MethodDeclaration SimpleName dispose
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispose
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispose

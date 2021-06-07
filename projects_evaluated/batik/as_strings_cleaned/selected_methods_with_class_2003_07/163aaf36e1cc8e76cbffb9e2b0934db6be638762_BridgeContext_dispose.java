@@ -1,0 +1,111 @@
+event listener set SimpleName MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName event listener set
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+event listener mememto SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+event listener mememto SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+m SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName event listener mememto
+m SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+m SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+event listener mememto SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName m
+m SimpleName MethodInvocation SimpleName get target
+et SimpleName VariableDeclarationFragment MethodInvocation SimpleName m
+et SimpleName VariableDeclarationFragment MethodInvocation SimpleName get target
+event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName et
+m SimpleName MethodInvocation SimpleName get listener
+el SimpleName VariableDeclarationFragment MethodInvocation SimpleName m
+el SimpleName VariableDeclarationFragment MethodInvocation SimpleName get listener
+event listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName el
+m SimpleName MethodInvocation SimpleName get use capture
+uc SimpleName VariableDeclarationFragment MethodInvocation SimpleName m
+uc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get use capture
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName uc
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName m
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get use capture
+m SimpleName MethodInvocation SimpleName get event type
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName m
+t SimpleName VariableDeclarationFragment MethodInvocation SimpleName get event type
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName t
+et SimpleName MethodInvocation SimpleName remove event listener
+et SimpleName MethodInvocation SimpleName t
+et SimpleName MethodInvocation SimpleName el
+et SimpleName MethodInvocation SimpleName uc
+remove event listener SimpleName MethodInvocation SimpleName t
+remove event listener SimpleName MethodInvocation SimpleName el
+remove event listener SimpleName MethodInvocation SimpleName uc
+t SimpleName MethodInvocation SimpleName el
+t SimpleName MethodInvocation SimpleName uc
+el SimpleName MethodInvocation SimpleName uc
+event target SimpleName SimpleType CastExpression SimpleName document
+evt target SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName event target
+evt target SimpleName VariableDeclarationFragment CastExpression SimpleName document
+event target SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName evt target
+evt target SimpleName MethodInvocation SimpleName remove event listener
+evt target SimpleName MethodInvocation StringLiteral dom attr modified
+evt target SimpleName MethodInvocation SimpleName dom attr modified event listener
+evt target SimpleName MethodInvocation BooleanLiteral true
+remove event listener SimpleName MethodInvocation StringLiteral dom attr modified
+remove event listener SimpleName MethodInvocation SimpleName dom attr modified event listener
+remove event listener SimpleName MethodInvocation BooleanLiteral true
+dom attr modified StringLiteral MethodInvocation SimpleName dom attr modified event listener
+dom attr modified StringLiteral MethodInvocation BooleanLiteral true
+dom attr modified event listener SimpleName MethodInvocation BooleanLiteral true
+evt target SimpleName MethodInvocation SimpleName remove event listener
+evt target SimpleName MethodInvocation StringLiteral dom node inserted
+evt target SimpleName MethodInvocation SimpleName dom node inserted event listener
+evt target SimpleName MethodInvocation BooleanLiteral true
+remove event listener SimpleName MethodInvocation StringLiteral dom node inserted
+remove event listener SimpleName MethodInvocation SimpleName dom node inserted event listener
+remove event listener SimpleName MethodInvocation BooleanLiteral true
+dom node inserted StringLiteral MethodInvocation SimpleName dom node inserted event listener
+dom node inserted StringLiteral MethodInvocation BooleanLiteral true
+dom node inserted event listener SimpleName MethodInvocation BooleanLiteral true
+evt target SimpleName MethodInvocation SimpleName remove event listener
+evt target SimpleName MethodInvocation StringLiteral dom node removed
+evt target SimpleName MethodInvocation SimpleName dom node removed event listener
+evt target SimpleName MethodInvocation BooleanLiteral true
+remove event listener SimpleName MethodInvocation StringLiteral dom node removed
+remove event listener SimpleName MethodInvocation SimpleName dom node removed event listener
+remove event listener SimpleName MethodInvocation BooleanLiteral true
+dom node removed StringLiteral MethodInvocation SimpleName dom node removed event listener
+dom node removed StringLiteral MethodInvocation BooleanLiteral true
+dom node removed event listener SimpleName MethodInvocation BooleanLiteral true
+evt target SimpleName MethodInvocation SimpleName remove event listener
+evt target SimpleName MethodInvocation StringLiteral dom character data modified
+evt target SimpleName MethodInvocation SimpleName dom character data modified listener
+evt target SimpleName MethodInvocation BooleanLiteral true
+remove event listener SimpleName MethodInvocation StringLiteral dom character data modified
+remove event listener SimpleName MethodInvocation SimpleName dom character data modified listener
+remove event listener SimpleName MethodInvocation BooleanLiteral true
+dom character data modified StringLiteral MethodInvocation SimpleName dom character data modified listener
+dom character data modified StringLiteral MethodInvocation BooleanLiteral true
+dom character data modified listener SimpleName MethodInvocation BooleanLiteral true
+svgom document SimpleName SimpleType CastExpression SimpleName document
+svg document SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom document
+svg document SimpleName VariableDeclarationFragment CastExpression SimpleName document
+svgom document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg document
+svg document SimpleName MethodInvocation SimpleName get css engine
+css engine SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg document
+css engine SimpleName VariableDeclarationFragment MethodInvocation SimpleName get css engine
+css engine SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName css engine
+css engine SimpleName MethodInvocation SimpleName remove css engine listener
+css engine SimpleName MethodInvocation SimpleName css properties changed listener
+remove css engine listener SimpleName MethodInvocation SimpleName css properties changed listener
+css engine SimpleName MethodInvocation SimpleName dispose
+svg document SimpleName MethodInvocation SimpleName set css engine
+focus manager SimpleName MethodInvocation SimpleName dispose
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName dispose
+public Modifier MethodDeclaration Block SynchronizedStatement SimpleName event listener set
+void PrimitiveType MethodDeclaration SimpleName dispose
+void PrimitiveType MethodDeclaration Block SynchronizedStatement SimpleName event listener set
+dispose SimpleName MethodDeclaration Block SynchronizedStatement SimpleName event listener set
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName dispose
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName dispose

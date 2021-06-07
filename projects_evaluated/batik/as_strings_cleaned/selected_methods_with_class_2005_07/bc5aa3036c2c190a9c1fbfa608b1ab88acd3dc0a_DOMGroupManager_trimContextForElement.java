@@ -1,0 +1,65 @@
+svg graphic context SimpleName SimpleType SingleVariableDeclaration SimpleName svg gc
+element SimpleName SimpleType SingleVariableDeclaration SimpleName element
+element SimpleName MethodInvocation SimpleName get tag name
+tag SimpleName VariableDeclarationFragment MethodInvocation SimpleName element
+tag SimpleName VariableDeclarationFragment MethodInvocation SimpleName get tag name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tag
+svg gc SimpleName MethodInvocation SimpleName get group context
+group attr map SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg gc
+group attr map SimpleName VariableDeclarationFragment MethodInvocation SimpleName get group context
+map SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName group attr map
+group attr map SimpleName MethodInvocation SimpleName key set
+group attr map SimpleName MethodInvocation MethodInvocation SimpleName iterator
+key set SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName group attr map
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName key set
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+string SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+attr name SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName string
+attr name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+attr name SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr name
+svg attribute map SimpleName MethodInvocation SimpleName get
+svg attribute map SimpleName MethodInvocation SimpleName attr name
+get SimpleName MethodInvocation SimpleName attr name
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg attribute map
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+attr SimpleName VariableDeclarationFragment MethodInvocation SimpleName attr name
+svg attribute SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName attr
+attr SimpleName MethodInvocation SimpleName applies to
+attr SimpleName MethodInvocation SimpleName tag
+applies to SimpleName MethodInvocation SimpleName tag
+group attr map SimpleName MethodInvocation SimpleName remove
+group attr map SimpleName MethodInvocation SimpleName attr name
+remove SimpleName MethodInvocation SimpleName attr name
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName trim context for element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg graphic context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName svg gc
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName element
+void PrimitiveType MethodDeclaration SimpleName trim context for element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg graphic context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName svg gc
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName element
+trim context for element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg graphic context
+trim context for element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName svg gc
+trim context for element SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+trim context for element SimpleName MethodDeclaration SingleVariableDeclaration SimpleName element
+svg gc SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName trim context for element
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg gc
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName trim context for element
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg gc
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName element

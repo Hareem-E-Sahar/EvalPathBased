@@ -1,0 +1,105 @@
+reader SimpleName SimpleType SingleVariableDeclaration SimpleName r
+initialize SimpleName MethodInvocation SimpleName r
+angle handler SimpleName MethodInvocation SimpleName start angle
+f SimpleName VariableDeclarationFragment MethodInvocation SimpleName parse float
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName f
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName parse float
+angle handler SimpleName MethodInvocation SimpleName angle value
+angle handler SimpleName MethodInvocation SimpleName f
+angle value SimpleName MethodInvocation SimpleName f
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+current SimpleName SwitchStatement SwitchCase NumberLiteral x d
+current SimpleName SwitchStatement SwitchCase NumberLiteral x a
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+current SimpleName SwitchStatement SwitchCase NumberLiteral x
+current SimpleName SwitchStatement BreakStatement SimpleName s
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x a
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x d NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x d NumberLiteral SwitchCase SwitchStatement BreakStatement SimpleName s
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x a NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x a NumberLiteral SwitchCase SwitchStatement BreakStatement SimpleName s
+x NumberLiteral SwitchCase SwitchStatement SwitchCase NumberLiteral x
+x NumberLiteral SwitchCase SwitchStatement BreakStatement SimpleName s
+x NumberLiteral SwitchCase SwitchStatement BreakStatement SimpleName s
+current SimpleName InfixExpression CharacterLiteral e
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral e
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+e CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+current SimpleName InfixExpression CharacterLiteral g
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral g
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+g CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+angle handler SimpleName MethodInvocation SimpleName deg
+current SimpleName InfixExpression CharacterLiteral r
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral r
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+r CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+current SimpleName InfixExpression CharacterLiteral a
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral a
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+a CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+current SimpleName InfixExpression CharacterLiteral d
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral d
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+d CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+angle handler SimpleName MethodInvocation SimpleName grad
+current SimpleName InfixExpression CharacterLiteral a
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral a
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+a CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+current SimpleName InfixExpression CharacterLiteral d
+character SimpleName SimpleType ClassInstanceCreation CharacterLiteral d
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+d CharacterLiteral ClassInstanceCreation ArrayInitializer ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterexpected
+angle handler SimpleName MethodInvocation SimpleName rad
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral characterunexpected
+current SimpleName SwitchStatement SwitchCase CharacterLiteral d
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName read
+current SimpleName SwitchStatement IfStatement InfixExpression SimpleName current
+current SimpleName SwitchStatement IfStatement InfixExpression CharacterLiteral e
+current SimpleName SwitchStatement ExpressionStatement MethodInvocation SimpleName read
+current SimpleName SwitchStatement IfStatement InfixExpression SimpleName current
+current SimpleName SwitchStatement IfStatement InfixExpression CharacterLiteral g
+current SimpleName SwitchStatement Block SwitchStatement SimpleName current
+s SimpleName LabeledStatement IfStatement InfixExpression SimpleName current
+current SimpleName InfixExpression PrefixExpression NumberLiteral empty
+integer SimpleName SimpleType ClassInstanceCreation SimpleName current
+report error SimpleName MethodInvocation StringLiteral endofstreamexpected
+float PrimitiveType VariableDeclarationStatement Block LabeledStatement SimpleName s
+number format exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+report error SimpleName MethodInvocation StringLiteral floatformat
+angle handler SimpleName MethodInvocation SimpleName end angle
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName parse
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleName parse
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+parse SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+parse SimpleName MethodDeclaration SimpleType SimpleName parse exception
+r SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

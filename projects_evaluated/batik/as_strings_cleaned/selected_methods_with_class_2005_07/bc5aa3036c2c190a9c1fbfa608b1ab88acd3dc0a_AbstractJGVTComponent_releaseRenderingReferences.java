@@ -1,0 +1,16 @@
+text selection manager SimpleName MethodInvocation SimpleName get selection overlay
+overlays SimpleName MethodInvocation SimpleName remove
+overlays SimpleName MethodInvocation MethodInvocation SimpleName text selection manager
+overlays SimpleName MethodInvocation MethodInvocation SimpleName get selection overlay
+remove SimpleName MethodInvocation MethodInvocation SimpleName text selection manager
+remove SimpleName MethodInvocation MethodInvocation SimpleName get selection overlay
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName release rendering references
+void PrimitiveType MethodDeclaration SimpleName release rendering references
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName release rendering references
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName release rendering references

@@ -1,0 +1,51 @@
+float PrimitiveType SingleVariableDeclaration SimpleName val
+index SimpleName InfixExpression QualifiedName vlength
+vs SimpleName MethodInvocation SimpleName add
+vs SimpleName MethodInvocation SimpleName v
+add SimpleName MethodInvocation SimpleName v
+vlength QualifiedName InfixExpression NumberLiteral empty
+vlength QualifiedName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+float PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+v SimpleName Assignment ArrayCreation ArrayType PrimitiveType float
+v SimpleName Assignment ArrayCreation InfixExpression NumberLiteral empty
+us SimpleName MethodInvocation SimpleName add
+us SimpleName MethodInvocation SimpleName u
+add SimpleName MethodInvocation SimpleName u
+ulength QualifiedName InfixExpression NumberLiteral empty
+ulength QualifiedName InfixExpression InfixExpression NumberLiteral empty
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+short PrimitiveType ArrayType ArrayCreation InfixExpression NumberLiteral empty
+u SimpleName Assignment ArrayCreation ArrayType PrimitiveType short
+u SimpleName Assignment ArrayCreation InfixExpression NumberLiteral empty
+index SimpleName Assignment NumberLiteral empty
+v SimpleName ArrayAccess SimpleName index
+v SimpleName ArrayAccess Assignment SimpleName val
+index SimpleName ArrayAccess Assignment SimpleName val
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName length value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier MethodDeclaration SimpleType SimpleName parse exception
+void PrimitiveType MethodDeclaration SimpleName length value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName val
+void PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+length value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+length value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName val
+length value SimpleName MethodDeclaration SimpleType SimpleName parse exception
+float PrimitiveType SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+val SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName length value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName length value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName val
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

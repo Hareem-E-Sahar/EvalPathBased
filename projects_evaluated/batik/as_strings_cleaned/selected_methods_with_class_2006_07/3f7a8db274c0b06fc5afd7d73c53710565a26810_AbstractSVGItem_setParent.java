@@ -1,0 +1,20 @@
+abstract svg list SimpleName SimpleType SingleVariableDeclaration SimpleName list
+parent SimpleName Assignment SimpleName list
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set parent
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract svg list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName list
+void PrimitiveType MethodDeclaration SimpleName set parent
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract svg list
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName list
+set parent SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName abstract svg list
+set parent SimpleName MethodDeclaration SingleVariableDeclaration SimpleName list
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set parent
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set parent
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName list

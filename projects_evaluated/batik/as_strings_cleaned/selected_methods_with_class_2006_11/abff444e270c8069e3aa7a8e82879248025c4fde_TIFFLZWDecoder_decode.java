@@ -1,0 +1,146 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName data
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName uncomp data
+int PrimitiveType SingleVariableDeclaration SimpleName h
+data SimpleName ArrayAccess NumberLiteral empty
+byte PrimitiveType CastExpression NumberLiteral x
+data SimpleName ArrayAccess InfixExpression CastExpression PrimitiveType byte
+data SimpleName ArrayAccess InfixExpression CastExpression NumberLiteral x
+empty NumberLiteral ArrayAccess InfixExpression CastExpression PrimitiveType byte
+empty NumberLiteral ArrayAccess InfixExpression CastExpression NumberLiteral x
+data SimpleName ArrayAccess NumberLiteral empty
+byte PrimitiveType CastExpression NumberLiteral x
+data SimpleName ArrayAccess InfixExpression CastExpression PrimitiveType byte
+data SimpleName ArrayAccess InfixExpression CastExpression NumberLiteral x
+empty NumberLiteral ArrayAccess InfixExpression CastExpression PrimitiveType byte
+empty NumberLiteral ArrayAccess InfixExpression CastExpression NumberLiteral x
+unsupported operation exception SimpleName SimpleType ClassInstanceCreation StringLiteral tifflzw decoder
+data SimpleName FieldAccess Assignment SimpleName data
+h SimpleName FieldAccess Assignment SimpleName h
+uncomp data SimpleName FieldAccess Assignment SimpleName uncomp data
+byte pointer SimpleName Assignment NumberLiteral empty
+bit pointer SimpleName Assignment NumberLiteral empty
+dst index SimpleName Assignment NumberLiteral empty
+next data SimpleName Assignment NumberLiteral empty
+next bits SimpleName Assignment NumberLiteral empty
+old code SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName code
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName old code
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+code SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName old code
+code SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+byte PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName string
+code SimpleName Assignment MethodInvocation SimpleName get next code
+code SimpleName Assignment ParenthesizedExpression InfixExpression NumberLiteral empty
+dst index SimpleName InfixExpression QualifiedName uncomp datalength
+code SimpleName InfixExpression NumberLiteral empty
+code SimpleName Assignment MethodInvocation SimpleName get next code
+code SimpleName InfixExpression NumberLiteral empty
+string table SimpleName ArrayAccess SimpleName code
+write string SimpleName MethodInvocation ArrayAccess SimpleName string table
+write string SimpleName MethodInvocation ArrayAccess SimpleName code
+old code SimpleName Assignment SimpleName code
+code SimpleName InfixExpression SimpleName table index
+string table SimpleName ArrayAccess SimpleName code
+string SimpleName Assignment ArrayAccess SimpleName string table
+string SimpleName Assignment ArrayAccess SimpleName code
+write string SimpleName MethodInvocation SimpleName string
+string table SimpleName ArrayAccess SimpleName old code
+string SimpleName ArrayAccess NumberLiteral empty
+add string to table SimpleName MethodInvocation ArrayAccess SimpleName string table
+add string to table SimpleName MethodInvocation ArrayAccess SimpleName old code
+add string to table SimpleName MethodInvocation ArrayAccess SimpleName string
+add string to table SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+string table SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName string
+string table SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+old code SimpleName ArrayAccess MethodInvocation ArrayAccess SimpleName string
+old code SimpleName ArrayAccess MethodInvocation ArrayAccess NumberLiteral empty
+old code SimpleName Assignment SimpleName code
+string table SimpleName ArrayAccess SimpleName old code
+string SimpleName Assignment ArrayAccess SimpleName string table
+string SimpleName Assignment ArrayAccess SimpleName old code
+string SimpleName ArrayAccess NumberLiteral empty
+compose string SimpleName MethodInvocation SimpleName string
+compose string SimpleName MethodInvocation ArrayAccess SimpleName string
+compose string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+string SimpleName MethodInvocation ArrayAccess SimpleName string
+string SimpleName MethodInvocation ArrayAccess NumberLiteral empty
+string SimpleName Assignment MethodInvocation SimpleName compose string
+string SimpleName Assignment MethodInvocation SimpleName string
+string SimpleName Assignment MethodInvocation ArrayAccess SimpleName string
+string SimpleName Assignment MethodInvocation ArrayAccess NumberLiteral empty
+write string SimpleName MethodInvocation SimpleName string
+add string to table SimpleName MethodInvocation SimpleName string
+old code SimpleName Assignment SimpleName code
+predictor SimpleName InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName count
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression SimpleName h
+j SimpleName InfixExpression SimpleName w
+j SimpleName InfixExpression InfixExpression NumberLiteral empty
+w SimpleName InfixExpression InfixExpression NumberLiteral empty
+samples per pixel SimpleName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+count SimpleName Assignment InfixExpression SimpleName samples per pixel
+i SimpleName VariableDeclarationFragment SimpleName samples per pixel
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName samples per pixel
+w SimpleName InfixExpression SimpleName samples per pixel
+i SimpleName InfixExpression InfixExpression SimpleName w
+i SimpleName InfixExpression InfixExpression SimpleName samples per pixel
+uncomp data SimpleName ArrayAccess SimpleName count
+count SimpleName InfixExpression SimpleName samples per pixel
+uncomp data SimpleName ArrayAccess InfixExpression SimpleName count
+uncomp data SimpleName ArrayAccess InfixExpression SimpleName samples per pixel
+uncomp data SimpleName ArrayAccess Assignment ArrayAccess SimpleName uncomp data
+count SimpleName ArrayAccess Assignment ArrayAccess SimpleName uncomp data
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName h
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+h SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName uncomp data
+public Modifier MethodDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SimpleName decode
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName uncomp data
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName h
+byte PrimitiveType ArrayType MethodDeclaration SimpleName decode
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName data
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName uncomp data
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+byte PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName h
+decode SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+decode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+decode SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+decode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName uncomp data
+decode SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+decode SimpleName MethodDeclaration SingleVariableDeclaration SimpleName h
+decode SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+decode SimpleName MethodDeclaration Block ReturnStatement SimpleName uncomp data
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uncomp data
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+uncomp data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+uncomp data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+public Modifier TypeDeclaration MethodDeclaration SimpleName decode
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uncomp data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType byte
+test SimpleName TypeDeclaration MethodDeclaration SimpleName decode
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName uncomp data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h

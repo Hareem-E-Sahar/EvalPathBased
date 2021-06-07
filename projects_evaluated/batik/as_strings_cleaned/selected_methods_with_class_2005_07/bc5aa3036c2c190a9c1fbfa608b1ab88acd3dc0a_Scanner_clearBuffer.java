@@ -1,0 +1,19 @@
+position SimpleName InfixExpression NumberLiteral empty
+position SimpleName Assignment NumberLiteral empty
+buffer SimpleName ArrayAccess NumberLiteral empty
+position SimpleName InfixExpression NumberLiteral empty
+buffer SimpleName ArrayAccess InfixExpression SimpleName position
+buffer SimpleName ArrayAccess InfixExpression NumberLiteral empty
+buffer SimpleName ArrayAccess Assignment ArrayAccess SimpleName buffer
+empty NumberLiteral ArrayAccess Assignment ArrayAccess SimpleName buffer
+position SimpleName Assignment NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clear buffer
+void PrimitiveType MethodDeclaration SimpleName clear buffer
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName clear buffer
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clear buffer

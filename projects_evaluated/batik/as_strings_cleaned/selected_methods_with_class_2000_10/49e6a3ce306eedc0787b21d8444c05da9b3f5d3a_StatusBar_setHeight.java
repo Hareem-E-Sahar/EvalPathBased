@@ -1,0 +1,42 @@
+int PrimitiveType SingleVariableDeclaration SimpleName h
+r manager SimpleName MethodInvocation SimpleName get string
+r manager SimpleName MethodInvocation StringLiteral positionheight letters
+get string SimpleName MethodInvocation StringLiteral positionheight letters
+r manager SimpleName MethodInvocation InfixExpression StringLiteral empty
+get string SimpleName MethodInvocation InfixExpression StringLiteral empty
+positionheight letters StringLiteral MethodInvocation InfixExpression StringLiteral empty
+r manager SimpleName MethodInvocation InfixExpression SimpleName h
+get string SimpleName MethodInvocation InfixExpression SimpleName h
+positionheight letters StringLiteral MethodInvocation InfixExpression SimpleName h
+empty StringLiteral InfixExpression SimpleName h
+y position SimpleName MethodInvocation SimpleName set text
+y position SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName r manager
+y position SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get string
+y position SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral positionheight letters
+y position SimpleName MethodInvocation InfixExpression StringLiteral empty
+y position SimpleName MethodInvocation InfixExpression SimpleName h
+set text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName r manager
+set text SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get string
+set text SimpleName MethodInvocation InfixExpression MethodInvocation StringLiteral positionheight letters
+set text SimpleName MethodInvocation InfixExpression StringLiteral empty
+set text SimpleName MethodInvocation InfixExpression SimpleName h
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set height
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName h
+void PrimitiveType MethodDeclaration SimpleName set height
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName h
+set height SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+set height SimpleName MethodDeclaration SingleVariableDeclaration SimpleName h
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set height
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set height
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName h

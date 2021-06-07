@@ -1,0 +1,345 @@
+bridge context SimpleName SimpleType SingleVariableDeclaration SimpleName ctx
+element SimpleName SimpleType SingleVariableDeclaration SimpleName e
+shape node SimpleName SimpleType SingleVariableDeclaration SimpleName shape node
+unit processor SimpleName MethodInvocation SimpleName create context
+unit processor SimpleName MethodInvocation SimpleName ctx
+unit processor SimpleName MethodInvocation SimpleName e
+create context SimpleName MethodInvocation SimpleName ctx
+create context SimpleName MethodInvocation SimpleName e
+ctx SimpleName MethodInvocation SimpleName e
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName unit processor
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName create context
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+uctx SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+unit processorcontext QualifiedName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uctx
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+e SimpleName MethodInvocation SimpleName get attribute ns
+e SimpleName MethodInvocation SimpleName svg cx attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg cx attribute
+s SimpleName Assignment MethodInvocation SimpleName e
+s SimpleName Assignment MethodInvocation SimpleName get attribute ns
+s SimpleName Assignment MethodInvocation SimpleName svg cx attribute
+cx SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cx
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+unit processor SimpleName MethodInvocation SimpleName svg horizontal coordinate to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg cx attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg horizontal coordinate to user space SimpleName MethodInvocation SimpleName s
+svg horizontal coordinate to user space SimpleName MethodInvocation SimpleName svg cx attribute
+svg horizontal coordinate to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg cx attribute
+s SimpleName MethodInvocation SimpleName uctx
+svg cx attribute SimpleName MethodInvocation SimpleName uctx
+cx SimpleName Assignment MethodInvocation SimpleName unit processor
+cx SimpleName Assignment MethodInvocation SimpleName svg horizontal coordinate to user space
+cx SimpleName Assignment MethodInvocation SimpleName s
+cx SimpleName Assignment MethodInvocation SimpleName svg cx attribute
+cx SimpleName Assignment MethodInvocation SimpleName uctx
+e SimpleName MethodInvocation SimpleName get attribute ns
+e SimpleName MethodInvocation SimpleName svg cy attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg cy attribute
+s SimpleName Assignment MethodInvocation SimpleName e
+s SimpleName Assignment MethodInvocation SimpleName get attribute ns
+s SimpleName Assignment MethodInvocation SimpleName svg cy attribute
+cy SimpleName VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cy
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+unit processor SimpleName MethodInvocation SimpleName svg vertical coordinate to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg cy attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg vertical coordinate to user space SimpleName MethodInvocation SimpleName s
+svg vertical coordinate to user space SimpleName MethodInvocation SimpleName svg cy attribute
+svg vertical coordinate to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg cy attribute
+s SimpleName MethodInvocation SimpleName uctx
+svg cy attribute SimpleName MethodInvocation SimpleName uctx
+cy SimpleName Assignment MethodInvocation SimpleName unit processor
+cy SimpleName Assignment MethodInvocation SimpleName svg vertical coordinate to user space
+cy SimpleName Assignment MethodInvocation SimpleName s
+cy SimpleName Assignment MethodInvocation SimpleName svg cy attribute
+cy SimpleName Assignment MethodInvocation SimpleName uctx
+e SimpleName MethodInvocation SimpleName get attribute ns
+e SimpleName MethodInvocation SimpleName svg r attribute
+get attribute ns SimpleName MethodInvocation SimpleName svg r attribute
+s SimpleName Assignment MethodInvocation SimpleName e
+s SimpleName Assignment MethodInvocation SimpleName get attribute ns
+s SimpleName Assignment MethodInvocation SimpleName svg r attribute
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName r
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+svg r attribute SimpleName ArrayInitializer SimpleName s
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err attribute missing
+ctx SimpleName ClassInstanceCreation SimpleName e
+ctx SimpleName ClassInstanceCreation SimpleName err attribute missing
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg r attribute
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName s
+e SimpleName ClassInstanceCreation SimpleName err attribute missing
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg r attribute
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName s
+err attribute missing SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName svg r attribute
+err attribute missing SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg other length to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg r attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg other length to user space SimpleName MethodInvocation SimpleName s
+svg other length to user space SimpleName MethodInvocation SimpleName svg r attribute
+svg other length to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName svg r attribute
+s SimpleName MethodInvocation SimpleName uctx
+svg r attribute SimpleName MethodInvocation SimpleName uctx
+r SimpleName Assignment MethodInvocation SimpleName unit processor
+r SimpleName Assignment MethodInvocation SimpleName svg other length to user space
+r SimpleName Assignment MethodInvocation SimpleName s
+r SimpleName Assignment MethodInvocation SimpleName svg r attribute
+r SimpleName Assignment MethodInvocation SimpleName uctx
+e SimpleName MethodInvocation SimpleName get attribute ns
+e SimpleName MethodInvocation SimpleName batik ext ir attribute
+get attribute ns SimpleName MethodInvocation SimpleName batik ext ir attribute
+s SimpleName Assignment MethodInvocation SimpleName e
+s SimpleName Assignment MethodInvocation SimpleName get attribute ns
+s SimpleName Assignment MethodInvocation SimpleName batik ext ir attribute
+float PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName ir
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+batik ext ir attribute SimpleName ArrayInitializer SimpleName s
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName ctx
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName e
+bridge exception SimpleName SimpleType ClassInstanceCreation SimpleName err attribute missing
+ctx SimpleName ClassInstanceCreation SimpleName e
+ctx SimpleName ClassInstanceCreation SimpleName err attribute missing
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName batik ext ir attribute
+ctx SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName s
+e SimpleName ClassInstanceCreation SimpleName err attribute missing
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName batik ext ir attribute
+e SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName s
+err attribute missing SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName batik ext ir attribute
+err attribute missing SimpleName ClassInstanceCreation ArrayCreation ArrayInitializer SimpleName s
+unit processor SimpleName MethodInvocation SimpleName svg other length to user space
+unit processor SimpleName MethodInvocation SimpleName s
+unit processor SimpleName MethodInvocation SimpleName batik ext ir attribute
+unit processor SimpleName MethodInvocation SimpleName uctx
+svg other length to user space SimpleName MethodInvocation SimpleName s
+svg other length to user space SimpleName MethodInvocation SimpleName batik ext ir attribute
+svg other length to user space SimpleName MethodInvocation SimpleName uctx
+s SimpleName MethodInvocation SimpleName batik ext ir attribute
+s SimpleName MethodInvocation SimpleName uctx
+batik ext ir attribute SimpleName MethodInvocation SimpleName uctx
+ir SimpleName Assignment MethodInvocation SimpleName unit processor
+ir SimpleName Assignment MethodInvocation SimpleName svg other length to user space
+ir SimpleName Assignment MethodInvocation SimpleName s
+ir SimpleName Assignment MethodInvocation SimpleName batik ext ir attribute
+ir SimpleName Assignment MethodInvocation SimpleName uctx
+convert sides SimpleName MethodInvocation SimpleName e
+convert sides SimpleName MethodInvocation SimpleName batik ext sides attribute
+convert sides SimpleName MethodInvocation NumberLiteral empty
+convert sides SimpleName MethodInvocation SimpleName ctx
+e SimpleName MethodInvocation SimpleName batik ext sides attribute
+e SimpleName MethodInvocation NumberLiteral empty
+e SimpleName MethodInvocation SimpleName ctx
+batik ext sides attribute SimpleName MethodInvocation NumberLiteral empty
+batik ext sides attribute SimpleName MethodInvocation SimpleName ctx
+empty NumberLiteral MethodInvocation SimpleName ctx
+sides SimpleName VariableDeclarationFragment MethodInvocation SimpleName convert sides
+sides SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+sides SimpleName VariableDeclarationFragment MethodInvocation SimpleName batik ext sides attribute
+sides SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+sides SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sides
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName convert sides
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName e
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName batik ext sides attribute
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName ctx
+gp SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName general path
+general path SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gp
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName angle
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+double PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+angle SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName x
+angle SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+x SimpleName VariableDeclarationFragment VariableDeclarationStatement VariableDeclarationFragment SimpleName y
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName sides
+empty NumberLiteral InfixExpression QualifiedName mathpi
+empty NumberLiteral InfixExpression InfixExpression SimpleName sides
+mathpi QualifiedName InfixExpression InfixExpression SimpleName sides
+mathpi QualifiedName InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation SimpleName cos
+math SimpleName MethodInvocation SimpleName angle
+cos SimpleName MethodInvocation SimpleName angle
+ir SimpleName InfixExpression MethodInvocation SimpleName math
+ir SimpleName InfixExpression MethodInvocation SimpleName cos
+ir SimpleName InfixExpression MethodInvocation SimpleName angle
+cx SimpleName InfixExpression InfixExpression SimpleName ir
+cx SimpleName InfixExpression InfixExpression MethodInvocation SimpleName math
+cx SimpleName InfixExpression InfixExpression MethodInvocation SimpleName cos
+cx SimpleName InfixExpression InfixExpression MethodInvocation SimpleName angle
+x SimpleName Assignment InfixExpression SimpleName cx
+x SimpleName Assignment InfixExpression InfixExpression SimpleName ir
+math SimpleName MethodInvocation SimpleName sin
+math SimpleName MethodInvocation SimpleName angle
+sin SimpleName MethodInvocation SimpleName angle
+ir SimpleName InfixExpression MethodInvocation SimpleName math
+ir SimpleName InfixExpression MethodInvocation SimpleName sin
+ir SimpleName InfixExpression MethodInvocation SimpleName angle
+cy SimpleName InfixExpression InfixExpression SimpleName ir
+cy SimpleName InfixExpression InfixExpression MethodInvocation SimpleName math
+cy SimpleName InfixExpression InfixExpression MethodInvocation SimpleName sin
+cy SimpleName InfixExpression InfixExpression MethodInvocation SimpleName angle
+y SimpleName Assignment InfixExpression SimpleName cy
+y SimpleName Assignment InfixExpression InfixExpression SimpleName ir
+i SimpleName InfixExpression NumberLiteral empty
+float PrimitiveType CastExpression SimpleName x
+float PrimitiveType CastExpression SimpleName y
+gp SimpleName MethodInvocation SimpleName move to
+gp SimpleName MethodInvocation CastExpression PrimitiveType float
+gp SimpleName MethodInvocation CastExpression SimpleName x
+gp SimpleName MethodInvocation CastExpression PrimitiveType float
+gp SimpleName MethodInvocation CastExpression SimpleName y
+move to SimpleName MethodInvocation CastExpression PrimitiveType float
+move to SimpleName MethodInvocation CastExpression SimpleName x
+move to SimpleName MethodInvocation CastExpression PrimitiveType float
+move to SimpleName MethodInvocation CastExpression SimpleName y
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression SimpleName y
+x SimpleName CastExpression MethodInvocation CastExpression PrimitiveType float
+x SimpleName CastExpression MethodInvocation CastExpression SimpleName y
+float PrimitiveType CastExpression SimpleName x
+float PrimitiveType CastExpression SimpleName y
+gp SimpleName MethodInvocation SimpleName line to
+gp SimpleName MethodInvocation CastExpression PrimitiveType float
+gp SimpleName MethodInvocation CastExpression SimpleName x
+gp SimpleName MethodInvocation CastExpression PrimitiveType float
+gp SimpleName MethodInvocation CastExpression SimpleName y
+line to SimpleName MethodInvocation CastExpression PrimitiveType float
+line to SimpleName MethodInvocation CastExpression SimpleName x
+line to SimpleName MethodInvocation CastExpression PrimitiveType float
+line to SimpleName MethodInvocation CastExpression SimpleName y
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression SimpleName y
+x SimpleName CastExpression MethodInvocation CastExpression PrimitiveType float
+x SimpleName CastExpression MethodInvocation CastExpression SimpleName y
+i SimpleName InfixExpression NumberLiteral .
+empty NumberLiteral InfixExpression QualifiedName mathpi
+empty NumberLiteral InfixExpression InfixExpression SimpleName sides
+mathpi QualifiedName InfixExpression InfixExpression SimpleName sides
+mathpi QualifiedName InfixExpression NumberLiteral empty
+math SimpleName MethodInvocation SimpleName cos
+math SimpleName MethodInvocation SimpleName angle
+cos SimpleName MethodInvocation SimpleName angle
+r SimpleName InfixExpression MethodInvocation SimpleName math
+r SimpleName InfixExpression MethodInvocation SimpleName cos
+r SimpleName InfixExpression MethodInvocation SimpleName angle
+cx SimpleName InfixExpression InfixExpression SimpleName r
+cx SimpleName InfixExpression InfixExpression MethodInvocation SimpleName math
+cx SimpleName InfixExpression InfixExpression MethodInvocation SimpleName cos
+cx SimpleName InfixExpression InfixExpression MethodInvocation SimpleName angle
+x SimpleName Assignment InfixExpression SimpleName cx
+x SimpleName Assignment InfixExpression InfixExpression SimpleName r
+math SimpleName MethodInvocation SimpleName sin
+math SimpleName MethodInvocation SimpleName angle
+sin SimpleName MethodInvocation SimpleName angle
+r SimpleName InfixExpression MethodInvocation SimpleName math
+r SimpleName InfixExpression MethodInvocation SimpleName sin
+r SimpleName InfixExpression MethodInvocation SimpleName angle
+cy SimpleName InfixExpression InfixExpression SimpleName r
+cy SimpleName InfixExpression InfixExpression MethodInvocation SimpleName math
+cy SimpleName InfixExpression InfixExpression MethodInvocation SimpleName sin
+cy SimpleName InfixExpression InfixExpression MethodInvocation SimpleName angle
+y SimpleName Assignment InfixExpression SimpleName cy
+y SimpleName Assignment InfixExpression InfixExpression SimpleName r
+float PrimitiveType CastExpression SimpleName x
+float PrimitiveType CastExpression SimpleName y
+gp SimpleName MethodInvocation SimpleName line to
+gp SimpleName MethodInvocation CastExpression PrimitiveType float
+gp SimpleName MethodInvocation CastExpression SimpleName x
+gp SimpleName MethodInvocation CastExpression PrimitiveType float
+gp SimpleName MethodInvocation CastExpression SimpleName y
+line to SimpleName MethodInvocation CastExpression PrimitiveType float
+line to SimpleName MethodInvocation CastExpression SimpleName x
+line to SimpleName MethodInvocation CastExpression PrimitiveType float
+line to SimpleName MethodInvocation CastExpression SimpleName y
+float PrimitiveType CastExpression MethodInvocation CastExpression PrimitiveType float
+float PrimitiveType CastExpression MethodInvocation CastExpression SimpleName y
+x SimpleName CastExpression MethodInvocation CastExpression PrimitiveType float
+x SimpleName CastExpression MethodInvocation CastExpression SimpleName y
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName sides
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+sides SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+gp SimpleName MethodInvocation SimpleName close path
+shape node SimpleName MethodInvocation SimpleName set shape
+shape node SimpleName MethodInvocation SimpleName gp
+set shape SimpleName MethodInvocation SimpleName gp
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType float
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+float PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType double
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName build shape
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName ctx
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName shape node
+void PrimitiveType MethodDeclaration SimpleName build shape
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName ctx
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName shape node
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName bridge context
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName ctx
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName shape node
+build shape SimpleName MethodDeclaration SingleVariableDeclaration SimpleName shape node
+build shape SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+build shape SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+build shape SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+build shape SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType float
+build shape SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+build shape SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType double
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+ctx SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape node
+e SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName build shape
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape node
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build shape
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName ctx
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName shape node

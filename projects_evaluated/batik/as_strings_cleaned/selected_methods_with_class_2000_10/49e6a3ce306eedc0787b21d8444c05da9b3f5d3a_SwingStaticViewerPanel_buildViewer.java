@@ -1,0 +1,500 @@
+v SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName swing static viewer
+final Modifier VariableDeclarationStatement SimpleType SimpleName swing static viewer
+final Modifier VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+swing static viewer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName v
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName evt
+evt SimpleName MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation InfixExpression QualifiedName evtctrl mask
+get modifiers SimpleName MethodInvocation InfixExpression QualifiedName evtctrl mask
+evtctrl mask QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+evt SimpleName MethodInvocation SimpleName get modifiers
+evt SimpleName MethodInvocation InfixExpression QualifiedName evtbutton mask
+get modifiers SimpleName MethodInvocation InfixExpression QualifiedName evtbutton mask
+evtbutton mask QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+evt SimpleName MethodInvocation SimpleName get point
+controller SimpleName MethodInvocation SimpleName on zoom in
+controller SimpleName MethodInvocation MethodInvocation SimpleName evt
+controller SimpleName MethodInvocation MethodInvocation SimpleName get point
+on zoom in SimpleName MethodInvocation MethodInvocation SimpleName evt
+on zoom in SimpleName MethodInvocation MethodInvocation SimpleName get point
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse clicked
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName evt
+void PrimitiveType MethodDeclaration SimpleName mouse clicked
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName evt
+mouse clicked SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse clicked SimpleName MethodDeclaration SingleVariableDeclaration SimpleName evt
+v SimpleName MethodInvocation SimpleName add mouse listener
+v SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mouse adapter
+add mouse listener SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName mouse adapter
+rectangle SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+rectangle SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+empty NumberLiteral ClassInstanceCreation NumberLiteral empty
+aoi SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName rectangle
+aoi SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+aoi SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+aoi SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+aoi SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+rectangle SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName aoi
+int PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName sx
+int PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName dx
+int PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName sy
+int PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName dy
+sx SimpleName VariableDeclarationFragment FieldDeclaration VariableDeclarationFragment SimpleName dx
+sx SimpleName VariableDeclarationFragment FieldDeclaration VariableDeclarationFragment SimpleName sy
+sx SimpleName VariableDeclarationFragment FieldDeclaration VariableDeclarationFragment SimpleName dy
+dx SimpleName VariableDeclarationFragment FieldDeclaration VariableDeclarationFragment SimpleName sy
+dx SimpleName VariableDeclarationFragment FieldDeclaration VariableDeclarationFragment SimpleName dy
+sy SimpleName VariableDeclarationFragment FieldDeclaration VariableDeclarationFragment SimpleName dy
+dragging SimpleName VariableDeclarationFragment BooleanLiteral false
+boolean PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName dragging
+boolean PrimitiveType FieldDeclaration VariableDeclarationFragment BooleanLiteral false
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get modifiers
+e SimpleName MethodInvocation InfixExpression QualifiedName ectrl mask
+get modifiers SimpleName MethodInvocation InfixExpression QualifiedName ectrl mask
+ectrl mask QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+e SimpleName MethodInvocation SimpleName get x
+sx SimpleName Assignment MethodInvocation SimpleName e
+sx SimpleName Assignment MethodInvocation SimpleName get x
+e SimpleName MethodInvocation SimpleName get y
+sy SimpleName Assignment MethodInvocation SimpleName e
+sy SimpleName Assignment MethodInvocation SimpleName get y
+dx SimpleName Assignment SimpleName sx
+dy SimpleName Assignment SimpleName sy
+viewer SimpleName MethodInvocation SimpleName set marker
+viewer SimpleName MethodInvocation SimpleName aoi
+set marker SimpleName MethodInvocation SimpleName aoi
+dragging SimpleName Assignment BooleanLiteral true
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse pressed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName mouse pressed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse pressed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse pressed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get modifiers
+e SimpleName MethodInvocation InfixExpression QualifiedName ectrl mask
+get modifiers SimpleName MethodInvocation InfixExpression QualifiedName ectrl mask
+ectrl mask QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+e SimpleName MethodInvocation SimpleName get x
+dx SimpleName Assignment MethodInvocation SimpleName e
+dx SimpleName Assignment MethodInvocation SimpleName get x
+e SimpleName MethodInvocation SimpleName get y
+dy SimpleName Assignment MethodInvocation SimpleName e
+dy SimpleName Assignment MethodInvocation SimpleName get y
+viewer SimpleName MethodInvocation SimpleName set marker
+viewer SimpleName MethodInvocation SimpleName aoi
+set marker SimpleName MethodInvocation SimpleName aoi
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse dragged
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName mouse dragged
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse dragged SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse dragged SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+sx SimpleName InfixExpression SimpleName dx
+aoix QualifiedName Assignment SimpleName sx
+dx SimpleName InfixExpression SimpleName sx
+aoiwidth QualifiedName Assignment InfixExpression SimpleName dx
+aoiwidth QualifiedName Assignment InfixExpression SimpleName sx
+aoix QualifiedName Assignment SimpleName dx
+sx SimpleName InfixExpression SimpleName dx
+aoiwidth QualifiedName Assignment InfixExpression SimpleName sx
+aoiwidth QualifiedName Assignment InfixExpression SimpleName dx
+sy SimpleName InfixExpression SimpleName dy
+aoiy QualifiedName Assignment SimpleName sy
+dy SimpleName InfixExpression SimpleName sy
+aoiheight QualifiedName Assignment InfixExpression SimpleName dy
+aoiheight QualifiedName Assignment InfixExpression SimpleName sy
+aoiy QualifiedName Assignment SimpleName dy
+sy SimpleName InfixExpression SimpleName dy
+aoiheight QualifiedName Assignment InfixExpression SimpleName sy
+aoiheight QualifiedName Assignment InfixExpression SimpleName dy
+private Modifier MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration SimpleName update aoi
+void PrimitiveType MethodDeclaration SimpleName update aoi
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+viewer SimpleName MethodInvocation SimpleName set marker
+controller SimpleName MethodInvocation SimpleName on zoom in
+controller SimpleName MethodInvocation SimpleName aoi
+on zoom in SimpleName MethodInvocation SimpleName aoi
+dragging SimpleName Assignment BooleanLiteral false
+viewer SimpleName MethodInvocation SimpleName set marker
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse released
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration Block IfStatement SimpleName dragging
+void PrimitiveType MethodDeclaration SimpleName mouse released
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration Block IfStatement SimpleName dragging
+mouse released SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse released SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse released SimpleName MethodDeclaration Block IfStatement SimpleName dragging
+aoi listener SimpleName TypeDeclaration SimpleType SimpleName mouse input adapter
+aoi listener SimpleName TypeDeclaration FieldDeclaration SimpleType SimpleName rectangle
+aoi listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName aoi
+aoi listener SimpleName TypeDeclaration FieldDeclaration PrimitiveType int
+aoi listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName sx
+aoi listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName dx
+aoi listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName sy
+aoi listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName dy
+aoi listener SimpleName TypeDeclaration FieldDeclaration PrimitiveType boolean
+aoi listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName dragging
+aoi listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment BooleanLiteral false
+aoi listener SimpleName TypeDeclaration MethodDeclaration Modifier public
+aoi listener SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+aoi listener SimpleName TypeDeclaration MethodDeclaration SimpleName mouse pressed
+aoi listener SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse input adapter SimpleName SimpleType TypeDeclaration FieldDeclaration PrimitiveType int
+mouse input adapter SimpleName SimpleType TypeDeclaration FieldDeclaration PrimitiveType boolean
+mouse input adapter SimpleName SimpleType TypeDeclaration MethodDeclaration Modifier public
+mouse input adapter SimpleName SimpleType TypeDeclaration MethodDeclaration PrimitiveType void
+mouse input adapter SimpleName SimpleType TypeDeclaration MethodDeclaration SimpleName mouse pressed
+mouse input adapter SimpleName SimpleType TypeDeclaration MethodDeclaration Modifier public
+mouse input adapter SimpleName SimpleType TypeDeclaration MethodDeclaration PrimitiveType void
+mouse input adapter SimpleName SimpleType TypeDeclaration MethodDeclaration SimpleName mouse dragged
+int PrimitiveType FieldDeclaration TypeDeclaration FieldDeclaration PrimitiveType boolean
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName mouse pressed
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName mouse dragged
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier private
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName update aoi
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+boolean PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+boolean PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName mouse pressed
+boolean PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+boolean PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName mouse dragged
+boolean PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier private
+boolean PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+boolean PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName update aoi
+boolean PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+boolean PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+boolean PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse dragged
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse dragged
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse dragged
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier private
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName update aoi
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier private
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName update aoi
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier private
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName update aoi
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier private
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName update aoi
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier private
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName update aoi
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier private
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName update aoi
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+private Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+private Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+private Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+update aoi SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+update aoi SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+update aoi SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+aoi listener SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName aoi listener
+aoi listener SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aoi listener
+v SimpleName MethodInvocation SimpleName add mouse listener
+v SimpleName MethodInvocation SimpleName aoi listener
+add mouse listener SimpleName MethodInvocation SimpleName aoi listener
+v SimpleName MethodInvocation SimpleName add mouse motion listener
+v SimpleName MethodInvocation SimpleName aoi listener
+add mouse motion listener SimpleName MethodInvocation SimpleName aoi listener
+cursor SimpleName MethodInvocation SimpleName get predefined cursor
+cursor SimpleName MethodInvocation QualifiedName cursordefault cursor
+get predefined cursor SimpleName MethodInvocation QualifiedName cursordefault cursor
+default cursor SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor
+default cursor SimpleName VariableDeclarationFragment MethodInvocation SimpleName get predefined cursor
+default cursor SimpleName VariableDeclarationFragment MethodInvocation QualifiedName cursordefault cursor
+cursor SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName default cursor
+cursor SimpleName MethodInvocation SimpleName get predefined cursor
+cursor SimpleName MethodInvocation QualifiedName cursorhand cursor
+get predefined cursor SimpleName MethodInvocation QualifiedName cursorhand cursor
+hand SimpleName VariableDeclarationFragment MethodInvocation SimpleName cursor
+hand SimpleName VariableDeclarationFragment MethodInvocation SimpleName get predefined cursor
+hand SimpleName VariableDeclarationFragment MethodInvocation QualifiedName cursorhand cursor
+cursor SimpleName SimpleType FieldDeclaration VariableDeclarationFragment SimpleName hand
+int PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName sx
+int PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName dx
+int PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName sy
+int PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName dy
+sx SimpleName VariableDeclarationFragment FieldDeclaration VariableDeclarationFragment SimpleName dx
+sx SimpleName VariableDeclarationFragment FieldDeclaration VariableDeclarationFragment SimpleName sy
+sx SimpleName VariableDeclarationFragment FieldDeclaration VariableDeclarationFragment SimpleName dy
+dx SimpleName VariableDeclarationFragment FieldDeclaration VariableDeclarationFragment SimpleName sy
+dx SimpleName VariableDeclarationFragment FieldDeclaration VariableDeclarationFragment SimpleName dy
+sy SimpleName VariableDeclarationFragment FieldDeclaration VariableDeclarationFragment SimpleName dy
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get modifiers
+e SimpleName MethodInvocation InfixExpression QualifiedName ealt mask
+get modifiers SimpleName MethodInvocation InfixExpression QualifiedName ealt mask
+ealt mask QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+v SimpleName MethodInvocation SimpleName set cursor
+v SimpleName MethodInvocation SimpleName hand
+set cursor SimpleName MethodInvocation SimpleName hand
+e SimpleName MethodInvocation SimpleName get x
+sx SimpleName Assignment MethodInvocation SimpleName e
+sx SimpleName Assignment MethodInvocation SimpleName get x
+e SimpleName MethodInvocation SimpleName get y
+sy SimpleName Assignment MethodInvocation SimpleName e
+sy SimpleName Assignment MethodInvocation SimpleName get y
+dx SimpleName Assignment SimpleName sx
+dy SimpleName Assignment SimpleName sy
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse pressed
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName mouse pressed
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse pressed SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse pressed SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get modifiers
+e SimpleName MethodInvocation InfixExpression QualifiedName ealt mask
+get modifiers SimpleName MethodInvocation InfixExpression QualifiedName ealt mask
+ealt mask QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+e SimpleName MethodInvocation SimpleName get x
+dx SimpleName Assignment MethodInvocation SimpleName e
+dx SimpleName Assignment MethodInvocation SimpleName get x
+e SimpleName MethodInvocation SimpleName get y
+dy SimpleName Assignment MethodInvocation SimpleName e
+dy SimpleName Assignment MethodInvocation SimpleName get y
+dx SimpleName InfixExpression SimpleName sx
+dy SimpleName InfixExpression SimpleName sy
+viewer SimpleName MethodInvocation SimpleName translate
+viewer SimpleName MethodInvocation InfixExpression SimpleName dx
+viewer SimpleName MethodInvocation InfixExpression SimpleName sx
+viewer SimpleName MethodInvocation InfixExpression SimpleName dy
+viewer SimpleName MethodInvocation InfixExpression SimpleName sy
+translate SimpleName MethodInvocation InfixExpression SimpleName dx
+translate SimpleName MethodInvocation InfixExpression SimpleName sx
+translate SimpleName MethodInvocation InfixExpression SimpleName dy
+translate SimpleName MethodInvocation InfixExpression SimpleName sy
+dx SimpleName InfixExpression MethodInvocation InfixExpression SimpleName dy
+dx SimpleName InfixExpression MethodInvocation InfixExpression SimpleName sy
+sx SimpleName InfixExpression MethodInvocation InfixExpression SimpleName dy
+sx SimpleName InfixExpression MethodInvocation InfixExpression SimpleName sy
+viewer SimpleName MethodInvocation SimpleName repaint
+sx SimpleName Assignment SimpleName dx
+sy SimpleName Assignment SimpleName dy
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse dragged
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName mouse dragged
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse dragged SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse dragged SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+v SimpleName MethodInvocation SimpleName set cursor
+v SimpleName MethodInvocation SimpleName default cursor
+set cursor SimpleName MethodInvocation SimpleName default cursor
+v SimpleName MethodInvocation SimpleName coerce translate
+v SimpleName MethodInvocation SimpleName repaint
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse released
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName mouse released
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse released SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse released SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+v SimpleName MethodInvocation SimpleName set cursor
+v SimpleName MethodInvocation SimpleName default cursor
+set cursor SimpleName MethodInvocation SimpleName default cursor
+v SimpleName MethodInvocation SimpleName coerce translate
+v SimpleName MethodInvocation SimpleName repaint
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse exited
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName mouse exited
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse exited SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse exited SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+e SimpleName MethodInvocation SimpleName get x
+sx SimpleName Assignment MethodInvocation SimpleName e
+sx SimpleName Assignment MethodInvocation SimpleName get x
+e SimpleName MethodInvocation SimpleName get y
+sy SimpleName Assignment MethodInvocation SimpleName e
+sy SimpleName Assignment MethodInvocation SimpleName get y
+e SimpleName MethodInvocation SimpleName get modifiers
+e SimpleName MethodInvocation InfixExpression QualifiedName ealt mask
+get modifiers SimpleName MethodInvocation InfixExpression QualifiedName ealt mask
+ealt mask QualifiedName InfixExpression ParenthesizedExpression InfixExpression NumberLiteral empty
+v SimpleName MethodInvocation SimpleName set cursor
+v SimpleName MethodInvocation SimpleName hand
+set cursor SimpleName MethodInvocation SimpleName hand
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName mouse entered
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName mouse entered
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse entered SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName mouse event
+mouse entered SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+pan listener SimpleName TypeDeclaration SimpleType SimpleName mouse input adapter
+pan listener SimpleName TypeDeclaration FieldDeclaration SimpleType SimpleName cursor
+pan listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName default cursor
+pan listener SimpleName TypeDeclaration FieldDeclaration SimpleType SimpleName cursor
+pan listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName hand
+pan listener SimpleName TypeDeclaration FieldDeclaration PrimitiveType int
+pan listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName sx
+pan listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName dx
+pan listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName sy
+pan listener SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName dy
+pan listener SimpleName TypeDeclaration MethodDeclaration Modifier public
+pan listener SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+pan listener SimpleName TypeDeclaration MethodDeclaration SimpleName mouse pressed
+pan listener SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+mouse input adapter SimpleName SimpleType TypeDeclaration FieldDeclaration PrimitiveType int
+mouse input adapter SimpleName SimpleType TypeDeclaration MethodDeclaration Modifier public
+mouse input adapter SimpleName SimpleType TypeDeclaration MethodDeclaration PrimitiveType void
+mouse input adapter SimpleName SimpleType TypeDeclaration MethodDeclaration SimpleName mouse pressed
+mouse input adapter SimpleName SimpleType TypeDeclaration MethodDeclaration Modifier public
+mouse input adapter SimpleName SimpleType TypeDeclaration MethodDeclaration PrimitiveType void
+mouse input adapter SimpleName SimpleType TypeDeclaration MethodDeclaration SimpleName mouse dragged
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName mouse pressed
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName mouse dragged
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName mouse exited
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+int PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName mouse entered
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse dragged
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse dragged
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse dragged
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse exited
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse exited
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse exited
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse entered
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse entered
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse pressed SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse entered
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse released
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse exited
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse exited
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse exited
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse entered
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+void PrimitiveType MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse entered
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+mouse dragged SimpleName MethodDeclaration TypeDeclaration MethodDeclaration SimpleName mouse entered
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration Modifier public
+public Modifier MethodDeclaration TypeDeclaration MethodDeclaration PrimitiveType void

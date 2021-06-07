@@ -1,0 +1,36 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+has style sheet node SimpleName MethodInvocation SimpleName n
+document SimpleName MethodInvocation SimpleName get document element
+invalidate properties SimpleName MethodInvocation MethodInvocation SimpleName document
+invalidate properties SimpleName MethodInvocation MethodInvocation SimpleName get document element
+invalidate properties SimpleName MethodInvocation BooleanLiteral true
+document SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+get document element SimpleName MethodInvocation MethodInvocation BooleanLiteral true
+n SimpleName InstanceofExpression SimpleType SimpleName css stylable element
+get css next sibling SimpleName MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get css next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+invalidate properties SimpleName MethodInvocation SimpleName n
+invalidate properties SimpleName MethodInvocation BooleanLiteral true
+n SimpleName MethodInvocation BooleanLiteral true
+get css next sibling SimpleName MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get css next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName handle node inserted
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+void PrimitiveType MethodDeclaration SimpleName handle node inserted
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName n
+handle node inserted SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+handle node inserted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName handle node inserted
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName handle node inserted
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

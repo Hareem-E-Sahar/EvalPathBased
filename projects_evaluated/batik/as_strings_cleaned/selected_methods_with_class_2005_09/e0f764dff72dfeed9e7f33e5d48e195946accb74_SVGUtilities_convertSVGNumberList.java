@@ -1,0 +1,61 @@
+svg number list SimpleName SimpleType SingleVariableDeclaration SimpleName l
+l SimpleName MethodInvocation SimpleName get number of items
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName l
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get number of items
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName l
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName get number of items
+n SimpleName InfixExpression NumberLiteral empty
+float PrimitiveType ArrayType ArrayCreation SimpleName n
+fl SimpleName VariableDeclarationFragment ArrayCreation ArrayType PrimitiveType float
+fl SimpleName VariableDeclarationFragment ArrayCreation SimpleName n
+float PrimitiveType ArrayType VariableDeclarationStatement VariableDeclarationFragment SimpleName fl
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName n
+fl SimpleName ArrayAccess SimpleName i
+l SimpleName MethodInvocation SimpleName get item
+l SimpleName MethodInvocation SimpleName i
+get item SimpleName MethodInvocation SimpleName i
+l SimpleName MethodInvocation MethodInvocation SimpleName get value
+get item SimpleName MethodInvocation MethodInvocation SimpleName get value
+i SimpleName MethodInvocation MethodInvocation SimpleName get value
+fl SimpleName ArrayAccess Assignment MethodInvocation SimpleName get value
+i SimpleName ArrayAccess Assignment MethodInvocation SimpleName get value
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName n
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+n SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName fl
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration ArrayType PrimitiveType float
+public Modifier MethodDeclaration SimpleName convert svg number list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg number list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName fl
+static Modifier MethodDeclaration ArrayType PrimitiveType float
+static Modifier MethodDeclaration SimpleName convert svg number list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg number list
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName l
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block ReturnStatement SimpleName fl
+float PrimitiveType ArrayType MethodDeclaration SimpleName convert svg number list
+float PrimitiveType ArrayType MethodDeclaration SingleVariableDeclaration SimpleName l
+convert svg number list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg number list
+convert svg number list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName l
+convert svg number list SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+convert svg number list SimpleName MethodDeclaration Block ReturnStatement SimpleName fl
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration ArrayType PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName convert svg number list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration ArrayType PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName convert svg number list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName l

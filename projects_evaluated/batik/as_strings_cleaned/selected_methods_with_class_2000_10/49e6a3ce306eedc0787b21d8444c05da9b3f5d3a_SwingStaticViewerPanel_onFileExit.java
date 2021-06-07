@@ -1,0 +1,31 @@
+j option pane SimpleName MethodInvocation SimpleName show confirm dialog
+j option pane SimpleName MethodInvocation ThisExpression SimpleName swing static viewer panel
+j option pane SimpleName MethodInvocation QualifiedName messagesdialog exit confirm
+show confirm dialog SimpleName MethodInvocation ThisExpression SimpleName swing static viewer panel
+show confirm dialog SimpleName MethodInvocation QualifiedName messagesdialog exit confirm
+swing static viewer panel SimpleName ThisExpression MethodInvocation QualifiedName messagesdialog exit confirm
+choice SimpleName VariableDeclarationFragment MethodInvocation SimpleName j option pane
+choice SimpleName VariableDeclarationFragment MethodInvocation SimpleName show confirm dialog
+choice SimpleName VariableDeclarationFragment MethodInvocation ThisExpression SimpleName swing static viewer panel
+choice SimpleName VariableDeclarationFragment MethodInvocation QualifiedName messagesdialog exit confirm
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName choice
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName j option pane
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation SimpleName show confirm dialog
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment MethodInvocation QualifiedName messagesdialog exit confirm
+choice SimpleName InfixExpression QualifiedName j option paneok option
+system SimpleName MethodInvocation SimpleName exit
+system SimpleName MethodInvocation NumberLiteral empty
+exit SimpleName MethodInvocation NumberLiteral empty
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on file exit
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName on file exit
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+on file exit SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on file exit
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on file exit

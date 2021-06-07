@@ -1,0 +1,337 @@
+svg rect SimpleName SimpleType SingleVariableDeclaration SimpleName svg rect
+element SimpleName SimpleType SingleVariableDeclaration SimpleName end
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+svg rect SimpleName MethodInvocation SimpleName get x
+svg rect SimpleName MethodInvocation SimpleName get y
+svg rect SimpleName MethodInvocation SimpleName get width
+svg rect SimpleName MethodInvocation SimpleName get height
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName svg rect
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get x
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName svg rect
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get y
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName svg rect
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get width
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName svg rect
+rectangle dfloat QualifiedName SimpleType ClassInstanceCreation MethodInvocation SimpleName get height
+svg rect SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName svg rect
+svg rect SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName svg rect
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get y
+svg rect SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName svg rect
+svg rect SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get width
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName svg rect
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get width
+svg rect SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName svg rect
+svg rect SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName svg rect
+get x SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+svg rect SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName svg rect
+svg rect SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get width
+get y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName svg rect
+get y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get width
+svg rect SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName svg rect
+svg rect SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName svg rect
+get y SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+svg rect SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName svg rect
+svg rect SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName svg rect
+get width SimpleName MethodInvocation ClassInstanceCreation MethodInvocation SimpleName get height
+rect SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType QualifiedName rectangle dfloat
+rect SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName svg rect
+rect SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get x
+rect SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName svg rect
+rect SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get y
+rect SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName svg rect
+rect SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get width
+rect SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName svg rect
+rect SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get height
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rect
+ctx SimpleName MethodInvocation SimpleName get graphics node
+ctx SimpleName MethodInvocation SimpleName e
+get graphics node SimpleName MethodInvocation SimpleName e
+svg gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+svg gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graphics node
+svg gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName e
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg gn
+svg gn SimpleName InfixExpression IfStatement ReturnStatement SimpleName ret
+svg gn SimpleName MethodInvocation SimpleName get sensitive bounds
+svg bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg gn
+svg bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sensitive bounds
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg bounds
+svg bounds SimpleName InfixExpression IfStatement ReturnStatement SimpleName ret
+rect SimpleName MethodInvocation SimpleName intersects
+rect SimpleName MethodInvocation SimpleName svg bounds
+intersects SimpleName MethodInvocation SimpleName svg bounds
+base SimpleName VariableDeclarationFragment SimpleName e
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName e
+svg gn SimpleName MethodInvocation SimpleName get global transform
+ati SimpleName VariableDeclarationFragment MethodInvocation SimpleName svg gn
+ati SimpleName VariableDeclarationFragment MethodInvocation SimpleName get global transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ati
+ati SimpleName MethodInvocation SimpleName create inverse
+ati SimpleName Assignment MethodInvocation SimpleName ati
+ati SimpleName Assignment MethodInvocation SimpleName create inverse
+noninvertible transform exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName curr
+base SimpleName MethodInvocation SimpleName get first child
+next SimpleName VariableDeclarationFragment MethodInvocation SimpleName base
+next SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName next
+next SimpleName InstanceofExpression SimpleType SimpleName element
+next SimpleName MethodInvocation SimpleName get next sibling
+next SimpleName Assignment MethodInvocation SimpleName next
+next SimpleName Assignment MethodInvocation SimpleName get next sibling
+next SimpleName InfixExpression IfStatement ReturnStatement SimpleName ret
+element SimpleName SimpleType CastExpression SimpleName next
+curr SimpleName Assignment CastExpression SimpleType SimpleName element
+curr SimpleName Assignment CastExpression SimpleName next
+set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ancestors
+get ancestors SimpleName MethodInvocation SimpleName end
+get ancestors SimpleName MethodInvocation SimpleName base
+end SimpleName MethodInvocation SimpleName base
+ancestors SimpleName Assignment MethodInvocation SimpleName get ancestors
+ancestors SimpleName Assignment MethodInvocation SimpleName end
+ancestors SimpleName Assignment MethodInvocation SimpleName base
+curr SimpleName MethodInvocation SimpleName get namespace uri
+ns uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName curr
+ns uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get namespace uri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ns uri
+curr SimpleName MethodInvocation SimpleName get local name
+tag SimpleName VariableDeclarationFragment MethodInvocation SimpleName curr
+tag SimpleName VariableDeclarationFragment MethodInvocation SimpleName get local name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName tag
+boolean PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName is group
+svg namespace uri SimpleName MethodInvocation SimpleName equals
+svg namespace uri SimpleName MethodInvocation SimpleName ns uri
+equals SimpleName MethodInvocation SimpleName ns uri
+svg g tag SimpleName MethodInvocation SimpleName equals
+svg g tag SimpleName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+svg svg tag SimpleName MethodInvocation SimpleName equals
+svg svg tag SimpleName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+svg a tag SimpleName MethodInvocation SimpleName equals
+svg a tag SimpleName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+svg g tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg svg tag
+svg g tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg g tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg svg tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg svg tag
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+svg g tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+svg g tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg g tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+svg svg tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+svg svg tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg svg tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg a tag
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+tag SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+is group SimpleName Assignment InfixExpression MethodInvocation SimpleName svg namespace uri
+is group SimpleName Assignment InfixExpression MethodInvocation SimpleName equals
+is group SimpleName Assignment InfixExpression MethodInvocation SimpleName ns uri
+ctx SimpleName MethodInvocation SimpleName get graphics node
+ctx SimpleName MethodInvocation SimpleName curr
+get graphics node SimpleName MethodInvocation SimpleName curr
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName ctx
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName get graphics node
+gn SimpleName VariableDeclarationFragment MethodInvocation SimpleName curr
+graphics node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn
+ancestors SimpleName MethodInvocation SimpleName contains
+ancestors SimpleName MethodInvocation SimpleName curr
+contains SimpleName MethodInvocation SimpleName curr
+get next SimpleName MethodInvocation SimpleName curr
+get next SimpleName MethodInvocation SimpleName base
+get next SimpleName MethodInvocation SimpleName end
+curr SimpleName MethodInvocation SimpleName base
+curr SimpleName MethodInvocation SimpleName end
+base SimpleName MethodInvocation SimpleName end
+curr SimpleName Assignment MethodInvocation SimpleName get next
+curr SimpleName Assignment MethodInvocation SimpleName curr
+curr SimpleName Assignment MethodInvocation SimpleName base
+curr SimpleName Assignment MethodInvocation SimpleName end
+gn SimpleName MethodInvocation SimpleName get global transform
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName gn
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName get global transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+gn SimpleName MethodInvocation SimpleName get sensitive bounds
+gn bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName gn
+gn bounds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sensitive bounds
+rectangle d SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName gn bounds
+at SimpleName MethodInvocation SimpleName pre concatenate
+at SimpleName MethodInvocation SimpleName ati
+pre concatenate SimpleName MethodInvocation SimpleName ati
+at SimpleName MethodInvocation SimpleName create transformed shape
+at SimpleName MethodInvocation SimpleName gn bounds
+create transformed shape SimpleName MethodInvocation SimpleName gn bounds
+at SimpleName MethodInvocation MethodInvocation SimpleName get bounds d
+create transformed shape SimpleName MethodInvocation MethodInvocation SimpleName get bounds d
+gn bounds SimpleName MethodInvocation MethodInvocation SimpleName get bounds d
+gn bounds SimpleName Assignment MethodInvocation MethodInvocation SimpleName at
+gn bounds SimpleName Assignment MethodInvocation MethodInvocation SimpleName create transformed shape
+gn bounds SimpleName Assignment MethodInvocation MethodInvocation SimpleName gn bounds
+gn bounds SimpleName Assignment MethodInvocation SimpleName get bounds d
+rect SimpleName MethodInvocation SimpleName intersects
+rect SimpleName MethodInvocation SimpleName gn bounds
+intersects SimpleName MethodInvocation SimpleName gn bounds
+ancestors SimpleName MethodInvocation SimpleName contains
+ancestors SimpleName MethodInvocation SimpleName curr
+contains SimpleName MethodInvocation SimpleName curr
+get next SimpleName MethodInvocation SimpleName curr
+get next SimpleName MethodInvocation SimpleName base
+get next SimpleName MethodInvocation SimpleName end
+curr SimpleName MethodInvocation SimpleName base
+curr SimpleName MethodInvocation SimpleName end
+base SimpleName MethodInvocation SimpleName end
+curr SimpleName Assignment MethodInvocation SimpleName get next
+curr SimpleName Assignment MethodInvocation SimpleName curr
+curr SimpleName Assignment MethodInvocation SimpleName base
+curr SimpleName Assignment MethodInvocation SimpleName end
+curr SimpleName MethodInvocation SimpleName get first child
+next SimpleName Assignment MethodInvocation SimpleName curr
+next SimpleName Assignment MethodInvocation SimpleName get first child
+next SimpleName InstanceofExpression SimpleType SimpleName element
+next SimpleName MethodInvocation SimpleName get next sibling
+next SimpleName Assignment MethodInvocation SimpleName next
+next SimpleName Assignment MethodInvocation SimpleName get next sibling
+element SimpleName SimpleType CastExpression SimpleName next
+curr SimpleName Assignment CastExpression SimpleType SimpleName element
+curr SimpleName Assignment CastExpression SimpleName next
+curr SimpleName InfixExpression SimpleName end
+svg namespace uri SimpleName MethodInvocation SimpleName equals
+svg namespace uri SimpleName MethodInvocation SimpleName ns uri
+equals SimpleName MethodInvocation SimpleName ns uri
+svg use tag SimpleName MethodInvocation SimpleName equals
+svg use tag SimpleName MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation SimpleName tag
+svg namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg use tag
+svg namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg use tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+ns uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg use tag
+ns uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+ns uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName tag
+rect SimpleName MethodInvocation SimpleName contains
+rect SimpleName MethodInvocation SimpleName gn bounds
+contains SimpleName MethodInvocation SimpleName gn bounds
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName curr
+add SimpleName MethodInvocation SimpleName curr
+gn SimpleName InstanceofExpression SimpleType SimpleName shape node
+shape node SimpleName SimpleType CastExpression SimpleName gn
+sn SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName shape node
+sn SimpleName VariableDeclarationFragment CastExpression SimpleName gn
+shape node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sn
+sn SimpleName MethodInvocation SimpleName get sensitive area
+sensitive SimpleName VariableDeclarationFragment MethodInvocation SimpleName sn
+sensitive SimpleName VariableDeclarationFragment MethodInvocation SimpleName get sensitive area
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName sensitive
+at SimpleName MethodInvocation SimpleName create transformed shape
+at SimpleName MethodInvocation SimpleName sensitive
+create transformed shape SimpleName MethodInvocation SimpleName sensitive
+sensitive SimpleName Assignment MethodInvocation SimpleName at
+sensitive SimpleName Assignment MethodInvocation SimpleName create transformed shape
+sensitive SimpleName Assignment MethodInvocation SimpleName sensitive
+sensitive SimpleName MethodInvocation SimpleName intersects
+sensitive SimpleName MethodInvocation SimpleName rect
+intersects SimpleName MethodInvocation SimpleName rect
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName curr
+add SimpleName MethodInvocation SimpleName curr
+gn SimpleName InstanceofExpression SimpleType SimpleName text node
+svgom element SimpleName SimpleType CastExpression SimpleName curr
+svg elem SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName svgom element
+svg elem SimpleName VariableDeclarationFragment CastExpression SimpleName curr
+svgom element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName svg elem
+svg text element bridge SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName txt bridge
+svg elem SimpleName MethodInvocation SimpleName get svg context
+svg text element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName svg elem
+svg text element bridge SimpleName SimpleType CastExpression MethodInvocation SimpleName get svg context
+txt bridge SimpleName Assignment CastExpression SimpleType SimpleName svg text element bridge
+txt bridge SimpleName Assignment CastExpression MethodInvocation SimpleName svg elem
+txt bridge SimpleName Assignment CastExpression MethodInvocation SimpleName get svg context
+txt bridge SimpleName MethodInvocation SimpleName get text intersection set
+txt bridge SimpleName MethodInvocation SimpleName at
+txt bridge SimpleName MethodInvocation SimpleName rect
+get text intersection set SimpleName MethodInvocation SimpleName at
+get text intersection set SimpleName MethodInvocation SimpleName rect
+at SimpleName MethodInvocation SimpleName rect
+elems SimpleName VariableDeclarationFragment MethodInvocation SimpleName txt bridge
+elems SimpleName VariableDeclarationFragment MethodInvocation SimpleName get text intersection set
+elems SimpleName VariableDeclarationFragment MethodInvocation SimpleName at
+elems SimpleName VariableDeclarationFragment MethodInvocation SimpleName rect
+set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName elems
+ancestors SimpleName MethodInvocation SimpleName contains
+ancestors SimpleName MethodInvocation SimpleName curr
+contains SimpleName MethodInvocation SimpleName curr
+filter children SimpleName MethodInvocation SimpleName curr
+filter children SimpleName MethodInvocation SimpleName end
+filter children SimpleName MethodInvocation SimpleName elems
+filter children SimpleName MethodInvocation SimpleName ret
+curr SimpleName MethodInvocation SimpleName end
+curr SimpleName MethodInvocation SimpleName elems
+curr SimpleName MethodInvocation SimpleName ret
+end SimpleName MethodInvocation SimpleName elems
+end SimpleName MethodInvocation SimpleName ret
+elems SimpleName MethodInvocation SimpleName ret
+ret SimpleName MethodInvocation SimpleName add all
+ret SimpleName MethodInvocation SimpleName elems
+add all SimpleName MethodInvocation SimpleName elems
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName curr
+add SimpleName MethodInvocation SimpleName curr
+get next SimpleName MethodInvocation SimpleName curr
+get next SimpleName MethodInvocation SimpleName base
+get next SimpleName MethodInvocation SimpleName end
+curr SimpleName MethodInvocation SimpleName base
+curr SimpleName MethodInvocation SimpleName end
+base SimpleName MethodInvocation SimpleName end
+curr SimpleName Assignment MethodInvocation SimpleName get next
+curr SimpleName Assignment MethodInvocation SimpleName curr
+curr SimpleName Assignment MethodInvocation SimpleName base
+curr SimpleName Assignment MethodInvocation SimpleName end
+public Modifier MethodDeclaration SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName get intersection list
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg rect
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName svg rect
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName end
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType MethodDeclaration SimpleName get intersection list
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName svg rect
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName end
+get intersection list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg rect
+get intersection list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName svg rect
+get intersection list SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get intersection list SimpleName MethodDeclaration SingleVariableDeclaration SimpleName end
+get intersection list SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+svg rect SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get intersection list
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg rect
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get intersection list
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName svg rect
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName end

@@ -1,0 +1,56 @@
+entry SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName entry
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+byte PrimitiveType ArrayType ArrayCreation SimpleName quick lut size
+quick lut SimpleName Assignment ArrayCreation ArrayType PrimitiveType byte
+quick lut SimpleName Assignment ArrayCreation SimpleName quick lut size
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName quick lut size
+empty NumberLiteral InfixExpression SimpleName entry
+empty NumberLiteral InfixExpression InfixExpression NumberLiteral empty
+entry SimpleName InfixExpression InfixExpression NumberLiteral empty
+raw data SimpleName ArrayAccess InfixExpression InfixExpression NumberLiteral empty
+raw data SimpleName ArrayAccess InfixExpression InfixExpression SimpleName entry
+raw data SimpleName ArrayAccess InfixExpression NumberLiteral empty
+max SimpleName VariableDeclarationFragment ArrayAccess SimpleName raw data
+max SimpleName VariableDeclarationFragment ArrayAccess InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName max
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName raw data
+raw classes SimpleName ArrayAccess SimpleName entry
+cls SimpleName VariableDeclarationFragment ArrayAccess SimpleName raw classes
+cls SimpleName VariableDeclarationFragment ArrayAccess SimpleName entry
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName cls
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName raw classes
+byte PrimitiveType VariableDeclarationStatement VariableDeclarationFragment ArrayAccess SimpleName entry
+i SimpleName InfixExpression SimpleName max
+quick lut SimpleName ArrayAccess SimpleName i
+quick lut SimpleName ArrayAccess Assignment SimpleName cls
+i SimpleName ArrayAccess Assignment SimpleName cls
+i SimpleName InfixExpression SimpleName quick lut size
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType byte
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration PrimitiveType void
+protected Modifier MethodDeclaration SimpleName build quick lut
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+protected Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName build quick lut
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+static Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration SimpleName build quick lut
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+void PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+build quick lut SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+build quick lut SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName build quick lut
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName build quick lut

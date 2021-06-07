@@ -1,0 +1,113 @@
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName data
+int PrimitiveType SingleVariableDeclaration SimpleName num rows
+int PrimitiveType SingleVariableDeclaration SimpleName bytes per row
+byte PrimitiveType ArrayType SingleVariableDeclaration SimpleName comp data
+in offset SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName in offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+out offset SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName out offset
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+i SimpleName InfixExpression SimpleName num rows
+pack bits SimpleName MethodInvocation SimpleName data
+pack bits SimpleName MethodInvocation SimpleName in offset
+pack bits SimpleName MethodInvocation SimpleName bytes per row
+pack bits SimpleName MethodInvocation SimpleName comp data
+pack bits SimpleName MethodInvocation SimpleName out offset
+data SimpleName MethodInvocation SimpleName in offset
+data SimpleName MethodInvocation SimpleName bytes per row
+data SimpleName MethodInvocation SimpleName comp data
+data SimpleName MethodInvocation SimpleName out offset
+in offset SimpleName MethodInvocation SimpleName bytes per row
+in offset SimpleName MethodInvocation SimpleName comp data
+in offset SimpleName MethodInvocation SimpleName out offset
+bytes per row SimpleName MethodInvocation SimpleName comp data
+bytes per row SimpleName MethodInvocation SimpleName out offset
+comp data SimpleName MethodInvocation SimpleName out offset
+out offset SimpleName Assignment MethodInvocation SimpleName pack bits
+out offset SimpleName Assignment MethodInvocation SimpleName data
+out offset SimpleName Assignment MethodInvocation SimpleName in offset
+out offset SimpleName Assignment MethodInvocation SimpleName bytes per row
+out offset SimpleName Assignment MethodInvocation SimpleName comp data
+out offset SimpleName Assignment MethodInvocation SimpleName out offset
+in offset SimpleName Assignment SimpleName bytes per row
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName num rows
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+num rows SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName out offset
+int PrimitiveType VariableDeclarationStatement Block ReturnStatement SimpleName out offset
+private Modifier MethodDeclaration Modifier static
+private Modifier MethodDeclaration PrimitiveType int
+private Modifier MethodDeclaration SimpleName compress pack bits
+private Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+private Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+private Modifier MethodDeclaration SingleVariableDeclaration SimpleName num rows
+static Modifier MethodDeclaration PrimitiveType int
+static Modifier MethodDeclaration SimpleName compress pack bits
+static Modifier MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName data
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName num rows
+static Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName bytes per row
+int PrimitiveType MethodDeclaration SimpleName compress pack bits
+int PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName data
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName num rows
+int PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName bytes per row
+int PrimitiveType MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+int PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName comp data
+compress pack bits SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+compress pack bits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName data
+compress pack bits SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+compress pack bits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName num rows
+compress pack bits SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+compress pack bits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName bytes per row
+compress pack bits SimpleName MethodDeclaration SingleVariableDeclaration ArrayType PrimitiveType byte
+compress pack bits SimpleName MethodDeclaration SingleVariableDeclaration SimpleName comp data
+compress pack bits SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compress pack bits SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compress pack bits SimpleName MethodDeclaration Block ReturnStatement SimpleName out offset
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num rows
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bytes per row
+data SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comp data
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bytes per row
+num rows SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+num rows SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bytes per row
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comp data
+num rows SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comp data
+int PrimitiveType SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comp data
+bytes per row SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comp data
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier private
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SimpleName compress pack bits
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num rows
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bytes per row
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comp data
+test SimpleName TypeDeclaration MethodDeclaration Modifier private
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compress pack bits
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName num rows
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName bytes per row
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName comp data

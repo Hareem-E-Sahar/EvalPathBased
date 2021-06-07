@@ -1,0 +1,26 @@
+event support SimpleName SimpleType SingleVariableDeclaration SimpleName other
+move event listeners SimpleName SuperMethodInvocation SimpleName other
+xbl event support SimpleName SimpleType CastExpression SimpleName other
+es SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName xbl event support
+es SimpleName VariableDeclarationFragment CastExpression SimpleName other
+xbl event support SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName es
+escapturing implementation listeners QualifiedName Assignment SimpleName capturing implementation listeners
+esbubbling implementation listeners QualifiedName Assignment SimpleName bubbling implementation listeners
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName move event listeners
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event support
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+void PrimitiveType MethodDeclaration SimpleName move event listeners
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event support
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+move event listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName event support
+move event listeners SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName move event listeners
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName move event listeners
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other

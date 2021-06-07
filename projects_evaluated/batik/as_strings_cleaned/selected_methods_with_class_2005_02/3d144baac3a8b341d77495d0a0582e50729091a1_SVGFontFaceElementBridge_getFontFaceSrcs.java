@@ -1,0 +1,130 @@
+element SimpleName SimpleType SingleVariableDeclaration SimpleName font face element
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ffsrc
+font face element SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName font face element
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+n SimpleName MethodInvocation SimpleName get namespace uri
+n SimpleName MethodInvocation MethodInvocation SimpleName equals
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName equals
+n SimpleName MethodInvocation MethodInvocation SimpleName svg namespace uri
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName svg namespace uri
+equals SimpleName MethodInvocation SimpleName svg namespace uri
+n SimpleName MethodInvocation SimpleName get local name
+n SimpleName MethodInvocation MethodInvocation SimpleName equals
+get local name SimpleName MethodInvocation MethodInvocation SimpleName equals
+n SimpleName MethodInvocation MethodInvocation SimpleName svg font face src tag
+get local name SimpleName MethodInvocation MethodInvocation SimpleName svg font face src tag
+equals SimpleName MethodInvocation SimpleName svg font face src tag
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+equals SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg font face src tag
+svg namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName equals
+svg namespace uri SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName svg font face src tag
+element SimpleName SimpleType CastExpression SimpleName n
+ffsrc SimpleName Assignment CastExpression SimpleType SimpleName element
+ffsrc SimpleName Assignment CastExpression SimpleName n
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+ret SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName linked list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ret
+ffsrc SimpleName MethodInvocation SimpleName get first child
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName ffsrc
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get first child
+node SimpleName SimpleType VariableDeclarationExpression VariableDeclarationFragment SimpleName n
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName MethodInvocation SimpleName get node type
+n SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+get node type SimpleName MethodInvocation InfixExpression QualifiedName nodeelement node
+n SimpleName MethodInvocation SimpleName get namespace uri
+n SimpleName MethodInvocation MethodInvocation SimpleName equals
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName equals
+n SimpleName MethodInvocation MethodInvocation SimpleName svg namespace uri
+get namespace uri SimpleName MethodInvocation MethodInvocation SimpleName svg namespace uri
+equals SimpleName MethodInvocation SimpleName svg namespace uri
+n SimpleName MethodInvocation SimpleName get local name
+n SimpleName MethodInvocation MethodInvocation SimpleName equals
+get local name SimpleName MethodInvocation MethodInvocation SimpleName equals
+n SimpleName MethodInvocation MethodInvocation SimpleName svg font face uri tag
+get local name SimpleName MethodInvocation MethodInvocation SimpleName svg font face uri tag
+equals SimpleName MethodInvocation SimpleName svg font face uri tag
+element SimpleName SimpleType CastExpression SimpleName n
+ffuri SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+ffuri SimpleName VariableDeclarationFragment CastExpression SimpleName n
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ffuri
+x link support SimpleName MethodInvocation SimpleName get x link href
+x link support SimpleName MethodInvocation SimpleName ffuri
+get x link href SimpleName MethodInvocation SimpleName ffuri
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName x link support
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName get x link href
+uri SimpleName VariableDeclarationFragment MethodInvocation SimpleName ffuri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName uri
+abstract node SimpleName MethodInvocation SimpleName get base uri
+abstract node SimpleName MethodInvocation SimpleName ffuri
+get base uri SimpleName MethodInvocation SimpleName ffuri
+base SimpleName VariableDeclarationFragment MethodInvocation SimpleName abstract node
+base SimpleName VariableDeclarationFragment MethodInvocation SimpleName get base uri
+base SimpleName VariableDeclarationFragment MethodInvocation SimpleName ffuri
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName base
+parsed url SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName purl
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName base
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName uri
+base SimpleName ClassInstanceCreation SimpleName uri
+purl SimpleName Assignment ClassInstanceCreation SimpleType SimpleName parsed url
+purl SimpleName Assignment ClassInstanceCreation SimpleName base
+purl SimpleName Assignment ClassInstanceCreation SimpleName uri
+parsed url SimpleName SimpleType ClassInstanceCreation SimpleName uri
+purl SimpleName Assignment ClassInstanceCreation SimpleType SimpleName parsed url
+purl SimpleName Assignment ClassInstanceCreation SimpleName uri
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName purl
+add SimpleName MethodInvocation SimpleName purl
+n SimpleName MethodInvocation SimpleName get local name
+n SimpleName MethodInvocation MethodInvocation SimpleName equals
+get local name SimpleName MethodInvocation MethodInvocation SimpleName equals
+n SimpleName MethodInvocation MethodInvocation SimpleName svg font face name tag
+get local name SimpleName MethodInvocation MethodInvocation SimpleName svg font face name tag
+equals SimpleName MethodInvocation SimpleName svg font face name tag
+element SimpleName SimpleType CastExpression SimpleName n
+ffname SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName element
+ffname SimpleName VariableDeclarationFragment CastExpression SimpleName n
+element SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ffname
+ffname SimpleName MethodInvocation SimpleName get attribute
+ffname SimpleName MethodInvocation StringLiteral name
+get attribute SimpleName MethodInvocation StringLiteral name
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName ffname
+s SimpleName VariableDeclarationFragment MethodInvocation SimpleName get attribute
+s SimpleName VariableDeclarationFragment MethodInvocation StringLiteral name
+string SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName s
+s SimpleName MethodInvocation SimpleName length
+s SimpleName MethodInvocation InfixExpression NumberLiteral empty
+length SimpleName MethodInvocation InfixExpression NumberLiteral empty
+ret SimpleName MethodInvocation SimpleName add
+ret SimpleName MethodInvocation SimpleName s
+add SimpleName MethodInvocation SimpleName s
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+public Modifier MethodDeclaration SimpleType SimpleName list
+public Modifier MethodDeclaration SimpleName get font face srcs
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName font face element
+public Modifier MethodDeclaration Block ReturnStatement SimpleName ret
+list SimpleName SimpleType MethodDeclaration SimpleName get font face srcs
+list SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName font face element
+get font face srcs SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get font face srcs SimpleName MethodDeclaration SingleVariableDeclaration SimpleName font face element
+get font face srcs SimpleName MethodDeclaration Block ReturnStatement SimpleName ret
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName list
+public Modifier TypeDeclaration MethodDeclaration SimpleName get font face srcs
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font face element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName list
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get font face srcs
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName font face element

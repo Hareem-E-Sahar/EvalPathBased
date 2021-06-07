@@ -1,0 +1,13 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName new node
+void PrimitiveType MethodDeclaration SimpleName node inserted
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new node
+node inserted SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+node inserted SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new node
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName node inserted
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new node
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName node inserted
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new node

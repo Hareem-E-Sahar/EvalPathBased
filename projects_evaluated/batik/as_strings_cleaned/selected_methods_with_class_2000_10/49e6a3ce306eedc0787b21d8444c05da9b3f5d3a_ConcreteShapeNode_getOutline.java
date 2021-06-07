@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName shape
+public Modifier MethodDeclaration SimpleName get outline
+public Modifier MethodDeclaration Block ReturnStatement SimpleName shape
+shape SimpleName SimpleType MethodDeclaration SimpleName get outline
+get outline SimpleName MethodDeclaration Block ReturnStatement SimpleName shape
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName shape
+public Modifier TypeDeclaration MethodDeclaration SimpleName get outline
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName shape
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get outline

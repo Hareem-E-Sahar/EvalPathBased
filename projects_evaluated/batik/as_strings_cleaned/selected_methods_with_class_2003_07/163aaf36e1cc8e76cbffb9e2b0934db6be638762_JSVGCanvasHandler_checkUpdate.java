@@ -1,0 +1,19 @@
+check something SimpleName MethodInvocation SimpleName render monitor
+check something SimpleName MethodInvocation SimpleName error svg update failed
+render monitor SimpleName MethodInvocation SimpleName error svg update failed
+delegate SimpleName MethodInvocation SimpleName canvas updated
+delegate SimpleName MethodInvocation SimpleName canvas
+canvas updated SimpleName MethodInvocation SimpleName canvas
+done SimpleName Assignment MethodInvocation SimpleName delegate
+done SimpleName Assignment MethodInvocation SimpleName canvas updated
+done SimpleName Assignment MethodInvocation SimpleName canvas
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName check update
+void PrimitiveType MethodDeclaration SimpleName check update
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName check update
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName check update

@@ -1,0 +1,33 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName arg
+integer SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+arg SimpleName InfixExpression ParenthesizedExpression ConditionalExpression StringLiteral empty
+arg SimpleName InfixExpression ParenthesizedExpression ConditionalExpression SimpleName arg
+empty StringLiteral ConditionalExpression SimpleName arg
+set node value SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get node value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName append data
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName arg
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+void PrimitiveType MethodDeclaration SimpleName append data
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName arg
+void PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+append data SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+append data SimpleName MethodDeclaration SingleVariableDeclaration SimpleName arg
+append data SimpleName MethodDeclaration SimpleType SimpleName dom exception
+arg SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName append data
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName append data
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName arg
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

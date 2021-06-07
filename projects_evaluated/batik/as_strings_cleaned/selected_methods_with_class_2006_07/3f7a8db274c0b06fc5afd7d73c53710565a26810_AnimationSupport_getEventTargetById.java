@@ -1,0 +1,42 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName id
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+get element by id SimpleName MethodInvocation SimpleName id
+get element by id SimpleName MethodInvocation SimpleName n
+id SimpleName MethodInvocation SimpleName n
+event target SimpleName SimpleType CastExpression MethodInvocation SimpleName get element by id
+event target SimpleName SimpleType CastExpression MethodInvocation SimpleName id
+event target SimpleName SimpleType CastExpression MethodInvocation SimpleName n
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName event target
+public Modifier MethodDeclaration SimpleName get event target by id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+static Modifier MethodDeclaration SimpleType SimpleName event target
+static Modifier MethodDeclaration SimpleName get event target by id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName id
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+event target SimpleName SimpleType MethodDeclaration SimpleName get event target by id
+event target SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName id
+event target SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+get event target by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get event target by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName id
+get event target by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+get event target by id SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+id SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName event target
+public Modifier TypeDeclaration MethodDeclaration SimpleName get event target by id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName event target
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get event target by id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName id
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

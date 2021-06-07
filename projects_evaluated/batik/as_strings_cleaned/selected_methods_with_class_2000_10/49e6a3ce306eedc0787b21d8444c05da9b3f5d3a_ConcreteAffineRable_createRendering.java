@@ -1,0 +1,54 @@
+render context SimpleName SimpleType SingleVariableDeclaration SimpleName rc
+rc SimpleName MethodInvocation SimpleName get rendering hints
+rh SimpleName VariableDeclarationFragment MethodInvocation SimpleName rc
+rh SimpleName VariableDeclarationFragment MethodInvocation SimpleName get rendering hints
+rendering hints SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName rh
+rh SimpleName Assignment ClassInstanceCreation SimpleType SimpleName rendering hints
+rc SimpleName MethodInvocation SimpleName get area of interest
+aoi SimpleName VariableDeclarationFragment MethodInvocation SimpleName rc
+aoi SimpleName VariableDeclarationFragment MethodInvocation SimpleName get area of interest
+shape SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName aoi
+inv affine SimpleName MethodInvocation SimpleName create transformed shape
+inv affine SimpleName MethodInvocation SimpleName aoi
+create transformed shape SimpleName MethodInvocation SimpleName aoi
+aoi SimpleName Assignment MethodInvocation SimpleName inv affine
+aoi SimpleName Assignment MethodInvocation SimpleName create transformed shape
+aoi SimpleName Assignment MethodInvocation SimpleName aoi
+rc SimpleName MethodInvocation SimpleName get transform
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName rc
+at SimpleName VariableDeclarationFragment MethodInvocation SimpleName get transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName at
+at SimpleName MethodInvocation SimpleName concatenate
+at SimpleName MethodInvocation SimpleName affine
+concatenate SimpleName MethodInvocation SimpleName affine
+render context SimpleName SimpleType ClassInstanceCreation SimpleName at
+render context SimpleName SimpleType ClassInstanceCreation SimpleName aoi
+render context SimpleName SimpleType ClassInstanceCreation SimpleName rh
+at SimpleName ClassInstanceCreation SimpleName aoi
+at SimpleName ClassInstanceCreation SimpleName rh
+aoi SimpleName ClassInstanceCreation SimpleName rh
+get source SimpleName MethodInvocation MethodInvocation SimpleName create rendering
+get source SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName at
+get source SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName aoi
+get source SimpleName MethodInvocation MethodInvocation ClassInstanceCreation SimpleName rh
+create rendering SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName render context
+create rendering SimpleName MethodInvocation ClassInstanceCreation SimpleName at
+create rendering SimpleName MethodInvocation ClassInstanceCreation SimpleName aoi
+create rendering SimpleName MethodInvocation ClassInstanceCreation SimpleName rh
+public Modifier MethodDeclaration SimpleType SimpleName rendered image
+public Modifier MethodDeclaration SimpleName create rendering
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName rc
+rendered image SimpleName SimpleType MethodDeclaration SimpleName create rendering
+rendered image SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName rc
+create rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName render context
+create rendering SimpleName MethodDeclaration SingleVariableDeclaration SimpleName rc
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName rendered image
+public Modifier TypeDeclaration MethodDeclaration SimpleName create rendering
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName rendered image
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create rendering
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName rc

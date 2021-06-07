@@ -1,0 +1,126 @@
+input files SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName input files
+src file SimpleName FieldAccess MethodInvocation SimpleName get absolute path
+input files SimpleName MethodInvocation SimpleName add
+input files SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName src file
+input files SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+add SimpleName MethodInvocation MethodInvocation FieldAccess SimpleName src file
+add SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+fileset SimpleName MethodInvocation SimpleName set dir
+fileset SimpleName MethodInvocation FieldAccess SimpleName src dir
+set dir SimpleName MethodInvocation FieldAccess SimpleName src dir
+fileset SimpleName MethodInvocation SimpleName get directory scanner
+fileset SimpleName MethodInvocation SimpleName project
+get directory scanner SimpleName MethodInvocation SimpleName project
+ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName fileset
+ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get directory scanner
+ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName project
+directory scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ds
+ds SimpleName MethodInvocation SimpleName get included files
+included files SimpleName VariableDeclarationFragment MethodInvocation SimpleName ds
+included files SimpleName VariableDeclarationFragment MethodInvocation SimpleName get included files
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression QualifiedName included fileslength
+src dir SimpleName MethodInvocation SimpleName get path
+included files SimpleName ArrayAccess SimpleName j
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName src dir
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get path
+file SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName included files
+file SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName j
+src dir SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName included files
+src dir SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName j
+get path SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName included files
+get path SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName j
+new file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+new file SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName src dir
+new file SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get path
+new file SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName included files
+new file SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName j
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new file
+new file SimpleName MethodInvocation SimpleName get absolute path
+input files SimpleName MethodInvocation SimpleName add
+input files SimpleName MethodInvocation MethodInvocation SimpleName new file
+input files SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+add SimpleName MethodInvocation MethodInvocation SimpleName new file
+add SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName included fileslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+included fileslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName j
+i SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+filesets SimpleName MethodInvocation SimpleName size
+i SimpleName InfixExpression MethodInvocation SimpleName filesets
+i SimpleName InfixExpression MethodInvocation SimpleName size
+filesets SimpleName MethodInvocation SimpleName element at
+filesets SimpleName MethodInvocation SimpleName i
+element at SimpleName MethodInvocation SimpleName i
+file set SimpleName SimpleType CastExpression MethodInvocation SimpleName filesets
+file set SimpleName SimpleType CastExpression MethodInvocation SimpleName element at
+file set SimpleName SimpleType CastExpression MethodInvocation SimpleName i
+fs SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName file set
+fs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName filesets
+fs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName element at
+fs SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName i
+file set SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName fs
+fs SimpleName MethodInvocation SimpleName get directory scanner
+fs SimpleName MethodInvocation SimpleName project
+get directory scanner SimpleName MethodInvocation SimpleName project
+ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName fs
+ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName get directory scanner
+ds SimpleName VariableDeclarationFragment MethodInvocation SimpleName project
+directory scanner SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName ds
+ds SimpleName MethodInvocation SimpleName get included files
+included files SimpleName VariableDeclarationFragment MethodInvocation SimpleName ds
+included files SimpleName VariableDeclarationFragment MethodInvocation SimpleName get included files
+j SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment SimpleName j
+int PrimitiveType VariableDeclarationExpression VariableDeclarationFragment NumberLiteral empty
+j SimpleName InfixExpression QualifiedName included fileslength
+fs SimpleName MethodInvocation SimpleName get dir
+fs SimpleName MethodInvocation SimpleName project
+get dir SimpleName MethodInvocation SimpleName project
+fs SimpleName MethodInvocation MethodInvocation SimpleName get path
+get dir SimpleName MethodInvocation MethodInvocation SimpleName get path
+project SimpleName MethodInvocation MethodInvocation SimpleName get path
+included files SimpleName ArrayAccess SimpleName j
+file SimpleName SimpleType ClassInstanceCreation MethodInvocation SimpleName get path
+file SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName included files
+file SimpleName SimpleType ClassInstanceCreation ArrayAccess SimpleName j
+get path SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName included files
+get path SimpleName MethodInvocation ClassInstanceCreation ArrayAccess SimpleName j
+new file SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName file
+new file SimpleName VariableDeclarationFragment ClassInstanceCreation MethodInvocation SimpleName get path
+new file SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName included files
+new file SimpleName VariableDeclarationFragment ClassInstanceCreation ArrayAccess SimpleName j
+file SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName new file
+new file SimpleName MethodInvocation SimpleName get absolute path
+input files SimpleName MethodInvocation SimpleName add
+input files SimpleName MethodInvocation MethodInvocation SimpleName new file
+input files SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+add SimpleName MethodInvocation MethodInvocation SimpleName new file
+add SimpleName MethodInvocation MethodInvocation SimpleName get absolute path
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression QualifiedName included fileslength
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName j
+j SimpleName InfixExpression ForStatement PostfixExpression SimpleName j
+included fileslength QualifiedName InfixExpression ForStatement PostfixExpression SimpleName j
+int PrimitiveType VariableDeclarationExpression ForStatement InfixExpression SimpleName i
+int PrimitiveType VariableDeclarationExpression ForStatement PostfixExpression SimpleName i
+i SimpleName InfixExpression ForStatement PostfixExpression SimpleName i
+string SimpleName SimpleType ArrayType ArrayCreation NumberLiteral empty
+input files SimpleName MethodInvocation SimpleName to array
+input files SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+to array SimpleName MethodInvocation ArrayCreation NumberLiteral empty
+protected Modifier MethodDeclaration ArrayType SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get source files
+string SimpleName SimpleType ArrayType MethodDeclaration SimpleName get source files
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration SimpleName get source files
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get source files

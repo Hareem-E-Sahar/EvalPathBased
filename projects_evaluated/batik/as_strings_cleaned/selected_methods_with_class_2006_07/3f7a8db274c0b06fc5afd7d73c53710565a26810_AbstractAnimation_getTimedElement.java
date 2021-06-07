@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName timed element
+public Modifier MethodDeclaration SimpleName get timed element
+public Modifier MethodDeclaration Block ReturnStatement SimpleName timed element
+timed element SimpleName SimpleType MethodDeclaration SimpleName get timed element
+get timed element SimpleName MethodDeclaration Block ReturnStatement SimpleName timed element
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName timed element
+public Modifier TypeDeclaration MethodDeclaration SimpleName get timed element
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName timed element
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get timed element

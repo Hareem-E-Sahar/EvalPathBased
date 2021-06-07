@@ -1,0 +1,19 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+x path node ns resolver SimpleName SimpleType ClassInstanceCreation SimpleName n
+public Modifier MethodDeclaration SimpleType SimpleName x path ns resolver
+public Modifier MethodDeclaration SimpleName create ns resolver
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+x path ns resolver SimpleName SimpleType MethodDeclaration SimpleName create ns resolver
+x path ns resolver SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+create ns resolver SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+create ns resolver SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName x path ns resolver
+public Modifier TypeDeclaration MethodDeclaration SimpleName create ns resolver
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName x path ns resolver
+test SimpleName TypeDeclaration MethodDeclaration SimpleName create ns resolver
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n

@@ -1,0 +1,22 @@
+model SimpleName MethodInvocation SimpleName get tree root
+viewer SimpleName MethodInvocation SimpleName set tree root
+viewer SimpleName MethodInvocation MethodInvocation SimpleName model
+viewer SimpleName MethodInvocation MethodInvocation SimpleName get tree root
+set tree root SimpleName MethodInvocation MethodInvocation SimpleName model
+set tree root SimpleName MethodInvocation MethodInvocation SimpleName get tree root
+viewer SimpleName MethodInvocation SimpleName set transform
+viewer SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName affine transform
+set transform SimpleName MethodInvocation ClassInstanceCreation SimpleType SimpleName affine transform
+noninvertible transform exception SimpleName SimpleType SingleVariableDeclaration SimpleName e
+viewer SimpleName MethodInvocation SimpleName invalidate
+viewer SimpleName MethodInvocation SimpleName repaint
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName on tree root changed
+void PrimitiveType MethodDeclaration SimpleName on tree root changed
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName on tree root changed
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName on tree root changed

@@ -1,0 +1,18 @@
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration SimpleType SimpleName dom implementation
+public Modifier MethodDeclaration SimpleName get dom implementation
+public Modifier MethodDeclaration Block ReturnStatement SimpleName dom implementation
+static Modifier MethodDeclaration SimpleType SimpleName dom implementation
+static Modifier MethodDeclaration SimpleName get dom implementation
+static Modifier MethodDeclaration Block ReturnStatement SimpleName dom implementation
+dom implementation SimpleName SimpleType MethodDeclaration SimpleName get dom implementation
+get dom implementation SimpleName MethodDeclaration Block ReturnStatement SimpleName dom implementation
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom implementation
+public Modifier TypeDeclaration MethodDeclaration SimpleName get dom implementation
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom implementation
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get dom implementation

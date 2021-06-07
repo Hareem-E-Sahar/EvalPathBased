@@ -1,0 +1,34 @@
+svg point SimpleName SimpleType SingleVariableDeclaration SimpleName new item
+initialize impl SimpleName MethodInvocation SimpleName new item
+svg point SimpleName SimpleType CastExpression MethodInvocation SimpleName initialize impl
+svg point SimpleName SimpleType CastExpression MethodInvocation SimpleName new item
+public Modifier MethodDeclaration SimpleType SimpleName svg point
+public Modifier MethodDeclaration SimpleName initialize
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg point
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+public Modifier MethodDeclaration SimpleType SimpleName svg exception
+svg point SimpleName SimpleType MethodDeclaration SimpleName initialize
+svg point SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new item
+svg point SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+svg point SimpleName SimpleType MethodDeclaration SimpleType SimpleName svg exception
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svg point
+initialize SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new item
+initialize SimpleName MethodDeclaration SimpleType SimpleName dom exception
+initialize SimpleName MethodDeclaration SimpleType SimpleName svg exception
+new item SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+new item SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName svg exception
+dom exception SimpleName SimpleType MethodDeclaration SimpleType SimpleName svg exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg point
+public Modifier TypeDeclaration MethodDeclaration SimpleName initialize
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName svg exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg point
+test SimpleName TypeDeclaration MethodDeclaration SimpleName initialize
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new item
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName svg exception

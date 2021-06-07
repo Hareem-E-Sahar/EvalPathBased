@@ -1,0 +1,201 @@
+reader SimpleName SimpleType SingleVariableDeclaration SimpleName r
+string SimpleName SimpleType SingleVariableDeclaration SimpleName e
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral l
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+char PrimitiveType CastExpression ParenthesizedExpression Assignment SimpleName c
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+char PrimitiveType CastExpression ParenthesizedExpression Assignment SimpleName c
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+c SimpleName InfixExpression CharacterLiteral v
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral e
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral r
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral s
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral i
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral o
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral n
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+char PrimitiveType CastExpression SimpleName c
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml space SimpleName MethodInvocation CastExpression SimpleName c
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName InfixExpression CharacterLiteral =
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+char PrimitiveType CastExpression ParenthesizedExpression Assignment SimpleName c
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+c SimpleName InfixExpression CharacterLiteral empty
+c SimpleName InfixExpression CharacterLiteral \
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+c SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral \
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName c
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral \
+char PrimitiveType CastExpression SimpleName c
+sc SimpleName VariableDeclarationFragment CastExpression PrimitiveType char
+sc SimpleName VariableDeclarationFragment CastExpression SimpleName c
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName sc
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression PrimitiveType char
+char PrimitiveType VariableDeclarationStatement VariableDeclarationFragment CastExpression SimpleName c
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName InfixExpression SimpleName sc
+char PrimitiveType CastExpression SimpleName c
+is xml version character SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml version character SimpleName MethodInvocation CastExpression SimpleName c
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+char PrimitiveType CastExpression ParenthesizedExpression Assignment SimpleName c
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+char PrimitiveType CastExpression ParenthesizedExpression Assignment SimpleName c
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+c SimpleName InfixExpression CharacterLiteral e
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral n
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral c
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral o
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral d
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral i
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral n
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName Assignment ParenthesizedExpression InfixExpression CharacterLiteral g
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+char PrimitiveType CastExpression SimpleName c
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+is xml space SimpleName MethodInvocation CastExpression SimpleName c
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName InfixExpression CharacterLiteral =
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+char PrimitiveType CastExpression ParenthesizedExpression Assignment SimpleName c
+is xml space SimpleName MethodInvocation CastExpression PrimitiveType char
+c SimpleName InfixExpression CharacterLiteral empty
+c SimpleName InfixExpression CharacterLiteral \
+c SimpleName InfixExpression InfixExpression InfixExpression SimpleName c
+c SimpleName InfixExpression InfixExpression InfixExpression CharacterLiteral \
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression SimpleName c
+empty CharacterLiteral InfixExpression InfixExpression InfixExpression CharacterLiteral \
+char PrimitiveType CastExpression SimpleName c
+sc SimpleName Assignment CastExpression PrimitiveType char
+sc SimpleName Assignment CastExpression SimpleName c
+enc SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName string buffer
+string buffer SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName enc
+r SimpleName MethodInvocation SimpleName read
+c SimpleName Assignment MethodInvocation SimpleName r
+c SimpleName Assignment MethodInvocation SimpleName read
+c SimpleName InfixExpression PrefixExpression NumberLiteral empty
+c SimpleName InfixExpression SimpleName sc
+enc SimpleName MethodInvocation SimpleName to string
+encoding to java encoding SimpleName MethodInvocation MethodInvocation SimpleName enc
+encoding to java encoding SimpleName MethodInvocation MethodInvocation SimpleName to string
+encoding to java encoding SimpleName MethodInvocation SimpleName e
+enc SimpleName MethodInvocation MethodInvocation SimpleName e
+to string SimpleName MethodInvocation MethodInvocation SimpleName e
+char PrimitiveType CastExpression SimpleName c
+enc SimpleName MethodInvocation SimpleName append
+enc SimpleName MethodInvocation CastExpression PrimitiveType char
+enc SimpleName MethodInvocation CastExpression SimpleName c
+append SimpleName MethodInvocation CastExpression PrimitiveType char
+append SimpleName MethodInvocation CastExpression SimpleName c
+protected Modifier MethodDeclaration Modifier static
+protected Modifier MethodDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SimpleName get xml declaration encoding
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SimpleName get xml declaration encoding
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+static Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+static Modifier MethodDeclaration SimpleType SimpleName io exception
+string SimpleName SimpleType MethodDeclaration SimpleName get xml declaration encoding
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName r
+string SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName e
+string SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get xml declaration encoding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName reader
+get xml declaration encoding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+get xml declaration encoding SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get xml declaration encoding SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+get xml declaration encoding SimpleName MethodDeclaration SimpleType SimpleName io exception
+get xml declaration encoding SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+get xml declaration encoding SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType char
+r SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+r SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+e SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName string
+public Modifier TypeDeclaration MethodDeclaration SimpleName get xml declaration encoding
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName string
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get xml declaration encoding
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName e
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

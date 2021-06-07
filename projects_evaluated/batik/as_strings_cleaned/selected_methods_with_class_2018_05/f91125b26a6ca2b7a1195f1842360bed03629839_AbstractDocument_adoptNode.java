@@ -1,0 +1,70 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName n
+n SimpleName InstanceofExpression SimpleType SimpleName abstract node
+n SimpleName MethodInvocation SimpleName get node type
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot supported err
+create dom exception SimpleName MethodInvocation StringLiteral adoptdocument
+dom exceptionnot supported err QualifiedName MethodInvocation StringLiteral adoptdocument
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionnot supported err
+create dom exception SimpleName MethodInvocation StringLiteral adoptdocumenttype
+dom exceptionnot supported err QualifiedName MethodInvocation StringLiteral adoptdocumenttype
+n SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodedocument node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodedocument node
+n SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodedocument type node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodedocument type node
+n SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodeentity node
+get node type SimpleName MethodInvocation SwitchStatement SwitchCase QualifiedName nodeentity node
+nodedocument node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodedocument type node
+nodedocument node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodeentity node
+nodedocument node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodenotation node
+nodedocument type node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodeentity node
+nodedocument type node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodenotation node
+nodeentity node QualifiedName SwitchCase SwitchStatement SwitchCase QualifiedName nodenotation node
+abstract node SimpleName SimpleType CastExpression SimpleName n
+an SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName abstract node
+an SimpleName VariableDeclarationFragment CastExpression SimpleName n
+abstract node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName an
+an SimpleName MethodInvocation SimpleName is readonly
+an SimpleName MethodInvocation SimpleName get node type
+int PrimitiveType CastExpression MethodInvocation SimpleName an
+int PrimitiveType CastExpression MethodInvocation SimpleName get node type
+an SimpleName MethodInvocation SimpleName get node name
+int PrimitiveType CastExpression ArrayInitializer MethodInvocation SimpleName an
+int PrimitiveType CastExpression ArrayInitializer MethodInvocation SimpleName get node name
+create dom exception SimpleName MethodInvocation QualifiedName dom exceptionno modification allowed err
+create dom exception SimpleName MethodInvocation StringLiteral readonlynode
+dom exceptionno modification allowed err QualifiedName MethodInvocation StringLiteral readonlynode
+n SimpleName MethodInvocation SimpleName get parent node
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName n
+parent SimpleName VariableDeclarationFragment MethodInvocation SimpleName get parent node
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName parent
+parent SimpleName MethodInvocation SimpleName remove child
+parent SimpleName MethodInvocation SimpleName n
+remove child SimpleName MethodInvocation SimpleName n
+abstract node SimpleName SimpleType CastExpression SimpleName n
+adopt node SimpleName MethodInvocation CastExpression SimpleType SimpleName abstract node
+adopt node SimpleName MethodInvocation CastExpression SimpleName n
+public Modifier MethodDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SimpleName adopt node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleName adopt node
+node SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName n
+node SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+adopt node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+adopt node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName n
+adopt node SimpleName MethodDeclaration SimpleType SimpleName dom exception
+adopt node SimpleName MethodDeclaration Block ReturnStatement SimpleName n
+n SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName node
+public Modifier TypeDeclaration MethodDeclaration SimpleName adopt node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName node
+test SimpleName TypeDeclaration MethodDeclaration SimpleName adopt node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName n
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

@@ -1,0 +1,177 @@
+node SimpleName SimpleType SingleVariableDeclaration SimpleName other
+array list SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+a SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+a SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+array list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+array list SimpleName SimpleType ClassInstanceCreation NumberLiteral empty
+a SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName array list
+a SimpleName VariableDeclarationFragment ClassInstanceCreation NumberLiteral empty
+array list SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName a
+c SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+c SimpleName VariableDeclarationFragment NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment NumberLiteral empty
+node SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+get node type SimpleName MethodInvocation InfixExpression SimpleName attribute node
+a SimpleName MethodInvocation SimpleName add
+n SimpleName Assignment MethodInvocation SimpleName get owner element
+other SimpleName MethodInvocation SimpleName get node type
+other SimpleName MethodInvocation InfixExpression SimpleName attribute node
+get node type SimpleName MethodInvocation InfixExpression SimpleName attribute node
+attr SimpleName SimpleType CastExpression SimpleName other
+other attr SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName attr
+other attr SimpleName VariableDeclarationFragment CastExpression SimpleName other
+attr SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName other attr
+other attr SimpleName MethodInvocation SimpleName get owner element
+n SimpleName InfixExpression MethodInvocation SimpleName other attr
+n SimpleName InfixExpression MethodInvocation SimpleName get owner element
+attr SimpleName SimpleType CastExpression SimpleName other
+other SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName hash code
+hash code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hash code
+document position preceding SimpleName InfixExpression SimpleName document position implementation specific
+document position following SimpleName InfixExpression SimpleName document position implementation specific
+n SimpleName InfixExpression SimpleName other
+document position contained by SimpleName InfixExpression SimpleName document position following
+a SimpleName MethodInvocation SimpleName add
+a SimpleName MethodInvocation SimpleName n
+add SimpleName MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName get parent node
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node
+other SimpleName MethodInvocation SimpleName get node type
+other SimpleName MethodInvocation InfixExpression SimpleName attribute node
+get node type SimpleName MethodInvocation InfixExpression SimpleName attribute node
+a SimpleName MethodInvocation SimpleName add
+a SimpleName MethodInvocation SimpleName other
+add SimpleName MethodInvocation SimpleName other
+attr SimpleName SimpleType CastExpression SimpleName other
+other SimpleName CastExpression ParenthesizedExpression MethodInvocation SimpleName get owner element
+n SimpleName Assignment MethodInvocation SimpleName get owner element
+n SimpleName Assignment SimpleName other
+document position contains SimpleName InfixExpression SimpleName document position preceding
+a SimpleName MethodInvocation SimpleName add
+a SimpleName MethodInvocation SimpleName n
+add SimpleName MethodInvocation SimpleName n
+n SimpleName MethodInvocation SimpleName get parent node
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get parent node
+c SimpleName InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression SimpleName c
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+c SimpleName InfixExpression NumberLiteral empty
+i SimpleName VariableDeclarationFragment InfixExpression SimpleName c
+i SimpleName VariableDeclarationFragment InfixExpression NumberLiteral empty
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment SimpleName i
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression SimpleName c
+int PrimitiveType VariableDeclarationStatement VariableDeclarationFragment InfixExpression NumberLiteral empty
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+a SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName a
+a SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+a SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName i
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName a
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+get SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName i
+i SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName a
+i SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName get
+i SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName i
+other SimpleName MethodInvocation SimpleName hash code
+hash code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName other
+hash code SimpleName MethodInvocation InfixExpression MethodInvocation SimpleName hash code
+document position disconnected SimpleName InfixExpression SimpleName document position implementation specific
+document position disconnected SimpleName InfixExpression SimpleName document position preceding
+document position implementation specific SimpleName InfixExpression SimpleName document position preceding
+document position disconnected SimpleName InfixExpression SimpleName document position implementation specific
+document position disconnected SimpleName InfixExpression SimpleName document position following
+document position implementation specific SimpleName InfixExpression SimpleName document position following
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName a
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation SimpleName i
+get SimpleName MethodInvocation SimpleName i
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName a
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName get
+n SimpleName VariableDeclarationFragment MethodInvocation SimpleName i
+object SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName n
+n SimpleName InfixExpression SimpleName n
+node SimpleName SimpleType CastExpression SimpleName n
+n SimpleName Assignment CastExpression SimpleType SimpleName node
+n SimpleName Assignment CastExpression SimpleName n
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation PrefixExpression SimpleName i
+get SimpleName MethodInvocation PrefixExpression SimpleName i
+n SimpleName Assignment MethodInvocation SimpleName a
+n SimpleName Assignment MethodInvocation SimpleName get
+n SimpleName Assignment MethodInvocation PrefixExpression SimpleName i
+a SimpleName MethodInvocation SimpleName get
+a SimpleName MethodInvocation PrefixExpression SimpleName i
+get SimpleName MethodInvocation PrefixExpression SimpleName i
+n SimpleName Assignment MethodInvocation SimpleName a
+n SimpleName Assignment MethodInvocation SimpleName get
+n SimpleName Assignment MethodInvocation PrefixExpression SimpleName i
+n SimpleName MethodInvocation SimpleName get first child
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get first child
+n SimpleName MethodInvocation SimpleName get next sibling
+n SimpleName Assignment MethodInvocation SimpleName n
+n SimpleName Assignment MethodInvocation SimpleName get next sibling
+n SimpleName InfixExpression SimpleName n
+n SimpleName InfixExpression SimpleName n
+n SimpleName Assignment ForStatement InfixExpression SimpleName n
+n SimpleName Assignment ForStatement Assignment SimpleName n
+n SimpleName InfixExpression ForStatement Assignment SimpleName n
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+int PrimitiveType VariableDeclarationStatement Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration PrimitiveType short
+public Modifier MethodDeclaration SimpleName compare document position
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+public Modifier MethodDeclaration Block ReturnStatement SimpleName document position disconnected
+short PrimitiveType MethodDeclaration SimpleName compare document position
+short PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+short PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName other
+short PrimitiveType MethodDeclaration SimpleType SimpleName dom exception
+short PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+short PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+short PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+short PrimitiveType MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+short PrimitiveType MethodDeclaration Block ReturnStatement SimpleName document position disconnected
+compare document position SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName node
+compare document position SimpleName MethodDeclaration SingleVariableDeclaration SimpleName other
+compare document position SimpleName MethodDeclaration SimpleType SimpleName dom exception
+compare document position SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compare document position SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compare document position SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compare document position SimpleName MethodDeclaration Block VariableDeclarationStatement PrimitiveType int
+compare document position SimpleName MethodDeclaration Block ReturnStatement SimpleName document position disconnected
+other SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType short
+public Modifier TypeDeclaration MethodDeclaration SimpleName compare document position
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType short
+test SimpleName TypeDeclaration MethodDeclaration SimpleName compare document position
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName other
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

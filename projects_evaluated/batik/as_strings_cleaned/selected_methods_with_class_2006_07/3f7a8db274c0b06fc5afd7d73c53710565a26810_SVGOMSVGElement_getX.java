@@ -1,0 +1,15 @@
+scrn trans SimpleName VariableDeclarationFragment MethodInvocation SimpleName get screen transform
+affine transform SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName scrn trans
+scrn trans SimpleName MethodInvocation SimpleName get translate x
+float PrimitiveType CastExpression MethodInvocation SimpleName scrn trans
+float PrimitiveType CastExpression MethodInvocation SimpleName get translate x
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get x
+float PrimitiveType MethodDeclaration SimpleName get x
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get x
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get x

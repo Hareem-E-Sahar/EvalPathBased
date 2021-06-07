@@ -1,0 +1,44 @@
+parsed url SimpleName SimpleType SingleVariableDeclaration SimpleName purl
+get handlers SimpleName MethodInvocation MethodInvocation SimpleName iterator
+iter SimpleName VariableDeclarationFragment MethodInvocation MethodInvocation SimpleName get handlers
+iter SimpleName VariableDeclarationFragment MethodInvocation SimpleName iterator
+iterator SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName iter
+squiggle input handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName handler
+iter SimpleName MethodInvocation SimpleName has next
+iter SimpleName MethodInvocation SimpleName next
+squiggle input handler SimpleName SimpleType CastExpression MethodInvocation SimpleName iter
+squiggle input handler SimpleName SimpleType CastExpression MethodInvocation SimpleName next
+cur handler SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName squiggle input handler
+cur handler SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName iter
+cur handler SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName next
+squiggle input handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName cur handler
+cur handler SimpleName MethodInvocation SimpleName accept
+cur handler SimpleName MethodInvocation SimpleName purl
+accept SimpleName MethodInvocation SimpleName purl
+handler SimpleName Assignment SimpleName cur handler
+handler SimpleName Assignment SimpleName default handler
+public Modifier MethodDeclaration SimpleType SimpleName squiggle input handler
+public Modifier MethodDeclaration SimpleName get input handler
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName purl
+public Modifier MethodDeclaration SimpleType SimpleName io exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName handler
+squiggle input handler SimpleName SimpleType MethodDeclaration SimpleName get input handler
+squiggle input handler SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName purl
+squiggle input handler SimpleName SimpleType MethodDeclaration SimpleType SimpleName io exception
+get input handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName parsed url
+get input handler SimpleName MethodDeclaration SingleVariableDeclaration SimpleName purl
+get input handler SimpleName MethodDeclaration SimpleType SimpleName io exception
+get input handler SimpleName MethodDeclaration Block ReturnStatement SimpleName handler
+purl SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName io exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName squiggle input handler
+public Modifier TypeDeclaration MethodDeclaration SimpleName get input handler
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName purl
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName io exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName squiggle input handler
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get input handler
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName purl
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName io exception

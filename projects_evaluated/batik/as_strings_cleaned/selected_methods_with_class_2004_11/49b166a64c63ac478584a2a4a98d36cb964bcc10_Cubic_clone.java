@@ -1,0 +1,54 @@
+point ddouble QualifiedName SimpleType ClassInstanceCreation QualifiedName p x
+point ddouble QualifiedName SimpleType ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation QualifiedName p y
+point ddouble QualifiedName SimpleType ClassInstanceCreation QualifiedName p x
+point ddouble QualifiedName SimpleType ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation QualifiedName p y
+point ddouble QualifiedName SimpleType ClassInstanceCreation QualifiedName p x
+point ddouble QualifiedName SimpleType ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation QualifiedName p y
+point ddouble QualifiedName SimpleType ClassInstanceCreation QualifiedName p x
+point ddouble QualifiedName SimpleType ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation QualifiedName p y
+cubic SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+cubic SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+cubic SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+cubic SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+cubic SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+cubic SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+cubic SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+cubic SimpleName SimpleType ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p x QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p x
+p y QualifiedName ClassInstanceCreation ClassInstanceCreation ClassInstanceCreation QualifiedName p y
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName clone
+object SimpleName SimpleType MethodDeclaration SimpleName clone
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName clone
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName clone

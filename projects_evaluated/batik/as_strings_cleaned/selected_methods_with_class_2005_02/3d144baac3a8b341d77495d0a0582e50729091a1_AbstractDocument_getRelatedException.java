@@ -1,0 +1,12 @@
+public Modifier MethodDeclaration SimpleType SimpleName object
+public Modifier MethodDeclaration SimpleName get related exception
+public Modifier MethodDeclaration Block ReturnStatement SimpleName related exception
+object SimpleName SimpleType MethodDeclaration SimpleName get related exception
+get related exception SimpleName MethodDeclaration Block ReturnStatement SimpleName related exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName object
+public Modifier TypeDeclaration MethodDeclaration SimpleName get related exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName object
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get related exception

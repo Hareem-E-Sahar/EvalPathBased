@@ -1,0 +1,146 @@
+debugger class SimpleName MethodInvocation SimpleName get constructor
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName debugger class
+c SimpleName VariableDeclarationFragment MethodInvocation SimpleName get constructor
+constructor SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName c
+c SimpleName MethodInvocation SimpleName new instance
+c SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral rhino java script debugger
+new instance SimpleName MethodInvocation ArrayCreation ArrayInitializer StringLiteral rhino java script debugger
+j frame SimpleName SimpleType CastExpression MethodInvocation SimpleName c
+j frame SimpleName SimpleType CastExpression MethodInvocation SimpleName new instance
+debugger frame SimpleName Assignment CastExpression SimpleType SimpleName j frame
+debugger frame SimpleName Assignment CastExpression MethodInvocation SimpleName c
+debugger frame SimpleName Assignment CastExpression MethodInvocation SimpleName new instance
+debugger frame SimpleName MethodInvocation SimpleName get j menu bar
+menu bar SimpleName VariableDeclarationFragment MethodInvocation SimpleName debugger frame
+menu bar SimpleName VariableDeclarationFragment MethodInvocation SimpleName get j menu bar
+j menu bar SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName menu bar
+menu bar SimpleName MethodInvocation SimpleName get menu
+menu bar SimpleName MethodInvocation NumberLiteral empty
+get menu SimpleName MethodInvocation NumberLiteral empty
+menu SimpleName VariableDeclarationFragment MethodInvocation SimpleName menu bar
+menu SimpleName VariableDeclarationFragment MethodInvocation SimpleName get menu
+menu SimpleName VariableDeclarationFragment MethodInvocation NumberLiteral empty
+j menu SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName menu
+menu SimpleName MethodInvocation SimpleName get item
+menu SimpleName MethodInvocation NumberLiteral empty
+get item SimpleName MethodInvocation NumberLiteral empty
+menu SimpleName MethodInvocation MethodInvocation SimpleName set enabled
+get item SimpleName MethodInvocation MethodInvocation SimpleName set enabled
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set enabled
+menu SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get item SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral false
+set enabled SimpleName MethodInvocation BooleanLiteral false
+menu SimpleName MethodInvocation SimpleName get item
+menu SimpleName MethodInvocation NumberLiteral empty
+get item SimpleName MethodInvocation NumberLiteral empty
+menu SimpleName MethodInvocation MethodInvocation SimpleName set enabled
+get item SimpleName MethodInvocation MethodInvocation SimpleName set enabled
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set enabled
+menu SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+get item SimpleName MethodInvocation MethodInvocation BooleanLiteral false
+empty NumberLiteral MethodInvocation MethodInvocation BooleanLiteral false
+set enabled SimpleName MethodInvocation BooleanLiteral false
+menu SimpleName MethodInvocation SimpleName get item
+menu SimpleName MethodInvocation NumberLiteral empty
+get item SimpleName MethodInvocation NumberLiteral empty
+resources SimpleName MethodInvocation SimpleName get string
+resources SimpleName MethodInvocation StringLiteral closetext
+get string SimpleName MethodInvocation StringLiteral closetext
+menu SimpleName MethodInvocation MethodInvocation SimpleName set text
+get item SimpleName MethodInvocation MethodInvocation SimpleName set text
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set text
+menu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resources
+menu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+menu SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral closetext
+get item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName resources
+get item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+get item SimpleName MethodInvocation MethodInvocation MethodInvocation StringLiteral closetext
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName resources
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get string
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation StringLiteral closetext
+set text SimpleName MethodInvocation MethodInvocation SimpleName resources
+set text SimpleName MethodInvocation MethodInvocation SimpleName get string
+set text SimpleName MethodInvocation MethodInvocation StringLiteral closetext
+menu SimpleName MethodInvocation SimpleName get item
+menu SimpleName MethodInvocation NumberLiteral empty
+get item SimpleName MethodInvocation NumberLiteral empty
+key stroke SimpleName MethodInvocation SimpleName get key stroke
+key stroke SimpleName MethodInvocation QualifiedName key eventvk w
+key stroke SimpleName MethodInvocation QualifiedName eventctrl mask
+get key stroke SimpleName MethodInvocation QualifiedName key eventvk w
+get key stroke SimpleName MethodInvocation QualifiedName eventctrl mask
+key eventvk w QualifiedName MethodInvocation QualifiedName eventctrl mask
+menu SimpleName MethodInvocation MethodInvocation SimpleName set accelerator
+get item SimpleName MethodInvocation MethodInvocation SimpleName set accelerator
+empty NumberLiteral MethodInvocation MethodInvocation SimpleName set accelerator
+menu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key stroke
+menu SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key stroke
+menu SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName key eventvk w
+menu SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName eventctrl mask
+get item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName key stroke
+get item SimpleName MethodInvocation MethodInvocation MethodInvocation SimpleName get key stroke
+get item SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName key eventvk w
+get item SimpleName MethodInvocation MethodInvocation MethodInvocation QualifiedName eventctrl mask
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName key stroke
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation SimpleName get key stroke
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName key eventvk w
+empty NumberLiteral MethodInvocation MethodInvocation MethodInvocation QualifiedName eventctrl mask
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation SimpleName get key stroke
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName key eventvk w
+set accelerator SimpleName MethodInvocation MethodInvocation QualifiedName eventctrl mask
+debugger frame SimpleName MethodInvocation SimpleName set size
+debugger frame SimpleName MethodInvocation NumberLiteral empty
+debugger frame SimpleName MethodInvocation NumberLiteral empty
+set size SimpleName MethodInvocation NumberLiteral empty
+set size SimpleName MethodInvocation NumberLiteral empty
+empty NumberLiteral MethodInvocation NumberLiteral empty
+debugger frame SimpleName MethodInvocation SimpleName pack
+window event SimpleName SimpleType SingleVariableDeclaration SimpleName e
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName window closing
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName window event
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName e
+void PrimitiveType MethodDeclaration SimpleName window closing
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName window event
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName e
+window closing SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName window event
+window closing SimpleName MethodDeclaration SingleVariableDeclaration SimpleName e
+wa SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName window adapter
+window adapter SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName wa
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName run
+void PrimitiveType MethodDeclaration SimpleName run
+set exit action SimpleName MethodInvocation SimpleName invoke
+set exit action SimpleName MethodInvocation SimpleName debugger frame
+invoke SimpleName MethodInvocation SimpleName debugger frame
+debugger frame SimpleName MethodInvocation SimpleName add window listener
+debugger frame SimpleName MethodInvocation SimpleName wa
+add window listener SimpleName MethodInvocation SimpleName wa
+exception SimpleName SimpleType SingleVariableDeclaration SimpleName ex
+ex SimpleName MethodInvocation SimpleName print stack trace
+debugger frame SimpleName MethodInvocation SimpleName set visible
+debugger frame SimpleName MethodInvocation BooleanLiteral true
+set visible SimpleName MethodInvocation BooleanLiteral true
+context listener SimpleName SimpleType CastExpression SimpleName debugger frame
+context SimpleName MethodInvocation SimpleName add context listener
+context SimpleName MethodInvocation CastExpression SimpleType SimpleName context listener
+context SimpleName MethodInvocation CastExpression SimpleName debugger frame
+add context listener SimpleName MethodInvocation CastExpression SimpleType SimpleName context listener
+add context listener SimpleName MethodInvocation CastExpression SimpleName debugger frame
+public Modifier MethodDeclaration Modifier static
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName show debugger
+static Modifier MethodDeclaration PrimitiveType void
+static Modifier MethodDeclaration SimpleName show debugger
+void PrimitiveType MethodDeclaration SimpleName show debugger
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration Modifier static
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName show debugger
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration Modifier static
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName show debugger

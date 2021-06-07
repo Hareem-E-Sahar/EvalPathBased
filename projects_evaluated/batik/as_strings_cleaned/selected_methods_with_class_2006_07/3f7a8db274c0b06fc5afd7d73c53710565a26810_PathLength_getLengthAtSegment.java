@@ -1,0 +1,36 @@
+int PrimitiveType SingleVariableDeclaration SimpleName index
+index SimpleName InfixExpression NumberLiteral empty
+index SimpleName InfixExpression QualifiedName segment indexeslength
+segment indexes SimpleName ArrayAccess SimpleName index
+segments SimpleName MethodInvocation SimpleName get
+segments SimpleName MethodInvocation ArrayAccess SimpleName segment indexes
+segments SimpleName MethodInvocation ArrayAccess SimpleName index
+get SimpleName MethodInvocation ArrayAccess SimpleName segment indexes
+get SimpleName MethodInvocation ArrayAccess SimpleName index
+path segment SimpleName SimpleType CastExpression MethodInvocation SimpleName segments
+path segment SimpleName SimpleType CastExpression MethodInvocation SimpleName get
+seg SimpleName VariableDeclarationFragment CastExpression SimpleType SimpleName path segment
+seg SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName segments
+seg SimpleName VariableDeclarationFragment CastExpression MethodInvocation SimpleName get
+path segment SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName seg
+seg SimpleName MethodInvocation SimpleName get length
+public Modifier MethodDeclaration PrimitiveType float
+public Modifier MethodDeclaration SimpleName get length at segment
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName index
+float PrimitiveType MethodDeclaration SimpleName get length at segment
+float PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType int
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName index
+get length at segment SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType int
+get length at segment SimpleName MethodDeclaration SingleVariableDeclaration SimpleName index
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName get length at segment
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get length at segment
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType int
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName index

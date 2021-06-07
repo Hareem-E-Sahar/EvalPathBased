@@ -1,0 +1,31 @@
+attr SimpleName SimpleType SingleVariableDeclaration SimpleName new attr
+attributes SimpleName Assignment MethodInvocation SimpleName create attributes
+attributes SimpleName MethodInvocation SimpleName set named item
+attributes SimpleName MethodInvocation SimpleName new attr
+set named item SimpleName MethodInvocation SimpleName new attr
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName attributes
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName set named item
+attr SimpleName SimpleType CastExpression MethodInvocation SimpleName new attr
+public Modifier MethodDeclaration SimpleType SimpleName attr
+public Modifier MethodDeclaration SimpleName set attribute node
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attr
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new attr
+public Modifier MethodDeclaration SimpleType SimpleName dom exception
+attr SimpleName SimpleType MethodDeclaration SimpleName set attribute node
+attr SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName new attr
+attr SimpleName SimpleType MethodDeclaration SimpleType SimpleName dom exception
+set attribute node SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName attr
+set attribute node SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new attr
+set attribute node SimpleName MethodDeclaration SimpleType SimpleName dom exception
+new attr SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName dom exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName attr
+public Modifier TypeDeclaration MethodDeclaration SimpleName set attribute node
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attr
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName attr
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set attribute node
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new attr
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName dom exception

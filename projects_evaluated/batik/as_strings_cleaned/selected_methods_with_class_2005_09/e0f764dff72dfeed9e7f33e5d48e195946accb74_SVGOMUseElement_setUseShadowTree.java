@@ -1,0 +1,20 @@
+svgom use shadow root SimpleName SimpleType SingleVariableDeclaration SimpleName r
+shadow tree SimpleName Assignment SimpleName r
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName set use shadow tree
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svgom use shadow root
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName r
+void PrimitiveType MethodDeclaration SimpleName set use shadow tree
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svgom use shadow root
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName r
+set use shadow tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName svgom use shadow root
+set use shadow tree SimpleName MethodDeclaration SingleVariableDeclaration SimpleName r
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType void
+public Modifier TypeDeclaration MethodDeclaration SimpleName set use shadow tree
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+test SimpleName TypeDeclaration MethodDeclaration SimpleName set use shadow tree
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName r

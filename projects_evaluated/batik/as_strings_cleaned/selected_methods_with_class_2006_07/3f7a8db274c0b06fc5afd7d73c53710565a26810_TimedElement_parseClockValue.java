@@ -1,0 +1,76 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName s
+p SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName clock parser
+clock parser SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName p
+v SimpleName VariableDeclarationFragment NumberLiteral empty
+protected Modifier FieldDeclaration PrimitiveType float
+protected Modifier FieldDeclaration VariableDeclarationFragment SimpleName v
+protected Modifier FieldDeclaration VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType FieldDeclaration VariableDeclarationFragment SimpleName v
+float PrimitiveType FieldDeclaration VariableDeclarationFragment NumberLiteral empty
+float PrimitiveType SingleVariableDeclaration SimpleName new clock value
+v SimpleName Assignment SimpleName new clock value
+public Modifier MethodDeclaration PrimitiveType void
+public Modifier MethodDeclaration SimpleName clock value
+public Modifier MethodDeclaration SingleVariableDeclaration PrimitiveType float
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName new clock value
+void PrimitiveType MethodDeclaration SimpleName clock value
+void PrimitiveType MethodDeclaration SingleVariableDeclaration PrimitiveType float
+void PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName new clock value
+clock value SimpleName MethodDeclaration SingleVariableDeclaration PrimitiveType float
+clock value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName new clock value
+handler SimpleName TypeDeclaration SimpleType SimpleName clock handler
+handler SimpleName TypeDeclaration FieldDeclaration Modifier protected
+handler SimpleName TypeDeclaration FieldDeclaration PrimitiveType float
+handler SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment SimpleName v
+handler SimpleName TypeDeclaration FieldDeclaration VariableDeclarationFragment NumberLiteral empty
+handler SimpleName TypeDeclaration MethodDeclaration Modifier public
+handler SimpleName TypeDeclaration MethodDeclaration PrimitiveType void
+handler SimpleName TypeDeclaration MethodDeclaration SimpleName clock value
+handler SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration PrimitiveType float
+handler SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName new clock value
+clock handler SimpleName SimpleType TypeDeclaration FieldDeclaration Modifier protected
+clock handler SimpleName SimpleType TypeDeclaration FieldDeclaration PrimitiveType float
+clock handler SimpleName SimpleType TypeDeclaration MethodDeclaration Modifier public
+clock handler SimpleName SimpleType TypeDeclaration MethodDeclaration PrimitiveType void
+clock handler SimpleName SimpleType TypeDeclaration MethodDeclaration SimpleName clock value
+protected Modifier FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+protected Modifier FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+protected Modifier FieldDeclaration TypeDeclaration MethodDeclaration SimpleName clock value
+float PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration Modifier public
+float PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration PrimitiveType void
+float PrimitiveType FieldDeclaration TypeDeclaration MethodDeclaration SimpleName clock value
+h SimpleName VariableDeclarationFragment ClassInstanceCreation SimpleType SimpleName handler
+handler SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName h
+p SimpleName MethodInvocation SimpleName set clock handler
+p SimpleName MethodInvocation SimpleName h
+set clock handler SimpleName MethodInvocation SimpleName h
+p SimpleName MethodInvocation SimpleName parse
+p SimpleName MethodInvocation SimpleName s
+parse SimpleName MethodInvocation SimpleName s
+protected Modifier MethodDeclaration PrimitiveType float
+protected Modifier MethodDeclaration SimpleName parse clock value
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+protected Modifier MethodDeclaration SingleVariableDeclaration SimpleName s
+protected Modifier MethodDeclaration SimpleType SimpleName parse exception
+protected Modifier MethodDeclaration Block ReturnStatement QualifiedName hv
+float PrimitiveType MethodDeclaration SimpleName parse clock value
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+float PrimitiveType MethodDeclaration SingleVariableDeclaration SimpleName s
+float PrimitiveType MethodDeclaration SimpleType SimpleName parse exception
+float PrimitiveType MethodDeclaration Block ReturnStatement QualifiedName hv
+parse clock value SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+parse clock value SimpleName MethodDeclaration SingleVariableDeclaration SimpleName s
+parse clock value SimpleName MethodDeclaration SimpleType SimpleName parse exception
+parse clock value SimpleName MethodDeclaration Block ReturnStatement QualifiedName hv
+s SimpleName SingleVariableDeclaration MethodDeclaration SimpleType SimpleName parse exception
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier protected
+public Modifier TypeDeclaration MethodDeclaration PrimitiveType float
+public Modifier TypeDeclaration MethodDeclaration SimpleName parse clock value
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception
+test SimpleName TypeDeclaration MethodDeclaration Modifier protected
+test SimpleName TypeDeclaration MethodDeclaration PrimitiveType float
+test SimpleName TypeDeclaration MethodDeclaration SimpleName parse clock value
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName s
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName parse exception

@@ -1,0 +1,44 @@
+string SimpleName SimpleType SingleVariableDeclaration SimpleName pseudo elt
+element SimpleName SimpleType SingleVariableDeclaration SimpleName elt
+elt SimpleName MethodInvocation SimpleName get owner document
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName elt
+doc SimpleName VariableDeclarationFragment MethodInvocation SimpleName get owner document
+document SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName doc
+svgdom implementation SimpleName SimpleType VariableDeclarationStatement VariableDeclarationFragment SimpleName impl
+doc SimpleName MethodInvocation SimpleName get implementation
+svgdom implementation SimpleName SimpleType CastExpression MethodInvocation SimpleName doc
+svgdom implementation SimpleName SimpleType CastExpression MethodInvocation SimpleName get implementation
+impl SimpleName Assignment CastExpression SimpleType SimpleName svgdom implementation
+impl SimpleName Assignment CastExpression MethodInvocation SimpleName doc
+impl SimpleName Assignment CastExpression MethodInvocation SimpleName get implementation
+override style element support SimpleName SimpleType ClassInstanceCreation SimpleName impl
+override style support SimpleName Assignment ClassInstanceCreation SimpleType SimpleName override style element support
+override style support SimpleName Assignment ClassInstanceCreation SimpleName impl
+override style support SimpleName MethodInvocation SimpleName get override style
+override style support SimpleName MethodInvocation SimpleName pseudo elt
+get override style SimpleName MethodInvocation SimpleName pseudo elt
+public Modifier MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier MethodDeclaration SimpleName get override style
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+public Modifier MethodDeclaration SingleVariableDeclaration SimpleName elt
+css style declaration SimpleName SimpleType MethodDeclaration SimpleName get override style
+css style declaration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+css style declaration SimpleName SimpleType MethodDeclaration SingleVariableDeclaration SimpleName elt
+get override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName string
+get override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+get override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleType SimpleName element
+get override style SimpleName MethodDeclaration SingleVariableDeclaration SimpleName elt
+pseudo elt SimpleName SingleVariableDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+public Modifier TypeDeclaration SimpleName test
+public Modifier TypeDeclaration MethodDeclaration Modifier public
+public Modifier TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+public Modifier TypeDeclaration MethodDeclaration SimpleName get override style
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+public Modifier TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
+test SimpleName TypeDeclaration MethodDeclaration Modifier public
+test SimpleName TypeDeclaration MethodDeclaration SimpleType SimpleName css style declaration
+test SimpleName TypeDeclaration MethodDeclaration SimpleName get override style
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName pseudo elt
+test SimpleName TypeDeclaration MethodDeclaration SingleVariableDeclaration SimpleName elt
